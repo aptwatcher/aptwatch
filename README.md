@@ -12,21 +12,12 @@
 
 ## Architecture
 
-```
-┌──────────────┐     ┌─────────────────┐     ┌──────────────┐
-│  Cloudflare   │────▸│  Origin Server   │     │    GitHub     │
-│  DDoS + WAF   │     │  Database + API  │◂───▸│  Code + IOCs  │
-└──────────────┘     └─────────────────┘     │  Blocklists   │
-                                              │  Dashboard    │
-                                              └──────────────┘
-```
-
 The project is split across three targets.
 
 | Component | What | Where |
 |-----------|------|-------|
-| Core database | `apt_intel.db` (400MB+), API server, validation cron | Private server (Debian) |
-| DDoS protection | WAF, rate limiting, origin IP masking | Cloudflare (free tier) |
+| Core database | `apt_intel.db` (400MB+), API server, validation cron | Private server |
+| DDoS protection | WAF, rate limiting, origin IP masking | Cloudflare |
 | Public repo | Scripts, IOC files, blocklists, dashboard, CI/CD | GitHub + Pages |
 
 ---
