@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="ring2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f85149" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#d29922" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f85149" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="eye-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#388bfd"/>
+    </linearGradient>
+    <filter id="blur-glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft-glow">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="256" fill="url(#bg)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.06" stroke="#58a6ff" stroke-width="0.5" fill="none">
+    <line x1="0" y1="128" x2="512" y2="128"/>
+    <line x1="0" y1="256" x2="512" y2="256"/>
+    <line x1="0" y1="384" x2="512" y2="384"/>
+    <line x1="128" y1="0" x2="128" y2="512"/>
+    <line x1="256" y1="0" x2="256" y2="512"/>
+    <line x1="384" y1="0" x2="384" y2="512"/>
+  </g>
+
+  <!-- Radar glow -->
+  <circle cx="256" cy="256" r="120" fill="url(#glow)"/>
+
+  <!-- Outer radar ring -->
+  <circle cx="256" cy="256" r="160" fill="none" stroke="url(#ring1)" stroke-width="1.5" stroke-dasharray="8 4" opacity="0.5"/>
+
+  <!-- Middle radar ring -->
+  <circle cx="256" cy="256" r="120" fill="none" stroke="url(#ring2)" stroke-width="1" stroke-dasharray="6 3" opacity="0.4"/>
+
+  <!-- Inner radar ring -->
+  <circle cx="256" cy="256" r="80" fill="none" stroke="#58a6ff" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- Crosshairs -->
+  <g stroke="#58a6ff" stroke-width="0.8" opacity="0.2">
+    <line x1="256" y1="80" x2="256" y2="432"/>
+    <line x1="80" y1="256" x2="432" y2="256"/>
+  </g>
+
+  <!-- Radar sweep (subtle) -->
+  <path d="M256,256 L256,96 A160,160 0 0,1 394,176 Z" fill="#58a6ff" opacity="0.05"/>
+
+  <!-- Eye shape - the watcher -->
+  <g filter="url(#blur-glow)">
+    <!-- Eye outline -->
+    <path d="M128,256 Q192,176 256,176 Q320,176 384,256 Q320,336 256,336 Q192,336 128,256 Z"
+          fill="none" stroke="#58a6ff" stroke-width="3" opacity="0.9"/>
+  </g>
+
+  <!-- Eye fill (dark) -->
+  <path d="M138,256 Q198,182 256,182 Q314,182 374,256 Q314,330 256,330 Q198,330 138,256 Z"
+        fill="#0d1117" opacity="0.7"/>
+
+  <!-- Iris -->
+  <circle cx="256" cy="256" r="52" fill="none" stroke="url(#eye-grad)" stroke-width="2.5" opacity="0.9"/>
+  <circle cx="256" cy="256" r="42" fill="#0f1923" stroke="#58a6ff" stroke-width="1" opacity="0.6"/>
+
+  <!-- Pupil -->
+  <circle cx="256" cy="256" r="22" fill="#58a6ff" opacity="0.15"/>
+  <circle cx="256" cy="256" r="14" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="256" cy="256" r="6" fill="#58a6ff" opacity="0.9"/>
+
+  <!-- Pupil highlight -->
+  <circle cx="248" cy="248" r="4" fill="#ffffff" opacity="0.6"/>
+
+  <!-- Scanning lines through eye -->
+  <g stroke="#58a6ff" stroke-width="0.5" opacity="0.15">
+    <line x1="128" y1="236" x2="384" y2="236"/>
+    <line x1="128" y1="246" x2="384" y2="246"/>
+    <line x1="128" y1="266" x2="384" y2="266"/>
+    <line x1="128" y1="276" x2="384" y2="276"/>
+  </g>
+
+  <!-- Threat dots on radar -->
+  <circle cx="310" cy="198" r="4" fill="#f85149" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="185" cy="290" r="3" fill="#d29922" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="340" cy="310" r="3.5" fill="#f85149" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="210" r="2.5" fill="#d29922" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- "APT" text -->
+  <text x="256" y="408" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="36" font-weight="700" fill="#58a6ff" letter-spacing="12" opacity="0.9">APT</text>
+
+  <!-- "WATCH" text -->
+  <text x="256" y="440" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="18" font-weight="400" fill="#8b949e" letter-spacing="8" opacity="0.7">WATCH</text>
+
+  <!-- Corner brackets (tech frame) -->
+  <g stroke="#58a6ff" stroke-width="2" fill="none" opacity="0.3">
+    <!-- Top left -->
+    <path d="M40,80 L40,40 L80,40"/>
+    <!-- Top right -->
+    <path d="M432,40 L472,40 L472,80"/>
+    <!-- Bottom left -->
+    <path d="M40,432 L40,472 L80,472"/>
+    <!-- Bottom right -->
+    <path d="M432,472 L472,472 L472,432"/>
+  </g>
+</svg>

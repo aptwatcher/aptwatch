@@ -1,0 +1,109 @@
+# =============================================================
+#  APT Intel — Configuration
+# =============================================================
+#
+#  Three modes:
+#
+#  LOCAL  — Keys stored here in config.ini (gitignored).
+#           Use this when running on your own machine via
+#           tasks/linux/run.sh or tasks/run.bat.
+#
+#  SERVER — Keys stored here in config.ini on the origin server.
+#           Used by systemd services and Docker containers.
+#           Identical to LOCAL but on the deployment server.
+#
+#  GITHUB — Keys stored as GitHub Secrets (repo settings).
+#           The Actions workflow injects them as env vars.
+#           config.ini is not needed on the runner.
+#
+#  Set mode below. The script reads keys from:
+#    local  → config.ini values (env vars override if set)
+#    server → same as local (config.ini on server)
+#    github → environment variables only (ignores config.ini keys)
+#
+# =============================================================
+
+[general]
+# Mode: "local", "server", or "github"
+mode = local
+
+[api_keys]
+# All keys are optional. Sources without keys are skipped automatically.
+# Shodan InternetDB requires NO key.
+#
+# ── LOCAL/SERVER MODE: fill in your keys below ──
+# ── GITHUB MODE: leave blank, set as repository secrets instead ──
+#
+#   Secret name          → GitHub Settings → Secrets → Actions
+#   OTX_API_KEY          → https://otx.alienvault.com/api
+#   ABUSEIPDB_KEY        → https://www.abuseipdb.com/account/api
+#   VIRUSTOTAL_KEY       → https://www.virustotal.com/gui/my-apikey
+#   CENSYS_API_TOKEN     → https://search.censys.io/account/api (Personal Access Token)
+
+# AlienVault OTX — free: ~10,000 requests/day
+otx_api_key =
+
+# AbuseIPDB — free: 1,000 checks/day
+abuseipdb_key =
+
+# VirusTotal — free: 500/day, 4 req/min
+virustotal_key =
+
+# Censys — free: Personal Access Token (use sparingly)
+censys_api_token =
+
+# GreyNoise Community — free: 50 lookups/day
+# Get key at: https://viz.greynoise.io/account/api-key
+greynoise_key =
+
+# DShield/SANS ISC, ThreatFox, FireHOL, Steven Black — NO key needed
+
+[validation]
+# Number of runs per day (affects batch sizes: daily_limit / runs_per_day)
+# Server mode (systemd timer): 4 runs/day (every 6 hours)
+# Local mode (continuous runner): 48 runs/day (every 30 min)
+runs_per_day = 4
+
+# Sources to check (3+) before marking an IP as 'validated'
+validated_threshold = 3
+
+# Daily limits per source (auto batch = daily_limit / runs_per_day)
+shodan_daily = 2000
+otx_daily = 2000
+abuseipdb_daily = 1000
+virustotal_daily = 500
+censys_daily = 10
+greynoise_daily = 50
+dshield_daily = 5000
+threatfox_daily = 5000
+firehol_daily = 99999
+stevenblack_daily = 99999
+
+# Hours before re-downloading blocklists (FireHOL, Steven Black)
+blocklist_cache_hours = 24
+
+[continuous]
+# When true, validate auto skips Shodan (handled separately).
+# Set to false for the unified continuous runner.
+shodan_standalone = false
+
+# Unified continuous runner interval in minutes
+validate_interval_minutes = 30
+
+# Incremental import interval in minutes
+import_interval_minutes = 5
+
+[server]
+# Server-specific settings (only used in server/docker mode)
+# API server port
+api_port = 5000
+
+# Admin key for cache clearing endpoint
+admin_key =
+
+# GitHub deploy key path (for sync_to_github.sh)
+deploy_key_path = /opt/apt-intel/.ssh/deploy_key
+
+# GitHub repo for sync
+github_repo = git@github.com:YOUR_USER/apt-intel.git
+github_branch = main

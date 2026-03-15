@@ -1,0 +1,131 @@
+name: OSINT Validation
+
+on:
+  schedule:
+    # Every 6 hours: midnight, 6am, noon, 6pm UTC
+    - cron: '0 0,6,12,18 * * *'
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Source to run (shodan, otx, abuseipdb, virustotal, censys, all, auto)'
+        required: false
+        default: 'auto'
+      limit:
+        description: 'Max IPs per source (ignored for auto)'
+        required: false
+        default: '100'
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Download database artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: apt-intel-db
+          path: database/
+        continue-on-error: true
+
+      - name: Check database exists
+        id: db-check
+        run: |
+          if [ -f database/apt_intel.db ]; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "Database found ($(du -h database/apt_intel.db | cut -f1))"
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "::error::No database found. Upload apt_intel.db as artifact 'apt-intel-db' first."
+            exit 1
+          fi
+
+      - name: Generate config.ini (github mode)
+        run: |
+          cat > config.ini << 'EOF'
+          [general]
+          mode = github
+
+          [validation]
+          runs_per_day = 4
+          validated_threshold = 3
+          shodan_daily = 2000
+          otx_daily = 2000
+          abuseipdb_daily = 1000
+          virustotal_daily = 500
+          censys_daily = 10
+
+          [continuous]
+          shodan_standalone = false
+          validate_interval_minutes = 30
+          import_interval_minutes = 5
+          EOF
+
+      - name: Run validation
+        env:
+          OTX_API_KEY: ${{ secrets.OTX_API_KEY }}
+          ABUSEIPDB_KEY: ${{ secrets.ABUSEIPDB_KEY }}
+          VIRUSTOTAL_KEY: ${{ secrets.VIRUSTOTAL_KEY }}
+          CENSYS_API_TOKEN: ${{ secrets.CENSYS_API_TOKEN }}
+        run: |
+          SOURCE="${{ github.event.inputs.source || 'auto' }}"
+          LIMIT="${{ github.event.inputs.limit || '100' }}"
+
+          if [ "$SOURCE" = "auto" ]; then
+            python apt.py validate auto
+          elif [ "$SOURCE" = "all" ]; then
+            python apt.py validate run all "$LIMIT"
+          else
+            python apt.py validate queue 500
+            python apt.py validate run "$SOURCE" "$LIMIT"
+          fi
+
+      - name: Show status
+        run: python apt.py validate status
+
+      - name: Export web database
+        run: python apt.py export
+
+      - name: Upload updated database
+        uses: actions/upload-artifact@v4
+        with:
+          name: apt-intel-db
+          path: database/apt_intel.db
+          retention-days: 90
+          overwrite: true
+
+      - name: Upload web database
+        uses: actions/upload-artifact@v4
+        with:
+          name: apt-intel-web-db
+          path: apt_intel_web.db
+          retention-days: 90
+          overwrite: true
+
+      - name: Upload validation log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validate-log-${{ github.run_number }}
+          path: database/logs/
+          retention-days: 30
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Validation Run Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          python apt.py validate status 2>&1 >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY

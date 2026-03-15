@@ -1,0 +1,20 @@
+# Title: APT Malicious Domains
+# Description: Domains from APT threat intelligence reports
+# Last modified: 2026-03-13 18:02:27
+# Entries: 11
+# Homepage: APT Intelligence Database
+# License: TLP:AMBER — do not share publicly
+#
+# This file is auto-generated. Re-run generate_blocklists.py to update.
+#
+0.0.0.0 codeforprofessionalusers.com
+0.0.0.0 cybersavvynetwork.com
+0.0.0.0 devverbox.be
+0.0.0.0 lucidamiproductions.com
+0.0.0.0 newresumebuilder.com
+0.0.0.0 newresumebuilders.us
+0.0.0.0 nickbush24.com
+0.0.0.0 resumebuilders.us
+0.0.0.0 thresumebuilder.com
+0.0.0.0 virtualtelemetryassistant.com
+0.0.0.0 www.newresumebuilder.com

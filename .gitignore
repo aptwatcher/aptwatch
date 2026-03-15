@@ -1,0 +1,83 @@
+# =========================
+# API Keys & Secrets
+# =========================
+config.ini
+.env
+server/.ssh/
+
+# =========================
+# Databases (large binaries)
+# =========================
+database/apt_intel.db
+database/apt_intel.db-wal
+database/apt_intel.db-shm
+database/apt_intel.db.bak
+apt_intel_web.db
+
+# =========================
+# Classified reports (TLP:AMBER/RED)
+# =========================
+reports/*.docx
+reports/CRITICAL-TARGETS-*.txt
+
+# =========================
+# Scan data (too large for git)
+# =========================
+scans/*.csv
+
+# =========================
+# Logs
+# =========================
+database/logs/
+community/import_log.txt
+logs/
+*.log
+
+# =========================
+# Cache
+# =========================
+database/cache/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Server-specific (not in repo)
+# =========================
+/var/log/apt-intel/

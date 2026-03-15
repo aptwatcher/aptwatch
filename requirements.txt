@@ -1,0 +1,5 @@
+# APT Intel — Python dependencies (GitHub Actions / local dev)
+# No external deps required for core scripts (stdlib only)
+# These are optional for enhanced functionality
+
+pyyaml>=6.0        # Community submission validation

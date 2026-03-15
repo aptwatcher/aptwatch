@@ -1,0 +1,74 @@
+name: Validate Community Submission
+
+on:
+  pull_request:
+    paths:
+      - 'community/submissions/**'
+
+permissions:
+  pull-requests: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install pyyaml
+        run: pip install pyyaml
+
+      - name: Check submission files only
+        run: |
+          # Ensure PR only touches community/submissions/
+          CHANGED=$(git diff --name-only origin/${{ github.base_ref }}...HEAD)
+          echo "Changed files:"
+          echo "$CHANGED"
+
+          UNSAFE=$(echo "$CHANGED" | grep -v '^community/submissions/' | grep -v '^$' || true)
+          if [ -n "$UNSAFE" ]; then
+            echo "::error::PR modifies files outside community/submissions/:"
+            echo "$UNSAFE"
+            echo ""
+            echo "Community submissions must only add files in community/submissions/"
+            exit 1
+          fi
+
+      - name: Validate submissions
+        run: python community/validate_submission.py
+
+      - name: Comment on PR
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { execSync } = require('child_process');
+            let output;
+            try {
+              output = execSync('python community/validate_submission.py 2>&1').toString();
+            } catch (e) {
+              output = e.stdout ? e.stdout.toString() : 'Validation failed';
+            }
+
+            const passed = output.includes('PASSED');
+            const emoji = passed ? '✅' : '❌';
+            const status = passed ? 'Validation Passed' : 'Validation Failed';
+
+            const body = `## ${emoji} ${status}\n\n\`\`\`\n${output}\n\`\`\`\n\n` +
+              (passed
+                ? '> This submission looks good. A maintainer will review and import the IOCs.'
+                : '> Please fix the errors above and push again.');
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });

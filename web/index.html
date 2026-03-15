@@ -1,0 +1,1887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APT Intel Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
+<style>
+:root {
+  --bg: #0d1117; --bg2: #161b22; --bg3: #21262d; --border: #30363d;
+  --text: #c9d1d9; --text2: #8b949e; --accent: #58a6ff; --red: #f85149;
+  --orange: #d29922; --green: #3fb950; --yellow: #e3b341; --purple: #bc8cff;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace; background:var(--bg); color:var(--text); min-height:100vh; }
+.tlp-banner { background:#d29922; color:#000; text-align:center; padding:4px; font-weight:bold; font-size:12px; letter-spacing:2px; }
+header { background:var(--bg2); border-bottom:1px solid var(--border); padding:12px 24px; display:flex; align-items:center; gap:16px; }
+header h1 { font-size:18px; color:var(--accent); }
+header .status { font-size:12px; color:var(--text2); margin-left:auto; }
+#load-section { display:flex; align-items:center; gap:12px; padding:16px 24px; background:var(--bg2); border-bottom:1px solid var(--border); }
+#load-section label { background:var(--accent); color:#000; padding:8px 16px; border-radius:6px; cursor:pointer; font-weight:600; font-size:13px; }
+#load-section label:hover { opacity:0.9; }
+#load-section input { display:none; }
+#load-section .info { font-size:12px; color:var(--text2); }
+nav { display:flex; background:var(--bg2); border-bottom:1px solid var(--border); padding:0 24px; gap:0; }
+nav button { background:none; border:none; color:var(--text2); padding:10px 16px; cursor:pointer; font-size:13px; border-bottom:2px solid transparent; transition:all 0.2s; }
+nav button:hover { color:var(--text); }
+nav button.active { color:var(--accent); border-bottom-color:var(--accent); }
+main { padding:24px; max-width:1400px; }
+.tab { display:none; }
+.tab.active { display:block; }
+.cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:12px; margin-bottom:24px; }
+.card { background:var(--bg2); border:1px solid var(--border); border-radius:8px; padding:16px; }
+.card .label { font-size:11px; color:var(--text2); text-transform:uppercase; letter-spacing:1px; }
+.card .value { font-size:28px; font-weight:700; margin-top:4px; }
+.card.critical .value { color:var(--red); }
+.card.high .value { color:var(--orange); }
+.card.medium .value { color:var(--yellow); }
+.card.low .value { color:var(--green); }
+.card.info .value { color:var(--accent); }
+.card.purple .value { color:var(--purple); }
+table { width:100%; border-collapse:collapse; font-size:13px; }
+th { background:var(--bg3); color:var(--text2); padding:8px 10px; text-align:left; border-bottom:1px solid var(--border); cursor:pointer; user-select:none; position:sticky; top:0; }
+th:hover { color:var(--accent); }
+td { padding:6px 10px; border-bottom:1px solid var(--border); }
+tr:hover td { background:var(--bg3); }
+.badge { display:inline-block; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600; }
+.badge.CRITICAL { background:rgba(248,81,73,0.2); color:var(--red); }
+.badge.HIGH { background:rgba(210,153,34,0.2); color:var(--orange); }
+.badge.MEDIUM { background:rgba(227,179,65,0.2); color:var(--yellow); }
+.badge.LOW { background:rgba(63,185,80,0.2); color:var(--green); }
+.controls { display:flex; gap:12px; margin-bottom:16px; align-items:center; flex-wrap:wrap; }
+.controls select, .controls input { background:var(--bg3); border:1px solid var(--border); color:var(--text); padding:6px 10px; border-radius:4px; font-size:13px; }
+.controls input { min-width:200px; }
+.controls button, .btn { background:var(--bg3); border:1px solid var(--border); color:var(--text); padding:6px 12px; border-radius:4px; cursor:pointer; font-size:13px; }
+.controls button:hover, .btn:hover { border-color:var(--accent); color:var(--accent); }
+.btn-primary { background:var(--accent); color:#000; border-color:var(--accent); font-weight:600; }
+.btn-primary:hover { opacity:0.9; }
+.table-wrap { max-height:500px; overflow:auto; border:1px solid var(--border); border-radius:6px; }
+textarea { background:var(--bg3); border:1px solid var(--border); color:var(--text); padding:10px; border-radius:6px; width:100%; font-family:monospace; font-size:13px; resize:vertical; }
+.section-title { font-size:15px; font-weight:600; margin:20px 0 10px; color:var(--accent); }
+.bar-chart { display:flex; gap:4px; align-items:end; height:80px; margin:12px 0; }
+.bar { min-width:40px; border-radius:3px 3px 0 0; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; font-size:10px; color:#fff; position:relative; }
+.bar .bar-label { position:absolute; bottom:-18px; font-size:10px; color:var(--text2); }
+.ip-link { color:var(--accent); cursor:pointer; text-decoration:underline; }
+.ip-link:hover { color:#79c0ff; }
+#modal-overlay { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:100; }
+#modal { position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background:var(--bg2); border:1px solid var(--border); border-radius:8px; padding:24px; max-width:900px; width:90%; max-height:80vh; overflow:auto; z-index:101; }
+#modal h3 { margin-bottom:16px; color:var(--accent); }
+#modal .close { position:absolute; top:12px; right:16px; background:none; border:none; color:var(--text2); font-size:20px; cursor:pointer; }
+.loading { text-align:center; padding:40px; color:var(--text2); }
+.empty { text-align:center; padding:20px; color:var(--text2); font-style:italic; }
+.results-info { font-size:12px; color:var(--text2); margin-bottom:8px; }
+</style>
+</head>
+<body>
+
+<div class="tlp-banner">TLP:AMBER — RUSSIAN APT INFRASTRUCTURE INTELLIGENCE</div>
+
+<header>
+  <img src="../aptwatch-logo.svg" alt="APTWatch" style="height:32px;width:32px;">
+  <h1>APT Intel Dashboard</h1>
+  <span class="status" id="db-status">No database loaded</span>
+</header>
+
+<div id="load-section">
+  <label for="db-file">Load Database</label>
+  <input type="file" id="db-file" accept=".db,.sqlite,.sqlite3">
+  <span class="info">Select <code>apt_intel_web.db</code> (fast, ~4 MB) or <code>apt_intel.db</code> (full, ~315 MB)</span>
+</div>
+
+<nav id="tabs-nav" style="display:none">
+  <button class="active" data-tab="overview">Overview</button>
+  <button data-tab="scans">Scan Results</button>
+  <button data-tab="iocs">IOC Explorer</button>
+  <button data-tab="vulnscan">Vuln Scan</button>
+  <button data-tab="patterns">Scan Patterns</button>
+  <button data-tab="sql">Custom SQL</button>
+  <button data-tab="tools">Tools</button>
+  <button data-tab="recon">Recon</button>
+  <button data-tab="validation">Validation</button>
+  <button data-tab="attribution">Attribution</button>
+  <button data-tab="interagency">Inter-Agency</button>
+</nav>
+
+<main>
+
+<!-- OVERVIEW TAB -->
+<div class="tab active" id="tab-overview">
+  <div class="loading" id="overview-loading">Load a database to begin</div>
+  <div id="overview-content" style="display:none">
+    <div class="section-title">Database Counts</div>
+    <div class="cards" id="count-cards"></div>
+    <div class="section-title">Scan Classification Distribution</div>
+    <div class="cards" id="class-cards"></div>
+    <div class="bar-chart" id="class-chart"></div>
+    <div class="section-title">Subnet Tier Distribution</div>
+    <div class="cards" id="tier-cards"></div>
+    <div class="section-title">Metadata</div>
+    <div id="meta-info" style="font-size:13px;color:var(--text2)"></div>
+  </div>
+</div>
+
+<!-- SCAN RESULTS TAB -->
+<div class="tab" id="tab-scans">
+  <div class="controls">
+    <select id="scan-class-filter">
+      <option value="">All classifications</option>
+      <option value="CRITICAL">CRITICAL</option>
+      <option value="HIGH">HIGH</option>
+      <option value="MEDIUM">MEDIUM</option>
+      <option value="LOW">LOW</option>
+    </select>
+    <input type="number" id="scan-risk-min" placeholder="Min risk score" min="0">
+    <input type="text" id="scan-ip-search" placeholder="Search IP...">
+    <button onclick="queryScanResults()">Search</button>
+    <button onclick="exportTableCSV('scan-table')">Export CSV</button>
+  </div>
+  <div class="results-info" id="scan-info"></div>
+  <div class="table-wrap"><table id="scan-table"></table></div>
+</div>
+
+<!-- IOC EXPLORER TAB -->
+<div class="tab" id="tab-iocs">
+  <div class="controls">
+    <select id="ioc-type">
+      <option value="ipv4_iocs">IPv4</option>
+      <option value="ipv6_iocs">IPv6</option>
+      <option value="cves">CVEs</option>
+      <option value="emails">Emails</option>
+      <option value="cidr_iocs">CIDRs</option>
+      <option value="domains">Domains</option>
+      <option value="urls">URLs</option>
+    </select>
+    <select id="ioc-infra-filter">
+      <option value="">All infra types</option>
+      <option value="owned">Owned</option>
+      <option value="compromised">Compromised</option>
+      <option value="unknown">Unknown</option>
+    </select>
+    <input type="text" id="ioc-search" placeholder="Search pattern...">
+    <button onclick="queryIOCs()">Search</button>
+    <button onclick="exportTableCSV('ioc-table')">Export CSV</button>
+  </div>
+  <div class="results-info" id="ioc-info"></div>
+  <div class="table-wrap"><table id="ioc-table"></table></div>
+</div>
+
+<!-- VULNSCAN TAB -->
+<div class="tab" id="tab-vulnscan">
+  <div class="controls">
+    <input type="text" id="vulnscan-host" placeholder="Host IP...">
+    <select id="vulnscan-risk-filter">
+      <option value="">All risks</option>
+      <option value="Critical">Critical</option>
+      <option value="High">High</option>
+      <option value="Medium">Medium</option>
+      <option value="Low">Low</option>
+      <option value="None">None</option>
+    </select>
+    <button onclick="queryVulnScan()">Search</button>
+    <button onclick="exportTableCSV('vulnscan-table')">Export CSV</button>
+  </div>
+  <div class="results-info" id="vulnscan-info"></div>
+  <div class="table-wrap"><table id="vulnscan-table"></table></div>
+</div>
+
+<!-- SCAN PATTERNS TAB -->
+<div class="tab" id="tab-patterns">
+  <div class="section-title">Infrastructure Pattern Analysis</div>
+  <p style="font-size:12px;color:var(--text2);margin-bottom:16px">
+    Patterns discovered from vulnerability scan fingerprinting — SSL certificates, port signatures, and hosting indicators that link unknown hosts to known APT infrastructure.
+  </p>
+
+  <div class="cards" id="pattern-summary-cards"></div>
+
+  <div class="section-title" style="margin-top:20px">Pattern Details</div>
+  <div class="table-wrap"><table id="pattern-table"></table></div>
+
+  <div class="section-title" style="margin-top:20px">Scan Candidates (port fingerprint match)</div>
+  <div class="controls">
+    <input type="text" id="pattern-search" placeholder="Search IP or pattern...">
+    <select id="pattern-type-filter">
+      <option value="">All types</option>
+      <option value="scan_candidate">Scan Candidates</option>
+      <option value="cert_pattern">Cert Patterns</option>
+    </select>
+    <button onclick="queryPatternCandidates()">Filter</button>
+    <button onclick="exportTableCSV('candidate-table')">Export CSV</button>
+  </div>
+  <div class="results-info" id="candidate-info"></div>
+  <div class="table-wrap"><table id="candidate-table"></table></div>
+</div>
+
+<!-- CUSTOM SQL TAB -->
+<div class="tab" id="tab-sql">
+  <div class="controls">
+    <select id="sql-templates" onchange="loadSqlTemplate()">
+      <option value="">-- Query templates --</option>
+      <option value="SELECT ip, risk_score, classification, services, c2_indicators FROM scan_results WHERE classification = 'CRITICAL' ORDER BY risk_score DESC LIMIT 50">Critical scan results</option>
+      <option value="SELECT ip, risk_score, classification, services FROM scan_results WHERE c2_indicators IS NOT NULL AND c2_indicators != '' ORDER BY risk_score DESC LIMIT 50">IPs with C2 indicators</option>
+      <option value="SELECT COALESCE(tier,'UNTIERED') as tier, COUNT(*) as subnets, SUM(ioc_count) as iocs FROM subnets GROUP BY tier ORDER BY tier">Subnet tier summary</option>
+      <option value="SELECT host, COUNT(*) as findings, MAX(cvss_score) as max_cvss FROM vulnerability_findings GROUP BY host ORDER BY max_cvss DESC LIMIT 30">Vuln scan: hosts by severity</option>
+      <option value="SELECT cve, COUNT(*) as count, MAX(cvss_score) as max_cvss FROM vulnerability_findings WHERE cve IS NOT NULL AND cve != '' GROUP BY cve ORDER BY max_cvss DESC">Vuln scan: CVEs found</option>
+      <option value="SELECT sr.ip, sr.risk_score, sr.classification, sr.c2_indicators, i.pulse_count FROM scan_results sr JOIN ipv4_iocs i ON sr.ip = i.ip WHERE sr.classification IN ('CRITICAL','HIGH') ORDER BY sr.risk_score DESC LIMIT 50">IPs in both IOCs and scans (high risk)</option>
+      <option value="SELECT cidr, ioc_count, tier FROM subnets WHERE tier IS NOT NULL ORDER BY CASE tier WHEN 'TIER_S' THEN 1 WHEN 'TIER_A' THEN 2 WHEN 'TIER_B' THEN 3 WHEN 'TIER_C' THEN 4 END, ioc_count DESC">Tiered subnets</option>
+      <option value="SELECT cve_id FROM cves ORDER BY cve_id">All tracked CVEs</option>
+      <option value="SELECT email, domain FROM emails ORDER BY domain">All email IOCs</option>
+      <option value="SELECT key, value, updated_at FROM metadata ORDER BY key">Database metadata</option>
+      <option value="SELECT ip, infra_type, validation_status, validation_count FROM ipv4_iocs WHERE infra_type LIKE 'scan_candidate%' ORDER BY infra_type DESC LIMIT 100">Scan candidates (port match)</option>
+      <option value="SELECT ip, infra_type, validation_status FROM ipv4_iocs WHERE infra_type LIKE 'cert_pattern%' ORDER BY infra_type LIMIT 100">Cert pattern candidates</option>
+      <option value="SELECT indicator, source, raw_data FROM enrichment_results WHERE source='vuln_scan' LIMIT 50">Vulnerability scan enrichment data</option>
+      <option value="SELECT infra_type, COUNT(*) as count FROM ipv4_iocs WHERE infra_type IS NOT NULL AND infra_type != '' GROUP BY infra_type ORDER BY count DESC">Infrastructure type summary</option>
+      <option value="SELECT asn, org_name, country, ioc_count, subnet_count, ROUND(CAST(ioc_count AS FLOAT)/NULLIF(subnet_count,0),1) as density FROM asn_info WHERE ioc_count > 0 ORDER BY ioc_count DESC LIMIT 30">Top ASNs by IOC count</option>
+      <option value="SELECT asn, org_name, country, ioc_count, subnet_count, ROUND(CAST(ioc_count AS FLOAT)/NULLIF(subnet_count,0),1) as density FROM asn_info WHERE ioc_count >= 5 ORDER BY density DESC LIMIT 20">Top ASNs by IOC density</option>
+      <option value="SELECT s.cidr, s.ioc_count, s.tier, s.asn, s.asn_org, s.country FROM subnets s WHERE s.ioc_count >= 5 ORDER BY s.ioc_count DESC LIMIT 30">Densest subnets with ASN</option>
+    </select>
+    <button class="btn-primary" onclick="runCustomSQL()">Execute</button>
+    <button onclick="exportTableCSV('sql-table')">Export CSV</button>
+  </div>
+  <textarea id="sql-input" rows="4" placeholder="SELECT * FROM scan_results LIMIT 10"></textarea>
+  <div class="results-info" id="sql-info" style="margin-top:8px"></div>
+  <div class="table-wrap" style="margin-top:8px"><table id="sql-table"></table></div>
+</div>
+
+<!-- TOOLS TAB -->
+<div class="tab" id="tab-tools">
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px">
+
+    <!-- LEFT COLUMN: Quick Exports -->
+    <div>
+      <div class="section-title">Quick Exports</div>
+      <p style="font-size:12px;color:var(--text2);margin-bottom:12px">Run a query and download the results as CSV directly from the browser.</p>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <button class="btn" onclick="toolExport('Critical IPs','SELECT ip, risk_score, classification, services, c2_indicators, source_file FROM scan_results WHERE classification=\'CRITICAL\' ORDER BY risk_score DESC')">Export Critical IPs</button>
+        <button class="btn" onclick="toolExport('High Risk IPs','SELECT ip, risk_score, classification, services, c2_indicators, source_file FROM scan_results WHERE classification IN (\'CRITICAL\',\'HIGH\') ORDER BY risk_score DESC')">Export Critical + High IPs</button>
+        <button class="btn" onclick="toolExport('All Scan Results','SELECT ip, risk_score, classification, services, c2_indicators, open_ports, vuln_count, source_file FROM scan_results ORDER BY risk_score DESC')">Export All Scan Results</button>
+        <button class="btn" onclick="toolExport('IPv4 IOCs','SELECT ip, source_file, first_seen, last_seen, pulse_count, infra_type FROM ipv4_iocs ORDER BY ip')">Export IPv4 IOCs</button>
+        <button class="btn" onclick="toolExport('Vulnerability Findings','SELECT host, port, protocol, risk, cvss_score, cve, plugin_name, synopsis, source_file FROM vulnerability_findings ORDER BY cvss_score DESC')">Export Vulnerability Findings</button>
+        <button class="btn" onclick="toolExport('Tiered Subnets','SELECT cidr, ioc_count, tier, scan_status, scanned_count, critical_count FROM subnets WHERE tier IS NOT NULL ORDER BY CASE tier WHEN \'TIER_S\' THEN 1 WHEN \'TIER_A\' THEN 2 WHEN \'TIER_B\' THEN 3 WHEN \'TIER_C\' THEN 4 END, ioc_count DESC')">Export Tiered Subnets</button>
+        <button class="btn" onclick="toolExport('CVEs','SELECT cve_id, source_file, first_seen FROM cves ORDER BY cve_id')">Export CVEs</button>
+        <button class="btn" onclick="toolExport('C2 Indicators','SELECT DISTINCT ip, risk_score, c2_indicators, services FROM scan_results WHERE c2_indicators IS NOT NULL AND c2_indicators != \'\' ORDER BY risk_score DESC')">Export IPs with C2 Indicators</button>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN: Commands + Health -->
+    <div>
+      <div class="section-title">Database Commands</div>
+      <p style="font-size:12px;color:var(--text2);margin-bottom:12px">Run these in your terminal. After making changes, reload the .db file here.</p>
+
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <div class="card" style="padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:6px">Full Rebuild</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-rebuild">python database/rebuild_db.py</code>
+            <button class="btn" onclick="copyCmd('cmd-rebuild')" style="white-space:nowrap">Copy</button>
+          </div>
+        </div>
+
+        <div class="card" style="padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:6px">Import New Vuln Scan</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-vulnscan">python scripts/import_data.py vulnscan scans/your_scan.csv</code>
+            <button class="btn" onclick="copyCmd('cmd-vulnscan')" style="white-space:nowrap">Copy</button>
+          </div>
+        </div>
+
+        <div class="card" style="padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:6px">Import APT Report</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-apt">python database/import_incremental.py apt-report reports/apt-targets/APT-TARGETS-xxx.md</code>
+            <button class="btn" onclick="copyCmd('cmd-apt')" style="white-space:nowrap">Copy</button>
+          </div>
+        </div>
+
+        <div class="card" style="padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:6px">Import New IPv4 IOCs</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-ipv4">python database/import_incremental.py ipv4 iocs/new_ips.txt</code>
+            <button class="btn" onclick="copyCmd('cmd-ipv4')" style="white-space:nowrap">Copy</button>
+          </div>
+        </div>
+
+        <div class="card" style="padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:6px">Export Web DB</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-web">python database/export_web_db.py</code>
+            <button class="btn" onclick="copyCmd('cmd-web')" style="white-space:nowrap">Copy</button>
+          </div>
+        </div>
+
+        <div class="card" style="padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:6px">CLI Stats</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-stats">python database/query.py stats</code>
+            <button class="btn" onclick="copyCmd('cmd-stats')" style="white-space:nowrap">Copy</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-title" style="margin-top:24px">Database Health Check</div>
+      <button class="btn-primary" onclick="runHealthCheck()" style="margin-bottom:12px">Run Health Check</button>
+      <div id="health-output" style="font-family:monospace;font-size:12px;background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px;white-space:pre-wrap;min-height:60px;color:var(--text2)">Click "Run Health Check" to analyze database integrity.</div>
+    </div>
+  </div>
+</div>
+
+<!-- RECON TAB -->
+<div class="tab" id="tab-recon">
+  <div id="recon-loading" class="loading">Load a database to begin</div>
+  <div id="recon-content" style="display:none">
+
+    <!-- Summary Cards -->
+    <div class="section-title">Recon Overview</div>
+    <div class="cards" id="recon-cards"></div>
+
+    <!-- Sub-tabs -->
+    <div style="display:flex;gap:8px;margin:16px 0">
+      <button class="btn btn-primary" onclick="loadReconSection('staging')">Staging Servers</button>
+      <button class="btn" onclick="loadReconSection('candidates')">Candidates</button>
+      <button class="btn" onclick="loadReconSection('enrichment')">Enrichment Data</button>
+      <button class="btn" onclick="loadReconSection('asn')">ASN Map</button>
+      <button class="btn" onclick="loadReconSection('commands')">Recon Commands</button>
+    </div>
+
+    <!-- Staging Servers Section -->
+    <div id="recon-staging" class="recon-section">
+      <div class="section-title">Staging & Relay Servers</div>
+      <p style="font-size:12px;color:var(--text2);margin-bottom:12px">Servers detected as proxy/staging nodes coordinating C2 traffic. High confidence = strong proxy + multi-C2 signal.</p>
+      <div class="controls">
+        <select id="staging-role-filter" onchange="loadStagingTable()">
+          <option value="">All roles</option>
+          <option value="staging">Staging</option>
+          <option value="c2_relay">C2 Relay</option>
+          <option value="proxy">Proxy</option>
+          <option value="redirector">Redirector</option>
+        </select>
+        <select id="staging-conf-filter" onchange="loadStagingTable()">
+          <option value="0">All confidence</option>
+          <option value="0.7">High (≥0.7)</option>
+          <option value="0.5">Medium+ (≥0.5)</option>
+        </select>
+        <button class="btn" onclick="exportReconCSV('staging')">Export CSV</button>
+      </div>
+      <div class="results-info" id="staging-info"></div>
+      <div class="table-wrap"><table id="staging-table"></table></div>
+    </div>
+
+    <!-- Candidates Section -->
+    <div id="recon-candidates" class="recon-section" style="display:none">
+      <div class="section-title">Recon Candidates</div>
+      <p style="font-size:12px;color:var(--text2);margin-bottom:12px">New IPs, subnets, and ASNs identified through enrichment, subnet adjacency, and correlation analysis.</p>
+      <div class="controls">
+        <select id="cand-type-filter" onchange="loadCandidatesTable()">
+          <option value="">All types</option>
+          <option value="ip">IPs</option>
+          <option value="subnet">Subnets</option>
+          <option value="asn">ASNs</option>
+        </select>
+        <select id="cand-method-filter" onchange="loadCandidatesTable()">
+          <option value="">All methods</option>
+          <option value="multi_source_correlation">Multi-Source Correlation</option>
+          <option value="subnet_adjacency">Subnet Adjacency</option>
+          <option value="asn_clustering">ASN Clustering</option>
+        </select>
+        <button class="btn" onclick="exportReconCSV('candidates')">Export CSV</button>
+      </div>
+      <div class="results-info" id="candidates-info"></div>
+      <div class="table-wrap"><table id="candidates-table"></table></div>
+    </div>
+
+    <!-- Enrichment Section -->
+    <div id="recon-enrichment" class="recon-section" style="display:none">
+      <div class="section-title">Enrichment Results</div>
+      <p style="font-size:12px;color:var(--text2);margin-bottom:12px">Geolocation, ASN, and hosting data gathered from online APIs for known IOCs.</p>
+      <div class="controls">
+        <input type="text" id="enrich-search" placeholder="Search IP, ASN, provider..." onkeydown="if(event.key==='Enter')loadEnrichmentTable()">
+        <button class="btn" onclick="loadEnrichmentTable()">Search</button>
+        <button class="btn" onclick="exportReconCSV('enrichment')">Export CSV</button>
+      </div>
+      <div class="results-info" id="enrichment-info"></div>
+      <div class="table-wrap"><table id="enrichment-table"></table></div>
+    </div>
+
+    <!-- ASN Map Section -->
+    <div id="recon-asn" class="recon-section" style="display:none">
+      <div class="section-title">ASN Intelligence Map</div>
+      <p style="font-size:12px;color:var(--text2);margin-bottom:12px">Top ASNs hosting threat infrastructure — ranked by IOC density.</p>
+      <div id="asn-chart" style="margin-bottom:16px"></div>
+      <div class="table-wrap"><table id="asn-table"></table></div>
+    </div>
+
+    <!-- Commands Section -->
+    <div id="recon-commands" class="recon-section" style="display:none">
+      <div class="section-title">Recon Pipeline Commands</div>
+      <p style="font-size:12px;color:var(--text2);margin-bottom:12px">Run these in your terminal to enrich data and discover new candidates.</p>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <div class="card" style="padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:4px">1. Enrich Top IPs (online lookup)</div>
+          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Queries ip-api.com for geolocation, ASN, and hosting data on critical IPs.</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-enrich">python database/recon.py enrich-top 50</code>
+            <button class="btn" onclick="copyCmd('cmd-enrich')" style="white-space:nowrap">Copy</button>
+          </div>
+        </div>
+        <div class="card" style="padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:4px">2. Detect Staging Servers</div>
+          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Analyzes proxy + C2 patterns to identify relay and coordination nodes.</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-staging">python database/recon.py detect-staging</code>
+            <button class="btn" onclick="copyCmd('cmd-staging')" style="white-space:nowrap">Copy</button>
+          </div>
+        </div>
+        <div class="card" style="padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:4px">3. Run Full Candidate Discovery</div>
+          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Runs staging detection + ASN clustering + subnet adjacency + multi-source correlation.</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-candidates">python database/recon.py find-candidates</code>
+            <button class="btn" onclick="copyCmd('cmd-candidates')" style="white-space:nowrap">Copy</button>
+          </div>
+        </div>
+        <div class="card" style="padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:4px">4. Enrich Single IP</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-enrich1">python database/recon.py enrich-ip 196.251.69.100</code>
+            <button class="btn" onclick="copyCmd('cmd-enrich1')" style="white-space:nowrap">Copy</button>
+          </div>
+        </div>
+        <div class="card" style="padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:4px">5. Show Report</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-report">python database/recon.py report</code>
+            <button class="btn" onclick="copyCmd('cmd-report')" style="white-space:nowrap">Copy</button>
+          </div>
+        </div>
+        <div class="card" style="padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:4px">6. Re-export Web DB (after recon)</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-webexport">python database/export_web_db.py</code>
+            <button class="btn" onclick="copyCmd('cmd-webexport')" style="white-space:nowrap">Copy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- VALIDATION TAB -->
+<div class="tab" id="tab-validation">
+  <div id="validation-loading" class="loading">Load a database to begin</div>
+  <div id="validation-content" style="display:none">
+
+    <!-- Overview Cards -->
+    <div class="section-title">Validation Overview</div>
+    <div class="cards" id="validation-cards"></div>
+
+    <!-- Per-source coverage -->
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0">
+      <div style="background:var(--bg2);border-radius:8px;padding:12px;text-align:center">
+        <div style="font-weight:600;color:var(--accent);margin-bottom:4px">Shodan InternetDB</div>
+        <div id="shodan-coverage" style="font-size:24px;font-weight:700">0%</div>
+        <div style="font-size:11px;color:var(--text2)">Free, no key</div>
+      </div>
+      <div style="background:var(--bg2);border-radius:8px;padding:12px;text-align:center">
+        <div style="font-weight:600;color:var(--accent);margin-bottom:4px">AbuseIPDB</div>
+        <div id="abuseipdb-coverage" style="font-size:24px;font-weight:700">0%</div>
+        <div style="font-size:11px;color:var(--text2)">1000/day (API key)</div>
+      </div>
+      <div style="background:var(--bg2);border-radius:8px;padding:12px;text-align:center">
+        <div style="font-weight:600;color:var(--accent);margin-bottom:4px">VirusTotal</div>
+        <div id="virustotal-coverage" style="font-size:24px;font-weight:700">0%</div>
+        <div style="font-size:11px;color:var(--text2)">4/min (API key)</div>
+      </div>
+    </div>
+
+    <!-- Quick IP Lookup -->
+    <div class="recon-section">
+      <div class="section-title">Quick IP Lookup (browser-side)</div>
+      <p style="font-size:12px;color:var(--text2);margin-bottom:12px">Queries Shodan InternetDB directly from browser (free, no key). Optional VirusTotal with your API key (never stored).</p>
+      <div class="controls">
+        <input type="text" id="quick-val-ip" placeholder="Enter IP address..." style="width:180px">
+        <button class="btn-primary" onclick="quickValidate()">Validate</button>
+        <span id="quick-val-status" style="font-size:12px;color:var(--text2)"></span>
+      </div>
+      <div style="margin-top:8px">
+        <label style="font-size:11px;color:var(--text2)">
+          VirusTotal API Key (optional):
+          <input type="password" id="vt-key-input" placeholder="Not stored, session only" style="width:250px;margin-left:6px;font-size:11px">
+        </label>
+      </div>
+      <div id="quick-val-results" style="margin-top:12px;display:none">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+          <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px">
+            <div style="font-weight:600;color:var(--accent);margin-bottom:8px">Shodan InternetDB</div>
+            <div id="shodan-result" style="font-family:monospace;font-size:12px;white-space:pre-wrap"></div>
+          </div>
+          <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px">
+            <div style="font-weight:600;color:var(--accent);margin-bottom:8px">VirusTotal</div>
+            <div id="vt-result" style="font-family:monospace;font-size:12px;white-space:pre-wrap"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Validation Queue -->
+    <div class="recon-section">
+      <div class="section-title">Validation Queue</div>
+      <div class="controls">
+        <select id="queue-status-filter">
+          <option value="">All status</option>
+          <option value="pending">Pending</option>
+          <option value="done">Done</option>
+          <option value="error">Error</option>
+        </select>
+        <button onclick="loadQueueTable()">Filter</button>
+        <button onclick="exportTableCSV('queue-table')">Export CSV</button>
+      </div>
+      <div class="results-info" id="queue-info"></div>
+      <div class="table-wrap"><table id="queue-table"></table></div>
+    </div>
+
+    <!-- Recent Validations -->
+    <div class="recon-section">
+      <div class="section-title">Recent Validations</div>
+      <div class="table-wrap"><table id="recent-val-table"></table></div>
+    </div>
+
+    <!-- CLI Commands -->
+    <div class="recon-section">
+      <div class="section-title">Validation Pipeline Commands</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+        <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:4px">1. Build Queue</div>
+          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Queue unvalidated IPs, prioritized by subnet tier.</div>
+          <code style="font-size:11px;display:block;padding:6px;background:var(--bg2);border-radius:4px;cursor:pointer" onclick="navigator.clipboard.writeText(this.textContent)">python database/validate.py queue 500</code>
+        </div>
+        <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:4px">2. Run Shodan (free)</div>
+          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Validate via Shodan InternetDB. No API key needed.</div>
+          <code style="font-size:11px;display:block;padding:6px;background:var(--bg2);border-radius:4px;cursor:pointer" onclick="navigator.clipboard.writeText(this.textContent)">python database/validate.py run shodan 100</code>
+        </div>
+        <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:4px">3. Run AbuseIPDB</div>
+          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Requires ABUSEIPDB_KEY env var. Free: 1000/day.</div>
+          <code style="font-size:11px;display:block;padding:6px;background:var(--bg2);border-radius:4px;cursor:pointer" onclick="navigator.clipboard.writeText(this.textContent)">export ABUSEIPDB_KEY=your_key && python database/validate.py run abuseipdb 100</code>
+        </div>
+        <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:4px">4. Run VirusTotal</div>
+          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Requires VIRUSTOTAL_KEY env var. Free: 4/min.</div>
+          <code style="font-size:11px;display:block;padding:6px;background:var(--bg2);border-radius:4px;cursor:pointer" onclick="navigator.clipboard.writeText(this.textContent)">export VIRUSTOTAL_KEY=your_key && python database/validate.py run virustotal 50</code>
+        </div>
+        <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:4px">5. Check Single IP</div>
+          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Validate one IP against all available sources.</div>
+          <code style="font-size:11px;display:block;padding:6px;background:var(--bg2);border-radius:4px;cursor:pointer" onclick="navigator.clipboard.writeText(this.textContent)">python database/validate.py check 91.231.182.187</code>
+        </div>
+        <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px">
+          <div style="font-size:12px;font-weight:600;margin-bottom:4px">6. Status Report</div>
+          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Show validation coverage and queue stats.</div>
+          <code style="font-size:11px;display:block;padding:6px;background:var(--bg2);border-radius:4px;cursor:pointer" onclick="navigator.clipboard.writeText(this.textContent)">python database/validate.py status</code>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ATTRIBUTION TAB -->
+<div class="tab" id="tab-attribution">
+  <div id="attribution-loading" class="loading">Load a database to begin</div>
+  <div id="attribution-content" style="display:none">
+    <div class="section-title">Campaign Overview</div>
+    <div class="cards" id="attribution-cards"></div>
+    <div class="section-title" style="margin-top:20px">Campaigns (13)</div>
+    <div class="table-wrap"><table id="campaigns-table"></table></div>
+    <div class="section-title" style="margin-top:20px">Attribution Sources (53)</div>
+    <div class="controls">
+      <select id="attr-campaign-filter" onchange="loadAttributionSources()">
+        <option value="">All campaigns</option>
+      </select>
+      <button onclick="exportTableCSV('attr-sources-table')">Export CSV</button>
+    </div>
+    <div class="results-info" id="attr-sources-info"></div>
+    <div class="table-wrap"><table id="attr-sources-table"></table></div>
+    <div class="section-title" style="margin-top:20px">Campaign IOCs</div>
+    <div class="table-wrap"><table id="campaign-iocs-table"></table></div>
+    <div class="section-title" style="margin-top:20px">Hosting Providers</div>
+    <div class="table-wrap"><table id="hosting-table"></table></div>
+    <div class="section-title" style="margin-top:20px">Certificate Patterns</div>
+    <div class="table-wrap"><table id="certs-table"></table></div>
+    <div class="section-title" style="margin-top:20px">Takedown Targets</div>
+    <div class="table-wrap"><table id="takedown-table"></table></div>
+  </div>
+</div>
+
+<!-- INTER-AGENCY TAB -->
+<div class="tab" id="tab-interagency">
+  <div id="interagency-loading" class="loading">Load a database to begin</div>
+  <div id="interagency-content" style="display:none">
+    <div class="section-title">Russian Intelligence Agency Mapping</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:20px">
+      <div class="card" style="border-left:3px solid var(--red)">
+        <div class="label">GRU (Military Intelligence)</div>
+        <div style="font-size:14px;margin-top:8px">
+          <div><span class="badge CRITICAL">Unit 26165</span> APT28 / Fancy Bear</div>
+          <div style="margin-top:4px"><span class="badge HIGH">Unit 74455</span> Sandworm / APT44</div>
+          <div style="margin-top:4px"><span class="badge HIGH">Unit 29155</span> Cadet Blizzard</div>
+        </div>
+      </div>
+      <div class="card" style="border-left:3px solid var(--orange)">
+        <div class="label">FSB (Federal Security Service)</div>
+        <div style="font-size:14px;margin-top:8px">
+          <div><span class="badge MEDIUM">Center 16</span> Turla / Secret Blizzard</div>
+          <div style="margin-top:4px"><span class="badge MEDIUM">Center 18</span> Gamaredon / Star Blizzard</div>
+          <div style="margin-top:4px;font-size:11px;color:var(--orange);font-weight:600">ESET Sep 2025: First inter-unit collaboration</div>
+        </div>
+      </div>
+      <div class="card" style="border-left:3px solid var(--purple)">
+        <div class="label">SVR (Foreign Intelligence Service)</div>
+        <div style="font-size:14px;margin-top:8px">
+          <div><span class="badge LOW">SVR</span> APT29 / Midnight Blizzard</div>
+          <div style="margin-top:8px;font-size:11px;color:var(--text2)">Residential proxies; hard to pin via IP</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-title">Cross-Agency Correlations (26)</div>
+    <div class="controls">
+      <select id="corr-confidence-filter" onchange="loadCorrelations()">
+        <option value="">All confidence</option>
+        <option value="high">HIGH only</option>
+        <option value="moderate">MODERATE+</option>
+      </select>
+      <select id="corr-type-filter" onchange="loadCorrelations()">
+        <option value="">All types</option>
+        <option value="infrastructure_cohabitation">Infrastructure Cohabitation</option>
+        <option value="operational_collaboration">Operational Collaboration</option>
+        <option value="shared_hosting">Shared Hosting</option>
+        <option value="organizational_link">Organizational Link</option>
+        <option value="same_unit">Same Unit</option>
+        <option value="tradecraft_overlap">Tradecraft Overlap</option>
+        <option value="shared_infrastructure_ecosystem">Shared Infrastructure</option>
+        <option value="common_targeting">Common Targeting</option>
+      </select>
+      <button onclick="exportTableCSV('corr-table')">Export CSV</button>
+    </div>
+    <div class="results-info" id="corr-info"></div>
+    <div class="table-wrap"><table id="corr-table"></table></div>
+
+    <div class="section-title" style="margin-top:20px">Infrastructure Convergence Points</div>
+    <div class="cards" id="convergence-cards"></div>
+
+    <div class="section-title" style="margin-top:20px">Key Intelligence Findings</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+      <div class="card" style="border-left:3px solid var(--red)">
+        <div style="font-weight:600;color:var(--red);margin-bottom:6px">GRU Infrastructure Sharing</div>
+        <div style="font-size:12px;color:var(--text2)">Mandiant APT44 report confirms APT28 (Unit 26165) and Sandworm (Unit 74455) cohabitate on shared infrastructure. Microsoft documents Cadet Blizzard (Unit 29155) as a Sandworm subgroup.</div>
+      </div>
+      <div class="card" style="border-left:3px solid var(--orange)">
+        <div style="font-weight:600;color:var(--orange);margin-bottom:6px">FSB Inter-Unit Collaboration (NEW)</div>
+        <div style="font-size:12px;color:var(--text2)">ESET September 2025: First documented FSB collaboration. Gamaredon (Center 18) deploys Turla (Center 16) Kazuar v2 backdoor via PteroGraphin loader.</div>
+      </div>
+      <div class="card" style="border-left:3px solid var(--purple)">
+        <div style="font-weight:600;color:var(--purple);margin-bottom:6px">SVR / Storm-2372 Overlap</div>
+        <div style="font-size:12px;color:var(--text2)">Check Point + Volexity document APT29/Storm-2372 device-code phishing overlap. Shared targeting of EU diplomats with nearly identical tradecraft.</div>
+      </div>
+      <div class="card" style="border-left:3px solid var(--green)">
+        <div style="font-weight:600;color:var(--green);margin-bottom:6px">Shared BPH Ecosystem</div>
+        <div style="font-size:12px;color:var(--text2)">State actors (GRU/FSB/SVR) and criminal RaaS (ALPHV, LockBit) converge on AEZA/Hetzner infrastructure. OFAC sanctions created disruption but AEZA migrated within 20 days.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<!-- IP PROFILE MODAL -->
+<div id="modal-overlay" onclick="closeModal()"></div>
+<div id="modal" style="display:none">
+  <button class="close" onclick="closeModal()">&times;</button>
+  <div id="modal-content"></div>
+</div>
+
+<script>
+let db = null;
+let isWebExport = false;
+
+// =============================================================
+// DATABASE LOADING
+// =============================================================
+
+document.getElementById('db-file').addEventListener('change', async function(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+
+  document.getElementById('db-status').textContent = `Loading ${file.name} (${(file.size/1024/1024).toFixed(1)} MB)...`;
+
+  const SQL = await initSqlJs({ locateFile: f => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/${f}` });
+  const buf = await file.arrayBuffer();
+  db = new SQL.Database(new Uint8Array(buf));
+
+  // Check if web export
+  try {
+    const r = db.exec("SELECT value FROM metadata WHERE key='web_export'");
+    isWebExport = r.length > 0 && r[0].values[0][0] === 'true';
+  } catch(e) { isWebExport = false; }
+
+  document.getElementById('db-status').textContent = `Loaded: ${file.name} (${(file.size/1024/1024).toFixed(1)} MB)${isWebExport ? ' [web export]' : ''}`;
+  document.getElementById('tabs-nav').style.display = 'flex';
+  document.getElementById('load-section').style.display = 'none';
+
+  loadOverview();
+});
+
+// =============================================================
+// QUERY HELPERS
+// =============================================================
+
+function q(sql, params=[]) {
+  try {
+    return db.exec(sql);
+  } catch(e) {
+    console.error(sql, e);
+    return [];
+  }
+}
+
+function qVal(sql) {
+  const r = q(sql);
+  return r.length > 0 ? r[0].values[0][0] : 0;
+}
+
+function renderTable(tableId, columns, rows, opts={}) {
+  const table = document.getElementById(tableId);
+  if (!rows || rows.length === 0) {
+    table.innerHTML = '<tr><td class="empty">No results</td></tr>';
+    return;
+  }
+  let html = '<thead><tr>';
+  columns.forEach((c,i) => {
+    html += `<th onclick="sortTable('${tableId}',${i})">${c}</th>`;
+  });
+  html += '</tr></thead><tbody>';
+
+  rows.forEach(row => {
+    html += '<tr>';
+    row.forEach((cell, i) => {
+      let val = cell === null ? '' : cell;
+      // Classification badge
+      if (['CRITICAL','HIGH','MEDIUM','LOW'].includes(val)) {
+        val = `<span class="badge ${val}">${val}</span>`;
+      }
+      // IP link (first column if it looks like an IP)
+      if (i === 0 && opts.ipLink && typeof val === 'string' && /^\d+\.\d+\.\d+\.\d+$/.test(val)) {
+        val = `<span class="ip-link" onclick="showIPProfile('${val}')">${val}</span>`;
+      }
+      html += `<td>${val}</td>`;
+    });
+    html += '</tr>';
+  });
+  html += '</tbody>';
+  table.innerHTML = html;
+}
+
+function sortTable(tableId, colIdx) {
+  const table = document.getElementById(tableId);
+  const tbody = table.querySelector('tbody');
+  if (!tbody) return;
+  const rows = Array.from(tbody.rows);
+  const asc = table.dataset.sortCol == colIdx && table.dataset.sortDir === 'asc' ? false : true;
+  table.dataset.sortCol = colIdx;
+  table.dataset.sortDir = asc ? 'asc' : 'desc';
+
+  rows.sort((a, b) => {
+    let va = a.cells[colIdx].textContent.trim();
+    let vb = b.cells[colIdx].textContent.trim();
+    const na = parseFloat(va), nb = parseFloat(vb);
+    if (!isNaN(na) && !isNaN(nb)) return asc ? na - nb : nb - na;
+    return asc ? va.localeCompare(vb) : vb.localeCompare(va);
+  });
+  rows.forEach(r => tbody.appendChild(r));
+}
+
+// =============================================================
+// OVERVIEW
+// =============================================================
+
+function loadOverview() {
+  document.getElementById('overview-loading').style.display = 'none';
+  document.getElementById('overview-content').style.display = 'block';
+
+  // Counts
+  const counts = [
+    { label: 'IPv4 IOCs', table: 'ipv4_iocs', cls: 'info' },
+    { label: 'IPv6 IOCs', table: 'ipv6_iocs', cls: 'purple' },
+    { label: 'Domains', table: 'domains', cls: 'info', fallback: 'web_domain_count' },
+    { label: 'URLs', table: 'urls', cls: 'info', fallback: 'web_url_count' },
+    { label: 'CVEs', table: 'cves', cls: 'info' },
+    { label: 'Emails', table: 'emails', cls: 'info' },
+    { label: 'CIDRs', table: 'cidr_iocs', cls: 'info' },
+    { label: 'Subnets', table: 'subnets', cls: 'info' },
+    { label: 'Scan Results', table: 'scan_results', cls: 'info' },
+    { label: 'Vulnerability Findings', table: 'vulnerability_findings', cls: 'info' },
+    { label: 'Enrichment Results', table: 'enrichment_results', cls: 'purple' },
+  ];
+
+  let cardsHtml = '';
+  counts.forEach(c => {
+    let val;
+    try {
+      val = qVal(`SELECT COUNT(*) FROM ${c.table}`);
+    } catch(e) {
+      // Table missing (web export) — use metadata fallback
+      if (c.fallback) {
+        val = qVal(`SELECT value FROM metadata WHERE key='${c.fallback}'`);
+        val = parseInt(val) || 0;
+      } else {
+        val = 0;
+      }
+    }
+    cardsHtml += `<div class="card ${c.cls}"><div class="label">${c.label}</div><div class="value">${val.toLocaleString()}</div></div>`;
+  });
+  document.getElementById('count-cards').innerHTML = cardsHtml;
+
+  // Classification breakdown
+  const classData = q("SELECT classification, COUNT(*) FROM scan_results GROUP BY classification ORDER BY COUNT(*) DESC");
+  let classHtml = '';
+  const classColors = { CRITICAL:'critical', HIGH:'high', MEDIUM:'medium', LOW:'low' };
+  if (classData.length > 0) {
+    const maxVal = Math.max(...classData[0].values.map(r => r[1]));
+    classData[0].values.forEach(([cls, cnt]) => {
+      classHtml += `<div class="card ${classColors[cls]||'info'}"><div class="label">${cls||'NULL'}</div><div class="value">${cnt.toLocaleString()}</div></div>`;
+    });
+
+    // Bar chart
+    const chartColors = { CRITICAL:'#f85149', HIGH:'#d29922', MEDIUM:'#e3b341', LOW:'#3fb950' };
+    let barHtml = '';
+    classData[0].values.forEach(([cls, cnt]) => {
+      const h = Math.max(10, (cnt / maxVal) * 70);
+      barHtml += `<div class="bar" style="height:${h}px;width:60px;background:${chartColors[cls]||'#58a6ff'}"><span>${cnt}</span><span class="bar-label">${cls}</span></div>`;
+    });
+    document.getElementById('class-chart').innerHTML = barHtml;
+  }
+  document.getElementById('class-cards').innerHTML = classHtml;
+
+  // Tier breakdown
+  const tierData = q("SELECT COALESCE(tier,'UNTIERED') as t, COUNT(*), SUM(ioc_count) FROM subnets GROUP BY tier ORDER BY tier");
+  let tierHtml = '';
+  if (tierData.length > 0) {
+    tierData[0].values.forEach(([tier, cnt, iocs]) => {
+      tierHtml += `<div class="card info"><div class="label">${tier}</div><div class="value">${cnt}</div><div style="font-size:11px;color:var(--text2)">${(iocs||0).toLocaleString()} IOCs</div></div>`;
+    });
+  }
+  document.getElementById('tier-cards').innerHTML = tierHtml;
+
+  // Validation summary
+  if (tableExists('ipv4_iocs')) {
+    const valData = q("SELECT validation_status, COUNT(*) FROM ipv4_iocs GROUP BY validation_status ORDER BY validation_status");
+    if (valData.length > 0) {
+      let valHtml = '<div class="section-title">Validation Coverage</div><div class="cards">';
+      const valColors = {validated:'low', partial:'medium', unvalidated:'high'};
+      valData[0].values.forEach(([st, cnt]) => {
+        valHtml += `<div class="card ${valColors[st]||'info'}"><div class="label">${st}</div><div class="value">${cnt.toLocaleString()}</div></div>`;
+      });
+      valHtml += '</div>';
+      document.getElementById('tier-cards').insertAdjacentHTML('afterend', valHtml);
+    }
+  }
+
+  // Top ASNs preview
+  if (tableExists('asn_info')) {
+    const asnPrev = q("SELECT asn, org_name, country, ioc_count FROM asn_info WHERE ioc_count > 0 ORDER BY ioc_count DESC LIMIT 8");
+    if (asnPrev.length > 0 && asnPrev[0].values.length > 0) {
+      let asnHtml = '<div class="section-title">Top Threat-Hosting ASNs</div><div class="cards">';
+      asnPrev[0].values.forEach(([asn, org, country, iocs]) => {
+        const cls = iocs >= 40 ? 'critical' : iocs >= 20 ? 'high' : 'medium';
+        asnHtml += `<div class="card ${cls}"><div class="label">AS${asn} (${country})</div><div class="value">${iocs}</div><div style="font-size:10px;color:var(--text2)">${(org||'').substring(0,30)}</div></div>`;
+      });
+      asnHtml += '</div>';
+      document.getElementById('tier-cards').insertAdjacentHTML('afterend', asnHtml);
+    }
+  }
+
+  // Metadata
+  const meta = q("SELECT key, value FROM metadata ORDER BY key");
+  let metaHtml = '';
+  if (meta.length > 0) {
+    meta[0].values.forEach(([k, v]) => {
+      metaHtml += `<div><b>${k}:</b> ${v}</div>`;
+    });
+  }
+  document.getElementById('meta-info').innerHTML = metaHtml;
+}
+
+// =============================================================
+// SCAN RESULTS
+// =============================================================
+
+function queryScanResults() {
+  const cls = document.getElementById('scan-class-filter').value;
+  const minRisk = parseInt(document.getElementById('scan-risk-min').value) || 0;
+  const ipSearch = document.getElementById('scan-ip-search').value.trim();
+
+  let where = [];
+  if (cls) where.push(`classification = '${cls}'`);
+  if (minRisk > 0) where.push(`risk_score >= ${minRisk}`);
+  if (ipSearch) where.push(`ip LIKE '%${ipSearch.replace(/'/g,'')}%'`);
+
+  const whereStr = where.length > 0 ? 'WHERE ' + where.join(' AND ') : '';
+  const sql = `SELECT ip, risk_score, classification, services, c2_indicators, source_file FROM scan_results ${whereStr} ORDER BY risk_score DESC LIMIT 500`;
+  const r = q(sql);
+
+  if (r.length > 0) {
+    document.getElementById('scan-info').textContent = `${r[0].values.length} results (limit 500)`;
+    renderTable('scan-table', r[0].columns, r[0].values, { ipLink: true });
+  } else {
+    document.getElementById('scan-info').textContent = '0 results';
+    renderTable('scan-table', [], []);
+  }
+}
+
+// =============================================================
+// IOC EXPLORER
+// =============================================================
+
+function queryIOCs() {
+  const type = document.getElementById('ioc-type').value;
+  const search = document.getElementById('ioc-search').value.trim();
+
+  // Check if table exists
+  let tableExists = true;
+  try { q(`SELECT 1 FROM ${type} LIMIT 1`); } catch(e) { tableExists = false; }
+
+  if (!tableExists) {
+    document.getElementById('ioc-info').textContent = `Table "${type}" not available in this database export. Use the full apt_intel.db for domain/URL searches.`;
+    renderTable('ioc-table', [], []);
+    return;
+  }
+
+  let cols, sql;
+  switch(type) {
+    case 'ipv4_iocs': cols = 'ip, source_file, first_seen, last_seen, pulse_count, infra_type'; break;
+    case 'ipv6_iocs': cols = 'ip, source_file, first_seen'; break;
+    case 'cves': cols = 'cve_id, source_file, first_seen'; break;
+    case 'emails': cols = 'email, domain, source_file'; break;
+    case 'cidr_iocs': cols = 'cidr, source_file, first_seen'; break;
+    case 'domains': cols = 'domain, source_file, first_seen'; break;
+    case 'urls': cols = 'url, host, port, path'; break;
+    default: cols = '*';
+  }
+
+  const mainCol = cols.split(',')[0].trim();
+  const infraFilter = document.getElementById('ioc-infra-filter').value;
+  let conditions = [];
+  if (search) conditions.push(`${mainCol} LIKE '%${search.replace(/'/g,'')}%'`);
+  if (infraFilter && type === 'ipv4_iocs') conditions.push(`infra_type = '${infraFilter}'`);
+  let where = conditions.length ? 'WHERE ' + conditions.join(' AND ') : '';
+
+  sql = `SELECT ${cols} FROM ${type} ${where} ORDER BY 1 LIMIT 500`;
+  const r = q(sql);
+
+  if (r.length > 0) {
+    document.getElementById('ioc-info').textContent = `${r[0].values.length} results (limit 500)`;
+    renderTable('ioc-table', r[0].columns, r[0].values);
+  } else {
+    document.getElementById('ioc-info').textContent = '0 results';
+    renderTable('ioc-table', [], []);
+  }
+}
+
+// =============================================================
+// VULNSCAN
+// =============================================================
+
+function queryVulnScan() {
+  const host = document.getElementById('vulnscan-host').value.trim();
+  const risk = document.getElementById('vulnscan-risk-filter').value;
+
+  let where = [];
+  if (host) where.push(`host LIKE '%${host.replace(/'/g,'')}%'`);
+  if (risk) where.push(`risk = '${risk}'`);
+
+  const whereStr = where.length > 0 ? 'WHERE ' + where.join(' AND ') : '';
+  const sql = `SELECT host, port, protocol, risk, cvss_score, cve, plugin_name, synopsis, source_file FROM vulnerability_findings ${whereStr} ORDER BY cvss_score DESC LIMIT 500`;
+  const r = q(sql);
+
+  if (r.length > 0) {
+    document.getElementById('vulnscan-info').textContent = `${r[0].values.length} results (limit 500)`;
+    renderTable('vulnscan-table', r[0].columns, r[0].values, { ipLink: true });
+  } else {
+    document.getElementById('vulnscan-info').textContent = '0 results';
+    renderTable('vulnscan-table', [], []);
+  }
+}
+
+// =============================================================
+// CUSTOM SQL
+// =============================================================
+
+function loadSqlTemplate() {
+  const v = document.getElementById('sql-templates').value;
+  if (v) document.getElementById('sql-input').value = v;
+}
+
+function runCustomSQL() {
+  const sql = document.getElementById('sql-input').value.trim();
+  if (!sql) return;
+
+  const start = performance.now();
+  const r = q(sql);
+  const elapsed = (performance.now() - start).toFixed(1);
+
+  if (r.length > 0) {
+    document.getElementById('sql-info').textContent = `${r[0].values.length} rows in ${elapsed}ms`;
+    renderTable('sql-table', r[0].columns, r[0].values, { ipLink: true });
+  } else {
+    document.getElementById('sql-info').textContent = `Query executed in ${elapsed}ms (no results or non-SELECT)`;
+    renderTable('sql-table', [], []);
+  }
+}
+
+// =============================================================
+// IP PROFILE MODAL
+// =============================================================
+
+function showIPProfile(ip) {
+  let html = `<h3>IP Profile: ${ip}</h3>`;
+
+  // IOC status
+  const ioc = q(`SELECT * FROM ipv4_iocs WHERE ip = '${ip}'`);
+  if (ioc.length > 0 && ioc[0].values.length > 0) {
+    const infraType = ioc[0].values[0][ioc[0].columns.indexOf('infra_type')] || 'unknown';
+    const infraBadge = infraType === 'owned' ? 'HIGH' : infraType === 'compromised' ? 'MEDIUM' : 'LOW';
+    html += `<div style="margin-bottom:12px"><span class="badge CRITICAL">Known IOC</span> <span class="badge ${infraBadge}">${infraType}</span> Pulse count: ${ioc[0].values[0][ioc[0].columns.indexOf('pulse_count')]||'N/A'}</div>`;
+  } else {
+    html += `<div style="margin-bottom:12px;color:var(--text2)">Not in IPv4 IOC list</div>`;
+  }
+
+  // Scan results
+  const scans = q(`SELECT risk_score, classification, services, c2_indicators, open_ports, vuln_count, source_file, scan_date FROM scan_results WHERE ip = '${ip}' ORDER BY risk_score DESC`);
+  if (scans.length > 0 && scans[0].values.length > 0) {
+    html += `<div class="section-title">Scan Results (${scans[0].values.length})</div>`;
+    html += '<table><thead><tr><th>Risk</th><th>Class</th><th>Services</th><th>C2</th><th>Ports</th><th>Vulns</th><th>Source</th></tr></thead><tbody>';
+    scans[0].values.forEach(r => {
+      const cls = r[1] || '';
+      html += `<tr><td>${r[0]}</td><td><span class="badge ${cls}">${cls}</span></td><td style="max-width:200px;overflow:hidden;text-overflow:ellipsis">${r[2]||''}</td><td>${r[3]||''}</td><td style="max-width:150px;overflow:hidden;text-overflow:ellipsis">${r[4]||''}</td><td>${r[5]||''}</td><td>${r[6]||''}</td></tr>`;
+    });
+    html += '</tbody></table>';
+  }
+
+  // Vulnerability Scan
+  const vulnscan = q(`SELECT port, protocol, risk, cvss_score, cve, plugin_name FROM vulnerability_findings WHERE host = '${ip}' ORDER BY cvss_score DESC`);
+  if (vulnscan.length > 0 && vulnscan[0].values.length > 0) {
+    html += `<div class="section-title">Vulnerability Findings (${vulnscan[0].values.length})</div>`;
+    html += '<table><thead><tr><th>Port</th><th>Proto</th><th>Risk</th><th>CVSS</th><th>CVE</th><th>Plugin</th></tr></thead><tbody>';
+    vulnscan[0].values.forEach(r => {
+      html += `<tr><td>${r[0]}</td><td>${r[1]||''}</td><td>${r[2]||''}</td><td>${r[3]}</td><td>${r[4]||''}</td><td>${r[5]||''}</td></tr>`;
+    });
+    html += '</tbody></table>';
+  }
+
+  // Subnet
+  try {
+    const parts = ip.split('.');
+    const subnet = parts.slice(0,3).join('.') + '.0/24';
+    const sub = q(`SELECT cidr, ioc_count, tier, scan_status FROM subnets WHERE cidr = '${subnet}'`);
+    if (sub.length > 0 && sub[0].values.length > 0) {
+      const s = sub[0].values[0];
+      html += `<div class="section-title">Subnet</div><div>${s[0]} — ${s[1]} IOCs — Tier: ${s[2]||'none'} — Status: ${s[3]}</div>`;
+    }
+  } catch(e) {}
+
+  // Validation status
+  if (ioc.length > 0 && ioc[0].values.length > 0) {
+    const valStatus = ioc[0].values[0][ioc[0].columns.indexOf('validation_status')] || 'unvalidated';
+    const valCount = ioc[0].values[0][ioc[0].columns.indexOf('validation_count')] || 0;
+    const lastVal = ioc[0].values[0][ioc[0].columns.indexOf('last_validated')] || 'never';
+    const valSources = ioc[0].values[0][ioc[0].columns.indexOf('validation_sources')] || '{}';
+    const valBadge = valStatus === 'validated' ? 'CRITICAL' : valStatus === 'partial' ? 'MEDIUM' : 'LOW';
+    html += `<div class="section-title">Validation</div>`;
+    html += `<div><span class="badge ${valBadge}">${valStatus}</span> ${valCount} checks — Last: ${lastVal} — Sources: ${valSources}</div>`;
+  }
+
+  // Validation details from enrichment_results (Shodan, AbuseIPDB, VT)
+  const valData = q(`SELECT source, abuse_contact, reverse_dns, hosting_provider, city, raw_data, queried_at FROM enrichment_results WHERE indicator='${ip}' AND source IN ('shodan','abuseipdb','virustotal') ORDER BY source`);
+  if (valData.length > 0 && valData[0].values.length > 0) {
+    html += '<table><thead><tr><th>Source</th><th>Key Finding</th><th>Detail</th><th>Queried</th></tr></thead><tbody>';
+    valData[0].values.forEach(r => {
+      const src = r[0];
+      let finding = '', detail = '';
+      if (src === 'shodan') { finding = 'Vulns: ' + (r[1]||'none'); detail = 'Hosts: ' + (r[2]||'N/A'); }
+      else if (src === 'abuseipdb') { finding = 'Abuse: ' + (r[1]||'0') + '/100'; detail = 'Reports: ' + (r[4]||'0'); }
+      else if (src === 'virustotal') { finding = 'Detections: ' + (r[1]||'0'); detail = 'AS: ' + (r[3]||'N/A'); }
+      html += `<tr><td>${src}</td><td>${finding}</td><td>${detail}</td><td>${(r[6]||'').substring(0,10)}</td></tr>`;
+    });
+    html += '</tbody></table>';
+  }
+
+  document.getElementById('modal-content').innerHTML = html;
+  document.getElementById('modal-overlay').style.display = 'block';
+  document.getElementById('modal').style.display = 'block';
+}
+
+function closeModal() {
+  document.getElementById('modal-overlay').style.display = 'none';
+  document.getElementById('modal').style.display = 'none';
+}
+
+// =============================================================
+// CSV EXPORT
+// =============================================================
+
+function exportTableCSV(tableId) {
+  const table = document.getElementById(tableId);
+  if (!table || !table.rows.length) return;
+
+  let csv = [];
+  for (const row of table.rows) {
+    const cells = [];
+    for (const cell of row.cells) {
+      let val = cell.textContent.replace(/"/g, '""');
+      cells.push(`"${val}"`);
+    }
+    csv.push(cells.join(','));
+  }
+
+  const blob = new Blob([csv.join('\n')], { type: 'text/csv' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `apt_intel_export_${Date.now()}.csv`;
+  a.click();
+}
+
+// =============================================================
+// SCAN PATTERNS TAB
+// =============================================================
+
+function loadPatterns() {
+  if (!db) return;
+  loadPatternSummary();
+  loadPatternTable();
+}
+
+function loadPatternSummary() {
+  const cards = document.getElementById('pattern-summary-cards');
+  cards.innerHTML = '';
+
+  try {
+    const scanCands = db.exec("SELECT COUNT(*) FROM ipv4_iocs WHERE infra_type LIKE 'scan_candidate%'")[0]?.values[0][0] || 0;
+    const certCands = db.exec("SELECT COUNT(*) FROM ipv4_iocs WHERE infra_type LIKE 'cert_pattern%'")[0]?.values[0][0] || 0;
+    const totalCands = scanCands + certCands;
+    const enriched = db.exec("SELECT COUNT(DISTINCT indicator) FROM enrichment_results WHERE source='vuln_scan'")[0]?.values[0][0] || 0;
+
+    const items = [
+      { label: 'Port Fingerprint Candidates', value: scanCands, cls: 'high' },
+      { label: 'Cert Pattern Candidates', value: certCands, cls: 'purple' },
+      { label: 'Total New IOCs', value: totalCands, cls: 'critical' },
+      { label: 'Vuln Scan Enriched', value: enriched, cls: 'info' },
+    ];
+
+    items.forEach(i => {
+      cards.innerHTML += `<div class="card ${i.cls}"><div class="label">${i.label}</div><div class="value">${i.value.toLocaleString()}</div></div>`;
+    });
+  } catch(e) { cards.innerHTML = '<div class="empty">No pattern data available</div>'; }
+}
+
+function loadPatternTable() {
+  const table = document.getElementById('pattern-table');
+  const patterns = [
+    { name: 'WIN-9QL4SDRB93L', type: 'Shared Windows Image', conf: 'HIGH', desc: 'Same VM template across 80.76.49.x + 194.59.31.x' },
+    { name: 'C2 Port Cluster (6000-6767)', type: 'C2 Infrastructure', conf: 'HIGH', desc: '28-port cluster, clone of 194.85.251.81 (hypervisor.hv)' },
+    { name: 'X-UI Proxy Panel', type: 'Proxy Infrastructure', conf: 'MEDIUM', desc: 'V2Ray/Xray panel on 195.211.191.x, 91.92.40.x' },
+    { name: 'dedik.io', type: 'Bulletproof Hosting', conf: 'HIGH', desc: 'Russian bulletproof hosting, cert CN = customer-ID + date' },
+    { name: 'Tor Exits (mcgc5...)', type: 'Anonymization', conf: 'MEDIUM', desc: '185.220.101.128-191, same cert serial, CalyxInstitute range' },
+    { name: 'Spoofed Certs', type: 'MITM Infrastructure', conf: 'INFO', desc: 'vk, microsoft, github, apple certs on proxy hosts' },
+  ];
+
+  let html = '<tr><th>Pattern</th><th>Type</th><th>Confidence</th><th>Assessment</th></tr>';
+  patterns.forEach(p => {
+    html += `<tr><td><strong>${p.name}</strong></td><td>${p.type}</td><td><span class="badge ${p.conf}">${p.conf}</span></td><td>${p.desc}</td></tr>`;
+  });
+  table.innerHTML = html;
+}
+
+function queryPatternCandidates() {
+  if (!db) return;
+  const search = document.getElementById('pattern-search').value;
+  const ptype = document.getElementById('pattern-type-filter').value;
+
+  let sql = "SELECT ip, infra_type, validation_status, validation_count FROM ipv4_iocs WHERE (infra_type LIKE 'scan_candidate%' OR infra_type LIKE 'cert_pattern%')";
+  if (search) sql += ` AND ip LIKE '%${search.replace(/'/g,"''")}%'`;
+  if (ptype) sql += ` AND infra_type LIKE '${ptype}%'`;
+  sql += " ORDER BY infra_type, ip LIMIT 500";
+
+  try {
+    const result = db.exec(sql);
+    const table = document.getElementById('candidate-table');
+    const info = document.getElementById('candidate-info');
+
+    if (!result.length) {
+      table.innerHTML = '';
+      info.textContent = '0 results';
+      return;
+    }
+
+    const cols = result[0].columns;
+    const rows = result[0].values;
+    info.textContent = `${rows.length} candidates`;
+
+    let html = '<tr>' + cols.map(c => `<th>${c}</th>`).join('') + '</tr>';
+    rows.forEach(r => {
+      html += '<tr>' + r.map((v,i) => {
+        if (cols[i] === 'ip') return `<td class="ip-link" onclick="showIPProfile('${v}')">${v}</td>`;
+        if (cols[i] === 'validation_status') {
+          const cls = v === 'validated' ? 'LOW' : v === 'partial' ? 'MEDIUM' : 'HIGH';
+          return `<td><span class="badge ${cls}">${v}</span></td>`;
+        }
+        return `<td>${v || ''}</td>`;
+      }).join('') + '</tr>';
+    });
+    table.innerHTML = html;
+  } catch(e) {
+    document.getElementById('candidate-info').textContent = 'Error: ' + e.message;
+  }
+}
+
+// =============================================================
+// TAB NAVIGATION
+// =============================================================
+
+document.querySelectorAll('nav button').forEach(btn => {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    this.classList.add('active');
+    document.getElementById('tab-' + this.dataset.tab).classList.add('active');
+
+    // Auto-load data on first tab visit
+    if (this.dataset.tab === 'scans' && !document.getElementById('scan-table').innerHTML) {
+      queryScanResults();
+    }
+    if (this.dataset.tab === 'recon' && document.getElementById('recon-cards').innerHTML === '') {
+      loadRecon();
+    }
+    if (this.dataset.tab === 'validation' && !validationLoaded) {
+      loadValidation();
+    }
+    if (this.dataset.tab === 'patterns' && !document.getElementById('pattern-table').innerHTML) {
+      loadPatterns();
+    }
+    if (this.dataset.tab === 'attribution' && !document.getElementById('campaigns-table').innerHTML) {
+      loadAttribution();
+    }
+    if (this.dataset.tab === 'interagency' && !document.getElementById('corr-table').innerHTML) {
+      loadInterAgency();
+    }
+  });
+});
+
+// =============================================================
+// TOOLS
+// =============================================================
+
+function toolExport(name, sql) {
+  if (!db) return;
+  const r = q(sql);
+  if (!r.length || !r[0].values.length) { alert('No results for: ' + name); return; }
+
+  let csv = [r[0].columns.map(c => `"${c}"`).join(',')];
+  r[0].values.forEach(row => {
+    csv.push(row.map(v => `"${(v === null ? '' : String(v)).replace(/"/g,'""')}"`).join(','));
+  });
+
+  const blob = new Blob([csv.join('\n')], { type: 'text/csv' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `${name.replace(/\s+/g,'_').toLowerCase()}_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+}
+
+function copyCmd(elementId) {
+  const text = document.getElementById(elementId).textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.getElementById(elementId).nextElementSibling;
+    const orig = btn.textContent;
+    btn.textContent = 'Copied!';
+    btn.style.color = 'var(--green)';
+    setTimeout(() => { btn.textContent = orig; btn.style.color = ''; }, 1500);
+  });
+}
+
+function runHealthCheck() {
+  if (!db) { document.getElementById('health-output').textContent = 'No database loaded.'; return; }
+  let out = [];
+
+  // Schema version
+  const ver = qVal("SELECT value FROM metadata WHERE key='schema_version'");
+  out.push(`Schema version: ${ver || 'unknown'}`);
+
+  // Last rebuild
+  const rebuild = qVal("SELECT value FROM metadata WHERE key='last_rebuild'");
+  out.push(`Last rebuild:   ${rebuild || 'never'}`);
+
+  // Table counts
+  out.push('\n--- Table Counts ---');
+  const tables = ['ipv4_iocs','ipv6_iocs','cves','emails','cidr_iocs','subnets','scan_results','vulnerability_findings'];
+  let allOk = true;
+  tables.forEach(t => {
+    try {
+      const c = qVal(`SELECT COUNT(*) FROM ${t}`);
+      const status = c > 0 ? 'OK' : 'EMPTY';
+      if (c === 0) allOk = false;
+      out.push(`  ${t.padEnd(20)} ${String(c).padStart(10)}  ${status}`);
+    } catch(e) {
+      out.push(`  ${t.padEnd(20)}    MISSING`);
+      allOk = false;
+    }
+  });
+
+  // Domain/URL (may be in metadata only)
+  ['domains','urls'].forEach(t => {
+    try {
+      const c = qVal(`SELECT COUNT(*) FROM ${t}`);
+      out.push(`  ${t.padEnd(20)} ${String(c).padStart(10)}  ${c > 0 ? 'OK' : 'web export (see metadata)'}`);
+    } catch(e) {
+      const metaKey = `web_${t === 'domains' ? 'domain' : 'url'}_count`;
+      const mc = qVal(`SELECT value FROM metadata WHERE key='${metaKey}'`);
+      out.push(`  ${t.padEnd(20)} ${String(mc || 0).padStart(10)}  (from metadata, table excluded in web export)`);
+    }
+  });
+
+  // Classification sanity
+  out.push('\n--- Classification Check ---');
+  const classR = q("SELECT classification, COUNT(*) FROM scan_results GROUP BY classification ORDER BY COUNT(*) DESC");
+  if (classR.length > 0) {
+    classR[0].values.forEach(([cls, cnt]) => {
+      out.push(`  ${(cls||'NULL').padEnd(12)} ${cnt}`);
+    });
+  }
+
+  // Metadata consistency
+  out.push('\n--- Metadata vs Actual ---');
+  const metaScan = parseInt(qVal("SELECT value FROM metadata WHERE key='scan_result_count'")) || 0;
+  const actualScan = qVal("SELECT COUNT(*) FROM scan_results");
+  const scanMatch = metaScan === actualScan;
+  out.push(`  scan_result_count: meta=${metaScan}, actual=${actualScan} ${scanMatch ? 'MATCH' : 'MISMATCH'}`);
+  if (!scanMatch) allOk = false;
+
+  out.push(`\n${allOk ? 'HEALTH: ALL OK' : 'HEALTH: ISSUES FOUND (see above)'}`);
+
+  document.getElementById('health-output').textContent = out.join('\n');
+}
+
+// Keyboard shortcut: Ctrl+Enter to run SQL
+document.getElementById('sql-input').addEventListener('keydown', function(e) {
+  if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') runCustomSQL();
+});
+
+// =============================================================
+// RECON TAB
+// =============================================================
+
+function tableExists(name) {
+  try {
+    const r = db.exec(`SELECT name FROM sqlite_master WHERE type='table' AND name='${name}'`);
+    return r.length > 0 && r[0].values.length > 0;
+  } catch(e) { return false; }
+}
+
+function loadRecon() {
+  document.getElementById('recon-loading').style.display = 'none';
+  document.getElementById('recon-content').style.display = 'block';
+
+  const cards = document.getElementById('recon-cards');
+  let html = '';
+
+  // Summary counts
+  const hasStagin = tableExists('staging_servers');
+  const hasRecon = tableExists('recon_candidates');
+  const hasEnrich = tableExists('enrichment_results');
+
+  if (hasStagin) {
+    const total = qVal("SELECT COUNT(*) FROM staging_servers");
+    const highConf = qVal("SELECT COUNT(*) FROM staging_servers WHERE confidence >= 0.7");
+    const relays = qVal("SELECT COUNT(*) FROM staging_servers WHERE role='c2_relay'");
+    html += `<div class="card critical"><div class="label">Staging Servers</div><div class="value">${total}</div></div>`;
+    html += `<div class="card high"><div class="label">High Confidence</div><div class="value">${highConf}</div></div>`;
+    html += `<div class="card purple"><div class="label">C2 Relays</div><div class="value">${relays}</div></div>`;
+  }
+
+  if (hasRecon) {
+    const total = qVal("SELECT COUNT(*) FROM recon_candidates");
+    const ips = qVal("SELECT COUNT(*) FROM recon_candidates WHERE indicator_type='ip'");
+    const subnets = qVal("SELECT COUNT(*) FROM recon_candidates WHERE indicator_type='subnet'");
+    const asns = qVal("SELECT COUNT(*) FROM recon_candidates WHERE indicator_type='asn'");
+    html += `<div class="card info"><div class="label">Candidates</div><div class="value">${total}</div></div>`;
+    html += `<div class="card info"><div class="label">IP Candidates</div><div class="value">${ips}</div></div>`;
+    html += `<div class="card info"><div class="label">Subnet Candidates</div><div class="value">${subnets}</div></div>`;
+    html += `<div class="card info"><div class="label">ASN Leads</div><div class="value">${asns}</div></div>`;
+  }
+
+  if (hasEnrich) {
+    const enriched = qVal("SELECT COUNT(DISTINCT indicator) FROM enrichment_results");
+    const asnCount = qVal("SELECT COUNT(DISTINCT asn) FROM enrichment_results WHERE asn IS NOT NULL");
+    const countries = qVal("SELECT COUNT(DISTINCT country) FROM enrichment_results WHERE country IS NOT NULL AND country != ''");
+    html += `<div class="card info"><div class="label">Enriched IPs</div><div class="value">${enriched}</div></div>`;
+    html += `<div class="card info"><div class="label">Unique ASNs</div><div class="value">${asnCount}</div></div>`;
+    html += `<div class="card info"><div class="label">Countries</div><div class="value">${countries}</div></div>`;
+  }
+
+  if (!hasStagin && !hasRecon && !hasEnrich) {
+    html = '<div class="card"><div class="label">No Recon Data</div><div class="value" style="font-size:14px">Run recon.py to populate</div></div>';
+  }
+
+  cards.innerHTML = html;
+
+  // Auto-load staging if available
+  if (hasStagin) loadStagingTable();
+}
+
+function loadReconSection(section) {
+  document.querySelectorAll('.recon-section').forEach(s => s.style.display = 'none');
+  const el = document.getElementById('recon-' + section);
+  if (el) el.style.display = 'block';
+
+  // Highlight active button
+  const btns = el?.parentElement?.querySelectorAll('.btn') || [];
+  document.querySelectorAll('#recon-content > div:first-of-type + div .btn').forEach(b => {
+    b.classList.remove('btn-primary');
+  });
+  // Can't easily target, just load data
+  if (section === 'staging') loadStagingTable();
+  else if (section === 'candidates') loadCandidatesTable();
+  else if (section === 'enrichment') loadEnrichmentTable();
+  else if (section === 'asn') loadASNMap();
+}
+
+function loadStagingTable() {
+  if (!tableExists('staging_servers')) return;
+  const role = document.getElementById('staging-role-filter')?.value || '';
+  const minConf = parseFloat(document.getElementById('staging-conf-filter')?.value || '0');
+
+  let where = [];
+  if (role) where.push(`role='${role}'`);
+  if (minConf > 0) where.push(`confidence >= ${minConf}`);
+  const clause = where.length > 0 ? 'WHERE ' + where.join(' AND ') : '';
+
+  const sql = `SELECT ip, role, confidence, c2_frameworks, proxy_services, detection_reasons, downstream_ips
+               FROM staging_servers ${clause} ORDER BY confidence DESC LIMIT 500`;
+  const r = q(sql);
+  if (r.length > 0) {
+    const total = qVal(`SELECT COUNT(*) FROM staging_servers ${clause}`);
+    document.getElementById('staging-info').textContent = `Showing ${Math.min(r[0].values.length, 500)} of ${total} staging servers`;
+    renderTable('staging-table', ['IP', 'Role', 'Confidence', 'C2 Frameworks', 'Proxy', 'Detection Reasons', 'Downstream'], r[0].values, {ipLink: true});
+  } else {
+    document.getElementById('staging-info').textContent = 'No staging servers found';
+    document.getElementById('staging-table').innerHTML = '<tr><td class="empty">No data — run: python database/recon.py detect-staging</td></tr>';
+  }
+}
+
+function loadCandidatesTable() {
+  if (!tableExists('recon_candidates')) return;
+  const type = document.getElementById('cand-type-filter')?.value || '';
+  const method = document.getElementById('cand-method-filter')?.value || '';
+
+  let where = [];
+  if (type) where.push(`indicator_type='${type}'`);
+  if (method) where.push(`discovery_method='${method}'`);
+  const clause = where.length > 0 ? 'WHERE ' + where.join(' AND ') : '';
+
+  const sql = `SELECT indicator, indicator_type, discovery_method, confidence, risk_score, classification, related_to, asn_org, country, notes
+               FROM recon_candidates ${clause} ORDER BY confidence DESC LIMIT 500`;
+  const r = q(sql);
+  if (r.length > 0) {
+    const total = qVal(`SELECT COUNT(*) FROM recon_candidates ${clause}`);
+    document.getElementById('candidates-info').textContent = `Showing ${Math.min(r[0].values.length, 500)} of ${total} candidates`;
+    renderTable('candidates-table', ['Indicator', 'Type', 'Method', 'Confidence', 'Risk', 'Class', 'Related To', 'ASN Org', 'Country', 'Notes'], r[0].values);
+  } else {
+    document.getElementById('candidates-info').textContent = 'No candidates found';
+    document.getElementById('candidates-table').innerHTML = '<tr><td class="empty">No data — run: python database/recon.py find-candidates</td></tr>';
+  }
+}
+
+function loadEnrichmentTable() {
+  if (!tableExists('enrichment_results')) return;
+  const search = document.getElementById('enrich-search')?.value?.trim() || '';
+
+  let clause = "WHERE source='ip-api'";
+  if (search) {
+    clause += ` AND (indicator LIKE '%${search}%' OR asn_org LIKE '%${search}%' OR hosting_provider LIKE '%${search}%' OR country LIKE '%${search}%')`;
+  }
+
+  const sql = `SELECT indicator, asn, asn_org, country, city, hosting_provider, reverse_dns, queried_at
+               FROM enrichment_results ${clause} ORDER BY indicator LIMIT 500`;
+  const r = q(sql);
+  if (r.length > 0) {
+    document.getElementById('enrichment-info').textContent = `Showing ${r[0].values.length} enrichment results`;
+    renderTable('enrichment-table', ['IP', 'ASN', 'ASN Org', 'Country', 'City', 'Hosting Provider', 'Reverse DNS', 'Queried'], r[0].values, {ipLink: true});
+  } else {
+    document.getElementById('enrichment-info').textContent = 'No enrichment data';
+    document.getElementById('enrichment-table').innerHTML = '<tr><td class="empty">No data — run: python database/recon.py enrich-top 50</td></tr>';
+  }
+}
+
+function loadASNMap() {
+  // Try asn_info table first (populated from enrichment pipeline)
+  let r;
+  if (tableExists('asn_info')) {
+    r = q(`SELECT asn, org_name, country, ioc_count, subnet_count,
+           ROUND(CAST(ioc_count AS FLOAT)/NULLIF(subnet_count,0),1) as density
+           FROM asn_info WHERE ioc_count > 0
+           ORDER BY ioc_count DESC LIMIT 30`);
+  }
+  if (!r || r.length === 0) {
+    // Fallback: aggregate from subnets
+    r = q(`SELECT asn, asn_org, country, SUM(ioc_count) as ioc_count, COUNT(*) as subnet_count,
+           ROUND(CAST(SUM(ioc_count) AS FLOAT)/COUNT(*),1) as density
+           FROM subnets WHERE asn IS NOT NULL
+           GROUP BY asn HAVING ioc_count > 0
+           ORDER BY ioc_count DESC LIMIT 30`);
+  }
+
+  // Bar chart
+  if (r && r.length > 0 && r[0].values.length > 0) {
+    const data = r[0].values.slice(0, 15);
+    const maxCount = Math.max(...data.map(d => d[3]));
+    let chartHtml = '<div class="bar-chart" style="height:120px;align-items:end;gap:6px">';
+    const colors = ['var(--red)', 'var(--orange)', 'var(--yellow)', 'var(--green)', 'var(--accent)', 'var(--purple)'];
+    data.forEach((d, i) => {
+      const pct = (d[3] / maxCount * 100);
+      const color = colors[i % colors.length];
+      chartHtml += `<div class="bar" style="background:${color};height:${pct}%;flex:1;min-width:30px;max-width:80px">
+        <span style="font-size:11px;font-weight:bold">${d[3]}</span>
+        <span class="bar-label" style="font-size:9px">AS${d[0]}</span>
+      </div>`;
+    });
+    chartHtml += '</div>';
+    document.getElementById('asn-chart').innerHTML = chartHtml;
+
+    renderTable('asn-table', ['ASN', 'Organization', 'Country', 'IOC Count', 'Subnets', 'Density'], r[0].values, {});
+  } else {
+    document.getElementById('asn-chart').innerHTML = '';
+    document.getElementById('asn-table').innerHTML = '<tr><td class="empty">No ASN data — run: python database/recon.py enrich-top 50</td></tr>';
+  }
+}
+
+function exportReconCSV(section) {
+  let sql = '';
+  let filename = '';
+  if (section === 'staging') {
+    sql = "SELECT * FROM staging_servers ORDER BY confidence DESC";
+    filename = 'staging_servers.csv';
+  } else if (section === 'candidates') {
+    sql = "SELECT * FROM recon_candidates ORDER BY confidence DESC";
+    filename = 'recon_candidates.csv';
+  } else if (section === 'enrichment') {
+    sql = "SELECT * FROM enrichment_results ORDER BY indicator";
+    filename = 'enrichment_results.csv';
+  }
+  if (!sql) return;
+
+  const r = q(sql);
+  if (r.length === 0) return;
+
+  const cols = r[0].columns;
+  const rows = r[0].values;
+  let csv = cols.join(',') + '\n';
+  rows.forEach(row => {
+    csv += row.map(v => {
+      if (v === null) return '';
+      const s = String(v).replace(/"/g, '""');
+      return s.includes(',') || s.includes('"') || s.includes('\n') ? `"${s}"` : s;
+    }).join(',') + '\n';
+  });
+
+  const blob = new Blob([csv], {type: 'text/csv'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  a.click();
+}
+
+// =============================================================
+// VALIDATION TAB
+// =============================================================
+
+let validationLoaded = false;
+
+function loadValidation() {
+  if (validationLoaded) return;
+  if (!tableExists('ipv4_iocs')) {
+    document.getElementById('validation-loading').textContent = 'No validation data in this database.';
+    return;
+  }
+
+  document.getElementById('validation-loading').style.display = 'none';
+  document.getElementById('validation-content').style.display = 'block';
+
+  loadValidationCards();
+  loadSourceCoverage();
+  loadQueueTable();
+  loadRecentValidations();
+  validationLoaded = true;
+}
+
+function loadValidationCards() {
+  const cards = document.getElementById('validation-cards');
+  const total = qVal("SELECT COUNT(*) FROM ipv4_iocs") || 0;
+  const validated = qVal("SELECT COUNT(*) FROM ipv4_iocs WHERE validation_status='validated'") || 0;
+  const partial = qVal("SELECT COUNT(*) FROM ipv4_iocs WHERE validation_status='partial'") || 0;
+  const unvalidated = qVal("SELECT COUNT(*) FROM ipv4_iocs WHERE validation_status='unvalidated'") || 0;
+  const avgCount = qVal("SELECT ROUND(AVG(validation_count),1) FROM ipv4_iocs WHERE validation_count > 0") || 0;
+
+  cards.innerHTML = `
+    <div class="card info"><div class="label">Total IOCs</div><div class="value">${total.toLocaleString()}</div></div>
+    <div class="card" style="border-left:3px solid #4caf50"><div class="label">Validated</div><div class="value">${validated.toLocaleString()}</div></div>
+    <div class="card" style="border-left:3px solid #ff9800"><div class="label">Partial</div><div class="value">${partial.toLocaleString()}</div></div>
+    <div class="card" style="border-left:3px solid #666"><div class="label">Unvalidated</div><div class="value">${unvalidated.toLocaleString()}</div></div>
+    <div class="card info"><div class="label">Avg Checks/IP</div><div class="value">${avgCount}</div></div>
+  `;
+}
+
+function loadSourceCoverage() {
+  const total = qVal("SELECT COUNT(*) FROM ipv4_iocs") || 1;
+  for (const source of ['shodan', 'abuseipdb', 'virustotal']) {
+    const count = qVal(`SELECT COUNT(DISTINCT indicator) FROM enrichment_results WHERE source='${source}'`) || 0;
+    const pct = (count / total * 100).toFixed(1);
+    const el = document.getElementById(source + '-coverage');
+    if (el) el.textContent = pct + '%';
+  }
+}
+
+function loadQueueTable() {
+  if (!tableExists('validation_queue')) {
+    document.getElementById('queue-info').textContent = 'No validation queue table in this database.';
+    return;
+  }
+  const filter = document.getElementById('queue-status-filter').value;
+  let where = filter ? `WHERE status='${filter}'` : '';
+  const sql = `SELECT ip, priority, status, sources_requested, sources_completed, attempts, last_error, queued_at, completed_at FROM validation_queue ${where} ORDER BY priority ASC, queued_at DESC LIMIT 200`;
+  const r = q(sql);
+  if (r.length > 0) {
+    document.getElementById('queue-info').textContent = r[0].values.length + ' entries';
+    renderTable('queue-table', r[0].columns, r[0].values);
+  } else {
+    document.getElementById('queue-info').textContent = '0 entries — run: python database/validate.py queue 500';
+    renderTable('queue-table', [], []);
+  }
+}
+
+function loadRecentValidations() {
+  const sql = `SELECT indicator as IP, source, queried_at as validated_at,
+    abuse_contact as key_finding, country
+    FROM enrichment_results
+    WHERE source IN ('shodan','abuseipdb','virustotal')
+    ORDER BY queried_at DESC LIMIT 50`;
+  const r = q(sql);
+  if (r.length > 0) {
+    renderTable('recent-val-table', r[0].columns, r[0].values);
+  } else {
+    renderTable('recent-val-table', [], []);
+  }
+}
+
+// Quick validation via browser fetch (Shodan InternetDB + optional VT)
+async function quickValidate() {
+  const ip = document.getElementById('quick-val-ip').value.trim();
+  if (!ip || !/^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/.test(ip)) {
+    alert('Enter a valid IPv4 address');
+    return;
+  }
+
+  const statusEl = document.getElementById('quick-val-status');
+  const resultsDiv = document.getElementById('quick-val-results');
+  const shodanDiv = document.getElementById('shodan-result');
+  const vtDiv = document.getElementById('vt-result');
+
+  statusEl.textContent = 'Querying Shodan InternetDB...';
+  resultsDiv.style.display = 'block';
+  shodanDiv.textContent = 'Loading...';
+  vtDiv.textContent = 'Waiting...';
+
+  // Shodan InternetDB (free, CORS-friendly)
+  try {
+    const resp = await fetch('https://internetdb.shodan.io/' + ip);
+    if (resp.status === 404) {
+      shodanDiv.textContent = 'No data (IP not indexed by Shodan)';
+    } else {
+      const data = await resp.json();
+      let out = '';
+      if (data.ports && data.ports.length) out += 'Ports: ' + data.ports.join(', ') + '\n';
+      if (data.vulns && data.vulns.length) out += 'Vulns: ' + data.vulns.join(', ') + '\n';
+      if (data.hostnames && data.hostnames.length) out += 'Hostnames: ' + data.hostnames.join(', ') + '\n';
+      if (data.tags && data.tags.length) out += 'Tags: ' + data.tags.join(', ') + '\n';
+      if (data.cpes && data.cpes.length) out += 'CPEs: ' + data.cpes.join(', ') + '\n';
+      shodanDiv.textContent = out || 'No open ports or services found';
+    }
+  } catch (e) {
+    shodanDiv.textContent = 'Error: ' + e.message;
+  }
+
+  // VirusTotal (optional, needs user key)
+  const vtKey = document.getElementById('vt-key-input').value.trim();
+  if (vtKey) {
+    statusEl.textContent = 'Querying VirusTotal...';
+    try {
+      const resp = await fetch('https://www.virustotal.com/api/v3/ip_addresses/' + ip, {
+        headers: { 'x-apikey': vtKey }
+      });
+      const data = await resp.json();
+      if (data.error) {
+        vtDiv.textContent = 'Error: ' + (data.error.message || JSON.stringify(data.error));
+      } else {
+        const attrs = data.data?.attributes || {};
+        const stats = attrs.last_analysis_stats || {};
+        let out = '';
+        out += 'Malicious: ' + (stats.malicious || 0) + '\n';
+        out += 'Suspicious: ' + (stats.suspicious || 0) + '\n';
+        out += 'Harmless: ' + (stats.harmless || 0) + '\n';
+        out += 'Undetected: ' + (stats.undetected || 0) + '\n';
+        out += 'Reputation: ' + (attrs.reputation || 0) + '\n';
+        out += 'AS Owner: ' + (attrs.as_owner || 'N/A') + '\n';
+        out += 'Network: ' + (attrs.network || 'N/A') + '\n';
+        vtDiv.textContent = out;
+      }
+    } catch (e) {
+      vtDiv.textContent = 'Error: ' + e.message;
+    }
+  } else {
+    vtDiv.textContent = 'Enter VT API key above for VirusTotal data';
+  }
+
+  statusEl.textContent = 'Done — ' + ip;
+}
+
+// =============================================================
+// ATTRIBUTION TAB
+// =============================================================
+
+function loadAttribution() {
+  if (!tableExists('campaigns')) {
+    document.getElementById('attribution-loading').textContent = 'Attribution tables not found. Load a database with attribution data.';
+    return;
+  }
+  document.getElementById('attribution-loading').style.display = 'none';
+  document.getElementById('attribution-content').style.display = 'block';
+
+  // Summary cards
+  const counts = [
+    { label: 'Campaigns', sql: 'SELECT COUNT(*) FROM campaigns', cls: 'critical' },
+    { label: 'Attribution Sources', sql: 'SELECT COUNT(*) FROM attribution_sources', cls: 'info' },
+    { label: 'Campaign IOCs', sql: 'SELECT COUNT(*) FROM campaign_iocs', cls: 'high' },
+    { label: 'Hosting Providers', sql: 'SELECT COUNT(*) FROM hosting_providers', cls: 'purple' },
+    { label: 'Correlations', sql: 'SELECT COUNT(*) FROM campaign_correlations', cls: 'critical' },
+    { label: 'Takedown Targets', sql: 'SELECT COUNT(*) FROM takedown_targets', cls: 'medium' },
+  ];
+  let cardsHtml = '';
+  counts.forEach(c => {
+    const val = qVal(c.sql);
+    cardsHtml += `<div class="card ${c.cls}"><div class="label">${c.label}</div><div class="value">${val}</div></div>`;
+  });
+  document.getElementById('attribution-cards').innerHTML = cardsHtml;
+
+  // Campaigns table
+  const camps = q("SELECT campaign_name, aliases, threat_actor_type, origin_country, confidence FROM campaigns ORDER BY id");
+  if (camps.length > 0) renderTable('campaigns-table', camps[0].columns, camps[0].values);
+
+  // Populate campaign filter
+  const campList = q("SELECT id, campaign_name FROM campaigns ORDER BY id");
+  if (campList.length > 0) {
+    const sel = document.getElementById('attr-campaign-filter');
+    campList[0].values.forEach(([id, name]) => {
+      const opt = document.createElement('option');
+      opt.value = id;
+      opt.textContent = name;
+      sel.appendChild(opt);
+    });
+  }
+
+  loadAttributionSources();
+
+  // Campaign IOCs
+  const iocs = q("SELECT c.campaign_name, ci.ioc_type, ci.ioc_value, ci.role, ci.notes FROM campaign_iocs ci JOIN campaigns c ON ci.campaign_id=c.id ORDER BY c.id, ci.ioc_type");
+  if (iocs.length > 0) renderTable('campaign-iocs-table', iocs[0].columns, iocs[0].values);
+
+  // Hosting providers
+  const hosts = q("SELECT provider_name, asn, ioc_count, classification, sanctions_status, country, notes FROM hosting_providers ORDER BY ioc_count DESC");
+  if (hosts.length > 0) renderTable('hosting-table', hosts[0].columns, hosts[0].values);
+
+  // Cert patterns
+  const certs = q("SELECT cn_pattern, host_count, assessment FROM cert_patterns ORDER BY host_count DESC");
+  if (certs.length > 0) renderTable('certs-table', certs[0].columns, certs[0].values);
+
+  // Takedown targets
+  const tkd = q("SELECT priority_id, tier, target, provider, jurisdiction, action, ioc_count, campaigns_affected, status FROM takedown_targets ORDER BY tier, priority_id");
+  if (tkd.length > 0) renderTable('takedown-table', tkd[0].columns, tkd[0].values);
+}
+
+function loadAttributionSources() {
+  const campId = document.getElementById('attr-campaign-filter').value;
+  let sql = "SELECT c.campaign_name, a.source_org, a.report_title, a.publish_date, a.source_type FROM attribution_sources a JOIN campaigns c ON a.campaign_id=c.id";
+  if (campId) sql += ` WHERE a.campaign_id = ${campId}`;
+  sql += " ORDER BY c.id, a.source_org";
+  const r = q(sql);
+  if (r.length > 0) {
+    document.getElementById('attr-sources-info').textContent = `${r[0].values.length} sources`;
+    renderTable('attr-sources-table', r[0].columns, r[0].values);
+  } else {
+    document.getElementById('attr-sources-info').textContent = '0 sources';
+    renderTable('attr-sources-table', [], []);
+  }
+}
+
+// =============================================================
+// INTER-AGENCY TAB
+// =============================================================
+
+function loadInterAgency() {
+  if (!tableExists('campaign_correlations')) {
+    document.getElementById('interagency-loading').textContent = 'Correlation tables not found. Load a database with attribution data.';
+    return;
+  }
+  document.getElementById('interagency-loading').style.display = 'none';
+  document.getElementById('interagency-content').style.display = 'block';
+
+  loadCorrelations();
+
+  // Convergence points
+  const convergence = [
+    { label: 'Hetzner AS24940', actors: 'GRU + SVR + Campaigns', iocs: 47, cls: 'critical' },
+    { label: 'AEZA AS210644', actors: 'State + Criminal', iocs: 888, cls: 'critical' },
+    { label: 'M247 AS9009', actors: 'APT28 + C2 Ops', iocs: 38, cls: 'high' },
+    { label: 'Vultr AS20473', actors: 'APT28 + General C2', iocs: 66, cls: 'high' },
+    { label: 'Private Layer AS51852', actors: 'Unit 29155', iocs: 3, cls: 'medium' },
+  ];
+  let convHtml = '';
+  convergence.forEach(c => {
+    convHtml += `<div class="card ${c.cls}"><div class="label">${c.label}</div><div class="value">${c.iocs} IOCs</div><div style="font-size:11px;color:var(--text2)">${c.actors}</div></div>`;
+  });
+  document.getElementById('convergence-cards').innerHTML = convHtml;
+}
+
+function loadCorrelations() {
+  const confFilter = document.getElementById('corr-confidence-filter').value;
+  const typeFilter = document.getElementById('corr-type-filter').value;
+
+  let where = [];
+  if (confFilter === 'high') where.push("cc.confidence = 'high'");
+  else if (confFilter === 'moderate') where.push("cc.confidence IN ('high','moderate')");
+  if (typeFilter) where.push(`cc.link_type = '${typeFilter}'`);
+
+  const whereStr = where.length ? ' WHERE ' + where.join(' AND ') : '';
+  const sql = `SELECT c1.campaign_name as 'Campaign A', c2.campaign_name as 'Campaign B', cc.link_type as 'Link Type', UPPER(cc.confidence) as 'Confidence', cc.link_detail as 'Detail' FROM campaign_correlations cc JOIN campaigns c1 ON cc.campaign_a_id=c1.id JOIN campaigns c2 ON cc.campaign_b_id=c2.id${whereStr} ORDER BY CASE cc.confidence WHEN 'high' THEN 1 WHEN 'moderate' THEN 2 WHEN 'low' THEN 3 END, c1.campaign_name`;
+  const r = q(sql);
+
+  if (r.length > 0) {
+    document.getElementById('corr-info').textContent = `${r[0].values.length} correlations`;
+    renderTable('corr-table', r[0].columns, r[0].values);
+  } else {
+    document.getElementById('corr-info').textContent = '0 correlations';
+    renderTable('corr-table', [], []);
+  }
+}
+</script>
+</body>
+</html>

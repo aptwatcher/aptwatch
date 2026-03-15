@@ -1,0 +1,58 @@
+# =============================================================
+#  Community IOC Submission Template
+# =============================================================
+#
+#  How to contribute:
+#  1. Copy this file to community/submissions/your-name-YYYY-MM-DD.yaml
+#  2. Fill in the fields below
+#  3. Open a Pull Request
+#
+#  A GitHub Action will validate your submission automatically.
+#  A maintainer will review and import approved IOCs into the database.
+#
+# =============================================================
+
+# Required: who is submitting
+author: your-github-username
+
+# Required: where did you find these IOCs?
+source: https://example.com/threat-report
+source_name: Example Threat Report
+
+# Optional: which APT group(s) does this relate to?
+apt_groups:
+  - APT28
+  # - APT29
+  # - Gamaredon
+  # - Turla
+
+# Optional: any context about the campaign
+description: >
+  Brief description of the campaign or threat report.
+
+# =============================================================
+#  IOCs — add as many as needed, remove unused sections
+# =============================================================
+
+ipv4:
+  # - 1.2.3.4
+  # - 5.6.7.8
+
+domains:
+  # - malicious-domain.com
+  # - c2-server.example.net
+
+urls:
+  # - https://malicious-domain.com/payload.exe
+
+ipv6:
+  # - 2001:db8::1
+
+emails:
+  # - attacker@example.com
+
+cidrs:
+  # - 192.168.1.0/24
+
+cves:
+  # - CVE-2024-12345

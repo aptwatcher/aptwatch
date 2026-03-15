@@ -1,0 +1,108 @@
+name: Deploy Dashboard to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'web/**'
+      - 'apt_intel_web.db'
+      - 'blocklists/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download web database
+        uses: actions/download-artifact@v4
+        with:
+          name: apt-intel-web-db
+          path: web/
+        continue-on-error: true
+
+      - name: Prepare Pages content
+        run: |
+          # Ensure CNAME is present for custom domain
+          echo "aptwatch.org" > web/CNAME
+
+          # Copy blocklists for direct download
+          mkdir -p web/blocklists
+          cp blocklists/* web/blocklists/ 2>/dev/null || true
+
+          # Copy IOC files
+          mkdir -p web/iocs
+          cp iocs/*.txt web/iocs/ 2>/dev/null || true
+
+          # Generate a simple directory listing
+          cat > web/feeds.html << 'EOF'
+          <!DOCTYPE html>
+          <html>
+          <head><title>APT Intel Feeds</title>
+          <style>
+            body { font-family: monospace; max-width: 800px; margin: 40px auto; padding: 0 20px; background: #1a1a2e; color: #e0e0e0; }
+            h1 { color: #00d4ff; }
+            a { color: #00ff88; }
+            .section { margin: 20px 0; padding: 15px; background: #16213e; border-radius: 8px; }
+            .file { margin: 5px 0; }
+            .size { color: #888; margin-left: 10px; }
+          </style>
+          </head>
+          <body>
+          <h1>APT Intelligence Feeds</h1>
+          <div class="section">
+            <h2>Blocklists (Firehol .netset format)</h2>
+            <div class="file"><a href="blocklists/apt-ips-high.netset">apt-ips-high.netset</a> — High confidence IPs (5+ OSINT sources)</div>
+            <div class="file"><a href="blocklists/apt-ips-medium.netset">apt-ips-medium.netset</a> — Medium confidence (3+ sources)</div>
+            <div class="file"><a href="blocklists/apt-ips-all.netset">apt-ips-all.netset</a> — All validated IPs</div>
+            <div class="file"><a href="blocklists/apt-subnets.netset">apt-subnets.netset</a> — High-density subnets</div>
+          </div>
+          <div class="section">
+            <h2>Domain Blocklists</h2>
+            <div class="file"><a href="blocklists/apt-domains.hosts">apt-domains.hosts</a> — StevenBlack hosts format</div>
+            <div class="file"><a href="blocklists/apt-domains-plain.txt">apt-domains-plain.txt</a> — Plain domain list (Pi-hole/DNS)</div>
+            <div class="file"><a href="blocklists/apt-combined.hosts">apt-combined.hosts</a> — Combined IPs + domains</div>
+          </div>
+          <div class="section">
+            <h2>Raw IOC Files</h2>
+            <div class="file"><a href="iocs/ipv4.txt">ipv4.txt</a> — All IPv4 IOCs</div>
+            <div class="file"><a href="iocs/cidr.txt">cidr.txt</a> — CIDR ranges</div>
+            <div class="file"><a href="iocs/domains.txt">domains.txt</a> — Domain IOCs</div>
+          </div>
+          <div class="section">
+            <h2>Interactive Dashboard</h2>
+            <div class="file"><a href="index.html">Dashboard</a> — Full interactive analytics (requires web DB)</div>
+          </div>
+          </body></html>
+          EOF
+
+          echo "Pages content prepared:"
+          find web/ -type f | head -20
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'web/'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
