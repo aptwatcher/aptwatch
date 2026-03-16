@@ -39,8 +39,12 @@ jobs:
 
       - name: Prepare Pages content
         run: |
-          # Ensure CNAME is present for custom domain
+          # CNAME for custom domain
           echo "aptwatch.org" > web/CNAME
+
+          # Copy logo assets into web/ (index.html references them locally)
+          cp aptwatch-logo.svg web/ 2>/dev/null || true
+          cp aptwatch-logo.png web/ 2>/dev/null || true
 
           # Copy blocklists for direct download
           mkdir -p web/blocklists
@@ -50,7 +54,7 @@ jobs:
           mkdir -p web/iocs
           cp iocs/*.txt web/iocs/ 2>/dev/null || true
 
-          # Generate a simple directory listing
+          # Generate feeds directory listing
           cat > web/feeds.html << 'EOF'
           <!DOCTYPE html>
           <html>
@@ -61,7 +65,6 @@ jobs:
             a { color: #00ff88; }
             .section { margin: 20px 0; padding: 15px; background: #16213e; border-radius: 8px; }
             .file { margin: 5px 0; }
-            .size { color: #888; margin-left: 10px; }
           </style>
           </head>
           <body>
@@ -87,13 +90,13 @@ jobs:
           </div>
           <div class="section">
             <h2>Interactive Dashboard</h2>
-            <div class="file"><a href="index.html">Dashboard</a> — Full interactive analytics (requires web DB)</div>
+            <div class="file"><a href="index.html">Dashboard</a> — Full interactive analytics</div>
           </div>
           </body></html>
           EOF
 
           echo "Pages content prepared:"
-          find web/ -type f | head -20
+          find web/ -type f | head -30
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
