@@ -25,7 +25,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -33,7 +33,7 @@ jobs:
           python-version: '3.11'
 
       - name: Download database artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: apt-intel-db
           path: database/
@@ -98,7 +98,7 @@ jobs:
         run: python apt.py export
 
       - name: Upload updated database
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: apt-intel-db
           path: database/apt_intel.db
@@ -106,7 +106,7 @@ jobs:
           overwrite: true
 
       - name: Upload web database
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: apt-intel-web-db
           path: apt_intel_web.db
@@ -115,7 +115,7 @@ jobs:
 
       - name: Upload validation log
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: validate-log-${{ github.run_number }}
           path: database/logs/

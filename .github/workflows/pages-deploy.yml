@@ -28,10 +28,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Download web database
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: apt-intel-web-db
           path: web/
@@ -55,7 +55,7 @@ jobs:
           cp iocs/*.txt web/iocs/ 2>/dev/null || true
 
           # Generate feeds directory listing
-          cat > web/feeds.html << 'EOF'
+          cat > web/feeds.html << 'FEEDSEOF'
           <!DOCTYPE html>
           <html>
           <head><title>APT Intel Feeds</title>
@@ -93,19 +93,19 @@ jobs:
             <div class="file"><a href="index.html">Dashboard</a> — Full interactive analytics</div>
           </div>
           </body></html>
-          EOF
+          FEEDSEOF
 
           echo "Pages content prepared:"
           find web/ -type f | head -30
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: 'web/'
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
