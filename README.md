@@ -271,6 +271,38 @@ aptwatch/
 
 ---
 
+## Acknowledgments
+
+APT Watch exists because of the OSINT community and the organizations that make threat intelligence freely accessible. This project wouldn't be possible without them.
+
+### Validation & enrichment sources
+
+| Source | Provider | What it gives us |
+|--------|----------|-----------------|
+| [Shodan InternetDB](https://internetdb.shodan.io/) | Shodan | Open ports, vulnerabilities, hostnames — free, no key, unlimited |
+| [AlienVault OTX](https://otx.alienvault.com/) | AT&T Cybersecurity | Pulse-based threat intelligence, community IOCs |
+| [AbuseIPDB](https://www.abuseipdb.com/) | Marathon Studios | Crowd-sourced IP abuse reports and confidence scores |
+| [VirusTotal](https://www.virustotal.com/) | Google / Chronicle | Multi-engine malware and URL scanning |
+| [Censys Search](https://search.censys.io/) | Censys | Internet-wide scanning, certificate and host data |
+| [DShield / SANS ISC](https://isc.sans.edu/) | SANS Institute | Attack correlation, IP threat scoring |
+| [abuse.ch ThreatFox](https://threatfox.abuse.ch/) | abuse.ch | IOC sharing platform, malware-related indicators |
+| [FireHOL IP Lists](https://iplists.firehol.org/) | FireHOL / Costa Tsaousis | Curated, aggregated IP blocklists from 40+ sources |
+| [Steven Black Hosts](https://github.com/StevenBlack/hosts) | Steven Black | Unified hosts file with extensions for malware and adware domains |
+| [ip-api.com](https://ip-api.com/) | ip-api | Geolocation, ASN, and ISP data for enrichment |
+| [RDAP](https://about.rdap.org/) | ARIN / RIPE / APNIC | IP and domain registration data |
+
+### Threat intelligence & attribution
+
+The attribution and campaign mapping in this project draws on public research from:
+
+Mandiant/Google (APT28, APT29, APT44/Sandworm reports), Microsoft Threat Intelligence (Cadet Blizzard, Midnight Blizzard, Star Blizzard), ESET (Gamaredon-Turla collaboration research, Sep 2025), Recorded Future (GRU infrastructure tracking), Check Point Research (Storm-2372 / APT29 overlap), Volexity (device-code phishing campaigns), CISA / FBI / NSA joint advisories, and the broader OSINT community sharing indicators through OTX pulses, ThreatFox submissions, and open threat reports.
+
+### The OSINT community
+
+Special thanks to the analysts, researchers, and hobbyists who share IOCs, write threat reports, and maintain the free tools that make projects like this possible. If you've published APT research, built an OSINT tool, or contributed indicators to any of the platforms above — this project stands on your work.
+
+---
+
 ## License
 
 This project is released under the [Unlicense](LICENSE) — it's public domain. You can use, modify, and distribute it without restriction.
