@@ -39,17 +39,22 @@ jobs:
         continue-on-error: true
 
       - name: Check database
+        id: db-check
         run: |
           if [ ! -f database/apt_intel.db ]; then
-            echo "::error::No database found. Run validation workflow first."
-            exit 1
+            echo "No database artifact yet — skipping blocklist generation"
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "Database: $(du -h database/apt_intel.db | cut -f1)"
+            echo "skip=false" >> $GITHUB_OUTPUT
           fi
-          echo "Database: $(du -h database/apt_intel.db | cut -f1)"
 
       - name: Generate blocklists
+        if: steps.db-check.outputs.skip != 'true'
         run: python scripts/generate_blocklists.py
 
       - name: Export web database
+        if: steps.db-check.outputs.skip != 'true'
         run: python scripts/export.py
 
       - name: Show blocklist stats
