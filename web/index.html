@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>APT Intel Dashboard</title>
+<meta name="description" content="APT Intelligence Dashboard — Russian APT infrastructure tracking, IOC database, OSINT validation, and live blocklist feeds.">
+<meta name="keywords" content="threat intelligence, APT, IOC, OSINT, cybersecurity, blocklist, APT28, APT29, Sandworm, firehol, pihole, threat hunting">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
 <style>
 :root {
@@ -78,15 +80,25 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
 <div class="tlp-banner">TLP:AMBER — RUSSIAN APT INFRASTRUCTURE INTELLIGENCE</div>
 
 <header>
-  <img src="../aptwatch-logo.svg" alt="APTWatch" style="height:32px;width:32px;">
+  <img src="aptwatch-logo.svg" alt="APTWatch" style="height:32px;width:32px;">
   <h1>APT Intel Dashboard</h1>
-  <span class="status" id="db-status">No database loaded</span>
+  <div style="display:flex;align-items:center;gap:12px;margin-left:auto">
+    <a href="https://api.aptwatch.org/api/download/web" title="Download web DB (~23 MB)" style="color:var(--text2);font-size:12px;text-decoration:none">Download DB</a>
+    <span style="color:var(--border)">|</span>
+    <a href="feeds.html" style="color:var(--text2);font-size:12px;text-decoration:none" title="Blocklist feeds">Feeds</a>
+    <span style="color:var(--border)">|</span>
+    <a href="https://github.com/aptwatcher/aptwatch" target="_blank" rel="noopener" title="View on GitHub" style="color:var(--text2);display:flex;align-items:center">
+      <svg height="18" width="18" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+    </a>
+    <span style="color:var(--border)">|</span>
+    <span class="status" id="db-status">No database loaded</span>
+  </div>
 </header>
 
 <div id="load-section">
   <label for="db-file">Load Database</label>
   <input type="file" id="db-file" accept=".db,.sqlite,.sqlite3">
-  <span class="info">Select <code>apt_intel_web.db</code> (fast, ~4 MB) or <code>apt_intel.db</code> (full, ~315 MB)</span>
+  <span class="info" id="load-info">Select <code>apt_intel_web.db</code> (fast, ~4 MB) or <code>apt_intel.db</code> (full, ~315 MB)</span>
 </div>
 
 <nav id="tabs-nav" style="display:none">
@@ -709,6 +721,39 @@ let isWebExport = false;
 // =============================================================
 // DATABASE LOADING
 // =============================================================
+
+// Auto-load web DB when hosted on a web server (GitHub Pages, etc.)
+async function autoLoadDB() {
+  const statusEl = document.getElementById('db-status');
+  const loadInfo = document.getElementById('load-info');
+  if (window.location.protocol === 'file:') return;
+  try {
+    statusEl.textContent = 'Auto-loading web database...';
+    loadInfo.textContent = 'Fetching apt_intel_web.db from server...';
+    const resp = await fetch('apt_intel_web.db');
+    if (!resp.ok) {
+      statusEl.textContent = 'No database deployed yet \u2014 upload manually';
+      loadInfo.textContent = 'apt_intel_web.db not found on server. Upload a local copy or wait for the next sync.';
+      return;
+    }
+    const SQL = await initSqlJs({ locateFile: f => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/${f}` });
+    const buf = await resp.arrayBuffer();
+    const size = (buf.byteLength / 1024 / 1024).toFixed(1);
+    db = new SQL.Database(new Uint8Array(buf));
+    try {
+      const r = db.exec("SELECT value FROM metadata WHERE key='web_export'");
+      isWebExport = r.length > 0 && r[0].values[0][0] === 'true';
+    } catch(e) { isWebExport = false; }
+    statusEl.textContent = `Loaded: apt_intel_web.db (${size} MB)${isWebExport ? ' [web export]' : ''}`;
+    document.getElementById('tabs-nav').style.display = 'flex';
+    document.getElementById('load-section').style.display = 'none';
+    loadOverview();
+  } catch (e) {
+    console.warn('Auto-load failed:', e);
+    statusEl.textContent = 'Auto-load failed \u2014 upload manually';
+  }
+}
+autoLoadDB();
 
 document.getElementById('db-file').addEventListener('change', async function(e) {
   const file = e.target.files[0];
