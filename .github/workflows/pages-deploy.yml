@@ -5,8 +5,8 @@ on:
     branches: [main]
     paths:
       - 'web/**'
-      - 'apt_intel_web.db'
       - 'blocklists/**'
+      - 'iocs/**'
   workflow_dispatch:
 
 permissions:
@@ -30,19 +30,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Download web database
-        uses: actions/download-artifact@v5
-        with:
-          name: apt-intel-web-db
-          path: web/
-        continue-on-error: true
-
       - name: Prepare Pages content
         run: |
           # CNAME for custom domain
           echo "aptwatch.org" > web/CNAME
 
-          # Copy logo assets into web/ (index.html references them locally)
+          # Copy logo assets into web/
           cp aptwatch-logo.svg web/ 2>/dev/null || true
           cp aptwatch-logo.png web/ 2>/dev/null || true
 
@@ -53,6 +46,13 @@ jobs:
           # Copy IOC files
           mkdir -p web/iocs
           cp iocs/*.txt web/iocs/ 2>/dev/null || true
+
+          # Check for web database
+          if [ -f web/apt_intel_web.db ]; then
+            echo "Web database: $(du -h web/apt_intel_web.db | cut -f1)"
+          else
+            echo "::warning::No web database found. Dashboard will prompt for manual upload."
+          fi
 
           # Generate feeds directory listing
           cat > web/feeds.html << 'FEEDSEOF'
@@ -95,7 +95,7 @@ jobs:
           </body></html>
           FEEDSEOF
 
-          echo "Pages content prepared:"
+          echo "Pages content:"
           find web/ -type f | head -30
 
       - name: Setup Pages

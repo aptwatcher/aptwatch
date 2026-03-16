@@ -1,101 +1,49 @@
-name: Generate Blocklists
+name: Blocklist Stats
+
+# The server generates blocklists and pushes them.
+# This workflow just reports stats on what was pushed.
 
 on:
-  # Run after validation workflow completes
-  workflow_run:
-    workflows: ["OSINT Validation"]
-    types: [completed]
-  # Or manually
-  workflow_dispatch:
-  # Or on push to IOC files
   push:
     paths:
+      - 'blocklists/**'
       - 'iocs/ipv4.txt'
       - 'iocs/domains.txt'
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  generate:
+  stats:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name != 'workflow_run' }}
-    timeout-minutes: 30
+    timeout-minutes: 5
 
     steps:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Download database artifact
-        uses: actions/download-artifact@v5
-        with:
-          name: apt-intel-db
-          path: database/
-        continue-on-error: true
-
-      - name: Check database
-        id: db-check
+      - name: Blocklist stats
         run: |
-          if [ ! -f database/apt_intel.db ]; then
-            echo "::warning::No database artifact found — skipping generation."
-            echo "Run 'Seed Database' or 'OSINT Validation' workflow first."
-            echo "skip=true" >> $GITHUB_OUTPUT
-          else
-            echo "Database: $(du -h database/apt_intel.db | cut -f1)"
-            echo "skip=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Generate blocklists
-        if: steps.db-check.outputs.skip != 'true'
-        run: python scripts/generate_blocklists.py
-
-      - name: Export web database
-        if: steps.db-check.outputs.skip != 'true'
-        run: python scripts/export.py
-
-      - name: Show blocklist stats
-        if: steps.db-check.outputs.skip != 'true'
-        run: |
-          echo "## Blocklist Generation Results" >> $GITHUB_STEP_SUMMARY
+          echo "## Blocklist Update" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
+
           for f in blocklists/*; do
+            [ -f "$f" ] || continue
             lines=$(grep -c -v '^#' "$f" 2>/dev/null || echo 0)
             size=$(du -h "$f" | cut -f1)
             echo "- \`$(basename $f)\`: $lines entries ($size)" >> $GITHUB_STEP_SUMMARY
           done
 
-      - name: Commit updated blocklists
-        if: steps.db-check.outputs.skip != 'true'
-        run: |
-          git config user.name "APT Intel Bot"
-          git config user.email "bot@apt-intel.local"
-          git add blocklists/ iocs/ apt_intel_web.db
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "auto: regenerate blocklists [skip ci]"
-            git push
-          fi
-
-      - name: Upload web database
-        if: steps.db-check.outputs.skip != 'true'
-        uses: actions/upload-artifact@v5
-        with:
-          name: apt-intel-web-db
-          path: apt_intel_web.db
-          retention-days: 90
-          overwrite: true
-
-      - name: Summary (no database)
-        if: steps.db-check.outputs.skip == 'true'
-        run: |
-          echo "## Blocklist Generation Skipped" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "No database artifact found. To bootstrap:" >> $GITHUB_STEP_SUMMARY
-          echo "1. Run the **Seed Database** workflow after pushing apt_intel.db" >> $GITHUB_STEP_SUMMARY
-          echo "2. Or run **OSINT Validation** after seeding" >> $GITHUB_STEP_SUMMARY
+          echo "### IOC Files" >> $GITHUB_STEP_SUMMARY
+          for f in iocs/*.txt; do
+            [ -f "$f" ] || continue
+            lines=$(grep -c -v '^#' "$f" 2>/dev/null || echo 0)
+            echo "- \`$(basename $f)\`: $lines entries" >> $GITHUB_STEP_SUMMARY
+          done
+
+          if [ -f web/apt_intel_web.db ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "- Web database: $(du -h web/apt_intel_web.db | cut -f1)" >> $GITHUB_STEP_SUMMARY
+          fi

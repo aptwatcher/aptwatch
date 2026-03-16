@@ -1,9 +1,10 @@
 name: OSINT Validation
 
+# Manual only — the server runs validation automatically via systemd timer.
+# Use this workflow to run additional validation from GitHub Actions
+# (requires API keys in repo secrets).
+
 on:
-  schedule:
-    # Every 6 hours: midnight, 6am, noon, 6pm UTC
-    - cron: '0 0,6,12,18 * * *'
   workflow_dispatch:
     inputs:
       source:
@@ -32,22 +33,12 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Download database artifact
-        uses: actions/download-artifact@v5
-        with:
-          name: apt-intel-db
-          path: database/
-        continue-on-error: true
-
       - name: Check database exists
-        id: db-check
         run: |
-          if [ -f database/apt_intel.db ]; then
-            echo "exists=true" >> $GITHUB_OUTPUT
-            echo "Database found ($(du -h database/apt_intel.db | cut -f1))"
-          else
-            echo "exists=false" >> $GITHUB_OUTPUT
-            echo "::error::No database found. Upload apt_intel.db as artifact 'apt-intel-db' first."
+          if [ ! -f database/apt_intel.db ]; then
+            echo "::error::No database found at database/apt_intel.db."
+            echo "This workflow requires the full database."
+            echo "For normal operation, use the server-side validation (systemd timer)."
             exit 1
           fi
 
@@ -93,33 +84,6 @@ jobs:
 
       - name: Show status
         run: python apt.py validate status
-
-      - name: Export web database
-        run: python apt.py export
-
-      - name: Upload updated database
-        uses: actions/upload-artifact@v5
-        with:
-          name: apt-intel-db
-          path: database/apt_intel.db
-          retention-days: 90
-          overwrite: true
-
-      - name: Upload web database
-        uses: actions/upload-artifact@v5
-        with:
-          name: apt-intel-web-db
-          path: apt_intel_web.db
-          retention-days: 90
-          overwrite: true
-
-      - name: Upload validation log
-        if: always()
-        uses: actions/upload-artifact@v5
-        with:
-          name: validate-log-${{ github.run_number }}
-          path: database/logs/
-          retention-days: 30
 
       - name: Summary
         if: always()

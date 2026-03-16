@@ -1,3 +1,5 @@
+# APT IPv4 IOCs - Auto-generated from database
+# Count: 5774
 1.117.63.97
 1.12.233.147
 1.12.254.118
