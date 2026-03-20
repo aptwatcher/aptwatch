@@ -1,0 +1,38 @@
+author: svti
+source: https://www.seqrite.com/blog/operation-ghostmail-zimbra-xss-russian-apt-ukraine/
+source_name: "Seqrite Labs - Operation GhostMail: Russian APT exploits Zimbra Webmail"
+apt_groups:
+  - APT28
+description: >
+  Operation GhostMail (Seqrite Labs, Mar 2026). APT28 (Fancy Bear) exploits CVE-2025-66376,
+  a stored XSS in Zimbra Collaboration (CSS @import sanitization bypass), to target the
+  Ukrainian State Hydrology Agency. Fileless/browser-only attack chain: obfuscated JS
+  embedded in HTML email body executes on open in Zimbra Classic UI. Two-stage payload
+  harvests ZMBAuthToken, CSRF tokens, 2FA backup codes, browser-saved passwords, and
+  up to 90 days of mailbox content via Zimbra SOAP API. Creates persistent app-specific
+  password "ZimbraWeb" and enables IMAP for long-term access. Dual-channel exfiltration
+  via HTTPS (bulk) and Base32-encoded DNS queries. C2 domain registered 2026-01-20,
+  phishing email delivered 2026-01-22. Medium-confidence attribution to APT28 based on
+  SpyPress.ZIMBRA payload overlap and ESET Operation RoundPress patterns.
+
+  aptwatch enrichment (2026-03-20): Zero overlap with existing IOC database. aptwatch
+  tracks 80+ Zimbra-themed phishing domains but none from this campaign infrastructure.
+  No IPs published — attack is entirely browser-resident with no binaries dropped.
+  DNS resolution for zimbrasoft[.]com[.]ua returned no A record (likely sinkholed or
+  taken down). CISA added CVE-2025-66376 to KEV catalog 2026-03-19 with deadline
+  2026-04-01.
+
+  Note: IOC set is intentionally small. This is a fileless attack; the only network
+  indicators are the C2 domain and its dynamically generated subdomains used for
+  DNS exfiltration (pattern: d-[a-z0-9]{12}.i.zimbrasoft[.]com[.]ua).
+
+domains:
+  - zimbrasoft[.]com[.]ua                      # Primary C2 domain, registered 2026-01-20
+  - js-l1wt597cimk[.]i[.]zimbrasoft[.]com[.]ua  # Observed exfiltration subdomain
+  - js-26tik3egye4[.]i[.]zimbrasoft[.]com[.]ua  # Observed exfiltration subdomain
+
+cves:
+  - CVE-2025-66376
+
+# No IPs or file hashes — this is a fully browser-resident attack with no binaries.
+# DNS exfiltration subdomains follow pattern: d-[a-z0-9]{12}.i.zimbrasoft[.]com[.]ua
