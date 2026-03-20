@@ -47,6 +47,8 @@ ALLOWED_FIELDS = {'author', 'source', 'source_name', 'apt_groups', 'description'
 
 # Characters that should NEVER appear in IOC values (shell injection vectors)
 DANGEROUS_CHARS = re.compile(r'[;|&`!{}()\x00-\x08\x0e-\x1f]')
+# URLs legitimately contain & ? = % so use a narrower check
+DANGEROUS_CHARS_URL = re.compile(r'[;|`!{}()\x00-\x08\x0e-\x1f]')
 # Path traversal
 PATH_TRAVERSAL = re.compile(r'\.\.[/\\]')
 # Forbidden YAML tags
@@ -216,7 +218,9 @@ def check_value_safety(value, ioc_type):
     if len(value) > MAX_VALUE_LENGTH:
         errors.append("SECURITY: %s value too long (%d chars, max %d): %s..." % (
             ioc_type, len(value), MAX_VALUE_LENGTH, value[:50]))
-    if DANGEROUS_CHARS.search(value):
+    # URLs legitimately contain & ? = % — use narrower check
+    pattern = DANGEROUS_CHARS_URL if ioc_type == 'urls' else DANGEROUS_CHARS
+    if pattern.search(value):
         errors.append("SECURITY: %s contains dangerous characters: %s" % (ioc_type, value))
     if PATH_TRAVERSAL.search(value):
         errors.append("SECURITY: %s contains path traversal: %s" % (ioc_type, value))
