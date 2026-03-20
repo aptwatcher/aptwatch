@@ -59,9 +59,20 @@ def import_submission(filepath, dry_run=False):
     errors, warnings, stats = validate_file(filepath, existing)
 
     if errors:
-        log("REJECTED %s — %d errors:" % (filepath.name, len(errors)))
+        is_security = any(e.startswith("SECURITY:") for e in errors)
+        prefix = "SECURITY BLOCKED" if is_security else "REJECTED"
+        log("%s %s — %d errors:" % (prefix, filepath.name, len(errors)))
         for e in errors:
             log("  ✗ %s" % e)
+        if is_security:
+            log("  ⚠ This file was blocked for security reasons and will NOT be imported.")
+            # Delete dangerous files immediately
+            if not dry_run:
+                try:
+                    filepath.unlink()
+                    log("  Dangerous file deleted: %s" % filepath.name)
+                except OSError:
+                    log("  WARNING: failed to delete dangerous file %s" % filepath.name)
         return False
 
     data = load_yaml(str(filepath))
@@ -134,6 +145,16 @@ def main():
             list(SUBMISSIONS_DIR.glob("*.yaml")) + list(SUBMISSIONS_DIR.glob("*.yml"))
         )
         files = [f for f in files if f.name != "TEMPLATE.yaml"]
+
+        # Security: warn about unexpected files in submissions/
+        for f in SUBMISSIONS_DIR.iterdir():
+            if f.is_file() and f.name != '.gitkeep' and f.suffix.lower() not in ('.yaml', '.yml'):
+                log("SECURITY WARNING: unexpected non-YAML file in submissions/: %s — deleting" % f.name)
+                try:
+                    f.unlink()
+                except OSError:
+                    pass
+
         if not files:
             print("No pending submissions.")
             return
