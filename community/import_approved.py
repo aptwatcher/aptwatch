@@ -12,12 +12,11 @@ What it does:
     1. Validates the YAML (same checks as validate_submission.py)
     2. Appends new IOCs to the iocs/ text files
     3. Runs incremental import into the database
-    4. Moves the submission to community/imported/
+    4. Deletes the submission file (clean up + prevent duplicates)
     5. Logs the import to community/import_log.txt
 """
 
 import sys
-import shutil
 from pathlib import Path
 from datetime import datetime
 
@@ -28,7 +27,7 @@ from validate_submission import load_yaml, load_existing_iocs, validate_file
 PROJECT_ROOT = Path(__file__).parent.parent
 IOCS_DIR = PROJECT_ROOT / "iocs"
 SUBMISSIONS_DIR = Path(__file__).parent / "submissions"
-IMPORTED_DIR = Path(__file__).parent / "imported"
+
 LOG_PATH = Path(__file__).parent / "import_log.txt"
 
 # Map YAML field names to IOC filenames
@@ -106,13 +105,14 @@ def import_submission(filepath, dry_run=False):
         return True
 
     if not dry_run:
-        # Move to imported/
-        IMPORTED_DIR.mkdir(exist_ok=True)
-        dest = IMPORTED_DIR / filepath.name
-        shutil.move(str(filepath), str(dest))
-        log("IMPORTED %s — %d new IOCs (author: %s, source: %s)" % (
-            filepath.name, added_total, author, source))
-        log("  Moved to community/imported/%s" % filepath.name)
+        # Delete the submission file to keep submissions/ clean and prevent duplicates
+        try:
+            filepath.unlink()
+            log("IMPORTED %s — %d new IOCs (author: %s, source: %s)" % (
+                filepath.name, added_total, author, source))
+            log("  Submission file deleted")
+        except OSError as e:
+            log("WARNING: imported but failed to delete %s: %s" % (filepath.name, e))
         log("  Run: python apt.py import iocs")
     else:
         log("DRY-RUN %s — %d new IOCs would be added" % (filepath.name, added_total))

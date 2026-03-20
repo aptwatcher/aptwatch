@@ -1,0 +1,86 @@
+# =============================================================
+#  Community IOC Submission — Warlock Ransomware (Water Manaul)
+#  New TTPs: TightVNC, Yuze, BYOVD via NSec driver
+# =============================================================
+
+author: svti
+
+source: https://www.trendmicro.com/en_us/research/26/c/dissecting-a-warlock-attack.html
+source_name: "Trend Micro - Web Shells, Tunnels, and Ransomware: Dissecting a Warlock Attack"
+
+apt_groups:
+  - Warlock
+  # Trend Micro tracks as Water Manaul
+
+description: >
+  Warlock ransomware group incident from January 2026 with enhanced TTPs.
+  Initial access via vulnerable SharePoint servers, followed by Cobalt Strike
+  beacon (DLL sideloading via MsMpSrv.exe/MsEdge.dll), DCSync credential theft,
+  lateral movement via PsExec/TightVNC/PSRemoting/RDP patching, and multiple
+  C2 channels (Velociraptor, VS Code tunnels, Cloudflare Tunnel, Yuze SOCKS5 proxy).
+  Defense evasion via BYOVD using NSecKrnl.sys driver to kill security processes.
+  Exfiltration via rclone (disguised as TrendFileSecurityCheck.exe) to S3.
+  Ransomware (LockBit-derived, .LOCKJ extension) deployed domain-wide via GPO.
+
+  ANALYSIS NOTE — BL Networks (AS399629 / blnwx.com) infrastructure overlap:
+  The primary C2 IP 198.13.158.193 belongs to AS399629 (BL Networks / blnwx.com),
+  Amsterdam NL. This ASN is already heavily represented in the aptwatch database
+  with 19 existing validated IOCs across 15 distinct /24 prefixes, and the domain
+  admin.blnwx.com is already tracked. The Warlock C2 sits in 198.13.158.0/24,
+  an announced prefix of AS399629. While this could reflect shared bulletproof
+  hosting infrastructure rather than direct actor linkage, the density of existing
+  IOCs on this ASN makes it a notable correlation worth monitoring.
+  Additionally, files.catbox.moe (used by Warlock to host wssocks payloads)
+  is already present in the aptwatch domains list.
+
+# =============================================================
+#  IOCs — Network indicators
+# =============================================================
+
+ipv4:
+  - 198.13.158.193       # Primary C2 (Yuze SOCKS5 reverse proxy), AS399629 BL Networks, Amsterdam NL
+
+domains:
+  - code[.]translatevv[.]com              # Cobalt Strike beacon C2
+  - auth[.]qgtxtebl[.]workers[.]dev      # Velociraptor C2 (Cloudflare Workers)
+  - vdfccjpnedujhrzscjtq[.]supabase[.]co # Payload hosting (Velociraptor MSI, Supabase storage)
+  # files[.]catbox[.]moe                  # Already tracked — wssocks payload hosting
+  # litter[.]catbox[.]moe                 # wssocks payload hosting (subdomain of catbox.moe)
+
+urls:
+  - hxxps://vdfccjpnedujhrzscjtq[.]supabase[.]co/storage/v1/object/public/image/v4[.]msi
+  - hxxps://litter[.]catbox[.]moe/zqqxb3.txt
+  - hxxps://litter[.]catbox[.]moe/uaw2gm.txt
+  - hxxps://files[.]catbox[.]moe/wzsjlw.dll
+
+# =============================================================
+#  NOTE: File hashes from the IoC list could not be included as
+#  the current template does not support hash IOCs.
+#
+#  Cobalt Strike beacon (MsEdge.dll):
+#    ef1b604bf2e2d598437d97af38cbed4e6dbdb3fde771eaaf8389b46c86391a0d
+#
+#  WSSocks tunnel (wss.exe):
+#    129eec0c999653e30a659f6a336c76d3b6ce810d459a7f860bacbc06fd556277
+#
+#  DCSync tool (debug.exe):
+#    d713d7e9cc7d81fdaee7ce10a37062d34783303654a870b3d8a0efd42e3c032
+#
+#  Mimikatz Termservice Patcher (old_x64.exe):
+#    e7722bcc344fc02f60708c00305c7033180e4be9a3d68b3c97e4cbe4d2963914
+#
+#  VS Code CLI (code-insiders.exe):
+#    34b2a6c334813adb2cc70f5bd666c4afbdc4a6d8a58cc1c7a902b13bbd2381f4
+#
+#  Yuze SOCKS5 proxy (yuze.dll):
+#    b5b01937291ed8660d725b8466c9b901c0daa1aab657736acc7a231f52af017d
+#
+#  BYOVD AV Killer (TrendSecurity.exe):
+#    9a3b6cf6aec6df3e5b43dc024d288d06ae03d2a909f188f38ba275a5ac6d3bf0
+#
+#  NSecKrnl vulnerable driver:
+#    206f27ae820783b7755bca89f83a0fe096dbb510018dd65b63fc80bd20c03261
+#
+#  Cloudflared installer:
+#    06142acc825e0d799d12ff0a03fd714b119c69dce868c98bb5def165b2425454
+# =============================================================
