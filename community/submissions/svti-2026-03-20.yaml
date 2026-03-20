@@ -1,0 +1,66 @@
+author: svti
+source: https://security.microsoft.com/intel-profiles
+source_name: "Microsoft Threat Intelligence - ClickFix Variant Browser Stealer Campaign"
+apt_groups: []
+description: >
+  ClickFix variant campaign (Feb 2026+) using Win+X, i, Ctrl+V, Enter to launch
+  Windows Terminal and execute clipboard-pasted PowerShell. Two attack chains identified:
+  (1) DLL sideloading chain delivering Lumma Stealer via Adersoft VbsEdit sideloading
+  with Binance Smart Chain Testnet for C2 config retrieval, and (2) MSBuild polyglot
+  batch/XML campaign with in-memory DLL loading and sandbox evasion.
+  Both chains target Chrome and Edge credential stores via QueueUserAPC-based code injection.
+
+  aptwatch enrichment (2026-03-20): Zero overlap with existing IOC database.
+  No IPs, domains, or URLs were previously tracked. No overlap with watched APT subnets.
+  Dominant hosting ASN is AS48282 (Hosting technology LTD, Moscow, RU) — 7 of 11 IPs.
+  Also seen: AS216071 (SERVERS TECH FZCO, NL) x2, AS210644 (AEZA GROUP LLC, DE) x1,
+  AS1897 (NOS COMUNICACOES, PT) x1.
+
+ipv4:
+  - 178.20.41.92    # AS48282 Hosting technology LTD, RU — batch script hosting
+  - 185.21.15.188   # AS216071 SERVERS TECH FZCO, NL — batch script hosting
+  - 88.210.53.55    # AS48282 Hosting technology LTD, RU — batch script hosting
+  - 185.209.29.87   # AS48282 Hosting technology LTD, RU — batch script hosting
+  - 94.103.87.241   # AS48282 Hosting technology LTD, RU — batch script hosting
+  - 195.23.36.143   # AS1897 NOS COMUNICACOES, PT — batch script hosting
+  - 192.144.57.152  # AS48282 Hosting technology LTD, RU — batch script hosting
+  - 91.184.246.221  # AS48282 Hosting technology LTD, RU — batch script hosting
+  - 77.238.232.165  # AS216071 SERVERS TECH FZCO, NL — batch script hosting
+  - 62.60.157.129   # AS210644 AEZA GROUP LLC, DE — batch script hosting
+  - 94.103.93.145   # AS48282 Hosting technology LTD, RU — batch script hosting
+
+domains:
+  - ferlik[.]shop              # DLL sideloading campaign — initial payload delivery
+  - winjak[.]com               # DLL sideloading campaign — C2 and staging
+  - sperianism[.]com           # DLL sideloading campaign — Lumma Stealer delivery
+  - servupdt[.]com             # MSBuild campaign — C2
+  - winiks[.]com               # MSBuild campaign — C2
+  - berlof[.]shop              # MSBuild campaign — C2
+  - rpc-framework-check[.]cfd  # MSBuild campaign — C2
+
+urls:
+  - hxxps://ferlik[.]shop/api/index[.]php?a=dl&token=3a4d4f148b4b9ab8aa222c7ee1fc63fc324f766a49a9a3686b0ff0ad753cca49&src=clickfix&cb=edge&ref=https%3A%2F%2Fwww.bing.com%2F/&mode=clickfix&cc=AU
+  - hxxps://winjak[.]com/data.php
+  - hxxps://winjak[.]com/update_data.zip
+  - hxxps://winjak[.]com/test.php
+  - hxxps://winjak[.]com/configpackT.zip
+  - hxxps://winjak[.]com/helpU.php
+  - hxxps://winjak[.]com/server.php
+  - hxxps://sperianism[.]com/klgr.rar
+
+# SHA-256 hashes (not yet supported by aptwatch schema — included for reference):
+# 3da070a518c7a80f4d08b36370d2e6ea4a88ef1ed3672b140ac2a239c22e9259  Update.dll
+# 98a752efaf3e2767406853f533dca5bc7464de135c3ca429be27da990239b0ef  update_data.zip
+# 022cb9f47ecf933265aa09b14d58e45d9d196bf3cbcd69d3c5e344b6bdfa8e2c  setup_helper.dll
+# f533107465937f95394d07fdb077cc85ae30eff612c0a8687d9e6af08e4e9b1c  run_helper.vbs
+# 7d1738f1528a5db939b8fe3242187c7829ebb485001ba5f212eab265f6967b91  configpackT.zip
+# f7a5995dbadbd9fe890903c90ea6fdde6acf265cff45fbc8336cf0f0a8c9652e  CfgHelper.dll
+# fc22d4081a91c87a7ea05046b14f692369d4c7042c89ef3935c03e8c3eca67d1  klgr.rar
+# 9464ba7338d93211f0e49746244103fd6e1b4386142a8e43d615b5cefd6248e6  8457.exe (Lumma Stealer)
+# 246db6d2a7793632c06c0736a8ca2871cb87603649243fe49891b0bdb2f07ed3  14765786.exe
+# 58bd18b7160bc10ac620619c6c95c1fb37fff5f69b1edcc09d0e2f46d02a4692  2354636.exe
+# 3995760b944d6201f5c9be430f9d35b729a0dff72a11faef56779a88c8ba0928  3753475377.exe
+# 4090a8a90a6438cc90c60a1a9c19f72f2b8e4060f6548c64a50ed0d5315cd0b6  52436642.exe
+# d48d239fd7fb7f4f9ad3fb2e8b1ef1b6ec62ff3bd05ae0e163f7112edec7be13  MSBuild polyglot batch file
+
+cves: []
