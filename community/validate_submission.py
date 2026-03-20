@@ -4,6 +4,8 @@ Validates community IOC submissions (YAML files).
 Used by GitHub Actions on PRs — never writes to the database.
 
 Checks:
+  - SECURITY: file size, extension, null bytes, YAML injection tags,
+    shell metacharacters, path traversal, unknown fields
   - Valid YAML structure
   - Required fields present (author, source)
   - IP/domain/URL format validation
@@ -31,6 +33,33 @@ except ImportError:
 PROJECT_ROOT = Path(__file__).parent.parent
 IOCS_DIR = PROJECT_ROOT / "iocs"
 SUBMISSIONS_DIR = Path(__file__).parent / "submissions"
+
+# =============================================================
+# SECURITY LIMITS
+# =============================================================
+MAX_FILE_SIZE = 100 * 1024          # 100 KB per submission
+MAX_IOCS_PER_TYPE = 500             # Max IOCs per type per submission
+MAX_IOCS_TOTAL = 2000               # Max total IOCs per submission
+MAX_VALUE_LENGTH = 500              # Max characters per IOC value
+ALLOWED_EXTENSIONS = {'.yaml', '.yml'}
+ALLOWED_FIELDS = {'author', 'source', 'source_name', 'apt_groups', 'description',
+                  'ipv4', 'ipv6', 'domains', 'urls', 'emails', 'cidrs', 'cves'}
+
+# Characters that should NEVER appear in IOC values (shell injection vectors)
+DANGEROUS_CHARS = re.compile(r'[;|&`!{}()\x00-\x08\x0e-\x1f]')
+# Path traversal
+PATH_TRAVERSAL = re.compile(r'\.\.[/\\]')
+# Forbidden YAML tags
+YAML_INJECTION = re.compile(
+    r'!!(?:python|ruby|perl|java|exec|import|apply|merge)',
+    re.IGNORECASE
+)
+# Embedded code patterns
+CODE_PATTERNS = re.compile(
+    r'<script|<\?php|^#!.*/(?:bash|sh|python|perl|ruby)|'
+    r'import\s+os\b|subprocess\.|eval\s*\(|exec\s*\(',
+    re.IGNORECASE | re.MULTILINE
+)
 
 # Domains that should never appear as IOCs
 SAFE_DOMAINS = {
@@ -178,12 +207,66 @@ def validate_cidr(cidr):
     return cidr, errors
 
 
+def check_value_safety(value, ioc_type):
+    """Check a single IOC value for shell injection and path traversal."""
+    errors = []
+    if not isinstance(value, str):
+        errors.append("SECURITY: %s value is not a string: %r" % (ioc_type, value))
+        return errors
+    if len(value) > MAX_VALUE_LENGTH:
+        errors.append("SECURITY: %s value too long (%d chars, max %d): %s..." % (
+            ioc_type, len(value), MAX_VALUE_LENGTH, value[:50]))
+    if DANGEROUS_CHARS.search(value):
+        errors.append("SECURITY: %s contains dangerous characters: %s" % (ioc_type, value))
+    if PATH_TRAVERSAL.search(value):
+        errors.append("SECURITY: %s contains path traversal: %s" % (ioc_type, value))
+    return errors
+
+
 def validate_file(filepath, existing):
     """Validate a single submission file. Returns (errors, warnings, stats)."""
     errors = []
     warnings = []
     stats = {"new": 0, "duplicate": 0, "rejected": 0}
 
+    # ── Security pre-checks ──────────────────────────────────
+    filepath = Path(filepath)
+
+    # File extension check
+    if filepath.suffix.lower() not in ALLOWED_EXTENSIONS:
+        return ["SECURITY: invalid file extension '%s' (only .yaml/.yml allowed)" % filepath.suffix], warnings, stats
+
+    # Filename check — alphanumeric, hyphens, dots only
+    if not re.match(r'^[a-zA-Z0-9][a-zA-Z0-9._-]*\.ya?ml$', filepath.name):
+        return ["SECURITY: suspicious filename '%s'" % filepath.name], warnings, stats
+
+    # File size check
+    try:
+        file_size = filepath.stat().st_size
+        if file_size > MAX_FILE_SIZE:
+            return ["SECURITY: file too large (%d bytes, max %d)" % (file_size, MAX_FILE_SIZE)], warnings, stats
+        if file_size == 0:
+            return ["Empty file"], warnings, stats
+    except OSError as e:
+        return ["Cannot read file: %s" % e], warnings, stats
+
+    # Raw content checks (before YAML parsing)
+    try:
+        raw = filepath.read_bytes()
+        # Null bytes
+        if b'\x00' in raw:
+            return ["SECURITY: file contains null bytes"], warnings, stats
+        raw_str = raw.decode('utf-8', errors='replace')
+        # YAML deserialization tags
+        if YAML_INJECTION.search(raw_str):
+            return ["SECURITY: file contains forbidden YAML tags (!!python etc.)"], warnings, stats
+        # Embedded code
+        if CODE_PATTERNS.search(raw_str):
+            return ["SECURITY: file contains suspicious code patterns"], warnings, stats
+    except Exception as e:
+        return ["SECURITY: cannot read file content: %s" % e], warnings, stats
+
+    # ── YAML parsing ─────────────────────────────────────────
     try:
         data = load_yaml(str(filepath))
     except Exception as e:
@@ -192,25 +275,51 @@ def validate_file(filepath, existing):
     if not data:
         return ["Empty or invalid YAML file"], warnings, stats
 
+    if not isinstance(data, dict):
+        return ["SECURITY: YAML root must be a mapping, got %s" % type(data).__name__], warnings, stats
+
+    # Check for unexpected top-level keys
+    unknown_keys = set(data.keys()) - ALLOWED_FIELDS
+    if unknown_keys:
+        errors.append("SECURITY: unknown fields: %s" % ', '.join(sorted(unknown_keys)))
+
     # Check required fields
     for field in REQUIRED_FIELDS:
         if field not in data or not data[field]:
             errors.append("Missing required field: %s" % field)
 
-    # Validate each IOC type
+    # ── Validate each IOC type ───────────────────────────────
     validators = {
         "ipv4": validate_ipv4, "ipv6": validate_ipv6,
         "domains": validate_domain, "urls": validate_url,
         "cves": validate_cve, "cidrs": validate_cidr,
     }
 
+    total_iocs = 0
+
     for ioc_type in IOC_FIELDS:
         items = data.get(ioc_type, [])
         if not items or not isinstance(items, list):
             continue
 
+        if len(items) > MAX_IOCS_PER_TYPE:
+            errors.append("SECURITY: too many %s (%d, max %d per type)" % (ioc_type, len(items), MAX_IOCS_PER_TYPE))
+            continue
+
         for item in items:
             if not item or not isinstance(item, str):
+                continue
+
+            total_iocs += 1
+            if total_iocs > MAX_IOCS_TOTAL:
+                errors.append("SECURITY: too many total IOCs (max %d)" % MAX_IOCS_TOTAL)
+                return errors, warnings, stats
+
+            # Safety check on raw value
+            safety_errors = check_value_safety(item, ioc_type)
+            if safety_errors:
+                errors.extend(safety_errors)
+                stats["rejected"] += 1
                 continue
 
             validator = validators.get(ioc_type)
@@ -238,6 +347,12 @@ def main():
     if not files:
         print("No submission files found in community/submissions/")
         return 0
+
+    # Security: reject any non-YAML files in submissions directory
+    all_files = list(SUBMISSIONS_DIR.iterdir())
+    for f in all_files:
+        if f.is_file() and f.name != '.gitkeep' and f.suffix.lower() not in ALLOWED_EXTENSIONS:
+            print("  SECURITY WARNING: unexpected file in submissions/: %s" % f.name)
 
     existing = load_existing_iocs()
     total_errors = 0
