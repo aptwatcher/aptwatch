@@ -1,0 +1,135 @@
+name: Protect Essential Files
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check-deletions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Check for protected file deletions
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          # Files and directories that must NEVER be deleted
+          PROTECTED_FILES=(
+            # Core project files
+            "apt.py"
+            "LICENSE"
+            "README.md"
+            "CONTRIBUTING.md"
+            ".gitignore"
+            "config.ini.example"
+            "requirements.txt"
+
+            # Database schema
+            "database/schema_v2.sql"
+
+            # Community submission pipeline
+            "community/TEMPLATE.yaml"
+            "community/validate_submission.py"
+            "community/import_approved.py"
+
+            # CI/CD workflows
+            ".github/workflows/validate-pr.yml"
+            ".github/workflows/protect-files.yml"
+            ".github/workflows/blocklists.yml"
+            ".github/workflows/pages-deploy.yml"
+            ".github/workflows/validate.yml"
+            ".github/CODEOWNERS"
+          )
+
+          # Directories where no file should be deleted (modified is OK)
+          PROTECTED_DIRS=(
+            "scripts/"
+            ".github/workflows/"
+          )
+
+          # Get list of deleted files in this PR
+          DELETED=$(git diff --diff-filter=D --name-only "origin/${BASE_REF}...HEAD")
+
+          if [ -z "$DELETED" ]; then
+            echo "✅ No files deleted — check passed"
+            exit 0
+          fi
+
+          echo "Files deleted in this PR:"
+          echo "$DELETED"
+          echo ""
+
+          BLOCKED=0
+
+          # Check individual protected files
+          for f in "${PROTECTED_FILES[@]}"; do
+            if echo "$DELETED" | grep -qx "$f"; then
+              echo "::error::🚫 Protected file cannot be deleted: $f"
+              BLOCKED=1
+            fi
+          done
+
+          # Check protected directories
+          for dir in "${PROTECTED_DIRS[@]}"; do
+            MATCHES=$(echo "$DELETED" | grep "^${dir}" || true)
+            if [ -n "$MATCHES" ]; then
+              echo "::error::🚫 Files in protected directory cannot be deleted: ${dir}"
+              echo "$MATCHES" | sed 's/^/  /'
+              BLOCKED=1
+            fi
+          done
+
+          # Block deletion of ALL IOC data files
+          IOC_DELETED=$(echo "$DELETED" | grep "^iocs/" || true)
+          if [ -n "$IOC_DELETED" ]; then
+            echo "::error::🚫 IOC data files cannot be deleted:"
+            echo "$IOC_DELETED" | sed 's/^/  /'
+            BLOCKED=1
+          fi
+
+          if [ "$BLOCKED" -eq 1 ]; then
+            echo ""
+            echo "::error::This PR attempts to delete protected files. This is not allowed."
+            echo "If you believe this is a mistake, contact a maintainer."
+            exit 1
+          fi
+
+          echo "✅ No protected files deleted — check passed"
+
+      - name: Check for protected file modifications
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          # Files that should NEVER be modified via PR (only by maintainers directly)
+          LOCKED_FILES=(
+            ".github/workflows/protect-files.yml"
+            ".github/CODEOWNERS"
+          )
+
+          MODIFIED=$(git diff --name-only "origin/${BASE_REF}...HEAD")
+
+          BLOCKED=0
+          for f in "${LOCKED_FILES[@]}"; do
+            if echo "$MODIFIED" | grep -qx "$f"; then
+              echo "::error::🔒 This file can only be modified by maintainers: $f"
+              BLOCKED=1
+            fi
+          done
+
+          if [ "$BLOCKED" -eq 1 ]; then
+            echo ""
+            echo "::error::This PR modifies locked security files. Contact a maintainer."
+            exit 1
+          fi
+
+          echo "✅ No locked files modified — check passed"
