@@ -1,0 +1,27 @@
+# =============================================================
+# CODEOWNERS — Require maintainer review for sensitive paths
+# =============================================================
+
+# Security-critical: workflows and CI pipeline
+.github/                    @aptwatcher @svtica
+.github/workflows/          @aptwatcher @svtica
+.github/CODEOWNERS          @aptwatcher @svtica
+
+# Security-critical: submission validation pipeline
+community/validate_submission.py  @aptwatcher @svtica
+community/import_approved.py      @aptwatcher @svtica
+
+# Core scripts
+scripts/                    @aptwatcher @svtica
+apt.py                      @aptwatcher @svtica
+
+# Database schema
+database/                   @aptwatcher @svtica
+
+# Project config
+.gitignore                  @aptwatcher @svtica
+LICENSE                     @aptwatcher @svtica
+config.ini.example          @aptwatcher @svtica
+
+# IOC data files
+iocs/                       @aptwatcher @svtica
