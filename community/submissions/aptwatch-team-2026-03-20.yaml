@@ -1,0 +1,143 @@
+# =============================================================
+#  Community IOC Submission — Bulletproof Hosting Infrastructure Block
+#  Russian-Linked Shell Companies: AS42624, AS399629, 4445 Corp
+# =============================================================
+#
+#  Reference: APTW-2026-0320-BPH
+#  Classification: TLP:AMBER
+#
+# =============================================================
+
+author: APT Watch Team
+
+source: https://api.aptwatch.org
+source_name: "APTWatch Internal Analysis — Russian BPH Shell Infrastructure (APTW-2026-0320-BPH)"
+
+apt_groups:
+  - Warlock
+  - BlackSanta
+  - Yanluowang
+  - Rhysida
+  - LockBit
+  - BlackBasta
+  - Scattered Spider
+  - FIN6
+
+description: >
+  Full infrastructure block based on APTWatch internal analysis (ref APTW-2026-0320-BPH).
+  Three entities identified as Russian-linked bulletproof hosting fronts operating behind
+  Seychelles and Wyoming shell company registrations.
+
+  AS42624 — Global-Data System IT Corporation (Seychelles):
+  11.19% IOC density (315/2816 IPs), 3x escalation from 3.7% in 2 weeks.
+  7 of 11 prefixes at 14-20% confirmed malicious. Seychelles shell at
+  House of Francis Room 303, same pattern as ELITETEAM (confirmed Russian BPH).
+  No legitimate peering, no customers, UK mobile contact, misleading ASN name
+  "swissnetwork02". Certificate pattern clusters and shared Windows images
+  (WIN-9QL4SDRB93L) detected during scanning.
+
+  AS399629 — BL Networks / BLNWX / BitLaunch (Wyoming, USA):
+  UK parent Liber Systems Limited. Wyoming shell at 30 N Gould St Sheridan
+  (200K+ shell companies, ICIJ investigation, North Korean sanctions link).
+  Crypto-only payment. Linked to 10+ ransomware campaigns by BushidoToken,
+  Proofpoint, Intel471, QuadrantSec. Warlock C2 at 198.13.158.193 confirmed
+  on this network. 20 IOCs across 15 /24 prefixes.
+
+  4445 Corporation (Seychelles, no formal ASN):
+  111 IOCs in 196.251.x.x range. Same Seychelles jurisdictional pattern.
+  No ASN assignment suggests infrastructure leased through intermediaries.
+
+  This submission adds the missing dirty CIDR blocks, BL Networks infrastructure
+  IPs, and BPH administrative domains identified during the investigation.
+
+# =============================================================
+#  CIDRs — High-density malicious prefixes for network blocking
+# =============================================================
+
+cidrs:
+  # AS42624 — Global-Data System IT Corporation
+  # 7 dirty prefixes (14-20% confirmed IOC density each)
+  - 86.54.42.0/24       # 51 IOCs, 19.9% density — CRITICAL
+  - 185.208.159.0/24    # 51 IOCs, 19.9% density — CRITICAL (already in subnet blocklist)
+  - 185.196.10.0/24     # 50 IOCs, 19.5% density — CRITICAL (already in subnet blocklist)
+  - 185.196.9.0/24      # 50 IOCs, 19.5% density — CRITICAL (already in subnet blocklist)
+  - 185.196.11.0/24     # 41 IOCs, 16.0% density — HIGH (already in subnet blocklist)
+  - 185.196.8.0/24      # 36 IOCs, 14.1% density — HIGH
+  - 185.208.158.0/24    # 36 IOCs, 14.1% density — HIGH (shared Windows image cluster)
+  # 4 unconfirmed prefixes — monitor for future activity
+  - 185.208.156.0/24    # 0 IOCs currently — monitor
+  - 185.208.157.0/24    # 0 IOCs currently — monitor
+  - 212.11.64.0/24      # 0 IOCs currently — monitor
+  - 69.5.189.0/24       # 0 IOCs currently — monitor
+
+  # AS399629 — BL Networks / BitLaunch
+  # Prefixes with confirmed IOCs (15 /24s with validated malicious IPs)
+  - 45.61.136.0/24      # 2 IOCs — Warlock/ransomware infrastructure
+  - 64.52.80.0/24       # 2 IOCs — confirmed BPH
+  - 64.94.84.0/24       # 1 IOC  — confirmed BPH
+  - 64.95.11.0/24       # 2 IOCs — confirmed BPH
+  - 64.190.113.0/24     # 1 IOC  — confirmed BPH
+  - 72.5.42.0/24        # 1 IOC  — confirmed BPH
+  - 96.9.124.0/24       # 1 IOC  — confirmed BPH
+  - 96.9.125.0/24       # 1 IOC  — confirmed BPH
+  - 149.248.76.0/24     # 1 IOC  — confirmed BPH
+  - 149.248.79.0/24     # 1 IOC  — confirmed BPH
+  - 168.100.9.0/24      # 1 IOC  — confirmed BPH
+  - 168.100.10.0/24     # 2 IOCs — confirmed BPH
+  - 193.149.190.0/24    # 1 IOC  — confirmed BPH
+  - 198.13.158.0/24     # 1 IOC  — Warlock C2 (198.13.158.193)
+  - 206.71.148.0/24     # 1 IOC  — confirmed BPH
+  - 216.245.184.0/24    # 1 IOC  — confirmed BPH
+
+# =============================================================
+#  IPv4 — Individual IPs from BL Networks with confirmed malicious activity
+# =============================================================
+
+ipv4:
+  # AS399629 — BL Networks confirmed IOCs
+  - 45.61.136.204
+  - 45.61.136.244
+  - 64.52.80.96
+  - 64.52.80.165
+  - 64.94.84.10
+  - 64.95.11.150
+  - 64.95.11.214
+  - 64.190.113.237
+  - 72.5.42.161
+  - 96.9.124.205
+  - 96.9.125.165
+  - 149.248.76.120
+  - 149.248.79.46
+  - 168.100.9.71
+  - 168.100.10.165
+  - 168.100.10.177
+  - 193.149.190.193
+  - 198.13.158.193      # Warlock ransomware primary C2
+  - 206.71.148.172
+  - 216.245.184.116
+
+# =============================================================
+#  Domains — BPH administrative and operational domains
+# =============================================================
+
+domains:
+  - admin[.]blnwx[.]com          # BL Networks admin panel
+  - globaldata-cloud[.]com       # Global-Data System IT Corp contact domain (RIPE WHOIS)
+
+# =============================================================
+#  NOTE: This submission is part of report APTW-2026-0320-BPH
+#  submitted to NCSC (incidents@ncsc.gov.uk) and MI5 on 20 March 2026.
+#
+#  Full report: reports/APTW-2026-0320-BPH-Russian-Shell-Infrastructure.md
+#
+#  The 315 individual AS42624 IOCs and 111 4445 Corporation IOCs are
+#  already in the database from prior scanning campaigns. This submission
+#  adds the CIDR-level blocks and the BL Networks infrastructure that
+#  was identified during the Warlock / shell company investigation.
+#
+#  Key ASNs for continued monitoring:
+#    AS42624   Global-Data System IT Corporation (Seychelles) — 11.19% IOC density
+#    AS399629  BL Networks / BLNWX / BitLaunch (Wyoming/UK) — ransomware enabler
+#    AS200019  ALEXHOST SRL (Moldova) — 0.18% density, BlackSanta overlap
+#    (none)    4445 Corporation (Seychelles) — 111 IOCs, no formal ASN
+# =============================================================
