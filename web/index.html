@@ -4,8 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>APT Intel Dashboard</title>
-<meta name="description" content="APT Intelligence Dashboard — Russian APT infrastructure tracking, IOC database, OSINT validation, and live blocklist feeds.">
-<meta name="keywords" content="threat intelligence, APT, IOC, OSINT, cybersecurity, blocklist, APT28, APT29, Sandworm, firehol, pihole, threat hunting">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
 <style>
 :root {
@@ -80,27 +78,14 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
 <div class="tlp-banner">TLP:AMBER — RUSSIAN APT INFRASTRUCTURE INTELLIGENCE</div>
 
 <header>
-  <img src="aptwatch-logo.svg" alt="APTWatch" style="height:32px;width:32px;">
   <h1>APT Intel Dashboard</h1>
-  <div style="display:flex;align-items:center;gap:12px;margin-left:auto">
-    <a href="https://api.aptwatch.org/api/download/web" title="Download web DB (~23 MB)" style="color:var(--text2);font-size:12px;text-decoration:none">Web DB</a>
-    <span style="color:var(--border)">|</span>
-    <a href="https://api.aptwatch.org/api/download/full" title="Download full DB (~400 MB, rate limited)" style="color:var(--text2);font-size:12px;text-decoration:none">Full DB</a>
-    <span style="color:var(--border)">|</span>
-    <a href="feeds.html" style="color:var(--text2);font-size:12px;text-decoration:none" title="Blocklist feeds">Feeds</a>
-    <span style="color:var(--border)">|</span>
-    <a href="https://github.com/aptwatcher/aptwatch" target="_blank" rel="noopener" title="View on GitHub" style="color:var(--text2);display:flex;align-items:center">
-      <svg height="18" width="18" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-    </a>
-    <span style="color:var(--border)">|</span>
-    <span class="status" id="db-status">No database loaded</span>
-  </div>
+  <span class="status" id="db-status">No database loaded</span>
 </header>
 
 <div id="load-section">
   <label for="db-file">Load Database</label>
   <input type="file" id="db-file" accept=".db,.sqlite,.sqlite3">
-  <span class="info" id="load-info">Select <code>apt_intel_web.db</code> (fast, ~4 MB) or <code>apt_intel.db</code> (full, ~315 MB)</span>
+  <span class="info">Select <code>apt_intel_web.db</code> (fast, ~24 MB — excludes vuln findings &amp; domains) or <code>apt_intel.db</code> (full, ~437 MB — all tables incl. Vuln Scan)</span>
 </div>
 
 <nav id="tabs-nav" style="display:none">
@@ -115,6 +100,8 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
   <button data-tab="validation">Validation</button>
   <button data-tab="attribution">Attribution</button>
   <button data-tab="interagency">Inter-Agency</button>
+  <button data-tab="scoring">Scoring v3</button>
+  <button data-tab="exports">Exports</button>
 </nav>
 
 <main>
@@ -248,6 +235,11 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
       <option value="SELECT asn, org_name, country, ioc_count, subnet_count, ROUND(CAST(ioc_count AS FLOAT)/NULLIF(subnet_count,0),1) as density FROM asn_info WHERE ioc_count > 0 ORDER BY ioc_count DESC LIMIT 30">Top ASNs by IOC count</option>
       <option value="SELECT asn, org_name, country, ioc_count, subnet_count, ROUND(CAST(ioc_count AS FLOAT)/NULLIF(subnet_count,0),1) as density FROM asn_info WHERE ioc_count >= 5 ORDER BY density DESC LIMIT 20">Top ASNs by IOC density</option>
       <option value="SELECT s.cidr, s.ioc_count, s.tier, s.asn, s.asn_org, s.country FROM subnets s WHERE s.ioc_count >= 5 ORDER BY s.ioc_count DESC LIMIT 30">Densest subnets with ASN</option>
+      <option value="SELECT ip, ROUND(composite_score * COALESCE(decay_multiplier,1),4) as effective_score, ROUND(composite_score,4) as composite, ROUND(infrastructure_risk_score,4) as infra_risk, lifecycle_state, provider_risk_level, validation_count FROM ipv4_iocs WHERE composite_score > 0 ORDER BY effective_score DESC LIMIT 50">[v3] Top scored IOCs</option>
+      <option value="SELECT lifecycle_state, COUNT(*) as count, ROUND(AVG(composite_score),4) as avg_score, ROUND(AVG(decay_multiplier),2) as avg_decay FROM ipv4_iocs GROUP BY lifecycle_state">[v3] Lifecycle state summary</option>
+      <option value="SELECT provider_risk_level, COUNT(*) as count, ROUND(AVG(infrastructure_risk_score),4) as avg_infra_risk FROM ipv4_iocs GROUP BY provider_risk_level ORDER BY count DESC">[v3] Provider risk summary</option>
+      <option value="SELECT source, COUNT(*) as validations, ROUND(AVG(confidence_score),3) as avg_confidence FROM source_validations GROUP BY source ORDER BY validations DESC">[v3] Source validation coverage</option>
+      <option value="SELECT a.asn, a.org_name, a.provider_type, a.fp_risk_score, a.ioc_count FROM asn_info a WHERE a.provider_type IS NOT NULL ORDER BY a.fp_risk_score DESC LIMIT 30">[v3] ASN provider classifications</option>
     </select>
     <button class="btn-primary" onclick="runCustomSQL()">Execute</button>
     <button onclick="exportTableCSV('sql-table')">Export CSV</button>
@@ -707,6 +699,131 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
   </div>
 </div>
 
+<!-- SCORING V3 TAB -->
+<div class="tab" id="tab-scoring">
+  <div id="scoring-loading" class="loading">Load a database to begin</div>
+  <div id="scoring-content" style="display:none">
+
+    <!-- Score distribution cards -->
+    <div class="section-title">Score Distribution</div>
+    <div class="cards" id="score-dist-cards"></div>
+
+    <!-- Lifecycle cards -->
+    <div class="section-title">Lifecycle States</div>
+    <div class="cards" id="lifecycle-cards"></div>
+
+    <!-- Provider risk cards -->
+    <div class="section-title">Provider Risk Classification</div>
+    <div class="cards" id="provider-cards"></div>
+
+    <!-- IOC Explorer with v3 columns -->
+    <div class="section-title" style="margin-top:24px">IOC Scoring Explorer</div>
+    <div class="controls">
+      <select id="v3-lifecycle-filter">
+        <option value="">All lifecycle states</option>
+        <option value="active">Active</option>
+        <option value="stale">Stale</option>
+        <option value="expired">Expired</option>
+      </select>
+      <select id="v3-provider-filter">
+        <option value="">All provider risk</option>
+        <option value="critical">Critical</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+        <option value="neutral">Neutral</option>
+      </select>
+      <input type="number" id="v3-min-score" placeholder="Min score (0-1)" min="0" max="1" step="0.1">
+      <input type="text" id="v3-ip-search" placeholder="Search IP...">
+      <button onclick="v3QueryIOCs()">Search</button>
+      <button onclick="exportTableCSV('v3-ioc-table')">Export CSV</button>
+    </div>
+    <div class="results-info" id="v3-ioc-info"></div>
+    <div class="table-wrap"><table id="v3-ioc-table"></table></div>
+  </div>
+</div>
+
+<!-- EXPORTS TAB (STIX, Suricata, Blocklist builder) -->
+<div class="tab" id="tab-exports">
+  <div id="exports-loading" class="loading">Load a database to begin</div>
+  <div id="exports-content" style="display:none">
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px">
+
+      <!-- STIX Export -->
+      <div>
+        <div class="section-title">STIX 2.1 Export</div>
+        <p style="font-size:12px;color:var(--text2);margin-bottom:12px">Generate a STIX 2.1 bundle from scored IOCs. Filtered client-side from the loaded database.</p>
+        <div class="controls" style="flex-direction:column;align-items:stretch">
+          <div style="display:flex;gap:8px">
+            <input type="number" id="stix-min-score" placeholder="Min score (0-1)" value="0" min="0" max="1" step="0.1" style="flex:1">
+            <select id="stix-lifecycle" style="flex:1">
+              <option value="">All states</option>
+              <option value="active">Active only</option>
+              <option value="active,stale">Active + Stale</option>
+            </select>
+          </div>
+          <div style="display:flex;gap:8px">
+            <input type="number" id="stix-limit" placeholder="Limit" value="1000" min="1" max="10000" style="flex:1">
+            <button class="btn-primary" onclick="v3ExportSTIX()" style="flex:1">Generate STIX Bundle</button>
+          </div>
+        </div>
+        <div class="results-info" id="stix-info" style="margin-top:8px"></div>
+        <textarea id="stix-output" rows="12" style="margin-top:8px;display:none" readonly></textarea>
+        <button class="btn" id="stix-download-btn" style="margin-top:8px;display:none" onclick="v3DownloadSTIX()">Download .json</button>
+      </div>
+
+      <!-- Suricata Export -->
+      <div>
+        <div class="section-title">Suricata IDS Rules</div>
+        <p style="font-size:12px;color:var(--text2);margin-bottom:12px">Generate Suricata alert rules for scored IPv4 IOCs.</p>
+        <div class="controls" style="flex-direction:column;align-items:stretch">
+          <div style="display:flex;gap:8px">
+            <input type="number" id="suri-min-score" placeholder="Min score (0-1)" value="0" min="0" max="1" step="0.1" style="flex:1">
+            <select id="suri-lifecycle" style="flex:1">
+              <option value="">All states</option>
+              <option value="active">Active only</option>
+              <option value="active,stale">Active + Stale</option>
+            </select>
+          </div>
+          <div style="display:flex;gap:8px">
+            <input type="number" id="suri-limit" placeholder="Limit" value="5000" min="1" max="50000" style="flex:1">
+            <button class="btn-primary" onclick="v3ExportSuricata()" style="flex:1">Generate Rules</button>
+          </div>
+        </div>
+        <div class="results-info" id="suri-info" style="margin-top:8px"></div>
+        <textarea id="suri-output" rows="12" style="margin-top:8px;display:none" readonly></textarea>
+        <button class="btn" id="suri-download-btn" style="margin-top:8px;display:none" onclick="v3DownloadSuricata()">Download .rules</button>
+      </div>
+    </div>
+
+    <!-- v2 Blocklist Builder -->
+    <div class="section-title" style="margin-top:32px">Custom Blocklist Builder</div>
+    <p style="font-size:12px;color:var(--text2);margin-bottom:12px">Build a filtered blocklist using v3 scoring criteria. Output in plain IP list format (compatible with firewalls, Pi-hole, etc.).</p>
+    <div class="controls">
+      <input type="number" id="bl-min-score" placeholder="Min effective score (0-1)" value="0" min="0" max="1" step="0.1">
+      <select id="bl-lifecycle">
+        <option value="active,stale">Active + Stale</option>
+        <option value="active">Active only</option>
+        <option value="">All states</option>
+      </select>
+      <select id="bl-provider">
+        <option value="">All providers</option>
+        <option value="critical">Critical (BPH) only</option>
+        <option value="critical,medium">Critical + Medium</option>
+      </select>
+      <input type="number" id="bl-limit" placeholder="Limit" value="10000" min="1" max="50000">
+      <button class="btn-primary" onclick="v3BuildBlocklist()">Build Blocklist</button>
+    </div>
+    <div class="results-info" id="bl-info" style="margin-top:8px"></div>
+    <textarea id="bl-output" rows="10" style="margin-top:8px;display:none" readonly></textarea>
+    <div style="display:flex;gap:8px;margin-top:8px">
+      <button class="btn" id="bl-download-btn" style="display:none" onclick="v3DownloadBlocklist('netset')">Download .netset</button>
+      <button class="btn" id="bl-download-hosts-btn" style="display:none" onclick="v3DownloadBlocklist('hosts')">Download .hosts</button>
+      <button class="btn" id="bl-copy-btn" style="display:none" onclick="navigator.clipboard.writeText(document.getElementById('bl-output').value)">Copy to clipboard</button>
+    </div>
+  </div>
+</div>
+
 </main>
 
 <!-- IP PROFILE MODAL -->
@@ -723,39 +840,6 @@ let isWebExport = false;
 // =============================================================
 // DATABASE LOADING
 // =============================================================
-
-// Auto-load web DB when hosted on a web server (GitHub Pages, etc.)
-async function autoLoadDB() {
-  const statusEl = document.getElementById('db-status');
-  const loadInfo = document.getElementById('load-info');
-  if (window.location.protocol === 'file:') return;
-  try {
-    statusEl.textContent = 'Auto-loading web database...';
-    loadInfo.textContent = 'Fetching apt_intel_web.db from server...';
-    const resp = await fetch('apt_intel_web.db');
-    if (!resp.ok) {
-      statusEl.textContent = 'No database deployed yet \u2014 upload manually';
-      loadInfo.textContent = 'apt_intel_web.db not found on server. Upload a local copy or wait for the next sync.';
-      return;
-    }
-    const SQL = await initSqlJs({ locateFile: f => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/${f}` });
-    const buf = await resp.arrayBuffer();
-    const size = (buf.byteLength / 1024 / 1024).toFixed(1);
-    db = new SQL.Database(new Uint8Array(buf));
-    try {
-      const r = db.exec("SELECT value FROM metadata WHERE key='web_export'");
-      isWebExport = r.length > 0 && r[0].values[0][0] === 'true';
-    } catch(e) { isWebExport = false; }
-    statusEl.textContent = `Loaded: apt_intel_web.db (${size} MB)${isWebExport ? ' [web export]' : ''}`;
-    document.getElementById('tabs-nav').style.display = 'flex';
-    document.getElementById('load-section').style.display = 'none';
-    loadOverview();
-  } catch (e) {
-    console.warn('Auto-load failed:', e);
-    statusEl.textContent = 'Auto-load failed \u2014 upload manually';
-  }
-}
-autoLoadDB();
 
 document.getElementById('db-file').addEventListener('change', async function(e) {
   const file = e.target.files[0];
@@ -868,7 +952,7 @@ function loadOverview() {
     { label: 'CIDRs', table: 'cidr_iocs', cls: 'info' },
     { label: 'Subnets', table: 'subnets', cls: 'info' },
     { label: 'Scan Results', table: 'scan_results', cls: 'info' },
-    { label: 'Vulnerability Findings', table: 'vulnerability_findings', cls: 'info' },
+    { label: 'Vulnerability Findings', table: 'vulnerability_findings', cls: 'info', fallback: 'web_vuln_count' },
     { label: 'Enrichment Results', table: 'enrichment_results', cls: 'purple' },
   ];
 
@@ -1007,7 +1091,7 @@ function queryIOCs() {
 
   let cols, sql;
   switch(type) {
-    case 'ipv4_iocs': cols = 'ip, source_file, first_seen, last_seen, pulse_count, infra_type'; break;
+    case 'ipv4_iocs': cols = 'ip, source_file, first_seen, last_seen, validation_count, composite_score, infrastructure_risk_score, lifecycle_state, provider_risk_level'; break;
     case 'ipv6_iocs': cols = 'ip, source_file, first_seen'; break;
     case 'cves': cols = 'cve_id, source_file, first_seen'; break;
     case 'emails': cols = 'email, domain, source_file'; break;
@@ -1041,6 +1125,11 @@ function queryIOCs() {
 // =============================================================
 
 function queryVulnScan() {
+  if (!tableExists('vulnerability_findings')) {
+    document.getElementById('vulnscan-info').textContent = 'Vulnerability findings not available in the web export (too large). Load the full apt_intel.db to access this tab.';
+    renderTable('vulnscan-table', [], []);
+    return;
+  }
   const host = document.getElementById('vulnscan-host').value.trim();
   const risk = document.getElementById('vulnscan-risk-filter').value;
 
@@ -1125,6 +1214,33 @@ function showIPProfile(ip) {
       html += `<tr><td>${r[0]}</td><td>${r[1]||''}</td><td>${r[2]||''}</td><td>${r[3]}</td><td>${r[4]||''}</td><td>${r[5]||''}</td></tr>`;
     });
     html += '</tbody></table>';
+  }
+
+  // v3 Scoring
+  if (ioc.length > 0 && ioc[0].values.length > 0) {
+    const cols = ioc[0].columns;
+    const row = ioc[0].values[0];
+    const getCol = (name) => { const i = cols.indexOf(name); return i >= 0 ? row[i] : null; };
+    const cs = getCol('composite_score');
+    const ir = getCol('infrastructure_risk_score');
+    const dm = getCol('decay_multiplier');
+    const ls = getCol('lifecycle_state');
+    const prl = getCol('provider_risk_level');
+    const aa = getCol('actor_attribution_actor');
+    const aas = getCol('actor_attribution_score');
+    if (cs !== null) {
+      const eff = (cs || 0) * (dm || 1);
+      const scoreBadge = eff >= 0.8 ? 'CRITICAL' : eff >= 0.6 ? 'HIGH' : eff >= 0.3 ? 'MEDIUM' : 'LOW';
+      const lifeBadge = ls === 'active' ? 'CRITICAL' : ls === 'stale' ? 'MEDIUM' : 'LOW';
+      html += '<div class="section-title">v3 Scoring</div>';
+      html += '<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:12px">';
+      html += `<div class="card"><div class="label">Effective Score</div><div class="value" style="font-size:20px"><span class="badge ${scoreBadge}">${eff.toFixed(3)}</span></div></div>`;
+      html += `<div class="card"><div class="label">Composite</div><div class="value" style="font-size:20px">${(cs||0).toFixed(3)}</div></div>`;
+      html += `<div class="card"><div class="label">Infra Risk</div><div class="value" style="font-size:20px">${(ir||0).toFixed(3)}</div></div>`;
+      html += `<div class="card"><div class="label">Lifecycle</div><div class="value" style="font-size:20px"><span class="badge ${lifeBadge}">${ls||'unknown'}</span></div></div>`;
+      html += '</div>';
+      html += `<div style="font-size:12px;color:var(--text2)">Decay: ${(dm||1).toFixed(2)} | Provider: ${prl||'unknown'} | Actor: ${aa||'none'} (${(aas||0).toFixed(2)})</div>`;
+    }
   }
 
   // Subnet
@@ -1321,6 +1437,12 @@ document.querySelectorAll('nav button').forEach(btn => {
     }
     if (this.dataset.tab === 'interagency' && !document.getElementById('corr-table').innerHTML) {
       loadInterAgency();
+    }
+    if (this.dataset.tab === 'scoring' && !document.getElementById('score-dist-cards').innerHTML) {
+      v3LoadScoring();
+    }
+    if (this.dataset.tab === 'exports' && document.getElementById('exports-loading').style.display !== 'none') {
+      v3InitExports();
     }
   });
 });
@@ -1930,5 +2052,6 @@ function loadCorrelations() {
   }
 }
 </script>
+<script src="scoring-v3.js"></script>
 </body>
 </html>
