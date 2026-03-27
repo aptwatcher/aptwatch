@@ -1,0 +1,29 @@
+# =============================================================
+#  Secret Blizzard / BlankPage Backdoor IOCs
+#  Source: Microsoft Threat Intelligence (MTAC)
+# =============================================================
+
+author: aptwatch-team
+
+source: https://www.microsoft.com/en-us/security/blog/
+source_name: "Microsoft MTAC - Secret Blizzard BlankPage Activity Profile (March 2026)"
+
+apt_groups:
+  - Turla
+  - Secret Blizzard
+
+description: >
+  Secret Blizzard (FSB Center 16 / Military Unit 71330 / Turla / KRYPTON / VENOMOUS BEAR)
+  deploys custom BlankPage backdoor targeting European ministries of foreign affairs and
+  embassies. Two variants: Graph API/OneDrive C2 and HTTP listener on port 443 with
+  /OAB/BOOK/ URI pattern. Active since 2023, disclosed March 2026.
+  Note: No IPv4 IOCs — C2 uses Microsoft Graph API (legitimate infra). File hashes only.
+
+# BlankPage malware component SHA-256 hashes
+# These are file IOCs, not network indicators
+# hash: b6d1605e361408f85654500bb43f11d824d06aeaf2e4d79a5dff40f9552adea7 - BlankPage stage 1 encrypted payload
+# hash: 5bbd630ec6884fd2db7cda3179a9ba2c6eda69c666e43cd63b316d8e2c45838a - BlankPage stage 2 encrypted payload (vmtools.xml.bak)
+# hash: 4efea5c03e14451935f1ba8ff6d4bbe43bf7af4712c310d9b0b10d42995340f6 - BlankPage payload (serviceupdateschedule.xml.bak)
+# hash: a6cf910861fe999b29490914ab8914b43a0239cfd90f41769b194b55949e1bdd - BlankPage loader (xmllite.dll)
+# hash: c5501a9de9f10e46a4839748b960fe625fa39fafd0bf4fbc36cad261e95a38dc - BlankPage loader (MSVCP140.dll)
+# hash: 233f1415b7819868e72347a0473e4e6290cb18142bfb2ef5abd9fbbbe081d4a3 - OneDrive variant (g22dkpno.dat)
