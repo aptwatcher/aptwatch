@@ -17,11 +17,14 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace; ba
 header { background:var(--bg2); border-bottom:1px solid var(--border); padding:12px 24px; display:flex; align-items:center; gap:16px; }
 header h1 { font-size:18px; color:var(--accent); }
 header .status { font-size:12px; color:var(--text2); margin-left:auto; }
-#load-section { display:flex; align-items:center; gap:12px; padding:16px 24px; background:var(--bg2); border-bottom:1px solid var(--border); }
-#load-section label { background:var(--accent); color:#000; padding:8px 16px; border-radius:6px; cursor:pointer; font-weight:600; font-size:13px; }
-#load-section label:hover { opacity:0.9; }
+#load-section { padding:0; background:var(--bg2); border-bottom:1px solid var(--border); }
 #load-section input { display:none; }
-#load-section .info { font-size:12px; color:var(--text2); }
+#drop-zone { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; padding:32px 24px; cursor:pointer; border:2px dashed var(--border); margin:16px 24px; border-radius:10px; transition:all 0.2s; }
+#drop-zone:hover, #drop-zone.dragover { border-color:var(--accent); background:rgba(88,166,255,0.05); }
+#drop-zone .drop-icon { font-size:32px; opacity:0.5; }
+#drop-zone .drop-text { font-size:14px; color:var(--text); font-weight:600; }
+#drop-zone .drop-hint { font-size:12px; color:var(--text2); }
+#load-section .info { font-size:12px; color:var(--text2); text-align:center; padding:0 24px 16px; }
 nav { display:flex; background:var(--bg2); border-bottom:1px solid var(--border); padding:0 24px; gap:0; }
 nav button { background:none; border:none; color:var(--text2); padding:10px 16px; cursor:pointer; font-size:13px; border-bottom:2px solid transparent; transition:all 0.2s; }
 nav button:hover { color:var(--text); }
@@ -83,9 +86,15 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
 </header>
 
 <div id="load-section">
-  <label for="db-file">Load Database</label>
   <input type="file" id="db-file" accept=".db,.sqlite,.sqlite3">
-  <span class="info">Select <code>apt_intel_web.db</code> (fast, ~24 MB — excludes vuln findings &amp; domains) or <code>apt_intel.db</code> (full, ~437 MB — all tables incl. Vuln Scan)</span>
+  <label for="db-file">
+    <div id="drop-zone">
+      <div class="drop-icon">&#128451;</div>
+      <div class="drop-text">Drop database file here or click to browse</div>
+      <div class="drop-hint">Supports .db, .sqlite, .sqlite3</div>
+    </div>
+  </label>
+  <div class="info" id="load-info"><code>apt_intel_web.db</code> (fast, ~24 MB) or <code>apt_intel.db</code> (full, ~443 MB — all tables incl. Vuln Scan)</div>
 </div>
 
 <nav id="tabs-nav" style="display:none">
@@ -841,15 +850,9 @@ let isWebExport = false;
 // DATABASE LOADING
 // =============================================================
 
-document.getElementById('db-file').addEventListener('change', async function(e) {
-  const file = e.target.files[0];
-  if (!file) return;
-
-  document.getElementById('db-status').textContent = `Loading ${file.name} (${(file.size/1024/1024).toFixed(1)} MB)...`;
-
+async function openDatabase(arrayBuf, name) {
   const SQL = await initSqlJs({ locateFile: f => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/${f}` });
-  const buf = await file.arrayBuffer();
-  db = new SQL.Database(new Uint8Array(buf));
+  db = new SQL.Database(new Uint8Array(arrayBuf));
 
   // Check if web export
   try {
@@ -857,11 +860,57 @@ document.getElementById('db-file').addEventListener('change', async function(e) 
     isWebExport = r.length > 0 && r[0].values[0][0] === 'true';
   } catch(e) { isWebExport = false; }
 
-  document.getElementById('db-status').textContent = `Loaded: ${file.name} (${(file.size/1024/1024).toFixed(1)} MB)${isWebExport ? ' [web export]' : ''}`;
+  const sizeMB = (arrayBuf.byteLength/1024/1024).toFixed(1);
+  document.getElementById('db-status').textContent = `Loaded: ${name} (${sizeMB} MB)${isWebExport ? ' [web export]' : ''}`;
   document.getElementById('tabs-nav').style.display = 'flex';
   document.getElementById('load-section').style.display = 'none';
 
   loadOverview();
+}
+
+// Auto-load web DB when hosted on a web server (GitHub Pages, etc.)
+async function autoLoadDB() {
+  const statusEl = document.getElementById('db-status');
+  const loadInfo = document.getElementById('load-info');
+  if (window.location.protocol === 'file:') return;
+  try {
+    statusEl.textContent = 'Auto-loading web database...';
+    loadInfo.textContent = 'Fetching apt_intel_web.db from server...';
+    const resp = await fetch('apt_intel_web.db');
+    if (!resp.ok) {
+      statusEl.textContent = 'No database deployed yet — upload manually';
+      loadInfo.textContent = 'apt_intel_web.db not found on server. Upload a local copy or wait for the next sync.';
+      return;
+    }
+    const buf = await resp.arrayBuffer();
+    await openDatabase(buf, 'apt_intel_web.db');
+  } catch(e) {
+    console.warn('Auto-load failed:', e);
+    statusEl.textContent = 'Auto-load failed — upload manually';
+  }
+}
+autoLoadDB();
+
+// Manual file picker + drag-and-drop
+async function handleFile(file) {
+  if (!file) return;
+  document.getElementById('db-status').textContent = `Loading ${file.name}...`;
+  const buf = await file.arrayBuffer();
+  await openDatabase(buf, file.name);
+}
+
+document.getElementById('db-file').addEventListener('change', function(e) {
+  handleFile(e.target.files[0]);
+});
+
+const dropZone = document.getElementById('drop-zone');
+dropZone.addEventListener('dragover', function(e) { e.preventDefault(); dropZone.classList.add('dragover'); });
+dropZone.addEventListener('dragleave', function() { dropZone.classList.remove('dragover'); });
+dropZone.addEventListener('drop', function(e) {
+  e.preventDefault();
+  dropZone.classList.remove('dragover');
+  const file = e.dataTransfer.files[0];
+  if (file) handleFile(file);
 });
 
 // =============================================================
