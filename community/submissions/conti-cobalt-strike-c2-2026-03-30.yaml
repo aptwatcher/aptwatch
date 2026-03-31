@@ -1,0 +1,28 @@
+# =============================================================
+#  Conti Ransomware - Cobalt Strike C2 Infrastructure
+#  Source: BleepingComputer Conti Playbook Leak Analysis
+# =============================================================
+
+author: aptwatch-team
+
+source: https://www.bleepingcomputer.com/news/security/translated-conti-ransomware-playbook-gives-insight-into-attacks/
+source_name: "BleepingComputer - Conti Ransomware Playbook (Leaked, 2021)"
+
+apt_groups:
+  - Conti
+  - Wizard Spider
+
+description: >
+  Cobalt Strike C2 server IPs extracted from the leaked Conti ransomware
+  operator playbook. These IPs were used as Cobalt Strike team servers
+  during Conti operations (2020-2021 era). Historical indicators useful
+  for retrohunt and infrastructure correlation.
+
+ipv4:
+  - 162.244.80.235
+  - 85.93.88.165
+  - 185.141.63.120
+  - 82.118.21.1
+
+cves:
+  - CVE-2020-1472

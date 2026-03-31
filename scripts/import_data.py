@@ -403,11 +403,57 @@ def cmd_import_master(filepath):
     print(f"Imported {count} hosts from {source} (total scan_results: {total:,})")
 
 
+def cmd_import_urls(filepath):
+    """Import URLs from a text file."""
+    conn = get_conn()
+    now = datetime.now().isoformat()
+    source = Path(filepath).name
+    added = 0
+
+    with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+        batch = []
+        for line in f:
+            raw = line.strip()
+            if not raw or raw.startswith('#'):
+                continue
+            # Normalize defanged notation for parsing
+            clean = raw.replace('[.]', '.').replace('hxxp', 'http')
+            try:
+                parsed = urlparse(clean)
+                host = parsed.hostname or ''
+                port = parsed.port
+                path = parsed.path or '/'
+            except Exception:
+                host, port, path = '', None, '/'
+            batch.append((raw, host, port, path, source, now))
+            if len(batch) >= BATCH_SIZE:
+                conn.executemany(
+                    "INSERT OR IGNORE INTO urls (url, host, port, path, source_file, first_seen) VALUES (?,?,?,?,?,?)",
+                    batch
+                )
+                added += len(batch)
+                batch.clear()
+        if batch:
+            conn.executemany(
+                "INSERT OR IGNORE INTO urls (url, host, port, path, source_file, first_seen) VALUES (?,?,?,?,?,?)",
+                batch
+            )
+            added += len(batch)
+
+    conn.commit()
+    total = conn.execute("SELECT COUNT(*) FROM urls").fetchone()[0]
+    update_meta(conn, 'url_count', total)
+    update_meta(conn, 'last_incremental', now)
+    conn.close()
+    print(f"Processed {added} URLs from {source} (total URLs: {total:,})")
+
+
 def cmd_import_all_iocs():
     """Re-import all IOC files from iocs/ directory."""
     files = {
         'ipv4.txt': cmd_import_ipv4,
         'domains.txt': cmd_import_domains,
+        'urls.txt': cmd_import_urls,
     }
     for fname, func in files.items():
         fp = IOCS_DIR / fname
@@ -454,6 +500,102 @@ def cmd_import_all_iocs():
     conn.close()
 
 
+def cmd_migrate_v3():
+    """Apply schema v3 migration (scoring, lifecycle, attribution, STIX)."""
+    migration_path = BASE_DIR / 'database' / 'schema_v3_migration.sql'
+    if not migration_path.exists():
+        print(f"ERROR: Migration file not found at {migration_path}")
+        sys.exit(1)
+
+    conn = get_conn()
+    # Check if already migrated
+    row = conn.execute("SELECT value FROM metadata WHERE key='schema_version'").fetchone()
+    if row and row[0] == '3.0':
+        print("Database already at schema v3. Skipping migration.")
+        conn.close()
+        return
+
+    print("Applying schema v3 migration...")
+    sql = migration_path.read_text()
+
+    # Phase 1: ALTER TABLE statements first (add columns before indexes reference them)
+    # Phase 2: Everything else (CREATE TABLE, CREATE INDEX, INSERT, UPDATE, PRAGMA)
+    alter_statements = []
+    other_lines = []
+
+    for line in sql.split('\n'):
+        stripped = line.strip().upper()
+        if stripped.startswith('ALTER TABLE'):
+            alter_statements.append(line.strip())
+        else:
+            other_lines.append(line)
+
+    # 1) Run ALTER TABLE individually (ignore duplicate column on re-run)
+    for stmt in alter_statements:
+        try:
+            conn.execute(stmt)
+        except Exception as e:
+            if 'duplicate column' not in str(e).lower():
+                print(f"  ALTER: {e}")
+    conn.commit()
+    print(f"  Applied {len(alter_statements)} ALTER TABLE statements")
+
+    # 2) Run everything else via executescript (handles multi-line CREATE TABLE etc.)
+    other_sql = '\n'.join(other_lines)
+    try:
+        conn.executescript(other_sql)
+        print("  Created new tables, indexes, and seed data")
+    except Exception as e:
+        print(f"  Warning during table creation: {e}")
+
+    conn.commit()
+    print("Schema v3 migration applied successfully.")
+    conn.close()
+
+
+def cmd_score_all():
+    """Run composite scoring on all IOCs (v3)."""
+    try:
+        from scoring import batch_score_all
+        conn = get_conn()
+        limit = int(sys.argv[2]) if len(sys.argv) >= 3 else 5000
+        count = batch_score_all(conn, limit=limit)
+        print(f"Scored {count} IOCs")
+        conn.close()
+    except ImportError:
+        print("ERROR: scoring.py not found in scripts/")
+        sys.exit(1)
+
+
+def cmd_lifecycle():
+    """Run lifecycle assessment on all IOCs (v3)."""
+    try:
+        from lifecycle import batch_assess_all
+        conn = get_conn()
+        limit = int(sys.argv[2]) if len(sys.argv) >= 3 else None
+        stats = batch_assess_all(conn, limit=limit)
+        print(f"Lifecycle: {stats}")
+        conn.close()
+    except ImportError:
+        print("ERROR: lifecycle.py not found in scripts/")
+        sys.exit(1)
+
+
+def cmd_classify_asns():
+    """Classify ASNs and populate cloud ranges (v3)."""
+    try:
+        from fp_suppression import classify_all_asns, populate_cloud_ranges
+        conn = get_conn()
+        cr = populate_cloud_ranges(conn)
+        print(f"Cloud ranges: {cr} inserted")
+        ca = classify_all_asns(conn)
+        print(f"ASNs classified: {ca}")
+        conn.close()
+    except ImportError:
+        print("ERROR: fp_suppression.py not found in scripts/")
+        sys.exit(1)
+
+
 USAGE = """
 Usage: python import_incremental.py <command> [args]
 
@@ -462,9 +604,15 @@ Commands:
   iocs                           Re-import all IOC files from iocs/
   ipv4 <file>                    Import IPv4 list
   domains <file>                 Import domain list
+  urls <file>                    Import URL list
   vulnscan <file.csv>            Import vulnerability scan CSV
   apt-report <APT-TARGETS-*.md>  Import APT report
   master <C2-*.txt>              Import master report
+
+  migrate-v3                     Apply schema v3 migration
+  score [limit]                  Recalculate composite scores (v3)
+  lifecycle [limit]              Run lifecycle assessment (v3)
+  classify-asns                  Classify ASNs + populate cloud ranges (v3)
 """
 
 if __name__ == '__main__':
@@ -482,12 +630,22 @@ if __name__ == '__main__':
         cmd_import_ipv4(sys.argv[2])
     elif cmd == 'domains' and len(sys.argv) >= 3:
         cmd_import_domains(sys.argv[2])
+    elif cmd == 'urls' and len(sys.argv) >= 3:
+        cmd_import_urls(sys.argv[2])
     elif cmd == 'vulnscan' and len(sys.argv) >= 3:
         cmd_import_vulnscan(sys.argv[2])
     elif cmd == 'apt-report' and len(sys.argv) >= 3:
         cmd_import_apt_report(sys.argv[2])
     elif cmd == 'master' and len(sys.argv) >= 3:
         cmd_import_master(sys.argv[2])
+    elif cmd == 'migrate-v3':
+        cmd_migrate_v3()
+    elif cmd == 'score':
+        cmd_score_all()
+    elif cmd == 'lifecycle':
+        cmd_lifecycle()
+    elif cmd == 'classify-asns':
+        cmd_classify_asns()
     else:
         print(USAGE)
         sys.exit(1)

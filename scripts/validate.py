@@ -84,6 +84,10 @@ RATE_LIMITS = {
     "threatfox": 1.0,    # No key, POST API
     "firehol": 0.01,     # Local lookup — no network call per IP
     "stevenblack": 0.01, # Local lookup — no network call per IP
+    "c2tracker": 0.01,   # Local lookup — cached feed
+    "tweetfeed": 0.01,   # Local lookup — cached feed
+    "ipsum": 0.01,       # Local lookup — cached feed
+    "emerging_threats": 0.01,  # Local lookup — cached feed
 }
 
 # Max retries on rate-limit (429) before giving up on a batch
@@ -100,12 +104,16 @@ DAILY_LIMITS = {
     "threatfox": _cfg_int("validation", "threatfox_daily", 5000),
     "firehol": _cfg_int("validation", "firehol_daily", 99999),
     "stevenblack": _cfg_int("validation", "stevenblack_daily", 99999),
+    "c2tracker": _cfg_int("validation", "c2tracker_daily", 99999),
+    "tweetfeed": _cfg_int("validation", "tweetfeed_daily", 99999),
+    "ipsum": _cfg_int("validation", "ipsum_daily", 99999),
+    "emerging_threats": _cfg_int("validation", "emerging_threats_daily", 99999),
 }
 RUNS_PER_DAY = _cfg_int("validation", "runs_per_day", 4)
 
 # Sources split into API-based and local (offline) categories
 API_SOURCES = ["shodan", "otx", "abuseipdb", "virustotal", "censys", "dshield", "threatfox"]
-LOCAL_SOURCES = ["firehol", "stevenblack"]
+LOCAL_SOURCES = ["firehol", "stevenblack", "c2tracker", "tweetfeed", "ipsum", "emerging_threats"]
 ALL_SOURCES = API_SOURCES + LOCAL_SOURCES
 VALIDATED_THRESHOLD = _cfg_int("validation", "validated_threshold", 3)
 
@@ -826,6 +834,11 @@ def validate_stevenblack(ip, **_):
 
 
 # Dispatch table for API calls
+from osint_feeds import (
+    validate_c2tracker, validate_tweetfeed,
+    validate_ipsum, validate_emerging_threats,
+)
+
 API_DISPATCH = {
     "shodan": validate_shodan,
     "abuseipdb": validate_abuseipdb,
@@ -836,6 +849,10 @@ API_DISPATCH = {
     "threatfox": validate_threatfox,
     "firehol": validate_firehol,
     "stevenblack": validate_stevenblack,
+    "c2tracker": validate_c2tracker,
+    "tweetfeed": validate_tweetfeed,
+    "ipsum": validate_ipsum,
+    "emerging_threats": validate_emerging_threats,
 }
 
 # Which sources need API keys (shodan, dshield, threatfox, firehol, stevenblack are free)
@@ -959,6 +976,10 @@ def _validate_result(result, source):
         "threatfox": ["matched", "ioc_count"],
         "firehol": ["listed", "match_count"],
         "stevenblack": ["hostnames_count", "match_count"],
+        "c2tracker": ["listed", "match_count"],
+        "tweetfeed": ["listed", "tags"],
+        "ipsum": ["listed", "blacklist_count"],
+        "emerging_threats": ["listed", "match_type"],
     }
     for field in expected.get(source, []):
         if field in result:
@@ -1121,6 +1142,47 @@ def store_result(conn, ip, source, result, error=None):
                         status=?, sources_completed=?, completed_at=?
                     WHERE ip=?
                 """, (new_status, new_completed, now if new_status == "done" else None, ip))
+
+        # ── v3: Write to source_validations table + recalculate score ──
+        if result and not error:
+            try:
+                from scoring import get_source_confidence
+                confidence = get_source_confidence(source, result)
+                ioc_row = conn.execute("SELECT id FROM ipv4_iocs WHERE ip=?", (ip,)).fetchone()
+                if ioc_row:
+                    conn.execute("""
+                        INSERT OR REPLACE INTO source_validations
+                        (ioc_id, ioc_type, ioc_value, source, validated_at, confidence_score, raw_response)
+                        VALUES (?, 'ipv4', ?, ?, ?, ?, ?)
+                    """, (ioc_row["id"], ip, source, now, confidence,
+                          json.dumps(result, default=str)[:2000]))
+            except Exception as e:
+                log("  v3 scoring hook: %s" % e)
+
+        # ── v3: Update composite score after storing result ──
+        if result and not error:
+            try:
+                from scoring import calculate_composite_score, calculate_infrastructure_risk, get_provider_risk_level
+                score = calculate_composite_score(ip, conn)
+                risk = calculate_infrastructure_risk(ip, conn)
+                provider = get_provider_risk_level(ip, conn)
+                conn.execute("""
+                    UPDATE ipv4_iocs SET composite_score=?, infrastructure_risk_score=?,
+                    provider_risk_level=?, score_timestamp=? WHERE ip=?
+                """, (score, risk, provider, now, ip))
+            except Exception as e:
+                log("  v3 score update: %s" % e)
+
+        # ── v3: Reactivate IOC if it was stale/expired ──
+        if result and not error:
+            try:
+                from lifecycle import reactivate_ioc
+                ioc_row = conn.execute(
+                    "SELECT id, lifecycle_state FROM ipv4_iocs WHERE ip=?", (ip,)).fetchone()
+                if ioc_row and ioc_row["lifecycle_state"] in ("stale", "expired"):
+                    reactivate_ioc(ioc_row["id"], conn, reason="validation_found")
+            except Exception as e:
+                log("  v3 lifecycle hook: %s" % e)
 
         # Log the transaction
         if error:
@@ -1447,6 +1509,29 @@ def check_single(ip):
                     print("  MATCHED domains: %s" % result.get("matched_domains", []))
                 else:
                     print("  No hostname matches in Steven Black list")
+            elif source == "c2tracker":
+                if result.get("listed"):
+                    print("  LISTED in C2 Tracker!")
+                    print("  C2 Frameworks: %s" % result.get("c2_frameworks", []))
+                    print("  Matched feeds: %s" % result.get("matched_feeds", []))
+                else:
+                    print("  Not found in C2 Tracker")
+            elif source == "tweetfeed":
+                if result.get("listed"):
+                    print("  LISTED in TweetFeed!")
+                    print("  Tags: %s" % result.get("tags", ""))
+                else:
+                    print("  Not found in TweetFeed")
+            elif source == "ipsum":
+                if result.get("listed"):
+                    print("  LISTED in IPsum! Blacklist count: %d" % result.get("blacklist_count", 0))
+                else:
+                    print("  Not found in IPsum")
+            elif source == "emerging_threats":
+                if result.get("listed"):
+                    print("  LISTED in Emerging Threats! Match: %s" % result.get("match_type", ""))
+                else:
+                    print("  Not found in Emerging Threats")
         else:
             print("  Error: %s" % error)
 

@@ -1,0 +1,30 @@
+# =============================================================
+#  TeamTNT Chimaera Campaign - C2 & Mining Infrastructure
+#  Source: Conti Toolkit Leak / TeamTNT Tools Analysis
+# =============================================================
+
+author: aptwatch-team
+
+source: https://www.cadosecurity.com/blog/full-ttp-analysis-of-teamtnt
+source_name: "TeamTNT Chimaera C2 Infrastructure (from Toolkit Leak)"
+
+apt_groups:
+  - TeamTNT
+
+description: >
+  TeamTNT Chimaera campaign infrastructure found within the Conti Toolkit
+  Leak. Includes C2 servers, domains, and a trojanized libpcap.so binary.
+  TeamTNT is a cloud-focused threat group targeting Docker/Kubernetes for
+  cryptomining. The Chimaera campaign (2020-2021) used IRC-based C2.
+
+ipv4:
+  - 45.9.148.108
+  - 85.214.149.236
+  - 45.9.148.182
+
+domains:
+  - chimaera.cc
+  - teamtnt.red
+
+# Trojanized binary
+# hash: 78facfc05e76e4e27d8eba753c97a3b8a2c5e96a69533c1a98a2e52ce2c73d37 - TeamTNT trojanized libpcap.so

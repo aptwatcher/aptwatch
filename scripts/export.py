@@ -17,13 +17,19 @@ DB_PATH = Path(__file__).parent.parent / 'database' / 'apt_intel.db'
 SCHEMA_PATH = Path(__file__).parent.parent / 'database' / 'schema_v2.sql'
 WEB_DB_PATH = BASE_DIR / 'apt_intel_web.db'
 
-# Tables to copy (excludes domains and urls)
+# Tables to copy (excludes domains, urls, and vulnerability_findings)
+# vulnerability_findings is ~75 MB alone — too large for GitHub Pages (100 MB limit)
+# A summary is stored in metadata instead.
 COPY_TABLES = [
     'ipv4_iocs', 'ipv6_iocs', 'cves', 'emails', 'cidr_iocs',
-    'subnets', 'asn_info', 'scan_results', 'vulnerability_findings',
-    'scan_campaigns', 'scan_queue', 'ip_correlations', 'metadata',
+    'subnets', 'asn_info', 'scan_results',
+    'scan_queue', 'ip_correlations', 'metadata',
     'recon_candidates', 'enrichment_results', 'staging_servers',
-    'validation_queue'
+    'validation_queue',
+    # v3 tables
+    'scoring_sources', 'source_validations', 'lifecycle_history',
+    'cloud_ip_ranges', 'ioc_evidence_chain', 'threat_actors',
+    'mitre_mapping',
 ]
 
 
@@ -39,15 +45,33 @@ def export():
     src = sqlite3.connect(str(DB_PATH))
     dst = sqlite3.connect(str(WEB_DB_PATH))
 
-    # Create schema
+    # Create schema (v2 base + v3 migration if available)
     print("Creating web DB schema...")
     dst.executescript(SCHEMA_PATH.read_text())
+
+    V3_MIGRATION = Path(__file__).parent.parent / 'database' / 'schema_v3_migration.sql'
+    if V3_MIGRATION.exists():
+        print("Applying v3 schema migration to web DB...")
+        try:
+            dst.executescript(V3_MIGRATION.read_text())
+            print("  v3 migration applied")
+        except Exception as e:
+            print(f"  v3 migration partial (expected if some statements fail): {e}")
 
     # Get domain/url counts from source
     domain_count = src.execute("SELECT COUNT(*) FROM domains").fetchone()[0]
     url_count = src.execute("SELECT COUNT(*) FROM urls").fetchone()[0]
     print(f"Source domains: {domain_count:,} (excluded from web DB)")
     print(f"Source urls: {url_count:,} (excluded from web DB)")
+
+    # Get vuln counts (excluded from web DB — too large)
+    try:
+        vuln_count = src.execute("SELECT COUNT(*) FROM vulnerability_findings").fetchone()[0]
+        vuln_hosts = src.execute("SELECT COUNT(DISTINCT host) FROM vulnerability_findings").fetchone()[0]
+        print(f"Source vulnerability_findings: {vuln_count:,} across {vuln_hosts} hosts (excluded from web DB)")
+    except Exception:
+        vuln_count = 0
+        vuln_hosts = 0
 
     # Copy each table (handle column mismatches between source and dest)
     for table in COPY_TABLES:
@@ -89,6 +113,8 @@ def export():
     dst.execute("INSERT OR REPLACE INTO metadata (key,value,updated_at) VALUES ('web_domain_count',?,datetime('now'))", (str(domain_count),))
     dst.execute("INSERT OR REPLACE INTO metadata (key,value,updated_at) VALUES ('web_url_count',?,datetime('now'))", (str(url_count),))
     dst.execute("INSERT OR REPLACE INTO metadata (key,value,updated_at) VALUES ('web_export','true',datetime('now'))")
+    dst.execute("INSERT OR REPLACE INTO metadata (key,value,updated_at) VALUES ('web_vuln_count',?,datetime('now'))", (str(vuln_count),))
+    dst.execute("INSERT OR REPLACE INTO metadata (key,value,updated_at) VALUES ('web_vuln_hosts',?,datetime('now'))", (str(vuln_hosts),))
 
     # Drop the empty domain/url tables created by schema
     dst.execute("DROP TABLE IF EXISTS domains")

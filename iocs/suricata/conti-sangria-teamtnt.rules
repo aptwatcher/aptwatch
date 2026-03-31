@@ -1,0 +1,83 @@
+# =============================================================
+# APT Watch - Conti / Sangria Tempest / TeamTNT Detection Rules
+# Date: 2026-03-30
+# Sources:
+#   - BleepingComputer Conti Playbook Leak
+#   - Microsoft MTAC Sangria Tempest/BlackMatter Report
+#   - Conti Toolkit Leak (source code & manual analysis)
+#   - TeamTNT Chimaera Infrastructure
+# =============================================================
+
+# ---------------------------------------------------------
+# CONTI - Cobalt Strike C2 Servers (from leaked playbook)
+# ---------------------------------------------------------
+
+alert ip $HOME_NET any -> 162.244.80.235 any (msg:"APTWATCH Conti Cobalt Strike C2 162.244.80.235"; classtype:trojan-activity; sid:2026033001; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor Conti, tool Cobalt_Strike, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 85.93.88.165 any (msg:"APTWATCH Conti Cobalt Strike C2 85.93.88.165"; classtype:trojan-activity; sid:2026033002; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor Conti, tool Cobalt_Strike, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 185.141.63.120 any (msg:"APTWATCH Conti Cobalt Strike C2 185.141.63.120"; classtype:trojan-activity; sid:2026033003; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor Conti, tool Cobalt_Strike, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 82.118.21.1 any (msg:"APTWATCH Conti Cobalt Strike C2 82.118.21.1"; classtype:trojan-activity; sid:2026033004; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor Conti, tool Cobalt_Strike, mitre_attack T1071.001;)
+
+# ---------------------------------------------------------
+# CONTI - SMB Lateral Movement Pattern
+# Conti operators use aggressive SMB share enumeration
+# followed by file copy for propagation
+# ---------------------------------------------------------
+
+alert smb $HOME_NET any -> $HOME_NET any (msg:"APTWATCH Conti-style SMB share enumeration (NetShareEnumAll)"; flow:established,to_server; content:"|ff|SMB"; content:"|25 00|"; offset:9; depth:2; content:"|00 00 00 0f|"; classtype:attempted-recon; sid:2026033005; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor Conti, mitre_attack T1135;)
+
+# ---------------------------------------------------------
+# CONTI - Rclone Exfiltration to Mega.nz
+# Conti operators use rclone with Mega.nz for data exfil
+# ---------------------------------------------------------
+
+alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH Rclone User-Agent exfiltration tool"; flow:established,to_server; http.user_agent; content:"rclone/"; nocase; classtype:policy-violation; sid:2026033006; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor Conti, tool rclone, mitre_attack T1567.002;)
+
+alert tls $HOME_NET any -> $EXTERNAL_NET 443 (msg:"APTWATCH Mega.nz exfiltration endpoint (potential rclone)"; flow:established,to_server; tls.sni; content:"mega.nz"; nocase; threshold:type both, track by_src, count 50, seconds 300; classtype:policy-violation; sid:2026033007; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor Conti, tool rclone, mitre_attack T1567.002;)
+
+# ---------------------------------------------------------
+# CONTI - Ngrok Tunneling
+# Conti operators use Ngrok for reverse tunnel access
+# ---------------------------------------------------------
+
+alert tls $HOME_NET any -> $EXTERNAL_NET 443 (msg:"APTWATCH Ngrok tunnel connection (Conti operator tool)"; flow:established,to_server; tls.sni; content:".ngrok.io"; nocase; classtype:policy-violation; sid:2026033008; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor Conti, tool Ngrok, mitre_attack T1572;)
+
+alert tls $HOME_NET any -> $EXTERNAL_NET 443 (msg:"APTWATCH Ngrok tunnel v2 connection"; flow:established,to_server; tls.sni; content:".ngrok-free.app"; nocase; classtype:policy-violation; sid:2026033009; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor Conti, tool Ngrok, mitre_attack T1572;)
+
+# ---------------------------------------------------------
+# SANGRIA TEMPEST - Gost Tunneling Tool
+# BlackMatter/DarkSide operators use Gost (Go Simple Tunnel)
+# for reverse proxy and C2 tunneling
+# ---------------------------------------------------------
+
+alert tcp $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH Gost tunnel SOCKS5 handshake (Sangria Tempest tool)"; flow:established,to_server; content:"|05 01 00|"; depth:3; content:"|05 00|"; distance:0; classtype:trojan-activity; sid:2026033010; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor Sangria_Tempest, tool Gost, mitre_attack T1572;)
+
+# ---------------------------------------------------------
+# TEAMTNT - Chimaera C2 Infrastructure
+# ---------------------------------------------------------
+
+alert ip $HOME_NET any -> 45.9.148.108 any (msg:"APTWATCH TeamTNT Chimaera C2 45.9.148.108"; classtype:trojan-activity; sid:2026033011; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor TeamTNT, campaign Chimaera, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 85.214.149.236 any (msg:"APTWATCH TeamTNT infrastructure 85.214.149.236"; classtype:trojan-activity; sid:2026033012; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor TeamTNT, campaign Chimaera, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 45.9.148.182 any (msg:"APTWATCH TeamTNT infrastructure 45.9.148.182"; classtype:trojan-activity; sid:2026033013; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor TeamTNT, campaign Chimaera, mitre_attack T1071.001;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH TeamTNT Chimaera C2 domain chimaera.cc"; dns.query; content:"chimaera.cc"; nocase; classtype:trojan-activity; sid:2026033014; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor TeamTNT, campaign Chimaera, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH TeamTNT domain teamtnt.red"; dns.query; content:"teamtnt.red"; nocase; classtype:trojan-activity; sid:2026033015; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor TeamTNT, mitre_attack T1071.004;)
+
+# ---------------------------------------------------------
+# TEAMTNT - Cryptomining Pool Connections
+# ---------------------------------------------------------
+
+alert tls $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH TeamTNT XMRig mining pool supportxmr"; flow:established,to_server; tls.sni; content:"supportxmr.com"; nocase; classtype:policy-violation; sid:2026033016; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor TeamTNT, tool XMRig, mitre_attack T1496;)
+
+alert tls $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH TeamTNT XMRig mining pool moneroocean"; flow:established,to_server; tls.sni; content:"moneroocean.stream"; nocase; classtype:policy-violation; sid:2026033017; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, actor TeamTNT, tool XMRig, mitre_attack T1496;)
+
+# ---------------------------------------------------------
+# ZEROLOGON (CVE-2020-1472) - Used by Conti for DC compromise
+# ---------------------------------------------------------
+
+alert tcp $HOME_NET any -> $HOME_NET 135 (msg:"APTWATCH ZeroLogon CVE-2020-1472 Netlogon exploit attempt"; flow:established,to_server; content:"|00 00|"; depth:2; content:"|00 00 00 00 00 00 00 00|"; distance:6; within:8; threshold:type both, track by_src, count 5, seconds 2; classtype:attempted-admin; sid:2026033018; rev:1; metadata:created_at 2026_03_30, updated_at 2026_03_30, cve CVE-2020-1472, actor Conti, mitre_attack T1068;)
