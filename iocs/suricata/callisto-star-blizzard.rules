@@ -1,0 +1,66 @@
+# Suricata Detection Rules - Callisto / Star Blizzard Campaign
+# Campaign: Callisto (aka Star Blizzard, COLDRIVER, Seaborgium, ColdRiver, TA446, Blue Charlie, TAG-53, DANCING SALOME)
+# Threat Actor: FSB Center 18 (Russia)
+# Created: 2026-03-31
+# Sources: Google TAG, CISA, Microsoft
+# Description: Rules for detecting C2 communications, phishing infrastructure, and credential harvesting activity
+#
+# MITRE ATT&CK Techniques:
+# - T1566.001: Spearphishing Attachment
+# - T1566.002: Phishing - Link
+# - T1190: Exploit Public-Facing Application
+# - T1204.001: Execution via User Interaction - Malicious Link
+# - T1204.002: Execution via User Interaction - Malicious File
+# - T1556: Modify Authentication Process
+# - T1110: Brute Force
+# - T1539: Steal Web Session Cookie
+# - T1547.001: Boot or Logon Autostart Execution - Registry Run Keys
+# - T1027: Obfuscated Files or Information
+# - T1036: Masquerading
+# - T1005: Data from Local System
+# - T1114: Email Collection
+# - T1071.001: Application Layer Protocol - Web Protocols
+# - T1102: Web Service
+# - T1041: Exfiltration Over C2 Channel
+
+# ============================================================================
+# C2 IP Detection Rules (SID: 2026033401-2026033404)
+# ============================================================================
+
+alert ip $HOME_NET any -> 103.76.128.34 any (msg:"APTWATCH Callisto/Star Blizzard C2 IP - 103.76.128.34"; classtype:trojan-activity; sid:2026033401; rev:1; metadata:created_at 2026_03_31, actor Callisto, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 45.133.216.15 any (msg:"APTWATCH Callisto/Star Blizzard C2 IP - 45.133.216.15"; classtype:trojan-activity; sid:2026033402; rev:1; metadata:created_at 2026_03_31, actor Callisto, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 65.21.51.58 any (msg:"APTWATCH Callisto/Star Blizzard C2 IP - 65.21.51.58"; classtype:trojan-activity; sid:2026033403; rev:1; metadata:created_at 2026_03_31, actor Callisto, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 85.239.52.32 any (msg:"APTWATCH Callisto/Star Blizzard C2 IP - 85.239.52.32 (SPICA)"; classtype:trojan-activity; sid:2026033404; rev:1; metadata:created_at 2026_03_31, actor Callisto, mitre_attack T1071.001;)
+
+# ============================================================================
+# C2/Phishing Domain DNS Detection Rules (SID: 2026033405-2026033406)
+# ============================================================================
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Callisto C2 domain aerofluidthermo.org"; dns.query; content:"aerofluidthermo.org"; nocase; classtype:trojan-activity; sid:2026033405; rev:1; metadata:created_at 2026_03_31, actor Callisto;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Callisto C2 domain civilstructgeo.org"; dns.query; content:"civilstructgeo.org"; nocase; classtype:trojan-activity; sid:2026033406; rev:1; metadata:created_at 2026_03_31, actor Callisto;)
+
+# ============================================================================
+# Credential Harvesting Domain Pattern Detection (SID: 2026033407-2026033411)
+# Pattern-based detection on common COLDRIVER naming conventions
+# ============================================================================
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH COLDRIVER credential harvesting pattern - documentgate"; dns.query; content:"documentgate"; nocase; classtype:trojan-activity; sid:2026033407; rev:1; metadata:created_at 2026_03_31, actor COLDRIVER;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH COLDRIVER credential harvesting pattern - storagekeep"; dns.query; content:"storagekeep"; nocase; classtype:trojan-activity; sid:2026033408; rev:1; metadata:created_at 2026_03_31, actor COLDRIVER;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH COLDRIVER credential harvesting pattern - keeperdocument"; dns.query; content:"keeperdocument"; nocase; classtype:trojan-activity; sid:2026033409; rev:1; metadata:created_at 2026_03_31, actor COLDRIVER;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH COLDRIVER credential harvesting pattern - infostorage"; dns.query; content:"infostorage"; nocase; classtype:trojan-activity; sid:2026033410; rev:1; metadata:created_at 2026_03_31, actor COLDRIVER;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH COLDRIVER credential harvesting pattern - cryptogate"; dns.query; content:"cryptogate"; nocase; classtype:trojan-activity; sid:2026033411; rev:1; metadata:created_at 2026_03_31, actor COLDRIVER;)
+
+# ============================================================================
+# Credential Harvesting HTTP Detection Rules (SID: 2026033412)
+# Generic credential page detection - suspicious login verification flows
+# ============================================================================
+
+alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH Callisto suspicious credential verification page"; flow:established,to_server; http.uri; content:"login"; content:"verify"; distance:0; nocase; classtype:trojan-activity; sid:2026033412; rev:1; metadata:created_at 2026_03_31, actor Callisto, mitre_attack T1556;)

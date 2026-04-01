@@ -1,0 +1,108 @@
+# Sandworm / Seashell Blizzard — BACKORDER/KMS + Cyclops Blink IOCs
+# GRU Unit 74455 multi-source IOC collection
+author: aptwatch-team
+source: Multiple
+source_name: "Sandworm / Seashell Blizzard Multi-Source IOC Collection (EclecticIQ, NSA, OTX)"
+apt_groups:
+  - Sandworm
+  - Seashell Blizzard
+  - APT44
+  - Iron Viking
+  - Voodoo Bear
+  - FROZENBARENTS
+  - Telebots
+  - UAC-0002
+description: >
+  GRU Unit 74455 (Sandworm) IOC collection from multiple sources and campaigns.
+  BACKORDER: Go-based loader distributed via trojanized KMS activation tools,
+  disables Windows Defender, deploys DcRAT. Kalambur (SUMBUR): C# backdoor with
+  TOR C2. ZEROLOT/Sting: Data wipers targeting Ukrainian energy and grain sectors
+  (2025). Cyclops Blink: Botnet targeting WatchGuard and ASUS routers. Also includes
+  Industroyer2 and CaddyWiper wiper families targeting Ukrainian critical infrastructure.
+cves:
+  - CVE-2019-10149
+ipv4:
+  - 103.94.157.5
+  - 5.255.122.118
+  - 95.216.13.196
+domains:
+  - hostapp.be
+  - esetsmart.com
+  - esetremover.com
+emails:
+  - asmohamed2030@protonmail.com
+  - inekawaki@proton.me
+  - repgoti@proton.me
+hashes:
+  # BACKORDER/KMS trojans (EclecticIQ) — 31 samples
+  - hash: 039c8dd066efa3dd7ac653689bfa07b2089ce4d8473c907547231c6dd2b136ec
+    description: "BACKORDER KMS trojan"
+  - hash: 0e58d38fd2df86eeb4a556030a0996c04bd63e09e669b34d3bbc10558edf31a6
+    description: "BACKORDER KMS trojan"
+  - hash: 1a1ffcbab9bff4a033a26e8b9a08039955ac14ac5ce1f8fb22ff481109d781a7
+    description: "BACKORDER KMS trojan"
+  - hash: 22c79153e0519f13b575f4bfc65a5280ff93e054099f9356a842ce3266e40c3d
+    description: "BACKORDER KMS trojan"
+  - hash: 2de08a0924e3091b51b4451c694570c11969fb694a493e7f4d89290ae5600c2c
+    description: "BACKORDER KMS trojan"
+  - hash: 48450c0a00b9d1ecce930eadbac27c3c80db73360bc099d3098c08567a59cdd3
+    description: "BACKORDER KMS trojan"
+  - hash: 4b0038de82868c7196969e91a4f7e94d0fa2b5efa7a905463afc01bfca4b8221
+    description: "BACKORDER KMS trojan"
+  - hash: 4b2e4466d1becfa40a3c65de41e5b4d2aa23324e321f727f3ba20943fd6de9e5
+    description: "BACKORDER KMS trojan"
+  - hash: 4b9e32327067a84d356acb8494dc05851dbf06ade961789a982a5505b9e061e3
+    description: "BACKORDER KMS trojan"
+  - hash: 553f7f32c40626cbddd6435994aff8fc46862ef2ed8f705f2ad92f76e8a3af12
+    description: "BACKORDER KMS trojan"
+  - hash: 5bff08a6aa7a7541c0b7b1660fd944cec55fa82df6285166f4da7a48b81f776e
+    description: "BACKORDER KMS trojan"
+  - hash: 70c91ffdc866920a634b31bf4a070fb3c3f947fc9de22b783d6f47a097fec2d8
+    description: "BACKORDER KMS trojan"
+  - hash: 70cad07a082780caa130290fcbb1fd049d207777b587db6a5ee9ecf15659419f
+    description: "BACKORDER KMS trojan"
+  - hash: 7c0da4e314a550a66182f13832309f7732f93be4a31d97faa6b9a0b311b463ff
+    description: "BACKORDER KMS trojan"
+  - hash: 7d92b10859cd9897d59247eb2ca6fb8ec52d8ce23a43ef99ff9d9de4605ca12b
+    description: "BACKORDER KMS trojan"
+  - hash: 8a4df53283a363c4dd67e2bda7a430af2766a59f8a2faf341da98987fe8d7cbd
+    description: "BACKORDER KMS trojan"
+  - hash: 8cfa4f10944fc575420533b6b9bbcabbf3ae57fe60c6622883439dbb1aa60369
+    description: "BACKORDER KMS trojan"
+  - hash: a00beaa5228a153810b65151785596bebe2f09f77851c92989f620e37c60c935
+    description: "BACKORDER KMS trojan"
+  - hash: a42de97a466868efbfc4aa1ef08bfdb3cc5916d1accd59cfffff1a896d569412
+    description: "BACKORDER KMS trojan"
+  - hash: aadd85e88c0ebb0a3af63d241648c0670599c3365ff7e5620eb8d06902fdde83
+    description: "BACKORDER KMS trojan"
+  - hash: afc6131b17138a6132685617aa60293a40f2462dc3a810a4cf745977498e0255
+    description: "BACKORDER KMS trojan"
+  - hash: b45712acbadcd17cb35b8f8540ecc468b73cac9e31b91c8d6a84af90f10f29f8
+    description: "BACKORDER KMS trojan"
+  - hash: b545c5ee0498637737d4edff4b0cc672fe097a1ecfba1a08bb4d07e8affe79d3
+    description: "BACKORDER KMS trojan"
+  - hash: b9be4a6271c4660bb9a45985c85975330ab98454d0581de979738e3d3e71d03a
+    description: "BACKORDER KMS trojan"
+  - hash: c5853083d4788a967548bee6cc81d998b0d709a240090cfed4ab530ece8b436e
+    description: "BACKORDER KMS trojan"
+  - hash: cd7c36a2f4797b9ca6e87ab44cb6c8b4da496cff29ed5bf727f0699917bae69a
+    description: "BACKORDER KMS trojan"
+  - hash: d13f0641fd98df4edcf839f0d498b6b6b29fbb8f0134a6dae3d9eb577d771589
+    description: "BACKORDER KMS trojan"
+  - hash: d774b1d0f5bdb26e68e63dc93ba81a1cdf076524e29b4260b67542c06fbfe55c
+    description: "BACKORDER KMS trojan"
+  - hash: dd7a9d8d8f550a8091c79f2fb6a7b558062e66af852a612a1885c3d122f2591b
+    description: "BACKORDER KMS trojan"
+  - hash: ed5735449a245355706fc58f4b744251f6e499833f02a972f9bd448c28467194
+    description: "BACKORDER KMS trojan"
+  - hash: fdc3f0516e1558cc4c9105ac23716f39a6708b8facada3a48609073a16a63c83
+    description: "BACKORDER KMS trojan"
+  # Cyclops Blink botnet samples (OTX) — 4 samples
+  - hash: 893750547255b848a273bd1668e128a5e169011e79a7f5c7bb86cc5d7b2153bc
+    description: "Cyclops Blink botnet"
+  - hash: 928d8dde63b0255feffc3d03db30aa76f7ed8913238321cc101083c2c5056ffa
+    description: "Cyclops Blink botnet"
+  - hash: e1ff729f45b587a5ebbc8a8a97a7923fc4ada14de4973704c9b4b89c50fd1146
+    description: "Cyclops Blink botnet"
+  - hash: ebe98d5e1ab6966ec1e292fafbd5ef21c2b15bd7c7bb871d8e756971b8b6877a
+    description: "Cyclops Blink botnet"

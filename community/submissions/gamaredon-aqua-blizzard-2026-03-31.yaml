@@ -1,0 +1,386 @@
+# =============================================================
+#  Gamaredon / Aqua Blizzard — Multi-Source IOC Collection
+#  Sources: ESET, Talos, Unit42, maltrail
+#  Campaigns: GammaSteel, GammaLoad, Pteranodon
+#  Target: Ukrainian government and military entities (2024-2026)
+# =============================================================
+
+author: aptwatch-team
+
+source: Multiple (ESET, Talos, Unit42, maltrail)
+source_name: "Gamaredon / Aqua Blizzard Multi-Source IOC Collection (ESET, Talos, Unit42, maltrail)"
+
+apt_groups:
+  - Gamaredon
+  - Aqua Blizzard
+  - Primitive Bear
+  - Shuckworm
+  - Armageddon
+  - Iron Tilden
+  - UAC-0010
+
+description: >
+  Comprehensive IOC collection for Gamaredon (FSB Crimea) aggregated from ESET
+  (2 PDFs: Gamaredon-in-2024, Cyberespionage-the-Gamaredon-Way), Talos, Unit42
+  toolset evolution report, ESET/Turla collaboration research, and maltrail
+  community signatures. Covers GammaSteel, GammaLoad, Pteranodon toolsets.
+  Active 2024-2026 targeting Ukrainian government and military entities.
+
+cves:
+  - CVE-2025-55182
+
+ipv4:
+  - 155.138.252.221
+  - 162.33.178.129
+  - 168.119.152.19
+  - 185.118.115.15
+  - 195.62.52.93
+  - 217.160.0.159
+  - 217.160.0.33
+  - 45.77.237.252
+  - 64.176.173.164
+  - 77.46.148.242
+  - 85.13.145.231
+  - 91.231.182.187
+
+domains:
+  - allocation6.torfasta.ru
+  - allocation65.torfasta.ru
+  - ally67.flashiko.ru
+  - aloft5.kaelos.ru
+  - aloft86.kaelos.ru
+  - also84.chromatol.ru
+  - altitude100.exportan.ru
+  - amazed.fame36.bishoten.ru
+  - amazed31.loperto.ru
+  - ambulance27.boytran.ru
+  - ambulance5.boytran.ru
+  - beware82.flashiko.ru
+  - bicycle.altitude100.exportan.ru
+  - bid35.drivento.ru
+  - classes.relative3.legolaba.ru
+  - classes.relative48.legolaba.ru
+  - classes.relative72.legolaba.ru
+  - could.bid35.drivento.ru
+  - counsel37.bishoten.ru
+  - counsel91.bishoten.ru
+  - countries.aloft5.kaelos.ru
+  - countries.aloft86.kaelos.ru
+  - dnsaccount.flashiko.ru
+  - downloads.email-attachments.ru
+  - downloads.file-attachments.ru
+  - endeavour.relative17.flashiko.ru
+  - endeavour.relative32.flashiko.ru
+  - faithfully.allegiance33.skymagra.ru
+  - faithfully.glitter15.drowrang.ru
+  - faithfully.glitter71.drowrang.ru
+  - faithfully.glitter75.drowrang.ru
+  - faithfully.glitter86.drowrang.ru
+  - falling3.bartopl.ru
+  - falling81.bartopl.ru
+  - falling85.bartopl.ru
+  - falling88.bartopl.ru
+  - fame36.bishoten.ru
+  - famous23.loperto.ru
+  - fielmente.glitter17.drowrang.ru
+  - glitter15.drowrang.ru
+  - glitter71.drowrang.ru
+  - glitter75.drowrang.ru
+  - glitter86.drowrang.ru
+  - globe24.bilodon.ru
+  - globe29.silentar.ru
+  - globe40.bilodon.ru
+  - globe48.bilodon.ru
+  - globe62.bilodon.ru
+  - globe7.bilodon.ru
+  - globe89.bilodon.ru
+  - goal.falling3.bartopl.ru
+  - goal.falling81.bartopl.ru
+  - goal.falling85.bartopl.ru
+  - goal.falling88.bartopl.ru
+  - goat67.molotiras.ru
+  - goat98.molotiras.ru
+  - intelligence.perform29.flashiko.ru
+  - intentions24.skymagra.ru
+  - intentions45.miltras.ru
+  - login.kifales.ru
+  - lovers87.flashiko.ru
+  - lumber.shoe35.exportan.ru
+  - mail.file-attachments.ru
+  - penholder.allocation2.torfasta.ru
+  - penholder.allocation23.torfasta.ru
+  - penholder.allocation4.torfasta.ru
+  - penholder.allocation51.torfasta.ru
+  - penholder.allocation56.torfasta.ru
+  - penholder.allocation6.torfasta.ru
+  - penholder.allocation65.torfasta.ru
+  - pepper.counsel37.bishoten.ru
+  - pepper.counsel91.bishoten.ru
+  - perceived.rehearsal22.torfasta.ru
+  - perceived.rehearsal55.torfasta.ru
+  - perform29.flashiko.ru
+  - perform72.vilitord.ru
+  - performed.intentions45.miltras.ru
+  - preview.rejection73.flashiko.ru
+  - prince55.bilodon.ru
+  - regions18.molotiras.ru
+  - regions26.molotiras.ru
+  - registry5.silentar.ru
+  - rehearsal22.torfasta.ru
+  - rehearsal55.torfasta.ru
+  - rehearsal73.torfasta.ru
+  - rejection73.flashiko.ru
+  - relative17.flashiko.ru
+  - relative3.legolaba.ru
+  - relative32.flashiko.ru
+  - relative48.legolaba.ru
+  - relative72.legolaba.ru
+  - relay.ally67.flashiko.ru
+  - rms.admin-ru.ru
+  - salute21.bartopl.ru
+  - salvation.salute21.bartopl.ru
+  - shoe35.exportan.ru
+  - shoot12.bilodon.ru
+  - shoot13.bilodon.ru
+  - shoot18.bilodon.ru
+  - shoot25.bilodon.ru
+  - shoot35.bilodon.ru
+  - shoot37.bilodon.ru
+  - shoot44.bilodon.ru
+  - shoot47.bilodon.ru
+  - shoot48.bilodon.ru
+  - shoot49.bilodon.ru
+  - shoot56.bilodon.ru
+  - shoot60.bilodon.ru
+  - shoot61.bilodon.ru
+  - shoot65.bilodon.ru
+  - shoot67.bilodon.ru
+  - shoot82.bilodon.ru
+  - shoot83.bilodon.ru
+  - shoot94.bilodon.ru
+  - shoot95.bilodon.ru
+  - sorting73.tilofol.ru
+  - stops13.witchdors.ru
+  - stops43.witchdors.ru
+  - stops60.witchdors.ru
+  - stops68.witchdors.ru
+  - stops74.witchdors.ru
+  - ukrway.galaktion.ru
+  - www.file-attachments.ru
+  - www.phlovel.ru
+  - www.sheepster.ru
+  - www.toorisugita.ru
+  - www.win-restore.ru
+
+# ---- Gamaredon toolset, Unit42 (198 hashes) ----
+# hash: 002aff376ec452ec35ae2930dfbb51bd40229c258611d19b86863c3b0d156705 — Gamaredon toolset
+# hash: 01c5729ac1ae3928053c085fd616323a3715863ab3d7e9b8106c09e24df34183 — Gamaredon toolset
+# hash: 026be8a873560f1496c6961f6e36c312bdda01beacb17c4b744f35ee1923d061 — Gamaredon toolset
+# hash: 03c943f5cba11b09b9c3afa0705d4a027e5a9d81b299711740cc5aedfe4b4aa1 — Gamaredon toolset
+# hash: 03e5e99cc8280de4663c4b65bfd26782d4975258808a63a4b20bc068008df7f5 — Gamaredon toolset
+# hash: 0458e168baa4fa5942892065925ac82b12245551b539d54c2884b3a21c2699d8 — Gamaredon toolset
+# hash: 059e40ba91b2b2d827c200476fcbd0fad0d43ab198d0c206c996777d27e6de65 — Gamaredon toolset
+# hash: 05cbe01b1125897e0e982c587a10a72f4df795b844a4a2c4cec44aee7f30ce94 — Gamaredon toolset
+# hash: 0669e61e51cf43daa431d52b5461c90bdce1b1bee03b087e4406c30264dcb9a4 — Gamaredon toolset
+# hash: 068b9a9194efacc16cf142814e79b7041b6ab3d671a95bb508dbd30061c324aa — Gamaredon toolset
+# hash: 08e69f21c3c60a4a9b78f580c3a55d4cfb74729705b5b7d01c1aecfd58fc49e6 — Gamaredon toolset
+# hash: 0b4a90b823a581311c4acb59f35e32f81f70ca16a2538f54f4dbe03db93350df — Gamaredon toolset
+# hash: 0b5316d723d1ebbec9aba0c9ff6761050305d644c3eeb5291b4e2c4de9e5fa15 — Gamaredon toolset
+# hash: 0b8d59312699739b6e6cb7aeb0f22a2eaebbb0fd898a97ef9b83e8d8e9ce67a0 — Gamaredon toolset
+# hash: 0c47cf984afe87a14d0d4c94557864ed19b4cb52783e49ce96ebf9c2f8b52d27 — Gamaredon toolset
+# hash: 0dc1010c3d3766158e2347d10fc78d9223c6e0e3a44aa8a76622aeff7d429ab9 — Gamaredon toolset
+# hash: 0dd13d2d0edbcf9d1825c2bfc165876ada2e4d04e2981a0003cb6503fad2287b — Gamaredon toolset
+# hash: 0ddb7867e31f3f30cd1cfe74393f8ac5bbdc61538278de9219a49345f0d3af7f — Gamaredon toolset
+# hash: 0f745512940e0efd8f09c6d862571cba2b98fac9a9f7cf30dedcc08ace43a494 — Gamaredon toolset
+# hash: 13fed3accac4f38f28e606b110a3b7924d9c7a1a911f8c0613d0bb791e715267 — Gamaredon toolset
+# hash: 145dab86a43835bb37734c16756d6d64d8e5ac6b87c491c57385e27b564136b8 — Gamaredon toolset
+# hash: 151cf4c83722ba171ae42640e5e13af67ca06ee0a06a74afa53931acf6ac1506 — Gamaredon toolset
+# hash: 17006d77cc1459aa3d70e4e9377edb2547a7446647aa9872c9dd9ad860ed7e39 — Gamaredon toolset
+# hash: 1ec7e595677038145991c6d84dc7808602142f258c1f90e9486cca0fe531d74f — Gamaredon toolset
+# hash: 1eef9f8d7d3099b87be7ac25121f9d2ccacfb5ccf02b508fb2036b6e059c525f — Gamaredon toolset
+# hash: 208dc592111a8221a9c633efc120b890585f9a67ed340cbb5ec9db4cd5e164e4 — Gamaredon toolset
+# hash: 2124adbee89f2c1cb65896bed26e7ffa8bf0fcbdfeb99a9e751fea9cca7a896b — Gamaredon toolset
+# hash: 222e85e6d07bdc3a2141cdd582d3f2ed4b1ce5285731cc3f54e6202a13737f8d — Gamaredon toolset
+# hash: 22e97292671ada8deef4329eb115c52f6f1bc598bcf01a3961f1c35a2230a013 — Gamaredon toolset
+# hash: 259a78122ef51ae503059143bf36941fc6090be83213d196ba3051ba36a0b2a1 — Gamaredon toolset
+# hash: 2617f9301869304b88d8a3a4f7b2eab6b0edf264cc1a28b99f5685959242ec39 — Gamaredon toolset
+# hash: 26564c23530dd14e0042e074f4178a5b2ad6fc8f51f10138fc39941a6303bff9 — Gamaredon toolset
+# hash: 27e08fb90ada2fd8ce6b6149786edd3b814dd0324257ebd919ed66ada0334b21 — Gamaredon toolset
+# hash: 29453fa1772b6d7d33842d6abbe0cb55c4a4b66a00f43284c8724d7c16749a7d — Gamaredon toolset
+# hash: 29c728a169c5d18298e77db161dd5d2f6396ceca9ee7849b63ff8a8bc11f911e — Gamaredon toolset
+# hash: 2a072d9ce63a94d2530cf9f18a232c6a09f6c7bdff9dbe27faceef53604145ea — Gamaredon toolset
+# hash: 2c02d3d3fadd76f9d21f5c093459ddc0045c94f17679269eb7a2990a1a88cb42 — Gamaredon toolset
+# hash: 2c5d55619d2f56dc5824a4845334e7804d6d306daac1c23bec6f078f30f1c825 — Gamaredon toolset
+# hash: 2d55000bb5cb9e3e1f137810c2e1eb899f68c40e4a6f6307f226c7b8af208abd — Gamaredon toolset
+# hash: 2ded2f3b5b5b6155ce818893c67887cbfa8b539be6c983e314ccf2177552da20 — Gamaredon toolset
+# hash: 2e89436b355550ceb361fac1b03b78b71eda11d25f26223ac5c8c34ed8972a05 — Gamaredon toolset
+# hash: 2f2b26f2f7d164ea1f529edbc3cb8a1063b39121dad4dd19d8ee4bbbaf25ed37 — Gamaredon toolset
+# hash: 3242183b1f0176a2e3cfb6bfef96b9d55c5a59ea9614dbde4ef89979336b5a5d — Gamaredon toolset
+# hash: 32b0e6394b110860371da5541946a6dcc85358a3951eddc86fdaf5794527c150 — Gamaredon toolset
+# hash: 33934fcfae5760316b3f40e013cbb03d8086f8c30f9a4ba9bed3f9486a530796 — Gamaredon toolset
+# hash: 34d86602882e86f8aaaeb7513126c8579a4489f2be31c279188e2f2ca8a0e141 — Gamaredon toolset
+# hash: 3773ddd462b01f9272656f3150f2c3de19e77199cf5fac1f44287d11593614f9 — Gamaredon toolset
+# hash: 37c78ee7826d63bb9219de594ed6693f18da5db60e3cbc86795bd10b296f12ac — Gamaredon toolset
+# hash: 390162dae62a0347e35cf5dad093cfc2f7d4ded62fba9d2df7af6133feb41ee0 — Gamaredon toolset
+# hash: 3e5b1116b2dfd99652a001968a05fc962974931a0596153ab0dea8e4a9982f89 — Gamaredon toolset
+# hash: 3ef3a06605b462ea31b821eb76b1ea0fdf664e17d010c1d5e57284632f339d4b — Gamaredon toolset
+# hash: 3ef8602579c6b145fbaafc8970b4c9a6e7bebd11eb5e37eecaa67b4572c6038b — Gamaredon toolset
+# hash: 400f53a89d08d47f608e1288d9873bf8d421fc7cd642c5e821674f38e07a1501 — Gamaredon toolset
+# hash: 420acd7e8598fe994b59bf5d30f89e1c11b36cbef464a4786694cf9eada8dd4c — Gamaredon toolset
+# hash: 42b4c39179f76ea9eb5835b55a3cf4d8dbb29d42ee0622ad2e89ca48d01e8988 — Gamaredon toolset
+# hash: 42eed03907c9dfa0e566fbe5968cdb5a1b7b5e18521f7327185ed2208c6c29b4 — Gamaredon toolset
+# hash: 467f04914a1e6093bdaf5c28884bf95ec738234033b3292d289a0799de196d49 — Gamaredon toolset
+# hash: 46a39da996b01e26ddd71d51c9704de2aa641cd3443f6fe0e5c485f1cd9fa65d — Gamaredon toolset
+# hash: 47d929c69bfd8d8efb9c280eabec2f73d4bddf1c3c30120c3fb6334623469888 — Gamaredon toolset
+# hash: 505ef8cbc1271ce32f0c473468d75a1aba5073c37b2e6b49293ddc9efcb4ac96 — Gamaredon toolset
+# hash: 5230453eeb98c5a183129ed8b918b429e96020887302ba30941c408108a1ab84 — Gamaredon toolset
+# hash: 5255061c3600df1a94b376fca40f3ccb69d1cb6dd42aa744b20a643c7292d20c — Gamaredon toolset
+# hash: 5363220b532d7da378b338e839a501ae5c006cc03c8b2d3627c480d64deb1221 — Gamaredon toolset
+# hash: 550ee89d5df17f90ba7689d957cd067dcdbe3d957c5369ea28d925e02ccc8ce6 — Gamaredon toolset
+# hash: 558f33d478091993e5b5921604f8c3873efc87f551fddf61612b5c64d5b610f6 — Gamaredon toolset
+# hash: 55c76f4f93f9e155fbb6a28447f97c1ccda0081061dc3cb9973d42c1686964b7 — Gamaredon toolset
+# hash: 56c8246819f7de5cba91001793831441d4ce998ccb8237cb96c9f52e88ea384b — Gamaredon toolset
+# hash: 598c55b89e819b23eac34547ad02e5cd59e1b8fcb23b5063a251d8e8fae8b824 — Gamaredon toolset
+# hash: 59bddb5ccdc1c37c838c8a3d96a865a28c75b5807415fd931eaff0af931d1820 — Gamaredon toolset
+# hash: 5a7da102c11960b9651650143a4a08ae4ce97d68dff999961f1ffc792531afeb — Gamaredon toolset
+# hash: 5ac627f8964d3b9cad69f21e3b8f27305f1f68f49e4f4fae2c73949a04b32692 — Gamaredon toolset
+# hash: 5b22ace98b57ed19d815c49983c96a3c6ff0b2701e8167d4422c6990982abcf9 — Gamaredon toolset
+# hash: 5b6a691cf8faf238b27861941a1b667d889889cc9711a3e561403d6a6ed292c9 — Gamaredon toolset
+# hash: 5c47d18b3f0e0274c6a66b2eab27d47c73a0105c263d41c6473aba9a28d0a4ba — Gamaredon toolset
+# hash: 5ccc76ae1cdf668ba7f89c6cbd0bad44f148cbee736320ead237262ba170ffba — Gamaredon toolset
+# hash: 5cd4401c1dae9b9ecd75c96ab29dc64ce40bef3acc6faf7c001ff98ebd3b3413 — Gamaredon toolset
+# hash: 5cd72eaf555813f1ee187def594584f5cfc6a5e83086f35e281327b5210adffb — Gamaredon toolset
+# hash: 5ec8b7ca4461720bd69fb49b3f6cae637d8ac3bbd675da938bc5a84e9b73b395 — Gamaredon toolset
+# hash: 5f8293eda9fb40684caddf576eba6c81f3a06911ca9e4ecf84ede3b2891cff5e — Gamaredon toolset
+# hash: 5fb7f6f953be3b65d88bd86d1391ebc9f88fc10b0ef23541463ebf5b157f695c — Gamaredon toolset
+# hash: 6016cf9898d74e2e9030be7c987964d817ba28ad2253d1da54c81a1bf49db836 — Gamaredon toolset
+# hash: 621e55421dffae981e3e933c65626314d5610c7c08f76f83a3d07f0ec6c36e2d — Gamaredon toolset
+# hash: 63fcfab8e9b97d9aec3d6f243003ea3e2bf955523f08e6f1c0d1e28c839ee3d5 — Gamaredon toolset
+# hash: 6c258151c593268c13c252d8f275192a6f7a74d5de5754f2cf20fb94be7ee6ea — Gamaredon toolset
+# hash: 6ccc24971073d24d90c4cbaf83dfbae2969cbf527e319c7ee9a4babcbe88e456 — Gamaredon toolset
+# hash: 6f8da9180eebe02ba35317cb8aee5c8df6ac29795af70eb9430c3588d457aad6 — Gamaredon toolset
+# hash: 71c5b899a5187baeb8f605ca39ca56bf05a63025a8f9f84c45590d8345e5d349 — Gamaredon toolset
+# hash: 7231177a115656041ba4e5b3cf0bf7a547b074f03592351484267e25cda7c899 — Gamaredon toolset
+# hash: 725b7d92ed66be160f2e04395008a65c72814d5ddf842d9778396f6c6679d85e — Gamaredon toolset
+# hash: 72d4b780a90ede7ea152f5da0973965cab31d2813fa8c2fe0e1cb611f5ca257e — Gamaredon toolset
+# hash: 73670d06851f588c7df44dc478f49883406697c48c618438e0f249b7a916552e — Gamaredon toolset
+# hash: 74e017853fbc85ee77ca7476cd25423815602aaaa02b29e0003c95c9551b8890 — Gamaredon toolset
+# hash: 75d2367dc79d9f8aed165729df90ed5d28fefe267778dbe4d3d74aafa75d66e0 — Gamaredon toolset
+# hash: 7a5a1c6ea0c2f017df9f06975c93a356cac20b19031fcde96136fa5881e5ef3a — Gamaredon toolset
+# hash: 7adb049e0b49312aea904c70e16d0e7f03d01aae4bf8ac867e8219ced4e6e057 — Gamaredon toolset
+# hash: 7bfa85bec239b6c4419b2d57149c5960263c80e493f888d03ceaaa3f945b1b25 — Gamaredon toolset
+# hash: 7f324b658f587b3b27921ebeba5ac25aebd669b33e6801fa9581de8c2eb0df2e — Gamaredon toolset
+# hash: 7fee970748eb83045e36911dafdaee0d4069ebe72c059cc7de3d65539012c2e9 — Gamaredon toolset
+# hash: 81921b6a7eba39a3f73895a57892ed3a46ab6365ac97d550ca3b9bff46c7a1c2 — Gamaredon toolset
+# hash: 823793a37d748ffe708864c16c853c67a5db812712481da1d24790b455163940 — Gamaredon toolset
+# hash: 840b3d4cc95dbf311f792a9f50137056deb66bfdbb55eb9f54ff381a0df65656 — Gamaredon toolset
+# hash: 8512aabfa0175684bdbb77481d6b272b63dbc4249b04a44e1003b7d8fdea0a89 — Gamaredon toolset
+# hash: 86c81f03cf7d8f8af38c2559dbf506cccdc25579f3b29fb574f823a67f99a0a3 — Gamaredon toolset
+# hash: 877f1de209eb9d8b2a20a76f8773d12e5a1fcde4148868c7b73added392f62f6 — Gamaredon toolset
+# hash: 88ae7e60b9dd57fc6b2d667ce33fb29c0f75d37eb7c837ccf56cb7994386d5ef — Gamaredon toolset
+# hash: 8b50e3ca06a22d0be6a71232b320137c776f80ac3f2c81b7440b43854b8a3bf0 — Gamaredon toolset
+# hash: 8bd40e7fe6bbd4d5810db2c142186bb58da445a132fb6f9ff01c46947a532244 — Gamaredon toolset
+# hash: 8c9d690e765c7656152ad980edd2200b81d2afceef882ed81287fe212249f845 — Gamaredon toolset
+# hash: 8d38726d674279705fe06b4b45bbbaef10756c547d560cea6998e23dba09f80c — Gamaredon toolset
+# hash: 8db47439685edc683765abb5e6d7d0d05479bf9ee164992db9e8ce97fe43ee2f — Gamaredon toolset
+# hash: 90ba0f95896736b799f8651ef0600d4fa85c6c3e056e54eab5bb216327912edd — Gamaredon toolset
+# hash: 95de2e16f1b05d1b45b1d182c1503568c2e5fd4a81ac52fe1bc9e881d1a272b1 — Gamaredon toolset
+# hash: 95e3204228341852b7c97f357f799e7ec9688abe1262436b569e56397f1fd864 — Gamaredon toolset
+# hash: 97ebd7bfad63b36b4572132f6ece359ff9991f269048c0b145411699bfe3dc34 — Gamaredon toolset
+# hash: 98caf00760d772598386eb8d4f26caf92fb891915ac08da6bf830be5e45278d3 — Gamaredon toolset
+# hash: 98e092b7bfc3bbdaeb82e05de14ba5835c6ac626c17de9eef2049796a031dd10 — Gamaredon toolset
+# hash: 99c9440a84cdc428ce140de901452eb334faec49f1f6258acdde1ddcbb34376e — Gamaredon toolset
+# hash: 9a1fd88970da3809f45cef00360d1e54ea11a70035c277c130404a67371e142d — Gamaredon toolset
+# hash: 9a8776e4ae38cf529bab28947b31ade84301262b7996dc37ec47afa4fb4cf6e1 — Gamaredon toolset
+# hash: 9beb1d2a03ff2d4a03d76f8773d12e5a1fcde4148868c7b73added392f62f6 — Gamaredon toolset
+# hash: 9c8d518fbbc8cbb25fa309f5396efa5749e57a3b0158779404c8d3e92baf6596 — Gamaredon toolset
+# hash: 9cb64d3242d2b591bd2ff13b1aadef2e6b4bf9147f4a0926613b7c9343feb312 — Gamaredon toolset
+# hash: 9f0228e3d1577ffb2533584c2b1d87ebee0c0d490f981e61d18bb27ab02e52cb — Gamaredon toolset
+# hash: 9f651ae6ea538238748614a7f86fe2b0f76e881d6c38da581f284e4b6f79b0ca — Gamaredon toolset
+# hash: a064a28e5e7409a96bba93fc57f44cadc3492bb0f49792c89c973e30b0f5d498 — Gamaredon toolset
+# hash: a194b47043356fa365d98a5f7c582b6f87fac90acf0f469ed3651cfe2fd7b2c9 — Gamaredon toolset
+# hash: a21dfb8e8b7c8dfbeeb4d72e6ef1f22c667b8968b3a3b1dcce99f44faab05903 — Gamaredon toolset
+# hash: a2e0fe2d385dabcdfb024100216d259ddd1fa9907e982d297846fd29b8d4d415 — Gamaredon toolset
+# hash: a46508ec9e48c256261b2d1914532a36ac7da093253320135d77581051751b75 — Gamaredon toolset
+# hash: a48ad33695a44de887bba8f2f3174fd8fb01a46a19e3ec9078b0118647ccf599 — Gamaredon toolset
+# hash: a595da9a2fa58d4f8be0bfbcf7f4c950435ff5289dd1ccf2c65eec73a0afe97f — Gamaredon toolset
+# hash: a6a44ee854c846f31d15b0ca2d6001fb0bdddc85f17e2e56abb2fa9373e8cfe7 — Gamaredon toolset
+# hash: a73eac15797130c381b5b4a65c3fb1cfc723b1586a1882c981211787bba285a6 — Gamaredon toolset
+# hash: a7e27ff0695a4bdf58c584f48664acd3a385ccebf3a542fdd6d7383f414aa83a — Gamaredon toolset
+# hash: a804beddd22bb76ea207a9607ed5c888f2f640cbd9ed9a32942fcd0b8a25c4d5 — Gamaredon toolset
+# hash: a972ad0ddc00d5c04d9fe26f1748e12008efdd6524c9d2ea4e6c2d3e42d82b7b — Gamaredon toolset
+# hash: aa860d405746401ae4155485326fdeb39718832c77c73540d48f4fbb8e596215 — Gamaredon toolset
+# hash: ab6832a4432b4bdaec0706f7b00a369c48175eac9abc3e537032b1f5d26a993b — Gamaredon toolset
+# hash: ada2f0703614b3447d427827777af5d4ee9ffe9179498970326926751a4f8d65 — Gamaredon toolset
+# hash: ae5ab2e887a9b46ea7819b7ebbb8163028e66882c97e75b0698dc3a69a69d7da — Gamaredon toolset
+# hash: b16d317c11228bd3573126a0e1bc0bbf35d84a4a1f47dfb06b70634a21fd9823 — Gamaredon toolset
+# hash: b2fb7d2977f42698ea92d1576fdd4da7ad7bb34f52a63e4066f158a4b1ffb875 — Gamaredon toolset
+# hash: b3665548cc0f2fce3593fb7139f49588faa1d327b6d23feb564ca4194053ae8a — Gamaredon toolset
+# hash: b5199a302f053e5e9cb7e82cc1e502b5edbf04699c2839acb514592f2eeabb13 — Gamaredon toolset
+# hash: b5578c48a11533871ae91e6d5632aafc25d3976c0626d62abab306663566d024 — Gamaredon toolset
+# hash: b67a6f87fc3fd7c5c3666acac5918c8c08a53ab6a966f4d1daf38105a566ede1 — Gamaredon toolset
+# hash: b6abc8ab631dcf52e028ab26dbe3bb94022d69193c0acc8642cbd6329cbb23ef — Gamaredon toolset
+# hash: b7e117eb342b0d450095805073326989c792bf5ccbbdcd5f4a9ace50e517412e — Gamaredon toolset
+# hash: b80719854f8744ba62e9f0e774c09e2e2ed79dd37f9f94ba3ed05ec8507d55e6 — Gamaredon toolset
+# hash: b9434e5a14159c49af2d1a5a11d570f195797d6b17aa560c3dde4a5b3486bf2a — Gamaredon toolset
+# hash: bb14abc9b0798c7756a6ed887308a3e6210cc08a5149dc1360fdd1f5bca27cca — Gamaredon toolset
+# hash: bdadb319f071f02462d107380102b669e407bb2a0b20e77a9a8a5726b4cbbc4b — Gamaredon toolset
+# hash: be2be662cc821a924d5641422dd1116e99188c6923da092ca3f0f8f862bd2d2d — Gamaredon toolset
+# hash: bf2383cfbee4cbb0bda2614839454ab1724c9bbfff8b4b48e0f48579ae220c10 — Gamaredon toolset
+# hash: bf52b44168de1855d83186163a2d5f29e488ddafdfd5447e211aec4a769cf74a — Gamaredon toolset
+# hash: c0d5cf7a0035deda5646aaf520b3ff632aa6be76ddbc88f38ddc11e77ffb40b4 — Gamaredon toolset
+# hash: c1a82a788df7418712664138c0fdb05232036a27ab0998479d60c656998849f1 — Gamaredon toolset
+# hash: c63a523834ab59ab5621a0acb156a9b901befe806044642fe5fec8a0ba545e70 — Gamaredon toolset
+# hash: ca87eb1a21c6d4ffd782b225b178ba65463f73de6f4c736eb135be5864f556dc — Gamaredon toolset
+# hash: cfb8216be1a50aa3d425072942ff70f92102d4f4b155ab2cf1e7059244b99d31 — Gamaredon toolset
+# hash: d01df47b6187631c9a93bdad1298439ab1a1c5529b3319f3614b6ec2455e5726 — Gamaredon toolset
+# hash: d05d3f3582e13eaf5f39d7143ca1a4b1367cc5267bf9958a15e27cf53e059518 — Gamaredon toolset
+# hash: d0e456cff03c2483ded9a0f8c1b99f9fefb6ba47dcaf949dae27abe940ee20e6 — Gamaredon toolset
+# hash: d1ba365e93ff0a4f3a2cb1d657568e583e3fbd7dbb1c2c52e28f16480324e3bb — Gamaredon toolset
+# hash: d5405f99cec0166857274b6c02a7ef52b36274fedb805a17d2089fd24ed133cf — Gamaredon toolset
+# hash: d8a01f69840c07ace6ae33e2f76e832c22d4513c07e252b6730b6de51c2e4385 — Gamaredon toolset
+# hash: dada74663e3e29ee26bfd03a888f0bda9fc81e148511fa98f73f8e8a915933cc — Gamaredon toolset
+# hash: db3ffcbf136e0268ec66f28b30fa8ba350f74e02e8e737e61cc6ef8d8258027e — Gamaredon toolset
+# hash: dd26b85b6568595b1d2bbc47ce47d071ede75665fbd779d637b74663ead5539e — Gamaredon toolset
+# hash: ddfc6bb4819527b2424d6e1a84f04b67adad79401e39efbffba5b7d727e732f0 — Gamaredon toolset
+# hash: df434f54802a6814628f30cae335c302bae7085c4e8314d71a41a47d9c410c39 — Gamaredon toolset
+# hash: df6112e6bad4125b80b8829c13a2ca523bb82cf303cf531389d8795e7512c7e6 — Gamaredon toolset
+# hash: df9038660164623a827a8119d4cb3d71d0a5288b12bdfdd32c72769bf90a9ea0 — Gamaredon toolset
+# hash: dfed16e9184a86e6fcd17a98f127410840d058db667e9975b43add100c33122e — Gamaredon toolset
+# hash: e0063d2524a89159cf5da12661225fbb27725bbd72acd9497b7207ecf2f3aeb6 — Gamaredon toolset
+# hash: e00c55ddda9cbb82fb47924fafdf40c3394dc1127d9901c71a69ef3ef664b817 — Gamaredon toolset
+# hash: e14a51d69211948163ab20b0cc68adf410bb821f2890f55d2d202c745f4ec1b8 — Gamaredon toolset
+# hash: e24715900aa5c9de807b0c8f6ba8015683af26c42c66f94bee38e50a34e034c4 — Gamaredon toolset
+# hash: e2688f72cc7ae836be19e765e39318873554ee194a09945eb3f3805d04f256ca — Gamaredon toolset
+# hash: e2e3f243bbcad666852e64202d35f6dd88c58f5d24435d92975697b0efa8a775 — Gamaredon toolset
+# hash: e37e25739e8bc4620d9d37d8f6b400cd82c85b89d206436ba35930ed96db6eb0 — Gamaredon toolset
+# hash: e55b5ede808b6d491f18737d6a1cf34b5178f02e9ea01d7cff31a449888dbd73 — Gamaredon toolset
+# hash: e79dbcc8b60da280e53d9cf818eee1de34251e0551b9947bb2b79a31b131417e — Gamaredon toolset
+# hash: ed28d9207acac2afff817eaa56d1599422e23946dffa4f8bade376d52a6af7d4 — Gamaredon toolset
+# hash: eda0853e814ee31a66c3b42af45cd66019ffd61eac30e97bd34c27d79253a1bb — Gamaredon toolset
+# hash: f1b3e58d060803b0ff6008386bab47fb8099ac75ee74f385ac34340a28bf716e — Gamaredon toolset
+# hash: f2091f71227180d74ba1ba4607635e623553b1826314dca91cb31839eb00c4ea — Gamaredon toolset
+# hash: f214d55ccb5db5edbaafe7d40b240c79f04c70d441adee01ef438f776eb37037 — Gamaredon toolset
+# hash: f2296bcb6be68dfb330baec2091fb11a42a51928ba057164213580e6ff0e1126 — Gamaredon toolset
+# hash: f2355a66af99db5f856ebfcfeb2b9e67e5e83fff9b04cdc09ac0fabb4af556bd — Gamaredon toolset
+# hash: f3107a5a00f36e12be7cc2e37c35903ef855b8043492af374ea918385821443c — Gamaredon toolset
+# hash: f47115ea58615781e56dcac673c19edf7ce00defd7ada709ae97b0708d3eac1e — Gamaredon toolset
+# hash: f571ddc894915dee136cf24731ff3d79fe4f811b112d122a34a128628cb43c4a — Gamaredon toolset
+# hash: f7676d2a28992a382475af2ae0abca4794e1397ef3327f30f7d4cbdbc2ca0a68 — Gamaredon toolset
+# hash: f77d7940c51c2a1eab849dbd77e59c683ebf7820799ef349e7da2583e1aa11ae — Gamaredon toolset
+# hash: f8e20894c8c18d79e80b431008aa8bef46cc10a355a4934f9cc40ffd637b8890 — Gamaredon toolset
+# hash: fa1bf7565352099b74624c8beeff6620411e1efe00e54f8b4190f69e243d5811 — Gamaredon toolset
+# hash: fa784f69265ebe5e150cf5956a40d86335d1a5edc57fffcc7ce6eedc591c2751 — Gamaredon toolset
+
+# ---- Gamaredon sample, Talos/ESET (11 hashes) ----
+# hash: 139547707f38622c67c8ce2c026bf32052edd4d344f03a0b37895b5de016641a — Gamaredon sample, Talos/ESET
+# hash: 1cb2d299508739ae85d655efd6470c7402327d799eb4b69974e2efdb9226e447 — Gamaredon sample, Talos/ESET
+# hash: 1ec69271abd8ebd1a42ac1c2fa5cdd9373ff936dc73f246e7f77435c8fa0f84c — Gamaredon sample, Talos/ESET
+# hash: 34bf1a232870df28809597d49a70d9b549d776e1e4beb3308ff6d169a59ecd02 — Gamaredon sample, Talos/ESET
+# hash: 3ecb09e659bcb500f9f40d022579a09acb11aec3a92c03e7d3fd2e56982d9eea — Gamaredon sample, Talos/ESET
+# hash: 5264e8a8571fe0ef689933b8bc2ebe46b985c9263b24ea34e306d54358380cbb — Gamaredon sample, Talos/ESET
+# hash: 78c6b489ac6cebf846aab3687bbe64801fdf924f36f312802c6bb815ed6400ba — Gamaredon sample, Talos/ESET
+# hash: 8294815c2342ff11739aff5a55c993f5dd23c6c7caff2ee770e69e88a7c4cb6a — Gamaredon sample, Talos/ESET
+# hash: a9916af0476243e6e0dbef9c45b955959772c4d18b7d1df583623e06414e53b7 — Gamaredon sample, Talos/ESET
+# hash: be79d470c081975528c0736a0aa10214e10e182c8948bc4526138846512f19e7 — Gamaredon sample, Talos/ESET
+# hash: ff7e8580ce6df5d5f5a2448b4646690a6f6d66b1db37f887b451665f4115d1a2 — Gamaredon sample, Talos/ESET

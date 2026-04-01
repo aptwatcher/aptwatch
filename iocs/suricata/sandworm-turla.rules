@@ -1,0 +1,89 @@
+# ============================================================================
+# SURICATA DETECTION RULES: SANDWORM & SECRET BLIZZARD / TURLA
+# ============================================================================
+# Date: 2026-03-31
+# Sources: EclecticIQ, NSA, OTX/AlienVault, Trend Micro, Microsoft
+# Actors: Sandworm (GRU Unit 74455), Secret Blizzard/Turla (GRU/FSB)
+# SID Range: 2026033301 - 2026033330
+# ============================================================================
+
+# ============================================================================
+# SANDWORM C2 IP DETECTION (SID 2026033301 - 2026033303)
+# ============================================================================
+
+alert ip $HOME_NET any -> 103.94.157.5 any (msg:"APTWATCH Sandworm C2 IP 103.94.157.5"; classtype:trojan-activity; sid:2026033301; rev:1; metadata:created_at 2026_03_31, actor Sandworm, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 5.255.122.118 any (msg:"APTWATCH Sandworm C2 IP 5.255.122.118"; classtype:trojan-activity; sid:2026033302; rev:1; metadata:created_at 2026_03_31, actor Sandworm, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 95.216.13.196 any (msg:"APTWATCH Sandworm C2 IP 95.216.13.196"; classtype:trojan-activity; sid:2026033303; rev:1; metadata:created_at 2026_03_31, actor Sandworm, mitre_attack T1071.001;)
+
+# ============================================================================
+# SANDWORM DNS/DOMAIN DETECTION (SID 2026033304 - 2026033306)
+# ============================================================================
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Sandworm domain hostapp.be"; dns.query; content:"hostapp.be"; nocase; classtype:trojan-activity; sid:2026033304; rev:1; metadata:created_at 2026_03_31, actor Sandworm, mitre_attack T1071.001;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Sandworm domain esetsmart.com"; dns.query; content:"esetsmart.com"; nocase; classtype:trojan-activity; sid:2026033305; rev:1; metadata:created_at 2026_03_31, actor Sandworm, mitre_attack T1071.001;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Sandworm domain esetremover.com"; dns.query; content:"esetremover.com"; nocase; classtype:trojan-activity; sid:2026033306; rev:1; metadata:created_at 2026_03_31, actor Sandworm, mitre_attack T1071.001;)
+
+# ============================================================================
+# SANDWORM BACKORDER KMS BEACON DETECTION (SID 2026033307)
+# ============================================================================
+
+alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH Sandworm BACKORDER KMS beacon"; flow:established,to_server; http.user_agent; content:"KMS"; nocase; threshold:type both, track by_src, count 5, seconds 300; classtype:trojan-activity; sid:2026033307; rev:1; metadata:created_at 2026_03_31, actor Sandworm, campaign BACKORDER;)
+
+# ============================================================================
+# SECRET BLIZZARD / TURLA C2 IP DETECTION (SID 2026033308 - 2026033329)
+# ============================================================================
+
+alert ip $HOME_NET any -> 109.123.244.46 any (msg:"APTWATCH Secret Blizzard C2 IP 109.123.244.46"; classtype:trojan-activity; sid:2026033308; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 130.185.119.198 any (msg:"APTWATCH Secret Blizzard C2 IP 130.185.119.198"; classtype:trojan-activity; sid:2026033309; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 143.198.73.108 any (msg:"APTWATCH Secret Blizzard C2 IP 143.198.73.108"; classtype:trojan-activity; sid:2026033310; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 144.91.72.17 any (msg:"APTWATCH Secret Blizzard C2 IP 144.91.72.17"; classtype:trojan-activity; sid:2026033311; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 146.70.158.90 any (msg:"APTWATCH Secret Blizzard C2 IP 146.70.158.90"; classtype:trojan-activity; sid:2026033312; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 154.53.42.194 any (msg:"APTWATCH Secret Blizzard C2 IP 154.53.42.194"; classtype:trojan-activity; sid:2026033313; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 161.35.192.207 any (msg:"APTWATCH Secret Blizzard C2 IP 161.35.192.207"; classtype:trojan-activity; sid:2026033314; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 162.213.195.129 any (msg:"APTWATCH Secret Blizzard C2 IP 162.213.195.129"; classtype:trojan-activity; sid:2026033315; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 164.68.108.153 any (msg:"APTWATCH Secret Blizzard C2 IP 164.68.108.153"; classtype:trojan-activity; sid:2026033316; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 167.86.118.69 any (msg:"APTWATCH Secret Blizzard C2 IP 167.86.118.69"; classtype:trojan-activity; sid:2026033317; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 173.212.252.2 any (msg:"APTWATCH Secret Blizzard C2 IP 173.212.252.2"; classtype:trojan-activity; sid:2026033318; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 176.57.184.97 any (msg:"APTWATCH Secret Blizzard C2 IP 176.57.184.97"; classtype:trojan-activity; sid:2026033319; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 209.126.11.251 any (msg:"APTWATCH Secret Blizzard C2 IP 209.126.11.251"; classtype:trojan-activity; sid:2026033320; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 37.60.236.186 any (msg:"APTWATCH Secret Blizzard C2 IP 37.60.236.186"; classtype:trojan-activity; sid:2026033321; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 38.242.207.36 any (msg:"APTWATCH Secret Blizzard C2 IP 38.242.207.36"; classtype:trojan-activity; sid:2026033322; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 45.14.194.253 any (msg:"APTWATCH Secret Blizzard C2 IP 45.14.194.253"; classtype:trojan-activity; sid:2026033323; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 45.61.149.109 any (msg:"APTWATCH Secret Blizzard C2 IP 45.61.149.109"; classtype:trojan-activity; sid:2026033324; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 46.249.58.201 any (msg:"APTWATCH Secret Blizzard C2 IP 46.249.58.201"; classtype:trojan-activity; sid:2026033325; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 5.189.183.63 any (msg:"APTWATCH Secret Blizzard C2 IP 5.189.183.63"; classtype:trojan-activity; sid:2026033326; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 91.234.33.48 any (msg:"APTWATCH Secret Blizzard C2 IP 91.234.33.48"; classtype:trojan-activity; sid:2026033327; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 94.177.198.94 any (msg:"APTWATCH Secret Blizzard C2 IP 94.177.198.94"; classtype:trojan-activity; sid:2026033328; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 95.111.229.253 any (msg:"APTWATCH Secret Blizzard C2 IP 95.111.229.253"; classtype:trojan-activity; sid:2026033329; rev:1; metadata:created_at 2026_03_31, actor Secret_Blizzard, mitre_attack T1071.001;)
+
+# ============================================================================
+# END OF RULES
+# ============================================================================
+# Total Rules: 30 (7 Sandworm + 23 Secret Blizzard)
+# SID Range: 2026033301 - 2026033329
+# ============================================================================

@@ -1,0 +1,58 @@
+# =============================================================
+# APT Watch - Pawn Storm / APT28 PRISMEX Campaign Detection Rules
+# Date: 2026-03-31
+# Source: Trend Micro TrendAI Research
+# Actor: Pawn Storm (APT28 / Forest Blizzard / GRU Unit 26165)
+# =============================================================
+
+# ---------------------------------------------------------
+# PRISMEX C2 Infrastructure IPs
+# ---------------------------------------------------------
+
+alert ip $HOME_NET any -> 193.187.148.169 any (msg:"APTWATCH Pawn Storm PRISMEX C2 193.187.148.169"; classtype:trojan-activity; sid:2026033101; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Pawn_Storm, campaign PRISMEX, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 23.227.202.14 any (msg:"APTWATCH Pawn Storm PRISMEX C2 23.227.202.14"; classtype:trojan-activity; sid:2026033102; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Pawn_Storm, campaign PRISMEX, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 72.62.185.31 any (msg:"APTWATCH Pawn Storm PRISMEX C2 72.62.185.31"; classtype:trojan-activity; sid:2026033103; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Pawn_Storm, campaign PRISMEX, mitre_attack T1071.001;)
+
+# ---------------------------------------------------------
+# PRISMEX WebDAV C2 Domains (exploit delivery)
+# ---------------------------------------------------------
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Pawn Storm PRISMEX C2 domain wellnesscaremed.com"; dns.query; content:"wellnesscaremed.com"; nocase; classtype:trojan-activity; sid:2026033104; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Pawn_Storm, campaign PRISMEX, cve CVE-2026-21509;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Pawn Storm PRISMEX C2 domain wellnessmedcare.org"; dns.query; content:"wellnessmedcare.org"; nocase; classtype:trojan-activity; sid:2026033105; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Pawn_Storm, campaign PRISMEX, cve CVE-2026-21509;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Pawn Storm PRISMEX C2 domain freefoodaid.com"; dns.query; content:"freefoodaid.com"; nocase; classtype:trojan-activity; sid:2026033106; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Pawn_Storm, campaign PRISMEX, cve CVE-2026-21509;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Pawn Storm PRISMEX C2 domain longsauce.com"; dns.query; content:"longsauce.com"; nocase; classtype:trojan-activity; sid:2026033107; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Pawn_Storm, campaign PRISMEX, cve CVE-2026-21509;)
+
+# ---------------------------------------------------------
+# CVE-2026-21509 — Office OLE Shell.Explorer.1 exploit
+# Detects RTF documents triggering WebDAV connections
+# ---------------------------------------------------------
+
+alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH CVE-2026-21509 WebDAV LNK retrieval pattern"; flow:established,to_server; http.uri; content:".LnK"; nocase; content:"init=1"; nocase; classtype:attempted-user; sid:2026033108; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Pawn_Storm, cve CVE-2026-21509, mitre_attack T1566.001;)
+
+# ---------------------------------------------------------
+# PRISMEX dnshook.site exfil beacon
+# ---------------------------------------------------------
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Pawn Storm PRISMEX dnshook.site beacon"; dns.query; content:"dnshook.site"; nocase; classtype:trojan-activity; sid:2026033109; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Pawn_Storm, campaign PRISMEX, mitre_attack T1071.004;)
+
+# ---------------------------------------------------------
+# PRISMEX Covenant Grunt via Filen.io
+# High volume to Filen.io subdomains may indicate C2
+# ---------------------------------------------------------
+
+alert tls $HOME_NET any -> $EXTERNAL_NET 443 (msg:"APTWATCH Pawn Storm PRISMEX potential Filen.io C2 gateway"; flow:established,to_server; tls.sni; content:"gateway.filen"; nocase; threshold:type both, track by_src, count 20, seconds 300; classtype:trojan-activity; sid:2026033110; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Pawn_Storm, campaign PRISMEX, tool Covenant_Grunt, mitre_attack T1102;)
+
+alert tls $HOME_NET any -> $EXTERNAL_NET 443 (msg:"APTWATCH Pawn Storm PRISMEX potential Filen.io C2 egest"; flow:established,to_server; tls.sni; content:"egest.filen"; nocase; classtype:trojan-activity; sid:2026033111; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Pawn_Storm, campaign PRISMEX, tool Covenant_Grunt, mitre_attack T1102;)
+
+alert tls $HOME_NET any -> $EXTERNAL_NET 443 (msg:"APTWATCH Pawn Storm PRISMEX potential Filen.io C2 ingest"; flow:established,to_server; tls.sni; content:"ingest.filen"; nocase; classtype:trojan-activity; sid:2026033112; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Pawn_Storm, campaign PRISMEX, tool Covenant_Grunt, mitre_attack T1048.003;)
+
+# ---------------------------------------------------------
+# PRISMEX webhook.site beacon (reconnaissance exfil)
+# ---------------------------------------------------------
+
+alert tls $HOME_NET any -> $EXTERNAL_NET 443 (msg:"APTWATCH Pawn Storm PRISMEX webhook.site username exfil"; flow:established,to_server; tls.sni; content:"webhook.site"; nocase; classtype:trojan-activity; sid:2026033113; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Pawn_Storm, campaign PRISMEX, mitre_attack T1048.003;)

@@ -1,0 +1,341 @@
+# Callisto / Star Blizzard / COLDRIVER — SPICA Backdoor + Credential Harvesting + WhatsApp Campaign
+# APT Watch YAML IOC Submission
+
+author: aptwatch-team
+source: Multiple
+source_name: "Callisto / Star Blizzard / COLDRIVER Multi-Source IOC Collection (Google TAG, CISA, Microsoft, OTX)"
+
+apt_groups:
+  - Callisto
+  - Star Blizzard
+  - COLDRIVER
+  - Seaborgium
+  - ColdRiver
+  - TA446
+  - Blue Charlie
+  - TAG-53
+  - DANCING SALOME
+
+description: >
+  FSB Center 18 (COLDRIVER). Credential harvesting and espionage targeting NATO governments,
+  diplomats, NGOs, think-tanks (Brookings, RAND, Atlantic Council), journalists covering Russia/Ukraine,
+  and former UK/US intelligence officials. SPICA: Rust-based backdoor deployed via PDF/Office lures (2024).
+  LOSTKEYS: File theft + keylogging backdoor (2025). WhatsApp exploitation via QR code spear-phishing (Jan 2025).
+  ClickFix social engineering technique (2025). Massive credential harvesting infrastructure with 238 phishing domains.
+  Active 2019-present.
+
+cves:
+  - CVE-2023-42793
+
+ipv4:
+  - 103.76.128.34
+  - 45.133.216.15
+  - 65.21.51.58
+  - 85.239.52.32
+
+domains:
+  - aerofluidthermo.org
+  - civilstructgeo.org
+  - getclouddoc.com
+  - everyinit.com
+  - docguardmaterial.com
+  - webpartdata.com
+  - entrygatebreak.com
+  - cryptodocumentinformation.com
+  - vikingonairplane.com
+  - infowardendoc.com
+  - cryptoinfostorage.com
+  - winterholds.com
+  - gatewaydocumentdata.com
+  - castlefranks.com
+  - infocryptoweb.com
+  - cloudwebfile.com
+  - openprojectgate.com
+  - documentkeepersolutionsystems.com
+  - wardenlawsec.com
+  - cryingpand.com
+  - hallowenwitch.com
+  - centralitdef.com
+  - keydatastorageunit.com
+  - certificatentrance.com
+  - skyinformdata.com
+  - machinerelise.com
+  - datadocsview.com
+  - incorpreview.com
+  - apireflection.com
+  - bitespacedev.com
+  - infodocitsolution.com
+  - proffitsolution.com
+  - onestorageprotectordirect.com
+  - triminget.com
+  - craftfilelink.com
+  - leviathanfish.com
+  - cpuisocutter.com
+  - truncatetrim.com
+  - digitalworkdata.com
+  - statusfiles.com
+  - directdocumentinfo.com
+  - postrequestin.com
+  - storagekeepdirect.com
+  - storageguarddirect.com
+  - gatewaykeeperinformation.com
+  - documentsecsolution.com
+  - infoviewergate.com
+  - cloudinfodata.com
+  - infostoragegate.com
+  - sockintrodoorway.com
+  - cloudwebstorage.com
+  - getvaluepast.com
+  - medicprognosis.com
+  - cryptogatesolution.com
+  - myposcheck.com
+  - documentgateprotector.com
+  - dbasechecker.com
+  - poscheckdatacenter.com
+  - servershieldme.com
+  - krakfish.com
+  - comintroduction.com
+  - safetyagencyservice.com
+  - logincontrolway.com
+  - entryloginpoint.com
+  - newestchairs.com
+  - natalyincity.com
+  - victorinwounder.com
+  - setupprofi.com
+  - protectionoffice.tech
+  - webcryptoinfo.com
+  - informationdoorwaycertificate.com
+  - guardittech.com
+  - industrialcorptruncate.com
+  - docanalizerhub.com
+  - secitweb.com
+  - docholdersolution.com
+  - entrancequick.com
+  - gatewayitservices.com
+  - webfigmadesigner.com
+  - literallyandme.com
+  - storagedatadirect.com
+  - topnotifydata.com
+  - stingrayfish.com
+  - nextgenexp.com
+  - gzipinteraction.com
+  - mintwithapples.com
+  - lazyprotype.com
+  - rootgatewayshome.com
+  - alldocssolution.com
+  - globalyfish.com
+  - directstoragepro.com
+  - judicialliquidators.com
+  - panelittechweb.com
+  - docscontentgate.com
+  - theitbugreportbeta.com
+  - datagatewaydoc.com
+  - rootgatestorage.com
+  - storageinfodata.com
+  - docsaccessdata.com
+  - ghostshowing.com
+  - storageinformationsolutions.com
+  - cryptdatahub.com
+  - homedocsview.com
+  - docanalizergate.com
+  - tarifjane.com
+  - digitalhubdata.com
+  - infoviewstorage.com
+  - marungame.com
+  - winterhascometo.com
+  - docsinfohub.com
+  - secbrowsingsystems.com
+  - ziplinetransfer.com
+  - rootgatewaystorage.com
+  - doorgovcommunity.com
+  - olohaisland.com
+  - translatesplit.com
+  - gulperfish.com
+  - directkeeperstorage.com
+  - proffsolution.com
+  - transferlinkdata.com
+  - cloudsetupprofi.com
+  - gatedocsview.com
+  - sslkeycert.com
+  - webitresourse.com
+  - territoryedit.com
+  - corpviewer.com
+  - truncationcorp.com
+  - infoviewerdata.com
+  - webfigmadesignershop.com
+  - wardengovermentlaw.com
+  - tarentrycommunity.com
+  - infoformdata.com
+  - trastamarafamily.com
+  - infoconnectstorage.com
+  - countingtall.com
+  - apidatahook.com
+  - greatnotifyinfo.com
+  - informationkeeper.com
+  - seclawdoorway.com
+  - defoffresult.com
+  - documententranceintelligence.com
+  - clouditprofi.com
+  - safedocitsolution.com
+  - dockeeperweb.com
+  - homedocsdata.com
+  - rootinformationgateway.com
+  - reviewopenfile.com
+  - cryptogatehomes.com
+  - remcemson.com
+  - createtempdoc.com
+  - webdataproceed.com
+  - docscontentview.com
+  - govlawentrance.com
+  - webcatalogpro.com
+  - keeperdatastorage.com
+  - provideexplorer.com
+  - govsafebreakthrough.com
+  - keepinformationroot.com
+  - entranceto.com
+  - dynamiclnk.com
+  - safedocumentgatesolution.com
+  - encryptionrenewal.com
+  - techpenopen.com
+  - panelitsolution.com
+  - inyourheadexp.com
+  - securebrowssolution.com
+  - incorpcpu.com
+  - checkdatapos.com
+  - firewitches.com
+  - keeperdocument.com
+  - keyservicebar.com
+  - docview.cloud
+  - itbugreportbeta.com
+  - paneindestination.com
+  - barbarictruths.com
+  - defproresults.com
+  - documentgatekeeper.com
+  - andysalesproject.com
+  - angelicfish.com
+  - gaterecord.com
+  - medicoutpatient.com
+  - infocryptodata.com
+  - statuswebcert.com
+  - storagekeeperexpress.com
+  - vertransmitcontrol.com
+  - docdatares.com
+  - infolookstorage.com
+  - getfigmacreator.com
+  - datainfosecure.com
+  - documentinformationsolution.com
+  - explorewebdata.com
+  - readinfodata.com
+  - protectitbase.com
+  - solartemplar.com
+  - webprodata.com
+  - fastnamegenerator.com
+  - doorwayseclaw.com
+  - topcryptoprotect.com
+  - aliceplants.com
+  - configlayers.com
+  - glorybuses.com
+  - adventuresrebornpanda.com
+  - secbrowsingate.com
+  - scandefinform.com
+  - maxintrosec.com
+  - analyzedatainfo.com
+  - keeperdocumentgatewayhub.com
+  - lawwardensafety.com
+  - wardenstoragedoorway.com
+  - vectorto.com
+  - wardensecbreakthrough.com
+  - loginformationbreakthrough.com
+  - constructionholdingnewlife.com
+  - docsecgate.com
+  - apiwebdata.com
+  - lawsystemjudgement.com
+  - corporatesinvitation.com
+  - voodoomagician.com
+  - dbasecheck.com
+  - keeperinformation.com
+  - hubinfodocs.com
+  - readdatainform.com
+  - temphoster.com
+  - johnysadventure.com
+  - documentitsolution.com
+  - storageinfohub.com
+  - cloudithub.com
+  - topinformdata.com
+  - pandawithrainbow.com
+  - directsgate.com
+  - datawebhub.com
+  - silenceprotocol.com
+  - janeairintroduction.com
+  - webstaticdata.com
+  - govermentsecintro.com
+  - datacryptosafe.com
+  - osixmals.com
+  - paternenabler.com
+  - industrialwatership.com
+  - hubdatapage.com
+
+# Hash IOCs grouped by source
+
+# Group 1: CISA Star Blizzard AA23-347a
+# 01aa278b07b58dc46c84bd0b1b5c8e9ee4e62ea0bf7a695862444af32e87f1fd — CISA AA23-347a phishing malware
+# 01b5f7094de0b2c6f8e28aa9a2ded678c166d615530e595621e692a9c0240732 — CISA AA23-347a phishing malware
+# 0296e2ce999e67c76352613a718e11516fe1b0efc3ffdb8918fc999dd76a73a5 — CISA AA23-347a phishing malware
+# 055e09de002b03c9f2f95a9d5bf333ce00cbe1f6f7abb5e3b259d80e62903efc — CISA AA23-347a phishing malware
+# 0f75d40308887aebba0d5b0d2671305b73c9431902f86e672380a6dc6ab97d07 — CISA AA23-347a phishing malware
+# 18101518eae3eec6ebe453de4c4c380160774d7c3ed5c79e1813013ac1bb0b93 — CISA AA23-347a phishing malware
+# 19f1ef66e449cf2a2b0283dbb756850cca396114286e1485e35e6c672c9c3641 — CISA AA23-347a phishing malware
+# 1e74cf0223d57fd846e171f4a58790280d4593df1f23132044076560a5455ff8 — CISA AA23-347a phishing malware
+# 219fb90d2e88a2197a9e08b0e7811e2e0bd23d59233287587ccc4642c2cf3d67 — CISA AA23-347a phishing malware
+# 34c8f155601a3948ddb0d60b582cfe87de970d443cc0e05df48b1a1ad2e42b5e — CISA AA23-347a phishing malware
+# 4bf1915785d7c6e0987eb9c15857f7ac67dc365177a1707b14822131d43a6166 — CISA AA23-347a phishing malware
+# 4ee70128c70d646c5c2a9a17ad05949cb1fbf1043e9d671998812b2dce75cf0f — CISA AA23-347a phishing malware
+# 620d2bf14fe345eef618fdd1dac242b3a0bb65ccb75699fe00f7c671f2c1d869 — CISA AA23-347a phishing malware
+# 773f0102720af2957859d6930cd09693824d87db705b3303cef9ee794375ce13 — CISA AA23-347a phishing malware
+# 7b666b978dbbe7c032cef19a90993e8e4922b743ee839632bfa6d99314ea6c53 — CISA AA23-347a phishing malware
+# 8afb71b7ce511b0bce642f46d6fc5dd79fad86a58223061b684313966efef9c7 — CISA AA23-347a phishing malware
+# 92c7693e82a90d08249edeafbca6533fed81b62e9e056dec34c24756e0a130a6 — CISA AA23-347a phishing malware
+# 950adbaf66ab214de837e6f1c00921c501746616a882ea8c42f1bad5f9b6eff4 — CISA AA23-347a phishing malware
+# 971f0ced6c42dd2b6e3ea3e6c54d0081cf9b06e79a38c2ede3a2c5228c27a6dc — CISA AA23-347a phishing malware
+# b53e27c79eed8531b1e05827ace2362603fb9f77f53cee2e34940d570217cbf7 — CISA AA23-347a phishing malware
+# c37c109171f32456bbe57b8676cc533091e387e6ba733fbaa01175c43cfb6ebd — CISA AA23-347a phishing malware
+# c40a8006a7b1f10b1b42fdd8d6d0f434be503fb3400fb948ac9ab8ddfa5b78a0 — CISA AA23-347a phishing malware
+# c7b01242d2e15c3da0f45b8adec4e6913e534849cde16a2a6c480045e03fbee4 — CISA AA23-347a phishing malware
+# c832462c15c8041191f190f7a88d25089d57f78e97161c3003d68d0cc2c4baa3 — CISA AA23-347a phishing malware
+# cb83e5cb264161c28de76a44d0edb450745e773d24bec5869d85f69633e44dcf — CISA AA23-347a phishing malware
+# cd3584d61c2724f927553770924149bb51811742a461146b15b34a26c92cad43 — CISA AA23-347a phishing malware
+# d724728344fcf3812a0664a80270f7b4980b82342449a8c5a2fa510e10600443 — CISA AA23-347a phishing malware
+# ebe231c90fad02590fc56d5840acc63b90312b0e2fee7da3c7606027ed92600e — CISA AA23-347a phishing malware
+# f1b40e6e5a7cbc22f7a0bd34607b13e7e3493b8aad7431c47f1366f0256e23eb — CISA AA23-347a phishing malware
+# f6194121e1540c3553273709127dfa1daab96b0acfab6e92548bfb4059913c69 — CISA AA23-347a phishing malware
+
+# Group 2: Google TAG COLDRIVER SPICA
+# 2e74f6bd9bf73131d3213399ed2f669ec5f75392de69edf8ce8196cd70eb6aee — Google TAG SPICA Rust backdoor
+# 3b49904b68aedb6031318438ad2ff7be4bf9fd865339330495b177d5c4be69d1 — Google TAG SPICA Rust backdoor
+# 52eb2b3df1e5e2a07ba4562b79eeb67679ac6f7f90190e72d3e6adcf5186401d — Google TAG SPICA Rust backdoor
+# 58341e00c39370af40104d9ca51e9fe33361afeca771f1aa433cc1c901e2f82e — Google TAG SPICA Rust backdoor
+# 87138f63974a8ccbbf5840c31165f1a4bf92a954bacccfbf1e7e5525d750aa48 — Google TAG SPICA Rust backdoor
+# b60100729de2f468caf686638ad513fe28ce61590d2b0d8db85af9edc5da98f9 — Google TAG SPICA Rust backdoor
+# bce2a7165ceead4e3601e311c72743e0059ec2cd734ce7acf5cc9f7d8795ba0f — Google TAG SPICA Rust backdoor
+# c4d0fba5aaafa40aef6836ed1414ae3eadc390e1969fdcb3b73c60fe7fb37897 — Google TAG SPICA Rust backdoor
+# d7520e4f1c55ed1dcbdeba5c6e681e1d269d9b5a690636bf18bcdc5b294f3f8a — Google TAG SPICA Rust backdoor
+# e9c8f6a7dba6e84a7226af89e988ae5e4364e2ff2973c72e14277c0f1462109b — Google TAG SPICA Rust backdoor
+# f2da013157c09aec9ceba1d4ac1472ed049833bc878a23bc82fe7eacbad399f4 — Google TAG SPICA Rust backdoor
+
+# Group 3: Google TAG COLDRIVER phishing 2023
+# 0f6b9d2ada67cebc8c0f03786c442c61c05cef5b92641ec4c1bdd8f5baeb2ee1 — Google TAG COLDRIVER phishing 2023
+# 37c52481711631a5c73a6341bd8bea302ad57f02199db7624b580058547fb5a9 — Google TAG COLDRIVER phishing 2023
+# 84523ddad722e205e2d52eedfb682026928b63f919a7bf1ce6f1ad4180d0f507 — Google TAG COLDRIVER phishing 2023
+# a949ec428116489f5e77cefc67fea475017e0f50d2289e17c3eb053072adcf24 — Google TAG COLDRIVER phishing 2023
+# ac270310b5410e7430fe7e36a079525cd8724b002b38e13a6ee6e09b326f4847 — Google TAG COLDRIVER phishing 2023
+# c97acea1a6ef59d58a498f1e1f0e0648d6979c4325de3ee726038df1fc2e831d — Google TAG COLDRIVER phishing 2023
+
+# Group 4: Microsoft Star Blizzard WhatsApp
+# 20df21611318db3fd0d760ad97ef733967662f0f74497d6a6d88f1e3d7fc9900 — Microsoft Star Blizzard WhatsApp January 2025
+# 5dff22e663fcd92e881ee055761973a0dd490b6c9458e0aea107814edcd3279f — Microsoft Star Blizzard WhatsApp January 2025
+# 75886b6ae8ce2bb64a2e8f040cf0de1d14f5287f8b5446104a0c56d73b415014 — Microsoft Star Blizzard WhatsApp January 2025
+# 769e77d11a15d4339df81d40fffd0757e0e3191774e71979f28f81be46169e6e — Microsoft Star Blizzard WhatsApp January 2025
+# 80598e352d59a952a356af5860f069474c4e7f0b6c2aec60568f93a210426046 — Microsoft Star Blizzard WhatsApp January 2025
+# dee7cf362ab178df7a6d87b086e9097c3e92df42f710d6cb04c29dc1e6297995 — Microsoft Star Blizzard WhatsApp January 2025
+# e7bdf2e234084ee4b5606ef03d20b27b0240e3fbeac1394144b3d01f55c96853 — Microsoft Star Blizzard WhatsApp January 2025
+# fdb9e30aa6d33a0162f97c082a5d7c9a8acfd5b1a1288089430dfb72c73d0558 — Microsoft Star Blizzard WhatsApp January 2025

@@ -1,0 +1,184 @@
+# =============================================================
+# APT Watch - Gamaredon & Earth Koshchei / APT29 Detection Rules
+# Date: 2026-03-31
+# Source: APT Watch Intelligence Repository
+# Actors: Gamaredon (Armageddon / TELEBOTS), Earth Koshchei (APT29 / Cozy Bear / SVR)
+# =============================================================
+
+# ---------------------------------------------------------
+# GAMAREDON C2 Infrastructure IPs
+# ---------------------------------------------------------
+
+alert ip $HOME_NET any -> 155.138.252.221 any (msg:"APTWATCH Gamaredon C2 IP 155.138.252.221"; classtype:trojan-activity; sid:2026033201; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 162.33.178.129 any (msg:"APTWATCH Gamaredon C2 IP 162.33.178.129"; classtype:trojan-activity; sid:2026033202; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 168.119.152.19 any (msg:"APTWATCH Gamaredon C2 IP 168.119.152.19"; classtype:trojan-activity; sid:2026033203; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 185.118.115.15 any (msg:"APTWATCH Gamaredon C2 IP 185.118.115.15"; classtype:trojan-activity; sid:2026033204; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 195.62.52.93 any (msg:"APTWATCH Gamaredon C2 IP 195.62.52.93"; classtype:trojan-activity; sid:2026033205; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 217.160.0.159 any (msg:"APTWATCH Gamaredon C2 IP 217.160.0.159"; classtype:trojan-activity; sid:2026033206; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 217.160.0.33 any (msg:"APTWATCH Gamaredon C2 IP 217.160.0.33"; classtype:trojan-activity; sid:2026033207; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 45.77.237.252 any (msg:"APTWATCH Gamaredon C2 IP 45.77.237.252"; classtype:trojan-activity; sid:2026033208; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 64.176.173.164 any (msg:"APTWATCH Gamaredon C2 IP 64.176.173.164"; classtype:trojan-activity; sid:2026033209; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 77.46.148.242 any (msg:"APTWATCH Gamaredon C2 IP 77.46.148.242"; classtype:trojan-activity; sid:2026033210; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 85.13.145.231 any (msg:"APTWATCH Gamaredon C2 IP 85.13.145.231"; classtype:trojan-activity; sid:2026033211; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 91.231.182.187 any (msg:"APTWATCH Gamaredon C2 IP 91.231.182.187"; classtype:trojan-activity; sid:2026033212; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.001;)
+
+# ---------------------------------------------------------
+# GAMAREDON .ru Base Domain Patterns (DNS Rules)
+# ---------------------------------------------------------
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain torfasta.ru"; dns.query; content:"torfasta.ru"; nocase; classtype:trojan-activity; sid:2026033213; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain flashiko.ru"; dns.query; content:"flashiko.ru"; nocase; classtype:trojan-activity; sid:2026033214; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain kaelos.ru"; dns.query; content:"kaelos.ru"; nocase; classtype:trojan-activity; sid:2026033215; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain chromatol.ru"; dns.query; content:"chromatol.ru"; nocase; classtype:trojan-activity; sid:2026033216; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain exportan.ru"; dns.query; content:"exportan.ru"; nocase; classtype:trojan-activity; sid:2026033217; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain bishoten.ru"; dns.query; content:"bishoten.ru"; nocase; classtype:trojan-activity; sid:2026033218; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain loperto.ru"; dns.query; content:"loperto.ru"; nocase; classtype:trojan-activity; sid:2026033219; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain boytran.ru"; dns.query; content:"boytran.ru"; nocase; classtype:trojan-activity; sid:2026033220; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain drivento.ru"; dns.query; content:"drivento.ru"; nocase; classtype:trojan-activity; sid:2026033221; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain legolaba.ru"; dns.query; content:"legolaba.ru"; nocase; classtype:trojan-activity; sid:2026033222; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain drowrang.ru"; dns.query; content:"drowrang.ru"; nocase; classtype:trojan-activity; sid:2026033223; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain bartopl.ru"; dns.query; content:"bartopl.ru"; nocase; classtype:trojan-activity; sid:2026033224; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain bilodon.ru"; dns.query; content:"bilodon.ru"; nocase; classtype:trojan-activity; sid:2026033225; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain silentar.ru"; dns.query; content:"silentar.ru"; nocase; classtype:trojan-activity; sid:2026033226; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain molotiras.ru"; dns.query; content:"molotiras.ru"; nocase; classtype:trojan-activity; sid:2026033227; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain skymagra.ru"; dns.query; content:"skymagra.ru"; nocase; classtype:trojan-activity; sid:2026033228; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain miltras.ru"; dns.query; content:"miltras.ru"; nocase; classtype:trojan-activity; sid:2026033229; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain vilitord.ru"; dns.query; content:"vilitord.ru"; nocase; classtype:trojan-activity; sid:2026033230; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain tilofol.ru"; dns.query; content:"tilofol.ru"; nocase; classtype:trojan-activity; sid:2026033231; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain witchdors.ru"; dns.query; content:"witchdors.ru"; nocase; classtype:trojan-activity; sid:2026033232; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+# ---------------------------------------------------------
+# GAMAREDON email-attachments.ru / file-attachments.ru
+# ---------------------------------------------------------
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain email-attachments.ru"; dns.query; content:"email-attachments.ru"; nocase; classtype:trojan-activity; sid:2026033233; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain file-attachments.ru"; dns.query; content:"file-attachments.ru"; nocase; classtype:trojan-activity; sid:2026033234; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Gamaredon, mitre_attack T1071.004;)
+
+# ---------------------------------------------------------
+# EARTH KOSHCHEI / APT29 Rogue RDP Server IPs
+# ---------------------------------------------------------
+
+alert ip $HOME_NET any -> 46.30.188.187 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 46.30.188.187"; classtype:trojan-activity; sid:2026033235; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 178.255.43.30 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 178.255.43.30"; classtype:trojan-activity; sid:2026033236; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 104.161.58.10 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 104.161.58.10"; classtype:trojan-activity; sid:2026033237; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 185.187.155.69 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 185.187.155.69"; classtype:trojan-activity; sid:2026033238; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 5.187.49.186 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 5.187.49.186"; classtype:trojan-activity; sid:2026033239; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 45.82.66.39 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 45.82.66.39"; classtype:trojan-activity; sid:2026033240; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 141.195.117.129 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 141.195.117.129"; classtype:trojan-activity; sid:2026033241; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 103.144.139.253 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 103.144.139.253"; classtype:trojan-activity; sid:2026033242; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 185.177.126.225 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 185.177.126.225"; classtype:trojan-activity; sid:2026033243; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 185.100.234.105 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 185.100.234.105"; classtype:trojan-activity; sid:2026033244; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 45.137.21.10 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 45.137.21.10"; classtype:trojan-activity; sid:2026033245; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 5.183.95.240 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 5.183.95.240"; classtype:trojan-activity; sid:2026033246; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 37.28.153.214 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 37.28.153.214"; classtype:trojan-activity; sid:2026033247; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 185.172.39.230 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 185.172.39.230"; classtype:trojan-activity; sid:2026033248; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 162.216.243.210 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 162.216.243.210"; classtype:trojan-activity; sid:2026033249; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 185.243.112.24 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 185.243.112.24"; classtype:trojan-activity; sid:2026033250; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 185.243.115.124 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 185.243.115.124"; classtype:trojan-activity; sid:2026033251; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 45.86.162.170 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 45.86.162.170"; classtype:trojan-activity; sid:2026033252; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 172.86.73.187 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 172.86.73.187"; classtype:trojan-activity; sid:2026033253; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 46.30.189.91 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 46.30.189.91"; classtype:trojan-activity; sid:2026033254; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 175.110.112.221 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 175.110.112.221"; classtype:trojan-activity; sid:2026033255; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 155.138.238.169 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 155.138.238.169"; classtype:trojan-activity; sid:2026033256; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 92.204.164.50 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 92.204.164.50"; classtype:trojan-activity; sid:2026033257; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 103.144.139.74 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 103.144.139.74"; classtype:trojan-activity; sid:2026033258; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 185.172.39.220 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 185.172.39.220"; classtype:trojan-activity; sid:2026033259; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 5.183.95.158 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 5.183.95.158"; classtype:trojan-activity; sid:2026033260; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 193.29.56.221 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 193.29.56.221"; classtype:trojan-activity; sid:2026033261; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 175.110.114.9 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 175.110.114.9"; classtype:trojan-activity; sid:2026033262; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 45.137.21.11 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 45.137.21.11"; classtype:trojan-activity; sid:2026033263; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 66.206.13.130 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 66.206.13.130"; classtype:trojan-activity; sid:2026033264; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 185.243.114.9 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 185.243.114.9"; classtype:trojan-activity; sid:2026033265; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 46.30.189.62 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 46.30.189.62"; classtype:trojan-activity; sid:2026033266; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 37.28.157.246 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 37.28.157.246"; classtype:trojan-activity; sid:2026033267; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> 195.3.220.48 any (msg:"APTWATCH Earth Koshchei APT29 Rogue RDP IP 195.3.220.48"; classtype:trojan-activity; sid:2026033268; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, campaign Rogue_RDP, mitre_attack T1219;)
+
+# ---------------------------------------------------------
+# EARTH KOSHCHEI RDP Connection Detection on Port 3389
+# Generic detection for rogue RDP connections
+# ---------------------------------------------------------
+
+alert tcp $HOME_NET any -> $EXTERNAL_NET 3389 (msg:"APTWATCH Earth Koshchei potential rogue RDP connection"; flow:established,to_server; threshold:type both, track by_src, count 3, seconds 60; classtype:policy-violation; sid:2026033269; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, mitre_attack T1219;)
+
+# ---------------------------------------------------------
+# EARTH KOSHCHEI .rdp File Download Detection
+# ---------------------------------------------------------
+
+alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH Suspicious .rdp file download"; flow:established,to_server; http.uri; content:".rdp"; nocase; classtype:policy-violation; sid:2026033270; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, mitre_attack T1204.002;)
+
+# ---------------------------------------------------------
+# EARTH KOSHCHEI Phishing Domain Patterns
+# Key TLDs: .cloud domains with gov-, s3-, mil- prefixes
+# ---------------------------------------------------------
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Earth Koshchei phishing pattern gov-.cloud"; dns.query; content:"gov-"; content:".cloud"; nocase; classtype:trojan-activity; sid:2026033271; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, mitre_attack T1566.002;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Earth Koshchei phishing pattern s3-.cloud"; dns.query; content:"s3-"; content:".cloud"; nocase; classtype:trojan-activity; sid:2026033272; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, mitre_attack T1566.002;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Earth Koshchei phishing pattern mil-.cloud"; dns.query; content:"mil-"; content:".cloud"; nocase; classtype:trojan-activity; sid:2026033273; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, mitre_attack T1566.002;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Earth Koshchei phishing zoom-meeting"; dns.query; content:"zoom-meeting"; nocase; classtype:trojan-activity; sid:2026033274; rev:1; metadata:created_at 2026_03_31, updated_at 2026_03_31, actor Earth_Koshchei, mitre_attack T1566.002;)

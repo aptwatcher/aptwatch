@@ -1,0 +1,77 @@
+# =============================================================
+#  Pawn Storm / APT28 — Full IOC Collection (Multi-Campaign)
+#  Sources: Trend Micro Vision One, Lab52, Hunt.io, Zscaler,
+#           SentinelOne, Akamai, CERT-UA
+#  Campaigns: PRISMEX, NotDoor, MacroMaze, Roundish, Neusploit, LAMEHUG
+# =============================================================
+
+author: aptwatch-team
+
+source: https://www.trendmicro.com/en_us/research/26/c/pawn-storm-targets-govt-infra.html
+source_name: "Pawn Storm APT28 Multi-Campaign IOC Collection (8 reports, March 2026)"
+
+apt_groups:
+  - APT28
+  - Pawn Storm
+  - Forest Blizzard
+  - Fancy Bear
+
+description: >
+  Comprehensive IOC collection for Pawn Storm (APT28/GRU Unit 26165)
+  aggregated from 8 reports: Trend Micro (PRISMEX), Lab52 (NotDoor,
+  MacroMaze), Hunt.io (Roundish/Roundcube), Zscaler (Neusploit/CVE-2026-21509),
+  SentinelOne (LAMEHUG), Akamai (CVE-2026-21513). Active campaigns Sep 2025
+  to Mar 2026 targeting Ukrainian defense supply chain and NATO allies.
+
+ipv4:
+  - 193.187.148.169
+  - 23.227.202.14
+  - 72.62.185.31
+
+domains:
+  - wellnesscaremed.com
+  - wellnessmedcare.org
+  - freefoodaid.com
+  - longsauce.com
+  - dbca10b5-63e0-42ec-ad10-de13be96dc42.dnshook.site
+  - 910cf351-a05d-4f67-ab8e-6f62cfa8e26d.dnshook.site
+
+emails:
+  - dubravka.jovanovic2024@proton.me
+  - a.matti444@proton.me
+  - TeoAbarquero@tutamail.com
+  - UffeTroelsen@atomicmail.io
+  - advenwolf@proton.me
+  - srezoska@skiff.com
+  - ahmeclaw@proton.me
+  - ahmeclaw2002@outlook.com
+
+cves:
+  - CVE-2026-21509
+  - CVE-2026-21513
+
+# ---- NotDoor (Lab52, Sep 2025) ----
+# hash: fcb6dc17f96af2568d7fa97a6087e4539285141206185aec5c85fa9cf73c9193 - OneDrive.exe DLL sideload vector
+# hash: 5a88a15a1d764e635462f78a0cd958b17e6d22c716740febc114a408eef66705 - SSPICLI.dll malicious
+# hash: 8f4bca3c62268fff0458322d111a511e0bcfba255d5ab78c45973bd293379901 - testtemp.ini VBA backdoor Outlook
+
+# ---- MacroMaze (Lab52, Feb 2026) ----
+# hash: b0f9f0a34ccab1337fbcca24b4f894de8d6d3a6f5db2e0463e2320215e4262e4 - 4zjwj81sp.exe dropper
+# hash: c3b617e0c6b8f01cf628a2b3db40e8d06ef20a3c71365ccc1799787119246010 - Informatii.doc Romania lure
+# hash: df60fa6008b1a0b79c394b42d3ada6bab18b798f3c2ca1530a3e0cb4fbbbe9f6 - Informatii.doc
+# hash: 58cfb8b9fee1caa94813c259901dc1baa96bae7d30d79b79a7d441d0ee4e577e - attachment.docm / 6p8wwn4ja.exe
+# hash: 9097d9cf5e6659e869bf2edf766741b687e3d8570036d853c0ca59ae72f9e9fc - Program.doc lure
+# hash: 5486107244ecaa3a0824895fa432827cc12df69620ca94aaa4ad75f39ac79588 - localfile~ artifact
+# hash: ed8f20bbab18b39a67e4db9a03090e5af8dc8ec24fe1ddf3521b3f340a8318c1 - INDICE NEGRO.docm Spanish target
+
+# ---- Roundish / Roundcube (Hunt.io, Mar 2026) ----
+# hash: bed41c5d54f777c0407bccc49bc3f7a709ce47a26fbd76c074a53ef660b0864c - Roundcube exploit
+# hash: e25892603c42e34bd7ba0d8ea73be600d898cadc290e3417a82c04d6281b743b - Roundcube exploit
+# hash: e76f54b7b98ba3a08f39392e6886a9cb3e97d57b8a076e6b948968d0be392ed8 - Roundcube exploit
+
+# ---- LAMEHUG (SentinelOne, Oct 2025) — first 5 of 39 samples ----
+# hash: 09bf891b7b35b2081d3ebca8de715da07a70151227ab55aec1da26eb769c006f - LAMEHUG LLM malware
+# hash: 1458b6dc98a878f237bfb3c3f354ea6e12d76e340cefe55d6a1c9c7eb64c9aee - LAMEHUG LLM malware
+# hash: 1612ab799df51a7f1169d3f47ea129356b42c8ad81286d05b0256f80c17d4089 - LAMEHUG LLM malware
+# hash: 165eaf8183f693f644a8a24d2ec138cd4f8d9fd040e8bafc1b021a0f973692dd - LAMEHUG LLM malware
+# hash: 2755e1ec1e4c3c0cd94ebe43bd66391f05282b6020b2177ee3b939fdd33216f6 - LAMEHUG LLM malware

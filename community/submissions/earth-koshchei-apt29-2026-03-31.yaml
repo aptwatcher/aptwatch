@@ -1,0 +1,300 @@
+# Earth Koshchei / APT29 / Midnight Blizzard — Rogue RDP Campaign
+author: aptwatch-team
+source: https://www.trendmicro.com/en_us/research/24/l/earth-koshchei.html
+source_name: "Earth Koshchei APT29 Rogue RDP Proxy Campaign (Trend Micro, Dec 2024)"
+
+apt_groups:
+  - APT29
+  - Midnight Blizzard
+  - Earth Koshchei
+  - Cozy Bear
+  - NOBELIUM
+  - Iron Hemlock
+  - BlueBravo
+  - UNC2452
+
+description: >
+  Earth Koshchei (APT29/SVR) rogue RDP proxy campaign targeting NATO/EU governments,
+  Ukrainian defense (MFA, MoD), US think-tanks (Brookings, CFR, CEIP, RAND, Heritage),
+  and cloud providers. Spear-phishing with malicious .rdp files that establish rogue RDP
+  proxy connections for credential/NTLMv2 harvesting, followed by Sliver/Meterpreter C2
+  deployment. Campaign active Oct-Nov 2024. 193 phishing domains typosquatting government
+  and cloud services across 30+ countries.
+
+ipv4:
+  - 46.30.188.187
+  - 178.255.43.30
+  - 104.161.58.10
+  - 185.187.155.69
+  - 5.187.49.186
+  - 45.82.66.39
+  - 141.195.117.129
+  - 103.144.139.253
+  - 185.177.126.225
+  - 185.100.234.105
+  - 45.137.21.10
+  - 5.183.95.240
+  - 37.28.153.214
+  - 185.172.39.230
+  - 162.216.243.210
+  - 185.243.112.24
+  - 185.243.115.124
+  - 45.86.162.170
+  - 172.86.73.187
+  - 46.30.189.91
+  - 175.110.112.221
+  - 155.138.238.169
+  - 92.204.164.50
+  - 103.144.139.74
+  - 185.172.39.220
+  - 5.183.95.158
+  - 193.29.56.221
+  - 175.110.114.9
+  - 45.137.21.11
+  - 66.206.13.130
+  - 185.243.114.9
+  - 46.30.189.62
+  - 37.28.157.246
+  - 195.3.220.48
+
+domains:
+  - gov-au.cloud
+  - ua-mil.cloud
+  - mil-ee.cloud
+  - defence-au.cloud
+  - gov-aws.cloud
+  - gov-fi.cloud
+  - gov-gr.cloud
+  - gov-lt.cloud
+  - kam-lt.cloud
+  - mae-ro.cloud
+  - mfa-gov-tr.cloud
+  - aws-ukraine.cloud
+  - gov-ua.cloud
+  - govtr.cloud
+  - govua.cloud
+  - mfa-gov.cloud
+  - s3-army.cloud
+  - saiccloud.us
+  - ukrtelecom.cloud
+  - us-army.cloud
+  - us-mil.cloud
+  - awsplatform.online
+  - go-jp.cloud
+  - ua-gov.cloud
+  - gv-at.cloud
+  - s3-be.cloud
+  - ukrainesec.cloud
+  - amazonsolutions.cloud
+  - defense-gouv.cloud
+  - europa-eu.cloud
+  - gouv-fr.cloud
+  - mapn-ro.cloud
+  - mde-es.cloud
+  - mil-be.cloud
+  - mvep-hr.cloud
+  - s3-dk.cloud
+  - ua-sec.cloud
+  - dep-no.cloud
+  - difesa-it.cloud
+  - gov-pl.cloud
+  - morh-hr.cloud
+  - msz-pl.cloud
+  - quirinale.cloud
+  - mil-pl.cloud
+  - mzv-cz.cloud
+  - s3-nato.cloud
+  - gov-sk.cloud
+  - mzv-sk.cloud
+  - regeringskansliet-se.cloud
+  - s3-de.cloud
+  - ua-energy.cloud
+  - zixcorp.cloud
+  - bund-de.cloud
+  - mindef-nl.cloud
+  - presidencia-pt.cloud
+  - symbolsecurity.cloud
+  - trustifi.cloud
+  - s3-ua.cloud
+  - skykick.solutions
+  - softcat.cloud
+  - swcloud.us
+  - veeam.solutions
+  - shicloud.online
+  - s3-stig.cloud
+  - parseccomputer.cloud
+  - rrt.solutions
+  - rubrik.zone
+  - s3-proofpoint.cloud
+  - polycom.solutions
+  - pulsesecure.cloud
+  - s3-esa.cloud
+  - s3-rackspace.cloud
+  - servicenowinc.us
+  - aeinc.solutions
+  - capgemini.services
+  - mod-cloud.uk
+  - nrcc.cloud
+  - s3-dnc.cloud
+  - s3-knowbe4.cloud
+  - s3-pt.cloud
+  - sipacolumbia.us
+  - brookings.cloud
+  - citoc.cloud
+  - clari.cloud
+  - justice.technology
+  - s3-aws.global
+  - s3-blackberry.cloud
+  - 4freerussia.cloud
+  - democracyendowment.cloud
+  - gmfus.cloud
+  - mimecast.cloud
+  - stratfor.cloud
+  - barracuda.solutions
+  - caci.solutions
+  - druva.cloud
+  - exclaimer.solutions
+  - mil-pt.cloud
+  - oktacloud.us
+  - s3-atlassian.cloud
+  - s3-monitoring.cloud
+  - s3-us.navy
+  - s3-zoho.cloud
+  - usaid.cloud
+  - wrapsnet.cloud
+  - zoommeeting.zone
+  - albrightstonebridge.cloud
+  - backupify.cloud
+  - cer.zone
+  - crisisgroup.services
+  - forces-gc.cloud
+  - heritagecloud.org
+  - s3-acronis.cloud
+  - s3-bah.cloud
+  - s3-cloud.us
+  - s3-fbi.cloud
+  - s3-rand.cloud
+  - s3-ucia.cloud
+  - zero-trust.solutions
+  - amazonmeeting.cloud
+  - aspeninstitute.cloud
+  - c-r.services
+  - ceip.cloud
+  - cepa.solutions
+  - cnas.zone
+  - eopgov.cloud
+  - freedomhouse.cloud
+  - gc-cloud.ca
+  - googlemeet.zone
+  - macfound.services
+  - microsoft-meeting.cloud
+  - prio.zone
+  - admin-ch.cloud
+  - americanprogress.cloud
+  - csbaonline.cloud
+  - s3-csis.cloud
+  - s3-dgap.cloud
+  - s3-ida.cloud
+  - s3-iri.cloud
+  - s3-state.cloud
+  - ua-aws.army
+  - usip.us
+  - asucloud.us
+  - clearancejobs.cloud
+  - cwinc.cloud
+  - europeanvalues.cloud
+  - google-meet.cloud
+  - microsoftmeeting.cloud
+  - s3-hudson.cloud
+  - s3-marcus.cloud
+  - s3-ned.cloud
+  - s3-spacex.cloud
+  - statecloud.us
+  - foreignpolicy.cloud
+  - mfa-gov-il.cloud
+  - mod-gov-il.cloud
+  - ms-meetings.online
+  - ncfta.cloud
+  - ncsc.solutions
+  - ndu.solutions
+  - opensocietyfoundations.cloud
+  - s3-aws.cloud
+  - s3.army
+  - wilsoncenter.cloud
+  - zoommeeting.today
+  - ecfr.cloud
+  - go-meet-up.com
+  - zoom-meeting.live
+  - aws-meet.cloud
+  - awsmeet.cloud
+  - go-conference.cloud
+  - go-meeting.online
+  - zoom-meeting.pro
+  - gov-lv.cloud
+  - aws-il.cloud
+  - awsmeetings.online
+  - cfr-aws.cloud
+  - go-meeting.cloud
+  - ms-conference.cloud
+  - ms-meeting.online
+  - zoom-meeting.cloud
+  - zoom-meeting.today
+  - zoom-meetings.cloud
+  - go-meet.pro
+  - ms-meeting.com
+  - msconferences.cloud
+  - aws-data.cloud
+  - aws-meetings.cloud
+  - aws-join.cloud
+  - gov-trust.cloud
+  - s3-nsa.cloud
+  - ssi-gouv-fr.cloud
+  - aws-online.cloud
+  - minbuza.cloud
+
+# Malicious .rdp file hashes
+# hash: 50bed47064e4ecd01c4a9271e63af7cfdf52ea4096f205470e41eef7eb01c1e1 — AWS Secure Data Exchange - Compliance Check.rdp [CZ]
+# hash: 648afcc709ac18c4fe235d24bf51a8230e9700b97c3dcc0a739816966f2b58b6 — AWS Secure Data Exchange - Compliance Check.rdp [SE]
+# hash: 280fbf353fdffefc5a0af40c706377142fff718c7b87bc8b0daab10849f388d0 — AWS IAM Configuration.rdp [UA]
+# hash: f357d26265a59e9c356be5a8ddb8d6533d1de222aae969c2ad4dc9c40863bfe8 — AWS IAM Compliance Check.rdp [UA]
+# hash: ba4d58f2c5903776fe47c92a0ec3297cc7b9c8fa16b3bf5f40b46242e7092b46 — Zero Trust Security Environment Compliance Check.rdp [TR]
+# hash: 8b45f5a173e8e18b0d5c544f9221d7a1759847c28e62a25210ad8265f07e96d5 — Zero Trust Security Environment Compliance Check.rdp [EE]
+# hash: 36e45fdeba3fdb3708fb1c2602c30cb5b66fbc5ea790f0716390d9f69c363542 — AWS Secure Data Exchange Compliance.rdp [BE]
+# hash: 2fb1d01f9859c676ef37b060c5e8db0a12472c96260114a6edee45d8546184c9 — IAM Identity Center Application Access.rdp [UA]
+# hash: a246253fab152deac89b895a7c1bca76498b4aa044c907559c15109c1187a448 — Zero Trust Architecture Configuration.rdp [EE]
+# hash: 1c1941b40718bf31ce190588beef9d941e217e6f64bd871f7aee921099a9d881 — AWS IAM Compliance Check.rdp [UA]
+# hash: f32fa0e3902a1f287280e2e6ddcbfe4fc0a47f1fa5ddb5e04a7651c51343621e — Device Security Requirements Check.rdp [UK]
+
+# Email subjects used in spear-phishing campaign (32 subjects)
+# subject: AWS IAM Expansion Notification
+# subject: AWS IAM Identity Center Launch
+# subject: AWS Infrastructure Deployment
+# subject: AWS SDE - Secure Data Exchange
+# subject: AWS SDE Launch Notification
+# subject: AWS SDE: The Next Gen Platform for Secure Exchange
+# subject: Amazon & [REDACTED] MoD
+# subject: Amazon's Next Step in Internet Data Exchange (ZTS)
+# subject: Cloud Infrastructure Extension Plan Update
+# subject: Compliance Check Required for New ZTS Platform
+# subject: Cyber Security Partnership Notification
+# subject: DMARC Violation Compliance Check Required for New Platform
+# subject: DMARC Violation IAM Identity Center: Unified Access
+# subject: DMARC Violation Microsoft & Amazon Security Partnership
+# subject: Data Protection Enhanced with Zero Trust Architecture
+# subject: IAM Identity Center Update
+# subject: IAM Identity Center: Unified Access
+# subject: Microsoft & Amazon Cloud Extension Update
+# subject: Microsoft & Amazon Security Partnership
+# subject: New AWS Platform Features
+# subject: New Platform - AWS Secure Data Exchange
+# subject: New Zero Trust Model Implementation on AWS
+# subject: Next Gen Secure Platform Launch
+# subject: Secure Data Exchange Update
+# subject: Secure and Compliant Access to All Resources Ahead
+# subject: Transparent Data Access via AWS Secure Data Exchange
+# subject: UA support
+# subject: ZTS Compliance Check Required
+# subject: ZTS Future of Data Exchange Ahead
+# subject: ZTS Implementation by Amazon & Microsoft
+# subject: Zero Trust Model Implementation
+# subject: Zero Trust Solution Testing in Progress

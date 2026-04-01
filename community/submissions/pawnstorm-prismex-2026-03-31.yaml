@@ -1,0 +1,125 @@
+# =============================================================
+#  Pawn Storm / APT28 — PRISMEX Campaign IOCs
+#  Source: Trend Micro TrendAI Research (March 2026)
+# =============================================================
+
+author: aptwatch-team
+
+source: https://www.trendmicro.com/en_us/research/26/c/pawn-storm-targets-govt-infra.html
+source_name: "Trend Micro - Pawn Storm Campaign Deploys PRISMEX (March 2026)"
+
+apt_groups:
+  - APT28
+  - Pawn Storm
+  - Forest Blizzard
+  - Fancy Bear
+
+description: >
+  Pawn Storm (APT28/Forest Blizzard) deploys PRISMEX malware suite targeting
+  Ukrainian defense supply chain and NATO allies (Czech Republic, Poland,
+  Romania, Slovakia, Slovenia, Turkey). Campaign active since Sep 2025,
+  escalated Jan 2026. Exploits CVE-2026-21509 (Office OLE bypass) and
+  CVE-2026-21513 (MSHTML zero-day). Uses Covenant Grunt C2 via Filen.io
+  cloud storage, steganography (Bit Plane Round Robin), COM hijacking
+  persistence. Wiper capability observed.
+
+ipv4:
+  - 193.187.148.169
+  - 23.227.202.14
+  - 72.62.185.31
+
+domains:
+  - wellnesscaremed.com
+  - wellnessmedcare.org
+  - freefoodaid.com
+  - longsauce.com
+
+emails:
+  - dubravka.jovanovic2024@proton.me
+  - a.matti444@proton.me
+  - TeoAbarquero@tutamail.com
+  - UffeTroelsen@atomicmail.io
+
+cves:
+  - CVE-2026-21509
+  - CVE-2026-21513
+
+# SHA-256 hashes (75 total) — PRISMEX components, exploits, droppers
+# hash: 5a88a15a1d764e635462f78a0cd958b17e6d22c716740febc114a408eef66705
+# hash: cbea5c7d71a5a6cb9153b00d2d27e6a3579004c27f5e817f317eeebdce7f805f
+# hash: c87be2f30cc974d0859526b9dd104e015f0e5d04bc43198305537f276705691e
+# hash: 57357655a62e3a8b1f4b78e1d3ed7e0f6d59a9bac213087294f91bb7847b2a8f
+# hash: 92a56faf6eccfad8281213393fad584cbd7b9e04db875dfb8fc01e1dbf4cbdd1
+# hash: de2b24d08e795ad9cdd1b74882a3626febefadafaf8ff0ae76cba16dcaa0f8bc
+# hash: 71ef7438d785f3102735ed9d9233ac366507c82fc4fac4de88f687a105c84df6
+# hash: dbf33417e40f0fe8078a11d81f7d323bfed1912f5cb62d765c1be72561474659
+# hash: ffca9d56feb5ec8844b42f513cecd67a554a2ddb3408dbc6942e2fd60453aee1
+# hash: 4f6aa45f2ead7ddb6a81f4a2b9745f8ec117d96971d4d80bb06f3ec3db5951da
+# hash: a848d48c79b77753a876d876baa3e802a5a37be37e7a772ddbd9a266cd1796ac
+# hash: 36f5e04213d446c4208864f32a6af18d5184bbbb628808ef0a876ea6c31ea0b3
+# hash: e3f9519a21a16ff2c8f989034e47fbc91a2d019e09a1d7d17ff751e52a09d15b
+# hash: 8f4bca3c62268fff0458322d111a511e0bcfba255d5ab78c45973bd293379901
+# hash: bb309ed228f97f3cf864ea89fa502f43214af4fb4b98d78837e42c4a4940b5f9
+# hash: 970e68e8b68e0c5f3f18cd55e0c82304e81547f8ebf349390db1c8a0681699fa
+# hash: 92697d518e72a30800e96b63cf875573bd536c9b993d22014238f6a9f0e19e0f
+# hash: 144bddb48890fa680dfd226e36c0ef2c6d6f98a365aea48399edd0d0388711a1
+# hash: 9aa8b46d62eb426842b8ff0fc28e64719494f0f64d516253caa71a6fd86e9ad3
+# hash: 0bb0d54033767f081cae775e3cf9ede7ae6bea75f35fbfb748ccba9325e28e5e
+# hash: 2822c72a59b58c00fc088aa551cdeeb92ca10fd23e23745610ff207f53118db9
+# hash: 3f446d316efe2514efd70c975d0c87e12357db9fca54a25834d60b28192c6a69
+# hash: 40c2e559992a7f595c593b419930a3f216516c3042ad86fb985348d53b6e01b9
+# hash: 52b6fb40e7efb09c2bebe8550178e7e30009600bdedd1acae085d753761b7598
+# hash: 5c2a2c49e200a2d048f477440da75ff4a99c676943f6f7cac1ce70190520f998
+# hash: 7ccf7e8050c66eed69f35159042d8043032f8afe48ae1f51fce75ce2c51395f2
+# hash: 8b0ab7f7f48bf847c3af570da7dd3e26eda9e4c4ab38c492b1b798294d7f53a5
+# hash: 8c1dc9732884c6078b23953b78314a8d0d8b8d9fe42e5f97a7cd09b8ace943a9
+# hash: 968756e62052f9af80934b599994addbab29f8dc2615c47cda512bae48771019
+# hash: 9f4672c1374034ac4556264f0d4bf96ee242c0b5a9edaa4715b5e61fe8d55cc8
+# hash: a876f648991711e44a8dcf888a271880c6c930e5138f284cd6ca6128eca56ba1
+# hash: b7342b03d7642c894ebad639b9b53fd851d7958298f454283c18748051946585
+# hash: baad1153e58c86aa1dc9346cdd06be53b5dd2a6cf76202536d6721c934008f8e
+# hash: c4389cc34b672c4f885547f413bf38575e6ee2b23a0ddfdd306a69c1775db6fc
+# hash: d213b5079462e737eb940ac46c59e386eb6ca7f8decc95a594b3d8f3b6940010
+# hash: e792adf4dff54faca5b9f5b32c1a2df3a6a955e722f1be8df2451c03ed940e41
+# hash: ff310202cbff28b47f03b4b0129a5b925a4b7b065af002072a3796920720c34e
+# hash: aefd15e3c395edd16ede7685c6e97ca0350a702ee7c8585274b457166e86b1fa
+# hash: a1b86c8957f460b78d906e1bdede829c4f3b5500d6449e8eba3ae5c302be2b86
+# hash: 64f2d135603220b47dd430be5e059dcedd80ad2bc3c17500816ec5d07e39d3d1
+# hash: 8d09eb897f2bc98035ef88152e2b5d571a7b61878dd12b451e0437089487a417
+# hash: 0148c79cdfb21d87731f8e45d38c27242863ec4ea9621c59e537f59ed501c119
+# hash: 0366b9bc02b00fda8ea28929b7159a038a43da0aa0299b8279bffc2d7e73892a
+# hash: 0ab301b3e43ac2394ec25c5d1caf79aa0785a2eaca801b0b1b6d4621f5e8c736
+# hash: 948f109756cba0b01f11fd3db9c47a76125c4b1d9467ff1bd9c5013d214c933f
+# hash: 0db5bd9cb832618c60e0f3c0dfad719403473b85a82253dc0f6a8391800c0d0b
+# hash: ce2c475461d57f222a6aa22f49420f804a43c2eb29abf8553457a7d30f7cb024
+# hash: a95ee15e8ccf84521df2c80b1525fd89e205fc0280c3f6cbc24751080ea29206
+# hash: 003cd35535ab9350a407a7dcd016c305fb8dbac03d41d5b7d3917c804b66dd2a
+# hash: ba01a2355414dfedda9ac5ce0d7a2d8edfb89ec3ae3e68fc81db035caa741854
+# hash: ea4679d1c05bef0c38b4d910a87f79070ca2e661779a255f523d57ef1921a1c7
+# hash: 1565934e529b5a9b6af7e60800a91f7ac3a6ec2e24b4f6df0f808d253b45cf42
+# hash: 3b411e9f282ba97feb56cb5a8bf3e9a1d1e9a5f8406e72213dfb140166a54012
+# hash: eb187ff574ab25dffa12dd05ff5f9716f4fc489e2de457c4a50aa0d3cb0f1479
+# hash: 9dad95985eea3b299c387e663a6edfbbf057cc634f2ca99c410238480bcd4e17
+# hash: eec4122a1262579806888d8a6a215b333d5e4eec600b5caba91e187b7b468e22
+# hash: 8858ee314c4db60a3f097ede38cbe64ce4e4b1e67041bad1e0580953011dfec1
+# hash: 15b99e8b30ce0b57fe030243aa795b74b0d7dcd773f28f677f629f132bce1ff8
+# hash: 8438a4cd675c81cefd6a8d96b9e48b2730cc9086b4c531883f966a8818cccbef
+# hash: 1d27a5ca6703f6e757d30adc8d4d703c2e99316d1eaaaf5c68635c47e8e0396e
+# hash: d6b75d496e28692dd02c6336ac5c5a42ac88da7ad315d3e508963cf8d46926b3
+# hash: 84464879c2ced71ff6a30277252af70a20e18c563b8e45f4a92e004f41fe3e01
+# hash: be859b4f4576ec09b69a2ef2d119939f7eb31de121aa01d38e1f0b2290f5a15e
+# hash: 969d2776df0674a1cca0f74c2fccbc43802b4f2b62ecccecc26ed538e9565eae
+# hash: f7bda19543074c788c321aed42d955b4d50b7b0a2c3ca83b7f45b5e8b9a10491
+# hash: 18f9c08e60bb88891f5bb5dd133ae804703c0797bebdde397c01513a67b86a1e
+# hash: 5f397327aeb20718e364bef61e8bad507772708a7d1bf55d8b845170c69f3de0
+# hash: 3cb09154a839a5de6e8ef4a04a933b7362afb56cdc4e91368b237e9bcb1cd7b9
+# hash: 1ed863a32372160b3a25549aad25d48d5352d9b4f58d4339408c4eea69807f50
+# hash: d944abab1481457eacf9f1d08f835980c2146ec91513e2eb94714c6abaec5f34
+# hash: 5a17cfaea0cc3a82242fdd11b53140c0b56256d769b07c33757d61e0a0a6ec02
+# hash: b2ba51b4491da8604ff9410d6e004971e3cd9a321390d0258e294ac42010b546
+# hash: c91183175ce77360006f964841eb4048cf37cb82103f2573e262927be4c7607f
+# hash: fd3f13db41cd5b442fa26ba8bc0e9703ed243b3516374e3ef89be71cbf07436b
+# hash: e8889528e2114a700438f73da09449cfdde655a29da6794d0449b5e8aa4dbf2a
+# hash: f0d443055143cbd6bce8ef96b52d430e2db321b37b8b93a2a9d0354651702790
+# hash: 14acfaca5fc59d5ee9592399e51636ec47fbea36623555635a1361fcd2f50dfa
+# hash: bbfd93dbf43236b7f64017ad20f72dd611de1acb4b15e02569e42887467b34d4
