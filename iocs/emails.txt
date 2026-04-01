@@ -161,3 +161,22 @@ webmaster@srtownband.org
 whoisrequest@markmonitor.com
 your@emailaddress.comlukas.kastro@yandex.ru
 lukas.kastro@yandex.ru
+# =============================================================
+# APT Watch — IOC Append File (Emails) — 2026-03-31
+# Append to emails.txt: cat append_emails_2026-03-31.txt >> emails.txt
+# =============================================================
+
+# Pawn Storm / APT28 — Roundish/Neusploit operators
+advenwolf@proton.me
+srezoska@skiff.com
+ahmeclaw@proton.me
+ahmeclaw2002@outlook.com
+
+# Sandworm — EclecticIQ KMS/Kalambur operators
+asmohamed2030@protonmail.com
+inekawaki@proton.me
+repgoti@proton.me
+dubravka.jovanovic2024@proton.me
+a.matti444@proton.me
+TeoAbarquero@tutamail.com
+UffeTroelsen@atomicmail.io
