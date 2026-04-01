@@ -4,8 +4,8 @@
 #
 # Category: apt/threat-intelligence
 # Maintainer: APT Intelligence Database
-# Generated: 2026-04-01 00:56:10
-# Entries: 2451
+# Generated: 2026-04-01 12:31:29
+# Entries: 2454
 #
 # This file is auto-generated from the APT intelligence database.
 # DO NOT EDIT MANUALLY — re-run generate_blocklists.py instead.
@@ -1103,6 +1103,7 @@
 195.23.36.143
 195.26.251.89
 195.26.87.209
+195.3.220.48
 195.35.120.151
 195.49.25.226
 195.58.58.58
@@ -1630,6 +1631,7 @@
 43.226.229.206
 43.226.229.207
 43.229.112.195
+45.133.216.15
 45.144.30.200
 45.144.52.189
 45.144.52.215
@@ -1812,6 +1814,7 @@
 5.206.224.92
 5.223.46.186
 5.227.65.129
+5.255.122.118
 5.5.7.3
 51.210.107.197
 51.210.150.70
