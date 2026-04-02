@@ -1,0 +1,270 @@
+# =============================================================
+# APT Watch — Safelist (Allowlist)
+# =============================================================
+# IPs, domains, emails and patterns to EXCLUDE from IOC collection.
+# Loaded by aptwatch_ioc_collector.py and usable by any
+# pipeline script to filter false positives.
+#
+# Categories:
+#   ips          : Individual IPs to exclude
+#   ip_ranges    : CIDR prefixes / private ranges
+#   domains      : Exact legitimate domains
+#   domain_patterns : Substrings to match (contains)
+#   emails       : Email addresses to exclude
+#   asns         : Legitimate ASNs (CDN, cloud) not to block
+#
+# Principles:
+#   - Add here rather than hardcode in scripts
+#   - Document the reason for each entry
+#   - Reload on each run (no cache)
+#
+# Last updated: 2026-04-01
+# =============================================================
+
+# --- Known individual False Positive IPs ---
+ips:
+  # DNS publics
+  - "8.8.8.8"          # Google DNS
+  - "8.8.4.4"          # Google DNS
+  - "1.1.1.1"          # Cloudflare DNS
+  - "1.0.0.1"          # Cloudflare DNS
+  - "9.9.9.9"          # Quad9 DNS
+  - "208.67.222.222"   # OpenDNS
+  - "208.67.220.220"   # OpenDNS
+  - "9.7.4.4"          # OTX artifact - not a real IOC
+  # Legitimate CDN / cloud frequently extracted by mistake
+  - "23.52.43.176"     # Akamai CDN
+  - "34.41.59.0"       # Google Cloud
+  - "0.0.0.0"          # Not routable
+  - "255.255.255.255"  # Broadcast
+
+# --- Private / reserved IP ranges (prefixes) ---
+ip_ranges:
+  - "10."
+  - "127."
+  - "169.254."
+  - "172.16."
+  - "172.17."
+  - "172.18."
+  - "172.19."
+  - "172.20."
+  - "172.21."
+  - "172.22."
+  - "172.23."
+  - "172.24."
+  - "172.25."
+  - "172.26."
+  - "172.27."
+  - "172.28."
+  - "172.29."
+  - "172.30."
+  - "172.31."
+  - "192.168."
+  - "0."
+  - "255."
+  - "224."             # Multicast
+  - "240."             # Reserved
+
+# --- Exact legitimate domains ---
+domains:
+  # Social networks / platforms
+  - "facebook.com"
+  - "twitter.com"
+  - "x.com"
+  - "linkedin.com"
+  - "youtube.com"
+  - "instagram.com"
+  - "reddit.com"
+  - "t.me"
+  - "telegram.org"
+  - "whatsapp.com"
+  # Major tech companies
+  - "microsoft.com"
+  - "google.com"
+  - "apple.com"
+  - "amazon.com"
+  - "github.com"
+  - "gitlab.com"
+  - "bitbucket.org"
+  # Security / research (our own sources)
+  - "trendmicro.com"
+  - "eset.com"
+  - "welivesecurity.com"
+  - "securelist.com"
+  - "mandiant.com"
+  - "crowdstrike.com"
+  - "sentinelone.com"
+  - "paloaltonetworks.com"
+  - "unit42.paloaltonetworks.com"
+  - "eclecticiq.com"
+  - "sekoia.io"
+  - "lab52.io"
+  - "hunt.io"
+  - "zscaler.com"
+  - "virustotal.com"
+  - "malwarebytes.com"
+  - "sophos.com"
+  - "kaspersky.com"
+  - "fortinet.com"
+  - "cisco.com"
+  - "talosintelligence.com"
+  - "fireeye.com"
+  - "recordedfuture.com"
+  - "silentpush.com"
+  - "cisa.gov"
+  - "ncsc.gov.uk"
+  - "nsa.gov"
+  # CDN / infrastructure
+  - "cloudflare.com"
+  - "akamai.com"
+  - "fastly.com"
+  - "amazonaws.com"
+  - "azure.com"
+  - "googleapis.com"
+  - "gstatic.com"
+  - "cloudfront.net"
+  - "azureedge.net"
+  - "azurewebsites.net"
+  - "blob.core.windows.net"
+  - "trafficmanager.net"
+  - "s3.amazonaws.com"
+  - "cdn.jsdelivr.net"
+  - "unpkg.com"
+  - "cdnjs.cloudflare.com"
+  # Analytics / tracking / advertising (scraped from blog HTML)
+  - "google-analytics.com"
+  - "googletagmanager.com"
+  - "googlesyndication.com"
+  - "googleadservices.com"
+  - "googleads.g.doubleclick.net"
+  - "doubleclick.net"
+  - "adnxs.com"
+  - "adsrvr.org"
+  - "demdex.net"
+  - "omtrdc.net"
+  - "scorecardresearch.com"
+  - "quantserve.com"
+  - "cookiebot.com"
+  - "cookielaw.org"
+  - "onetrust.com"
+  - "consensu.org"
+  - "hotjar.com"
+  - "hotjar.io"
+  - "mouseflow.com"
+  - "fullstory.com"
+  - "segment.io"
+  - "segment.com"
+  - "mixpanel.com"
+  - "amplitude.com"
+  - "heap.io"
+  - "heapanalytics.com"
+  - "hubspot.com"
+  - "hubspot.net"
+  - "hs-analytics.net"
+  - "hsforms.com"
+  - "marketo.com"
+  - "marketo.net"
+  - "mktoresp.com"
+  - "pardot.com"
+  - "salesforce.com"
+  - "force.com"
+  - "intercom.io"
+  - "intercomcdn.com"
+  - "drift.com"
+  - "crisp.chat"
+  - "zdassets.com"
+  - "zendesk.com"
+  - "freshdesk.com"
+  - "optimizely.com"
+  - "crazyegg.com"
+  - "newrelic.com"
+  - "nr-data.net"
+  - "sentry.io"
+  - "bugsnag.com"
+  - "datadoghq.com"
+  # Social widgets / embeds (extracted from blog scripts)
+  - "platform.twitter.com"
+  - "connect.facebook.net"
+  - "platform.linkedin.com"
+  - "apis.google.com"
+  - "accounts.google.com"
+  - "play.google.com"
+  - "fonts.googleapis.com"
+  - "fonts.gstatic.com"
+  - "gravatar.com"
+  - "wp.com"
+  - "disqus.com"
+  - "disquscdn.com"
+  - "addthis.com"
+  - "sharethis.com"
+  - "addtoany.com"
+  # Miscellaneous legitimate
+  - "wikipedia.org"
+  - "mozilla.org"
+  - "w3.org"
+  - "mitre.org"
+  - "attack.mitre.org"
+  - "adobe.com"
+  - "oracle.com"
+  - "jetbrains.com"
+  - "drupal.org"
+  - "wordpress.org"
+  - "wordpress.com"
+  - "archive.org"
+  - "jquery.com"
+  - "bootstrapcdn.com"
+  - "maxcdn.com"
+  - "typekit.net"
+  - "recaptcha.net"
+  - "hcaptcha.com"
+
+# --- Domain patterns (substring match) ---
+domain_patterns:
+  - "googleapis"
+  - "gstatic"
+  - "doubleclick"
+  - "ampproject"
+  - "govdelivery"
+  - "qualtrics"
+  - ".gov."            # Generic government domains
+  - "windowsupdate"
+  - "microsoftonline"
+  # Ad / tracking patterns
+  - "googletag"
+  - "googleoptimize"
+  - "google-analytics"
+  - "googlesyndication"
+  - "googleadservices"
+  - "adservice."
+  - "adsystem."
+  - "tracker."
+  - "tracking."
+  - "analytics."
+  - "pixel."
+  - "beacon."
+  - "telemetry."
+  - "cdn.cookielaw"
+  - "consent."
+  - ".safelinks.protection.outlook"
+  - "aka.ms"
+  - "bit.ly"
+  - "tinyurl.com"
+  - "schema.org"
+
+# --- Emails to exclude ---
+emails:
+  - "abuse@"           # Pattern: abuse@ addresses
+  - "postmaster@"
+  - "noreply@"
+  - "no-reply@"
+  - "support@microsoft.com"
+  - "security@microsoft.com"
+
+# --- Legitimate ASNs (informational, not filtered automatically) ---
+asns_info:
+  - "AS13335"          # Cloudflare
+  - "AS15169"          # Google
+  - "AS8075"           # Microsoft
+  - "AS16509"          # Amazon AWS
+  - "AS14618"          # Amazon
+  - "AS20940"          # Akamai
