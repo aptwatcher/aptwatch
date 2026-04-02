@@ -1,0 +1,26 @@
+# =============================================================
+#  Conti Toolkit Leak - Binary Hashes & Exfil Infrastructure
+#  Source: Conti Toolkit Leak (2022) - Direct Analysis
+# =============================================================
+
+author: aptwatch-team
+
+source: https://www.bleepingcomputer.com/news/security/conti-ransomware-source-code-leaked-by-ukrainian-researcher/
+source_name: "Conti Toolkit Leak - Binary & Infrastructure Analysis"
+
+apt_groups:
+  - Conti
+  - Wizard Spider
+
+description: >
+  SHA-256 hashes of Conti decryptor binaries (Debug and Release builds)
+  extracted from the Conti Toolkit Leak. These are decryptors provided to
+  paying victims, compiled by developer "toha". Also includes exfiltration
+  infrastructure (Mega.nz account used for data staging via rclone).
+
+# Binary hashes (Conti decryptor builds from leaked source)
+# hash: 142cf75bce899bca2e12ed4a8e4e74b3f6b3405de6a60517601eae32a6de35c1 - Conti Decryptor (Debug/x64)
+# hash: 9aed278f4eeb4ee5eaf94cde5ecf00dd5f1e3797e9854b01a20eca741e15f042 - Conti Decryptor (Release/x64)
+
+emails:
+  - lukas.kastro@yandex.ru
