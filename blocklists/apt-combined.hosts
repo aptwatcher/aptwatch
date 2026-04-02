@@ -1,7 +1,7 @@
 # Title: APT Combined Blocklist
 # Description: All validated APT IPs + malicious domains
-# Last modified: 2026-04-02 00:31:36
-# Entries: 5875
+# Last modified: 2026-04-02 06:31:44
+# Entries: 5876
 # Homepage: APT Intelligence Database
 # License: TLP:AMBER — do not share publicly
 #
@@ -854,6 +854,7 @@
 0.0.0.0 141.98.102.243
 0.0.0.0 141.98.11.95
 0.0.0.0 142.103.134.40
+0.0.0.0 142.11.206.72
 0.0.0.0 142.11.206.73
 0.0.0.0 142.147.96.74
 0.0.0.0 142.171.116.94

@@ -1,0 +1,8 @@
+# APT Watch IOC Collector — 2026-04-02
+# Mode: local
+CVE-2019-10149  # Sandworm
+CVE-2023-42793  # Callisto
+CVE-2025-55182  # Gamaredon
+CVE-2026-21509  # Pawn Storm
+CVE-2026-21513  # Pawn Storm
+CVE-2026-25253  # Pawn Storm
