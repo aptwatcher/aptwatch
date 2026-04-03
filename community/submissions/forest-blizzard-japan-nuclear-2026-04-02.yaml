@@ -1,0 +1,43 @@
+# =============================================================
+#  Forest Blizzard phishing Japanese entities for nuclear
+#  disarmament intelligence — Microsoft Threat Intelligence
+# =============================================================
+
+author: darksword
+source: https://www.microsoft.com/en-us/security/blog/threat-intelligence/
+source_name: "Microsoft Threat Intelligence — Forest Blizzard phishing Japanese entities for nuclear disarmament intelligence"
+
+apt_groups:
+  - APT28
+
+description: >
+  In late February 2026, Forest Blizzard (APT28 / GRU Unit 26165) used a
+  compromised account at a Switzerland-based human rights NGO to spear-phish
+  Japanese organizations — a media company, a foreign-policy think tank, a
+  government-led nuclear-disarmament initiative, and the governments of
+  Hiroshima and Nagasaki. The phishing emails referenced the UN NPT Review
+  Conference and directed recipients to a Cloudflare Workers domain
+  impersonating UNODA. A device-code authentication flow was used to
+  compromise a Japanese media organization, followed by high-volume collection
+  of mail and SharePoint items via Microsoft Graph API. The campaign reflects
+  renewed Russian interest in Japan's nuclear defense posture following the
+  US-Japan Extended Deterrence Dialogue (Feb 2026) and PM Takaichi's
+  ambiguity on Japan's non-nuclear principles.
+
+# =============================================================
+#  IOCs
+# =============================================================
+
+domains:
+  - registration.unoda.workers.dev
+
+cves:
+  - CVE-2023-38831
+
+# Note: Microsoft report contained only one domain IOC.
+# CVE-2023-38831 (WinRAR) is referenced as part of Forest Blizzard's
+# broader TTP evolution since 2023, not necessarily used in this
+# specific campaign.
+#
+# MITRE ATT&CK: T1566.002, T1586.002, T1583.006, T1608.001,
+# T1204.002, T1078, T1036, T1550.001, T1114, T1119, T1213.002
