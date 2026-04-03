@@ -18,6 +18,11 @@ database/apt_intel.db.bak
 !web/apt_intel_web.db
 
 # =========================
+# Private admin page (local only)
+# =========================
+web/admin.html
+
+# =========================
 # Classified reports (TLP:AMBER/RED)
 # =========================
 reports/*.docx
