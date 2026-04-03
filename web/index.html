@@ -84,10 +84,6 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
   <img src="../aptwatch-logo.png" alt="APTWatch" style="height:32px;width:32px;">
   <h1>APT Intel Dashboard</h1>
   <div style="display:flex;align-items:center;gap:12px;margin-left:auto">
-    <a href="https://api.aptwatch.org/api/download/web" title="Download web DB (~24 MB)" style="color:var(--text2);font-size:12px;text-decoration:none">Web DB</a>
-    <span style="color:var(--border)">|</span>
-    <a href="https://api.aptwatch.org/api/download/full" title="Download full DB (~443 MB, rate limited)" style="color:var(--text2);font-size:12px;text-decoration:none">Full DB</a>
-    <span style="color:var(--border)">|</span>
     <a href="feeds.html" style="color:var(--text2);font-size:12px;text-decoration:none" title="Blocklist feeds">Feeds</a>
     <span style="color:var(--border)">|</span>
     <a href="https://github.com/aptwatcher/aptwatch" target="_blank" rel="noopener" title="View on GitHub" style="color:var(--text2);display:flex;align-items:center">
@@ -107,7 +103,7 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
       <div class="drop-hint">Supports .db, .sqlite, .sqlite3</div>
     </div>
   </label>
-  <div class="info" id="load-info"><code>apt_intel_web.db</code> (fast, ~24 MB) or <code>apt_intel.db</code> (full, ~443 MB — all tables incl. Vuln Scan)</div>
+  <div class="info" id="load-info"><code>apt_intel_web.db</code> (web export — optimized for browser analysis) or <code>apt_intel.db</code> (full database — all tables including domains, URLs, and complete vulnerability data)</div>
 </div>
 
 <nav id="tabs-nav" style="display:none">
@@ -139,8 +135,24 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
     <div class="bar-chart" id="class-chart"></div>
     <div class="section-title">Subnet Tier Distribution</div>
     <div class="cards" id="tier-cards"></div>
-    <div class="section-title">Metadata</div>
-    <div id="meta-info" style="font-size:13px;color:var(--text2)"></div>
+    <!-- DB Info Banner (web export notice) -->
+    <div id="db-info-banner" style="display:none;background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--orange);border-radius:6px;padding:14px 18px;margin:20px 0 12px">
+      <div style="font-size:13px;font-weight:600;color:var(--orange);margin-bottom:6px">Partial Export — Web Database</div>
+      <div style="font-size:12px;color:var(--text2);line-height:1.6">
+        You are viewing the <b>web export</b>, a lightweight snapshot optimized for browser analysis. Some tables (domains, URLs, low-severity vulnerability findings) are excluded to keep the file small enough to load client-side.
+        For full coverage — including all domains, URLs, complete vulnerability data, and the validation queue — work with a local copy of the full database using the CLI tools.
+      </div>
+    </div>
+    <div id="db-info-full" style="display:none;background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--green);border-radius:6px;padding:14px 18px;margin:20px 0 12px">
+      <div style="font-size:13px;font-weight:600;color:var(--green);margin-bottom:6px">Full Database Loaded</div>
+      <div style="font-size:12px;color:var(--text2);line-height:1.6">
+        You have the complete dataset — all tables, all IOCs, all vulnerability findings. No data has been excluded.
+      </div>
+    </div>
+
+    <!-- Metadata (clean key/value grid) -->
+    <div class="section-title">Database Details</div>
+    <div id="meta-info" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px"></div>
   </div>
 </div>
 
@@ -292,62 +304,9 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
       </div>
     </div>
 
-    <!-- RIGHT COLUMN: Commands + Health -->
+    <!-- RIGHT COLUMN: Health Check -->
     <div>
-      <div class="section-title">Database Commands</div>
-      <p style="font-size:12px;color:var(--text2);margin-bottom:12px">Run these in your terminal. After making changes, reload the .db file here.</p>
-
-      <div style="display:flex;flex-direction:column;gap:8px">
-        <div class="card" style="padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:6px">Full Rebuild</div>
-          <div style="display:flex;gap:8px;align-items:center">
-            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-rebuild">python database/rebuild_db.py</code>
-            <button class="btn" onclick="copyCmd('cmd-rebuild')" style="white-space:nowrap">Copy</button>
-          </div>
-        </div>
-
-        <div class="card" style="padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:6px">Import New Vuln Scan</div>
-          <div style="display:flex;gap:8px;align-items:center">
-            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-vulnscan">python scripts/import_data.py vulnscan scans/your_scan.csv</code>
-            <button class="btn" onclick="copyCmd('cmd-vulnscan')" style="white-space:nowrap">Copy</button>
-          </div>
-        </div>
-
-        <div class="card" style="padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:6px">Import APT Report</div>
-          <div style="display:flex;gap:8px;align-items:center">
-            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-apt">python database/import_incremental.py apt-report reports/apt-targets/APT-TARGETS-xxx.md</code>
-            <button class="btn" onclick="copyCmd('cmd-apt')" style="white-space:nowrap">Copy</button>
-          </div>
-        </div>
-
-        <div class="card" style="padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:6px">Import New IPv4 IOCs</div>
-          <div style="display:flex;gap:8px;align-items:center">
-            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-ipv4">python database/import_incremental.py ipv4 iocs/new_ips.txt</code>
-            <button class="btn" onclick="copyCmd('cmd-ipv4')" style="white-space:nowrap">Copy</button>
-          </div>
-        </div>
-
-        <div class="card" style="padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:6px">Export Web DB</div>
-          <div style="display:flex;gap:8px;align-items:center">
-            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-web">python database/export_web_db.py</code>
-            <button class="btn" onclick="copyCmd('cmd-web')" style="white-space:nowrap">Copy</button>
-          </div>
-        </div>
-
-        <div class="card" style="padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:6px">CLI Stats</div>
-          <div style="display:flex;gap:8px;align-items:center">
-            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-stats">python database/query.py stats</code>
-            <button class="btn" onclick="copyCmd('cmd-stats')" style="white-space:nowrap">Copy</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="section-title" style="margin-top:24px">Database Health Check</div>
+      <div class="section-title">Database Health Check</div>
       <button class="btn-primary" onclick="runHealthCheck()" style="margin-bottom:12px">Run Health Check</button>
       <div id="health-output" style="font-family:monospace;font-size:12px;background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px;white-space:pre-wrap;min-height:60px;color:var(--text2)">Click "Run Health Check" to analyze database integrity.</div>
     </div>
@@ -369,7 +328,6 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
       <button class="btn" onclick="loadReconSection('candidates')">Candidates</button>
       <button class="btn" onclick="loadReconSection('enrichment')">Enrichment Data</button>
       <button class="btn" onclick="loadReconSection('asn')">ASN Map</button>
-      <button class="btn" onclick="loadReconSection('commands')">Recon Commands</button>
     </div>
 
     <!-- Staging Servers Section -->
@@ -439,58 +397,6 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
       <div class="table-wrap"><table id="asn-table"></table></div>
     </div>
 
-    <!-- Commands Section -->
-    <div id="recon-commands" class="recon-section" style="display:none">
-      <div class="section-title">Recon Pipeline Commands</div>
-      <p style="font-size:12px;color:var(--text2);margin-bottom:12px">Run these in your terminal to enrich data and discover new candidates.</p>
-      <div style="display:flex;flex-direction:column;gap:8px">
-        <div class="card" style="padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:4px">1. Enrich Top IPs (online lookup)</div>
-          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Queries ip-api.com for geolocation, ASN, and hosting data on critical IPs.</div>
-          <div style="display:flex;gap:8px;align-items:center">
-            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-enrich">python database/recon.py enrich-top 50</code>
-            <button class="btn" onclick="copyCmd('cmd-enrich')" style="white-space:nowrap">Copy</button>
-          </div>
-        </div>
-        <div class="card" style="padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:4px">2. Detect Staging Servers</div>
-          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Analyzes proxy + C2 patterns to identify relay and coordination nodes.</div>
-          <div style="display:flex;gap:8px;align-items:center">
-            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-staging">python database/recon.py detect-staging</code>
-            <button class="btn" onclick="copyCmd('cmd-staging')" style="white-space:nowrap">Copy</button>
-          </div>
-        </div>
-        <div class="card" style="padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:4px">3. Run Full Candidate Discovery</div>
-          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Runs staging detection + ASN clustering + subnet adjacency + multi-source correlation.</div>
-          <div style="display:flex;gap:8px;align-items:center">
-            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-candidates">python database/recon.py find-candidates</code>
-            <button class="btn" onclick="copyCmd('cmd-candidates')" style="white-space:nowrap">Copy</button>
-          </div>
-        </div>
-        <div class="card" style="padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:4px">4. Enrich Single IP</div>
-          <div style="display:flex;gap:8px;align-items:center">
-            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-enrich1">python database/recon.py enrich-ip 196.251.69.100</code>
-            <button class="btn" onclick="copyCmd('cmd-enrich1')" style="white-space:nowrap">Copy</button>
-          </div>
-        </div>
-        <div class="card" style="padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:4px">5. Show Report</div>
-          <div style="display:flex;gap:8px;align-items:center">
-            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-report">python database/recon.py report</code>
-            <button class="btn" onclick="copyCmd('cmd-report')" style="white-space:nowrap">Copy</button>
-          </div>
-        </div>
-        <div class="card" style="padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:4px">6. Re-export Web DB (after recon)</div>
-          <div style="display:flex;gap:8px;align-items:center">
-            <code style="flex:1;background:var(--bg);padding:6px 10px;border-radius:4px;font-size:12px" id="cmd-webexport">python database/export_web_db.py</code>
-            <button class="btn" onclick="copyCmd('cmd-webexport')" style="white-space:nowrap">Copy</button>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 
@@ -572,43 +478,6 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
     <div class="recon-section">
       <div class="section-title">Recent Validations</div>
       <div class="table-wrap"><table id="recent-val-table"></table></div>
-    </div>
-
-    <!-- CLI Commands -->
-    <div class="recon-section">
-      <div class="section-title">Validation Pipeline Commands</div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-        <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:4px">1. Build Queue</div>
-          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Queue unvalidated IPs, prioritized by subnet tier.</div>
-          <code style="font-size:11px;display:block;padding:6px;background:var(--bg2);border-radius:4px;cursor:pointer" onclick="navigator.clipboard.writeText(this.textContent)">python database/validate.py queue 500</code>
-        </div>
-        <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:4px">2. Run Shodan (free)</div>
-          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Validate via Shodan InternetDB. No API key needed.</div>
-          <code style="font-size:11px;display:block;padding:6px;background:var(--bg2);border-radius:4px;cursor:pointer" onclick="navigator.clipboard.writeText(this.textContent)">python database/validate.py run shodan 100</code>
-        </div>
-        <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:4px">3. Run AbuseIPDB</div>
-          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Requires ABUSEIPDB_KEY env var. Free: 1000/day.</div>
-          <code style="font-size:11px;display:block;padding:6px;background:var(--bg2);border-radius:4px;cursor:pointer" onclick="navigator.clipboard.writeText(this.textContent)">export ABUSEIPDB_KEY=your_key && python database/validate.py run abuseipdb 100</code>
-        </div>
-        <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:4px">4. Run VirusTotal</div>
-          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Requires VIRUSTOTAL_KEY env var. Free: 4/min.</div>
-          <code style="font-size:11px;display:block;padding:6px;background:var(--bg2);border-radius:4px;cursor:pointer" onclick="navigator.clipboard.writeText(this.textContent)">export VIRUSTOTAL_KEY=your_key && python database/validate.py run virustotal 50</code>
-        </div>
-        <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:4px">5. Check Single IP</div>
-          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Validate one IP against all available sources.</div>
-          <code style="font-size:11px;display:block;padding:6px;background:var(--bg2);border-radius:4px;cursor:pointer" onclick="navigator.clipboard.writeText(this.textContent)">python database/validate.py check 91.231.182.187</code>
-        </div>
-        <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px">
-          <div style="font-size:12px;font-weight:600;margin-bottom:4px">6. Status Report</div>
-          <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Show validation coverage and queue stats.</div>
-          <code style="font-size:11px;display:block;padding:6px;background:var(--bg2);border-radius:4px;cursor:pointer" onclick="navigator.clipboard.writeText(this.textContent)">python database/validate.py status</code>
-        </div>
-      </div>
     </div>
 
   </div>
@@ -1095,12 +964,38 @@ function loadOverview() {
     }
   }
 
-  // Metadata
+  // DB info banner
+  if (isWebExport) {
+    document.getElementById('db-info-banner').style.display = 'block';
+  } else {
+    document.getElementById('db-info-full').style.display = 'block';
+  }
+
+  // Metadata — clean key/value cards
   const meta = q("SELECT key, value FROM metadata ORDER BY key");
   let metaHtml = '';
+  const metaLabels = {
+    'schema_version': 'Schema Version',
+    'last_rebuild': 'Last Rebuild',
+    'web_export': 'Web Export',
+    'web_export_date': 'Export Date',
+    'web_domain_count': 'Domains (full DB)',
+    'web_url_count': 'URLs (full DB)',
+    'web_vuln_count': 'Vuln Findings (full DB)',
+    'scan_result_count': 'Scan Results',
+    'ipv4_count': 'IPv4 IOCs',
+    'cidr_count': 'CIDRs',
+    'cve_count': 'CVEs',
+    'email_count': 'Emails',
+  };
   if (meta.length > 0) {
     meta[0].values.forEach(([k, v]) => {
-      metaHtml += `<div><b>${k}:</b> ${v}</div>`;
+      const label = metaLabels[k] || k.replace(/_/g, ' ');
+      const displayVal = (v === 'true') ? 'Yes' : (v === 'false') ? 'No' : v;
+      metaHtml += `<div style="background:var(--bg3);border-radius:6px;padding:8px 12px">
+        <div style="font-size:10px;color:var(--text2);text-transform:uppercase;letter-spacing:0.5px">${label}</div>
+        <div style="font-size:13px;margin-top:2px;word-break:break-all">${displayVal}</div>
+      </div>`;
     });
   }
   document.getElementById('meta-info').innerHTML = metaHtml;
@@ -1661,7 +1556,7 @@ function loadRecon() {
   }
 
   if (!hasStagin && !hasRecon && !hasEnrich) {
-    html = '<div class="card"><div class="label">No Recon Data</div><div class="value" style="font-size:14px">Run recon.py to populate</div></div>';
+    html = '<div class="card"><div class="label">No Recon Data</div><div class="value" style="font-size:14px">No recon data available</div></div>';
   }
 
   cards.innerHTML = html;
@@ -1706,7 +1601,7 @@ function loadStagingTable() {
     renderTable('staging-table', ['IP', 'Role', 'Confidence', 'C2 Frameworks', 'Proxy', 'Detection Reasons', 'Downstream'], r[0].values, {ipLink: true});
   } else {
     document.getElementById('staging-info').textContent = 'No staging servers found';
-    document.getElementById('staging-table').innerHTML = '<tr><td class="empty">No data — run: python database/recon.py detect-staging</td></tr>';
+    document.getElementById('staging-table').innerHTML = '<tr><td class="empty">No staging server data available</td></tr>';
   }
 }
 
@@ -1729,7 +1624,7 @@ function loadCandidatesTable() {
     renderTable('candidates-table', ['Indicator', 'Type', 'Method', 'Confidence', 'Risk', 'Class', 'Related To', 'ASN Org', 'Country', 'Notes'], r[0].values);
   } else {
     document.getElementById('candidates-info').textContent = 'No candidates found';
-    document.getElementById('candidates-table').innerHTML = '<tr><td class="empty">No data — run: python database/recon.py find-candidates</td></tr>';
+    document.getElementById('candidates-table').innerHTML = '<tr><td class="empty">No candidate data available</td></tr>';
   }
 }
 
@@ -1750,7 +1645,7 @@ function loadEnrichmentTable() {
     renderTable('enrichment-table', ['IP', 'ASN', 'ASN Org', 'Country', 'City', 'Hosting Provider', 'Reverse DNS', 'Queried'], r[0].values, {ipLink: true});
   } else {
     document.getElementById('enrichment-info').textContent = 'No enrichment data';
-    document.getElementById('enrichment-table').innerHTML = '<tr><td class="empty">No data — run: python database/recon.py enrich-top 50</td></tr>';
+    document.getElementById('enrichment-table').innerHTML = '<tr><td class="empty">No enrichment data available</td></tr>';
   }
 }
 
@@ -1792,7 +1687,7 @@ function loadASNMap() {
     renderTable('asn-table', ['ASN', 'Organization', 'Country', 'IOC Count', 'Subnets', 'Density'], r[0].values, {});
   } else {
     document.getElementById('asn-chart').innerHTML = '';
-    document.getElementById('asn-table').innerHTML = '<tr><td class="empty">No ASN data — run: python database/recon.py enrich-top 50</td></tr>';
+    document.getElementById('asn-table').innerHTML = '<tr><td class="empty">No ASN data available</td></tr>';
   }
 }
 
@@ -1895,7 +1790,7 @@ function loadQueueTable() {
     document.getElementById('queue-info').textContent = r[0].values.length + ' entries';
     renderTable('queue-table', r[0].columns, r[0].values);
   } else {
-    document.getElementById('queue-info').textContent = '0 entries — run: python database/validate.py queue 500';
+    document.getElementById('queue-info').textContent = '0 entries';
     renderTable('queue-table', [], []);
   }
 }
