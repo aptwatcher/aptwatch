@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-04-04",
+  "stats": {
+    "total": 86,
+    "skipped_existing": 100,
+    "skipped_type": 60,
+    "skipped_confidence": 0
+  },
+  "sid_range": {
+    "start": 2026033413,
+    "end": 2026033498
+  },
+  "files": {
+    "auto-apt28---fancy-bear.rules": {
+      "rules": 1,
+      "sid_start": "2026033413",
+      "sid_end": 2026033413
+    },
+    "auto-adjacent-subnet-tier-a-reconnaissance.rules": {
+      "rules": 10,
+      "sid_start": "2026033414",
+      "sid_end": 2026033423
+    },
+    "auto-blacksanta.rules": {
+      "rules": 12,
+      "sid_start": "2026033424",
+      "sid_end": 2026033435
+    },
+    "auto-callisto.rules": {
+      "rules": 10,
+      "sid_start": "2026033436",
+      "sid_end": 2026033445
+    },
+    "auto-conti.rules": {
+      "rules": 1,
+      "sid_start": "2026033446",
+      "sid_end": 2026033446
+    },
+    "auto-curlycomrades.rules": {
+      "rules": 4,
+      "sid_start": "2026033447",
+      "sid_end": 2026033450
+    },
+    "auto-earth-koshchei.rules": {
+      "rules": 10,
+      "sid_start": "2026033451",
+      "sid_end": 2026033460
+    },
+    "auto-forest-blizzard-japan-nuclear-phishing-2026.rules": {
+      "rules": 1,
+      "sid_start": "2026033461",
+      "sid_end": 2026033461
+    },
+    "auto-gamaredon.rules": {
+      "rules": 11,
+      "sid_start": "2026033462",
+      "sid_end": 2026033472
+    },
+    "auto-pawn-storm.rules": {
+      "rules": 10,
+      "sid_start": "2026033473",
+      "sid_end": 2026033482
+    },
+    "auto-sandworm.rules": {
+      "rules": 8,
+      "sid_start": "2026033483",
+      "sid_end": 2026033490
+    },
+    "auto-secret-blizzard.rules": {
+      "rules": 5,
+      "sid_start": "2026033491",
+      "sid_end": 2026033495
+    },
+    "auto-storm-2372.rules": {
+      "rules": 2,
+      "sid_start": "2026033496",
+      "sid_end": 2026033497
+    },
+    "auto-warlock-ransomware-infrastructure.rules": {
+      "rules": 1,
+      "sid_start": "2026033498",
+      "sid_end": 2026033498
+    }
+  }
+}

@@ -1,0 +1,39 @@
+# ======================================================================
+# APT Watch — Auto-Generated Suricata Rules
+# Campaign: BlackSanta
+# Aliases: BlackSanta EDR-Killer
+# Generated: 2026-04-04
+# Generator: suricata_generator.py (Phase 2b)
+# ======================================================================
+
+
+# --- C2 IP Detection ---
+
+alert ip $HOME_NET any -> 157.250.202.215 any (msg:"APTWATCH BlackSanta C2 IP 157.250.202.215"; classtype:trojan-activity; sid:2026033424; rev:1; metadata:created_at 2026_04_04, actor BlackSanta, campaign BlackSanta, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 163.245.212.11 any (msg:"APTWATCH BlackSanta C2 IP 163.245.212.11"; classtype:trojan-activity; sid:2026033425; rev:1; metadata:created_at 2026_04_04, actor BlackSanta, campaign BlackSanta, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 176.123.8.15 any (msg:"APTWATCH BlackSanta C2 IP 176.123.8.15"; classtype:trojan-activity; sid:2026033426; rev:1; metadata:created_at 2026_04_04, actor BlackSanta, campaign BlackSanta, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 185.163.46.29 any (msg:"APTWATCH BlackSanta C2 IP 185.163.46.29"; classtype:trojan-activity; sid:2026033427; rev:1; metadata:created_at 2026_04_04, actor BlackSanta, campaign BlackSanta, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 185.163.47.76 any (msg:"APTWATCH BlackSanta C2 IP 185.163.47.76"; classtype:trojan-activity; sid:2026033428; rev:1; metadata:created_at 2026_04_04, actor BlackSanta, campaign BlackSanta, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 64.20.33.198 any (msg:"APTWATCH BlackSanta C2 IP 64.20.33.198"; classtype:trojan-activity; sid:2026033429; rev:1; metadata:created_at 2026_04_04, actor BlackSanta, campaign BlackSanta, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 67.217.48.59 any (msg:"APTWATCH BlackSanta C2 IP 67.217.48.59"; classtype:trojan-activity; sid:2026033430; rev:1; metadata:created_at 2026_04_04, actor BlackSanta, campaign BlackSanta, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 74.50.81.198 any (msg:"APTWATCH BlackSanta C2 IP 74.50.81.198"; classtype:trojan-activity; sid:2026033431; rev:1; metadata:created_at 2026_04_04, actor BlackSanta, campaign BlackSanta, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 88.119.165.81 any (msg:"APTWATCH BlackSanta C2 IP 88.119.165.81"; classtype:trojan-activity; sid:2026033432; rev:1; metadata:created_at 2026_04_04, actor BlackSanta, campaign BlackSanta, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 88.119.165.82 any (msg:"APTWATCH BlackSanta C2 IP 88.119.165.82"; classtype:trojan-activity; sid:2026033433; rev:1; metadata:created_at 2026_04_04, actor BlackSanta, campaign BlackSanta, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 89.99.215.34 any (msg:"APTWATCH BlackSanta C2 IP 89.99.215.34"; classtype:trojan-activity; sid:2026033434; rev:1; metadata:created_at 2026_04_04, actor BlackSanta, campaign BlackSanta, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 94.130.237.28 any (msg:"APTWATCH BlackSanta C2 IP 94.130.237.28"; classtype:trojan-activity; sid:2026033435; rev:1; metadata:created_at 2026_04_04, actor BlackSanta, campaign BlackSanta, mitre_attack T1071.001;)
+
+# ======================================================================
+# Total Rules: 12
+# SID Range: 2026033424 - 2026033435
+# ======================================================================

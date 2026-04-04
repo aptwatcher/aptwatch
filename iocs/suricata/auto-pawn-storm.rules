@@ -1,0 +1,38 @@
+# ======================================================================
+# APT Watch — Auto-Generated Suricata Rules
+# Campaign: Pawn Storm
+# Aliases: APT28, Fancy Bear, Forest Blizzard, Sofacy, Sednit, STRONTIUM, UAC-0001, UAC-0028, Fighting Ursa, Iron Twilight, Tsar Team, Blue Athena, ITG05, GRU Unit 26165
+# Generated: 2026-04-04
+# Generator: suricata_generator.py (Phase 2b)
+# ======================================================================
+
+
+# --- DNS/Domain Detection ---
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Pawn Storm C2 domain 910cf351-a05d-4f67-ab8e-6f62cfa8e26d.dnshook.site"; dns.query; content:"910cf351-a05d-4f67-ab8e-6f62cfa8e26d.dnshook.site"; nocase; classtype:trojan-activity; sid:2026033473; rev:1; metadata:created_at 2026_04_04, actor Pawn_Storm, campaign Pawn_Storm;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Pawn Storm C2 domain dbca10b5-63e0-42ec-ad10-de13be96dc42.dnshook.site"; dns.query; content:"dbca10b5-63e0-42ec-ad10-de13be96dc42.dnshook.site"; nocase; classtype:trojan-activity; sid:2026033474; rev:1; metadata:created_at 2026_04_04, actor Pawn_Storm, campaign Pawn_Storm;)
+
+
+# --- SMTP/Email Detection ---
+
+alert smtp $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH Pawn Storm phishing email TeoAbarquero@tutamail.com"; flow:established,to_server; content:"TeoAbarquero@tutamail.com"; nocase; classtype:trojan-activity; sid:2026033475; rev:1; metadata:created_at 2026_04_04, actor Pawn_Storm, campaign Pawn_Storm;)
+
+alert smtp $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH Pawn Storm phishing email UffeTroelsen@atomicmail.io"; flow:established,to_server; content:"UffeTroelsen@atomicmail.io"; nocase; classtype:trojan-activity; sid:2026033476; rev:1; metadata:created_at 2026_04_04, actor Pawn_Storm, campaign Pawn_Storm;)
+
+alert smtp $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH Pawn Storm phishing email a.matti444@proton.me"; flow:established,to_server; content:"a.matti444@proton.me"; nocase; classtype:trojan-activity; sid:2026033477; rev:1; metadata:created_at 2026_04_04, actor Pawn_Storm, campaign Pawn_Storm;)
+
+alert smtp $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH Pawn Storm phishing email advenwolf@proton.me"; flow:established,to_server; content:"advenwolf@proton.me"; nocase; classtype:trojan-activity; sid:2026033478; rev:1; metadata:created_at 2026_04_04, actor Pawn_Storm, campaign Pawn_Storm;)
+
+alert smtp $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH Pawn Storm phishing email ahmeclaw2002@outlook.com"; flow:established,to_server; content:"ahmeclaw2002@outlook.com"; nocase; classtype:trojan-activity; sid:2026033479; rev:1; metadata:created_at 2026_04_04, actor Pawn_Storm, campaign Pawn_Storm;)
+
+alert smtp $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH Pawn Storm phishing email ahmeclaw@proton.me"; flow:established,to_server; content:"ahmeclaw@proton.me"; nocase; classtype:trojan-activity; sid:2026033480; rev:1; metadata:created_at 2026_04_04, actor Pawn_Storm, campaign Pawn_Storm;)
+
+alert smtp $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH Pawn Storm phishing email dubravka.jovanovic2024@proton.me"; flow:established,to_server; content:"dubravka.jovanovic2024@proton.me"; nocase; classtype:trojan-activity; sid:2026033481; rev:1; metadata:created_at 2026_04_04, actor Pawn_Storm, campaign Pawn_Storm;)
+
+alert smtp $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH Pawn Storm phishing email srezoska@skiff.com"; flow:established,to_server; content:"srezoska@skiff.com"; nocase; classtype:trojan-activity; sid:2026033482; rev:1; metadata:created_at 2026_04_04, actor Pawn_Storm, campaign Pawn_Storm;)
+
+# ======================================================================
+# Total Rules: 10
+# SID Range: 2026033473 - 2026033482
+# ======================================================================

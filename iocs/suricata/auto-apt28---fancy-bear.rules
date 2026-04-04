@@ -1,0 +1,17 @@
+# ======================================================================
+# APT Watch — Auto-Generated Suricata Rules
+# Campaign: APT28 / Fancy Bear
+# Aliases: APT28, Fancy Bear, Forest Blizzard, STRONTIUM, Sednit, Sofacy, Pawn Storm, GRU Unit 26165
+# Generated: 2026-04-04
+# Generator: suricata_generator.py (Phase 2b)
+# ======================================================================
+
+
+# --- C2 IP Detection ---
+
+alert ip $HOME_NET any -> 192.145.125.42 any (msg:"APTWATCH APT28 C2 IP 192.145.125.42"; classtype:trojan-activity; sid:2026033413; rev:1; metadata:created_at 2026_04_04, actor APT28, campaign APT28_/_Fancy_Bear, mitre_attack T1071.001;)
+
+# ======================================================================
+# Total Rules: 1
+# SID Range: 2026033413 - 2026033413
+# ======================================================================

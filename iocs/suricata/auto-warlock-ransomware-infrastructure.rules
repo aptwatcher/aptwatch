@@ -1,0 +1,17 @@
+# ======================================================================
+# APT Watch — Auto-Generated Suricata Rules
+# Campaign: Warlock Ransomware Infrastructure
+# Aliases: ["Water Manaul"]
+# Generated: 2026-04-04
+# Generator: suricata_generator.py (Phase 2b)
+# ======================================================================
+
+
+# --- C2 IP Detection ---
+
+alert ip $HOME_NET any -> 198.13.158.193 any (msg:"APTWATCH Warlock Ransomware Infrastructure C2 IP 198.13.158.193"; classtype:trojan-activity; sid:2026033498; rev:1; metadata:created_at 2026_04_04, actor Warlock_Ransomware_Infrastructure, campaign Warlock_Ransomware_Infrastructure, mitre_attack T1071.001;)
+
+# ======================================================================
+# Total Rules: 1
+# SID Range: 2026033498 - 2026033498
+# ======================================================================

@@ -1,0 +1,17 @@
+# ======================================================================
+# APT Watch — Auto-Generated Suricata Rules
+# Campaign: Forest Blizzard Japan Nuclear Phishing 2026
+# Aliases: ["APT28 Japan 2026"]
+# Generated: 2026-04-04
+# Generator: suricata_generator.py (Phase 2b)
+# ======================================================================
+
+
+# --- DNS/Domain Detection ---
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Forest Blizzard Japan Nuclear Phishing 2026 C2 domain registration.unoda.workers.dev"; dns.query; content:"registration.unoda.workers.dev"; nocase; classtype:trojan-activity; sid:2026033461; rev:1; metadata:created_at 2026_04_04, actor Forest_Blizzard_Japan_Nuclear_Phishing_2026, campaign Forest_Blizzard_Japan_Nuclear_Phishing_2026;)
+
+# ======================================================================
+# Total Rules: 1
+# SID Range: 2026033461 - 2026033461
+# ======================================================================

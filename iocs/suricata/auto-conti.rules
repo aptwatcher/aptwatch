@@ -1,0 +1,17 @@
+# ======================================================================
+# APT Watch — Auto-Generated Suricata Rules
+# Campaign: Conti
+# Aliases: Wizard Spider, Ryuk successor, GOLD ULRICK, DEV-0193, Storm-0193
+# Generated: 2026-04-04
+# Generator: suricata_generator.py (Phase 2b)
+# ======================================================================
+
+
+# --- SMTP/Email Detection ---
+
+alert smtp $HOME_NET any -> $EXTERNAL_NET any (msg:"APTWATCH Conti phishing email lukas.kastro@yandex.ru"; flow:established,to_server; content:"lukas.kastro@yandex.ru"; nocase; classtype:trojan-activity; sid:2026033446; rev:1; metadata:created_at 2026_04_04, actor Conti, campaign Conti;)
+
+# ======================================================================
+# Total Rules: 1
+# SID Range: 2026033446 - 2026033446
+# ======================================================================

@@ -1,0 +1,19 @@
+# ======================================================================
+# APT Watch — Auto-Generated Suricata Rules
+# Campaign: Storm-2372
+# Aliases: Storm-2372, UTA0304, UTA0307
+# Generated: 2026-04-04
+# Generator: suricata_generator.py (Phase 2b)
+# ======================================================================
+
+
+# --- C2 IP Detection ---
+
+alert ip $HOME_NET any -> 173.46.80.206 any (msg:"APTWATCH Storm-2372 C2 IP 173.46.80.206"; classtype:trojan-activity; sid:2026033496; rev:1; metadata:created_at 2026_04_04, actor Storm-2372, campaign Storm-2372, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 95.211.174.111 any (msg:"APTWATCH Storm-2372 C2 IP 95.211.174.111"; classtype:trojan-activity; sid:2026033497; rev:1; metadata:created_at 2026_04_04, actor Storm-2372, campaign Storm-2372, mitre_attack T1071.001;)
+
+# ======================================================================
+# Total Rules: 2
+# SID Range: 2026033496 - 2026033497
+# ======================================================================

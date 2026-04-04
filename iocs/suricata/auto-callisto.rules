@@ -1,0 +1,35 @@
+# ======================================================================
+# APT Watch — Auto-Generated Suricata Rules
+# Campaign: Callisto
+# Aliases: Star Blizzard, COLDRIVER, Seaborgium, ColdRiver, TA446, Blue Charlie, TAG-53, DANCING SALOME
+# Generated: 2026-04-04
+# Generator: suricata_generator.py (Phase 2b)
+# ======================================================================
+
+
+# --- DNS/Domain Detection ---
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Callisto C2 domain cloudwebstorage.com"; dns.query; content:"cloudwebstorage.com"; nocase; classtype:trojan-activity; sid:2026033436; rev:1; metadata:created_at 2026_04_04, actor Callisto, campaign Callisto;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Callisto C2 domain cryptodocumentinformation.com"; dns.query; content:"cryptodocumentinformation.com"; nocase; classtype:trojan-activity; sid:2026033437; rev:1; metadata:created_at 2026_04_04, actor Callisto, campaign Callisto;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Callisto C2 domain docguardmaterial.com"; dns.query; content:"docguardmaterial.com"; nocase; classtype:trojan-activity; sid:2026033438; rev:1; metadata:created_at 2026_04_04, actor Callisto, campaign Callisto;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Callisto C2 domain documentgateprotector.com"; dns.query; content:"documentgateprotector.com"; nocase; classtype:trojan-activity; sid:2026033439; rev:1; metadata:created_at 2026_04_04, actor Callisto, campaign Callisto;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Callisto C2 domain documentkeepersolutionsystems.com"; dns.query; content:"documentkeepersolutionsystems.com"; nocase; classtype:trojan-activity; sid:2026033440; rev:1; metadata:created_at 2026_04_04, actor Callisto, campaign Callisto;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Callisto C2 domain gatewaydocumentdata.com"; dns.query; content:"gatewaydocumentdata.com"; nocase; classtype:trojan-activity; sid:2026033441; rev:1; metadata:created_at 2026_04_04, actor Callisto, campaign Callisto;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Callisto C2 domain getclouddoc.com"; dns.query; content:"getclouddoc.com"; nocase; classtype:trojan-activity; sid:2026033442; rev:1; metadata:created_at 2026_04_04, actor Callisto, campaign Callisto;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Callisto C2 domain govermentsecintro.com"; dns.query; content:"govermentsecintro.com"; nocase; classtype:trojan-activity; sid:2026033443; rev:1; metadata:created_at 2026_04_04, actor Callisto, campaign Callisto;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Callisto C2 domain keeperdocumentgatewayhub.com"; dns.query; content:"keeperdocumentgatewayhub.com"; nocase; classtype:trojan-activity; sid:2026033444; rev:1; metadata:created_at 2026_04_04, actor Callisto, campaign Callisto;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Callisto C2 domain safedocumentgatesolution.com"; dns.query; content:"safedocumentgatesolution.com"; nocase; classtype:trojan-activity; sid:2026033445; rev:1; metadata:created_at 2026_04_04, actor Callisto, campaign Callisto;)
+
+# ======================================================================
+# Total Rules: 10
+# SID Range: 2026033436 - 2026033445
+# ======================================================================

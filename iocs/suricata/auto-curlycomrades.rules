@@ -1,0 +1,23 @@
+# ======================================================================
+# APT Watch — Auto-Generated Suricata Rules
+# Campaign: CurlyCOMrades
+# Aliases: Curly COMrades
+# Generated: 2026-04-04
+# Generator: suricata_generator.py (Phase 2b)
+# ======================================================================
+
+
+# --- C2 IP Detection ---
+
+alert ip $HOME_NET any -> 194.87.245.239 any (msg:"APTWATCH CurlyCOMrades C2 IP 194.87.245.239"; classtype:trojan-activity; sid:2026033447; rev:1; metadata:created_at 2026_04_04, actor CurlyCOMrades, campaign CurlyCOMrades, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 45.43.91.10 any (msg:"APTWATCH CurlyCOMrades C2 IP 45.43.91.10"; classtype:trojan-activity; sid:2026033448; rev:1; metadata:created_at 2026_04_04, actor CurlyCOMrades, campaign CurlyCOMrades, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 77.221.137.132 any (msg:"APTWATCH CurlyCOMrades C2 IP 77.221.137.132"; classtype:trojan-activity; sid:2026033449; rev:1; metadata:created_at 2026_04_04, actor CurlyCOMrades, campaign CurlyCOMrades, mitre_attack T1071.001;)
+
+alert ip $HOME_NET any -> 91.99.25.54 any (msg:"APTWATCH CurlyCOMrades C2 IP 91.99.25.54"; classtype:trojan-activity; sid:2026033450; rev:1; metadata:created_at 2026_04_04, actor CurlyCOMrades, campaign CurlyCOMrades, mitre_attack T1071.001;)
+
+# ======================================================================
+# Total Rules: 4
+# SID Range: 2026033447 - 2026033450
+# ======================================================================

@@ -1,0 +1,37 @@
+# ======================================================================
+# APT Watch — Auto-Generated Suricata Rules
+# Campaign: Gamaredon
+# Aliases: Aqua Blizzard, Primitive Bear, Shuckworm, Armageddon, Iron Tilden, UAC-0010, ACTINIUM, Winterflounder, DEV-0157, Blue Otso
+# Generated: 2026-04-04
+# Generator: suricata_generator.py (Phase 2b)
+# ======================================================================
+
+
+# --- DNS/Domain Detection ---
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain downloads.email-attachments.ru"; dns.query; content:"downloads.email-attachments.ru"; nocase; classtype:trojan-activity; sid:2026033462; rev:1; metadata:created_at 2026_04_04, actor Gamaredon, campaign Gamaredon;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain downloads.file-attachments.ru"; dns.query; content:"downloads.file-attachments.ru"; nocase; classtype:trojan-activity; sid:2026033463; rev:1; metadata:created_at 2026_04_04, actor Gamaredon, campaign Gamaredon;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain login.kifales.ru"; dns.query; content:"login.kifales.ru"; nocase; classtype:trojan-activity; sid:2026033464; rev:1; metadata:created_at 2026_04_04, actor Gamaredon, campaign Gamaredon;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain mail.file-attachments.ru"; dns.query; content:"mail.file-attachments.ru"; nocase; classtype:trojan-activity; sid:2026033465; rev:1; metadata:created_at 2026_04_04, actor Gamaredon, campaign Gamaredon;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain rms.admin-ru.ru"; dns.query; content:"rms.admin-ru.ru"; nocase; classtype:trojan-activity; sid:2026033466; rev:1; metadata:created_at 2026_04_04, actor Gamaredon, campaign Gamaredon;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain ukrway.galaktion.ru"; dns.query; content:"ukrway.galaktion.ru"; nocase; classtype:trojan-activity; sid:2026033467; rev:1; metadata:created_at 2026_04_04, actor Gamaredon, campaign Gamaredon;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain www.file-attachments.ru"; dns.query; content:"www.file-attachments.ru"; nocase; classtype:trojan-activity; sid:2026033468; rev:1; metadata:created_at 2026_04_04, actor Gamaredon, campaign Gamaredon;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain www.phlovel.ru"; dns.query; content:"www.phlovel.ru"; nocase; classtype:trojan-activity; sid:2026033469; rev:1; metadata:created_at 2026_04_04, actor Gamaredon, campaign Gamaredon;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain www.sheepster.ru"; dns.query; content:"www.sheepster.ru"; nocase; classtype:trojan-activity; sid:2026033470; rev:1; metadata:created_at 2026_04_04, actor Gamaredon, campaign Gamaredon;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain www.toorisugita.ru"; dns.query; content:"www.toorisugita.ru"; nocase; classtype:trojan-activity; sid:2026033471; rev:1; metadata:created_at 2026_04_04, actor Gamaredon, campaign Gamaredon;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH Gamaredon C2 domain www.win-restore.ru"; dns.query; content:"www.win-restore.ru"; nocase; classtype:trojan-activity; sid:2026033472; rev:1; metadata:created_at 2026_04_04, actor Gamaredon, campaign Gamaredon;)
+
+# ======================================================================
+# Total Rules: 11
+# SID Range: 2026033462 - 2026033472
+# ======================================================================
