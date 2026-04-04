@@ -297,13 +297,13 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
       <div class="section-title">Quick Exports</div>
       <p style="font-size:12px;color:var(--text2);margin-bottom:12px">Run a query and download the results as CSV directly from the browser.</p>
       <div style="display:flex;flex-direction:column;gap:8px">
-        <button class="btn" onclick="toolExport('Critical IPs','SELECT ip, risk_score, classification, services, c2_indicators, source_file FROM scan_results WHERE classification=\'CRITICAL\' ORDER BY risk_score DESC')">Export Critical IPs</button>
-        <button class="btn" onclick="toolExport('High Risk IPs','SELECT ip, risk_score, classification, services, c2_indicators, source_file FROM scan_results WHERE classification IN (\'CRITICAL\',\'HIGH\') ORDER BY risk_score DESC')">Export Critical + High IPs</button>
-        <button class="btn" onclick="toolExport('All Scan Results','SELECT ip, risk_score, classification, services, c2_indicators, open_ports, vuln_count, source_file FROM scan_results ORDER BY risk_score DESC')">Export All Scan Results</button>
-        <button class="btn" onclick="toolExport('IPv4 IOCs','SELECT ip, source_file, first_seen, last_seen, pulse_count, infra_type FROM ipv4_iocs ORDER BY ip')">Export IPv4 IOCs</button>
-        <button class="btn" onclick="toolExport('Vulnerability Findings','SELECT host, port, protocol, risk, cvss_score, cve, plugin_name, synopsis, source_file FROM vulnerability_findings ORDER BY cvss_score DESC')">Export Vulnerability Findings</button>
+        <button class="btn" onclick="toolExport('Critical IPs','SELECT ip, risk_score, classification, services, c2_indicators FROM scan_results WHERE classification=\'CRITICAL\' ORDER BY risk_score DESC')">Export Critical IPs</button>
+        <button class="btn" onclick="toolExport('High Risk IPs','SELECT ip, risk_score, classification, services, c2_indicators FROM scan_results WHERE classification IN (\'CRITICAL\',\'HIGH\') ORDER BY risk_score DESC')">Export Critical + High IPs</button>
+        <button class="btn" onclick="toolExport('All Scan Results','SELECT ip, risk_score, classification, services, c2_indicators, open_ports, vuln_count FROM scan_results ORDER BY risk_score DESC')">Export All Scan Results</button>
+        <button class="btn" onclick="toolExport('IPv4 IOCs','SELECT ip, first_seen, last_seen, infra_type, pulse_count, composite_score, lifecycle_state FROM ipv4_iocs ORDER BY ip')">Export IPv4 IOCs</button>
+        <button class="btn" onclick="toolExport('Vulnerability Findings','SELECT host, port, protocol, risk, cvss_score, cve, plugin_name, synopsis FROM vulnerability_findings ORDER BY cvss_score DESC')">Export Vulnerability Findings</button>
         <button class="btn" onclick="toolExport('Tiered Subnets','SELECT cidr, ioc_count, tier, scan_status, scanned_count, critical_count FROM subnets WHERE tier IS NOT NULL ORDER BY CASE tier WHEN \'TIER_S\' THEN 1 WHEN \'TIER_A\' THEN 2 WHEN \'TIER_B\' THEN 3 WHEN \'TIER_C\' THEN 4 END, ioc_count DESC')">Export Tiered Subnets</button>
-        <button class="btn" onclick="toolExport('CVEs','SELECT cve_id, source_file, first_seen FROM cves ORDER BY cve_id')">Export CVEs</button>
+        <button class="btn" onclick="toolExport('CVEs','SELECT cve_id, first_seen FROM cves ORDER BY cve_id')">Export CVEs</button>
         <button class="btn" onclick="toolExport('C2 Indicators','SELECT DISTINCT ip, risk_score, c2_indicators, services FROM scan_results WHERE c2_indicators IS NOT NULL AND c2_indicators != \'\' ORDER BY risk_score DESC')">Export IPs with C2 Indicators</button>
       </div>
     </div>
@@ -833,6 +833,7 @@ function renderTable(tableId, columns, rows, opts={}) {
     html += '<tr>';
     row.forEach((cell, i) => {
       let val = cell === null ? '' : cell;
+      const col = columns[i] || '';
       // Classification badge
       if (['CRITICAL','HIGH','MEDIUM','LOW'].includes(val)) {
         val = `<span class="badge ${val}">${val}</span>`;
@@ -840,6 +841,22 @@ function renderTable(tableId, columns, rows, opts={}) {
       // IP link (first column if it looks like an IP)
       if (i === 0 && opts.ipLink && typeof val === 'string' && /^\d+\.\d+\.\d+\.\d+$/.test(val)) {
         val = `<span class="ip-link" onclick="showIPProfile('${val}')">${val}</span>`;
+      }
+      // Services — show as small badges
+      if (col === 'services' && typeof val === 'string' && val) {
+        val = val.split(',').filter(Boolean).map(s => `<span class="badge LOW" style="margin:1px;font-size:10px">${s.trim()}</span>`).join('') || '—';
+      }
+      // C2 indicators — colored badges by severity
+      if (col === 'c2_indicators' && typeof val === 'string' && val) {
+        val = val.split(',').filter(Boolean).map(s => {
+          const b = s.includes('c2_port') ? 'CRITICAL' : s.includes('cert_') ? 'HIGH' : s.includes('softether') ? 'HIGH' : s.includes('fastpanel') ? 'HIGH' : 'MEDIUM';
+          return `<span class="badge ${b}" style="margin:1px;font-size:10px">${s.trim()}</span>`;
+        }).join('') || '—';
+      }
+      // Infra type — badge
+      if (col === 'infra_type' && typeof val === 'string' && val && val !== 'unknown') {
+        const b = val.includes('c2') ? 'CRITICAL' : val.includes('cert_') ? 'HIGH' : 'MEDIUM';
+        val = `<span class="badge ${b}" style="font-size:10px">${val}</span>`;
       }
       html += `<td>${val}</td>`;
     });
@@ -1020,7 +1037,7 @@ function queryScanResults() {
   if (ipSearch) where.push(`ip LIKE '%${ipSearch.replace(/'/g,'')}%'`);
 
   const whereStr = where.length > 0 ? 'WHERE ' + where.join(' AND ') : '';
-  const sql = `SELECT ip, risk_score, classification, services, c2_indicators, source_file FROM scan_results ${whereStr} ORDER BY risk_score DESC LIMIT 500`;
+  const sql = `SELECT ip, risk_score, classification, services, c2_indicators, open_ports, vuln_count FROM scan_results ${whereStr} ORDER BY risk_score DESC LIMIT 500`;
   const r = q(sql);
 
   if (r.length > 0) {
@@ -1052,12 +1069,12 @@ function queryIOCs() {
 
   let cols, sql;
   switch(type) {
-    case 'ipv4_iocs': cols = 'ip, source_file, first_seen, last_seen, validation_count, composite_score, infrastructure_risk_score, lifecycle_state, provider_risk_level'; break;
-    case 'ipv6_iocs': cols = 'ip, source_file, first_seen'; break;
-    case 'cves': cols = 'cve_id, source_file, first_seen'; break;
-    case 'emails': cols = 'email, domain, source_file'; break;
-    case 'cidr_iocs': cols = 'cidr, source_file, first_seen'; break;
-    case 'domains': cols = 'domain, source_file, first_seen'; break;
+    case 'ipv4_iocs': cols = 'ip, first_seen, last_seen, infra_type, validation_count, composite_score, infrastructure_risk_score, lifecycle_state, provider_risk_level'; break;
+    case 'ipv6_iocs': cols = 'ip, first_seen, last_seen'; break;
+    case 'cves': cols = 'cve_id, first_seen'; break;
+    case 'emails': cols = 'email, domain'; break;
+    case 'cidr_iocs': cols = 'cidr, first_seen'; break;
+    case 'domains': cols = 'domain, first_seen'; break;
     case 'urls': cols = 'url, host, port, path'; break;
     default: cols = '*';
   }
@@ -1099,7 +1116,7 @@ function queryVulnScan() {
   if (risk) where.push(`risk = '${risk}'`);
 
   const whereStr = where.length > 0 ? 'WHERE ' + where.join(' AND ') : '';
-  const sql = `SELECT host, port, protocol, risk, cvss_score, cve, plugin_name, synopsis, source_file FROM vulnerability_findings ${whereStr} ORDER BY cvss_score DESC LIMIT 500`;
+  const sql = `SELECT host, port, protocol, risk, cvss_score, cve, plugin_name, synopsis FROM vulnerability_findings ${whereStr} ORDER BY cvss_score DESC LIMIT 500`;
   const r = q(sql);
 
   if (r.length > 0) {
@@ -1155,13 +1172,21 @@ function showIPProfile(ip) {
   }
 
   // Scan results
-  const scans = q(`SELECT risk_score, classification, services, c2_indicators, open_ports, vuln_count, source_file, scan_date FROM scan_results WHERE ip = '${ip}' ORDER BY risk_score DESC`);
+  const scans = q(`SELECT risk_score, classification, services, c2_indicators, open_ports, vuln_count, scan_date, scan_id FROM scan_results WHERE ip = '${ip}' ORDER BY risk_score DESC`);
   if (scans.length > 0 && scans[0].values.length > 0) {
     html += `<div class="section-title">Scan Results (${scans[0].values.length})</div>`;
-    html += '<table><thead><tr><th>Risk</th><th>Class</th><th>Services</th><th>C2</th><th>Ports</th><th>Vulns</th><th>Source</th></tr></thead><tbody>';
+    html += '<table><thead><tr><th>Risk</th><th>Class</th><th>Services</th><th>C2 Indicators</th><th>Ports</th><th>Vulns</th><th>Scan</th></tr></thead><tbody>';
     scans[0].values.forEach(r => {
       const cls = r[1] || '';
-      html += `<tr><td>${r[0]}</td><td><span class="badge ${cls}">${cls}</span></td><td style="max-width:200px;overflow:hidden;text-overflow:ellipsis">${r[2]||''}</td><td>${r[3]||''}</td><td style="max-width:150px;overflow:hidden;text-overflow:ellipsis">${r[4]||''}</td><td>${r[5]||''}</td><td>${r[6]||''}</td></tr>`;
+      // Enhance services display — show as badges
+      const svc = (r[2]||'').split(',').filter(Boolean).map(s => `<span class="badge LOW" style="margin:1px;font-size:10px">${s.trim()}</span>`).join('') || '<span style="color:var(--text2)">—</span>';
+      // Enhance c2_indicators — highlight with colored badges
+      const c2 = (r[3]||'').split(',').filter(Boolean).map(s => {
+        const badge = s.includes('c2_port') ? 'CRITICAL' : s.includes('cert_') ? 'HIGH' : s.includes('softether') ? 'HIGH' : 'MEDIUM';
+        return `<span class="badge ${badge}" style="margin:1px;font-size:10px">${s.trim()}</span>`;
+      }).join('') || '<span style="color:var(--text2)">—</span>';
+      const scanLabel = r[7] ? r[7].replace(/^Adjacent_TIER_A_/, 'TIER-A ').replace(/_/g,' ') : r[6] || '';
+      html += `<tr><td>${r[0]}</td><td><span class="badge ${cls}">${cls}</span></td><td style="max-width:220px">${svc}</td><td style="max-width:280px">${c2}</td><td style="max-width:150px;overflow:hidden;text-overflow:ellipsis">${r[4]||''}</td><td>${r[5]||''}</td><td style="font-size:11px">${scanLabel}</td></tr>`;
     });
     html += '</tbody></table>';
   }
