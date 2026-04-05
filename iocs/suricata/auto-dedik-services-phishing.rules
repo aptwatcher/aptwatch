@@ -1,0 +1,57 @@
+# ======================================================================
+# APT Watch — Auto-Generated Suricata Rules
+# Campaign: DEDIK SERVICES Phishing Infrastructure (176.65.144)
+# Related: HOSTKEY Phishing Farm (cross-subnet link via .102)
+# Generated: 2026-04-05
+# Generator: manual (nessus_scan + prometheus_recon + enrichment)
+# ======================================================================
+
+
+# --- URL Shortener / Telegram Bot Distribution (176.65.144.98) ---
+
+alert ip $HOME_NET any -> 176.65.144.98 any (msg:"APTWATCH DEDIK URL shortener + Telegram bot phishing distribution"; classtype:trojan-activity; sid:2026033539; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, campaign DEDIK Services Phishing, mitre_attack T1566;)
+
+# Detect access to exposed Prometheus (config leak)
+alert http $HOME_NET any -> 176.65.144.98 any (msg:"APTWATCH DEDIK .98 exposed Prometheus access"; flow:established,to_server; http.uri; content:"/api/v1/"; http.host; content:"176.65.144.98"; classtype:policy-violation; sid:2026033540; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1082;)
+
+# Detect access to exposed Grafana
+alert http $HOME_NET any -> 176.65.144.98 any (msg:"APTWATCH DEDIK .98 exposed Grafana access"; flow:established,to_server; http.uri; content:"/api/"; http.host; content:"176.65.144.98"; http.header; content:"X-Grafana"; classtype:policy-violation; sid:2026033541; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1082;)
+
+
+# --- Cross-Subnet Link (amd.com spoofed cert) ---
+
+alert ip $HOME_NET any -> 176.65.144.102 any (msg:"APTWATCH DEDIK-HOSTKEY cross-subnet link via spoofed amd.com cert"; classtype:trojan-activity; sid:2026033542; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, campaign HOSTKEY Phishing Farm, mitre_attack T1583;)
+
+
+# --- EU Phishing Cluster on 176.65.144 (from enrichment) ---
+
+alert ip $HOME_NET any -> 176.65.144.165 any (msg:"APTWATCH DEDIK itsme Belgian identity phishing"; classtype:trojan-activity; sid:2026033543; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, campaign DEDIK Services Phishing, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 176.65.144.179 any (msg:"APTWATCH DEDIK ANTAI French gov phishing"; classtype:trojan-activity; sid:2026033544; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, campaign DEDIK Services Phishing, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 176.65.144.168 any (msg:"APTWATCH DEDIK netfranceson French phishing"; classtype:trojan-activity; sid:2026033545; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, campaign DEDIK Services Phishing, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 176.65.134.217 any (msg:"APTWATCH DEDIK German bank phishing"; classtype:trojan-activity; sid:2026033546; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, campaign DEDIK Services Phishing, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 176.65.144.178 any (msg:"APTWATCH DEDIK KuCoin crypto phishing"; classtype:trojan-activity; sid:2026033547; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, campaign DEDIK Services Phishing, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 176.65.144.115 any (msg:"APTWATCH DEDIK DuckDNS C2 callback"; classtype:trojan-activity; sid:2026033548; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, campaign DEDIK Services Phishing, mitre_attack T1071;)
+
+alert ip $HOME_NET any -> 176.65.142.187 any (msg:"APTWATCH DEDIK fake update malware delivery"; classtype:trojan-activity; sid:2026033549; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, campaign DEDIK Services Phishing, mitre_attack T1189;)
+
+
+# --- Subnet-Wide TLS Detection (spoofed certs on DEDIK range) ---
+
+alert tls $HOME_NET any -> 176.65.144.0/24 any (msg:"APTWATCH DEDIK spoofed itsme.be cert on BPH subnet"; flow:established,to_server; tls.sni; content:"itsme.be"; nocase; classtype:trojan-activity; sid:2026033550; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, campaign DEDIK Services Phishing, mitre_attack T1566;)
+
+alert tls $HOME_NET any -> 176.65.144.0/24 any (msg:"APTWATCH DEDIK spoofed antai.gouv.fr cert on BPH subnet"; flow:established,to_server; tls.sni; content:"antai.gouv.fr"; nocase; classtype:trojan-activity; sid:2026033551; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, campaign DEDIK Services Phishing, mitre_attack T1566;)
+
+alert tls $HOME_NET any -> 176.65.144.0/24 any (msg:"APTWATCH DEDIK spoofed amd.com cert on BPH subnet"; flow:established,to_server; tls.sni; content:"amd.com"; nocase; classtype:trojan-activity; sid:2026033552; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, campaign DEDIK Services Phishing, mitre_attack T1566;)
+
+alert tls $HOME_NET any -> 176.65.144.0/24 any (msg:"APTWATCH DEDIK spoofed kucoin.com cert on BPH subnet"; flow:established,to_server; tls.sni; content:"kucoin.com"; nocase; classtype:trojan-activity; sid:2026033553; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, campaign DEDIK Services Phishing, mitre_attack T1566;)
+
+
+# ======================================================================
+# Total Rules: 15
+# SID Range: 2026033539 - 2026033553
+# ======================================================================

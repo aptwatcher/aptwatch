@@ -1,0 +1,92 @@
+# ======================================================================
+# APT Watch — Auto-Generated Suricata Rules
+# Source: SCAN_cx2mjg.csv enrichment
+# Subnets: 176.65.144 (DEDIK) + 194.85.250 (HOSTKEY adj.)
+# Generated: 2026-04-05
+# ======================================================================
+
+
+# --- SPOOFED BRAND CERTS (HIGH PRIORITY) ---
+
+alert tls $HOME_NET any -> 176.65.144.123 any (msg:"APTWATCH DEDIK .123 spoofed www.amazon.com cert (DigiCert)"; flow:established,to_server; tls.sni; content:"amazon.com"; nocase; classtype:trojan-activity; sid:2026033554; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 176.65.144.123 any (msg:"APTWATCH DEDIK .123 Amazon phishing host"; classtype:trojan-activity; sid:2026033555; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1566;)
+
+
+# --- PHISHING DOMAINS ---
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH DEDIK booking-update phishing domain"; dns.query; content:"booking-update"; nocase; classtype:trojan-activity; sid:2026033556; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1566;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH DEDIK card-wallet.pro phishing"; dns.query; content:"card-wallet.pro"; nocase; classtype:trojan-activity; sid:2026033557; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1566;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH DEDIK confirmation-759316 phishing"; dns.query; content:"confirmation-759316.com"; nocase; classtype:trojan-activity; sid:2026033558; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1566;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH DEDIK AML luxurypartners phishing"; dns.query; content:"luxurypartners.cfd"; nocase; classtype:trojan-activity; sid:2026033559; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1566;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH DEDIK sms-inboxgateway 2FA intercept"; dns.query; content:"sms-inboxgateway.com"; nocase; classtype:trojan-activity; sid:2026033560; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1111;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH DEDIK depsearch.sbs supply chain"; dns.query; content:"depsearch.sbs"; nocase; classtype:trojan-activity; sid:2026033561; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1195;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH DEDIK agency-portals phishing"; dns.query; content:"agency-portals.com"; nocase; classtype:trojan-activity; sid:2026033562; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1566;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH DEDIK ch.snowfalls.top cluster"; dns.query; content:"snowfalls.top"; nocase; classtype:trojan-activity; sid:2026033563; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1566;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH DEDIK cph.mine.bz crypto mining"; dns.query; content:"mine.bz"; nocase; classtype:trojan-activity; sid:2026033564; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1496;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH DEDIK avyronixcore.com suspicious"; dns.query; content:"avyronixcore.com"; nocase; classtype:trojan-activity; sid:2026033565; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1071;)
+
+
+# --- KEY PHISHING IPs ---
+
+alert ip $HOME_NET any -> 176.65.144.119 any (msg:"APTWATCH DEDIK .119 Booking.com phishing"; classtype:trojan-activity; sid:2026033566; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 176.65.144.97 any (msg:"APTWATCH DEDIK .97 card-wallet phishing"; classtype:trojan-activity; sid:2026033567; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 176.65.144.81 any (msg:"APTWATCH DEDIK .81 confirmation phishing"; classtype:trojan-activity; sid:2026033568; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 176.65.144.28 any (msg:"APTWATCH DEDIK .28 AML/KYC phishing"; classtype:trojan-activity; sid:2026033569; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 176.65.144.100 any (msg:"APTWATCH DEDIK .100 depsearch supply chain"; classtype:trojan-activity; sid:2026033570; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1195;)
+
+
+# --- EXPOSED SERVICES ---
+
+alert ip $HOME_NET any -> 176.65.144.130 any (msg:"APTWATCH DEDIK .130 exposed Redis (no auth)"; classtype:trojan-activity; sid:2026033571; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1190;)
+
+
+# --- WINDOWS VM CLUSTER (:1337) ---
+
+alert ip $HOME_NET any -> [176.65.144.22,176.65.144.61,176.65.144.67,176.65.144.83,176.65.144.84] any (msg:"APTWATCH DEDIK Windows VM :1337 cluster (group 1)"; classtype:trojan-activity; sid:2026033572; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1219;)
+
+alert ip $HOME_NET any -> [176.65.144.109,176.65.144.110,176.65.144.111,176.65.144.115] any (msg:"APTWATCH DEDIK Windows VM :1337 cluster (group 2)"; classtype:trojan-activity; sid:2026033573; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1219;)
+
+
+# --- HYPERVISOR LAYER ---
+
+alert ip $HOME_NET any -> [176.65.144.250,176.65.144.251,176.65.144.252] any (msg:"APTWATCH DEDIK VirtFusion hypervisor cluster"; classtype:policy-violation; sid:2026033574; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1583;)
+
+
+# --- 194.85.250 (HOSTKEY ADJACENT) ---
+
+alert ip $HOME_NET any -> [194.85.250.34,194.85.250.35,194.85.250.36,194.85.250.37,194.85.250.38] any (msg:"APTWATCH HOSTKEY-250 backtothepast SSLv2 spam cluster"; classtype:trojan-activity; sid:2026033575; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Phishing, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> [194.85.250.98,194.85.250.99,194.85.250.100,194.85.250.101,194.85.250.102] any (msg:"APTWATCH HOSTKEY-250 c9things web farm"; classtype:trojan-activity; sid:2026033576; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Phishing, mitre_attack T1583;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH HOSTKEY backtothepast.us.com spam domain"; dns.query; content:"backtothepast.us.com"; nocase; classtype:trojan-activity; sid:2026033577; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Phishing, mitre_attack T1566;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH HOSTKEY smart.c9things.eu web farm"; dns.query; content:"c9things.eu"; nocase; classtype:trojan-activity; sid:2026033578; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Phishing, mitre_attack T1583;)
+
+
+# --- TLS/SNI DETECTION ON DEDIK SUBNET ---
+
+alert tls $HOME_NET any -> 176.65.144.0/24 any (msg:"APTWATCH DEDIK spoofed booking-update cert"; flow:established,to_server; tls.sni; content:"booking-update"; nocase; classtype:trojan-activity; sid:2026033579; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1566;)
+
+alert tls $HOME_NET any -> 176.65.144.0/24 any (msg:"APTWATCH DEDIK card-wallet.pro cert"; flow:established,to_server; tls.sni; content:"card-wallet.pro"; nocase; classtype:trojan-activity; sid:2026033580; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1566;)
+
+alert tls $HOME_NET any -> 176.65.144.0/24 any (msg:"APTWATCH DEDIK sms-inboxgateway cert"; flow:established,to_server; tls.sni; content:"sms-inboxgateway"; nocase; classtype:trojan-activity; sid:2026033581; rev:1; metadata:created_at 2026_04_05, actor DEDIK-Phishing, mitre_attack T1111;)
+
+
+# ======================================================================
+# Total Rules: 28
+# SID Range: 2026033554 - 2026033581
+# ======================================================================
