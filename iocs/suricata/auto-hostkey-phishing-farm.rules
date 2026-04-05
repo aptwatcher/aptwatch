@@ -1,0 +1,100 @@
+# ======================================================================
+# APT Watch — Auto-Generated Suricata Rules
+# Campaign: HOSTKEY Phishing Farm (194.85.251)
+# Aliases: Snowd Security OU, HOSTKEY BPH Farm
+# Generated: 2026-04-05
+# Generator: manual (cert_scan + c2_scan + rdns analysis)
+# ======================================================================
+
+
+# --- C2 IP Detection ---
+
+alert ip $HOME_NET any -> 194.85.251.32 any (msg:"APTWATCH HOSTKEY-Farm C2 server - Gh0st+Empire+Metasploit full stack"; classtype:trojan-activity; sid:2026033500; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1071;)
+
+alert ip $HOME_NET any -> 194.85.251.36 any (msg:"APTWATCH HOSTKEY-Farm C2 server - Empire+Metasploit"; classtype:trojan-activity; sid:2026033501; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1071;)
+
+alert ip $HOME_NET any -> 194.85.251.104 any (msg:"APTWATCH HOSTKEY-Farm C2 server - Gh0st+Empire dual C2"; classtype:trojan-activity; sid:2026033502; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1071;)
+
+alert ip $HOME_NET any -> 194.85.251.160 any (msg:"APTWATCH HOSTKEY-Farm ops server - Gh0st+custom_c2+FTP exfil"; classtype:trojan-activity; sid:2026033503; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1071;)
+
+alert ip $HOME_NET any -> 194.85.251.99 any (msg:"APTWATCH HOSTKEY-Farm ops server twin of .160"; classtype:trojan-activity; sid:2026033504; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1071;)
+
+alert ip $HOME_NET any -> 194.85.251.113 any (msg:"APTWATCH HOSTKEY-Farm staging - Microsoft spoof+Gh0st+exfil"; classtype:trojan-activity; sid:2026033505; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1071;)
+
+alert ip $HOME_NET any -> 194.85.251.47 any (msg:"APTWATCH HOSTKEY-Farm staging - Gh0st+FTP exfil+DuckDNS"; classtype:trojan-activity; sid:2026033506; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1071;)
+
+alert ip $HOME_NET any -> 194.85.251.8 any (msg:"APTWATCH HOSTKEY-Farm malware C2 - Formbook+ClearFake+gafgyt"; classtype:trojan-activity; sid:2026033507; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1071;)
+
+alert ip $HOME_NET any -> 194.85.251.35 any (msg:"APTWATCH HOSTKEY-Farm Bumblebee loader staging"; classtype:trojan-activity; sid:2026033508; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 194.85.251.27 any (msg:"APTWATCH HOSTKEY-Farm phishing hub - multi-brand spoofed certs"; classtype:trojan-activity; sid:2026033509; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 194.85.251.82 any (msg:"APTWATCH HOSTKEY-Farm Oracle enterprise phishing (80+ spoofed rDNS)"; classtype:trojan-activity; sid:2026033510; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 194.85.251.91 any (msg:"APTWATCH HOSTKEY-Farm Cloudflare impersonation"; classtype:trojan-activity; sid:2026033511; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 194.85.251.251 any (msg:"APTWATCH HOSTKEY-Farm GitHub spoofed cert+rDNS"; classtype:trojan-activity; sid:2026033512; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 194.85.251.228 any (msg:"APTWATCH HOSTKEY-Farm Telegram impersonation"; classtype:trojan-activity; sid:2026033513; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 194.85.251.218 any (msg:"APTWATCH HOSTKEY-Farm jsdelivr impersonation"; classtype:trojan-activity; sid:2026033514; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 194.85.251.11 any (msg:"APTWATCH HOSTKEY-Farm Oracle cert spoof www-cs-02.oracle.com"; classtype:trojan-activity; sid:2026033515; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert ip $HOME_NET any -> 194.85.251.65 any (msg:"APTWATCH HOSTKEY-Farm Intel impersonation *.intel.com"; classtype:trojan-activity; sid:2026033516; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+# Squid proxy / anonymization layer
+alert ip $HOME_NET any -> 194.85.251.21 any (msg:"APTWATCH HOSTKEY-Farm Squid proxy+Empire"; classtype:trojan-activity; sid:2026033517; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1090;)
+
+alert ip $HOME_NET any -> 194.85.251.178 any (msg:"APTWATCH HOSTKEY-Farm Squid proxy+Empire"; classtype:trojan-activity; sid:2026033518; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1090;)
+
+alert ip $HOME_NET any -> 194.85.251.194 any (msg:"APTWATCH HOSTKEY-Farm Squid proxy+Empire"; classtype:trojan-activity; sid:2026033519; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1090;)
+
+alert ip $HOME_NET any -> 194.85.251.206 any (msg:"APTWATCH HOSTKEY-Farm Squid proxy+Empire"; classtype:trojan-activity; sid:2026033520; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1090;)
+
+# Cross-subnet link (DEDIK SERVICES)
+alert ip $HOME_NET any -> 176.65.144.102 any (msg:"APTWATCH HOSTKEY-Farm cross-subnet link via spoofed amd.com cert"; classtype:trojan-activity; sid:2026033521; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1583;)
+
+
+# --- DNS/Domain Detection ---
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH HOSTKEY-Farm Bumblebee loader C2 domain"; flow:established; dns.query; content:"bumblebee.ignorelist.com"; nocase; classtype:trojan-activity; sid:2026033522; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1071;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH HOSTKEY-Farm DuckDNS C2 callback web3market"; flow:established; dns.query; content:"web3market.duckdns.org"; nocase; classtype:trojan-activity; sid:2026033523; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1071;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH HOSTKEY-Farm DynDNS C2 rleack.strangled.net"; flow:established; dns.query; content:"rleack.strangled.net"; nocase; classtype:trojan-activity; sid:2026033524; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1071;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH HOSTKEY-Farm malware C2 masjesu.zip"; flow:established; dns.query; content:"conn.masjesu.zip"; nocase; classtype:trojan-activity; sid:2026033525; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1071;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH HOSTKEY-Farm DynDNS C2 krivtsov.mooo.com"; flow:established; dns.query; content:"sub.krivtsov.mooo.com"; nocase; classtype:trojan-activity; sid:2026033526; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1071;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH HOSTKEY-Farm DynDNS C2 mysss.mooo.com"; flow:established; dns.query; content:"sub.mysss.mooo.com"; nocase; classtype:trojan-activity; sid:2026033527; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1071;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH HOSTKEY-Farm Avito phishing avito.lrdetail.ru"; flow:established; dns.query; content:"avito.lrdetail.ru"; nocase; classtype:trojan-activity; sid:2026033528; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert dns $HOME_NET any -> any any (msg:"APTWATCH HOSTKEY-Farm VLESS proxy homevless.ru"; flow:established; dns.query; content:"sub.homevless.ru"; nocase; classtype:trojan-activity; sid:2026033529; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1090;)
+
+# --- HTTP TLS Detection (spoofed cert SNI on known phishing ports) ---
+
+alert tls $HOME_NET any -> 194.85.251.0/24 any (msg:"APTWATCH HOSTKEY-Farm spoofed github.com cert on BPH subnet"; flow:established,to_server; tls.sni; content:"github.com"; nocase; classtype:trojan-activity; sid:2026033530; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert tls $HOME_NET any -> 194.85.251.0/24 any (msg:"APTWATCH HOSTKEY-Farm spoofed microsoft.com cert on BPH subnet"; flow:established,to_server; tls.sni; content:"microsoft.com"; nocase; classtype:trojan-activity; sid:2026033531; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert tls $HOME_NET any -> 194.85.251.0/24 any (msg:"APTWATCH HOSTKEY-Farm spoofed apple.com cert on BPH subnet"; flow:established,to_server; tls.sni; content:"apple.com"; nocase; classtype:trojan-activity; sid:2026033532; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert tls $HOME_NET any -> 194.85.251.0/24 any (msg:"APTWATCH HOSTKEY-Farm spoofed icloud.com cert on BPH subnet"; flow:established,to_server; tls.sni; content:"icloud.com"; nocase; classtype:trojan-activity; sid:2026033533; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert tls $HOME_NET any -> 194.85.251.0/24 any (msg:"APTWATCH HOSTKEY-Farm spoofed yahoo.com cert on BPH subnet"; flow:established,to_server; tls.sni; content:"yahoo.com"; nocase; classtype:trojan-activity; sid:2026033534; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert tls $HOME_NET any -> 194.85.251.0/24 any (msg:"APTWATCH HOSTKEY-Farm spoofed steampowered.com cert on BPH subnet"; flow:established,to_server; tls.sni; content:"steampowered.com"; nocase; classtype:trojan-activity; sid:2026033535; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert tls $HOME_NET any -> 194.85.251.0/24 any (msg:"APTWATCH HOSTKEY-Farm spoofed oracle.com cert on BPH subnet"; flow:established,to_server; tls.sni; content:"oracle.com"; nocase; classtype:trojan-activity; sid:2026033536; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert tls $HOME_NET any -> 194.85.251.0/24 any (msg:"APTWATCH HOSTKEY-Farm spoofed telegram.org cert on BPH subnet"; flow:established,to_server; tls.sni; content:"telegram.org"; nocase; classtype:trojan-activity; sid:2026033537; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+alert tls $HOME_NET any -> 194.85.251.0/24 any (msg:"APTWATCH HOSTKEY-Farm spoofed cloudflare.com cert on BPH subnet"; flow:established,to_server; tls.sni; content:"cloudflare.com"; nocase; classtype:trojan-activity; sid:2026033538; rev:1; metadata:created_at 2026_04_05, actor HOSTKEY-Farm, campaign HOSTKEY Phishing Farm, mitre_attack T1566;)
+
+# ======================================================================
+# Total Rules: 39
+# SID Range: 2026033500 - 2026033538
+# ======================================================================
