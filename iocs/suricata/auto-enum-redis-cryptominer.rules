@@ -1,0 +1,42 @@
+# ============================================================
+# APT Watch — Suricata Rules: Enum 20260405_234009 Findings
+# Redis crontab injection, oracle.zzhreceive.top cryptominer,
+# ALEXHOST scraper bot farm
+# Generated: 2026-04-05
+# ============================================================
+
+# --- oracle.zzhreceive.top cryptominer C2 ---
+
+alert dns any any -> any 53 (msg:"APT-WATCH DEDIK Cryptominer C2 DNS - oracle.zzhreceive.top"; dns.query; content:"oracle.zzhreceive.top"; nocase; classtype:trojan-activity; sid:2026033582; rev:1;)
+
+alert dns any any -> any 53 (msg:"APT-WATCH DEDIK Cryptominer C2 DNS - zzhreceive.top (wildcard)"; dns.query; content:"zzhreceive.top"; nocase; classtype:trojan-activity; sid:2026033583; rev:1;)
+
+alert http any any -> any any (msg:"APT-WATCH DEDIK Cryptominer Payload Download - b.sh from zzhreceive"; flow:established,to_server; http.host; content:"zzhreceive.top"; nocase; http.uri; content:"/b.sh"; classtype:trojan-activity; sid:2026033584; rev:1;)
+
+alert http any any -> any any (msg:"APT-WATCH DEDIK Cryptominer Payload Path - b2f628 campaign ID"; flow:established,to_server; http.uri; content:"/b2f628"; classtype:trojan-activity; sid:2026033585; rev:1;)
+
+# --- Mullvad VPN exit node (Redis attacker) ---
+
+alert ip 146.70.52.14 any -> any any (msg:"APT-WATCH Mullvad VPN Exit - Redis crontab injection source"; classtype:misc-attack; sid:2026033586; rev:1;)
+
+# --- 176.65.144.130 compromised Redis ---
+
+alert tcp any any -> 176.65.144.130 6379 (msg:"APT-WATCH DEDIK Compromised Redis - 176.65.144.130 outbound"; flow:established; classtype:trojan-activity; sid:2026033587; rev:1;)
+
+# --- Redis crontab injection pattern detection ---
+
+alert tcp any any -> any 6379 (msg:"APT-WATCH Redis CONFIG SET dir /var/spool/cron (crontab injection attempt)"; flow:established,to_server; content:"CONFIG"; nocase; content:"SET"; nocase; content:"dir"; nocase; content:"/var/spool/cron"; nocase; classtype:misc-attack; sid:2026033588; rev:1;)
+
+alert tcp any any -> any 6379 (msg:"APT-WATCH Redis CONFIG SET dbfilename root (crontab injection attempt)"; flow:established,to_server; content:"CONFIG"; nocase; content:"SET"; nocase; content:"dbfilename"; nocase; content:"root"; classtype:misc-attack; sid:2026033589; rev:1;)
+
+# --- 37.221.65.73 ALEXHOST scraper bot farm ---
+
+alert ip 37.221.65.73 any -> any any (msg:"APT-WATCH ALEXHOST Scraper Bot Farm - 37.221.65.73"; classtype:misc-activity; sid:2026033590; rev:1;)
+
+# --- Redis SSH key injection pattern ---
+
+alert tcp any any -> any 6379 (msg:"APT-WATCH Redis SSH Key Injection - ssh-rsa in SET command"; flow:established,to_server; content:"SET"; content:"ssh-rsa"; classtype:misc-attack; sid:2026033591; rev:1;)
+
+# --- Renamed binary evasion (cd1=curl, wd1=wget in cron) ---
+
+alert http any any -> any any (msg:"APT-WATCH Cryptominer Evasion - renamed curl/wget UA pattern"; flow:established,to_server; http.user_agent; content:"cd1/"; classtype:trojan-activity; sid:2026033592; rev:1;)
