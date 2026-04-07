@@ -1,0 +1,18 @@
+#
+# aptw-apt-subnets
+# High-density APT subnets (>15.0% IOC density)
+#
+# Category: apt/threat-intelligence
+# Maintainer: APT Watch (aptwatch.org)
+# Generated: 2026-04-07 16:58:10
+# Entries: 4
+#
+# This file is auto-generated from the APT intelligence database.
+# DO NOT EDIT MANUALLY — re-run generate_blocklists.py instead.
+#
+# Redistribution: TLP:AMBER — do not share publicly
+#
+185.208.159.0/24  # 51 IOCs (19.9%) — Global-Data System IT Corporation
+185.196.10.0/24  # 50 IOCs (19.5%) — Global-Data System IT Corporation
+185.196.9.0/24  # 50 IOCs (19.5%) — Global-Data System IT Corporation
+185.196.11.0/24  # 41 IOCs (16.0%) — Global-Data System IT Corporation
