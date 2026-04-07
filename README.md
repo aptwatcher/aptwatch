@@ -23,7 +23,7 @@ APT Watch is a threat intelligence platform that collects, validates, and distri
 The project provides three things:
 
 - **A database** of 5,700+ validated IPv4 IOCs, 6,900+ CIDR ranges, 1.5M+ domains, and 94 CVEs, cross-referenced with vulnerability scans and enrichment data
-- **Blocklist feeds** in standard formats (FireHOL, StevenBlack, plain text) that update automatically every 6 hours and can be plugged into firewalls, DNS sinkholes, and SIEM tools
+- **Blocklist feeds** in standard formats (FireHOL, StevenBlack, plain text) that update automatically every 6 hours and can be plugged into firewalls, DNS sinkholes, and SIEM tools — including unified feeds (`aptw-*`) that merge our data with FireHOL, StevenBlack, URLhaus, AbuseIPDB, and Phishing.Database for broader coverage
 - **An interactive dashboard** at [aptwatch.org](https://aptwatch.org) for exploring the data directly in the browser
 
 ---
@@ -75,24 +75,37 @@ Both versions share the same schema (`database/schema_v2.sql`) and work with all
 
 The easiest way to use APT Watch is to subscribe to the blocklist feeds. No setup required.
 
-### Direct download
+### APT-specific blocklists (Russian APT infrastructure only)
 
 | Feed | Format | Link |
 |------|--------|------|
-| High confidence IPs (5+ OSINT sources) | FireHOL .netset | [apt-ips-high.netset](https://aptwatch.org/blocklists/apt-ips-high.netset) |
-| Medium confidence IPs (3+ sources) | FireHOL .netset | [apt-ips-medium.netset](https://aptwatch.org/blocklists/apt-ips-medium.netset) |
-| All validated IPs | FireHOL .netset | [apt-ips-all.netset](https://aptwatch.org/blocklists/apt-ips-all.netset) |
-| High-density subnets | FireHOL .netset | [apt-subnets.netset](https://aptwatch.org/blocklists/apt-subnets.netset) |
-| Malicious domains | StevenBlack .hosts | [apt-domains.hosts](https://aptwatch.org/blocklists/apt-domains.hosts) |
-| Plain domain list (Pi-hole/DNS) | Text | [apt-domains-plain.txt](https://aptwatch.org/blocklists/apt-domains-plain.txt) |
-| Combined IPs + domains | StevenBlack .hosts | [apt-combined.hosts](https://aptwatch.org/blocklists/apt-combined.hosts) |
+| High confidence IPs (5+ OSINT sources) | FireHOL .netset | [aptw-apt-ips-high.netset](https://aptwatch.org/blocklists/aptw-apt-ips-high.netset) |
+| Medium confidence IPs (3+ sources) | FireHOL .netset | [aptw-apt-ips-medium.netset](https://aptwatch.org/blocklists/aptw-apt-ips-medium.netset) |
+| All validated IPs | FireHOL .netset | [aptw-apt-ips-all.netset](https://aptwatch.org/blocklists/aptw-apt-ips-all.netset) |
+| High-density subnets | FireHOL .netset | [aptw-apt-subnets.netset](https://aptwatch.org/blocklists/aptw-apt-subnets.netset) |
+| Malicious domains | StevenBlack .hosts | [aptw-apt-domains.hosts](https://aptwatch.org/blocklists/aptw-apt-domains.hosts) |
+| Plain domain list (Pi-hole/DNS) | Text | [aptw-apt-domains-plain.txt](https://aptwatch.org/blocklists/aptw-apt-domains-plain.txt) |
+| Combined IPs + domains | StevenBlack .hosts | [aptw-apt-combined.hosts](https://aptwatch.org/blocklists/aptw-apt-combined.hosts) |
+
+### Unified blocklists (APT Watch + external feeds — for Pi-hole, firewalls, etc.)
+
+These merge our APT-specific intelligence with major external threat feeds for broader protection. All entries are deduplicated and RFC1918-filtered.
+
+| Feed | Format | Sources | Link |
+|------|--------|---------|------|
+| All threat IPs | FireHOL .netset | APT Watch + FireHOL L1/L2 + AbuseIPDB | [aptw-full-ips.netset](https://aptwatch.org/blocklists/aptw-full-ips.netset) |
+| All threat domains | StevenBlack .hosts | APT Watch + StevenBlack + URLhaus + Phishing.Database | [aptw-full-domains.hosts](https://aptwatch.org/blocklists/aptw-full-domains.hosts) |
+| All threat domains (plain) | Text | Same as above | [aptw-full-domains-plain.txt](https://aptwatch.org/blocklists/aptw-full-domains-plain.txt) |
+| Resolved IPs from domains | FireHOL .netset | DNS A records of malicious domains | [aptw-resolved-ips.netset](https://aptwatch.org/blocklists/aptw-resolved-ips.netset) |
+| Reverse DNS hostnames | StevenBlack .hosts | PTR records of malicious IPs | [aptw-reverse-dns.hosts](https://aptwatch.org/blocklists/aptw-reverse-dns.hosts) |
+| Cryptojacking mining pools | StevenBlack .hosts | 56K+ mining pool domains | [aptw-mining.hosts](https://aptwatch.org/blocklists/aptw-mining.hosts) |
 
 ### Firewall integration
 
 ```bash
 # iptables/ipset — block high-confidence APT IPs
 ipset create apt-high hash:ip
-curl -s https://aptwatch.org/blocklists/apt-ips-high.netset | grep -v '^#' | while read ip; do
+curl -s https://aptwatch.org/blocklists/aptw-apt-ips-high.netset | grep -v '^#' | while read ip; do
   ipset add apt-high "$ip"
 done
 iptables -I INPUT -m set --match-set apt-high src -j DROP
@@ -100,10 +113,17 @@ iptables -I INPUT -m set --match-set apt-high src -j DROP
 
 ### Pi-hole / DNS sinkhole
 
-Add this URL as a blocklist in Pi-hole or AdGuard Home:
+Add these URLs as blocklists in Pi-hole or AdGuard Home:
 
 ```
-https://aptwatch.org/blocklists/apt-domains-plain.txt
+# APT-only (Russian APT domains)
+https://aptwatch.org/blocklists/aptw-apt-domains-plain.txt
+
+# Full coverage (APT + StevenBlack + URLhaus + Phishing.Database)
+https://aptwatch.org/blocklists/aptw-full-domains-plain.txt
+
+# Cryptojacking / mining pools
+https://aptwatch.org/blocklists/aptw-mining.hosts
 ```
 
 ### Scheduled updates
@@ -112,7 +132,7 @@ Blocklists update automatically every 6 hours. Set up a cron job to pull fresh d
 
 ```bash
 # crontab -e
-0 */6 * * * curl -s -o /etc/blocklists/apt-ips-high.netset https://aptwatch.org/blocklists/apt-ips-high.netset
+0 */6 * * * curl -s -o /etc/blocklists/aptw-apt-ips-high.netset https://aptwatch.org/blocklists/aptw-apt-ips-high.netset
 ```
 
 ---
@@ -189,6 +209,11 @@ The API at `api.aptwatch.org` serves blocklists, IOC lookups, and database downl
 | `GET /api/blocklist/subnets` | High-density /24 subnets |
 | `GET /api/blocklist/domains` | Malicious domains (StevenBlack .hosts) |
 | `GET /api/blocklist/combined` | IPs + domains combined |
+| `GET /api/blocklist/unified/ips` | Unified IPs (APT + FireHOL + AbuseIPDB) |
+| `GET /api/blocklist/unified/domains` | Unified domains (APT + StevenBlack + URLhaus) |
+| `GET /api/blocklist/unified/mining` | Cryptojacking mining pool domains |
+| `GET /api/blocklist/resolved` | IPs resolved from malicious domains |
+| `GET /api/blocklist/reverse` | Reverse DNS hostnames of malicious IPs |
 | `GET /api/feed/json` | Latest IOCs as JSON feed |
 | `GET /api/ioc/<ip>` | Full profile for a single IP |
 | `GET /api/search?q=<pattern>` | Search across IOCs |
@@ -230,7 +255,9 @@ Areas where help is most useful:
 
 - **New OSINT sources** — add to `scripts/validate.py`
 - **Dashboard features** — `web/index.html` (single-file, vanilla JS + sql.js)
-- **Blocklist formats** — add to `scripts/generate_blocklists.py`
+- **Blocklist formats** — add to `scripts/generate_blocklists.py` or `scripts/generate_unified_blocklist.py`
+- **External feed sources** — add new feeds to `generate_unified_blocklist.py`
+- **DNS resolution** — improve `generate_resolved_blocklist.py` (e.g., add AAAA records, MX lookups)
 - **Documentation** — guides, tutorials, integration examples
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
@@ -248,25 +275,40 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
 
 ```
 aptwatch/
-├── apt.py                     # CLI entry point
+├── apt.py                              # CLI entry point
 ├── scripts/
-│   ├── validate.py            # OSINT validation (10 sources)
-│   ├── import_data.py         # Data importer
-│   ├── query.py               # Database queries
-│   ├── recon.py               # Enrichment & candidate discovery
-│   ├── export.py              # Web DB export
-│   ├── generate_blocklists.py # Blocklist generator
-│   ├── rebuild.py             # Full database rebuild
-│   └── db_manager.py          # DB utilities
+│   ├── validate.py                     # OSINT validation (10 sources)
+│   ├── import_data.py                  # Data importer
+│   ├── query.py                        # Database queries
+│   ├── recon.py                        # Enrichment & candidate discovery
+│   ├── export.py                       # Web DB export
+│   ├── generate_blocklists.py          # APT-specific blocklist generator (RFC1918-filtered)
+│   ├── generate_unified_blocklist.py   # Unified blocklists (aptw-*) — merges with external feeds
+│   ├── generate_resolved_blocklist.py  # DNS resolution blocklists (forward + reverse)
+│   ├── suricata_generator.py           # Suricata IDS rule generator
+│   ├── rss_monitor.py                  # RSS threat intelligence monitor
+│   ├── aptwatch_ioc_collector.py       # Automated IOC collector (TrendMicro, OTX, blogs)
+│   ├── sync_to_github.sh              # Server → GitHub sync (systemd timer)
+│   ├── rebuild.py                      # Full database rebuild
+│   └── db_health_check.py             # Database integrity checks
 ├── database/
-│   └── schema_v2.sql          # Schema definition
-├── iocs/                      # IOC text files (auto-synced)
-├── blocklists/                # Generated blocklists (auto-synced)
-├── web/                       # Dashboard (GitHub Pages)
-├── community/                 # Community IOC submissions
-├── .github/workflows/         # CI/CD
-├── config.ini.example         # Configuration template
-└── requirements.txt           # Python dependencies
+│   └── schema_v2.sql                   # Schema definition
+├── iocs/                               # IOC text files (auto-synced)
+│   ├── ipv4.txt, domains.txt, ...      # Core IOC feeds
+│   ├── mining_domains.txt              # 56K+ cryptojacking pool domains
+│   └── suricata/                       # IDS rules (.rules files)
+├── blocklists/                         # Generated blocklists (auto-synced)
+│   ├── aptw-apt-ips-*.netset                # APT-specific IP blocklists
+│   ├── aptw-apt-domains*.hosts              # APT-specific domain blocklists
+│   ├── aptw-full-*.netset/.hosts        # Unified (APT + external feeds)
+│   ├── aptw-resolved-*.netset/.map     # DNS-resolved blocklists
+│   ├── aptw-reverse-dns.*              # Reverse DNS blocklists
+│   └── aptw-mining.hosts               # Cryptojacking blocklist
+├── web/                                # Dashboard (GitHub Pages)
+├── community/                          # Community IOC submissions
+├── .github/workflows/                  # CI/CD
+├── config.ini.example                  # Configuration template
+└── requirements.txt                    # Python dependencies
 ```
 
 ---
@@ -290,12 +332,16 @@ APT Watch exists because of the OSINT community and the organizations that make 
 | [Steven Black Hosts](https://github.com/StevenBlack/hosts) | Steven Black | Unified hosts file with extensions for malware and adware domains |
 | [ip-api.com](https://ip-api.com/) | ip-api | Geolocation, ASN, and ISP data for enrichment |
 | [RDAP](https://about.rdap.org/) | ARIN / RIPE / APNIC | IP and domain registration data |
+| [URLhaus](https://urlhaus.abuse.ch/) | abuse.ch | Active malware distribution URLs and domains |
+| [Phishing.Database](https://github.com/mitchellkrogza/Phishing.Database) | Mitchell Krog | Active phishing domains, community-maintained |
+| [CoinBlockerLists](https://zerodot1.gitlab.io/CoinBlockerLists/) | ZeroDot1 | Browser-based cryptominer domains |
+| [Netcraft](https://report.netcraft.com/) | Netcraft | Phishing/malware takedown reporting API |
 
 ### Threat intelligence & attribution
 
 The attribution and campaign mapping in this project draws on public research from:
 
-Mandiant/Google (APT28, APT29, APT44/Sandworm reports), Microsoft Threat Intelligence (Cadet Blizzard, Midnight Blizzard, Star Blizzard), ESET (Gamaredon-Turla collaboration research, Sep 2025), Recorded Future (GRU infrastructure tracking), Check Point Research (Storm-2372 / APT29 overlap), Volexity (device-code phishing campaigns), CISA / FBI / NSA joint advisories, and the broader OSINT community sharing indicators through OTX pulses, ThreatFox submissions, and open threat reports.
+Mandiant/Google (APT28, APT29, APT44/Sandworm reports), Microsoft Threat Intelligence (Cadet Blizzard, Midnight Blizzard, Star Blizzard, EvilTokens/Storm-2372), ESET (Gamaredon-Turla collaboration research, Sep 2025), Recorded Future (GRU infrastructure tracking), Check Point Research (Storm-2372 / APT29 overlap), Volexity (device-code phishing campaigns), CISA / FBI / NSA joint advisories, and the broader OSINT community sharing indicators through OTX pulses, ThreatFox submissions, and open threat reports.
 
 ### The OSINT community
 

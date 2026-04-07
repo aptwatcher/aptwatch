@@ -48,6 +48,9 @@ jobs:
           # Copy IOC files
           mkdir -p web/iocs
           cp iocs/*.txt web/iocs/ 2>/dev/null || true
+          # Copy Suricata rules
+          mkdir -p web/iocs/suricata
+          cp iocs/suricata/*.rules web/iocs/suricata/ 2>/dev/null || true
 
           # Check for web database
           if [ -f web/apt_intel_web.db ]; then
@@ -73,22 +76,39 @@ jobs:
           <h1>APT Intelligence Feeds</h1>
           <div class="section">
             <h2>Blocklists (Firehol .netset format)</h2>
-            <div class="file"><a href="blocklists/apt-ips-high.netset">apt-ips-high.netset</a> — High confidence IPs (5+ OSINT sources)</div>
-            <div class="file"><a href="blocklists/apt-ips-medium.netset">apt-ips-medium.netset</a> — Medium confidence (3+ sources)</div>
-            <div class="file"><a href="blocklists/apt-ips-all.netset">apt-ips-all.netset</a> — All validated IPs</div>
-            <div class="file"><a href="blocklists/apt-subnets.netset">apt-subnets.netset</a> — High-density subnets</div>
+            <div class="file"><a href="blocklists/aptw-apt-ips-high.netset">aptw-apt-ips-high.netset</a> — High confidence IPs (5+ OSINT sources)</div>
+            <div class="file"><a href="blocklists/aptw-apt-ips-medium.netset">aptw-apt-ips-medium.netset</a> — Medium confidence (3+ sources)</div>
+            <div class="file"><a href="blocklists/aptw-apt-ips-all.netset">aptw-apt-ips-all.netset</a> — All validated IPs</div>
+            <div class="file"><a href="blocklists/aptw-apt-subnets.netset">aptw-apt-subnets.netset</a> — High-density subnets</div>
           </div>
           <div class="section">
             <h2>Domain Blocklists</h2>
-            <div class="file"><a href="blocklists/apt-domains.hosts">apt-domains.hosts</a> — StevenBlack hosts format</div>
-            <div class="file"><a href="blocklists/apt-domains-plain.txt">apt-domains-plain.txt</a> — Plain domain list (Pi-hole/DNS)</div>
-            <div class="file"><a href="blocklists/apt-combined.hosts">apt-combined.hosts</a> — Combined IPs + domains</div>
+            <div class="file"><a href="blocklists/aptw-apt-domains.hosts">aptw-apt-domains.hosts</a> — StevenBlack hosts format</div>
+            <div class="file"><a href="blocklists/aptw-apt-domains-plain.txt">aptw-apt-domains-plain.txt</a> — Plain domain list (Pi-hole/DNS)</div>
+            <div class="file"><a href="blocklists/aptw-apt-combined.hosts">aptw-apt-combined.hosts</a> — Combined IPs + domains</div>
+          </div>
+          <div class="section">
+            <h2>Unified Blocklists (APT Watch + External Feeds)</h2>
+            <div class="file"><a href="blocklists/aptw-full-ips.netset">aptw-full-ips.netset</a> — All threat IPs merged (APT Watch + FireHOL + AbuseIPDB)</div>
+            <div class="file"><a href="blocklists/aptw-full-domains.hosts">aptw-full-domains.hosts</a> — All threat domains merged (hosts format, Pi-hole ready)</div>
+            <div class="file"><a href="blocklists/aptw-full-domains-plain.txt">aptw-full-domains-plain.txt</a> — All threat domains (plain list)</div>
+            <div class="file"><a href="blocklists/aptw-resolved-ips.netset">aptw-resolved-ips.netset</a> — IPs resolved from malicious domains</div>
+            <div class="file"><a href="blocklists/aptw-reverse-dns.hosts">aptw-reverse-dns.hosts</a> — Reverse DNS of known-bad IPs</div>
+            <div class="file"><a href="blocklists/aptw-mining.hosts">aptw-mining.hosts</a> — Cryptojacking mining pool domains</div>
+          </div>
+          <div class="section">
+            <h2>Mining / Cryptojacking</h2>
+            <div class="file"><a href="iocs/mining_domains.txt">mining_domains.txt</a> — Mining pool &amp; crypto exchange domains (56K+ entries)</div>
           </div>
           <div class="section">
             <h2>Raw IOC Files</h2>
             <div class="file"><a href="iocs/ipv4.txt">ipv4.txt</a> — All IPv4 IOCs</div>
             <div class="file"><a href="iocs/cidr.txt">cidr.txt</a> — CIDR ranges</div>
             <div class="file"><a href="iocs/domains.txt">domains.txt</a> — Domain IOCs</div>
+            <div class="file"><a href="iocs/mining_domains.txt">mining_domains.txt</a> — Mining pool domains</div>
+            <div class="file"><a href="iocs/emails.txt">emails.txt</a> — Email IOCs</div>
+            <div class="file"><a href="iocs/urls.txt">urls.txt</a> — URL IOCs</div>
+            <div class="file"><a href="iocs/cves.txt">cves.txt</a> — CVE references</div>
           </div>
           <div class="section">
             <h2>Interactive Dashboard</h2>

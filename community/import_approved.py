@@ -66,13 +66,14 @@ def import_submission(filepath, dry_run=False):
             log("  ✗ %s" % e)
         if is_security:
             log("  ⚠ This file was blocked for security reasons and will NOT be imported.")
-            # Delete dangerous files immediately
-            if not dry_run:
-                try:
-                    filepath.unlink()
-                    log("  Dangerous file deleted: %s" % filepath.name)
-                except OSError:
-                    log("  WARNING: failed to delete dangerous file %s" % filepath.name)
+        # Delete rejected files to prevent re-processing on every run.
+        # Both security-blocked AND validation-rejected files are removed.
+        if not dry_run:
+            try:
+                filepath.unlink()
+                log("  Rejected file deleted: %s" % filepath.name)
+            except OSError:
+                log("  WARNING: failed to delete rejected file %s" % filepath.name)
         return False
 
     data = load_yaml(str(filepath))
@@ -112,7 +113,15 @@ def import_submission(filepath, dry_run=False):
         added_total += len(new_items)
 
     if added_total == 0:
-        log("SKIPPED %s — all IOCs already exist" % filepath.name)
+        if not dry_run:
+            # All IOCs already imported — delete stale submission to prevent re-processing
+            try:
+                filepath.unlink()
+                log("SKIPPED %s — all IOCs already exist (submission deleted)" % filepath.name)
+            except OSError:
+                log("SKIPPED %s — all IOCs already exist (could not delete)" % filepath.name)
+        else:
+            log("SKIPPED %s — all IOCs already exist" % filepath.name)
         return True
 
     if not dry_run:

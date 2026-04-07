@@ -139,6 +139,54 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
     <div class="bar-chart" id="class-chart"></div>
     <div class="section-title">Subnet Tier Distribution</div>
     <div class="cards" id="tier-cards"></div>
+
+    <!-- Active Campaign Intelligence -->
+    <div class="section-title">Active Campaign Intelligence</div>
+    <div id="campaign-intel-cards" style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px">
+
+      <div class="card" style="border-left:3px solid var(--red);padding:16px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+          <div style="font-weight:700;color:var(--red);font-size:14px">HOSTKEY / DEDIK Phishing Pipeline</div>
+          <span class="badge CRITICAL">ACTIVE</span>
+        </div>
+        <div style="font-size:12px;color:var(--text2);line-height:1.7">
+          <div style="margin-bottom:8px">Multi-subnet phishing + C2 operation spanning <b>3 ASNs</b>. Russian-speaking ecrime operator on bulletproof hosting.</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;font-size:11px">
+            <div><span style="color:var(--red)">194.85.251</span> HOSTKEY &mdash; 38 spoofed certs, 275 C2 hosts</div>
+            <div><span style="color:var(--red)">194.85.250</span> HOSTKEY adj &mdash; spam mailer + web farm</div>
+            <div><span style="color:var(--orange)">176.65.144</span> DEDIK &mdash; URL shortener, phishing, 9 Win VMs</div>
+            <div><span style="color:var(--orange)">37.221.65</span> ALEXHOST &mdash; Celery scraping backend</div>
+          </div>
+          <div style="margin-top:8px;border-top:1px solid var(--border);padding-top:8px">
+            <span style="color:var(--accent)">Pipeline:</span> Blog scraping (.73) &rarr; Phishing pages (.251) &rarr; URL shortener (.98) &rarr; Telegram bot distribution &rarr; SMS gateway (2FA intercept)
+          </div>
+          <div style="margin-top:6px" id="campaign-hostkey-stats"></div>
+        </div>
+      </div>
+
+      <div class="card" style="border-left:3px solid var(--orange);padding:16px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+          <div style="font-weight:700;color:var(--orange);font-size:14px">Key IOCs From Latest Scans</div>
+          <span class="badge HIGH">2026-04-05</span>
+        </div>
+        <div style="font-size:11px;color:var(--text2);line-height:1.8">
+          <div><span class="badge CRITICAL">SPOOFED</span> <b>176.65.144.123</b> &mdash; www.amazon.com cert (DigiCert impersonation)</div>
+          <div><span class="badge CRITICAL">SPOOFED</span> <b>176.65.144.102</b> &mdash; amd.com cert (cross-subnet link)</div>
+          <div><span class="badge CRITICAL">RCE</span> <b>176.65.144.130</b> &mdash; Redis no-auth, crontab injected (<code>oracle.zzhreceive.top</code>)</div>
+          <div><span class="badge HIGH">PHISH</span> <b>176.65.144.119</b> &mdash; booking-update-840217v.com</div>
+          <div><span class="badge HIGH">PHISH</span> <b>176.65.144.97</b> &mdash; card-wallet.pro (crypto)</div>
+          <div><span class="badge HIGH">PHISH</span> <b>176.65.144.81</b> &mdash; confirmation-759316.com</div>
+          <div><span class="badge HIGH">2FA</span> <b>176.65.144.98</b> &mdash; sms-inboxgateway.com + Telegram bot</div>
+          <div><span class="badge MEDIUM">INFRA</span> <b>176.65.144.250-252</b> &mdash; VirtFusion hypervisors (bare metal)</div>
+          <div><span class="badge MEDIUM">SCRAPE</span> <b>37.221.65.73</b> &mdash; Celery blogger scraper + SSH key in Redis</div>
+          <div style="margin-top:6px;border-top:1px solid var(--border);padding-top:6px">
+            <span style="color:var(--red)">NEW:</span> <b>oracle.zzhreceive.top</b> &mdash; cryptominer dropper via Redis crontab injection on .130. Attacker on Mullvad VPN (146.70.52.14).
+          </div>
+        </div>
+      </div>
+
+    </div>
+
     <!-- DB Info Banner (web export notice) -->
     <div id="db-info-banner" style="display:none;background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--orange);border-radius:6px;padding:14px 18px;margin:20px 0 12px">
       <div style="font-size:13px;font-weight:600;color:var(--orange);margin-bottom:6px">Partial Export — Web Database</div>
@@ -153,6 +201,15 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
         You have the complete dataset — all tables, all IOCs, all vulnerability findings. No data has been excluded.
       </div>
     </div>
+
+    <!-- IOC Feeds -->
+    <div class="section-title">IOC Feeds</div>
+    <div id="feeds-list" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px"></div>
+
+    <!-- Blocklist Feeds -->
+    <div class="section-title">Blocklist Feeds</div>
+    <p style="font-size:12px;color:var(--text2);margin-bottom:8px">APT-specific blocklists (apt-*) target Russian APT infrastructure only. Unified blocklists (aptw-*) merge our data with external feeds (FireHOL, StevenBlack, URLhaus, AbuseIPDB) for broader Pi-hole / firewall coverage.</p>
+    <div id="blocklist-feeds-list" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px"></div>
 
     <!-- Metadata (clean key/value grid) -->
     <div class="section-title">Database Details</div>
@@ -305,6 +362,10 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
         <button class="btn" onclick="toolExport('Tiered Subnets','SELECT cidr, ioc_count, tier, scan_status, scanned_count, critical_count FROM subnets WHERE tier IS NOT NULL ORDER BY CASE tier WHEN \'TIER_S\' THEN 1 WHEN \'TIER_A\' THEN 2 WHEN \'TIER_B\' THEN 3 WHEN \'TIER_C\' THEN 4 END, ioc_count DESC')">Export Tiered Subnets</button>
         <button class="btn" onclick="toolExport('CVEs','SELECT cve_id, first_seen FROM cves ORDER BY cve_id')">Export CVEs</button>
         <button class="btn" onclick="toolExport('C2 Indicators','SELECT DISTINCT ip, risk_score, c2_indicators, services FROM scan_results WHERE c2_indicators IS NOT NULL AND c2_indicators != \'\' ORDER BY risk_score DESC')">Export IPs with C2 Indicators</button>
+        <button class="btn" onclick="toolExport('Campaigns','SELECT id, campaign_name, threat_actor_type, origin_country, first_seen, last_seen, confidence FROM campaigns ORDER BY last_seen DESC')">Export Campaigns</button>
+        <button class="btn" onclick="toolExport('Mining Domains','SELECT domain FROM mining_domains ORDER BY domain')">Export Mining Domains</button>
+        <button class="btn" onclick="window.open('blocklists/aptw-full-ips.netset','_blank')">Download aptw-full-ips</button>
+        <button class="btn" onclick="window.open('blocklists/aptw-full-domains-plain.txt','_blank')">Download aptw-full-domains</button>
       </div>
     </div>
 
@@ -985,12 +1046,86 @@ function loadOverview() {
     }
   }
 
+  // Campaign Intelligence stats (dynamic from DB)
+  try {
+    const cIocs = qVal("SELECT COUNT(*) FROM campaign_iocs ci JOIN campaigns c ON ci.campaign_id=c.id WHERE c.campaign_name LIKE '%HOSTKEY%'") || 0;
+    const cDomains = qVal("SELECT COUNT(DISTINCT ioc_value) FROM campaign_iocs ci JOIN campaigns c ON ci.campaign_id=c.id WHERE c.campaign_name LIKE '%HOSTKEY%' AND ci.ioc_type='domain'") || 0;
+    const cIPs = qVal("SELECT COUNT(DISTINCT ioc_value) FROM campaign_iocs ci JOIN campaigns c ON ci.campaign_id=c.id WHERE c.campaign_name LIKE '%HOSTKEY%' AND ci.ioc_type='ipv4'") || 0;
+    const cStaging = qVal("SELECT COUNT(*) FROM staging_servers WHERE ip LIKE '194.85.251.%' OR ip LIKE '176.65.144.%'") || 0;
+    const cCerts = qVal("SELECT COUNT(*) FROM cert_patterns WHERE assessment LIKE '%HOSTKEY%' OR assessment LIKE '%DEDIK%' OR assessment LIKE '%176.65.144%' OR assessment LIKE '%194.85.25%'") || 0;
+    const el = document.getElementById('campaign-hostkey-stats');
+    if (el) {
+      el.innerHTML = `<span style="font-size:11px;color:var(--text2)">DB: <b style="color:var(--accent)">${cIocs}</b> campaign IOCs | <b style="color:var(--accent)">${cIPs}</b> IPs | <b style="color:var(--accent)">${cDomains}</b> domains | <b style="color:var(--accent)">${cStaging}</b> staging servers | <b style="color:var(--accent)">${cCerts}</b> cert patterns</span>`;
+    }
+  } catch(e) { /* campaign tables may not exist in web export */ }
+
   // DB info banner
   if (isWebExport) {
     document.getElementById('db-info-banner').style.display = 'block';
   } else {
     document.getElementById('db-info-full').style.display = 'block';
   }
+
+  // IOC Feeds
+  const feeds = [
+    { label: 'IPv4 IOCs', file: 'iocs/ipv4.txt', table: 'ipv4_iocs', icon: '🔴' },
+    { label: 'CIDR Ranges', file: 'iocs/cidr.txt', table: 'cidr_iocs', icon: '🔶' },
+    { label: 'Domains', file: 'iocs/domains.txt', table: 'domains', fallback: 'web_domain_count', icon: '🌐' },
+    { label: 'Mining Domains', file: 'iocs/mining_domains.txt', table: null, meta: 'mining_domain_count', icon: '⛏️' },
+    { label: 'URLs', file: 'iocs/urls.txt', table: 'urls', fallback: 'web_url_count', icon: '🔗' },
+    { label: 'CVEs', file: 'iocs/cves.txt', table: 'cves', icon: '🛡️' },
+    { label: 'Emails', file: 'iocs/emails.txt', table: 'emails', icon: '📧' },
+    { label: 'Suricata Rules', file: 'iocs/suricata/', table: null, icon: '🚨' },
+  ];
+
+  // Blocklist Feeds (APT-specific + Unified)
+  const blocklists = [
+    { label: 'APT IPs (High)', file: 'blocklists/aptw-apt-ips-high.netset', icon: '🔥', desc: '5+ OSINT sources' },
+    { label: 'APT IPs (Medium)', file: 'blocklists/aptw-apt-ips-medium.netset', icon: '🟠', desc: '3+ sources' },
+    { label: 'APT IPs (All)', file: 'blocklists/aptw-apt-ips-all.netset', icon: '🟡', desc: '1+ sources' },
+    { label: 'APT Subnets', file: 'blocklists/aptw-apt-subnets.netset', icon: '🔶', desc: 'High-density /24s' },
+    { label: 'APT Domains', file: 'blocklists/aptw-apt-domains.hosts', icon: '🌐', desc: 'Hosts format' },
+    { label: 'APT Combined', file: 'blocklists/aptw-apt-combined.hosts', icon: '🛡️', desc: 'IPs + domains' },
+    { label: 'APTW Full IPs', file: 'blocklists/aptw-full-ips.netset', icon: '🌍', desc: 'APT + FireHOL + AbuseIPDB' },
+    { label: 'APTW Full Domains', file: 'blocklists/aptw-full-domains.hosts', icon: '🌍', desc: 'APT + StevenBlack + URLhaus' },
+    { label: 'APTW Resolved IPs', file: 'blocklists/aptw-resolved-ips.netset', icon: '🔍', desc: 'DNS-resolved from domains' },
+    { label: 'APTW Reverse DNS', file: 'blocklists/aptw-reverse-dns.hosts', icon: '🔍', desc: 'PTR records of bad IPs' },
+    { label: 'APTW Mining', file: 'blocklists/aptw-mining.hosts', icon: '⛏️', desc: 'Cryptojacking pools' },
+  ];
+  let feedsHtml = '';
+  feeds.forEach(f => {
+    let count = '—';
+    try {
+      if (f.table) {
+        count = qVal(`SELECT COUNT(*) FROM ${f.table}`);
+      } else if (f.meta) {
+        count = qVal(`SELECT value FROM metadata WHERE key='${f.meta}'`);
+      }
+      if (count === null || count === undefined) count = '—';
+      else count = parseInt(count).toLocaleString();
+    } catch(e) {
+      if (f.fallback) {
+        try { count = parseInt(qVal(`SELECT value FROM metadata WHERE key='${f.fallback}'`)).toLocaleString(); } catch(e2) {}
+      }
+    }
+    feedsHtml += `<div style="background:var(--bg3);border-radius:6px;padding:10px 12px">
+      <div style="font-size:10px;color:var(--text2);text-transform:uppercase;letter-spacing:0.5px">${f.icon} ${f.label}</div>
+      <div style="font-size:18px;font-weight:600;margin-top:2px">${count}</div>
+      <div style="font-size:10px;color:var(--text2);word-break:break-all;margin-top:2px">${f.file}</div>
+    </div>`;
+  });
+  document.getElementById('feeds-list').innerHTML = feedsHtml;
+
+  // Blocklist Feeds grid
+  let blHtml = '';
+  blocklists.forEach(b => {
+    blHtml += `<div style="background:var(--bg3);border-radius:6px;padding:10px 12px">
+      <div style="font-size:10px;color:var(--text2);text-transform:uppercase;letter-spacing:0.5px">${b.icon} ${b.label}</div>
+      <div style="font-size:11px;color:var(--text);margin-top:4px">${b.desc}</div>
+      <a href="${b.file}" style="font-size:10px;color:var(--accent);word-break:break-all;margin-top:2px;display:block" download>${b.file.split('/').pop()}</a>
+    </div>`;
+  });
+  document.getElementById('blocklist-feeds-list').innerHTML = blHtml;
 
   // Metadata — clean key/value cards
   const meta = q("SELECT key, value FROM metadata ORDER BY key");
