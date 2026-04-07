@@ -1,7 +1,7 @@
 # Title: APT Watch Reverse DNS Blocklist
 # Description: Hostnames from reverse DNS of 6,294 malicious IPs
-# Generated: 2026-04-07 18:25:55
-# Entries: 1746
+# Generated: 2026-04-07 19:11:32
+# Entries: 1747
 # Method: Reverse DNS (PTR records) with 20 workers
 #
 0.0.0.0 ecs-1-92-91-224.compute.hwclouds-dns.com  # 1.92.91.224
@@ -504,6 +504,7 @@
 0.0.0.0 antananarivue.pserver.space  # 80.85.154.56
 0.0.0.0 80-89-224-13.netherlands-3.vps.ac  # 80.89.224.13
 0.0.0.0 host-80-180-123-169.pool80180.interbusiness.it  # 80.180.123.169
+0.0.0.0 host-80-182-36-252.pool80182.interbusiness.it  # 80.182.36.252
 0.0.0.0 81-4-110-80.cloud.ramnode.com  # 81.4.110.80
 0.0.0.0 hostedby.privatelayer.com  # 81.17.24.234
 0.0.0.0 4925051-en88475.twc1.net  # 81.19.136.61
@@ -540,7 +541,7 @@
 0.0.0.0 samplusrenewal.com  # 85.25.203.29
 0.0.0.0 srv917353.hstgr.cloud  # 85.31.231.183
 0.0.0.0 bbb.edu-cisco.org  # 85.93.88.165
-0.0.0.0 plex.volyekb.ru  # 85.115.173.194
+0.0.0.0 volyekb.ru  # 85.115.173.194
 0.0.0.0 newvpn.ptr.network  # 85.192.30.40
 0.0.0.0 85-218-144-213.norlyscustomer.net  # 85.218.144.213
 0.0.0.0 host-85.235.74.114.kayizer.com  # 85.235.74.114
@@ -660,10 +661,10 @@
 0.0.0.0 powerfulivory.ptr.network  # 91.108.241.160
 0.0.0.0 periodic-appliance.ptr.network  # 91.108.241.173
 0.0.0.0 nozehana.ptr.network  # 91.108.241.174
-0.0.0.0 pacificsuit.ptr.network  # 91.108.241.190
+0.0.0.0 establishedbron.ptr.network  # 91.108.241.190
 0.0.0.0 spotlessyellow.ptr.network  # 91.108.241.191
 0.0.0.0 vladislav.holly  # 91.108.241.249
-0.0.0.0 lavish-country.ptr.network  # 91.108.241.254
+0.0.0.0 tuapse2026.ptr.network  # 91.108.241.254
 0.0.0.0 reserved-by-avm.ptr.network  # 91.184.240.2
 0.0.0.0 nuttyvein.ptr.network  # 91.184.240.8
 0.0.0.0 reserved-by-avm.ptr.network  # 91.184.240.13
@@ -686,7 +687,7 @@
 0.0.0.0 reserved-by-avm.ptr.network  # 91.184.240.248
 0.0.0.0 daily-top.ptr.network  # 91.184.241.1
 0.0.0.0 early-station.ptr.network  # 91.184.241.3
-0.0.0.0 reserved-by-avm.ptr.network  # 91.184.241.33
+0.0.0.0 nikiforovmusic.ptr.network  # 91.184.241.33
 0.0.0.0 reserved-by-avm.ptr.network  # 91.184.241.35
 0.0.0.0 reserved-by-avm.ptr.network  # 91.184.241.40
 0.0.0.0 reserved-by-avm.ptr.network  # 91.184.241.52
@@ -854,7 +855,7 @@
 0.0.0.0 yikkes3  # 104.244.74.96
 0.0.0.0 106.51.89.49.actcorp.in  # 106.51.89.49
 0.0.0.0 mail.nfmfiuhacofjc.com  # 106.75.62.22
-0.0.0.0 fixnr.cn  # 106.75.174.5
+0.0.0.0 optwosx.cn  # 106.75.174.5
 0.0.0.0 uxsn.online  # 107.172.0.16
 0.0.0.0 107-172-0-160-host.colocrossing.com  # 107.172.0.160
 0.0.0.0 107-172-3-15-host.colocrossing.com  # 107.172.3.15
@@ -1668,7 +1669,7 @@
 0.0.0.0 202-142-139-58.ca8e8b.mel.nbn.aussiebb.net  # 202.142.139.58
 0.0.0.0 202-152-150-221.citra.net.id  # 202.152.150.221
 0.0.0.0 grmail.greenradar.com  # 202.155.238.7
-0.0.0.0 grmail.greenradar.com  # 202.155.238.11
+0.0.0.0 mail.greenradar.com  # 202.155.238.11
 0.0.0.0 202.182.122.237.vultrusercontent.com  # 202.182.122.237
 0.0.0.0 203-118-152-146.ipnet.wave.co.nz  # 203.118.152.146
 0.0.0.0 203-153-66-75.flets.kamome.or.jp  # 203.153.66.75

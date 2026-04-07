@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-07 18:47:22
-# Entries: 484116
+# Generated: 2026-04-07 19:33:33
+# Entries: 484120
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + Reverse DNS + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -200836,6 +200836,7 @@
 0.0.0.0 establish-thompson-consist-specials.000webhostapp.com
 0.0.0.0 established-distanc.000webhostapp.com
 0.0.0.0 established-enhancing-springs-bangkok.trycloudflare.com
+0.0.0.0 establishedbron.ptr.network
 0.0.0.0 establishment.hpmfdc.in
 0.0.0.0 estado-info.sytes.net
 0.0.0.0 estado-promociones-online.ml
@@ -218765,7 +218766,6 @@
 0.0.0.0 fixmycellular.com
 0.0.0.0 fixmyslip.com
 0.0.0.0 fixmywallets.weebly.com
-0.0.0.0 fixnr.cn
 0.0.0.0 fixolojapcy.digital
 0.0.0.0 fixprotocolchain.com
 0.0.0.0 fixrestaurant.com
@@ -254735,6 +254735,7 @@
 0.0.0.0 host-507901.world
 0.0.0.0 host-62-113-112-127.hosted-by-vdsina.ru
 0.0.0.0 host-80-180-123-169.pool80180.interbusiness.it
+0.0.0.0 host-80-182-36-252.pool80182.interbusiness.it
 0.0.0.0 host-85.235.74.114.kayizer.com
 0.0.0.0 host-92-27-75-224.static.as13285.net
 0.0.0.0 host-93-177-144-20.customer.magticom.ge
@@ -294435,7 +294436,6 @@
 0.0.0.0 lavinsicecream.ie
 0.0.0.0 lavinsworldschool.com
 0.0.0.0 laviocuisine1.wixsite.com
-0.0.0.0 lavish-country.ptr.network
 0.0.0.0 lavish-plausible-lunch.glitch.me
 0.0.0.0 lavishdagar13.github.io
 0.0.0.0 lavishdagar135.github.io
@@ -294465,6 +294465,7 @@
 0.0.0.0 lawerencesfranklin.com
 0.0.0.0 lawetasandomierz.pl
 0.0.0.0 laweuqkomqsuboybevyblymbmo-dot-gl9393jan.uk.r.appspot.com
+0.0.0.0 lawfirm.paperbirdtech.com
 0.0.0.0 lawful-pokes.000webhostapp.com
 0.0.0.0 lawgarrido.filesusr.com
 0.0.0.0 lawgiver-acquisitio.000webhostapp.com
@@ -312763,6 +312764,7 @@
 0.0.0.0 mail.grandselfie.com
 0.0.0.0 mail.grantedwriters.com
 0.0.0.0 mail.greatheavy.com.au
+0.0.0.0 mail.greenradar.com
 0.0.0.0 mail.greentradeenergy.za.com
 0.0.0.0 mail.grenderchallenmsger.org
 0.0.0.0 mail.grenlar-paret23.duckdns.org
@@ -351896,6 +351898,7 @@
 0.0.0.0 nikhilvkumar.com
 0.0.0.0 niki.code-karma.com
 0.0.0.0 nikiblaze.com
+0.0.0.0 nikiforovmusic.ptr.network
 0.0.0.0 nikilkh.github.io
 0.0.0.0 nikimezwh2021.000webhostapp.com
 0.0.0.0 nikitapawar20.github.io
@@ -364444,6 +364447,7 @@
 0.0.0.0 optusnets.weebly.com
 0.0.0.0 optusupdate.info
 0.0.0.0 optverify-supportau.com
+0.0.0.0 optwosx.cn
 0.0.0.0 optx10.com
 0.0.0.0 opuecvrqohxttizt-dot-millinium.ey.r.appspot.com
 0.0.0.0 opueezodecgsezeb-dot-millinium.ey.r.appspot.com
@@ -368005,7 +368009,6 @@
 0.0.0.0 pacificpursuits.com
 0.0.0.0 pacificrimwhalefestival.org
 0.0.0.0 pacifics-manta-network.pages.dev
-0.0.0.0 pacificsuit.ptr.network
 0.0.0.0 pacificusinfra.com
 0.0.0.0 pacificventurebd.com
 0.0.0.0 pacifique.standardseoservices.com
@@ -379459,7 +379462,6 @@
 0.0.0.0 pletomak.mypi.co
 0.0.0.0 plettering.web.app
 0.0.0.0 plevimax.esrujak.co
-0.0.0.0 plex.volyekb.ru
 0.0.0.0 pleximar.com
 0.0.0.0 plexportlexsystems.org
 0.0.0.0 plexy.top
@@ -439603,6 +439605,7 @@
 0.0.0.0 tu-szyte.com
 0.0.0.0 tu-vwx.site
 0.0.0.0 tu4dff-reflective-shark.eu-gb.mybluemix.net
+0.0.0.0 tuapse2026.ptr.network
 0.0.0.0 tubcrfit.pro
 0.0.0.0 tube-server.com
 0.0.0.0 tube8vidscjk.ddns.name
@@ -445994,6 +445997,7 @@
 0.0.0.0 voluumtrk.com
 0.0.0.0 voluumtrk2.com
 0.0.0.0 voluumtrk3.com
+0.0.0.0 volyekb.ru
 0.0.0.0 vomalee.pro
 0.0.0.0 vomitgirl.org
 0.0.0.0 vonderlee.com

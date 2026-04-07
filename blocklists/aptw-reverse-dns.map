@@ -1,4 +1,4 @@
-# IP → Hostname mapping | Generated: 2026-04-07 18:25:55
+# IP → Hostname mapping | Generated: 2026-04-07 19:11:32
 # Format: ip | hostname
 #
 1.92.91.224 | ecs-1-92-91-224.compute.hwclouds-dns.com
@@ -501,6 +501,7 @@
 80.85.154.56 | antananarivue.pserver.space
 80.89.224.13 | 80-89-224-13.netherlands-3.vps.ac
 80.180.123.169 | host-80-180-123-169.pool80180.interbusiness.it
+80.182.36.252 | host-80-182-36-252.pool80182.interbusiness.it
 81.4.110.80 | 81-4-110-80.cloud.ramnode.com
 81.17.24.234 | hostedby.privatelayer.com
 81.19.136.61 | 4925051-en88475.twc1.net
@@ -537,7 +538,7 @@
 85.25.203.29 | samplusrenewal.com
 85.31.231.183 | srv917353.hstgr.cloud
 85.93.88.165 | bbb.edu-cisco.org
-85.115.173.194 | plex.volyekb.ru
+85.115.173.194 | volyekb.ru
 85.192.30.40 | newvpn.ptr.network
 85.218.144.213 | 85-218-144-213.norlyscustomer.net
 85.235.74.114 | host-85.235.74.114.kayizer.com
@@ -657,10 +658,10 @@
 91.108.241.160 | powerfulivory.ptr.network
 91.108.241.173 | periodic-appliance.ptr.network
 91.108.241.174 | nozehana.ptr.network
-91.108.241.190 | pacificsuit.ptr.network
+91.108.241.190 | establishedbron.ptr.network
 91.108.241.191 | spotlessyellow.ptr.network
 91.108.241.249 | vladislav.holly
-91.108.241.254 | lavish-country.ptr.network
+91.108.241.254 | tuapse2026.ptr.network
 91.184.240.2 | reserved-by-avm.ptr.network
 91.184.240.8 | nuttyvein.ptr.network
 91.184.240.13 | reserved-by-avm.ptr.network
@@ -683,7 +684,7 @@
 91.184.240.248 | reserved-by-avm.ptr.network
 91.184.241.1 | daily-top.ptr.network
 91.184.241.3 | early-station.ptr.network
-91.184.241.33 | reserved-by-avm.ptr.network
+91.184.241.33 | nikiforovmusic.ptr.network
 91.184.241.35 | reserved-by-avm.ptr.network
 91.184.241.40 | reserved-by-avm.ptr.network
 91.184.241.52 | reserved-by-avm.ptr.network
@@ -851,7 +852,7 @@
 104.244.74.96 | yikkes3
 106.51.89.49 | 106.51.89.49.actcorp.in
 106.75.62.22 | mail.nfmfiuhacofjc.com
-106.75.174.5 | fixnr.cn
+106.75.174.5 | optwosx.cn
 107.172.0.16 | uxsn.online
 107.172.0.160 | 107-172-0-160-host.colocrossing.com
 107.172.3.15 | 107-172-3-15-host.colocrossing.com
@@ -1665,7 +1666,7 @@
 202.142.139.58 | 202-142-139-58.ca8e8b.mel.nbn.aussiebb.net
 202.152.150.221 | 202-152-150-221.citra.net.id
 202.155.238.7 | grmail.greenradar.com
-202.155.238.11 | grmail.greenradar.com
+202.155.238.11 | mail.greenradar.com
 202.182.122.237 | 202.182.122.237.vultrusercontent.com
 203.118.152.146 | 203-118-152-146.ipnet.wave.co.nz
 203.153.66.75 | 203-153-66-75.flets.kamome.or.jp
