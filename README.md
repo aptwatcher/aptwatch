@@ -7,7 +7,7 @@
 <p align="center">Open-source threat intelligence database tracking Russian APT infrastructure.<br>Aggregates IOCs from OSINT sources, validates them against 10+ APIs, and serves live blocklist feeds.</p>
 
 <p align="center">
-  <code>threat-intelligence</code> · <code>apt</code> · <code>ioc</code> · <code>osint</code> · <code>cybersecurity</code> · <code>blocklist</code> · <code>firehol</code> · <code>pihole</code>
+  <code>threat-intelligence</code> · <code>apt</code> · <code>ioc</code> · <code>osint</code> · <code>cybersecurity</code> · <code>blocklist</code> · <code>firehol</code> · <code>pihole</code> · <code>feodotracker</code> · <code>emerging-threats</code>
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@ APT Watch is a threat intelligence platform that collects, validates, and distri
 The project provides three things:
 
 - **A database** of 5,700+ validated IPv4 IOCs, 6,900+ CIDR ranges, 1.5M+ domains, and 94 CVEs, cross-referenced with vulnerability scans and enrichment data
-- **Blocklist feeds** in standard formats (FireHOL, StevenBlack, plain text) that update automatically every 6 hours and can be plugged into firewalls, DNS sinkholes, and SIEM tools — including unified feeds (`aptw-*`) that merge our data with FireHOL, StevenBlack, URLhaus, AbuseIPDB, and Phishing.Database for broader coverage
+- **Blocklist feeds** in standard formats (FireHOL, StevenBlack, plain text) that update automatically every 6 hours and can be plugged into firewalls, DNS sinkholes, and SIEM tools — including unified feeds (`aptw-*`) that merge our data with FireHOL, Emerging Threats, Feodo Tracker, StevenBlack, URLhaus, AbuseIPDB, and Phishing.Database for broader coverage — plus DNS-resolved IPs and ISP-filtered reverse DNS for maximum visibility
 - **An interactive dashboard** at [aptwatch.org](https://aptwatch.org) for exploring the data directly in the browser
 
 ---
@@ -89,15 +89,15 @@ The easiest way to use APT Watch is to subscribe to the blocklist feeds. No setu
 
 ### Unified blocklists (APT Watch + external feeds — for Pi-hole, firewalls, etc.)
 
-These merge our APT-specific intelligence with major external threat feeds for broader protection. All entries are deduplicated and RFC1918-filtered.
+These merge our APT-specific intelligence with major external threat feeds for broader protection. All entries are deduplicated, RFC1918-filtered, and include resolved DNS data for maximum coverage.
 
 | Feed | Format | Sources | Link |
 |------|--------|---------|------|
-| All threat IPs | FireHOL .netset | APT Watch + FireHOL L1/L2 + AbuseIPDB | [aptw-full-ips.netset](https://aptwatch.org/blocklists/aptw-full-ips.netset) |
-| All threat domains | StevenBlack .hosts | APT Watch + StevenBlack + URLhaus + Phishing.Database | [aptw-full-domains.hosts](https://aptwatch.org/blocklists/aptw-full-domains.hosts) |
+| All threat IPs | FireHOL .netset | APT Watch + Resolved DNS + FireHOL L1/L2/webclient + ET compromised + Feodo Tracker + AbuseIPDB | [aptw-full-ips.netset](https://aptwatch.org/blocklists/aptw-full-ips.netset) |
+| All threat domains | StevenBlack .hosts | APT Watch + Reverse DNS + StevenBlack + URLhaus + Phishing.Database | [aptw-full-domains.hosts](https://aptwatch.org/blocklists/aptw-full-domains.hosts) |
 | All threat domains (plain) | Text | Same as above | [aptw-full-domains-plain.txt](https://aptwatch.org/blocklists/aptw-full-domains-plain.txt) |
 | Resolved IPs from domains | FireHOL .netset | DNS A records of malicious domains | [aptw-resolved-ips.netset](https://aptwatch.org/blocklists/aptw-resolved-ips.netset) |
-| Reverse DNS hostnames | StevenBlack .hosts | PTR records of malicious IPs | [aptw-reverse-dns.hosts](https://aptwatch.org/blocklists/aptw-reverse-dns.hosts) |
+| Reverse DNS hostnames | StevenBlack .hosts | PTR records of malicious IPs (ISP/dynamic filtered) | [aptw-reverse-dns.hosts](https://aptwatch.org/blocklists/aptw-reverse-dns.hosts) |
 | Cryptojacking mining pools | StevenBlack .hosts | 56K+ mining pool domains | [aptw-mining.hosts](https://aptwatch.org/blocklists/aptw-mining.hosts) |
 
 ### Firewall integration
@@ -209,8 +209,8 @@ The API at `api.aptwatch.org` serves blocklists, IOC lookups, and database downl
 | `GET /api/blocklist/subnets` | High-density /24 subnets |
 | `GET /api/blocklist/domains` | Malicious domains (StevenBlack .hosts) |
 | `GET /api/blocklist/combined` | IPs + domains combined |
-| `GET /api/blocklist/unified/ips` | Unified IPs (APT + FireHOL + AbuseIPDB) |
-| `GET /api/blocklist/unified/domains` | Unified domains (APT + StevenBlack + URLhaus) |
+| `GET /api/blocklist/unified/ips` | Unified IPs (APT + Resolved DNS + FireHOL L1/L2/webclient + ET + Feodo + AbuseIPDB) |
+| `GET /api/blocklist/unified/domains` | Unified domains (APT + Reverse DNS + StevenBlack + URLhaus) |
 | `GET /api/blocklist/unified/mining` | Cryptojacking mining pool domains |
 | `GET /api/blocklist/resolved` | IPs resolved from malicious domains |
 | `GET /api/blocklist/reverse` | Reverse DNS hostnames of malicious IPs |
@@ -328,7 +328,9 @@ APT Watch exists because of the OSINT community and the organizations that make 
 | [Censys Search](https://search.censys.io/) | Censys | Internet-wide scanning, certificate and host data |
 | [DShield / SANS ISC](https://isc.sans.edu/) | SANS Institute | Attack correlation, IP threat scoring |
 | [abuse.ch ThreatFox](https://threatfox.abuse.ch/) | abuse.ch | IOC sharing platform, malware-related indicators |
-| [FireHOL IP Lists](https://iplists.firehol.org/) | FireHOL / Costa Tsaousis | Curated, aggregated IP blocklists from 40+ sources |
+| [FireHOL IP Lists](https://iplists.firehol.org/) | FireHOL / Costa Tsaousis | Curated, aggregated IP blocklists from 40+ sources (L1, L2, webclient) |
+| [Emerging Threats](https://rules.emergingthreats.net/) | Proofpoint | Compromised IP blocklist from ET rulesets |
+| [Feodo Tracker](https://feodotracker.abuse.ch/) | abuse.ch | C2 botnet IPs (Dridex, Emotet, TrickBot, QakBot) |
 | [Steven Black Hosts](https://github.com/StevenBlack/hosts) | Steven Black | Unified hosts file with extensions for malware and adware domains |
 | [ip-api.com](https://ip-api.com/) | ip-api | Geolocation, ASN, and ISP data for enrichment |
 | [RDAP](https://about.rdap.org/) | ARIN / RIPE / APNIC | IP and domain registration data |
