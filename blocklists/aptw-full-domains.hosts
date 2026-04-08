@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-08 14:19:40
-# Entries: 481682
+# Generated: 2026-04-08 16:01:32
+# Entries: 481683
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -12945,7 +12945,6 @@
 0.0.0.0 2bint.net.ru
 0.0.0.0 2bint.pp.ru
 0.0.0.0 2bis1s3zd8xih.53244ds.xyz
-0.0.0.0 2bit.ch
 0.0.0.0 2bite.space
 0.0.0.0 2bitstowel.com
 0.0.0.0 2bittechnology.in
@@ -223464,6 +223463,7 @@
 0.0.0.0 ftp.ywxww.net
 0.0.0.0 ftpadmin.edv-stumpf.de
 0.0.0.0 ftpcontent.worldnow.com
+0.0.0.0 ftpemails.com
 0.0.0.0 ftpqbnsiahjyuyeh-dot-owaonk399399393.uk.r.appspot.com
 0.0.0.0 ftqdeoyfoevpzzqm-dot-millinium.ey.r.appspot.com
 0.0.0.0 ftran.nottinghamshakespearecompany.com
@@ -233811,6 +233811,7 @@
 0.0.0.0 google-proxy0528.freetw.filegear-sg.me
 0.0.0.0 google-safelink-urlhahay.com
 0.0.0.0 google-saveurl.com
+0.0.0.0 google-services.cc
 0.0.0.0 google-services.com.devland.cl
 0.0.0.0 google-services.github.io
 0.0.0.0 google-shopping-v2.sapoapps.vn
