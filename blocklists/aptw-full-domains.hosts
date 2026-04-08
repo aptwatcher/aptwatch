@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-08 02:35:19
-# Entries: 483368
+# Generated: 2026-04-08 03:09:22
+# Entries: 483371
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + Reverse DNS + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -31842,6 +31842,7 @@
 0.0.0.0 84ubd.ktt55.my.id
 0.0.0.0 84vxd.ktt55.my.id
 0.0.0.0 85-215-175-92.cprapid.com
+0.0.0.0 85-218-144-213.norlyscustomer.net
 0.0.0.0 85.10.201.66
 0.0.0.0 85.187.132.149
 0.0.0.0 85.187.151.229
@@ -146854,6 +146855,7 @@
 0.0.0.0 candid-anemone-zmwxgz.mystrikingly.com
 0.0.0.0 candid-mochi-db75bd.netlify.app
 0.0.0.0 candid-pudding-d20289.netlify.app
+0.0.0.0 candidatos.adqualis.com
 0.0.0.0 candidography.com
 0.0.0.0 candidshoot.in
 0.0.0.0 candied-flint-pawpaw.glitch.me
@@ -378779,6 +378781,7 @@
 0.0.0.0 pletomak.mypi.co
 0.0.0.0 plettering.web.app
 0.0.0.0 plevimax.esrujak.co
+0.0.0.0 plex.volyekb.ru
 0.0.0.0 pleximar.com
 0.0.0.0 plexportlexsystems.org
 0.0.0.0 plexy.top
@@ -440626,6 +440629,7 @@
 0.0.0.0 uppholdlgin-nav-en.pages.dev
 0.0.0.0 uppholdloginm.pages.dev
 0.0.0.0 upphuoldlogiuun.godaddysites.com
+0.0.0.0 uppitytongue.ptr.network
 0.0.0.0 uppollld-logoon.godaddysites.com
 0.0.0.0 uppsholds-logiii.godaddysites.com
 0.0.0.0 uppyads.com
@@ -445259,7 +445263,6 @@
 0.0.0.0 voluumtrk.com
 0.0.0.0 voluumtrk2.com
 0.0.0.0 voluumtrk3.com
-0.0.0.0 volyekb.ru
 0.0.0.0 vomalee.pro
 0.0.0.0 vomitgirl.org
 0.0.0.0 vonderlee.com

@@ -1,4 +1,4 @@
-# IP → Hostname mapping | Generated: 2026-04-08 02:12:19
+# IP → Hostname mapping | Generated: 2026-04-08 02:47:36
 # Format: ip | hostname
 #
 1.92.91.224 | ecs-1-92-91-224.compute.hwclouds-dns.com
@@ -569,8 +569,9 @@
 85.25.203.29 | samplusrenewal.com
 85.31.231.183 | srv917353.hstgr.cloud
 85.93.88.165 | bbb.edu-cisco.org
-85.115.173.194 | volyekb.ru
+85.115.173.194 | plex.volyekb.ru
 85.192.30.40 | newvpn.ptr.network
+85.218.144.213 | 85-218-144-213.norlyscustomer.net
 85.235.74.114 | host-85.235.74.114.kayizer.com
 85.239.52.32 | 6649653-qo825560.twc1.net
 85.239.151.121 | solidrate.ptr.network
@@ -706,7 +707,7 @@
 91.184.240.136 | reserved-by-avm.ptr.network
 91.184.240.144 | reserved-by-avm.ptr.network
 91.184.240.164 | reserved-by-avm.ptr.network
-91.184.240.176 | reserved-by-avm.ptr.network
+91.184.240.176 | uppitytongue.ptr.network
 91.184.240.183 | mutual-lace.ptr.network
 91.184.240.184 | reserved-by-avm.ptr.network
 91.184.240.185 | reserved-by-avm.ptr.network
@@ -1324,6 +1325,7 @@
 179.43.180.114 | hostedby.privatelayer.com
 179.43.180.115 | hostedby.privatelayer.com
 179.43.187.43 | hostedby.privatelayer.com
+179.61.251.125 | candidatos.adqualis.com
 179.126.29.245 | 179-126-029-245.xd-dynamic.algarnetsuper.com.br
 179.255.41.16 | 179-255-41-16.user3p.v-tal.net.br
 181.95.34.2 | host2.181-95-34.telecom.net.ar

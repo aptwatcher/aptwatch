@@ -1,7 +1,7 @@
 # Title: APT Watch Reverse DNS Blocklist
 # Description: Hostnames from reverse DNS of 6,486 malicious IPs
-# Generated: 2026-04-08 02:12:19
-# Entries: 1827
+# Generated: 2026-04-08 02:47:36
+# Entries: 1829
 # Method: Reverse DNS (PTR records) with 20 workers
 #
 0.0.0.0 ecs-1-92-91-224.compute.hwclouds-dns.com  # 1.92.91.224
@@ -572,8 +572,9 @@
 0.0.0.0 samplusrenewal.com  # 85.25.203.29
 0.0.0.0 srv917353.hstgr.cloud  # 85.31.231.183
 0.0.0.0 bbb.edu-cisco.org  # 85.93.88.165
-0.0.0.0 volyekb.ru  # 85.115.173.194
+0.0.0.0 plex.volyekb.ru  # 85.115.173.194
 0.0.0.0 newvpn.ptr.network  # 85.192.30.40
+0.0.0.0 85-218-144-213.norlyscustomer.net  # 85.218.144.213
 0.0.0.0 host-85.235.74.114.kayizer.com  # 85.235.74.114
 0.0.0.0 6649653-qo825560.twc1.net  # 85.239.52.32
 0.0.0.0 solidrate.ptr.network  # 85.239.151.121
@@ -709,7 +710,7 @@
 0.0.0.0 reserved-by-avm.ptr.network  # 91.184.240.136
 0.0.0.0 reserved-by-avm.ptr.network  # 91.184.240.144
 0.0.0.0 reserved-by-avm.ptr.network  # 91.184.240.164
-0.0.0.0 reserved-by-avm.ptr.network  # 91.184.240.176
+0.0.0.0 uppitytongue.ptr.network  # 91.184.240.176
 0.0.0.0 mutual-lace.ptr.network  # 91.184.240.183
 0.0.0.0 reserved-by-avm.ptr.network  # 91.184.240.184
 0.0.0.0 reserved-by-avm.ptr.network  # 91.184.240.185
@@ -1327,6 +1328,7 @@
 0.0.0.0 hostedby.privatelayer.com  # 179.43.180.114
 0.0.0.0 hostedby.privatelayer.com  # 179.43.180.115
 0.0.0.0 hostedby.privatelayer.com  # 179.43.187.43
+0.0.0.0 candidatos.adqualis.com  # 179.61.251.125
 0.0.0.0 179-126-029-245.xd-dynamic.algarnetsuper.com.br  # 179.126.29.245
 0.0.0.0 179-255-41-16.user3p.v-tal.net.br  # 179.255.41.16
 0.0.0.0 host2.181-95-34.telecom.net.ar  # 181.95.34.2
