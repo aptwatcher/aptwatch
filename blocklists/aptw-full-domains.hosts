@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-08 02:08:35
-# Entries: 483372
+# Generated: 2026-04-08 02:35:19
+# Entries: 483368
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + Reverse DNS + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -31842,7 +31842,6 @@
 0.0.0.0 84ubd.ktt55.my.id
 0.0.0.0 84vxd.ktt55.my.id
 0.0.0.0 85-215-175-92.cprapid.com
-0.0.0.0 85-218-144-213.norlyscustomer.net
 0.0.0.0 85.10.201.66
 0.0.0.0 85.187.132.149
 0.0.0.0 85.187.151.229
@@ -42221,7 +42220,6 @@
 0.0.0.0 accidental-amazing-fall.glitch.me
 0.0.0.0 accidental-cookie-safflower.glitch.me
 0.0.0.0 accidental-fan-curio.glitch.me
-0.0.0.0 accidental-hydrant.ptr.network
 0.0.0.0 accidental-mangrove-pantydraco.glitch.me
 0.0.0.0 accidental-unequaled-bandicoot.glitch.me
 0.0.0.0 accidentattorneysorange.com
@@ -146856,7 +146854,6 @@
 0.0.0.0 candid-anemone-zmwxgz.mystrikingly.com
 0.0.0.0 candid-mochi-db75bd.netlify.app
 0.0.0.0 candid-pudding-d20289.netlify.app
-0.0.0.0 candidatos.adqualis.com
 0.0.0.0 candidography.com
 0.0.0.0 candidshoot.in
 0.0.0.0 candied-flint-pawpaw.glitch.me
@@ -169054,7 +169051,6 @@
 0.0.0.0 crazyegg.com
 0.0.0.0 crazyforsakenrepo--carlosalberttos.repl.co
 0.0.0.0 crazyforsakenrepo.carlosalberttos.repl.co
-0.0.0.0 crazyhomes.ddns.net
 0.0.0.0 crazyindiandeals.com
 0.0.0.0 crazyjeeps.com
 0.0.0.0 crazyjellyfish.com
@@ -218469,7 +218465,6 @@
 0.0.0.0 fixmycellular.com
 0.0.0.0 fixmyslip.com
 0.0.0.0 fixmywallets.weebly.com
-0.0.0.0 fixnr.cn
 0.0.0.0 fixolojapcy.digital
 0.0.0.0 fixprotocolchain.com
 0.0.0.0 fixrestaurant.com
@@ -254353,8 +254348,6 @@
 0.0.0.0 host-5-104-218-21.infotech.at
 0.0.0.0 host-507901.world
 0.0.0.0 host-62-113-112-127.hosted-by-vdsina.ru
-0.0.0.0 host-80-180-123-169.pool80180.interbusiness.it
-0.0.0.0 host-80-182-36-252.pool80182.interbusiness.it
 0.0.0.0 host-85.235.74.114.kayizer.com
 0.0.0.0 host-92-27-75-224.static.as13285.net
 0.0.0.0 host-93-177-144-20.customer.magticom.ge
@@ -292581,7 +292574,6 @@
 0.0.0.0 labanqupostalplus.tmweb.ru
 0.0.0.0 labas-hl.de
 0.0.0.0 labashl.de
-0.0.0.0 labatr.cronup.com
 0.0.0.0 labbaykhaj-baneh.blogsky.com
 0.0.0.0 labbott.swissplus-fx.com
 0.0.0.0 labca.com.ar
@@ -312204,6 +312196,7 @@
 0.0.0.0 mail.grandselfie.com
 0.0.0.0 mail.grantedwriters.com
 0.0.0.0 mail.greatheavy.com.au
+0.0.0.0 mail.greenradar.com
 0.0.0.0 mail.greentradeenergy.za.com
 0.0.0.0 mail.grenderchallenmsger.org
 0.0.0.0 mail.grenlar-paret23.duckdns.org
@@ -312633,6 +312626,7 @@
 0.0.0.0 mail.i.10.i.medfile.eu.org
 0.0.0.0 mail.i.semvakimbonsai.biz.id
 0.0.0.0 mail.i1n.us
+0.0.0.0 mail.ibeasy23.xyz
 0.0.0.0 mail.ibkporinternet.com
 0.0.0.0 mail.ica-poetry.grubwhatsapp06.tk
 0.0.0.0 mail.iccu-verify.duckdns.org
@@ -321336,7 +321330,6 @@
 0.0.0.0 megawerbung.de
 0.0.0.0 megehod488.temp.swtest.ru
 0.0.0.0 megeofhedt.com
-0.0.0.0 megersexpress.com
 0.0.0.0 megftamasklogin.webflow.io
 0.0.0.0 meggamix.com.br
 0.0.0.0 megh-bari.github.io
@@ -363783,6 +363776,7 @@
 0.0.0.0 optusnets.weebly.com
 0.0.0.0 optusupdate.info
 0.0.0.0 optverify-supportau.com
+0.0.0.0 optwosx.cn
 0.0.0.0 optx10.com
 0.0.0.0 opuecvrqohxttizt-dot-millinium.ey.r.appspot.com
 0.0.0.0 opueezodecgsezeb-dot-millinium.ey.r.appspot.com
@@ -426914,6 +426908,7 @@
 0.0.0.0 spotkapidexaiapp.com
 0.0.0.0 spotlessstamp.com
 0.0.0.0 spotlessweb.com
+0.0.0.0 spotlessyellow.ptr.network
 0.0.0.0 spotlidex-es.fyi
 0.0.0.0 spotlidex200-es.fyi
 0.0.0.0 spotlight.tourpariz.net
@@ -445264,6 +445259,7 @@
 0.0.0.0 voluumtrk.com
 0.0.0.0 voluumtrk2.com
 0.0.0.0 voluumtrk3.com
+0.0.0.0 volyekb.ru
 0.0.0.0 vomalee.pro
 0.0.0.0 vomitgirl.org
 0.0.0.0 vonderlee.com
