@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-07 19:33:33
-# Entries: 484120
+# Generated: 2026-04-08 01:10:19
+# Entries: 484123
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + Reverse DNS + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -1066,7 +1066,6 @@
 0.0.0.0 0511.tglobales.cl
 0.0.0.0 051225.cn
 0.0.0.0 0512w4nokq.eu.loclx.io
-0.0.0.0 051516xx.vectorprospera.digital
 0.0.0.0 0517.info
 0.0.0.0 051b7f39-2035-4af6-9c1b-f9a5636c5e22.id.repl.co
 0.0.0.0 0520483.blob.core.windows.net
@@ -5839,7 +5838,6 @@
 0.0.0.0 149.210.143.165
 0.0.0.0 149.248.53.32
 0.0.0.0 149.248.58.196
-0.0.0.0 149.28.125.75.vultrusercontent.com
 0.0.0.0 149.28.133.245.vultrusercontent.com
 0.0.0.0 149.28.137.186
 0.0.0.0 149.28.147.111
@@ -8207,7 +8205,6 @@
 0.0.0.0 187-178-198-9-0.shop
 0.0.0.0 187.109.102.234
 0.0.0.0 187.152.2.50
-0.0.0.0 187.49.85.200.dipelnet.com.br
 0.0.0.0 187.73.86.172.static.cloudzy.com
 0.0.0.0 18702ff6.00agt8.shop
 0.0.0.0 18703-2488.s1.webspace.re
@@ -8508,7 +8505,6 @@
 0.0.0.0 192-3-3-160-host.colocrossing.com
 0.0.0.0 192-3-64-144-host.colocrossing.com
 0.0.0.0 192-3-96-75-host.colocrossing.com
-0.0.0.0 192-46-223-134.ip.linodeusercontent.com
 0.0.0.0 192.110.69.109.baremetal.zare.com
 0.0.0.0 192.117.9.22.static.012.net.il
 0.0.0.0 192.119.107.93
@@ -56020,7 +56016,6 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
-0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -107754,6 +107749,7 @@
 0.0.0.0 available001.com
 0.0.0.0 availableawshopp.net
 0.0.0.0 availablebiobit.gq
+0.0.0.0 availablecontrol.ptr.network
 0.0.0.0 availableenhancedupgrade9711.ga
 0.0.0.0 availableextensions.cyou
 0.0.0.0 availablei-baf8f3.ingress-florina.ewp.live
@@ -155380,7 +155376,6 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
-0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -167148,7 +167143,6 @@
 0.0.0.0 coordination-data-git-main-business-meta.vercel.app
 0.0.0.0 coordino.com
 0.0.0.0 coordparam.rest
-0.0.0.0 coorsamexico.mx
 0.0.0.0 coosaf.xyz
 0.0.0.0 coosawatteervshelters.top
 0.0.0.0 cootbie.com
@@ -169340,6 +169334,7 @@
 0.0.0.0 crazyegg.com
 0.0.0.0 crazyforsakenrepo--carlosalberttos.repl.co
 0.0.0.0 crazyforsakenrepo.carlosalberttos.repl.co
+0.0.0.0 crazyhomes.ddns.net
 0.0.0.0 crazyindiandeals.com
 0.0.0.0 crazyjeeps.com
 0.0.0.0 crazyjellyfish.com
@@ -186653,6 +186648,7 @@
 0.0.0.0 documents.dropbox.com.kolicutler.com
 0.0.0.0 documents.edoctransfer.com
 0.0.0.0 documents.hq-office.us
+0.0.0.0 documents.lat
 0.0.0.0 documents.projects-june.workers.dev
 0.0.0.0 documents.rutzcellars.com
 0.0.0.0 documents.savethenotes3.com
@@ -200899,6 +200895,7 @@
 0.0.0.0 esting.es
 0.0.0.0 estinro.pro
 0.0.0.0 estinwisec.rest
+0.0.0.0 estirarsobrelivro.online
 0.0.0.0 estocap.com.br
 0.0.0.0 estock.ci
 0.0.0.0 estofadoscamboriu.com.br
@@ -200914,6 +200911,7 @@
 0.0.0.0 estsensors.com
 0.0.0.0 estuarinestone.info
 0.0.0.0 estuary.zorinn.com
+0.0.0.0 estudarebomai.com
 0.0.0.0 estudiantes-isa.uva.es
 0.0.0.0 estudiantupdatea.weebly.com
 0.0.0.0 estudio.ythan.com.br
@@ -203804,6 +203802,7 @@
 0.0.0.0 excitableimpolitebucket.qdascasc11.repl.co
 0.0.0.0 excitableliquidbackslash.4806a9d17b.repl.co
 0.0.0.0 excite.us.intellitxt.com
+0.0.0.0 excited-competition.ptr.network
 0.0.0.0 excited-delicate-stamp.glitch.me
 0.0.0.0 excited-detailed-dentist.glitch.me
 0.0.0.0 excited-local-3705148296.pages.dev
@@ -206431,6 +206430,7 @@
 0.0.0.0 f8d3b0d4.qepfmq.shop
 0.0.0.0 f8d413f66262770da1480960b6.3wn3j1kc-gfarb-csl-otgrmoi-ynucfy.usrfiles.com
 0.0.0.0 f8d4f89165abf3819ba50d484135670b.serveo.net
+0.0.0.0 f8designstudio.com
 0.0.0.0 f8e269024b2855447.tempsite.link
 0.0.0.0 f8eb1e42e0e9ce50f5f550190d992c1a8f03b2dfe1ff315cad29db4477.pages.dev
 0.0.0.0 f8f53642-68fd-4e8c-a7fe-7b363395677c-00-12d0kp102xo62.janeway.replit.dev
@@ -224328,7 +224328,6 @@
 0.0.0.0 fruitionapps.top
 0.0.0.0 fruitlauncher.com
 0.0.0.0 fruitportlionsclub.com
-0.0.0.0 fruitsland.it
 0.0.0.0 fruitwinner.com
 0.0.0.0 frumentaceous-threa.000webhostapp.com
 0.0.0.0 fruminas.com.br
@@ -254735,7 +254734,6 @@
 0.0.0.0 host-507901.world
 0.0.0.0 host-62-113-112-127.hosted-by-vdsina.ru
 0.0.0.0 host-80-180-123-169.pool80180.interbusiness.it
-0.0.0.0 host-80-182-36-252.pool80182.interbusiness.it
 0.0.0.0 host-85.235.74.114.kayizer.com
 0.0.0.0 host-92-27-75-224.static.as13285.net
 0.0.0.0 host-93-177-144-20.customer.magticom.ge
@@ -254810,6 +254808,7 @@
 0.0.0.0 hosted-by.skillhost.pl
 0.0.0.0 hosted-ejz.pages.dev
 0.0.0.0 hosted-hispanic-being-meyer.trycloudflare.com
+0.0.0.0 hosted.by.pcextreme
 0.0.0.0 hosted.stats.com
 0.0.0.0 hosted.stats.com.edgesuite.net
 0.0.0.0 hostedads.realitykings.com
@@ -293124,6 +293123,7 @@
 0.0.0.0 labanqupostalplus.tmweb.ru
 0.0.0.0 labas-hl.de
 0.0.0.0 labashl.de
+0.0.0.0 labatr.cronup.com
 0.0.0.0 labbaykhaj-baneh.blogsky.com
 0.0.0.0 labbott.swissplus-fx.com
 0.0.0.0 labca.com.ar
@@ -313194,7 +313194,6 @@
 0.0.0.0 mail.i.10.i.medfile.eu.org
 0.0.0.0 mail.i.semvakimbonsai.biz.id
 0.0.0.0 mail.i1n.us
-0.0.0.0 mail.ibeasy23.xyz
 0.0.0.0 mail.ibkporinternet.com
 0.0.0.0 mail.ica-poetry.grubwhatsapp06.tk
 0.0.0.0 mail.iccu-verify.duckdns.org
@@ -321918,6 +321917,7 @@
 0.0.0.0 megawerbung.de
 0.0.0.0 megehod488.temp.swtest.ru
 0.0.0.0 megeofhedt.com
+0.0.0.0 megersexpress.com
 0.0.0.0 megftamasklogin.webflow.io
 0.0.0.0 meggamix.com.br
 0.0.0.0 megh-bari.github.io
@@ -351898,7 +351898,6 @@
 0.0.0.0 nikhilvkumar.com
 0.0.0.0 niki.code-karma.com
 0.0.0.0 nikiblaze.com
-0.0.0.0 nikiforovmusic.ptr.network
 0.0.0.0 nikilkh.github.io
 0.0.0.0 nikimezwh2021.000webhostapp.com
 0.0.0.0 nikitapawar20.github.io
@@ -355841,6 +355840,7 @@
 0.0.0.0 nutrikalia.com
 0.0.0.0 nutrilshop.net.tr.ht
 0.0.0.0 nutrired.org
+0.0.0.0 nutrisc.com.br
 0.0.0.0 nutrisilviaramos.com.br
 0.0.0.0 nutrisincera.com
 0.0.0.0 nutritionalapproaches.com
@@ -388318,6 +388318,7 @@
 0.0.0.0 protexiagpt-app.com
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 prothokkracic.info
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
@@ -427394,6 +427395,7 @@
 0.0.0.0 spirapalle.rest
 0.0.0.0 spire.aarki.net
 0.0.0.0 spirebaboon.com
+0.0.0.0 spirit.ashgrove.icu
 0.0.0.0 spiritbreathup.info
 0.0.0.0 spiritclassichomes.com
 0.0.0.0 spiritcoreupd.info
@@ -435764,7 +435766,6 @@
 0.0.0.0 ticm.sap0508x9v.vip
 0.0.0.0 ticm.tap0297p8b.top
 0.0.0.0 ticolatonisan.pages.dev
-0.0.0.0 ticpc8a.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 ticskwsythree.icu
 0.0.0.0 tictocautoparts.com
@@ -438198,6 +438199,7 @@
 0.0.0.0 tredir.go.com
 0.0.0.0 tredzoriostart.webflow.io
 0.0.0.0 tredzoriostartu.webflow.io
+0.0.0.0 tree.immortalday.life
 0.0.0.0 treehousef.vercel.app
 0.0.0.0 treehousetravelers.com
 0.0.0.0 treeizor-hardware.webflow.io
@@ -441729,7 +441731,6 @@
 0.0.0.0 usede.shop
 0.0.0.0 usedirect.adsrvr.org
 0.0.0.0 useful-ledger-cdn.teachable.com
-0.0.0.0 usefulamethyst.ptr.network
 0.0.0.0 usefulhumanity.com
 0.0.0.0 usemax.de
 0.0.0.0 usenpita.122.2o7.net
@@ -443524,6 +443525,7 @@
 0.0.0.0 vagdevi-42.github.io
 0.0.0.0 vagelmasti.rest
 0.0.0.0 vagler.ru
+0.0.0.0 vagner.site
 0.0.0.0 vagrowlark.vercel.app
 0.0.0.0 vahdatfar.click
 0.0.0.0 vahlallha.duckdns.org
@@ -444444,6 +444446,7 @@
 0.0.0.0 vgurushetty.github.io
 0.0.0.0 vh12183.vh.net.pl
 0.0.0.0 vh1com.112.2o7.net
+0.0.0.0 vh47kmg3.nexuspatronage.digital
 0.0.0.0 vhdhnaawvciby0n3783.theabovedomain.com
 0.0.0.0 vhes-ncllulki-ncllulki-vhes.jindunqst.com
 0.0.0.0 vhguyeu.ml
@@ -445982,6 +445985,7 @@
 0.0.0.0 voloqr.site
 0.0.0.0 volplpatin.rest
 0.0.0.0 volstrenkida.info
+0.0.0.0 voltamos.site
 0.0.0.0 voltek35.com
 0.0.0.0 voltixedge-es.fyi
 0.0.0.0 voltixedge.net
@@ -445997,7 +446001,6 @@
 0.0.0.0 voluumtrk.com
 0.0.0.0 voluumtrk2.com
 0.0.0.0 voluumtrk3.com
-0.0.0.0 volyekb.ru
 0.0.0.0 vomalee.pro
 0.0.0.0 vomitgirl.org
 0.0.0.0 vonderlee.com
@@ -476694,7 +476697,6 @@
 0.0.0.0 www.tobrilo.pro
 0.0.0.0 www.todaeynewpd.com
 0.0.0.0 www.today.lystatic.com
-0.0.0.0 www.todayallmatchprediction.com
 0.0.0.0 www.todexdgp.info
 0.0.0.0 www.todolize.com
 0.0.0.0 www.toe-corrector-pl.com
@@ -483314,6 +483316,7 @@
 0.0.0.0 zanox.com
 0.0.0.0 zantracker.com
 0.0.0.0 zantrymora.pro
+0.0.0.0 zanyturkey.ptr.network
 0.0.0.0 zaopatrzeni.com
 0.0.0.0 zapachowelove.pl
 0.0.0.0 zapachymarzen.pl

@@ -1,4 +1,4 @@
-# IP → Hostname mapping | Generated: 2026-04-07 19:11:32
+# IP → Hostname mapping | Generated: 2026-04-08 00:47:23
 # Format: ip | hostname
 #
 1.92.91.224 | ecs-1-92-91-224.compute.hwclouds-dns.com
@@ -25,7 +25,7 @@
 2.49.150.25 | bba-2-49-150-25.alshamil.net.ae
 2.56.166.131 | 131.166.56.2.speedyvps.uk
 2.57.241.11 | 11.241.57.2.sg2.servers.guru
-2.58.14.98 | mail.ibeasy23.xyz
+2.58.14.98 | megersexpress.com
 2.58.56.179 | 2.58.56.179.powered.by
 2.58.56.237 | 2.58.56.237.powered.by.rdp.sh
 2.70.111.62 | 2.70.111.62.mobile.tre.se
@@ -283,7 +283,7 @@
 45.159.250.100 | vm4510987.example.com
 45.185.208.131 | 131st3798.jzjverse.us.com
 45.226.189.64 | 64.189.226.45.static.cyss.com.br
-45.236.130.138 | alef.local
+45.236.130.138 | labatr.cronup.com
 46.8.210.188 | 632832.cloud4box.ru
 46.19.143.10 | hostedby.privatelayer.com
 46.29.234.46 | 24276.ip-ptr.tech
@@ -501,7 +501,6 @@
 80.85.154.56 | antananarivue.pserver.space
 80.89.224.13 | 80-89-224-13.netherlands-3.vps.ac
 80.180.123.169 | host-80-180-123-169.pool80180.interbusiness.it
-80.182.36.252 | host-80-182-36-252.pool80182.interbusiness.it
 81.4.110.80 | 81-4-110-80.cloud.ramnode.com
 81.17.24.234 | hostedby.privatelayer.com
 81.19.136.61 | 4925051-en88475.twc1.net
@@ -538,7 +537,7 @@
 85.25.203.29 | samplusrenewal.com
 85.31.231.183 | srv917353.hstgr.cloud
 85.93.88.165 | bbb.edu-cisco.org
-85.115.173.194 | volyekb.ru
+85.115.173.194 | crazyhomes.ddns.net
 85.192.30.40 | newvpn.ptr.network
 85.218.144.213 | 85-218-144-213.norlyscustomer.net
 85.235.74.114 | host-85.235.74.114.kayizer.com
@@ -666,9 +665,9 @@
 91.184.240.8 | nuttyvein.ptr.network
 91.184.240.13 | reserved-by-avm.ptr.network
 91.184.240.17 | reserved-by-avm.ptr.network
-91.184.240.24 | usefulamethyst.ptr.network
+91.184.240.24 | excited-competition.ptr.network
 91.184.240.50 | toutedbeginner.ptr.network
-91.184.240.62 | reserved-by-avm.ptr.network
+91.184.240.62 | availablecontrol.ptr.network
 91.184.240.87 | uraharastock.ptr.network
 91.184.240.91 | typicalmoccasin.ptr.network
 91.184.240.98 | reserved-by-avm.ptr.network
@@ -679,12 +678,12 @@
 91.184.240.176 | reserved-by-avm.ptr.network
 91.184.240.183 | mutual-lace.ptr.network
 91.184.240.184 | reserved-by-avm.ptr.network
-91.184.240.185 | reserved-by-avm.ptr.network
+91.184.240.185 | zanyturkey.ptr.network
 91.184.240.207 | reserved-by-avm.ptr.network
 91.184.240.248 | reserved-by-avm.ptr.network
 91.184.241.1 | daily-top.ptr.network
 91.184.241.3 | early-station.ptr.network
-91.184.241.33 | nikiforovmusic.ptr.network
+91.184.241.33 | reserved-by-avm.ptr.network
 91.184.241.35 | reserved-by-avm.ptr.network
 91.184.241.40 | reserved-by-avm.ptr.network
 91.184.241.52 | reserved-by-avm.ptr.network
@@ -896,6 +895,7 @@
 108.61.229.202 | 108.61.229.202.vultrusercontent.com
 108.160.140.175 | 108.160.140.175.vultrusercontent.com
 109.69.110.192 | 192.110.69.109.baremetal.zare.com
+109.72.93.55 | hosted.by.pcextreme
 109.107.175.64 | v666497.hosted-by-vdsina.com
 109.120.179.109 | propercyan.ptr.network
 109.123.227.162 | vmi2840035.contaboserver.net
@@ -1075,7 +1075,6 @@
 148.135.138.44 | srv1232563.hstgr.cloud
 148.251.53.222 | halebopp.insecure.guru
 148.251.55.246 | static.246.55.251.148.clients.your-server.de
-149.28.125.75 | 149.28.125.75.vultrusercontent.com
 149.28.133.245 | 149.28.133.245.vultrusercontent.com
 149.28.238.222 | 149.28.238.222.vultrusercontent.com
 149.34.27.137 | cli-95221b89.wholesale.adamo.es
@@ -1482,7 +1481,6 @@
 186.212.31.203 | 186.212.31.203.static.host.gvt.net.br
 186.249.218.142 | 186-249-218-142.directwifi.com.br
 187.45.190.244 | datahub.unifecaf.edu.br
-187.49.85.200 | 187.49.85.200.dipelnet.com.br
 188.40.187.134 | 134.187.40.188.sinkhole.caad.fkie.fraunhofer.de
 188.93.210.54 | 188-93-210-54.cloudvps.regruhosting.ru
 188.93.233.42 | tgarale
@@ -1525,7 +1523,6 @@
 192.3.220.21 | 192-3-220-21-host.colocrossing.com
 192.3.233.207 | 192-3-233-207-host.colocrossing.com
 192.3.243.155 | 192-3-243-155-host.colocrossing.com
-192.46.223.134 | 192-46-223-134.ip.linodeusercontent.com
 192.64.115.155 | background-current.quarantine-pnap.web-hosting.com
 192.109.228.168 | s53662.vps.hosting
 192.117.9.22 | 192.117.9.22.static.012.net.il
