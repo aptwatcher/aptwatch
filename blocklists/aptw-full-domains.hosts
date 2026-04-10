@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-08 16:06:05
-# Entries: 481683
+# Generated: 2026-04-10 15:39:54
+# Entries: 481681
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -70029,6 +70029,7 @@
 0.0.0.0 amperautos.com
 0.0.0.0 ampesc.org.br
 0.0.0.0 ampesmart.com
+0.0.0.0 ampgg.bossjy.cc.cd
 0.0.0.0 ampguest.anakembok.de
 0.0.0.0 amph00.z13.web.core.windows.net
 0.0.0.0 ampheaven.net
@@ -88874,6 +88875,7 @@
 0.0.0.0 asiacross.jp
 0.0.0.0 asiadiscoversolutions.azureedge.net
 0.0.0.0 asiaecobiz.com
+0.0.0.0 asiaengrs.com
 0.0.0.0 asiafoodco.com
 0.0.0.0 asiahost.eu.org
 0.0.0.0 asiainspection.122.2o7.net
@@ -121566,7 +121568,6 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
-0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -135111,6 +135112,7 @@
 0.0.0.0 boosoegrplofo.cf
 0.0.0.0 boost-pro.net
 0.0.0.0 boost.mobileposse.com
+0.0.0.0 boost.newrock.life
 0.0.0.0 boostalist-yd.pandljs.workers.dev
 0.0.0.0 boostaloxi-ai.fyi
 0.0.0.0 boostaloxi-it.fyi
@@ -135490,7 +135492,6 @@
 0.0.0.0 bot-tiktok.website
 0.0.0.0 bot.4echo.co
 0.0.0.0 bot.alkabits.com.br
-0.0.0.0 bot.cdnlivechatinc.com
 0.0.0.0 bot.drohoucrea.sa.com
 0.0.0.0 bot.esb.mybluehost.me
 0.0.0.0 bot.fandt.ru
@@ -144276,6 +144277,7 @@
 0.0.0.0 c2.gostats.com
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -148649,7 +148651,6 @@
 0.0.0.0 ccccjghgttt45ggfgtf.web.app
 0.0.0.0 cccdiscounts.shop
 0.0.0.0 ccceu.shop
-0.0.0.0 cccimg.com
 0.0.0.0 cccjv.myftp.biz
 0.0.0.0 cccmke-secure-pdf.cf
 0.0.0.0 cccs-pl.shop
@@ -149792,7 +149793,6 @@
 0.0.0.0 cdnimg.act31.com
 0.0.0.0 cdnimg.izooto.com
 0.0.0.0 cdnjs.tvpage.com
-0.0.0.0 cdnlivechatinc.com
 0.0.0.0 cdnln.pages.dev
 0.0.0.0 cdnmage.com
 0.0.0.0 cdnmedia.xyz
@@ -154346,7 +154346,6 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
-0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -169123,6 +169122,7 @@
 0.0.0.0 crowdignite.com
 0.0.0.0 crowdly.xyz
 0.0.0.0 crowdsmartservices.co.uk
+0.0.0.0 crowe-avvens.site
 0.0.0.0 crowe-my.com
 0.0.0.0 crowesnestcreative.crowesnestblog.com
 0.0.0.0 crown-fundmere.fyi
@@ -183768,7 +183768,6 @@
 0.0.0.0 djankouloances.com
 0.0.0.0 djanthor.com
 0.0.0.0 djasanet.id
-0.0.0.0 djasdajnsdnjgjg.com
 0.0.0.0 djaseel.club
 0.0.0.0 djb3ihdv.ktt55.my.id
 0.0.0.0 djb3oh.ktt55.my.id
@@ -185546,7 +185545,6 @@
 0.0.0.0 documents.dropbox.com.kolicutler.com
 0.0.0.0 documents.edoctransfer.com
 0.0.0.0 documents.hq-office.us
-0.0.0.0 documents.lat
 0.0.0.0 documents.projects-june.workers.dev
 0.0.0.0 documents.rutzcellars.com
 0.0.0.0 documents.savethenotes3.com
@@ -190095,7 +190093,6 @@
 0.0.0.0 e-hosting.hut1.ru
 0.0.0.0 e-hpaces.ero-advertising.com
 0.0.0.0 e-iade-mobil-kampanyam-online.ml
-0.0.0.0 e-ifanyi.com
 0.0.0.0 e-ilkevim.com
 0.0.0.0 e-imagesource.com
 0.0.0.0 e-impotcf-connectgouvfr-rf-fr.shop
@@ -199669,7 +199666,6 @@
 0.0.0.0 esting.es
 0.0.0.0 estinro.pro
 0.0.0.0 estinwisec.rest
-0.0.0.0 estirarsobrelivro.online
 0.0.0.0 estocap.com.br
 0.0.0.0 estock.ci
 0.0.0.0 estofadoscamboriu.com.br
@@ -199685,7 +199681,6 @@
 0.0.0.0 estsensors.com
 0.0.0.0 estuarinestone.info
 0.0.0.0 estuary.zorinn.com
-0.0.0.0 estudarebomai.com
 0.0.0.0 estudiantes-isa.uva.es
 0.0.0.0 estudiantupdatea.weebly.com
 0.0.0.0 estudio.ythan.com.br
@@ -209889,6 +209884,7 @@
 0.0.0.0 fast.mtvn.demdex.net
 0.0.0.0 fast.nbcots.demdex.net
 0.0.0.0 fast.nbcu.demdex.net
+0.0.0.0 fast.newrock.life
 0.0.0.0 fast.nrjgroup.demdex.net
 0.0.0.0 fast.philly.demdex.net
 0.0.0.0 fast.td.demdex.net
@@ -213385,7 +213381,6 @@
 0.0.0.0 fdreyb.pages.dev
 0.0.0.0 fdrptdrmtueidpis-dot-millinium.ey.r.appspot.com
 0.0.0.0 fdryu5.pages.dev
-0.0.0.0 fdsafa.best
 0.0.0.0 fdsbvb4857-com.preview-domain.com
 0.0.0.0 fdscvg.lwjgorv.cn
 0.0.0.0 fdscxb.ffyioes.cn
@@ -216101,7 +216096,6 @@
 0.0.0.0 fileee.s3.us-south.cloud-object-storage.appdomain.cloud
 0.0.0.0 filefilegogyuiuytyuy.gleeze.com
 0.0.0.0 filefortune.com
-0.0.0.0 filehost.sbs
 0.0.0.0 filehubs.com
 0.0.0.0 fileice.net
 0.0.0.0 fileinc.github.io
@@ -227631,7 +227625,6 @@
 0.0.0.0 geddes.tk
 0.0.0.0 geddsinproducts.com
 0.0.0.0 gedebois.be
-0.0.0.0 gededewe.shop
 0.0.0.0 gedeepublicschool.edu.in
 0.0.0.0 gedfdfsd.eu
 0.0.0.0 gedvjibfpiaprklw-dot-millinium.ey.r.appspot.com
@@ -232958,6 +232951,8 @@
 0.0.0.0 go4organic.coffee
 0.0.0.0 go5fi.lspower.xyz
 0.0.0.0 go5gnow.com
+0.0.0.0 go5z.my
+0.0.0.0 go6.my
 0.0.0.0 go643gleds.ttweb.xyz
 0.0.0.0 go777site.com
 0.0.0.0 go83543.davefolts.com
@@ -233021,6 +233016,7 @@
 0.0.0.0 gobiernoygestion.com.mx
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -240299,6 +240295,7 @@
 0.0.0.0 grupokiara.smarticali.com
 0.0.0.0 grupolmi.com
 0.0.0.0 grupomapv.com.co
+0.0.0.0 grupomcperu.com
 0.0.0.0 grupomdt.com.br
 0.0.0.0 grupomedimagen.com
 0.0.0.0 grupomg.com.ar
@@ -245107,6 +245104,7 @@
 0.0.0.0 hasszdc.duckdns.org
 0.0.0.0 hasszdd.duckdns.org
 0.0.0.0 hastagmedia.com
+0.0.0.0 hasteb.in
 0.0.0.0 hastebin.stamm.me
 0.0.0.0 hastenestate.com
 0.0.0.0 hastiro.in
@@ -265683,6 +265681,7 @@
 0.0.0.0 innovid.com.akadns.net
 0.0.0.0 innovid.com.edgekey.net
 0.0.0.0 innovixxa.vercel.app
+0.0.0.0 innovspora.co.zw
 0.0.0.0 innovvationswiss.com
 0.0.0.0 innowacyjnefirmy.pl
 0.0.0.0 innsstagraam.000webhostapp.com
@@ -270105,6 +270104,7 @@
 0.0.0.0 iridescent-raindrop-eac851.netlify.app
 0.0.0.0 iridescent-righteous-alloy.glitch.me
 0.0.0.0 iridescent-rugelach-2259db.netlify.app
+0.0.0.0 iridiacheats.dev
 0.0.0.0 iridopupilla.fun
 0.0.0.0 irienkede.com
 0.0.0.0 irihi.cf
@@ -276522,7 +276522,6 @@
 0.0.0.0 job.com.pe
 0.0.0.0 job.lom7kbvrrz-gjy3megkv68q.p.runcloud.link
 0.0.0.0 job.misecure.com
-0.0.0.0 job.recentbox.life
 0.0.0.0 job.thebunionhill.com
 0.0.0.0 jobally1805.firstcomdemolinks.com
 0.0.0.0 jobassam.org.md-in-90.webhostbox.net
@@ -284475,6 +284474,7 @@
 0.0.0.0 kerryduncan2-live.php5.hostingweb.co.uk
 0.0.0.0 kerryequistead-cz.com
 0.0.0.0 kerryequistead-cz.fyi
+0.0.0.0 kerryglow.info
 0.0.0.0 kers-gr-wild-fog-6989.masayoschinuki.workers.dev
 0.0.0.0 kersen.co.id
 0.0.0.0 kershnerinc.com
@@ -300234,7 +300234,6 @@
 0.0.0.0 lmkrto.site
 0.0.0.0 lmkw.azurewebsites.net
 0.0.0.0 lmkxnmjhpsxvqijr-dot-millinium.ey.r.appspot.com
-0.0.0.0 lmlawcorp.com
 0.0.0.0 lmlcas.com
 0.0.0.0 lmlenzitrasporti.com
 0.0.0.0 lmlragfqqjmmjxaf-dot-millinium.ey.r.appspot.com
@@ -328699,6 +328698,7 @@
 0.0.0.0 mhappensgebeng.co.za
 0.0.0.0 mhasnainiftikhar.github.io
 0.0.0.0 mhatre-doc4758839222-spreadsheet.weebly.com
+0.0.0.0 mhatuminerals.africa
 0.0.0.0 mhb.ghe.mybluehost.me
 0.0.0.0 mhb9kkyn.vercel.app
 0.0.0.0 mhbhbvcuyr.duckdns.org
@@ -353122,6 +353122,7 @@
 0.0.0.0 nrlynudjwxpftolh-dot-glexcel1.ue.r.appspot.com
 0.0.0.0 nrmcnhdbjyzojwwr-dot-millinium.ey.r.appspot.com
 0.0.0.0 nrmhb.blogspot.am
+0.0.0.0 nrmlogistics.ro
 0.0.0.0 nrmvyhuz.cyou
 0.0.0.0 nrncf.blogspot.sn
 0.0.0.0 nrndsdbtkpwmklic-dot-millinium.ey.r.appspot.com
@@ -358025,7 +358026,6 @@
 0.0.0.0 ok-bonusesfera.hopto.org
 0.0.0.0 ok-outlet.com
 0.0.0.0 ok-postoffice.com
-0.0.0.0 ok-vsefotki.online
 0.0.0.0 ok.5.p2l.info
 0.0.0.0 ok.andaydin.com
 0.0.0.0 ok.com.eac.by
@@ -359499,7 +359499,6 @@
 0.0.0.0 one.devicemng.eu
 0.0.0.0 one.drive-share.workers.dev
 0.0.0.0 one.emblem.gr
-0.0.0.0 one.immortalday.life
 0.0.0.0 one.juniorsvote.com
 0.0.0.0 one.kauf.gr
 0.0.0.0 one.link
@@ -360914,7 +360913,6 @@
 0.0.0.0 onlinetdcard.com
 0.0.0.0 onlinetdsec02a.com
 0.0.0.0 onlineteamservices.com
-0.0.0.0 onlinetenderconfirmation.vip
 0.0.0.0 onlinetheology.com
 0.0.0.0 onlinetk-store.com
 0.0.0.0 onlinetlixlemleri.org
@@ -368338,7 +368336,6 @@
 0.0.0.0 paper-architecture.com
 0.0.0.0 paper-steadfast-supply.glitch.me
 0.0.0.0 paper-work.ga
-0.0.0.0 paper.recentbox.life
 0.0.0.0 paper.sa
 0.0.0.0 paperart.ca
 0.0.0.0 paperbacksociety.com
@@ -383436,6 +383433,7 @@
 0.0.0.0 prenblog.com
 0.0.0.0 prencepal.com
 0.0.0.0 prendsovra.rest
+0.0.0.0 prennixo.com
 0.0.0.0 prenocisca-kocar.si
 0.0.0.0 prenocontr.rest
 0.0.0.0 prenotami24.it
@@ -397986,6 +397984,7 @@
 0.0.0.0 quickloansbadcredit.org
 0.0.0.0 quicklook.cyou
 0.0.0.0 quickly-app.shop
+0.0.0.0 quickly.newrock.life
 0.0.0.0 quicklyxsuggestions.com
 0.0.0.0 quickmailservice331516277272772.weebly.com
 0.0.0.0 quickmailsport.editorx.io
@@ -421073,6 +421072,7 @@
 0.0.0.0 selvikrontgreetval.info
 0.0.0.0 selvioquant-app.com
 0.0.0.0 selvo.theworkitcentre.com
+0.0.0.0 selyoptik.ro
 0.0.0.0 sem.coheathou.ru.com
 0.0.0.0 sem.searchteria.co.jp
 0.0.0.0 semana-especial.store
@@ -421935,7 +421935,6 @@
 0.0.0.0 sghealthtendersuae.com
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
-0.0.0.0 sgindustries.lk
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgmedia.adspirit.net
 0.0.0.0 sgmodderins.vercel.app
@@ -425434,7 +425433,6 @@
 0.0.0.0 spirapalle.rest
 0.0.0.0 spire.aarki.net
 0.0.0.0 spirebaboon.com
-0.0.0.0 spirit.ashgrove.icu
 0.0.0.0 spiritbreathup.info
 0.0.0.0 spiritclassichomes.com
 0.0.0.0 spiritcoreupd.info
@@ -425501,7 +425499,6 @@
 0.0.0.0 spnet2-1.i-mobile.co.jp
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
-0.0.0.0 spoar.org.in
 0.0.0.0 spodnice.shop
 0.0.0.0 spoglinnat.rest
 0.0.0.0 spokeo.pl
@@ -428000,6 +427997,7 @@
 0.0.0.0 statutory-inc-genetic-one.trycloudflare.com
 0.0.0.0 statutrust-disciplinarym-fds1410vc.netlify.app
 0.0.0.0 statxpress.com
+0.0.0.0 stawel.terrae.rest
 0.0.0.0 stay-happy-tyceu.owlrd.ru
 0.0.0.0 stay-reserv93881.com
 0.0.0.0 stay.decentralappps.com
@@ -428497,6 +428495,7 @@
 0.0.0.0 stone-chill-beauty.glitch.me
 0.0.0.0 stone-hollow.pages.dev
 0.0.0.0 stone-ridge-7m7.pages.dev
+0.0.0.0 stone.newrock.life
 0.0.0.0 stonebriarentertainmentgroup.com
 0.0.0.0 stonebridgealongriver.digital
 0.0.0.0 stonecradle.com
@@ -433471,6 +433470,7 @@
 0.0.0.0 thgame.flygame.io
 0.0.0.0 thibit.digital
 0.0.0.0 thiccnigga.me
+0.0.0.0 thickentributary.digital
 0.0.0.0 thicknot.click
 0.0.0.0 thickporter.sa.com
 0.0.0.0 thiepn.com
@@ -434620,7 +434620,6 @@
 0.0.0.0 top.nationalsdeliverysolutions.com
 0.0.0.0 top.oewabox.at
 0.0.0.0 top.proext.com
-0.0.0.0 top.recentbox.life
 0.0.0.0 top.theecononc.com
 0.0.0.0 top10-ten.vercel.app
 0.0.0.0 top100-hits.de
@@ -435673,7 +435672,6 @@
 0.0.0.0 trader-krenix-pl.sbs
 0.0.0.0 traderai-ai-fr.fyi
 0.0.0.0 traderai-fr.fyi
-0.0.0.0 traderhype.com
 0.0.0.0 traderjoexyz.bylfg.org
 0.0.0.0 traderlidex-8-com.worldsoffinance.com
 0.0.0.0 traderprof.best
@@ -436005,7 +436003,6 @@
 0.0.0.0 tredir.go.com
 0.0.0.0 tredzoriostart.webflow.io
 0.0.0.0 tredzoriostartu.webflow.io
-0.0.0.0 tree.immortalday.life
 0.0.0.0 treehousef.vercel.app
 0.0.0.0 treehousetravelers.com
 0.0.0.0 treeizor-hardware.webflow.io
@@ -441594,6 +441591,7 @@
 0.0.0.0 vcbfdfdrt-3qercwz0jn.edgeone.app
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
+0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
@@ -442168,7 +442166,6 @@
 0.0.0.0 vgurushetty.github.io
 0.0.0.0 vh12183.vh.net.pl
 0.0.0.0 vh1com.112.2o7.net
-0.0.0.0 vh47kmg3.nexuspatronage.digital
 0.0.0.0 vhdhnaawvciby0n3783.theabovedomain.com
 0.0.0.0 vhes-ncllulki-ncllulki-vhes.jindunqst.com
 0.0.0.0 vhguyeu.ml
@@ -443623,7 +443620,6 @@
 0.0.0.0 voloqr.site
 0.0.0.0 volplpatin.rest
 0.0.0.0 volstrenkida.info
-0.0.0.0 voltamos.site
 0.0.0.0 voltek35.com
 0.0.0.0 voltixedge-es.fyi
 0.0.0.0 voltixedge.net
@@ -444795,6 +444791,7 @@
 0.0.0.0 wb-cde.bond
 0.0.0.0 wb.interpolls.com
 0.0.0.0 wbads.vo.llnwd.net
+0.0.0.0 wbanking.coop15abril.fin.ec
 0.0.0.0 wbapp.mobile.sina.cn
 0.0.0.0 wbavzdqrpaq.tauzetaomega.org
 0.0.0.0 wberfbd.duckdns.org
@@ -459035,7 +459032,6 @@
 0.0.0.0 www.globalbuffer.com
 0.0.0.0 www.globalbulletinhub.com
 0.0.0.0 www.globalcharge.com
-0.0.0.0 www.globalchat.site
 0.0.0.0 www.globalclimatewatchcx.info
 0.0.0.0 www.globalex-soft.com
 0.0.0.0 www.globalglidelogistics.com
@@ -460114,6 +460110,7 @@
 0.0.0.0 www.hmsolutions.space
 0.0.0.0 www.hmuana.com
 0.0.0.0 www.hmusprost.rest
+0.0.0.0 www.hna-ksa.com
 0.0.0.0 www.hnayfs.com
 0.0.0.0 www.hnjrlg.com
 0.0.0.0 www.hnjsyg.com
@@ -464057,6 +464054,7 @@
 0.0.0.0 www.metricsimage.com
 0.0.0.0 www.metropolitanwear.shop
 0.0.0.0 www.metspa.cam
+0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mewihiypa.autos
 0.0.0.0 www.mexarodulin.com
 0.0.0.0 www.mexastronaut.com
