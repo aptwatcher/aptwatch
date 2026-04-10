@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-10 15:48:16
-# Entries: 481681
+# Generated: 2026-04-10 18:31:02
+# Entries: 481679
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -88875,7 +88875,6 @@
 0.0.0.0 asiacross.jp
 0.0.0.0 asiadiscoversolutions.azureedge.net
 0.0.0.0 asiaecobiz.com
-0.0.0.0 asiaengrs.com
 0.0.0.0 asiafoodco.com
 0.0.0.0 asiahost.eu.org
 0.0.0.0 asiainspection.122.2o7.net
@@ -144277,7 +144276,6 @@
 0.0.0.0 c2.gostats.com
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -148036,6 +148034,7 @@
 0.0.0.0 catatajabangdinotepad.ml
 0.0.0.0 cataventus.org.br
 0.0.0.0 cataxrefcd19.com
+0.0.0.0 catbaparadisehotel.com.vn
 0.0.0.0 catboettcher.com
 0.0.0.0 catchcommunications.co.uk
 0.0.0.0 catchfishcavan.com
@@ -154346,6 +154345,7 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
+0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -187673,6 +187673,7 @@
 0.0.0.0 drgrossu.md
 0.0.0.0 drhankdelivered.com
 0.0.0.0 drharisinghjachak.com
+0.0.0.0 drhenrylopez.com
 0.0.0.0 drhhfddbwy.duckdns.org
 0.0.0.0 dricodavila.com
 0.0.0.0 driectjp-jeopa00.com
@@ -223080,7 +223081,6 @@
 0.0.0.0 fruitionapps.top
 0.0.0.0 fruitlauncher.com
 0.0.0.0 fruitportlionsclub.com
-0.0.0.0 fruitsland.it
 0.0.0.0 fruitwinner.com
 0.0.0.0 frumentaceous-threa.000webhostapp.com
 0.0.0.0 fruminas.com.br
@@ -233016,7 +233016,6 @@
 0.0.0.0 gobiernoygestion.com.mx
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -292830,7 +292829,6 @@
 0.0.0.0 lawerencesfranklin.com
 0.0.0.0 lawetasandomierz.pl
 0.0.0.0 laweuqkomqsuboybevyblymbmo-dot-gl9393jan.uk.r.appspot.com
-0.0.0.0 lawfirm.paperbirdtech.com
 0.0.0.0 lawful-pokes.000webhostapp.com
 0.0.0.0 lawgarrido.filesusr.com
 0.0.0.0 lawgiver-acquisitio.000webhostapp.com
@@ -332617,7 +332615,6 @@
 0.0.0.0 mn-unempl0yment-system.com
 0.0.0.0 mn-unempl0ymentsystem.com
 0.0.0.0 mn.12000uc9.duckdns.org
-0.0.0.0 mn.34509.su
 0.0.0.0 mn.5.p2l.info
 0.0.0.0 mn.mn.co.cu
 0.0.0.0 mn.zuwlxn4.ru.com
@@ -425499,6 +425496,7 @@
 0.0.0.0 spnet2-1.i-mobile.co.jp
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
+0.0.0.0 spoar.org.in
 0.0.0.0 spodnice.shop
 0.0.0.0 spoglinnat.rest
 0.0.0.0 spokeo.pl
