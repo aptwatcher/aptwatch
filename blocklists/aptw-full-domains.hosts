@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-11 06:30:34
-# Entries: 481675
+# Generated: 2026-04-11 12:31:13
+# Entries: 481677
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -41466,6 +41466,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -74126,7 +74127,6 @@
 0.0.0.0 anyeleventura.github.io
 0.0.0.0 anyesha-biswas.github.io
 0.0.0.0 anyhealthtips.com
-0.0.0.0 anyhoo.testeaza.eu
 0.0.0.0 anyillustrations.com
 0.0.0.0 anyimage.top
 0.0.0.0 anylist.c.appier.net
@@ -121567,7 +121567,6 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
-0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -157862,6 +157861,7 @@
 0.0.0.0 cloudncable.casa
 0.0.0.0 cloudnetfiji.com
 0.0.0.0 cloudneturup.pro
+0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudofflceadmln.epizy.com
@@ -182108,7 +182108,6 @@
 0.0.0.0 digitalcleversslx.info
 0.0.0.0 digitalclevertopeqw.pro
 0.0.0.0 digitalcloudq.buzz
-0.0.0.0 digitalcode.sa
 0.0.0.0 digitalconcept.pro
 0.0.0.0 digitalconexao.tk
 0.0.0.0 digitalcreatorshubbw.pro
@@ -184106,6 +184105,7 @@
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
+0.0.0.0 dl.dzqzd.com
 0.0.0.0 dl.fotoable.com
 0.0.0.0 dl.freeshare.link
 0.0.0.0 dl.gameplaylabs.com
@@ -224586,7 +224586,6 @@
 0.0.0.0 fyyafbryrd.temp.swtest.ru
 0.0.0.0 fyynpcrnkgvvqqvlseuwgxahmnkttujvsgvs-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 fyyuiihko.weebly.com
-0.0.0.0 fz.tiansys.cn
 0.0.0.0 fz1r9wu.laicommferhobackmica.ru
 0.0.0.0 fz34rim2.union-label.com
 0.0.0.0 fz6y0wk19.duckdns.org
@@ -233015,7 +233014,6 @@
 0.0.0.0 gobiernoygestion.com.mx
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -263344,6 +263342,7 @@
 0.0.0.0 incrediblejodhpur.com
 0.0.0.0 incredibleselonmuskcentre.weebly.com
 0.0.0.0 incrediblesorbecom.netlify.app
+0.0.0.0 incredibletadoba.com
 0.0.0.0 incredibuild.ohlin.com.br
 0.0.0.0 incrediwearwork-dot-sharefilingcloud-downloads.uk.r.appspot.com
 0.0.0.0 incrediwearwork.sharefilingcloud-downloads.uk.r.appspot.com
@@ -297342,6 +297341,7 @@
 0.0.0.0 linamenkiom.blogspot.sn
 0.0.0.0 linamenkiom.blogspot.tw
 0.0.0.0 linbghiharehreyf.com
+0.0.0.0 linchens.com
 0.0.0.0 lincitrading.top
 0.0.0.0 lincoln.arundelschool.net
 0.0.0.0 lincolncittysecuritycheck.weebly.com
@@ -364267,6 +364267,7 @@
 0.0.0.0 outdoorsembrace.com
 0.0.0.0 outdoorsporting.com
 0.0.0.0 outdqfqxfeikrlws-dot-millinium.ey.r.appspot.com
+0.0.0.0 outel.linchens.com
 0.0.0.0 outerinfo.com
 0.0.0.0 outerlogo.nicklasfoundation.com
 0.0.0.0 outermost-local-git-main-uid7581943.vercel.app
@@ -386412,7 +386413,6 @@
 0.0.0.0 protexiagpt-app.com
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
-0.0.0.0 protherapycenter.com
 0.0.0.0 prothokkracic.info
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
@@ -387225,6 +387225,7 @@
 0.0.0.0 ptosexwpndhpzzuawnkotrbvby-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 ptovesindo.com
 0.0.0.0 ptownpooch.com
+0.0.0.0 ptpilatesstudio.com
 0.0.0.0 ptplayground.com
 0.0.0.0 ptppp.cn
 0.0.0.0 ptpsc-dpd.cfd
@@ -415496,6 +415497,7 @@
 0.0.0.0 sabio.us
 0.0.0.0 sabiocapiteza-es.com
 0.0.0.0 sabiocapiteza-es.fyi
+0.0.0.0 sablayan.seasonshotelmindoro.com
 0.0.0.0 sable-different-custard.glitch.me
 0.0.0.0 sable-difficult-cartwheel.glitch.me
 0.0.0.0 sable-interesting-bait.glitch.me
@@ -416606,6 +416608,7 @@
 0.0.0.0 sakura-icchi.com
 0.0.0.0 sakura.ne.jp147902c4.tecnoedilpontei.com
 0.0.0.0 sakuraclub-taxi.com
+0.0.0.0 sakuraloyalty.com
 0.0.0.0 sakuramiya-c.com
 0.0.0.0 sakuraset.top
 0.0.0.0 sakurasingh.github.io
@@ -425494,7 +425497,6 @@
 0.0.0.0 spnet2-1.i-mobile.co.jp
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
-0.0.0.0 spoar.org.in
 0.0.0.0 spodnice.shop
 0.0.0.0 spoglinnat.rest
 0.0.0.0 spokeo.pl
@@ -425539,6 +425541,7 @@
 0.0.0.0 sportingbeteur.adsrv.eacdn.com
 0.0.0.0 sportingnews.122.2o7.net
 0.0.0.0 sportingnews.us.intellitxt.com
+0.0.0.0 sportisimo.sfd-pl.shop
 0.0.0.0 sportisimoczolinesale.com
 0.0.0.0 sportisimoonlinesk.com
 0.0.0.0 sportmovementcentre.com
@@ -433657,7 +433660,6 @@
 0.0.0.0 ticm.sap0508x9v.vip
 0.0.0.0 ticm.tap0297p8b.top
 0.0.0.0 ticolatonisan.pages.dev
-0.0.0.0 ticpc8a.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 ticskwsythree.icu
 0.0.0.0 tictocautoparts.com
