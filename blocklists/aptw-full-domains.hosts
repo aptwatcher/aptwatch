@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-11 12:31:13
-# Entries: 481677
+# Generated: 2026-04-11 18:31:05
+# Entries: 481674
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -41466,7 +41466,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -55085,7 +55084,6 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
-0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -154345,7 +154343,6 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
-0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -157861,7 +157858,6 @@
 0.0.0.0 cloudncable.casa
 0.0.0.0 cloudnetfiji.com
 0.0.0.0 cloudneturup.pro
-0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudofflceadmln.epizy.com
@@ -223996,6 +223992,7 @@
 0.0.0.0 furunculous-fruits.000webhostapp.com
 0.0.0.0 furunculous-soup.000webhostapp.com
 0.0.0.0 furunnn-106663.weeblysite.com
+0.0.0.0 furystaff.tech
 0.0.0.0 fus1-bjeahkc8eubabwc9.centralus-01.azurewebsites.net
 0.0.0.0 fus931ihwji-exy39-38480980.surge.sh
 0.0.0.0 fusainnym.com
@@ -224586,6 +224583,7 @@
 0.0.0.0 fyyafbryrd.temp.swtest.ru
 0.0.0.0 fyynpcrnkgvvqqvlseuwgxahmnkttujvsgvs-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 fyyuiihko.weebly.com
+0.0.0.0 fz.tiansys.cn
 0.0.0.0 fz1r9wu.laicommferhobackmica.ru
 0.0.0.0 fz34rim2.union-label.com
 0.0.0.0 fz6y0wk19.duckdns.org
@@ -263342,7 +263340,6 @@
 0.0.0.0 incrediblejodhpur.com
 0.0.0.0 incredibleselonmuskcentre.weebly.com
 0.0.0.0 incrediblesorbecom.netlify.app
-0.0.0.0 incredibletadoba.com
 0.0.0.0 incredibuild.ohlin.com.br
 0.0.0.0 incrediwearwork-dot-sharefilingcloud-downloads.uk.r.appspot.com
 0.0.0.0 incrediwearwork.sharefilingcloud-downloads.uk.r.appspot.com
@@ -293949,6 +293946,7 @@
 0.0.0.0 leanfeast.net
 0.0.0.0 leangreen-new.com
 0.0.0.0 leanldedyjerlogh-dot-millinium.ey.r.appspot.com
+0.0.0.0 leanmaestro.com
 0.0.0.0 leanmanagement.ro
 0.0.0.0 leanmobi.fusetracking.com
 0.0.0.0 leannethdam.buzz
@@ -336284,7 +336282,6 @@
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
 0.0.0.0 msgoin.com
-0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -353994,6 +353991,7 @@
 0.0.0.0 nutrikalia.com
 0.0.0.0 nutrilshop.net.tr.ht
 0.0.0.0 nutrired.org
+0.0.0.0 nutrisc.com.br
 0.0.0.0 nutrisilviaramos.com.br
 0.0.0.0 nutrisincera.com
 0.0.0.0 nutritionalapproaches.com
@@ -387225,7 +387223,6 @@
 0.0.0.0 ptosexwpndhpzzuawnkotrbvby-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 ptovesindo.com
 0.0.0.0 ptownpooch.com
-0.0.0.0 ptpilatesstudio.com
 0.0.0.0 ptplayground.com
 0.0.0.0 ptppp.cn
 0.0.0.0 ptpsc-dpd.cfd
@@ -411667,6 +411664,7 @@
 0.0.0.0 rosesribbons.com
 0.0.0.0 rosettastone.tt.omtrdc.net
 0.0.0.0 rosette.wavaigroup.com
+0.0.0.0 rosewoodlaminates.com
 0.0.0.0 roshan-karande.github.io
 0.0.0.0 roshan-keshri.github.io
 0.0.0.0 roshani-ship.github.io
@@ -415151,6 +415149,7 @@
 0.0.0.0 s3.jp-tok.cloud-object-storage.appdomain.cloud
 0.0.0.0 s3.lax.sharktech.net
 0.0.0.0 s3.lightboxcdn.com
+0.0.0.0 s3.mgirbvre.top
 0.0.0.0 s3.mobile.val.jp
 0.0.0.0 s3.nl-ams.scw.cloud
 0.0.0.0 s3.orl-pl.co
@@ -416608,7 +416607,6 @@
 0.0.0.0 sakura-icchi.com
 0.0.0.0 sakura.ne.jp147902c4.tecnoedilpontei.com
 0.0.0.0 sakuraclub-taxi.com
-0.0.0.0 sakuraloyalty.com
 0.0.0.0 sakuramiya-c.com
 0.0.0.0 sakuraset.top
 0.0.0.0 sakurasingh.github.io
@@ -425497,6 +425495,7 @@
 0.0.0.0 spnet2-1.i-mobile.co.jp
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
+0.0.0.0 spoar.org.in
 0.0.0.0 spodnice.shop
 0.0.0.0 spoglinnat.rest
 0.0.0.0 spokeo.pl
@@ -441588,7 +441587,6 @@
 0.0.0.0 vcbfdfdrt-3qercwz0jn.edgeone.app
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
-0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
@@ -464050,7 +464048,6 @@
 0.0.0.0 www.metricsimage.com
 0.0.0.0 www.metropolitanwear.shop
 0.0.0.0 www.metspa.cam
-0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mewihiypa.autos
 0.0.0.0 www.mexarodulin.com
 0.0.0.0 www.mexastronaut.com
@@ -474270,7 +474267,6 @@
 0.0.0.0 www.tobrilo.pro
 0.0.0.0 www.todaeynewpd.com
 0.0.0.0 www.today.lystatic.com
-0.0.0.0 www.todayallmatchprediction.com
 0.0.0.0 www.todexdgp.info
 0.0.0.0 www.todolize.com
 0.0.0.0 www.toe-corrector-pl.com
@@ -478991,6 +478987,7 @@
 0.0.0.0 wzebrq.secondhandparts.co.za
 0.0.0.0 wzfwup.ifinitefuture.ru
 0.0.0.0 wzi7eobzn.localto.net
+0.0.0.0 wzjc.ipwz.online
 0.0.0.0 wzjjr.com
 0.0.0.0 wzko.news
 0.0.0.0 wzmwyrrm.aero.tt
