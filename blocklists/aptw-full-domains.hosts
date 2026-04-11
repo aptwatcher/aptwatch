@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-10 18:31:02
-# Entries: 481679
+# Generated: 2026-04-11 00:31:16
+# Entries: 481669
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -55084,7 +55084,6 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
-0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -70029,7 +70028,6 @@
 0.0.0.0 amperautos.com
 0.0.0.0 ampesc.org.br
 0.0.0.0 ampesmart.com
-0.0.0.0 ampgg.bossjy.cc.cd
 0.0.0.0 ampguest.anakembok.de
 0.0.0.0 amph00.z13.web.core.windows.net
 0.0.0.0 ampheaven.net
@@ -144276,6 +144274,7 @@
 0.0.0.0 c2.gostats.com
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -148034,7 +148033,6 @@
 0.0.0.0 catatajabangdinotepad.ml
 0.0.0.0 cataventus.org.br
 0.0.0.0 cataxrefcd19.com
-0.0.0.0 catbaparadisehotel.com.vn
 0.0.0.0 catboettcher.com
 0.0.0.0 catchcommunications.co.uk
 0.0.0.0 catchfishcavan.com
@@ -154345,7 +154343,6 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
-0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -187673,7 +187670,6 @@
 0.0.0.0 drgrossu.md
 0.0.0.0 drhankdelivered.com
 0.0.0.0 drharisinghjachak.com
-0.0.0.0 drhenrylopez.com
 0.0.0.0 drhhfddbwy.duckdns.org
 0.0.0.0 dricodavila.com
 0.0.0.0 driectjp-jeopa00.com
@@ -220901,6 +220897,7 @@
 0.0.0.0 fragduels.com
 0.0.0.0 frageperic.rest
 0.0.0.0 fraggerstars.com
+0.0.0.0 fragleader.pro
 0.0.0.0 fragmasters.pro
 0.0.0.0 fragmenxmaterial.com
 0.0.0.0 fragmthen.onlinecura.com
@@ -223457,7 +223454,6 @@
 0.0.0.0 ftp.ywxww.net
 0.0.0.0 ftpadmin.edv-stumpf.de
 0.0.0.0 ftpcontent.worldnow.com
-0.0.0.0 ftpemails.com
 0.0.0.0 ftpqbnsiahjyuyeh-dot-owaonk399399393.uk.r.appspot.com
 0.0.0.0 ftqdeoyfoevpzzqm-dot-millinium.ey.r.appspot.com
 0.0.0.0 ftran.nottinghamshakespearecompany.com
@@ -224587,7 +224583,6 @@
 0.0.0.0 fyyafbryrd.temp.swtest.ru
 0.0.0.0 fyynpcrnkgvvqqvlseuwgxahmnkttujvsgvs-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 fyyuiihko.weebly.com
-0.0.0.0 fz.tiansys.cn
 0.0.0.0 fz1r9wu.laicommferhobackmica.ru
 0.0.0.0 fz34rim2.union-label.com
 0.0.0.0 fz6y0wk19.duckdns.org
@@ -254989,7 +254984,6 @@
 0.0.0.0 hsfrtvljerptwadk-dot-millinium.ey.r.appspot.com
 0.0.0.0 hsfsrw.cn
 0.0.0.0 hsgdj768sh.ktt55.my.id
-0.0.0.0 hsgeowvi.com
 0.0.0.0 hsgexfiosnt.serveuser.com
 0.0.0.0 hsggdtrf.ga
 0.0.0.0 hsgprints.co.uk
@@ -270103,7 +270097,6 @@
 0.0.0.0 iridescent-raindrop-eac851.netlify.app
 0.0.0.0 iridescent-righteous-alloy.glitch.me
 0.0.0.0 iridescent-rugelach-2259db.netlify.app
-0.0.0.0 iridiacheats.dev
 0.0.0.0 iridopupilla.fun
 0.0.0.0 irienkede.com
 0.0.0.0 irihi.cf
@@ -272752,6 +272745,7 @@
 0.0.0.0 j83659.com
 0.0.0.0 j83961.hostde31.fornex.host
 0.0.0.0 j83h29.ytyukai.cn
+0.0.0.0 j84f4g0p.quantumharbinger.digital
 0.0.0.0 j86z7lf.xxoht18.cn
 0.0.0.0 j89rx141gf.com
 0.0.0.0 j8gjkqhszk5wn.athena-technologies.com.my
@@ -303879,7 +303873,6 @@
 0.0.0.0 london-delight.ga
 0.0.0.0 london-healthcare.com
 0.0.0.0 londonabstractphotography.com
-0.0.0.0 londonairportstransfer.co.uk
 0.0.0.0 londoncamerahireservices.co.uk
 0.0.0.0 londondanceschool.com
 0.0.0.0 londonfreweb.website.cv
@@ -328696,7 +328689,6 @@
 0.0.0.0 mhappensgebeng.co.za
 0.0.0.0 mhasnainiftikhar.github.io
 0.0.0.0 mhatre-doc4758839222-spreadsheet.weebly.com
-0.0.0.0 mhatuminerals.africa
 0.0.0.0 mhb.ghe.mybluehost.me
 0.0.0.0 mhb9kkyn.vercel.app
 0.0.0.0 mhbhbvcuyr.duckdns.org
@@ -331122,6 +331114,7 @@
 0.0.0.0 misionesinfo.com
 0.0.0.0 misionhome-agric.hostkda.com
 0.0.0.0 misionweb.net
+0.0.0.0 miskolc-dugulaselharitas.hu
 0.0.0.0 mismaaiauuipymfhlepjgurpjulmtyqxlmrv-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 mismebucca.rest
 0.0.0.0 mismuskan.github.io
@@ -383430,7 +383423,6 @@
 0.0.0.0 prenblog.com
 0.0.0.0 prencepal.com
 0.0.0.0 prendsovra.rest
-0.0.0.0 prennixo.com
 0.0.0.0 prenocisca-kocar.si
 0.0.0.0 prenocontr.rest
 0.0.0.0 prenotami24.it
@@ -386534,6 +386526,7 @@
 0.0.0.0 prov.alphonso.tv
 0.0.0.0 provafd.cu.ma
 0.0.0.0 prove-d21ed7.netlify.app
+0.0.0.0 proveedoradeproyectosysoluciones.com
 0.0.0.0 proveedores.nef.com.mx
 0.0.0.0 proveedores.savant.com.ar
 0.0.0.0 proveedorsites.000webhostapp.com
@@ -401041,7 +401034,6 @@
 0.0.0.0 ravishingfurtive.co.za
 0.0.0.0 ravitravels.in.net
 0.0.0.0 raviyaka1.tripod.com
-0.0.0.0 ravoqqux.top
 0.0.0.0 raw.flameblox.com
 0.0.0.0 rawa.cu.ma
 0.0.0.0 rawamyhfvpxlqoiaacdezcnakr-dot-gleowayel400503.uc.r.appspot.com
@@ -421720,6 +421712,7 @@
 0.0.0.0 seryl-vision.pages.dev
 0.0.0.0 seryl-works.pages.dev
 0.0.0.0 sesamesmmfilmcards.info
+0.0.0.0 sesdigitalsolutions.com
 0.0.0.0 sese.th0707.sa.com
 0.0.0.0 sese.vaabhi4.sa.com
 0.0.0.0 sese.vintiqshop.sa.com
@@ -421787,6 +421780,7 @@
 0.0.0.0 setup.advancedcleaner.com
 0.0.0.0 setupethiopia.com
 0.0.0.0 setuppeast1ink--accessinformat.weebly.com
+0.0.0.0 setupproducts.com
 0.0.0.0 setuprmisanderson.com
 0.0.0.0 setupyourledgercom.teachable.com
 0.0.0.0 seuer.applestroe.index.osdkn937.help
@@ -425496,7 +425490,6 @@
 0.0.0.0 spnet2-1.i-mobile.co.jp
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
-0.0.0.0 spoar.org.in
 0.0.0.0 spodnice.shop
 0.0.0.0 spoglinnat.rest
 0.0.0.0 spokeo.pl
@@ -433468,7 +433461,6 @@
 0.0.0.0 thgame.flygame.io
 0.0.0.0 thibit.digital
 0.0.0.0 thiccnigga.me
-0.0.0.0 thickentributary.digital
 0.0.0.0 thicknot.click
 0.0.0.0 thickporter.sa.com
 0.0.0.0 thiepn.com
@@ -441251,7 +441243,6 @@
 0.0.0.0 vagdevi-42.github.io
 0.0.0.0 vagelmasti.rest
 0.0.0.0 vagler.ru
-0.0.0.0 vagner.site
 0.0.0.0 vagrowlark.vercel.app
 0.0.0.0 vahdatfar.click
 0.0.0.0 vahlallha.duckdns.org
@@ -444789,7 +444780,6 @@
 0.0.0.0 wb-cde.bond
 0.0.0.0 wb.interpolls.com
 0.0.0.0 wbads.vo.llnwd.net
-0.0.0.0 wbanking.coop15abril.fin.ec
 0.0.0.0 wbapp.mobile.sina.cn
 0.0.0.0 wbavzdqrpaq.tauzetaomega.org
 0.0.0.0 wberfbd.duckdns.org
