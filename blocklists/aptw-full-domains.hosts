@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-12 12:31:17
-# Entries: 481666
+# Generated: 2026-04-12 18:30:32
+# Entries: 481672
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -55084,6 +55084,7 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
+0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -79077,7 +79078,6 @@
 0.0.0.0 app.calintent.workers.dev
 0.0.0.0 app.canterasarcomex.com
 0.0.0.0 app.catyrgghd.cloud
-0.0.0.0 app.cc-coins.xyz
 0.0.0.0 app.cdn.lookbookhq.com
 0.0.0.0 app.cdn.usps.informed-delivery.me
 0.0.0.0 app.cdn.usps.informed-delivery.net
@@ -144273,6 +144273,7 @@
 0.0.0.0 c2.gostats.com
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -157858,7 +157859,6 @@
 0.0.0.0 cloudncable.casa
 0.0.0.0 cloudnetfiji.com
 0.0.0.0 cloudneturup.pro
-0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudofflceadmln.epizy.com
@@ -258893,7 +258893,6 @@
 0.0.0.0 icubby.net.au
 0.0.0.0 icudjyaehkctcm7dpvht.us-south.cf.appdomain.cloud
 0.0.0.0 icuphoclu.info
-0.0.0.0 icupsa.com.mx
 0.0.0.0 icusah.digital
 0.0.0.0 icuuqyhymuqmxeai-dot-millinium.ey.r.appspot.com
 0.0.0.0 icvassessments.com
@@ -303872,6 +303871,7 @@
 0.0.0.0 london-delight.ga
 0.0.0.0 london-healthcare.com
 0.0.0.0 londonabstractphotography.com
+0.0.0.0 londonairportstransfer.co.uk
 0.0.0.0 londoncamerahireservices.co.uk
 0.0.0.0 londondanceschool.com
 0.0.0.0 londonfreweb.website.cv
@@ -336208,6 +336208,7 @@
 0.0.0.0 msdwt-k12-in-us-orgg.tk
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
+0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -336277,6 +336278,7 @@
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
 0.0.0.0 msgoin.com
+0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -347334,6 +347336,7 @@
 0.0.0.0 new.oldpeterrteam.world
 0.0.0.0 new.page.sacramento.gq
 0.0.0.0 new.prize.asia
+0.0.0.0 new.quranushaiqer.org.sa
 0.0.0.0 new.r-private.net
 0.0.0.0 new.realhouse.uy
 0.0.0.0 new.sarghydesign.ro
@@ -362689,6 +362692,7 @@
 0.0.0.0 orabin.com
 0.0.0.0 oracane.pages.dev
 0.0.0.0 oracle.112.2o7.net
+0.0.0.0 oracle.zzhreceive.top
 0.0.0.0 oracle1.ksarm.onflashdrive.app
 0.0.0.0 oraclea45ppsblog.ru
 0.0.0.0 oraclecode.codes
@@ -386406,6 +386410,7 @@
 0.0.0.0 protexiagpt-app.com
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 prothokkracic.info
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
@@ -397731,6 +397736,7 @@
 0.0.0.0 quavang2020.com
 0.0.0.0 quavyros-haven.pages.dev
 0.0.0.0 quawobpgv.haohongdown.cn
+0.0.0.0 quaxcheck.com.tr
 0.0.0.0 quaxinhgai2.ml
 0.0.0.0 quaxomler-de.com
 0.0.0.0 quaxomler-de.fyi
@@ -409242,6 +409248,7 @@
 0.0.0.0 ritammukherjee05.github.io
 0.0.0.0 ritchad.weeblysite.com
 0.0.0.0 rite-of-passage.my.id
+0.0.0.0 ritee.in
 0.0.0.0 riteekranjan.github.io
 0.0.0.0 riteindia.org
 0.0.0.0 ritendragour.github.io
@@ -421923,6 +421930,7 @@
 0.0.0.0 sghealthtendersuae.com
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
+0.0.0.0 sgindustries.lk
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgmedia.adspirit.net
 0.0.0.0 sgmodderins.vercel.app
@@ -421978,7 +421986,6 @@
 0.0.0.0 shaded-forge.com
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
-0.0.0.0 shaderm.com
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow16programmer.github.io
 0.0.0.0 shadowbeyondvalley.com
@@ -425487,6 +425494,7 @@
 0.0.0.0 spnet2-1.i-mobile.co.jp
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
+0.0.0.0 spoar.org.in
 0.0.0.0 spodnice.shop
 0.0.0.0 spoglinnat.rest
 0.0.0.0 spokeo.pl
@@ -432405,7 +432413,6 @@
 0.0.0.0 techstreet.website
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techtalk.site
-0.0.0.0 techtattva.in
 0.0.0.0 techtrendsexplorerjh.info
 0.0.0.0 techtrendshubmd.pro
 0.0.0.0 techvancekariyer.com
@@ -432522,6 +432529,7 @@
 0.0.0.0 telechargervotredoc.dyndns-at-work.com
 0.0.0.0 telecom-info.com
 0.0.0.0 telecom.taskfido.com
+0.0.0.0 telecomsa.xyz
 0.0.0.0 telefloracom.112.2o7.net
 0.0.0.0 telefoniabologna.it
 0.0.0.0 telefonica.es.intellitxt.com
@@ -445278,7 +445286,6 @@
 0.0.0.0 webdisk.3-137-194-246.cprapid.com
 0.0.0.0 webdisk.onelec.com.au
 0.0.0.0 webdo--loadledgerlive.webflow.io
-0.0.0.0 webdriver-select.vg
 0.0.0.0 webexodus.created.app
 0.0.0.0 webfbclid-jessica-valentine.com
 0.0.0.0 webfile.adview.cn
@@ -473818,6 +473825,7 @@
 0.0.0.0 www.tekajanda.com
 0.0.0.0 www.teknolojibakisacisi.com
 0.0.0.0 www.tekora.pro
+0.0.0.0 www.telecomsa.xyz
 0.0.0.0 www.telegffonyreverable.info
 0.0.0.0 www.teleghwynn.club
 0.0.0.0 www.telegxzshq.ink
@@ -474258,7 +474266,6 @@
 0.0.0.0 www.tobrilo.pro
 0.0.0.0 www.todaeynewpd.com
 0.0.0.0 www.today.lystatic.com
-0.0.0.0 www.todayallmatchprediction.com
 0.0.0.0 www.todexdgp.info
 0.0.0.0 www.todolize.com
 0.0.0.0 www.toe-corrector-pl.com
@@ -479151,7 +479158,6 @@
 0.0.0.0 xanax-online.dot.de
 0.0.0.0 xanax-online.run.to
 0.0.0.0 xanax-store.shengen.ru
-0.0.0.0 xanax.enzostress.st
 0.0.0.0 xanax.ourtablets.com
 0.0.0.0 xanax.t-amo.net
 0.0.0.0 xanaxxanax.3xforum.ro
