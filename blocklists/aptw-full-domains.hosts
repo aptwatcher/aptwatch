@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-12 06:31:18
-# Entries: 481664
+# Generated: 2026-04-12 12:31:17
+# Entries: 481666
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -79077,6 +79077,7 @@
 0.0.0.0 app.calintent.workers.dev
 0.0.0.0 app.canterasarcomex.com
 0.0.0.0 app.catyrgghd.cloud
+0.0.0.0 app.cc-coins.xyz
 0.0.0.0 app.cdn.lookbookhq.com
 0.0.0.0 app.cdn.usps.informed-delivery.me
 0.0.0.0 app.cdn.usps.informed-delivery.net
@@ -135938,7 +135939,6 @@
 0.0.0.0 boyabat.bel.tr
 0.0.0.0 boyanpavlov.net
 0.0.0.0 boydinjurylaw.com
-0.0.0.0 boydjackson.org
 0.0.0.0 boydsawyer.s3.che01.cloud-object-storage.appdomain.cloud
 0.0.0.0 boyeheseillu.vercel.app
 0.0.0.0 boyertownmuseum.org
@@ -157858,6 +157858,7 @@
 0.0.0.0 cloudncable.casa
 0.0.0.0 cloudnetfiji.com
 0.0.0.0 cloudneturup.pro
+0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudofflceadmln.epizy.com
@@ -234089,7 +234090,6 @@
 0.0.0.0 gossamer-clover-jonquil.glitch.me
 0.0.0.0 gossamer-plain-perigee.glitch.me
 0.0.0.0 gossamerbio.corporacionfrm.org
-0.0.0.0 gossipband.ie
 0.0.0.0 gossipbottom.com
 0.0.0.0 gossipcenter.us.intellitxt.com
 0.0.0.0 gossiponthis.us.intellitxt.com
@@ -258893,6 +258893,7 @@
 0.0.0.0 icubby.net.au
 0.0.0.0 icudjyaehkctcm7dpvht.us-south.cf.appdomain.cloud
 0.0.0.0 icuphoclu.info
+0.0.0.0 icupsa.com.mx
 0.0.0.0 icusah.digital
 0.0.0.0 icuuqyhymuqmxeai-dot-millinium.ey.r.appspot.com
 0.0.0.0 icvassessments.com
@@ -303871,7 +303872,6 @@
 0.0.0.0 london-delight.ga
 0.0.0.0 london-healthcare.com
 0.0.0.0 londonabstractphotography.com
-0.0.0.0 londonairportstransfer.co.uk
 0.0.0.0 londoncamerahireservices.co.uk
 0.0.0.0 londondanceschool.com
 0.0.0.0 londonfreweb.website.cv
@@ -376642,6 +376642,7 @@
 0.0.0.0 pl-zwrotolx.cfd
 0.0.0.0 pl.ads.justpremium.com
 0.0.0.0 pl.alkotoxv.com
+0.0.0.0 pl.avgkrbw.com
 0.0.0.0 pl.bbelements.com
 0.0.0.0 pl.betclic.com
 0.0.0.0 pl.centrumoferty.com
@@ -409241,7 +409242,6 @@
 0.0.0.0 ritammukherjee05.github.io
 0.0.0.0 ritchad.weeblysite.com
 0.0.0.0 rite-of-passage.my.id
-0.0.0.0 ritee.in
 0.0.0.0 riteekranjan.github.io
 0.0.0.0 riteindia.org
 0.0.0.0 ritendragour.github.io
@@ -432405,6 +432405,7 @@
 0.0.0.0 techstreet.website
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techtalk.site
+0.0.0.0 techtattva.in
 0.0.0.0 techtrendsexplorerjh.info
 0.0.0.0 techtrendshubmd.pro
 0.0.0.0 techvancekariyer.com
@@ -464037,6 +464038,7 @@
 0.0.0.0 www.metricsimage.com
 0.0.0.0 www.metropolitanwear.shop
 0.0.0.0 www.metspa.cam
+0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mewihiypa.autos
 0.0.0.0 www.mexarodulin.com
 0.0.0.0 www.mexastronaut.com
