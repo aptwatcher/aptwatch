@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-12 00:30:17
-# Entries: 481667
+# Generated: 2026-04-12 06:31:18
+# Entries: 481664
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -102305,7 +102305,6 @@
 0.0.0.0 aurora.arenvatica.ru
 0.0.0.0 aurora.com.gt
 0.0.0.0 aurora.protondns.net
-0.0.0.0 aurorabolnica.co.rs
 0.0.0.0 aurorabuildings.com
 0.0.0.0 aurorabusinessunited.org
 0.0.0.0 aurorabyglenwood.com
@@ -121566,7 +121565,6 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
-0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -144275,7 +144273,6 @@
 0.0.0.0 c2.gostats.com
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -226592,7 +226589,6 @@
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
 0.0.0.0 garobritlis.com
-0.0.0.0 garogradba.mk
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garovartabedian.com
 0.0.0.0 garovelhundik.info
@@ -234093,6 +234089,7 @@
 0.0.0.0 gossamer-clover-jonquil.glitch.me
 0.0.0.0 gossamer-plain-perigee.glitch.me
 0.0.0.0 gossamerbio.corporacionfrm.org
+0.0.0.0 gossipband.ie
 0.0.0.0 gossipbottom.com
 0.0.0.0 gossipcenter.us.intellitxt.com
 0.0.0.0 gossiponthis.us.intellitxt.com
@@ -425490,7 +425487,6 @@
 0.0.0.0 spnet2-1.i-mobile.co.jp
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
-0.0.0.0 spoar.org.in
 0.0.0.0 spodnice.shop
 0.0.0.0 spoglinnat.rest
 0.0.0.0 spokeo.pl
@@ -474260,6 +474256,7 @@
 0.0.0.0 www.tobrilo.pro
 0.0.0.0 www.todaeynewpd.com
 0.0.0.0 www.today.lystatic.com
+0.0.0.0 www.todayallmatchprediction.com
 0.0.0.0 www.todexdgp.info
 0.0.0.0 www.todolize.com
 0.0.0.0 www.toe-corrector-pl.com
