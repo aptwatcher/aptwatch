@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-11 18:31:05
-# Entries: 481674
+# Generated: 2026-04-12 00:30:17
+# Entries: 481667
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -102305,6 +102305,7 @@
 0.0.0.0 aurora.arenvatica.ru
 0.0.0.0 aurora.com.gt
 0.0.0.0 aurora.protondns.net
+0.0.0.0 aurorabolnica.co.rs
 0.0.0.0 aurorabuildings.com
 0.0.0.0 aurorabusinessunited.org
 0.0.0.0 aurorabyglenwood.com
@@ -121565,6 +121566,7 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
+0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -135109,7 +135111,6 @@
 0.0.0.0 boosoegrplofo.cf
 0.0.0.0 boost-pro.net
 0.0.0.0 boost.mobileposse.com
-0.0.0.0 boost.newrock.life
 0.0.0.0 boostalist-yd.pandljs.workers.dev
 0.0.0.0 boostaloxi-ai.fyi
 0.0.0.0 boostaloxi-it.fyi
@@ -144274,6 +144275,7 @@
 0.0.0.0 c2.gostats.com
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -154343,6 +154345,7 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
+0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -169118,7 +169121,6 @@
 0.0.0.0 crowdignite.com
 0.0.0.0 crowdly.xyz
 0.0.0.0 crowdsmartservices.co.uk
-0.0.0.0 crowe-avvens.site
 0.0.0.0 crowe-my.com
 0.0.0.0 crowesnestcreative.crowesnestblog.com
 0.0.0.0 crown-fundmere.fyi
@@ -186770,6 +186772,7 @@
 0.0.0.0 downtownresident.org
 0.0.0.0 downundernews.info
 0.0.0.0 dowonline.ru
+0.0.0.0 dows.1v5s.com
 0.0.0.0 dowsingdesign.com
 0.0.0.0 dowxon.fr
 0.0.0.0 dox-wlletconnect.gitbook.io
@@ -209880,7 +209883,6 @@
 0.0.0.0 fast.mtvn.demdex.net
 0.0.0.0 fast.nbcots.demdex.net
 0.0.0.0 fast.nbcu.demdex.net
-0.0.0.0 fast.newrock.life
 0.0.0.0 fast.nrjgroup.demdex.net
 0.0.0.0 fast.philly.demdex.net
 0.0.0.0 fast.td.demdex.net
@@ -226590,6 +226592,7 @@
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
 0.0.0.0 garobritlis.com
+0.0.0.0 garogradba.mk
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garovartabedian.com
 0.0.0.0 garovelhundik.info
@@ -232947,8 +232950,6 @@
 0.0.0.0 go4organic.coffee
 0.0.0.0 go5fi.lspower.xyz
 0.0.0.0 go5gnow.com
-0.0.0.0 go5z.my
-0.0.0.0 go6.my
 0.0.0.0 go643gleds.ttweb.xyz
 0.0.0.0 go777site.com
 0.0.0.0 go83543.davefolts.com
@@ -245099,7 +245100,6 @@
 0.0.0.0 hasszdc.duckdns.org
 0.0.0.0 hasszdd.duckdns.org
 0.0.0.0 hastagmedia.com
-0.0.0.0 hasteb.in
 0.0.0.0 hastebin.stamm.me
 0.0.0.0 hastenestate.com
 0.0.0.0 hastiro.in
@@ -265675,7 +265675,6 @@
 0.0.0.0 innovid.com.akadns.net
 0.0.0.0 innovid.com.edgekey.net
 0.0.0.0 innovixxa.vercel.app
-0.0.0.0 innovspora.co.zw
 0.0.0.0 innovvationswiss.com
 0.0.0.0 innowacyjnefirmy.pl
 0.0.0.0 innsstagraam.000webhostapp.com
@@ -293946,7 +293945,6 @@
 0.0.0.0 leanfeast.net
 0.0.0.0 leangreen-new.com
 0.0.0.0 leanldedyjerlogh-dot-millinium.ey.r.appspot.com
-0.0.0.0 leanmaestro.com
 0.0.0.0 leanmanagement.ro
 0.0.0.0 leanmobi.fusetracking.com
 0.0.0.0 leannethdam.buzz
@@ -303876,6 +303874,7 @@
 0.0.0.0 london-delight.ga
 0.0.0.0 london-healthcare.com
 0.0.0.0 londonabstractphotography.com
+0.0.0.0 londonairportstransfer.co.uk
 0.0.0.0 londoncamerahireservices.co.uk
 0.0.0.0 londondanceschool.com
 0.0.0.0 londonfreweb.website.cv
@@ -336212,7 +336211,6 @@
 0.0.0.0 msdwt-k12-in-us-orgg.tk
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
-0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -353113,7 +353111,6 @@
 0.0.0.0 nrlynudjwxpftolh-dot-glexcel1.ue.r.appspot.com
 0.0.0.0 nrmcnhdbjyzojwwr-dot-millinium.ey.r.appspot.com
 0.0.0.0 nrmhb.blogspot.am
-0.0.0.0 nrmlogistics.ro
 0.0.0.0 nrmvyhuz.cyou
 0.0.0.0 nrncf.blogspot.sn
 0.0.0.0 nrndsdbtkpwmklic-dot-millinium.ey.r.appspot.com
@@ -353991,7 +353988,6 @@
 0.0.0.0 nutrikalia.com
 0.0.0.0 nutrilshop.net.tr.ht
 0.0.0.0 nutrired.org
-0.0.0.0 nutrisc.com.br
 0.0.0.0 nutrisilviaramos.com.br
 0.0.0.0 nutrisincera.com
 0.0.0.0 nutritionalapproaches.com
@@ -354847,6 +354843,7 @@
 0.0.0.0 o3i6s0yatdssdo5sjbzm.pages.dev
 0.0.0.0 o3jf6stsfm6eq4ga43qt.pages.dev
 0.0.0.0 o3k5c2.lat
+0.0.0.0 o3pjh3hs.paragonbloomera.digital
 0.0.0.0 o3r6xa.help
 0.0.0.0 o3r6xa.luxe
 0.0.0.0 o3r6xa.site
@@ -397976,7 +397973,6 @@
 0.0.0.0 quickloansbadcredit.org
 0.0.0.0 quicklook.cyou
 0.0.0.0 quickly-app.shop
-0.0.0.0 quickly.newrock.life
 0.0.0.0 quicklyxsuggestions.com
 0.0.0.0 quickmailservice331516277272772.weebly.com
 0.0.0.0 quickmailsport.editorx.io
@@ -409248,6 +409244,7 @@
 0.0.0.0 ritammukherjee05.github.io
 0.0.0.0 ritchad.weeblysite.com
 0.0.0.0 rite-of-passage.my.id
+0.0.0.0 ritee.in
 0.0.0.0 riteekranjan.github.io
 0.0.0.0 riteindia.org
 0.0.0.0 ritendragour.github.io
@@ -411664,7 +411661,6 @@
 0.0.0.0 rosesribbons.com
 0.0.0.0 rosettastone.tt.omtrdc.net
 0.0.0.0 rosette.wavaigroup.com
-0.0.0.0 rosewoodlaminates.com
 0.0.0.0 roshan-karande.github.io
 0.0.0.0 roshan-keshri.github.io
 0.0.0.0 roshani-ship.github.io
@@ -421066,7 +421062,6 @@
 0.0.0.0 selvikrontgreetval.info
 0.0.0.0 selvioquant-app.com
 0.0.0.0 selvo.theworkitcentre.com
-0.0.0.0 selyoptik.ro
 0.0.0.0 sem.coheathou.ru.com
 0.0.0.0 sem.searchteria.co.jp
 0.0.0.0 semana-especial.store
@@ -427995,7 +427990,6 @@
 0.0.0.0 statutory-inc-genetic-one.trycloudflare.com
 0.0.0.0 statutrust-disciplinarym-fds1410vc.netlify.app
 0.0.0.0 statxpress.com
-0.0.0.0 stawel.terrae.rest
 0.0.0.0 stay-happy-tyceu.owlrd.ru
 0.0.0.0 stay-reserv93881.com
 0.0.0.0 stay.decentralappps.com
@@ -428493,7 +428487,6 @@
 0.0.0.0 stone-chill-beauty.glitch.me
 0.0.0.0 stone-hollow.pages.dev
 0.0.0.0 stone-ridge-7m7.pages.dev
-0.0.0.0 stone.newrock.life
 0.0.0.0 stonebriarentertainmentgroup.com
 0.0.0.0 stonebridgealongriver.digital
 0.0.0.0 stonecradle.com
@@ -441587,6 +441580,7 @@
 0.0.0.0 vcbfdfdrt-3qercwz0jn.edgeone.app
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
+0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
@@ -460104,7 +460098,6 @@
 0.0.0.0 www.hmsolutions.space
 0.0.0.0 www.hmuana.com
 0.0.0.0 www.hmusprost.rest
-0.0.0.0 www.hna-ksa.com
 0.0.0.0 www.hnayfs.com
 0.0.0.0 www.hnjrlg.com
 0.0.0.0 www.hnjsyg.com
