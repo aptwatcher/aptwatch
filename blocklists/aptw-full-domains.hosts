@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-13 06:31:15
-# Entries: 477153
+# Generated: 2026-04-13 12:31:00
+# Entries: 477157
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -40285,6 +40285,7 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
+0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -49466,6 +49467,7 @@
 0.0.0.0 adobepewjgronjgnwkengkjwengrj.pythonanywhere.com
 0.0.0.0 adobeproposaldoc.myportfolio.com
 0.0.0.0 adobereaders.co
+0.0.0.0 adobeready.online
 0.0.0.0 adobereverse.com
 0.0.0.0 adobes.mooo.com
 0.0.0.0 adobesecuredpdf.hopto.org
@@ -121296,7 +121298,6 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
-0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -147752,7 +147753,6 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
-0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -153923,6 +153923,7 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
+0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -213442,6 +213443,7 @@
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaidqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaittdqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femidignity.org
+0.0.0.0 femilamom.net
 0.0.0.0 feminplus.pl
 0.0.0.0 femlybowstkhoewy-dot-millinium.ey.r.appspot.com
 0.0.0.0 femmaterparaguay.x10.mx
@@ -227011,6 +227013,7 @@
 0.0.0.0 gecnhkxkeapdlucp-dot-millinium.ey.r.appspot.com
 0.0.0.0 gecogroupindia.com
 0.0.0.0 geconsumerfinance.112.2o7.net
+0.0.0.0 gecopakistan.com
 0.0.0.0 gecpkpbygowdwgyy-dot-millinium.ey.r.appspot.com
 0.0.0.0 gecsbwykunssfjzf-dot-millinium.ey.r.appspot.com
 0.0.0.0 gecvpmdzzsblcwig-dot-millinium.ey.r.appspot.com
@@ -229706,6 +229709,7 @@
 0.0.0.0 ghali.8m.net
 0.0.0.0 ghalysaqqal.com
 0.0.0.0 ghanahealthservice.org
+0.0.0.0 ghanioilandgas.com
 0.0.0.0 ghaniyyat.github.io
 0.0.0.0 ghaodxnxmgwa.xyz
 0.0.0.0 gharaviri.ir
@@ -232380,7 +232384,6 @@
 0.0.0.0 gobiernoygestion.com.mx
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobizboost.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
@@ -232620,6 +232623,7 @@
 0.0.0.0 goharbor.digital
 0.0.0.0 gohelpdesk.co.uk
 0.0.0.0 gohelpdesk.ie
+0.0.0.0 gohelpertechnologies.in
 0.0.0.0 gohelpfeedbackfb-01765.vercel.app
 0.0.0.0 gohensurtumakelmohakisuret.duckdns.org
 0.0.0.0 gohkojvhbdvxkvyj-dot-millinium.ey.r.appspot.com
@@ -273727,7 +273731,6 @@
 0.0.0.0 jeloneck5-wixsite-com.filesusr.com
 0.0.0.0 jelpbhabbygoraaehosikrzngb-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 jem-mialwe.com
-0.0.0.0 jem-mialwe.net
 0.0.0.0 jemanilognes.webflow.io
 0.0.0.0 jembisporr.flywheelsites.com
 0.0.0.0 jembretcar-1316850103.cos.ap-bangkok.myqcloud.com
@@ -291853,6 +291856,7 @@
 0.0.0.0 lawerencesfranklin.com
 0.0.0.0 lawetasandomierz.pl
 0.0.0.0 laweuqkomqsuboybevyblymbmo-dot-gl9393jan.uk.r.appspot.com
+0.0.0.0 lawfirm.paperbirdtech.com
 0.0.0.0 lawful-pokes.000webhostapp.com
 0.0.0.0 lawgarrido.filesusr.com
 0.0.0.0 lawgiver-acquisitio.000webhostapp.com
@@ -333445,6 +333449,7 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
+0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -337422,7 +337427,6 @@
 0.0.0.0 mvm-szamlafizetes.com
 0.0.0.0 mvm.com.sg
 0.0.0.0 mvmakani.in
-0.0.0.0 mvmconstructores.com
 0.0.0.0 mvmfmgmbbneribnre.azurewebsites.net
 0.0.0.0 mvminc.sa.com
 0.0.0.0 mvmzsvypjkypydoucdiznqqxpjecwmbnqrnd-dot-cryptic-now-290917.ey.r.appspot.com
@@ -352888,6 +352892,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -352934,6 +352939,7 @@
 0.0.0.0 nutrikalia.com
 0.0.0.0 nutrilshop.net.tr.ht
 0.0.0.0 nutrired.org
+0.0.0.0 nutrisc.com.br
 0.0.0.0 nutrisilviaramos.com.br
 0.0.0.0 nutrisincera.com
 0.0.0.0 nutrisuave.com
@@ -357065,7 +357071,6 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
-0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 oknyhsxwr.info
 0.0.0.0 okogm.com
@@ -439629,7 +439634,6 @@
 0.0.0.0 vector-arc.com
 0.0.0.0 vectrabank.112.2o7.net
 0.0.0.0 vedant364.github.io
-0.0.0.0 vedantawisdom.org
 0.0.0.0 vedaprathikgattu.github.io
 0.0.0.0 vedhasssss.github.io
 0.0.0.0 vedkam.pages.dev
