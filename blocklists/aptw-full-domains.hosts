@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-13 00:30:36
-# Entries: 477142
+# Generated: 2026-04-13 06:31:15
+# Entries: 477153
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -10593,6 +10593,7 @@
 0.0.0.0 204.44.98.252
 0.0.0.0 204.44.99.133
 0.0.0.0 204.48.31.90
+0.0.0.0 204.76.203.168.ptr.pfcloud.network
 0.0.0.0 204.89.62.206
 0.0.0.0 204.93.159.123
 0.0.0.0 20418-dot-n-e-w-me-ss-age-po-rt-al.wl.r.appspot.com
@@ -54937,6 +54938,7 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
+0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -73960,7 +73962,6 @@
 0.0.0.0 anyeleventura.github.io
 0.0.0.0 anyesha-biswas.github.io
 0.0.0.0 anyhealthtips.com
-0.0.0.0 anyhoo.testeaza.eu
 0.0.0.0 anyillustrations.com
 0.0.0.0 anyimage.top
 0.0.0.0 anylist.c.appier.net
@@ -121295,6 +121296,7 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
+0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -147750,6 +147752,7 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
+0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -219757,7 +219760,6 @@
 0.0.0.0 forwardtechnology.artisanada.com
 0.0.0.0 forwardway.top
 0.0.0.0 forwardwithopportunities.co.vu
-0.0.0.0 forxtra.com
 0.0.0.0 foryou-get83.cf
 0.0.0.0 foryouaccounedbased.ct.ws
 0.0.0.0 foryoupagebyus.vercel.app
@@ -232378,6 +232380,7 @@
 0.0.0.0 gobiernoygestion.com.mx
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobizboost.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
@@ -251053,6 +251056,7 @@
 0.0.0.0 hobicmain.web.app
 0.0.0.0 hobnw-hiaaa-aaaam-abaga-cai.raw.ic0.app
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobohandbag.click
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hocallost.com
@@ -273723,6 +273727,7 @@
 0.0.0.0 jeloneck5-wixsite-com.filesusr.com
 0.0.0.0 jelpbhabbygoraaehosikrzngb-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 jem-mialwe.com
+0.0.0.0 jem-mialwe.net
 0.0.0.0 jemanilognes.webflow.io
 0.0.0.0 jembisporr.flywheelsites.com
 0.0.0.0 jembretcar-1316850103.cos.ap-bangkok.myqcloud.com
@@ -337417,6 +337422,7 @@
 0.0.0.0 mvm-szamlafizetes.com
 0.0.0.0 mvm.com.sg
 0.0.0.0 mvmakani.in
+0.0.0.0 mvmconstructores.com
 0.0.0.0 mvmfmgmbbneribnre.azurewebsites.net
 0.0.0.0 mvminc.sa.com
 0.0.0.0 mvmzsvypjkypydoucdiznqqxpjecwmbnqrnd-dot-cryptic-now-290917.ey.r.appspot.com
@@ -415081,7 +415087,6 @@
 0.0.0.0 salespageexpertsbt.pro
 0.0.0.0 salespro.hc.am
 0.0.0.0 salessscontrols.com
-0.0.0.0 salessteer.com
 0.0.0.0 salesteleperformance.com
 0.0.0.0 salestool.com.br
 0.0.0.0 salestoys.com
@@ -420271,6 +420276,7 @@
 0.0.0.0 shaded-forge.com
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
+0.0.0.0 shaderm.com
 0.0.0.0 shadeside.eu.org
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-cove.com
@@ -429383,6 +429389,7 @@
 0.0.0.0 taitei-andreea.ro
 0.0.0.0 taiwanrich.org
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
+0.0.0.0 tajalrayhan.com
 0.0.0.0 tajnder.pl
 0.0.0.0 tajs.qq.com
 0.0.0.0 tajukea.com
@@ -436680,6 +436687,7 @@
 0.0.0.0 unity-maj.com
 0.0.0.0 unity-new.info
 0.0.0.0 unity-news.info
+0.0.0.0 unity-news.online
 0.0.0.0 unity-quest.info
 0.0.0.0 unity-quete.help
 0.0.0.0 unity-quetes.com
@@ -439557,6 +439565,7 @@
 0.0.0.0 vcbnmx.com
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
+0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
@@ -439620,6 +439629,7 @@
 0.0.0.0 vector-arc.com
 0.0.0.0 vectrabank.112.2o7.net
 0.0.0.0 vedant364.github.io
+0.0.0.0 vedantawisdom.org
 0.0.0.0 vedaprathikgattu.github.io
 0.0.0.0 vedhasssss.github.io
 0.0.0.0 vedkam.pages.dev
@@ -460783,6 +460793,7 @@
 0.0.0.0 www.metron-arc.com
 0.0.0.0 www.metspa.cam
 0.0.0.0 www.metybai.pro
+0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mevsall.com
 0.0.0.0 www.mezczyzna-trendy.pl
 0.0.0.0 www.mftracking.com
