@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-13 12:31:00
-# Entries: 477157
+# Generated: 2026-04-13 18:31:15
+# Entries: 477162
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -49467,7 +49467,6 @@
 0.0.0.0 adobepewjgronjgnwkengkjwengrj.pythonanywhere.com
 0.0.0.0 adobeproposaldoc.myportfolio.com
 0.0.0.0 adobereaders.co
-0.0.0.0 adobeready.online
 0.0.0.0 adobereverse.com
 0.0.0.0 adobes.mooo.com
 0.0.0.0 adobesecuredpdf.hopto.org
@@ -54940,7 +54939,6 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
-0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -55879,6 +55877,7 @@
 0.0.0.0 agropassaroseamigos.com.br
 0.0.0.0 agropecuarioenlinea.mywp.info
 0.0.0.0 agropolbud.pl
+0.0.0.0 agropole.tg
 0.0.0.0 agropreneurmuda.my
 0.0.0.0 agropulsar.com
 0.0.0.0 agroquimicabrasinha.com.br
@@ -130334,6 +130333,7 @@
 0.0.0.0 blfifjolsnkxspjw-dot-millinium.ey.r.appspot.com
 0.0.0.0 blfjhrxcawirhaxz-dot-millinium.ey.r.appspot.com
 0.0.0.0 blftjvkrmcjniepz-dot-millinium.ey.r.appspot.com
+0.0.0.0 blg.com.mx
 0.0.0.0 blg0nd-e11-rr1.square.site
 0.0.0.0 blgigzwzxelaszdr-dot-millinium.ey.r.appspot.com
 0.0.0.0 blginter1.wixsite.com
@@ -147753,6 +147753,7 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
+0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -153923,7 +153924,6 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
-0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -178084,6 +178084,7 @@
 0.0.0.0 detflix-96f2de.ingress-baronn.easywp.com
 0.0.0.0 dethecture.com
 0.0.0.0 dethex.pages.dev
+0.0.0.0 detierra.cl
 0.0.0.0 detik.serving-sys.com
 0.0.0.0 detiktotocakep.com
 0.0.0.0 detmwise.wixsite.com
@@ -213443,7 +213444,6 @@
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaidqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaittdqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femidignity.org
-0.0.0.0 femilamom.net
 0.0.0.0 feminplus.pl
 0.0.0.0 femlybowstkhoewy-dot-millinium.ey.r.appspot.com
 0.0.0.0 femmaterparaguay.x10.mx
@@ -227013,7 +227013,6 @@
 0.0.0.0 gecnhkxkeapdlucp-dot-millinium.ey.r.appspot.com
 0.0.0.0 gecogroupindia.com
 0.0.0.0 geconsumerfinance.112.2o7.net
-0.0.0.0 gecopakistan.com
 0.0.0.0 gecpkpbygowdwgyy-dot-millinium.ey.r.appspot.com
 0.0.0.0 gecsbwykunssfjzf-dot-millinium.ey.r.appspot.com
 0.0.0.0 gecvpmdzzsblcwig-dot-millinium.ey.r.appspot.com
@@ -232623,7 +232622,6 @@
 0.0.0.0 goharbor.digital
 0.0.0.0 gohelpdesk.co.uk
 0.0.0.0 gohelpdesk.ie
-0.0.0.0 gohelpertechnologies.in
 0.0.0.0 gohelpfeedbackfb-01765.vercel.app
 0.0.0.0 gohensurtumakelmohakisuret.duckdns.org
 0.0.0.0 gohkojvhbdvxkvyj-dot-millinium.ey.r.appspot.com
@@ -273731,6 +273729,7 @@
 0.0.0.0 jeloneck5-wixsite-com.filesusr.com
 0.0.0.0 jelpbhabbygoraaehosikrzngb-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 jem-mialwe.com
+0.0.0.0 jem-mialwe.net
 0.0.0.0 jemanilognes.webflow.io
 0.0.0.0 jembisporr.flywheelsites.com
 0.0.0.0 jembretcar-1316850103.cos.ap-bangkok.myqcloud.com
@@ -333449,7 +333448,6 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
-0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -352939,7 +352937,6 @@
 0.0.0.0 nutrikalia.com
 0.0.0.0 nutrilshop.net.tr.ht
 0.0.0.0 nutrired.org
-0.0.0.0 nutrisc.com.br
 0.0.0.0 nutrisilviaramos.com.br
 0.0.0.0 nutrisincera.com
 0.0.0.0 nutrisuave.com
@@ -357071,6 +357068,7 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 oknyhsxwr.info
 0.0.0.0 okogm.com
@@ -399096,6 +399094,7 @@
 0.0.0.0 rannisubor.rest
 0.0.0.0 rannoch.rentals
 0.0.0.0 rannochplay.com
+0.0.0.0 ranojpegu.in
 0.0.0.0 ransomnet.com.au
 0.0.0.0 ransortx.cloudaccess.host
 0.0.0.0 ranteskog-sv.com
@@ -402472,6 +402471,7 @@
 0.0.0.0 refundlodgement.top
 0.0.0.0 refundmobile-ca.gov-ref.dep.cogv-exp.com
 0.0.0.0 refundmobile.info
+0.0.0.0 refundonex.com
 0.0.0.0 refundpay.weebly.com
 0.0.0.0 refundpayee-nation.com
 0.0.0.0 refundpaymentsuk.com
@@ -430453,6 +430453,7 @@
 0.0.0.0 techaerolabs.com
 0.0.0.0 techalcyon.com
 0.0.0.0 techbargins.com
+0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techcareertrackerku.info
@@ -439318,6 +439319,7 @@
 0.0.0.0 valestrae-vault.pages.dev
 0.0.0.0 valetta.pl
 0.0.0.0 valexorantopro-it.fyi
+0.0.0.0 valfanto.com
 0.0.0.0 valfortunance.net
 0.0.0.0 valiaetich.rest
 0.0.0.0 valiant-core-1l4.pages.dev
@@ -441062,6 +441064,7 @@
 0.0.0.0 visam.info
 0.0.0.0 visana.fr
 0.0.0.0 visapay.onrender.com
+0.0.0.0 visapics.info
 0.0.0.0 visarmilic.rest
 0.0.0.0 viscachascompressibaailities.info
 0.0.0.0 vish-meta.pages.dev
@@ -460596,6 +460599,7 @@
 0.0.0.0 www.masonthomas.shop
 0.0.0.0 www.massextreme.pl
 0.0.0.0 www.masshysteria.store
+0.0.0.0 www.massiv.net
 0.0.0.0 www.mastercrown.privacio.com
 0.0.0.0 www.masteringdiabetes.org
 0.0.0.0 www.masterphas.highincomemoney.com
@@ -460797,7 +460801,6 @@
 0.0.0.0 www.metron-arc.com
 0.0.0.0 www.metspa.cam
 0.0.0.0 www.metybai.pro
-0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mevsall.com
 0.0.0.0 www.mezczyzna-trendy.pl
 0.0.0.0 www.mftracking.com
@@ -469511,6 +469514,7 @@
 0.0.0.0 www.tantisstore.club
 0.0.0.0 www.tanyaausburn.shop
 0.0.0.0 www.tao123.com
+0.0.0.0 www.taoday.net
 0.0.0.0 www.tapair.com
 0.0.0.0 www.tapback.tokyo
 0.0.0.0 www.tapext.click
@@ -475800,6 +475804,7 @@
 0.0.0.0 yogisandyoginis.com
 0.0.0.0 yogqg.cn
 0.0.0.0 yogyata6565.github.io
+0.0.0.0 yohin.sg
 0.0.0.0 yojhanhuanca.github.io
 0.0.0.0 yokesh1828.github.io
 0.0.0.0 yokohamah.booksvala.in
