@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-14 12:31:13
-# Entries: 477199
+# Generated: 2026-04-14 18:31:15
+# Entries: 477194
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -40287,7 +40287,6 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
-0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -147759,7 +147758,6 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
-0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -172689,6 +172687,7 @@
 0.0.0.0 dametting.blogspot.it
 0.0.0.0 dametting.blogspot.mx
 0.0.0.0 dami1080.github.io
+0.0.0.0 damiancollier.com
 0.0.0.0 damianemile.com
 0.0.0.0 damianking.shop
 0.0.0.0 damianwampler.com
@@ -199553,7 +199552,6 @@
 0.0.0.0 etincellejewelers.com
 0.0.0.0 etinkr.org
 0.0.0.0 etinsendmail.com
-0.0.0.0 etinsendmail.net
 0.0.0.0 etiofxlzcf.duckdns.org
 0.0.0.0 etiquetou.com.br
 0.0.0.0 etiquette1boncoin.000webhostapp.com
@@ -213453,7 +213451,6 @@
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaidqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaittdqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femidignity.org
-0.0.0.0 femilamom.net
 0.0.0.0 feminplus.pl
 0.0.0.0 femlybowstkhoewy-dot-millinium.ey.r.appspot.com
 0.0.0.0 femmaterparaguay.x10.mx
@@ -232632,6 +232629,7 @@
 0.0.0.0 goharbor.digital
 0.0.0.0 gohelpdesk.co.uk
 0.0.0.0 gohelpdesk.ie
+0.0.0.0 gohelpertechnologies.in
 0.0.0.0 gohelpfeedbackfb-01765.vercel.app
 0.0.0.0 gohensurtumakelmohakisuret.duckdns.org
 0.0.0.0 gohkojvhbdvxkvyj-dot-millinium.ey.r.appspot.com
@@ -233351,7 +233349,6 @@
 0.0.0.0 gopgf.duckdns.org
 0.0.0.0 gopherhole--scorpia10x.repl.co
 0.0.0.0 gopi333888.github.io
-0.0.0.0 goplanet.digital
 0.0.0.0 goplayoutside.net
 0.0.0.0 goplayz.com
 0.0.0.0 gopletter90guatema.0hi.me
@@ -234156,7 +234153,6 @@
 0.0.0.0 government-stimulus.info
 0.0.0.0 governmentrelief.info
 0.0.0.0 governmentstimulusbonus.net
-0.0.0.0 governofederal.io
 0.0.0.0 governorsschools.com
 0.0.0.0 govgov1.000webhostapp.com
 0.0.0.0 govgovcom.temp.swtest.ru
@@ -259828,6 +259824,7 @@
 0.0.0.0 ijamjamsec.com
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
+0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -284788,7 +284785,6 @@
 0.0.0.0 kirtonfirstbank.com
 0.0.0.0 kiryanaoffers.com
 0.0.0.0 kis.hosteurope.de.rechnungcheck.live
-0.0.0.0 kis.marketing
 0.0.0.0 kish.io
 0.0.0.0 kisha.icu
 0.0.0.0 kishan11147.github.io
@@ -330133,6 +330129,7 @@
 0.0.0.0 misionesinfo.com
 0.0.0.0 misionhome-agric.hostkda.com
 0.0.0.0 misionweb.net
+0.0.0.0 miskolc-dugulaselharitas.hu
 0.0.0.0 mismaaiauuipymfhlepjgurpjulmtyqxlmrv-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 mismebucca.rest
 0.0.0.0 mismuskan.github.io
@@ -330191,7 +330188,6 @@
 0.0.0.0 missglamworld.com
 0.0.0.0 missgypsywhitemoon.com.au
 0.0.0.0 misshaus.org
-0.0.0.0 missileperformance.hu
 0.0.0.0 missinooer.tk
 0.0.0.0 missiodeinetwork.org
 0.0.0.0 missioinactio.com
@@ -333468,6 +333464,7 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
+0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -356939,6 +356936,7 @@
 0.0.0.0 ok-bonusesfera.hopto.org
 0.0.0.0 ok-outlet.com
 0.0.0.0 ok-postoffice.com
+0.0.0.0 ok-vsefotki.online
 0.0.0.0 ok.5.p2l.info
 0.0.0.0 ok.andaydin.com
 0.0.0.0 ok.com.eac.by
@@ -357947,7 +357945,6 @@
 0.0.0.0 omavouphonsers.com
 0.0.0.0 omawood.com
 0.0.0.0 omax.admarvel.com
-0.0.0.0 omax.com.pk
 0.0.0.0 omay.pl
 0.0.0.0 omazeuceeazczprod.112.2o7.net
 0.0.0.0 omazon-jp.ineuxa.shop
@@ -417207,7 +417204,6 @@
 0.0.0.0 sattioes.com
 0.0.0.0 sattota.com
 0.0.0.0 sattvadoshi.github.io
-0.0.0.0 satuatlas.com
 0.0.0.0 satumi.pro
 0.0.0.0 satuosrdaysa07.co.vu
 0.0.0.0 satura.pl
@@ -431794,6 +431790,7 @@
 0.0.0.0 ticm.sap0508x9v.vip
 0.0.0.0 ticm.tap0297p8b.top
 0.0.0.0 ticolatonisan.pages.dev
+0.0.0.0 ticpc8a.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 ticskwsythree.icu
 0.0.0.0 tictocautoparts.com
@@ -449681,7 +449678,6 @@
 0.0.0.0 www.boeuf-irlandais.online
 0.0.0.0 www.bogatovfondanta-ro.fyi
 0.0.0.0 www.bogehi.pro
-0.0.0.0 www.bogenevent.at
 0.0.0.0 www.boheasveikkner.info
 0.0.0.0 www.bohoqi.pro
 0.0.0.0 www.boilwwermakers.info
@@ -454467,6 +454463,7 @@
 0.0.0.0 www.falsehoodsassessettd.info
 0.0.0.0 www.falte.glamsiteole.com
 0.0.0.0 www.falugay.com
+0.0.0.0 www.falzberger-shop.at
 0.0.0.0 www.famegluswaduol.pro
 0.0.0.0 www.familienzahnaerzte.com
 0.0.0.0 www.familje-ratt.info
@@ -460635,7 +460632,6 @@
 0.0.0.0 www.masonthomas.shop
 0.0.0.0 www.massextreme.pl
 0.0.0.0 www.masshysteria.store
-0.0.0.0 www.massiv.net
 0.0.0.0 www.mastercrown.privacio.com
 0.0.0.0 www.masteringdiabetes.org
 0.0.0.0 www.masterphas.highincomemoney.com
@@ -469552,7 +469548,6 @@
 0.0.0.0 www.tantisstore.club
 0.0.0.0 www.tanyaausburn.shop
 0.0.0.0 www.tao123.com
-0.0.0.0 www.taoday.net
 0.0.0.0 www.tapair.com
 0.0.0.0 www.tapback.tokyo
 0.0.0.0 www.tapext.click
