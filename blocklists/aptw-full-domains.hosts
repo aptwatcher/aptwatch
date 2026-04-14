@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-13 18:31:15
-# Entries: 477162
+# Generated: 2026-04-14 00:30:12
+# Entries: 477173
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -13725,6 +13725,7 @@
 0.0.0.0 2zhzdm0lwrjmdqtngi.pages.dev
 0.0.0.0 2zirq.cfd
 0.0.0.0 2zjulianpetty6j.top
+0.0.0.0 2zjyp0pj.borschokf2dd.digital
 0.0.0.0 2zmfvxmicr73pnlmzek.richardl.xyz
 0.0.0.0 2znp09oa.com
 0.0.0.0 2znqwuqy.qwo231sdx.club
@@ -34564,6 +34565,7 @@
 0.0.0.0 9nvtg4q.cn
 0.0.0.0 9nwyph62co.5368.gencmert.com
 0.0.0.0 9nzgbugagqydyi.wusps.xyz
+0.0.0.0 9o394zg7.paragonbloomera.digital
 0.0.0.0 9o6u0g.53244ds.xyz
 0.0.0.0 9o7v.wuaze.com
 0.0.0.0 9o7y.short.gy
@@ -49467,6 +49469,7 @@
 0.0.0.0 adobepewjgronjgnwkengkjwengrj.pythonanywhere.com
 0.0.0.0 adobeproposaldoc.myportfolio.com
 0.0.0.0 adobereaders.co
+0.0.0.0 adobeready.online
 0.0.0.0 adobereverse.com
 0.0.0.0 adobes.mooo.com
 0.0.0.0 adobesecuredpdf.hopto.org
@@ -55877,7 +55880,6 @@
 0.0.0.0 agropassaroseamigos.com.br
 0.0.0.0 agropecuarioenlinea.mywp.info
 0.0.0.0 agropolbud.pl
-0.0.0.0 agropole.tg
 0.0.0.0 agropreneurmuda.my
 0.0.0.0 agropulsar.com
 0.0.0.0 agroquimicabrasinha.com.br
@@ -61105,6 +61107,7 @@
 0.0.0.0 alimok.az
 0.0.0.0 alimosho21.wixsite.com
 0.0.0.0 alimost.com
+0.0.0.0 alimqulov.uz
 0.0.0.0 alin-a59be.firebaseapp.com
 0.0.0.0 alina.kenshung.com
 0.0.0.0 alinafans.online
@@ -120176,7 +120179,6 @@
 0.0.0.0 barrcofie.firebaseapp.com
 0.0.0.0 barrcofie.web.app
 0.0.0.0 barreau-demenagements.fr
-0.0.0.0 barrelfactorylofts.com
 0.0.0.0 barrelpainting.com
 0.0.0.0 barrelre.com
 0.0.0.0 barrett007.bitbucket.io
@@ -130333,7 +130335,6 @@
 0.0.0.0 blfifjolsnkxspjw-dot-millinium.ey.r.appspot.com
 0.0.0.0 blfjhrxcawirhaxz-dot-millinium.ey.r.appspot.com
 0.0.0.0 blftjvkrmcjniepz-dot-millinium.ey.r.appspot.com
-0.0.0.0 blg.com.mx
 0.0.0.0 blg0nd-e11-rr1.square.site
 0.0.0.0 blgigzwzxelaszdr-dot-millinium.ey.r.appspot.com
 0.0.0.0 blginter1.wixsite.com
@@ -147753,7 +147754,6 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
-0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -153924,6 +153924,7 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
+0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -158168,6 +158169,7 @@
 0.0.0.0 cnbpho.com
 0.0.0.0 cnbserlivwlt30dahon.azurewebsites.net
 0.0.0.0 cnbvn.carrd.co
+0.0.0.0 cnc.xenema.vip
 0.0.0.0 cnceast.weebly.com
 0.0.0.0 cncfd.nikasr.xyz
 0.0.0.0 cnchax.com
@@ -166314,6 +166316,7 @@
 0.0.0.0 coteaqui.planosparavc.com.br
 0.0.0.0 coteassetage-fr.fyi
 0.0.0.0 coteassetage-pt.fyi
+0.0.0.0 cotecsecuritygroup.com
 0.0.0.0 cotem-add.web.app
 0.0.0.0 cotexllc.000webhostapp.com
 0.0.0.0 cothweb.org
@@ -178084,7 +178087,6 @@
 0.0.0.0 detflix-96f2de.ingress-baronn.easywp.com
 0.0.0.0 dethecture.com
 0.0.0.0 dethex.pages.dev
-0.0.0.0 detierra.cl
 0.0.0.0 detik.serving-sys.com
 0.0.0.0 detiktotocakep.com
 0.0.0.0 detmwise.wixsite.com
@@ -193166,6 +193168,7 @@
 0.0.0.0 ef7f-4e33-9910.duckdns.org
 0.0.0.0 ef7link.com
 0.0.0.0 ef81faf069f3a9dc3e3689bf732f3f30330338409817c9cfa5129cad0e.pages.dev
+0.0.0.0 ef8qorio.latat-long.digital
 0.0.0.0 ef9a9164.asa-jadd8nds.com.cn
 0.0.0.0 efa.org-1p96or4r18xkgichj0dl.1p96or4r18xkgichj0dl.manxttrider.com
 0.0.0.0 efacert67676788766pdf.pages.dev
@@ -213444,6 +213447,7 @@
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaidqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaittdqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femidignity.org
+0.0.0.0 femilamom.net
 0.0.0.0 feminplus.pl
 0.0.0.0 femlybowstkhoewy-dot-millinium.ey.r.appspot.com
 0.0.0.0 femmaterparaguay.x10.mx
@@ -234745,6 +234749,7 @@
 0.0.0.0 grandslaminvesting.buzz
 0.0.0.0 grandtheftape.com
 0.0.0.0 grandtheftwiki.fr
+0.0.0.0 grandvegasbet.com.br
 0.0.0.0 granelidom-id611case-privatonix.netlify.app
 0.0.0.0 grange.ie
 0.0.0.0 grangeconstructionco.com
@@ -273536,6 +273541,7 @@
 0.0.0.0 jdsezet.fr
 0.0.0.0 jdsgdjj1.beget.tech
 0.0.0.0 jdshnorkitljdgjffbylsfqhxjwxnpoivwha-dot-cryptic-now-290917.ey.r.appspot.com
+0.0.0.0 jdskl139sla.com
 0.0.0.0 jdsondg.com
 0.0.0.0 jdswbvie4wuedgow0cisxdfbhwetw230iwedfwe.toh.info
 0.0.0.0 jdtc.000webhostapp.com
@@ -332717,6 +332723,7 @@
 0.0.0.0 mocktestlab.com
 0.0.0.0 mockup-instagram-dio.vercel.app
 0.0.0.0 mockup.metradigitalmedia.com
+0.0.0.0 mockupcorporation.com
 0.0.0.0 mockz.com
 0.0.0.0 mocleran.com
 0.0.0.0 mocloudmacs.ch46650.tmweb.ru
@@ -333448,6 +333455,7 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
+0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -340364,6 +340372,7 @@
 0.0.0.0 mypages-e22.pages.dev
 0.0.0.0 mypalmoe.com
 0.0.0.0 mypancakeswap.online
+0.0.0.0 mypanel.vip
 0.0.0.0 myparcel-delivery-pay.com
 0.0.0.0 myparcel-dhlday.ddns.net
 0.0.0.0 myparcel-help34532.com
@@ -357926,6 +357935,7 @@
 0.0.0.0 omavouphonsers.com
 0.0.0.0 omawood.com
 0.0.0.0 omax.admarvel.com
+0.0.0.0 omax.com.pk
 0.0.0.0 omay.pl
 0.0.0.0 omazeuceeazczprod.112.2o7.net
 0.0.0.0 omazon-jp.ineuxa.shop
@@ -373424,6 +373434,7 @@
 0.0.0.0 photocontestclikkaevola.000webhostapp.com
 0.0.0.0 photocustomerservice.com
 0.0.0.0 photodeporte.com
+0.0.0.0 photodocvault.info
 0.0.0.0 photoesandvideos.com
 0.0.0.0 photofacebook2.kartra.com
 0.0.0.0 photofacebookimagen.blogspot.com
@@ -393805,6 +393816,7 @@
 0.0.0.0 pwm.healthygenez.club
 0.0.0.0 pwmmnxdwpmoecmdk-dot-millinium.ey.r.appspot.com
 0.0.0.0 pwnagestudios.com
+0.0.0.0 pwndrop.llcsintez-n.org
 0.0.0.0 pwned-lovat.vercel.app
 0.0.0.0 pwnsoftcom-2025.github.io
 0.0.0.0 pwokuoxa.love
@@ -399094,7 +399106,6 @@
 0.0.0.0 rannisubor.rest
 0.0.0.0 rannoch.rentals
 0.0.0.0 rannochplay.com
-0.0.0.0 ranojpegu.in
 0.0.0.0 ransomnet.com.au
 0.0.0.0 ransortx.cloudaccess.host
 0.0.0.0 ranteskog-sv.com
@@ -414213,6 +414224,7 @@
 0.0.0.0 safecontentsafetypolicy.vercel.app
 0.0.0.0 safecontentviralforge.vercel.app
 0.0.0.0 safedoc2.homelinux.com
+0.0.0.0 safedocs-hub.info
 0.0.0.0 safee--ndax--login.webflow.io
 0.0.0.0 safee-ndax--login.webflow.io
 0.0.0.0 safee-ndax-logiin--sso.webflow.io
@@ -430453,7 +430465,6 @@
 0.0.0.0 techaerolabs.com
 0.0.0.0 techalcyon.com
 0.0.0.0 techbargins.com
-0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techcareertrackerku.info
@@ -430942,6 +430953,7 @@
 0.0.0.0 tesla-2ju.pages.dev
 0.0.0.0 tesla.demo.webernets.online
 0.0.0.0 teslas-apply.com
+0.0.0.0 teslasuit.to
 0.0.0.0 teslauaeprojects.com
 0.0.0.0 tesltralonlinecentres.weebly.com
 0.0.0.0 tesori.pl
@@ -475804,7 +475816,6 @@
 0.0.0.0 yogisandyoginis.com
 0.0.0.0 yogqg.cn
 0.0.0.0 yogyata6565.github.io
-0.0.0.0 yohin.sg
 0.0.0.0 yojhanhuanca.github.io
 0.0.0.0 yokesh1828.github.io
 0.0.0.0 yokohamah.booksvala.in
