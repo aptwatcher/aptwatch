@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-14 00:30:12
-# Entries: 477173
+# Generated: 2026-04-14 06:31:21
+# Entries: 477176
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -101838,6 +101838,7 @@
 0.0.0.0 aumomotortrend.112.2o7.net
 0.0.0.0 aumonewcarcom.112.2o7.net
 0.0.0.0 aumotradeinvaluecom.112.2o7.net
+0.0.0.0 aumri.ae
 0.0.0.0 aumsprivacyconceptmessages.github.io
 0.0.0.0 aumx2.sspl.com.au
 0.0.0.0 aumx2.sspl.com.auaumx2.sspl.com.au
@@ -153924,7 +153925,6 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
-0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -166316,7 +166316,6 @@
 0.0.0.0 coteaqui.planosparavc.com.br
 0.0.0.0 coteassetage-fr.fyi
 0.0.0.0 coteassetage-pt.fyi
-0.0.0.0 cotecsecuritygroup.com
 0.0.0.0 cotem-add.web.app
 0.0.0.0 cotexllc.000webhostapp.com
 0.0.0.0 cothweb.org
@@ -199962,6 +199961,7 @@
 0.0.0.0 eurodelinks.com
 0.0.0.0 eurodesignhomes.com
 0.0.0.0 euroenvases.com.ar
+0.0.0.0 eurofarm.ge
 0.0.0.0 eurofiranyfashion.shop
 0.0.0.0 eurofiranyofficial.shop
 0.0.0.0 eurofiranyplsaleppl.shop
@@ -332723,7 +332723,6 @@
 0.0.0.0 mocktestlab.com
 0.0.0.0 mockup-instagram-dio.vercel.app
 0.0.0.0 mockup.metradigitalmedia.com
-0.0.0.0 mockupcorporation.com
 0.0.0.0 mockz.com
 0.0.0.0 mocleran.com
 0.0.0.0 mocloudmacs.ch46650.tmweb.ru
@@ -420183,6 +420182,7 @@
 0.0.0.0 sftrack.searchforce.net
 0.0.0.0 sfu.wawpg.icu
 0.0.0.0 sfufc.com
+0.0.0.0 sfunited.club
 0.0.0.0 sfv.efc.mybluehost.me
 0.0.0.0 sg-cdn.effectivemeasure.net
 0.0.0.0 sg-gmtdmp.gd2.mookie1.com
@@ -430537,6 +430537,7 @@
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techtalk.site
+0.0.0.0 techtattva.in
 0.0.0.0 techtrendsexplorerjh.info
 0.0.0.0 techtrendshubmd.pro
 0.0.0.0 techvancekariyer.com
@@ -449658,6 +449659,7 @@
 0.0.0.0 www.boeuf-irlandais.online
 0.0.0.0 www.bogatovfondanta-ro.fyi
 0.0.0.0 www.bogehi.pro
+0.0.0.0 www.bogenevent.at
 0.0.0.0 www.boheasveikkner.info
 0.0.0.0 www.bohoqi.pro
 0.0.0.0 www.boilwwermakers.info
@@ -460813,6 +460815,7 @@
 0.0.0.0 www.metron-arc.com
 0.0.0.0 www.metspa.cam
 0.0.0.0 www.metybai.pro
+0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mevsall.com
 0.0.0.0 www.mezczyzna-trendy.pl
 0.0.0.0 www.mftracking.com
