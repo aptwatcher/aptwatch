@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-14 06:31:21
-# Entries: 477176
+# Generated: 2026-04-14 12:31:13
+# Entries: 477199
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -62586,6 +62586,7 @@
 0.0.0.0 allsumit-dependess.firebaseapp.com
 0.0.0.0 allsvr.ru
 0.0.0.0 allswellinc.com
+0.0.0.0 allsydevs.com
 0.0.0.0 allsyuine.com
 0.0.0.0 alltago.weebly.com
 0.0.0.0 alltagshelfer-giessen.de
@@ -74137,6 +74138,7 @@
 0.0.0.0 anzpts.click
 0.0.0.0 anzref.com
 0.0.0.0 anzresolve-team.com
+0.0.0.0 anzrewardse-homes.info
 0.0.0.0 anzsbczx.000webhostapp.com
 0.0.0.0 anzsecure-log.com
 0.0.0.0 anzsecure-support.com
@@ -86586,6 +86588,7 @@
 0.0.0.0 arpan-saha-25.github.io
 0.0.0.0 arpangupta1805.github.io
 0.0.0.0 arpanna-f3de3e.ingress-earth.ewp.live
+0.0.0.0 arpausa.com.ec
 0.0.0.0 arpaypay.peruanobet.com
 0.0.0.0 arpeggio-limoges.fr
 0.0.0.0 arpeggioaudio.com
@@ -124169,6 +124172,7 @@
 0.0.0.0 bendigo-cancel-action.com
 0.0.0.0 bendigo-digo.com
 0.0.0.0 bendigo-help.web.app
+0.0.0.0 bendigo-homesa.info
 0.0.0.0 bendigo-id-a8ea9.com
 0.0.0.0 bendigo-logau.com
 0.0.0.0 bendigo-mobile.com
@@ -147755,6 +147759,7 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
+0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -153925,6 +153930,7 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
+0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -184484,6 +184490,7 @@
 0.0.0.0 doc-xls-view.vercel.app
 0.0.0.0 doc.abv.uyo.temporary.site
 0.0.0.0 doc.e-docssig.com
+0.0.0.0 doc.e-statements.app
 0.0.0.0 doc.files.dns-cloud.net
 0.0.0.0 doc.google.share.pressurecookerindia.com
 0.0.0.0 doc.iasaude.pt
@@ -199961,7 +199968,6 @@
 0.0.0.0 eurodelinks.com
 0.0.0.0 eurodesignhomes.com
 0.0.0.0 euroenvases.com.ar
-0.0.0.0 eurofarm.ge
 0.0.0.0 eurofiranyfashion.shop
 0.0.0.0 eurofiranyofficial.shop
 0.0.0.0 eurofiranyplsaleppl.shop
@@ -233345,6 +233351,7 @@
 0.0.0.0 gopgf.duckdns.org
 0.0.0.0 gopherhole--scorpia10x.repl.co
 0.0.0.0 gopi333888.github.io
+0.0.0.0 goplanet.digital
 0.0.0.0 goplayoutside.net
 0.0.0.0 goplayz.com
 0.0.0.0 gopletter90guatema.0hi.me
@@ -234149,6 +234156,7 @@
 0.0.0.0 government-stimulus.info
 0.0.0.0 governmentrelief.info
 0.0.0.0 governmentstimulusbonus.net
+0.0.0.0 governofederal.io
 0.0.0.0 governorsschools.com
 0.0.0.0 govgov1.000webhostapp.com
 0.0.0.0 govgovcom.temp.swtest.ru
@@ -251983,6 +251991,7 @@
 0.0.0.0 homebyselene.com
 0.0.0.0 homecaredxb.com
 0.0.0.0 homecaremovers-com-wp-admin-img-wp-ico.appwrite.network
+0.0.0.0 homecaremovers.com
 0.0.0.0 homecareottawa.com
 0.0.0.0 homecashpeoria.com
 0.0.0.0 homecenttts-salvadorpostt2sv.000webhostapp.com
@@ -254158,6 +254167,8 @@
 0.0.0.0 hsbconlinesupport.servehttp.com
 0.0.0.0 hsbcorsoemployer.wrkr.hk
 0.0.0.0 hsbcpl.com
+0.0.0.0 hsbcrewards-homesa.info
+0.0.0.0 hsbcrewards-homesb.info
 0.0.0.0 hsbcsecurity.session1143740.info
 0.0.0.0 hsbcuat.morningstar.co.kr
 0.0.0.0 hsbcuk.deregister-newpayment.com
@@ -284777,6 +284788,7 @@
 0.0.0.0 kirtonfirstbank.com
 0.0.0.0 kiryanaoffers.com
 0.0.0.0 kis.hosteurope.de.rechnungcheck.live
+0.0.0.0 kis.marketing
 0.0.0.0 kish.io
 0.0.0.0 kisha.icu
 0.0.0.0 kishan11147.github.io
@@ -298914,6 +298926,7 @@
 0.0.0.0 lloydsauthenticationsupport.com
 0.0.0.0 lloydsauthorise-newpayee.com
 0.0.0.0 lloydsbank-accessremoval.com
+0.0.0.0 lloydsbank-homesa.info
 0.0.0.0 lloydsbank-login.lb-secure.com
 0.0.0.0 lloydsbank-online-login.lb-secure.com
 0.0.0.0 lloydsbank-onlinesecure.excepay1.com
@@ -330178,6 +330191,7 @@
 0.0.0.0 missglamworld.com
 0.0.0.0 missgypsywhitemoon.com.au
 0.0.0.0 misshaus.org
+0.0.0.0 missileperformance.hu
 0.0.0.0 missinooer.tk
 0.0.0.0 missiodeinetwork.org
 0.0.0.0 missioinactio.com
@@ -333454,7 +333468,6 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
-0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -394363,6 +394376,8 @@
 0.0.0.0 qanfin.com
 0.0.0.0 qantas.flyer-au.online
 0.0.0.0 qantasairline.au
+0.0.0.0 qantasrewardsa-homes.info
+0.0.0.0 qantasrewardsb-homes.info
 0.0.0.0 qantumnetwork.com.au
 0.0.0.0 qanwvyqcwb.duckdns.org
 0.0.0.0 qao-fabd1e.ingress-erytho.ewp.live
@@ -399658,6 +399673,9 @@
 0.0.0.0 rbcroyal-secure.com
 0.0.0.0 rbcroyal-signon.com
 0.0.0.0 rbcroyalb-alerts.com
+0.0.0.0 rbcroyalbank-homesa.cc
+0.0.0.0 rbcroyalbank-homesc.info
+0.0.0.0 rbcroyalbank-homesd.info
 0.0.0.0 rbcroyalbank.ca-auth2.com
 0.0.0.0 rbcroyalbank.ca-online2.com
 0.0.0.0 rbcroyalbank.ca-web1.com
@@ -417189,6 +417207,7 @@
 0.0.0.0 sattioes.com
 0.0.0.0 sattota.com
 0.0.0.0 sattvadoshi.github.io
+0.0.0.0 satuatlas.com
 0.0.0.0 satumi.pro
 0.0.0.0 satuosrdaysa07.co.vu
 0.0.0.0 satura.pl
@@ -427584,6 +427603,8 @@
 0.0.0.0 suncoast-onboard.surge.sh
 0.0.0.0 suncoast.speedtest.us.org
 0.0.0.0 suncom.112.2o7.net
+0.0.0.0 suncorp-homesa.info
+0.0.0.0 suncorp-homesb.info
 0.0.0.0 suncoust.click
 0.0.0.0 sundaram26.github.io
 0.0.0.0 sundaysky-partners.tremorhub.com
@@ -430537,7 +430558,6 @@
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techtalk.site
-0.0.0.0 techtattva.in
 0.0.0.0 techtrendsexplorerjh.info
 0.0.0.0 techtrendshubmd.pro
 0.0.0.0 techvancekariyer.com
@@ -443594,6 +443614,8 @@
 0.0.0.0 westjet.112.2o7.net
 0.0.0.0 westmarkfinance.com
 0.0.0.0 weston2255.github.io
+0.0.0.0 westpacone-homesc.info
+0.0.0.0 westpacone-homesg.info
 0.0.0.0 westpacrecovery.com
 0.0.0.0 westruneon.com
 0.0.0.0 westsummer.mom
@@ -461110,6 +461132,7 @@
 0.0.0.0 www.mopiez.com
 0.0.0.0 www.mopik.pl
 0.0.0.0 www.moppingpoyyled.info
+0.0.0.0 www.mopsl.info
 0.0.0.0 www.moqqnotheistic.info
 0.0.0.0 www.moraaalecanolas.info
 0.0.0.0 www.moralesbennett.shop
