@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-15 12:31:15
-# Entries: 477241
+# Generated: 2026-04-15 18:31:19
+# Entries: 477229
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -41322,7 +41322,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -54945,7 +54944,6 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
-0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -158178,7 +158176,6 @@
 0.0.0.0 cnbpho.com
 0.0.0.0 cnbserlivwlt30dahon.azurewebsites.net
 0.0.0.0 cnbvn.carrd.co
-0.0.0.0 cnc.xenema.vip
 0.0.0.0 cnceast.weebly.com
 0.0.0.0 cncfd.nikasr.xyz
 0.0.0.0 cnchax.com
@@ -188931,7 +188928,6 @@
 0.0.0.0 dwisqtghmbzmxakmkshpyrfana-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 dwivedishashank2003.github.io
 0.0.0.0 dwjchjj.ooo
-0.0.0.0 dwkch.ru
 0.0.0.0 dwkcypbvg.pqnsatfas.net
 0.0.0.0 dwkmchivdkgtgucsnzdptdlsugfvdkfjzsbj-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 dwktr-zyaaa-aaaad-qdrba-cai.raw.ic0.app
@@ -199563,6 +199559,7 @@
 0.0.0.0 etincellejewelers.com
 0.0.0.0 etinkr.org
 0.0.0.0 etinsendmail.com
+0.0.0.0 etinsendmail.net
 0.0.0.0 etiofxlzcf.duckdns.org
 0.0.0.0 etiquetou.com.br
 0.0.0.0 etiquette1boncoin.000webhostapp.com
@@ -232640,7 +232637,6 @@
 0.0.0.0 goharbor.digital
 0.0.0.0 gohelpdesk.co.uk
 0.0.0.0 gohelpdesk.ie
-0.0.0.0 gohelpertechnologies.in
 0.0.0.0 gohelpfeedbackfb-01765.vercel.app
 0.0.0.0 gohensurtumakelmohakisuret.duckdns.org
 0.0.0.0 gohkojvhbdvxkvyj-dot-millinium.ey.r.appspot.com
@@ -233299,7 +233295,6 @@
 0.0.0.0 googllee.000webhostapp.com
 0.0.0.0 googlus.com
 0.0.0.0 googlwe.com
-0.0.0.0 googmeetinginvitation.com
 0.0.0.0 googolreklam.com
 0.0.0.0 googoltwitchpatriarch20.com
 0.0.0.0 goohf.cn
@@ -308303,7 +308298,6 @@
 0.0.0.0 magnumatorfunciona-es.fyi
 0.0.0.0 magnumbd.com
 0.0.0.0 magnumwallet.su
-0.0.0.0 magnusworkspace.com
 0.0.0.0 magodontologia.com.br
 0.0.0.0 magogcaskets.com
 0.0.0.0 magpieair.com
@@ -330205,7 +330199,6 @@
 0.0.0.0 missglamworld.com
 0.0.0.0 missgypsywhitemoon.com.au
 0.0.0.0 misshaus.org
-0.0.0.0 missileperformance.hu
 0.0.0.0 missinooer.tk
 0.0.0.0 missiodeinetwork.org
 0.0.0.0 missioinactio.com
@@ -333482,6 +333475,7 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
+0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -352927,7 +352921,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -356955,7 +356948,6 @@
 0.0.0.0 ok-bonusesfera.hopto.org
 0.0.0.0 ok-outlet.com
 0.0.0.0 ok-postoffice.com
-0.0.0.0 ok-vsefotki.online
 0.0.0.0 ok.5.p2l.info
 0.0.0.0 ok.andaydin.com
 0.0.0.0 ok.com.eac.by
@@ -373417,6 +373409,7 @@
 0.0.0.0 phot546ogorky.gb.net
 0.0.0.0 photcontest2020.000webhostapp.com
 0.0.0.0 photgrap.duckdns.org
+0.0.0.0 photgridyelow.site
 0.0.0.0 phothan-w6gp.vercel.app
 0.0.0.0 photo-0973.firebaseapp.com
 0.0.0.0 photo-0973.web.app
@@ -384942,6 +384935,7 @@
 0.0.0.0 protestthesis.top
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 prothokkracic.info
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
@@ -423823,6 +423817,7 @@
 0.0.0.0 sportingnews.122.2o7.net
 0.0.0.0 sportingnews.us.intellitxt.com
 0.0.0.0 sportion.org
+0.0.0.0 sportisimo.ddeichmann-de.com
 0.0.0.0 sportisimo.sfd-pl.shop
 0.0.0.0 sportisimoczolinesale.com
 0.0.0.0 sportisimoonlinesk.com
@@ -429451,7 +429446,6 @@
 0.0.0.0 taitei-andreea.ro
 0.0.0.0 taiwanrich.org
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
-0.0.0.0 tajalrayhan.com
 0.0.0.0 tajnder.pl
 0.0.0.0 tajs.qq.com
 0.0.0.0 tajukea.com
@@ -430510,7 +430504,6 @@
 0.0.0.0 techaerolabs.com
 0.0.0.0 techalcyon.com
 0.0.0.0 techbargins.com
-0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techcareertrackerku.info
@@ -439630,7 +439623,6 @@
 0.0.0.0 vcbnmx.com
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
-0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
@@ -454506,7 +454498,6 @@
 0.0.0.0 www.falsehoodsassessettd.info
 0.0.0.0 www.falte.glamsiteole.com
 0.0.0.0 www.falugay.com
-0.0.0.0 www.falzberger-shop.at
 0.0.0.0 www.famegluswaduol.pro
 0.0.0.0 www.familienzahnaerzte.com
 0.0.0.0 www.familje-ratt.info
@@ -455071,7 +455062,6 @@
 0.0.0.0 www.flatfea.ero-advertising.com
 0.0.0.0 www.flatfee.ero-advertising.com
 0.0.0.0 www.flatkey.treystr.com
-0.0.0.0 www.flatpower.at
 0.0.0.0 www.flavomanic.cyou
 0.0.0.0 www.flawlessright.wearablenation.com
 0.0.0.0 www.flawlesstap.wearablenation.com
@@ -461171,7 +461161,6 @@
 0.0.0.0 www.mopiez.com
 0.0.0.0 www.mopik.pl
 0.0.0.0 www.moppingpoyyled.info
-0.0.0.0 www.mopsl.info
 0.0.0.0 www.moqqnotheistic.info
 0.0.0.0 www.moraaalecanolas.info
 0.0.0.0 www.moralesbennett.shop
@@ -477026,7 +477015,6 @@
 0.0.0.0 zorqui.sbs
 0.0.0.0 zortreewallet.webflow.io
 0.0.0.0 zorunite-lupemira.pages.dev
-0.0.0.0 zorvex.life
 0.0.0.0 zorx-meta-blim-biz.pages.dev
 0.0.0.0 zoryn-palix-kelvo.pages.dev
 0.0.0.0 zosia-warszawa.com
