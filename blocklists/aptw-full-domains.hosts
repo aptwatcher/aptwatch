@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-14 18:31:15
-# Entries: 477194
+# Generated: 2026-04-15 00:31:17
+# Entries: 477236
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -7068,6 +7068,7 @@
 0.0.0.0 176.25.129.34.bc.googleusercontent.com
 0.0.0.0 176.28.116.58
 0.0.0.0 176.57.150.107
+0.0.0.0 176.65.148.189.ptr.pfcloud.network
 0.0.0.0 176.9.0.78
 0.0.0.0 17608-1795.s2.webspace.re
 0.0.0.0 176112.multipleardent.cn
@@ -19951,6 +19952,7 @@
 0.0.0.0 46.101.172.233
 0.0.0.0 46.101.177.126
 0.0.0.0 46.101.183.148
+0.0.0.0 46.107.230.43.in-addr.arpa
 0.0.0.0 46.148.26.150
 0.0.0.0 46.161.40.139
 0.0.0.0 46.163.76.40
@@ -40287,6 +40289,7 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
+0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -54941,6 +54944,7 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
+0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -78912,7 +78916,6 @@
 0.0.0.0 app.calintent.workers.dev
 0.0.0.0 app.canterasarcomex.com
 0.0.0.0 app.catyrgghd.cloud
-0.0.0.0 app.cc-coins.xyz
 0.0.0.0 app.cdn.lookbookhq.com
 0.0.0.0 app.cdn.usps.informed-delivery.me
 0.0.0.0 app.cdn.usps.informed-delivery.net
@@ -129706,6 +129709,7 @@
 0.0.0.0 bknepwwjty.duckdns.org
 0.0.0.0 bknfkmbayilxrmzs.net
 0.0.0.0 bkng-id2958572165912.com
+0.0.0.0 bkngextranetreservcontrolpanel.com
 0.0.0.0 bknmoqxrnvpbjszi-dot-millinium.ey.r.appspot.com
 0.0.0.0 bknproduktion.dk
 0.0.0.0 bknysportsbook.com
@@ -162342,6 +162346,7 @@
 0.0.0.0 commban0k-au.us6.instawp.xyz
 0.0.0.0 commbank-access.com
 0.0.0.0 commbank-connect.com.au
+0.0.0.0 commbank-homesa.info
 0.0.0.0 commbank-mobile.app
 0.0.0.0 commbank-mobile.au
 0.0.0.0 commbank-mobile.com.au
@@ -162364,6 +162369,7 @@
 0.0.0.0 commbank.ui3l.com
 0.0.0.0 commbank.verificationsys.com.au
 0.0.0.0 commbank3.app
+0.0.0.0 commbanka-homes.info
 0.0.0.0 commbankapp.com.au
 0.0.0.0 commbankaus-log.in
 0.0.0.0 commbanksecure.com
@@ -166202,6 +166208,7 @@
 0.0.0.0 corvessantcapital.com
 0.0.0.0 corvilla.id
 0.0.0.0 corvosathletic.com
+0.0.0.0 corwineagles.com
 0.0.0.0 cory.lura.larealtypertners.com
 0.0.0.0 cory78jo887g-3.funnelflex.io
 0.0.0.0 coryjames.com
@@ -181722,6 +181729,7 @@
 0.0.0.0 digitalnhscpass.com
 0.0.0.0 digitalnodeservexyz.pages.dev
 0.0.0.0 digitaloceans.sgp1.digitaloceanspaces.com
+0.0.0.0 digitalonline.cl
 0.0.0.0 digitalprinceton.com
 0.0.0.0 digitalprivacyadvocates.com
 0.0.0.0 digitalprocurements.com
@@ -183620,7 +183628,6 @@
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
-0.0.0.0 dl.armour-inc-down.net
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
@@ -185611,6 +185618,7 @@
 0.0.0.0 dominspect.com
 0.0.0.0 domintell.su
 0.0.0.0 domir.ml
+0.0.0.0 domister.online
 0.0.0.0 domithen.pro
 0.0.0.0 domixsubpee0.atwebpages.com
 0.0.0.0 domkinawyspie.nspace.pl
@@ -188417,6 +188425,7 @@
 0.0.0.0 dummy.roboforexes.com
 0.0.0.0 dummynationfree.tk
 0.0.0.0 dump-in.com
+0.0.0.0 dump.win
 0.0.0.0 dumpstargb.tk
 0.0.0.0 dunandbradstreet.122.2o7.net
 0.0.0.0 dunarevalor-app.com
@@ -199552,6 +199561,7 @@
 0.0.0.0 etincellejewelers.com
 0.0.0.0 etinkr.org
 0.0.0.0 etinsendmail.com
+0.0.0.0 etinsendmail.net
 0.0.0.0 etiofxlzcf.duckdns.org
 0.0.0.0 etiquetou.com.br
 0.0.0.0 etiquette1boncoin.000webhostapp.com
@@ -204152,7 +204162,6 @@
 0.0.0.0 f1169862.xsph.ru
 0.0.0.0 f117g.xyz
 0.0.0.0 f128684.hostde34.fornex.host
-0.0.0.0 f13hwmuq.amb1ing-farm.digital
 0.0.0.0 f14.adventori.com
 0.0.0.0 f1420831.cardiopedbrasil.com.br
 0.0.0.0 f1481f1481.maradentrosjihs.com
@@ -233349,6 +233358,7 @@
 0.0.0.0 gopgf.duckdns.org
 0.0.0.0 gopherhole--scorpia10x.repl.co
 0.0.0.0 gopi333888.github.io
+0.0.0.0 goplanet.digital
 0.0.0.0 goplayoutside.net
 0.0.0.0 goplayz.com
 0.0.0.0 gopletter90guatema.0hi.me
@@ -233367,7 +233377,6 @@
 0.0.0.0 gopuaakash.github.io
 0.0.0.0 goq.mneacy.xyz
 0.0.0.0 goqrupobancolombia.com.co
-0.0.0.0 goragalo.live
 0.0.0.0 gorange.fr
 0.0.0.0 gorchitsacafe.kiev.ua
 0.0.0.0 gordenasklep.pl
@@ -233458,6 +233467,7 @@
 0.0.0.0 gossamer-clover-jonquil.glitch.me
 0.0.0.0 gossamer-plain-perigee.glitch.me
 0.0.0.0 gossamerbio.corporacionfrm.org
+0.0.0.0 gossipband.ie
 0.0.0.0 gossipbottom.com
 0.0.0.0 gossipcenter.us.intellitxt.com
 0.0.0.0 gossiponthis.us.intellitxt.com
@@ -234153,6 +234163,7 @@
 0.0.0.0 government-stimulus.info
 0.0.0.0 governmentrelief.info
 0.0.0.0 governmentstimulusbonus.net
+0.0.0.0 governofederal.io
 0.0.0.0 governorsschools.com
 0.0.0.0 govgov1.000webhostapp.com
 0.0.0.0 govgovcom.temp.swtest.ru
@@ -240921,6 +240932,7 @@
 0.0.0.0 gtoswapportal.pages.dev
 0.0.0.0 gtp1.acecounter.com
 0.0.0.0 gtp16.acecounter.com
+0.0.0.0 gtps4change.org
 0.0.0.0 gtqvbscypvvhtsudelnxdfuspqcicuvcbepk-dot-cedar-code-289917.nn.r.appspot.com
 0.0.0.0 gtr.clientpcdb.space
 0.0.0.0 gtrack.kueezrtb.com
@@ -244390,6 +244402,7 @@
 0.0.0.0 hasszdc.duckdns.org
 0.0.0.0 hasszdd.duckdns.org
 0.0.0.0 hastagmedia.com
+0.0.0.0 hasteb.in
 0.0.0.0 hastebin.stamm.me
 0.0.0.0 hastenestate.com
 0.0.0.0 hastiro.in
@@ -254165,6 +254178,8 @@
 0.0.0.0 hsbcpl.com
 0.0.0.0 hsbcrewards-homesa.info
 0.0.0.0 hsbcrewards-homesb.info
+0.0.0.0 hsbcrewardsa-homes.info
+0.0.0.0 hsbcrewardsc-homes.info
 0.0.0.0 hsbcsecurity.session1143740.info
 0.0.0.0 hsbcuat.morningstar.co.kr
 0.0.0.0 hsbcuk.deregister-newpayment.com
@@ -259824,7 +259839,6 @@
 0.0.0.0 ijamjamsec.com
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
-0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -264808,6 +264822,7 @@
 0.0.0.0 innovativemobilephonemarketing.com
 0.0.0.0 innovatives.tk
 0.0.0.0 innovativesolutionsplus.com
+0.0.0.0 innovativesr.com
 0.0.0.0 innovativesumit.github.io
 0.0.0.0 innovativetechshop.xyz
 0.0.0.0 innovativetelevisioners.top
@@ -291846,6 +291861,7 @@
 0.0.0.0 lavishstudiobd.xyz
 0.0.0.0 lavitaworld.com
 0.0.0.0 lavjen.com
+0.0.0.0 lavnixo.cfd
 0.0.0.0 lavoink.cyou
 0.0.0.0 lavoixdesanges-a14e3.web.app
 0.0.0.0 lavoixdunet.info
@@ -296033,7 +296049,6 @@
 0.0.0.0 like-honey-albertonykus.glitch.me
 0.0.0.0 like-past-curiosity.glitch.me
 0.0.0.0 like-snapdragon-damselfly.glitch.me
-0.0.0.0 like.exphelp.life
 0.0.0.0 like.likewut.net
 0.0.0.0 likeabilly.dreamhosters.com
 0.0.0.0 likeable-bright-iron.glitch.me
@@ -298923,6 +298938,7 @@
 0.0.0.0 lloydsauthorise-newpayee.com
 0.0.0.0 lloydsbank-accessremoval.com
 0.0.0.0 lloydsbank-homesa.info
+0.0.0.0 lloydsbank-homesb.info
 0.0.0.0 lloydsbank-login.lb-secure.com
 0.0.0.0 lloydsbank-online-login.lb-secure.com
 0.0.0.0 lloydsbank-onlinesecure.excepay1.com
@@ -303619,7 +303635,6 @@
 0.0.0.0 low-comet-zebu.glitch.me
 0.0.0.0 low-hacker.popunder.ru
 0.0.0.0 low-kilobyte-crooked.on-fleek.app
-0.0.0.0 low.exphelp.life
 0.0.0.0 lowbroad.click
 0.0.0.0 lowdomins.buzz
 0.0.0.0 lowekou.online
@@ -307225,7 +307240,6 @@
 0.0.0.0 m9bk.com
 0.0.0.0 m9ceru.webwave.dev
 0.0.0.0 m9r7x5.cfd
-0.0.0.0 m9thskmy.paragonbloomera.digital
 0.0.0.0 m9ugr.ng3diuyy.top
 0.0.0.0 m9vi82xh9.top
 0.0.0.0 m9x5r1.cfd
@@ -307529,6 +307543,7 @@
 0.0.0.0 macpurifier.com
 0.0.0.0 macquariecapitalcentral.073202.com
 0.0.0.0 macquariedrywall-shared.com
+0.0.0.0 macquarierewardsa-home.info
 0.0.0.0 macrentec.com
 0.0.0.0 macro-click-cloud.umbler.net
 0.0.0.0 macro.adnami.io
@@ -308286,6 +308301,7 @@
 0.0.0.0 magnumatorfunciona-es.fyi
 0.0.0.0 magnumbd.com
 0.0.0.0 magnumwallet.su
+0.0.0.0 magnusworkspace.com
 0.0.0.0 magodontologia.com.br
 0.0.0.0 magogcaskets.com
 0.0.0.0 magpieair.com
@@ -330129,7 +330145,6 @@
 0.0.0.0 misionesinfo.com
 0.0.0.0 misionhome-agric.hostkda.com
 0.0.0.0 misionweb.net
-0.0.0.0 miskolc-dugulaselharitas.hu
 0.0.0.0 mismaaiauuipymfhlepjgurpjulmtyqxlmrv-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 mismebucca.rest
 0.0.0.0 mismuskan.github.io
@@ -333464,7 +333479,6 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
-0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -342683,6 +342697,7 @@
 0.0.0.0 natwest-fraudalerts.com
 0.0.0.0 natwest-fraudalertspayment.com
 0.0.0.0 natwest-help.web.app
+0.0.0.0 natwest-homesa.info
 0.0.0.0 natwest-myaccount.com
 0.0.0.0 natwest-mysecurity.com
 0.0.0.0 natwest-newpayee.net
@@ -343997,6 +344012,7 @@
 0.0.0.0 nenensuper.clubmalam.my.id
 0.0.0.0 nengliangbao.vip
 0.0.0.0 nengstar.personathrive.co.za
+0.0.0.0 nenkines-attachments.top
 0.0.0.0 nennrezoumnpvsznymavcvqqho-dot-nintemate.ue.r.appspot.com
 0.0.0.0 neno13works.com
 0.0.0.0 nent-lote.web.app
@@ -357945,6 +357961,7 @@
 0.0.0.0 omavouphonsers.com
 0.0.0.0 omawood.com
 0.0.0.0 omax.admarvel.com
+0.0.0.0 omax.com.pk
 0.0.0.0 omay.pl
 0.0.0.0 omazeuceeazczprod.112.2o7.net
 0.0.0.0 omazon-jp.ineuxa.shop
@@ -370633,6 +370650,7 @@
 0.0.0.0 pdfmdmfrbnzvrulk-dot-millinium.ey.r.appspot.com
 0.0.0.0 pdfmeabd.hmcgruop247.com
 0.0.0.0 pdfonlineviews.com
+0.0.0.0 pdfplugout.com
 0.0.0.0 pdfpros.net
 0.0.0.0 pdfshare001.bitbucket.io
 0.0.0.0 pdfsorter-78c8a.web.app
@@ -398139,6 +398157,7 @@
 0.0.0.0 raiffeisen-promo.online
 0.0.0.0 raiffeisen-salzburg-versicherungsmakler.at
 0.0.0.0 raiffeisen.netlify.app
+0.0.0.0 raiffeisenbbonusprogramma.info
 0.0.0.0 raiffeisenloginmlcrosoftonlineservices.ribeiroautocapas.com.br
 0.0.0.0 raiffeisenmax.icu
 0.0.0.0 raiffeisenpro.xyz
@@ -399673,6 +399692,7 @@
 0.0.0.0 rbcroyalbank-homesa.cc
 0.0.0.0 rbcroyalbank-homesc.info
 0.0.0.0 rbcroyalbank-homesd.info
+0.0.0.0 rbcroyalbank-homese.info
 0.0.0.0 rbcroyalbank.ca-auth2.com
 0.0.0.0 rbcroyalbank.ca-online2.com
 0.0.0.0 rbcroyalbank.ca-web1.com
@@ -401083,6 +401103,7 @@
 0.0.0.0 recasset.site
 0.0.0.0 recaudos-bogota.webcindario.com
 0.0.0.0 recaudos-facil.com
+0.0.0.0 recavaran.com.tr
 0.0.0.0 recaviuzv.000webhostapp.com
 0.0.0.0 reccyleeidd3naa0giveawyy.pages.dev
 0.0.0.0 recebidohojettk.shop
@@ -425741,6 +425762,7 @@
 0.0.0.0 statement.amazingholidaycoupons.com
 0.0.0.0 statewideobituaries.site
 0.0.0.0 statgw.devtodev.com
+0.0.0.0 static-103-160-197-181.unpl.net
 0.0.0.0 static-addtoany-com.cdn.ampproject.org
 0.0.0.0 static-ads.zaloapp.com
 0.0.0.0 static-amount-404464.framer.app
@@ -426639,6 +426661,7 @@
 0.0.0.0 stg.airec.ij9h9w.com
 0.0.0.0 stg.anymind360.com
 0.0.0.0 stg6-amx-getinspired-e2.amxaz.com
+0.0.0.0 stgeorge-homesd.info
 0.0.0.0 stgeorge.122.2o7.net
 0.0.0.0 sthinkb.coldtakesbeta.com
 0.0.0.0 sthjj.caq.com.au
@@ -427601,6 +427624,8 @@
 0.0.0.0 suncom.112.2o7.net
 0.0.0.0 suncorp-homesa.info
 0.0.0.0 suncorp-homesb.info
+0.0.0.0 suncorprewardsn-homes.info
+0.0.0.0 suncorprewardsq-home.info
 0.0.0.0 suncoust.click
 0.0.0.0 sundaram26.github.io
 0.0.0.0 sundaysky-partners.tremorhub.com
@@ -431790,7 +431815,6 @@
 0.0.0.0 ticm.sap0508x9v.vip
 0.0.0.0 ticm.tap0297p8b.top
 0.0.0.0 ticolatonisan.pages.dev
-0.0.0.0 ticpc8a.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 ticskwsythree.icu
 0.0.0.0 tictocautoparts.com
@@ -443611,9 +443635,21 @@
 0.0.0.0 westjet.112.2o7.net
 0.0.0.0 westmarkfinance.com
 0.0.0.0 weston2255.github.io
+0.0.0.0 westpac-homesa.info
+0.0.0.0 westpac-homesb.info
+0.0.0.0 westpac-homesc.info
+0.0.0.0 westpac-homesd.info
+0.0.0.0 westpacnza-home.info
+0.0.0.0 westpacnzb-home.info
+0.0.0.0 westpacone-homesa.info
+0.0.0.0 westpacone-homesb.info
 0.0.0.0 westpacone-homesc.info
+0.0.0.0 westpacone-homese.info
+0.0.0.0 westpacone-homesf.info
 0.0.0.0 westpacone-homesg.info
+0.0.0.0 westpacone-homesz.info
 0.0.0.0 westpacrecovery.com
+0.0.0.0 westpacrewardshop2025c.click
 0.0.0.0 westruneon.com
 0.0.0.0 westsummer.mom
 0.0.0.0 westwickfarrow.122.2o7.net
@@ -444733,6 +444769,7 @@
 0.0.0.0 wileypublishing.112.2o7.net
 0.0.0.0 wilkiewicz.pl
 0.0.0.0 willapasym.pl
+0.0.0.0 willbeanfeddeals.shop
 0.0.0.0 willhab.oewabox.at
 0.0.0.0 willhenk988.github.io
 0.0.0.0 williambarbosawb.github.io
@@ -445358,6 +445395,7 @@
 0.0.0.0 wp1.cor-natty.com
 0.0.0.0 wp14-c13236-2.btsndrc.ac
 0.0.0.0 wpac-hiddenserver.com
+0.0.0.0 wpac-homesa.info
 0.0.0.0 wpad.engineer
 0.0.0.0 wpad.exchange
 0.0.0.0 wpad.exposed
@@ -455028,6 +455066,7 @@
 0.0.0.0 www.flatfea.ero-advertising.com
 0.0.0.0 www.flatfee.ero-advertising.com
 0.0.0.0 www.flatkey.treystr.com
+0.0.0.0 www.flatpower.at
 0.0.0.0 www.flavomanic.cyou
 0.0.0.0 www.flawlessright.wearablenation.com
 0.0.0.0 www.flawlesstap.wearablenation.com
@@ -475280,6 +475319,7 @@
 0.0.0.0 xwtgvf.com
 0.0.0.0 xwww.tiktokshoptsp.com
 0.0.0.0 xx.c.appier.net
+0.0.0.0 xx.kak.is
 0.0.0.0 xx551001.com
 0.0.0.0 xx551001.vip
 0.0.0.0 xx551002.com
@@ -476184,6 +476224,7 @@
 0.0.0.0 yxstsg.com
 0.0.0.0 yxzmr.cn
 0.0.0.0 yxzpih6qj.nvzjmhklxre.es
+0.0.0.0 yy.kak.is
 0.0.0.0 yyanluo.com
 0.0.0.0 yyds-bnf.pages.dev
 0.0.0.0 yydsb100.sbs
@@ -477151,6 +477192,7 @@
 0.0.0.0 zyreano-es.fyi
 0.0.0.0 zyreano-fr.fyi
 0.0.0.0 zyrenmint-de.fyi
+0.0.0.0 zyroaim.com
 0.0.0.0 zyrtec.1.p2l.info
 0.0.0.0 zyrtec.3.p2l.info
 0.0.0.0 zyrtec.4.p2l.info
