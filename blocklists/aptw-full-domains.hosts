@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-15 06:31:19
-# Entries: 477232
+# Generated: 2026-04-15 12:31:15
+# Entries: 477241
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -41322,6 +41322,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -128869,6 +128870,7 @@
 0.0.0.0 bitcoinrevolution.ai
 0.0.0.0 bitcoinru-org.site
 0.0.0.0 bitcoins-profit.com
+0.0.0.0 bitcoins.homes
 0.0.0.0 bitcoinset.pl
 0.0.0.0 bitcoinsunrise.com
 0.0.0.0 bitcoinsup.pl
@@ -147761,6 +147763,7 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
+0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -188241,6 +188244,7 @@
 0.0.0.0 dubaileisureholidays.com
 0.0.0.0 dubailuxurypropertiess.com
 0.0.0.0 dubaipropertyyield.com
+0.0.0.0 dubaitechnicalservice.ae
 0.0.0.0 dubaitickets.espejopoolpatios.com
 0.0.0.0 dubaiyachts24x7.com
 0.0.0.0 dubasphoto.com
@@ -188927,6 +188931,7 @@
 0.0.0.0 dwisqtghmbzmxakmkshpyrfana-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 dwivedishashank2003.github.io
 0.0.0.0 dwjchjj.ooo
+0.0.0.0 dwkch.ru
 0.0.0.0 dwkcypbvg.pqnsatfas.net
 0.0.0.0 dwkmchivdkgtgucsnzdptdlsugfvdkfjzsbj-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 dwktr-zyaaa-aaaad-qdrba-cai.raw.ic0.app
@@ -233294,6 +233299,7 @@
 0.0.0.0 googllee.000webhostapp.com
 0.0.0.0 googlus.com
 0.0.0.0 googlwe.com
+0.0.0.0 googmeetinginvitation.com
 0.0.0.0 googolreklam.com
 0.0.0.0 googoltwitchpatriarch20.com
 0.0.0.0 goohf.cn
@@ -272384,7 +272390,6 @@
 0.0.0.0 jalalsalomy.000webhostapp.com
 0.0.0.0 jalandharpolice.com
 0.0.0.0 jalanmania.com
-0.0.0.0 jalebel7abeb.com
 0.0.0.0 jalfre.com
 0.0.0.0 jalgaonkaraakansha78-crypto.github.io
 0.0.0.0 jaliscoctm.org
@@ -273755,6 +273760,7 @@
 0.0.0.0 jeloneck5-wixsite-com.filesusr.com
 0.0.0.0 jelpbhabbygoraaehosikrzngb-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 jem-mialwe.com
+0.0.0.0 jem-mialwe.net
 0.0.0.0 jemanilognes.webflow.io
 0.0.0.0 jembisporr.flywheelsites.com
 0.0.0.0 jembretcar-1316850103.cos.ap-bangkok.myqcloud.com
@@ -330199,6 +330205,7 @@
 0.0.0.0 missglamworld.com
 0.0.0.0 missgypsywhitemoon.com.au
 0.0.0.0 misshaus.org
+0.0.0.0 missileperformance.hu
 0.0.0.0 missinooer.tk
 0.0.0.0 missiodeinetwork.org
 0.0.0.0 missioinactio.com
@@ -333475,7 +333482,6 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
-0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -420326,6 +420332,7 @@
 0.0.0.0 shaded-forge.com
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
+0.0.0.0 shaderm.com
 0.0.0.0 shadeside.eu.org
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-cove.com
@@ -430503,6 +430510,7 @@
 0.0.0.0 techaerolabs.com
 0.0.0.0 techalcyon.com
 0.0.0.0 techbargins.com
+0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techcareertrackerku.info
@@ -443382,6 +443390,7 @@
 0.0.0.0 wedrfgew3q2.blogspot.com
 0.0.0.0 wedrfgew3q2.blogspot.in
 0.0.0.0 wedrfgr231w3.blogspot.com
+0.0.0.0 weedhack.xyz
 0.0.0.0 weerrtyy-i4on0bpgim.edgeone.app
 0.0.0.0 wees.bhdesk.com
 0.0.0.0 weetest-ops.pages.dev
@@ -460868,7 +460877,6 @@
 0.0.0.0 www.metron-arc.com
 0.0.0.0 www.metspa.cam
 0.0.0.0 www.metybai.pro
-0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mevsall.com
 0.0.0.0 www.mezczyzna-trendy.pl
 0.0.0.0 www.mftracking.com
@@ -477018,6 +477026,7 @@
 0.0.0.0 zorqui.sbs
 0.0.0.0 zortreewallet.webflow.io
 0.0.0.0 zorunite-lupemira.pages.dev
+0.0.0.0 zorvex.life
 0.0.0.0 zorx-meta-blim-biz.pages.dev
 0.0.0.0 zoryn-palix-kelvo.pages.dev
 0.0.0.0 zosia-warszawa.com
