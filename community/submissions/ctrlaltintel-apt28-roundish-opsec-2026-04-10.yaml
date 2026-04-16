@@ -1,0 +1,159 @@
+# =============================================================
+#  ctrlaltintel — APT28 "Roundish" Roundcube/SquirrelMail Espionage Campaign
+# =============================================================
+#  FancyBear OPSEC failure exposed C2 source code, exfiltrated data,
+#  credential logs, and full tooling on open directory.
+#
+#  Server operated from Sep 2024 to Mar 2026 (500+ days on same IP).
+#  Ukrainian CERT attributed 203.161.50.145 to APT28 on 2024-10-25.
+#
+#  NOTE: 203.161.50.145 and zhblz.com subdomains already tracked in
+#  APT Watch. This submission adds C2 endpoints, tooling artifacts,
+#  lure document names, and campaign context not previously recorded.
+# =============================================================
+
+author: aptwatch-analyst
+
+source: https://ctrlaltintel.com/threat%20research/FancyBear/
+source_name: "FancyBear Exposed: Major OPSEC Blunder Inside Russian Espionage Ops — Ctrl-Alt-Intel"
+
+additional_sources:
+  - https://github.com/ctrlaltint3l/intelligence/tree/main/FancyBear/roundish
+  - https://gbhackers.com/fancybear-server-leak/
+  - https://cybersecuritynews.com/fancybear-server-exposure-reveals-stolen-credentials/
+
+apt_groups:
+  - APT28
+
+description: >
+  Ctrl-Alt-Intel discovered an exposed open-directory on APT28's C2 server
+  (203.161.50.145, NameCheap VPS, US-based) revealing the full Roundcube/SquirrelMail
+  XSS phishing framework source code, exfiltrated government/military emails, stolen
+  credentials with TOTP 2FA secrets, and campaign telemetry. The server operated on
+  the same IP for 500+ days (Sep 2024 — Mar 2026), long after public attribution.
+  Victims include Ukraine regional prosecutors (war crimes investigations), Romanian
+  Air Force, Greece National Defence General Staff, Serbian Ministry of Defence, and
+  Bulgarian government entities. The toolkit uses JavaScript XSS payloads injected into
+  Roundcube and SquirrelMail to steal credentials, exfiltrate mailboxes, harvest address
+  books, extract TOTP secrets, and add silent Sieve forwarding rules.
+  Attribution: APT28 / Fancy Bear / GRU Unit 26165 (CERT-UA attribution Oct 2024,
+  confirmed by ctrlaltintel analysis).
+
+# =============================================================
+#  IOCs
+# =============================================================
+
+ipv4:
+  - 203.161.50.145    # C2 server (NameCheap VPS, US) — already in APT Watch
+
+domains:
+  - zhblz.com                   # Primary C2 domain — already in APT Watch
+  - mail.zhblz.com              # Reverse DNS of 203.161.50.145 — already in APT Watch
+  - a.zhblz.com                 # Subdomain — already in APT Watch
+
+# =============================================================
+#  C2 Infrastructure Details (new intelligence)
+# =============================================================
+
+c2_details:
+  server_port: 5000             # Flask C2 listening on 0.0.0.0:5000
+  open_directory_port: 8889     # Exposed open directory
+  logging_endpoint: /zJ2w9x
+  exfil_endpoint: /zJ2w9x/uploadfile/
+  framework: "Python 3, Flask, flask-cors, pycryptodome"
+  hosting: "NameCheap VPS, US-based"
+  active_period: "September 2024 — March 2026"
+  cert_ua_attribution_date: "2024-10-25"
+
+# =============================================================
+#  Tooling Artifacts (new intelligence)
+# =============================================================
+
+tooling:
+  roundcube_xss:
+    - worker.js                 # Primary Roundcube XSS payload
+    - old_worker.js             # Earlier Roundcube variant
+    - backuBDMS/worker.js       # Backup variant
+
+  squirrelmail_xss:
+    - worker2.js                # SquirrelMail XSS payload
+
+  credential_theft:
+    - getUserCredentials.js     # Active credential harvester
+    - getUserCredentials1.js    # Variant
+    - getUserCredentialsOLD.js  # Legacy variant
+    - scriptTaker.js            # Obfuscated credential taker
+
+  totp_2fa_theft:
+    - keyTwoAuth.js             # Extracts TOTP secrets from twofactor_gauthenticator plugin
+    - delTwoAuth.js             # Deletes 2FA to downgrade security
+    - delTwoAuth1.js            # Variant
+
+  persistence:
+    - addRedirectMailBox.js     # Adds silent Sieve email forwarding rules
+    - remFu.js                  # Forwarding rule management
+
+  recon:
+    - adbook.js                 # Address book harvester
+
+  c2_server:
+    - server.py                 # Main Flask C2 / phishing server
+    - servertest.py             # Test variant
+
+  phishing_pages:
+    - roundcube.html            # Roundcube login clone (~847 KB, inline assets)
+    - logon.html                # Spanish-language variant
+
+  telemetry_logs:
+    - taker/creds.csv           # Harvested credentials store
+    - taker/visit.csv           # Visitor tracking (IP, User-Agent, timestamp)
+
+# =============================================================
+#  Lure Documents (new intelligence)
+# =============================================================
+
+lure_documents:
+  - filename: Adob_Scan_15_ian._2025.pdf
+    context: "Romanian-language Adobe scan lure (January 2025)"
+  - filename: defense.pdf
+    context: "Defense-themed lure targeting military personnel"
+  - filename: dokladMVR.pdf
+    context: "Bulgarian MoI (MVR) report lure — targeting Bulgarian government"
+  - filename: energetikamk.pdf
+    context: "North Macedonian energy sector lure"
+  - filename: oborona.pdf
+    context: "Russian/Bulgarian 'defense' themed lure (oborona = defense)"
+
+# =============================================================
+#  Victim Profile (contextual, no PII)
+# =============================================================
+
+victim_context:
+  total_exfiltrated_emails: 2800
+  stolen_credential_sets: 240
+  silent_forwarding_rules: 140
+  harvested_contacts: 11500
+  targeted_sectors:
+    - "Ukraine regional prosecutors (war crimes investigations)"
+    - "Romanian Air Force"
+    - "Greece National Defence General Staff"
+    - "Serbian Ministry of Defence"
+    - "Bulgarian government entities"
+  targeted_platforms:
+    - "Roundcube Webmail"
+    - "SquirrelMail"
+
+# =============================================================
+#  MITRE ATT&CK
+# =============================================================
+
+mitre_attack:
+  - T1189       # Drive-by Compromise (XSS injection)
+  - T1059.007   # Command and Scripting Interpreter: JavaScript
+  - T1556       # Modify Authentication Process (2FA theft/deletion)
+  - T1114.002   # Email Collection: Remote Email Collection
+  - T1114.003   # Email Collection: Email Forwarding Rule
+  - T1539       # Steal Web Session Cookie
+  - T1528       # Steal Application Access Token
+  - T1005       # Data from Local System
+  - T1041       # Exfiltration Over C2 Channel
