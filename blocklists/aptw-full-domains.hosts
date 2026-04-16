@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-16 00:30:54
-# Entries: 477228
+# Generated: 2026-04-16 06:31:16
+# Entries: 477233
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -124811,6 +124811,7 @@
 0.0.0.0 bertrand-renaudin.com
 0.0.0.0 bertranddo.com
 0.0.0.0 bertrandelectricllc.com
+0.0.0.0 bertticleaning.com
 0.0.0.0 bertucellicorretora.com.br
 0.0.0.0 bertuyihwjasojcpokwt8q7otyw.pages.dev
 0.0.0.0 bertyiodop.ydns.eu
@@ -138419,6 +138420,7 @@
 0.0.0.0 bruker.com.de
 0.0.0.0 bruker.directsmailsolution.com
 0.0.0.0 bruker.meciberie.com
+0.0.0.0 brukva.shop
 0.0.0.0 brul11.com
 0.0.0.0 brulleyafexi08txgn1.pages.dev
 0.0.0.0 brumaveinasu-7579.vercel.app
@@ -153931,6 +153933,7 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
+0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -213458,6 +213461,7 @@
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaidqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaittdqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femidignity.org
+0.0.0.0 femilamom.net
 0.0.0.0 feminplus.pl
 0.0.0.0 femlybowstkhoewy-dot-millinium.ey.r.appspot.com
 0.0.0.0 femmaterparaguay.x10.mx
@@ -233465,6 +233469,7 @@
 0.0.0.0 gossamer-clover-jonquil.glitch.me
 0.0.0.0 gossamer-plain-perigee.glitch.me
 0.0.0.0 gossamerbio.corporacionfrm.org
+0.0.0.0 gossipband.ie
 0.0.0.0 gossipbottom.com
 0.0.0.0 gossipcenter.us.intellitxt.com
 0.0.0.0 gossiponthis.us.intellitxt.com
@@ -273753,7 +273758,6 @@
 0.0.0.0 jeloneck5-wixsite-com.filesusr.com
 0.0.0.0 jelpbhabbygoraaehosikrzngb-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 jem-mialwe.com
-0.0.0.0 jem-mialwe.net
 0.0.0.0 jemanilognes.webflow.io
 0.0.0.0 jembisporr.flywheelsites.com
 0.0.0.0 jembretcar-1316850103.cos.ap-bangkok.myqcloud.com
@@ -332743,7 +332747,6 @@
 0.0.0.0 mocktestlab.com
 0.0.0.0 mockup-instagram-dio.vercel.app
 0.0.0.0 mockup.metradigitalmedia.com
-0.0.0.0 mockupcorporation.com
 0.0.0.0 mockz.com
 0.0.0.0 mocleran.com
 0.0.0.0 mocloudmacs.ch46650.tmweb.ru
@@ -333475,7 +333478,6 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
-0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -352920,7 +352922,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -352967,6 +352968,7 @@
 0.0.0.0 nutrikalia.com
 0.0.0.0 nutrilshop.net.tr.ht
 0.0.0.0 nutrired.org
+0.0.0.0 nutrisc.com.br
 0.0.0.0 nutrisilviaramos.com.br
 0.0.0.0 nutrisincera.com
 0.0.0.0 nutrisuave.com
@@ -367362,6 +367364,7 @@
 0.0.0.0 paraquedasbrasil.paraquedasbrasil.com.br
 0.0.0.0 paraselenic.com
 0.0.0.0 parasharmobile.com
+0.0.0.0 parashopinstitut.com
 0.0.0.0 parasitaryoverpotency.vercel.app
 0.0.0.0 parasitecleanse.net
 0.0.0.0 parasiticidyyal.info
@@ -385052,6 +385055,7 @@
 0.0.0.0 prov.alphonso.tv
 0.0.0.0 provafd.cu.ma
 0.0.0.0 prove-d21ed7.netlify.app
+0.0.0.0 proveedoradeproyectosysoluciones.com
 0.0.0.0 proveedores.nef.com.mx
 0.0.0.0 proveedores.savant.com.ar
 0.0.0.0 proveedorsites.000webhostapp.com
@@ -410084,6 +410088,7 @@
 0.0.0.0 rosesribbons.com
 0.0.0.0 rosettastone.tt.omtrdc.net
 0.0.0.0 rosette.wavaigroup.com
+0.0.0.0 rosewoodlaminates.com
 0.0.0.0 roshan-karande.github.io
 0.0.0.0 roshan-keshri.github.io
 0.0.0.0 roshani-ship.github.io
