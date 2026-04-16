@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-16 12:30:20
-# Entries: 477229
+# Generated: 2026-04-16 18:31:16
+# Entries: 477232
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -40288,6 +40288,7 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
+0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -54941,7 +54942,6 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
-0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -105664,7 +105664,6 @@
 0.0.0.0 autoconfig.68-183-214-136.cprapid.com
 0.0.0.0 autoconfig.angelwire.net
 0.0.0.0 autoconfig.art.sspl.com.au
-0.0.0.0 autoconfig.atlcpatax.com
 0.0.0.0 autoconfig.byinbox.mom
 0.0.0.0 autoconfig.facbook.info
 0.0.0.0 autoconfig.news.standardseoservices.com
@@ -105721,7 +105720,6 @@
 0.0.0.0 autodiscover.api.sspl.com.au
 0.0.0.0 autodiscover.araplnpc.org
 0.0.0.0 autodiscover.aspect.com
-0.0.0.0 autodiscover.atlcpatax.com
 0.0.0.0 autodiscover.blessingair.com.au
 0.0.0.0 autodiscover.brainsource.co.uk
 0.0.0.0 autodiscover.breg.com
@@ -147761,6 +147759,7 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
+0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -199561,7 +199560,6 @@
 0.0.0.0 etincellejewelers.com
 0.0.0.0 etinkr.org
 0.0.0.0 etinsendmail.com
-0.0.0.0 etinsendmail.net
 0.0.0.0 etiofxlzcf.duckdns.org
 0.0.0.0 etiquetou.com.br
 0.0.0.0 etiquette1boncoin.000webhostapp.com
@@ -213460,6 +213458,7 @@
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaidqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaittdqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femidignity.org
+0.0.0.0 femilamom.net
 0.0.0.0 feminplus.pl
 0.0.0.0 femlybowstkhoewy-dot-millinium.ey.r.appspot.com
 0.0.0.0 femmaterparaguay.x10.mx
@@ -232400,7 +232399,6 @@
 0.0.0.0 gobiernoygestion.com.mx
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobizboost.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
@@ -308300,6 +308298,7 @@
 0.0.0.0 magnumatorfunciona-es.fyi
 0.0.0.0 magnumbd.com
 0.0.0.0 magnumwallet.su
+0.0.0.0 magnusworkspace.com
 0.0.0.0 magodontologia.com.br
 0.0.0.0 magogcaskets.com
 0.0.0.0 magpieair.com
@@ -309072,7 +309071,6 @@
 0.0.0.0 mail.asupportfeedbackll.com
 0.0.0.0 mail.aterusaja.akuanakmamah.de
 0.0.0.0 mail.atlasunited.cu.ma
-0.0.0.0 mail.atlcpatax.com
 0.0.0.0 mail.atselcctv.com
 0.0.0.0 mail.atyausi-miae.sidegabe.cfd
 0.0.0.0 mail.au-paywallet.com
@@ -333478,6 +333476,7 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
+0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -352922,6 +352921,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -384936,6 +384936,7 @@
 0.0.0.0 protestthesis.top
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 prothokkracic.info
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
@@ -420007,6 +420008,7 @@
 0.0.0.0 servicio.generatusolicitud-online.site
 0.0.0.0 serviciodelwebclientes.cloudaccess.host
 0.0.0.0 serviciopostal.vip
+0.0.0.0 servicioslogisticosdyc.com
 0.0.0.0 serviciospatito.com
 0.0.0.0 serviciotecnico.com.uy
 0.0.0.0 serviciotrackwp.sviluppo.host
@@ -420324,6 +420326,7 @@
 0.0.0.0 shaded-forge.com
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
+0.0.0.0 shaderm.com
 0.0.0.0 shadeside.eu.org
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-cove.com
@@ -423173,7 +423176,6 @@
 0.0.0.0 sonic-0101.github.io
 0.0.0.0 sonic-us.supersonicads.com
 0.0.0.0 sonicado-fr.fyi
-0.0.0.0 soniderosunidos.com
 0.0.0.0 soniksports.fr
 0.0.0.0 sonjaschmidt.shop
 0.0.0.0 sonmezetevi.com
@@ -441113,6 +441115,7 @@
 0.0.0.0 visam.info
 0.0.0.0 visana.fr
 0.0.0.0 visapay.onrender.com
+0.0.0.0 visapics.info
 0.0.0.0 visarmilic.rest
 0.0.0.0 viscachascompressibaailities.info
 0.0.0.0 vish-meta.pages.dev
