@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-15 18:31:19
-# Entries: 477229
+# Generated: 2026-04-16 00:30:54
+# Entries: 477228
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -12957,6 +12957,7 @@
 0.0.0.0 2commbank-mobile.com.au
 0.0.0.0 2coreelectrics.uk
 0.0.0.0 2coycyp0n2wtveghc3sjtwl.wusps.xyz
+0.0.0.0 2cpd365m.plaque5tucco.digital
 0.0.0.0 2cps.nielsengrowth.com
 0.0.0.0 2cquwsb.worleyenterprise.com
 0.0.0.0 2cra-arc.com
@@ -13726,7 +13727,6 @@
 0.0.0.0 2zhzdm0lwrjmdqtngi.pages.dev
 0.0.0.0 2zirq.cfd
 0.0.0.0 2zjulianpetty6j.top
-0.0.0.0 2zjyp0pj.borschokf2dd.digital
 0.0.0.0 2zmfvxmicr73pnlmzek.richardl.xyz
 0.0.0.0 2znp09oa.com
 0.0.0.0 2znqwuqy.qwo231sdx.club
@@ -34567,7 +34567,6 @@
 0.0.0.0 9nvtg4q.cn
 0.0.0.0 9nwyph62co.5368.gencmert.com
 0.0.0.0 9nzgbugagqydyi.wusps.xyz
-0.0.0.0 9o394zg7.paragonbloomera.digital
 0.0.0.0 9o6u0g.53244ds.xyz
 0.0.0.0 9o7v.wuaze.com
 0.0.0.0 9o7y.short.gy
@@ -49471,7 +49470,6 @@
 0.0.0.0 adobepewjgronjgnwkengkjwengrj.pythonanywhere.com
 0.0.0.0 adobeproposaldoc.myportfolio.com
 0.0.0.0 adobereaders.co
-0.0.0.0 adobeready.online
 0.0.0.0 adobereverse.com
 0.0.0.0 adobes.mooo.com
 0.0.0.0 adobesecuredpdf.hopto.org
@@ -54944,6 +54942,7 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
+0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -61109,7 +61108,6 @@
 0.0.0.0 alimok.az
 0.0.0.0 alimosho21.wixsite.com
 0.0.0.0 alimost.com
-0.0.0.0 alimqulov.uz
 0.0.0.0 alin-a59be.firebaseapp.com
 0.0.0.0 alina.kenshung.com
 0.0.0.0 alinafans.online
@@ -147658,6 +147656,7 @@
 0.0.0.0 catalog.qc.coccoc.com
 0.0.0.0 catalog.smarterguys.com
 0.0.0.0 catalog623.000webhostapp.com
+0.0.0.0 catalogo.castrouria.com
 0.0.0.0 catalogojitanjafora.org
 0.0.0.0 catalogue.arundelschool.net
 0.0.0.0 catalust.com
@@ -147761,7 +147760,6 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
-0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -152796,6 +152794,7 @@
 0.0.0.0 check.listmanger.com
 0.0.0.0 check.mail-service.digital
 0.0.0.0 check.mail-system.world
+0.0.0.0 check.nid-log.com
 0.0.0.0 check.rayjump.com
 0.0.0.0 check.system-mail.digital
 0.0.0.0 check2vision.com
@@ -183625,6 +183624,7 @@
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
+0.0.0.0 dl.armour-inc-down.net
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
@@ -188928,6 +188928,7 @@
 0.0.0.0 dwisqtghmbzmxakmkshpyrfana-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 dwivedishashank2003.github.io
 0.0.0.0 dwjchjj.ooo
+0.0.0.0 dwkch.ru
 0.0.0.0 dwkcypbvg.pqnsatfas.net
 0.0.0.0 dwkmchivdkgtgucsnzdptdlsugfvdkfjzsbj-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 dwktr-zyaaa-aaaad-qdrba-cai.raw.ic0.app
@@ -193180,7 +193181,6 @@
 0.0.0.0 ef7f-4e33-9910.duckdns.org
 0.0.0.0 ef7link.com
 0.0.0.0 ef81faf069f3a9dc3e3689bf732f3f30330338409817c9cfa5129cad0e.pages.dev
-0.0.0.0 ef8qorio.latat-long.digital
 0.0.0.0 ef9a9164.asa-jadd8nds.com.cn
 0.0.0.0 efa.org-1p96or4r18xkgichj0dl.1p96or4r18xkgichj0dl.manxttrider.com
 0.0.0.0 efacert67676788766pdf.pages.dev
@@ -213458,7 +213458,6 @@
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaidqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaittdqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femidignity.org
-0.0.0.0 femilamom.net
 0.0.0.0 feminplus.pl
 0.0.0.0 femlybowstkhoewy-dot-millinium.ey.r.appspot.com
 0.0.0.0 femmaterparaguay.x10.mx
@@ -214653,6 +214652,7 @@
 0.0.0.0 fgvdvidvimhooidy-dot-millinium.ey.r.appspot.com
 0.0.0.0 fgvfhhgjh.weebly.com
 0.0.0.0 fgwet.dressurpferde-hoefler.com
+0.0.0.0 fgx8snca4txepa.sh4
 0.0.0.0 fgxcfg56edtydch.pages.dev
 0.0.0.0 fgxjhnhybbkcyhfkfht.jouwweb.nl
 0.0.0.0 fgxmj.com
@@ -222345,6 +222345,7 @@
 0.0.0.0 frost-voltaic-jester.glitch.me
 0.0.0.0 frostbest.com
 0.0.0.0 frostbite-cabin.com
+0.0.0.0 frostcrypt.org
 0.0.0.0 frostdank.com
 0.0.0.0 frostdreamhaven.pro
 0.0.0.0 frosteams.com
@@ -229723,7 +229724,6 @@
 0.0.0.0 ghali.8m.net
 0.0.0.0 ghalysaqqal.com
 0.0.0.0 ghanahealthservice.org
-0.0.0.0 ghanioilandgas.com
 0.0.0.0 ghaniyyat.github.io
 0.0.0.0 ghaodxnxmgwa.xyz
 0.0.0.0 gharaviri.ir
@@ -234761,7 +234761,6 @@
 0.0.0.0 grandslaminvesting.buzz
 0.0.0.0 grandtheftape.com
 0.0.0.0 grandtheftwiki.fr
-0.0.0.0 grandvegasbet.com.br
 0.0.0.0 granelidom-id611case-privatonix.netlify.app
 0.0.0.0 grange.ie
 0.0.0.0 grangeconstructionco.com
@@ -273561,7 +273560,6 @@
 0.0.0.0 jdsezet.fr
 0.0.0.0 jdsgdjj1.beget.tech
 0.0.0.0 jdshnorkitljdgjffbylsfqhxjwxnpoivwha-dot-cryptic-now-290917.ey.r.appspot.com
-0.0.0.0 jdskl139sla.com
 0.0.0.0 jdsondg.com
 0.0.0.0 jdswbvie4wuedgow0cisxdfbhwetw230iwedfwe.toh.info
 0.0.0.0 jdtc.000webhostapp.com
@@ -287620,6 +287618,7 @@
 0.0.0.0 kri90r23rk2ikr32.pages.dev
 0.0.0.0 krienkekiim.wixsite.com
 0.0.0.0 kriikenlen.gitbook.io
+0.0.0.0 krikadoo.com
 0.0.0.0 krikam.net
 0.0.0.0 krikeenloggin.gitbook.io
 0.0.0.0 krikenslogim.gitbook.io
@@ -332744,6 +332743,7 @@
 0.0.0.0 mocktestlab.com
 0.0.0.0 mockup-instagram-dio.vercel.app
 0.0.0.0 mockup.metradigitalmedia.com
+0.0.0.0 mockupcorporation.com
 0.0.0.0 mockz.com
 0.0.0.0 mocleran.com
 0.0.0.0 mocloudmacs.ch46650.tmweb.ru
@@ -340392,7 +340392,6 @@
 0.0.0.0 mypages-e22.pages.dev
 0.0.0.0 mypalmoe.com
 0.0.0.0 mypancakeswap.online
-0.0.0.0 mypanel.vip
 0.0.0.0 myparcel-delivery-pay.com
 0.0.0.0 myparcel-dhlday.ddns.net
 0.0.0.0 myparcel-help34532.com
@@ -352921,6 +352920,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -370403,6 +370403,7 @@
 0.0.0.0 pc128251.paypal-merchant.ru
 0.0.0.0 pc1380.ecardalert.com
 0.0.0.0 pc2.yumenetworks.com
+0.0.0.0 pc24.app
 0.0.0.0 pc246.standardseoservices.com
 0.0.0.0 pc2cy-maaaa-aaaad-qeicq-cai.raw.ic0.app
 0.0.0.0 pc3evkwmcrxchgfbetuvos.53244ds.xyz
@@ -373457,7 +373458,6 @@
 0.0.0.0 photocontestclikkaevola.000webhostapp.com
 0.0.0.0 photocustomerservice.com
 0.0.0.0 photodeporte.com
-0.0.0.0 photodocvault.info
 0.0.0.0 photoesandvideos.com
 0.0.0.0 photofacebook2.kartra.com
 0.0.0.0 photofacebookimagen.blogspot.com
@@ -384935,7 +384935,6 @@
 0.0.0.0 protestthesis.top
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
-0.0.0.0 protherapycenter.com
 0.0.0.0 prothokkracic.info
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
@@ -393840,7 +393839,6 @@
 0.0.0.0 pwm.healthygenez.club
 0.0.0.0 pwmmnxdwpmoecmdk-dot-millinium.ey.r.appspot.com
 0.0.0.0 pwnagestudios.com
-0.0.0.0 pwndrop.llcsintez-n.org
 0.0.0.0 pwned-lovat.vercel.app
 0.0.0.0 pwnsoftcom-2025.github.io
 0.0.0.0 pwokuoxa.love
@@ -402514,7 +402512,6 @@
 0.0.0.0 refundlodgement.top
 0.0.0.0 refundmobile-ca.gov-ref.dep.cogv-exp.com
 0.0.0.0 refundmobile.info
-0.0.0.0 refundonex.com
 0.0.0.0 refundpay.weebly.com
 0.0.0.0 refundpayee-nation.com
 0.0.0.0 refundpaymentsuk.com
@@ -414256,7 +414253,6 @@
 0.0.0.0 safecontentsafetypolicy.vercel.app
 0.0.0.0 safecontentviralforge.vercel.app
 0.0.0.0 safedoc2.homelinux.com
-0.0.0.0 safedocs-hub.info
 0.0.0.0 safee--ndax--login.webflow.io
 0.0.0.0 safee-ndax--login.webflow.io
 0.0.0.0 safee-ndax-logiin--sso.webflow.io
@@ -427282,6 +427278,7 @@
 0.0.0.0 styledebates.com
 0.0.0.0 styleexa.roadgalaxy.eu
 0.0.0.0 stylefifty.club
+0.0.0.0 stylegeneration.ma
 0.0.0.0 styleja.com
 0.0.0.0 stylelwavy.notefox.com
 0.0.0.0 stylemotion.pl
@@ -430992,7 +430989,6 @@
 0.0.0.0 tesla-2ju.pages.dev
 0.0.0.0 tesla.demo.webernets.online
 0.0.0.0 teslas-apply.com
-0.0.0.0 teslasuit.to
 0.0.0.0 teslauaeprojects.com
 0.0.0.0 tesltralonlinecentres.weebly.com
 0.0.0.0 tesori.pl
@@ -431675,6 +431671,7 @@
 0.0.0.0 thomasvalera.com
 0.0.0.0 thomasvillefurniture.122.2o7.net
 0.0.0.0 thome.112.2o7.net
+0.0.0.0 thomphon.com
 0.0.0.0 thomson-id7955-w2gw.vercel.app
 0.0.0.0 thongke.24h.com.vn
 0.0.0.0 thongke.arttimes.vn
@@ -439623,6 +439620,7 @@
 0.0.0.0 vcbnmx.com
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
+0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
@@ -477015,6 +477013,7 @@
 0.0.0.0 zorqui.sbs
 0.0.0.0 zortreewallet.webflow.io
 0.0.0.0 zorunite-lupemira.pages.dev
+0.0.0.0 zorvex.life
 0.0.0.0 zorx-meta-blim-biz.pages.dev
 0.0.0.0 zoryn-palix-kelvo.pages.dev
 0.0.0.0 zosia-warszawa.com
