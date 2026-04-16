@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-16 06:31:16
-# Entries: 477233
+# Generated: 2026-04-16 12:30:20
+# Entries: 477229
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -40288,7 +40288,6 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
-0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -105665,6 +105664,7 @@
 0.0.0.0 autoconfig.68-183-214-136.cprapid.com
 0.0.0.0 autoconfig.angelwire.net
 0.0.0.0 autoconfig.art.sspl.com.au
+0.0.0.0 autoconfig.atlcpatax.com
 0.0.0.0 autoconfig.byinbox.mom
 0.0.0.0 autoconfig.facbook.info
 0.0.0.0 autoconfig.news.standardseoservices.com
@@ -105721,6 +105721,7 @@
 0.0.0.0 autodiscover.api.sspl.com.au
 0.0.0.0 autodiscover.araplnpc.org
 0.0.0.0 autodiscover.aspect.com
+0.0.0.0 autodiscover.atlcpatax.com
 0.0.0.0 autodiscover.blessingair.com.au
 0.0.0.0 autodiscover.brainsource.co.uk
 0.0.0.0 autodiscover.breg.com
@@ -124811,7 +124812,6 @@
 0.0.0.0 bertrand-renaudin.com
 0.0.0.0 bertranddo.com
 0.0.0.0 bertrandelectricllc.com
-0.0.0.0 bertticleaning.com
 0.0.0.0 bertucellicorretora.com.br
 0.0.0.0 bertuyihwjasojcpokwt8q7otyw.pages.dev
 0.0.0.0 bertyiodop.ydns.eu
@@ -138420,7 +138420,6 @@
 0.0.0.0 bruker.com.de
 0.0.0.0 bruker.directsmailsolution.com
 0.0.0.0 bruker.meciberie.com
-0.0.0.0 brukva.shop
 0.0.0.0 brul11.com
 0.0.0.0 brulleyafexi08txgn1.pages.dev
 0.0.0.0 brumaveinasu-7579.vercel.app
@@ -213461,7 +213460,6 @@
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaidqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaittdqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femidignity.org
-0.0.0.0 femilamom.net
 0.0.0.0 feminplus.pl
 0.0.0.0 femlybowstkhoewy-dot-millinium.ey.r.appspot.com
 0.0.0.0 femmaterparaguay.x10.mx
@@ -214656,7 +214654,6 @@
 0.0.0.0 fgvdvidvimhooidy-dot-millinium.ey.r.appspot.com
 0.0.0.0 fgvfhhgjh.weebly.com
 0.0.0.0 fgwet.dressurpferde-hoefler.com
-0.0.0.0 fgx8snca4txepa.sh4
 0.0.0.0 fgxcfg56edtydch.pages.dev
 0.0.0.0 fgxjhnhybbkcyhfkfht.jouwweb.nl
 0.0.0.0 fgxmj.com
@@ -222104,6 +222101,7 @@
 0.0.0.0 friendly-visvesvaraya-653133.netlify.app
 0.0.0.0 friendly-wiles-11703e.netlify.app
 0.0.0.0 friendlya.live
+0.0.0.0 friendlydomain.ru
 0.0.0.0 friendlyduck.com
 0.0.0.0 friendlyislandtours.com.usrfiles.com
 0.0.0.0 friendnote.cyou
@@ -232402,6 +232400,7 @@
 0.0.0.0 gobiernoygestion.com.mx
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobizboost.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
@@ -233469,7 +233468,6 @@
 0.0.0.0 gossamer-clover-jonquil.glitch.me
 0.0.0.0 gossamer-plain-perigee.glitch.me
 0.0.0.0 gossamerbio.corporacionfrm.org
-0.0.0.0 gossipband.ie
 0.0.0.0 gossipbottom.com
 0.0.0.0 gossipcenter.us.intellitxt.com
 0.0.0.0 gossiponthis.us.intellitxt.com
@@ -273758,6 +273756,7 @@
 0.0.0.0 jeloneck5-wixsite-com.filesusr.com
 0.0.0.0 jelpbhabbygoraaehosikrzngb-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 jem-mialwe.com
+0.0.0.0 jem-mialwe.net
 0.0.0.0 jemanilognes.webflow.io
 0.0.0.0 jembisporr.flywheelsites.com
 0.0.0.0 jembretcar-1316850103.cos.ap-bangkok.myqcloud.com
@@ -309073,6 +309072,7 @@
 0.0.0.0 mail.asupportfeedbackll.com
 0.0.0.0 mail.aterusaja.akuanakmamah.de
 0.0.0.0 mail.atlasunited.cu.ma
+0.0.0.0 mail.atlcpatax.com
 0.0.0.0 mail.atselcctv.com
 0.0.0.0 mail.atyausi-miae.sidegabe.cfd
 0.0.0.0 mail.au-paywallet.com
@@ -352968,7 +352968,6 @@
 0.0.0.0 nutrikalia.com
 0.0.0.0 nutrilshop.net.tr.ht
 0.0.0.0 nutrired.org
-0.0.0.0 nutrisc.com.br
 0.0.0.0 nutrisilviaramos.com.br
 0.0.0.0 nutrisincera.com
 0.0.0.0 nutrisuave.com
@@ -357958,7 +357957,6 @@
 0.0.0.0 omavouphonsers.com
 0.0.0.0 omawood.com
 0.0.0.0 omax.admarvel.com
-0.0.0.0 omax.com.pk
 0.0.0.0 omay.pl
 0.0.0.0 omazeuceeazczprod.112.2o7.net
 0.0.0.0 omazon-jp.ineuxa.shop
@@ -385055,7 +385053,6 @@
 0.0.0.0 prov.alphonso.tv
 0.0.0.0 provafd.cu.ma
 0.0.0.0 prove-d21ed7.netlify.app
-0.0.0.0 proveedoradeproyectosysoluciones.com
 0.0.0.0 proveedores.nef.com.mx
 0.0.0.0 proveedores.savant.com.ar
 0.0.0.0 proveedorsites.000webhostapp.com
@@ -399194,6 +399191,7 @@
 0.0.0.0 rapideoptimise.fr
 0.0.0.0 rapidertcrefunds.site
 0.0.0.0 rapidfirechills.com
+0.0.0.0 rapidinc.lol
 0.0.0.0 rapidjobs.org
 0.0.0.0 rapidmoney.info
 0.0.0.0 rapido-fintoris-app.com
@@ -410088,7 +410086,6 @@
 0.0.0.0 rosesribbons.com
 0.0.0.0 rosettastone.tt.omtrdc.net
 0.0.0.0 rosette.wavaigroup.com
-0.0.0.0 rosewoodlaminates.com
 0.0.0.0 roshan-karande.github.io
 0.0.0.0 roshan-keshri.github.io
 0.0.0.0 roshani-ship.github.io
@@ -420327,7 +420324,6 @@
 0.0.0.0 shaded-forge.com
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
-0.0.0.0 shaderm.com
 0.0.0.0 shadeside.eu.org
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-cove.com
@@ -423177,6 +423173,7 @@
 0.0.0.0 sonic-0101.github.io
 0.0.0.0 sonic-us.supersonicads.com
 0.0.0.0 sonicado-fr.fyi
+0.0.0.0 soniderosunidos.com
 0.0.0.0 soniksports.fr
 0.0.0.0 sonjaschmidt.shop
 0.0.0.0 sonmezetevi.com
@@ -439625,7 +439622,6 @@
 0.0.0.0 vcbnmx.com
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
-0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
@@ -441117,7 +441113,6 @@
 0.0.0.0 visam.info
 0.0.0.0 visana.fr
 0.0.0.0 visapay.onrender.com
-0.0.0.0 visapics.info
 0.0.0.0 visarmilic.rest
 0.0.0.0 viscachascompressibaailities.info
 0.0.0.0 vish-meta.pages.dev
@@ -460870,6 +460865,7 @@
 0.0.0.0 www.metron-arc.com
 0.0.0.0 www.metspa.cam
 0.0.0.0 www.metybai.pro
+0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mevsall.com
 0.0.0.0 www.mezczyzna-trendy.pl
 0.0.0.0 www.mftracking.com
