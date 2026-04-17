@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-17 14:17:49
-# Entries: 477195
+# Generated: 2026-04-17 18:31:12
+# Entries: 477189
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -121299,7 +121299,6 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
-0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -122528,7 +122527,6 @@
 0.0.0.0 beacon-eu-ams3.rubiconproject.com
 0.0.0.0 beacon-iad2.rubiconproject.com
 0.0.0.0 beacon-iad3.rubiconproject.com
-0.0.0.0 beacon-mysummitfcu.org
 0.0.0.0 beacon-nf.rubiconproject.com
 0.0.0.0 beacon-nf.rubiconproject.net.akadns.net
 0.0.0.0 beacon-securstead-ai.com
@@ -153931,6 +153929,7 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
+0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -213455,7 +213454,6 @@
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaidqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaittdqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femidignity.org
-0.0.0.0 femilamom.net
 0.0.0.0 feminplus.pl
 0.0.0.0 femlybowstkhoewy-dot-millinium.ey.r.appspot.com
 0.0.0.0 femmaterparaguay.x10.mx
@@ -254169,7 +254167,6 @@
 0.0.0.0 hsbcorsoemployer.wrkr.hk
 0.0.0.0 hsbcpl.com
 0.0.0.0 hsbcrewards-homesa.info
-0.0.0.0 hsbcrewards-homesb.info
 0.0.0.0 hsbcsecurity.session1143740.info
 0.0.0.0 hsbcuat.morningstar.co.kr
 0.0.0.0 hsbcuk.deregister-newpayment.com
@@ -273746,7 +273743,6 @@
 0.0.0.0 jeloneck5-wixsite-com.filesusr.com
 0.0.0.0 jelpbhabbygoraaehosikrzngb-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 jem-mialwe.com
-0.0.0.0 jem-mialwe.net
 0.0.0.0 jemanilognes.webflow.io
 0.0.0.0 jembisporr.flywheelsites.com
 0.0.0.0 jembretcar-1316850103.cos.ap-bangkok.myqcloud.com
@@ -333467,7 +333463,6 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
-0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -352911,7 +352906,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -357089,7 +357083,6 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
-0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 oknyhsxwr.info
 0.0.0.0 okogm.com
@@ -357947,6 +357940,7 @@
 0.0.0.0 omavouphonsers.com
 0.0.0.0 omawood.com
 0.0.0.0 omax.admarvel.com
+0.0.0.0 omax.com.pk
 0.0.0.0 omay.pl
 0.0.0.0 omazeuceeazczprod.112.2o7.net
 0.0.0.0 omazon-jp.ineuxa.shop
@@ -429423,6 +429417,7 @@
 0.0.0.0 taitei-andreea.ro
 0.0.0.0 taiwanrich.org
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
+0.0.0.0 tajalrayhan.com
 0.0.0.0 tajnder.pl
 0.0.0.0 tajs.qq.com
 0.0.0.0 tajukea.com
@@ -430553,7 +430548,6 @@
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techtalk.site
-0.0.0.0 techtattva.in
 0.0.0.0 techtrendsexplorerjh.info
 0.0.0.0 techtrendshubmd.pro
 0.0.0.0 techvancekariyer.com
@@ -431359,7 +431353,6 @@
 0.0.0.0 thecourierguy-ten.vercel.app
 0.0.0.0 thecourierguy.vercel.app
 0.0.0.0 thecourierguycozaozede.uygunbox.com
-0.0.0.0 thecowardlydog.com
 0.0.0.0 thecozykitchenclub.com
 0.0.0.0 thecpp.life
 0.0.0.0 thecraiglawfirm.com
@@ -439603,6 +439596,7 @@
 0.0.0.0 vcbnmx.com
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
+0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
