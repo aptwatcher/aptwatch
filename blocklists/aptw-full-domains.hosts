@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-17 06:30:43
-# Entries: 477193
+# Generated: 2026-04-17 12:30:16
+# Entries: 477195
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -54940,7 +54940,6 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
-0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -121300,6 +121299,7 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
+0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -122528,6 +122528,7 @@
 0.0.0.0 beacon-eu-ams3.rubiconproject.com
 0.0.0.0 beacon-iad2.rubiconproject.com
 0.0.0.0 beacon-iad3.rubiconproject.com
+0.0.0.0 beacon-mysummitfcu.org
 0.0.0.0 beacon-nf.rubiconproject.com
 0.0.0.0 beacon-nf.rubiconproject.net.akadns.net
 0.0.0.0 beacon-securstead-ai.com
@@ -165650,7 +165651,6 @@
 0.0.0.0 coordination-data-git-main-business-meta.vercel.app
 0.0.0.0 coordino.com
 0.0.0.0 coordparam.rest
-0.0.0.0 coorsamexico.mx
 0.0.0.0 coosawatteervshelters.top
 0.0.0.0 cootbie.com
 0.0.0.0 cootlogix.com
@@ -213455,6 +213455,7 @@
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaidqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaittdqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femidignity.org
+0.0.0.0 femilamom.net
 0.0.0.0 feminplus.pl
 0.0.0.0 femlybowstkhoewy-dot-millinium.ey.r.appspot.com
 0.0.0.0 femmaterparaguay.x10.mx
@@ -222112,7 +222113,6 @@
 0.0.0.0 friendsoflifechoices.org
 0.0.0.0 friendsofmelvinchigh.com
 0.0.0.0 friendsofryetownhall.org
-0.0.0.0 friendsofsclarc.org
 0.0.0.0 friendssteakhouse.com
 0.0.0.0 friendtest.us.intellitxt.com
 0.0.0.0 friendvote.xyz
@@ -262533,7 +262533,6 @@
 0.0.0.0 incrediblejodhpur.com
 0.0.0.0 incredibleselonmuskcentre.weebly.com
 0.0.0.0 incrediblesorbecom.netlify.app
-0.0.0.0 incredibletadoba.com
 0.0.0.0 incredibuild.ohlin.com.br
 0.0.0.0 incrediwearwork-dot-sharefilingcloud-downloads.uk.r.appspot.com
 0.0.0.0 incrediwearwork.sharefilingcloud-downloads.uk.r.appspot.com
@@ -273747,6 +273746,7 @@
 0.0.0.0 jeloneck5-wixsite-com.filesusr.com
 0.0.0.0 jelpbhabbygoraaehosikrzngb-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 jem-mialwe.com
+0.0.0.0 jem-mialwe.net
 0.0.0.0 jemanilognes.webflow.io
 0.0.0.0 jembisporr.flywheelsites.com
 0.0.0.0 jembretcar-1316850103.cos.ap-bangkok.myqcloud.com
@@ -333467,6 +333467,7 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
+0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -352093,6 +352094,7 @@
 0.0.0.0 nrlynudjwxpftolh-dot-glexcel1.ue.r.appspot.com
 0.0.0.0 nrmcnhdbjyzojwwr-dot-millinium.ey.r.appspot.com
 0.0.0.0 nrmhb.blogspot.am
+0.0.0.0 nrmlogistics.ro
 0.0.0.0 nrmvyhuz.cyou
 0.0.0.0 nrncf.blogspot.sn
 0.0.0.0 nrndsdbtkpwmklic-dot-millinium.ey.r.appspot.com
@@ -357945,7 +357947,6 @@
 0.0.0.0 omavouphonsers.com
 0.0.0.0 omawood.com
 0.0.0.0 omax.admarvel.com
-0.0.0.0 omax.com.pk
 0.0.0.0 omay.pl
 0.0.0.0 omazeuceeazczprod.112.2o7.net
 0.0.0.0 omazon-jp.ineuxa.shop
@@ -367351,7 +367352,6 @@
 0.0.0.0 paraquedasbrasil.paraquedasbrasil.com.br
 0.0.0.0 paraselenic.com
 0.0.0.0 parasharmobile.com
-0.0.0.0 parashopinstitut.com
 0.0.0.0 parasitaryoverpotency.vercel.app
 0.0.0.0 parasitecleanse.net
 0.0.0.0 parasiticidyyal.info
@@ -430553,6 +430553,7 @@
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techtalk.site
+0.0.0.0 techtattva.in
 0.0.0.0 techtrendsexplorerjh.info
 0.0.0.0 techtrendshubmd.pro
 0.0.0.0 techvancekariyer.com
@@ -431358,6 +431359,7 @@
 0.0.0.0 thecourierguy-ten.vercel.app
 0.0.0.0 thecourierguy.vercel.app
 0.0.0.0 thecourierguycozaozede.uygunbox.com
+0.0.0.0 thecowardlydog.com
 0.0.0.0 thecozykitchenclub.com
 0.0.0.0 thecpp.life
 0.0.0.0 thecraiglawfirm.com
