@@ -67,7 +67,7 @@ The full database contains everything — all 1.5M domains, 254K URLs, every vul
 
 Download: [api.aptwatch.org/api/download/full](https://api.aptwatch.org/api/download/full) (rate limited, served behind Cloudflare)
 
-Both versions share the same schema (`database/schema_v2.sql`) and work with all CLI commands and the dashboard.
+Both versions share the same schema (`database/schema.sql`) and work with all CLI commands and the dashboard.
 
 ---
 
@@ -197,6 +197,148 @@ All sources are optional. Missing keys are auto-skipped.
 
 ---
 
+## IOC Collector
+
+`aptwatch_ioc_collector.py` is an automated collector that pulls IOCs
+from multiple source types for each tracked Russian APT group and
+transforms them into the artifacts the rest of the pipeline consumes.
+
+### Sources (10 types)
+
+Per-group, configured in the `GROUPS` dict at the top of the script:
+
+1. TrendMicro IOC .txt files (tabular format)
+2. TrendMicro articles (scrape IOC link)
+3. Security blogs (regex extraction)
+4. PDFs via pypdf
+5. OTX AlienVault pulses (API)
+6. GitHub maltrail (per-APT files)
+7. GitHub ESET malware-ioc
+8. GitHub Unit42 IOC files
+9. Static IOCs (hardcoded in `GROUPS`)
+10. Cisco Talos IOC repository (auto-discovery via GitHub API, Russian APT
+    relevance filter, `compromised_legitimate_domains` flag for hacked
+    sites used as C2)
+
+### Modes
+
+- **local**: runs on a contributor workstation, writes YAML submissions
+  to a scratch folder, no git commit, no DB import. Used to preview a
+  contribution before opening a PR.
+- **server**: runs as the `aptintel` user on `api.aptwatch.org`, auto-
+  appends IOCs to `iocs/*.txt`, imports into the DB via the sync
+  pipeline, and git-commits the YAML submissions.
+
+Mode is derived from `config.ini` (`mode = server|local`) and can be
+overridden with `--mode`.
+
+### Artifacts produced
+
+| Artifact | Folder | Purpose |
+|----------|--------|---------|
+| `<group>_<date>.{txt,json}` | output/ | Raw IOC export for inspection |
+| `<provider>-<group>-<campaign>.yaml` | `community/submissions/` | Structured IOC submission (schema-validated, PR-ready) |
+| `append_ipv4_<date>.txt` | `iocs/` | Daily delta of new IPv4 IOCs, merged into `ipv4.txt` on the server and auto-deleted after merge |
+| `append_domains_<date>.txt` | `iocs/` | Same, for domains |
+| `append_emails_<date>.txt` | `iocs/` | Same, for emails |
+| `append_cves_<date>.txt` | `iocs/` | Same, for CVE references |
+
+In server mode, the `append_*.txt` files are transient: they are merged
+into the canonical `iocs/*.txt` files and then deleted, so the folder
+never accumulates stale deltas.
+
+### Usage
+
+```bash
+# Collect all groups (default)
+python3 aptwatch_ioc_collector.py
+
+# Collect a single group
+python3 aptwatch_ioc_collector.py --group apt28
+
+# Preview without writing anything
+python3 aptwatch_ioc_collector.py --dry-run
+
+# Server mode forced, skip git commit
+python3 aptwatch_ioc_collector.py --mode server --no-git
+
+# Use a custom safelist
+python3 aptwatch_ioc_collector.py --safelist /path/to/safelist.yaml
+```
+
+### Architecture
+
+```mermaid
+flowchart LR
+    subgraph Sources
+        TM[TrendMicro]
+        OTX[OTX AlienVault]
+        BLOG[Security blogs]
+        PDF[PDFs]
+        GH[GitHub repos:<br/>maltrail, ESET,<br/>Unit42, Talos]
+        STATIC[Static IOCs]
+    end
+
+    subgraph Collector[aptwatch_ioc_collector.py]
+        COLLECT[Collect per-group]
+        SAFE[Safelist filter<br/>safelist.yaml]
+        DEDUP[De-dup + tag]
+    end
+
+    subgraph Artifacts
+        TXT[Raw txt / json]
+        YAML[YAML submissions<br/>community/submissions/]
+        APP[append_*.txt<br/>iocs/]
+    end
+
+    subgraph Downstream
+        DB[(apt_intel.db<br/>SQLite)]
+        SURI[Suricata rules]
+        GIT[Git commit +<br/>GitHub Pages]
+    end
+
+    TM --> COLLECT
+    OTX --> COLLECT
+    BLOG --> COLLECT
+    PDF --> COLLECT
+    GH --> COLLECT
+    STATIC --> COLLECT
+    COLLECT --> SAFE --> DEDUP
+    DEDUP --> TXT
+    DEDUP --> YAML
+    DEDUP --> APP
+
+    APP -->|merge + delete<br/>server mode| DB
+    YAML -->|import_approved.py| DB
+    DB --> SURI
+    DB --> GIT
+```
+
+### Safelist
+
+`safelist.yaml` (loaded from the same folder as the script, or via
+`--safelist`) blocks well-known legitimate entities from ending up in
+collector output:
+
+- Public DNS resolvers (Google, Cloudflare, Quad9, OpenDNS, AdGuard,
+  Control D — including their malware-block / family-safe variants)
+- Private and reserved IP ranges (RFC 1918, loopback, multicast)
+- Big tech, CDN, cloud, analytics, and legitimate security-vendor
+  domains (exact and substring patterns)
+- Generic `.gov.` and `windowsupdate` patterns
+
+Entries are documented inline; add here rather than hard-coding in
+scripts.
+
+### Scheduling
+
+On `api.aptwatch.org`, the collector is orchestrated by
+`sync_to_github.sh` (systemd timer `apt-intel-sync.service`, runs
+06:30 / 12:30 / 18:30 UTC). The sync script also handles scoring
+recalculation, lifecycle assessment, and the git push.
+
+---
+
 ## API
 
 The API at `api.aptwatch.org` serves blocklists, IOC lookups, and database downloads. All endpoints are read-only and rate-limited behind Cloudflare.
@@ -292,7 +434,7 @@ aptwatch/
 │   ├── rebuild.py                      # Full database rebuild
 │   └── db_health_check.py             # Database integrity checks
 ├── database/
-│   └── schema_v2.sql                   # Schema definition
+│   └── schema.sql                      # Canonical v3 schema
 ├── iocs/                               # IOC text files (auto-synced)
 │   ├── ipv4.txt, domains.txt, ...      # Core IOC feeds
 │   ├── mining_domains.txt              # 56K+ cryptojacking pool domains

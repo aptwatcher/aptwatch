@@ -594,3 +594,57 @@ INSERT OR IGNORE INTO metadata (key, value) VALUES
     ('cidr_count', '0'),
     ('scan_result_count', '0'),
     ('vulnerability_finding_count', '0');
+
+-- =============================================================
+-- AUXILIARY / RUNTIME TABLES
+-- =============================================================
+-- These tables are created on-demand by individual scripts
+-- (validate.py, harden_db.py, import_data.py). They are defined
+-- here as well so that `sqlite3 apt_intel.db < schema.sql` creates
+-- a fully-featured database ready for any script to attach to.
+-- =============================================================
+
+-- transaction_log: audit trail of every DB write (validate.py)
+CREATE TABLE IF NOT EXISTS transaction_log (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    timestamp TEXT NOT NULL,
+    action TEXT NOT NULL,
+    ip TEXT,
+    source TEXT,
+    status TEXT,
+    detail TEXT,
+    run_id TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_txlog_ts ON transaction_log(timestamp);
+CREATE INDEX IF NOT EXISTS idx_txlog_run ON transaction_log(run_id);
+
+-- api_daily_usage: autonomous API quota tracking (validate.py)
+CREATE TABLE IF NOT EXISTS api_daily_usage (
+    source TEXT NOT NULL,
+    date TEXT NOT NULL,
+    requests INTEGER DEFAULT 0,
+    PRIMARY KEY (source, date)
+);
+
+-- audit_log: structured audit trail (harden_db.py)
+CREATE TABLE IF NOT EXISTS audit_log (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    table_name TEXT NOT NULL,
+    operation TEXT NOT NULL,
+    row_id INTEGER,
+    old_data TEXT,
+    new_data TEXT,
+    user_agent TEXT DEFAULT 'system'
+);
+CREATE INDEX IF NOT EXISTS idx_audit_timestamp ON audit_log(timestamp);
+CREATE INDEX IF NOT EXISTS idx_audit_table ON audit_log(table_name);
+
+-- imported_files: dedup tracker for bulk imports (import_data.py)
+CREATE TABLE IF NOT EXISTS imported_files (
+    filepath TEXT PRIMARY KEY,
+    file_size INTEGER,
+    file_mtime TEXT,
+    imported_at TEXT,
+    record_count INTEGER
+);
