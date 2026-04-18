@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>APT Intel Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
 <style>
 :root {
@@ -12,8 +15,8 @@
   --orange: #d29922; --green: #3fb950; --yellow: #e3b341; --purple: #bc8cff;
 }
 * { margin:0; padding:0; box-sizing:border-box; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace; background:var(--bg); color:var(--text); min-height:100vh; }
-.tlp-banner { background:#d29922; color:#000; text-align:center; padding:4px; font-weight:bold; font-size:12px; letter-spacing:2px; }
+body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; background:var(--bg); color:var(--text); min-height:100vh; font-feature-settings:'cv11','ss01'; -webkit-font-smoothing:antialiased; }
+.mono, code, pre, .ioc-value { font-family: 'JetBrains Mono', 'SF Mono', Consolas, 'Courier New', monospace; font-size:0.92em; }
 header { background:var(--bg2); border-bottom:1px solid var(--border); padding:12px 24px; display:flex; align-items:center; gap:16px; }
 header h1 { font-size:18px; color:var(--accent); }
 header .status { font-size:12px; color:var(--text2); margin-left:auto; }
@@ -29,7 +32,7 @@ nav { display:flex; background:var(--bg2); border-bottom:1px solid var(--border)
 nav button { background:none; border:none; color:var(--text2); padding:10px 16px; cursor:pointer; font-size:13px; border-bottom:2px solid transparent; transition:all 0.2s; }
 nav button:hover { color:var(--text); }
 nav button.active { color:var(--accent); border-bottom-color:var(--accent); }
-main { padding:24px; max-width:1400px; }
+main { padding:24px; max-width:1600px; margin:0 auto; }
 .tab { display:none; }
 .tab.active { display:block; }
 .cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:12px; margin-bottom:24px; }
@@ -60,7 +63,7 @@ tr:hover td { background:var(--bg3); }
 .btn-primary { background:var(--accent); color:#000; border-color:var(--accent); font-weight:600; }
 .btn-primary:hover { opacity:0.9; }
 .table-wrap { max-height:500px; overflow:auto; border:1px solid var(--border); border-radius:6px; }
-textarea { background:var(--bg3); border:1px solid var(--border); color:var(--text); padding:10px; border-radius:6px; width:100%; font-family:monospace; font-size:13px; resize:vertical; }
+textarea { background:var(--bg3); border:1px solid var(--border); color:var(--text); padding:10px; border-radius:6px; width:100%; font-family:'JetBrains Mono','SF Mono',Consolas,monospace; font-size:13px; resize:vertical; }
 .section-title { font-size:15px; font-weight:600; margin:20px 0 10px; color:var(--accent); }
 .bar-chart { display:flex; gap:4px; align-items:end; height:80px; margin:12px 0; }
 .bar { min-width:40px; border-radius:3px 3px 0 0; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; font-size:10px; color:#fff; position:relative; }
@@ -74,11 +77,33 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
 .loading { text-align:center; padding:40px; color:var(--text2); }
 .empty { text-align:center; padding:20px; color:var(--text2); font-style:italic; }
 .results-info { font-size:12px; color:var(--text2); margin-bottom:8px; }
+
+/* --- Phase 3 polish: navigation groups + typography + drill-down --- */
+nav { flex-wrap:wrap; align-items:stretch; }
+nav .nav-group { display:flex; align-items:stretch; position:relative; padding:0 2px; }
+nav .nav-group::before { content:attr(data-group); position:absolute; top:-8px; left:6px; font-size:9px; color:var(--text2); text-transform:uppercase; letter-spacing:1px; opacity:0.55; pointer-events:none; }
+nav .nav-divider { width:1px; background:var(--border); margin:8px 4px; }
+header h1 { font-size:17px; font-weight:600; letter-spacing:-0.01em; }
+.section-title { font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:0.08em; margin:24px 0 12px; color:var(--text2); border-bottom:1px solid var(--border); padding-bottom:6px; }
+.card { transition:border-color 0.15s, transform 0.15s; }
+.card:hover { border-color:var(--accent); }
+.card .label { font-size:10px; letter-spacing:0.12em; }
+.card .value { font-size:26px; font-weight:700; letter-spacing:-0.02em; }
+.ioc-value, td .ioc-value, code { color:var(--text); background:rgba(255,255,255,0.03); padding:1px 5px; border-radius:3px; }
+.ip-link, .ioc-link { color:var(--accent); cursor:pointer; text-decoration:none; border-bottom:1px dotted rgba(88,166,255,0.4); font-family:'JetBrains Mono','SF Mono',Consolas,monospace; font-size:0.92em; }
+.ip-link:hover, .ioc-link:hover { color:#79c0ff; border-bottom-color:var(--accent); }
+.filter-chip { display:inline-block; background:rgba(88,166,255,0.1); color:var(--accent); border:1px solid rgba(88,166,255,0.3); border-radius:12px; padding:2px 10px; font-size:11px; margin:0 6px 0 0; cursor:pointer; }
+.filter-chip:hover { background:rgba(88,166,255,0.2); }
+.filter-chip .x { margin-left:6px; opacity:0.6; }
+th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weight:600; }
+/* Responsive nav on narrow screens */
+@media (max-width:900px) {
+  nav .nav-group::before { display:none; }
+  main { padding:16px; }
+}
 </style>
 </head>
 <body>
-
-<div class="tlp-banner">TLP:AMBER — RUSSIAN APT INFRASTRUCTURE INTELLIGENCE</div>
 
 <header>
   <img src="../aptwatch-logo.png" alt="APTWatch" style="height:32px;width:32px;">
@@ -110,20 +135,34 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
   <div class="info" id="load-info"><code>apt_intel_web.db</code> (web export — optimized for browser analysis) or <code>apt_intel.db</code> (full database — all tables including domains, URLs, and complete vulnerability data)</div>
 </div>
 
-<nav id="tabs-nav" style="display:none">
-  <button class="active" data-tab="overview">Overview</button>
-  <button data-tab="scans">Scan Results</button>
-  <button data-tab="iocs">IOC Explorer</button>
-  <button data-tab="vulnscan">Vuln Scan</button>
-  <button data-tab="patterns">Scan Patterns</button>
-  <button data-tab="sql">Custom SQL</button>
-  <button data-tab="tools">Tools</button>
-  <button data-tab="recon">Recon</button>
-  <button data-tab="validation">Validation</button>
-  <button data-tab="attribution">Attribution</button>
-  <button data-tab="interagency">Inter-Agency</button>
-  <button data-tab="scoring">Scoring v3</button>
-  <button data-tab="exports">Exports</button>
+<nav id="tabs-nav" style="display:none" aria-label="Primary navigation">
+  <div class="nav-group" data-group="Home">
+    <button class="active" data-tab="overview">Overview</button>
+  </div>
+  <div class="nav-divider" aria-hidden="true"></div>
+  <div class="nav-group" data-group="IOCs">
+    <button data-tab="iocs">IOC Explorer</button>
+    <button data-tab="scans">Scan Results</button>
+    <button data-tab="vulnscan">Vuln Scan</button>
+    <button data-tab="patterns">Scan Patterns</button>
+  </div>
+  <div class="nav-divider" aria-hidden="true"></div>
+  <div class="nav-group" data-group="Campaigns">
+    <button data-tab="attribution">Attribution</button>
+    <button data-tab="interagency">Inter-Agency</button>
+  </div>
+  <div class="nav-divider" aria-hidden="true"></div>
+  <div class="nav-group" data-group="Analysis">
+    <button data-tab="scoring">Scoring v3</button>
+    <button data-tab="validation">Validation</button>
+    <button data-tab="recon">Recon</button>
+  </div>
+  <div class="nav-divider" aria-hidden="true"></div>
+  <div class="nav-group" data-group="Tools">
+    <button data-tab="sql">Custom SQL</button>
+    <button data-tab="tools">Tools</button>
+    <button data-tab="exports">Exports</button>
+  </div>
 </nav>
 
 <main>
@@ -903,6 +942,34 @@ function renderTable(tableId, columns, rows, opts={}) {
       if (i === 0 && opts.ipLink && typeof val === 'string' && /^\d+\.\d+\.\d+\.\d+$/.test(val)) {
         val = `<span class="ip-link" onclick="showIPProfile('${val}')">${val}</span>`;
       }
+      // Domain drill-down
+      else if ((col === 'domain' || col === 'host' || col === 'hostname') && typeof val === 'string' && val && val.includes('.')) {
+        const safe = String(val).replace(/'/g, "\\'");
+        val = `<span class="ioc-link" onclick="showDomainProfile('${safe}')">${val}</span>`;
+      }
+      // ASN / hosting_provider drill-down
+      else if ((col === 'asn' || col === 'hosting_provider' || col === 'provider') && typeof val === 'string' && val) {
+        const safe = String(val).replace(/'/g, "\\'");
+        val = `<span class="ioc-link" onclick="showASNProfile('${safe}')">${val}</span>`;
+      }
+      // Country drill-down
+      else if ((col === 'country' || col === 'country_code' || col === 'origin_country') && typeof val === 'string' && val && val.length <= 5) {
+        val = `<span class="ioc-link" onclick="showCountryProfile('${val}')">${val}</span>`;
+      }
+      // Campaign drill-down
+      else if ((col === 'campaign' || col === 'campaign_name' || col === 'threat_actor_name') && typeof val === 'string' && val) {
+        const safe = String(val).replace(/'/g, "\\'");
+        val = `<span class="ioc-link" onclick="showCampaignProfile('${safe}')">${val}</span>`;
+      }
+      // Score range filter
+      else if (col === 'composite_score' && typeof val === 'number') {
+        const fmt = val.toFixed(3);
+        val = `<span class="ioc-link" onclick="showScoreFilter(${val.toFixed(3)})">${fmt}</span>`;
+      }
+      // CVE drill-down (external link to NVD)
+      else if (col === 'cve_id' && typeof val === 'string' && /^CVE-\d{4}-\d+/.test(val)) {
+        val = `<a class="ioc-link" href="https://nvd.nist.gov/vuln/detail/${val}" target="_blank" rel="noopener">${val}</a>`;
+      }
       // Services — show as small badges
       if (col === 'services' && typeof val === 'string' && val) {
         val = val.split(',').filter(Boolean).map(s => `<span class="badge LOW" style="margin:1px;font-size:10px">${s.trim()}</span>`).join('') || '—';
@@ -1409,6 +1476,157 @@ function showIPProfile(ip) {
 function closeModal() {
   document.getElementById('modal-overlay').style.display = 'none';
   document.getElementById('modal').style.display = 'none';
+}
+
+// =============================================================
+// DRILL-DOWN PROFILES (Phase 3.5)
+// Safe: all inputs escaped, missing tables handled gracefully.
+// =============================================================
+
+function _esc(s) { return String(s).replace(/'/g, "''"); }
+
+function _openModal(title, bodyHtml) {
+  document.getElementById('modal-content').innerHTML =
+    `<button class="close" onclick="closeModal()">&times;</button><h3>${title}</h3>` + bodyHtml;
+  document.getElementById('modal-overlay').style.display = 'block';
+  document.getElementById('modal').style.display = 'block';
+}
+
+function _safeQuery(sql) {
+  try { return db.exec(sql); } catch(e) { return []; }
+}
+
+function _renderMiniTable(title, cols, rows, opts={}) {
+  if (!rows || !rows.length) return '';
+  const limit = opts.limit || 50;
+  const shown = rows.slice(0, limit);
+  let html = `<div class="section-title" style="margin-top:18px">${title} (${rows.length})</div>`;
+  html += '<div class="table-wrap" style="max-height:300px"><table><thead><tr>';
+  cols.forEach(c => html += `<th>${c}</th>`);
+  html += '</tr></thead><tbody>';
+  shown.forEach(r => {
+    html += '<tr>' + r.map(v => `<td>${v == null ? '' : String(v).substring(0,120)}</td>`).join('') + '</tr>';
+  });
+  html += '</tbody></table></div>';
+  if (rows.length > limit) html += `<div style="font-size:11px;color:var(--text2);margin-top:4px">Showing first ${limit} of ${rows.length}</div>`;
+  return html;
+}
+
+function showDomainProfile(domain) {
+  if (!db) return;
+  const d = _esc(domain);
+  let html = `<div style="font-family:'JetBrains Mono',monospace;color:var(--text2);font-size:12px;margin-bottom:8px">${domain}</div>`;
+
+  // Core domain record
+  const dom = _safeQuery(`SELECT * FROM domains WHERE domain = '${d}' LIMIT 1`);
+  if (dom.length && dom[0].values.length) {
+    const cols = dom[0].columns, row = dom[0].values[0];
+    html += '<div class="section-title" style="margin-top:0">Domain Record</div>';
+    html += '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px">';
+    cols.forEach((c, i) => {
+      if (row[i] != null && row[i] !== '') {
+        html += `<div style="background:var(--bg3);border-radius:6px;padding:8px 10px"><div style="font-size:10px;color:var(--text2);text-transform:uppercase;letter-spacing:0.5px">${c}</div><div style="font-size:12px;margin-top:2px;word-break:break-all">${row[i]}</div></div>`;
+      }
+    });
+    html += '</div>';
+  } else {
+    html += '<div class="empty">Not in <code>domains</code> table (may be a web-export snapshot).</div>';
+  }
+
+  // URLs for this domain
+  const urls = _safeQuery(`SELECT url, status, first_seen FROM urls WHERE url LIKE '%${d}%' LIMIT 50`);
+  if (urls.length && urls[0].values.length) {
+    html += _renderMiniTable('URLs referencing this domain', urls[0].columns, urls[0].values);
+  }
+
+  // Campaign links
+  const camp = _safeQuery(`SELECT c.campaign_name, ci.created_at FROM campaign_iocs ci JOIN campaigns c ON ci.campaign_id = c.id WHERE ci.ioc_type='domain' AND ci.ioc_value = '${d}'`);
+  if (camp.length && camp[0].values.length) {
+    html += _renderMiniTable('Linked Campaigns', camp[0].columns, camp[0].values);
+  }
+
+  _openModal('Domain — ' + domain, html);
+}
+
+function showASNProfile(asn) {
+  if (!db) return;
+  const a = _esc(asn);
+  let html = `<div style="font-family:'JetBrains Mono',monospace;color:var(--text2);font-size:12px;margin-bottom:8px">${asn}</div>`;
+
+  // IPs on this ASN / provider
+  const ips = _safeQuery(`SELECT DISTINCT i.ip, i.infra_type, i.composite_score, i.lifecycle_state FROM ipv4_iocs i LEFT JOIN enrichment_results e ON e.indicator = i.ip WHERE e.hosting_provider LIKE '%${a}%' OR e.hosting_provider = '${a}' ORDER BY i.composite_score DESC LIMIT 200`);
+  if (ips.length && ips[0].values.length) {
+    html += '<div style="font-size:12px;color:var(--text2);margin-bottom:8px">Found <b>' + ips[0].values.length + '</b> IPs attributed to this ASN/provider.</div>';
+    html += _renderMiniTable('IPs on this ASN', ips[0].columns, ips[0].values, {limit:100});
+  } else {
+    html += '<div class="empty">No IPs indexed for this ASN (may require IP2Location enrichment).</div>';
+  }
+  _openModal('ASN / Provider — ' + asn, html);
+}
+
+function showCountryProfile(country) {
+  if (!db) return;
+  const c = _esc(country);
+  let html = `<div style="color:var(--text2);font-size:12px;margin-bottom:8px">Country filter: <b>${country}</b></div>`;
+
+  const ips = _safeQuery(`SELECT DISTINCT i.ip, i.infra_type, i.composite_score, i.lifecycle_state FROM ipv4_iocs i LEFT JOIN enrichment_results e ON e.indicator = i.ip LEFT JOIN asn_info a ON e.hosting_provider LIKE '%'||a.org_name||'%' WHERE a.country = '${c}' ORDER BY i.composite_score DESC LIMIT 200`);
+  if (ips.length && ips[0].values.length) {
+    html += _renderMiniTable('IPs in ' + country, ips[0].columns, ips[0].values, {limit:100});
+  }
+  const camps = _safeQuery(`SELECT campaign_name, threat_actor_type, origin_country FROM campaigns WHERE origin_country = '${c}'`);
+  if (camps.length && camps[0].values.length) {
+    html += _renderMiniTable('Campaigns from ' + country, camps[0].columns, camps[0].values);
+  }
+  if ((!ips.length || !ips[0].values.length) && (!camps.length || !camps[0].values.length)) {
+    html += '<div class="empty">No geographic data indexed. This dashboard will be more useful once IP2Location enrichment is integrated (see Phase 4 TODO).</div>';
+  }
+  _openModal('Country — ' + country, html);
+}
+
+function showCampaignProfile(name) {
+  if (!db) return;
+  const n = _esc(name);
+  let html = '';
+
+  const camp = _safeQuery(`SELECT * FROM campaigns WHERE campaign_name = '${n}' OR aliases LIKE '%${n}%' OR threat_actor_type = '${n}' LIMIT 1`);
+  if (camp.length && camp[0].values.length) {
+    const cols = camp[0].columns, row = camp[0].values[0];
+    const idIdx = cols.indexOf('id');
+    const campId = idIdx >= 0 ? row[idIdx] : null;
+    html += '<div class="section-title" style="margin-top:0">Campaign</div>';
+    html += '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px">';
+    cols.forEach((c, i) => {
+      if (row[i] != null && row[i] !== '') {
+        html += `<div style="background:var(--bg3);border-radius:6px;padding:8px 10px"><div style="font-size:10px;color:var(--text2);text-transform:uppercase;letter-spacing:0.5px">${c}</div><div style="font-size:12px;margin-top:2px;word-break:break-all">${row[i]}</div></div>`;
+      }
+    });
+    html += '</div>';
+
+    if (campId !== null) {
+      const iocs = _safeQuery(`SELECT ioc_type, ioc_value, role, created_at FROM campaign_iocs WHERE campaign_id = ${campId} ORDER BY ioc_type, ioc_value LIMIT 300`);
+      if (iocs.length && iocs[0].values.length) {
+        html += _renderMiniTable('Linked IOCs', iocs[0].columns, iocs[0].values, {limit:200});
+      }
+    }
+  } else {
+    html += '<div class="empty">Campaign not found. The name may differ between <code>campaign_name</code> and <code>threat_actor_name</code>.</div>';
+  }
+  _openModal('Campaign — ' + name, html);
+}
+
+function showScoreFilter(score) {
+  if (!db) return;
+  // Show IOCs in the same 0.1-bucket as the clicked score
+  const bucket = Math.floor(score * 10) / 10;
+  const lo = bucket.toFixed(2), hi = (bucket + 0.1).toFixed(2);
+  const ips = _safeQuery(`SELECT ip, infra_type, composite_score, lifecycle_state FROM ipv4_iocs WHERE composite_score >= ${lo} AND composite_score < ${hi} ORDER BY composite_score DESC LIMIT 200`);
+  let html = `<div style="color:var(--text2);font-size:12px;margin-bottom:8px">Composite score in range [<b>${lo}</b>, <b>${hi}</b>)</div>`;
+  if (ips.length && ips[0].values.length) {
+    html += _renderMiniTable('IPs in this score band', ips[0].columns, ips[0].values, {limit:100});
+  } else {
+    html += '<div class="empty">No IOCs in this range.</div>';
+  }
+  _openModal('Score band — ' + lo + '–' + hi, html);
 }
 
 // =============================================================
