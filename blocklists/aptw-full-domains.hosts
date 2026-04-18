@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-18 12:31:16
-# Entries: 477231
+# Generated: 2026-04-18 18:30:54
+# Entries: 477228
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -122625,7 +122625,6 @@
 0.0.0.0 beaglepupslovers.com
 0.0.0.0 beagoodfrnd.netlify.app
 0.0.0.0 beaheaa.com
-0.0.0.0 beak.in
 0.0.0.0 bealert.online.homesbyleah.co.ke
 0.0.0.0 bealocalexp.com
 0.0.0.0 beam-r2hwfsze7h0mrn54fcpv.netlify.app
@@ -128875,7 +128874,6 @@
 0.0.0.0 bitcoinrevolution.ai
 0.0.0.0 bitcoinru-org.site
 0.0.0.0 bitcoins-profit.com
-0.0.0.0 bitcoins.homes
 0.0.0.0 bitcoinset.pl
 0.0.0.0 bitcoinsunrise.com
 0.0.0.0 bitcoinsup.pl
@@ -199568,6 +199566,7 @@
 0.0.0.0 etincellejewelers.com
 0.0.0.0 etinkr.org
 0.0.0.0 etinsendmail.com
+0.0.0.0 etinsendmail.net
 0.0.0.0 etiofxlzcf.duckdns.org
 0.0.0.0 etiquetou.com.br
 0.0.0.0 etiquette1boncoin.000webhostapp.com
@@ -216837,6 +216836,7 @@
 0.0.0.0 fitfloppl.com
 0.0.0.0 fitfloppolskaoutlet.com
 0.0.0.0 fitflopspolskaoutlet.com
+0.0.0.0 fitforevercavan.ie
 0.0.0.0 fitful-manners.000webhostapp.com
 0.0.0.0 fitg.net
 0.0.0.0 fitges.oewabox.at
@@ -273761,7 +273761,6 @@
 0.0.0.0 jeloneck5-wixsite-com.filesusr.com
 0.0.0.0 jelpbhabbygoraaehosikrzngb-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 jem-mialwe.com
-0.0.0.0 jem-mialwe.net
 0.0.0.0 jemanilognes.webflow.io
 0.0.0.0 jembisporr.flywheelsites.com
 0.0.0.0 jembretcar-1316850103.cos.ap-bangkok.myqcloud.com
@@ -333488,6 +333487,7 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
+0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -339056,7 +339056,6 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
-0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -357977,7 +357976,6 @@
 0.0.0.0 omavouphonsers.com
 0.0.0.0 omawood.com
 0.0.0.0 omax.admarvel.com
-0.0.0.0 omax.com.pk
 0.0.0.0 omay.pl
 0.0.0.0 omazeuceeazczprod.112.2o7.net
 0.0.0.0 omazon-jp.ineuxa.shop
@@ -429457,7 +429455,6 @@
 0.0.0.0 taitei-andreea.ro
 0.0.0.0 taiwanrich.org
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
-0.0.0.0 tajalrayhan.com
 0.0.0.0 tajnder.pl
 0.0.0.0 tajs.qq.com
 0.0.0.0 tajukea.com
