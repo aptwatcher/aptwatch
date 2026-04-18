@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-18 06:31:02
-# Entries: 477227
+# Generated: 2026-04-18 12:31:16
+# Entries: 477231
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -122625,6 +122625,7 @@
 0.0.0.0 beaglepupslovers.com
 0.0.0.0 beagoodfrnd.netlify.app
 0.0.0.0 beaheaa.com
+0.0.0.0 beak.in
 0.0.0.0 bealert.online.homesbyleah.co.ke
 0.0.0.0 bealocalexp.com
 0.0.0.0 beam-r2hwfsze7h0mrn54fcpv.netlify.app
@@ -147769,7 +147770,6 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
-0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -158316,6 +158316,7 @@
 0.0.0.0 cnorthrup.atozgroup.ir
 0.0.0.0 cnoside-spotify-clone.firebaseapp.com
 0.0.0.0 cnp.learn.com
+0.0.0.0 cnpaintequipment.com
 0.0.0.0 cnpkmxrebmcirznbvjczewvqvpnyudnaggcr-dot-offgl8876899977678.uk.r.appspot.com
 0.0.0.0 cnpkmxrebmcirznbvjczewvqvpnyudnaggcr.offgl8876899977678.uk.r.appspot.com
 0.0.0.0 cnpoyztqev.ddns.net
@@ -266811,6 +266812,7 @@
 0.0.0.0 insured-advantage.com
 0.0.0.0 insurehub.in
 0.0.0.0 insuremartng.com
+0.0.0.0 insureongo.net
 0.0.0.0 insurethe564.com
 0.0.0.0 insurevendors.com
 0.0.0.0 insurgent-hoops.000webhostapp.com
@@ -273759,6 +273761,7 @@
 0.0.0.0 jeloneck5-wixsite-com.filesusr.com
 0.0.0.0 jelpbhabbygoraaehosikrzngb-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 jem-mialwe.com
+0.0.0.0 jem-mialwe.net
 0.0.0.0 jemanilognes.webflow.io
 0.0.0.0 jembisporr.flywheelsites.com
 0.0.0.0 jembretcar-1316850103.cos.ap-bangkok.myqcloud.com
@@ -332754,7 +332757,6 @@
 0.0.0.0 mocktestlab.com
 0.0.0.0 mockup-instagram-dio.vercel.app
 0.0.0.0 mockup.metradigitalmedia.com
-0.0.0.0 mockupcorporation.com
 0.0.0.0 mockz.com
 0.0.0.0 mocleran.com
 0.0.0.0 mocloudmacs.ch46650.tmweb.ru
@@ -339054,6 +339056,7 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
+0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -356966,6 +356969,7 @@
 0.0.0.0 ok-bonusesfera.hopto.org
 0.0.0.0 ok-outlet.com
 0.0.0.0 ok-postoffice.com
+0.0.0.0 ok-vsefotki.online
 0.0.0.0 ok.5.p2l.info
 0.0.0.0 ok.andaydin.com
 0.0.0.0 ok.com.eac.by
@@ -357116,7 +357120,6 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
-0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 oknyhsxwr.info
 0.0.0.0 okogm.com
@@ -357974,6 +357977,7 @@
 0.0.0.0 omavouphonsers.com
 0.0.0.0 omawood.com
 0.0.0.0 omax.admarvel.com
+0.0.0.0 omax.com.pk
 0.0.0.0 omay.pl
 0.0.0.0 omazeuceeazczprod.112.2o7.net
 0.0.0.0 omazon-jp.ineuxa.shop
@@ -417231,7 +417235,6 @@
 0.0.0.0 sattioes.com
 0.0.0.0 sattota.com
 0.0.0.0 sattvadoshi.github.io
-0.0.0.0 satuatlas.com
 0.0.0.0 satumi.pro
 0.0.0.0 satuosrdaysa07.co.vu
 0.0.0.0 satura.pl
@@ -420337,6 +420340,7 @@
 0.0.0.0 shaded-forge.com
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
+0.0.0.0 shaderm.com
 0.0.0.0 shadeside.eu.org
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-cove.com
