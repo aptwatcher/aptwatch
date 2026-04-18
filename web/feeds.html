@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APT Intel — Feeds</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0d1117; --bg2: #161b22; --bg3: #21262d; --border: #30363d;
+  --text: #c9d1d9; --text2: #8b949e; --accent: #58a6ff; --red: #f85149;
+  --orange: #d29922; --green: #3fb950; --yellow: #e3b341; --purple: #bc8cff;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; background:var(--bg); color:var(--text); min-height:100vh; font-feature-settings:'cv11','ss01'; -webkit-font-smoothing:antialiased; }
+.mono, code, pre { font-family: 'JetBrains Mono', 'SF Mono', Consolas, 'Courier New', monospace; font-size:0.92em; }
+header { background:var(--bg2); border-bottom:1px solid var(--border); padding:12px 24px; display:flex; align-items:center; gap:16px; }
+header h1 { font-size:17px; font-weight:600; letter-spacing:-0.01em; color:var(--accent); }
+header .muted { font-size:12px; color:var(--text2); text-decoration:none; }
+header .muted:hover { color:var(--text); }
+header .sep { color:var(--border); }
+
+/* Nav (same look as index.html, but links go to index.html#tab) */
+nav { display:flex; background:var(--bg2); border-bottom:1px solid var(--border); padding:18px 24px 0 24px; gap:0; flex-wrap:wrap; align-items:stretch; }
+nav a { background:none; border:none; color:var(--text2); padding:10px 16px; cursor:pointer; font-size:13px; border-bottom:2px solid transparent; transition:all 0.2s; text-decoration:none; display:inline-block; font-family:inherit; }
+nav a:hover { color:var(--text); }
+nav a.active { color:var(--accent); border-bottom-color:var(--accent); }
+nav .nav-group { display:flex; align-items:stretch; position:relative; padding:0 4px; }
+nav .nav-group::before { content:attr(data-group); position:absolute; top:-16px; left:50%; transform:translateX(-50%); font-size:9px; font-weight:600; color:var(--text2); text-transform:uppercase; letter-spacing:0.12em; opacity:0.6; pointer-events:none; white-space:nowrap; }
+nav .nav-divider { width:1px; background:var(--border); margin:10px 6px; align-self:stretch; }
+
+main { padding:24px; max-width:1200px; margin:0 auto; }
+.section-title { font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:0.08em; margin:24px 0 12px; color:var(--text2); border-bottom:1px solid var(--border); padding-bottom:6px; }
+.section { background:var(--bg2); border:1px solid var(--border); border-radius:8px; padding:20px; margin-bottom:20px; transition:border-color 0.15s; }
+.section:hover { border-color:rgba(88,166,255,0.3); }
+.section h2 { font-size:14px; font-weight:600; color:var(--accent); margin-bottom:14px; letter-spacing:-0.01em; }
+.file { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:10px 12px; margin:4px 0; background:var(--bg3); border-radius:6px; border:1px solid transparent; transition:border-color 0.15s; }
+.file:hover { border-color:var(--accent); }
+.file a { color:var(--accent); text-decoration:none; border-bottom:1px dotted rgba(88,166,255,0.4); font-family:'JetBrains Mono','SF Mono',Consolas,monospace; font-size:12px; }
+.file a:hover { color:#79c0ff; border-bottom-color:var(--accent); }
+.file .desc { font-size:12px; color:var(--text2); }
+.intro { background:var(--bg2); border:1px solid var(--border); border-left:3px solid var(--accent); border-radius:6px; padding:14px 18px; margin:0 0 20px; }
+.intro h1 { font-size:16px; color:var(--accent); margin-bottom:6px; letter-spacing:-0.01em; }
+.intro p { font-size:13px; color:var(--text2); line-height:1.6; }
+.badge { display:inline-block; padding:2px 8px; border-radius:10px; font-size:10px; font-weight:600; letter-spacing:0.05em; text-transform:uppercase; }
+.badge.HIGH { background:rgba(210,153,34,0.2); color:var(--orange); }
+.badge.MEDIUM { background:rgba(227,179,65,0.2); color:var(--yellow); }
+.badge.LOW { background:rgba(63,185,80,0.2); color:var(--green); }
+.badge.INFO { background:rgba(88,166,255,0.2); color:var(--accent); }
+
+@media (max-width:900px) {
+  nav .nav-group::before { display:none; }
+  main { padding:16px; }
+  .file { flex-direction:column; align-items:flex-start; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <img src="aptwatch-logo.png" alt="APTWatch" style="height:32px;width:32px;" onerror="this.style.display='none'">
+  <h1>APT Intel — Feeds</h1>
+  <div style="display:flex;align-items:center;gap:12px;margin-left:auto">
+    <a href="https://api.aptwatch.org/api/download/web" title="Download web DB" class="muted">Web DB</a>
+    <span class="sep">|</span>
+    <a href="https://api.aptwatch.org/api/download/full" title="Download full DB" class="muted">Full DB</a>
+    <span class="sep">|</span>
+    <a href="index.html" class="muted" title="Back to dashboard">Dashboard</a>
+    <span class="sep">|</span>
+    <a href="https://github.com/aptwatcher/aptwatch" target="_blank" rel="noopener" title="View on GitHub" class="muted" style="display:flex;align-items:center">
+      <svg height="18" width="18" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+    </a>
+  </div>
+</header>
+
+<nav aria-label="Primary navigation">
+  <div class="nav-group" data-group="Home">
+    <a href="index.html">Overview</a>
+  </div>
+  <div class="nav-divider" aria-hidden="true"></div>
+  <div class="nav-group" data-group="IOCs">
+    <a href="index.html#iocs">IOC Explorer</a>
+    <a href="index.html#scans">Scan Results</a>
+    <a href="index.html#vulnscan">Vuln Scan</a>
+    <a href="index.html#patterns">Scan Patterns</a>
+  </div>
+  <div class="nav-divider" aria-hidden="true"></div>
+  <div class="nav-group" data-group="Campaigns">
+    <a href="index.html#attribution">Attribution</a>
+    <a href="index.html#interagency">Inter-Agency</a>
+  </div>
+  <div class="nav-divider" aria-hidden="true"></div>
+  <div class="nav-group" data-group="Analysis">
+    <a href="index.html#scoring">Scoring v3</a>
+    <a href="index.html#validation">Validation</a>
+    <a href="index.html#recon">Recon</a>
+  </div>
+  <div class="nav-divider" aria-hidden="true"></div>
+  <div class="nav-group" data-group="Tools">
+    <a href="index.html#sql">Custom SQL</a>
+    <a href="index.html#tools">Tools</a>
+    <a href="index.html#exports">Exports</a>
+    <a class="active" href="feeds.html">Feeds</a>
+  </div>
+</nav>
+
+<main>
+
+<div class="intro">
+  <h1>APT Intelligence Feeds</h1>
+  <p>Blocklists and raw IOC exports from the APT Watch pipeline. Files are regenerated daily from the Russian APT infrastructure database. Use the dashboard's <a href="index.html#iocs" style="color:var(--accent)">IOC Explorer</a> to inspect individual indicators before including them in production filters.</p>
+</div>
+
+<div class="section-title">Blocklists — APT-specific</div>
+
+<div class="section">
+  <h2>IP Blocklists (FireHOL .netset format)</h2>
+  <div class="file">
+    <a href="blocklists/aptw-apt-ips-high.netset">aptw-apt-ips-high.netset</a>
+    <span class="desc">High confidence IPs <span class="badge HIGH">5+ sources</span></span>
+  </div>
+  <div class="file">
+    <a href="blocklists/aptw-apt-ips-medium.netset">aptw-apt-ips-medium.netset</a>
+    <span class="desc">Medium confidence IPs <span class="badge MEDIUM">3+ sources</span></span>
+  </div>
+  <div class="file">
+    <a href="blocklists/aptw-apt-ips-all.netset">aptw-apt-ips-all.netset</a>
+    <span class="desc">All validated IPs <span class="badge INFO">broadest</span></span>
+  </div>
+  <div class="file">
+    <a href="blocklists/aptw-apt-subnets.netset">aptw-apt-subnets.netset</a>
+    <span class="desc">High-density subnets</span>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Domain Blocklists</h2>
+  <div class="file">
+    <a href="blocklists/aptw-apt-domains.hosts">aptw-apt-domains.hosts</a>
+    <span class="desc">StevenBlack hosts format</span>
+  </div>
+  <div class="file">
+    <a href="blocklists/aptw-apt-domains-plain.txt">aptw-apt-domains-plain.txt</a>
+    <span class="desc">Plain domain list (Pi-hole / DNS sinkhole)</span>
+  </div>
+  <div class="file">
+    <a href="blocklists/aptw-apt-combined.hosts">aptw-apt-combined.hosts</a>
+    <span class="desc">Combined IPs + domains</span>
+  </div>
+</div>
+
+<div class="section-title">Unified Blocklists — APT Watch + external feeds</div>
+
+<div class="section">
+  <h2>Merged with FireHOL, StevenBlack, URLhaus, AbuseIPDB</h2>
+  <div class="file">
+    <a href="blocklists/aptw-full-ips.netset">aptw-full-ips.netset</a>
+    <span class="desc">All threat IPs merged</span>
+  </div>
+  <div class="file">
+    <a href="blocklists/aptw-full-domains.hosts">aptw-full-domains.hosts</a>
+    <span class="desc">All threat domains (hosts format, Pi-hole ready)</span>
+  </div>
+  <div class="file">
+    <a href="blocklists/aptw-full-domains-plain.txt">aptw-full-domains-plain.txt</a>
+    <span class="desc">All threat domains (plain list)</span>
+  </div>
+  <div class="file">
+    <a href="blocklists/aptw-resolved-ips.netset">aptw-resolved-ips.netset</a>
+    <span class="desc">IPs resolved from malicious domains</span>
+  </div>
+  <div class="file">
+    <a href="blocklists/aptw-reverse-dns.hosts">aptw-reverse-dns.hosts</a>
+    <span class="desc">Reverse DNS of known-bad IPs</span>
+  </div>
+  <div class="file">
+    <a href="blocklists/aptw-mining.hosts">aptw-mining.hosts</a>
+    <span class="desc">Cryptojacking mining-pool domains</span>
+  </div>
+</div>
+
+<div class="section-title">Raw IOC Exports</div>
+
+<div class="section">
+  <h2>Individual IOC files</h2>
+  <div class="file">
+    <a href="iocs/ipv4.txt">ipv4.txt</a>
+    <span class="desc">All IPv4 IOCs</span>
+  </div>
+  <div class="file">
+    <a href="iocs/cidr.txt">cidr.txt</a>
+    <span class="desc">CIDR ranges</span>
+  </div>
+  <div class="file">
+    <a href="iocs/domains.txt">domains.txt</a>
+    <span class="desc">Domain IOCs</span>
+  </div>
+  <div class="file">
+    <a href="iocs/mining_domains.txt">mining_domains.txt</a>
+    <span class="desc">Mining pool domains <span class="badge INFO">56K+ entries</span></span>
+  </div>
+  <div class="file">
+    <a href="iocs/emails.txt">emails.txt</a>
+    <span class="desc">Email IOCs</span>
+  </div>
+  <div class="file">
+    <a href="iocs/urls.txt">urls.txt</a>
+    <span class="desc">URL IOCs</span>
+  </div>
+  <div class="file">
+    <a href="iocs/cves.txt">cves.txt</a>
+    <span class="desc">CVE references</span>
+  </div>
+</div>
+
+<div class="section-title">Interactive Analysis</div>
+
+<div class="section">
+  <div class="file">
+    <a href="index.html">Dashboard</a>
+    <span class="desc">Full interactive analytics, drill-down, SQL queries</span>
+  </div>
+</div>
+
+</main>
+
+</body>
+</html>

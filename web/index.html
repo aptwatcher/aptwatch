@@ -79,10 +79,11 @@ textarea { background:var(--bg3); border:1px solid var(--border); color:var(--te
 .results-info { font-size:12px; color:var(--text2); margin-bottom:8px; }
 
 /* --- Phase 3 polish: navigation groups + typography + drill-down --- */
-nav { flex-wrap:wrap; align-items:stretch; }
-nav .nav-group { display:flex; align-items:stretch; position:relative; padding:0 2px; }
-nav .nav-group::before { content:attr(data-group); position:absolute; top:-8px; left:6px; font-size:9px; color:var(--text2); text-transform:uppercase; letter-spacing:1px; opacity:0.55; pointer-events:none; }
-nav .nav-divider { width:1px; background:var(--border); margin:8px 4px; }
+nav { flex-wrap:wrap; align-items:flex-end; padding:6px 24px 0; }
+nav .nav-group { display:flex; flex-direction:column; align-items:center; }
+nav .nav-group-label { font-size:9px; font-weight:600; color:var(--text2); text-transform:uppercase; letter-spacing:0.12em; opacity:0.6; padding:4px 6px 2px; user-select:none; }
+nav .nav-group-row { display:flex; }
+nav .nav-divider { width:1px; background:var(--border); margin:10px 8px 0; align-self:stretch; }
 header h1 { font-size:17px; font-weight:600; letter-spacing:-0.01em; }
 .section-title { font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:0.08em; margin:24px 0 12px; color:var(--text2); border-bottom:1px solid var(--border); padding-bottom:6px; }
 .card { transition:border-color 0.15s, transform 0.15s; }
@@ -98,9 +99,29 @@ header h1 { font-size:17px; font-weight:600; letter-spacing:-0.01em; }
 th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weight:600; }
 /* Responsive nav on narrow screens */
 @media (max-width:900px) {
-  nav .nav-group::before { display:none; }
+  nav .nav-group-label { display:none; }
   main { padding:16px; }
 }
+
+/* --- Phase 3 polish: Database Details layout --- */
+.db-details { display:grid; grid-template-columns:repeat(auto-fit, minmax(340px, 1fr)); gap:16px; }
+.db-details .dd-group { background:var(--bg2); border:1px solid var(--border); border-radius:8px; padding:16px 18px; }
+.db-details .dd-group h3 { font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:0.12em; color:var(--text2); margin:0 0 12px 0; padding-bottom:8px; border-bottom:1px solid var(--border); }
+.db-details .dd-row { display:flex; justify-content:space-between; align-items:baseline; gap:12px; padding:6px 0; border-bottom:1px dashed rgba(255,255,255,0.04); }
+.db-details .dd-row:last-child { border-bottom:none; }
+.db-details .dd-row .dd-label { font-size:12px; color:var(--text2); flex-shrink:0; }
+.db-details .dd-row .dd-value { font-size:12px; color:var(--text); text-align:right; font-family:'JetBrains Mono','SF Mono',Consolas,monospace; word-break:break-all; }
+.db-details .dd-row .dd-value.ok { color:var(--green); }
+.db-details .dd-row .dd-value.warn { color:var(--orange); }
+.db-details .dd-group.full-row { grid-column:1 / -1; }
+.db-details details { margin-top:8px; }
+.db-details details summary { cursor:pointer; font-size:12px; color:var(--accent); padding:6px 0; user-select:none; list-style:none; display:flex; align-items:center; gap:6px; }
+.db-details details summary::before { content:'\25B6'; font-size:9px; transition:transform 0.15s; display:inline-block; }
+.db-details details[open] summary::before { transform:rotate(90deg); }
+.db-details details summary::-webkit-details-marker { display:none; }
+.db-details .dd-note { background:var(--bg3); border-radius:6px; padding:10px 12px; margin:6px 0; font-size:12px; line-height:1.55; color:var(--text); border-left:3px solid var(--border); }
+.db-details .dd-note .dd-note-title { font-size:10px; color:var(--text2); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:4px; font-weight:600; }
+.db-details .dd-json { background:var(--bg3); border-radius:6px; padding:10px 12px; margin:6px 0; font-family:'JetBrains Mono','SF Mono',Consolas,monospace; font-size:11px; line-height:1.5; color:var(--text2); white-space:pre-wrap; word-break:break-all; max-height:260px; overflow:auto; }
 </style>
 </head>
 <body>
@@ -136,32 +157,48 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
 </div>
 
 <nav id="tabs-nav" style="display:none" aria-label="Primary navigation">
-  <div class="nav-group" data-group="Home">
-    <button class="active" data-tab="overview">Overview</button>
+  <div class="nav-group">
+    <div class="nav-group-label">Home</div>
+    <div class="nav-group-row">
+      <button class="active" data-tab="overview">Overview</button>
+    </div>
   </div>
   <div class="nav-divider" aria-hidden="true"></div>
-  <div class="nav-group" data-group="IOCs">
-    <button data-tab="iocs">IOC Explorer</button>
-    <button data-tab="scans">Scan Results</button>
-    <button data-tab="vulnscan">Vuln Scan</button>
-    <button data-tab="patterns">Scan Patterns</button>
+  <div class="nav-group">
+    <div class="nav-group-label">IOCs</div>
+    <div class="nav-group-row">
+      <button data-tab="iocs">IOC Explorer</button>
+      <button data-tab="scans">Scan Results</button>
+      <button data-tab="vulnscan">Vuln Scan</button>
+      <button data-tab="patterns">Scan Patterns</button>
+    </div>
   </div>
   <div class="nav-divider" aria-hidden="true"></div>
-  <div class="nav-group" data-group="Campaigns">
-    <button data-tab="attribution">Attribution</button>
-    <button data-tab="interagency">Inter-Agency</button>
+  <div class="nav-group">
+    <div class="nav-group-label">Campaigns</div>
+    <div class="nav-group-row">
+      <button data-tab="attribution">Attribution</button>
+      <button data-tab="interagency">Inter-Agency</button>
+    </div>
   </div>
   <div class="nav-divider" aria-hidden="true"></div>
-  <div class="nav-group" data-group="Analysis">
-    <button data-tab="scoring">Scoring v3</button>
-    <button data-tab="validation">Validation</button>
-    <button data-tab="recon">Recon</button>
+  <div class="nav-group">
+    <div class="nav-group-label">Analysis</div>
+    <div class="nav-group-row">
+      <button data-tab="scoring">Scoring v3</button>
+      <button data-tab="validation">Validation</button>
+      <button data-tab="recon">Recon</button>
+    </div>
   </div>
   <div class="nav-divider" aria-hidden="true"></div>
-  <div class="nav-group" data-group="Tools">
-    <button data-tab="sql">Custom SQL</button>
-    <button data-tab="tools">Tools</button>
-    <button data-tab="exports">Exports</button>
+  <div class="nav-group">
+    <div class="nav-group-label">Tools</div>
+    <div class="nav-group-row">
+      <button data-tab="sql">Custom SQL</button>
+      <button data-tab="tools">Tools</button>
+      <button data-tab="exports">Exports</button>
+      <button data-tab="database">Database</button>
+    </div>
   </div>
 </nav>
 
@@ -250,9 +287,6 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
     <p style="font-size:12px;color:var(--text2);margin-bottom:8px">APT-specific blocklists (apt-*) target Russian APT infrastructure only. Unified blocklists (aptw-*) merge our data with external feeds (FireHOL, StevenBlack, URLhaus, AbuseIPDB) for broader Pi-hole / firewall coverage.</p>
     <div id="blocklist-feeds-list" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px"></div>
 
-    <!-- Metadata (clean key/value grid) -->
-    <div class="section-title">Database Details</div>
-    <div id="meta-info" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px"></div>
   </div>
 </div>
 
@@ -819,6 +853,16 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
   </div>
 </div>
 
+
+<!-- DATABASE TAB -->
+<div class="tab" id="tab-database">
+  <div class="loading" id="database-loading">Load a database to view its details.</div>
+  <div id="database-content" style="display:none">
+    <div class="section-title">Database Details</div>
+    <p style="font-size:12px;color:var(--text2);margin-bottom:12px">Schema, build history, data volumes, attribution activity, and the intelligence notes curated during research.</p>
+    <div id="meta-info" class="db-details"></div>
+  </div>
+</div>
 </main>
 
 <!-- IP PROFILE MODAL -->
@@ -852,6 +896,7 @@ async function openDatabase(arrayBuf, name) {
   document.getElementById('load-section').style.display = 'none';
 
   loadOverview();
+  applyHashTab();
 }
 
 // Auto-load web DB when hosted on a web server (GitHub Pages, etc.)
@@ -1023,17 +1068,17 @@ function loadOverview() {
 
   // Counts
   const counts = [
-    { label: 'IPv4 IOCs', table: 'ipv4_iocs', cls: 'info' },
-    { label: 'IPv6 IOCs', table: 'ipv6_iocs', cls: 'purple' },
-    { label: 'Domains', table: 'domains', cls: 'info', fallback: 'web_domain_count' },
-    { label: 'URLs', table: 'urls', cls: 'info', fallback: 'web_url_count' },
-    { label: 'CVEs', table: 'cves', cls: 'info' },
-    { label: 'Emails', table: 'emails', cls: 'info' },
-    { label: 'CIDRs', table: 'cidr_iocs', cls: 'info' },
-    { label: 'Subnets', table: 'subnets', cls: 'info' },
-    { label: 'Scan Results', table: 'scan_results', cls: 'info' },
-    { label: 'Vulnerability Findings', table: 'vulnerability_findings', cls: 'info', fallback: 'web_vuln_count' },
-    { label: 'Enrichment Results', table: 'enrichment_results', cls: 'purple' },
+    { label: 'IPv4 IOCs', table: 'ipv4_iocs', cls: 'info', jump: 'iocs', subtype: 'ipv4_iocs' },
+    { label: 'IPv6 IOCs', table: 'ipv6_iocs', cls: 'purple', jump: 'iocs', subtype: 'ipv6_iocs' },
+    { label: 'Domains', table: 'domains', cls: 'info', fallback: 'web_domain_count', jump: 'iocs', subtype: 'domains' },
+    { label: 'URLs', table: 'urls', cls: 'info', fallback: 'web_url_count', jump: 'iocs', subtype: 'urls' },
+    { label: 'CVEs', table: 'cves', cls: 'info', jump: 'iocs', subtype: 'cves' },
+    { label: 'Emails', table: 'emails', cls: 'info', jump: 'iocs', subtype: 'emails' },
+    { label: 'CIDRs', table: 'cidr_iocs', cls: 'info', jump: 'iocs', subtype: 'cidr_iocs' },
+    { label: 'Subnets', table: 'subnets', cls: 'info', jump: 'recon' },
+    { label: 'Scan Results', table: 'scan_results', cls: 'info', jump: 'scans' },
+    { label: 'Vulnerability Findings', table: 'vulnerability_findings', cls: 'info', fallback: 'web_vuln_count', jump: 'vulnscan' },
+    { label: 'Enrichment Results', table: 'enrichment_results', cls: 'purple', jump: 'validation' },
   ];
 
   let cardsHtml = '';
@@ -1050,7 +1095,8 @@ function loadOverview() {
         val = 0;
       }
     }
-    cardsHtml += `<div class="card ${c.cls}"><div class="label">${c.label}</div><div class="value">${val.toLocaleString()}</div></div>`;
+    const jumpAttrs = c.jump ? ` data-jump="${c.jump}"${c.subtype?` data-subtype="${c.subtype}"`:''} style="cursor:pointer" onclick="goToTab('${c.jump}'${c.subtype?`,'${c.subtype}'`:''})"` : '';
+    cardsHtml += `<div class="card ${c.cls}"${jumpAttrs}><div class="label">${c.label}</div><div class="value">${val.toLocaleString()}</div></div>`;
   });
   document.getElementById('count-cards').innerHTML = cardsHtml;
 
@@ -1061,7 +1107,8 @@ function loadOverview() {
   if (classData.length > 0) {
     const maxVal = Math.max(...classData[0].values.map(r => r[1]));
     classData[0].values.forEach(([cls, cnt]) => {
-      classHtml += `<div class="card ${classColors[cls]||'info'}"><div class="label">${cls||'NULL'}</div><div class="value">${cnt.toLocaleString()}</div></div>`;
+      const jAttr = cls ? ` style="cursor:pointer" onclick="goToTab('scans','',{classFilter:'${cls}'})"` : '';
+      classHtml += `<div class="card ${classColors[cls]||'info'}"${jAttr}><div class="label">${cls||'NULL'}</div><div class="value">${cnt.toLocaleString()}</div></div>`;
     });
 
     // Bar chart
@@ -1194,34 +1241,97 @@ function loadOverview() {
   });
   document.getElementById('blocklist-feeds-list').innerHTML = blHtml;
 
-  // Metadata — clean key/value cards
+  // Metadata — categorized Database Details
   const meta = q("SELECT key, value FROM metadata ORDER BY key");
-  let metaHtml = '';
-  const metaLabels = {
-    'schema_version': 'Schema Version',
-    'last_rebuild': 'Last Rebuild',
-    'web_export': 'Web Export',
-    'web_export_date': 'Export Date',
-    'web_domain_count': 'Domains (full DB)',
-    'web_url_count': 'URLs (full DB)',
-    'web_vuln_count': 'Vuln Findings (full DB)',
-    'scan_result_count': 'Scan Results',
-    'ipv4_count': 'IPv4 IOCs',
-    'cidr_count': 'CIDRs',
-    'cve_count': 'CVEs',
-    'email_count': 'Emails',
+  const metaMap = {};
+  if (meta.length > 0) meta[0].values.forEach(([k, v]) => { metaMap[k] = v; });
+
+  const fmtDate = (v) => {
+    if (!v || v === 'None') return 'n/a';
+    return String(v).replace('T', ' ').substring(0, 19);
   };
-  if (meta.length > 0) {
-    meta[0].values.forEach(([k, v]) => {
-      const label = metaLabels[k] || k.replace(/_/g, ' ');
-      const displayVal = (v === 'true') ? 'Yes' : (v === 'false') ? 'No' : v;
-      metaHtml += `<div style="background:var(--bg3);border-radius:6px;padding:8px 12px">
-        <div style="font-size:10px;color:var(--text2);text-transform:uppercase;letter-spacing:0.5px">${label}</div>
-        <div style="font-size:13px;margin-top:2px;word-break:break-all">${displayVal}</div>
-      </div>`;
-    });
+  const fmtNum = (v) => {
+    if (v == null || v === '') return '—';
+    const n = parseInt(v);
+    return isNaN(n) ? v : n.toLocaleString();
+  };
+  const fmtBool = (v) => (v === 'true' ? '<span class="dd-value ok">yes</span>' : v === 'false' ? '<span class="dd-value">no</span>' : v || '—');
+
+  const row = (label, val, cls) => `<div class="dd-row"><span class="dd-label">${label}</span><span class="dd-value${cls?' '+cls:''}">${val == null || val === '' ? '—' : val}</span></div>`;
+
+  // Group 1: Schema & build
+  let g1 = '<div class="dd-group"><h3>Schema &amp; Build</h3>';
+  g1 += row('Schema version', metaMap['schema_version'] || '—');
+  g1 += row('Database created', fmtDate(metaMap['created_date']));
+  g1 += row('Last rebuild', fmtDate(metaMap['last_rebuild']));
+  g1 += row('Last incremental', fmtDate(metaMap['last_incremental']));
+  g1 += row('Web export', fmtBool(metaMap['web_export']));
+  if (metaMap['web_export_date']) g1 += row('Export date', fmtDate(metaMap['web_export_date']));
+  g1 += '</div>';
+
+  // Group 2: Data volumes
+  let g2 = '<div class="dd-group"><h3>Data Volumes</h3>';
+  g2 += row('IPv4 IOCs', fmtNum(metaMap['ipv4_count']));
+  g2 += row('IPv6 IOCs', fmtNum(metaMap['ipv6_count']));
+  g2 += row('CIDRs', fmtNum(metaMap['cidr_count']));
+  g2 += row('Domains', fmtNum(metaMap['domain_count'] || metaMap['web_domain_count']));
+  g2 += row('URLs', fmtNum(metaMap['url_count'] || metaMap['web_url_count']));
+  g2 += row('CVEs', fmtNum(metaMap['cve_count']));
+  g2 += row('Emails', fmtNum(metaMap['email_count']));
+  g2 += row('Scan results', fmtNum(metaMap['scan_result_count']));
+  g2 += row('Vuln findings', fmtNum(metaMap['vulnerability_finding_count'] || metaMap['web_vuln_count']));
+  g2 += row('Vuln hosts', fmtNum(metaMap['vulnerability_host_count'] || metaMap['web_vuln_hosts']));
+  g2 += '</div>';
+
+  // Group 3: Attribution & Research
+  let g3 = '<div class="dd-group"><h3>Attribution &amp; Research</h3>';
+  g3 += row('Campaigns tracked', fmtNum(metaMap['campaign_count']));
+  g3 += row('Attribution sources', fmtNum(metaMap['attribution_source_count']));
+  g3 += row('IP correlations', fmtNum(metaMap['correlation_count']));
+  g3 += row('Last attribution run', fmtDate(metaMap['last_attribution_research']));
+  g3 += row('Attribution update', fmtDate(metaMap['attribution_update']));
+  if (metaMap['intel_update_last']) {
+    // intel_update_last is a prose summary — show only first 80 chars here; full text in notes section
+    const short = String(metaMap['intel_update_last']).substring(0, 80);
+    g3 += row('Last intel update', short + (metaMap['intel_update_last'].length > 80 ? '…' : ''));
   }
-  document.getElementById('meta-info').innerHTML = metaHtml;
+  g3 += '</div>';
+
+  // Group 4: Intel notes (collapsible — full-width)
+  const intelKeys = Object.keys(metaMap).filter(k => k.startsWith('intel_note_') || k === 'merge_duplicate_campaigns' || k === 'intel_update_last');
+  let g4 = '';
+  if (intelKeys.length) {
+    g4 = '<div class="dd-group full-row"><h3>Intelligence Notes (' + intelKeys.length + ')</h3>';
+    g4 += '<details><summary>Expand notes</summary>';
+    intelKeys.sort().forEach(k => {
+      const title = k.replace(/^intel_note_/, '').replace(/_/g, ' ');
+      g4 += `<div class="dd-note"><div class="dd-note-title">${title}</div>${metaMap[k]}</div>`;
+    });
+    g4 += '</details></div>';
+  }
+
+  // Group 5: Raw artifacts (blacksanta_*, etc — collapsible)
+  const rawKeys = Object.keys(metaMap).filter(k => k.startsWith('blacksanta_'));
+  let g5 = '';
+  if (rawKeys.length) {
+    g5 = '<div class="dd-group full-row"><h3>Raw Artifacts (' + rawKeys.length + ')</h3>';
+    g5 += '<details><summary>Expand raw metadata</summary>';
+    rawKeys.sort().forEach(k => {
+      let v = metaMap[k];
+      // Pretty-print JSON if it parses
+      try { v = JSON.stringify(JSON.parse(v), null, 2); } catch(e) {}
+      g5 += `<div class="dd-note"><div class="dd-note-title">${k.replace(/_/g, ' ')}</div><div class="dd-json">${v}</div></div>`;
+    });
+    g5 += '</details></div>';
+  }
+
+  document.getElementById('meta-info').innerHTML = g1 + g2 + g3 + g4 + g5;
+
+  // Flip the Database tab placeholder now that meta-info is populated
+  const dbLoading = document.getElementById('database-loading');
+  const dbContent = document.getElementById('database-content');
+  if (dbLoading) dbLoading.style.display = 'none';
+  if (dbContent) dbContent.style.display = 'block';
 }
 
 // =============================================================
@@ -1477,6 +1587,36 @@ function closeModal() {
   document.getElementById('modal-overlay').style.display = 'none';
   document.getElementById('modal').style.display = 'none';
 }
+
+// =============================================================
+// TAB NAVIGATION HELPERS (Phase 3 polish)
+// =============================================================
+function goToTab(tabName, subtype, opts) {
+  opts = opts || {};
+  const btn = document.querySelector('nav button[data-tab="' + tabName + '"]');
+  if (!btn) return;
+  btn.click();
+  // Pre-select IOC type / filter when jumping from Overview
+  if (subtype && tabName === 'iocs') {
+    const sel = document.getElementById('ioc-type');
+    if (sel) { sel.value = subtype; if (typeof queryIOCs === 'function') queryIOCs(); }
+  }
+  if (opts.classFilter && tabName === 'scans') {
+    const sel = document.getElementById('scan-class-filter');
+    if (sel) { sel.value = opts.classFilter; if (typeof queryScanResults === 'function') queryScanResults(); }
+  }
+  // Update URL hash for shareable links (without reload)
+  try { history.replaceState(null, '', '#' + tabName); } catch(e) {}
+}
+
+// Auto-navigate based on URL hash (e.g. index.html#iocs from feeds.html)
+function applyHashTab() {
+  const h = (location.hash || '').replace('#','');
+  if (!h) return;
+  const btn = document.querySelector('nav button[data-tab="' + h + '"]');
+  if (btn) btn.click();
+}
+window.addEventListener('hashchange', applyHashTab);
 
 // =============================================================
 // DRILL-DOWN PROFILES (Phase 3.5)
