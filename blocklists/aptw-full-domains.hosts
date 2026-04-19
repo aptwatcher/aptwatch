@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-19 06:30:27
-# Entries: 477225
+# Generated: 2026-04-19 12:30:33
+# Entries: 477224
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -147767,7 +147767,6 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
-0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -176573,7 +176572,6 @@
 0.0.0.0 delices.com.ve
 0.0.0.0 delicesegypte291021.be
 0.0.0.0 deliceservices.com
-0.0.0.0 deliciassobencomenda.com.br
 0.0.0.0 delicious-bubble-piccolo.glitch.me
 0.0.0.0 delicious-decorous-army.glitch.me
 0.0.0.0 delicious-screen-802912.framer.app
@@ -199566,6 +199564,7 @@
 0.0.0.0 etincellejewelers.com
 0.0.0.0 etinkr.org
 0.0.0.0 etinsendmail.com
+0.0.0.0 etinsendmail.net
 0.0.0.0 etiofxlzcf.duckdns.org
 0.0.0.0 etiquetou.com.br
 0.0.0.0 etiquette1boncoin.000webhostapp.com
@@ -212633,6 +212632,7 @@
 0.0.0.0 fd-trd.lerkis.top
 0.0.0.0 fd.4dq.com
 0.0.0.0 fd.bteslaxilon.xyz
+0.0.0.0 fd.v2downf.shop
 0.0.0.0 fd033d90.qepfmq.shop
 0.0.0.0 fd0aa47c.n61gft.shop
 0.0.0.0 fd0ddc9e.qepfmq.shop
@@ -251085,7 +251085,6 @@
 0.0.0.0 hobicmain.web.app
 0.0.0.0 hobnw-hiaaa-aaaam-abaga-cai.raw.ic0.app
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
-0.0.0.0 hobobot.net
 0.0.0.0 hobohandbag.click
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hocallost.com
@@ -354376,6 +354375,7 @@
 0.0.0.0 obligoria-fr.fyi
 0.0.0.0 oblimgrentfal.top
 0.0.0.0 oblintravekk.top
+0.0.0.0 oblionts.com
 0.0.0.0 oblioucvfsdadbcfsqf-dot-auth-online-sevice.ey.r.appspot.com
 0.0.0.0 obliterative-types.000webhostapp.com
 0.0.0.0 obliviontomemory.com
@@ -442721,7 +442721,6 @@
 0.0.0.0 wearelovelive.com
 0.0.0.0 wearepow.com
 0.0.0.0 wearethatdessertshop.com
-0.0.0.0 wearjora.com
 0.0.0.0 weartexhibitions.com
 0.0.0.0 weather.fixitpro.ro
 0.0.0.0 weatherapi.co
