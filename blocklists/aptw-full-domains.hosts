@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-18 18:30:54
+# Generated: 2026-04-19 00:31:14
 # Entries: 477228
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -40286,7 +40286,6 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
-0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -105663,7 +105662,6 @@
 0.0.0.0 autoconfig.68-183-214-136.cprapid.com
 0.0.0.0 autoconfig.angelwire.net
 0.0.0.0 autoconfig.art.sspl.com.au
-0.0.0.0 autoconfig.atlcpatax.com
 0.0.0.0 autoconfig.byinbox.mom
 0.0.0.0 autoconfig.facbook.info
 0.0.0.0 autoconfig.news.standardseoservices.com
@@ -105720,7 +105718,6 @@
 0.0.0.0 autodiscover.api.sspl.com.au
 0.0.0.0 autodiscover.araplnpc.org
 0.0.0.0 autodiscover.aspect.com
-0.0.0.0 autodiscover.atlcpatax.com
 0.0.0.0 autodiscover.blessingair.com.au
 0.0.0.0 autodiscover.brainsource.co.uk
 0.0.0.0 autodiscover.breg.com
@@ -146260,6 +146257,7 @@
 0.0.0.0 careers-om.com
 0.0.0.0 careers.112.2o7.net
 0.0.0.0 careers.bravusmentores.com
+0.0.0.0 careersconnect.work
 0.0.0.0 careersincorrectquickie.com
 0.0.0.0 careersintelecom.com
 0.0.0.0 careersinthemaking.com
@@ -147768,6 +147766,7 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
+0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -176574,6 +176573,7 @@
 0.0.0.0 delices.com.ve
 0.0.0.0 delicesegypte291021.be
 0.0.0.0 deliceservices.com
+0.0.0.0 deliciassobencomenda.com.br
 0.0.0.0 delicious-bubble-piccolo.glitch.me
 0.0.0.0 delicious-decorous-army.glitch.me
 0.0.0.0 delicious-screen-802912.framer.app
@@ -195652,6 +195652,7 @@
 0.0.0.0 emotionduvin.be
 0.0.0.0 emotionjohn.com
 0.0.0.0 emotionoftime.com
+0.0.0.0 emoto.mk
 0.0.0.0 emotrash.net
 0.0.0.0 emp-game.com
 0.0.0.0 empackaged.sa.com
@@ -213466,6 +213467,7 @@
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaidqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaittdqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femidignity.org
+0.0.0.0 femilamom.net
 0.0.0.0 feminplus.pl
 0.0.0.0 femlybowstkhoewy-dot-millinium.ey.r.appspot.com
 0.0.0.0 femmaterparaguay.x10.mx
@@ -216836,7 +216838,6 @@
 0.0.0.0 fitfloppl.com
 0.0.0.0 fitfloppolskaoutlet.com
 0.0.0.0 fitflopspolskaoutlet.com
-0.0.0.0 fitforevercavan.ie
 0.0.0.0 fitful-manners.000webhostapp.com
 0.0.0.0 fitg.net
 0.0.0.0 fitges.oewabox.at
@@ -309075,7 +309076,6 @@
 0.0.0.0 mail.asupportfeedbackll.com
 0.0.0.0 mail.aterusaja.akuanakmamah.de
 0.0.0.0 mail.atlasunited.cu.ma
-0.0.0.0 mail.atlcpatax.com
 0.0.0.0 mail.atselcctv.com
 0.0.0.0 mail.atyausi-miae.sidegabe.cfd
 0.0.0.0 mail.au-paywallet.com
@@ -328188,7 +328188,6 @@
 0.0.0.0 microsabio.com
 0.0.0.0 microscofield.info
 0.0.0.0 microservicenet.com.br
-0.0.0.0 microservisetrue.vip
 0.0.0.0 microsfotoffice86572.jogengineerin.workers.dev
 0.0.0.0 microsfservices1.tonohost.com
 0.0.0.0 microsft-4zw.pages.dev
@@ -357119,6 +357118,7 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 oknyhsxwr.info
 0.0.0.0 okogm.com
@@ -357976,6 +357976,7 @@
 0.0.0.0 omavouphonsers.com
 0.0.0.0 omawood.com
 0.0.0.0 omax.admarvel.com
+0.0.0.0 omax.com.pk
 0.0.0.0 omay.pl
 0.0.0.0 omazeuceeazczprod.112.2o7.net
 0.0.0.0 omazon-jp.ineuxa.shop
@@ -399209,7 +399210,6 @@
 0.0.0.0 rapideoptimise.fr
 0.0.0.0 rapidertcrefunds.site
 0.0.0.0 rapidfirechills.com
-0.0.0.0 rapidinc.lol
 0.0.0.0 rapidjobs.org
 0.0.0.0 rapidmoney.info
 0.0.0.0 rapido-fintoris-app.com
@@ -433956,6 +433956,7 @@
 0.0.0.0 trans.hiido.com
 0.0.0.0 transaction-pending-bdo-online.pages.dev
 0.0.0.0 transagainoz.com
+0.0.0.0 transalpinafan.ro
 0.0.0.0 transazirendezza-it.fyi
 0.0.0.0 transbond.yoginikaliji.com
 0.0.0.0 transcamglobalexpress.com
@@ -435753,7 +435754,6 @@
 0.0.0.0 tw.answers.quantarchive.com
 0.0.0.0 tw.as.y.atwola.com
 0.0.0.0 tw.c.appier.net
-0.0.0.0 tw1f5ruc.ebensen-timent.digital
 0.0.0.0 tw2.adserver.yahoo.com
 0.0.0.0 twardazyskovin-pl.fyi
 0.0.0.0 twardazyskovin.com
@@ -444584,7 +444584,6 @@
 0.0.0.0 whtassapp-ss.com
 0.0.0.0 whtasspyok3q.icu
 0.0.0.0 whtasspyok89q.icu
-0.0.0.0 whtempdomain.com
 0.0.0.0 whtsapa.xin
 0.0.0.0 whum-meta-glon-biz.pages.dev
 0.0.0.0 whxxb.com
@@ -475204,6 +475203,7 @@
 0.0.0.0 xrmytc.com
 0.0.0.0 xrp-prize.netlify.app
 0.0.0.0 xrp2025.net
+0.0.0.0 xrplnode.dev
 0.0.0.0 xrratd.cn
 0.0.0.0 xrrl-casefb685611.vercel.app
 0.0.0.0 xscdfvr4e3.blogspot.com
