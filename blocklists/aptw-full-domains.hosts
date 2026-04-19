@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-19 00:31:14
-# Entries: 477228
+# Generated: 2026-04-19 06:30:27
+# Entries: 477225
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -40286,6 +40286,7 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
+0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -153937,7 +153938,6 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
-0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -195652,7 +195652,6 @@
 0.0.0.0 emotionduvin.be
 0.0.0.0 emotionjohn.com
 0.0.0.0 emotionoftime.com
-0.0.0.0 emoto.mk
 0.0.0.0 emotrash.net
 0.0.0.0 emp-game.com
 0.0.0.0 empackaged.sa.com
@@ -199567,7 +199566,6 @@
 0.0.0.0 etincellejewelers.com
 0.0.0.0 etinkr.org
 0.0.0.0 etinsendmail.com
-0.0.0.0 etinsendmail.net
 0.0.0.0 etiofxlzcf.duckdns.org
 0.0.0.0 etiquetou.com.br
 0.0.0.0 etiquette1boncoin.000webhostapp.com
@@ -273762,6 +273760,7 @@
 0.0.0.0 jeloneck5-wixsite-com.filesusr.com
 0.0.0.0 jelpbhabbygoraaehosikrzngb-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 jem-mialwe.com
+0.0.0.0 jem-mialwe.net
 0.0.0.0 jemanilognes.webflow.io
 0.0.0.0 jembisporr.flywheelsites.com
 0.0.0.0 jembretcar-1316850103.cos.ap-bangkok.myqcloud.com
@@ -333486,7 +333485,6 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
-0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -433956,7 +433954,6 @@
 0.0.0.0 trans.hiido.com
 0.0.0.0 transaction-pending-bdo-online.pages.dev
 0.0.0.0 transagainoz.com
-0.0.0.0 transalpinafan.ro
 0.0.0.0 transazirendezza-it.fyi
 0.0.0.0 transbond.yoginikaliji.com
 0.0.0.0 transcamglobalexpress.com
@@ -439633,7 +439630,6 @@
 0.0.0.0 vcbnmx.com
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
-0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
@@ -442725,6 +442721,7 @@
 0.0.0.0 wearelovelive.com
 0.0.0.0 wearepow.com
 0.0.0.0 wearethatdessertshop.com
+0.0.0.0 wearjora.com
 0.0.0.0 weartexhibitions.com
 0.0.0.0 weather.fixitpro.ro
 0.0.0.0 weatherapi.co
