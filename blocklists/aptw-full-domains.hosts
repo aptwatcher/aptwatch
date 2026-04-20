@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-20 06:31:18
-# Entries: 477180
+# Generated: 2026-04-20 12:31:16
+# Entries: 477181
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -40285,6 +40285,7 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
+0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -146243,7 +146244,6 @@
 0.0.0.0 careers-om.com
 0.0.0.0 careers.112.2o7.net
 0.0.0.0 careers.bravusmentores.com
-0.0.0.0 careersconnect.work
 0.0.0.0 careersincorrectquickie.com
 0.0.0.0 careersintelecom.com
 0.0.0.0 careersinthemaking.com
@@ -147752,6 +147752,7 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
+0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -165348,6 +165349,7 @@
 0.0.0.0 controlblasting.co.za
 0.0.0.0 controlcola.com
 0.0.0.0 controlengineering.in
+0.0.0.0 controlhomecr.com
 0.0.0.0 controliumbt.com
 0.0.0.0 controllaportale-manualmente.com
 0.0.0.0 controller.4seeresults.com
@@ -166195,6 +166197,7 @@
 0.0.0.0 corvessantcapital.com
 0.0.0.0 corvilla.id
 0.0.0.0 corvosathletic.com
+0.0.0.0 corwineagles.com
 0.0.0.0 cory.lura.larealtypertners.com
 0.0.0.0 cory78jo887g-3.funnelflex.io
 0.0.0.0 coryjames.com
@@ -173652,6 +173655,7 @@
 0.0.0.0 darkorange-buffalo-444584.hostingersite.com
 0.0.0.0 darkorangesickquery.aaseasaa.repl.co
 0.0.0.0 darkorchidjuvenilesort--ricardoillrea.repl.co
+0.0.0.0 darkosbarbershop.cl
 0.0.0.0 darkphoenix-75.github.io
 0.0.0.0 darkpilgria.ml
 0.0.0.0 darksalmonstunningkeyboardmacro.elmazoprieto.repl.co
@@ -183613,7 +183617,6 @@
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
-0.0.0.0 dl.armour-inc-down.net
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
@@ -199545,7 +199548,6 @@
 0.0.0.0 etincellejewelers.com
 0.0.0.0 etinkr.org
 0.0.0.0 etinsendmail.com
-0.0.0.0 etinsendmail.net
 0.0.0.0 etiofxlzcf.duckdns.org
 0.0.0.0 etiquetou.com.br
 0.0.0.0 etiquette1boncoin.000webhostapp.com
@@ -219619,6 +219621,7 @@
 0.0.0.0 forref.com
 0.0.0.0 forrestgamache.info
 0.0.0.0 forrodokomeketo.agenciainnova.com.br
+0.0.0.0 forsalenear.me
 0.0.0.0 forsan.nusratelsunnah.com
 0.0.0.0 forscript.midaschange.my.id
 0.0.0.0 forsdesign.net
@@ -235167,6 +235170,7 @@
 0.0.0.0 greenenergyfactsheetse.info
 0.0.0.0 greeneryinfinite.in
 0.0.0.0 greenestsaremco.jp
+0.0.0.0 greenf.alexion.rs
 0.0.0.0 greenfeldrr.cyou
 0.0.0.0 greenfieldc.vercel.app
 0.0.0.0 greenfieldsmanpower.com
@@ -273735,7 +273739,6 @@
 0.0.0.0 jeloneck5-wixsite-com.filesusr.com
 0.0.0.0 jelpbhabbygoraaehosikrzngb-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 jem-mialwe.com
-0.0.0.0 jem-mialwe.net
 0.0.0.0 jemanilognes.webflow.io
 0.0.0.0 jembisporr.flywheelsites.com
 0.0.0.0 jembretcar-1316850103.cos.ap-bangkok.myqcloud.com
@@ -352082,7 +352085,6 @@
 0.0.0.0 nrlynudjwxpftolh-dot-glexcel1.ue.r.appspot.com
 0.0.0.0 nrmcnhdbjyzojwwr-dot-millinium.ey.r.appspot.com
 0.0.0.0 nrmhb.blogspot.am
-0.0.0.0 nrmlogistics.ro
 0.0.0.0 nrmvyhuz.cyou
 0.0.0.0 nrncf.blogspot.sn
 0.0.0.0 nrndsdbtkpwmklic-dot-millinium.ey.r.appspot.com
@@ -430541,6 +430543,7 @@
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techtalk.site
+0.0.0.0 techtattva.in
 0.0.0.0 techtrendsexplorerjh.info
 0.0.0.0 techtrendshubmd.pro
 0.0.0.0 techvancekariyer.com
@@ -439587,7 +439590,6 @@
 0.0.0.0 vcbnmx.com
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
-0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
@@ -443596,7 +443598,6 @@
 0.0.0.0 westjet.112.2o7.net
 0.0.0.0 westmarkfinance.com
 0.0.0.0 weston2255.github.io
-0.0.0.0 westpacone-homesc.info
 0.0.0.0 westpacone-homesg.info
 0.0.0.0 westpacrecovery.com
 0.0.0.0 westruneon.com
