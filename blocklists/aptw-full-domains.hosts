@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-20 00:30:54
-# Entries: 477183
+# Generated: 2026-04-20 06:31:18
+# Entries: 477180
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -102080,7 +102080,6 @@
 0.0.0.0 aurora.arenvatica.ru
 0.0.0.0 aurora.com.gt
 0.0.0.0 aurora.protondns.net
-0.0.0.0 aurorabolnica.co.rs
 0.0.0.0 aurorabuildings.com
 0.0.0.0 aurorabusinessunited.org
 0.0.0.0 aurorabyglenwood.com
@@ -121296,7 +121295,6 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
-0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -146152,7 +146150,6 @@
 0.0.0.0 carbonite.tt.omtrdc.net
 0.0.0.0 carboosta.vercel.app
 0.0.0.0 carcadejp.com
-0.0.0.0 carcaran.com
 0.0.0.0 carcaves.com.au
 0.0.0.0 card-au.info
 0.0.0.0 card-ebay-bussiness.gitlab.io
@@ -159444,7 +159441,6 @@
 0.0.0.0 codeads.com
 0.0.0.0 codeakio.github.io
 0.0.0.0 codeandwork.pl
-0.0.0.0 codeassociates.co.ke
 0.0.0.0 codebiogblog.com
 0.0.0.0 codebox.jabont.com
 0.0.0.0 codebrainf.vercel.app
@@ -269793,6 +269789,7 @@
 0.0.0.0 isolationmili.xyz
 0.0.0.0 isomerwaq.com
 0.0.0.0 isomerx.github.io
+0.0.0.0 isometricsindia.co.in
 0.0.0.0 isonic-int.com
 0.0.0.0 isonicinc.com
 0.0.0.0 isonzz.com
@@ -299255,7 +299252,6 @@
 0.0.0.0 lmkrto.site
 0.0.0.0 lmkw.azurewebsites.net
 0.0.0.0 lmkxnmjhpsxvqijr-dot-millinium.ey.r.appspot.com
-0.0.0.0 lmlawcorp.com
 0.0.0.0 lmlcas.com
 0.0.0.0 lmlenzitrasporti.com
 0.0.0.0 lmlragfqqjmmjxaf-dot-millinium.ey.r.appspot.com
@@ -333459,6 +333455,7 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
+0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -340080,7 +340077,6 @@
 0.0.0.0 mykindkitchen.com
 0.0.0.0 mykinfotech.com
 0.0.0.0 mykitchenhacks.com
-0.0.0.0 mykitchenindonesia.com
 0.0.0.0 myklientarec.net
 0.0.0.0 myklinik.co.id
 0.0.0.0 mykonos.cl
@@ -439591,6 +439587,7 @@
 0.0.0.0 vcbnmx.com
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
+0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
