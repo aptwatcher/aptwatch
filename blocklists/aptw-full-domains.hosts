@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-20 12:31:16
-# Entries: 477181
+# Generated: 2026-04-20 18:30:25
+# Entries: 477173
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -74134,7 +74134,6 @@
 0.0.0.0 anzpts.click
 0.0.0.0 anzref.com
 0.0.0.0 anzresolve-team.com
-0.0.0.0 anzrewardse-homes.info
 0.0.0.0 anzsbczx.000webhostapp.com
 0.0.0.0 anzsecure-log.com
 0.0.0.0 anzsecure-support.com
@@ -124165,7 +124164,6 @@
 0.0.0.0 bendigo-cancel-action.com
 0.0.0.0 bendigo-digo.com
 0.0.0.0 bendigo-help.web.app
-0.0.0.0 bendigo-homesa.info
 0.0.0.0 bendigo-id-a8ea9.com
 0.0.0.0 bendigo-logau.com
 0.0.0.0 bendigo-mobile.com
@@ -124457,6 +124455,7 @@
 0.0.0.0 benzool0009.web.app
 0.0.0.0 benzophen.com
 0.0.0.0 benztechsolutions.com
+0.0.0.0 beoauto.alexion.rs
 0.0.0.0 beobnk.net
 0.0.0.0 beogradmachine.com
 0.0.0.0 beogradvode.co.rs
@@ -147752,7 +147751,6 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
-0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -153923,6 +153921,7 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
+0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -165349,7 +165348,6 @@
 0.0.0.0 controlblasting.co.za
 0.0.0.0 controlcola.com
 0.0.0.0 controlengineering.in
-0.0.0.0 controlhomecr.com
 0.0.0.0 controliumbt.com
 0.0.0.0 controllaportale-manualmente.com
 0.0.0.0 controller.4seeresults.com
@@ -166197,7 +166195,6 @@
 0.0.0.0 corvessantcapital.com
 0.0.0.0 corvilla.id
 0.0.0.0 corvosathletic.com
-0.0.0.0 corwineagles.com
 0.0.0.0 cory.lura.larealtypertners.com
 0.0.0.0 cory78jo887g-3.funnelflex.io
 0.0.0.0 coryjames.com
@@ -173655,7 +173652,6 @@
 0.0.0.0 darkorange-buffalo-444584.hostingersite.com
 0.0.0.0 darkorangesickquery.aaseasaa.repl.co
 0.0.0.0 darkorchidjuvenilesort--ricardoillrea.repl.co
-0.0.0.0 darkosbarbershop.cl
 0.0.0.0 darkphoenix-75.github.io
 0.0.0.0 darkpilgria.ml
 0.0.0.0 darksalmonstunningkeyboardmacro.elmazoprieto.repl.co
@@ -197009,6 +197005,7 @@
 0.0.0.0 enshrined-loud-blanket.glitch.me
 0.0.0.0 ensighten.com
 0.0.0.0 ensinger964.site
+0.0.0.0 ensions.xyz
 0.0.0.0 ensolvph.com
 0.0.0.0 ensonkimbakti.byethost7.com
 0.0.0.0 ensoxqgvjtepwgis-dot-millinium.ey.r.appspot.com
@@ -199548,6 +199545,7 @@
 0.0.0.0 etincellejewelers.com
 0.0.0.0 etinkr.org
 0.0.0.0 etinsendmail.com
+0.0.0.0 etinsendmail.net
 0.0.0.0 etiofxlzcf.duckdns.org
 0.0.0.0 etiquetou.com.br
 0.0.0.0 etiquette1boncoin.000webhostapp.com
@@ -219621,7 +219619,6 @@
 0.0.0.0 forref.com
 0.0.0.0 forrestgamache.info
 0.0.0.0 forrodokomeketo.agenciainnova.com.br
-0.0.0.0 forsalenear.me
 0.0.0.0 forsan.nusratelsunnah.com
 0.0.0.0 forscript.midaschange.my.id
 0.0.0.0 forsdesign.net
@@ -228868,6 +228865,7 @@
 0.0.0.0 getairondrone.com
 0.0.0.0 getairsupply.com
 0.0.0.0 getall35938code.blogspot.com
+0.0.0.0 getamarin.ro
 0.0.0.0 getandclaim.cf
 0.0.0.0 getappforweb.info
 0.0.0.0 getapple-support.co
@@ -234929,6 +234927,7 @@
 0.0.0.0 graveripos.rest
 0.0.0.0 gravest-defect.000webhostapp.com
 0.0.0.0 gravetide.site
+0.0.0.0 graviana.com
 0.0.0.0 gravimetric-remedy.000webhostapp.com
 0.0.0.0 gravitas-local-manage-031572684-xi.vercel.app
 0.0.0.0 gravitative-diaries.000webhostapp.com
@@ -254160,7 +254159,6 @@
 0.0.0.0 hsbconlinesupport.servehttp.com
 0.0.0.0 hsbcorsoemployer.wrkr.hk
 0.0.0.0 hsbcpl.com
-0.0.0.0 hsbcrewards-homesa.info
 0.0.0.0 hsbcsecurity.session1143740.info
 0.0.0.0 hsbcuat.morningstar.co.kr
 0.0.0.0 hsbcuk.deregister-newpayment.com
@@ -298916,7 +298914,6 @@
 0.0.0.0 lloydsauthenticationsupport.com
 0.0.0.0 lloydsauthorise-newpayee.com
 0.0.0.0 lloydsbank-accessremoval.com
-0.0.0.0 lloydsbank-homesa.info
 0.0.0.0 lloydsbank-login.lb-secure.com
 0.0.0.0 lloydsbank-online-login.lb-secure.com
 0.0.0.0 lloydsbank-onlinesecure.excepay1.com
@@ -333458,7 +333455,6 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
-0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -394367,8 +394363,6 @@
 0.0.0.0 qanfin.com
 0.0.0.0 qantas.flyer-au.online
 0.0.0.0 qantasairline.au
-0.0.0.0 qantasrewardsa-homes.info
-0.0.0.0 qantasrewardsb-homes.info
 0.0.0.0 qantumnetwork.com.au
 0.0.0.0 qanwvyqcwb.duckdns.org
 0.0.0.0 qao-fabd1e.ingress-erytho.ewp.live
@@ -427589,8 +427583,6 @@
 0.0.0.0 suncoast-onboard.surge.sh
 0.0.0.0 suncoast.speedtest.us.org
 0.0.0.0 suncom.112.2o7.net
-0.0.0.0 suncorp-homesa.info
-0.0.0.0 suncorp-homesb.info
 0.0.0.0 suncoust.click
 0.0.0.0 sundaram26.github.io
 0.0.0.0 sundaysky-partners.tremorhub.com
@@ -430543,7 +430535,6 @@
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techtalk.site
-0.0.0.0 techtattva.in
 0.0.0.0 techtrendsexplorerjh.info
 0.0.0.0 techtrendshubmd.pro
 0.0.0.0 techvancekariyer.com
@@ -439338,6 +439329,7 @@
 0.0.0.0 valestrae-vault.pages.dev
 0.0.0.0 valetta.pl
 0.0.0.0 valexorantopro-it.fyi
+0.0.0.0 valfanto.com
 0.0.0.0 valfortunance.net
 0.0.0.0 valiaetich.rest
 0.0.0.0 valiant-core-1l4.pages.dev
@@ -443598,7 +443590,6 @@
 0.0.0.0 westjet.112.2o7.net
 0.0.0.0 westmarkfinance.com
 0.0.0.0 weston2255.github.io
-0.0.0.0 westpacone-homesg.info
 0.0.0.0 westpacrecovery.com
 0.0.0.0 westruneon.com
 0.0.0.0 westsummer.mom
@@ -460648,6 +460639,7 @@
 0.0.0.0 www.maxiparfum.pl
 0.0.0.0 www.maxitrade.com
 0.0.0.0 www.maxonclick.com
+0.0.0.0 www.maxpower01.com
 0.0.0.0 www.maxregistrycleaner.com
 0.0.0.0 www.maxregistrycleaner.net
 0.0.0.0 www.maxteerapat.shop
