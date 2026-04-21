@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-21 15:19:43
-# Entries: 477188
+# Generated: 2026-04-21 18:31:15
+# Entries: 477180
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -40284,7 +40284,6 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
-0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -147610,7 +147609,6 @@
 0.0.0.0 castrolprofessionalacademy.pl
 0.0.0.0 castromonitoramento.com.br
 0.0.0.0 castromunicipio.cl
-0.0.0.0 castroycontadores.com
 0.0.0.0 castuning.com
 0.0.0.0 casu-mpas.web.app
 0.0.0.0 casualdating.com
@@ -153923,7 +153921,6 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
-0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -157424,7 +157421,6 @@
 0.0.0.0 cloudmy-ids.com
 0.0.0.0 cloudnetfiji.com
 0.0.0.0 cloudneturup.pro
-0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudofflceadmln.epizy.com
@@ -198441,6 +198437,7 @@
 0.0.0.0 erz-wswhatsapp.cc
 0.0.0.0 erzincansydv.gov.tr
 0.0.0.0 erzrdeqcsawnyilo-dot-millinium.ey.r.appspot.com
+0.0.0.0 erzurumyoresel.com
 0.0.0.0 erzw.xyz
 0.0.0.0 es--start-treezor.webflow.io
 0.0.0.0 es-acceso-bancosantander.com
@@ -219623,7 +219620,6 @@
 0.0.0.0 forref.com
 0.0.0.0 forrestgamache.info
 0.0.0.0 forrodokomeketo.agenciainnova.com.br
-0.0.0.0 forsalenear.me
 0.0.0.0 forsan.nusratelsunnah.com
 0.0.0.0 forscript.midaschange.my.id
 0.0.0.0 forsdesign.net
@@ -284647,7 +284643,6 @@
 0.0.0.0 kingstonbathfitting.com
 0.0.0.0 kingstonresidency.com
 0.0.0.0 kingstonthepug.com
-0.0.0.0 kingstreetdental.com.au
 0.0.0.0 kingsvalleycharterschool.org
 0.0.0.0 kingsway.cm
 0.0.0.0 kingsway.com.ph
@@ -329618,7 +329613,6 @@
 0.0.0.0 ministerioelbetel.com
 0.0.0.0 ministeriomenorah.com.br
 0.0.0.0 ministrant-zemsta.click
-0.0.0.0 ministrew.info
 0.0.0.0 minitjain.github.io
 0.0.0.0 minitricon.rest
 0.0.0.0 miniurl.se
@@ -339032,7 +339026,6 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
-0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -357088,7 +357081,6 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
-0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 oknyhsxwr.info
 0.0.0.0 okogm.com
@@ -357946,6 +357938,7 @@
 0.0.0.0 omavouphonsers.com
 0.0.0.0 omawood.com
 0.0.0.0 omax.admarvel.com
+0.0.0.0 omax.com.pk
 0.0.0.0 omay.pl
 0.0.0.0 omazeuceeazczprod.112.2o7.net
 0.0.0.0 omazon-jp.ineuxa.shop
@@ -439594,7 +439587,6 @@
 0.0.0.0 vcbnmx.com
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
-0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
@@ -442685,7 +442677,6 @@
 0.0.0.0 wearelovelive.com
 0.0.0.0 wearepow.com
 0.0.0.0 wearethatdessertshop.com
-0.0.0.0 wearjora.com
 0.0.0.0 weartexhibitions.com
 0.0.0.0 weather.fixitpro.ro
 0.0.0.0 weatherapi.co
@@ -460825,6 +460816,7 @@
 0.0.0.0 www.metron-arc.com
 0.0.0.0 www.metspa.cam
 0.0.0.0 www.metybai.pro
+0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mevsall.com
 0.0.0.0 www.mezczyzna-trendy.pl
 0.0.0.0 www.mftracking.com
