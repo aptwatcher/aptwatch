@@ -166,6 +166,9 @@ CREATE INDEX IF NOT EXISTS idx_asn_provider ON asn_info(provider_type);
 CREATE TABLE IF NOT EXISTS scan_results (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     ip TEXT NOT NULL,
+    -- scan_id is "nullable at column level" for legacy compatibility,
+    -- but a BEFORE INSERT trigger (see bottom of this file) aborts any
+    -- INSERT with NULL/empty scan_id. Introduced 2026-04-20 Step 1.
     scan_id TEXT,
     scan_date TEXT,
     source_file TEXT,
@@ -188,6 +191,30 @@ CREATE INDEX IF NOT EXISTS idx_scan_ip ON scan_results(ip);
 CREATE INDEX IF NOT EXISTS idx_scan_classification ON scan_results(classification);
 CREATE INDEX IF NOT EXISTS idx_scan_date ON scan_results(scan_date);
 CREATE INDEX IF NOT EXISTS idx_scan_source ON scan_results(source_file);
+
+-- Step 1 (2026-04-20): auto-fill NULL/empty scan_id at the DB level.
+-- Originally this trigger ABORTed NULL scan_id inserts, but we revised
+-- it the same day to auto-fill instead, so ad-hoc imports without a
+-- scan_id don't get rejected. The synthetic id embeds NEW.id (the
+-- AUTOINCREMENT rowid) to keep (ip, scan_id) globally unique — see
+-- Step 1.5 UNIQUE index below.
+DROP TRIGGER IF EXISTS tr_scan_results_require_scan_id;
+DROP TRIGGER IF EXISTS tr_scan_results_autofill_scan_id;
+CREATE TRIGGER tr_scan_results_autofill_scan_id
+    AFTER INSERT ON scan_results
+    FOR EACH ROW
+    WHEN NEW.scan_id IS NULL OR NEW.scan_id = ''
+BEGIN
+    UPDATE scan_results
+       SET scan_id = 'unscoped-' || NEW.id || '-' || strftime('%Y%m%d', 'now')
+     WHERE id = NEW.id;
+END;
+
+-- Step 1.5 (2026-04-20): DB-level dedupe key for scan_results.
+-- Mirrors the (ip, scan_id) UPSERT key used by scripts/import_data.py
+-- so accidental duplicate inserts from ad-hoc scripts are rejected.
+CREATE UNIQUE INDEX IF NOT EXISTS ux_scan_results_ip_scan
+    ON scan_results (ip, scan_id);
 
 CREATE TABLE IF NOT EXISTS vulnerability_findings (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -397,6 +424,10 @@ CREATE TABLE IF NOT EXISTS campaign_iocs (
 );
 CREATE INDEX IF NOT EXISTS idx_campaign_iocs_campaign ON campaign_iocs(campaign_id);
 CREATE INDEX IF NOT EXISTS idx_campaign_iocs_value ON campaign_iocs(ioc_value);
+-- Step 1 (2026-04-20): prevent duplicate (campaign_id, ioc_type, ioc_value)
+-- rows. Added after dedupe migration removed 42 pre-existing dup rows.
+CREATE UNIQUE INDEX IF NOT EXISTS ux_campaign_iocs_unique
+    ON campaign_iocs (campaign_id, ioc_type, ioc_value);
 
 CREATE TABLE IF NOT EXISTS ioc_evidence_chain (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
