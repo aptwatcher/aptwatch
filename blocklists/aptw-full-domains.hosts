@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-21 00:31:15
-# Entries: 477184
+# Generated: 2026-04-21 06:30:47
+# Entries: 477183
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -158168,7 +158168,6 @@
 0.0.0.0 cnbpho.com
 0.0.0.0 cnbserlivwlt30dahon.azurewebsites.net
 0.0.0.0 cnbvn.carrd.co
-0.0.0.0 cnc.xenema.vip
 0.0.0.0 cnceast.weebly.com
 0.0.0.0 cncfd.nikasr.xyz
 0.0.0.0 cnchax.com
@@ -199964,7 +199963,6 @@
 0.0.0.0 eurodelinks.com
 0.0.0.0 eurodesignhomes.com
 0.0.0.0 euroenvases.com.ar
-0.0.0.0 eurofarm.ge
 0.0.0.0 eurofiranyfashion.shop
 0.0.0.0 eurofiranyofficial.shop
 0.0.0.0 eurofiranyplsaleppl.shop
@@ -232391,6 +232389,7 @@
 0.0.0.0 gobiernoygestion.com.mx
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobizboost.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
@@ -315941,6 +315940,7 @@
 0.0.0.0 markusgl17.github.io
 0.0.0.0 markusmind.de
 0.0.0.0 markwagner.hu
+0.0.0.0 markway.ru
 0.0.0.0 markweb.alexandersoft.com
 0.0.0.0 markyost.us
 0.0.0.0 markzettler.com
@@ -326516,6 +326516,7 @@
 0.0.0.0 metora-horizon.pages.dev
 0.0.0.0 metora-lattice.pages.dev
 0.0.0.0 metoskkllogin.gitbook.io
+0.0.0.0 metotmimarlik.com.tr
 0.0.0.0 metoud.com
 0.0.0.0 metowmasklogin.webflow.io
 0.0.0.0 metqamaskv.azurewebsites.net
@@ -333460,7 +333461,6 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
-0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -334224,6 +334224,7 @@
 0.0.0.0 mosrg.gotdns.ch
 0.0.0.0 mosryhltirswxqao-dot-millinium.ey.r.appspot.com
 0.0.0.0 mossandy0.wixsite.com
+0.0.0.0 mosselnet.co.za
 0.0.0.0 mossframef.vercel.app
 0.0.0.0 most-cat-rapping.on-fleek.app
 0.0.0.0 most-excues-dreams.duckdns.org
@@ -357942,7 +357943,6 @@
 0.0.0.0 omavouphonsers.com
 0.0.0.0 omawood.com
 0.0.0.0 omax.admarvel.com
-0.0.0.0 omax.com.pk
 0.0.0.0 omay.pl
 0.0.0.0 omazeuceeazczprod.112.2o7.net
 0.0.0.0 omazon-jp.ineuxa.shop
@@ -420299,7 +420299,6 @@
 0.0.0.0 shaded-forge.com
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
-0.0.0.0 shaderm.com
 0.0.0.0 shadeside.eu.org
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-cove.com
@@ -439591,7 +439590,6 @@
 0.0.0.0 vcbnmx.com
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
-0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
@@ -460821,6 +460819,7 @@
 0.0.0.0 www.metron-arc.com
 0.0.0.0 www.metspa.cam
 0.0.0.0 www.metybai.pro
+0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mevsall.com
 0.0.0.0 www.mezczyzna-trendy.pl
 0.0.0.0 www.mftracking.com
