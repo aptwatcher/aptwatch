@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-20 18:30:25
-# Entries: 477173
+# Generated: 2026-04-21 00:31:15
+# Entries: 477184
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -7068,7 +7068,6 @@
 0.0.0.0 176.25.129.34.bc.googleusercontent.com
 0.0.0.0 176.28.116.58
 0.0.0.0 176.57.150.107
-0.0.0.0 176.65.148.173.ptr.pfcloud.network
 0.0.0.0 176.9.0.78
 0.0.0.0 17608-1795.s2.webspace.re
 0.0.0.0 176112.multipleardent.cn
@@ -79577,6 +79576,7 @@
 0.0.0.0 apparel.vision-consultants.com
 0.0.0.0 apparelbag.shop
 0.0.0.0 apparelbrends.co.uk
+0.0.0.0 apparelgate.co.uk
 0.0.0.0 apparelingsneeds.top
 0.0.0.0 apparelmanufacturing-dot-sharepointpdf-374600.wl.r.appspot.com
 0.0.0.0 apparent-intend-710809.framer.app
@@ -146243,6 +146243,7 @@
 0.0.0.0 careers-om.com
 0.0.0.0 careers.112.2o7.net
 0.0.0.0 careers.bravusmentores.com
+0.0.0.0 careersconnect.work
 0.0.0.0 careersincorrectquickie.com
 0.0.0.0 careersintelecom.com
 0.0.0.0 careersinthemaking.com
@@ -147751,6 +147752,7 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
+0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -158166,6 +158168,7 @@
 0.0.0.0 cnbpho.com
 0.0.0.0 cnbserlivwlt30dahon.azurewebsites.net
 0.0.0.0 cnbvn.carrd.co
+0.0.0.0 cnc.xenema.vip
 0.0.0.0 cnceast.weebly.com
 0.0.0.0 cncfd.nikasr.xyz
 0.0.0.0 cnchax.com
@@ -158296,7 +158299,6 @@
 0.0.0.0 cnorthrup.atozgroup.ir
 0.0.0.0 cnoside-spotify-clone.firebaseapp.com
 0.0.0.0 cnp.learn.com
-0.0.0.0 cnpaintequipment.com
 0.0.0.0 cnpkmxrebmcirznbvjczewvqvpnyudnaggcr-dot-offgl8876899977678.uk.r.appspot.com
 0.0.0.0 cnpkmxrebmcirznbvjczewvqvpnyudnaggcr.offgl8876899977678.uk.r.appspot.com
 0.0.0.0 cnpoyztqev.ddns.net
@@ -168812,6 +168814,7 @@
 0.0.0.0 crypto-com-auth-php-login.webflow.io
 0.0.0.0 crypto-com-logn.typedream.app
 0.0.0.0 crypto-connect.ml
+0.0.0.0 crypto-corexchange.com
 0.0.0.0 crypto-currency-landingpage-clone.vercel.app
 0.0.0.0 crypto-engine.pl
 0.0.0.0 crypto-eon-285409.uc.r.appspot.com
@@ -183767,6 +183770,7 @@
 0.0.0.0 dlvns-albpiping.spiceloans.com
 0.0.0.0 dlvr.readserver.net
 0.0.0.0 dlvry-ntfctionusps32xr.dynnamn.ru
+0.0.0.0 dlvryintl.com
 0.0.0.0 dlwbfire.org
 0.0.0.0 dlwcgxjrzarhwkoo-dot-millinium.ey.r.appspot.com
 0.0.0.0 dlwikkerhwsd.weebly.com
@@ -186768,6 +186772,7 @@
 0.0.0.0 dr3aq.byethost32.com
 0.0.0.0 dr4.easy.co
 0.0.0.0 dra.amazon-adsystem.com
+0.0.0.0 draalineverzignassi.com.br
 0.0.0.0 draceciliazambrano.com
 0.0.0.0 dracetronic.com.br
 0.0.0.0 dracherie.site
@@ -199545,7 +199550,6 @@
 0.0.0.0 etincellejewelers.com
 0.0.0.0 etinkr.org
 0.0.0.0 etinsendmail.com
-0.0.0.0 etinsendmail.net
 0.0.0.0 etiofxlzcf.duckdns.org
 0.0.0.0 etiquetou.com.br
 0.0.0.0 etiquette1boncoin.000webhostapp.com
@@ -199960,6 +199964,7 @@
 0.0.0.0 eurodelinks.com
 0.0.0.0 eurodesignhomes.com
 0.0.0.0 euroenvases.com.ar
+0.0.0.0 eurofarm.ge
 0.0.0.0 eurofiranyfashion.shop
 0.0.0.0 eurofiranyofficial.shop
 0.0.0.0 eurofiranyplsaleppl.shop
@@ -234927,7 +234932,6 @@
 0.0.0.0 graveripos.rest
 0.0.0.0 gravest-defect.000webhostapp.com
 0.0.0.0 gravetide.site
-0.0.0.0 graviana.com
 0.0.0.0 gravimetric-remedy.000webhostapp.com
 0.0.0.0 gravitas-local-manage-031572684-xi.vercel.app
 0.0.0.0 gravitative-diaries.000webhostapp.com
@@ -244386,6 +244390,7 @@
 0.0.0.0 hasszdc.duckdns.org
 0.0.0.0 hasszdd.duckdns.org
 0.0.0.0 hastagmedia.com
+0.0.0.0 hasteb.in
 0.0.0.0 hastebin.stamm.me
 0.0.0.0 hastenestate.com
 0.0.0.0 hastiro.in
@@ -266787,7 +266792,6 @@
 0.0.0.0 insured-advantage.com
 0.0.0.0 insurehub.in
 0.0.0.0 insuremartng.com
-0.0.0.0 insureongo.net
 0.0.0.0 insurethe564.com
 0.0.0.0 insurevendors.com
 0.0.0.0 insurgent-hoops.000webhostapp.com
@@ -318032,6 +318036,7 @@
 0.0.0.0 md-uk-2.whb.tempwebhost.net
 0.0.0.0 md-uk-3.whb.tempwebhost.net
 0.0.0.0 md.5.p2l.info
+0.0.0.0 md.ccsuquk.com
 0.0.0.0 md.m-space.jp
 0.0.0.0 md1.affluenceinaugurate.top
 0.0.0.0 md2.wahsantuy.xyz
@@ -333455,6 +333460,7 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
+0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -368089,6 +368095,7 @@
 0.0.0.0 paste.ee
 0.0.0.0 pastebin.biz.id.turnkeyperformance.net
 0.0.0.0 pastebin.com
+0.0.0.0 pastee.dev
 0.0.0.0 pasteeshirt.biz
 0.0.0.0 pastehtml.com
 0.0.0.0 pastel-dawns.000webhostapp.com
@@ -407835,6 +407842,7 @@
 0.0.0.0 rizkillla.com
 0.0.0.0 rizomoxus.weebly.com
 0.0.0.0 rizqfoodservic.com
+0.0.0.0 rizvedevelop.com
 0.0.0.0 rizviahamed.github.io
 0.0.0.0 rizvistradinginc.com
 0.0.0.0 rizwaan11.github.io
@@ -435354,6 +435362,7 @@
 0.0.0.0 ts-tracker-env.us-east-1.elasticbeanstalk.com
 0.0.0.0 ts-trader.site
 0.0.0.0 ts.amazon-adsystem.com
+0.0.0.0 ts.bhaaratkeeshakti.vip
 0.0.0.0 ts.istrack.com
 0.0.0.0 ts.richmedia.yahoo.com
 0.0.0.0 ts1.hitbox.com
@@ -439582,6 +439591,7 @@
 0.0.0.0 vcbnmx.com
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
+0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
@@ -444871,6 +444881,7 @@
 0.0.0.0 wisconsinestateplanlaw.com
 0.0.0.0 wisconsinsmallclaimslaw.com
 0.0.0.0 wisconsintrafficlegal.com
+0.0.0.0 wisdomheart.org
 0.0.0.0 wisdomkeeper.pro
 0.0.0.0 wise-spending.site
 0.0.0.0 wise.goqbjichss.shop
@@ -460810,7 +460821,6 @@
 0.0.0.0 www.metron-arc.com
 0.0.0.0 www.metspa.cam
 0.0.0.0 www.metybai.pro
-0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mevsall.com
 0.0.0.0 www.mezczyzna-trendy.pl
 0.0.0.0 www.mftracking.com
@@ -471268,6 +471278,7 @@
 0.0.0.0 www.valuroster.com
 0.0.0.0 www.valveqlock.palakorn.com
 0.0.0.0 www.valyonar.com
+0.0.0.0 www.vame.be
 0.0.0.0 www.vandagverslag.com
 0.0.0.0 www.vandelixio-ai-it.com
 0.0.0.0 www.vandelixio-ai.fyi
@@ -475148,7 +475159,6 @@
 0.0.0.0 xrmytc.com
 0.0.0.0 xrp-prize.netlify.app
 0.0.0.0 xrp2025.net
-0.0.0.0 xrplnode.dev
 0.0.0.0 xrratd.cn
 0.0.0.0 xrrl-casefb685611.vercel.app
 0.0.0.0 xscdfvr4e3.blogspot.com
@@ -475516,6 +475526,7 @@
 0.0.0.0 yasmin.3.p2l.info
 0.0.0.0 yasmin.4.p2l.info
 0.0.0.0 yasnhdnasdsald.icu
+0.0.0.0 yaso.su
 0.0.0.0 yassinekhaz1998.github.io
 0.0.0.0 yatftt.topup-center.com
 0.0.0.0 yatikprabhakar.github.io
