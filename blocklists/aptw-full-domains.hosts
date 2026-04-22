@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-22 12:30:26
-# Entries: 477184
+# Generated: 2026-04-22 18:30:47
+# Entries: 477190
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -40285,6 +40285,7 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
+0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -121295,6 +121296,7 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
+0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -151215,6 +151217,7 @@
 0.0.0.0 champagne-michael-hautem.com
 0.0.0.0 champcorp.com.usrfiles.com
 0.0.0.0 champeaux.men
+0.0.0.0 champion-ankama.com
 0.0.0.0 champion-lard.000webhostapp.com
 0.0.0.0 championdafrique.com
 0.0.0.0 championfenc.clipflower.eu
@@ -153922,7 +153925,6 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
-0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -166195,6 +166197,7 @@
 0.0.0.0 corvessantcapital.com
 0.0.0.0 corvilla.id
 0.0.0.0 corvosathletic.com
+0.0.0.0 corwineagles.com
 0.0.0.0 cory.lura.larealtypertners.com
 0.0.0.0 cory78jo887g-3.funnelflex.io
 0.0.0.0 coryjames.com
@@ -174369,6 +174372,7 @@
 0.0.0.0 datashielduwx-ai17i11d-ctrlguardio.pages.dev
 0.0.0.0 datastack.co.in
 0.0.0.0 datastreamx.giochathu.sa.com
+0.0.0.0 datasurge-bot.online
 0.0.0.0 datasyncpulse.digital
 0.0.0.0 datasyncquantum.digital
 0.0.0.0 datasynthes.com
@@ -232392,7 +232396,6 @@
 0.0.0.0 gobiernoygestion.com.mx
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobizboost.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
@@ -258124,7 +258127,6 @@
 0.0.0.0 icubby.net.au
 0.0.0.0 icudjyaehkctcm7dpvht.us-south.cf.appdomain.cloud
 0.0.0.0 icuphoclu.info
-0.0.0.0 icupsa.com.mx
 0.0.0.0 icusah.digital
 0.0.0.0 icuuqyhymuqmxeai-dot-millinium.ey.r.appspot.com
 0.0.0.0 icvassessments.com
@@ -283565,6 +283567,7 @@
 0.0.0.0 kermitowy-sklep.pl
 0.0.0.0 kermitthesapo.github.io
 0.0.0.0 kermjeztsn.duckdns.org
+0.0.0.0 kernalstress.st
 0.0.0.0 kernellife.com
 0.0.0.0 kerneur-huissiers.fr
 0.0.0.0 kernh41.com
@@ -284650,6 +284653,7 @@
 0.0.0.0 kingstonbathfitting.com
 0.0.0.0 kingstonresidency.com
 0.0.0.0 kingstonthepug.com
+0.0.0.0 kingstreetdental.com.au
 0.0.0.0 kingsvalleycharterschool.org
 0.0.0.0 kingsway.cm
 0.0.0.0 kingsway.com.ph
@@ -291802,6 +291806,7 @@
 0.0.0.0 lauvit117.com
 0.0.0.0 lava-carnation-mapusaurus.glitch.me
 0.0.0.0 lava-precious-vinyl.glitch.me
+0.0.0.0 lavacolla.com
 0.0.0.0 lavaenseco.com.ar
 0.0.0.0 lavaflow.cf
 0.0.0.0 lavaflow.ml
@@ -292993,6 +292998,7 @@
 0.0.0.0 leandroserain.com.br
 0.0.0.0 leanfeast.net
 0.0.0.0 leanldedyjerlogh-dot-millinium.ey.r.appspot.com
+0.0.0.0 leanmaestro.com
 0.0.0.0 leanmanagement.ro
 0.0.0.0 leanmobi.fusetracking.com
 0.0.0.0 leannethdam.buzz
@@ -307756,6 +307762,7 @@
 0.0.0.0 madridbrew.com
 0.0.0.0 madridenergiasolar.com
 0.0.0.0 madrlosz.beget.tech
+0.0.0.0 madroxreborn.lol
 0.0.0.0 madrste.com
 0.0.0.0 madrugadaolanches.com.br
 0.0.0.0 mads.amazon-adsystem.com
@@ -313255,7 +313262,6 @@
 0.0.0.0 mailsfrlogin.flazio.com
 0.0.0.0 mailsgfp.gq
 0.0.0.0 mailsgfp.ml
-0.0.0.0 mailshare.it
 0.0.0.0 mailshaw1.weebly.com
 0.0.0.0 mailshawaccount.weebly.com
 0.0.0.0 mailshaws.weebly.com
@@ -333465,6 +333471,7 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
+0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -339711,6 +339718,7 @@
 0.0.0.0 mygreatrewards.com
 0.0.0.0 mygreenremedy.com
 0.0.0.0 mygrefutaxgocv.pages.dev
+0.0.0.0 mygrocerbox.com
 0.0.0.0 mygroup4.duckdns.org
 0.0.0.0 mygroupfast27.64-b.it
 0.0.0.0 mygroupinfowhatsappgirlsonly.zyns.com
@@ -343914,7 +343922,6 @@
 0.0.0.0 neil033-design.github.io
 0.0.0.0 neilblack.co.uk.usrfiles.com
 0.0.0.0 neilmacqueen.com
-0.0.0.0 neilshairdressers.co.uk
 0.0.0.0 neilweller11.wixsite.com
 0.0.0.0 neim.strametyapi.com
 0.0.0.0 neimali.ga
@@ -357947,7 +357954,6 @@
 0.0.0.0 omavouphonsers.com
 0.0.0.0 omawood.com
 0.0.0.0 omax.admarvel.com
-0.0.0.0 omax.com.pk
 0.0.0.0 omay.pl
 0.0.0.0 omazeuceeazczprod.112.2o7.net
 0.0.0.0 omazon-jp.ineuxa.shop
@@ -420303,6 +420309,7 @@
 0.0.0.0 shaded-forge.com
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
+0.0.0.0 shaderm.com
 0.0.0.0 shadeside.eu.org
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-cove.com
@@ -439593,7 +439600,6 @@
 0.0.0.0 vcbnmx.com
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
-0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
