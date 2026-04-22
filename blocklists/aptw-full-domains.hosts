@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-21 18:31:15
-# Entries: 477180
+# Generated: 2026-04-22 00:32:07
+# Entries: 477182
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -10593,6 +10593,7 @@
 0.0.0.0 204.44.98.252
 0.0.0.0 204.44.99.133
 0.0.0.0 204.48.31.90
+0.0.0.0 204.76.203.196.ptr.pfcloud.network
 0.0.0.0 204.89.62.206
 0.0.0.0 204.93.159.123
 0.0.0.0 20418-dot-n-e-w-me-ss-age-po-rt-al.wl.r.appspot.com
@@ -40284,6 +40285,7 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
+0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -147751,6 +147753,7 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
+0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -183612,6 +183615,7 @@
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
+0.0.0.0 dl.armour-inc-down.net
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
@@ -219843,6 +219847,7 @@
 0.0.0.0 fotoporcelanapanama.com
 0.0.0.0 fotoproductinsta.com
 0.0.0.0 fotoschuppen.net
+0.0.0.0 fotosdepuebla.org
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
 0.0.0.0 fotoshop-instagram.b0tnet.com
@@ -232387,7 +232392,6 @@
 0.0.0.0 gobiernoygestion.com.mx
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobizboost.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
@@ -272369,6 +272373,7 @@
 0.0.0.0 jalalsalomy.000webhostapp.com
 0.0.0.0 jalandharpolice.com
 0.0.0.0 jalanmania.com
+0.0.0.0 jalebel7abeb.com
 0.0.0.0 jalfre.com
 0.0.0.0 jalgaonkaraakansha78-crypto.github.io
 0.0.0.0 jaliscoctm.org
@@ -292986,6 +292991,7 @@
 0.0.0.0 leandroserain.com.br
 0.0.0.0 leanfeast.net
 0.0.0.0 leanldedyjerlogh-dot-millinium.ey.r.appspot.com
+0.0.0.0 leanmaestro.com
 0.0.0.0 leanmanagement.ro
 0.0.0.0 leanmobi.fusetracking.com
 0.0.0.0 leannethdam.buzz
@@ -333458,6 +333464,7 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
+0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -354192,6 +354199,7 @@
 0.0.0.0 oazim.ru
 0.0.0.0 ob-final-coinbase-6tiy1hne9-carlosdamota.vercel.app
 0.0.0.0 ob-navyfederal.com
+0.0.0.0 ob1phqqu.degassing-mould.digital
 0.0.0.0 ob34.ff.garenask.vn
 0.0.0.0 ob35.ff.garens.vn
 0.0.0.0 ob36-membership-garena.tk
@@ -354341,7 +354349,6 @@
 0.0.0.0 obligoria-fr.fyi
 0.0.0.0 oblimgrentfal.top
 0.0.0.0 oblintravekk.top
-0.0.0.0 oblionts.com
 0.0.0.0 oblioucvfsdadbcfsqf-dot-auth-online-sevice.ey.r.appspot.com
 0.0.0.0 obliterative-types.000webhostapp.com
 0.0.0.0 obliviontomemory.com
@@ -357081,6 +357088,7 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 oknyhsxwr.info
 0.0.0.0 okogm.com
@@ -412971,7 +412979,6 @@
 0.0.0.0 rzdgarage.com
 0.0.0.0 rzdoyegrsuumcbzn-dot-millinium.ey.r.appspot.com
 0.0.0.0 rzdozptswnsnpugc-dot-millinium.ey.r.appspot.com
-0.0.0.0 rzdwkgtc.chernichco5t.digital
 0.0.0.0 rzedovnexserify.duckdns.org
 0.0.0.0 rzefhwouihepbiylboqjxoycqljqzechufzi-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 rzerpurmisgskanboyrcvry01.my.id
@@ -431166,7 +431173,6 @@
 0.0.0.0 tfngre.tempurl.host
 0.0.0.0 tftak.cn
 0.0.0.0 tfunity.com
-0.0.0.0 tg-xxooxx888.8964.mom
 0.0.0.0 tg.dr.socdm.com
 0.0.0.0 tg.socdm.com
 0.0.0.0 tg1.aniview.com
@@ -441078,7 +441084,6 @@
 0.0.0.0 visam.info
 0.0.0.0 visana.fr
 0.0.0.0 visapay.onrender.com
-0.0.0.0 visapics.info
 0.0.0.0 visarmilic.rest
 0.0.0.0 viscachascompressibaailities.info
 0.0.0.0 vish-meta.pages.dev
@@ -460816,7 +460821,6 @@
 0.0.0.0 www.metron-arc.com
 0.0.0.0 www.metspa.cam
 0.0.0.0 www.metybai.pro
-0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mevsall.com
 0.0.0.0 www.mezczyzna-trendy.pl
 0.0.0.0 www.mftracking.com
@@ -474540,7 +474544,6 @@
 0.0.0.0 x.mochiads.com
 0.0.0.0 x.ql21.biz.id
 0.0.0.0 x.skimresources.com
-0.0.0.0 x.vodxz.icu
 0.0.0.0 x03n.xyz
 0.0.0.0 x04qaw.fun
 0.0.0.0 x04qaw.icu
@@ -476937,7 +476940,6 @@
 0.0.0.0 zoom.readyex-eg.com
 0.0.0.0 zoomcalit.com
 0.0.0.0 zoomedutr.com
-0.0.0.0 zoommeetingg.click
 0.0.0.0 zoomovies.org
 0.0.0.0 zoompegs.com
 0.0.0.0 zoomyayincilik.com
