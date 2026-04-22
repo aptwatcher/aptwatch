@@ -185230,6 +185230,7 @@ dofus-mmorpg.fr
 dofus-quest.shop
 dofus-retro-event.shop
 dofus-retro-maj.com
+dofus-retro-saisonnier.com
 dofus-touch-forum.com
 dofus-touch-news.com
 dofus-unity.eu
@@ -185243,6 +185244,7 @@ dofuspourlesnoobs.eu
 dofuspourlesnoobs.fr
 dofuspourlesnoobs.info
 dofuspourlesnoobs.quest
+dofuspourlesnooobs.fr
 dofuspourlesrnoobs.com
 dofuspourslesnoobss.com
 dofusprourlesnoobs.com
