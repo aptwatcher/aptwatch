@@ -196,6 +196,7 @@ GROUPS: dict[str, dict[str, Any]] = {
         "github_eset": [
             "https://raw.githubusercontent.com/eset/malware-ioc/master/sednit/samples.sha256",
         ],
+        "github_talos": [],
     },
     "gamaredon": {
         "label": "Gamaredon / Iron Tilden (FSB Crimea)",
@@ -207,6 +208,16 @@ GROUPS: dict[str, dict[str, Any]] = {
             "https://www.welivesecurity.com/en/eset-research/gamaredon-x-turla-collab/",
             "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution/",
         ],
+        # Known-good C2 IPs confirmed by multiple curators but not currently
+        # surfaced by any active feed (rotated out of DGA snapshots).
+        # Source: step2-collector-vs-manual-2026-04-21.md §2.2.
+        "static_iocs": {
+            "ips": [
+                "146.185.233.79", "146.185.233.90", "146.185.233.96",
+                "146.185.233.97", "146.185.233.98", "146.185.233.99",
+                "146.185.233.101",
+            ],
+        },
         "pdfs": [
             "https://web-assets.esetstatic.com/wls/en/papers/white-papers/gamaredon-in-2024.pdf",
             "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
@@ -222,6 +233,10 @@ GROUPS: dict[str, dict[str, Any]] = {
         "github_unit42": [
             "https://raw.githubusercontent.com/pan-unit42/iocs/master/Gamaredon/Gamaredon_IoCs_DEC2022.txt",
             "https://raw.githubusercontent.com/pan-unit42/iocs/master/Gamaredon/Gamaredon_IoCs_JAN2022.txt",
+        ],
+        "github_talos": [
+            "https://raw.githubusercontent.com/Cisco-Talos/IOCs/main/2022/09/gamaredon-apt-targets-ukrainian-agencies.txt",
+            "https://raw.githubusercontent.com/Cisco-Talos/IOCs/main/2025/03/iocs_gamaredon_remcos.txt",
         ],
     },
     "earth_koshchei": {
@@ -243,6 +258,7 @@ GROUPS: dict[str, dict[str, Any]] = {
         "github_eset": [
             "https://raw.githubusercontent.com/eset/malware-ioc/master/dukes/samples.sha256",
         ],
+        "github_talos": [],
     },
     "sandworm": {
         "label": "Sandworm / Seashell Blizzard (GRU Unit 74455)",
@@ -270,6 +286,7 @@ GROUPS: dict[str, dict[str, Any]] = {
             "https://raw.githubusercontent.com/eset/malware-ioc/master/industroyer/samples.sha256",
             "https://raw.githubusercontent.com/eset/malware-ioc/master/telebots/samples.sha256",
         ],
+        "github_talos": [],
     },
     "turla": {
         "label": "Turla / Iron Hunter / Secret Blizzard (FSB Center 16)",
@@ -293,6 +310,12 @@ GROUPS: dict[str, dict[str, Any]] = {
         "github_eset": [
             "https://raw.githubusercontent.com/eset/malware-ioc/master/turla/samples.sha256",
         ],
+        "github_talos": [
+            {
+                "url": "https://raw.githubusercontent.com/Cisco-Talos/IOCs/main/2024/02/tinyturla-ng.txt",
+                "compromised_legitimate_domains": True,
+            },
+        ],
     },
     "callisto": {
         "label": "Callisto / Star Blizzard / COLDRIVER (FSB Center 18)",
@@ -315,8 +338,20 @@ GROUPS: dict[str, dict[str, Any]] = {
             "url": "https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/malware/apt_coldriver.txt",
         },
         "github_eset": [],
+        "github_talos": [],
     },
 }
+
+# ═══════════════════════════════════════════════════════════════
+#  CISCO TALOS IOC REPOSITORY — Index
+# ═══════════════════════════════════════════════════════════════
+# Mapping of Cisco Talos GitHub IOC files to APT Watch groups.
+# The GitHub API is used to discover new files automatically.
+# Format: https://raw.githubusercontent.com/Cisco-Talos/IOCs/main/{year}/{month}/{slug}.txt
+# Each .txt file contains plain-text IOCs (hashes, IPs, domains, URLs).
+# New relevant files should be added to the appropriate group's "github_talos" list.
+TALOS_REPO_BASE = "https://raw.githubusercontent.com/Cisco-Talos/IOCs/main"
+TALOS_API_BASE = "https://api.github.com/repos/Cisco-Talos/IOCs/contents"
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -648,6 +683,139 @@ def parse_github_eset(url: str) -> dict:
     return {k: sorted(set(v)) for k, v in result.items() if v}
 
 
+def discover_talos_new_files(year: int = None, month: int = None) -> list[str]:
+    """Discovers new .txt IOC files in the Cisco Talos IOCs GitHub repository.
+
+    Scans the latest month (or specified year/month) for .txt files.
+    Returns list of raw download URLs for files NOT already listed in any group's
+    github_talos config.
+
+    Uses the GitHub API: GET /repos/Cisco-Talos/IOCs/contents/{year}/{month:02d}
+    """
+    if year is None or month is None:
+        from datetime import date as _date
+        today = _date.today()
+        year = today.year
+        month = today.month
+
+    # Collect all already-known Talos URLs
+    known_urls = set()
+    for g in GROUPS.values():
+        for entry in g.get("github_talos", []):
+            known_urls.add(entry["url"] if isinstance(entry, dict) else entry)
+
+    api_url = f"{TALOS_API_BASE}/{year}/{month:02d}"
+    try:
+        if HAS_REQUESTS:
+            r = SESSION.get(api_url, timeout=15)
+            if r.status_code == 404:
+                log.debug(f"  Talos: no folder for {year}/{month:02d}")
+                return []
+            r.raise_for_status()
+            items = json.loads(r.text)
+        else:
+            req = urllib.request.Request(api_url, headers=HEADERS)
+            resp = urllib.request.urlopen(req, timeout=15)
+            items = json.loads(resp.read().decode("utf-8"))
+    except Exception as e:
+        log.warning(f"  Talos discovery failed for {year}/{month:02d}: {e}")
+        return []
+
+    new_files = []
+    for item in items:
+        name = item.get("name", "")
+        if name.endswith(".txt"):
+            raw_url = f"{TALOS_REPO_BASE}/{year}/{month:02d}/{name}"
+            if raw_url not in known_urls:
+                new_files.append(raw_url)
+
+    if new_files:
+        log.info(f"  Talos discovery: {len(new_files)} new .txt file(s) in {year}/{month:02d}")
+    return new_files
+
+
+# Keywords that suggest relevance to Russian APT groups
+_TALOS_RUSSIAN_KEYWORDS = [
+    "gamaredon", "turla", "sandworm", "apt28", "apt29", "fancy bear", "cozy bear",
+    "pawn storm", "sednit", "sofacy", "forest blizzard", "midnight blizzard",
+    "seashell blizzard", "secret blizzard", "star blizzard", "coldriver",
+    "callisto", "winter vivern", "ta473", "primitive bear", "shuckworm",
+    "telebots", "voodoo bear", "iron twilight", "iron hunter", "iron viking",
+    "ukraine", "romcom", "uat-5647",
+]
+
+
+def talos_file_is_relevant(url: str) -> bool:
+    """Checks if a Talos IOC file name suggests Russian APT relevance."""
+    name = url.split("/")[-1].lower()
+    return any(kw in name for kw in _TALOS_RUSSIAN_KEYWORDS)
+
+
+def parse_github_talos(url: str, compromised_legitimate_domains: bool = False) -> dict:
+    """Parses a Cisco Talos IOC .txt file from their GitHub repository.
+
+    Talos .txt files contain plain-text IOCs — one per line:
+    SHA-256 hashes, IPv4 addresses, defanged domains, and defanged URLs.
+    Lines starting with '#' are comments. Some files use sections
+    separated by headers (e.g., '## Hashes', '## IPs').
+
+    Args:
+        url: Raw GitHub URL to the .txt file.
+        compromised_legitimate_domains: If True, domains in this file are
+            compromised legitimate sites (e.g. hacked WordPress C2s).
+            They will be placed in 'compromised_domains' instead of 'domains'
+            to avoid adding them to active blocklists.
+
+    Returns dict with ips, domains, hashes, urls keys.
+    When compromised_legitimate_domains=True, domains go into
+    'compromised_domains' instead of 'domains'.
+    """
+    text = fetch_text(url)
+    if not text:
+        return {}
+
+    domain_key = "compromised_domains" if compromised_legitimate_domains else "domains"
+    result: dict[str, list] = {"hashes": [], "ips": [], domain_key: [], "urls": []}
+
+    for line in text.splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or line.startswith("//"):
+            continue
+
+        # Defang before parsing
+        clean = defang(line)
+
+        # SHA-256 hash (64 hex chars)
+        if re.match(r'^[a-fA-F0-9]{64}$', clean):
+            result["hashes"].append(clean.lower())
+            continue
+
+        # SHA-1 hash (40 hex chars) — some Talos files include these
+        if re.match(r'^[a-fA-F0-9]{40}$', clean):
+            result["hashes"].append(clean.lower())
+            continue
+
+        # IPv4 address
+        if re.match(r'^(\d{1,3}\.){3}\d{1,3}$', clean) and is_valid_ip(clean):
+            result["ips"].append(clean)
+            continue
+
+        # URL
+        if clean.startswith("http://") or clean.startswith("https://"):
+            result["urls"].append(clean)
+            # Also extract domain from URL
+            m = re.match(r'https?://([^/:]+)', clean)
+            if m and is_valid_domain(m.group(1)):
+                result[domain_key].append(m.group(1).lower())
+            continue
+
+        # Domain (defanged [.] already cleaned)
+        if "." in clean and not clean.startswith("/") and is_valid_domain(clean):
+            result[domain_key].append(clean.lower())
+
+    return {k: sorted(set(v)) for k, v in result.items() if v}
+
+
 # ═══════════════════════════════════════════════════════════════
 #  MAIN COLLECTOR
 # ═══════════════════════════════════════════════════════════════
@@ -661,6 +829,7 @@ def collect_group(group_id: str, config: dict, safelist: Safelist) -> dict:
     result: dict[str, set] = {
         "hashes": set(), "ips": set(), "domains": set(),
         "urls": set(), "emails": set(), "cves": set(),
+        "compromised_domains": set(),
     }
 
     def merge(d: dict):
@@ -763,6 +932,37 @@ def collect_group(group_id: str, config: dict, safelist: Safelist) -> dict:
         log.info(f"  Static IOCs: {len(static.get('ips',[]))} IPs, "
                  f"{len(static.get('domains',[]))} domains")
 
+    # 10. Cisco Talos IOC repository (GitHub)
+    # 10a. Known Talos files for this group
+    for entry in config.get("github_talos", []):
+        # Entry can be a plain URL string or a dict with url + options
+        if isinstance(entry, dict):
+            url = entry["url"]
+            compromised = entry.get("compromised_legitimate_domains", False)
+        else:
+            url = entry
+            compromised = False
+        tag = " [compromised_legitimate]" if compromised else ""
+        log.info(f"  Talos: {url.split('/')[-1]}{tag}")
+        iocs = parse_github_talos(url, compromised_legitimate_domains=compromised)
+        if iocs:
+            merge(iocs)
+            stats = " ".join(f"{k}:{len(v)}" for k, v in iocs.items())
+            log.info(f"    -> {stats}")
+    # 10b. Auto-discover new Talos files (current month only, first group run triggers)
+    if group_id == list(GROUPS.keys())[0]:  # only on first group to avoid redundant API calls
+        new_talos = discover_talos_new_files()
+        for url in new_talos:
+            if talos_file_is_relevant(url):
+                log.info(f"  Talos NEW: {url.split('/')[-1]} (auto-discovered, relevant)")
+                iocs = parse_github_talos(url)
+                if iocs:
+                    merge(iocs)
+                    stats = " ".join(f"{k}:{len(v)}" for k, v in iocs.items())
+                    log.info(f"    -> {stats}")
+            else:
+                log.debug(f"  Talos NEW: {url.split('/')[-1]} (skipped, not relevant)")
+
     # ═══════════════════════════════════════════════════════
     # SAFELIST FILTERING
     # ═══════════════════════════════════════════════════════
@@ -780,14 +980,22 @@ def collect_group(group_id: str, config: dict, safelist: Safelist) -> dict:
         e for e in result["emails"]
         if not safelist.is_safe_email(e)
     }
+    # Compromised domains are NOT actively blocked but still filtered for basic validity
+    result["compromised_domains"] = {
+        d for d in result["compromised_domains"]
+        if not safelist.is_safe_domain(d)
+    }
 
     post_filter = {k: len(v) for k, v in result.items()}
 
     # Log filtered counts
-    for k in ("ips", "domains", "emails"):
+    for k in ("ips", "domains", "emails", "compromised_domains"):
         diff = pre_filter.get(k, 0) - post_filter.get(k, 0)
         if diff > 0:
             log.info(f"  Safelist: {diff} {k} filtered")
+    if result["compromised_domains"]:
+        log.info(f"  Compromised legitimate domains (not blocklisted): "
+                 f"{len(result['compromised_domains'])}")
 
     final = {k: sorted(v) for k, v in result.items()}
     log.info(f"\n  TOTAL {config['label'].split('/')[0].strip()}:")
@@ -821,6 +1029,7 @@ def export_txt(group_id: str, config: dict, iocs: dict, output_dir: Path) -> Pat
         ("cves",    "CVEs"),
         ("ips",     "C2 IPs"),
         ("domains", "C2 domains / phishing / credential harvesting"),
+        ("compromised_domains", "Compromised legitimate domains (C2, not for blocklisting)"),
         ("emails",  "Operator emails"),
         ("urls",    "C2 URLs / exfiltration"),
         ("hashes",  "SHA256"),
@@ -837,7 +1046,8 @@ def export_txt(group_id: str, config: dict, iocs: dict, output_dir: Path) -> Pat
     for url in (config.get("ioc_txt_direct", []) +
                 config.get("trendmicro_articles", []) +
                 config.get("blogs", []) +
-                config.get("pdfs", [])):
+                config.get("pdfs", []) +
+                config.get("github_talos", [])):
         lines.append(f"# {url}")
     for pid in config.get("otx_pulses", []):
         lines.append(f"# OTX: https://otx.alienvault.com/pulse/{pid}")
@@ -887,7 +1097,8 @@ def _build_source_fields(group_config: dict) -> tuple[str, str]:
     all_urls = (group_config.get("trendmicro_articles", []) +
                 group_config.get("blogs", []) +
                 group_config.get("ioc_txt_direct", []) +
-                group_config.get("pdfs", []))
+                group_config.get("pdfs", []) +
+                group_config.get("github_talos", []))
     for pid in group_config.get("otx_pulses", []):
         all_urls.append(f"https://otx.alienvault.com/pulse/{pid}")
     source_url = all_urls[0] if len(all_urls) == 1 else "Multiple"
@@ -995,6 +1206,15 @@ def generate_yaml_submission(group_id: str, group_config: dict, iocs: dict,
                 lines.append(f"  - {u}")
             lines.append("")
 
+        # Compromised legitimate domains as comments (not for blocklisting)
+        all_compromised = sorted(set(iocs.get("compromised_domains", [])))
+        if part == 0 and all_compromised:
+            lines.append(f"# Compromised legitimate domains — NOT for blocklisting")
+            lines.append(f"# These are hacked sites used as C2; likely already cleaned.")
+            for d in all_compromised:
+                lines.append(f"#   {d}")
+            lines.append("")
+
         # Hashes as comments (server does not accept 'hashes' field)
         part_hashes = all_hashes[start:end]
         if part_hashes:
@@ -1078,10 +1298,18 @@ def server_git_commit(paths: list[Path], message: str):
         log.warning(f"  Git commit failed: {e.stderr.decode()[:100]}")
 
 
-def server_append_iocs(append_files: list[Path]):
-    """Appends IOCs to main files (server mode only)."""
+def server_append_iocs(append_files: list[Path]) -> list[Path]:
+    """Appends IOCs to main files (server mode only).
+
+    Returns list of append files that were successfully merged. Callers can
+    use this list to clean up the daily append files after a successful merge
+    (they are no longer needed once the content is in the main iocs/*.txt
+    files). A file is only considered merged when the target exists, the
+    read/append cycle raised no exception, and the content was written.
+    """
+    merged: list[Path] = []
     if not app_config.is_server:
-        return
+        return merged
     iocs_dir = app_config.paths.iocs_dir
     mapping = {
         "append_ipv4_": "ipv4.txt",
@@ -1093,7 +1321,10 @@ def server_append_iocs(append_files: list[Path]):
         for prefix, target_name in mapping.items():
             if af.name.startswith(prefix):
                 target = iocs_dir / target_name
-                if target.exists():
+                if not target.exists():
+                    log.warning(f"  Append target missing for {af.name}: {target}")
+                    break
+                try:
                     # Read without comments
                     new_lines = [
                         l.split("#")[0].strip()
@@ -1104,6 +1335,33 @@ def server_append_iocs(append_files: list[Path]):
                         for line in new_lines:
                             f.write(line + "\n")
                     log.info(f"  Appended {len(new_lines)} lines to {target_name}")
+                    merged.append(af)
+                except OSError as e:
+                    log.warning(f"  Append failed for {af.name} -> {target_name}: {e}")
+                break  # prefix matched, stop iterating mapping
+    return merged
+
+
+def cleanup_merged_append_files(merged_files: list[Path]) -> list[Path]:
+    """Delete server append files that were successfully merged into the
+    main iocs/*.txt files. Returns the list of files actually deleted.
+
+    Safety: only files whose name starts with a known append_* prefix are
+    deleted, and errors are logged (non-fatal). Keeping this in its own
+    function makes it trivial to swap delete for archive later.
+    """
+    deleted: list[Path] = []
+    append_prefixes = ("append_ipv4_", "append_domains_", "append_emails_", "append_cves_")
+    for af in merged_files:
+        if not af.name.startswith(append_prefixes):
+            continue
+        try:
+            af.unlink()
+            deleted.append(af)
+            log.info(f"  Deleted append file: {af.name}")
+        except OSError as e:
+            log.warning(f"  Failed to delete append file {af.name}: {e}")
+    return deleted
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -1159,6 +1417,7 @@ def main():
     if args.mode:
         app_config.mode = args.mode
         app_config.auto_git = (args.mode == "server")
+        app_config.auto_import_db = (args.mode == "server")
         app_config.paths = type(app_config.paths)(args.mode, app_config.paths.project_root)
 
     if args.no_git:
@@ -1241,7 +1500,15 @@ def main():
     # ═══════════════════════════════════════════════════════
     if app_config.is_server and not args.dry_run and not args.no_artefacts:
         # Auto-append IOCs to main blocklists
-        server_append_iocs(append_files)
+        merged_append_files = server_append_iocs(append_files)
+
+        # Cleanup: delete daily append files once their content is merged into
+        # the main iocs/*.txt files. The append_*.txt files are transient
+        # artifacts and do not need to be kept on disk or in git.
+        deleted_append_files = cleanup_merged_append_files(merged_append_files)
+        if deleted_append_files:
+            deleted_set = set(deleted_append_files)
+            generated_files[:] = [p for p in generated_files if p not in deleted_set]
 
         # Git commit
         if app_config.auto_git and generated_files:
