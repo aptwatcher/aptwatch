@@ -1081,6 +1081,14 @@ def export_json(group_id: str, config: dict, iocs: dict, output_dir: Path) -> Pa
 #  ARTIFACT GENERATION — YAML submission + append files
 # ═══════════════════════════════════════════════════════════════
 
+# Step 2.C — attribution tagging on ingest.
+# Collector auto-YAMLs aggregate IOCs from per-group sources (TrendMicro,
+# OTX, maltrail, OSINT blogs). We tag every emitted YAML with a blanket
+# score of 0.50 ("aggregated auto"), per the Step 2.A score semantics:
+#   0.70-0.99 vetted per-group feeds; 0.50-0.69 aggregated; 0.30-0.49 noisy.
+# The loader (scripts/ingest_yaml_submission.py) reads this field verbatim;
+# 1.0 is reserved for curator YAMLs that omit the field.
+COLLECTOR_YAML_SCORE = 0.50
 MAX_IOCS_PER_TYPE = 500  # Server rejects submissions with >500 per IOC type
 
 
@@ -1153,6 +1161,7 @@ def generate_yaml_submission(group_id: str, group_config: dict, iocs: dict,
         lines += [
             "",
             f"author: {author}",
+            f"confidence_score: {COLLECTOR_YAML_SCORE}",
             f"source: {source_url}",
             f'source_name: "{source_name}"',
             "",
