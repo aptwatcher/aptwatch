@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-23 00:31:18
-# Entries: 477189
+# Generated: 2026-04-23 06:31:15
+# Entries: 477182
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -40285,7 +40285,6 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
-0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -86583,6 +86582,7 @@
 0.0.0.0 arpan-saha-25.github.io
 0.0.0.0 arpangupta1805.github.io
 0.0.0.0 arpanna-f3de3e.ingress-earth.ewp.live
+0.0.0.0 arpausa.com.ec
 0.0.0.0 arpaypay.peruanobet.com
 0.0.0.0 arpeggio-limoges.fr
 0.0.0.0 arpeggioaudio.com
@@ -146243,7 +146243,6 @@
 0.0.0.0 careers-om.com
 0.0.0.0 careers.112.2o7.net
 0.0.0.0 careers.bravusmentores.com
-0.0.0.0 careersconnect.work
 0.0.0.0 careersincorrectquickie.com
 0.0.0.0 careersintelecom.com
 0.0.0.0 careersinthemaking.com
@@ -147752,7 +147751,6 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
-0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -166197,6 +166195,7 @@
 0.0.0.0 corvessantcapital.com
 0.0.0.0 corvilla.id
 0.0.0.0 corvosathletic.com
+0.0.0.0 corwineagles.com
 0.0.0.0 cory.lura.larealtypertners.com
 0.0.0.0 cory78jo887g-3.funnelflex.io
 0.0.0.0 coryjames.com
@@ -177904,6 +177903,7 @@
 0.0.0.0 desktop-lrdgrlive.webflow.io
 0.0.0.0 desktop-start-ledged.webflow.io
 0.0.0.0 desktop-trezor-start.webflow.io
+0.0.0.0 desktop-version.com
 0.0.0.0 desktop-web--ledgerlive.webflow.io
 0.0.0.0 desktop.anscxnyn.com
 0.0.0.0 desktop.originalcartoes.com
@@ -183617,7 +183617,6 @@
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
-0.0.0.0 dl.armour-inc-down.net
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
@@ -222957,6 +222956,7 @@
 0.0.0.0 fuckdate.beauty
 0.0.0.0 fuckfinder.com
 0.0.0.0 fuckforfree.com
+0.0.0.0 fuckhdmov.top
 0.0.0.0 fuckkkemdi.giize.com
 0.0.0.0 fuckkkemdi.xyz
 0.0.0.0 fuckl.myftp.org
@@ -240921,7 +240921,6 @@
 0.0.0.0 gtoswapportal.pages.dev
 0.0.0.0 gtp1.acecounter.com
 0.0.0.0 gtp16.acecounter.com
-0.0.0.0 gtps4change.org
 0.0.0.0 gtqvbscypvvhtsudelnxdfuspqcicuvcbepk-dot-cedar-code-289917.nn.r.appspot.com
 0.0.0.0 gtr.clientpcdb.space
 0.0.0.0 gtrack.kueezrtb.com
@@ -259823,6 +259822,7 @@
 0.0.0.0 ijamjamsec.com
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
+0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -307286,6 +307286,7 @@
 0.0.0.0 maajqozvhezgazia-dot-millinium.ey.r.appspot.com
 0.0.0.0 maakabhsdagvka.b-cdn.net
 0.0.0.0 maakichutduniyavaloki.b-cdn.net
+0.0.0.0 maalamin.sch.id
 0.0.0.0 maalim.xyz
 0.0.0.0 maalloys.com.my
 0.0.0.0 maalselvbygg.no
@@ -314447,7 +314448,6 @@
 0.0.0.0 mand1r1.bezmxv.my.id
 0.0.0.0 mandafashion.com
 0.0.0.0 mandala-mart.com
-0.0.0.0 mandalaagrifresh.com
 0.0.0.0 mandalahome.es
 0.0.0.0 mandalamultimedia.com
 0.0.0.0 mandalasdoamor.com.br
@@ -333465,7 +333465,6 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
-0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -357949,7 +357948,6 @@
 0.0.0.0 omavouphonsers.com
 0.0.0.0 omawood.com
 0.0.0.0 omax.admarvel.com
-0.0.0.0 omax.com.pk
 0.0.0.0 omay.pl
 0.0.0.0 omazeuceeazczprod.112.2o7.net
 0.0.0.0 omazon-jp.ineuxa.shop
@@ -410066,7 +410064,6 @@
 0.0.0.0 rosesribbons.com
 0.0.0.0 rosettastone.tt.omtrdc.net
 0.0.0.0 rosette.wavaigroup.com
-0.0.0.0 rosewoodlaminates.com
 0.0.0.0 roshan-karande.github.io
 0.0.0.0 roshan-keshri.github.io
 0.0.0.0 roshani-ship.github.io
@@ -420304,7 +420301,6 @@
 0.0.0.0 shaded-forge.com
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
-0.0.0.0 shaderm.com
 0.0.0.0 shadeside.eu.org
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-cove.com
@@ -420903,7 +420899,6 @@
 0.0.0.0 shreejiestatemanagement.com
 0.0.0.0 shreekundali.online
 0.0.0.0 shreenath1696.github.io
-0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
@@ -421374,7 +421369,6 @@
 0.0.0.0 sindloersme.ink
 0.0.0.0 sinemize.com
 0.0.0.0 sinera.org
-0.0.0.0 sinergiaconstruccion.com.mx
 0.0.0.0 sinettrk.com
 0.0.0.0 singa-formulus.com
 0.0.0.0 singaformulus-app.com
@@ -423156,7 +423150,6 @@
 0.0.0.0 sonic-0101.github.io
 0.0.0.0 sonic-us.supersonicads.com
 0.0.0.0 sonicado-fr.fyi
-0.0.0.0 soniderosunidos.com
 0.0.0.0 soniksports.fr
 0.0.0.0 sonjaschmidt.shop
 0.0.0.0 sonmezetevi.com
@@ -439600,7 +439593,6 @@
 0.0.0.0 vcbnmx.com
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
-0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
@@ -460828,6 +460820,7 @@
 0.0.0.0 www.metron-arc.com
 0.0.0.0 www.metspa.cam
 0.0.0.0 www.metybai.pro
+0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mevsall.com
 0.0.0.0 www.mezczyzna-trendy.pl
 0.0.0.0 www.mftracking.com
