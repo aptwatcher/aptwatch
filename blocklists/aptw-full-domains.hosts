@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-23 06:31:15
+# Generated: 2026-04-23 12:31:17
 # Entries: 477182
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -40285,6 +40285,7 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
+0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -62582,7 +62583,6 @@
 0.0.0.0 allsumit-dependess.firebaseapp.com
 0.0.0.0 allsvr.ru
 0.0.0.0 allswellinc.com
-0.0.0.0 allsydevs.com
 0.0.0.0 allsyuine.com
 0.0.0.0 alltago.weebly.com
 0.0.0.0 alltagshelfer-giessen.de
@@ -146243,6 +146243,7 @@
 0.0.0.0 careers-om.com
 0.0.0.0 careers.112.2o7.net
 0.0.0.0 careers.bravusmentores.com
+0.0.0.0 careersconnect.work
 0.0.0.0 careersincorrectquickie.com
 0.0.0.0 careersintelecom.com
 0.0.0.0 careersinthemaking.com
@@ -147751,6 +147752,7 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
+0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -166195,7 +166197,6 @@
 0.0.0.0 corvessantcapital.com
 0.0.0.0 corvilla.id
 0.0.0.0 corvosathletic.com
-0.0.0.0 corwineagles.com
 0.0.0.0 cory.lura.larealtypertners.com
 0.0.0.0 cory78jo887g-3.funnelflex.io
 0.0.0.0 coryjames.com
@@ -177903,7 +177904,6 @@
 0.0.0.0 desktop-lrdgrlive.webflow.io
 0.0.0.0 desktop-start-ledged.webflow.io
 0.0.0.0 desktop-trezor-start.webflow.io
-0.0.0.0 desktop-version.com
 0.0.0.0 desktop-web--ledgerlive.webflow.io
 0.0.0.0 desktop.anscxnyn.com
 0.0.0.0 desktop.originalcartoes.com
@@ -259822,7 +259822,6 @@
 0.0.0.0 ijamjamsec.com
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
-0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -307286,7 +307285,6 @@
 0.0.0.0 maajqozvhezgazia-dot-millinium.ey.r.appspot.com
 0.0.0.0 maakabhsdagvka.b-cdn.net
 0.0.0.0 maakichutduniyavaloki.b-cdn.net
-0.0.0.0 maalamin.sch.id
 0.0.0.0 maalim.xyz
 0.0.0.0 maalloys.com.my
 0.0.0.0 maalselvbygg.no
@@ -333465,6 +333463,7 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
+0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -399116,6 +399115,7 @@
 0.0.0.0 rannisubor.rest
 0.0.0.0 rannoch.rentals
 0.0.0.0 rannochplay.com
+0.0.0.0 ranojpegu.in
 0.0.0.0 ransomnet.com.au
 0.0.0.0 ransortx.cloudaccess.host
 0.0.0.0 ranteskog-sv.com
