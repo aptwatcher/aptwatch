@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-22 18:30:47
-# Entries: 477190
+# Generated: 2026-04-23 00:31:18
+# Entries: 477189
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -40291,6 +40291,7 @@
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
 0.0.0.0 acbaca.com
 0.0.0.0 acbazarbd.com
+0.0.0.0 acbcr.ro
 0.0.0.0 acbdegf.pilot45.com
 0.0.0.0 acbe-104589.weeblysite.com
 0.0.0.0 acbfinancial.acbankerus.us
@@ -79577,7 +79578,6 @@
 0.0.0.0 apparel.vision-consultants.com
 0.0.0.0 apparelbag.shop
 0.0.0.0 apparelbrends.co.uk
-0.0.0.0 apparelgate.co.uk
 0.0.0.0 apparelingsneeds.top
 0.0.0.0 apparelmanufacturing-dot-sharepointpdf-374600.wl.r.appspot.com
 0.0.0.0 apparent-intend-710809.framer.app
@@ -86583,7 +86583,6 @@
 0.0.0.0 arpan-saha-25.github.io
 0.0.0.0 arpangupta1805.github.io
 0.0.0.0 arpanna-f3de3e.ingress-earth.ewp.live
-0.0.0.0 arpausa.com.ec
 0.0.0.0 arpaypay.peruanobet.com
 0.0.0.0 arpeggio-limoges.fr
 0.0.0.0 arpeggioaudio.com
@@ -121296,7 +121295,6 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
-0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -147754,6 +147752,7 @@
 0.0.0.0 caulvqfuapdmvits-dot-millinium.ey.r.appspot.com
 0.0.0.0 cauquenes.cl
 0.0.0.0 caur.renm4maxys.com
+0.0.0.0 cause-impact.com
 0.0.0.0 causecherry.com
 0.0.0.0 causeplexus.com
 0.0.0.0 caut-psiholog.ro
@@ -153925,6 +153924,7 @@
 0.0.0.0 chuffinspace.org
 0.0.0.0 chuflas21.useruno.com
 0.0.0.0 chugchugchak.pages.dev
+0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chukajoseph99.github.io
 0.0.0.0 chukan.ac.jp
 0.0.0.0 chuklead.web.app
@@ -166197,7 +166197,6 @@
 0.0.0.0 corvessantcapital.com
 0.0.0.0 corvilla.id
 0.0.0.0 corvosathletic.com
-0.0.0.0 corwineagles.com
 0.0.0.0 cory.lura.larealtypertners.com
 0.0.0.0 cory78jo887g-3.funnelflex.io
 0.0.0.0 coryjames.com
@@ -168816,7 +168815,6 @@
 0.0.0.0 crypto-com-auth-php-login.webflow.io
 0.0.0.0 crypto-com-logn.typedream.app
 0.0.0.0 crypto-connect.ml
-0.0.0.0 crypto-corexchange.com
 0.0.0.0 crypto-currency-landingpage-clone.vercel.app
 0.0.0.0 crypto-engine.pl
 0.0.0.0 crypto-eon-285409.uc.r.appspot.com
@@ -183619,6 +183617,7 @@
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
+0.0.0.0 dl.armour-inc-down.net
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
@@ -183773,7 +183772,6 @@
 0.0.0.0 dlvns-albpiping.spiceloans.com
 0.0.0.0 dlvr.readserver.net
 0.0.0.0 dlvry-ntfctionusps32xr.dynnamn.ru
-0.0.0.0 dlvryintl.com
 0.0.0.0 dlwbfire.org
 0.0.0.0 dlwcgxjrzarhwkoo-dot-millinium.ey.r.appspot.com
 0.0.0.0 dlwikkerhwsd.weebly.com
@@ -186777,7 +186775,6 @@
 0.0.0.0 dr3aq.byethost32.com
 0.0.0.0 dr4.easy.co
 0.0.0.0 dra.amazon-adsystem.com
-0.0.0.0 draalineverzignassi.com.br
 0.0.0.0 draceciliazambrano.com
 0.0.0.0 dracetronic.com.br
 0.0.0.0 dracherie.site
@@ -197015,7 +197012,6 @@
 0.0.0.0 enshrined-loud-blanket.glitch.me
 0.0.0.0 ensighten.com
 0.0.0.0 ensinger964.site
-0.0.0.0 ensions.xyz
 0.0.0.0 ensolvph.com
 0.0.0.0 ensonkimbakti.byethost7.com
 0.0.0.0 ensoxqgvjtepwgis-dot-millinium.ey.r.appspot.com
@@ -244395,7 +244391,6 @@
 0.0.0.0 hasszdc.duckdns.org
 0.0.0.0 hasszdd.duckdns.org
 0.0.0.0 hastagmedia.com
-0.0.0.0 hasteb.in
 0.0.0.0 hastebin.stamm.me
 0.0.0.0 hastenestate.com
 0.0.0.0 hastiro.in
@@ -284653,7 +284648,6 @@
 0.0.0.0 kingstonbathfitting.com
 0.0.0.0 kingstonresidency.com
 0.0.0.0 kingstonthepug.com
-0.0.0.0 kingstreetdental.com.au
 0.0.0.0 kingsvalleycharterschool.org
 0.0.0.0 kingsway.cm
 0.0.0.0 kingsway.com.ph
@@ -291806,7 +291800,6 @@
 0.0.0.0 lauvit117.com
 0.0.0.0 lava-carnation-mapusaurus.glitch.me
 0.0.0.0 lava-precious-vinyl.glitch.me
-0.0.0.0 lavacolla.com
 0.0.0.0 lavaenseco.com.ar
 0.0.0.0 lavaflow.cf
 0.0.0.0 lavaflow.ml
@@ -292998,7 +292991,6 @@
 0.0.0.0 leandroserain.com.br
 0.0.0.0 leanfeast.net
 0.0.0.0 leanldedyjerlogh-dot-millinium.ey.r.appspot.com
-0.0.0.0 leanmaestro.com
 0.0.0.0 leanmanagement.ro
 0.0.0.0 leanmobi.fusetracking.com
 0.0.0.0 leannethdam.buzz
@@ -298466,6 +298458,7 @@
 0.0.0.0 lkgandharw25.github.io
 0.0.0.0 lkghsbervzbbzzdg-dot-millinium.ey.r.appspot.com
 0.0.0.0 lkghytfgbnj22.pages.dev
+0.0.0.0 lkgkdsjd.com
 0.0.0.0 lkhalsamgy.myfunnelish.com
 0.0.0.0 lkhcjtmcgelpsplo-dot-millinium.ey.r.appspot.com
 0.0.0.0 lkhkpaupwczzhcgc-dot-millinium.ey.r.appspot.com
@@ -312106,6 +312099,7 @@
 0.0.0.0 mail.srgphotography.net
 0.0.0.0 mail.srv-account735473.duckdns.org
 0.0.0.0 mail.srv821793.hstgr.cloud
+0.0.0.0 mail.ssadownload.top
 0.0.0.0 mail.sslc-netflixpay1788.com
 0.0.0.0 mail.ssquaresup.com
 0.0.0.0 mail.sstat-1drhuntin.duckdns.org
@@ -314453,6 +314447,7 @@
 0.0.0.0 mand1r1.bezmxv.my.id
 0.0.0.0 mandafashion.com
 0.0.0.0 mandala-mart.com
+0.0.0.0 mandalaagrifresh.com
 0.0.0.0 mandalahome.es
 0.0.0.0 mandalamultimedia.com
 0.0.0.0 mandalasdoamor.com.br
@@ -318047,7 +318042,6 @@
 0.0.0.0 md-uk-2.whb.tempwebhost.net
 0.0.0.0 md-uk-3.whb.tempwebhost.net
 0.0.0.0 md.5.p2l.info
-0.0.0.0 md.ccsuquk.com
 0.0.0.0 md.m-space.jp
 0.0.0.0 md1.affluenceinaugurate.top
 0.0.0.0 md2.wahsantuy.xyz
@@ -356946,6 +356940,7 @@
 0.0.0.0 ok-bonusesfera.hopto.org
 0.0.0.0 ok-outlet.com
 0.0.0.0 ok-postoffice.com
+0.0.0.0 ok-vsefotki.online
 0.0.0.0 ok.5.p2l.info
 0.0.0.0 ok.andaydin.com
 0.0.0.0 ok.com.eac.by
@@ -357954,6 +357949,7 @@
 0.0.0.0 omavouphonsers.com
 0.0.0.0 omawood.com
 0.0.0.0 omax.admarvel.com
+0.0.0.0 omax.com.pk
 0.0.0.0 omay.pl
 0.0.0.0 omazeuceeazczprod.112.2o7.net
 0.0.0.0 omazon-jp.ineuxa.shop
@@ -368106,7 +368102,6 @@
 0.0.0.0 paste.ee
 0.0.0.0 pastebin.biz.id.turnkeyperformance.net
 0.0.0.0 pastebin.com
-0.0.0.0 pastee.dev
 0.0.0.0 pasteeshirt.biz
 0.0.0.0 pastehtml.com
 0.0.0.0 pastel-dawns.000webhostapp.com
@@ -407853,7 +407848,6 @@
 0.0.0.0 rizkillla.com
 0.0.0.0 rizomoxus.weebly.com
 0.0.0.0 rizqfoodservic.com
-0.0.0.0 rizvedevelop.com
 0.0.0.0 rizviahamed.github.io
 0.0.0.0 rizvistradinginc.com
 0.0.0.0 rizwaan11.github.io
@@ -410072,6 +410066,7 @@
 0.0.0.0 rosesribbons.com
 0.0.0.0 rosettastone.tt.omtrdc.net
 0.0.0.0 rosette.wavaigroup.com
+0.0.0.0 rosewoodlaminates.com
 0.0.0.0 roshan-karande.github.io
 0.0.0.0 roshan-keshri.github.io
 0.0.0.0 roshani-ship.github.io
@@ -420908,6 +420903,7 @@
 0.0.0.0 shreejiestatemanagement.com
 0.0.0.0 shreekundali.online
 0.0.0.0 shreenath1696.github.io
+0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
@@ -421378,6 +421374,7 @@
 0.0.0.0 sindloersme.ink
 0.0.0.0 sinemize.com
 0.0.0.0 sinera.org
+0.0.0.0 sinergiaconstruccion.com.mx
 0.0.0.0 sinettrk.com
 0.0.0.0 singa-formulus.com
 0.0.0.0 singaformulus-app.com
@@ -423159,6 +423156,7 @@
 0.0.0.0 sonic-0101.github.io
 0.0.0.0 sonic-us.supersonicads.com
 0.0.0.0 sonicado-fr.fyi
+0.0.0.0 soniderosunidos.com
 0.0.0.0 soniksports.fr
 0.0.0.0 sonjaschmidt.shop
 0.0.0.0 sonmezetevi.com
@@ -427412,6 +427410,7 @@
 0.0.0.0 sudacahivo.rest
 0.0.0.0 sudahosting.com
 0.0.0.0 sudais73.github.io
+0.0.0.0 sudan-daily.net
 0.0.0.0 sudarshanabpatil.github.io
 0.0.0.0 suddenplot.com
 0.0.0.0 sudh05.github.io
@@ -430969,6 +430968,7 @@
 0.0.0.0 tesla-2ju.pages.dev
 0.0.0.0 tesla.demo.webernets.online
 0.0.0.0 teslas-apply.com
+0.0.0.0 teslasuit.to
 0.0.0.0 teslauaeprojects.com
 0.0.0.0 tesltralonlinecentres.weebly.com
 0.0.0.0 tesori.pl
@@ -435371,7 +435371,6 @@
 0.0.0.0 ts-tracker-env.us-east-1.elasticbeanstalk.com
 0.0.0.0 ts-trader.site
 0.0.0.0 ts.amazon-adsystem.com
-0.0.0.0 ts.bhaaratkeeshakti.vip
 0.0.0.0 ts.istrack.com
 0.0.0.0 ts.richmedia.yahoo.com
 0.0.0.0 ts1.hitbox.com
@@ -439452,6 +439451,7 @@
 0.0.0.0 vanharenonlinenl.shop
 0.0.0.0 vanifmonog.rest
 0.0.0.0 vanillaandcream.com
+0.0.0.0 vanillamods.xyz
 0.0.0.0 vaniqa.1.p2l.info
 0.0.0.0 vanityestates.com
 0.0.0.0 vanityrouge.com
@@ -439600,6 +439600,7 @@
 0.0.0.0 vcbnmx.com
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
+0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
@@ -444888,7 +444889,6 @@
 0.0.0.0 wisconsinestateplanlaw.com
 0.0.0.0 wisconsinsmallclaimslaw.com
 0.0.0.0 wisconsintrafficlegal.com
-0.0.0.0 wisdomheart.org
 0.0.0.0 wisdomkeeper.pro
 0.0.0.0 wise-spending.site
 0.0.0.0 wise.goqbjichss.shop
@@ -460828,7 +460828,6 @@
 0.0.0.0 www.metron-arc.com
 0.0.0.0 www.metspa.cam
 0.0.0.0 www.metybai.pro
-0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mevsall.com
 0.0.0.0 www.mezczyzna-trendy.pl
 0.0.0.0 www.mftracking.com
@@ -469794,6 +469793,7 @@
 0.0.0.0 www.terylmonsonphotography.com
 0.0.0.0 www.teseresllc.com
 0.0.0.0 www.teslas-apply.com
+0.0.0.0 www.teslasuit.to
 0.0.0.0 www.teslauaeprojects.com
 0.0.0.0 www.tesori.pl
 0.0.0.0 www.tesorianza-es.com
@@ -471286,7 +471286,6 @@
 0.0.0.0 www.valuroster.com
 0.0.0.0 www.valveqlock.palakorn.com
 0.0.0.0 www.valyonar.com
-0.0.0.0 www.vame.be
 0.0.0.0 www.vandagverslag.com
 0.0.0.0 www.vandelixio-ai-it.com
 0.0.0.0 www.vandelixio-ai.fyi
@@ -475168,6 +475167,7 @@
 0.0.0.0 xrp2025.net
 0.0.0.0 xrratd.cn
 0.0.0.0 xrrl-casefb685611.vercel.app
+0.0.0.0 xs.bhaaratkeeshakti.vip
 0.0.0.0 xscdfvr4e3.blogspot.com
 0.0.0.0 xscdfvr4e3.blogspot.si
 0.0.0.0 xscdfvr4e3.blogspot.tw
@@ -475533,7 +475533,6 @@
 0.0.0.0 yasmin.3.p2l.info
 0.0.0.0 yasmin.4.p2l.info
 0.0.0.0 yasnhdnasdsald.icu
-0.0.0.0 yaso.su
 0.0.0.0 yassinekhaz1998.github.io
 0.0.0.0 yatftt.topup-center.com
 0.0.0.0 yatikprabhakar.github.io
