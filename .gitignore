@@ -89,3 +89,10 @@ Desktop.ini
 # Server-specific (not in repo)
 # =========================
 /var/log/apt-intel/
+iocs/suricata/generation_report.json
+
+# Step 2.E: deploy bundles are scratch, not versioned
+deploy/
+
+# Any stray .bak files
+*.bak
