@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-23 18:31:19
-# Entries: 474119
+# Generated: 2026-04-23 23:36:58
+# Entries: 474122
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -121353,6 +121353,7 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
+0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -165149,6 +165150,7 @@
 0.0.0.0 contextweb.com
 0.0.0.0 contigorentacar.com
 0.0.0.0 contineljs.com
+0.0.0.0 continentalgroup.net.in
 0.0.0.0 continentalpacifictextile.com
 0.0.0.0 continually-pan-used-shake.trycloudflare.com
 0.0.0.0 continualreservas.com
@@ -204630,6 +204632,7 @@
 0.0.0.0 facai.y82lj7e.cn
 0.0.0.0 facai2024.xn--bvs11es3ujti.com
 0.0.0.0 facai524.icu
+0.0.0.0 facanha.com.br
 0.0.0.0 facanjgijvsabnkfuadbybamyvbcjmulibwp-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 facaujowetta-8242-51618947-continue.vercel.app
 0.0.0.0 facb00keslat.000webhostapp.com
@@ -382445,6 +382448,7 @@
 0.0.0.0 prodigyfashion.es
 0.0.0.0 prodigynetlogss.weebly.com
 0.0.0.0 prodigysigninattsm.weebly.com
+0.0.0.0 prodimetal.com
 0.0.0.0 prodiversayvalik.com
 0.0.0.0 prodjs.wpenginepowered.com
 0.0.0.0 prodoctransfs.com
@@ -418947,6 +418951,7 @@
 0.0.0.0 servicio.generatusolicitud-online.site
 0.0.0.0 serviciodelwebclientes.cloudaccess.host
 0.0.0.0 serviciopostal.vip
+0.0.0.0 servicioslogisticosdyc.com
 0.0.0.0 serviciospatito.com
 0.0.0.0 serviciotecnico.com.uy
 0.0.0.0 serviciotrackwp.sviluppo.host
@@ -430572,7 +430577,6 @@
 0.0.0.0 ticm.sap0508x9v.vip
 0.0.0.0 ticm.tap0297p8b.top
 0.0.0.0 ticolatonisan.pages.dev
-0.0.0.0 ticpc8a.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 ticskwsythree.icu
 0.0.0.0 tidaltv.com
@@ -441551,7 +441555,6 @@
 0.0.0.0 webcounter.cz
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
-0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
