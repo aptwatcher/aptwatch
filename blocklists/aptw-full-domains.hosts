@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-23 23:36:58
-# Entries: 474122
+# Generated: 2026-04-24 00:30:42
+# Entries: 474127
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -63396,6 +63396,7 @@
 0.0.0.0 altameergarments.com
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
+0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanowo.shop
 0.0.0.0 altanyucetas.com
@@ -165150,7 +165151,6 @@
 0.0.0.0 contextweb.com
 0.0.0.0 contigorentacar.com
 0.0.0.0 contineljs.com
-0.0.0.0 continentalgroup.net.in
 0.0.0.0 continentalpacifictextile.com
 0.0.0.0 continually-pan-used-shake.trycloudflare.com
 0.0.0.0 continualreservas.com
@@ -175630,6 +175630,7 @@
 0.0.0.0 deasaawogbappaoni.vercel.app
 0.0.0.0 deashuifae.co.vu
 0.0.0.0 death-beforedecaf.com
+0.0.0.0 deathmatchuk.com
 0.0.0.0 deathreturns.my
 0.0.0.0 deaths-fin-choice-reseller.trycloudflare.com
 0.0.0.0 deathvenom.com
@@ -177758,6 +177759,7 @@
 0.0.0.0 desktop-lrdgrlive.webflow.io
 0.0.0.0 desktop-start-ledged.webflow.io
 0.0.0.0 desktop-trezor-start.webflow.io
+0.0.0.0 desktop-version.com
 0.0.0.0 desktop-web--ledgerlive.webflow.io
 0.0.0.0 desktop.anscxnyn.com
 0.0.0.0 desktop.originalcartoes.com
@@ -302274,6 +302276,7 @@
 0.0.0.0 londamiachels.tk
 0.0.0.0 london-delight.ga
 0.0.0.0 london-healthcare.com
+0.0.0.0 londonairportstransfer.co.uk
 0.0.0.0 londoncamerahireservices.co.uk
 0.0.0.0 londondanceschool.com
 0.0.0.0 londonfreweb.website.cv
@@ -332845,6 +332848,7 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
+0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -368745,6 +368749,7 @@
 0.0.0.0 paypal.aisgwb.org
 0.0.0.0 paypal.albuquerque.one
 0.0.0.0 paypal.assured.fun
+0.0.0.0 paypal.auth-sharefile.com
 0.0.0.0 paypal.authorisation-ref.com
 0.0.0.0 paypal.authtransfer.com
 0.0.0.0 paypal.b2pay.top
@@ -401175,6 +401180,7 @@
 0.0.0.0 redline-boutique.fr
 0.0.0.0 redlinkbits.top
 0.0.0.0 redlion-lb.com
+0.0.0.0 redlk.com
 0.0.0.0 redllnk.ddns.net
 0.0.0.0 redllnk.sytes.net
 0.0.0.0 redlodgeyoga.com
@@ -406683,6 +406689,7 @@
 0.0.0.0 ritammukherjee05.github.io
 0.0.0.0 ritchad.weeblysite.com
 0.0.0.0 rite-of-passage.my.id
+0.0.0.0 ritee.in
 0.0.0.0 riteekranjan.github.io
 0.0.0.0 riteindia.org
 0.0.0.0 ritendragour.github.io
@@ -413495,7 +413502,6 @@
 0.0.0.0 safeurl-sharepoint-account-hvlaw.sohaibislamjoy.top
 0.0.0.0 safeurl.maxthon.cn
 0.0.0.0 safewalletconnect.net
-0.0.0.0 safewatertech.com
 0.0.0.0 safeway96e7e.weebly.com
 0.0.0.0 safewaysecurityscreens.com.au
 0.0.0.0 safewebgrowthnation.vercel.app
@@ -418951,7 +418957,6 @@
 0.0.0.0 servicio.generatusolicitud-online.site
 0.0.0.0 serviciodelwebclientes.cloudaccess.host
 0.0.0.0 serviciopostal.vip
-0.0.0.0 servicioslogisticosdyc.com
 0.0.0.0 serviciospatito.com
 0.0.0.0 serviciotecnico.com.uy
 0.0.0.0 serviciotrackwp.sviluppo.host
