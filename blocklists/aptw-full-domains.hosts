@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-24 12:31:14
-# Entries: 474127
+# Generated: 2026-04-24 18:31:13
+# Entries: 474133
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -195136,7 +195136,6 @@
 0.0.0.0 emailserviceprocess.us-south.cf.appdomain.cloud
 0.0.0.0 emailsettings.webflow.io
 0.0.0.0 emailsettingvalidation.weebly.com
-0.0.0.0 emailspro.store
 0.0.0.0 emailsrv37c287afc5b3c5ba.konditorei-jacobsohn.de
 0.0.0.0 emailsuport.com
 0.0.0.0 emailszav5.cf
@@ -224530,6 +224529,7 @@
 0.0.0.0 gadoaxccqczvcwtb-dot-millinium.ey.r.appspot.com
 0.0.0.0 gadoliniummosque.co.kr
 0.0.0.0 gadolutragro.vercel.app
+0.0.0.0 gadomamada.com
 0.0.0.0 gadrinks.com
 0.0.0.0 gads.pubmatic.com
 0.0.0.0 gadsbee.com
@@ -224996,6 +224996,7 @@
 0.0.0.0 games-official.events-page.com
 0.0.0.0 games.bet365.com
 0.0.0.0 games.cityads.com
+0.0.0.0 games.payos.cfd
 0.0.0.0 games.pomento.in
 0.0.0.0 games.superappbox.com
 0.0.0.0 games.validarr.line.pm
@@ -242348,6 +242349,7 @@
 0.0.0.0 half-dead-hydromete.000webhostapp.com
 0.0.0.0 half-momentous-dance.glitch.me
 0.0.0.0 half-trite-boat.glitch.me
+0.0.0.0 halfmillion-iq.com
 0.0.0.0 halfmoonsmast.jrcasey.com
 0.0.0.0 halfoffhome.shop
 0.0.0.0 halfpricebrooklyn.com
@@ -271795,6 +271797,7 @@
 0.0.0.0 jalalsalomy.000webhostapp.com
 0.0.0.0 jalandharpolice.com
 0.0.0.0 jalanmania.com
+0.0.0.0 jalebel7abeb.com
 0.0.0.0 jalfre.com
 0.0.0.0 jalgaonkaraakansha78-crypto.github.io
 0.0.0.0 jaliscoctm.org
@@ -319728,6 +319731,7 @@
 0.0.0.0 merry-rugelach-86e65c.netlify.app
 0.0.0.0 merryberg.com
 0.0.0.0 merrychristmas.wishesfor.com
+0.0.0.0 merryfieldrenovations.com
 0.0.0.0 merryholidays.org
 0.0.0.0 merrylu.co.il
 0.0.0.0 merryment00998.wixsite.com
@@ -406688,6 +406692,7 @@
 0.0.0.0 ritammukherjee05.github.io
 0.0.0.0 ritchad.weeblysite.com
 0.0.0.0 rite-of-passage.my.id
+0.0.0.0 ritee.in
 0.0.0.0 riteekranjan.github.io
 0.0.0.0 riteindia.org
 0.0.0.0 ritendragour.github.io
@@ -416196,7 +416201,6 @@
 0.0.0.0 sattioes.com
 0.0.0.0 sattota.com
 0.0.0.0 sattvadoshi.github.io
-0.0.0.0 satuatlas.com
 0.0.0.0 satuosrdaysa07.co.vu
 0.0.0.0 satura.pl
 0.0.0.0 saturdayindownsview.ca
@@ -420163,6 +420167,7 @@
 0.0.0.0 silverbranch.site
 0.0.0.0 silverchalrpartners.com
 0.0.0.0 silvercoreless.pro
+0.0.0.0 silverhost.vg
 0.0.0.0 silvermob.com
 0.0.0.0 silvernest.my
 0.0.0.0 silverpeak.jdevcloud.com
@@ -467114,6 +467119,7 @@
 0.0.0.0 www.tekindirim.com
 0.0.0.0 www.teknolojibakisacisi.com
 0.0.0.0 www.teknonext.net
+0.0.0.0 www.teknotown.com
 0.0.0.0 www.teknoworm.com
 0.0.0.0 www.tekstilrehberi.com
 0.0.0.0 www.tektv.shop
