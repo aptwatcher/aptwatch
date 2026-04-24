@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-24 00:30:42
-# Entries: 474127
+# Generated: 2026-04-24 06:31:15
+# Entries: 474123
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -54941,6 +54941,7 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
+0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -63396,7 +63397,6 @@
 0.0.0.0 altameergarments.com
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
-0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanowo.shop
 0.0.0.0 altanyucetas.com
@@ -121354,7 +121354,6 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
-0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -165151,6 +165150,7 @@
 0.0.0.0 contextweb.com
 0.0.0.0 contigorentacar.com
 0.0.0.0 contineljs.com
+0.0.0.0 continentalgroup.net.in
 0.0.0.0 continentalpacifictextile.com
 0.0.0.0 continually-pan-used-shake.trycloudflare.com
 0.0.0.0 continualreservas.com
@@ -200775,6 +200775,7 @@
 0.0.0.0 eventosconciertosbailes.mx
 0.0.0.0 eventosefeiras.com
 0.0.0.0 eventosyfiestasinfantiles.com
+0.0.0.0 eventourarte.cl
 0.0.0.0 eventpartys18.com
 0.0.0.0 eventpaypal2019.onedumb.com
 0.0.0.0 eventpestadiamond.duckdns.org
@@ -204634,7 +204635,6 @@
 0.0.0.0 facai.y82lj7e.cn
 0.0.0.0 facai2024.xn--bvs11es3ujti.com
 0.0.0.0 facai524.icu
-0.0.0.0 facanha.com.br
 0.0.0.0 facanjgijvsabnkfuadbybamyvbcjmulibwp-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 facaujowetta-8242-51618947-continue.vercel.app
 0.0.0.0 facb00keslat.000webhostapp.com
@@ -302276,7 +302276,6 @@
 0.0.0.0 londamiachels.tk
 0.0.0.0 london-delight.ga
 0.0.0.0 london-healthcare.com
-0.0.0.0 londonairportstransfer.co.uk
 0.0.0.0 londoncamerahireservices.co.uk
 0.0.0.0 londondanceschool.com
 0.0.0.0 londonfreweb.website.cv
@@ -382453,7 +382452,6 @@
 0.0.0.0 prodigyfashion.es
 0.0.0.0 prodigynetlogss.weebly.com
 0.0.0.0 prodigysigninattsm.weebly.com
-0.0.0.0 prodimetal.com
 0.0.0.0 prodiversayvalik.com
 0.0.0.0 prodjs.wpenginepowered.com
 0.0.0.0 prodoctransfs.com
@@ -406689,7 +406687,6 @@
 0.0.0.0 ritammukherjee05.github.io
 0.0.0.0 ritchad.weeblysite.com
 0.0.0.0 rite-of-passage.my.id
-0.0.0.0 ritee.in
 0.0.0.0 riteekranjan.github.io
 0.0.0.0 riteindia.org
 0.0.0.0 ritendragour.github.io
@@ -441584,7 +441581,6 @@
 0.0.0.0 webdisk.3-137-194-246.cprapid.com
 0.0.0.0 webdisk.onelec.com.au
 0.0.0.0 webdo--loadledgerlive.webflow.io
-0.0.0.0 webdriver-select.vg
 0.0.0.0 webex.ciscocalls.com
 0.0.0.0 webexodus.created.app
 0.0.0.0 webfile.adview.cn
