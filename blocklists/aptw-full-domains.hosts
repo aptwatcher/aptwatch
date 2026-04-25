@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-25 12:31:05
-# Entries: 474133
+# Generated: 2026-04-25 18:31:13
+# Entries: 474138
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -74020,6 +74020,7 @@
 0.0.0.0 anyeleventura.github.io
 0.0.0.0 anyesha-biswas.github.io
 0.0.0.0 anyhealthtips.com
+0.0.0.0 anyhoo.testeaza.eu
 0.0.0.0 anyillustrations.com
 0.0.0.0 anyimage.top
 0.0.0.0 anylist.c.appier.net
@@ -121353,6 +121354,7 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
+0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -165149,6 +165151,7 @@
 0.0.0.0 contextweb.com
 0.0.0.0 contigorentacar.com
 0.0.0.0 contineljs.com
+0.0.0.0 continentalgroup.net.in
 0.0.0.0 continentalpacifictextile.com
 0.0.0.0 continually-pan-used-shake.trycloudflare.com
 0.0.0.0 continualreservas.com
@@ -174999,6 +175002,7 @@
 0.0.0.0 dcda94d8.8h01u4.shop
 0.0.0.0 dcdcd22.pages.dev
 0.0.0.0 dcde4a94.iwiowmnc-1.shop
+0.0.0.0 dcdivas.com
 0.0.0.0 dcdjefznbmkdbjcp-dot-millinium.ey.r.appspot.com
 0.0.0.0 dcdn.adnxs.com
 0.0.0.0 dcdoukbd.weeblysite.com
@@ -183430,7 +183434,6 @@
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
-0.0.0.0 dl.armour-inc-down.net
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
@@ -186984,6 +186987,7 @@
 0.0.0.0 drgrossu.md
 0.0.0.0 drhankdelivered.com
 0.0.0.0 drharisinghjachak.com
+0.0.0.0 drhenrylopez.com
 0.0.0.0 drhhfddbwy.duckdns.org
 0.0.0.0 drhuldaclark-zappers.website
 0.0.0.0 dricodavila.com
@@ -232004,6 +232008,7 @@
 0.0.0.0 gobiernoygestion.com.mx
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobizboost.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
@@ -295782,6 +295787,7 @@
 0.0.0.0 lindasmith.000webhostapp.com
 0.0.0.0 lindatee.com
 0.0.0.0 lindelcreditgroup.com
+0.0.0.0 lindenappliances.co.za
 0.0.0.0 lindencityschoolsbb.org
 0.0.0.0 lindenconsultoria.com.br
 0.0.0.0 lindependnant.fr
@@ -306657,6 +306663,7 @@
 0.0.0.0 maajqozvhezgazia-dot-millinium.ey.r.appspot.com
 0.0.0.0 maakabhsdagvka.b-cdn.net
 0.0.0.0 maakichutduniyavaloki.b-cdn.net
+0.0.0.0 maalamin.sch.id
 0.0.0.0 maalim.xyz
 0.0.0.0 maalloys.com.my
 0.0.0.0 maalselvbygg.no
@@ -329531,7 +329538,6 @@
 0.0.0.0 misionesinfo.com
 0.0.0.0 misionhome-agric.hostkda.com
 0.0.0.0 misionweb.net
-0.0.0.0 miskolc-dugulaselharitas.hu
 0.0.0.0 mislikingduttolog.info
 0.0.0.0 mismaaiauuipymfhlepjgurpjulmtyqxlmrv-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 mismeasyyurementsshaper.info
@@ -406691,7 +406697,6 @@
 0.0.0.0 ritammukherjee05.github.io
 0.0.0.0 ritchad.weeblysite.com
 0.0.0.0 rite-of-passage.my.id
-0.0.0.0 ritee.in
 0.0.0.0 riteekranjan.github.io
 0.0.0.0 riteindia.org
 0.0.0.0 ritendragour.github.io
@@ -419207,7 +419212,6 @@
 0.0.0.0 sghealthtendersuae.com
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
-0.0.0.0 sgindustries.lk
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgmedia.adspirit.net
 0.0.0.0 sgmodderins.vercel.app
@@ -456225,6 +456229,7 @@
 0.0.0.0 www.itadygolab.store
 0.0.0.0 www.itaka.dziecko-pl.sbs
 0.0.0.0 www.italianews.world
+0.0.0.0 www.italiaregina.it
 0.0.0.0 www.italinstantevex.com
 0.0.0.0 www.italrenditix.com
 0.0.0.0 www.itccertifications.org
