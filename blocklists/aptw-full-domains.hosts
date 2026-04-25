@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-25 06:31:17
-# Entries: 474134
+# Generated: 2026-04-25 12:31:05
+# Entries: 474133
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -54941,7 +54941,6 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
-0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -130483,7 +130482,6 @@
 0.0.0.0 blisspoint.us-east-1.stinger-ad.bidr.io
 0.0.0.0 blisspoint.us-west-2.stinger-ad.bidr.io
 0.0.0.0 blisstree.us.intellitxt.com
-0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blity.click
 0.0.0.0 blitz-transfer.com
@@ -232006,7 +232004,6 @@
 0.0.0.0 gobiernoygestion.com.mx
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobizboost.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
@@ -329534,6 +329531,7 @@
 0.0.0.0 misionesinfo.com
 0.0.0.0 misionhome-agric.hostkda.com
 0.0.0.0 misionweb.net
+0.0.0.0 miskolc-dugulaselharitas.hu
 0.0.0.0 mislikingduttolog.info
 0.0.0.0 mismaaiauuipymfhlepjgurpjulmtyqxlmrv-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 mismeasyyurementsshaper.info
@@ -336824,7 +336822,6 @@
 0.0.0.0 mvm-szamlafizetes.com
 0.0.0.0 mvm.com.sg
 0.0.0.0 mvmakani.in
-0.0.0.0 mvmconstructores.com
 0.0.0.0 mvmfmgmbbneribnre.azurewebsites.net
 0.0.0.0 mvminc.sa.com
 0.0.0.0 mvmzsvypjkypydoucdiznqqxpjecwmbnqrnd-dot-cryptic-now-290917.ey.r.appspot.com
@@ -416915,6 +416912,7 @@
 0.0.0.0 schemeban.juanprotect.com
 0.0.0.0 schemedeve.pyrorobot.com
 0.0.0.0 schemestop.kalemicros.com
+0.0.0.0 schenckel.com.br
 0.0.0.0 schercynar.cyou
 0.0.0.0 schiaarcsi.cyou
 0.0.0.0 schiaitter.rest
@@ -419209,6 +419207,7 @@
 0.0.0.0 sghealthtendersuae.com
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
+0.0.0.0 sgindustries.lk
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgmedia.adspirit.net
 0.0.0.0 sgmodderins.vercel.app
