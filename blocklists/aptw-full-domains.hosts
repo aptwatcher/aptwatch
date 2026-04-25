@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-25 00:30:25
-# Entries: 474139
+# Generated: 2026-04-25 06:31:17
+# Entries: 474134
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -27728,7 +27728,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -54942,6 +54941,7 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
+0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -130483,6 +130483,7 @@
 0.0.0.0 blisspoint.us-east-1.stinger-ad.bidr.io
 0.0.0.0 blisspoint.us-west-2.stinger-ad.bidr.io
 0.0.0.0 blisstree.us.intellitxt.com
+0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blity.click
 0.0.0.0 blitz-transfer.com
@@ -157330,7 +157331,6 @@
 0.0.0.0 cloudmsmessagesreleaingafterverificationmymsuser673479329482387.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 cloudmy-ids.com
 0.0.0.0 cloudnetfiji.com
-0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudnstamp.giridharvegrestaurant.com
@@ -165151,7 +165151,6 @@
 0.0.0.0 contextweb.com
 0.0.0.0 contigorentacar.com
 0.0.0.0 contineljs.com
-0.0.0.0 continentalgroup.net.in
 0.0.0.0 continentalpacifictextile.com
 0.0.0.0 continually-pan-used-shake.trycloudflare.com
 0.0.0.0 continualreservas.com
@@ -218739,7 +218738,6 @@
 0.0.0.0 fonet.ec
 0.0.0.0 fonfmagljg4c4dte4hgehu86aa.wusps.xyz
 0.0.0.0 fonhnzlvatkkullucbbvljvxei-dot-gleow2021ja.ue.r.appspot.com
-0.0.0.0 fonij.cm
 0.0.0.0 fonitel.com.br
 0.0.0.0 fonixpizza.no
 0.0.0.0 fonohouse.com.br
@@ -292362,7 +292360,6 @@
 0.0.0.0 leandrohenriq.github.io
 0.0.0.0 leandroserain.com.br
 0.0.0.0 leanldedyjerlogh-dot-millinium.ey.r.appspot.com
-0.0.0.0 leanmaestro.com
 0.0.0.0 leanmanagement.ro
 0.0.0.0 leanmobi.fusetracking.com
 0.0.0.0 leannethdam.buzz
@@ -295788,7 +295785,6 @@
 0.0.0.0 lindasmith.000webhostapp.com
 0.0.0.0 lindatee.com
 0.0.0.0 lindelcreditgroup.com
-0.0.0.0 lindenappliances.co.za
 0.0.0.0 lindencityschoolsbb.org
 0.0.0.0 lindenconsultoria.com.br
 0.0.0.0 lindependnant.fr
@@ -332857,7 +332853,6 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
-0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -336829,6 +336824,7 @@
 0.0.0.0 mvm-szamlafizetes.com
 0.0.0.0 mvm.com.sg
 0.0.0.0 mvmakani.in
+0.0.0.0 mvmconstructores.com
 0.0.0.0 mvmfmgmbbneribnre.azurewebsites.net
 0.0.0.0 mvminc.sa.com
 0.0.0.0 mvmzsvypjkypydoucdiznqqxpjecwmbnqrnd-dot-cryptic-now-290917.ey.r.appspot.com
@@ -352295,7 +352291,6 @@
 0.0.0.0 nutrikalia.com
 0.0.0.0 nutrilshop.net.tr.ht
 0.0.0.0 nutrired.org
-0.0.0.0 nutrisc.com.br
 0.0.0.0 nutrisilviaramos.com.br
 0.0.0.0 nutrisincera.com
 0.0.0.0 nutrisuave.com
@@ -416920,7 +416915,6 @@
 0.0.0.0 schemeban.juanprotect.com
 0.0.0.0 schemedeve.pyrorobot.com
 0.0.0.0 schemestop.kalemicros.com
-0.0.0.0 schenckel.com.br
 0.0.0.0 schercynar.cyou
 0.0.0.0 schiaarcsi.cyou
 0.0.0.0 schiaitter.rest
@@ -441573,6 +441567,7 @@
 0.0.0.0 webcounter.cz
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
