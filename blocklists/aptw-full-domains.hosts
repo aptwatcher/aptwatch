@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-24 18:31:13
-# Entries: 474133
+# Generated: 2026-04-25 00:30:25
+# Entries: 474139
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -27728,6 +27728,7 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
+0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -157329,6 +157330,7 @@
 0.0.0.0 cloudmsmessagesreleaingafterverificationmymsuser673479329482387.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 cloudmy-ids.com
 0.0.0.0 cloudnetfiji.com
+0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudnstamp.giridharvegrestaurant.com
@@ -176409,7 +176411,6 @@
 0.0.0.0 delices.com.ve
 0.0.0.0 delicesegypte291021.be
 0.0.0.0 deliceservices.com
-0.0.0.0 deliciassobencomenda.com.br
 0.0.0.0 delicious-bubble-piccolo.glitch.me
 0.0.0.0 delicious-decorous-army.glitch.me
 0.0.0.0 delicious-screen-802912.framer.app
@@ -183432,6 +183433,7 @@
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
+0.0.0.0 dl.armour-inc-down.net
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
@@ -195136,6 +195138,7 @@
 0.0.0.0 emailserviceprocess.us-south.cf.appdomain.cloud
 0.0.0.0 emailsettings.webflow.io
 0.0.0.0 emailsettingvalidation.weebly.com
+0.0.0.0 emailspro.store
 0.0.0.0 emailsrv37c287afc5b3c5ba.konditorei-jacobsohn.de
 0.0.0.0 emailsuport.com
 0.0.0.0 emailszav5.cf
@@ -218736,6 +218739,7 @@
 0.0.0.0 fonet.ec
 0.0.0.0 fonfmagljg4c4dte4hgehu86aa.wusps.xyz
 0.0.0.0 fonhnzlvatkkullucbbvljvxei-dot-gleow2021ja.ue.r.appspot.com
+0.0.0.0 fonij.cm
 0.0.0.0 fonitel.com.br
 0.0.0.0 fonixpizza.no
 0.0.0.0 fonohouse.com.br
@@ -232004,6 +232008,7 @@
 0.0.0.0 gobiernoygestion.com.mx
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobizboost.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
@@ -271797,7 +271802,6 @@
 0.0.0.0 jalalsalomy.000webhostapp.com
 0.0.0.0 jalandharpolice.com
 0.0.0.0 jalanmania.com
-0.0.0.0 jalebel7abeb.com
 0.0.0.0 jalfre.com
 0.0.0.0 jalgaonkaraakansha78-crypto.github.io
 0.0.0.0 jaliscoctm.org
@@ -292358,6 +292362,7 @@
 0.0.0.0 leandrohenriq.github.io
 0.0.0.0 leandroserain.com.br
 0.0.0.0 leanldedyjerlogh-dot-millinium.ey.r.appspot.com
+0.0.0.0 leanmaestro.com
 0.0.0.0 leanmanagement.ro
 0.0.0.0 leanmobi.fusetracking.com
 0.0.0.0 leannethdam.buzz
@@ -319731,7 +319736,6 @@
 0.0.0.0 merry-rugelach-86e65c.netlify.app
 0.0.0.0 merryberg.com
 0.0.0.0 merrychristmas.wishesfor.com
-0.0.0.0 merryfieldrenovations.com
 0.0.0.0 merryholidays.org
 0.0.0.0 merrylu.co.il
 0.0.0.0 merryment00998.wixsite.com
@@ -332853,6 +332857,7 @@
 0.0.0.0 mondemedia.info
 0.0.0.0 mondendental.ro
 0.0.0.0 monderhfg.com
+0.0.0.0 mondesignweb.com
 0.0.0.0 mondespersistants.fr
 0.0.0.0 mondial-relais-support-colis.top
 0.0.0.0 mondial-relay.me
@@ -352290,6 +352295,7 @@
 0.0.0.0 nutrikalia.com
 0.0.0.0 nutrilshop.net.tr.ht
 0.0.0.0 nutrired.org
+0.0.0.0 nutrisc.com.br
 0.0.0.0 nutrisilviaramos.com.br
 0.0.0.0 nutrisincera.com
 0.0.0.0 nutrisuave.com
@@ -398560,6 +398566,7 @@
 0.0.0.0 ravix7.lat
 0.0.0.0 raviyaka1.tripod.com
 0.0.0.0 ravosa.info
+0.0.0.0 raw.flameblox.com
 0.0.0.0 rawa.cu.ma
 0.0.0.0 rawamyhfvpxlqoiaacdezcnakr-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 rawards-sblcollect.pages.dev
@@ -436200,6 +436207,7 @@
 0.0.0.0 usdtmixer.net
 0.0.0.0 usdtmixer.to
 0.0.0.0 usdyw7e7jjgs.sosiuweyahnbjgjsd.eeohlj.com
+0.0.0.0 use-claude.com
 0.0.0.0 use-exodusweb.teachable.com
 0.0.0.0 use-tor.adsrvr.org
 0.0.0.0 use-trezr-hardware-wallet.pages.dev
@@ -441589,7 +441597,6 @@
 0.0.0.0 webdisk.3-137-194-246.cprapid.com
 0.0.0.0 webdisk.onelec.com.au
 0.0.0.0 webdo--loadledgerlive.webflow.io
-0.0.0.0 webdriver-select.vg
 0.0.0.0 webex.ciscocalls.com
 0.0.0.0 webexodus.created.app
 0.0.0.0 webfile.adview.cn
@@ -467119,7 +467126,6 @@
 0.0.0.0 www.tekindirim.com
 0.0.0.0 www.teknolojibakisacisi.com
 0.0.0.0 www.teknonext.net
-0.0.0.0 www.teknotown.com
 0.0.0.0 www.teknoworm.com
 0.0.0.0 www.tekstilrehberi.com
 0.0.0.0 www.tektv.shop
