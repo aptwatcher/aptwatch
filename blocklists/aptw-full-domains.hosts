@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-26 06:31:15
+# Generated: 2026-04-26 12:31:14
 # Entries: 474140
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -54941,7 +54941,6 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
-0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -147560,7 +147559,6 @@
 0.0.0.0 castrolprofessionalacademy.pl
 0.0.0.0 castromonitoramento.com.br
 0.0.0.0 castromunicipio.cl
-0.0.0.0 castroycontadores.com
 0.0.0.0 castuning.com
 0.0.0.0 casu-mpas.web.app
 0.0.0.0 casualdating.com
@@ -177947,6 +177945,7 @@
 0.0.0.0 detflix-96f2de.ingress-baronn.easywp.com
 0.0.0.0 dethecture.com
 0.0.0.0 dethex.pages.dev
+0.0.0.0 detierra.cl
 0.0.0.0 detik.serving-sys.com
 0.0.0.0 detiktotocakep.com
 0.0.0.0 detmwise.wixsite.com
@@ -181512,7 +181511,6 @@
 0.0.0.0 digitalcertificate-update.online
 0.0.0.0 digitalcities.info
 0.0.0.0 digitalcloudq.buzz
-0.0.0.0 digitalcode.sa
 0.0.0.0 digitalconcept.pro
 0.0.0.0 digitalconexao.tk
 0.0.0.0 digitalcrimeanwar.com
@@ -224932,6 +224930,7 @@
 0.0.0.0 gameburg.co
 0.0.0.0 gamecentertencent.com
 0.0.0.0 gamechallange.com
+0.0.0.0 gamecheap.store
 0.0.0.0 gamecoins.codes
 0.0.0.0 gamecrowds.top
 0.0.0.0 gamedancing.com
@@ -232010,7 +232009,6 @@
 0.0.0.0 gobiernoygestion.com.mx
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobizboost.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
@@ -302287,6 +302285,7 @@
 0.0.0.0 londamiachels.tk
 0.0.0.0 london-delight.ga
 0.0.0.0 london-healthcare.com
+0.0.0.0 londonairportstransfer.co.uk
 0.0.0.0 londoncamerahireservices.co.uk
 0.0.0.0 londondanceschool.com
 0.0.0.0 londonfreweb.website.cv
@@ -338418,6 +338417,7 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
+0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -406698,7 +406698,6 @@
 0.0.0.0 ritammukherjee05.github.io
 0.0.0.0 ritchad.weeblysite.com
 0.0.0.0 rite-of-passage.my.id
-0.0.0.0 ritee.in
 0.0.0.0 riteekranjan.github.io
 0.0.0.0 riteindia.org
 0.0.0.0 ritendragour.github.io
@@ -416919,6 +416918,7 @@
 0.0.0.0 schemeban.juanprotect.com
 0.0.0.0 schemedeve.pyrorobot.com
 0.0.0.0 schemestop.kalemicros.com
+0.0.0.0 schenckel.com.br
 0.0.0.0 schercynar.cyou
 0.0.0.0 schiaarcsi.cyou
 0.0.0.0 schiaitter.rest
@@ -419896,7 +419896,6 @@
 0.0.0.0 shredform.com
 0.0.0.0 shreejiestatemanagement.com
 0.0.0.0 shreenath1696.github.io
-0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
@@ -429362,6 +429361,7 @@
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techtalk.site
+0.0.0.0 techtattva.in
 0.0.0.0 techvancekariyer.com
 0.0.0.0 techvibeg.vercel.app
 0.0.0.0 techvisionreport.com
