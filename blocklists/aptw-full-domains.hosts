@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-25 18:31:13
-# Entries: 474138
+# Generated: 2026-04-26 00:30:55
+# Entries: 474139
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -54941,6 +54941,7 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
+0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -74020,7 +74021,6 @@
 0.0.0.0 anyeleventura.github.io
 0.0.0.0 anyesha-biswas.github.io
 0.0.0.0 anyhealthtips.com
-0.0.0.0 anyhoo.testeaza.eu
 0.0.0.0 anyillustrations.com
 0.0.0.0 anyimage.top
 0.0.0.0 anylist.c.appier.net
@@ -121354,7 +121354,6 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
-0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -154897,6 +154896,7 @@
 0.0.0.0 cl-ivhg.xyz
 0.0.0.0 cl-robot.org.steviebravo.com
 0.0.0.0 cl-v2f.ws.blueservertop1.com
+0.0.0.0 cl.distritovagas.com
 0.0.0.0 cl.gy
 0.0.0.0 cl.hirefrederick.com
 0.0.0.0 cl.kbtc.ac.th
@@ -176030,6 +176030,7 @@
 0.0.0.0 deeply-stormy-ankylosaurus.glitch.me
 0.0.0.0 deepmer.anakembok.de
 0.0.0.0 deepnodes.pages.dev
+0.0.0.0 deepnoxa.com
 0.0.0.0 deeppink-caribou-696197.hostingersite.com
 0.0.0.0 deeps2020.000webhostapp.com
 0.0.0.0 deepsabrina.za.net
@@ -177761,7 +177762,6 @@
 0.0.0.0 desktop-lrdgrlive.webflow.io
 0.0.0.0 desktop-start-ledged.webflow.io
 0.0.0.0 desktop-trezor-start.webflow.io
-0.0.0.0 desktop-version.com
 0.0.0.0 desktop-web--ledgerlive.webflow.io
 0.0.0.0 desktop.anscxnyn.com
 0.0.0.0 desktop.originalcartoes.com
@@ -186987,7 +186987,6 @@
 0.0.0.0 drgrossu.md
 0.0.0.0 drhankdelivered.com
 0.0.0.0 drharisinghjachak.com
-0.0.0.0 drhenrylopez.com
 0.0.0.0 drhhfddbwy.duckdns.org
 0.0.0.0 drhuldaclark-zappers.website
 0.0.0.0 dricodavila.com
@@ -196741,6 +196740,7 @@
 0.0.0.0 enotecadeisaggi.wine
 0.0.0.0 enotecas.com.co
 0.0.0.0 enotice.in
+0.0.0.0 enotpidarmot.pw
 0.0.0.0 enough-about-them.my.id
 0.0.0.0 enough-island-whining.on-fleek.app
 0.0.0.0 enough-qualities.000webhostapp.com
@@ -232008,7 +232008,6 @@
 0.0.0.0 gobiernoygestion.com.mx
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobizboost.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
@@ -233068,6 +233067,7 @@
 0.0.0.0 gossamer-clover-jonquil.glitch.me
 0.0.0.0 gossamer-plain-perigee.glitch.me
 0.0.0.0 gossamerbio.corporacionfrm.org
+0.0.0.0 gossipband.ie
 0.0.0.0 gossipbottom.com
 0.0.0.0 gossipcenter.us.intellitxt.com
 0.0.0.0 gossiponthis.us.intellitxt.com
@@ -306663,7 +306663,6 @@
 0.0.0.0 maajqozvhezgazia-dot-millinium.ey.r.appspot.com
 0.0.0.0 maakabhsdagvka.b-cdn.net
 0.0.0.0 maakichutduniyavaloki.b-cdn.net
-0.0.0.0 maalamin.sch.id
 0.0.0.0 maalim.xyz
 0.0.0.0 maalloys.com.my
 0.0.0.0 maalselvbygg.no
@@ -368757,7 +368756,6 @@
 0.0.0.0 paypal.aisgwb.org
 0.0.0.0 paypal.albuquerque.one
 0.0.0.0 paypal.assured.fun
-0.0.0.0 paypal.auth-sharefile.com
 0.0.0.0 paypal.authorisation-ref.com
 0.0.0.0 paypal.authtransfer.com
 0.0.0.0 paypal.b2pay.top
@@ -394058,6 +394056,7 @@
 0.0.0.0 qhqkajjx.shop
 0.0.0.0 qhryat.ga
 0.0.0.0 qhs2ii.hwy192.com
+0.0.0.0 qhsd8888.com
 0.0.0.0 qhsiqcoppkxzkraw-dot-millinium.ey.r.appspot.com
 0.0.0.0 qhtqf.movimento-comunita.org
 0.0.0.0 qhuni5.com
@@ -422084,6 +422083,7 @@
 0.0.0.0 sonjaschmidt.shop
 0.0.0.0 sonmezetevi.com
 0.0.0.0 sonobi.com
+0.0.0.0 sonra.eutialyson.com
 0.0.0.0 sonrentacar.com
 0.0.0.0 sontungmtpmaidinhnhe.pages.dev
 0.0.0.0 sonudesigner12.github.io
@@ -429293,6 +429293,7 @@
 0.0.0.0 techaerolabs.com
 0.0.0.0 techalcyon.com
 0.0.0.0 techbargins.com
+0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techeblog.us.intellitxt.com
@@ -438262,6 +438263,7 @@
 0.0.0.0 vcbnmx.com
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
+0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
@@ -441570,7 +441572,6 @@
 0.0.0.0 webcounter.cz
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
-0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
