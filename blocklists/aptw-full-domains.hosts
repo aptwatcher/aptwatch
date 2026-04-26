@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-26 12:31:14
-# Entries: 474140
+# Generated: 2026-04-26 18:31:16
+# Entries: 474118
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -12357,7 +12357,6 @@
 0.0.0.0 26ca3615-e789-41f3-afd1-789847971b4f.id.repl.co
 0.0.0.0 26d0055e-8360-42c1-8379-88bf9eb876bf-00-1hk67cgy9dymw.kirk.replit.dev
 0.0.0.0 26d14w.com
-0.0.0.0 26d6u3ekphojaw2iyflrriat4oecuhpowojc63nss665aax3573q.arweave.net
 0.0.0.0 26da739b.e4fe5786c278a1f4aea57cd9.workers.dev
 0.0.0.0 26de4755afe2-shared.lowcodeunit.com
 0.0.0.0 26df.litiezhuu.top
@@ -13614,7 +13613,6 @@
 0.0.0.0 2tiypqorgqg5x5m.wusps.xyz
 0.0.0.0 2ton.com
 0.0.0.0 2tpbn.codesandbox.io
-0.0.0.0 2tpo6pqhdeimst6mlqmjxecjtonh5y4oedeywnj52cc6crtfwcma.arweave.net
 0.0.0.0 2tqllpt.xyz
 0.0.0.0 2trade.fintodayai.cyou
 0.0.0.0 2tripx.com
@@ -14983,7 +14981,6 @@
 0.0.0.0 336885.life
 0.0.0.0 3368917517.haztedigital.cl
 0.0.0.0 336e7e5613cd454271e8c90a8763c78e-dot-doornext.oa.r.appspot.com
-0.0.0.0 336hdjnyrreuzutetwjhwcfsiq7ll5nvx2w5gz3ximsj7mg7pjla.arweave.net
 0.0.0.0 3370azz24c87.h25.cl
 0.0.0.0 337302241920827245573956762077574739.hanefra7bikiemta.com
 0.0.0.0 337362558598298.graficaaoquadrado.com.br
@@ -18469,7 +18466,6 @@
 0.0.0.0 3oijhue.cfd
 0.0.0.0 3oinlb8.qwo231sdx.club
 0.0.0.0 3okje83.cfd
-0.0.0.0 3okwqb4anv3adfvz2hzc3hyco42phikgg23bf3absn2uvlyseovq.arweave.net
 0.0.0.0 3ol8jrw7.qwo231sdx.club
 0.0.0.0 3olotoavatar35e.000webhostapp.com
 0.0.0.0 3omaralaa.github.io
@@ -20097,7 +20093,6 @@
 0.0.0.0 46fc49e4-0bd9-4e5a-bf63-78204b4a07c9.usrfiles.com
 0.0.0.0 46fe3420.voag.cn
 0.0.0.0 46fg6-vyaaa-aaaad-qcwoa-cai.raw.ic0.app
-0.0.0.0 46hzm66lci25432s4b4fmwsgciekgniqusbmie7ry5ra3q7fktwq.arweave.net
 0.0.0.0 46ie5tdjv.visualook.com
 0.0.0.0 46usps326ps.cc
 0.0.0.0 46x5m.codesandbox.io
@@ -20455,7 +20450,6 @@
 0.0.0.0 4a5a.important-chat.workers.dev
 0.0.0.0 4a7094c4.sz-cdl.cn
 0.0.0.0 4a71147c.jdhuwoskz.cloud
-0.0.0.0 4a7um7goouzakqcnmqczn2vovgoo3ihzp4blzch5bdmje5agagiq.arweave.net
 0.0.0.0 4a842wa6oom4oz56gdr7vfjm.qwo231sdx.club
 0.0.0.0 4a858ba805d9c1538439219728be54b9-dot-gle9392420309493993.rj.r.appspot.com
 0.0.0.0 4a8fae7d.ples2u.shop
@@ -20847,7 +20841,6 @@
 0.0.0.0 4h92szxza7ey.swipepages.page
 0.0.0.0 4hat.hu
 0.0.0.0 4hbss-iyaaa-aaaad-qelea-cai.raw.ic0.app
-0.0.0.0 4hd2rzirdk7p6d5dc44yiqjuzwornxrqjybtfj3tecao4ktm3hfa.arweave.net
 0.0.0.0 4hdz.icu
 0.0.0.0 4healinghealth.com
 0.0.0.0 4healthconsulting.com.au
@@ -23159,6 +23152,7 @@
 0.0.0.0 55c00df9d23955462.temporary.link
 0.0.0.0 55c0d57f-0033-417f-b175-5e9796f482c4.id.repl.co
 0.0.0.0 55cbce34.adorn-insight.co.uk
+0.0.0.0 55club.pro
 0.0.0.0 55d4abf0.sibforms.com
 0.0.0.0 55d64f35.ihfydv8ghxj.org.cn
 0.0.0.0 55embedilekitcdn.flazio.site
@@ -23991,7 +23985,6 @@
 0.0.0.0 5bmpihhy.wusps.xyz
 0.0.0.0 5bnwebbpichincha.webcindario.com
 0.0.0.0 5brains.com
-0.0.0.0 5bu242nyepzsusogzetj7t2kwwmgvyhy746up3arhfxa4u3unc3q.arweave.net
 0.0.0.0 5buqk.miealktyrrdi.es
 0.0.0.0 5burrows.wixsite.com
 0.0.0.0 5byzuu03buplptsnupo2nqcw.qwo231sdx.club
@@ -24128,7 +24121,6 @@
 0.0.0.0 5em094.berh451l-5uk5e5.my.id
 0.0.0.0 5emepilier.com
 0.0.0.0 5emyltxshhan5a2nar.qwo231sdx.club
-0.0.0.0 5eoas577imcx6iz4q244ob4tte6qirzfvj3dt2p57vect4ao43da.arweave.net
 0.0.0.0 5eplayed.com
 0.0.0.0 5ept7urktadkddilqwj.qwo231sdx.club
 0.0.0.0 5ervicos.ga
@@ -27766,7 +27758,6 @@
 0.0.0.0 6b984680-b960-46de-abf5-8105f6c23637-00-3a16qtqqh16qp.riker.replit.dev
 0.0.0.0 6b993.app.link
 0.0.0.0 6ba2c173.txat99.net
-0.0.0.0 6ba5ojnvhorcysli4njsqu46nf4oq64rlmga7ncjz3cpr3yq6jbq.arweave.net
 0.0.0.0 6bah6.qwo231sdx.club
 0.0.0.0 6bancglci6.000webhostapp.com
 0.0.0.0 6bb1acd3682693717.tempsite.link
@@ -28196,7 +28187,6 @@
 0.0.0.0 6mdg.haveplentymusic.com
 0.0.0.0 6mdrwxeuhzsvtxd.qwo231sdx.club
 0.0.0.0 6mftk.weblium.site
-0.0.0.0 6miywdjqwbiczcgzco2mj53x5f3tnf4wplu65ge4zafogv2spdrq.arweave.net
 0.0.0.0 6mpanama.com
 0.0.0.0 6mpt.top
 0.0.0.0 6mt-online.webcindario.com
@@ -29797,7 +29787,6 @@
 0.0.0.0 7anwoknhjhg.qwo231sdx.club
 0.0.0.0 7aqtngp9yhc4ginygdpmnhgdke.qwo231sdx.club
 0.0.0.0 7aramy-yama.app.link
-0.0.0.0 7arja6jmyupcjfm4u7fwzcfgjzlsee3ecibj4y3g33vdfpazreia.arweave.net
 0.0.0.0 7at8pay.qwo231sdx.club
 0.0.0.0 7auth-session-timedout-naver.web.app
 0.0.0.0 7awj4mi7ascwxeye.lspower.xyz
@@ -30240,7 +30229,6 @@
 0.0.0.0 7p.feixue317.workers.dev
 0.0.0.0 7p1qy.skipdns.link
 0.0.0.0 7p1wktehsy.6019.sertdemir.com.tr
-0.0.0.0 7p4mdvy3efd4tm2o6gu46cxnjez4czmts5tq23anjc5lxprqllcq.arweave.net
 0.0.0.0 7p8t44.shop
 0.0.0.0 7p9kzlkwkqint1qtoe6e.qwo231sdx.club
 0.0.0.0 7pabd7i7hdqgeebjy9klozsj7552ziqs.ocalam.com
@@ -32831,6 +32819,7 @@
 0.0.0.0 91-234-99-113.cprapid.com
 0.0.0.0 91-234-99-113.plesk.page
 0.0.0.0 91-92-251-232.cprapid.com
+0.0.0.0 91-clublottery.app
 0.0.0.0 91.107.191.30
 0.0.0.0 91.121.143.96
 0.0.0.0 91.121.250.29
@@ -32970,6 +32959,7 @@
 0.0.0.0 91c0f7100bde719c44790e7df757a1a6.accesscam.org
 0.0.0.0 91c5957f7cfbadab70a862fa6909c891-dot-dbenitonline.ey.r.appspot.com
 0.0.0.0 91c7f576.9527wg.com.cn
+0.0.0.0 91cclub.com
 0.0.0.0 91clubhack.xyz
 0.0.0.0 91d0ea75-0b46-408e-bcaa-8fc7e8534ef3.usrfiles.com
 0.0.0.0 91degreesf.com
@@ -36854,7 +36844,6 @@
 0.0.0.0 a3e8io1bwr4n5qv.qwo231sdx.club
 0.0.0.0 a3ed3d6e.sahfgmxcp7.org.cn
 0.0.0.0 a3ef9759b6afec22c742cf3574bb42.dns-cloud.net
-0.0.0.0 a3engineering.be
 0.0.0.0 a3f29bc8c9d8a5ebed9fd41751945694a22605b4df5b93b1fbc6b4c937.pages.dev
 0.0.0.0 a3f9e2bcd804ec65d1ea4fc63a74e.pages.dev
 0.0.0.0 a3hjapsi.funerariateofilootoni.com.br
@@ -76889,6 +76878,7 @@
 0.0.0.0 apkpure.com
 0.0.0.0 apkscrhlpbsns.email
 0.0.0.0 apkseure.com
+0.0.0.0 apkshub.com
 0.0.0.0 apksuibian.top
 0.0.0.0 apkthxrofkluxqbd-dot-millinium.ey.r.appspot.com
 0.0.0.0 apkuc.com
@@ -87586,7 +87576,6 @@
 0.0.0.0 arw7.blob.core.windows.net
 0.0.0.0 arwaccounting.thakerweb.com
 0.0.0.0 arwatop.com
-0.0.0.0 arweave.net
 0.0.0.0 arwebcloud-notification.fkfjrk.repl.co
 0.0.0.0 arwebzone.com
 0.0.0.0 arwin724.ir
@@ -101536,7 +101525,6 @@
 0.0.0.0 audiag.112.2o7.net
 0.0.0.0 audible-locust-c7bd89.instawp.xyz
 0.0.0.0 audible.112.2o7.net
-0.0.0.0 audible.co.uk
 0.0.0.0 audible.demdex.net
 0.0.0.0 audible.sc.omtrdc.net
 0.0.0.0 audible.tt.omtrdc.net
@@ -126479,7 +126467,6 @@
 0.0.0.0 bgfnhv.blogspot.com
 0.0.0.0 bgfnhv.blogspot.lu
 0.0.0.0 bgfnhv.blogspot.md
-0.0.0.0 bgfqhx7e6yuarck4ghvddx3qbt3zrvgjjslvvqsfi5dhr25jztea.arweave.net
 0.0.0.0 bgfr.okqlx.top
 0.0.0.0 bgftj.blogspot.com
 0.0.0.0 bgftj.blogspot.lu
@@ -127465,6 +127452,7 @@
 0.0.0.0 bigcommercemasters.com
 0.0.0.0 bigcsgoskin.info
 0.0.0.0 bigcvoucher.corporatereward.net
+0.0.0.0 bigdaddy.uk.com
 0.0.0.0 bigdaddysasu.com
 0.0.0.0 bigdata.adfuture.cn
 0.0.0.0 bigdata.adsunflower.com
@@ -132737,7 +132725,6 @@
 0.0.0.0 bnsvc.blogspot.tw
 0.0.0.0 bnswor.hwwag.workers.dev
 0.0.0.0 bnsxquizite.com
-0.0.0.0 bnt-soft.com
 0.0.0.0 bntah.sa.com
 0.0.0.0 bntalbsefyancom.000webhostapp.com
 0.0.0.0 bntas.sa.com
@@ -138567,6 +138554,7 @@
 0.0.0.0 bsdxc.blogspot.md
 0.0.0.0 bse.fzi.mybluehost.me
 0.0.0.0 bsearchable.com
+0.0.0.0 bsebian.in
 0.0.0.0 bsecure--blokfi-sso--cdn-auth.webflow.io
 0.0.0.0 bselomyxzc.duckdns.org
 0.0.0.0 bsemep.com
@@ -150623,7 +150611,6 @@
 0.0.0.0 cfngq.blogspot.am
 0.0.0.0 cfngy.blogspot.bg
 0.0.0.0 cfngy.blogspot.li
-0.0.0.0 cfnl.ca
 0.0.0.0 cfnplenpmiafqtao-dot-millinium.ey.r.appspot.com
 0.0.0.0 cfoforall.in
 0.0.0.0 cforzepzvxhrgpso-dot-millinium.ey.r.appspot.com
@@ -163851,7 +163838,6 @@
 0.0.0.0 confirmationpage180720.co.vu
 0.0.0.0 confirmationpagefacebook.xyz
 0.0.0.0 confirmationpagesnotifybusiness.co.vu
-0.0.0.0 confirmationportal.com
 0.0.0.0 confirmationprnnrmvnjrepjufcpbzsptndshmfpugbv.babydriver.workers.dev
 0.0.0.0 confirmations.media-love.workers.dev
 0.0.0.0 confirmations.profiles-male.workers.dev
@@ -177991,7 +177977,6 @@
 0.0.0.0 deutsche-82763.web.app
 0.0.0.0 deutsche-ac.pro
 0.0.0.0 deutsche-bahn-reaktivierung.com
-0.0.0.0 deutsche-bank.live.itonicsit.de
 0.0.0.0 deutsche-bank.transaption.com
 0.0.0.0 deutsche-bb4ec8.ingress-baronn.ewp.live
 0.0.0.0 deutsche-ia.pro
@@ -183011,7 +182996,6 @@
 0.0.0.0 divjot121.github.io
 0.0.0.0 divmidmaitiazx.jermiah-380.workers.dev
 0.0.0.0 divorcemachinery.com
-0.0.0.0 divsly.com
 0.0.0.0 divspan.runkodapps.com
 0.0.0.0 divthemes.com
 0.0.0.0 divulcars.com.br
@@ -183910,7 +183894,6 @@
 0.0.0.0 dmwtuncxergqkifd-dot-millinium.ey.r.appspot.com
 0.0.0.0 dmwubdjqtu.duckdns.org
 0.0.0.0 dmx.districtm.io
-0.0.0.0 dmxbvhfxeeprcdsdzavwsysffivngejwmvkresi2zkqide53bysq.arweave.net
 0.0.0.0 dmxleo.dailymotion.com
 0.0.0.0 dmxpdubjcgfvbnrhcmlvlmnh.directsmailsolution.com
 0.0.0.0 dmxtecnologia.com.br
@@ -184662,7 +184645,6 @@
 0.0.0.0 docs.googledrive.co.in
 0.0.0.0 docs.imtiazmukhtar.com
 0.0.0.0 docs.itupdates.support
-0.0.0.0 docs.lighting.com
 0.0.0.0 docs.netaccess-management.com
 0.0.0.0 docs.pandoshi.com
 0.0.0.0 docs.pbihub.cn
@@ -194460,6 +194442,7 @@
 0.0.0.0 eleve-vextera.net
 0.0.0.0 elevena.activite-rc-pro.com
 0.0.0.0 elevenb.activite-rc-pro.com
+0.0.0.0 elevenhold.hu
 0.0.0.0 elevennewz.com
 0.0.0.0 eleventy-base-blog-rv3g-git-master-mail-admin-mekdarntech.vercel.app
 0.0.0.0 eleventy-base-blog-xi.vercel.app
@@ -196532,6 +196515,7 @@
 0.0.0.0 englishcentral.fr
 0.0.0.0 englishcommunitybangladesh.org
 0.0.0.0 englisheagle.com.my
+0.0.0.0 englishji.in
 0.0.0.0 englishlanguage.pk
 0.0.0.0 englishlpurifyp.com
 0.0.0.0 englishplusmore.com
@@ -199340,6 +199324,7 @@
 0.0.0.0 etodotle.top
 0.0.0.0 etoki.net
 0.0.0.0 etoki.org
+0.0.0.0 etomoidomen.cfd
 0.0.0.0 etomozklogii.webflow.io
 0.0.0.0 etonanmankokazefd.u1186666nzy.ha004.t.justns.ru
 0.0.0.0 etonian-eases.000webhostapp.com
@@ -204042,7 +204027,6 @@
 0.0.0.0 f2u9dzffhv7jx.pages.dev
 0.0.0.0 f2vav-fidelity.qkipikpp.es
 0.0.0.0 f2wq6.shop
-0.0.0.0 f2yamo7kubouobqsrhbiaa2cfyaaudemzghxbmsll7jdlglxly7a.arweave.net
 0.0.0.0 f2z5-casefb063512.vercel.app
 0.0.0.0 f3.p0y.com
 0.0.0.0 f31.hkwordpress.com
@@ -212218,7 +212202,6 @@
 0.0.0.0 fcasef.marytarrant.com
 0.0.0.0 fcaxwzigtbkwwtyl-dot-millinium.ey.r.appspot.com
 0.0.0.0 fcb-marketplace.com
-0.0.0.0 fcb.com.ph
 0.0.0.0 fcb16726.kjfhroi7493hffds9dff.org.cn
 0.0.0.0 fcb5679a.d26218.cn
 0.0.0.0 fcb60600-6473-4272-ac05-a00275169bb5.id.repl.co
@@ -230492,6 +230475,7 @@
 0.0.0.0 gkeminilogaui.gitbook.io
 0.0.0.0 gkerr.ultramedicinadiagnostica.com.br
 0.0.0.0 gketoy-71.ga
+0.0.0.0 gkexams.com
 0.0.0.0 gkfabric.com
 0.0.0.0 gkfbavksxtejzelb-dot-millinium.ey.r.appspot.com
 0.0.0.0 gkfhkkkkhfgcg.easy.co
@@ -243531,6 +243515,7 @@
 0.0.0.0 happyspinmaterial.com
 0.0.0.0 happysweater.shop
 0.0.0.0 happythaigirl.scottgutke.com
+0.0.0.0 happytugsbakery.com
 0.0.0.0 happyvision.be
 0.0.0.0 happywaffleco.com
 0.0.0.0 happywalit.com
@@ -257629,7 +257614,6 @@
 0.0.0.0 icubby.net.au
 0.0.0.0 icudjyaehkctcm7dpvht.us-south.cf.appdomain.cloud
 0.0.0.0 icuphoclu.info
-0.0.0.0 icupsa.com.mx
 0.0.0.0 icusah.digital
 0.0.0.0 icuuqyhymuqmxeai-dot-millinium.ey.r.appspot.com
 0.0.0.0 icvassessments.com
@@ -262643,7 +262627,6 @@
 0.0.0.0 info-account.live
 0.0.0.0 info-accountpro-sms.web.app
 0.0.0.0 info-activity-jp-issue.firebaseapp.com
-0.0.0.0 info-alert.net
 0.0.0.0 info-amendegv.com
 0.0.0.0 info-americafirst.us
 0.0.0.0 info-analyse-center.pages.dev
@@ -273903,7 +273886,6 @@
 0.0.0.0 jhkzz.com
 0.0.0.0 jhl.rajixa1446.workers.dev
 0.0.0.0 jhldsrconfig.weebly.com
-0.0.0.0 jhlk57xu2a63gogtbxyxx7p4ftltrcytovdvu5stc3amaoxbpooa.arweave.net
 0.0.0.0 jhlong20.cn
 0.0.0.0 jhlqenkdcf.4360.gencmert.com
 0.0.0.0 jhmart.com
@@ -283871,6 +283853,7 @@
 0.0.0.0 kinanbandrekcolmek.duckdns.org
 0.0.0.0 kinatosyiu.pages.dev
 0.0.0.0 kinauviva.pro
+0.0.0.0 kinbet.casino
 0.0.0.0 kinbsiprologen.webflow.io
 0.0.0.0 kinbsiwallitxtn.webflow.io
 0.0.0.0 kinbsiwallttxtn.webflow.io
@@ -290274,7 +290257,6 @@
 0.0.0.0 lakeyhaarth.buzz
 0.0.0.0 lakezlotik24.cyou
 0.0.0.0 lakhpatibazar.in
-0.0.0.0 lakinqdgyi.markdanielexteriors.com
 0.0.0.0 lakitsza.com
 0.0.0.0 lakkixx7x.vercel.app
 0.0.0.0 laklems.net
@@ -294649,7 +294631,6 @@
 0.0.0.0 lg0r3d.webwave.dev
 0.0.0.0 lg1.brandreachsys.com
 0.0.0.0 lg1.logging.admicro.vn
-0.0.0.0 lg2uz74m7ppuwy7qiqu45kqcvet26bkgaphet6gtendsxpsupyfq.arweave.net
 0.0.0.0 lg3.media.net
 0.0.0.0 lga-bh-bgp.contextweb.com
 0.0.0.0 lga-bh.contextweb.com
@@ -295788,7 +295769,6 @@
 0.0.0.0 lindasmith.000webhostapp.com
 0.0.0.0 lindatee.com
 0.0.0.0 lindelcreditgroup.com
-0.0.0.0 lindenappliances.co.za
 0.0.0.0 lindencityschoolsbb.org
 0.0.0.0 lindenconsultoria.com.br
 0.0.0.0 lindependnant.fr
@@ -304187,6 +304167,7 @@
 0.0.0.0 lumen-loop.pages.dev
 0.0.0.0 lumen-shadow.com
 0.0.0.0 lumen25.com
+0.0.0.0 lumennix.live
 0.0.0.0 lumens.lk
 0.0.0.0 lumenseletric.com.br
 0.0.0.0 lumentra-restore.com
@@ -331046,7 +331027,6 @@
 0.0.0.0 mn.mn.co.cu
 0.0.0.0 mn.zuwlxn4.ru.com
 0.0.0.0 mn1.tbkj.my.id
-0.0.0.0 mn3ib2wo5ywpa7gt2zhzgcphdlqgma5viqxwrxnay3s4zom5423q.arweave.net
 0.0.0.0 mn4.nggk.my.id
 0.0.0.0 mn4bw8hwvcu8m78nb9ct.we9ixzz.co
 0.0.0.0 mn5o-casefb804395.vercel.app
@@ -338417,7 +338397,6 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
-0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -340892,7 +340871,6 @@
 0.0.0.0 n2tflix.netlify.app
 0.0.0.0 n2tfn0x-edit-be3178.ingress-erytho.ewp.live
 0.0.0.0 n2wv9.shop
-0.0.0.0 n2zznomat3jbj5dxobw6zlni7xiul3fgtrj2xac6bxm55pmfm2sq.arweave.net
 0.0.0.0 n3.nskfyl.com
 0.0.0.0 n31.com.au
 0.0.0.0 n339.asp-cc.com
@@ -395016,7 +394994,6 @@
 0.0.0.0 qtasrd.loseyourip.com
 0.0.0.0 qtbj.veritas.nossosupermercado.com
 0.0.0.0 qtdir.com
-0.0.0.0 qtdz4d2i4xpn55ipgrridktv3scdwh23ofmfzic2drg6lyb25cga.arweave.net
 0.0.0.0 qteinc.com-udrg6wuw3gougrxakiuq.udrg6wuw3gougrxakiuq.manxttrider.com
 0.0.0.0 qtejcrejyptfirms-dot-millinium.ey.r.appspot.com
 0.0.0.0 qtekits.com
@@ -418965,6 +418942,7 @@
 0.0.0.0 servicio.generatusolicitud-online.site
 0.0.0.0 serviciodelwebclientes.cloudaccess.host
 0.0.0.0 serviciopostal.vip
+0.0.0.0 servicioslogisticosdyc.com
 0.0.0.0 serviciospatito.com
 0.0.0.0 serviciotecnico.com.uy
 0.0.0.0 serviciotrackwp.sviluppo.host
@@ -419896,6 +419874,7 @@
 0.0.0.0 shredform.com
 0.0.0.0 shreejiestatemanagement.com
 0.0.0.0 shreenath1696.github.io
+0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
@@ -429361,7 +429340,6 @@
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techtalk.site
-0.0.0.0 techtattva.in
 0.0.0.0 techvancekariyer.com
 0.0.0.0 techvibeg.vercel.app
 0.0.0.0 techvisionreport.com
@@ -430352,6 +430330,7 @@
 0.0.0.0 thetech-facts.com
 0.0.0.0 thetechherald.uk.intellitxt.com
 0.0.0.0 thetechlounge.us.intellitxt.com
+0.0.0.0 thetechytalks.com
 0.0.0.0 thetechzone.us.intellitxt.com
 0.0.0.0 thetimmedia.site
 0.0.0.0 thetollroads-roads.top
@@ -430550,6 +430529,7 @@
 0.0.0.0 ti.tradetracker.net
 0.0.0.0 ti6ktopshop.com
 0.0.0.0 tia.timeinc.net
+0.0.0.0 tiacreation.club
 0.0.0.0 tiads.essence.com
 0.0.0.0 tiads.ew.com
 0.0.0.0 tiads.health.com
@@ -432634,7 +432614,6 @@
 0.0.0.0 trainerconsultoria.com
 0.0.0.0 training-case.vercel.app
 0.0.0.0 training-peer-tau.vercel.app
-0.0.0.0 training.proabled.com
 0.0.0.0 training.sellwhatyouknow.co
 0.0.0.0 trainingcyber.com
 0.0.0.0 traininmora.digital
@@ -435642,7 +435621,6 @@
 0.0.0.0 updateauto.preparevideosafesystem4unow.space
 0.0.0.0 updatedattt.weebly.com
 0.0.0.0 updatedev.bitbucket.io
-0.0.0.0 updatedirect.net
 0.0.0.0 updatee-en-coinpro.pages.dev
 0.0.0.0 updatehd.livejasmin.com
 0.0.0.0 updatehub.nx.cn
@@ -439501,7 +439479,6 @@
 0.0.0.0 vinted.yb885189091.click
 0.0.0.0 vintix-circuit.com
 0.0.0.0 vinushka.xsrv.jp
-0.0.0.0 vinylworkscanada.com
 0.0.0.0 violates-copyright-regulations.vercel.app
 0.0.0.0 violation-content-ehpt.vercel.app
 0.0.0.0 violation-fix-case-8ixl.vercel.app
@@ -443579,6 +443556,7 @@
 0.0.0.0 wonderful-local-manage-id98147236.vercel.app
 0.0.0.0 wonderfulinsights.com
 0.0.0.0 wonderfullydays.com
+0.0.0.0 wonderhindi.com
 0.0.0.0 wonderlandads.com
 0.0.0.0 wondoads.de
 0.0.0.0 wondrous-haupia-fb4876.netlify.app
