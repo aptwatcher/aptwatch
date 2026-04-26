@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-26 00:30:55
-# Entries: 474139
+# Generated: 2026-04-26 06:31:15
+# Entries: 474140
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -147560,6 +147560,7 @@
 0.0.0.0 castrolprofessionalacademy.pl
 0.0.0.0 castromonitoramento.com.br
 0.0.0.0 castromunicipio.cl
+0.0.0.0 castroycontadores.com
 0.0.0.0 castuning.com
 0.0.0.0 casu-mpas.web.app
 0.0.0.0 casualdating.com
@@ -181511,6 +181512,7 @@
 0.0.0.0 digitalcertificate-update.online
 0.0.0.0 digitalcities.info
 0.0.0.0 digitalcloudq.buzz
+0.0.0.0 digitalcode.sa
 0.0.0.0 digitalconcept.pro
 0.0.0.0 digitalconexao.tk
 0.0.0.0 digitalcrimeanwar.com
@@ -232008,6 +232010,7 @@
 0.0.0.0 gobiernoygestion.com.mx
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobizboost.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
@@ -233067,7 +233070,6 @@
 0.0.0.0 gossamer-clover-jonquil.glitch.me
 0.0.0.0 gossamer-plain-perigee.glitch.me
 0.0.0.0 gossamerbio.corporacionfrm.org
-0.0.0.0 gossipband.ie
 0.0.0.0 gossipbottom.com
 0.0.0.0 gossipcenter.us.intellitxt.com
 0.0.0.0 gossiponthis.us.intellitxt.com
@@ -257629,6 +257631,7 @@
 0.0.0.0 icubby.net.au
 0.0.0.0 icudjyaehkctcm7dpvht.us-south.cf.appdomain.cloud
 0.0.0.0 icuphoclu.info
+0.0.0.0 icupsa.com.mx
 0.0.0.0 icusah.digital
 0.0.0.0 icuuqyhymuqmxeai-dot-millinium.ey.r.appspot.com
 0.0.0.0 icvassessments.com
@@ -302284,7 +302287,6 @@
 0.0.0.0 londamiachels.tk
 0.0.0.0 london-delight.ga
 0.0.0.0 london-healthcare.com
-0.0.0.0 londonairportstransfer.co.uk
 0.0.0.0 londoncamerahireservices.co.uk
 0.0.0.0 londondanceschool.com
 0.0.0.0 londonfreweb.website.cv
@@ -406696,6 +406698,7 @@
 0.0.0.0 ritammukherjee05.github.io
 0.0.0.0 ritchad.weeblysite.com
 0.0.0.0 rite-of-passage.my.id
+0.0.0.0 ritee.in
 0.0.0.0 riteekranjan.github.io
 0.0.0.0 riteindia.org
 0.0.0.0 ritendragour.github.io
@@ -416916,7 +416919,6 @@
 0.0.0.0 schemeban.juanprotect.com
 0.0.0.0 schemedeve.pyrorobot.com
 0.0.0.0 schemestop.kalemicros.com
-0.0.0.0 schenckel.com.br
 0.0.0.0 schercynar.cyou
 0.0.0.0 schiaarcsi.cyou
 0.0.0.0 schiaitter.rest
@@ -429293,7 +429295,6 @@
 0.0.0.0 techaerolabs.com
 0.0.0.0 techalcyon.com
 0.0.0.0 techbargins.com
-0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techeblog.us.intellitxt.com
