@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-27 06:31:18
-# Entries: 474123
+# Generated: 2026-04-27 12:31:44
+# Entries: 474125
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -54932,6 +54932,7 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
+0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -102146,7 +102147,6 @@
 0.0.0.0 aurora.com.gt
 0.0.0.0 aurora.protondns.net
 0.0.0.0 aurorabloom-warden.com
-0.0.0.0 aurorabolnica.co.rs
 0.0.0.0 aurorabusinessunited.org
 0.0.0.0 aurorabyglenwood.com
 0.0.0.0 auroraclarity.com
@@ -130474,6 +130474,7 @@
 0.0.0.0 blisspoint.us-east-1.stinger-ad.bidr.io
 0.0.0.0 blisspoint.us-west-2.stinger-ad.bidr.io
 0.0.0.0 blisstree.us.intellitxt.com
+0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blity.click
 0.0.0.0 blitz-transfer.com
@@ -143883,6 +143884,7 @@
 0.0.0.0 c2.gostats.com
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -148750,7 +148752,6 @@
 0.0.0.0 cdn-clockbloxserverv2.ml
 0.0.0.0 cdn-cloud-bc5e.wechat.cloudns.ch
 0.0.0.0 cdn-cloud.fhcloud.top
-0.0.0.0 cdn-clouds.ru
 0.0.0.0 cdn-coinbasepro-t-auth.webflow.io
 0.0.0.0 cdn-coinbse-com.pages.dev
 0.0.0.0 cdn-creatives-highwinds-prd.unityads.unity3d.com
@@ -194446,7 +194447,6 @@
 0.0.0.0 eleve-vextera.net
 0.0.0.0 elevena.activite-rc-pro.com
 0.0.0.0 elevenb.activite-rc-pro.com
-0.0.0.0 elevenhold.hu
 0.0.0.0 elevennewz.com
 0.0.0.0 eleventy-base-blog-rv3g-git-master-mail-admin-mekdarntech.vercel.app
 0.0.0.0 eleventy-base-blog-xi.vercel.app
@@ -222662,6 +222662,7 @@
 0.0.0.0 fukot.cc
 0.0.0.0 fukrsqubgchptmwp-dot-millinium.ey.r.appspot.com
 0.0.0.0 fukshumx.wiki
+0.0.0.0 fukt.link
 0.0.0.0 fukuoka-frontier.com
 0.0.0.0 fukysee.pro
 0.0.0.0 ful-phil.org
@@ -302267,6 +302268,7 @@
 0.0.0.0 londamiachels.tk
 0.0.0.0 london-delight.ga
 0.0.0.0 london-healthcare.com
+0.0.0.0 londonairportstransfer.co.uk
 0.0.0.0 londoncamerahireservices.co.uk
 0.0.0.0 londondanceschool.com
 0.0.0.0 londonfreweb.website.cv
