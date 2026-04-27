@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-27 00:31:17
-# Entries: 474124
+# Generated: 2026-04-27 06:31:18
+# Entries: 474123
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -54932,7 +54932,6 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
-0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -102147,6 +102146,7 @@
 0.0.0.0 aurora.com.gt
 0.0.0.0 aurora.protondns.net
 0.0.0.0 aurorabloom-warden.com
+0.0.0.0 aurorabolnica.co.rs
 0.0.0.0 aurorabusinessunited.org
 0.0.0.0 aurorabyglenwood.com
 0.0.0.0 auroraclarity.com
@@ -144917,7 +144917,6 @@
 0.0.0.0 calculatorstatement.com
 0.0.0.0 calculusindia.com
 0.0.0.0 calcuttaplastics.com
-0.0.0.0 caldas-pires.pt
 0.0.0.0 caldoro.online
 0.0.0.0 caldwellfbc.com
 0.0.0.0 calebdoyle.com
@@ -148751,6 +148750,7 @@
 0.0.0.0 cdn-clockbloxserverv2.ml
 0.0.0.0 cdn-cloud-bc5e.wechat.cloudns.ch
 0.0.0.0 cdn-cloud.fhcloud.top
+0.0.0.0 cdn-clouds.ru
 0.0.0.0 cdn-coinbasepro-t-auth.webflow.io
 0.0.0.0 cdn-coinbse-com.pages.dev
 0.0.0.0 cdn-creatives-highwinds-prd.unityads.unity3d.com
@@ -168672,7 +168672,6 @@
 0.0.0.0 crymetamask-wallet-extantion.webflow.io
 0.0.0.0 cryoneticc.vercel.app
 0.0.0.0 cryos-labs-at4.pages.dev
-0.0.0.0 cryoshield.co.za
 0.0.0.0 crypitoswecumlogin.webflow.io
 0.0.0.0 crypotonlgonin.webflow.io
 0.0.0.0 crypt-comet.com
@@ -194447,6 +194446,7 @@
 0.0.0.0 eleve-vextera.net
 0.0.0.0 elevena.activite-rc-pro.com
 0.0.0.0 elevenb.activite-rc-pro.com
+0.0.0.0 elevenhold.hu
 0.0.0.0 elevennewz.com
 0.0.0.0 eleventy-base-blog-rv3g-git-master-mail-admin-mekdarntech.vercel.app
 0.0.0.0 eleventy-base-blog-xi.vercel.app
@@ -295771,7 +295771,6 @@
 0.0.0.0 lindasmith.000webhostapp.com
 0.0.0.0 lindatee.com
 0.0.0.0 lindelcreditgroup.com
-0.0.0.0 lindenappliances.co.za
 0.0.0.0 lindencityschoolsbb.org
 0.0.0.0 lindenconsultoria.com.br
 0.0.0.0 lindependnant.fr
@@ -302268,7 +302267,6 @@
 0.0.0.0 londamiachels.tk
 0.0.0.0 london-delight.ga
 0.0.0.0 london-healthcare.com
-0.0.0.0 londonairportstransfer.co.uk
 0.0.0.0 londoncamerahireservices.co.uk
 0.0.0.0 londondanceschool.com
 0.0.0.0 londonfreweb.website.cv
@@ -406679,6 +406677,7 @@
 0.0.0.0 ritammukherjee05.github.io
 0.0.0.0 ritchad.weeblysite.com
 0.0.0.0 rite-of-passage.my.id
+0.0.0.0 ritee.in
 0.0.0.0 riteekranjan.github.io
 0.0.0.0 riteindia.org
 0.0.0.0 ritendragour.github.io
@@ -413492,7 +413491,6 @@
 0.0.0.0 safeurl-sharepoint-account-hvlaw.sohaibislamjoy.top
 0.0.0.0 safeurl.maxthon.cn
 0.0.0.0 safewalletconnect.net
-0.0.0.0 safewatertech.com
 0.0.0.0 safeway96e7e.weebly.com
 0.0.0.0 safewaysecurityscreens.com.au
 0.0.0.0 safewebgrowthnation.vercel.app
@@ -441178,6 +441176,7 @@
 0.0.0.0 wearelovelive.com
 0.0.0.0 wearepow.com
 0.0.0.0 wearethatdessertshop.com
+0.0.0.0 wearjora.com
 0.0.0.0 weartexhibitions.com
 0.0.0.0 weather.fixitpro.ro
 0.0.0.0 weatherapi.co
