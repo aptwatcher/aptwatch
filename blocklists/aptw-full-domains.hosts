@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-26 18:31:16
-# Entries: 474118
+# Generated: 2026-04-27 00:31:17
+# Entries: 474124
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32960,6 +32960,7 @@
 0.0.0.0 91c5957f7cfbadab70a862fa6909c891-dot-dbenitonline.ey.r.appspot.com
 0.0.0.0 91c7f576.9527wg.com.cn
 0.0.0.0 91cclub.com
+0.0.0.0 91clubgame.games
 0.0.0.0 91clubhack.xyz
 0.0.0.0 91d0ea75-0b46-408e-bcaa-8fc7e8534ef3.usrfiles.com
 0.0.0.0 91degreesf.com
@@ -34234,6 +34235,7 @@
 0.0.0.0 9afd406ff88b2f65af144eeca3067e51-dot-gle9392420309493993.rj.r.appspot.com
 0.0.0.0 9ai7ng9ld.qwo231sdx.club
 0.0.0.0 9ajjzaahbsry9s0.richardl.xyz
+0.0.0.0 9al62yq7.souf1atwindow.digital
 0.0.0.0 9amhzavq2od1ifqrfleivejnic6gu.qwo231sdx.club
 0.0.0.0 9and9.com
 0.0.0.0 9anzexx7fb1uo2bjnu.qwo231sdx.club
@@ -54930,6 +54932,7 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
+0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
 0.0.0.0 agence-siiwal.com
@@ -84350,6 +84353,7 @@
 0.0.0.0 aps.hearstnp.com
 0.0.0.0 aps.maldinoiosantata.biz.id
 0.0.0.0 aps.media.adrevolver.com
+0.0.0.0 aps.voltpanel.cloud
 0.0.0.0 aps00.vip
 0.0.0.0 aps892.cc
 0.0.0.0 aps8pgal04.projects.webpages.one
@@ -144913,6 +144917,7 @@
 0.0.0.0 calculatorstatement.com
 0.0.0.0 calculusindia.com
 0.0.0.0 calcuttaplastics.com
+0.0.0.0 caldas-pires.pt
 0.0.0.0 caldoro.online
 0.0.0.0 caldwellfbc.com
 0.0.0.0 calebdoyle.com
@@ -148294,7 +148299,6 @@
 0.0.0.0 ccip-8xhlht9e8-chainlinklabs.vercel.app
 0.0.0.0 ccip-8ywqz8jdd-chainlinklabs.vercel.app
 0.0.0.0 ccip-98pceihvw-chainlinklabs.vercel.app
-0.0.0.0 ccip-98rebcytj-chainlinklabs.vercel.app
 0.0.0.0 ccip-a4braoxig-chainlinklabs.vercel.app
 0.0.0.0 ccip-a4rioerz4-chainlinklabs.vercel.app
 0.0.0.0 ccip-a86j4rajj-chainlinklabs.vercel.app
@@ -153229,6 +153233,7 @@
 0.0.0.0 chicken.uptoo.fun
 0.0.0.0 chickeninhouse.com.br
 0.0.0.0 chickenmachinerubber.com
+0.0.0.0 chickenroadofficial.pl
 0.0.0.0 chickenwaves.com
 0.0.0.0 chicmunuyegtgezv-dot-millinium.ey.r.appspot.com
 0.0.0.0 chicosoft.com
@@ -168667,6 +168672,7 @@
 0.0.0.0 crymetamask-wallet-extantion.webflow.io
 0.0.0.0 cryoneticc.vercel.app
 0.0.0.0 cryos-labs-at4.pages.dev
+0.0.0.0 cryoshield.co.za
 0.0.0.0 crypitoswecumlogin.webflow.io
 0.0.0.0 crypotonlgonin.webflow.io
 0.0.0.0 crypt-comet.com
@@ -177931,7 +177937,6 @@
 0.0.0.0 detflix-96f2de.ingress-baronn.easywp.com
 0.0.0.0 dethecture.com
 0.0.0.0 dethex.pages.dev
-0.0.0.0 detierra.cl
 0.0.0.0 detik.serving-sys.com
 0.0.0.0 detiktotocakep.com
 0.0.0.0 detmwise.wixsite.com
@@ -194442,7 +194447,6 @@
 0.0.0.0 eleve-vextera.net
 0.0.0.0 elevena.activite-rc-pro.com
 0.0.0.0 elevenb.activite-rc-pro.com
-0.0.0.0 elevenhold.hu
 0.0.0.0 elevennewz.com
 0.0.0.0 eleventy-base-blog-rv3g-git-master-mail-admin-mekdarntech.vercel.app
 0.0.0.0 eleventy-base-blog-xi.vercel.app
@@ -195121,7 +195125,6 @@
 0.0.0.0 emailserviceprocess.us-south.cf.appdomain.cloud
 0.0.0.0 emailsettings.webflow.io
 0.0.0.0 emailsettingvalidation.weebly.com
-0.0.0.0 emailspro.store
 0.0.0.0 emailsrv37c287afc5b3c5ba.konditorei-jacobsohn.de
 0.0.0.0 emailsuport.com
 0.0.0.0 emailszav5.cf
@@ -242338,7 +242341,6 @@
 0.0.0.0 half-dead-hydromete.000webhostapp.com
 0.0.0.0 half-momentous-dance.glitch.me
 0.0.0.0 half-trite-boat.glitch.me
-0.0.0.0 halfmillion-iq.com
 0.0.0.0 halfmoonsmast.jrcasey.com
 0.0.0.0 halfoffhome.shop
 0.0.0.0 halfpricebrooklyn.com
@@ -295769,6 +295771,7 @@
 0.0.0.0 lindasmith.000webhostapp.com
 0.0.0.0 lindatee.com
 0.0.0.0 lindelcreditgroup.com
+0.0.0.0 lindenappliances.co.za
 0.0.0.0 lindencityschoolsbb.org
 0.0.0.0 lindenconsultoria.com.br
 0.0.0.0 lindependnant.fr
@@ -304429,6 +304432,7 @@
 0.0.0.0 luxveno.com
 0.0.0.0 luxxy.zuxyx20x.duckdns.org
 0.0.0.0 luxxyeg.tk
+0.0.0.0 luxzzc2servers.my.id
 0.0.0.0 luy.get.mybluehost.me
 0.0.0.0 luyare.top
 0.0.0.0 luyenthinguyentriphuong.vn
@@ -408410,6 +408414,7 @@
 0.0.0.0 rodence.com
 0.0.0.0 rodeoconfig.yodo1api.com
 0.0.0.0 rodeodigital.com
+0.0.0.0 rodeoslot.fr
 0.0.0.0 rodgillphotography.com
 0.0.0.0 rodgphcgsxwfroxxvuojkoboes-dot-gle39404049.rj.r.appspot.com
 0.0.0.0 rodhaninvesting.pro
@@ -413487,6 +413492,7 @@
 0.0.0.0 safeurl-sharepoint-account-hvlaw.sohaibislamjoy.top
 0.0.0.0 safeurl.maxthon.cn
 0.0.0.0 safewalletconnect.net
+0.0.0.0 safewatertech.com
 0.0.0.0 safeway96e7e.weebly.com
 0.0.0.0 safewaysecurityscreens.com.au
 0.0.0.0 safewebgrowthnation.vercel.app
@@ -418942,7 +418948,6 @@
 0.0.0.0 servicio.generatusolicitud-online.site
 0.0.0.0 serviciodelwebclientes.cloudaccess.host
 0.0.0.0 serviciopostal.vip
-0.0.0.0 servicioslogisticosdyc.com
 0.0.0.0 serviciospatito.com
 0.0.0.0 serviciotecnico.com.uy
 0.0.0.0 serviciotrackwp.sviluppo.host
@@ -420926,6 +420931,7 @@
 0.0.0.0 slotscement.online
 0.0.0.0 slotsgorilla.online
 0.0.0.0 slotsjjj.com
+0.0.0.0 slotuna-1072.com
 0.0.0.0 slovakpress.com
 0.0.0.0 slovakreport.com
 0.0.0.0 slow-spring-rapping.on-fleek.app
@@ -430115,6 +430121,7 @@
 0.0.0.0 thebootroom.com
 0.0.0.0 thebosh.us.intellitxt.com
 0.0.0.0 thebowersofparadise.com
+0.0.0.0 thebrandmantra.in
 0.0.0.0 thebrighttag.com
 0.0.0.0 thebritbulletin.com
 0.0.0.0 thebudgetingmama.com
@@ -436184,7 +436191,6 @@
 0.0.0.0 usdtmixer.net
 0.0.0.0 usdtmixer.to
 0.0.0.0 usdyw7e7jjgs.sosiuweyahnbjgjsd.eeohlj.com
-0.0.0.0 use-claude.com
 0.0.0.0 use-exodusweb.teachable.com
 0.0.0.0 use-tor.adsrvr.org
 0.0.0.0 use-trezr-hardware-wallet.pages.dev
