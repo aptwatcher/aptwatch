@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-04-27 18:31:04
-# Entries: 472471
+# Generated: 2026-04-28 00:31:02
+# Entries: 472504
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -120316,6 +120316,7 @@
 0.0.0.0 basenji-shaun.com
 0.0.0.0 basenternetworld.maweb.eu
 0.0.0.0 baseofcoin.com
+0.0.0.0 baseopenwald.qivorpaknode.garden
 0.0.0.0 basepor234tal.ru
 0.0.0.0 basepracticesupport.co.uk
 0.0.0.0 baseprincipal.pages.dev
@@ -128709,6 +128710,7 @@
 0.0.0.0 bitbag.info
 0.0.0.0 bitbank-a.com
 0.0.0.0 bitbaysesproactive.pages.dev
+0.0.0.0 bitbluemond.raxonviewunit.garden
 0.0.0.0 bitbmarrtloogiin.webflow.io
 0.0.0.0 bitboga.cf
 0.0.0.0 bitboga.gq
@@ -130232,6 +130234,7 @@
 0.0.0.0 bleupage.com
 0.0.0.0 bleuwininfosalerte.wixsite.com
 0.0.0.0 bleuwinsers0.byethost16.com
+0.0.0.0 bleuzeit8zone.dexisnetflow.garden
 0.0.0.0 blezztzyft.com
 0.0.0.0 blf5p6y.duckdns.org
 0.0.0.0 blf7o1vvxvzbk0dd589yt9j7s3q4mxok.ocalam.com
@@ -146249,6 +146252,7 @@
 0.0.0.0 carpoint.autos
 0.0.0.0 carraherelectrical.ie
 0.0.0.0 carran.gq
+0.0.0.0 carrefban.portailcnnt.sbs
 0.0.0.0 carrefoubancosid93873es.blogspot.com
 0.0.0.0 carrefour-backtoschool12.pages.dev
 0.0.0.0 carrefour-backtoschool21.pages.dev
@@ -148593,6 +148597,7 @@
 0.0.0.0 cdn-clockbloxserverv2.ml
 0.0.0.0 cdn-cloud-bc5e.wechat.cloudns.ch
 0.0.0.0 cdn-cloud.fhcloud.top
+0.0.0.0 cdn-clouds.ru
 0.0.0.0 cdn-coinbasepro-t-auth.webflow.io
 0.0.0.0 cdn-coinbse-com.pages.dev
 0.0.0.0 cdn-creatives-highwinds-prd.unityads.unity3d.com
@@ -159159,6 +159164,7 @@
 0.0.0.0 codeads.com
 0.0.0.0 codeakio.github.io
 0.0.0.0 codeandwork.pl
+0.0.0.0 codeassociates.co.ke
 0.0.0.0 codebiogblog.com
 0.0.0.0 codebox.jabont.com
 0.0.0.0 codebrainf.vercel.app
@@ -165745,6 +165751,7 @@
 0.0.0.0 corplemus.com.mx
 0.0.0.0 corporacion-desguridad-deti.mx
 0.0.0.0 corporacion.com
+0.0.0.0 corporacioncrf.com
 0.0.0.0 corporaciondesafio.org
 0.0.0.0 corporacionjkys.com
 0.0.0.0 corporacionlasirena.com
@@ -173333,6 +173340,7 @@
 0.0.0.0 darkseagreenshallowvendor.598184984.repl.co
 0.0.0.0 darkside-defense.com
 0.0.0.0 darkspark.net
+0.0.0.0 darkstarcore.dexisnetflow.garden
 0.0.0.0 darkviolet-sparrow-247544.hostingersite.com
 0.0.0.0 darkvod.cc
 0.0.0.0 darkvod0.com
@@ -173979,6 +173987,7 @@
 0.0.0.0 datamatics.net.au
 0.0.0.0 datamatium.com
 0.0.0.0 datanodehub.site
+0.0.0.0 datanoirgold5.sylosyncbase.garden
 0.0.0.0 dataonyahatttt.weebly.com
 0.0.0.0 dataozi.com.cn
 0.0.0.0 datapage-delta.vercel.app
@@ -204374,6 +204383,7 @@
 0.0.0.0 facai.y82lj7e.cn
 0.0.0.0 facai2024.xn--bvs11es3ujti.com
 0.0.0.0 facai524.icu
+0.0.0.0 facanha.com.br
 0.0.0.0 facanjgijvsabnkfuadbybamyvbcjmulibwp-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 facaujowetta-8242-51618947-continue.vercel.app
 0.0.0.0 facb00keslat.000webhostapp.com
@@ -225416,6 +225426,7 @@
 0.0.0.0 gate10.server.expressasiatravel.com
 0.0.0.0 gateattij.weebly.com
 0.0.0.0 gatecelery.dealerregistration.com
+0.0.0.0 gategoldberg3.raxonviewunit.garden
 0.0.0.0 gategourmetloginmlcrosoftonlineservices.ribeiroautocapas.com.br
 0.0.0.0 gategrouploginmlcrosoftonlineservices.ribeiroautocapas.com.br
 0.0.0.0 gateguardian.usesfathom.com
@@ -230799,6 +230810,7 @@
 0.0.0.0 globetrotting-culture.ru
 0.0.0.0 globeusowan.it.com
 0.0.0.0 globexint.com.pk
+0.0.0.0 globfastfire7.raxonviewunit.garden
 0.0.0.0 globle-bvw.pages.dev
 0.0.0.0 globmall.mom
 0.0.0.0 globmall.run
@@ -232122,6 +232134,7 @@
 0.0.0.0 goldspotmedia.com
 0.0.0.0 goldstandardtransp-wixsite-com.filesusr.com
 0.0.0.0 goldstarmarketing.com.pk
+0.0.0.0 goldstarport.qivorpaknode.garden
 0.0.0.0 goldstats.com
 0.0.0.0 goldstrength.cf
 0.0.0.0 goldteknikservis.com
@@ -232754,7 +232767,6 @@
 0.0.0.0 gossamer-clover-jonquil.glitch.me
 0.0.0.0 gossamer-plain-perigee.glitch.me
 0.0.0.0 gossamerbio.corporacionfrm.org
-0.0.0.0 gossipband.ie
 0.0.0.0 gossipbottom.com
 0.0.0.0 gossipcenter.us.intellitxt.com
 0.0.0.0 gossiponthis.us.intellitxt.com
@@ -242038,6 +242050,7 @@
 0.0.0.0 half-dead-hydromete.000webhostapp.com
 0.0.0.0 half-momentous-dance.glitch.me
 0.0.0.0 half-trite-boat.glitch.me
+0.0.0.0 halfmillion-iq.com
 0.0.0.0 halfmoonsmast.jrcasey.com
 0.0.0.0 halfoffhome.shop
 0.0.0.0 halfpricebrooklyn.com
@@ -251869,6 +251882,7 @@
 0.0.0.0 hosterclick.com
 0.0.0.0 hosterhosterhost.weebly.com
 0.0.0.0 hostfast.hostfree.pw
+0.0.0.0 hostfastland.dexisnetflow.garden
 0.0.0.0 hostfleek.com
 0.0.0.0 hostgragaieba.mypi.co.clustercommunitying.com
 0.0.0.0 hostgurkko.byethost7.com
@@ -268355,6 +268369,7 @@
 0.0.0.0 irondpassive.sendonsight.com
 0.0.0.0 ironfitnesscti.com.br
 0.0.0.0 irongroup.net
+0.0.0.0 ironhausflow2.dexisnetflow.garden
 0.0.0.0 ironic-letterhead.000webhostapp.com
 0.0.0.0 ironicplucked.co.kr
 0.0.0.0 ironies.com
@@ -298790,6 +298805,7 @@
 0.0.0.0 loadinkfactory.com
 0.0.0.0 loadm.exelator.com
 0.0.0.0 loadmill.com
+0.0.0.0 loadpetitstar.zexislinkhub.garden
 0.0.0.0 loadr.exelator.com
 0.0.0.0 loadslift.saeaccess.com
 0.0.0.0 loadsurprise.com
@@ -322631,6 +322647,7 @@
 0.0.0.0 metablock-wallet-protection.firebaseapp.com
 0.0.0.0 metablock-wallet-protection.web.app
 0.0.0.0 metabluebadge.info
+0.0.0.0 metabluefire.qivorpaknode.garden
 0.0.0.0 metablueprintfacebooksupport.tempisite.com
 0.0.0.0 metabmasklokgi.godaddysites.com
 0.0.0.0 metabn.net
@@ -349252,6 +349269,7 @@
 0.0.0.0 nodewebvault.online
 0.0.0.0 nodexmultiwallet.pages.dev
 0.0.0.0 nodexplorer.site
+0.0.0.0 nodezeitmond.sylosyncbase.garden
 0.0.0.0 nodifyconnnect.com
 0.0.0.0 nodihyzv.wcnv20.cn
 0.0.0.0 nodony.com
@@ -349321,6 +349339,7 @@
 0.0.0.0 noinstgaram.vercel.app
 0.0.0.0 noipeubrufaumo-3191.vercel.app
 0.0.0.0 noiresilk.com
+0.0.0.0 noirmondsite4.qivorpaknode.garden
 0.0.0.0 noirski.com
 0.0.0.0 noirtable.com
 0.0.0.0 noiseless-abounding-bag.glitch.me
@@ -351801,6 +351820,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -363935,6 +363955,7 @@
 0.0.0.0 packmettnglazed.info
 0.0.0.0 packndpackage.com
 0.0.0.0 packnesseslxxegated.life
+0.0.0.0 packnoirland.raxonviewunit.garden
 0.0.0.0 packprivconsultline.online
 0.0.0.0 packrile.com
 0.0.0.0 packs-special.info
@@ -367028,6 +367049,7 @@
 0.0.0.0 pathikareps.com
 0.0.0.0 pathmedical.com.php56-7.ord1-1.websitetestlink.com
 0.0.0.0 pathmotive.top
+0.0.0.0 pathnoirbaum1.zexislinkhub.garden
 0.0.0.0 pathoward576.wixsite.com
 0.0.0.0 pathpurpose.top
 0.0.0.0 pathsharp.yuktibuilder.com
@@ -371302,6 +371324,7 @@
 0.0.0.0 petitesoleil.co
 0.0.0.0 petitory-enemies.000webhostapp.com
 0.0.0.0 petitroadrace.com
+0.0.0.0 petitwaldnet.dexisnetflow.garden
 0.0.0.0 petjh8nfzsd.typeform.com
 0.0.0.0 petolltylymstghe-dot-millinium.ey.r.appspot.com
 0.0.0.0 petr.kreativnikopec.eu
@@ -375757,6 +375780,7 @@
 0.0.0.0 pointraspberry.seekerapi.com
 0.0.0.0 pointring.doesemilyexist.com
 0.0.0.0 pointroll.com
+0.0.0.0 pointrougesoft.zexislinkhub.garden
 0.0.0.0 points-1c.cc
 0.0.0.0 points-2g.cc
 0.0.0.0 points-2z.cc
@@ -408600,6 +408624,7 @@
 0.0.0.0 rouddoidatteucro-7264.vercel.app
 0.0.0.0 roudellkirkwood.com
 0.0.0.0 roufraucrennanne-6894.vercel.app
+0.0.0.0 rougesoft9app.dexisnetflow.garden
 0.0.0.0 rough-bar-4a51.jessicayabaa.workers.dev
 0.0.0.0 rough-block-a14b.hisena9054.workers.dev
 0.0.0.0 rough-bonus-2745.on.fleek.co
@@ -416245,6 +416270,7 @@
 0.0.0.0 scanroute.pro
 0.0.0.0 scanscout.com
 0.0.0.0 scanspyware.net
+0.0.0.0 scanvertzeit.raxonviewunit.garden
 0.0.0.0 scanwith.us.intellitxt.com
 0.0.0.0 scapesmaniadapps.pages.dev
 0.0.0.0 scar.unityads.unity3d.com
@@ -422337,6 +422363,7 @@
 0.0.0.0 srvmath.com
 0.0.0.0 srvpub.com
 0.0.0.0 srvtrck.com
+0.0.0.0 srvvertland.sylosyncbase.garden
 0.0.0.0 srwww1.com
 0.0.0.0 ss-01.com
 0.0.0.0 ss-app-start-ledger-coms.webflow.io
@@ -426984,6 +427011,7 @@
 0.0.0.0 systiqo.site
 0.0.0.0 systracking.admicro.vn
 0.0.0.0 systweak.com
+0.0.0.0 sysvert7holz.qivorpaknode.garden
 0.0.0.0 syvotyfgroup.store
 0.0.0.0 syyd-bmmanager366568.vercel.app
 0.0.0.0 syzncw.com
@@ -428220,6 +428248,7 @@
 0.0.0.0 taskaorder.xyz
 0.0.0.0 taskbox.store
 0.0.0.0 taskchainz.it.com
+0.0.0.0 taskironland.zexislinkhub.garden
 0.0.0.0 taskk19pro.pro
 0.0.0.0 taskk2plus.pro
 0.0.0.0 taskk6kit.pro
@@ -434671,6 +434700,7 @@
 0.0.0.0 unitedstatesairsoft.com
 0.0.0.0 unitek-france.fr
 0.0.0.0 unitfclick.savethedales.com
+0.0.0.0 unitkaltwind.qivorpaknode.garden
 0.0.0.0 unitpanel.net
 0.0.0.0 unitscrew.codeforfamilias.com
 0.0.0.0 unitus.synergy-e.com
@@ -435511,6 +435541,7 @@
 0.0.0.0 userede.linha-direta.fun
 0.0.0.0 useremailxfiniitymail.weebly.com
 0.0.0.0 userfacebook.ddns.net
+0.0.0.0 userfastzeit.zexislinkhub.garden
 0.0.0.0 userflows.ingest.crittercism.com
 0.0.0.0 usermatch.krxd.net
 0.0.0.0 usermatch.targeting.unrulymedia.com
@@ -438288,6 +438319,7 @@
 0.0.0.0 view.neo.st
 0.0.0.0 view4cash.de
 0.0.0.0 view953.davefolts.com
+0.0.0.0 viewdarkberg9.zexislinkhub.garden
 0.0.0.0 viewfile.b-cdn.net
 0.0.0.0 viewgmad.socialmediasamachar.com
 0.0.0.0 viewnetportaluk.shop
@@ -442485,6 +442517,7 @@
 0.0.0.0 winnow55er.pro
 0.0.0.0 winnow7max.pro
 0.0.0.0 winns.fr
+0.0.0.0 winopenhaus.raxonviewunit.garden
 0.0.0.0 winphantom.net
 0.0.0.0 wins-game.com
 0.0.0.0 winscholarship.com
