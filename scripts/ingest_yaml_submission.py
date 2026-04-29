@@ -64,6 +64,15 @@ CURATOR_SCORE = 1.0
 MIN_AUTO_SCORE = 0.30
 MAX_AUTO_SCORE = 0.99
 
+# Step 2.G — Flat-to-campaign-iocs safety net.
+# Any upsert_flat() call that lands at curator-grade (>= 1.0) MUST also
+# guarantee a campaign_iocs row exists, even when called outside the
+# normal import_submission() flow (e.g. backfill / rebuild scripts that
+# reuse upsert_flat directly). We look up the campaign by canonical
+# actor name (campaigns.campaign_name = actor) and INSERT OR IGNORE.
+# Idempotent against the ux_campaign_iocs_unique index.
+CAMPAIGN_LINK_THRESHOLD = 1.0
+
 # RSS monitor sentinel: IOCs are captured but no campaign linkage is written.
 # The flat tables still get source_file + first_seen, but actor_attribution_actor
 # stays NULL. Phase-2 NLP actor resolution will replace this sentinel.
@@ -166,6 +175,42 @@ def record_attribution_source(
     return cur.lastrowid
 
 
+# Step 2.G hook: keep flat-table writes and campaign_iocs in sync for
+# curator-grade attribution. Tolerant of missing campaigns (logs and skips).
+def _ensure_campaign_link(
+    cur: sqlite3.Cursor, table: str, value: str, actor: str, score: float,
+) -> bool:
+    """When score >= CAMPAIGN_LINK_THRESHOLD, ensure a campaign_iocs row
+    exists for (campaign(actor), ioc_type(table), value). Returns True if
+    a new row was inserted, False otherwise (already present, or skipped)."""
+    if score < CAMPAIGN_LINK_THRESHOLD or not actor:
+        return False
+    if actor == RSS_UNATTRIBUTED:
+        return False
+    table_to_iocs_type = {
+        "ipv4_iocs": "ipv4", "ipv6_iocs": "ipv6", "domains": "domain",
+        "urls": "url", "emails": "email", "cves": "cve", "cidr_iocs": "cidr",
+    }
+    ioc_type = table_to_iocs_type.get(table)
+    if ioc_type is None:
+        return False
+    row = cur.execute(
+        "SELECT id FROM campaigns WHERE campaign_name = ?", (actor,),
+    ).fetchone()
+    if row is None:
+        log(f"  [step2g] no campaign for actor={actor!r}; cannot link {table}/{value}")
+        return False
+    campaign_id = row[0]
+    cur.execute(
+        "INSERT OR IGNORE INTO campaign_iocs "
+        "(campaign_id, ioc_type, ioc_value, notes, confidence_score, confidence_basis) "
+        "VALUES (?, ?, ?, ?, ?, ?)",
+        (campaign_id, ioc_type, value, "step2g: flat->campaign sync",
+         score, "flat_table_curator_sync"),
+    )
+    return cur.rowcount > 0
+
+
 def upsert_flat(
     cur: sqlite3.Cursor, table: str, col: str, value: str, actor: str,
     score: float, source_file: str, domain_type: str | None = None,
@@ -202,6 +247,8 @@ def upsert_flat(
                 f"actor_attribution_actor, actor_attribution_score) VALUES (?, ?, ?, ?, ?)",
                 (value, source_file, today_iso(), actor, score),
             )
+        # Step 2.G — sync flat curator inserts into campaign_iocs.
+        _ensure_campaign_link(cur, table, value, actor, score)
         return "inserted"
 
     existing_actor, existing_score = existing
@@ -213,6 +260,8 @@ def upsert_flat(
                 f"UPDATE {table} SET domain_type = ? WHERE {col} = ? AND domain_type = 'malicious'",
                 (domain_type, value),
             )
+        # Step 2.G — even on no-op, ensure curator link exists.
+        _ensure_campaign_link(cur, table, value, actor, score)
         return "already_correct"
 
     if existing_actor and existing_actor != actor and existing_score > score:
@@ -238,6 +287,8 @@ def upsert_flat(
             f"UPDATE {table} SET domain_type = ? WHERE {col} = ? AND domain_type = 'malicious'",
             (domain_type, value),
         )
+    # Step 2.G — after a successful UPDATE at curator grade, link campaign.
+    _ensure_campaign_link(cur, table, value, actor, score)
     return "updated_attr"
 
 
