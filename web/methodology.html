@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APT Watch — Methodology</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+           max-width: 820px; margin: 2rem auto; padding: 0 1rem;
+           color: #1d1d1f; line-height: 1.55; }
+    h1 { border-bottom: 2px solid #cc0000; padding-bottom: .4rem; }
+    h2 { margin-top: 2.2rem; color: #333; }
+    h3 { margin-top: 1.4rem; color: #555; }
+    code { background: #f4f4f4; padding: 1px 5px; border-radius: 3px; }
+    pre { background: #f4f4f4; padding: 1rem; border-radius: 5px;
+          overflow-x: auto; font-size: 0.9rem; }
+    table { border-collapse: collapse; margin: 1rem 0; width: 100%; }
+    th, td { border: 1px solid #ddd; padding: .5rem .7rem; text-align: left; }
+    th { background: #f4f4f4; }
+    .score-cell { font-variant-numeric: tabular-nums; text-align: right; }
+    .note { background: #fff8dc; border-left: 3px solid #e6a200;
+            padding: .7rem 1rem; margin: 1rem 0; }
+    a { color: #cc0000; }
+  </style>
+</head>
+<body>
+
+<h1>APT Watch — Methodology</h1>
+
+<p>
+This page explains how APT Watch collects, scores, attributes, and ages
+every indicator of compromise (IOC) it publishes. It covers the four
+mechanisms that determine whether an IOC ends up in a blocklist, the
+dashboard, or neither:
+<strong>attribution confidence</strong>, <strong>composite scoring</strong>,
+<strong>lifecycle decay</strong>, and <strong>the safelist</strong>.
+</p>
+
+<h2>1. Attribution confidence</h2>
+
+<p>
+Every IOC in our flat tables carries a numeric
+<code>actor_attribution_score</code> between 0.0 and 1.0. The score is an
+<em>evidence grade</em>, not a per-source probability; it reflects how much
+trust the curator places in the claim that a given IOC belongs to a given
+APT actor.
+</p>
+
+<table>
+  <thead>
+    <tr><th>Tier</th><th>Score</th><th>Meaning</th><th>Typical source</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Curator</td><td class="score-cell">1.0</td>
+        <td>Ground truth, human-reviewed YAML submission.</td>
+        <td>CISA advisories, vendor IR reports (Mandiant, Talos, MSTIC),
+            curator-authored baselines.</td></tr>
+    <tr><td>High supposed</td><td class="score-cell">0.70 – 0.99</td>
+        <td>Vetted per-actor feed; narrow false-positive surface.</td>
+        <td>MSTIC RSS, Mandiant per-group feeds, CERT-UA, Google TI, ESET
+            per-actor dumps.</td></tr>
+    <tr><td>Medium supposed</td><td class="score-cell">0.30 – 0.69</td>
+        <td>Aggregated / community feed; useful but noisy.</td>
+        <td>OTX pulses, multi-actor threat feeds, open-source RSS
+            keyword matches.</td></tr>
+    <tr><td>Weak</td><td class="score-cell">0.01 – 0.29</td>
+        <td>Best-effort; flagged but not used for blocklist inclusion
+            without corroboration.</td>
+        <td>Individual blog posts, unverified mailing-list tips.</td></tr>
+    <tr><td>Unattributed</td><td class="score-cell">0.0 / NULL</td>
+        <td>IOC captured, no actor claim made.</td>
+        <td>Collector sweeps with no per-actor context.</td></tr>
+  </tbody>
+</table>
+
+<p>
+Attribution is <strong>monotonic</strong>: a lower-score claim never
+overwrites a higher-score one. A claim at the same score from a different
+actor is treated as a conflict and logged; the curator resolves it manually.
+</p>
+
+<h2>2. Composite scoring</h2>
+
+<p>
+Each IOC also carries a <code>composite_score</code> that combines
+infrastructure risk with corroboration signals. It is computed per run by
+the scoring pipeline and ranges 0.0–1.0.
+</p>
+
+<p>The inputs are:</p>
+
+<ul>
+  <li><strong>Infrastructure risk</strong>: derived from ASN reputation,
+      hosting provider (bulletproof / VPS concentration boost), reverse DNS
+      patterns, and historical campaign overlap on the same /24.</li>
+  <li><strong>Corroboration count</strong>: how many independent feeds
+      report the same IOC. Each feed's vote is weighted by its tier.</li>
+  <li><strong>Recency</strong>: a decay factor applied during lifecycle
+      aging (see §3).</li>
+</ul>
+
+<p>
+The resulting score buckets into the <code>Critical / High / Medium / Low</code>
+labels used in the dashboard, but the underlying number is the numeric
+field. Planned work (Step 15) will replace the bucketed labels with a
+Bayesian posterior that exposes per-source contributions in the UI.
+</p>
+
+<h2>3. Lifecycle decay</h2>
+
+<p>
+IOCs do not live forever. Every IOC has a <code>lifecycle_state</code>
+that transitions through three stages:
+</p>
+
+<table>
+  <thead>
+    <tr><th>State</th><th>Trigger</th><th>Blocklist behaviour</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>active</code></td>
+        <td>Seen in the last 30 days by at least one feed.</td>
+        <td>Published in high- and medium-tier blocklists.</td></tr>
+    <tr><td><code>stale</code></td>
+        <td>Not re-observed for 30–90 days.</td>
+        <td>Published in full-tier blocklists only; excluded from the
+            focused high-tier list.</td></tr>
+    <tr><td><code>expired</code></td>
+        <td>Not re-observed for &gt;90 days AND no active campaign
+            reference.</td>
+        <td>Excluded from every published blocklist. Retained in the
+            database for historical analysis.</td></tr>
+  </tbody>
+</table>
+
+<div class="note">
+<strong>Why we don't follow sinkholed domains:</strong> expired malicious
+domains frequently resolve to legitimate infrastructure (Google Public DNS
+<code>8.8.8.8</code>, Gravatar, GitHub Pages, Cloudflare). Publishing their
+current A records would cause blanket false positives. We track sinkhole
+status per domain (Step 7, in progress) and filter resolved-DNS merges
+accordingly.
+</div>
+
+<h2>4. The safelist</h2>
+
+<p>
+Even a perfectly-attributed IOC must never appear in a blocklist if it
+identifies legitimate shared infrastructure. The safelist applies to every
+blocklist generator and rejects, by CIDR:
+</p>
+
+<table>
+  <thead>
+    <tr><th>Provider</th><th>Ranges</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>GitHub Pages</td><td><code>185.199.108.0/22</code></td></tr>
+    <tr><td>Cloudflare</td>
+        <td><code>104.16.0.0/12, 172.64.0.0/13, 173.245.48.0/20,
+                  190.93.240.0/20, 197.234.240.0/22,
+                  198.41.128.0/17</code></td></tr>
+    <tr><td>Microsoft / Bing</td>
+        <td><code>150.171.0.0/16, 204.79.197.0/24, 13.107.0.0/16,
+                  20.0.0.0/11</code></td></tr>
+    <tr><td>Google</td>
+        <td><code>8.8.8.0/24, 8.8.4.0/24, 142.250.0.0/15,
+                  172.217.0.0/16, 216.58.192.0/19</code></td></tr>
+    <tr><td>Apple</td><td><code>17.0.0.0/8</code></td></tr>
+    <tr><td>Meta / Instagram</td>
+        <td><code>157.240.0.0/16, 31.13.24.0/21, 179.60.192.0/22</code></td></tr>
+    <tr><td>Gravatar / Automattic</td>
+        <td><code>192.0.64.0/18</code></td></tr>
+  </tbody>
+</table>
+
+<p>
+We also distinguish <strong>compromised-legitimate</strong> domains from
+<strong>attacker-owned</strong> ones. Domains marked
+<code>domain_type='compromised_legitimate'</code> (for example hacked
+WordPress sites being used as C2) are tracked for research but
+never published in blocklists — the underlying site is a victim, not
+infrastructure to block.
+</p>
+
+<h2>5b. Shared infrastructure attribution</h2>
+
+<p>
+Some IOCs legitimately belong to multiple actors — bulletproof hosting
+providers, infrastructure handed off between groups, or VPS subnets used
+for joint operations. When <code>db_health_check.py</code> flags an IOC
+as appearing in <strong>three or more campaigns</strong>, we treat it as
+<strong>shared infrastructure</strong> rather than a conflict: the IOC
+stays attributed to all linked actors via <code>campaign_iocs</code>,
+with a <code>notes='shared infra'</code> annotation on each row.
+</p>
+
+<table>
+  <thead>
+    <tr><th>Threshold</th><th>Treatment</th><th>Curator action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1 campaign</td>
+        <td>Single attribution.</td>
+        <td>None.</td></tr>
+    <tr><td>2 campaigns</td>
+        <td>Conflict — flagged for review.</td>
+        <td>Curator decides which actor owns the IOC.</td></tr>
+    <tr><td>3+ campaigns</td>
+        <td>Shared infrastructure — all attributions retained.</td>
+        <td>Annotate with <code>notes='shared infra'</code>.</td></tr>
+  </tbody>
+</table>
+
+<p>
+Examples we currently track this way:
+</p>
+
+<ul>
+  <li><strong>Gamaredon &times; Sandworm</strong> on certain VPS subnets
+      where the same IPv4 has been observed handing off C2 between
+      crews.</li>
+  <li><strong>ALPHV / BlackCat affiliates</strong> reusing infrastructure
+      across distinct ransomware campaigns — the IPs are real, but the
+      "owner" is the affiliate ecosystem, not any one actor.</li>
+</ul>
+
+<p>
+Documenting the <strong>3-campaign threshold</strong> here lets curators
+act consistently when <code>db_health_check.py</code> raises a multi-actor
+flag: below the threshold it is a conflict to resolve; at or above it is
+shared infrastructure to annotate. Reviewers should not silently delete
+one of the attributions.
+</p>
+
+<h2>5. Where to find the numbers</h2>
+
+<p>
+Every claim on the dashboard links back to the source record. Tooltips on
+score values cite this page. Raw data is available in the
+<a href="https://github.com/APTWatcher/aptwatch">APT Watch repository</a>
+(canonical schema under <code>database/schema.sql</code>; blocklist
+generators under <code>scripts/generate_*_blocklist.py</code>).
+</p>
+
+<p>
+For questions, suggestions, or dispute reports on any published IOC, open
+an issue on the repo or email <code>aptwatch@pm.me</code>.
+</p>
+
+<p style="margin-top:3rem; color:#888; font-size:0.85rem;">
+Last revised: 2026-04-23. Step 2.E of the APT Watch rollout.
+</p>
+
+</body>
+</html>

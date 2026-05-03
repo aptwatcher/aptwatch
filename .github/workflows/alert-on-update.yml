@@ -1,0 +1,108 @@
+# APT Watch — Alert-on-update workflow
+#
+# Fires whenever the daily collector pushes a new alert summary to
+# web/alerts/. Reads web/alerts/latest.json, checks the `delta` field,
+# and emails latest.md to the configured recipient when the delta is
+# non-empty.
+#
+# Required repository secrets (Settings -> Secrets and variables -> Actions):
+#   MAIL_HOST  - SMTP server hostname (e.g. smtp.fastmail.com)
+#   MAIL_USER  - SMTP authentication username
+#   MAIL_PASS  - SMTP authentication password / app token
+#   MAIL_TO    - destination address; if unset, falls back to the repo
+#                owner email (github.event.repository.owner.email).
+#
+# Optional secrets:
+#   MAIL_PORT  - SMTP port (defaults to 465 when unset)
+#
+# Failure mode: if the email step fails, the workflow logs the error
+# and exits 0 so the underlying push is not retroactively flagged red.
+---
+name: APT Watch alert email
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'web/alerts/*.json'
+      - 'web/alerts/*.md'
+
+jobs:
+  notify:
+    name: Send alert email
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Inspect latest.json
+        id: inspect
+        run: |
+          set -e
+          if [ ! -f web/alerts/latest.json ]; then
+            echo "no_latest=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::web/alerts/latest.json not present; nothing to send"
+            exit 0
+          fi
+          # Extract delta count, today's date, and a one-line subject suffix.
+          DELTA_COUNT=$(python3 -c "
+          import json, sys
+          d=json.load(open('web/alerts/latest.json'))
+          v=d.get('delta')
+          if v is None: print(0)
+          elif isinstance(v,(list,dict,str)): print(len(v))
+          elif isinstance(v,(int,float)): print(int(v))
+          else: print(0)
+          ")
+          DATE=$(python3 -c "import json; d=json.load(open('web/alerts/latest.json')); print(d.get('date',''))")
+          if [ -z "$DATE" ]; then
+            DATE=$(date -u +%Y-%m-%d)
+          fi
+          echo "delta_count=$DELTA_COUNT" >> "$GITHUB_OUTPUT"
+          echo "date=$DATE"               >> "$GITHUB_OUTPUT"
+          if [ "$DELTA_COUNT" = "0" ]; then
+            echo "::notice::Delta is empty (count=0); skipping email"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Resolve recipient
+        id: resolve_to
+        if: steps.inspect.outputs.skip != 'true' && steps.inspect.outputs.no_latest != 'true'
+        run: |
+          if [ -n "${{ secrets.MAIL_TO }}" ]; then
+            echo "to=${{ secrets.MAIL_TO }}" >> "$GITHUB_OUTPUT"
+          else
+            # Fallback: GitHub repo owner email (may be empty if the
+            # owner has email privacy enabled — in that case the email
+            # step will fail and be caught by continue-on-error).
+            echo "to=${{ github.event.repository.owner.email }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Send alert email (best-effort)
+        if: steps.inspect.outputs.skip != 'true' && steps.inspect.outputs.no_latest != 'true'
+        id: send
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.MAIL_HOST }}
+          server_port: ${{ secrets.MAIL_PORT || 465 }}
+          secure: true
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          from: APT Watch Bot <${{ secrets.MAIL_USER }}>
+          to: ${{ steps.resolve_to.outputs.to }}
+          subject: "[APT Watch] Alert summary ${{ steps.inspect.outputs.date }}"
+          body: file://web/alerts/latest.md
+          convert_markdown: true
+
+      - name: Note send result
+        if: always() && steps.inspect.outputs.skip != 'true' && steps.inspect.outputs.no_latest != 'true'
+        run: |
+          if [ "${{ steps.send.outcome }}" = "success" ]; then
+            echo "::notice::Alert email sent (delta=${{ steps.inspect.outputs.delta_count }})"
+          else
+            echo "::warning::Alert email send failed; not failing the workflow"
+          fi
