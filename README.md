@@ -22,7 +22,7 @@ APT Watch is a threat intelligence platform that collects, validates, and distri
 
 The project provides three things:
 
-- **A database** of 5,700+ validated IPv4 IOCs, 6,900+ CIDR ranges, 1.5M+ domains, and 94 CVEs, cross-referenced with vulnerability scans and enrichment data
+- **A database** of 6,500+ validated IPv4 IOCs, 6,900+ CIDR ranges, 1.5M+ domains, and 190+ CVEs, cross-referenced with vulnerability scans and enrichment data
 - **Blocklist feeds** in standard formats (FireHOL, StevenBlack, plain text) that update automatically every 6 hours and can be plugged into firewalls, DNS sinkholes, and SIEM tools — including unified feeds (`aptw-*`) that merge our data with FireHOL, Emerging Threats, Feodo Tracker, StevenBlack, URLhaus, AbuseIPDB, and Phishing.Database for broader coverage — plus DNS-resolved IPs and ISP-filtered reverse DNS for maximum visibility
 - **An interactive dashboard** at [aptwatch.org](https://aptwatch.org) for exploring the data directly in the browser
 
@@ -51,7 +51,7 @@ You can also open `web/index.html` locally with any browser and load a database 
 
 Two versions of the database are available, depending on your use case.
 
-### Web export (~23 MB)
+### Web export (~30 MB)
 
 The web export is built for the browser dashboard. It contains all the intelligence data you need for analysis but excludes bulk tables that would make it too large to load in a browser.
 
@@ -61,7 +61,7 @@ The web export is built for the browser dashboard. It contains all the intellige
 
 Download: [api.aptwatch.org/api/download/web](https://api.aptwatch.org/api/download/web)
 
-### Full database (~400 MB)
+### Full database (~800 MB)
 
 The full database contains everything — all 1.5M domains, 254K URLs, every vulnerability finding at every severity level, and the operational validation queue. Use this if you need complete domain/URL coverage for DNS analysis, full vulnerability scan data, or want to run the validation pipeline locally.
 
