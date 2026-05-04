@@ -1,0 +1,37 @@
+author: dricard
+source: https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-249a
+source_name: CISA AA24-249A — Russian Military Cyber Actors Target US and Global Critical Infrastructure (FortiGuard Outbreak Alert corroboration)
+apt_groups:
+  - Cadet Blizzard / Unit 29155
+  - Cadet Blizzard
+  - Ember Bear
+  - UNC2589
+  - UAC-0056
+  - 161st Specialist Training Center
+  - WhisperGate operators
+  - GRU Unit 29155
+description: >
+  GRU 161st Specialist Training Center (Unit 29155) — Russian military intelligence unit
+  conducting global cyber operations against NATO, EU, Central American, and Asian
+  critical infrastructure for espionage, sabotage, and reputational harm. FortiGuard
+  Outbreak Alert (russian-cyber-espionage-attack.pdf, 2026-04) re-affirms CISA/FBI/NSA
+  joint advisory AA24-249A (2024-09-05): exploitation of public-facing apps (Atlassian
+  Confluence, Sophos Firewall, Dahua IP cameras), WhisperGate destructive wiper
+  (MITRE S0689) against Ukraine, and HiatusRAT scanning campaigns. Targeted sectors
+  include government, financial services, transportation, energy, and healthcare.
+cves:
+  - CVE-2020-1472
+  - CVE-2021-26084
+  - CVE-2021-3156
+  - CVE-2021-4034
+  - CVE-2022-27666
+  - CVE-2021-33044
+  - CVE-2021-33045
+  - CVE-2022-26134
+  - CVE-2022-26138
+  - CVE-2022-3236
+urls:
+  - https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-249a
+  - https://www.fortiguard.com/threat-signal-report/5197/
+  - https://www.ic3.gov/CSA/2024/241216.pdf
+  - https://attack.mitre.org/software/S0689/

@@ -1,0 +1,60 @@
+# VECT 2.0 ransomware -- "Ransomware by design, Wiper by accident"
+# Microsoft Defender Threat Analytics OSINT profile (2026-04-29 12:37 UTC)
+# Primary source: Check Point Research (2026-04-29)
+
+author: dricard
+source: https://research.checkpoint.com/2026/vect-ransomware-by-design-wiper-by-accident/
+source_name: "VECT 2.0 ransomware (Check Point Research, 2026-04-29) -- via MS Defender OSINT profile"
+
+apt_groups:
+  - VECT
+  - VECT 2.0
+  - TeamPCP-affiliated
+
+description: >
+  Russophone RaaS first advertised December 2025 on a Russian-language
+  forum, with publicized partnerships with TeamPCP and BreachForums for
+  affiliate access and targeting. Version 2.0 (released February 2026)
+  ships as statically compiled C++ executables for Windows, Linux, and
+  VMware ESXi, all embedding libsodium and producing the same ".vect"
+  encrypted file format and ransom note. Public reporting that described
+  VECT as ChaCha20-Poly1305 was corrected: the malware uses raw
+  ChaCha20-IETF (RFC 8439) without authentication, appending only a
+  nonce and providing no integrity protection.
+
+  Critical implementation flaw: files over 131,072 bytes are processed
+  in four chunks, each encrypted with a freshly generated 12-byte nonce,
+  but only the final nonce is written to disk -- the first three nonces
+  are overwritten and discarded. The first three encrypted chunks of
+  large files therefore cannot be decrypted by anyone, including the
+  operators, making recovery impossible even if a ransom is paid. Smaller
+  files (<131 KB) are encrypted in a single pass and remain decryptable.
+  Result: VECT functions as an accidental wiper for any non-trivial file.
+
+  Linked to TeamPCP's March 2026 supply-chain compromises that injected
+  malware into widely used packages: Trivy, Checkmarx KICS, LiteLLM, and
+  Telnyx. The Windows variant deletes shadow copies, clears event logs,
+  performs lateral movement via WMI/DCOM, SMB admin shares, scheduled
+  tasks, service creation, and PowerShell remoting, and supports
+  safe-mode execution via boot configuration changes. Linux and ESXi
+  variants include geofencing, anti-debug (TracerPid checks), kill
+  services and shut down VMs across multiple hypervisors, wipe logs and
+  shell histories, and propagate over SSH (key-harvesting + SCP +
+  remote exec). Their advertised "fast/medium/secure" encryption modes
+  are parsed but not actually implemented.
+
+  Microsoft Defender signatures: Ransom:Win32/Avaddon.P!MSR,
+  Trojan:Linux/Multiverze!rfn.
+
+confidence_score: 1.0
+
+# IOCs from the Check Point Research article (2026-04-29):
+#   - 6 SHA256 hashes covering Windows (3), Linux (1), and ESXi (2) variants,
+#     plus an older ESXi variant (pre-2.0) that exhibits the same nonce flaw.
+#   - 1 onion leak/chat URL (intentionally NOT included per project policy:
+#     no .onion infrastructure tracked).
+#   - 1 Qtox backup-contact ID embedded in the ransom note.
+# The hashes and Check Point + MS Defender source URLs are loaded into
+# campaign_iocs / attribution_sources via the bundle's hashes-addendum.sql
+# (run after this YAML so the campaign exists). Onion + Qtox ID are noted
+# in the campaign description for traceability but not stored as IOCs.

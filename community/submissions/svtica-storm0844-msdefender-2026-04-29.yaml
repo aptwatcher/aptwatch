@@ -1,0 +1,28 @@
+author: dricard
+source: https://security.microsoft.com/threatanalytics3/
+source_name: Microsoft Defender Threat Analytics — Storm-0844 Actor Profile
+apt_groups:
+  - Storm-0844
+  - DEV-0844
+  - Periwinkle Tempest
+  - DEV-0193
+  - TrickBot LLC subgroup
+description: >
+  Storm-0844 is a cybercriminal subgroup of Periwinkle Tempest (DEV-0193, the TrickBot
+  LLC ecosystem) conducting hands-on-keyboard ransomware operations with a payload
+  progression Hive -> Royal (late 2022) -> Akira (June 2023) -> Fog (May 2024). Recent
+  Microsoft reporting cites targeting of the airline industry. Tradecraft includes
+  Bumblebee phishing handoffs, Cobalt Strike / Sliver C2, AnyDesk RMM, Veeam exploitation
+  via CVE-2023-27532, reconnaissance via Advanced Port Scanner / Nmap / SharpShares /
+  AdFind, credential access via ProcDump (LSASS), reg save (SAM/SYSTEM), Ntdsutil
+  (ntds.dit) and Rubeus Kerberoasting, "sqladmin" persistence, RDP lateral movement,
+  Ligolo tunneling, Rclone / SharpExfiltrate / FileZilla exfiltration, and ransomware
+  deployment via Impacket / WMI.
+ipv4:
+  - 194.33.45.167
+  - 64.44.102.190
+  - 184.107.5.46
+cves:
+  - CVE-2023-27532
+urls:
+  - https://gbhackers.com/

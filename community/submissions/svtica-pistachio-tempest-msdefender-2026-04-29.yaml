@@ -1,0 +1,20 @@
+author: dricard
+source: https://www.mandiant.com/resources/blog/fin12-conti-ransomware-affiliate
+source_name: Microsoft Defender Threat Analytics — Pistachio Tempest Actor Profile (Mandiant FIN12 corroboration)
+apt_groups:
+  - Pistachio Tempest
+  - DEV-0237
+  - FIN12
+description: >
+  Pistachio Tempest (DEV-0237; Mandiant FIN12) is a prolific Ransomware-as-a-Service
+  affiliate that has rotated through Ryuk -> Conti -> Hive -> BlackCat (Mar 2022) ->
+  Nokoyawa (May 2022) -> Agenda (Qilin) / Mindware payloads, with heavy reliance on
+  initial-access brokers delivering Trickbot, BazarLoader, and IcedID. Mandiant FIN12
+  reporting highlights healthcare-sector focus. Tradecraft: Cobalt Strike + SystemBC +
+  Sliver, SharpHound recon, LaZagne, NTDS.dit copy in PerfLogs, SAM/Registry dumping,
+  Rubeus Kerberoasting, AnyDesk RMM, bitsadmin /transfer + PsExec deployment, and
+  signature filename xxx.exe for ransomware payloads. Distinct from Sangria Tempest
+  (= FIN7); the two are not synonymous.
+urls:
+  - https://www.mandiant.com/resources/blog/fin12-conti-ransomware-affiliate
+  - https://thedfirreport.com/
