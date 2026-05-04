@@ -1,0 +1,18 @@
+author: dricard
+source: https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a
+source_name: Microsoft Defender Threat Analytics — Akira ransomware Tool Profile (CISA AA24-109A corroboration)
+apt_groups:
+  - Akira
+  - GOLD SAHARA
+  - PUNK SPIDER
+description: >
+  Akira is a sophisticated C/C++ ransomware family first observed in March 2023, targeting
+  Windows, Linux, and VMware ESXi systems under a Ransomware-as-a-Service (RaaS) model
+  with double-extortion tactics. Operations combine Rclone exfiltration with hybrid
+  RSA + ChaCha8 encryption. Known affiliates deploying Akira include Storm-1567,
+  Storm-0844, and Pistachio Tempest, primarily targeting healthcare, education,
+  government, and financial-services organizations across North America and Europe.
+urls:
+  - https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a
+  - https://www.halcyon.ai/blog/
+  - https://www.ransomlook.io/group/akira

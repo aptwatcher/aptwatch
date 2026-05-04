@@ -1,0 +1,17 @@
+author: dricard
+source: https://security.microsoft.com/threatanalytics3/
+source_name: Microsoft Defender Threat Analytics — Storm-1567 Actor Profile
+apt_groups:
+  - Storm-1567
+  - PUNK SPIDER
+description: >
+  Storm-1567 is a cybercriminal group (CrowdStrike: PUNK SPIDER) deploying Akira
+  ransomware in opportunistic attacks since June 2023. Pre-ransomware operations
+  emphasize RDP and RMM-based lateral movement, network scanning, and Rclone-based
+  exfiltration. Observed tradecraft includes Cobalt Strike Beacon (post IcedID/Qakbot
+  infections), fake-software-download lures, stolen-credential reuse, NetScan and
+  SharpShares discovery, RustDesk / AnyDesk / Splashtop / Atera RMM, RDP lateral
+  movement, Storm-0365 Cobalt Strike infrastructure, renamed Rclone (e.g. msdb.exe)
+  for exfiltration, Akira deployment via WMI, and PowerShell shadow-copy deletion.
+urls:
+  - https://security.microsoft.com/threatanalytics3/
