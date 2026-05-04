@@ -55,9 +55,9 @@ Two versions of the database are available, depending on your use case.
 
 The web export is built for the browser dashboard. It contains all the intelligence data you need for analysis but excludes bulk tables that would make it too large to load in a browser.
 
-**Included:** 5,774 IPv4 IOCs, 6,941 CIDRs, 6,832 scan results, 10,000+ vulnerability findings (Critical + High + top Medium by CVSS), 32,808 enrichment results, 1,117 staging servers, 415 recon candidates, 497 ASN records, 94 CVEs, 162 emails, campaign attribution and inter-agency correlation data.
+**Included:** IPv4 IOCs, CIDRs, scan results, vulnerability findings (Critical + High + top Medium by CVSS), enrichment results, staging servers, recon candidates, ASN records, CVEs, emails, campaign attribution and inter-agency correlation data.
 
-**Excluded:** 1.5M domains, 254K URLs, 317K Low/None vulnerability findings, validation queue (operational data). Domain and URL counts are stored in metadata so the dashboard can display totals.
+**Excluded:** domains, URLs, Low/None vulnerability findings, validation queue (operational data). Domain and URL counts are stored in metadata so the dashboard can display totals.
 
 Download: [api.aptwatch.org/api/download/web](https://api.aptwatch.org/api/download/web)
 
