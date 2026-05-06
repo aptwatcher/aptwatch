@@ -57,8 +57,8 @@ except ImportError:
 # Project layout (matches apt-intel/repo/ layout on both dev + prod)
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_DB = PROJECT_ROOT / "database" / "apt_intel.db"
-SUBMISSIONS_DIR = PROJECT_ROOT / "community" / "submissions"
-LOG_PATH = PROJECT_ROOT / "community" / "import_log.txt"
+SUBMISSIONS_DIR = PROJECT_ROOT / "repo" / "community" / "submissions"
+LOG_PATH = PROJECT_ROOT / "repo" / "community" / "import_log.txt"
 
 CURATOR_SCORE = 1.0
 MIN_AUTO_SCORE = 0.30

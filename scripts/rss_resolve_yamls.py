@@ -39,7 +39,7 @@ from rss_keyword_resolver import (
 )
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_SUBMISSIONS_DIR = PROJECT_ROOT / "community" / "submissions"
+DEFAULT_SUBMISSIONS_DIR = PROJECT_ROOT / "repo" / "community" / "submissions"
 
 
 def is_unattributed(data: dict) -> bool:
