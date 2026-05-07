@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-07 12:31:00
-# Entries: 524017
+# Generated: 2026-05-07 18:30:57
+# Entries: 523991
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -11848,6 +11848,7 @@
 0.0.0.0 1cdb30.infectiousinfringement.cn
 0.0.0.0 1cdb52c3.siwabbs.cn
 0.0.0.0 1cde.zip-sneidjer.workers.dev
+0.0.0.0 1ce6-route.fixionmunici9al.lat
 0.0.0.0 1ce749933c2732178.temporary.link
 0.0.0.0 1ce94cba11407f43768cde7a311365c1fb9f04b29ffec272565f70b4b0.pages.dev
 0.0.0.0 1cf4a16b.70igro.shop
@@ -12230,6 +12231,7 @@
 0.0.0.0 1liveoutlook.vercel.app
 0.0.0.0 1ll.us
 0.0.0.0 1lll1.com
+0.0.0.0 1llume-sync.fixionmunici9al.lat
 0.0.0.0 1lnch.io.elh-v2.live
 0.0.0.0 1lnstagram.netlify.app
 0.0.0.0 1lntraccrcwvee.com
@@ -12331,7 +12333,6 @@
 0.0.0.0 1obmen.com
 0.0.0.0 1obzro.shop
 0.0.0.0 1oc44-span.pastor-publicist.lat
-0.0.0.0 1oc4l-node.xamir9el.lat
 0.0.0.0 1oggdqckblym93wey6vhqy.qwo231sdx.club
 0.0.0.0 1ogin-microsoftqinpbfhejkkpbeq-furdxysscvftlnjd-qfcrydbfrcbsfso.netlify.app
 0.0.0.0 1ogin100255830860956678-940056449952592169-76317777261275778609.netlify.app
@@ -22354,7 +22355,6 @@
 0.0.0.0 3ob5ljj0fgs8pgdyb.qwo231sdx.club
 0.0.0.0 3obkxxglofjelj.wisuda.ump.ac.id
 0.0.0.0 3ofc.my.id
-0.0.0.0 3ohr8brt.qen2virex.lat
 0.0.0.0 3oiihugsdgjhusd.mydopweb.com
 0.0.0.0 3oijhue.cfd
 0.0.0.0 3oinlb8.qwo231sdx.club
@@ -29889,7 +29889,6 @@
 0.0.0.0 5t-hmyjt5ey4tw3rqwaesrjr5u4635q2qeadfs.vercel.app
 0.0.0.0 5t.w0sf8oqva1.workers.dev
 0.0.0.0 5t43b-syaaa-aaaad-qeyiq-cai.raw.ic0.app
-0.0.0.0 5t4g3-port.3toravix.lat
 0.0.0.0 5t4t4y54yh65hg5y.netlify.app
 0.0.0.0 5t74lt.cn
 0.0.0.0 5t7ngj1myp.s3.us-south.objectstorage.softlayer.net
@@ -32892,7 +32891,6 @@
 0.0.0.0 69retro.com
 0.0.0.0 69w5.sap22695f2.cc
 0.0.0.0 69xni9hr.top
-0.0.0.0 69zhzd.tavro4xel.lat
 0.0.0.0 6a-jdsnftuudfbwger1204.vercel.app
 0.0.0.0 6a00437a.00agt8.shop
 0.0.0.0 6a090a25-7409-44dc-b1e3-03f2312a7fa9.selstorage.ru
@@ -34548,7 +34546,6 @@
 0.0.0.0 759c5dab6febf837be07608c2a7232d79974d00f.000webhostapp.com
 0.0.0.0 759dd87e.bmed12.shop
 0.0.0.0 75abd9f5.ngrok.io
-0.0.0.0 75aohwq.qen2virex.lat
 0.0.0.0 75ayhxs5tnjltlnxelwjnepxy8pu.qwo231sdx.club
 0.0.0.0 75bellonline.com
 0.0.0.0 75cd78fc.lds-kdl82ks.shop
@@ -42935,6 +42932,7 @@
 0.0.0.0 a3n8toqn6e.pages.dev
 0.0.0.0 a3r4ylopnn.000webhostapp.com
 0.0.0.0 a3vc0k.info
+0.0.0.0 a3vrjnwj.xamir9el.lat
 0.0.0.0 a3vte.com
 0.0.0.0 a3zl2blksup5vtuko91ajq-on.drv.tw
 0.0.0.0 a4-black.vercel.app
@@ -46204,7 +46202,6 @@
 0.0.0.0 abgqixudmszgntan-dot-millinium.ey.r.appspot.com
 0.0.0.0 abgrpxxgg.duckdns.org
 0.0.0.0 abgrupmetal.com
-0.0.0.0 abh.openlinksys.lat
 0.0.0.0 abh6ibsihemig7bdidbd.duckdns.org
 0.0.0.0 abh7n.github.io
 0.0.0.0 abha28.github.io
@@ -98773,7 +98770,6 @@
 0.0.0.0 arkconstruction.in
 0.0.0.0 arkdatacentres.online
 0.0.0.0 arkdndtbwtlkpgyanpqzzsobwq-dot-gle39404049.rj.r.appspot.com
-0.0.0.0 arkdraor.mav8loren.lat
 0.0.0.0 arke-analysis.co.uk
 0.0.0.0 arkejp.xyz
 0.0.0.0 arkelconstructors.com.standoutjewelsfor5.com
@@ -103376,7 +103372,6 @@
 0.0.0.0 astrsk.net
 0.0.0.0 astrumfashion.com
 0.0.0.0 astrut.dedspac.ru
-0.0.0.0 asts.datarunkey.lat
 0.0.0.0 astsarsttsrfff.weebly.com
 0.0.0.0 astsesksrercovveryi-554542.click
 0.0.0.0 astt.ddns.net
@@ -116206,7 +116201,6 @@
 0.0.0.0 autboxs.pav8lorex.lat
 0.0.0.0 autboxs.plsqlnew.surf
 0.0.0.0 autboxs.primeflowspace.surf
-0.0.0.0 autboxs.softworkapi.lat
 0.0.0.0 autchase.online
 0.0.0.0 autcnaof.com
 0.0.0.0 aute.matsuro.ru
@@ -140603,7 +140597,6 @@
 0.0.0.0 berraktulperde.com
 0.0.0.0 berret.virosat.ru
 0.0.0.0 berrienelementary.myspapp.com
-0.0.0.0 berriesandco.pl
 0.0.0.0 berry-cake-ladybug.glitch.me
 0.0.0.0 berry-cut-bamboo.glitch.me
 0.0.0.0 berry-erratic-rudbeckia.glitch.me
@@ -145287,6 +145280,7 @@
 0.0.0.0 biratonline.com
 0.0.0.0 birbakis.com
 0.0.0.0 birbas.hopto.org
+0.0.0.0 birc6-trail.fixionmunici9al.lat
 0.0.0.0 birch-jar.000webhostapp.com
 0.0.0.0 birch.dedspac.ru
 0.0.0.0 birch.matsuro.ru
@@ -145769,7 +145763,6 @@
 0.0.0.0 bitkit.vexo3nar.surf
 0.0.0.0 bitkit.vexon4al.surf
 0.0.0.0 bitkits.captive-portal.lat
-0.0.0.0 bitkits.linkdevbase.lat
 0.0.0.0 bitkits.portcry.surf
 0.0.0.0 bitkits.quantumtechbox.surf
 0.0.0.0 bitkits.sorix9el.surf
@@ -147569,6 +147562,7 @@
 0.0.0.0 blisspoint.us-west-2.stinger-ad.bidr.io
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
+0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -174778,7 +174772,6 @@
 0.0.0.0 ci92422.tmweb.ru
 0.0.0.0 cia.dedspac.ru
 0.0.0.0 cia.ulitron.ru
-0.0.0.0 ciabjdb.mav8loren.lat
 0.0.0.0 ciadiversidades.com
 0.0.0.0 ciagamers.xyz
 0.0.0.0 ciagenesis.com.br
@@ -178844,6 +178837,7 @@
 0.0.0.0 cloudmsmessagesreleaingafterverificationmymsuser673479329482387.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 cloudmy-ids.com
 0.0.0.0 cloudnetfiji.com
+0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudnstamp.giridharvegrestaurant.com
@@ -179322,7 +179316,6 @@
 0.0.0.0 cmdsets.fewhtml.surf
 0.0.0.0 cmdsets.jesuit5itny.lat
 0.0.0.0 cmdsets.nodespit.surf
-0.0.0.0 cmdsets.srvappsite.lat
 0.0.0.0 cmdsets.technovortexhub.surf
 0.0.0.0 cmdswitch.xyz
 0.0.0.0 cmeamip7nd.8510.gencmert.com
@@ -179616,6 +179609,7 @@
 0.0.0.0 cn.rkzmx.com
 0.0.0.0 cn.sekmx.com
 0.0.0.0 cn.sqhuabang.com
+0.0.0.0 cn.unionlever.com
 0.0.0.0 cn.vcbjmx.com
 0.0.0.0 cn.voranfi.ru
 0.0.0.0 cn.wanbo18.pro
@@ -185374,7 +185368,6 @@
 0.0.0.0 comwebs.pav8lorex.lat
 0.0.0.0 comwebs.plsqlnew.surf
 0.0.0.0 comwebs.primeflowspace.surf
-0.0.0.0 comwebs.softworkapi.lat
 0.0.0.0 comwhatsaap-grup2021.duckdns.org
 0.0.0.0 comzbasesign-ins.gitbook.io
 0.0.0.0 comzo.cl
@@ -187411,7 +187404,6 @@
 0.0.0.0 contextweb.com
 0.0.0.0 contigorentacar.com
 0.0.0.0 contineljs.com
-0.0.0.0 continentalgroup.net.in
 0.0.0.0 continentalpacifictextile.com
 0.0.0.0 continentalretribrrutions.info
 0.0.0.0 continually-pan-used-shake.trycloudflare.com
@@ -203876,7 +203868,6 @@
 0.0.0.0 detflix-96f2de.ingress-baronn.easywp.com
 0.0.0.0 dethecture.com
 0.0.0.0 dethex.pages.dev
-0.0.0.0 detierra.cl
 0.0.0.0 detik.serving-sys.com
 0.0.0.0 detiktotocakep.com
 0.0.0.0 detin.dedspac.ru
@@ -209718,7 +209709,6 @@
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
-0.0.0.0 dl.dzqzd.com
 0.0.0.0 dl.elitoras.ru
 0.0.0.0 dl.fotoable.com
 0.0.0.0 dl.freeshare.link
@@ -210719,10 +210709,8 @@
 0.0.0.0 doclab.vexo3nar.surf
 0.0.0.0 doclab.vexon4al.surf
 0.0.0.0 doclabs.captive-portal.lat
-0.0.0.0 doclabs.linkdevbase.lat
 0.0.0.0 doclabs.portcry.surf
 0.0.0.0 doclabs.quantumtechbox.surf
-0.0.0.0 doclabs.smell-chat.lat
 0.0.0.0 doclabs.sorix9el.surf
 0.0.0.0 doclabs.vexon4al.lat
 0.0.0.0 docle-x6wp.vercel.app
@@ -211969,7 +211957,6 @@
 0.0.0.0 domreg.sali8mor.lat
 0.0.0.0 domreg.telo5reth.lat
 0.0.0.0 domregs.cobble-mortgag.lat
-0.0.0.0 domregs.fastexitnow.lat
 0.0.0.0 domregs.masterlogicgrid.surf
 0.0.0.0 domregs.noopcup.surf
 0.0.0.0 domregs.xamir3on.lat
@@ -215323,6 +215310,7 @@
 0.0.0.0 duo-oqw.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 duo.bortogat.ru
 0.0.0.0 duo.yangsheng94.link
+0.0.0.0 duobeam.com
 0.0.0.0 duocisi5tour.com
 0.0.0.0 duodamgaro.lt
 0.0.0.0 duole.dedspac.ru
@@ -216261,7 +216249,6 @@
 0.0.0.0 dynmarkar8.xamir3on.lat
 0.0.0.0 dynmarkos6.fira6dox.lat
 0.0.0.0 dynmcpth.com
-0.0.0.0 dynmesh5et.xamir9el.lat
 0.0.0.0 dynnmc444dynt.duckdns.org
 0.0.0.0 dynodisplays.com.au
 0.0.0.0 dynoo.bid
@@ -225162,6 +225149,7 @@
 0.0.0.0 envset.vexo3nar.surf
 0.0.0.0 envset.vexon4al.surf
 0.0.0.0 envsets.captive-portal.lat
+0.0.0.0 envsets.linkdevbase.lat
 0.0.0.0 envsets.portcry.surf
 0.0.0.0 envsets.quantumtechbox.surf
 0.0.0.0 envsets.sorix9el.surf
@@ -231015,6 +231003,7 @@
 0.0.0.0 extnet.sali8mor.lat
 0.0.0.0 extnet.telo5reth.lat
 0.0.0.0 extnets.cobble-mortgag.lat
+0.0.0.0 extnets.fastexitnow.lat
 0.0.0.0 extnets.masterlogicgrid.surf
 0.0.0.0 extnets.noopcup.surf
 0.0.0.0 extnets.xamir3on.lat
@@ -244760,7 +244749,6 @@
 0.0.0.0 fils.ulitron.ru
 0.0.0.0 filsbusiness.duckdns.org
 0.0.0.0 filt.us-southeast-1.linodeobjects.com
-0.0.0.0 filte-path.7zorelax.lat
 0.0.0.0 filter-bot.com
 0.0.0.0 filter-snap.000webhostapp.com
 0.0.0.0 filter.adsparkmedia.net
@@ -258211,6 +258199,7 @@
 0.0.0.0 genesiswoodworking.co.zw
 0.0.0.0 genesiswriters.com
 0.0.0.0 genesitic-swell.000webhostapp.com
+0.0.0.0 genesun.arch-vivarium.lat
 0.0.0.0 genet.virosat.ru
 0.0.0.0 genethliacally.amaniwa.ru
 0.0.0.0 genetic-collaborative-attempted-fee.trycloudflare.com
@@ -261001,7 +260990,6 @@
 0.0.0.0 gitlab.sori7xen.surf
 0.0.0.0 gitlab.sorix2el.surf
 0.0.0.0 gitlab.verdi7rax.lat
-0.0.0.0 gitlabh.fatovism-r2ccoon.lat
 0.0.0.0 gitlabh.filipen-typograp.lat
 0.0.0.0 gitlabh.lorex7in.surf
 0.0.0.0 gitlabh.openlinksys.lat
@@ -302188,7 +302176,6 @@
 0.0.0.0 ioflows.pav8lorex.lat
 0.0.0.0 ioflows.plsqlnew.surf
 0.0.0.0 ioflows.primeflowspace.surf
-0.0.0.0 ioflows.softworkapi.lat
 0.0.0.0 iofwd.cn
 0.0.0.0 iogbp.top
 0.0.0.0 iogin-microsotfonlineauth.karadeniztatili.net
@@ -303048,6 +303035,7 @@
 0.0.0.0 irnfd.blogspot.is
 0.0.0.0 irnfd.blogspot.li
 0.0.0.0 irnfd.blogspot.sn
+0.0.0.0 irngvd.pav1mirex.lat
 0.0.0.0 irnt0ken-aa.com
 0.0.0.0 irnt0ken-ac.com
 0.0.0.0 irnt0ken-ad.com
@@ -309090,7 +309078,6 @@
 0.0.0.0 jimsgenerators.net
 0.0.0.0 jimzzzkeys.buzz
 0.0.0.0 jin-svipo.cc
-0.0.0.0 jin.com.my
 0.0.0.0 jin365m.casacam.net
 0.0.0.0 jina.amaniwa.ru
 0.0.0.0 jina.dedspac.ru
@@ -309294,6 +309281,7 @@
 0.0.0.0 jiyndemabr.duckdns.org
 0.0.0.0 jiyuni.net
 0.0.0.0 jiz.supercores.xyz
+0.0.0.0 jizeeb.xamir9el.lat
 0.0.0.0 jizion.icu
 0.0.0.0 jizjxliidy.duckdns.org
 0.0.0.0 jizpd.lahoudproductions.com
@@ -310089,7 +310077,6 @@
 0.0.0.0 jobadm.tavro5xel.surf
 0.0.0.0 jobadm.thora5ven.lat
 0.0.0.0 jobadm.torex6lin.surf
-0.0.0.0 jobadms.cloudtaskgo.lat
 0.0.0.0 jobadms.godjava.surf
 0.0.0.0 jobadms.infinitynodesys.surf
 0.0.0.0 jobadms.setting5hoo.lat
@@ -315822,6 +315809,7 @@
 0.0.0.0 jwnnsjvrdyhlfslojbmdqsjokwwzhrtuqjly-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 jwong.work
 0.0.0.0 jwonmj.shmpcuo.hd313.co.za
+0.0.0.0 jwosviuw.7zorelax.lat
 0.0.0.0 jwotnrpkbqzuc.work
 0.0.0.0 jwowebhobg.green
 0.0.0.0 jwpltx.com
@@ -321819,7 +321807,6 @@
 0.0.0.0 kokoni.space
 0.0.0.0 kokonorotomo.pro
 0.0.0.0 kokoqq1.online
-0.0.0.0 kokorostore.it
 0.0.0.0 kokoskym.vvipnewyear.my.id
 0.0.0.0 koku.dedspac.ru
 0.0.0.0 kokul-ponnaiyan1110.github.io
@@ -325303,7 +325290,6 @@
 0.0.0.0 kuzcoin-logwin.gitbook.io
 0.0.0.0 kuzeyoto.com
 0.0.0.0 kuzgfhqqgy.duckdns.org
-0.0.0.0 kuzina-teatr.ru
 0.0.0.0 kuzlymeratviqnbgygcnfs-th04bay-fmq30.vercel.app
 0.0.0.0 kuzmina-chugunova.ru
 0.0.0.0 kv-analytics.kiotviet.vn
@@ -327058,7 +327044,6 @@
 0.0.0.0 lanhop.vexo3nar.surf
 0.0.0.0 lanhop.vexon4al.surf
 0.0.0.0 lanhops.captive-portal.lat
-0.0.0.0 lanhops.linkdevbase.lat
 0.0.0.0 lanhops.portcry.surf
 0.0.0.0 lanhops.quantumtechbox.surf
 0.0.0.0 lanhops.sorix9el.surf
@@ -327683,6 +327668,7 @@
 0.0.0.0 lauia.dedspac.ru
 0.0.0.0 laun.dedspac.ru
 0.0.0.0 launch-dapp.herokuapp.com
+0.0.0.0 launch-point.pav1mirex.lat
 0.0.0.0 launch.adserver.yahoo.com
 0.0.0.0 launch.decode-lab.com
 0.0.0.0 launch.letima.de
@@ -331196,6 +331182,7 @@
 0.0.0.0 letter-scge.firebaseapp.com
 0.0.0.0 letter-scge.web.app
 0.0.0.0 letterboxdistributionmelbourne.com.au
+0.0.0.0 lettercinema.vexon6ar.lat
 0.0.0.0 letteredbylagua.com
 0.0.0.0 letterhead.ml
 0.0.0.0 letteropen.grov9mira.lat
@@ -331941,7 +331928,6 @@
 0.0.0.0 libsys.tavro5xel.surf
 0.0.0.0 libsys.thora5ven.lat
 0.0.0.0 libsys.torex6lin.surf
-0.0.0.0 libsyss.cloudtaskgo.lat
 0.0.0.0 libsyss.godjava.surf
 0.0.0.0 libsyss.infinitynodesys.surf
 0.0.0.0 libsyss.setting5hoo.lat
@@ -334099,6 +334085,7 @@
 0.0.0.0 listen.sitey.me
 0.0.0.0 listen.view03.repl.co
 0.0.0.0 listeneramericanalmost.com
+0.0.0.0 listenermacro.pav1mirex.lat
 0.0.0.0 listenkryz.com
 0.0.0.0 listennow-office.us-east-1.linodeobjects.com
 0.0.0.0 listenonfly-6fgzk3fk4-yaswanth791504s-projects.vercel.app
@@ -337254,7 +337241,6 @@
 0.0.0.0 logbin.sori7xen.surf
 0.0.0.0 logbin.sorix2el.surf
 0.0.0.0 logbin.verdi7rax.lat
-0.0.0.0 logbins.fatovism-r2ccoon.lat
 0.0.0.0 logbins.filipen-typograp.lat
 0.0.0.0 logbins.lorex7in.surf
 0.0.0.0 logbins.ultrashiftnet.surf
@@ -341936,7 +341922,6 @@
 0.0.0.0 lulzasegundaviadeboleto.com
 0.0.0.0 lulzasegundavlaoficial.com
 0.0.0.0 lum-cresta.qeniral8.surf
-0.0.0.0 lum-valeon.3toravix.lat
 0.0.0.0 lum.boletuso.ru
 0.0.0.0 lum22-8cfp.vercel.app
 0.0.0.0 lum22.vercel.app
@@ -345905,7 +345890,6 @@
 0.0.0.0 mahkemesorgulama.net
 0.0.0.0 mahkemesorgulamaportal.org
 0.0.0.0 mahkfqu3lcwomlvr1x84wt5nofq.qwo231sdx.club
-0.0.0.0 mahleinc.com
 0.0.0.0 mahmoodnoori.ir
 0.0.0.0 mahmoud-abdelaziz.com
 0.0.0.0 mahmoud-maher1.github.io
@@ -371547,7 +371531,6 @@
 0.0.0.0 modbus.sali8mor.lat
 0.0.0.0 modbus.telo5reth.lat
 0.0.0.0 modbuss.cobble-mortgag.lat
-0.0.0.0 modbuss.fastexitnow.lat
 0.0.0.0 modbuss.masterlogicgrid.surf
 0.0.0.0 modbuss.noopcup.surf
 0.0.0.0 modbuss.xamir3on.lat
@@ -372110,6 +372093,7 @@
 0.0.0.0 moldy.virosat.ru
 0.0.0.0 mole.ulitron.ru
 0.0.0.0 molecular-local-manage-idd205987413.vercel.app
+0.0.0.0 moledynam.vexon6ar.lat
 0.0.0.0 molefaphoyles.pages.dev
 0.0.0.0 molegal.co.ke
 0.0.0.0 moler.dedspac.ru
@@ -380892,7 +380876,6 @@
 0.0.0.0 n.systemlog.me
 0.0.0.0 n.targetctracker.com
 0.0.0.0 n.timerto.ru
-0.0.0.0 n.vs108.com
 0.0.0.0 n.yj.fr
 0.0.0.0 n.z7mard.yhfnxn4yif.yyg.44f4bm8jj.tjgs.a7fwx4s.y4sk4f.fs.2ejmf.jjxp.scyrz6q.3k4y.cn2gbzw.epjnheai6.ndsye.6b8scztpm.rbfkhx.de.w.2qkwnw.hmtr.5ntsprmyy.awejw.jphz.iyxw3qjcn.ens3c.pay.paypalcancel.cc
 0.0.0.0 n01d05.cumulus-cloud.com
@@ -381705,6 +381688,7 @@
 0.0.0.0 nanotiona.com
 0.0.0.0 nanotions.com
 0.0.0.0 nanoze2019ogladajbezlimituonlinezalukaj.wordpress.com
+0.0.0.0 nanpe.eng.br
 0.0.0.0 nansasutiono.com
 0.0.0.0 nansen-ensmartvalidator.pages.dev
 0.0.0.0 nansenvalidatedao.pages.dev
@@ -384018,7 +384002,6 @@
 0.0.0.0 nenta.virosat.ru
 0.0.0.0 nenu828nennwpa.shop
 0.0.0.0 nenzgrhxmo.duckdns.org
-0.0.0.0 neo-anch0r.7zorelax.lat
 0.0.0.0 neo-kikaku.jp
 0.0.0.0 neo-technologies.fr
 0.0.0.0 neo.att.com.pg.p3c.xyz
@@ -385742,9 +385725,9 @@
 0.0.0.0 netman.xena4vax.lat
 0.0.0.0 netman123.com
 0.0.0.0 netmans.5dorexin.lat
-0.0.0.0 netmans.chemistry5till.lat
 0.0.0.0 netmans.clampe7outback.lat
 0.0.0.0 netmans.cybermetagrid.surf
+0.0.0.0 netmans.datarunkey.lat
 0.0.0.0 netmans.mel2vrax.surf
 0.0.0.0 netmans.rodrules.surf
 0.0.0.0 netmas.com.mx
@@ -386086,6 +386069,7 @@
 0.0.0.0 neural-fix.com
 0.0.0.0 neural-skein.com
 0.0.0.0 neural40.cdnwebcloud.com
+0.0.0.0 neuralcra.arch-vivarium.lat
 0.0.0.0 neuralfin.com
 0.0.0.0 neuraltradeai.org
 0.0.0.0 neuritis.ru
@@ -437227,6 +437211,7 @@
 0.0.0.0 pwrlog.sali8mor.lat
 0.0.0.0 pwrlog.telo5reth.lat
 0.0.0.0 pwrlogs.cobble-mortgag.lat
+0.0.0.0 pwrlogs.fastexitnow.lat
 0.0.0.0 pwrlogs.masterlogicgrid.surf
 0.0.0.0 pwrlogs.noopcup.surf
 0.0.0.0 pwrlogs.xamir3on.lat
@@ -438466,7 +438451,6 @@
 0.0.0.0 qingtian.wtshaabp.cyou
 0.0.0.0 qingtian.zypofl.xyz
 0.0.0.0 qingyutiankong.github.io
-0.0.0.0 qiniuyunxz.yxflzs.com
 0.0.0.0 qinnan.pilot45.com
 0.0.0.0 qinrenwang.com.cn
 0.0.0.0 qintarsethnohistorssians.info
@@ -440716,7 +440700,6 @@
 0.0.0.0 qyxyzltzylhatdhgcqacwoxlopubtfxfotwlqlwegfchxbyhtz.srvntmedical.com
 0.0.0.0 qyzmixzwjzagipgh-dot-millinium.ey.r.appspot.com
 0.0.0.0 qyzowfad.ddgrils.com
-0.0.0.0 qz.697539.com
 0.0.0.0 qz.com.wwww.gq.mcmzambia.org
 0.0.0.0 qz59c8sl3-j41qe5xvsvyx-bn4362f8863qfawv3zi29o1kcxov6fpbmb3.pages.dev
 0.0.0.0 qzbiclaelxudgtcn-dot-millinium.ey.r.appspot.com
@@ -442699,6 +442682,7 @@
 0.0.0.0 rapid-bush-05d1-jerry.invoice-dornbirn.workers.dev
 0.0.0.0 rapid-cell-4e2f.salessdocs.workers.dev
 0.0.0.0 rapid-flame.com
+0.0.0.0 rapid-forge.vexon6ar.lat
 0.0.0.0 rapid-frog-1e45.dsilva1766.workers.dev
 0.0.0.0 rapid-frost-2c48.slavsnil.workers.dev
 0.0.0.0 rapid-glade-cde8.asoumare042024.workers.dev
@@ -446090,7 +446074,6 @@
 0.0.0.0 refid-xs.pav8lorex.lat
 0.0.0.0 refid-xs.plsqlnew.surf
 0.0.0.0 refid-xs.primeflowspace.surf
-0.0.0.0 refid-xs.softworkapi.lat
 0.0.0.0 refid.brix9mira.lat
 0.0.0.0 refid.pavi1xen.lat
 0.0.0.0 refid.vertexpointlinknet.lat
@@ -451230,7 +451213,6 @@
 0.0.0.0 riced.virosat.ru
 0.0.0.0 ricefwtech.com
 0.0.0.0 riceinstitute.org
-0.0.0.0 rich-endpo.tavro4xel.lat
 0.0.0.0 rich-gainful-badge.glitch.me
 0.0.0.0 rich-space.sbs
 0.0.0.0 rich-statuesque-drain.glitch.me
@@ -454594,7 +454576,6 @@
 0.0.0.0 roughsavor.net
 0.0.0.0 roughty-com.gq
 0.0.0.0 roughty.tk
-0.0.0.0 roughvocal.mav8loren.lat
 0.0.0.0 roughzcrisp.click
 0.0.0.0 rougy.virosat.ru
 0.0.0.0 rouhurcpkbyymzcu-dot-millinium.ey.r.appspot.com
@@ -466170,6 +466151,7 @@
 0.0.0.0 shelf.ulitron.ru
 0.0.0.0 shell-create.ddns.net
 0.0.0.0 shell-sertificates.ddns.net
+0.0.0.0 shellengi.pastor-publicist.lat
 0.0.0.0 shellstore.info
 0.0.0.0 shelterbelt.hikotras.ru
 0.0.0.0 shelterbelt.timanar.ru
@@ -467675,7 +467657,6 @@
 0.0.0.0 skers.virosat.ru
 0.0.0.0 sketch-build-pitch.vercel.app
 0.0.0.0 sketch-mail.online
-0.0.0.0 sketchbasic.tavro4xel.lat
 0.0.0.0 sketchxe.vercel.app
 0.0.0.0 skew.amaniwa.ru
 0.0.0.0 skewl.dedspac.ru
@@ -470878,10 +470859,8 @@
 0.0.0.0 sshpro.ultratechstackweb.lat
 0.0.0.0 sshpro.xena4vax.lat
 0.0.0.0 sshpros.5dorexin.lat
-0.0.0.0 sshpros.chemistry5till.lat
 0.0.0.0 sshpros.clampe7outback.lat
 0.0.0.0 sshpros.cybermetagrid.surf
-0.0.0.0 sshpros.datarunkey.lat
 0.0.0.0 sshpros.mel2vrax.surf
 0.0.0.0 sshpros.rodrules.surf
 0.0.0.0 ssilesrageeonlinestoragefileserveremboiledstore.bubbleapps.io
@@ -473079,7 +473058,6 @@
 0.0.0.0 steadyflowless.pro
 0.0.0.0 steadyguru.phlexcom.com
 0.0.0.0 steadyhealth.us.intellitxt.com
-0.0.0.0 steadymeasure.qen2virex.lat
 0.0.0.0 steadypaddling.com
 0.0.0.0 steak.virosat.ru
 0.0.0.0 steakhouse-auxerre.com
@@ -474388,7 +474366,6 @@
 0.0.0.0 subcli.vexon4al.surf
 0.0.0.0 subclinically.kukarat.ru
 0.0.0.0 subclis.captive-portal.lat
-0.0.0.0 subclis.linkdevbase.lat
 0.0.0.0 subclis.portcry.surf
 0.0.0.0 subclis.quantumtechbox.surf
 0.0.0.0 subclis.sorix9el.surf
@@ -475049,6 +475026,7 @@
 0.0.0.0 supply.inmobicdn.net
 0.0.0.0 supply.piothena.sa.com
 0.0.0.0 supplychain.servirtual.cl
+0.0.0.0 supplyvau.fixionmunici9al.lat
 0.0.0.0 suppodream.ghy14.com
 0.0.0.0 support----leglivedesktop-sso.webflow.io
 0.0.0.0 support---app-ldegr.webflow.io
@@ -476155,10 +476133,8 @@
 0.0.0.0 syskey.sori7xen.surf
 0.0.0.0 syskey.sorix2el.surf
 0.0.0.0 syskey.verdi7rax.lat
-0.0.0.0 syskeys.fatovism-r2ccoon.lat
 0.0.0.0 syskeys.filipen-typograp.lat
 0.0.0.0 syskeys.lorex7in.surf
-0.0.0.0 syskeys.openlinksys.lat
 0.0.0.0 syskeys.ultrashiftnet.surf
 0.0.0.0 syskeys.zooblob.surf
 0.0.0.0 sysmaintainmialbox.z11.web.core.windows.net
@@ -476905,6 +476881,7 @@
 0.0.0.0 tally.upsideout.com
 0.0.0.0 tallyman.amaniwa.ru
 0.0.0.0 tallyman.bibliota.ru
+0.0.0.0 talmark5ix.pastor-publicist.lat
 0.0.0.0 talmax-build.com
 0.0.0.0 talor-grid.pages.dev
 0.0.0.0 taloth.shop
@@ -477587,7 +477564,6 @@
 0.0.0.0 taskids.pav8lorex.lat
 0.0.0.0 taskids.plsqlnew.surf
 0.0.0.0 taskids.primeflowspace.surf
-0.0.0.0 taskids.softworkapi.lat
 0.0.0.0 taskk19pro.pro
 0.0.0.0 taskk2plus.pro
 0.0.0.0 taskk6kit.pro
@@ -477857,10 +477833,8 @@
 0.0.0.0 tcpcon.ultratechstackweb.lat
 0.0.0.0 tcpcon.xena4vax.lat
 0.0.0.0 tcpcons.5dorexin.lat
-0.0.0.0 tcpcons.chemistry5till.lat
 0.0.0.0 tcpcons.clampe7outback.lat
 0.0.0.0 tcpcons.cybermetagrid.surf
-0.0.0.0 tcpcons.datarunkey.lat
 0.0.0.0 tcpcons.mel2vrax.surf
 0.0.0.0 tcpcons.rodrules.surf
 0.0.0.0 tcpmarkets.com
@@ -479513,6 +479487,7 @@
 0.0.0.0 thram.dedspac.ru
 0.0.0.0 thram.virosat.ru
 0.0.0.0 thraw.dedspac.ru
+0.0.0.0 thre-thic.pav1mirex.lat
 0.0.0.0 thread-mark.7toralex.lat
 0.0.0.0 threadwatch.us.intellitxt.com
 0.0.0.0 threatcenterofreaserch.com
@@ -479989,6 +479964,7 @@
 0.0.0.0 tin-delicate-lumber.glitch.me
 0.0.0.0 tin.dedspac.ru
 0.0.0.0 tina.dedspac.ru
+0.0.0.0 tina.gautengsound.co.za
 0.0.0.0 tinaborg.com
 0.0.0.0 tinctorum.space
 0.0.0.0 tine.dedspac.ru
@@ -480946,7 +480922,6 @@
 0.0.0.0 topsvcs.mav3lirex.surf
 0.0.0.0 topsvcs.securelinkpoint.surf
 0.0.0.0 topsvcs.sixunzip.surf
-0.0.0.0 topsvcs.webbitsync.lat
 0.0.0.0 toptarotist.nl
 0.0.0.0 toptechreviews.us.intellitxt.com
 0.0.0.0 toptenreviews.us.intellitxt.com
@@ -484856,7 +484831,6 @@
 0.0.0.0 uidmap.tavro5xel.surf
 0.0.0.0 uidmap.thora5ven.lat
 0.0.0.0 uidmap.torex6lin.surf
-0.0.0.0 uidmaps.cloudtaskgo.lat
 0.0.0.0 uidmaps.godjava.surf
 0.0.0.0 uidmaps.infinitynodesys.surf
 0.0.0.0 uidmaps.setting5hoo.lat
@@ -485141,6 +485115,7 @@
 0.0.0.0 ultimus-solutions.com
 0.0.0.0 ultra-awesome-site-update.webflow.io
 0.0.0.0 ultra-cda.pl
+0.0.0.0 ultra-narr0.mav8loren.lat
 0.0.0.0 ultra.monop-oriental.surf
 0.0.0.0 ultra.silverwoodhub.lat
 0.0.0.0 ultraccfichesregress.info
@@ -487911,10 +487886,8 @@
 0.0.0.0 usrgrp.ultratechstackweb.lat
 0.0.0.0 usrgrp.xena4vax.lat
 0.0.0.0 usrgrps.5dorexin.lat
-0.0.0.0 usrgrps.chemistry5till.lat
 0.0.0.0 usrgrps.clampe7outback.lat
 0.0.0.0 usrgrps.cybermetagrid.surf
-0.0.0.0 usrgrps.datarunkey.lat
 0.0.0.0 usrgrps.mel2vrax.surf
 0.0.0.0 usrgrps.rodrules.surf
 0.0.0.0 usrio.virosat.ru
@@ -490853,6 +490826,7 @@
 0.0.0.0 vr-info.im
 0.0.0.0 vr-vorgang.support
 0.0.0.0 vraj-v.github.io
+0.0.0.0 vrajras.com
 0.0.0.0 vratio.space
 0.0.0.0 vratislavialex.pl
 0.0.0.0 vraxil-sorin-pylak.pages.dev
@@ -492446,9 +492420,9 @@
 0.0.0.0 webdoc.sori7xen.surf
 0.0.0.0 webdoc.sorix2el.surf
 0.0.0.0 webdoc.verdi7rax.lat
-0.0.0.0 webdocs.fatovism-r2ccoon.lat
 0.0.0.0 webdocs.filipen-typograp.lat
 0.0.0.0 webdocs.lorex7in.surf
+0.0.0.0 webdocs.openlinksys.lat
 0.0.0.0 webdocs.ultrashiftnet.surf
 0.0.0.0 webdocs.zooblob.surf
 0.0.0.0 webengincs.com
@@ -502986,6 +502960,7 @@
 0.0.0.0 www.ertdontf.fit
 0.0.0.0 www.ertdopbq.com
 0.0.0.0 www.ertya.com
+0.0.0.0 www.erun-tech.com
 0.0.0.0 www.eruuythroblastosesrecessives.info
 0.0.0.0 www.eruvimuucornhusk.info
 0.0.0.0 www.erwanlardet.shop
@@ -509772,7 +509747,6 @@
 0.0.0.0 www.newhealthsources.com
 0.0.0.0 www.newhold.pro
 0.0.0.0 www.newhorizons-coaching.com
-0.0.0.0 www.newkey.co.kr
 0.0.0.0 www.newlifefloorcare.com
 0.0.0.0 www.newlimitedoffer.com
 0.0.0.0 www.newlinehomestore.com
@@ -521446,6 +521420,7 @@
 0.0.0.0 xrratd.cn
 0.0.0.0 xrrk6jk8374x.celticso.ru
 0.0.0.0 xrrl-casefb685611.vercel.app
+0.0.0.0 xs2f.fixionmunici9al.lat
 0.0.0.0 xscciae7.fewhtml.surf
 0.0.0.0 xscdfvr4e3.blogspot.com
 0.0.0.0 xscdfvr4e3.blogspot.si
@@ -523535,7 +523510,6 @@
 0.0.0.0 zipark.tavro5xel.surf
 0.0.0.0 zipark.thora5ven.lat
 0.0.0.0 zipark.torex6lin.surf
-0.0.0.0 ziparks.cloudtaskgo.lat
 0.0.0.0 ziparks.godjava.surf
 0.0.0.0 ziparks.infinitynodesys.surf
 0.0.0.0 ziparks.setting5hoo.lat
