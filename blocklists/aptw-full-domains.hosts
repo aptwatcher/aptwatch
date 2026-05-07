@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-07 06:02:10
-# Entries: 524007
+# Generated: 2026-05-07 06:30:53
+# Entries: 523995
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -88904,7 +88904,6 @@
 0.0.0.0 apidocs.i2chain.com
 0.0.0.0 apidocs.jesuit5itny.lat
 0.0.0.0 apidocs.nodespit.surf
-0.0.0.0 apidocs.puerto-ricans.lat
 0.0.0.0 apidocs.technovortexhub.surf
 0.0.0.0 apidtob.shop
 0.0.0.0 apidyslei.cc
@@ -145732,7 +145731,6 @@
 0.0.0.0 bitfoxs.mav3lirex.surf
 0.0.0.0 bitfoxs.securelinkpoint.surf
 0.0.0.0 bitfoxs.sixunzip.surf
-0.0.0.0 bitfoxs.webbitsync.lat
 0.0.0.0 bitfreboc.top
 0.0.0.0 bitfrib.top
 0.0.0.0 bitgamez.com
@@ -147563,6 +147561,7 @@
 0.0.0.0 blisspoint.us-west-2.stinger-ad.bidr.io
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
+0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -179318,7 +179317,6 @@
 0.0.0.0 cmdsets.fewhtml.surf
 0.0.0.0 cmdsets.jesuit5itny.lat
 0.0.0.0 cmdsets.nodespit.surf
-0.0.0.0 cmdsets.puerto-ricans.lat
 0.0.0.0 cmdsets.technovortexhub.surf
 0.0.0.0 cmdswitch.xyz
 0.0.0.0 cmeamip7nd.8510.gencmert.com
@@ -181125,6 +181123,7 @@
 0.0.0.0 codeads.com
 0.0.0.0 codeakio.github.io
 0.0.0.0 codeandwork.pl
+0.0.0.0 codeassociates.co.ke
 0.0.0.0 codebiogblog.com
 0.0.0.0 codebox.jabont.com
 0.0.0.0 codebrainf.vercel.app
@@ -188241,6 +188240,7 @@
 0.0.0.0 corenlp.admicro.vn
 0.0.0.0 corenomics.com
 0.0.0.0 coreorica.cyou
+0.0.0.0 corepilatesnicaragua.com
 0.0.0.0 coreplesk-cake-7dbf.leacshlenmmdgza.workers.dev
 0.0.0.0 corepoweryogaco.org
 0.0.0.0 corer.dedspac.ru
@@ -198892,7 +198892,7 @@
 0.0.0.0 dbinsts.fewhtml.surf
 0.0.0.0 dbinsts.jesuit5itny.lat
 0.0.0.0 dbinsts.nodespit.surf
-0.0.0.0 dbinsts.puerto-ricans.lat
+0.0.0.0 dbinsts.srvappsite.lat
 0.0.0.0 dbinsts.technovortexhub.surf
 0.0.0.0 dbios.org
 0.0.0.0 dbipactvewndowsverify.co.vu
@@ -209717,7 +209717,6 @@
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
-0.0.0.0 dl.dzqzd.com
 0.0.0.0 dl.elitoras.ru
 0.0.0.0 dl.fotoable.com
 0.0.0.0 dl.freeshare.link
@@ -211967,7 +211966,6 @@
 0.0.0.0 domreg.sali8mor.lat
 0.0.0.0 domreg.telo5reth.lat
 0.0.0.0 domregs.cobble-mortgag.lat
-0.0.0.0 domregs.hatched-labile.lat
 0.0.0.0 domregs.masterlogicgrid.surf
 0.0.0.0 domregs.noopcup.surf
 0.0.0.0 domregs.xamir3on.lat
@@ -261002,7 +261000,6 @@
 0.0.0.0 gitlab.verdi7rax.lat
 0.0.0.0 gitlabh.filipen-typograp.lat
 0.0.0.0 gitlabh.lorex7in.surf
-0.0.0.0 gitlabh.sorix7el.lat
 0.0.0.0 gitlabh.ultrashiftnet.surf
 0.0.0.0 gito.dyn-vpn.de
 0.0.0.0 gitoba1216.temp.swtest.ru
@@ -282313,7 +282310,6 @@
 0.0.0.0 hitslink.com
 0.0.0.0 hitslog.com
 0.0.0.0 hitsmartmarketing.com
-0.0.0.0 hitstation.nl
 0.0.0.0 hitstatus.com
 0.0.0.0 hittail.com
 0.0.0.0 hittbtc.net
@@ -285648,7 +285644,6 @@
 0.0.0.0 hotfix.securestreamnode.lat
 0.0.0.0 hotfix.sora8lin.lat
 0.0.0.0 hotfixmsupload.com
-0.0.0.0 hotfixs.boxvpslog.lat
 0.0.0.0 hotfixs.cargowhy.surf
 0.0.0.0 hotfixs.dbuswet.surf
 0.0.0.0 hotfixs.globaldatastack.surf
@@ -302655,7 +302650,6 @@
 0.0.0.0 ipnodes.cargowhy.surf
 0.0.0.0 ipnodes.dbuswet.surf
 0.0.0.0 ipnodes.globaldatastack.surf
-0.0.0.0 ipnodes.moto7transport.lat
 0.0.0.0 ipnodes.qen7varol.surf
 0.0.0.0 ipnodes.qen9varol.lat
 0.0.0.0 ipnodes.stick-shaped.lat
@@ -321823,7 +321817,6 @@
 0.0.0.0 kokoni.space
 0.0.0.0 kokonorotomo.pro
 0.0.0.0 kokoqq1.online
-0.0.0.0 kokorostore.it
 0.0.0.0 kokoskym.vvipnewyear.my.id
 0.0.0.0 koku.dedspac.ru
 0.0.0.0 kokul-ponnaiyan1110.github.io
@@ -327064,6 +327057,7 @@
 0.0.0.0 lanhops.captive-portal.lat
 0.0.0.0 lanhops.portcry.surf
 0.0.0.0 lanhops.quantumtechbox.surf
+0.0.0.0 lanhops.smell-chat.lat
 0.0.0.0 lanhops.sorix9el.surf
 0.0.0.0 lanhops.vexon4al.lat
 0.0.0.0 laniesrs-coalawner-429342-lksdicn-vnsrisnr.pages.dev
@@ -331946,7 +331940,6 @@
 0.0.0.0 libsys.torex6lin.surf
 0.0.0.0 libsyss.godjava.surf
 0.0.0.0 libsyss.infinitynodesys.surf
-0.0.0.0 libsyss.poi5oneducation.lat
 0.0.0.0 libsyss.setting5hoo.lat
 0.0.0.0 libsyss.tavro6xel.lat
 0.0.0.0 libsyss.tavro8xel.surf
@@ -339689,6 +339682,7 @@
 0.0.0.0 londamiachels.tk
 0.0.0.0 london-delight.ga
 0.0.0.0 london-healthcare.com
+0.0.0.0 londonairportstransfer.co.uk
 0.0.0.0 londoncamerahireservices.co.uk
 0.0.0.0 londondanceschool.com
 0.0.0.0 londonfreweb.website.cv
@@ -352181,7 +352175,6 @@
 0.0.0.0 mand1r1.bezmxv.my.id
 0.0.0.0 mandafashion.com
 0.0.0.0 mandala-mart.com
-0.0.0.0 mandalaagrifresh.com
 0.0.0.0 mandalahome.es
 0.0.0.0 mandalamultimedia.com
 0.0.0.0 mandalasdoamor.com.br
@@ -362254,7 +362247,6 @@
 0.0.0.0 metalts.fewhtml.surf
 0.0.0.0 metalts.jesuit5itny.lat
 0.0.0.0 metalts.nodespit.surf
-0.0.0.0 metalts.puerto-ricans.lat
 0.0.0.0 metalts.technovortexhub.surf
 0.0.0.0 metaltube.co.in
 0.0.0.0 metalturningy.xyz
@@ -374363,7 +374355,6 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
-0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -402224,7 +402215,6 @@
 0.0.0.0 opsmgrs.mav3lirex.surf
 0.0.0.0 opsmgrs.securelinkpoint.surf
 0.0.0.0 opsmgrs.sixunzip.surf
-0.0.0.0 opsmgrs.webbitsync.lat
 0.0.0.0 opsonew3org.sg
 0.0.0.0 opsrabgjhm.baby
 0.0.0.0 opstaging.com.au
@@ -428366,6 +428356,7 @@
 0.0.0.0 proxyss.captive-portal.lat
 0.0.0.0 proxyss.portcry.surf
 0.0.0.0 proxyss.quantumtechbox.surf
+0.0.0.0 proxyss.smell-chat.lat
 0.0.0.0 proxyss.sorix9el.surf
 0.0.0.0 proxyss.vexon4al.lat
 0.0.0.0 proxysync.pages.dev
@@ -446085,7 +446076,6 @@
 0.0.0.0 refid-1.pavl9ore.surf
 0.0.0.0 refid-x.pav3lorex.surf
 0.0.0.0 refid-xs.academicunmemo7.lat
-0.0.0.0 refid-xs.inhum2ntendency.lat
 0.0.0.0 refid-xs.pav6lorex.surf
 0.0.0.0 refid-xs.pav8lorex.lat
 0.0.0.0 refid-xs.plsqlnew.surf
@@ -451362,7 +451352,6 @@
 0.0.0.0 rider.virosat.ru
 0.0.0.0 rider2711.github.io
 0.0.0.0 rideranalyzer.cloud
-0.0.0.0 riderspin.com
 0.0.0.0 ridersticker.com
 0.0.0.0 ridetaxivail.com
 0.0.0.0 ridethecable.com
@@ -463704,7 +463693,6 @@
 0.0.0.0 sdvfdews.blogspot.com
 0.0.0.0 sdvfdews.blogspot.kr
 0.0.0.0 sdvgef3re2w.blogspot.tw
-0.0.0.0 sdvgpro.ru
 0.0.0.0 sdw5p4504uk021ojbcs.wrdy.de
 0.0.0.0 sdxhc.com
 0.0.0.0 sdysart.com
@@ -467854,6 +467842,7 @@
 0.0.0.0 skyvpns.fewhtml.surf
 0.0.0.0 skyvpns.jesuit5itny.lat
 0.0.0.0 skyvpns.nodespit.surf
+0.0.0.0 skyvpns.srvappsite.lat
 0.0.0.0 skyvpns.technovortexhub.surf
 0.0.0.0 skyway.capital
 0.0.0.0 skywebmailsertbcv.wixstudio.com
@@ -469175,7 +469164,6 @@
 0.0.0.0 softballshenotheismpps.info
 0.0.0.0 softbankbb.122.2o7.net
 0.0.0.0 softbanktechnology.112.2o7.net
-0.0.0.0 softcatalog.ru
 0.0.0.0 softclick.com.br
 0.0.0.0 softcore.xxxcounter.com
 0.0.0.0 softcore01.github.io
@@ -470784,7 +470772,6 @@
 0.0.0.0 srvhubs.actsdks.surf
 0.0.0.0 srvhubs.ascenderviinka.lat
 0.0.0.0 srvhubs.digitalcloudnet.surf
-0.0.0.0 srvhubs.nethubtop.lat
 0.0.0.0 srvhubs.tonmixin.surf
 0.0.0.0 srvkcnyhd.org
 0.0.0.0 srvlog.5lorexin.surf
@@ -470796,7 +470783,6 @@
 0.0.0.0 srvlogs.ascenderviinka.lat
 0.0.0.0 srvlogs.digitalcloudnet.surf
 0.0.0.0 srvlogs.mowin8single.lat
-0.0.0.0 srvlogs.nethubtop.lat
 0.0.0.0 srvlogs.tonmixin.surf
 0.0.0.0 srvmath.com
 0.0.0.0 srvpub.com
@@ -470862,6 +470848,7 @@
 0.0.0.0 sshbin.qen2vrax.surf
 0.0.0.0 sshbin.securestreamnode.lat
 0.0.0.0 sshbin.sora8lin.lat
+0.0.0.0 sshbins.boxvpslog.lat
 0.0.0.0 sshbins.cargowhy.surf
 0.0.0.0 sshbins.dbuswet.surf
 0.0.0.0 sshbins.globaldatastack.surf
@@ -474388,6 +474375,7 @@
 0.0.0.0 subclis.captive-portal.lat
 0.0.0.0 subclis.portcry.surf
 0.0.0.0 subclis.quantumtechbox.surf
+0.0.0.0 subclis.smell-chat.lat
 0.0.0.0 subclis.sorix9el.surf
 0.0.0.0 subclis.vexon4al.lat
 0.0.0.0 subcreation.fr
@@ -480416,10 +480404,10 @@
 0.0.0.0 tmpdir.qeni8ral.surf
 0.0.0.0 tmpdir.securestreamnode.lat
 0.0.0.0 tmpdir.sora8lin.lat
+0.0.0.0 tmpdirs.boxvpslog.lat
 0.0.0.0 tmpdirs.cargowhy.surf
 0.0.0.0 tmpdirs.dbuswet.surf
 0.0.0.0 tmpdirs.globaldatastack.surf
-0.0.0.0 tmpdirs.moto7transport.lat
 0.0.0.0 tmpdirs.qen7varol.surf
 0.0.0.0 tmpdirs.qen9varol.lat
 0.0.0.0 tmpdirs.stick-shaped.lat
@@ -482111,6 +482099,7 @@
 0.0.0.0 transaction-pending-bdo-online.pages.dev
 0.0.0.0 transactionally.amaniwa.ru
 0.0.0.0 transactionally.bibliota.ru
+0.0.0.0 transalpinafan.ro
 0.0.0.0 transcendenczzycacomistles.business
 0.0.0.0 transcendent-marshmallow-12d88f.netlify.app
 0.0.0.0 transcriptionally.amaniwa.ru
@@ -485729,7 +485718,6 @@
 0.0.0.0 up.nytimes.com
 0.0.0.0 up2ugroup.com
 0.0.0.0 upadhyayabhi9173.github.io
-0.0.0.0 upaicdn.xinmei365.com
 0.0.0.0 upalytics.com
 0.0.0.0 upandshare.nocoshop.ru
 0.0.0.0 upandshare.uploadbox.world
@@ -490580,6 +490568,7 @@
 0.0.0.0 vokr-gtavc.ic.cz
 0.0.0.0 voktisgroup.com
 0.0.0.0 vol.dedspac.ru
+0.0.0.0 volainc.co
 0.0.0.0 volandonlatamcol.com
 0.0.0.0 volasvo.click
 0.0.0.0 volatilevessel.com
@@ -490832,7 +490821,6 @@
 0.0.0.0 vpsruns.mav3lirex.surf
 0.0.0.0 vpsruns.securelinkpoint.surf
 0.0.0.0 vpsruns.sixunzip.surf
-0.0.0.0 vpsruns.webbitsync.lat
 0.0.0.0 vpx-ra.work
 0.0.0.0 vpx-wahst5pp.com
 0.0.0.0 vpzvn.top
