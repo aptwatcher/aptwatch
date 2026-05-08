@@ -1,0 +1,124 @@
+author: aptwatch-curator-bot
+source: https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/
+source_name: Microsoft + Sekoia + Huntress - Storm-2372 EvilTokens device code phishing
+
+apt_groups:
+  - Storm-2372
+  - EvilTokens
+  - UTA0304
+  - UTA0307
+  - Device Code PhaaS
+  - NOIRLEGACY GROUP
+
+description: >
+  Multi-vendor IOC consolidation for the Storm-2372 / EvilTokens
+  device code phishing campaign active Mar-Apr 2026. Microsoft
+  Defender Security Research (Apr 6 2026) attributed the
+  AI-augmented evolution to Storm-2372 with moderate confidence as
+  Russian-aligned and published 4 CIDR ranges for Railway.com and
+  HZ Hosting authentication backend. Huntress (Mar 25 2026) and
+  Arctic Wolf identified 3 dominant Railway egress IPs handling
+  ~84 percent of observed sign-in events. Sekoia TDR (Mar 30 2026,
+  upd. Apr 13) reverse-engineered the EvilTokens PhaaS backend (an
+  AI-generated Node.js app exposing 8 REST endpoints) and enumerated
+  34 self-hosted phishing domains plus 38 Cloudflare Workers
+  admin-hosted lures impersonating Adobe, DocuSign, OneDrive,
+  SharePoint, voicemail. PhaaS first advertised on NOIRLEGACY GROUP
+  Telegram channel 2026-02-16. EvilTokens-specific HTTP signature
+  for retro-hunt is the X-Antibot-Token header on landing pages.
+  Self-hosted affiliate list was triaged with
+  scripts/triage_domain_ownership.py on 2026-05-08; 12 of the 34
+  apex-or-subdomain entries are flagged as compromised legitimate
+  infrastructure (small businesses, medical practices, political
+  campaigns) rather than attacker-owned. Those are listed under
+  compromised_domains so the loader sets domain_type to
+  compromised_legitimate and they are excluded from the malicious
+  blocklist. The remaining 22 affiliate domains plus all 38
+  Cloudflare Workers are kept under domains as malicious.
+
+cidrs:
+  - 162.220.232.0/24
+  - 162.220.234.0/24
+  - 89.150.45.0/24
+  - 185.81.113.0/24
+
+ipv4:
+  - 162.220.234.41
+  - 162.220.234.66
+  - 162.220.232.57
+
+domains:
+  - authdocspro.com
+  - backdoor-hub.com
+  - bumpgames.net
+  - docusend.networkssolutionmail.com
+  - eventcalender-schedule.com
+  - evobothub.org
+  - framebound.cloud
+  - infinitechai.org
+  - macmamo.com
+  - newmobilepolojean.com
+  - notificationsmanagersec.com
+  - pelangiservice.com
+  - prcservis.com
+  - serenitygovsupplys.com
+  - smstltle.net
+  - suctwocesonesstory.com
+  - thesafarigarden.com
+  - topbuysella.com
+  - totalhomesafe.com
+  - update.youcreadio.cfd
+  - yankeepine.co
+  - youremplregroup.com
+  - adobe-7bf.signature-on-invoice-required-mail-com-s-account.workers.dev
+  - adobe-8dt.ishaan-zvi-dropmeon-com-s-account.workers.dev
+  - adobe-b6d.tuwilika-fcsnam-com-s-account.workers.dev
+  - adobe-h7l.gregcausey-hyundaicrenshaw-com-s-account.workers.dev
+  - adobe-lar.denise-chxhistory-com-s-account.workers.dev
+  - adobe-mxg.snpfs90-outlook-com-s-account.workers.dev
+  - adobe-of6.hayixa9795-pazard-com-s-account.workers.dev
+  - adobe-qi2.pm-pdgrealty-proton-me-s-account.workers.dev
+  - adobe-t9r.thomas-gibson-clyde-enq-com-s-account.workers.dev
+  - adobe-y73.letsgo-birdynyc-com-s-account.workers.dev
+  - adobe-yzz.ejkim-gsglobalusa-us-s-account.workers.dev
+  - docusign-14g.jhipolito-arrow-food-com-s-account.workers.dev
+  - docusign-520.mike-maplecityglass-net-s-account.workers.dev
+  - docusign-a5c.export-cellular-iberia-com-s-account.workers.dev
+  - docusign-ac3.christina-parsons-charter-comm-com-s-account.workers.dev
+  - docusign-d0e.admin-treyripple-com-s-account.workers.dev
+  - docusign-ffp.garciarodriguezt-student-wpunj-edu-s-account.workers.dev
+  - docusign-gmx.medea-locallovechs-com-s-account.workers.dev
+  - docusign-o4x.bhc-credit-services-edl-bayreer-com-s-account.workers.dev
+  - docusign-t0o.accountsreceivable-greens-au-com-s-account.workers.dev
+  - docusign-u0p.kevin-domae-ca-s-account.workers.dev
+  - docusign-vs4.finance-zltnservices-org-s-account.workers.dev
+  - docusign-y8l.accountant-fitfranchisebrands-com-s-account.workers.dev
+  - index-8ni.shirdav-mail-com-s-account.workers.dev
+  - index-ap3.tyler2miler-proton-me-s-account.workers.dev
+  - index-izk.rifkit-protonmail-com-s-account.workers.dev
+  - onedrive-23n.sbutler-stateservice-us-s-account.workers.dev
+  - onedrive-33i.amittal-prodwaresol-com-s-account.workers.dev
+  - onedrive-4um.accounting-malitzconstructioninc-co-s-account.workers.dev
+  - onedrive-7fp.davarius-thackery-dropmeon-com-s-account.workers.dev
+  - onedrive-ac4.ryker-samik-dropmeon-com-s-account.workers.dev
+  - onedrive-au8.hayixa9795-pazard-com-s-account.workers.dev
+  - onedrive-dsk.cassandra-warholak-ifrma-org-s-account.workers.dev
+  - onedrive-hea.jhaas-hapnehartmedia-com-s-account.workers.dev
+  - page-custommmvx6290-9kb.snpfs90-outlook-com-s-account.workers.dev
+  - page-voicemail-3i6.ucbqzm9-ucl-ac-uk-s-account.workers.dev
+  - sharepoint-uo2.angela-warrconstructioninc-onmicrosoft-com-s-account.workers.dev
+  - voicemail-l1b.thomas-gibson-clyde-enq-com-s-account.workers.dev
+
+compromised_domains:
+  - eqfit.co.za
+  - internalmemorecord.bxwancheng.com
+  - promanager.outboundciwidey.com
+  - careldutoit-el.co.za
+  - signaturerequired.thecoolcactus.com
+  - statushelper.aguasomos.com
+  - well.atlantaperlnatal.com
+  - mirzanyapi.com
+  - carbatterygurgaon.com
+  - dao.com.au
+  - mirsanotolastik.com
+  - xlkconsulting.co.za
