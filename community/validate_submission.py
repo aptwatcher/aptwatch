@@ -43,7 +43,8 @@ MAX_IOCS_TOTAL = 2000               # Max total IOCs per submission
 MAX_VALUE_LENGTH = 500              # Max characters per IOC value
 ALLOWED_EXTENSIONS = {'.yaml', '.yml'}
 ALLOWED_FIELDS = {'author', 'source', 'source_name', 'apt_groups', 'description',
-                  'ipv4', 'ipv6', 'domains', 'urls', 'emails', 'cidrs', 'cves'}
+                  'ipv4', 'ipv6', 'domains', 'compromised_domains',
+                  'urls', 'emails', 'cidrs', 'cves'}
 
 # Characters that should NEVER appear in IOC values (shell injection vectors)
 DANGEROUS_CHARS = re.compile(r'[;|&`!{}()\x00-\x08\x0e-\x1f]')
@@ -72,7 +73,7 @@ SAFE_DOMAINS = {
 }
 
 REQUIRED_FIELDS = ["author", "source"]
-IOC_FIELDS = ["ipv4", "domains", "urls", "ipv6", "emails", "cidrs", "cves"]
+IOC_FIELDS = ["ipv4", "domains", "compromised_domains", "urls", "ipv6", "emails", "cidrs", "cves"]
 
 
 def load_yaml(path):
@@ -295,7 +296,9 @@ def validate_file(filepath, existing):
     # ── Validate each IOC type ───────────────────────────────
     validators = {
         "ipv4": validate_ipv4, "ipv6": validate_ipv6,
-        "domains": validate_domain, "urls": validate_url,
+        "domains": validate_domain,
+        "compromised_domains": validate_domain,
+        "urls": validate_url,
         "cves": validate_cve, "cidrs": validate_cidr,
     }
 
@@ -335,7 +338,9 @@ def validate_file(filepath, existing):
             if item_errors:
                 errors.extend(item_errors)
                 stats["rejected"] += 1
-            elif clean.lower() in existing.get(ioc_type, set()):
+            elif clean.lower() in existing.get(
+                "domains" if ioc_type == "compromised_domains" else ioc_type, set()
+            ):
                 warnings.append("Duplicate %s: %s (already in database)" % (ioc_type, item))
                 stats["duplicate"] += 1
             else:
