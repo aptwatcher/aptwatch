@@ -1,0 +1,72 @@
+# =============================================================
+# Curator augmentation: Pawn Storm / APT28 - Operation Phantom Net Voxel
+# Source: Trellix Advanced Research Center, Feb 4 2026 (updated Feb 9)
+# Hunt date: 2026-05-08
+# Notes:
+#   - The bulk of this Trellix IOC set (4 wellness/free-food/longsauce
+#     domains + 3 of 4 IPs) is already in the DB as curator-grade
+#     (score 1.0) under campaign "Pawn Storm".
+#   - Cross-check vs DB on 2026-05-08 found IP 159.253.120.2 (paired
+#     with freefoodaid.com) absent. This file augments coverage with
+#     that single IPv4 plus the four malicious URL paths (RTF/LNK
+#     stagers) which serve as additional URL IOCs for blocklists.
+#   - Hashes from the report (SHA-256/MD5) are out of scope for the
+#     current 8-table flat IOC schema (no hash table). Logged in
+#     digest only.
+# =============================================================
+
+author: aptwatch-curator-bot
+source: https://www.trellix.com/blogs/research/apt28-stealthy-campaign-leveraging-cve-2026-21509-cloud-c2/
+source_name: Trellix - APT28 Stealthy Multi-Stage Campaign Leveraging CVE-2026-21509 and Cloud C2 Infrastructure
+
+apt_groups:
+  - Pawn Storm
+  - APT28
+  - Forest Blizzard
+  - Fancy Bear
+  - UAC-0001
+  - GRU Unit 26165
+
+description: >
+  Augmentation of existing Pawn Storm coverage with the single IP
+  (159.253.120.2) and embedded RTF/LNK stager URLs from the Trellix
+  report on Operation Phantom Net Voxel (CVE-2026-21509 abuse,
+  CovenantGrunt + NotDoor + filen.io C2). The January 28-30 2026
+  spear-phishing wave delivered 29 emails across 9 Eastern European
+  states, primarily targeting defence ministries (40 percent),
+  transport/logistics (35 percent), and diplomatic entities (25
+  percent). Lures impersonated border-police weapons-smuggling
+  bulletins, defence-university course invitations, EU/NATO
+  consultations, and weather-emergency alerts. Sister vendor
+  reporting: Sekoia (Operation Phantom Net Voxel), Zscaler (Operation
+  Neusploit), Splunk (NotDoor analysis), Lab52 (NotDoor inside APT28).
+
+ipv4:
+  - 159.253.120.2
+
+urls:
+  - http://wellnessmedcare.org/cz/Downloads/blank.doc
+  - https://wellnessmedcare.org/cz/Downloads/document.LnK?init=1
+  - http://wellnesscaremed.com/buch/Downloads/blank.doc
+  - https://wellnesscaremed.com/buch/Downloads/document.doc.LnK?init=1
+  - https://freefoodaid.com/documents/1_1.LnK?init=1
+  - http://freefoodaid.com/documents/2_1.lNk?init=1
+  - https://freefoodaid.com/tables//template_tables.doc
+  - https://freefoodaid.com/tables/tables.lNk?init=1
+  - http://wellnesscaremed.com/ankara/Favorites/blank.doc
+  - https://wellnesscaremed.com/ankara/Favorites/document.doc.LnK?init=1
+  - https://longsauce.com/DAv/DEFault/data.LnK?init=1
+  - https://longsauce.com/DAv/DEFault/df.doc
+  - http://wellnesscaremed.com/venezia/Favorites/blank.doc
+  - https://wellnesscaremed.com/venezia/Favorites/document.doc.LnK?init=1
+  - http://wellnessmedcare.org/pol/Downloads/blank.doc
+  - https://wellnessmedcare.org/pol/Downloads/document.LnK?init=1
+  - http://wellnesscaremed.com/ljub/Downloads/blank.doc
+  - https://wellnesscaremed.com/ljub/Downloads/document.doc.LnK?init=1
+
+emails:
+  - chmilewskii@outlook.com
+  - chmilewskii@proton.me
+
+cves:
+  - CVE-2026-21509
