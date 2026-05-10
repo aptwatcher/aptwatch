@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-10 06:03:13
-# Entries: 525968
+# Generated: 2026-05-10 06:30:57
+# Entries: 525954
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48848,7 +48848,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -116323,7 +116322,6 @@
 0.0.0.0 autboxs.ratmedia.lat
 0.0.0.0 autboxs.residency5ilicat.lat
 0.0.0.0 autboxs.softworkapi.lat
-0.0.0.0 autboxserv.fastnetgatehub.pics
 0.0.0.0 autboxserv.pav6mirex.pics
 0.0.0.0 autboxserv.pav8mirel.pics
 0.0.0.0 autchase.online
@@ -145928,7 +145926,6 @@
 0.0.0.0 bitkitmaps.openapiservicex.pics
 0.0.0.0 bitkitmaps.vexon3ix.pics
 0.0.0.0 bitkitmaps.vexon4ar.pics
-0.0.0.0 bitkitmapsmgr.infrasettopview.pics
 0.0.0.0 bitkits.captive-portal.lat
 0.0.0.0 bitkits.linkdevbase.lat
 0.0.0.0 bitkits.mel6vator.lat
@@ -149817,6 +149814,7 @@
 0.0.0.0 bnehomeimprovement.com
 0.0.0.0 bnert-106161.weeblysite.com
 0.0.0.0 bnes-andyanes.firebaseapp.com
+0.0.0.0 bnet-api.playm8ru.win
 0.0.0.0 bnet.aaplumb.org
 0.0.0.0 bnet.becomingmyownboss.biz
 0.0.0.0 bnet.dinevenice.com
@@ -178923,7 +178921,6 @@
 0.0.0.0 cloud.cc.swtest.ru
 0.0.0.0 cloud.cdi.to
 0.0.0.0 cloud.clotingfaretaas.cloud
-0.0.0.0 cloud.cloudflowops.co
 0.0.0.0 cloud.cloudproxyserv.pics
 0.0.0.0 cloud.dedspac.ru
 0.0.0.0 cloud.digiwebplatform.com
@@ -185583,7 +185580,6 @@
 0.0.0.0 comvelgmbh.d1.sc.omtrdc.net
 0.0.0.0 comvella.com
 0.0.0.0 comvxzsvqhlpyiickzfsxcjnbnefrlqrdmby-dot-offglen.uk.r.appspot.com
-0.0.0.0 comweb.globtechnodebase.pics
 0.0.0.0 comwebs.academicunmemo7.lat
 0.0.0.0 comwebs.inhum2ntendency.lat
 0.0.0.0 comwebs.pav3mirex.lat
@@ -190493,7 +190489,6 @@
 0.0.0.0 cpu.webcfgbase.pics
 0.0.0.0 cpu.websyncbox.pics
 0.0.0.0 cpuisocutter.com
-0.0.0.0 cpuprocessormgr.cloudflowops.co
 0.0.0.0 cpuprocessormgr.webdataprocunit.pics
 0.0.0.0 cpupros.barbos-slimy.lat
 0.0.0.0 cpupros.boxemoj.surf
@@ -210706,7 +210701,6 @@
 0.0.0.0 dnswebs.sixunzip.surf
 0.0.0.0 dnswebs.webbitsync.lat
 0.0.0.0 dnswebsrvs.cloudflowops.co
-0.0.0.0 dnswebsrvs.coderworkflow.pics
 0.0.0.0 dnswebsrvs.mav2lorix.pics
 0.0.0.0 dnswebsrvs.mav7voren.pics
 0.0.0.0 dnswebsrvs.radio-technic.lat
@@ -210998,6 +210992,7 @@
 0.0.0.0 doclabs.sorix9el.surf
 0.0.0.0 doclabs.vexon4al.lat
 0.0.0.0 doclabutil.guess-relevation.lat
+0.0.0.0 doclabutil.infrasettopview.pics
 0.0.0.0 doclabutil.openapiservicex.pics
 0.0.0.0 doclabutil.vexon3ix.pics
 0.0.0.0 docle-x6wp.vercel.app
@@ -212253,7 +212248,6 @@
 0.0.0.0 dompettx-digitaall.id-cfy.my.id
 0.0.0.0 dompt.dedspac.ru
 0.0.0.0 dompt.virosat.ru
-0.0.0.0 domreg.openapiservicedata.pics
 0.0.0.0 domregs.cobble-mortgag.lat
 0.0.0.0 domregs.comrade-dec1ine.lat
 0.0.0.0 domregs.fastexitnow.lat
@@ -212263,6 +212257,7 @@
 0.0.0.0 domregs.noopcup.surf
 0.0.0.0 domregs.xamir3on.lat
 0.0.0.0 domregs.xamir5ol.lat
+0.0.0.0 domregutil.datalinkservice.pics
 0.0.0.0 domregutil.systemcoreunit.pics
 0.0.0.0 domregutil.xamir1ol.pics
 0.0.0.0 doms-web.000webhostapp.com
@@ -225487,7 +225482,6 @@
 0.0.0.0 envoy-partnerleadsharing.standardseoservices.com
 0.0.0.0 envoyserials.cf
 0.0.0.0 envqkmavjrmt.xxoht18.cn
-0.0.0.0 envset.infrasettopview.pics
 0.0.0.0 envset.vexon4al.surf
 0.0.0.0 envset.vpsgateway.pics
 0.0.0.0 envsetproc.guess-relevation.lat
@@ -231360,6 +231354,8 @@
 0.0.0.0 extionmetsske.webflow.io
 0.0.0.0 extjnfvagwwvkptdfksqunoiqltksxprpldr-dot-glegen303939423233.ue.r.appspot.com
 0.0.0.0 extnet.openapiserv.pics
+0.0.0.0 extnet.openapiservicedata.pics
+0.0.0.0 extnetprox.datalinkservice.pics
 0.0.0.0 extnetprox.xamir1ol.pics
 0.0.0.0 extnetprox.xamir4al.pics
 0.0.0.0 extnets.centaur-victim.lat
@@ -252865,10 +252861,10 @@
 0.0.0.0 ftpadmin.edv-stumpf.de
 0.0.0.0 ftpcontent.worldnow.com
 0.0.0.0 ftpqbnsiahjyuyeh-dot-owaonk399399393.uk.r.appspot.com
+0.0.0.0 ftpsrv.fastnetgateview.pics
 0.0.0.0 ftpsrvnode.datalinkcenter.pics
 0.0.0.0 ftpsrvnode.tavro5xen.pics
 0.0.0.0 ftpsrvnode.tavro8xel.pics
-0.0.0.0 ftpsrvnode.webstackengine.pics
 0.0.0.0 ftpsrvs.addport.lat
 0.0.0.0 ftpsrvs.alien2tedchisel.lat
 0.0.0.0 ftpsrvs.cloudtaskgo.lat
@@ -302660,9 +302656,7 @@
 0.0.0.0 ioffkbbdbsvrvcrtayzejawvfu-dot-gle39404049.rj.r.appspot.com
 0.0.0.0 iofixme.xyz
 0.0.0.0 iofixprotect.xyz
-0.0.0.0 ioflow.globtechnodebase.pics
 0.0.0.0 ioflow.pav3lorex.surf
-0.0.0.0 ioflowpath.fastnetgatehub.pics
 0.0.0.0 ioflowpath.fromj2nitor.lat
 0.0.0.0 ioflowpath.pav6mirex.pics
 0.0.0.0 ioflowpath.pav8mirel.pics
@@ -303131,7 +303125,6 @@
 0.0.0.0 ipnode.cloudviewtop.pics
 0.0.0.0 ipnodeclis.qen3larex.pics
 0.0.0.0 ipnodeclis.qen9vorel.pics
-0.0.0.0 ipnodeclis.techopsruntime.pics
 0.0.0.0 ipnodeclis.webcfgmanager.pics
 0.0.0.0 ipnodeclisys.cloudstacklogic.pics
 0.0.0.0 ipnodes.boxvpslog.lat
@@ -327578,6 +327571,7 @@
 0.0.0.0 lanhaydoxemdia2.ga
 0.0.0.0 lanhop.vexon4al.surf
 0.0.0.0 lanhoppath.guess-relevation.lat
+0.0.0.0 lanhoppath.openapiservicex.pics
 0.0.0.0 lanhoppath.vexon3ix.pics
 0.0.0.0 lanhoppath.vexon4ar.pics
 0.0.0.0 lanhops.captive-portal.lat
@@ -332487,7 +332481,6 @@
 0.0.0.0 libsyspath.datalinkcenter.pics
 0.0.0.0 libsyspath.tavro5xen.pics
 0.0.0.0 libsyspath.tavro8xel.pics
-0.0.0.0 libsyspath.webstackengine.pics
 0.0.0.0 libsyspathview.fastnetgateview.pics
 0.0.0.0 libsyss.addport.lat
 0.0.0.0 libsyss.alien2tedchisel.lat
@@ -337826,6 +337819,7 @@
 0.0.0.0 logbansecurity-com.stackstaging.com
 0.0.0.0 logbin.softnetlink.pics
 0.0.0.0 logbin.sorix2el.surf
+0.0.0.0 logbinnode.coderlogicbase.pics
 0.0.0.0 logbinnode.sorix1ar.pics
 0.0.0.0 logbinnode.surgeon-snoot.lat
 0.0.0.0 logbins.1navorex.lat
@@ -339962,7 +339956,6 @@
 0.0.0.0 logv8.xiti.com
 0.0.0.0 logv9.xiti.com
 0.0.0.0 logverfgh.hstn.me
-0.0.0.0 logviewsys.devlogicmaster.pics
 0.0.0.0 logviewsys.globalnetviewer.pics
 0.0.0.0 logvoxpocontactinfo.web.app
 0.0.0.0 logwetrnsferacptdvsignerftp.ct.ws
@@ -362856,8 +362849,6 @@
 0.0.0.0 metaltscfg.1zarelin.pics
 0.0.0.0 metaltscfg.2zorevin.pics
 0.0.0.0 metaltscfg.cloudstackproc.pics
-0.0.0.0 metaltscfg.nodesystemcore.pics
-0.0.0.0 metaltscfgmgr.systemcorelinkx.pics
 0.0.0.0 metaltube.co.in
 0.0.0.0 metalturningy.xyz
 0.0.0.0 metalurgicafarina.com.ar
@@ -372151,7 +372142,7 @@
 0.0.0.0 modbus.openapiserv.pics
 0.0.0.0 modbus.openapiservicedata.pics
 0.0.0.0 modbusdata.cabardian-year.lat
-0.0.0.0 modbusdata.systemcoreunit.pics
+0.0.0.0 modbusdata.datalinkservice.pics
 0.0.0.0 modbusdata.xamir1ol.pics
 0.0.0.0 modbusdata.xamir4al.pics
 0.0.0.0 modbuss.centaur-victim.lat
@@ -380107,6 +380098,7 @@
 0.0.0.0 mykindkitchen.com
 0.0.0.0 mykinfotech.com
 0.0.0.0 mykitchenhacks.com
+0.0.0.0 mykitchenindonesia.com
 0.0.0.0 myklinik.co.id
 0.0.0.0 mykonos.cl
 0.0.0.0 mykq-whatsapp.duckdns.org
@@ -384973,7 +384965,6 @@
 0.0.0.0 netapiprot.5toralix.pics
 0.0.0.0 netapiprot.7toravex.pics
 0.0.0.0 netapiprot.cereal5pesivet.lat
-0.0.0.0 netapiprot.devlogicmaster.pics
 0.0.0.0 netapiprot.globalnetviewer.pics
 0.0.0.0 netapis.6toralix.lat
 0.0.0.0 netapis.7toralex.lat
@@ -386371,7 +386362,6 @@
 0.0.0.0 netman123.com
 0.0.0.0 netmanproc.6doreval.pics
 0.0.0.0 netmanproc.9doreval.pics
-0.0.0.0 netmanproc.infraworkspace.pics
 0.0.0.0 netmanproc.krat5urface.lat
 0.0.0.0 netmans.5dorexin.lat
 0.0.0.0 netmans.chemistry5till.lat
@@ -402960,6 +402950,7 @@
 0.0.0.0 opsmgrs.securelinkpoint.surf
 0.0.0.0 opsmgrs.sixunzip.surf
 0.0.0.0 opsmgrs.webbitsync.lat
+0.0.0.0 opsmgrsvcs.coderworkflow.pics
 0.0.0.0 opsmgrsvcs.mav2lorix.pics
 0.0.0.0 opsmgrsvcs.mav7voren.pics
 0.0.0.0 opsmgrsvcs.radio-technic.lat
@@ -418043,10 +418034,10 @@
 0.0.0.0 pkgruns.xamir3on.lat
 0.0.0.0 pkgruns.xamir5ol.lat
 0.0.0.0 pkgrunstat.cabardian-year.lat
+0.0.0.0 pkgrunstat.datalinkservice.pics
 0.0.0.0 pkgrunstat.systemcoreunit.pics
 0.0.0.0 pkgrunstat.xamir1ol.pics
 0.0.0.0 pkgrunstat.xamir4al.pics
-0.0.0.0 pkgrunstatlog.openapiservicedata.pics
 0.0.0.0 pkh.gemsters.com
 0.0.0.0 pkhtnhdyau.duckdns.org
 0.0.0.0 pkhv.gevveva.cn
@@ -429144,7 +429135,6 @@
 0.0.0.0 proxyss.sorix9el.surf
 0.0.0.0 proxyss.vexon4al.lat
 0.0.0.0 proxysserv.guess-relevation.lat
-0.0.0.0 proxysserv.openapiservicex.pics
 0.0.0.0 proxysserv.vexon3ix.pics
 0.0.0.0 proxysserv.vexon4ar.pics
 0.0.0.0 proxysync.pages.dev
@@ -446913,7 +446903,6 @@
 0.0.0.0 refid-xs.residency5ilicat.lat
 0.0.0.0 refid-xs.softworkapi.lat
 0.0.0.0 refid.bitflowapp.pics
-0.0.0.0 refidcorex.fastnetgatehub.pics
 0.0.0.0 refidobill.com
 0.0.0.0 refillable-extensio.000webhostapp.com
 0.0.0.0 refillistening.pages.dev
@@ -468738,6 +468727,7 @@
 0.0.0.0 skyvpnnode.1zarelin.pics
 0.0.0.0 skyvpnnode.2zorevin.pics
 0.0.0.0 skyvpnnode.cloudstackproc.pics
+0.0.0.0 skyvpnnode.nodesystemcore.pics
 0.0.0.0 skyvpnnodehub.systemcorelinkx.pics
 0.0.0.0 skyvpns.1zorelin.lat
 0.0.0.0 skyvpns.2zorevin.lat
@@ -469138,6 +469128,7 @@
 0.0.0.0 smartdevicecentral.us.intellitxt.com
 0.0.0.0 smartdigitalsigns.com
 0.0.0.0 smartek-matrix.com
+0.0.0.0 smartermail.host
 0.0.0.0 smartfiles.nocoshop.ru
 0.0.0.0 smartfiles.uploadbox.world
 0.0.0.0 smartfinancialbo.com
@@ -470053,6 +470044,7 @@
 0.0.0.0 soft-side-946015.framer.app
 0.0.0.0 soft-storage.com
 0.0.0.0 soft-waves.com
+0.0.0.0 soft.110route.com
 0.0.0.0 soft.dedspac.ru
 0.0.0.0 soft.timanar.ru
 0.0.0.0 soft.ulitron.ru
@@ -471553,8 +471545,8 @@
 0.0.0.0 src.openapiserv.pics
 0.0.0.0 src.openlogmgr.pics
 0.0.0.0 srcgetproc.cabardian-year.lat
+0.0.0.0 srcgetproc.datalinkservice.pics
 0.0.0.0 srcgetproc.openapiservicedata.pics
-0.0.0.0 srcgetproc.systemcoreunit.pics
 0.0.0.0 srcgetproc.xamir1ol.pics
 0.0.0.0 srcgetproc.xamir4al.pics
 0.0.0.0 srcgets.centaur-victim.lat
@@ -471793,7 +471785,6 @@
 0.0.0.0 sshpros.rodrules.surf
 0.0.0.0 sshproserv.6doreval.pics
 0.0.0.0 sshproserv.9doreval.pics
-0.0.0.0 sshproserv.infraworkspace.pics
 0.0.0.0 sshproserv.krat5urface.lat
 0.0.0.0 ssilesrageeonlinestoragefileserveremboiledstore.bubbleapps.io
 0.0.0.0 ssinapa.ru
@@ -475308,7 +475299,6 @@
 0.0.0.0 subasri309.github.io
 0.0.0.0 subbank.bortogat.ru
 0.0.0.0 subbmit-form-supportings.cfd
-0.0.0.0 subcli.infrasettopview.pics
 0.0.0.0 subcli.vexon4al.surf
 0.0.0.0 subclidata.guess-relevation.lat
 0.0.0.0 subclidata.openapiservicex.pics
@@ -476935,7 +476925,6 @@
 0.0.0.0 sync.bfmio.com
 0.0.0.0 sync.bibliota.ru
 0.0.0.0 sync.clickonometrics.pl
-0.0.0.0 sync.cloudflowops.co
 0.0.0.0 sync.clouditapp.pics
 0.0.0.0 sync.colossusssp.com
 0.0.0.0 sync.commander1.com
@@ -477010,7 +476999,6 @@
 0.0.0.0 syncingprocess.com
 0.0.0.0 syncit.bitflowapp.pics
 0.0.0.0 syncit.pav3lorex.surf
-0.0.0.0 syncitnode.fastnetgatehub.pics
 0.0.0.0 syncitnode.fromj2nitor.lat
 0.0.0.0 syncitnode.pav6mirex.pics
 0.0.0.0 syncitnode.pav8mirel.pics
@@ -478545,7 +478533,6 @@
 0.0.0.0 taskids.ratmedia.lat
 0.0.0.0 taskids.residency5ilicat.lat
 0.0.0.0 taskids.softworkapi.lat
-0.0.0.0 taskidview.fastnetgatehub.pics
 0.0.0.0 taskidview.fromj2nitor.lat
 0.0.0.0 taskidview.pav6mirex.pics
 0.0.0.0 taskidview.pav8mirel.pics
@@ -478818,7 +478805,6 @@
 0.0.0.0 tcp.www.virtualaccess3.tikmaillnow.com
 0.0.0.0 tcpconpath.6doreval.pics
 0.0.0.0 tcpconpath.9doreval.pics
-0.0.0.0 tcpconpath.infraworkspace.pics
 0.0.0.0 tcpconpath.krat5urface.lat
 0.0.0.0 tcpcons.5dorexin.lat
 0.0.0.0 tcpcons.chemistry5till.lat
@@ -479103,6 +479089,7 @@
 0.0.0.0 tectaconstrata.online
 0.0.0.0 tectaconstrata.ru
 0.0.0.0 tectonic.net.in
+0.0.0.0 tecunonline.com
 0.0.0.0 ted.ulitron.ru
 0.0.0.0 teddygirls.cc
 0.0.0.0 teddyni.com
@@ -480069,6 +480056,7 @@
 0.0.0.0 thebootroom.com
 0.0.0.0 thebosh.us.intellitxt.com
 0.0.0.0 thebowersofparadise.com
+0.0.0.0 thebrandmantra.in
 0.0.0.0 thebrighttag.com
 0.0.0.0 thebugfae.com
 0.0.0.0 thebugs.ws
@@ -481937,6 +481925,7 @@
 0.0.0.0 topsvcs.securelinkpoint.surf
 0.0.0.0 topsvcs.sixunzip.surf
 0.0.0.0 topsvcs.webbitsync.lat
+0.0.0.0 topsvcutil.coderworkflow.pics
 0.0.0.0 topsvcutil.mav2lorix.pics
 0.0.0.0 topsvcutil.radio-technic.lat
 0.0.0.0 topsvcutil.technodesupply.pics
@@ -485874,7 +485863,6 @@
 0.0.0.0 uidmapbits.tavro5xen.pics
 0.0.0.0 uidmapbits.tavro8xel.pics
 0.0.0.0 uidmapbits.webstackengine.pics
-0.0.0.0 uidmapbitsys.fastnetgateview.pics
 0.0.0.0 uidmaps.addport.lat
 0.0.0.0 uidmaps.alien2tedchisel.lat
 0.0.0.0 uidmaps.cloudtaskgo.lat
@@ -486460,6 +486448,7 @@
 0.0.0.0 unifiedbidding.ad.smaato.net
 0.0.0.0 unifiedi-styvuydelm.edgeone.app
 0.0.0.0 unifomushop.com
+0.0.0.0 uniform-factory.ae
 0.0.0.0 unify.dedspac.ru
 0.0.0.0 uniglobalhserverline.weebly.com
 0.0.0.0 uniglobalserverlinetrentthdie.weebly.com
@@ -488980,7 +488969,6 @@
 0.0.0.0 usrgrps.rodrules.surf
 0.0.0.0 usrgrpstat.6doreval.pics
 0.0.0.0 usrgrpstat.9doreval.pics
-0.0.0.0 usrgrpstat.infraworkspace.pics
 0.0.0.0 usrgrpstat.krat5urface.lat
 0.0.0.0 usrio.virosat.ru
 0.0.0.0 usscuw9.top
@@ -491526,6 +491514,7 @@
 0.0.0.0 vmlists.parliament5almon.lat
 0.0.0.0 vmlists.rodrules.surf
 0.0.0.0 vmlistview.6doreval.pics
+0.0.0.0 vmlistview.infraworkspace.pics
 0.0.0.0 vmlistview.krat5urface.lat
 0.0.0.0 vmmpxl.com
 0.0.0.0 vmn.net
@@ -491912,7 +491901,6 @@
 0.0.0.0 vpsrun.cloudflowops.co
 0.0.0.0 vpsrun.webdataprocunit.pics
 0.0.0.0 vpsrun.websyncbox.pics
-0.0.0.0 vpsrunproc.coderworkflow.pics
 0.0.0.0 vpsrunproc.mav2lorix.pics
 0.0.0.0 vpsrunproc.mav7voren.pics
 0.0.0.0 vpsrunproc.radio-technic.lat
@@ -493478,7 +493466,6 @@
 0.0.0.0 webcdnstat.5toralix.pics
 0.0.0.0 webcdnstat.7toravex.pics
 0.0.0.0 webcdnstat.cereal5pesivet.lat
-0.0.0.0 webcdnstat.devlogicmaster.pics
 0.0.0.0 webcdnstat.globalnetviewer.pics
 0.0.0.0 webcdnstat.netinfrahubsys.pics
 0.0.0.0 webcdnstat.netlogicstack.co
@@ -493547,7 +493534,6 @@
 0.0.0.0 webdocs.ultrashiftnet.surf
 0.0.0.0 webdocs.vbytetap.lat
 0.0.0.0 webdocs.zooblob.surf
-0.0.0.0 webdocserv.coderlogicbase.pics
 0.0.0.0 webdocserv.sorix1ar.pics
 0.0.0.0 webdocserv.sorix2en.pics
 0.0.0.0 webdocserv.surgeon-snoot.lat
@@ -499991,7 +499977,6 @@
 0.0.0.0 www.benjaminhaden.com
 0.0.0.0 www.benjamintay.shop
 0.0.0.0 www.benlandscaping.co.uk
-0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benzidineyys.info
 0.0.0.0 www.benzkartel.duckdns.org
@@ -507842,6 +507827,7 @@
 0.0.0.0 www.intechinsiderhub.com
 0.0.0.0 www.intela.com
 0.0.0.0 www.intelli-direct.com
+0.0.0.0 www.intelligradeeducation.vicentecisnerospub.com
 0.0.0.0 www.intellisuggest.com
 0.0.0.0 www.intellitxt.com
 0.0.0.0 www.intellivisiongames.com
