@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-11 00:31:15
-# Entries: 525808
+# Generated: 2026-05-11 06:02:16
+# Entries: 525812
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48848,7 +48848,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -74142,7 +74141,6 @@
 0.0.0.0 alternating-current.online
 0.0.0.0 alternativ-lernen.de
 0.0.0.0 alternativaletrasenumeros.com.br
-0.0.0.0 alternativas.ru
 0.0.0.0 alternative-acces.xyz
 0.0.0.0 alternative-online.xyz
 0.0.0.0 alternative.tallyelhyani.info
@@ -191566,6 +191564,7 @@
 0.0.0.0 crimea-camry.ru
 0.0.0.0 crimea.virosat.ru
 0.0.0.0 crimeahealth.ru
+0.0.0.0 crimefreesoftware.com
 0.0.0.0 crimeireland.com
 0.0.0.0 crimewatchpatrols.co.nz
 0.0.0.0 crimg.sv.publicus.com
@@ -254096,6 +254095,7 @@
 0.0.0.0 fyynpcrnkgvvqqvlseuwgxahmnkttujvsgvs-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 fyyuiihko.weebly.com
 0.0.0.0 fz.elitoras.ru
+0.0.0.0 fz.tiansys.cn
 0.0.0.0 fz1r9wu.laicommferhobackmica.ru
 0.0.0.0 fz34rim2.union-label.com
 0.0.0.0 fz6y0wk19.duckdns.org
@@ -264986,6 +264986,7 @@
 0.0.0.0 gossamer-clover-jonquil.glitch.me
 0.0.0.0 gossamer-plain-perigee.glitch.me
 0.0.0.0 gossamerbio.corporacionfrm.org
+0.0.0.0 gossipband.ie
 0.0.0.0 gossipbottom.com
 0.0.0.0 gossipcenter.us.intellitxt.com
 0.0.0.0 gossiponthis.us.intellitxt.com
@@ -283845,6 +283846,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -463973,6 +463975,7 @@
 0.0.0.0 scheme.mobpowertech.com
 0.0.0.0 schemea.prinit.net
 0.0.0.0 schemedeve.pyrorobot.com
+0.0.0.0 schenckel.com.br
 0.0.0.0 schercynar.cyou
 0.0.0.0 schizsulph.cyou
 0.0.0.0 schlaap-de.nihongoschool-portal.info
@@ -464644,6 +464647,7 @@
 0.0.0.0 sec.ulitron.ru
 0.0.0.0 sec.umeng.com
 0.0.0.0 sec.wellsfgo.onlineweb.mittalslabglassware.com
+0.0.0.0 sec.xiaojiji.nl
 0.0.0.0 sec.xiaoshabi.nl
 0.0.0.0 secao.com
 0.0.0.0 secao.org
@@ -465546,6 +465550,7 @@
 0.0.0.0 seishin-tea.com
 0.0.0.0 seism.dedspac.ru
 0.0.0.0 seism.virosat.ru
+0.0.0.0 seismophonic.com
 0.0.0.0 seitoshi.ru
 0.0.0.0 seity.dedspac.ru
 0.0.0.0 seivicess.weebly.com
@@ -495076,7 +495081,6 @@
 0.0.0.0 widespace.com
 0.0.0.0 widestep.com
 0.0.0.0 wideucloud.raytowngaragedoor.com
-0.0.0.0 widexenmexico.com.mx
 0.0.0.0 widget-1.oncustomer.asia
 0.0.0.0 widget-2.oncustomer.asia
 0.0.0.0 widget-cdn.rpxnow.com
@@ -504146,7 +504150,6 @@
 0.0.0.0 www.ertdontf.fit
 0.0.0.0 www.ertdopbq.com
 0.0.0.0 www.ertya.com
-0.0.0.0 www.erun-tech.com
 0.0.0.0 www.eruuythroblastosesrecessives.info
 0.0.0.0 www.eruvimuucornhusk.info
 0.0.0.0 www.erwanlardet.shop
@@ -507691,6 +507694,7 @@
 0.0.0.0 www.intechinsiderhub.com
 0.0.0.0 www.intela.com
 0.0.0.0 www.intelli-direct.com
+0.0.0.0 www.intelligradeeducation.vicentecisnerospub.com
 0.0.0.0 www.intellisuggest.com
 0.0.0.0 www.intellitxt.com
 0.0.0.0 www.intellivisiongames.com
