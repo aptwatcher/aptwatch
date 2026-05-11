@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-11 06:02:16
+# Generated: 2026-05-11 06:30:28
 # Entries: 525812
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -187724,6 +187724,7 @@
 0.0.0.0 controlcola.com
 0.0.0.0 controlengineering.in
 0.0.0.0 controlgatestorage.com
+0.0.0.0 controlhomecr.com
 0.0.0.0 controliumbt.com
 0.0.0.0 controllaportale-manualmente.com
 0.0.0.0 controller.4seeresults.com
@@ -191157,6 +191158,7 @@
 0.0.0.0 creativestate-fy2010.leftbankcompanies.com
 0.0.0.0 creativeteam.it
 0.0.0.0 creativevisionlv.com
+0.0.0.0 creativevoltage.com
 0.0.0.0 creativewastepartners.com
 0.0.0.0 creativeweb.co.zw
 0.0.0.0 creativewebsiteconcepts.com
@@ -199485,7 +199487,6 @@
 0.0.0.0 dcv111fbgfds.blogspot.tw
 0.0.0.0 dcvbfgrr.top
 0.0.0.0 dcvg.square.site
-0.0.0.0 dcwblida.dz
 0.0.0.0 dcwdfwefefef.weebly.com
 0.0.0.0 dcwhosaybbtnwbvp-dot-millinium.ey.r.appspot.com
 0.0.0.0 dcwzr.wqvec.workers.dev
@@ -310159,7 +310160,6 @@
 0.0.0.0 jlusas.cn
 0.0.0.0 jluxelit.com
 0.0.0.0 jluxnagcjv.duckdns.org
-0.0.0.0 jlwz.cn
 0.0.0.0 jlxk-casefb349361.vercel.app
 0.0.0.0 jlxuy-7iaaa-aaaad-qa7xa-cai.icp0.io
 0.0.0.0 jlybujcs.sovereignty2020.com
@@ -499844,6 +499844,7 @@
 0.0.0.0 www.benjaminhaden.com
 0.0.0.0 www.benjamintay.shop
 0.0.0.0 www.benlandscaping.co.uk
+0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benzidineyys.info
 0.0.0.0 www.benzkartel.duckdns.org
@@ -511944,7 +511945,6 @@
 0.0.0.0 www.oiotd.com
 0.0.0.0 www.oisdvb.com
 0.0.0.0 www.oix.com
-0.0.0.0 www.ojang.pe.kr
 0.0.0.0 www.ojmdu.com
 0.0.0.0 www.ojolink.fr
 0.0.0.0 www.ojrq.net
