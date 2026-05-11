@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-11 06:30:28
-# Entries: 525812
+# Generated: 2026-05-11 12:30:45
+# Entries: 525821
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -98575,6 +98575,7 @@
 0.0.0.0 argusendoptics.com
 0.0.0.0 arguslifesciences.com
 0.0.0.0 argute.dedspac.ru
+0.0.0.0 argvlidcheck.co
 0.0.0.0 argy.forsa.net
 0.0.0.0 argylestorage.dgitts.com
 0.0.0.0 argyll.matsuro.ru
@@ -119041,6 +119042,7 @@
 0.0.0.0 authservices.zeabur.app
 0.0.0.0 authsgconnect-b5dc3e.ingress-erytho.ewp.live
 0.0.0.0 authsgwebansinauth-af5153.ingress-daribow.easywp.com
+0.0.0.0 authshellverif.co
 0.0.0.0 authsignonstaffdiuwtdjgnfekfisytmfgsjlewis27359.softr.app
 0.0.0.0 authsmsbofa78542.5gbfree.com
 0.0.0.0 authsmtp.ds-okovi.com
@@ -162941,6 +162943,7 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -174850,7 +174853,6 @@
 0.0.0.0 chunghwa-post-mailpost-kachkocha1252382.codeanyapp.com
 0.0.0.0 chunghwonow.wpengine.com
 0.0.0.0 chungling-wixsite-com.filesusr.com
-0.0.0.0 chungminhtaichinhsaigon.net
 0.0.0.0 chungo12345.hostfree.pw
 0.0.0.0 chunhoncarehcm.com
 0.0.0.0 chunk.ulitron.ru
@@ -199487,6 +199489,7 @@
 0.0.0.0 dcv111fbgfds.blogspot.tw
 0.0.0.0 dcvbfgrr.top
 0.0.0.0 dcvg.square.site
+0.0.0.0 dcwblida.dz
 0.0.0.0 dcwdfwefefef.weebly.com
 0.0.0.0 dcwhosaybbtnwbvp-dot-millinium.ey.r.appspot.com
 0.0.0.0 dcwzr.wqvec.workers.dev
@@ -212916,7 +212919,6 @@
 0.0.0.0 download.apps.co.pl
 0.0.0.0 download.arundelschool.net
 0.0.0.0 download.browseraccelerator.com
-0.0.0.0 download.caihong.com
 0.0.0.0 download.cdn.sharelive.net
 0.0.0.0 download.cdn.torchbrowser.com
 0.0.0.0 download.doumaibiji.cn
@@ -255033,6 +255035,7 @@
 0.0.0.0 gabuuung-gerupp-888.duckdns.org
 0.0.0.0 gabuying.com
 0.0.0.0 gaby.amaniwa.ru
+0.0.0.0 gabyagozetim.com
 0.0.0.0 gabygaubwyw-watsp.duckdns.org
 0.0.0.0 gabyt.net
 0.0.0.0 gacca.gachamntoon.my.id
@@ -258726,7 +258729,6 @@
 0.0.0.0 genys.dedspac.ru
 0.0.0.0 genys.virosat.ru
 0.0.0.0 genzencz.info
-0.0.0.0 geo-foundation.vg
 0.0.0.0 geo-gu1d3.velorix.life
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 geo-tracker.smadex.com
@@ -262471,6 +262473,7 @@
 0.0.0.0 glogo.org
 0.0.0.0 gloisp.org
 0.0.0.0 glok-casefb099626.vercel.app
+0.0.0.0 glokchapigui.co
 0.0.0.0 glom-meta-prat-biz.pages.dev
 0.0.0.0 glom-meta-prat.pages.dev
 0.0.0.0 glom-meta.pages.dev
@@ -264987,7 +264990,6 @@
 0.0.0.0 gossamer-clover-jonquil.glitch.me
 0.0.0.0 gossamer-plain-perigee.glitch.me
 0.0.0.0 gossamerbio.corporacionfrm.org
-0.0.0.0 gossipband.ie
 0.0.0.0 gossipbottom.com
 0.0.0.0 gossipcenter.us.intellitxt.com
 0.0.0.0 gossiponthis.us.intellitxt.com
@@ -288004,6 +288006,7 @@
 0.0.0.0 httpsfacebook.com-uifcq6jt.isiolo.go.ke
 0.0.0.0 httpsfacebook.com-z1au8cxghl.isiolo.go.ke
 0.0.0.0 httpsfacebook.netlify.app
+0.0.0.0 httpsfewapi.surf
 0.0.0.0 httpsfster.ru
 0.0.0.0 httpsgnbzlmj.wcnv20.cn
 0.0.0.0 httpsharepointserviceonline.rehau.icu
@@ -428916,6 +428919,7 @@
 0.0.0.0 prove.dedspac.ru
 0.0.0.0 prove.ulitron.ru
 0.0.0.0 prove.virosat.ru
+0.0.0.0 proveedoradeproyectosysoluciones.com
 0.0.0.0 proveedores.nef.com.mx
 0.0.0.0 proveedores.savant.com.ar
 0.0.0.0 proveedorsites.000webhostapp.com
@@ -463975,7 +463979,6 @@
 0.0.0.0 scheme.mobpowertech.com
 0.0.0.0 schemea.prinit.net
 0.0.0.0 schemedeve.pyrorobot.com
-0.0.0.0 schenckel.com.br
 0.0.0.0 schercynar.cyou
 0.0.0.0 schizsulph.cyou
 0.0.0.0 schlaap-de.nihongoschool-portal.info
@@ -466269,6 +466272,7 @@
 0.0.0.0 servicio.generatusolicitud-online.site
 0.0.0.0 serviciodelwebclientes.cloudaccess.host
 0.0.0.0 serviciopostal.vip
+0.0.0.0 servicioslogisticosdyc.com
 0.0.0.0 serviciospatito.com
 0.0.0.0 serviciotecnico.com.uy
 0.0.0.0 serviciotrackwp.sviluppo.host
@@ -469044,6 +469048,7 @@
 0.0.0.0 smartdevicecentral.us.intellitxt.com
 0.0.0.0 smartdigitalsigns.com
 0.0.0.0 smartek-matrix.com
+0.0.0.0 smartermail.host
 0.0.0.0 smartfiles.nocoshop.ru
 0.0.0.0 smartfiles.uploadbox.world
 0.0.0.0 smartfinancialbo.com
@@ -470980,6 +470985,7 @@
 0.0.0.0 spew.ulitron.ru
 0.0.0.0 spewy.dedspac.ru
 0.0.0.0 spezialreporte.de
+0.0.0.0 spgint.com
 0.0.0.0 sphaerion.online
 0.0.0.0 sphaerion.ru
 0.0.0.0 sphere-beamless-clustered.com
@@ -471185,6 +471191,7 @@
 0.0.0.0 sportisimo.sfd-pl.shop
 0.0.0.0 sportisimoczolinesale.com
 0.0.0.0 sportisimoonlinesk.com
+0.0.0.0 sportisimoshop.com
 0.0.0.0 sportmovementcentre.com
 0.0.0.0 sportmusic.servemp3.com
 0.0.0.0 sportnewspaper.strangled.net
@@ -478880,6 +478887,7 @@
 0.0.0.0 tech.dedspac.ru
 0.0.0.0 tech.zapps.me
 0.0.0.0 techaerolabs.com
+0.0.0.0 techapiguard.co
 0.0.0.0 techarch.us
 0.0.0.0 techbargins.com
 0.0.0.0 techbroslop.com
@@ -495081,6 +495089,7 @@
 0.0.0.0 widespace.com
 0.0.0.0 widestep.com
 0.0.0.0 wideucloud.raytowngaragedoor.com
+0.0.0.0 widexenmexico.com.mx
 0.0.0.0 widget-1.oncustomer.asia
 0.0.0.0 widget-2.oncustomer.asia
 0.0.0.0 widget-cdn.rpxnow.com
@@ -511945,6 +511954,7 @@
 0.0.0.0 www.oiotd.com
 0.0.0.0 www.oisdvb.com
 0.0.0.0 www.oix.com
+0.0.0.0 www.ojang.pe.kr
 0.0.0.0 www.ojmdu.com
 0.0.0.0 www.ojolink.fr
 0.0.0.0 www.ojrq.net
@@ -523064,7 +523074,6 @@
 0.0.0.0 xn--ambulncia-f2a.globe90.koparas.ru
 0.0.0.0 xn--ameli--niveau-sms-tob.com
 0.0.0.0 xn--appe-nza.com
-0.0.0.0 xn--b1afiqif6c.xn--p1ai
 0.0.0.0 xn--b1asibp.online
 0.0.0.0 xn--blckchain-17c.com
 0.0.0.0 xn--cer80jstu39j.cc
