@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-12 06:02:14
-# Entries: 525529
+# Generated: 2026-05-12 06:31:17
+# Entries: 525526
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -136565,7 +136565,6 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
-0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -244676,7 +244675,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -246175,7 +246173,6 @@
 0.0.0.0 fitfloppl.com
 0.0.0.0 fitfloppolskaoutlet.com
 0.0.0.0 fitflopspolskaoutlet.com
-0.0.0.0 fitforevercavan.ie
 0.0.0.0 fitful-manners.000webhostapp.com
 0.0.0.0 fitg.net
 0.0.0.0 fitges.oewabox.at
@@ -249558,7 +249555,6 @@
 0.0.0.0 fotoporcelanapanama.com
 0.0.0.0 fotoproductinsta.com
 0.0.0.0 fotoschuppen.net
-0.0.0.0 fotosdepuebla.org
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
 0.0.0.0 fotoshop-instagram.b0tnet.com
@@ -263617,6 +263613,7 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobizboost.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
@@ -321625,7 +321622,6 @@
 0.0.0.0 kmrxgs.com
 0.0.0.0 kms-full.com
 0.0.0.0 kms-win11-update.net
-0.0.0.0 kms.com.bd
 0.0.0.0 kms.jo
 0.0.0.0 kmsauto.info
 0.0.0.0 kmsdhjeru.org
@@ -460333,6 +460329,7 @@
 0.0.0.0 sakura-icchi.com
 0.0.0.0 sakura.ne.jp147902c4.tecnoedilpontei.com
 0.0.0.0 sakuraclub-taxi.com
+0.0.0.0 sakuraloyalty.com
 0.0.0.0 sakuramiya-c.com
 0.0.0.0 sakuraset.top
 0.0.0.0 sakurasingh.github.io
