@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-12 06:31:17
-# Entries: 525526
+# Generated: 2026-05-12 12:31:15
+# Entries: 525524
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -264881,7 +264881,6 @@
 0.0.0.0 gossamer-clover-jonquil.glitch.me
 0.0.0.0 gossamer-plain-perigee.glitch.me
 0.0.0.0 gossamerbio.corporacionfrm.org
-0.0.0.0 gossipband.ie
 0.0.0.0 gossipbottom.com
 0.0.0.0 gossipcenter.us.intellitxt.com
 0.0.0.0 gossiponthis.us.intellitxt.com
@@ -310053,7 +310052,6 @@
 0.0.0.0 jlusas.cn
 0.0.0.0 jluxelit.com
 0.0.0.0 jluxnagcjv.duckdns.org
-0.0.0.0 jlwz.cn
 0.0.0.0 jlxk-casefb349361.vercel.app
 0.0.0.0 jlxuy-7iaaa-aaaad-qa7xa-cai.icp0.io
 0.0.0.0 jlybujcs.sovereignty2020.com
@@ -429490,6 +429488,7 @@
 0.0.0.0 ptosexwpndhpzzuawnkotrbvby-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 ptovesindo.com
 0.0.0.0 ptownpooch.com
+0.0.0.0 ptpilatesstudio.com
 0.0.0.0 ptplayground.com
 0.0.0.0 ptppp.cn
 0.0.0.0 ptpsc-dpd.cfd
@@ -460329,7 +460328,6 @@
 0.0.0.0 sakura-icchi.com
 0.0.0.0 sakura.ne.jp147902c4.tecnoedilpontei.com
 0.0.0.0 sakuraclub-taxi.com
-0.0.0.0 sakuraloyalty.com
 0.0.0.0 sakuramiya-c.com
 0.0.0.0 sakuraset.top
 0.0.0.0 sakurasingh.github.io
