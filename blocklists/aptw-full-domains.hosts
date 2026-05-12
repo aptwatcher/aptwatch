@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-12 12:31:15
-# Entries: 525524
+# Generated: 2026-05-12 18:30:47
+# Entries: 525529
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -55236,6 +55236,7 @@
 0.0.0.0 adcrops.net
 0.0.0.0 adcropswnet.ru
 0.0.0.0 adcs.rqmob.com
+0.0.0.0 adctanzania.co.tz
 0.0.0.0 adctsgakcjkjwchn-dot-millinium.ey.r.appspot.com
 0.0.0.0 adcuratorstechtrail.vercel.app
 0.0.0.0 adcv.jp
@@ -191498,6 +191499,7 @@
 0.0.0.0 crimea-camry.ru
 0.0.0.0 crimea.virosat.ru
 0.0.0.0 crimeahealth.ru
+0.0.0.0 crimefreesoftware.com
 0.0.0.0 crimeireland.com
 0.0.0.0 crimewatchpatrols.co.nz
 0.0.0.0 crimg.sv.publicus.com
@@ -244675,6 +244677,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -248690,7 +248693,6 @@
 0.0.0.0 fonet.ec
 0.0.0.0 fonfmagljg4c4dte4hgehu86aa.wusps.xyz
 0.0.0.0 fonhnzlvatkkullucbbvljvxei-dot-gleow2021ja.ue.r.appspot.com
-0.0.0.0 fonij.cm
 0.0.0.0 fonitel.com.br
 0.0.0.0 fonixpizza.no
 0.0.0.0 fonohouse.com.br
@@ -249548,6 +249550,7 @@
 0.0.0.0 fotolajt.pl
 0.0.0.0 fotolog.crwdcntrl.net
 0.0.0.0 fotologaso.miss-web.es
+0.0.0.0 fotomaxinstall.click
 0.0.0.0 fotonegypt.com
 0.0.0.0 fotonordlicht.de
 0.0.0.0 fotook.ru
@@ -263613,7 +263616,6 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobizboost.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
@@ -296106,6 +296108,7 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
+0.0.0.0 indeanapolice.cc
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
 0.0.0.0 indecisive-pentagonal-carnation.glitch.me
@@ -310052,6 +310055,7 @@
 0.0.0.0 jlusas.cn
 0.0.0.0 jluxelit.com
 0.0.0.0 jluxnagcjv.duckdns.org
+0.0.0.0 jlwz.cn
 0.0.0.0 jlxk-casefb349361.vercel.app
 0.0.0.0 jlxuy-7iaaa-aaaad-qa7xa-cai.icp0.io
 0.0.0.0 jlybujcs.sovereignty2020.com
@@ -374747,6 +374751,7 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
+0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -429488,7 +429493,6 @@
 0.0.0.0 ptosexwpndhpzzuawnkotrbvby-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 ptovesindo.com
 0.0.0.0 ptownpooch.com
-0.0.0.0 ptpilatesstudio.com
 0.0.0.0 ptplayground.com
 0.0.0.0 ptppp.cn
 0.0.0.0 ptpsc-dpd.cfd
@@ -505002,6 +505006,7 @@
 0.0.0.0 www.fotaonline.24.eu
 0.0.0.0 www.foto-zdjecia.24.eu
 0.0.0.0 www.fotoidea.com
+0.0.0.0 www.fotoinstalll.ink
 0.0.0.0 www.fotolajt.pl
 0.0.0.0 www.fotopegaz.pl
 0.0.0.0 www.fotovoche.com
