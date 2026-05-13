@@ -1,0 +1,69 @@
+# =============================================================
+# Curator augmentation: Callisto / Star Blizzard / TA446 - DarkSword iOS exploit kit
+# Source: Proofpoint Threat Insight + Malfors (March 28 2026), reaffirmed in
+#         Cyber News Network strategic briefing (May 8 2026), corroborated by
+#         The Hacker News, SecurityWeek, SC Media.
+# Hunt date: 2026-05-09
+# Notes:
+#   - escofiringbijou.com was already present in the DB (id 1132649778)
+#     with NULL actor_attribution and score 0.0 (collected by feed,
+#     never attributed). This file closes the attribution gap by
+#     confirming the domain as TA446-controlled second-stage
+#     infrastructure serving the DarkSword iOS exploit kit
+#     (initial redirector, exploit loader, RCE component, PAC bypass).
+#   - Single IOC attribution upgrade. Curator score 1.0 will be
+#     assigned by the loader and is the permanent ceiling.
+#   - DarkSword loader SHA-256
+#     b7ef4985662625c45955db295d949e04fd0a9fd5c8ce0c6a3bcb68e4a06c16e4
+#     observed referencing escofiringbijou[.]com on VirusTotal.
+#     Out of scope for the current 8-table flat IOC schema (no hash
+#     table). Logged in digest only.
+#   - Triage: attacker-owned. Random-looking apex with no business
+#     signal; explicitly attributed by Proofpoint as
+#     "TA446-controlled domain". Not from an affiliate list. No
+#     compromised_legitimate consideration.
+# =============================================================
+
+author: aptwatch-curator-bot
+source: https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html
+source_name: The Hacker News - TA446 Deploys DarkSword iOS Exploit Kit (Proofpoint + Malfors primary disclosure)
+
+apt_groups:
+  - Callisto
+  - Star Blizzard
+  - TA446
+  - COLDRIVER
+  - SEABORGIUM
+  - Blue Charlie
+  - TAG-53
+  - DANCING SALOME
+  - FSB Centre 18
+
+description: >
+  Attribution upgrade for escofiringbijou.com to Callisto / Star
+  Blizzard / TA446 (FSB Centre 18). The domain is the second-stage
+  TA446-controlled host that serves the leaked DarkSword iOS exploit
+  kit, including the initial redirector, exploit loader, remote code
+  execution component, and Pointer Authentication Code (PAC) bypass
+  (Proofpoint Threat Insight 2026-03-28 / Malfors 2026-03-28).
+  TA446 used the kit to deliver GHOSTBLADE (dataminer) and a known
+  backdoor referred to as MAYBEROBOT via password-protected ZIPs in
+  fake "discussion invitation" emails spoofing the Atlantic Council;
+  one observed recipient was Russian opposition political director
+  Leonid Volkov. Proofpoint noted email volume "significantly higher"
+  than baseline and targeting "much wider than usual": government,
+  think tanks, higher education, financial, and legal entities. This
+  is the first documented FSB targeting of iCloud accounts and Apple
+  devices for this group, closing a previously hardened collection
+  gap. The Cyber News Network strategic briefing for the 24 March -
+  8 May 2026 window reaffirmed continued operational use through
+  early May 2026, with no confirmed infrastructure migration as of
+  the runtime cut. DarkSword loader SHA-256
+  b7ef4985662625c45955db295d949e04fd0a9fd5c8ce0c6a3bcb68e4a06c16e4
+  on VirusTotal references this domain. The loader is a leaked
+  variant of the kit originally tracked against UNC6353 watering
+  holes, raising commodity-malware risk independent of TA446
+  operations.
+
+domains:
+  - escofiringbijou.com
