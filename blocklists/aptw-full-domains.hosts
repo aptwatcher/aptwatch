@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-17 00:13:39
-# Entries: 524905
+# Generated: 2026-05-17 00:30:15
+# Entries: 524907
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -509383,6 +509383,7 @@
 0.0.0.0 www.methqqodologicallyunshockable.info
 0.0.0.0 www.metricffalcupreous.info
 0.0.0.0 www.metricsimage.com
+0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mexc.sc
 0.0.0.0 www.mexdrugs.com
 0.0.0.0 www.mezczyzna-trendy.pl
@@ -524455,6 +524456,7 @@
 0.0.0.0 zisyjyo.pro
 0.0.0.0 zit.dedspac.ru
 0.0.0.0 zit.ulitron.ru
+0.0.0.0 ziti-multicooker-hacks.garden
 0.0.0.0 ziti.dedspac.ru
 0.0.0.0 zitis.dedspac.ru
 0.0.0.0 zitis.virosat.ru
