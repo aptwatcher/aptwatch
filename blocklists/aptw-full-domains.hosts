@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-17 01:27:32
-# Entries: 525118
+# Generated: 2026-05-17 06:02:54
+# Entries: 525129
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45149,6 +45149,7 @@
 0.0.0.0 abandonable.divasto.ru
 0.0.0.0 abandonable.hydrogeniumo.ru
 0.0.0.0 abandonable.voranfi.ru
+0.0.0.0 abandoned-asylum-expedition.garden
 0.0.0.0 abandoned.voranfi.ru
 0.0.0.0 abandonedly.bismutumo.ru
 0.0.0.0 abandonedly.chicagosi.ru
@@ -47476,6 +47477,7 @@
 0.0.0.0 abysms.dedspac.ru
 0.0.0.0 abyss.dedspac.ru
 0.0.0.0 abyssal-echo.com
+0.0.0.0 abyssal-kraken-trench.garden
 0.0.0.0 abyssal-voog.yolasite.com
 0.0.0.0 abyssinian-cherry-hoverfly.glitch.me
 0.0.0.0 abyssinian-circular-feels.glitch.me
@@ -69460,6 +69462,7 @@
 0.0.0.0 alces.ulitron.ru
 0.0.0.0 alchakey.net
 0.0.0.0 alchem-imai.mixh.jp
+0.0.0.0 alchemical-formula-scroll.garden
 0.0.0.0 alchemicaldancer.com
 0.0.0.0 alchemically.vadilops.ru
 0.0.0.0 alchemist.ciit.edu.ph
@@ -74051,6 +74054,7 @@
 0.0.0.0 altamira.bluestacko.ru
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
+0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanyucetas.com
 0.0.0.0 altaplateria.com
@@ -174747,6 +174751,7 @@
 0.0.0.0 chronically.amaniwa.ru
 0.0.0.0 chronically.draagotan.ru
 0.0.0.0 chronically.kukarat.ru
+0.0.0.0 chronicle-archive-keeper.garden
 0.0.0.0 chronicle.co.kr
 0.0.0.0 chronicles.1gb.ua
 0.0.0.0 chroniclewealth.com-twt4vodwibqqfvitbi9a.twt4vodwibqqfvitbi9a.manxttrider.com
@@ -188890,6 +188895,7 @@
 0.0.0.0 cosmicclash9.com
 0.0.0.0 cosmicenergy.in
 0.0.0.0 cosmicmediausa.com
+0.0.0.0 cosmicmicrowavebackground.garden
 0.0.0.0 cosmicoracle.sbs
 0.0.0.0 cosmicpop.trexsit.com
 0.0.0.0 cosmix.athena-coin.com
@@ -275777,6 +275783,7 @@
 0.0.0.0 handlewithlove.nl
 0.0.0.0 handling-idle.vercel.app
 0.0.0.0 handling-postoffice.com
+0.0.0.0 handmade-cheese-traveler.garden
 0.0.0.0 handmadebyamber.ca
 0.0.0.0 handmhealth.com
 0.0.0.0 handout-voivo-desk-ship-link.wiki
@@ -352394,6 +352401,7 @@
 0.0.0.0 mand.ulitron.ru
 0.0.0.0 mand1r1.bezmxv.my.id
 0.0.0.0 mandafashion.com
+0.0.0.0 mandalaagrifresh.com
 0.0.0.0 mandalahome.es
 0.0.0.0 mandalamultimedia.com
 0.0.0.0 mandalasdoamor.com.br
@@ -384267,6 +384275,7 @@
 0.0.0.0 neon-tribute.com
 0.0.0.0 neon.ly
 0.0.0.0 neonaptic-gear.com
+0.0.0.0 neoncyberpunkcity.garden
 0.0.0.0 neonebula.org
 0.0.0.0 neonjeep.com
 0.0.0.0 neonosni.ru
@@ -417294,6 +417303,7 @@
 0.0.0.0 pixel1370.everesttech.net
 0.0.0.0 pixel1553.everesttech.net
 0.0.0.0 pixel1739.everesttech.net
+0.0.0.0 pixelartcanvas.garden
 0.0.0.0 pixelartfcontest.pages.dev
 0.0.0.0 pixelartfcontests.pages.dev
 0.0.0.0 pixelartsfcompetition.pages.dev
@@ -449898,7 +449908,6 @@
 0.0.0.0 retrillaras.sbs
 0.0.0.0 retrnlnvoice.com
 0.0.0.0 retro-b2973e.ingress-earth.ewp.live
-0.0.0.0 retro-gaming-launcher.garden
 0.0.0.0 retro-moda-shop.com
 0.0.0.0 retro.vertysbos.top
 0.0.0.0 retroasfunk.com
@@ -473506,6 +473515,7 @@
 0.0.0.0 steampowered.playtestrequests.com
 0.0.0.0 steampoweredapp140935.com
 0.0.0.0 steampowereq.store
+0.0.0.0 steampunkaeronautics.garden
 0.0.0.0 steamrar.com
 0.0.0.0 steamrcommnunity.com
 0.0.0.0 steamrcommunity.ru
@@ -478268,6 +478278,7 @@
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techtalentafrica.xyz
+0.0.0.0 techtattva.in
 0.0.0.0 techtulse-in.com
 0.0.0.0 techtulse-uk.com
 0.0.0.0 techvibeg.vercel.app
@@ -490013,6 +490024,7 @@
 0.0.0.0 vint.ulitron.ru
 0.0.0.0 vintacom.112.2o7.net
 0.0.0.0 vintadream.112.2o7.net
+0.0.0.0 vintage-blueprint-vault.garden
 0.0.0.0 vintage1889casualdining.us
 0.0.0.0 vintagebridge.nayzun.com
 0.0.0.0 vintagebroadcasts.com
@@ -509588,7 +509600,6 @@
 0.0.0.0 www.methqqodologicallyunshockable.info
 0.0.0.0 www.metricffalcupreous.info
 0.0.0.0 www.metricsimage.com
-0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mexc.sc
 0.0.0.0 www.mexdrugs.com
 0.0.0.0 www.mezczyzna-trendy.pl

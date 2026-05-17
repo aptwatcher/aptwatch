@@ -45142,6 +45142,7 @@ abandonable.bortogat.ru
 abandonable.divasto.ru
 abandonable.hydrogeniumo.ru
 abandonable.voranfi.ru
+abandoned-asylum-expedition.garden
 abandoned.voranfi.ru
 abandonedly.bismutumo.ru
 abandonedly.chicagosi.ru
@@ -47469,6 +47470,7 @@ abysmally.leonardis.ru
 abysms.dedspac.ru
 abyss.dedspac.ru
 abyssal-echo.com
+abyssal-kraken-trench.garden
 abyssal-voog.yolasite.com
 abyssinian-cherry-hoverfly.glitch.me
 abyssinian-circular-feels.glitch.me
@@ -69453,6 +69455,7 @@ alces.dedspac.ru
 alces.ulitron.ru
 alchakey.net
 alchem-imai.mixh.jp
+alchemical-formula-scroll.garden
 alchemicaldancer.com
 alchemically.vadilops.ru
 alchemist.ciit.edu.ph
@@ -74044,6 +74047,7 @@ altameergarments.com
 altamira.bluestacko.ru
 altamiragigena.com.ar
 altamood.ee
+altamoorgoods.com
 altanovasoftware.ru
 altanyucetas.com
 altaplateria.com
@@ -174740,6 +174744,7 @@ chronalmonsta.blogspot.sn
 chronically.amaniwa.ru
 chronically.draagotan.ru
 chronically.kukarat.ru
+chronicle-archive-keeper.garden
 chronicle.co.kr
 chronicles.1gb.ua
 chroniclewealth.com-twt4vodwibqqfvitbi9a.twt4vodwibqqfvitbi9a.manxttrider.com
@@ -188883,6 +188888,7 @@ cosmic-meteor-condition.glitch.me
 cosmicclash9.com
 cosmicenergy.in
 cosmicmediausa.com
+cosmicmicrowavebackground.garden
 cosmicoracle.sbs
 cosmicpop.trexsit.com
 cosmix.athena-coin.com
@@ -275770,6 +275776,7 @@ handler-homepage.de
 handlewithlove.nl
 handling-idle.vercel.app
 handling-postoffice.com
+handmade-cheese-traveler.garden
 handmadebyamber.ca
 handmhealth.com
 handout-voivo-desk-ship-link.wiki
@@ -352387,6 +352394,7 @@ mand.amaniwa.ru
 mand.ulitron.ru
 mand1r1.bezmxv.my.id
 mandafashion.com
+mandalaagrifresh.com
 mandalahome.es
 mandalamultimedia.com
 mandalasdoamor.com.br
@@ -384260,6 +384268,7 @@ neon-short-spoon.glitch.me
 neon-tribute.com
 neon.ly
 neonaptic-gear.com
+neoncyberpunkcity.garden
 neonebula.org
 neonjeep.com
 neonosni.ru
@@ -417287,6 +417296,7 @@ pixel1350.everesttech.net
 pixel1370.everesttech.net
 pixel1553.everesttech.net
 pixel1739.everesttech.net
+pixelartcanvas.garden
 pixelartfcontest.pages.dev
 pixelartfcontests.pages.dev
 pixelartsfcompetition.pages.dev
@@ -449891,7 +449901,6 @@ retrieveaccount.ddns.net
 retrillaras.sbs
 retrnlnvoice.com
 retro-b2973e.ingress-earth.ewp.live
-retro-gaming-launcher.garden
 retro-moda-shop.com
 retro.vertysbos.top
 retroasfunk.com
@@ -473499,6 +473508,7 @@ steampowered.help-appeal.com
 steampowered.playtestrequests.com
 steampoweredapp140935.com
 steampowereq.store
+steampunkaeronautics.garden
 steamrar.com
 steamrcommnunity.com
 steamrcommunity.ru
@@ -478261,6 +478271,7 @@ techspotcom.skimlinks.com
 techstats.net
 techsupportforum.us.intellitxt.com
 techtalentafrica.xyz
+techtattva.in
 techtulse-in.com
 techtulse-uk.com
 techvibeg.vercel.app
@@ -490006,6 +490017,7 @@ vint-metabeta-kib.pages.dev
 vint.ulitron.ru
 vintacom.112.2o7.net
 vintadream.112.2o7.net
+vintage-blueprint-vault.garden
 vintage1889casualdining.us
 vintagebridge.nayzun.com
 vintagebroadcasts.com
@@ -509581,7 +509593,6 @@ www.methodsvision.nationaltowingmv.com
 www.methqqodologicallyunshockable.info
 www.metricffalcupreous.info
 www.metricsimage.com
-www.mevetlab.cl
 www.mexc.sc
 www.mexdrugs.com
 www.mezczyzna-trendy.pl
