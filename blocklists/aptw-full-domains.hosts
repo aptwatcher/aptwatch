@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-17 01:20:01
-# Entries: 524904
+# Generated: 2026-05-17 01:22:38
+# Entries: 524903
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -478012,7 +478012,6 @@
 0.0.0.0 techarch.us
 0.0.0.0 techbargins.com
 0.0.0.0 techbroslop.com
-0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techcruncln.com

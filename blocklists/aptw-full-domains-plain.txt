@@ -478005,7 +478005,6 @@ tech.zapps.me
 techarch.us
 techbargins.com
 techbroslop.com
-techbud.ro
 techbyalfaiz.github.io
 techbytegr.vercel.app
 techcruncln.com
