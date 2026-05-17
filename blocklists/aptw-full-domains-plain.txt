@@ -45142,7 +45142,6 @@ abandonable.bortogat.ru
 abandonable.divasto.ru
 abandonable.hydrogeniumo.ru
 abandonable.voranfi.ru
-abandoned-asylum-expedition.garden
 abandoned.voranfi.ru
 abandonedly.bismutumo.ru
 abandonedly.chicagosi.ru
@@ -261564,6 +261563,7 @@ glace.dedspac.ru
 glace.ulitron.ru
 glace.virosat.ru
 glacial-frost.com
+glacial-ice-core-sample.garden
 glacial-mesa-35508.herokuapp.com
 glacial-mint.com
 glacial-odyssey.com
@@ -393685,7 +393685,6 @@ nusaefa.tuskilenstileawitesokemog.link
 nusantarajayakonveksi.com
 nusapintar.masuk.id
 nusaspin.co-ud.com
-nusatoyota.co.id
 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 nuseek.com
@@ -417296,7 +417295,6 @@ pixel1350.everesttech.net
 pixel1370.everesttech.net
 pixel1553.everesttech.net
 pixel1739.everesttech.net
-pixelartcanvas.garden
 pixelartfcontest.pages.dev
 pixelartfcontests.pages.dev
 pixelartsfcompetition.pages.dev
@@ -478271,7 +478269,6 @@ techspotcom.skimlinks.com
 techstats.net
 techsupportforum.us.intellitxt.com
 techtalentafrica.xyz
-techtattva.in
 techtulse-in.com
 techtulse-uk.com
 techvibeg.vercel.app
@@ -490017,7 +490014,6 @@ vint-metabeta-kib.pages.dev
 vint.ulitron.ru
 vintacom.112.2o7.net
 vintadream.112.2o7.net
-vintage-blueprint-vault.garden
 vintage1889casualdining.us
 vintagebridge.nayzun.com
 vintagebroadcasts.com
@@ -524671,7 +524667,6 @@ ziru.codynovatech.com
 zisyjyo.pro
 zit.dedspac.ru
 zit.ulitron.ru
-ziti-multicooker-hacks.garden
 ziti.dedspac.ru
 zitis.dedspac.ru
 zitis.virosat.ru

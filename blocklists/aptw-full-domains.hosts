@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-17 06:02:54
-# Entries: 525129
+# Generated: 2026-05-17 06:31:30
+# Entries: 525124
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45149,7 +45149,6 @@
 0.0.0.0 abandonable.divasto.ru
 0.0.0.0 abandonable.hydrogeniumo.ru
 0.0.0.0 abandonable.voranfi.ru
-0.0.0.0 abandoned-asylum-expedition.garden
 0.0.0.0 abandoned.voranfi.ru
 0.0.0.0 abandonedly.bismutumo.ru
 0.0.0.0 abandonedly.chicagosi.ru
@@ -261571,6 +261570,7 @@
 0.0.0.0 glace.ulitron.ru
 0.0.0.0 glace.virosat.ru
 0.0.0.0 glacial-frost.com
+0.0.0.0 glacial-ice-core-sample.garden
 0.0.0.0 glacial-mesa-35508.herokuapp.com
 0.0.0.0 glacial-mint.com
 0.0.0.0 glacial-odyssey.com
@@ -393692,7 +393692,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -417303,7 +417302,6 @@
 0.0.0.0 pixel1370.everesttech.net
 0.0.0.0 pixel1553.everesttech.net
 0.0.0.0 pixel1739.everesttech.net
-0.0.0.0 pixelartcanvas.garden
 0.0.0.0 pixelartfcontest.pages.dev
 0.0.0.0 pixelartfcontests.pages.dev
 0.0.0.0 pixelartsfcompetition.pages.dev
@@ -478278,7 +478276,6 @@
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techtalentafrica.xyz
-0.0.0.0 techtattva.in
 0.0.0.0 techtulse-in.com
 0.0.0.0 techtulse-uk.com
 0.0.0.0 techvibeg.vercel.app
@@ -490024,7 +490021,6 @@
 0.0.0.0 vint.ulitron.ru
 0.0.0.0 vintacom.112.2o7.net
 0.0.0.0 vintadream.112.2o7.net
-0.0.0.0 vintage-blueprint-vault.garden
 0.0.0.0 vintage1889casualdining.us
 0.0.0.0 vintagebridge.nayzun.com
 0.0.0.0 vintagebroadcasts.com
@@ -524678,7 +524674,6 @@
 0.0.0.0 zisyjyo.pro
 0.0.0.0 zit.dedspac.ru
 0.0.0.0 zit.ulitron.ru
-0.0.0.0 ziti-multicooker-hacks.garden
 0.0.0.0 ziti.dedspac.ru
 0.0.0.0 zitis.dedspac.ru
 0.0.0.0 zitis.virosat.ru
