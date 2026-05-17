@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-17 00:30:15
-# Entries: 524907
+# Generated: 2026-05-17 01:22:38
+# Entries: 524903
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48868,7 +48868,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -140751,7 +140750,6 @@
 0.0.0.0 bertrand-renaudin.com
 0.0.0.0 bertranddo.com
 0.0.0.0 bertrandelectricllc.com
-0.0.0.0 bertticleaning.com
 0.0.0.0 bertucellicorretora.com.br
 0.0.0.0 bertuyihwjasojcpokwt8q7otyw.pages.dev
 0.0.0.0 bertyiodop.ydns.eu
@@ -187139,7 +187137,6 @@
 0.0.0.0 container.pointroll.com
 0.0.0.0 container.zya.me
 0.0.0.0 containerfabric.wiki
-0.0.0.0 containerizedecosystem.garden
 0.0.0.0 containerizedplantmesh.garden
 0.0.0.0 containerizedworkflowengine.courses
 0.0.0.0 containerorchestrationhub.wiki
@@ -200683,6 +200680,7 @@
 0.0.0.0 deep-skirted.destarro.ru
 0.0.0.0 deep-skirted.gloritapa.ru
 0.0.0.0 deep-skirted.gortomalo.ru
+0.0.0.0 deep-space-artificial-gravity.garden
 0.0.0.0 deep-stapled.gloritapa.ru
 0.0.0.0 deep-sunk.gloritapa.ru
 0.0.0.0 deep-sunken.tenosha.ru
@@ -223291,7 +223289,6 @@
 0.0.0.0 emotionduvin.be
 0.0.0.0 emotionjohn.com
 0.0.0.0 emotionoftime.com
-0.0.0.0 emoto.mk
 0.0.0.0 emotrash.net
 0.0.0.0 emp-game.com
 0.0.0.0 empackaged.sa.com
@@ -251798,6 +251795,7 @@
 0.0.0.0 friendsoflifechoices.org
 0.0.0.0 friendsofmelvinchigh.com
 0.0.0.0 friendsofryetownhall.org
+0.0.0.0 friendsofsclarc.org
 0.0.0.0 friendssteakhouse.com
 0.0.0.0 friendtest.us.intellitxt.com
 0.0.0.0 friendvideos.com
@@ -266501,6 +266499,7 @@
 0.0.0.0 grebyar.nfvoucher.com
 0.0.0.0 grece.dedspac.ru
 0.0.0.0 greco.ulitron.ru
+0.0.0.0 grecokitchens.com
 0.0.0.0 grecom.gt
 0.0.0.0 grecotitle.hideoutco.com
 0.0.0.0 greddoiheicreillu-5946.vercel.app
@@ -293092,7 +293091,6 @@
 0.0.0.0 ijamjamsec.com
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
-0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -449737,6 +449735,7 @@
 0.0.0.0 retrillaras.sbs
 0.0.0.0 retrnlnvoice.com
 0.0.0.0 retro-b2973e.ingress-earth.ewp.live
+0.0.0.0 retro-gaming-launcher.garden
 0.0.0.0 retro-moda-shop.com
 0.0.0.0 retro.vertysbos.top
 0.0.0.0 retroasfunk.com
@@ -462454,7 +462453,6 @@
 0.0.0.0 sattota.com
 0.0.0.0 sattvadoshi.github.io
 0.0.0.0 satu277-vip1.shop
-0.0.0.0 satuatlas.com
 0.0.0.0 satuosrdaysa07.co.vu
 0.0.0.0 satura.pl
 0.0.0.0 saturapa.ru
@@ -478014,7 +478012,6 @@
 0.0.0.0 techarch.us
 0.0.0.0 techbargins.com
 0.0.0.0 techbroslop.com
-0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techcruncln.com
@@ -498923,7 +498920,6 @@
 0.0.0.0 www.benjamintay.shop
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
-0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benzidineyys.info
 0.0.0.0 www.benzkartel.duckdns.org

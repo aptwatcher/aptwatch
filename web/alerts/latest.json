@@ -1,17 +1,5 @@
 {
   "delta": {
-    "anomalies": [
-      {
-        "actor": "Forest Blizzard",
-        "delta": 13,
-        "issue": "flat-vs-campaign drift (cidr_iocs)"
-      },
-      {
-        "actor": "Storm-2372",
-        "delta": 4,
-        "issue": "flat-vs-campaign drift (cidr_iocs)"
-      }
-    ],
     "new_actors": [
       "ALPHV / BlackCat",
       "ALPHV/BlackCat RaaS Operations",
@@ -90,27 +78,20 @@
     ],
     "new_curator_attributions": 534,
     "new_iocs": {
-      "cert": 70,
-      "cve": 202,
-      "domain": 1565275,
-      "email": 190,
-      "ipv4": 6524,
-      "ipv6": 158,
-      "subnet": 6967,
-      "url": 254168
+      "cidr": 6967
     }
   },
-  "generated_at": "2026-05-17T00:07:26Z",
+  "generated_at": "2026-05-17T00:38:22Z",
   "totals": {
     "campaign_iocs": 54192,
     "campaigns": 36,
     "cert": 70,
+    "cidr": 6967,
     "cve": 202,
     "domain": 1565275,
     "email": 190,
     "ipv4": 6524,
     "ipv6": 158,
-    "subnet": 6967,
     "url": 254168
   }
 }
