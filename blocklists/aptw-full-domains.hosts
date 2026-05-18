@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-18 00:31:30
-# Entries: 525149
+# Generated: 2026-05-18 06:02:57
+# Entries: 525163
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -47363,6 +47363,7 @@
 0.0.0.0 abud-7c60.ratynrkeo.workers.dev
 0.0.0.0 abudhabi-locals.com
 0.0.0.0 abudhabiuniforms.com
+0.0.0.0 abudhabiwinch.com
 0.0.0.0 abueiaoantwo.dvrlists.com
 0.0.0.0 abuekohtxj.duckdns.org
 0.0.0.0 abueme-96e1.ehnelacsrralo.workers.dev
@@ -115071,6 +115072,7 @@
 0.0.0.0 audings.matsuro.ru
 0.0.0.0 audio-108541.weeblysite.com
 0.0.0.0 audio-appointment.com
+0.0.0.0 audio-attenuator-schematic.garden
 0.0.0.0 audio-auth.us-east-1.linodeobjects.com
 0.0.0.0 audio-book.net.pl
 0.0.0.0 audio-caller.us-southeast-1.linodeobjects.com
@@ -124947,6 +124949,7 @@
 0.0.0.0 bad.ulitron.ru
 0.0.0.0 bad00525a.ghost.io
 0.0.0.0 bad12c4de4a0.ngrok.io
+0.0.0.0 bada-bing-sopranos-lounge.garden
 0.0.0.0 badabazaars.com
 0.0.0.0 badaboomfireworkspa.com
 0.0.0.0 badaga.dedspac.ru
@@ -137944,6 +137947,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -191649,6 +191653,7 @@
 0.0.0.0 crispadvertising.com
 0.0.0.0 crispawsedrtfgyuhjijiuytrdfy-meme.pages.dev
 0.0.0.0 crisptiger.vercel.app
+0.0.0.0 crispy-chicken-cutlets.garden
 0.0.0.0 crispy-succotash-bice.vercel.app
 0.0.0.0 crispythings.online
 0.0.0.0 crisr.cf
@@ -194883,6 +194888,7 @@
 0.0.0.0 cybermeinc.org
 0.0.0.0 cybernations.tech-institute.org
 0.0.0.0 cybernet.com.py
+0.0.0.0 cybernetic-prosthetic-lab.garden
 0.0.0.0 cybernewbalance.com
 0.0.0.0 cybernexus.work
 0.0.0.0 cyberniels.com
@@ -200736,6 +200742,7 @@
 0.0.0.0 deep-rooted.gloritapa.ru
 0.0.0.0 deep-rooted.gortomalo.ru
 0.0.0.0 deep-rootedness.ssinapa.ru
+0.0.0.0 deep-sea-hydrothermal-vent.garden
 0.0.0.0 deep-sea.gloritapa.ru
 0.0.0.0 deep-searching.gloritapa.ru
 0.0.0.0 deep-seated.gloritapa.ru
@@ -263568,7 +263575,6 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -264838,6 +264844,7 @@
 0.0.0.0 gossamer-plain-perigee.glitch.me
 0.0.0.0 gossamerbio.corporacionfrm.org
 0.0.0.0 gossamerstart.info
+0.0.0.0 gossipband.ie
 0.0.0.0 gossipbottom.com
 0.0.0.0 gossipcenter.us.intellitxt.com
 0.0.0.0 gossiponthis.us.intellitxt.com
@@ -264911,6 +264918,7 @@
 0.0.0.0 gotheworld.pages.dev
 0.0.0.0 gothfgg.tk
 0.0.0.0 gothia-gebyr.org
+0.0.0.0 gothic-cathedral-blueprint.garden
 0.0.0.0 gothic-depth-276417.uc.r.appspot.com
 0.0.0.0 gothic-galaxy-286213.uc.r.appspot.com
 0.0.0.0 gothic-nasdaq-behavioral-mails-propecia-per-vertex-us.pages.dev
@@ -345998,6 +346006,7 @@
 0.0.0.0 magnethxz.co.vu
 0.0.0.0 magnetic-abrupt-law.glitch.me
 0.0.0.0 magnetic-juth.eu-gb.cf.appdomain.cloud
+0.0.0.0 magnetic-levitation-train.garden
 0.0.0.0 magnetic-mango-tenor.glitch.me
 0.0.0.0 magnetic-sapphire-soarer-forthegoodandloveofgod.glitch.me
 0.0.0.0 magnetic.t.domdex.com
@@ -378630,6 +378639,7 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
+0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -393709,6 +393719,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -403241,6 +403252,7 @@
 0.0.0.0 orbit.dedspac.ru
 0.0.0.0 orbit.leonardis.ru
 0.0.0.0 orbital-bristle.000webhostapp.com
+0.0.0.0 orbital-docking-module.garden
 0.0.0.0 orbitcarttech.com
 0.0.0.0 orbite.leonardis.ru
 0.0.0.0 orbiterfenance.org
@@ -467132,6 +467144,7 @@
 0.0.0.0 siccantreillabbge.info
 0.0.0.0 sicher-und-entspannt.up.railway.app
 0.0.0.0 sicheres-update.com
+0.0.0.0 sicilian-defense-theory.garden
 0.0.0.0 sickliness.timanar.ru
 0.0.0.0 sicko.virosat.ru
 0.0.0.0 sicksmash.com
@@ -473828,6 +473841,7 @@
 0.0.0.0 stonebartr.com
 0.0.0.0 stonebriarentertainmentgroup.com
 0.0.0.0 stonebridgedig.com
+0.0.0.0 stonecradle.com
 0.0.0.0 stonenlettuce.theqsolutions.com
 0.0.0.0 stoneowle.vercel.app
 0.0.0.0 stonepro.freyburs.com
@@ -474619,6 +474633,7 @@
 0.0.0.0 subelliptical.bortogat.ru
 0.0.0.0 subeqipeous.com
 0.0.0.0 subfamily.timanar.ru
+0.0.0.0 subfossil-oak-chronology.garden
 0.0.0.0 subgenerically.amaniwa.ru
 0.0.0.0 subglacially.timanar.ru
 0.0.0.0 subha-smita05.github.io
@@ -488831,7 +488846,6 @@
 0.0.0.0 vanshika-official.github.io
 0.0.0.0 vanshitavarma.github.io
 0.0.0.0 vanshpathare.github.io
-0.0.0.0 vanta.st
 0.0.0.0 vantagensappx.com
 0.0.0.0 vantalio.space
 0.0.0.0 vantellaofficial.com
@@ -499158,6 +499172,7 @@
 0.0.0.0 www.benjamintay.shop
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
+0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benzidineyys.info
 0.0.0.0 www.benzkartel.duckdns.org
@@ -521977,7 +521992,6 @@
 0.0.0.0 xanax-online.dot.de
 0.0.0.0 xanax-online.run.to
 0.0.0.0 xanax-store.shengen.ru
-0.0.0.0 xanax.enzostress.st
 0.0.0.0 xanax.ourtablets.com
 0.0.0.0 xanax.t-amo.net
 0.0.0.0 xanaxxanax.3xforum.ro
