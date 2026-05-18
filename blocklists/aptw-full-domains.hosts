@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-18 12:30:35
-# Entries: 525175
+# Generated: 2026-05-18 18:30:56
+# Entries: 525181
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -47364,7 +47364,6 @@
 0.0.0.0 abud-7c60.ratynrkeo.workers.dev
 0.0.0.0 abudhabi-locals.com
 0.0.0.0 abudhabiuniforms.com
-0.0.0.0 abudhabiwinch.com
 0.0.0.0 abueiaoantwo.dvrlists.com
 0.0.0.0 abuekohtxj.duckdns.org
 0.0.0.0 abueme-96e1.ehnelacsrralo.workers.dev
@@ -64874,7 +64873,6 @@
 0.0.0.0 agrope.virosat.ru
 0.0.0.0 agropecuarioenlinea.mywp.info
 0.0.0.0 agropolbud.pl
-0.0.0.0 agropole.tg
 0.0.0.0 agropreneurmuda.my
 0.0.0.0 agropulsar.com
 0.0.0.0 agroquimicabrasinha.com.br
@@ -98532,6 +98530,7 @@
 0.0.0.0 argon-tuner-836.appspot.com
 0.0.0.0 argon.matsuro.ru
 0.0.0.0 argon.ulitron.ru
+0.0.0.0 argonclient.com
 0.0.0.0 argonindustries.com
 0.0.0.0 argono.ru
 0.0.0.0 argons.dedspac.ru
@@ -136591,6 +136590,7 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
+0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -137947,6 +137947,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -153153,7 +153154,7 @@
 0.0.0.0 botanicalprocessingengine.garden
 0.0.0.0 botanicalresourceengine.garden
 0.0.0.0 botanicalresourceplatform.garden
-0.0.0.0 botanicalworkflowcenter.garden
+0.0.0.0 botanicalworkflowplatform.garden
 0.0.0.0 botany.virosat.ru
 0.0.0.0 botaomg.com
 0.0.0.0 botarbys.sa.com
@@ -153199,7 +153200,6 @@
 0.0.0.0 botkesaksham.github.io
 0.0.0.0 botlandsailors.com
 0.0.0.0 botless.gq
-0.0.0.0 botnet.fizra.biz.id
 0.0.0.0 botnyayhpx.duckdns.org
 0.0.0.0 botoforamltododiapravc.com
 0.0.0.0 botonbancolombia.glitch.me
@@ -168538,6 +168538,7 @@
 0.0.0.0 cclaquila.it
 0.0.0.0 ccleaner.fr
 0.0.0.0 ccleaner.gholam.ru
+0.0.0.0 ccleaner.gl
 0.0.0.0 cclnjcyzkhpwtyxbfsnolkpnpd.polished-shore-301017.uk.r.appspot.com
 0.0.0.0 cclose.com
 0.0.0.0 ccltdtt.com
@@ -187203,10 +187204,10 @@
 0.0.0.0 container.pointroll.com
 0.0.0.0 container.zya.me
 0.0.0.0 containerfabric.wiki
+0.0.0.0 containerizedbloomhub.garden
 0.0.0.0 containerizedecosystem.garden
 0.0.0.0 containerizedgardenmesh.garden
 0.0.0.0 containerizedplantmesh.garden
-0.0.0.0 containerizedplantnetwork.garden
 0.0.0.0 containerorchestrationhub.wiki
 0.0.0.0 containertags.belboon.de
 0.0.0.0 containter.com
@@ -188450,7 +188451,6 @@
 0.0.0.0 corenlp.admicro.vn
 0.0.0.0 corenomics.com
 0.0.0.0 coreorica.cyou
-0.0.0.0 corepilatesnicaragua.com
 0.0.0.0 coreplesk-cake-7dbf.leacshlenmmdgza.workers.dev
 0.0.0.0 corepoweryogaco.org
 0.0.0.0 corer.dedspac.ru
@@ -209256,8 +209256,8 @@
 0.0.0.0 distributed-growth-network.garden
 0.0.0.0 distributed-source-element-package-site.wiki
 0.0.0.0 distributedcache.courses
+0.0.0.0 distributedgardencontrol.garden
 0.0.0.0 distributedgardenresource.garden
-0.0.0.0 distributedgrowthnetwork.garden
 0.0.0.0 distributedobjectstoragenet.wiki
 0.0.0.0 distributedrocky.hotel-posadalaestacion.com
 0.0.0.0 distributeerust.com
@@ -219423,7 +219423,6 @@
 0.0.0.0 ecossd.com
 0.0.0.0 ecostentialism.org
 0.0.0.0 ecosystem-dapp.netlify.app
-0.0.0.0 ecosystemmanagementcore.garden
 0.0.0.0 ecosystemmanagementhub.garden
 0.0.0.0 ecosystemnode.pages.dev
 0.0.0.0 ecosystemprocessingcenter.garden
@@ -222281,7 +222280,6 @@
 0.0.0.0 elevefashion.com
 0.0.0.0 elevena.activite-rc-pro.com
 0.0.0.0 elevenb.activite-rc-pro.com
-0.0.0.0 elevenhold.hu
 0.0.0.0 elevennewz.com
 0.0.0.0 eleventy-base-blog-rv3g-git-master-mail-admin-mekdarntech.vercel.app
 0.0.0.0 eleventy-base-blog-xi.vercel.app
@@ -229359,6 +229357,7 @@
 0.0.0.0 eventosconciertosbailes.mx
 0.0.0.0 eventosefeiras.com
 0.0.0.0 eventosyfiestasinfantiles.com
+0.0.0.0 eventourarte.cl
 0.0.0.0 eventpartys18.com
 0.0.0.0 eventpaypal2019.onedumb.com
 0.0.0.0 eventpestadiamond.duckdns.org
@@ -231002,6 +231001,7 @@
 0.0.0.0 explorepro.org
 0.0.0.0 explorer.btgofficial.org
 0.0.0.0 explorer.production.qldvvmc.com.au
+0.0.0.0 explorer.vg
 0.0.0.0 explorersholidays.com
 0.0.0.0 explorertechnembe.cu.ma
 0.0.0.0 explorethenationnowbb.pages.dev
@@ -237370,6 +237370,7 @@
 0.0.0.0 falsebase.000webhostapp.com
 0.0.0.0 falseclaimbrandbuilder.vercel.app
 0.0.0.0 falseclaimsocialforge.vercel.app
+0.0.0.0 falseflag1.ru
 0.0.0.0 falsepositive.ru
 0.0.0.0 falstaff.oewabox.at
 0.0.0.0 falvey.id.au
@@ -241980,6 +241981,7 @@
 0.0.0.0 federated-storage-cluster-system.wiki
 0.0.0.0 federatedgardencluster.garden
 0.0.0.0 federatedmeadowcluster.garden
+0.0.0.0 federatedmeadowsystem.garden
 0.0.0.0 federatedplantcluster.garden
 0.0.0.0 federation.timanar.ru
 0.0.0.0 federative-windows.000webhostapp.com
@@ -247582,7 +247584,6 @@
 0.0.0.0 flora.dedspac.ru
 0.0.0.0 flora.ulitron.ru
 0.0.0.0 flora0.000webhostapp.com
-0.0.0.0 floraanalyticsengine.garden
 0.0.0.0 floracraft.net
 0.0.0.0 floraextrading.com
 0.0.0.0 florainconspicua.org
@@ -249447,7 +249448,6 @@
 0.0.0.0 forwardtateful.com
 0.0.0.0 forwardtechnology.artisanada.com
 0.0.0.0 forwardwithopportunities.co.vu
-0.0.0.0 forxtra.com
 0.0.0.0 foryou-get83.cf
 0.0.0.0 foryouaccounedbased.ct.ws
 0.0.0.0 foryoupagebyus.vercel.app
@@ -255896,6 +255896,7 @@
 0.0.0.0 garden-chapel.org
 0.0.0.0 gardena-sklep.pl
 0.0.0.0 gardenaro.shop
+0.0.0.0 gardenautomationframework.garden
 0.0.0.0 gardencenter.sk
 0.0.0.0 gardencherry.catalyst-qatar.com
 0.0.0.0 gardenchoiceplus.shop
@@ -266738,9 +266739,10 @@
 0.0.0.0 greenhillssby.com
 0.0.0.0 greenhomegrant.com
 0.0.0.0 greenhouse-climate-control-sys.garden
+0.0.0.0 greenhousecontrolplatform.garden
+0.0.0.0 greenhousemonitoringhub.garden
 0.0.0.0 greenhouseoperationscenter.garden
 0.0.0.0 greenhouseoperationshub.garden
-0.0.0.0 greenhouseresourceengine.garden
 0.0.0.0 greenhouseworkflowhub.garden
 0.0.0.0 greenhwhite.sammyproperty.com
 0.0.0.0 greenimagescape.com
@@ -303469,8 +303471,8 @@
 0.0.0.0 irrigation-control-network.garden
 0.0.0.0 irrigation-management-system.garden
 0.0.0.0 irrigation-resource-system.garden
-0.0.0.0 irrigationautomationhub.garden
 0.0.0.0 irrigationmanagementhub.garden
+0.0.0.0 irrigationprocessingnetwork.garden
 0.0.0.0 irriscape.com.au
 0.0.0.0 irritabilitas.online
 0.0.0.0 irritabilitas.ru
@@ -356531,7 +356533,6 @@
 0.0.0.0 meadowautomationplatform.garden
 0.0.0.0 meadowbrookgear.com
 0.0.0.0 meadowlullaby.com
-0.0.0.0 meadowmonitoringplatform.garden
 0.0.0.0 meadowprocessingcenter.garden
 0.0.0.0 meadowsindonesia.com
 0.0.0.0 meadowstone.art
@@ -372716,6 +372717,7 @@
 0.0.0.0 monggopinarak.vercel.app
 0.0.0.0 monggoygmaulihatbokep2020.000webhostapp.com
 0.0.0.0 mongo.ulitron.ru
+0.0.0.0 mongofly-container-gard-mesh.garden
 0.0.0.0 mongolaeri.temp.swtest.ru
 0.0.0.0 mongolia-gold.com
 0.0.0.0 mongomarket.com
@@ -374596,6 +374598,7 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
+0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -374668,6 +374671,7 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
+0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -378647,6 +378651,7 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
+0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -384161,6 +384166,7 @@
 0.0.0.0 neilblack.co.uk.usrfiles.com
 0.0.0.0 neilcoffman.com
 0.0.0.0 neilmacqueen.com
+0.0.0.0 neilshairdressers.co.uk
 0.0.0.0 neilweller11.wixsite.com
 0.0.0.0 neim.strametyapi.com
 0.0.0.0 neimali.ga
@@ -412398,7 +412404,6 @@
 0.0.0.0 pcandmore.org
 0.0.0.0 pcandnetworkcables.com
 0.0.0.0 pcapetservices.co.uk
-0.0.0.0 pcapshay-bute-gard-source.garden
 0.0.0.0 pcash.globalmailer5.com
 0.0.0.0 pcash.imlive.com
 0.0.0.0 pcash.wildmatch.com
@@ -414858,12 +414863,14 @@
 0.0.0.0 petal-spark-quality.glitch.me
 0.0.0.0 petal-walnut-face.glitch.me
 0.0.0.0 petal.ulitron.ru
+0.0.0.0 petaldistributioncenter.garden
 0.0.0.0 petaldistributionplatform.garden
 0.0.0.0 petalfoodscaterers.co.uk
 0.0.0.0 petalhazel.com
 0.0.0.0 petalite-large-fold.glitch.me
 0.0.0.0 petalite-northern-timpani.glitch.me
 0.0.0.0 petalportals.com
+0.0.0.0 petalresourceframework.garden
 0.0.0.0 petamain.112.2o7.net
 0.0.0.0 petamasklogin.webflow.io
 0.0.0.0 petametrics.com
@@ -421778,6 +421785,7 @@
 0.0.0.0 portger.github.io
 0.0.0.0 porthealthpharmasave.com
 0.0.0.0 porthos.net
+0.0.0.0 porthot-irr-gation-menthub.garden
 0.0.0.0 porthughesholidayhouse.com
 0.0.0.0 porticos.bortogat.ru
 0.0.0.0 portikos.ru
@@ -425788,7 +425796,6 @@
 0.0.0.0 primodrialnetwork.net
 0.0.0.0 primoglobalevents.com
 0.0.0.0 primolea.com.ar
-0.0.0.0 primordial-soup-evolution.garden
 0.0.0.0 primordially.ruhodo.ru
 0.0.0.0 primosearch.com
 0.0.0.0 primoviral.com
@@ -441724,7 +441731,6 @@
 0.0.0.0 radionumydia.com
 0.0.0.0 radiopaque-site.000webhostapp.com
 0.0.0.0 radioparallax.com
-0.0.0.0 radiopin-botn-monitor-in-gengine.garden
 0.0.0.0 radioplaymusicus.com
 0.0.0.0 radiorage.com
 0.0.0.0 radios-answers-hundred-regarded.trycloudflare.com
@@ -448190,7 +448196,6 @@
 0.0.0.0 renacious.nwwadq.cn
 0.0.0.0 renagesp.com.br
 0.0.0.0 renai-no-okite.com
-0.0.0.0 renaissance-fresco-restoration.garden
 0.0.0.0 renal.virosat.ru
 0.0.0.0 renassilva.github.io
 0.0.0.0 renataarocha.github.io
@@ -463678,6 +463683,7 @@
 0.0.0.0 scratchcard.site
 0.0.0.0 scratched-lime-cress.glitch.me
 0.0.0.0 scray.hikotras.ru
+0.0.0.0 scrcarental.com
 0.0.0.0 screato.ru
 0.0.0.0 screeching-animal-mammoth.on-fleek.app
 0.0.0.0 screechingfurniture.com
@@ -467386,6 +467392,7 @@
 0.0.0.0 silverchalrpartners.com
 0.0.0.0 silvercoreless.pro
 0.0.0.0 silverhaze-tours.com
+0.0.0.0 silverhost.vg
 0.0.0.0 silveristr.com
 0.0.0.0 silvermob.com
 0.0.0.0 silverorbit.digital
@@ -468200,7 +468207,6 @@
 0.0.0.0 slash-on.co.com
 0.0.0.0 slash-stinger-0965.typedream.app
 0.0.0.0 slash.virosat.ru
-0.0.0.0 slashbob-distrib-plat-form.garden
 0.0.0.0 slashdeal.shop
 0.0.0.0 slashedsconce.shop
 0.0.0.0 slashfilm.us.intellitxt.com
@@ -474639,7 +474645,6 @@
 0.0.0.0 subclinically.kukarat.ru
 0.0.0.0 subcreation.fr
 0.0.0.0 subcutaneouspagkkanises.info
-0.0.0.0 subdermal-biometric-chip.garden
 0.0.0.0 subdialectally.garbani.ru
 0.0.0.0 subdued-liberating-poppyseed.glitch.me
 0.0.0.0 subelliptical.bortogat.ru
@@ -489015,6 +489020,7 @@
 0.0.0.0 vbpmkgage.ddns.net
 0.0.0.0 vbucks32.pages.dev
 0.0.0.0 vbxjmkj.wang
+0.0.0.0 vbytelot-mead-automation-form.garden
 0.0.0.0 vc-login.com
 0.0.0.0 vc.hotjar.io
 0.0.0.0 vc.oewu.xyz
@@ -494515,10 +494521,10 @@
 0.0.0.0 wildcard.wyetnews.com
 0.0.0.0 wildcard46.akstat.io.edgekey.net
 0.0.0.0 wilderscountry.com
-0.0.0.0 wildfloracontrolsystem.garden
 0.0.0.0 wildfloragrowthsystem.garden
 0.0.0.0 wildflorainfrastructure.garden
 0.0.0.0 wildfloraprocessingsystem.garden
+0.0.0.0 wildfloraresourceengine.garden
 0.0.0.0 wildfloraworkflowsystem.garden
 0.0.0.0 wildflower-tours.com
 0.0.0.0 wildflowln.info
@@ -499184,6 +499190,7 @@
 0.0.0.0 www.benjamintay.shop
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
+0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benzidineyys.info
 0.0.0.0 www.benzkartel.duckdns.org
@@ -524892,7 +524899,6 @@
 0.0.0.0 zone-telechargement-albums.com
 0.0.0.0 zone.dedspac.ru
 0.0.0.0 zoned.dedspac.ru
-0.0.0.0 zoneday-green-house-oper-center.garden
 0.0.0.0 zoneesta.scanister.com
 0.0.0.0 zonepoint.fit
 0.0.0.0 zonewedgeshaft.com
