@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-18 06:02:57
-# Entries: 525163
+# Generated: 2026-05-18 06:30:40
+# Entries: 525164
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -284022,6 +284022,7 @@
 0.0.0.0 holodosiz.site
 0.0.0.0 holofoundry53.com
 0.0.0.0 holographic-812.ga
+0.0.0.0 holographic-projection-grid.garden
 0.0.0.0 holoism.baby
 0.0.0.0 holonchile.cl
 0.0.0.0 holopasto.ru
@@ -474299,6 +474300,7 @@
 0.0.0.0 stratist.ru
 0.0.0.0 strato-rechnung.com
 0.0.0.0 strato-verifying.vercel.app
+0.0.0.0 stratospheric-weather-balloon.garden
 0.0.0.0 stratspace.xtimes10.com
 0.0.0.0 stratstaking.com
 0.0.0.0 stratus.campaign-image.com.cn
@@ -499172,7 +499174,6 @@
 0.0.0.0 www.benjamintay.shop
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
-0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benzidineyys.info
 0.0.0.0 www.benzkartel.duckdns.org
