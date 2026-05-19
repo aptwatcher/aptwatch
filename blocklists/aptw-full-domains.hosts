@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-19 06:02:15
-# Entries: 525167
+# Generated: 2026-05-19 06:30:57
+# Entries: 525169
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -371966,6 +371966,7 @@
 0.0.0.0 modspoti.com
 0.0.0.0 modswhatsap.tk
 0.0.0.0 modtech.com.au
+0.0.0.0 modular-analog-synthesizer.garden
 0.0.0.0 modular-layered.com
 0.0.0.0 modulardisciple.com
 0.0.0.0 modularinteriors.soimper.com.br
@@ -478332,6 +478333,7 @@
 0.0.0.0 tecourse.live
 0.0.0.0 tectaconstrata.online
 0.0.0.0 tectaconstrata.ru
+0.0.0.0 tectonic-fault-seismograph.garden
 0.0.0.0 tectonic.net.in
 0.0.0.0 tecunonline.com
 0.0.0.0 ted.ulitron.ru
