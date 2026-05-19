@@ -1,0 +1,151 @@
+author: dricard@sttr.qc.ca
+source: https://www.esentire.com/blog/tycoon-2fa-operators-adopt-oauth-device-code-phishing
+source_name: eSentire TRU + Microsoft Defender Threat Analytics (TRR260518 c541faf8)
+apt_groups:
+  - Storm-2372
+  - Device Code PhaaS
+  - EvilTokens
+  - NOIRLEGACY GROUP
+  - UTA0304
+  - UTA0307
+  - Tycoon 2FA
+description: |
+  Tycoon 2FA operators have adopted the OAuth 2.0 Device Authorization Grant
+  (RFC 8628) abuse pattern that is the signature TTP of Microsoft-tracked actor
+  Storm-2372 (russia_aligned device-code phishing cluster, observed against
+  Entra ID since 2024).
+
+  Attribution caveat — TTP overlap, not confirmed operator-level attribution:
+    - Tycoon 2FA is a multi-tenant Phishing-as-a-Service kit, not a state actor.
+    - eSentire TRU (May 2026) and Microsoft Defender Threat Analytics report
+      c541faf8-a835-42e0-9783-7e6c71bdcf66 corroborate the technique transfer.
+    - Curator confidence: medium (TTP overlap rather than direct attribution).
+    - IOCs are high-rotation. Recommend lifecycle sunset at ~60 days unless
+      re-confirmed.
+
+  Active operator infrastructure (May 2026):
+    - 47.90.180.205 / 47.252.11.99 — Alibaba (US) Technology, AS45102.
+      Role: initial credential capture + device-code consent
+      and sustained refresh-token reuse.
+
+  Historical operator infrastructure (post-takedown, kept for correlation):
+    - Clouvider AS62240, GREEN FLOID LLC AS204957, HOST TELECOM LTD AS214238,
+      Shock Hosting AS395092, GLOBAL CONNECTIVITY SOLUTIONS LLP AS215540,
+      HIVELOCITY AS29802, M247 Europe SRL AS9009. All used in credential-relay
+      variant prior to the OAuth device-code pivot.
+
+  TTPs (MITRE ATT&CK):
+    - T1566.002 — Phishing: Spearphishing Link
+    - T1078.004 — Valid Accounts: Cloud Accounts
+    - T1550.001 — Use Alternate Authentication Material: Application Access Token
+    - T1528    — Steal Application Access Token
+    - T1556.006 — Modify Authentication Process: MFA
+
+  Hunt fingerprints (not as IOCs - too noisy / not blocklist material):
+    - User agents anomalous in AAD non-interactive sign-in logs:
+        node, undici, axios/1.13.{2,4,5,6}
+    - OAuth AppIds impersonated during consent (DO NOT block - these are
+      legitimate Microsoft AppIds being abused, blocking would break Entra ID):
+        29d9ed98-a469-4536-ade2-f981bc1d605e (Microsoft Authentication Broker)
+        4765445b-32c6-49b0-83e6-1d93765276ca (OfficeHome)
+        9199bf20-a13f-4107-85dc-02114787ef48 (One Outlook Web)
+    - Entra error codes that pivot to device-code abuse:
+        50173 (revoked grant - post-compromise signal)
+        50199 (user confirmation required - pivot to device-code)
+    - URL regex hunt pattern:
+        ^https?://[a-z0-9]+\.[a-z0-9-]+\.[a-z]{2,}/[a-zA-Z0-9~!@$]{4,}([~!@$][a-zA-Z0-9]+)?$
+    - CryptoJS AES with key/IV/mode/padding unchanged since April 2025
+      (per eSentire "Phish & Chips" baseline), encryptData()/decryptData()
+      JS function names, anti-debug pattern:
+        debugger; performance.now() > 100ms -> redirect to microsoft.com
+
+  Cross-references:
+    - Microsoft Defender Threat Analytics (primary):
+        https://security.microsoft.com/threatanalytics3/c541faf8-a835-42e0-9783-7e6c71bdcf66/overview
+    - Related MS analyst profiles:
+        d5c0cc60-ff54-41f3-b174-45adc0216497 (Tycoon2FA master)
+        5047532a-2428-488a-86cf-ce316125cbdc (Device-code phishing report)
+    - eSentire IOC repo: https://github.com/eSentire/iocs/tree/main/Tycoon2FA
+
+  Compromised-legitimate domain note:
+    - www.alnaharegypt.com is the website of Al-Nahar Egypt newspaper.
+      Hijacked / compromised - listed under compromised_domains to keep it
+      out of blocklists per project policy (don't burn legitimate sites).
+
+domains:
+  - shivacrio.com
+  - fijothi.com
+  - gremlin.craifishi.business
+  - artist.yedrene.best
+  - international.fesxtmc.com
+  - stostiyai.sistaidru.com
+  - spark.shoupeatai.com
+  - asw.cretrousteafi.icu
+  - cloud.shailoyio.com
+  - capital.yljdimage.com
+  - powershell.traibiru.world
+  - pop3.kouvadre.ink
+  - dao.civushea.sbs
+  - donation.cewiobu.center
+  - ionic.tehipio.ink
+  - bay.rifoupoumeshoo.club
+  - support.traibiru.world
+  - varnish.widoupoo.network
+  - coat.jadubo.courses
+  - college.petristifrouja.bar
+  - chain.toushatou.beauty
+  - cedar.cethaicro.co.za
+  - dubai.vaikaza.sa.com
+  - mosquito.dralilai.beauty
+  - toad.yioso.beer
+  - screen.thougai.beer
+  - cruise.reafraiyousteaga.qpon
+  - w0re.stadrourea.ru
+  - colombia.shoomoweajai.cyou
+  - leopard.teashaboulouve.qpon
+  - chair.shustoufraithookea.qpon
+  - melon.teashaboulouve.qpon
+  - shirt.roowothonio.cyou
+  - storm.thobewoofricrou.qpon
+  - as65cj.crimiwa.sa.com
+  - tajikistan.noyaidetipio.qpon
+  - oil.tracroo.it.com
+  - chart.nigafo.download
+  - e.goowevea.digital
+
+compromised_domains:
+  - www.alnaharegypt.com
+
+ipv4:
+  - 47.90.180.205
+  - 47.252.11.99
+  - 193.228.131.161
+  - 166.1.241.247
+  - 138.249.139.6
+  - 166.1.255.233
+  - 142.252.86.104
+  - 130.49.117.205
+  - 170.168.215.64
+  - 50.118.198.26
+  - 172.120.234.223
+  - 45.39.175.12
+  - 142.252.171.135
+  - 166.88.219.45
+  - 172.120.57.92
+  - 172.121.59.99
+
+cidrs:
+  - 2a0d:5600:124:61::/64
+  - 2a0d:5600:8:94::/64
+  - 2a0d:5600:8:2e::/64
+  - 2a0d:5600:24:ff21::/64
+  - 2a0d:5600:24:ff39::/64
+  - 2a0d:5600:8:a6::/64
+  - 2a00:b703:fff2:3b::/64
+  - 2a00:b703:fff2:4e::/64
+  - 2a00:b703:fff2:37::/64
+  - 2a00:b703:fff2:41::/64
+  - 2a00:b703:fff2:47::/64
+  - 2a00:b703:fff2:4b::/64
+  - 2604:4500:8:9::/64
+  - 2604:4500:6:10b::/64
