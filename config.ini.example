@@ -29,7 +29,8 @@ mode = local
 
 [api_keys]
 # All keys are optional. Sources without keys are skipped automatically.
-# Shodan InternetDB requires NO key.
+# Shodan InternetDB requires NO key (free passive lookups).
+# Shodan API (per-IP host detail, search) DOES require a key — see shodan_api_key below.
 #
 # ── LOCAL/SERVER MODE: fill in your keys below ──
 # ── GITHUB MODE: leave blank, set as repository secrets instead ──
@@ -39,6 +40,7 @@ mode = local
 #   ABUSEIPDB_KEY        → https://www.abuseipdb.com/account/api
 #   VIRUSTOTAL_KEY       → https://www.virustotal.com/gui/my-apikey
 #   CENSYS_API_TOKEN     → https://search.censys.io/account/api (Personal Access Token)
+#   SHODAN_API_KEY       → https://account.shodan.io/ (Account → API key)
 
 # AlienVault OTX — free: ~10,000 requests/day
 otx_api_key =
@@ -55,6 +57,11 @@ censys_api_token =
 # GreyNoise Community — free: 50 lookups/day
 # Get key at: https://viz.greynoise.io/account/api-key
 greynoise_key =
+
+# Shodan API — Membership plan: 100 query credits/month + 100 scan credits.
+# Used by subnet_hunt.py (per-IP host detail) and any future host enrichment.
+# Leave blank to disable Shodan enrichment (InternetDB still works without key).
+shodan_api_key =
 
 # DShield/SANS ISC, ThreatFox, FireHOL, Steven Black — NO key needed
 
