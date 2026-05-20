@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-20 12:31:02
-# Entries: 525213
+# Generated: 2026-05-20 18:30:49
+# Entries: 525220
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -125057,6 +125057,7 @@
 0.0.0.0 badnewswegewroighgserhhg.xyz
 0.0.0.0 badola-sklep.pl
 0.0.0.0 badoowski.github.io
+0.0.0.0 badoxa7777.lol
 0.0.0.0 badplay.org
 0.0.0.0 badpullev.com
 0.0.0.0 badrani.click
@@ -137199,6 +137200,7 @@
 0.0.0.0 bcxrbzf.cn
 0.0.0.0 bcxtnnniqnwqaznk-dot-millinium.ey.r.appspot.com
 0.0.0.0 bcynt-cthrn.cf
+0.0.0.0 bcypppaq.asynchronous-growth-platform.garden
 0.0.0.0 bczyouaretheone.000webhostapp.com
 0.0.0.0 bd-bortamansomoy.com
 0.0.0.0 bd-cez.fit
@@ -148578,7 +148580,6 @@
 0.0.0.0 blooey.dedspac.ru
 0.0.0.0 bloohash.com
 0.0.0.0 blookfi.godaddysites.com
-0.0.0.0 bloom-distribution-engine.garden
 0.0.0.0 bloom-general-harrier.glitch.me
 0.0.0.0 bloom-glucose-atmospheric-lucky.trycloudflare.com
 0.0.0.0 bloom-hands.com
@@ -179085,6 +179086,7 @@
 0.0.0.0 cloudmsmessagesreleaingafterverificationmymsuser673479329482387.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 cloudmy-ids.com
 0.0.0.0 cloudnetfiji.com
+0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudofflceadmln.epizy.com
@@ -187219,7 +187221,7 @@
 0.0.0.0 container.pointroll.com
 0.0.0.0 container.zya.me
 0.0.0.0 containerfabric.wiki
-0.0.0.0 containerized-growth-platform.garden
+0.0.0.0 containerized-plant-system.garden
 0.0.0.0 containerizedbloomhub.garden
 0.0.0.0 containerizedgardenengine.garden
 0.0.0.0 containerizedgardenhub.garden
@@ -199462,6 +199464,7 @@
 0.0.0.0 dcv.pages.dev
 0.0.0.0 dcv111fbgfds.blogspot.tw
 0.0.0.0 dcvg.square.site
+0.0.0.0 dcwblida.dz
 0.0.0.0 dcwdfwefefef.weebly.com
 0.0.0.0 dcwhosaybbtnwbvp-dot-millinium.ey.r.appspot.com
 0.0.0.0 dcwzr.wqvec.workers.dev
@@ -199910,7 +199913,6 @@
 0.0.0.0 deafgbc.pilot45.com
 0.0.0.0 deagjl.com
 0.0.0.0 deagricole.loseitwithsio.com
-0.0.0.0 deagroup-ks.com
 0.0.0.0 deair.dedspac.ru
 0.0.0.0 deal-cajamares.com
 0.0.0.0 deal-courrier.be
@@ -201683,7 +201685,6 @@
 0.0.0.0 delices.com.ve
 0.0.0.0 delicesegypte291021.be
 0.0.0.0 deliceservices.com
-0.0.0.0 deliciassobencomenda.com.br
 0.0.0.0 delicious-bubble-piccolo.glitch.me
 0.0.0.0 delicious-decorous-army.glitch.me
 0.0.0.0 delicious-screen-802912.framer.app
@@ -207746,7 +207747,6 @@
 0.0.0.0 digitalbusiness.sa.com
 0.0.0.0 digitalcertificate-update.online
 0.0.0.0 digitalcloudq.buzz
-0.0.0.0 digitalcode.sa
 0.0.0.0 digitalconcept.pro
 0.0.0.0 digitalconexao.tk
 0.0.0.0 digitalcreatorcenter.com
@@ -212347,6 +212347,7 @@
 0.0.0.0 donum.ulitron.ru
 0.0.0.0 donut.dedspac.ru
 0.0.0.0 donutecocolate.com
+0.0.0.0 donutsmpcheats.com
 0.0.0.0 donval.112.2o7.net
 0.0.0.0 donweeseinc.com
 0.0.0.0 donyaiajor.com
@@ -219459,7 +219460,6 @@
 0.0.0.0 ecosystem-processing-tienginx-center.garden
 0.0.0.0 ecosystemmanagementcore.garden
 0.0.0.0 ecosystemnode.pages.dev
-0.0.0.0 ecosystemworkflow.garden
 0.0.0.0 ecotaskforce.com
 0.0.0.0 ecotech.wegostation.com
 0.0.0.0 ecotecpowerltd.amazingsoft.co
@@ -242011,7 +242011,6 @@
 0.0.0.0 federatedgardenplatform.garden
 0.0.0.0 federatedgrowthnetwork.garden
 0.0.0.0 federatedmeadowsystem.garden
-0.0.0.0 federatedplantmesh.garden
 0.0.0.0 federatedplantplatform.garden
 0.0.0.0 federation.timanar.ru
 0.0.0.0 federative-windows.000webhostapp.com
@@ -243540,6 +243539,7 @@
 0.0.0.0 fgbnx.blogspot.com.co
 0.0.0.0 fgbnx.blogspot.com.uy
 0.0.0.0 fgbnx.blogspot.tw
+0.0.0.0 fgbojhem.meadowprocessingframework.garden
 0.0.0.0 fgbtb.blogspot.am
 0.0.0.0 fgbtb.blogspot.sn
 0.0.0.0 fgc.services
@@ -247613,6 +247613,7 @@
 0.0.0.0 floraanalyticsresource.garden
 0.0.0.0 floraautomationnetwork.garden
 0.0.0.0 floracraft.net
+0.0.0.0 floraecosystemhub.garden
 0.0.0.0 floraextrading.com
 0.0.0.0 florainconspicua.org
 0.0.0.0 floral-butterfly-0964.on.fleek.co
@@ -247642,7 +247643,6 @@
 0.0.0.0 floralwhite-marten-657726.hostingersite.com
 0.0.0.0 florano24.shop
 0.0.0.0 floraobservabilitycenter.garden
-0.0.0.0 floraresourcecenter.garden
 0.0.0.0 floraresourcecontroller.garden
 0.0.0.0 florasecret.com.ua
 0.0.0.0 florasheh.com
@@ -253854,6 +253854,7 @@
 0.0.0.0 fxufugwbyc5r.fenet.com.tr
 0.0.0.0 fxvlk6.duckdns.org
 0.0.0.0 fxwerzupvg.duckdns.org
+0.0.0.0 fxwklbyr.meadowprocessingframework.garden
 0.0.0.0 fxx3xoedip9fcczalne.53244ds.xyz
 0.0.0.0 fxxc.gearhostpreview.com
 0.0.0.0 fxxfazraidxaeumg-dot-millinium.ey.r.appspot.com
@@ -276070,6 +276071,7 @@
 0.0.0.0 happyspi.paacab.com
 0.0.0.0 happyspinmaterial.com
 0.0.0.0 happythaigirl.scottgutke.com
+0.0.0.0 happytugsbakery.com
 0.0.0.0 happyvalleychitchat.com
 0.0.0.0 happyvision.be
 0.0.0.0 happywaffleco.com
@@ -286549,6 +286551,7 @@
 0.0.0.0 hposjgpwociuozbo-dot-millinium.ey.r.appspot.com
 0.0.0.0 hpouroseb876p.freewb.hu
 0.0.0.0 hppajapn.link
+0.0.0.0 hppbtwyk.petal-growth-platform.garden
 0.0.0.0 hppdsskspt.weebly.com
 0.0.0.0 hpphhpph.com
 0.0.0.0 hpppppp.vercel.app
@@ -296144,6 +296147,7 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
+0.0.0.0 indeanapolice.cc
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
 0.0.0.0 indecisive-pentagonal-carnation.glitch.me
@@ -303492,8 +303496,6 @@
 0.0.0.0 irrevocable-book.000webhostapp.com
 0.0.0.0 irrevocable-facilit.000webhostapp.com
 0.0.0.0 irrevvgularities.info
-0.0.0.0 irrigation-control-framework.garden
-0.0.0.0 irrigation-monitoring-framework.garden
 0.0.0.0 irrigationanalyticssystem.garden
 0.0.0.0 irrigationautomationhub.garden
 0.0.0.0 irrigationprocessingnetwork.garden
@@ -317263,6 +317265,7 @@
 0.0.0.0 kamperbialystok.pl
 0.0.0.0 kampi.advamandamascarenhas.com.br
 0.0.0.0 kampoengvideo.blogspot.com
+0.0.0.0 kampoxks.bloommanagementengine.garden
 0.0.0.0 kampretomileo.000webhostapp.com
 0.0.0.0 kampus-basah.ddns.net
 0.0.0.0 kampus-hot.otzo.com
@@ -326167,6 +326170,7 @@
 0.0.0.0 kzwjcytq.tanglescanner.com
 0.0.0.0 kzwowjatswz6.allcleanbydee2.com
 0.0.0.0 kzwscywhjytyhjie-dot-millinium.ey.r.appspot.com
+0.0.0.0 kzwvrleb.irrigation-monitoring-system.garden
 0.0.0.0 kzx.azurewebsites.net
 0.0.0.0 kzxcuiwmcne822.biz.id
 0.0.0.0 kzyfo.kzyfo.golsaar.ir
@@ -333780,7 +333784,6 @@
 0.0.0.0 linkin873930.pages.dev
 0.0.0.0 linkiner5245984.weebly.com
 0.0.0.0 linkingdapp.net
-0.0.0.0 linkinglanguageliteracy.com
 0.0.0.0 linkinparko.ru
 0.0.0.0 linkit.biz
 0.0.0.0 linkitaoe.qpon
@@ -356548,8 +356551,8 @@
 0.0.0.0 meadow-bedecked-kite.glitch.me
 0.0.0.0 meadow-helix-skink.glitch.me
 0.0.0.0 meadow-nonstop-hole.glitch.me
-0.0.0.0 meadow-observability-core.garden
 0.0.0.0 meadow-paths.com
+0.0.0.0 meadow-processing-core.garden
 0.0.0.0 meadow-surf-dawn.glitch.me
 0.0.0.0 meadow-venture.com
 0.0.0.0 meadowbrookgear.com
@@ -374960,6 +374963,7 @@
 0.0.0.0 msthon.gq
 0.0.0.0 msthosticltd.com
 0.0.0.0 mstobik.ru
+0.0.0.0 mstopsai.com
 0.0.0.0 mstri.pardeepdlla.com
 0.0.0.0 mstrlytcs.com
 0.0.0.0 mstrsvgetottlanewstraparce.com
@@ -377338,6 +377342,7 @@
 0.0.0.0 mx74.prueba.site
 0.0.0.0 mx7w33.shop
 0.0.0.0 mx888.vip
+0.0.0.0 mx9x.com
 0.0.0.0 mxapp46.com
 0.0.0.0 mxaps.appsempresa.ga
 0.0.0.0 mxardxisqmsl.top
@@ -392910,6 +392915,7 @@
 0.0.0.0 ns.act-secure.com
 0.0.0.0 ns.agaricusa.online
 0.0.0.0 ns.attollo.com.au
+0.0.0.0 ns.barnamenevis.shop
 0.0.0.0 ns.blackwatch71.com
 0.0.0.0 ns.cac.com.cn
 0.0.0.0 ns.caq.com.au
@@ -439067,6 +439073,7 @@
 0.0.0.0 qmxbcqplzetlejtfzyhiniaprcjfwcnvslqo-dot-cedar-code-289917.nn.r.appspot.com
 0.0.0.0 qmxcdtvrbvvalrah-dot-millinium.ey.r.appspot.com
 0.0.0.0 qmyc.weiyikuai.top
+0.0.0.0 qmzbbjle.microfloraresource.garden
 0.0.0.0 qmzbjcfqpzbt6bkd.pages.dev
 0.0.0.0 qmzhgpl.dogestocks.com
 0.0.0.0 qmzhmesarcnkfkohuzlkyjgusg-dot-gleowayel400503.uc.r.appspot.com
@@ -461247,7 +461254,6 @@
 0.0.0.0 sanjay048.github.io
 0.0.0.0 sanjay9909.github.io
 0.0.0.0 sanjaydevloper.github.io
-0.0.0.0 sanjaydharmraj.in
 0.0.0.0 sanjaygowda23.github.io
 0.0.0.0 sanjaypal04.github.io
 0.0.0.0 sanjayvvarma.github.io
@@ -467310,6 +467316,7 @@
 0.0.0.0 signonbt.weeblysite.com
 0.0.0.0 signonverifyboa.duckdns.org
 0.0.0.0 signpetition.co
+0.0.0.0 signspace.cloud
 0.0.0.0 signup-coinledger.teachable.com
 0.0.0.0 signup-netcoinslogi.pages.dev
 0.0.0.0 signup-sso-auths-ndax.webflow.io
@@ -479917,7 +479924,6 @@
 0.0.0.0 ticm.sap0508x9v.vip
 0.0.0.0 ticm.tap0297p8b.top
 0.0.0.0 ticolatonisan.pages.dev
-0.0.0.0 ticpc8a.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 tics.ulitron.ru
 0.0.0.0 ticskwsythree.icu
@@ -484384,6 +484390,7 @@
 0.0.0.0 tvip.pdurg.cn
 0.0.0.0 tvip.ysbkz.com
 0.0.0.0 tvk.tpx.mybluehost.me
+0.0.0.0 tvlhpsjn.meadowprocessingframework.garden
 0.0.0.0 tvmds.tvpassport.com
 0.0.0.0 tvmoviespoilers.com
 0.0.0.0 tvn.adocean.pl
@@ -488898,6 +488905,7 @@
 0.0.0.0 vanshpathare.github.io
 0.0.0.0 vantagensappx.com
 0.0.0.0 vantalio.space
+0.0.0.0 vantarat.st
 0.0.0.0 vantellaofficial.com
 0.0.0.0 vantix.sbs
 0.0.0.0 vanukil.icu
@@ -509683,7 +509691,6 @@
 0.0.0.0 www.methqqodologicallyunshockable.info
 0.0.0.0 www.metricffalcupreous.info
 0.0.0.0 www.metricsimage.com
-0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mexc.sc
 0.0.0.0 www.mexdrugs.com
 0.0.0.0 www.mezczyzna-trendy.pl
