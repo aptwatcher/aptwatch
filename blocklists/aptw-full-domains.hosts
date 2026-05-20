@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-20 06:02:57
-# Entries: 525213
+# Generated: 2026-05-20 06:30:33
+# Entries: 525214
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -494554,6 +494554,7 @@
 0.0.0.0 wildcard46.akstat.io.edgekey.net
 0.0.0.0 wilder-flow-work-lmsystem.garden
 0.0.0.0 wilderscountry.com
+0.0.0.0 wildfloraanalyticshub.garden
 0.0.0.0 wildfloracontrolsystem.garden
 0.0.0.0 wildflorainfrastructurehub.garden
 0.0.0.0 wildfloraintegrationplatform.garden
