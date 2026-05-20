@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-20 06:30:33
-# Entries: 525214
+# Generated: 2026-05-20 12:31:02
+# Entries: 525213
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -21679,7 +21679,6 @@
 0.0.0.0 3boredguys.com
 0.0.0.0 3boyutludestek.com
 0.0.0.0 3bra.solonettochka.ru
-0.0.0.0 3brosstore.com
 0.0.0.0 3bscafe.com
 0.0.0.0 3btgzfk74gxejzr.qwo231sdx.club
 0.0.0.0 3btvalruqoxo.wusps.xyz
@@ -62824,6 +62823,7 @@
 0.0.0.0 affirmance.matsuro.ru
 0.0.0.0 affirmationphotography.co.uk
 0.0.0.0 affirmed.bluestacko.ru
+0.0.0.0 affirmingyourlife.com
 0.0.0.0 affitama.my.id
 0.0.0.0 affittacamerelavilla.com.usrfiles.com
 0.0.0.0 affix.vadilops.ru
@@ -131747,7 +131747,6 @@
 0.0.0.0 bakie.dedspac.ru
 0.0.0.0 baking-austria-at.com
 0.0.0.0 baking-intesa.com
-0.0.0.0 baking-stone-thermal-mass.garden
 0.0.0.0 baking.virosat.ru
 0.0.0.0 bakinginternttdbsg.com
 0.0.0.0 bakingmblematics.com
@@ -148579,6 +148578,7 @@
 0.0.0.0 blooey.dedspac.ru
 0.0.0.0 bloohash.com
 0.0.0.0 blookfi.godaddysites.com
+0.0.0.0 bloom-distribution-engine.garden
 0.0.0.0 bloom-general-harrier.glitch.me
 0.0.0.0 bloom-glucose-atmospheric-lucky.trycloudflare.com
 0.0.0.0 bloom-hands.com
@@ -162430,7 +162430,6 @@
 0.0.0.0 byyslsgkpdpvaodrbwwfwsczzakwyhuxastl-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 byyyycreator.byethost32.com
 0.0.0.0 byzant.dedspac.ru
-0.0.0.0 byzantine-mosaic-restoration.garden
 0.0.0.0 byzypfmfuc.duckdns.org
 0.0.0.0 bz-patriot.hr
 0.0.0.0 bz.elitoras.ru
@@ -163003,7 +163002,6 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -165791,7 +165789,6 @@
 0.0.0.0 carbo.ulitron.ru
 0.0.0.0 carbon-aquifer-280307.nw.r.appspot.com
 0.0.0.0 carbon-birth-algebra-rocks.trycloudflare.com
-0.0.0.0 carbon-dating-calibration.garden
 0.0.0.0 carbon-fiber-monocoque.garden
 0.0.0.0 carbonads.com
 0.0.0.0 carbonads.net
@@ -187222,6 +187219,7 @@
 0.0.0.0 container.pointroll.com
 0.0.0.0 container.zya.me
 0.0.0.0 containerfabric.wiki
+0.0.0.0 containerized-growth-platform.garden
 0.0.0.0 containerizedbloomhub.garden
 0.0.0.0 containerizedgardenengine.garden
 0.0.0.0 containerizedgardenhub.garden
@@ -199464,7 +199462,6 @@
 0.0.0.0 dcv.pages.dev
 0.0.0.0 dcv111fbgfds.blogspot.tw
 0.0.0.0 dcvg.square.site
-0.0.0.0 dcwblida.dz
 0.0.0.0 dcwdfwefefef.weebly.com
 0.0.0.0 dcwhosaybbtnwbvp-dot-millinium.ey.r.appspot.com
 0.0.0.0 dcwzr.wqvec.workers.dev
@@ -199913,6 +199910,7 @@
 0.0.0.0 deafgbc.pilot45.com
 0.0.0.0 deagjl.com
 0.0.0.0 deagricole.loseitwithsio.com
+0.0.0.0 deagroup-ks.com
 0.0.0.0 deair.dedspac.ru
 0.0.0.0 deal-cajamares.com
 0.0.0.0 deal-courrier.be
@@ -201685,6 +201683,7 @@
 0.0.0.0 delices.com.ve
 0.0.0.0 delicesegypte291021.be
 0.0.0.0 deliceservices.com
+0.0.0.0 deliciassobencomenda.com.br
 0.0.0.0 delicious-bubble-piccolo.glitch.me
 0.0.0.0 delicious-decorous-army.glitch.me
 0.0.0.0 delicious-screen-802912.framer.app
@@ -207747,6 +207746,7 @@
 0.0.0.0 digitalbusiness.sa.com
 0.0.0.0 digitalcertificate-update.online
 0.0.0.0 digitalcloudq.buzz
+0.0.0.0 digitalcode.sa
 0.0.0.0 digitalconcept.pro
 0.0.0.0 digitalconexao.tk
 0.0.0.0 digitalcreatorcenter.com
@@ -219459,6 +219459,7 @@
 0.0.0.0 ecosystem-processing-tienginx-center.garden
 0.0.0.0 ecosystemmanagementcore.garden
 0.0.0.0 ecosystemnode.pages.dev
+0.0.0.0 ecosystemworkflow.garden
 0.0.0.0 ecotaskforce.com
 0.0.0.0 ecotech.wegostation.com
 0.0.0.0 ecotecpowerltd.amazingsoft.co
@@ -242010,6 +242011,7 @@
 0.0.0.0 federatedgardenplatform.garden
 0.0.0.0 federatedgrowthnetwork.garden
 0.0.0.0 federatedmeadowsystem.garden
+0.0.0.0 federatedplantmesh.garden
 0.0.0.0 federatedplantplatform.garden
 0.0.0.0 federation.timanar.ru
 0.0.0.0 federative-windows.000webhostapp.com
@@ -247640,6 +247642,7 @@
 0.0.0.0 floralwhite-marten-657726.hostingersite.com
 0.0.0.0 florano24.shop
 0.0.0.0 floraobservabilitycenter.garden
+0.0.0.0 floraresourcecenter.garden
 0.0.0.0 floraresourcecontroller.garden
 0.0.0.0 florasecret.com.ua
 0.0.0.0 florasheh.com
@@ -252835,6 +252838,7 @@
 0.0.0.0 fuckl.myftp.org
 0.0.0.0 fuckmebook.com
 0.0.0.0 fucknet.club
+0.0.0.0 fucktermedfir.st
 0.0.0.0 fuckworld.com
 0.0.0.0 fuckyou8.duckdns.org
 0.0.0.0 fucons.com.vn
@@ -258809,7 +258813,6 @@
 0.0.0.0 geosigma.cl
 0.0.0.0 geosign.112.2o7.net
 0.0.0.0 geosistem.me
-0.0.0.0 geostationary-orbit-altitude.garden
 0.0.0.0 geostrophically.bibliota.ru
 0.0.0.0 geosuksrsoon03.co.vu
 0.0.0.0 geosuksrsoon04.co.vu
@@ -263599,7 +263602,6 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -264945,7 +264947,6 @@
 0.0.0.0 gothic-depth-276417.uc.r.appspot.com
 0.0.0.0 gothic-galaxy-286213.uc.r.appspot.com
 0.0.0.0 gothic-nasdaq-behavioral-mails-propecia-per-vertex-us.pages.dev
-0.0.0.0 gothic-vault-engineering.garden
 0.0.0.0 gothicshop.org
 0.0.0.0 goths.dedspac.ru
 0.0.0.0 gothsystems.com
@@ -289265,7 +289266,6 @@
 0.0.0.0 hydrastis.ru
 0.0.0.0 hydrastis.xyz
 0.0.0.0 hydrationconsultants.com.au
-0.0.0.0 hydraulic-actuator-valve.garden
 0.0.0.0 hydraulic-lamp-preferred-mailing.trycloudflare.com
 0.0.0.0 hydravion.be
 0.0.0.0 hydres.gq
@@ -303492,6 +303492,8 @@
 0.0.0.0 irrevocable-book.000webhostapp.com
 0.0.0.0 irrevocable-facilit.000webhostapp.com
 0.0.0.0 irrevvgularities.info
+0.0.0.0 irrigation-control-framework.garden
+0.0.0.0 irrigation-monitoring-framework.garden
 0.0.0.0 irrigationanalyticssystem.garden
 0.0.0.0 irrigationautomationhub.garden
 0.0.0.0 irrigationprocessingnetwork.garden
@@ -303959,7 +303961,6 @@
 0.0.0.0 isoantiiigen.info
 0.0.0.0 isoarautomacao.com.br
 0.0.0.0 isocampus.lk
-0.0.0.0 isochronous-cyclotron-beam.garden
 0.0.0.0 isoclinically.amaniwa.ru
 0.0.0.0 isoclinically.timanar.ru
 0.0.0.0 isofuhkx.xyz
@@ -319124,6 +319125,7 @@
 0.0.0.0 kevlaardiet.fr
 0.0.0.0 kevlarclint.github.io
 0.0.0.0 kevlinskkdkd.com
+0.0.0.0 kevtel.com
 0.0.0.0 kevtrion.com
 0.0.0.0 kewaowieurdff.weebly.com
 0.0.0.0 keweejuana.com
@@ -333778,6 +333780,7 @@
 0.0.0.0 linkin873930.pages.dev
 0.0.0.0 linkiner5245984.weebly.com
 0.0.0.0 linkingdapp.net
+0.0.0.0 linkinglanguageliteracy.com
 0.0.0.0 linkinparko.ru
 0.0.0.0 linkit.biz
 0.0.0.0 linkitaoe.qpon
@@ -346017,7 +346020,6 @@
 0.0.0.0 magistral.uz
 0.0.0.0 magistrol.az
 0.0.0.0 magizhbuilders.com
-0.0.0.0 maglev-propulsion-system.garden
 0.0.0.0 maglificiodueerre.com
 0.0.0.0 maglinasera.blogspot.com
 0.0.0.0 maglob.com
@@ -356546,6 +356548,7 @@
 0.0.0.0 meadow-bedecked-kite.glitch.me
 0.0.0.0 meadow-helix-skink.glitch.me
 0.0.0.0 meadow-nonstop-hole.glitch.me
+0.0.0.0 meadow-observability-core.garden
 0.0.0.0 meadow-paths.com
 0.0.0.0 meadow-surf-dawn.glitch.me
 0.0.0.0 meadow-venture.com
@@ -374957,7 +374960,6 @@
 0.0.0.0 msthon.gq
 0.0.0.0 msthosticltd.com
 0.0.0.0 mstobik.ru
-0.0.0.0 mstopsai.com
 0.0.0.0 mstri.pardeepdlla.com
 0.0.0.0 mstrlytcs.com
 0.0.0.0 mstrsvgetottlanewstraparce.com
@@ -393800,7 +393802,6 @@
 0.0.0.0 nutrikalia.com
 0.0.0.0 nutrilshop.net.tr.ht
 0.0.0.0 nutrired.org
-0.0.0.0 nutrisc.com.br
 0.0.0.0 nutrisilviaramos.com.br
 0.0.0.0 nutrisincera.com
 0.0.0.0 nutritionalapproaches.com
@@ -414869,7 +414870,6 @@
 0.0.0.0 petal-infrequent-crocodile.glitch.me
 0.0.0.0 petal-lovely-dinghy.glitch.me
 0.0.0.0 petal-organized-pepper.glitch.me
-0.0.0.0 petal-resource-engine.garden
 0.0.0.0 petal-shade.com
 0.0.0.0 petal-spark-quality.glitch.me
 0.0.0.0 petal-walnut-face.glitch.me
@@ -428428,7 +428428,6 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
-0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -474704,7 +474703,6 @@
 0.0.0.0 subjzzectivisms.info
 0.0.0.0 sublime.pvnvt.ru
 0.0.0.0 sublimesurfboards.com
-0.0.0.0 submerged-continental-shelf.garden
 0.0.0.0 submicroscopically.kukarat.ru
 0.0.0.0 submission.business-minagne.com
 0.0.0.0 submit-an-appeal-gtec.vercel.app
@@ -479919,6 +479917,7 @@
 0.0.0.0 ticm.sap0508x9v.vip
 0.0.0.0 ticm.tap0297p8b.top
 0.0.0.0 ticolatonisan.pages.dev
+0.0.0.0 ticpc8a.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 tics.ulitron.ru
 0.0.0.0 ticskwsythree.icu
@@ -490104,7 +490103,6 @@
 0.0.0.0 vint.ulitron.ru
 0.0.0.0 vintacom.112.2o7.net
 0.0.0.0 vintadream.112.2o7.net
-0.0.0.0 vintage-telemetry-receiver.garden
 0.0.0.0 vintage1889casualdining.us
 0.0.0.0 vintagebridge.nayzun.com
 0.0.0.0 vintagebroadcasts.com
@@ -494554,7 +494552,6 @@
 0.0.0.0 wildcard46.akstat.io.edgekey.net
 0.0.0.0 wilder-flow-work-lmsystem.garden
 0.0.0.0 wilderscountry.com
-0.0.0.0 wildfloraanalyticshub.garden
 0.0.0.0 wildfloracontrolsystem.garden
 0.0.0.0 wildflorainfrastructurehub.garden
 0.0.0.0 wildfloraintegrationplatform.garden
@@ -499225,6 +499222,7 @@
 0.0.0.0 www.benjamintay.shop
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
+0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benzidineyys.info
 0.0.0.0 www.benzkartel.duckdns.org
@@ -507482,6 +507480,7 @@
 0.0.0.0 www.jeoway.com
 0.0.0.0 www.jeraicage.com
 0.0.0.0 www.jeremymathew.com
+0.0.0.0 www.jerminpelle.com
 0.0.0.0 www.jerseyjoint.shop
 0.0.0.0 www.jerseyoffers.com
 0.0.0.0 www.jertyiomex-feriuonezer.pages.dev
