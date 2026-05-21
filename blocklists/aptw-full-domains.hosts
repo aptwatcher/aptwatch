@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-21 12:31:27
-# Entries: 527104
+# Generated: 2026-05-21 18:31:26
+# Entries: 527097
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -150450,7 +150450,6 @@
 0.0.0.0 bobik.cfd
 0.0.0.0 bobitanaabobo-e80d6e.ingress-earth.ewp.live
 0.0.0.0 bobkhair.com
-0.0.0.0 boblegvlist.christmas
 0.0.0.0 bobmac01409.wixsite.com
 0.0.0.0 bobmaixner300.wixsite.com
 0.0.0.0 bobmarley.vedra.web.id
@@ -160511,7 +160510,6 @@
 0.0.0.0 busbar.matsuro.ru
 0.0.0.0 busbar.virosat.ru
 0.0.0.0 busby.dedspac.ru
-0.0.0.0 busbytesadd.christmas
 0.0.0.0 busca-appleinc.com
 0.0.0.0 busca-idevice.com
 0.0.0.0 buscailuminadahip.xyz
@@ -174911,7 +174909,6 @@
 0.0.0.0 chugchugchak.pages.dev
 0.0.0.0 chugging.matsuro.ru
 0.0.0.0 chugs.ulitron.ru
-0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chujdrtuityui.mydiscussion.net
 0.0.0.0 chuje.virosat.ru
 0.0.0.0 chukajoseph99.github.io
@@ -187764,7 +187761,6 @@
 0.0.0.0 controlblasting.co.za
 0.0.0.0 controlengineering.in
 0.0.0.0 controlgatestorage.com
-0.0.0.0 controlhomecr.com
 0.0.0.0 controliumbt.com
 0.0.0.0 controllaportale-manualmente.com
 0.0.0.0 controller.4seeresults.com
@@ -216443,7 +216439,6 @@
 0.0.0.0 dyne.dedspac.ru
 0.0.0.0 dynel.ulitron.ru
 0.0.0.0 dynetrixaqax.top
-0.0.0.0 dynga.pl
 0.0.0.0 dynid.com
 0.0.0.0 dynip.org
 0.0.0.0 dynis-hold.pages.dev
@@ -260786,6 +260781,7 @@
 0.0.0.0 gift-experiment-everyone.duckdns.org
 0.0.0.0 gift-free-sex-with-me-and-my-friend.pages.dev
 0.0.0.0 gift-frost-diamonds.duckdns.org
+0.0.0.0 gift-harbor.christmas
 0.0.0.0 gift-itochu.com
 0.0.0.0 gift-link305.gq
 0.0.0.0 gift-nitro.ru
@@ -266552,7 +266548,6 @@
 0.0.0.0 graphitekpink.cfd
 0.0.0.0 graphiuma.online
 0.0.0.0 graphiuma.ru
-0.0.0.0 graphnewclass.christmas
 0.0.0.0 graphnow.com
 0.0.0.0 graphosoma.online
 0.0.0.0 graphosoma.ru
@@ -276761,7 +276756,6 @@
 0.0.0.0 hasvabb.duckdns.org
 0.0.0.0 hasvabc.duckdns.org
 0.0.0.0 hasvabd.duckdns.org
-0.0.0.0 hasvideoproxy.christmas
 0.0.0.0 hasweas.com
 0.0.0.0 haswellsolutions.co.ke
 0.0.0.0 hat.bortogat.ru
@@ -290909,6 +290903,7 @@
 0.0.0.0 ice-casino-games.pl
 0.0.0.0 ice-casino-online.com
 0.0.0.0 ice-casino34.com
+0.0.0.0 ice-evergreen.christmas
 0.0.0.0 ice-redirect.com
 0.0.0.0 ice-wetrantransfer-icx4file.web.app
 0.0.0.0 ice.112.2o7.net
@@ -290966,7 +290961,6 @@
 0.0.0.0 icetonkh.github.io
 0.0.0.0 icetraff.com
 0.0.0.0 iceuskadi.cl
-0.0.0.0 icevault-cutshift.christmas
 0.0.0.0 icewerx.com
 0.0.0.0 iceyouroffice.com
 0.0.0.0 icfotidtkvbqbxde-dot-millinium.ey.r.appspot.com
@@ -298662,7 +298656,6 @@
 0.0.0.0 innova-tech.com.mx
 0.0.0.0 innovaespublicidad.com
 0.0.0.0 innovamosbanrural.0hi.me
-0.0.0.0 innovantksa.com
 0.0.0.0 innovapath.work
 0.0.0.0 innovaperutourscom.ipage.com
 0.0.0.0 innovatemanhattan.org
@@ -364996,7 +364989,6 @@
 0.0.0.0 meteameaskklogin.webflow.io
 0.0.0.0 meteamsklgin.webflow.io
 0.0.0.0 meteamssetension.webflow.io
-0.0.0.0 metecgroup.cam
 0.0.0.0 meteemasxklogin.webflow.io
 0.0.0.0 meteengeld.altervista.org
 0.0.0.0 meteessk-wllet-extnsion.webflow.io
@@ -374971,6 +374963,7 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
+0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -417074,7 +417067,6 @@
 0.0.0.0 pigs-7xp.pages.dev
 0.0.0.0 pigs.ulitron.ru
 0.0.0.0 pigsarmy.finance
-0.0.0.0 pigtweet-kitdiff-it.christmas
 0.0.0.0 pigu.accbacknow.cfd
 0.0.0.0 pigufyfy.pro
 0.0.0.0 pih96dj.xxoht18.cn
@@ -419862,6 +419854,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -457825,6 +457818,7 @@
 0.0.0.0 runsup.top
 0.0.0.0 runt--auth-ut-trewzor-io-cdn.webflow.io
 0.0.0.0 runt.dedspac.ru
+0.0.0.0 runtime-control.christmas
 0.0.0.0 runtime.hvwnrellsg.ru
 0.0.0.0 runtime.lemonpi.io
 0.0.0.0 runtm.dedspac.ru
@@ -466746,7 +466740,6 @@
 0.0.0.0 shaded-ridge.com
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
-0.0.0.0 shaderm.com
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-axle.com
 0.0.0.0 shadow-blade.com
@@ -466806,7 +466799,6 @@
 0.0.0.0 shaky.ulitron.ru
 0.0.0.0 shakyamegha246.github.io
 0.0.0.0 shale.ulitron.ru
-0.0.0.0 shalimarlpg.com
 0.0.0.0 shalini-ark.github.io
 0.0.0.0 shalinisengar240.github.io
 0.0.0.0 shallowest.timanar.ru
@@ -467849,6 +467841,7 @@
 0.0.0.0 signage-survey.com
 0.0.0.0 signagiga.electbriannash.com
 0.0.0.0 signal-beacon.s-onetag.com
+0.0.0.0 signal-core-engine.christmas
 0.0.0.0 signal-gazette.xyz
 0.0.0.0 signal-layered-circuit.com
 0.0.0.0 signal-metrics-collector-beta.s-onetag.com
@@ -472782,6 +472775,7 @@
 0.0.0.0 staceydodge.com
 0.0.0.0 stacisderiso.com
 0.0.0.0 stacjavapera.com
+0.0.0.0 stack-flow.christmas
 0.0.0.0 stack-sonar.com
 0.0.0.0 stack.dedspac.ru
 0.0.0.0 stack7.collect.igodigital.com
@@ -478975,7 +478969,6 @@
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techtalentafrica.xyz
-0.0.0.0 techtattva.in
 0.0.0.0 techtulse-in.com
 0.0.0.0 techtulse-uk.com
 0.0.0.0 techvibeg.vercel.app
@@ -483283,6 +483276,7 @@
 0.0.0.0 tredir.go.com
 0.0.0.0 tredzoriostart.webflow.io
 0.0.0.0 tredzoriostartu.webflow.io
+0.0.0.0 tree-observatory.christmas
 0.0.0.0 tree.ulitron.ru
 0.0.0.0 treed.dedspac.ru
 0.0.0.0 treehousef.vercel.app
@@ -484983,7 +484977,6 @@
 0.0.0.0 tupi.ulitron.ru
 0.0.0.0 tupik.dedspac.ru
 0.0.0.0 tupjq.com
-0.0.0.0 tuplediskdkey.christmas
 0.0.0.0 tuportalpromocional.com
 0.0.0.0 tups.dedspac.ru
 0.0.0.0 tups.ulitron.ru
