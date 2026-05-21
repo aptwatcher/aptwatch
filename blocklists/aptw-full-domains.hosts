@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-21 06:30:32
-# Entries: 527096
+# Generated: 2026-05-21 12:31:27
+# Entries: 527104
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -47453,7 +47453,6 @@
 0.0.0.0 abyssal-echo.com
 0.0.0.0 abyssal-plain-topography.garden
 0.0.0.0 abyssal-voog.yolasite.com
-0.0.0.0 abyssalkraken.fit
 0.0.0.0 abyssinian-cherry-hoverfly.glitch.me
 0.0.0.0 abyssinian-circular-feels.glitch.me
 0.0.0.0 abyssinian-climbing-pelican.glitch.me
@@ -131716,7 +131715,6 @@
 0.0.0.0 bakings.ruhodo.ru
 0.0.0.0 bakings.timanar.ru
 0.0.0.0 bakings.yazibo.ru
-0.0.0.0 bakingstonetheory.fit
 0.0.0.0 bakingwithbarbara.com
 0.0.0.0 bakingwithbylo.com
 0.0.0.0 bakinseguriti.webcindario.com
@@ -150452,6 +150450,7 @@
 0.0.0.0 bobik.cfd
 0.0.0.0 bobitanaabobo-e80d6e.ingress-earth.ewp.live
 0.0.0.0 bobkhair.com
+0.0.0.0 boblegvlist.christmas
 0.0.0.0 bobmac01409.wixsite.com
 0.0.0.0 bobmaixner300.wixsite.com
 0.0.0.0 bobmarley.vedra.web.id
@@ -160512,6 +160511,7 @@
 0.0.0.0 busbar.matsuro.ru
 0.0.0.0 busbar.virosat.ru
 0.0.0.0 busby.dedspac.ru
+0.0.0.0 busbytesadd.christmas
 0.0.0.0 busca-appleinc.com
 0.0.0.0 busca-idevice.com
 0.0.0.0 buscailuminadahip.xyz
@@ -174031,7 +174031,6 @@
 0.0.0.0 chickchickproductions.com
 0.0.0.0 chicken.ab.ca
 0.0.0.0 chicken.uptoo.fun
-0.0.0.0 chickencutlethacks.fit
 0.0.0.0 chickeninhouse.com.br
 0.0.0.0 chickenroadofficial.pl
 0.0.0.0 chickenwaves.com
@@ -174912,6 +174911,7 @@
 0.0.0.0 chugchugchak.pages.dev
 0.0.0.0 chugging.matsuro.ru
 0.0.0.0 chugs.ulitron.ru
+0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chujdrtuityui.mydiscussion.net
 0.0.0.0 chuje.virosat.ru
 0.0.0.0 chukajoseph99.github.io
@@ -187764,6 +187764,7 @@
 0.0.0.0 controlblasting.co.za
 0.0.0.0 controlengineering.in
 0.0.0.0 controlgatestorage.com
+0.0.0.0 controlhomecr.com
 0.0.0.0 controliumbt.com
 0.0.0.0 controllaportale-manualmente.com
 0.0.0.0 controller.4seeresults.com
@@ -194879,7 +194880,6 @@
 0.0.0.0 cyber-lead-amaryllis.glitch.me
 0.0.0.0 cyber-mist.com
 0.0.0.0 cyber-pinnacle.com
-0.0.0.0 cyber-prosthetic.fit
 0.0.0.0 cyber-watch-update.vercel.app
 0.0.0.0 cyber.promise.co.jp.bys-marathon.com
 0.0.0.0 cyber.promise.co.jp.mw-wt.com
@@ -207076,6 +207076,7 @@
 0.0.0.0 dial.dedspac.ru
 0.0.0.0 dialecticalbehavior.sa.com
 0.0.0.0 dialectstrong.com
+0.0.0.0 dialkwik.in
 0.0.0.0 dialogosmari09.000webhostapp.com
 0.0.0.0 dialogoydeportes.net
 0.0.0.0 dialoguethat.org
@@ -244805,6 +244806,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -266550,6 +266552,7 @@
 0.0.0.0 graphitekpink.cfd
 0.0.0.0 graphiuma.online
 0.0.0.0 graphiuma.ru
+0.0.0.0 graphnewclass.christmas
 0.0.0.0 graphnow.com
 0.0.0.0 graphosoma.online
 0.0.0.0 graphosoma.ru
@@ -276713,7 +276716,6 @@
 0.0.0.0 haslundalsted.dk
 0.0.0.0 hasmob.com
 0.0.0.0 hasmobi.net
-0.0.0.0 hasmysql.christmas
 0.0.0.0 hasnainmomin.github.io
 0.0.0.0 hasnat22.github.io
 0.0.0.0 haso.pubmatic.com
@@ -276759,6 +276761,7 @@
 0.0.0.0 hasvabb.duckdns.org
 0.0.0.0 hasvabc.duckdns.org
 0.0.0.0 hasvabd.duckdns.org
+0.0.0.0 hasvideoproxy.christmas
 0.0.0.0 hasweas.com
 0.0.0.0 haswellsolutions.co.ke
 0.0.0.0 hat.bortogat.ru
@@ -290963,6 +290966,7 @@
 0.0.0.0 icetonkh.github.io
 0.0.0.0 icetraff.com
 0.0.0.0 iceuskadi.cl
+0.0.0.0 icevault-cutshift.christmas
 0.0.0.0 icewerx.com
 0.0.0.0 iceyouroffice.com
 0.0.0.0 icfotidtkvbqbxde-dot-millinium.ey.r.appspot.com
@@ -298658,6 +298662,7 @@
 0.0.0.0 innova-tech.com.mx
 0.0.0.0 innovaespublicidad.com
 0.0.0.0 innovamosbanrural.0hi.me
+0.0.0.0 innovantksa.com
 0.0.0.0 innovapath.work
 0.0.0.0 innovaperutourscom.ipage.com
 0.0.0.0 innovatemanhattan.org
@@ -364991,6 +364996,7 @@
 0.0.0.0 meteameaskklogin.webflow.io
 0.0.0.0 meteamsklgin.webflow.io
 0.0.0.0 meteamssetension.webflow.io
+0.0.0.0 metecgroup.cam
 0.0.0.0 meteemasxklogin.webflow.io
 0.0.0.0 meteengeld.altervista.org
 0.0.0.0 meteessk-wllet-extnsion.webflow.io
@@ -417068,6 +417074,7 @@
 0.0.0.0 pigs-7xp.pages.dev
 0.0.0.0 pigs.ulitron.ru
 0.0.0.0 pigsarmy.finance
+0.0.0.0 pigtweet-kitdiff-it.christmas
 0.0.0.0 pigu.accbacknow.cfd
 0.0.0.0 pigufyfy.pro
 0.0.0.0 pih96dj.xxoht18.cn
@@ -447219,7 +447226,6 @@
 0.0.0.0 reget.dedspac.ru
 0.0.0.0 regetdit.easy.co
 0.0.0.0 regevigroofing.com
-0.0.0.0 regexcar.christmas
 0.0.0.0 regexpand.space
 0.0.0.0 regflow.com
 0.0.0.0 regflukl.net
@@ -466800,6 +466806,7 @@
 0.0.0.0 shaky.ulitron.ru
 0.0.0.0 shakyamegha246.github.io
 0.0.0.0 shale.ulitron.ru
+0.0.0.0 shalimarlpg.com
 0.0.0.0 shalini-ark.github.io
 0.0.0.0 shalinisengar240.github.io
 0.0.0.0 shallowest.timanar.ru
@@ -478968,6 +478975,7 @@
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techtalentafrica.xyz
+0.0.0.0 techtattva.in
 0.0.0.0 techtulse-in.com
 0.0.0.0 techtulse-uk.com
 0.0.0.0 techvibeg.vercel.app
@@ -479115,7 +479123,6 @@
 0.0.0.0 telemetriya.hopto.org
 0.0.0.0 telemetry-cii.api.playstation.com
 0.0.0.0 telemetry-network.com
-0.0.0.0 telemetry-orbit.buzz
 0.0.0.0 telemetry.acronis.com
 0.0.0.0 telemetry.api.swiftkey.com
 0.0.0.0 telemetry.dropbox.com
@@ -484976,6 +484983,7 @@
 0.0.0.0 tupi.ulitron.ru
 0.0.0.0 tupik.dedspac.ru
 0.0.0.0 tupjq.com
+0.0.0.0 tuplediskdkey.christmas
 0.0.0.0 tuportalpromocional.com
 0.0.0.0 tups.dedspac.ru
 0.0.0.0 tups.ulitron.ru
