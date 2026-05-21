@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-21 00:30:42
-# Entries: 527080
+# Generated: 2026-05-21 06:03:16
+# Entries: 527096
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -47453,6 +47453,7 @@
 0.0.0.0 abyssal-echo.com
 0.0.0.0 abyssal-plain-topography.garden
 0.0.0.0 abyssal-voog.yolasite.com
+0.0.0.0 abyssalkraken.fit
 0.0.0.0 abyssinian-cherry-hoverfly.glitch.me
 0.0.0.0 abyssinian-circular-feels.glitch.me
 0.0.0.0 abyssinian-climbing-pelican.glitch.me
@@ -64851,6 +64852,7 @@
 0.0.0.0 agrope.virosat.ru
 0.0.0.0 agropecuarioenlinea.mywp.info
 0.0.0.0 agropolbud.pl
+0.0.0.0 agropole.tg
 0.0.0.0 agropreneurmuda.my
 0.0.0.0 agropulsar.com
 0.0.0.0 agroquimicabrasinha.com.br
@@ -131714,6 +131716,7 @@
 0.0.0.0 bakings.ruhodo.ru
 0.0.0.0 bakings.timanar.ru
 0.0.0.0 bakings.yazibo.ru
+0.0.0.0 bakingstonetheory.fit
 0.0.0.0 bakingwithbarbara.com
 0.0.0.0 bakingwithbylo.com
 0.0.0.0 bakinseguriti.webcindario.com
@@ -174028,6 +174031,7 @@
 0.0.0.0 chickchickproductions.com
 0.0.0.0 chicken.ab.ca
 0.0.0.0 chicken.uptoo.fun
+0.0.0.0 chickencutlethacks.fit
 0.0.0.0 chickeninhouse.com.br
 0.0.0.0 chickenroadofficial.pl
 0.0.0.0 chickenwaves.com
@@ -192390,6 +192394,7 @@
 0.0.0.0 cs.emxdgt.com
 0.0.0.0 cs.esportsvotes.com
 0.0.0.0 cs.exitmonitor.com
+0.0.0.0 cs.go.kg
 0.0.0.0 cs.hustorla.ru
 0.0.0.0 cs.jungara.com.au
 0.0.0.0 cs.lkqd.net
@@ -194874,6 +194879,7 @@
 0.0.0.0 cyber-lead-amaryllis.glitch.me
 0.0.0.0 cyber-mist.com
 0.0.0.0 cyber-pinnacle.com
+0.0.0.0 cyber-prosthetic.fit
 0.0.0.0 cyber-watch-update.vercel.app
 0.0.0.0 cyber.promise.co.jp.bys-marathon.com
 0.0.0.0 cyber.promise.co.jp.mw-wt.com
@@ -216436,6 +216442,7 @@
 0.0.0.0 dyne.dedspac.ru
 0.0.0.0 dynel.ulitron.ru
 0.0.0.0 dynetrixaqax.top
+0.0.0.0 dynga.pl
 0.0.0.0 dynid.com
 0.0.0.0 dynip.org
 0.0.0.0 dynis-hold.pages.dev
@@ -256722,6 +256729,7 @@
 0.0.0.0 gavel.ulitron.ru
 0.0.0.0 gavel.virosat.ru
 0.0.0.0 gavialis.xyz
+0.0.0.0 gaviao.ba.gov.br
 0.0.0.0 gavirtualpd.instructure.com
 0.0.0.0 gavitourism.com
 0.0.0.0 gavjiuapsiyzjbrzxjuewtnfmo-dot-gloff849483.uk.r.appspot.com
@@ -265103,6 +265111,7 @@
 0.0.0.0 gotecland.vn
 0.0.0.0 goteleg-br.top
 0.0.0.0 goteslath.com
+0.0.0.0 gotextileltd.com
 0.0.0.0 goth.boletuso.ru
 0.0.0.0 gothamads.com
 0.0.0.0 gothamcityadulttoys.com
@@ -266395,7 +266404,6 @@
 0.0.0.0 grand663.top
 0.0.0.0 grand7th.com
 0.0.0.0 grandaddysfarm.com
-0.0.0.0 grandarcbuilders.com
 0.0.0.0 grandaudit.ru
 0.0.0.0 grandbajahotel.com
 0.0.0.0 grandcapital.net
@@ -276705,6 +276713,7 @@
 0.0.0.0 haslundalsted.dk
 0.0.0.0 hasmob.com
 0.0.0.0 hasmobi.net
+0.0.0.0 hasmysql.christmas
 0.0.0.0 hasnainmomin.github.io
 0.0.0.0 hasnat22.github.io
 0.0.0.0 haso.pubmatic.com
@@ -321549,6 +321558,7 @@
 0.0.0.0 kliamdf10ak.duckdns.org
 0.0.0.0 kliamhadiah2022.duckdns.org
 0.0.0.0 kliantono.suiksikolammnteuikalika.link
+0.0.0.0 klichkogov.pro
 0.0.0.0 klick-webxx1.my.id
 0.0.0.0 klick.dedspac.ru
 0.0.0.0 klick.smarketer.io
@@ -333446,6 +333456,7 @@
 0.0.0.0 lindatee.com
 0.0.0.0 lindaztert.net
 0.0.0.0 lindelcreditgroup.com
+0.0.0.0 lindenappliances.co.za
 0.0.0.0 lindencityschoolsbb.org
 0.0.0.0 lindenconsultoria.com.br
 0.0.0.0 lindependnant.fr
@@ -344688,6 +344699,7 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
+0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -398726,6 +398738,7 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -403715,7 +403728,6 @@
 0.0.0.0 orbit.leonardis.ru
 0.0.0.0 orbital-bristle.000webhostapp.com
 0.0.0.0 orbital-docking-module.garden
-0.0.0.0 orbital-velocity.fit
 0.0.0.0 orbitcarttech.com
 0.0.0.0 orbitcorebase.site
 0.0.0.0 orbite.leonardis.ru
@@ -428907,7 +428919,6 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
-0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -447208,6 +447219,7 @@
 0.0.0.0 reget.dedspac.ru
 0.0.0.0 regetdit.easy.co
 0.0.0.0 regevigroofing.com
+0.0.0.0 regexcar.christmas
 0.0.0.0 regexpand.space
 0.0.0.0 regflow.com
 0.0.0.0 regflukl.net
@@ -466728,6 +466740,7 @@
 0.0.0.0 shaded-ridge.com
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
+0.0.0.0 shaderm.com
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-axle.com
 0.0.0.0 shadow-blade.com
@@ -479102,6 +479115,7 @@
 0.0.0.0 telemetriya.hopto.org
 0.0.0.0 telemetry-cii.api.playstation.com
 0.0.0.0 telemetry-network.com
+0.0.0.0 telemetry-orbit.buzz
 0.0.0.0 telemetry.acronis.com
 0.0.0.0 telemetry.api.swiftkey.com
 0.0.0.0 telemetry.dropbox.com
@@ -479282,6 +479296,7 @@
 0.0.0.0 tendertest.com
 0.0.0.0 tends.dedspac.ru
 0.0.0.0 tenebrisgame.online
+0.0.0.0 tengfeidn.cn
 0.0.0.0 tengo.popunder.ru
 0.0.0.0 tenhazirnasiparislerinde.cloud
 0.0.0.0 tenia.dedspac.ru
@@ -499588,6 +499603,7 @@
 0.0.0.0 www.autoleadninja.com
 0.0.0.0 www.autolks.com
 0.0.0.0 www.automatkredytowy.pl
+0.0.0.0 www.automobile-bk.de
 0.0.0.0 www.automoneygenerator.com
 0.0.0.0 www.automotive-offer.com
 0.0.0.0 www.autonations.com
