@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-22 06:30:33
-# Entries: 527157
+# Generated: 2026-05-22 12:31:18
+# Entries: 527158
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48851,7 +48851,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -74034,7 +74033,6 @@
 0.0.0.0 altamira.bluestacko.ru
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
-0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanyucetas.com
 0.0.0.0 altaplateria.com
@@ -83216,7 +83214,6 @@
 0.0.0.0 ancienthotties.com
 0.0.0.0 ancientism.matsuro.ru
 0.0.0.0 ancientmysticmusic.com
-0.0.0.0 ancientparchmentarchive.christmas
 0.0.0.0 ancientpisces.com
 0.0.0.0 ancientreasure28.com
 0.0.0.0 ancientsecretxspinm12.my.id
@@ -162397,7 +162394,6 @@
 0.0.0.0 bystry-zyskownia.com
 0.0.0.0 bystryzyskownia.com
 0.0.0.0 byt.lt
-0.0.0.0 byte-network-hub.christmas
 0.0.0.0 byte-vault.christmas
 0.0.0.0 byte-zenith.com
 0.0.0.0 byte.bortogat.ru
@@ -163022,6 +163018,7 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -165271,6 +165268,7 @@
 0.0.0.0 candied-sepia-saver.glitch.me
 0.0.0.0 candieess.net
 0.0.0.0 candientu.bkns.biz
+0.0.0.0 candipoker.net
 0.0.0.0 candishlimited.com
 0.0.0.0 candissluv.wixstudio.com
 0.0.0.0 candistrav.cyou
@@ -174042,6 +174040,7 @@
 0.0.0.0 chickchickproductions.com
 0.0.0.0 chicken.ab.ca
 0.0.0.0 chicken.uptoo.fun
+0.0.0.0 chickencutlet-hacks.christmas
 0.0.0.0 chickencutlethacks.fit
 0.0.0.0 chickeninhouse.com.br
 0.0.0.0 chickenroadofficial.pl
@@ -174805,6 +174804,7 @@
 0.0.0.0 chronically.draagotan.ru
 0.0.0.0 chronically.kukarat.ru
 0.0.0.0 chronicle.co.kr
+0.0.0.0 chroniclearchivekeeper.christmas
 0.0.0.0 chronicles.1gb.ua
 0.0.0.0 chroniclewealth.com-twt4vodwibqqfvitbi9a.twt4vodwibqqfvitbi9a.manxttrider.com
 0.0.0.0 chroniclewealth.glowbydanielleminett.com
@@ -192126,7 +192126,6 @@
 0.0.0.0 cryobiologically.ruhodo.ru
 0.0.0.0 cryoneticc.vercel.app
 0.0.0.0 cryos-labs-at4.pages.dev
-0.0.0.0 cryoshield.co.za
 0.0.0.0 crypitoswecumlogin.webflow.io
 0.0.0.0 crypotonlgonin.webflow.io
 0.0.0.0 crypt-ledger-live-login.vercel.app
@@ -194886,7 +194885,6 @@
 0.0.0.0 cyber-218.github.io
 0.0.0.0 cyber-clumsy-mapusaurus.glitch.me
 0.0.0.0 cyber-crime.co.za
-0.0.0.0 cyber-defensepro.christmas
 0.0.0.0 cyber-fabulous-guitar.glitch.me
 0.0.0.0 cyber-fuck.com
 0.0.0.0 cyber-hack.com
@@ -207774,6 +207772,7 @@
 0.0.0.0 digitalbusiness.sa.com
 0.0.0.0 digitalcertificate-update.online
 0.0.0.0 digitalcloudq.buzz
+0.0.0.0 digitalcode.sa
 0.0.0.0 digitalcommunityservices.com
 0.0.0.0 digitalconcept.pro
 0.0.0.0 digitalconexao.tk
@@ -233543,7 +233542,6 @@
 0.0.0.0 facai.y82lj7e.cn
 0.0.0.0 facai2024.xn--bvs11es3ujti.com
 0.0.0.0 facai524.icu
-0.0.0.0 facanha.com.br
 0.0.0.0 facanjgijvsabnkfuadbybamyvbcjmulibwp-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 facaujowetta-8242-51618947-continue.vercel.app
 0.0.0.0 facb00keslat.000webhostapp.com
@@ -244824,7 +244822,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -249317,6 +249314,7 @@
 0.0.0.0 forminvite.vipwhatsapp-grup8.cf
 0.0.0.0 formiris-cpc.org
 0.0.0.0 formix.uno
+0.0.0.0 formkey.asia
 0.0.0.0 formloginfaceb00k.mc-id.com
 0.0.0.0 formm.1vp.my.id
 0.0.0.0 formosanus.online
@@ -249625,6 +249623,7 @@
 0.0.0.0 forwardtateful.com
 0.0.0.0 forwardtechnology.artisanada.com
 0.0.0.0 forwardwithopportunities.co.vu
+0.0.0.0 forxtra.com
 0.0.0.0 foryou-get83.cf
 0.0.0.0 foryouaccounedbased.ct.ws
 0.0.0.0 foryoupagebyus.vercel.app
@@ -327969,7 +327968,6 @@
 0.0.0.0 las-stage.nameless.today
 0.0.0.0 las.ulitron.ru
 0.0.0.0 lasa.dedspac.ru
-0.0.0.0 lasagna-bakingpro.christmas
 0.0.0.0 lasagnabakingsecrets.study
 0.0.0.0 lasaletteoframon.edu.ph
 0.0.0.0 lasalzahara.com
@@ -338097,6 +338095,7 @@
 0.0.0.0 logicainf.com.br
 0.0.0.0 logicalloop.com
 0.0.0.0 logicarc.monster
+0.0.0.0 logicbufferskills.christmas
 0.0.0.0 logicklikeinvestplplpl.com
 0.0.0.0 logicpalm.com
 0.0.0.0 logicsoft.online
@@ -382249,6 +382248,7 @@
 0.0.0.0 namitabagri.github.io
 0.0.0.0 namitkumarsingh97.github.io
 0.0.0.0 namlh1.cloudvtdc.com
+0.0.0.0 namlongland.net
 0.0.0.0 nammamane.net.in
 0.0.0.0 nammamatrimony.com
 0.0.0.0 nammdsdks.000webhostapp.com
@@ -403765,7 +403765,6 @@
 0.0.0.0 orbit.leonardis.ru
 0.0.0.0 orbital-bristle.000webhostapp.com
 0.0.0.0 orbital-docking-module.garden
-0.0.0.0 orbital-mechanics.christmas
 0.0.0.0 orbital-velocity.fit
 0.0.0.0 orbitcarttech.com
 0.0.0.0 orbitcorebase.site
@@ -417862,6 +417861,7 @@
 0.0.0.0 pixel1370.everesttech.net
 0.0.0.0 pixel1553.everesttech.net
 0.0.0.0 pixel1739.everesttech.net
+0.0.0.0 pixelart-canvas.christmas
 0.0.0.0 pixelartfcontest.pages.dev
 0.0.0.0 pixelartfcontests.pages.dev
 0.0.0.0 pixelartsfcompetition.pages.dev
@@ -419896,6 +419896,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -440417,7 +440418,6 @@
 0.0.0.0 quantummetric.com
 0.0.0.0 quantumnyx.org
 0.0.0.0 quantumranch.net
-0.0.0.0 quantumvelocitylabs.christmas
 0.0.0.0 quantumvortex.info
 0.0.0.0 quantyxionfluxengine.com
 0.0.0.0 quanwtong.com
@@ -457863,7 +457863,6 @@
 0.0.0.0 runt--auth-ut-trewzor-io-cdn.webflow.io
 0.0.0.0 runt.dedspac.ru
 0.0.0.0 runtime-control.christmas
-0.0.0.0 runtime-processing-node.christmas
 0.0.0.0 runtime.hvwnrellsg.ru
 0.0.0.0 runtime.lemonpi.io
 0.0.0.0 runtm.dedspac.ru
@@ -461155,6 +461154,7 @@
 0.0.0.0 salytcxchlh7c.mocha.app
 0.0.0.0 salzburg.oewabox.at
 0.0.0.0 salzseedco.tk
+0.0.0.0 sam-sa.net
 0.0.0.0 sam.65e.org
 0.0.0.0 sam.carreli.eu.org
 0.0.0.0 sam.devtato.ru
@@ -464302,6 +464302,7 @@
 0.0.0.0 scratchcard.site
 0.0.0.0 scratched-lime-cress.glitch.me
 0.0.0.0 scray.hikotras.ru
+0.0.0.0 scrcarental.com
 0.0.0.0 screato.ru
 0.0.0.0 screeching-animal-mammoth.on-fleek.app
 0.0.0.0 screechingfurniture.com
@@ -466785,6 +466786,7 @@
 0.0.0.0 shaded-ridge.com
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
+0.0.0.0 shaderm.com
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-axle.com
 0.0.0.0 shadow-blade.com
@@ -467891,7 +467893,6 @@
 0.0.0.0 signal-layered-circuit.com
 0.0.0.0 signal-metrics-collector-beta.s-onetag.com
 0.0.0.0 signal-processing-core.christmas
-0.0.0.0 signal-routing-framework.christmas
 0.0.0.0 signalatera.com
 0.0.0.0 signalayer.com
 0.0.0.0 signaled-bind.vercel.app
@@ -469266,7 +469267,6 @@
 0.0.0.0 smartvalueoutlet.shop
 0.0.0.0 smartvoltdump.top
 0.0.0.0 smartwebtechnologies.in
-0.0.0.0 smartworkflowmanagement.christmas
 0.0.0.0 smartxads.com
 0.0.0.0 smartyads.com
 0.0.0.0 smartypie112.github.io
@@ -472823,7 +472823,6 @@
 0.0.0.0 staceydodge.com
 0.0.0.0 stacisderiso.com
 0.0.0.0 stacjavapera.com
-0.0.0.0 stack-control-plane.christmas
 0.0.0.0 stack-flow.christmas
 0.0.0.0 stack-sonar.com
 0.0.0.0 stack.dedspac.ru
@@ -479181,7 +479180,6 @@
 0.0.0.0 telemetry.sdk.inmobi.com
 0.0.0.0 telemetry.servers.getgo.com
 0.0.0.0 telemetry.v.dropbox.com
-0.0.0.0 telemetrymesh.christmas
 0.0.0.0 telenor.112.2o7.net
 0.0.0.0 telephone-voyance.fr
 0.0.0.0 telephoner-voyance.fr
@@ -483010,6 +483008,7 @@
 0.0.0.0 tradevine.prd.trade.me
 0.0.0.0 tradflux.org
 0.0.0.0 tradheyirweglet.webflow.io
+0.0.0.0 trading-academyexpert.christmas
 0.0.0.0 trading-app-ai.com
 0.0.0.0 trading-kucin-cdnn-enhelp.webflow.io
 0.0.0.0 trading.com
@@ -483147,6 +483146,7 @@
 0.0.0.0 transactionally.amaniwa.ru
 0.0.0.0 transactionally.bibliota.ru
 0.0.0.0 transafore.cyou
+0.0.0.0 transalpinafan.ro
 0.0.0.0 transcendenczzycacomistles.business
 0.0.0.0 transcendent-marshmallow-12d88f.netlify.app
 0.0.0.0 transcriptionally.amaniwa.ru
@@ -490957,6 +490957,7 @@
 0.0.0.0 vintage-telemetry-receiver.garden
 0.0.0.0 vintage1889casualdining.us
 0.0.0.0 vintagebroadcasts.com
+0.0.0.0 vintagevinylrestoration.christmas
 0.0.0.0 vintagevista.xyz
 0.0.0.0 vinted.01289523rt.shop
 0.0.0.0 vinted.01384921634.shop
