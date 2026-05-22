@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-22 06:01:35
-# Entries: 527156
+# Generated: 2026-05-22 06:30:33
+# Entries: 527157
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -469266,6 +469266,7 @@
 0.0.0.0 smartvalueoutlet.shop
 0.0.0.0 smartvoltdump.top
 0.0.0.0 smartwebtechnologies.in
+0.0.0.0 smartworkflowmanagement.christmas
 0.0.0.0 smartxads.com
 0.0.0.0 smartyads.com
 0.0.0.0 smartypie112.github.io
