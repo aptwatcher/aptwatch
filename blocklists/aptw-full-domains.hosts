@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-23 00:31:32
-# Entries: 527133
+# Generated: 2026-05-23 06:03:09
+# Entries: 527131
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -101770,6 +101770,7 @@
 0.0.0.0 asiacross.jp
 0.0.0.0 asiadiscoversolutions.azureedge.net
 0.0.0.0 asiaecobiz.com
+0.0.0.0 asiaengrs.com
 0.0.0.0 asiafoodco.com
 0.0.0.0 asiahost.eu.org
 0.0.0.0 asiainspection.122.2o7.net
@@ -147697,7 +147698,6 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
-0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -174916,7 +174916,6 @@
 0.0.0.0 chugchugchak.pages.dev
 0.0.0.0 chugging.matsuro.ru
 0.0.0.0 chugs.ulitron.ru
-0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chujdrtuityui.mydiscussion.net
 0.0.0.0 chuje.virosat.ru
 0.0.0.0 chukajoseph99.github.io
@@ -188478,6 +188477,7 @@
 0.0.0.0 corenet.hu
 0.0.0.0 corenlp.admicro.vn
 0.0.0.0 corenomics.com
+0.0.0.0 corepilatesnicaragua.com
 0.0.0.0 coreplesk-cake-7dbf.leacshlenmmdgza.workers.dev
 0.0.0.0 corepoweryogaco.org
 0.0.0.0 corer.dedspac.ru
@@ -207763,7 +207763,6 @@
 0.0.0.0 digitalbusiness.sa.com
 0.0.0.0 digitalcertificate-update.online
 0.0.0.0 digitalcloudq.buzz
-0.0.0.0 digitalcode.sa
 0.0.0.0 digitalcommunityservices.com
 0.0.0.0 digitalconcept.pro
 0.0.0.0 digitalconexao.tk
@@ -394206,7 +394205,6 @@
 0.0.0.0 nutrikalia.com
 0.0.0.0 nutrilshop.net.tr.ht
 0.0.0.0 nutrired.org
-0.0.0.0 nutrisc.com.br
 0.0.0.0 nutrisilviaramos.com.br
 0.0.0.0 nutrisincera.com
 0.0.0.0 nutritionalapproaches.com
@@ -419872,7 +419870,6 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
-0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -495952,6 +495949,7 @@
 0.0.0.0 wood-hungry-wish.glitch.me
 0.0.0.0 woodbdinan.cyou
 0.0.0.0 woodducksless.pro
+0.0.0.0 woodenships-wholesale.com
 0.0.0.0 woodland.net.gr
 0.0.0.0 woodlandtrove.com
 0.0.0.0 woodlines.com
