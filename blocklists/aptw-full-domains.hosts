@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-23 12:30:28
-# Entries: 527129
+# Generated: 2026-05-23 15:48:50
+# Entries: 527132
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -46443,6 +46443,7 @@
 0.0.0.0 abilo.matsuro.ru
 0.0.0.0 abilpdgus-com.umbler.net
 0.0.0.0 abimiur.wixsite.com
+0.0.0.0 abimj.edu.af
 0.0.0.0 abimran.buet.ac.bd
 0.0.0.0 abinashpadhan05.github.io
 0.0.0.0 abinatelope.dnsdojo.net
@@ -165811,6 +165812,7 @@
 0.0.0.0 carbs.dedspac.ru
 0.0.0.0 carbs.virosat.ru
 0.0.0.0 carbunculus.ru
+0.0.0.0 carcaran.com
 0.0.0.0 carcaves.com.au
 0.0.0.0 card-au.info
 0.0.0.0 card-ebay-bussiness.gitlab.io
@@ -207080,6 +207082,7 @@
 0.0.0.0 dial.dedspac.ru
 0.0.0.0 dialecticalbehavior.sa.com
 0.0.0.0 dialectstrong.com
+0.0.0.0 dialkwik.in
 0.0.0.0 dialogosmari09.000webhostapp.com
 0.0.0.0 dialogoydeportes.net
 0.0.0.0 dialoguethat.org
@@ -460120,7 +460123,6 @@
 0.0.0.0 safeurl.maxthon.cn
 0.0.0.0 safeurl.pl
 0.0.0.0 safewalletconnect.net
-0.0.0.0 safewatertech.com
 0.0.0.0 safeway96e7e.weebly.com
 0.0.0.0 safewaysecurityscreens.com.au
 0.0.0.0 safewebgrowthnation.vercel.app
@@ -482970,6 +482972,7 @@
 0.0.0.0 tradeoffice.org
 0.0.0.0 tradeplai.xyz
 0.0.0.0 trader-indonesia.site
+0.0.0.0 traderhype.com
 0.0.0.0 traderjoexyz.bylfg.org
 0.0.0.0 traderlidex-8-com.worldsoffinance.com
 0.0.0.0 traderprof.best
