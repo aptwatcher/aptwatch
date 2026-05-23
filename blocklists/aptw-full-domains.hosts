@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-23 06:31:16
-# Entries: 527131
+# Generated: 2026-05-23 12:30:28
+# Entries: 527129
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -101770,7 +101770,6 @@
 0.0.0.0 asiacross.jp
 0.0.0.0 asiadiscoversolutions.azureedge.net
 0.0.0.0 asiaecobiz.com
-0.0.0.0 asiaengrs.com
 0.0.0.0 asiafoodco.com
 0.0.0.0 asiahost.eu.org
 0.0.0.0 asiainspection.122.2o7.net
@@ -188477,7 +188476,6 @@
 0.0.0.0 corenet.hu
 0.0.0.0 corenlp.admicro.vn
 0.0.0.0 corenomics.com
-0.0.0.0 corepilatesnicaragua.com
 0.0.0.0 coreplesk-cake-7dbf.leacshlenmmdgza.workers.dev
 0.0.0.0 corepoweryogaco.org
 0.0.0.0 corer.dedspac.ru
@@ -244808,7 +244806,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -344704,6 +344701,7 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
+0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -460122,6 +460120,7 @@
 0.0.0.0 safeurl.maxthon.cn
 0.0.0.0 safeurl.pl
 0.0.0.0 safewalletconnect.net
+0.0.0.0 safewatertech.com
 0.0.0.0 safeway96e7e.weebly.com
 0.0.0.0 safewaysecurityscreens.com.au
 0.0.0.0 safewebgrowthnation.vercel.app
@@ -495949,7 +495948,6 @@
 0.0.0.0 wood-hungry-wish.glitch.me
 0.0.0.0 woodbdinan.cyou
 0.0.0.0 woodducksless.pro
-0.0.0.0 woodenships-wholesale.com
 0.0.0.0 woodland.net.gr
 0.0.0.0 woodlandtrove.com
 0.0.0.0 woodlines.com
