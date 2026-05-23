@@ -22,7 +22,7 @@ APT Watch is a threat intelligence platform that collects, validates, and distri
 
 The project provides three things:
 
-- **A database** of 6,500+ validated IPv4 IOCs, 6,900+ CIDR ranges, 1.5M+ domains, and 190+ CVEs, cross-referenced with vulnerability scans and enrichment data
+- **A database** of 9,500+ validated IPv4 IOCs, 6,900+ CIDR ranges, 1.5M+ domains, and 190+ CVEs, cross-referenced with vulnerability scans and enrichment data
 - **Blocklist feeds** in standard formats (FireHOL, StevenBlack, plain text) that update automatically every 6 hours and can be plugged into firewalls, DNS sinkholes, and SIEM tools — including unified feeds (`aptw-*`) that merge our data with FireHOL, Emerging Threats, Feodo Tracker, StevenBlack, URLhaus, AbuseIPDB, and Phishing.Database for broader coverage — plus DNS-resolved IPs and ISP-filtered reverse DNS for maximum visibility
 - **An interactive dashboard** at [aptwatch.org](https://aptwatch.org) for exploring the data directly in the browser
 
@@ -39,7 +39,7 @@ When you visit the site, it automatically fetches the web export database (~23 M
 - **Scan Results** — vulnerability scan data with risk scores, C2 indicators, and service fingerprints
 - **Recon** — staging servers, recon candidates, enrichment data, ASN intelligence map
 - **Validation** — OSINT validation status per source, quick IP lookup via Shodan InternetDB and VirusTotal
-- **Attribution** — campaign mapping across 13 campaigns, inter-agency correlations (GRU/FSB/SVR), hosting providers, certificate patterns, takedown targets
+- **Attribution** — campaign mapping across 40+ campaigns, inter-agency correlations (GRU/FSB/SVR), hosting providers, certificate patterns, takedown targets
 - **Custom SQL** — run arbitrary queries with 17 pre-built templates
 - **Export** — download any table or query result as CSV
 
