@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-24 12:31:19
+# Generated: 2026-05-24 17:12:17
 # Entries: 525878
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -63582,7 +63582,6 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
-0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-insina.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
@@ -174724,6 +174723,7 @@
 0.0.0.0 chugchugchak.pages.dev
 0.0.0.0 chugging.matsuro.ru
 0.0.0.0 chugs.ulitron.ru
+0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chujdrtuityui.mydiscussion.net
 0.0.0.0 chuje.virosat.ru
 0.0.0.0 chukajoseph99.github.io
@@ -191887,6 +191887,7 @@
 0.0.0.0 cryobiologically.ruhodo.ru
 0.0.0.0 cryoneticc.vercel.app
 0.0.0.0 cryos-labs-at4.pages.dev
+0.0.0.0 cryoshield.co.za
 0.0.0.0 crypitoswecumlogin.webflow.io
 0.0.0.0 crypotonlgonin.webflow.io
 0.0.0.0 crypt-ledger-live-login.vercel.app
@@ -264751,6 +264752,7 @@
 0.0.0.0 gossamer-plain-perigee.glitch.me
 0.0.0.0 gossamerbio.corporacionfrm.org
 0.0.0.0 gossamerstart.info
+0.0.0.0 gossipband.ie
 0.0.0.0 gossipbottom.com
 0.0.0.0 gossipcenter.us.intellitxt.com
 0.0.0.0 gossiponthis.us.intellitxt.com
@@ -373597,7 +373599,6 @@
 0.0.0.0 motoresrc.com
 0.0.0.0 motorfame.com
 0.0.0.0 motorfixx.digital
-0.0.0.0 motorhomecinema.com
 0.0.0.0 motoristas-shopee.com
 0.0.0.0 motoristo.ru
 0.0.0.0 motorl.oewabox.at
@@ -478362,7 +478363,6 @@
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techtalentafrica.xyz
-0.0.0.0 techtattva.in
 0.0.0.0 techtulse-in.com
 0.0.0.0 techtulse-uk.com
 0.0.0.0 techvibeg.vercel.app
@@ -488355,6 +488355,7 @@
 0.0.0.0 usr.undertone.com
 0.0.0.0 usrattr.ameba.jp
 0.0.0.0 usrio.virosat.ru
+0.0.0.0 uss001web.com
 0.0.0.0 usscuw9.top
 0.0.0.0 ussdns01.heketwe.com
 0.0.0.0 ussdns04.heketwe.com
@@ -525609,7 +525610,6 @@
 0.0.0.0 zoom.web-interviews.live
 0.0.0.0 zoomailer.org
 0.0.0.0 zoomblueberry.sacredknowledgedoulacare.com
-0.0.0.0 zoominviteeees.de
 0.0.0.0 zoommeeting.zone
 0.0.0.0 zoommruby.essentialwisdomcoaching.com
 0.0.0.0 zoomovies.org
