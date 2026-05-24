@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-24 00:30:30
-# Entries: 525874
+# Generated: 2026-05-24 06:01:40
+# Entries: 525876
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48755,6 +48755,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -147545,7 +147546,6 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
-0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -229162,6 +229162,7 @@
 0.0.0.0 eventosconciertosbailes.mx
 0.0.0.0 eventosefeiras.com
 0.0.0.0 eventosyfiestasinfantiles.com
+0.0.0.0 eventourarte.cl
 0.0.0.0 eventpartys18.com
 0.0.0.0 eventpaypal2019.onedumb.com
 0.0.0.0 eventpestadiamond.duckdns.org
@@ -244490,6 +244491,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -283626,6 +283628,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -293123,7 +293126,6 @@
 0.0.0.0 ijamjamsec.com
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
-0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -352408,6 +352410,7 @@
 0.0.0.0 mand.ulitron.ru
 0.0.0.0 mand1r1.bezmxv.my.id
 0.0.0.0 mandafashion.com
+0.0.0.0 mandalaagrifresh.com
 0.0.0.0 mandalahome.es
 0.0.0.0 mandalamultimedia.com
 0.0.0.0 mandalasdoamor.com.br
@@ -419336,7 +419339,6 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
-0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -428528,7 +428530,6 @@
 0.0.0.0 prove.dedspac.ru
 0.0.0.0 prove.ulitron.ru
 0.0.0.0 prove.virosat.ru
-0.0.0.0 proveedoradeproyectosysoluciones.com
 0.0.0.0 proveedores.nef.com.mx
 0.0.0.0 proveedores.savant.com.ar
 0.0.0.0 proveedorsites.000webhostapp.com
@@ -499269,6 +499270,7 @@
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
 0.0.0.0 www.benowe.shop
+0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benulekaren-sale.sbs
 0.0.0.0 www.benulekaren.co
