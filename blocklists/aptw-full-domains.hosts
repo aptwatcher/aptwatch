@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-23 18:34:54
-# Entries: 525850
+# Generated: 2026-05-24 00:30:30
+# Entries: 525874
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -40557,6 +40557,7 @@
 0.0.0.0 9url.de
 0.0.0.0 9uss5dj.qwo231sdx.club
 0.0.0.0 9utnr.moolin.ru
+0.0.0.0 9v42ch67.proxy-frontier.digital
 0.0.0.0 9vb5ooazckwyecpg.53244ds.xyz
 0.0.0.0 9veiot.qwo231sdx.club
 0.0.0.0 9veqeuwfexap4.moolin.ru
@@ -47707,6 +47708,7 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
+0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -124885,6 +124887,7 @@
 0.0.0.0 badults.se
 0.0.0.0 badut55.000webhostapp.com
 0.0.0.0 badwellinformeddeadcode.amnhayjshd.repl.co
+0.0.0.0 badxqjge.gift-lattice.christmas
 0.0.0.0 badzoarfcbztcuwbhitxwjrool-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 bae-marketing-vsl.com
 0.0.0.0 bae-q3s6.vercel.app
@@ -147542,6 +147545,7 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
+0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -227913,6 +227917,7 @@
 0.0.0.0 eufd36.difarmafarmaceutica.com.br
 0.0.0.0 euflowermountain.com
 0.0.0.0 eufrjrtschznxucz-dot-millinium.ey.r.appspot.com
+0.0.0.0 euftrhnx.computationalgrid.com
 0.0.0.0 eufurnituretksale.shop
 0.0.0.0 eufuschhqsvocttrdrhyfgwbmkaowmvguzib-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 euge.ulitron.ru
@@ -252495,6 +252500,7 @@
 0.0.0.0 ftjcrtjdses1.pages.dev
 0.0.0.0 ftjeh.dogestocks.com
 0.0.0.0 ftjgeawssr.duckdns.org
+0.0.0.0 ftjilgqw.winter-pulse.christmas
 0.0.0.0 ftk.unsada.ac.id
 0.0.0.0 ftl-us.com
 0.0.0.0 ftlnotary.com
@@ -286349,6 +286355,7 @@
 0.0.0.0 hoya.dedspac.ru
 0.0.0.0 hoya.ulitron.ru
 0.0.0.0 hoyas.dedspac.ru
+0.0.0.0 hoycbijv.holiday-matrix.christmas
 0.0.0.0 hoyciag.top
 0.0.0.0 hoynoticias.com.ar
 0.0.0.0 hoysisisi.atwebpages.com
@@ -289533,6 +289540,7 @@
 0.0.0.0 hzlida.shop
 0.0.0.0 hzliklyr3s.qwo231sdx.club
 0.0.0.0 hzlpikb.we9ixzz.co
+0.0.0.0 hzlqlpfw.frost-engine.christmas
 0.0.0.0 hzly.store
 0.0.0.0 hzn-wahst5pp.com
 0.0.0.0 hzne.top
@@ -292945,6 +292953,7 @@
 0.0.0.0 ihstjllaajrxoulw-dot-millinium.ey.r.appspot.com
 0.0.0.0 ihtaneyrcehsdsyr-dot-millinium.ey.r.appspot.com
 0.0.0.0 ihtejnorqf.web.app
+0.0.0.0 ihtfqktk.holiday-matrix.christmas
 0.0.0.0 ihtgaiycketxyzsd-dot-millinium.ey.r.appspot.com
 0.0.0.0 ihtiifiruhmepcbgghlusjsctp-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 ihtiyackrdisihesabinizda.cf
@@ -293114,6 +293123,7 @@
 0.0.0.0 ijamjamsec.com
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
+0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -293415,6 +293425,7 @@
 0.0.0.0 ilhankhondaker.com
 0.0.0.0 ilhasinio.net
 0.0.0.0 ilhlveiqwr.duckdns.org
+0.0.0.0 ilhvyrij.ipv4has-lampnew.cyou
 0.0.0.0 ilhwhilrfhilrihlefwhil.duckdns.org
 0.0.0.0 ilhwwob.ml
 0.0.0.0 ilhxpcmg.top
@@ -343077,6 +343088,7 @@
 0.0.0.0 lz8x5wk4zp.temp.swtest.ru
 0.0.0.0 lzar7jmg0zjbxpckbvbx57.we9ixzz.co
 0.0.0.0 lzardds.wixsite.com
+0.0.0.0 lzascdxk.xenomorphhiveintel.christmas
 0.0.0.0 lzb.phd.temporary.site
 0.0.0.0 lzbarjrugjsrzfey-dot-millinium.ey.r.appspot.com
 0.0.0.0 lzbkmd.cn
@@ -365974,6 +365986,7 @@
 0.0.0.0 mfbnew.000webhostapp.com
 0.0.0.0 mfbojfzvtt.duckdns.org
 0.0.0.0 mfbpage3832.com
+0.0.0.0 mfbrkbuv.betnoise-unionour.cyou
 0.0.0.0 mfcgzqbfbvvgxtfslnhkxszxnnhshlcw.netlify.app
 0.0.0.0 mfcpfokidzambqvp-dot-millinium.ey.r.appspot.com
 0.0.0.0 mfcvq.blogspot.bg
@@ -369713,6 +369726,7 @@
 0.0.0.0 mkspllxpzghtmugq-dot-millinium.ey.r.appspot.com
 0.0.0.0 mkstudiotok.000webhostapp.com
 0.0.0.0 mksvhkoewk.duckdns.org
+0.0.0.0 mkszunli.flopstin-gymcargo.cyou
 0.0.0.0 mkt.conexaoempregos.com.br
 0.0.0.0 mkt.fotoarte.com.uy
 0.0.0.0 mkt.hoanghamobile.com
@@ -372235,6 +372249,7 @@
 0.0.0.0 mokes.virosat.ru
 0.0.0.0 mokhtasr.net
 0.0.0.0 mokkapavangoud.github.io
+0.0.0.0 mokmgdal.gift-lattice.christmas
 0.0.0.0 moknide.ga
 0.0.0.0 moko-merugari.servepics.com
 0.0.0.0 mokshi17.github.io
@@ -376969,6 +376984,7 @@
 0.0.0.0 mvkoptfree.byethost5.com
 0.0.0.0 mvlagenciaweb.com
 0.0.0.0 mvlandscapeanddesign.com
+0.0.0.0 mvltyody.frost-engine.christmas
 0.0.0.0 mvlwpvrljlonhxuvyocotmeudd-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 mvm-szamlafizetes.com
 0.0.0.0 mvm.com.sg
@@ -409030,6 +409046,7 @@
 0.0.0.0 papyraceous-car.000webhostapp.com
 0.0.0.0 papyrusfreemyip-10fc023.ingress-alpha.ewp.live
 0.0.0.0 paq.hierism.xyz
+0.0.0.0 paqcfwvt.winter-pulse.christmas
 0.0.0.0 paqenvio.wpenginepowered.com
 0.0.0.0 paqes-problems-meconfrime-648454545io.cf
 0.0.0.0 paqesinformationssystems-alerts004.gq
@@ -419319,6 +419336,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -428510,6 +428528,7 @@
 0.0.0.0 prove.dedspac.ru
 0.0.0.0 prove.ulitron.ru
 0.0.0.0 prove.virosat.ru
+0.0.0.0 proveedoradeproyectosysoluciones.com
 0.0.0.0 proveedores.nef.com.mx
 0.0.0.0 proveedores.savant.com.ar
 0.0.0.0 proveedorsites.000webhostapp.com
@@ -467432,6 +467451,7 @@
 0.0.0.0 simon-fidan.nl
 0.0.0.0 simonadeflorin.shop
 0.0.0.0 simonbegg.com
+0.0.0.0 simonizauto.com
 0.0.0.0 simp.amaniwa.ru
 0.0.0.0 simp.dedspac.ru
 0.0.0.0 simp.ulitron.ru
@@ -481498,6 +481518,7 @@
 0.0.0.0 tpfranchiseinquiries.com
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpindd.com
+0.0.0.0 tpkpolus.ru
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
 0.0.0.0 tpr.moolin.ru
@@ -485365,6 +485386,7 @@
 0.0.0.0 ukguk71.ru
 0.0.0.0 ukinfowave.com
 0.0.0.0 ukinsightstream.com
+0.0.0.0 ukkqtbst.snow-harbor.christmas
 0.0.0.0 uklho.bnflenzccjn.es
 0.0.0.0 ukmalls.top
 0.0.0.0 ukmeaitamacklogg.godaddysites.com
@@ -516340,6 +516362,7 @@
 0.0.0.0 www.simlei.online
 0.0.0.0 www.simmake.top
 0.0.0.0 www.simonadeflorin.shop
+0.0.0.0 www.simonizauto.com
 0.0.0.0 www.simpleapproach.online
 0.0.0.0 www.simpleatt.live
 0.0.0.0 www.simplecounter.net
@@ -523487,6 +523510,7 @@
 0.0.0.0 y3dx36f6.love6d.com
 0.0.0.0 y3hqdcbfr9t4.moolin.ru
 0.0.0.0 y495809jff50950-509-5585-444-44-gd8z5bwsxf.edgeone.app
+0.0.0.0 y4gf3n18.network-foundry.digital
 0.0.0.0 y4m6xk.work
 0.0.0.0 y56gcvx-lean-bear-up.mybluemix.net
 0.0.0.0 y5yhhecrssaxwifk.jolotras.ru
