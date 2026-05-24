@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-24 06:31:41
-# Entries: 525876
+# Generated: 2026-05-24 12:31:19
+# Entries: 525878
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -47708,7 +47708,6 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
-0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -48755,7 +48754,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -63584,6 +63582,7 @@
 0.0.0.0 agence-88069.web.app
 0.0.0.0 agence-euphorie.com
 0.0.0.0 agence-gabeli.fr
+0.0.0.0 agence-immobiliere-lyon.com
 0.0.0.0 agence-insina.com
 0.0.0.0 agence-netflix.com
 0.0.0.0 agence-orange-receptions.yolasite.com
@@ -210561,6 +210560,7 @@
 0.0.0.0 doc-wallet--cnet.gitbook.io
 0.0.0.0 doc-wallet-connect.gitbook.io
 0.0.0.0 doc-walletconnect--cap.gitbook.io
+0.0.0.0 doc-web.org
 0.0.0.0 doc-wetransfermailfolderdefault0qg7bn6muex5c65cfvt.vercel.app
 0.0.0.0 doc-wledgersstartt-cdn.webflow.io
 0.0.0.0 doc-worldside-online.firebaseapp.com
@@ -229162,7 +229162,6 @@
 0.0.0.0 eventosconciertosbailes.mx
 0.0.0.0 eventosefeiras.com
 0.0.0.0 eventosyfiestasinfantiles.com
-0.0.0.0 eventourarte.cl
 0.0.0.0 eventpartys18.com
 0.0.0.0 eventpaypal2019.onedumb.com
 0.0.0.0 eventpestadiamond.duckdns.org
@@ -260625,6 +260624,7 @@
 0.0.0.0 gig.ulitron.ru
 0.0.0.0 giga-host.com
 0.0.0.0 giga.dedspac.ru
+0.0.0.0 giga.miraibotnet.su
 0.0.0.0 giga4ad228.github.io
 0.0.0.0 gigabess.com
 0.0.0.0 gigahax.com
@@ -352410,7 +352410,6 @@
 0.0.0.0 mand.ulitron.ru
 0.0.0.0 mand1r1.bezmxv.my.id
 0.0.0.0 mandafashion.com
-0.0.0.0 mandalaagrifresh.com
 0.0.0.0 mandalahome.es
 0.0.0.0 mandalamultimedia.com
 0.0.0.0 mandalasdoamor.com.br
@@ -373598,6 +373597,7 @@
 0.0.0.0 motoresrc.com
 0.0.0.0 motorfame.com
 0.0.0.0 motorfixx.digital
+0.0.0.0 motorhomecinema.com
 0.0.0.0 motoristas-shopee.com
 0.0.0.0 motoristo.ru
 0.0.0.0 motorl.oewabox.at
@@ -478362,6 +478362,7 @@
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techtalentafrica.xyz
+0.0.0.0 techtattva.in
 0.0.0.0 techtulse-in.com
 0.0.0.0 techtulse-uk.com
 0.0.0.0 techvibeg.vercel.app
@@ -499270,7 +499271,6 @@
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
 0.0.0.0 www.benowe.shop
-0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benulekaren-sale.sbs
 0.0.0.0 www.benulekaren.co
@@ -525606,8 +525606,10 @@
 0.0.0.0 zoom-call29072025callerid9237xzue07930conference-secured.s3-bkk.nipa.cloud
 0.0.0.0 zoom.dedspac.ru
 0.0.0.0 zoom.readyex-eg.com
+0.0.0.0 zoom.web-interviews.live
 0.0.0.0 zoomailer.org
 0.0.0.0 zoomblueberry.sacredknowledgedoulacare.com
+0.0.0.0 zoominviteeees.de
 0.0.0.0 zoommeeting.zone
 0.0.0.0 zoommruby.essentialwisdomcoaching.com
 0.0.0.0 zoomovies.org
