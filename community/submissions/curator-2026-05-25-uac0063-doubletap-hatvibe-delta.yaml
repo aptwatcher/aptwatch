@@ -1,0 +1,126 @@
+# =============================================================
+#  Curator submission — delta backfill 2026-05-25
+#  Campaign  : UAC-0063 "Double-Tap" / HATVIBE + CHERRYSPY
+#  Threat actor type : russia_state_intelligence (GRU, medium
+#                      confidence overlap with APT28 / Forest Blizzard)
+#  Confidence : curator (Sekoia primary, multi-vendor + CERT-UA
+#               corroboration)
+# =============================================================
+
+author: aptwatch-curator-bot
+source: https://blog.sekoia.io/double-tap-campaign-russia-nexus-apt-possibly-related-to-apt28-conducts-cyber-espionage-on-central-asia-and-kazakhstan-diplomatic-relations/
+source_name: Sekoia TDR - Double-Tap campaign / UAC-0063 HATVIBE + CHERRYSPY (corroborated by CERT-UA UAC-0063 reports 2023-04 and 2024-07, Bitdefender DownEx 2023-05, Recorded Future TAG-110 2024-11)
+
+apt_groups:
+  - UAC-0063
+  - APT28
+  - Pawn Storm
+  - Forest Blizzard
+  - Fancy Bear
+  - Sednit
+  - Sofacy
+  - STRONTIUM
+  - TAG-110
+
+description: >
+  Delta backfill for the Sekoia TDR "Double-Tap campaign" report
+  (originally published for Sekoia customers 2024-12-12, public on
+  2025-01-13). The Sekoia report exposes UAC-0063, a Russia-nexus
+  intrusion set tracked separately by CERT-UA since April 2023 and
+  attributed by CERT-UA (medium confidence, July 2024) and by Sekoia
+  (medium confidence) as overlapping with the GRU-operated APT28
+  intrusion set, notably with the older APT28 sub-cluster Zebrocy
+  (Kaspersky 2018-2020). Recorded Future tracks the same activity
+  under the alias TAG-110.
+
+  Today (2026-05-25) the four C2 IPs documented by Sekoia in the
+  appendix of the Double-Tap report - 2.58.15.158, 213.159.79.56,
+  38.180.207.137, 38.180.206.61 - are already present in the DB
+  under campaign_id=19 (Pawn Storm) at auto-attribution score 0.50.
+  This curator YAML upgrades their attribution to curator score
+  1.0 with explicit UAC-0063 + Pawn Storm linkage and adds the
+  third Sekoia-documented C2 domain (download-resourses.info)
+  which was not previously captured. The two other C2 domains
+  (background-services.net, lookup.ink) are present in the DB at
+  curator score 0.0 with NULL actor; this YAML re-asserts them at
+  curator 1.0 with UAC-0063 attribution.
+
+  Campaign context: between September and October 2024 Sekoia
+  identified 18 weaponized DOCX files containing macros and HTA
+  stagers, almost all of them genuine Ministry of Foreign Affairs
+  of the Republic of Kazakhstan correspondence and draft documents
+  (2021-2024 dates), weaponized for spearphishing-style delivery
+  against Central Asian diplomatic targets. The most recent bait
+  documents include diplomatic letters from the Kazakhstan
+  embassies in Afghanistan and Belgium dated early September 2024,
+  and a draft of the joint statement of the Astana 2024-09-16
+  Germany-Central Asia leaders meeting. The objective is strategic
+  intelligence on Kazakhstan's external relations (China, US, EU,
+  Germany, Mongolia, France/Rosatom civilian nuclear bid) - all
+  topics squarely aligned with GRU collection priorities in a
+  region historically within the Russian sphere of influence.
+
+  Infection chain ("Double-Tap"): Word document #1 prompts macro
+  execution, downgrades HKCU\Software\Microsoft\Office\*\Word\
+  Security\AccessVBOM, unprotects with hardcoded password
+  "oikmseM#*inmowefj8349an3", drops Word document #2 in a hidden
+  Word instance (settings.xml carries the weaponization variables
+  + payload), document #2 silently executes a second VBA stage
+  that writes an HTA file to %LOCALAPPDATA%\Settings\locale and
+  registers a scheduled task "Settings\ServiceDispatch" via
+  RegisterTaskDefinition (no schtasks.exe spawn) executing
+  mshta.exe every 4 minutes. The HTA contains the HATVIBE VBS
+  backdoor which fetches XOR-decryptable VBS modules from
+  /setup.php, /local.php, /upset.php endpoints on the C2; HATVIBE
+  in turn downloads CHERRYSPY (Python backdoor) per CERT-UA and
+  Recorded Future. Note: the very long Zebrocy-style anti-emulation
+  trick (execution-time check) is retained.
+
+  MITRE ATT&CK techniques implied (curator schema has no structured
+  TTP table, prose-only): T1566.001 (Phishing: Spearphishing
+  Attachment), T1059.005 (Command and Scripting Interpreter: Visual
+  Basic), T1112 (Modify Registry - AccessVBOM downgrade), T1218.005
+  (System Binary Proxy Execution: Mshta), T1053.005 (Scheduled
+  Task), T1027 (Obfuscated Files - VBE / XOR module decoder),
+  T1041 (Exfiltration Over C2 Channel), T1057 / T1082 (Discovery
+  via VBS modules), T1497.003 (Time Based Sandbox Evasion).
+
+  Hashes from the Sekoia "Weaponized documents" appendix
+  (06e4084e..., 3b87dc25..., 47092548..., 6edf3d03..., c61e9326...,
+  e3a0be88..., e440bad6..., efc99e6f..., fd780518...) are NOT
+  ingested here - the flat-IOC schema has no hash table - they
+  are captured in the 2026-05-25 daily threat-hunt digest for
+  audit only.
+
+  Discovery vector: the STTR daily APT Watch threat-hunt job for
+  2026-05-25 found the 24-hour vendor / CERT / Register feed
+  window dry of in-scope fresh material (Operation Neusploit and
+  OpFauxSign were already ingested in earlier cycles; Megalodon
+  remains unattributed and out of scope). The Sekoia Double-Tap
+  report surfaced during a "Russia-nexus APT possibly related to
+  APT28" pivot search and was selected for back-catalogue
+  enrichment because (a) the C2 IPs are weakly-attributed in the
+  DB at 0.50 to Pawn Storm and would benefit from a curator-level
+  upgrade with explicit UAC-0063 alias, (b) the third C2 domain
+  download-resourses.info was never captured, and (c) the OSINT
+  corroboration is four-vendor (Sekoia, Bitdefender, CERT-UA,
+  Recorded Future) which clears the project's attribution
+  discipline bar.
+
+# Domains - all three Sekoia-documented C2 domains. Two of them
+# (background-services.net, lookup.ink) already exist in the DB
+# at curator 0.0 / NULL actor; this YAML re-asserts at curator 1.0.
+# download-resourses.info is a new IOC for the DB.
+domains:
+  - background-services[.]net
+  - lookup[.]ink
+  - download-resourses[.]info
+
+# IPv4 - all four Sekoia-documented C2 IPs. Currently in DB at
+# score 0.50 attributed to "Pawn Storm" (auto). This YAML upgrades
+# them to curator 1.0 with UAC-0063 + Pawn Storm linkage.
+ipv4:
+  - 2.58.15.158
+  - 213.159.79.56
+  - 38.180.207.137
+  - 38.180.206.61
