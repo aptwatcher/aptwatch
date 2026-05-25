@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-25 14:37:56
-# Entries: 525909
+# Generated: 2026-05-25 14:40:37
+# Entries: 525912
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -124591,6 +124591,7 @@
 0.0.0.0 backflow.tommydong.com
 0.0.0.0 backfromamerica.ddnsfree.com
 0.0.0.0 backgestion.alconect.com
+0.0.0.0 background-services.net
 0.0.0.0 backgroundcheckinforeport.pages.dev
 0.0.0.0 backgroundcheckinforeports.pages.dev
 0.0.0.0 backgroundcheckspecialist.pages.dev
@@ -212597,6 +212598,7 @@
 0.0.0.0 download-metamask.app
 0.0.0.0 download-metamask.im
 0.0.0.0 download-mm.com
+0.0.0.0 download-resourses.info
 0.0.0.0 download-shares.com
 0.0.0.0 download-signed-documents-and-contracts-git-main-growthomar.vercel.app
 0.0.0.0 download-standoff2.ru
@@ -340183,6 +340185,7 @@
 0.0.0.0 looktiva.shop
 0.0.0.0 lookup-auth.ml
 0.0.0.0 lookup.hitbox.com
+0.0.0.0 lookup.ink
 0.0.0.0 lookup.qubit.com
 0.0.0.0 lookups.ddns.net
 0.0.0.0 lookvero.shop
