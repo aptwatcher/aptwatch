@@ -222,44 +222,41 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
 
       <div class="card" style="border-left:3px solid var(--red);padding:16px">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
-          <div style="font-weight:700;color:var(--red);font-size:14px">ALEXHOST &times; Empire BPH Constellation</div>
+          <div style="font-weight:700;color:var(--red);font-size:14px">HOSTKEY / DEDIK Phishing Pipeline</div>
           <span class="badge CRITICAL">ACTIVE</span>
         </div>
         <div style="font-size:12px;color:var(--text2);line-height:1.7">
-          <div style="margin-bottom:8px">Cross-operator infrastructure pivot. AnyDesk Client cert co-occurrence links <b>ALEXHOST MD</b> (AS200019) to the <b>Empire shell company</b> 12651980 Canada Inc. (AS399486). Single Russian-speaking ecrime crew operating two parallel bulletproof clusters with shared remote-admin tooling.</div>
+          <div style="margin-bottom:8px">Multi-subnet phishing + C2 operation spanning <b>3 ASNs</b>. Russian-speaking ecrime operator on bulletproof hosting.</div>
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;font-size:11px">
-            <div><span style="color:var(--red)">176.123.8</span> ALEXHOST &mdash; 178 hosts, gh0st_rat &times;16, fandev.ru + supertest.com cert burst</div>
-            <div><span style="color:var(--red)">80.76.49</span> 12651980 Canada Inc. &mdash; 174 hosts cloned from WIN-9QL4SDRB93L golden image (63 share cert)</div>
-            <div><span style="color:var(--orange)">176.123.3 / .4 / .12</span> ALEXHOST + Edera CZ &mdash; sibling /24s, 36 hosts</div>
-            <div><span style="color:var(--orange)">91.186.210 / .211 / .213 / .220</span> Empire 91.x BPH &mdash; firstbyte.club, 113 new hosts</div>
-            <div><span style="color:var(--orange)">94.103.186-190</span> Multi-ASN BPH pool &mdash; 58 hosts rotating 4 ASNs, sibling of .188 soqui.dev C2</div>
-            <div><span style="color:var(--orange)">194.102.104 / .106</span> AVA HOST + Cloud Forest &mdash; 38 hosts, CloudPanel template</div>
+            <div><span style="color:var(--red)">194.85.251</span> HOSTKEY &mdash; 38 spoofed certs, 275 C2 hosts</div>
+            <div><span style="color:var(--red)">194.85.250</span> HOSTKEY adj &mdash; spam mailer + web farm</div>
+            <div><span style="color:var(--orange)">176.65.144</span> DEDIK &mdash; URL shortener, phishing, 9 Win VMs</div>
+            <div><span style="color:var(--orange)">37.221.65</span> ALEXHOST &mdash; Celery scraping backend</div>
           </div>
           <div style="margin-top:8px;border-top:1px solid var(--border);padding-top:8px">
-            <span style="color:var(--accent)">Pivot:</span> AnyDesk Client cert (SHA-1 cluster of 5) on <code>176.123.8.{204,210}</code> + <code>80.76.49.{41,121,139}</code> &rarr; same operator runs both clusters with identical remote-admin tooling. WIN-9QL4SDRB93L cloned-VPS pattern = mass deployment from a single golden image.
+            <span style="color:var(--accent)">Pipeline:</span> Blog scraping (.73) &rarr; Phishing pages (.251) &rarr; URL shortener (.98) &rarr; Telegram bot distribution &rarr; SMS gateway (2FA intercept)
           </div>
-          <div style="margin-top:6px" id="campaign-alexhost-stats"></div>
+          <div style="margin-top:6px" id="campaign-hostkey-stats"></div>
         </div>
       </div>
 
       <div class="card" style="border-left:3px solid var(--orange);padding:16px">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
           <div style="font-weight:700;color:var(--orange);font-size:14px">Key IOCs From Latest Scans</div>
-          <span class="badge HIGH">2026-05-25</span>
+          <span class="badge HIGH">2026-04-05</span>
         </div>
         <div style="font-size:11px;color:var(--text2);line-height:1.8">
-          <div><span class="badge CRITICAL">C2</span> <b>94.103.188.137</b> &mdash; <code>soqui.dev</code> / <code>mac.soqui.dev</code>, ports 22/80/443/3000/7777/31337 (ALEXHOST MD)</div>
-          <div><span class="badge CRITICAL">SPOOFED</span> <b>SHA-1 ada5f27d&hellip;</b> &mdash; Microsoft TLS cert spoof on 11 hosts across Empire 91.186 + Stark 193.233.161 + HOSTKEY-cousin 45.148.244</div>
-          <div><span class="badge CRITICAL">CLONE</span> <b>80.76.49/24</b> &mdash; 63 hosts share WIN-9QL4SDRB93L cert (golden image, AS399486 Canada Inc. Empire shell)</div>
-          <div><span class="badge CRITICAL">CLUSTER</span> <b>176.123.8/24</b> &mdash; 178 hosts ALEXHOST MD, 16 gh0st_rat scan_heuristics + supertest.com / fandev.ru cert bursts</div>
-          <div><span class="badge HIGH">PIVOT</span> <b>AnyDesk Client</b> &mdash; cert cluster links 176.123.8.{204,210} to 80.76.49.{41,121,139}</div>
-          <div><span class="badge HIGH">EMPIRE</span> <b>91.186.210/24</b> &mdash; 22 hosts hostname-root <code>firstbyte.club</code>, AS204339 First Server Ltd FI</div>
-          <div><span class="badge HIGH">PHISH</span> <b>91.186.218.x</b> &mdash; Yahoo cert spoof (SHA-1 e65de673&hellip;) on 7 Empire hosts</div>
-          <div><span class="badge HIGH">PANEL</span> <b>XUI.one</b> cert cluster &mdash; 5 hosts cross-subnet ALEXHOST + AVA HOST (C2 management overlay)</div>
-          <div><span class="badge MEDIUM">SPAM</span> <b>37.221.64</b> &mdash; <code>srv.mailconstant.com</code> + <code>srv.icrmls.com</code> paired self-signed (HM MARKETING, 8 IPs attributed)</div>
-          <div><span class="badge MEDIUM">POOL</span> <b>94.103.186-190</b> &mdash; BPH reseller hopping pattern across Volta/Substrate FR, Infraly US, PebbleHost GB, Clouvider PH</div>
+          <div><span class="badge CRITICAL">SPOOFED</span> <b>176.65.144.123</b> &mdash; www.amazon.com cert (DigiCert impersonation)</div>
+          <div><span class="badge CRITICAL">SPOOFED</span> <b>176.65.144.102</b> &mdash; amd.com cert (cross-subnet link)</div>
+          <div><span class="badge CRITICAL">RCE</span> <b>176.65.144.130</b> &mdash; Redis no-auth, crontab injected (<code>oracle.zzhreceive.top</code>)</div>
+          <div><span class="badge HIGH">PHISH</span> <b>176.65.144.119</b> &mdash; booking-update-840217v.com</div>
+          <div><span class="badge HIGH">PHISH</span> <b>176.65.144.97</b> &mdash; card-wallet.pro (crypto)</div>
+          <div><span class="badge HIGH">PHISH</span> <b>176.65.144.81</b> &mdash; confirmation-759316.com</div>
+          <div><span class="badge HIGH">2FA</span> <b>176.65.144.98</b> &mdash; sms-inboxgateway.com + Telegram bot</div>
+          <div><span class="badge MEDIUM">INFRA</span> <b>176.65.144.250-252</b> &mdash; VirtFusion hypervisors (bare metal)</div>
+          <div><span class="badge MEDIUM">SCRAPE</span> <b>37.221.65.73</b> &mdash; Celery blogger scraper + SSH key in Redis</div>
           <div style="margin-top:6px;border-top:1px solid var(--border);padding-top:6px">
-            <span style="color:var(--red)">NEW:</span> <code>scan-promote-2026-05-25</code> bundle &mdash; <b>684 IPs</b> promoted across 14 campaigns (7 new + 7 extensions), 11 cert_patterns updated. Workspace mirror still surfacing the pre-existing <b>HOSTKEY 194.85.251 DEDIK 176.65.144</b> pipeline (separate operator family, see Campaigns tab).
+            <span style="color:var(--red)">NEW:</span> <b>oracle.zzhreceive.top</b> &mdash; cryptominer dropper via Redis crontab injection on .130. Attacker on Mullvad VPN (146.70.52.14).
           </div>
         </div>
       </div>
