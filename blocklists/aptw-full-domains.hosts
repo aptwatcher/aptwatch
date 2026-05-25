@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-25 00:34:58
-# Entries: 525907
+# Generated: 2026-05-25 01:34:12
+# Entries: 525908
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -47709,6 +47709,7 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
+0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -212548,6 +212549,7 @@
 0.0.0.0 down.bybitpro.construction
 0.0.0.0 down.dedspac.ru
 0.0.0.0 down.feiyang163.com
+0.0.0.0 down.fwqlt.com
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
@@ -244497,7 +244499,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -249320,7 +249321,6 @@
 0.0.0.0 forwardtateful.com
 0.0.0.0 forwardtechnology.artisanada.com
 0.0.0.0 forwardwithopportunities.co.vu
-0.0.0.0 forxtra.com
 0.0.0.0 foryou-get83.cf
 0.0.0.0 foryouaccounedbased.ct.ws
 0.0.0.0 foryoupagebyus.vercel.app
@@ -249415,7 +249415,6 @@
 0.0.0.0 fotopoz.com
 0.0.0.0 fotoproductinsta.com
 0.0.0.0 fotoschuppen.net
-0.0.0.0 fotosdepuebla.org
 0.0.0.0 fotosdevestidosdenovias.com
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
@@ -344957,7 +344956,6 @@
 0.0.0.0 maajqozvhezgazia-dot-millinium.ey.r.appspot.com
 0.0.0.0 maakabhsdagvka.b-cdn.net
 0.0.0.0 maakichutduniyavaloki.b-cdn.net
-0.0.0.0 maalamin.sch.id
 0.0.0.0 maalim.xyz
 0.0.0.0 maalloys.com.my
 0.0.0.0 maalselvbygg.no
@@ -419361,6 +419359,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -426770,6 +426769,7 @@
 0.0.0.0 prodigyfashion.es
 0.0.0.0 prodigynetlogss.weebly.com
 0.0.0.0 prodigysigninattsm.weebly.com
+0.0.0.0 prodimetal.com
 0.0.0.0 prodjs.wpenginepowered.com
 0.0.0.0 prodoctransfs.com
 0.0.0.0 prodok1002.best
@@ -427474,6 +427474,7 @@
 0.0.0.0 project2c-f307c.firebaseapp.com
 0.0.0.0 project2e-64ba9.firebaseapp.com
 0.0.0.0 project2portable12.pages.dev
+0.0.0.0 project360.hr
 0.0.0.0 project3781608.tilda.ws
 0.0.0.0 project3b-1920f.web.app
 0.0.0.0 project3e-a21a9.firebaseapp.com
@@ -461247,6 +461248,7 @@
 0.0.0.0 sanjay048.github.io
 0.0.0.0 sanjay9909.github.io
 0.0.0.0 sanjaydevloper.github.io
+0.0.0.0 sanjaydharmraj.in
 0.0.0.0 sanjaygowda23.github.io
 0.0.0.0 sanjaypal04.github.io
 0.0.0.0 sanjayvvarma.github.io
@@ -499298,7 +499300,6 @@
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
 0.0.0.0 www.benowe.shop
-0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benulekaren-sale.sbs
 0.0.0.0 www.benulekaren.co
