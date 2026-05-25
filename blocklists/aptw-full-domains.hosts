@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-25 06:31:16
-# Entries: 525913
+# Generated: 2026-05-25 12:34:17
+# Entries: 525909
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -146939,6 +146939,7 @@
 0.0.0.0 blackmountaintrans.com
 0.0.0.0 blackmuseums.org
 0.0.0.0 blackneckfireplace.org
+0.0.0.0 blacknigger.boo
 0.0.0.0 blackopera.live
 0.0.0.0 blackoutblur.buzz
 0.0.0.0 blackoutsyndrome.com
@@ -174729,7 +174730,6 @@
 0.0.0.0 chugchugchak.pages.dev
 0.0.0.0 chugging.matsuro.ru
 0.0.0.0 chugs.ulitron.ru
-0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chujdrtuityui.mydiscussion.net
 0.0.0.0 chuje.virosat.ru
 0.0.0.0 chukajoseph99.github.io
@@ -207579,7 +207579,6 @@
 0.0.0.0 digitalnodeservexyz.pages.dev
 0.0.0.0 digitalnotions.biz
 0.0.0.0 digitaloceans.sgp1.digitaloceanspaces.com
-0.0.0.0 digitalonline.cl
 0.0.0.0 digitalpaper.info
 0.0.0.0 digitalprimacy.com
 0.0.0.0 digitalprinceton.com
@@ -219031,6 +219030,7 @@
 0.0.0.0 echosdecole.com
 0.0.0.0 echotaitung.net
 0.0.0.0 echovalley.fit
+0.0.0.0 echovoicemod.fun
 0.0.0.0 echt.ulitron.ru
 0.0.0.0 echunesa.myiphost.com
 0.0.0.0 echwitmeosrbymnv-dot-millinium.ey.r.appspot.com
@@ -244500,6 +244500,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -266519,7 +266520,6 @@
 0.0.0.0 grebyar.nfvoucher.com
 0.0.0.0 grece.dedspac.ru
 0.0.0.0 greco.ulitron.ru
-0.0.0.0 grecokitchens.com
 0.0.0.0 grecom.gt
 0.0.0.0 grecotitle.hideoutco.com
 0.0.0.0 greddoiheicreillu-5946.vercel.app
@@ -319065,6 +319065,7 @@
 0.0.0.0 kevlaardiet.fr
 0.0.0.0 kevlarclint.github.io
 0.0.0.0 kevlinskkdkd.com
+0.0.0.0 kevtel.com
 0.0.0.0 kevtrion.com
 0.0.0.0 kewaowieurdff.weebly.com
 0.0.0.0 keweejuana.com
@@ -378622,7 +378623,6 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
-0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -426772,7 +426772,6 @@
 0.0.0.0 prodigyfashion.es
 0.0.0.0 prodigynetlogss.weebly.com
 0.0.0.0 prodigysigninattsm.weebly.com
-0.0.0.0 prodimetal.com
 0.0.0.0 prodjs.wpenginepowered.com
 0.0.0.0 prodoctransfs.com
 0.0.0.0 prodok1002.best
@@ -427477,7 +427476,6 @@
 0.0.0.0 project2c-f307c.firebaseapp.com
 0.0.0.0 project2e-64ba9.firebaseapp.com
 0.0.0.0 project2portable12.pages.dev
-0.0.0.0 project360.hr
 0.0.0.0 project3781608.tilda.ws
 0.0.0.0 project3b-1920f.web.app
 0.0.0.0 project3e-a21a9.firebaseapp.com
@@ -461251,7 +461249,6 @@
 0.0.0.0 sanjay048.github.io
 0.0.0.0 sanjay9909.github.io
 0.0.0.0 sanjaydevloper.github.io
-0.0.0.0 sanjaydharmraj.in
 0.0.0.0 sanjaygowda23.github.io
 0.0.0.0 sanjaypal04.github.io
 0.0.0.0 sanjayvvarma.github.io
@@ -469824,7 +469821,6 @@
 0.0.0.0 sonibaconsultant.com
 0.0.0.0 sonic-0101.github.io
 0.0.0.0 sonic-us.supersonicads.com
-0.0.0.0 soniderosunidos.com
 0.0.0.0 sonidoa.pro
 0.0.0.0 sonik.hopto.org
 0.0.0.0 soniksports.fr
@@ -482516,6 +482512,7 @@
 0.0.0.0 transactionally.amaniwa.ru
 0.0.0.0 transactionally.bibliota.ru
 0.0.0.0 transafore.cyou
+0.0.0.0 transalpinafan.ro
 0.0.0.0 transcendenczzycacomistles.business
 0.0.0.0 transcendent-marshmallow-12d88f.netlify.app
 0.0.0.0 transcriptionally.amaniwa.ru
@@ -499304,7 +499301,6 @@
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
 0.0.0.0 www.benowe.shop
-0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benulekaren-sale.sbs
 0.0.0.0 www.benulekaren.co
