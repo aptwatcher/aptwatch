@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-24 18:31:27
-# Entries: 525878
+# Generated: 2026-05-25 00:34:58
+# Entries: 525907
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -28099,6 +28099,7 @@
 0.0.0.0 58ef1ecb.voag.cn
 0.0.0.0 58hde.vip
 0.0.0.0 58jblm.com
+0.0.0.0 58knxotz.proxy-compass.digital
 0.0.0.0 58np50pjmc4gkjgzddrlofsgedt.qwo231sdx.club
 0.0.0.0 58putzxsmtemwytfds21eqzofgrta.qwo231sdx.club
 0.0.0.0 58y.131.mywebsitetransfer.com
@@ -88273,6 +88274,7 @@
 0.0.0.0 api-logdev.sohatv.vn
 0.0.0.0 api-maxit.orange-maroc.net
 0.0.0.0 api-metamask.online
+0.0.0.0 api-metrics-6258.com
 0.0.0.0 api-n.outgrow.co
 0.0.0.0 api-new.sanzzz27.xyz
 0.0.0.0 api-noderepair.pages.dev
@@ -99523,6 +99525,7 @@
 0.0.0.0 arrrbancabip.webcindario.com
 0.0.0.0 arrthiprojects.in
 0.0.0.0 arrtistic.com
+0.0.0.0 arrtom.followyourjoy.hu
 0.0.0.0 arrudazeitunlian.com.br
 0.0.0.0 arrvaptmtflonce.com
 0.0.0.0 arry.matsuro.ru
@@ -103233,6 +103236,7 @@
 0.0.0.0 astraalimentos.com.br
 0.0.0.0 astraderecpetionactivpass.cu93366.tmweb.ru
 0.0.0.0 astradesecupassagricolregional.cm81890.tmweb.ru
+0.0.0.0 astradomain.com
 0.0.0.0 astradome.firmanolikra.com
 0.0.0.0 astrafertility.com
 0.0.0.0 astragalus.xyz
@@ -155085,6 +155089,7 @@
 0.0.0.0 brenovirax24.com
 0.0.0.0 brenoviraxa365.com
 0.0.0.0 brenovitara.com
+0.0.0.0 brenowblyuk.com
 0.0.0.0 brent-baldwin.com
 0.0.0.0 brent.matsuro.ru
 0.0.0.0 brent.ulitron.ru
@@ -191887,7 +191892,6 @@
 0.0.0.0 cryobiologically.ruhodo.ru
 0.0.0.0 cryoneticc.vercel.app
 0.0.0.0 cryos-labs-at4.pages.dev
-0.0.0.0 cryoshield.co.za
 0.0.0.0 crypitoswecumlogin.webflow.io
 0.0.0.0 crypotonlgonin.webflow.io
 0.0.0.0 crypt-ledger-live-login.vercel.app
@@ -199003,6 +199007,7 @@
 0.0.0.0 dburkepipe.dogfriendlytahoe.com
 0.0.0.0 dbuslfxrtfynoeqo-dot-millinium.ey.r.appspot.com
 0.0.0.0 dbvj.dimetra.info
+0.0.0.0 dbvxnw.fullnrg.hu
 0.0.0.0 dbw69db8w10.tulisku.my.id
 0.0.0.0 dbwge.blogspot.li
 0.0.0.0 dbwgh.blogspot.sn
@@ -215997,6 +216002,7 @@
 0.0.0.0 dxrtszefcgchbms11.pages.dev
 0.0.0.0 dxrwbh.ml
 0.0.0.0 dxsale-app.pages.dev
+0.0.0.0 dxsdji.felhangolo.com
 0.0.0.0 dxsffdshawwebmail23.square.site
 0.0.0.0 dxsyhrbnjd.duckdns.org
 0.0.0.0 dxt8tnld7.richardl.xyz
@@ -246331,6 +246337,7 @@
 0.0.0.0 fkljlfdfddkfldfg.tk
 0.0.0.0 fkly7btejl.monitorminor.com.tr
 0.0.0.0 fklzyiles.np9q2f3.sbs
+0.0.0.0 fkmrx4nm.signal-meridian.digital
 0.0.0.0 fkmzzjj.duckdns.org
 0.0.0.0 fknfof.ktt55.my.id
 0.0.0.0 fknych.qvxht.xyz
@@ -249313,6 +249320,7 @@
 0.0.0.0 forwardtateful.com
 0.0.0.0 forwardtechnology.artisanada.com
 0.0.0.0 forwardwithopportunities.co.vu
+0.0.0.0 forxtra.com
 0.0.0.0 foryou-get83.cf
 0.0.0.0 foryouaccounedbased.ct.ws
 0.0.0.0 foryoupagebyus.vercel.app
@@ -249407,6 +249415,7 @@
 0.0.0.0 fotopoz.com
 0.0.0.0 fotoproductinsta.com
 0.0.0.0 fotoschuppen.net
+0.0.0.0 fotosdepuebla.org
 0.0.0.0 fotosdevestidosdenovias.com
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
@@ -264752,7 +264761,6 @@
 0.0.0.0 gossamer-plain-perigee.glitch.me
 0.0.0.0 gossamerbio.corporacionfrm.org
 0.0.0.0 gossamerstart.info
-0.0.0.0 gossipband.ie
 0.0.0.0 gossipbottom.com
 0.0.0.0 gossipcenter.us.intellitxt.com
 0.0.0.0 gossiponthis.us.intellitxt.com
@@ -265793,6 +265801,7 @@
 0.0.0.0 gpymachinetools.com
 0.0.0.0 gpzwladof.goruli.com
 0.0.0.0 gq.elitoras.ru
+0.0.0.0 gq0e2dm9.kernel-beacon.digital
 0.0.0.0 gq18765.p-gq.xyz
 0.0.0.0 gqasib.cn
 0.0.0.0 gqaxigeajz.duckdns.org
@@ -284712,6 +284721,7 @@
 0.0.0.0 homeidiolcreative.weebly.com
 0.0.0.0 homeinboxlogin.com
 0.0.0.0 homeinboxmenu.com
+0.0.0.0 homeinspectionnaperville.com
 0.0.0.0 homeishere.co
 0.0.0.0 homeklant.iraqts.com
 0.0.0.0 homelands.com.pk
@@ -286496,6 +286506,7 @@
 0.0.0.0 hqarusyzulhecfsf-dot-millinium.ey.r.appspot.com
 0.0.0.0 hqbbbyy5lxk.richardl.xyz
 0.0.0.0 hqcc6jgw.firebaseapp.com
+0.0.0.0 hqcmiiiu.cloud-orbit.digital
 0.0.0.0 hqcwrfoclnvaahzdzwltaitcoyalptvbbhre-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 hqcyrwobmlskv.ink
 0.0.0.0 hqcyrwobmlskv.love
@@ -292319,6 +292330,7 @@
 0.0.0.0 ieee.adbureau.net
 0.0.0.0 ieee.ulitron.ru
 0.0.0.0 ieeemaster.com
+0.0.0.0 ieeljt.fittkor.hu
 0.0.0.0 ieflafloresta.ivanjespitia.com
 0.0.0.0 ieg.com.pk
 0.0.0.0 ieginc.com
@@ -308814,6 +308826,7 @@
 0.0.0.0 jgkjsdflkscmaslakdsfds.com
 0.0.0.0 jgkrelzxaqiw.co.vu
 0.0.0.0 jgkrugeirghu97rgy9gero.pages.dev
+0.0.0.0 jgkvlq.fulop-vargafanni.hu
 0.0.0.0 jgl.microad.net
 0.0.0.0 jgllamldyhenowxg-dot-millinium.ey.r.appspot.com
 0.0.0.0 jgnatii.space
@@ -319342,6 +319355,7 @@
 0.0.0.0 kgyjfandqhprcbvf-dot-millinium.ey.r.appspot.com
 0.0.0.0 kgypcrqgyefhesqb-dot-millinium.ey.r.appspot.com
 0.0.0.0 kgyzbych.wcnv20.cn
+0.0.0.0 kgztgu.fortunalamella.hu
 0.0.0.0 kh-578.pages.dev
 0.0.0.0 kh-bw-lq-u6-qc-24a4qt1u-u9v0op-sq-y.vercel.app
 0.0.0.0 kh.best-inc.top
@@ -319931,6 +319945,7 @@
 0.0.0.0 kimbucket54.s3.eu-de.cloud-object-storage.appdomain.cloud
 0.0.0.0 kimclarkwriter.com
 0.0.0.0 kimcuonggarena.com
+0.0.0.0 kimfeg.fusionizemanagement.com
 0.0.0.0 kimfennell.com
 0.0.0.0 kimhyun1023-wixsite-com.filesusr.com
 0.0.0.0 kimi-bucket-new123.s3.eu-de.cloud-object-storage.appdomain.cloud
@@ -344942,6 +344957,7 @@
 0.0.0.0 maajqozvhezgazia-dot-millinium.ey.r.appspot.com
 0.0.0.0 maakabhsdagvka.b-cdn.net
 0.0.0.0 maakichutduniyavaloki.b-cdn.net
+0.0.0.0 maalamin.sch.id
 0.0.0.0 maalim.xyz
 0.0.0.0 maalloys.com.my
 0.0.0.0 maalselvbygg.no
@@ -356174,6 +356190,7 @@
 0.0.0.0 mcpin.com.ar
 0.0.0.0 mcplanfpvfcf0pf0vf0vvpp0vf00f0.fra1.cdn.digitaloceanspaces.com
 0.0.0.0 mcprod.americanexpressseguros.com
+0.0.0.0 mcq9ktcv.telemetry-nexus.digital
 0.0.0.0 mcqsbunch.com
 0.0.0.0 mcqwins.com
 0.0.0.0 mcr-0sft3-iugui.ondigitalocean.app
@@ -381180,6 +381197,7 @@
 0.0.0.0 n4403ad.doubleclick.net
 0.0.0.0 n479ad.doubleclick.net
 0.0.0.0 n49qunup6sjt74ir21zhpjx9s4.ymibox.xyz
+0.0.0.0 n4burrgj.runtime-cascade.digital
 0.0.0.0 n4gtu2.webwave.dev
 0.0.0.0 n4itr0-07.github.io
 0.0.0.0 n4kpoby8alj.mycompanyportal.xyz
@@ -392662,6 +392680,7 @@
 0.0.0.0 npttech.com
 0.0.0.0 nptvpypxnuxxvjuu-dot-millinium.ey.r.appspot.com
 0.0.0.0 npudc.org
+0.0.0.0 npukpk.fodraszoktatas.eu
 0.0.0.0 npurysoedxdlywdl-dot-millinium.ey.r.appspot.com
 0.0.0.0 nputn-vaaaa-aaaad-qdpga-cai.raw.ic0.app
 0.0.0.0 npuurbxxmb.duckdns.org
@@ -392729,6 +392748,7 @@
 0.0.0.0 nqulvhajfbmm.top
 0.0.0.0 nqv7nfu1z.metanat.ru
 0.0.0.0 nqver.ddns.net
+0.0.0.0 nqvfew.flybuilt.eu
 0.0.0.0 nqwaciyryyuhhslc-dot-millinium.ey.r.appspot.com
 0.0.0.0 nqwonmhcugyniwbfaqirgprrvcwlcmbiacry.cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 nqzoyvrhjrnhvfes-dot-millinium.ey.r.appspot.com
@@ -403284,6 +403304,7 @@
 0.0.0.0 orbitervalidatedao.pages.dev
 0.0.0.0 orbitervao.pages.dev
 0.0.0.0 orbitron.finance
+0.0.0.0 orbitstride7.com
 0.0.0.0 orbittourism.in
 0.0.0.0 orbitwaliv.pages.dev
 0.0.0.0 orbitwavenet.com
@@ -439576,6 +439597,7 @@
 0.0.0.0 qsvgr.blogspot.bg
 0.0.0.0 qsvgr.blogspot.lu
 0.0.0.0 qsxbeecrlm.duckdns.org
+0.0.0.0 qsxrao.flybuilt.hu
 0.0.0.0 qsy1.wozcq.com
 0.0.0.0 qsycg.com
 0.0.0.0 qsyewzabfoijylgugrypsbmrox-dot-gl099898987fhkl.uk.r.appspot.com
@@ -482719,6 +482741,7 @@
 0.0.0.0 trejorio-walet.webflow.io
 0.0.0.0 trejorrr-suiefd389.netlify.app
 0.0.0.0 trejurletwalt.webflow.io
+0.0.0.0 trejzg.femeso.hu
 0.0.0.0 trek.ulitron.ru
 0.0.0.0 trekdata.com
 0.0.0.0 trekmedia.net
@@ -488505,6 +488528,7 @@
 0.0.0.0 uu.edu.et
 0.0.0.0 uu1615.com
 0.0.0.0 uudaix10.xn--grena-v11b.vn
+0.0.0.0 uudiolsq.packet-frontier.digital
 0.0.0.0 uueroruuura-8mr1cub6vv.edgeone.app
 0.0.0.0 uuiq-casefb399623.vercel.app
 0.0.0.0 uukkrr.net
@@ -491518,6 +491542,7 @@
 0.0.0.0 vungle.com.edgekey.net
 0.0.0.0 vunzekon59h586.weebly.com
 0.0.0.0 vuuel.com
+0.0.0.0 vuvwlz.fluss.hu
 0.0.0.0 vuzomio.pro
 0.0.0.0 vv23-0ut0280390923-vci-acc-develop23092903.vercel.app
 0.0.0.0 vvd.bz
@@ -496045,6 +496070,7 @@
 0.0.0.0 wwfsable.com
 0.0.0.0 wwhhaattaapm.vip
 0.0.0.0 wwjdhosting.com
+0.0.0.0 wwkgzd.flybuiltstudio.com
 0.0.0.0 wwm-wahst5pp.com
 0.0.0.0 wwnc.xyz
 0.0.0.0 wwr-magazineluiza.com
@@ -499272,6 +499298,7 @@
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
 0.0.0.0 www.benowe.shop
+0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benulekaren-sale.sbs
 0.0.0.0 www.benulekaren.co
@@ -522801,6 +522828,7 @@
 0.0.0.0 xd456.xyz
 0.0.0.0 xdcs-collector.ximalaya.com
 0.0.0.0 xdebiiot.shop
+0.0.0.0 xdfbko.feszt360.hu
 0.0.0.0 xdgkt.com
 0.0.0.0 xdire.heyskip.com
 0.0.0.0 xdjhkdxnc.weebly.com
@@ -525610,6 +525638,7 @@
 0.0.0.0 zoom.web-interviews.live
 0.0.0.0 zoomailer.org
 0.0.0.0 zoomblueberry.sacredknowledgedoulacare.com
+0.0.0.0 zoominviteeees.de
 0.0.0.0 zoommeeting.zone
 0.0.0.0 zoommruby.essentialwisdomcoaching.com
 0.0.0.0 zoomovies.org
