@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-25 06:01:28
-# Entries: 525912
+# Generated: 2026-05-25 06:31:16
+# Entries: 525913
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -207579,6 +207579,7 @@
 0.0.0.0 digitalnodeservexyz.pages.dev
 0.0.0.0 digitalnotions.biz
 0.0.0.0 digitaloceans.sgp1.digitaloceanspaces.com
+0.0.0.0 digitalonline.cl
 0.0.0.0 digitalpaper.info
 0.0.0.0 digitalprimacy.com
 0.0.0.0 digitalprinceton.com
