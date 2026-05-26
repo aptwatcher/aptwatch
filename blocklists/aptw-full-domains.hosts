@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-26 00:34:28
-# Entries: 525966
+# Generated: 2026-05-26 06:03:39
+# Entries: 525965
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -147556,7 +147556,6 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
-0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -174741,7 +174740,6 @@
 0.0.0.0 chugchugchak.pages.dev
 0.0.0.0 chugging.matsuro.ru
 0.0.0.0 chugs.ulitron.ru
-0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chujdrtuityui.mydiscussion.net
 0.0.0.0 chuje.virosat.ru
 0.0.0.0 chukajoseph99.github.io
@@ -207529,6 +207527,7 @@
 0.0.0.0 digitalbusiness.sa.com
 0.0.0.0 digitalcertificate-update.online
 0.0.0.0 digitalcloudq.buzz
+0.0.0.0 digitalcode.sa
 0.0.0.0 digitalcommunityservices.com
 0.0.0.0 digitalconcept.pro
 0.0.0.0 digitalconexao.tk
@@ -249142,6 +249141,7 @@
 0.0.0.0 forresterconstruct.com
 0.0.0.0 forrestgamache.info
 0.0.0.0 forrodokomeketo.agenciainnova.com.br
+0.0.0.0 forsalenear.me
 0.0.0.0 forsan.nusratelsunnah.com
 0.0.0.0 forscript.midaschange.my.id
 0.0.0.0 forsdesign.net
@@ -263502,7 +263502,6 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -369044,7 +369043,6 @@
 0.0.0.0 misionesinfo.com
 0.0.0.0 misionhome-agric.hostkda.com
 0.0.0.0 misionweb.net
-0.0.0.0 miskolc-dugulaselharitas.hu
 0.0.0.0 misky.dedspac.ru
 0.0.0.0 mislikfferimrock.info
 0.0.0.0 mismaaiauuipymfhlepjgurpjulmtyqxlmrv-dot-gl494903049.wl.r.appspot.com
@@ -419394,7 +419392,6 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
-0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -467112,6 +467109,7 @@
 0.0.0.0 shredform.com
 0.0.0.0 shredova.ru
 0.0.0.0 shreenath1696.github.io
+0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
@@ -482392,6 +482390,7 @@
 0.0.0.0 tradedealvip.su
 0.0.0.0 tradedoubler.com
 0.0.0.0 tradedoubler.sonvideopro.com
+0.0.0.0 tradedsglobal.com
 0.0.0.0 tradeduac.ai
 0.0.0.0 tradeexchanging.com
 0.0.0.0 tradefocus.com.au
