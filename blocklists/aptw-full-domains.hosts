@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-26 06:30:57
+# Generated: 2026-05-26 12:32:00
 # Entries: 525966
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -174740,6 +174740,7 @@
 0.0.0.0 chugchugchak.pages.dev
 0.0.0.0 chugging.matsuro.ru
 0.0.0.0 chugs.ulitron.ru
+0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chujdrtuityui.mydiscussion.net
 0.0.0.0 chuje.virosat.ru
 0.0.0.0 chukajoseph99.github.io
@@ -207527,7 +207528,6 @@
 0.0.0.0 digitalbusiness.sa.com
 0.0.0.0 digitalcertificate-update.online
 0.0.0.0 digitalcloudq.buzz
-0.0.0.0 digitalcode.sa
 0.0.0.0 digitalcommunityservices.com
 0.0.0.0 digitalconcept.pro
 0.0.0.0 digitalconexao.tk
@@ -223171,6 +223171,7 @@
 0.0.0.0 emotionduvin.be
 0.0.0.0 emotionjohn.com
 0.0.0.0 emotionoftime.com
+0.0.0.0 emoto.mk
 0.0.0.0 emotrash.net
 0.0.0.0 emp-game.com
 0.0.0.0 empackaged.sa.com
@@ -249142,7 +249143,6 @@
 0.0.0.0 forresterconstruct.com
 0.0.0.0 forrestgamache.info
 0.0.0.0 forrodokomeketo.agenciainnova.com.br
-0.0.0.0 forsalenear.me
 0.0.0.0 forsan.nusratelsunnah.com
 0.0.0.0 forscript.midaschange.my.id
 0.0.0.0 forsdesign.net
@@ -263503,7 +263503,6 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -465880,6 +465879,7 @@
 0.0.0.0 servicio.generatusolicitud-online.site
 0.0.0.0 serviciodelwebclientes.cloudaccess.host
 0.0.0.0 serviciopostal.vip
+0.0.0.0 servicioslogisticosdyc.com
 0.0.0.0 serviciospatito.com
 0.0.0.0 serviciotecnico.com.uy
 0.0.0.0 serviciotrackwp.sviluppo.host
