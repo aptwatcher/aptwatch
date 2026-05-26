@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-26 12:32:00
-# Entries: 525966
+# Generated: 2026-05-26 18:34:27
+# Entries: 525978
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -33453,6 +33453,7 @@
 0.0.0.0 6rjg6-ciaaa-aaaad-qeydq-cai.raw.ic0.app
 0.0.0.0 6rwgrjhaqm.7.sabina.world
 0.0.0.0 6rwsonyeaohkatranggueik.my.id
+0.0.0.0 6ryuefl.creativecommunityinfo.art
 0.0.0.0 6rzgvsyryyj0yyzyzpj9zc.qwo231sdx.club
 0.0.0.0 6s-chase.com
 0.0.0.0 6s40xi.betohacker.com
@@ -47711,7 +47712,6 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
-0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -137766,6 +137766,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -174740,7 +174741,6 @@
 0.0.0.0 chugchugchak.pages.dev
 0.0.0.0 chugging.matsuro.ru
 0.0.0.0 chugs.ulitron.ru
-0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chujdrtuityui.mydiscussion.net
 0.0.0.0 chuje.virosat.ru
 0.0.0.0 chukajoseph99.github.io
@@ -190921,6 +190921,7 @@
 0.0.0.0 creativecloudri.pages.dev
 0.0.0.0 creativecom.info
 0.0.0.0 creativecombat.com
+0.0.0.0 creativecommunityinfo.art
 0.0.0.0 creativecomputers.com.au
 0.0.0.0 creativecontent.com.br
 0.0.0.0 creativecory.ca
@@ -223171,7 +223172,6 @@
 0.0.0.0 emotionduvin.be
 0.0.0.0 emotionjohn.com
 0.0.0.0 emotionoftime.com
-0.0.0.0 emoto.mk
 0.0.0.0 emotrash.net
 0.0.0.0 emp-game.com
 0.0.0.0 empackaged.sa.com
@@ -224532,6 +224532,7 @@
 0.0.0.0 enhance-config.fgl.com
 0.0.0.0 enhance-update-selftools-service.com
 0.0.0.0 enhance.genieesspv.jp
+0.0.0.0 enhanceblabber.cc
 0.0.0.0 enhancebreastenlargement.com
 0.0.0.0 enhanced-upgrade.ddns.net
 0.0.0.0 enhancedsecurrewebchasecom.000webhostapp.com
@@ -236810,6 +236811,7 @@
 0.0.0.0 fairm.dedspac.ru
 0.0.0.0 fairmarttrading.com
 0.0.0.0 fairplaysite.shop
+0.0.0.0 fairpoint29.com
 0.0.0.0 fairpollan.build067.wpsandbox.app
 0.0.0.0 fairpumps.site
 0.0.0.0 fairpumps.website
@@ -304266,6 +304268,7 @@
 0.0.0.0 it6aucoindexfi.c1.biz
 0.0.0.0 it8txi5.ml
 0.0.0.0 ita-acesso-promo.tk
+0.0.0.0 ita-airwaysva.com
 0.0.0.0 ita-pontos-combr.ezpz.work
 0.0.0.0 ita-u-com.umbler.net
 0.0.0.0 ita.amaniwa.ru
@@ -328034,6 +328037,7 @@
 0.0.0.0 lava.amaniwa.ru
 0.0.0.0 lava.boletuso.ru
 0.0.0.0 lava.ulitron.ru
+0.0.0.0 lavacolla.com
 0.0.0.0 lavadump.info
 0.0.0.0 lavaenseco.com.ar
 0.0.0.0 lavaflow.cf
@@ -346075,6 +346079,7 @@
 0.0.0.0 magnumalsa0910201.weeblysite.com
 0.0.0.0 magnumbd.com
 0.0.0.0 magnumwallet.su
+0.0.0.0 magnusworkspace.com
 0.0.0.0 magodontologia.com.br
 0.0.0.0 magogcaskets.com
 0.0.0.0 magot.ulitron.ru
@@ -377316,6 +377321,7 @@
 0.0.0.0 mx74.prueba.site
 0.0.0.0 mx7w33.shop
 0.0.0.0 mx888.vip
+0.0.0.0 mx9x.com
 0.0.0.0 mxapp46.com
 0.0.0.0 mxaps.appsempresa.ga
 0.0.0.0 mxardxisqmsl.top
@@ -378648,6 +378654,7 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
+0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -419393,6 +419400,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -425768,6 +425776,7 @@
 0.0.0.0 primemania.shop
 0.0.0.0 primemensfitness.112.2o7.net
 0.0.0.0 primemeridiandata.com
+0.0.0.0 primemetricsa.com
 0.0.0.0 primemotion.shop
 0.0.0.0 primemotive.shop
 0.0.0.0 primeoffermainpage.com
@@ -451691,6 +451700,7 @@
 0.0.0.0 rider.virosat.ru
 0.0.0.0 rider2711.github.io
 0.0.0.0 rideranalyzer.cloud
+0.0.0.0 riderspin.com
 0.0.0.0 ridetaxivail.com
 0.0.0.0 ridethecable.com
 0.0.0.0 ridetv.com-rlstzwq2vk0dvfn13ngq.rlstzwq2vk0dvfn13ngq.manxttrider.com
@@ -465879,7 +465889,6 @@
 0.0.0.0 servicio.generatusolicitud-online.site
 0.0.0.0 serviciodelwebclientes.cloudaccess.host
 0.0.0.0 serviciopostal.vip
-0.0.0.0 servicioslogisticosdyc.com
 0.0.0.0 serviciospatito.com
 0.0.0.0 serviciotecnico.com.uy
 0.0.0.0 serviciotrackwp.sviluppo.host
@@ -476126,6 +476135,7 @@
 0.0.0.0 swiftcr.live
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -499353,6 +499363,7 @@
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
 0.0.0.0 www.benowe.shop
+0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benulekaren-sale.sbs
 0.0.0.0 www.benulekaren.co
@@ -524653,6 +524664,7 @@
 0.0.0.0 yvu.waapd.icu
 0.0.0.0 yvx-wswhatsapp.cc
 0.0.0.0 yvxjsixn.eu
+0.0.0.0 yw.enhanceblabber.cc
 0.0.0.0 ywcccapstone.com
 0.0.0.0 ywef.github.io
 0.0.0.0 ywetgfs.duckdns.org
