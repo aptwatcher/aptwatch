@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-26 06:03:39
-# Entries: 525965
+# Generated: 2026-05-26 06:30:57
+# Entries: 525966
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -242248,6 +242248,7 @@
 0.0.0.0 fem-staffservice.ssl-lolipop.jp
 0.0.0.0 fem.bortogat.ru
 0.0.0.0 fem4rnd.com
+0.0.0.0 femade.co.uk
 0.0.0.0 femal3bk.com
 0.0.0.0 female-band.surge.sh
 0.0.0.0 female-v.1.p2l.info
@@ -263502,6 +263503,7 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -467109,7 +467111,6 @@
 0.0.0.0 shredform.com
 0.0.0.0 shredova.ru
 0.0.0.0 shreenath1696.github.io
-0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
