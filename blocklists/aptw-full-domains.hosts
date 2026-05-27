@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-27 15:19:39
-# Entries: 526009
+# Generated: 2026-05-27 18:30:35
+# Entries: 526010
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -482636,6 +482636,7 @@
 0.0.0.0 transporampsf.com
 0.0.0.0 transportdienst.netsons.org
 0.0.0.0 transported.gloritapa.ru
+0.0.0.0 transporteloggi.com
 0.0.0.0 transpower.directsmailsolution.com
 0.0.0.0 transprint.akinot.ru
 0.0.0.0 transsongb.cyou
