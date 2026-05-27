@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-27 01:50:17
-# Entries: 526015
+# Generated: 2026-05-27 06:02:14
+# Entries: 526010
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -147566,7 +147566,6 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
-0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -212809,6 +212808,7 @@
 0.0.0.0 dpagcoagcoglobal.112.2o7.net
 0.0.0.0 dpanel.fefetrans.ro
 0.0.0.0 dpanel.vetactivity.ro
+0.0.0.0 dparagons.com
 0.0.0.0 dpasdasfasfasfas.pages.dev
 0.0.0.0 dpawtilexozxbpau-dot-millinium.ey.r.appspot.com
 0.0.0.0 dpb-online.com
@@ -283685,7 +283685,6 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
-0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -306668,7 +306667,6 @@
 0.0.0.0 jalandharpolice.com
 0.0.0.0 jalanmania.com
 0.0.0.0 jaldorentex24.com
-0.0.0.0 jalebel7abeb.com
 0.0.0.0 jalfre.com
 0.0.0.0 jalgaonkaraakansha78-crypto.github.io
 0.0.0.0 jaliscoctm.org
@@ -476165,7 +476163,6 @@
 0.0.0.0 swiftcr.live
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -478403,7 +478400,6 @@
 0.0.0.0 techarch.us
 0.0.0.0 techbargins.com
 0.0.0.0 techbroslop.com
-0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techchella.live
@@ -525742,7 +525738,6 @@
 0.0.0.0 zoom-call29072025callerid9237xzue07930conference-secured.s3-bkk.nipa.cloud
 0.0.0.0 zoom.dedspac.ru
 0.0.0.0 zoom.readyex-eg.com
-0.0.0.0 zoom.web-interviews.live
 0.0.0.0 zoomailer.org
 0.0.0.0 zoomblueberry.sacredknowledgedoulacare.com
 0.0.0.0 zoommeeting.zone
