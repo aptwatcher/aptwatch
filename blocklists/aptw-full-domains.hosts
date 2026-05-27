@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-27 06:34:47
-# Entries: 526010
+# Generated: 2026-05-27 12:30:34
+# Entries: 526016
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32917,6 +32917,7 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
+0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -147566,6 +147567,7 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
+0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -263522,7 +263524,6 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -283685,6 +283686,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -336171,6 +336173,7 @@
 0.0.0.0 lmknbg7gnv.ga
 0.0.0.0 lmkw.azurewebsites.net
 0.0.0.0 lmkxnmjhpsxvqijr-dot-millinium.ey.r.appspot.com
+0.0.0.0 lmlawcorp.com
 0.0.0.0 lmlcas.com
 0.0.0.0 lmlenzitrasporti.com
 0.0.0.0 lmlragfqqjmmjxaf-dot-millinium.ey.r.appspot.com
@@ -416044,6 +416047,7 @@
 0.0.0.0 photobattle.xyz
 0.0.0.0 photobattle59.ru
 0.0.0.0 photoblog.ie
+0.0.0.0 photobookadm.pro
 0.0.0.0 photoboothboston.net
 0.0.0.0 photobox-tracking.adalyser.com
 0.0.0.0 photobucket.adnxs.com
@@ -447960,6 +447964,7 @@
 0.0.0.0 remoterecruitment.teamtailor.com
 0.0.0.0 remoteshields.com
 0.0.0.0 remotinglivefix.pages.dev
+0.0.0.0 remoto.ddins.click
 0.0.0.0 remous.fr
 0.0.0.0 removal-ads-warning-8893b.firebaseapp.com
 0.0.0.0 removal-fb-4f5l075jl4jjz.adaz.hu
@@ -451724,6 +451729,7 @@
 0.0.0.0 rider.virosat.ru
 0.0.0.0 rider2711.github.io
 0.0.0.0 rideranalyzer.cloud
+0.0.0.0 riderspin.com
 0.0.0.0 ridetaxivail.com
 0.0.0.0 ridethecable.com
 0.0.0.0 ridetv.com-rlstzwq2vk0dvfn13ngq.rlstzwq2vk0dvfn13ngq.manxttrider.com
@@ -462776,7 +462782,6 @@
 0.0.0.0 sattota.com
 0.0.0.0 sattvadoshi.github.io
 0.0.0.0 satu277-vip1.shop
-0.0.0.0 satuatlas.com
 0.0.0.0 satuosrdaysa07.co.vu
 0.0.0.0 satura.pl
 0.0.0.0 saturapa.ru
@@ -467146,7 +467151,6 @@
 0.0.0.0 shredform.com
 0.0.0.0 shredova.ru
 0.0.0.0 shreenath1696.github.io
-0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
@@ -476163,6 +476167,7 @@
 0.0.0.0 swiftcr.live
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -499392,6 +499397,7 @@
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
 0.0.0.0 www.benowe.shop
+0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benulekaren-sale.sbs
 0.0.0.0 www.benulekaren.co
