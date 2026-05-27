@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-27 00:33:16
-# Entries: 526019
+# Generated: 2026-05-27 01:50:17
+# Entries: 526015
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -190249,7 +190249,6 @@
 0.0.0.0 cpo.adflex.vn
 0.0.0.0 cpo.co.jp
 0.0.0.0 cpocommerceinc.112.2o7.net
-0.0.0.0 cpofficial.com
 0.0.0.0 cpoohcodmfkucglhzjmmkkeyquhrnxjkzglo-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 cpopgiptzd.duckdns.org
 0.0.0.0 cporiente.cl
@@ -197585,7 +197584,6 @@
 0.0.0.0 darkorange-buffalo-444584.hostingersite.com
 0.0.0.0 darkorangesickquery.aaseasaa.repl.co
 0.0.0.0 darkorchidjuvenilesort--ricardoillrea.repl.co
-0.0.0.0 darkosbarbershop.cl
 0.0.0.0 darkphoenix-75.github.io
 0.0.0.0 darkpilgria.ml
 0.0.0.0 darks.dedspac.ru
@@ -223185,7 +223183,6 @@
 0.0.0.0 emotionduvin.be
 0.0.0.0 emotionjohn.com
 0.0.0.0 emotionoftime.com
-0.0.0.0 emoto.mk
 0.0.0.0 emotrash.net
 0.0.0.0 emp-game.com
 0.0.0.0 empackaged.sa.com
@@ -233264,7 +233261,6 @@
 0.0.0.0 facai.y82lj7e.cn
 0.0.0.0 facai2024.xn--bvs11es3ujti.com
 0.0.0.0 facai524.icu
-0.0.0.0 facanha.com.br
 0.0.0.0 facanjgijvsabnkfuadbybamyvbcjmulibwp-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 facaujowetta-8242-51618947-continue.vercel.app
 0.0.0.0 facb00keslat.000webhostapp.com
@@ -428492,7 +428488,6 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
-0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -451731,7 +451726,6 @@
 0.0.0.0 rider.virosat.ru
 0.0.0.0 rider2711.github.io
 0.0.0.0 rideranalyzer.cloud
-0.0.0.0 riderspin.com
 0.0.0.0 ridetaxivail.com
 0.0.0.0 ridethecable.com
 0.0.0.0 ridetv.com-rlstzwq2vk0dvfn13ngq.rlstzwq2vk0dvfn13ngq.manxttrider.com
@@ -462784,6 +462778,7 @@
 0.0.0.0 sattota.com
 0.0.0.0 sattvadoshi.github.io
 0.0.0.0 satu277-vip1.shop
+0.0.0.0 satuatlas.com
 0.0.0.0 satuosrdaysa07.co.vu
 0.0.0.0 satura.pl
 0.0.0.0 saturapa.ru
@@ -467153,6 +467148,7 @@
 0.0.0.0 shredform.com
 0.0.0.0 shredova.ru
 0.0.0.0 shreenath1696.github.io
+0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
