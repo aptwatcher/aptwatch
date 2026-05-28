@@ -1,0 +1,105 @@
+author: aptwatch-curator-bot
+source: https://blog.checkpoint.com/security/lumma-infostealer-down-but-not-out/
+source_name: Check Point Research - Lumma Infostealer Down but Not Out (post-takedown rebuild, 2025-05-22 to 2025-06-02 window) plus Microsoft DCU primary takedown blog (2025-05-21)
+
+apt_groups:
+  - Lumma
+  - LummaC2
+  - Shamel
+
+description: >
+  Catch-up curator YAML filed 2026-05-28 covering a coverage gap surfaced
+  by operator-provided INTEL_LINKS.txt review during the 2026-05-28 daily
+  hunt. Lumma (also LummaC2) is a Russian-developed Malware-as-a-Service
+  infostealer that has never had a campaign entry in this project's DB
+  despite extensive 2024-2025 vendor coverage. The MaaS-operator scope
+  was codified 2026-05-26 (precedent EvilTokens campaign id 37) and Lumma
+  cleanly meets the three-pillar attribution bar for Russian-speaking
+  MaaS-platform operators (codified bar - per CLAUDE.md scope clarifications
+  2026-05-26).
+
+  Three-pillar attribution discipline (MaaS-operator bar):
+
+  Pillar 1 - vendor+ OSINT corroboration - PASS. Microsoft DCU primary
+  (Steven Masada, 2025-05-21), DOJ press release (Office of Public Affairs,
+  Justice Department Seizes Domains Behind Major Information-Stealing
+  Malware Operation, 2025-05-21), Check Point Research follow-up
+  (2025-05-22), The Record from Recorded Future News (2025-05-21), Trend
+  Micro post-takedown analysis (Back to Business - Lumma Stealer Returns
+  with Stealthier Methods, July 2025), Bank Info Security, The Register
+  daily coverage 2025-05-21 and 2025-06-02.
+
+  Pillar 2 - per-infrastructure malicious signal - PASS. Microsoft DCU
+  obtained N.D. Georgia federal court order to seize approximately 2300
+  malicious C2 domains forming the Lumma backbone; DOJ seized two key
+  administrative domains on 2025-05-19; Microsoft redirected approximately
+  1300 domains to sinkholes on 2025-05-21. Three post-takedown rebuild
+  domains were registered by the operator between 2025-05-21 and 2025-05-23
+  and observed live in the wild by Check Point Research before the
+  follow-up takedown sweep: writintrvh.top, fedor-dostoevskiy.com, and
+  yuriy-andropov.com. The latter two carry overt Russian-language lures
+  (Fyodor Dostoevsky and Yuri Andropov, both 19th-20th century Russian
+  cultural / political figures), which Check Point flags as a self-
+  reinforcing operator-side OPSEC tell.
+
+  Pillar 3-prime - Russian-speaking ecosystem confirmed AND cybercriminal
+  product confirmed - PASS. Microsoft DCU explicitly identifies the Lumma
+  developer by alias "Shamel" and locates him in Russia. The Lumma MaaS
+  subscription is documented across multiple vendor profiles (Check Point,
+  Trend Micro, Recorded Future, BankInfoSecurity) with public Russian-
+  speaking forum activity, subscription pricing tiers, and affiliate
+  ecosystem dating back to 2022. Cybercriminal product is unambiguous -
+  Lumma is a credential / cookie / cryptocurrency-wallet stealer with no
+  legitimate use case. The persona-vs-platform discipline from CLAUDE.md
+  applies - Lumma is the platform name (stable tracking handle); Shamel
+  is the persona (could trade hands on forums) and goes in the alias
+  set rather than as primary campaign_name.
+
+  IOC universe ingested here is limited to the three post-takedown rebuild
+  apex domains observed live by Check Point Research after the 2025-05-21
+  Microsoft DCU seizure. The 2300 originally-seized domains are NOT
+  ingested - they are now under defender control (Microsoft sinkholes or
+  DOJ seizure) and would burn the takedown infrastructure if added to a
+  public blocklist. The three post-takedown rebuild domains are the
+  correct ingestion delta - they represent the operator's continuation
+  capability post-seizure and are confirmed-attacker-controlled at the
+  point of Check Point observation.
+
+  Operational pattern documented in the primary sources: Lumma is
+  distributed via cracked-software lures, fake CAPTCHA pages (the
+  ClickFix / paste-and-run pattern), malicious advertising, and
+  GitHub-comment-spam embedded in legitimate-looking repositories. Stealer
+  payload exfiltrates browser-stored credentials and cookies, crypto-
+  wallet seeds and private keys, and authenticator-app session data over
+  HTTPS to the C2 panel. Customers are sold tiered subscriptions
+  ($250-$1000 USD/month per Trend Micro 2025 pricing analysis) via
+  Telegram and Russian-language forum posts.
+
+  MITRE ATT&CK candidates per cross-vendor consensus (logged in prose since
+  the curator schema has no structured TTP field): T1566 Phishing
+  (cracked-software / fake-CAPTCHA lures), T1059.003 Windows Command
+  Shell (PowerShell paste-and-run), T1555.003 Credentials from Web
+  Browsers, T1539 Steal Web Session Cookie, T1552.001 Credentials In
+  Files (wallet.dat and seed-phrase recovery), T1083 File and Directory
+  Discovery, T1071.001 Application Layer Protocol Web Protocols (HTTPS
+  C2), T1041 Exfiltration Over C2 Channel, T1583.001 Acquire Infrastructure
+  Domains (the 2300 seized C2 apex set plus the post-takedown rebuilds).
+
+  Coverage-gap rationale - why this YAML is filed in 2026-05-28 for a
+  2025-05 / 2025-06 event window - the project has been running daily
+  hunts since at least 2026-04 and Lumma has never been ingested despite
+  multiple in-scope publications across the entire 2024-2025 vendor
+  coverage cycle. Lumma is also operationally relevant to the project's
+  2026-05 work on ALPHV / BlackCat (id 8) since it is the upstream
+  credential-harvest stealer commonly used by ALPHV affiliates prior to
+  ransomware deployment (see also the 2026-05-28 catchup deploy bundle's
+  step 02 enrichment of ALPHV with the same cross-ecosystem tradecraft
+  note). Discovery vector for this curator YAML was operator-provided
+  INTEL_LINKS.txt referencing The Register articles dated 2025-05-21 and
+  2025-06-02 -- both content items reviewed in full via WebSearch and
+  primary-source corroboration during the 2026-05-28 daily hunt follow-up.
+
+domains:
+  - writintrvh.top
+  - fedor-dostoevskiy.com
+  - yuriy-andropov.com
