@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-28 06:32:39
-# Entries: 526015
+# Generated: 2026-05-28 12:33:48
+# Entries: 526017
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -47717,7 +47717,6 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
-0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acb11.helpcenter.buzz
 0.0.0.0 acb359d67b27f595d95df8e9bfb36bb2-dot-spow3039.df.r.appspot.com
@@ -56570,6 +56569,7 @@
 0.0.0.0 admin.gym-ag-ioannis-lem.schools.ac.cy
 0.0.0.0 admin.hamro.academy
 0.0.0.0 admin.haohf.icu
+0.0.0.0 admin.hbdhfijnsgjnds.top
 0.0.0.0 admin.hostpoint-ch-customer.auth-03a7d698.budgetsportkleding.nl
 0.0.0.0 admin.hostpoint-ch-customer.auth-e75c9780.ijsblokjesalmere.nl
 0.0.0.0 admin.hostpoint.ch-470c629d.hostpoint.ch.pphuvelum.pl
@@ -124737,7 +124737,6 @@
 0.0.0.0 baclinks.xyz
 0.0.0.0 bacnguyen020104.github.io
 0.0.0.0 bacnolobia-sucursall--yassercontreras.repl.co
-0.0.0.0 bacollections.com
 0.0.0.0 bacolombiapers.webcindario.com
 0.0.0.0 bacolombiasiempreaca.sucusalvirtual.repl.co
 0.0.0.0 bacon.dedspac.ru
@@ -143553,6 +143552,7 @@
 0.0.0.0 bidsystem.com
 0.0.0.0 bidtellect.com
 0.0.0.0 bidtraffic.com
+0.0.0.0 biducaconfeitos.com.br
 0.0.0.0 bidvertiser.com
 0.0.0.0 bidworld.sa.com
 0.0.0.0 bidyvrezbi.duckdns.org
@@ -150228,6 +150228,7 @@
 0.0.0.0 boat.ulitron.ru
 0.0.0.0 boatad.net
 0.0.0.0 boatbay.rocks
+0.0.0.0 boatbeach.online
 0.0.0.0 boatcure.com
 0.0.0.0 boater.dedspac.ru
 0.0.0.0 boater.virosat.ru
@@ -207602,6 +207603,7 @@
 0.0.0.0 digitalnodeservexyz.pages.dev
 0.0.0.0 digitalnotions.biz
 0.0.0.0 digitaloceans.sgp1.digitaloceanspaces.com
+0.0.0.0 digitalonline.cl
 0.0.0.0 digitalpaper.info
 0.0.0.0 digitalprimacy.com
 0.0.0.0 digitalprinceton.com
@@ -244537,6 +244539,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -263520,6 +263523,7 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -266560,6 +266564,7 @@
 0.0.0.0 grebyar.nfvoucher.com
 0.0.0.0 grece.dedspac.ru
 0.0.0.0 greco.ulitron.ru
+0.0.0.0 grecokitchens.com
 0.0.0.0 grecom.gt
 0.0.0.0 grecotitle.hideoutco.com
 0.0.0.0 greddoiheicreillu-5946.vercel.app
@@ -381987,6 +381992,7 @@
 0.0.0.0 nanotiona.com
 0.0.0.0 nanotions.com
 0.0.0.0 nanoze2019ogladajbezlimituonlinezalukaj.wordpress.com
+0.0.0.0 nanpe.eng.br
 0.0.0.0 nansasutiono.com
 0.0.0.0 nansen-ensmartvalidator.pages.dev
 0.0.0.0 nansenvalidatedao.pages.dev
@@ -465921,7 +465927,6 @@
 0.0.0.0 servicio.generatusolicitud-online.site
 0.0.0.0 serviciodelwebclientes.cloudaccess.host
 0.0.0.0 serviciopostal.vip
-0.0.0.0 servicioslogisticosdyc.com
 0.0.0.0 serviciospatito.com
 0.0.0.0 serviciotecnico.com.uy
 0.0.0.0 serviciotrackwp.sviluppo.host
@@ -476168,7 +476173,6 @@
 0.0.0.0 swiftcr.live
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -482434,7 +482438,6 @@
 0.0.0.0 tradedealvip.su
 0.0.0.0 tradedoubler.com
 0.0.0.0 tradedoubler.sonvideopro.com
-0.0.0.0 tradedsglobal.com
 0.0.0.0 tradeduac.ai
 0.0.0.0 tradeexchanging.com
 0.0.0.0 tradefocus.com.au
@@ -499399,7 +499402,6 @@
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
 0.0.0.0 www.benowe.shop
-0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benulekaren-sale.sbs
 0.0.0.0 www.benulekaren.co
