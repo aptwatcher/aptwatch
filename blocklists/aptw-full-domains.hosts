@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-28 18:47:26
-# Entries: 524851
+# Generated: 2026-05-28 18:49:11
+# Entries: 524855
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -160489,6 +160489,7 @@
 0.0.0.0 business-credentials-help-support-id10006734982.vercel.app
 0.0.0.0 business-credentials-support-with-facebook-id100016061744.vercel.app
 0.0.0.0 business-data-direction-45986ius.vercel.app
+0.0.0.0 business-data-leaks.com
 0.0.0.0 business-decisions.blog.ctk.at
 0.0.0.0 business-details-copyright9182.firebaseapp.com
 0.0.0.0 business-directionary-appealeation-case.surge.sh
@@ -241644,6 +241645,7 @@
 0.0.0.0 fedgroceryrebate.com
 0.0.0.0 fedi.6751242.cc
 0.0.0.0 fednow.cash
+0.0.0.0 fedor-dostoevskiy.com
 0.0.0.0 fedralmounr.za.com
 0.0.0.0 fedrampconnect.com
 0.0.0.0 fedrd.bjqvyn.es
@@ -495237,6 +495239,7 @@
 0.0.0.0 writeyourbooks.net
 0.0.0.0 writh.virosat.ru
 0.0.0.0 writingassociates.com
+0.0.0.0 writintrvh.top
 0.0.0.0 wrl-trezer-login-x.pages.dev
 0.0.0.0 wrlfcwrhhi.duckdns.org
 0.0.0.0 wrnmgz.cn
@@ -523502,6 +523505,7 @@
 0.0.0.0 yuppipuppy.com
 0.0.0.0 yuppy.dedspac.ru
 0.0.0.0 yuritonapex.vercel.app
+0.0.0.0 yuriy-andropov.com
 0.0.0.0 yurok.virosat.ru
 0.0.0.0 yus.amaniwa.ru
 0.0.0.0 yushentang120.com
