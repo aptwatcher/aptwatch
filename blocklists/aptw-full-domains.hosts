@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-28 01:15:50
-# Entries: 526014
+# Generated: 2026-05-28 06:02:00
+# Entries: 526015
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -124737,6 +124737,7 @@
 0.0.0.0 baclinks.xyz
 0.0.0.0 bacnguyen020104.github.io
 0.0.0.0 bacnolobia-sucursall--yassercontreras.repl.co
+0.0.0.0 bacollections.com
 0.0.0.0 bacolombiapers.webcindario.com
 0.0.0.0 bacolombiasiempreaca.sucusalvirtual.repl.co
 0.0.0.0 bacon.dedspac.ru
@@ -143552,7 +143553,6 @@
 0.0.0.0 bidsystem.com
 0.0.0.0 bidtellect.com
 0.0.0.0 bidtraffic.com
-0.0.0.0 biducaconfeitos.com.br
 0.0.0.0 bidvertiser.com
 0.0.0.0 bidworld.sa.com
 0.0.0.0 bidyvrezbi.duckdns.org
@@ -190245,6 +190245,7 @@
 0.0.0.0 cpo.adflex.vn
 0.0.0.0 cpo.co.jp
 0.0.0.0 cpocommerceinc.112.2o7.net
+0.0.0.0 cpofficial.com
 0.0.0.0 cpoohcodmfkucglhzjmmkkeyquhrnxjkzglo-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 cpopgiptzd.duckdns.org
 0.0.0.0 cporiente.cl
@@ -222906,6 +222907,7 @@
 0.0.0.0 embed.wiinvent.com.vn
 0.0.0.0 embed.wiinvent.tv
 0.0.0.0 embedilekitcdn.flazio.site
+0.0.0.0 embedone.com
 0.0.0.0 embellish.sikolar.ru
 0.0.0.0 embellish.vadilops.ru
 0.0.0.0 embellishedsportsman.com
@@ -244535,7 +244537,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -428494,7 +428495,6 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
-0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -465921,6 +465921,7 @@
 0.0.0.0 servicio.generatusolicitud-online.site
 0.0.0.0 serviciodelwebclientes.cloudaccess.host
 0.0.0.0 serviciopostal.vip
+0.0.0.0 servicioslogisticosdyc.com
 0.0.0.0 serviciospatito.com
 0.0.0.0 serviciotecnico.com.uy
 0.0.0.0 serviciotrackwp.sviluppo.host
