@@ -222,41 +222,39 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
 
       <div class="card" style="border-left:3px solid var(--red);padding:16px">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
-          <div style="font-weight:700;color:var(--red);font-size:14px">HOSTKEY / DEDIK Phishing Pipeline</div>
+          <div style="font-weight:700;color:var(--red);font-size:14px">Multi-Brand TLS Impersonation Operator</div>
           <span class="badge CRITICAL">ACTIVE</span>
         </div>
         <div style="font-size:12px;color:var(--text2);line-height:1.7">
-          <div style="margin-bottom:8px">Multi-subnet phishing + C2 operation spanning <b>3 ASNs</b>. Russian-speaking ecrime operator on bulletproof hosting.</div>
+          <div style="margin-bottom:8px">Single russian-speaking ecrime operator cloning brand TLS certs (Microsoft, Yahoo, GitHub, Apple, Samsung, Twitch) and serving them from reverse proxies across <b>4 ASNs</b>. Attribution rests on byte-identical cert SHA-1 reuse on otherwise unrelated bulletproof hosts.</div>
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;font-size:11px">
-            <div><span style="color:var(--red)">194.85.251</span> HOSTKEY &mdash; 38 spoofed certs, 275 C2 hosts</div>
-            <div><span style="color:var(--red)">194.85.250</span> HOSTKEY adj &mdash; spam mailer + web farm</div>
-            <div><span style="color:var(--orange)">176.65.144</span> DEDIK &mdash; URL shortener, phishing, 9 Win VMs</div>
-            <div><span style="color:var(--orange)">37.221.65</span> ALEXHOST &mdash; Celery scraping backend</div>
+            <div><span style="color:var(--red)">AEZA AS210644</span> &mdash; OFAC-sanctioned, primary BPH leg</div>
+            <div><span style="color:var(--orange)">HOSTKEY AS57043</span> &mdash; Apple/Yahoo spoof hosts</div>
+            <div><span style="color:var(--orange)">RouterHosting AS14956</span> &mdash; MS + Samsung spoofs</div>
+            <div><span style="color:var(--orange)">NetCrafters AS203273</span> &mdash; GitHub + max.ru cluster</div>
           </div>
           <div style="margin-top:8px;border-top:1px solid var(--border);padding-top:8px">
-            <span style="color:var(--accent)">Pipeline:</span> Blog scraping (.73) &rarr; Phishing pages (.251) &rarr; URL shortener (.98) &rarr; Telegram bot distribution &rarr; SMS gateway (2FA intercept)
+            <span style="color:var(--accent)">MO:</span> Cloned brand cert (identical SHA-1) &rarr; ATS / AkamaiGHost reverse proxy &rarr; credential harvesting. 35 hosts promoted across 8 per-brand campaigns (SCAN_k19oow, 2026-05-29).
           </div>
-          <div style="margin-top:6px" id="campaign-hostkey-stats"></div>
+          <div style="margin-top:6px" id="campaign-brandtls-stats"></div>
         </div>
       </div>
 
       <div class="card" style="border-left:3px solid var(--orange);padding:16px">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
           <div style="font-weight:700;color:var(--orange);font-size:14px">Key IOCs From Latest Scans</div>
-          <span class="badge HIGH">2026-04-05</span>
+          <span class="badge HIGH">2026-05-29</span>
         </div>
         <div style="font-size:11px;color:var(--text2);line-height:1.8">
-          <div><span class="badge CRITICAL">SPOOFED</span> <b>176.65.144.123</b> &mdash; www.amazon.com cert (DigiCert impersonation)</div>
-          <div><span class="badge CRITICAL">SPOOFED</span> <b>176.65.144.102</b> &mdash; amd.com cert (cross-subnet link)</div>
-          <div><span class="badge CRITICAL">RCE</span> <b>176.65.144.130</b> &mdash; Redis no-auth, crontab injected (<code>oracle.zzhreceive.top</code>)</div>
-          <div><span class="badge HIGH">PHISH</span> <b>176.65.144.119</b> &mdash; booking-update-840217v.com</div>
-          <div><span class="badge HIGH">PHISH</span> <b>176.65.144.97</b> &mdash; card-wallet.pro (crypto)</div>
-          <div><span class="badge HIGH">PHISH</span> <b>176.65.144.81</b> &mdash; confirmation-759316.com</div>
-          <div><span class="badge HIGH">2FA</span> <b>176.65.144.98</b> &mdash; sms-inboxgateway.com + Telegram bot</div>
-          <div><span class="badge MEDIUM">INFRA</span> <b>176.65.144.250-252</b> &mdash; VirtFusion hypervisors (bare metal)</div>
-          <div><span class="badge MEDIUM">SCRAPE</span> <b>37.221.65.73</b> &mdash; Celery blogger scraper + SSH key in Redis</div>
+          <div><span class="badge CRITICAL">SPOOFED</span> <code>ada5f27d</code> &mdash; CN www.microsoft.com, +6 hosts cross-ASN</div>
+          <div><span class="badge CRITICAL">SPOOFED</span> <code>e65de673</code> &mdash; CN yahoo.com, +6 hosts (ATS proxy)</div>
+          <div><span class="badge CRITICAL">SPOOFED</span> <code>aa4c8391</code> &mdash; CN github.com, +5 hosts</div>
+          <div><span class="badge HIGH">OBFUSC</span> <code>3263edf2</code> &mdash; CN *.max.ru wildcard, +11 hosts</div>
+          <div><span class="badge HIGH">ANCHOR</span> <b>45.150.32.1</b> &mdash; MS spoof + byebyerkn.duckdns.org + grokyprog.aeza.network</div>
+          <div><span class="badge MEDIUM">NEW LEG</span> <b>Samsung</b> <code>6701d6dc</code> (5 hosts) &amp; <b>Twitch</b> <code>4656e0f4</code> (7 hosts, DV)</div>
+          <div><span class="badge MEDIUM">WATCH</span> <b>PMTA</b> on VegasNAP AS53340 &mdash; IP-default cert, no operator attribution</div>
           <div style="margin-top:6px;border-top:1px solid var(--border);padding-top:6px">
-            <span style="color:var(--red)">NEW:</span> <b>oracle.zzhreceive.top</b> &mdash; cryptominer dropper via Redis crontab injection on .130. Attacker on Mullvad VPN (146.70.52.14).
+            <span style="color:var(--accent)">Discipline:</span> WIN-4NFSE1QOBMS template &amp; CyberGhost VPN (gen4.ninja) deliberately NOT promoted &mdash; shared-image / legit-infra.
           </div>
         </div>
       </div>
