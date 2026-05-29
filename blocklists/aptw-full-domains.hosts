@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-29 00:31:13
-# Entries: 524933
+# Generated: 2026-05-29 12:31:32
+# Entries: 524934
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -147507,7 +147507,6 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
-0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -162423,7 +162422,6 @@
 0.0.0.0 c.fanniidae.ru
 0.0.0.0 c.farm-connexion.click
 0.0.0.0 c.fi.msn.com
-0.0.0.0 c.fi3.me
 0.0.0.0 c.fide1yt1.cc
 0.0.0.0 c.fidel1t1x.cc
 0.0.0.0 c.fidel1tty.cc
@@ -178701,6 +178699,7 @@
 0.0.0.0 cloud2.timanar.ru
 0.0.0.0 cloud33646sfia.pages.dev
 0.0.0.0 cloud4.bibliota.ru
+0.0.0.0 cloud55file.cc
 0.0.0.0 cloud7.shoes
 0.0.0.0 cloud9paymentgateway.com
 0.0.0.0 cloudads.net
@@ -188035,6 +188034,7 @@
 0.0.0.0 coraliedeblock.shop
 0.0.0.0 corallz.com
 0.0.0.0 coralon.com
+0.0.0.0 coralpac.com
 0.0.0.0 coram.dedspac.ru
 0.0.0.0 coramlive.com
 0.0.0.0 coramoon.com
@@ -222980,7 +222980,6 @@
 0.0.0.0 emotionduvin.be
 0.0.0.0 emotionjohn.com
 0.0.0.0 emotionoftime.com
-0.0.0.0 emoto.mk
 0.0.0.0 emotrash.net
 0.0.0.0 emp-game.com
 0.0.0.0 empackaged.sa.com
@@ -285226,6 +285225,7 @@
 0.0.0.0 host4646.itelit.pro
 0.0.0.0 host48-15.viabrs.com.br
 0.0.0.0 host48.serpgold.com
+0.0.0.0 host4file.cc
 0.0.0.0 host6.hitbox.com
 0.0.0.0 host81-138-7-108.in-addr.btopenworld.com
 0.0.0.0 host840966.stronawcal.pl
@@ -344065,7 +344065,6 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
-0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -374381,6 +374380,7 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
+0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -409519,7 +409519,9 @@
 0.0.0.0 parwindersinghbatra.github.io
 0.0.0.0 pary.sksave.sbs
 0.0.0.0 parys.evas.buzz
+0.0.0.0 parys.rybolov-sk.shop
 0.0.0.0 parys.shop
+0.0.0.0 parysczsale.shop
 0.0.0.0 pas-a-pas.jp
 0.0.0.0 pas-analytik.asia
 0.0.0.0 pas-cb.org
@@ -451799,6 +451801,7 @@
 0.0.0.0 ritualdiffer.top
 0.0.0.0 ritualistically.ruhodo.ru
 0.0.0.0 rituals-zr.shop
+0.0.0.0 ritubohara.com
 0.0.0.0 ritujha3112.github.io
 0.0.0.0 ritul-patel.github.io
 0.0.0.0 ritupant1.github.io
@@ -489657,7 +489660,6 @@
 0.0.0.0 videotroncens.weebly.com
 0.0.0.0 videotroncom.112.2o7.net
 0.0.0.0 videovip.org
-0.0.0.0 videoviralviews.com
 0.0.0.0 videovor.fr
 0.0.0.0 videowhatsapp1.hidrocleaner.com
 0.0.0.0 vider-image.com
@@ -514671,7 +514673,6 @@
 0.0.0.0 www.sadiron.wpenginepowered.com
 0.0.0.0 www.sadostic.pl
 0.0.0.0 www.sadrfv.cc
-0.0.0.0 www.saf-oil.ru
 0.0.0.0 www.safe-screw.com
 0.0.0.0 www.safeashouses-book.com
 0.0.0.0 www.safeeasy.digital
