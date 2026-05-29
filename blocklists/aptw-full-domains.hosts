@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-29 00:31:13
-# Entries: 524933
+# Generated: 2026-05-29 06:03:57
+# Entries: 524934
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -147507,7 +147507,6 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
-0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -222980,7 +222979,6 @@
 0.0.0.0 emotionduvin.be
 0.0.0.0 emotionjohn.com
 0.0.0.0 emotionoftime.com
-0.0.0.0 emoto.mk
 0.0.0.0 emotrash.net
 0.0.0.0 emp-game.com
 0.0.0.0 empackaged.sa.com
@@ -232739,6 +232737,7 @@
 0.0.0.0 f8d3b0d4.qepfmq.shop
 0.0.0.0 f8d413f66262770da1480960b6.3wn3j1kc-gfarb-csl-otgrmoi-ynucfy.usrfiles.com
 0.0.0.0 f8d4f89165abf3819ba50d484135670b.serveo.net
+0.0.0.0 f8designstudio.com
 0.0.0.0 f8e269024b2855447.tempsite.link
 0.0.0.0 f8eb1e42e0e9ce50f5f550190d992c1a8f03b2dfe1ff315cad29db4477.pages.dev
 0.0.0.0 f8f53642-68fd-4e8c-a7fe-7b363395677c-00-12d0kp102xo62.janeway.replit.dev
@@ -245768,6 +245767,7 @@
 0.0.0.0 fitfloppl.com
 0.0.0.0 fitfloppolskaoutlet.com
 0.0.0.0 fitflopspolskaoutlet.com
+0.0.0.0 fitforevercavan.ie
 0.0.0.0 fitful-manners.000webhostapp.com
 0.0.0.0 fitg.net
 0.0.0.0 fitges.oewabox.at
@@ -378353,6 +378353,7 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
+0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -409519,7 +409520,9 @@
 0.0.0.0 parwindersinghbatra.github.io
 0.0.0.0 pary.sksave.sbs
 0.0.0.0 parys.evas.buzz
+0.0.0.0 parys.rybolov-sk.shop
 0.0.0.0 parys.shop
+0.0.0.0 parysczsale.shop
 0.0.0.0 pas-a-pas.jp
 0.0.0.0 pas-analytik.asia
 0.0.0.0 pas-cb.org
@@ -475649,7 +475652,6 @@
 0.0.0.0 swiftcr.live
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -490422,7 +490424,6 @@
 0.0.0.0 vizanto.cfd
 0.0.0.0 vizury.com
 0.0.0.0 vizyonuniversitesi.com.tr
-0.0.0.0 vizyonuniversitesi.web.tr
 0.0.0.0 vj.quanjingpay.com
 0.0.0.0 vjidxr.cn
 0.0.0.0 vjiihxvuda.duckdns.org
