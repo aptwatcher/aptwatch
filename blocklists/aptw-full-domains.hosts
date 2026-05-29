@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-29 12:31:32
-# Entries: 524934
+# Generated: 2026-05-29 16:44:58
+# Entries: 524952
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -85980,6 +85980,7 @@
 0.0.0.0 anyesha-biswas.github.io
 0.0.0.0 anyglot.com
 0.0.0.0 anyhealthtips.com
+0.0.0.0 anyhoo.testeaza.eu
 0.0.0.0 anyillustrations.com
 0.0.0.0 anyimage.top
 0.0.0.0 anylist.c.appier.net
@@ -101637,6 +101638,7 @@
 0.0.0.0 asiacross.jp
 0.0.0.0 asiadiscoversolutions.azureedge.net
 0.0.0.0 asiaecobiz.com
+0.0.0.0 asiaengrs.com
 0.0.0.0 asiafoodco.com
 0.0.0.0 asiahost.eu.org
 0.0.0.0 asiainspection.122.2o7.net
@@ -153610,6 +153612,7 @@
 0.0.0.0 bpewwbnsudanqpjl-dot-millinium.ey.r.appspot.com
 0.0.0.0 bpezyxpijo.duckdns.org
 0.0.0.0 bpf.kwr.mybluehost.me
+0.0.0.0 bpfi.digital
 0.0.0.0 bpfquwxraupbwloc-dot-millinium.ey.r.appspot.com
 0.0.0.0 bpgamgafkdgauozt-dot-millinium.ey.r.appspot.com
 0.0.0.0 bpgavokovngqfwaz-dot-millinium.ey.r.appspot.com
@@ -162422,6 +162425,7 @@
 0.0.0.0 c.fanniidae.ru
 0.0.0.0 c.farm-connexion.click
 0.0.0.0 c.fi.msn.com
+0.0.0.0 c.fi3.me
 0.0.0.0 c.fide1yt1.cc
 0.0.0.0 c.fidel1t1x.cc
 0.0.0.0 c.fidel1tty.cc
@@ -162788,6 +162792,7 @@
 0.0.0.0 c2.taboola.com
 0.0.0.0 c2.tentaculos.net
 0.0.0.0 c2.thecounter.de
+0.0.0.0 c2.tralalarkefe.com
 0.0.0.0 c2.xxxcounter.com
 0.0.0.0 c2.zedo.com
 0.0.0.0 c20.statcounter.com
@@ -167348,6 +167353,7 @@
 0.0.0.0 catch-exception.net
 0.0.0.0 catch.matsuro.ru
 0.0.0.0 catch.virosat.ru
+0.0.0.0 catchall1.tralalarkefe.com
 0.0.0.0 catchcommunications.co.uk
 0.0.0.0 catchfishcavan.com
 0.0.0.0 catchiest-chimney.000webhostapp.com
@@ -178806,6 +178812,7 @@
 0.0.0.0 cloudmsmessagesreleaingafterverificationmymsuser673479329482387.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 cloudmy-ids.com
 0.0.0.0 cloudnetfiji.com
+0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudofflceadmln.epizy.com
@@ -188034,7 +188041,6 @@
 0.0.0.0 coraliedeblock.shop
 0.0.0.0 corallz.com
 0.0.0.0 coralon.com
-0.0.0.0 coralpac.com
 0.0.0.0 coram.dedspac.ru
 0.0.0.0 coramlive.com
 0.0.0.0 coramoon.com
@@ -210792,6 +210798,7 @@
 0.0.0.0 docs.associateratings.com
 0.0.0.0 docs.au.bezpiecznyserwerpocztyelektronicznej.pl
 0.0.0.0 docs.booneservicse.com
+0.0.0.0 docs.bpfi.digital
 0.0.0.0 docs.codethemes.co
 0.0.0.0 docs.econeurqa.com
 0.0.0.0 docs.edoctransfer.com
@@ -216085,6 +216092,7 @@
 0.0.0.0 dz4g.tk
 0.0.0.0 dz4rj.jsqudy.es
 0.0.0.0 dzan11deko.wusps.xyz
+0.0.0.0 dzbank.capital
 0.0.0.0 dzbcgoh.cn
 0.0.0.0 dzbzrotfzpsuwwqtutvraeigvp-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 dzcfmzoxyaozwbtb-dot-millinium.ey.r.appspot.com
@@ -242062,6 +242070,7 @@
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaidqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femhcuxeuwmujdnpzxdfqafwaittdqusrxkf-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 femidignity.org
+0.0.0.0 femilessn.top
 0.0.0.0 feminplus.pl
 0.0.0.0 femlybowstkhoewy-dot-millinium.ey.r.appspot.com
 0.0.0.0 femmaterparaguay.x10.mx
@@ -280704,6 +280713,7 @@
 0.0.0.0 hexer.ulitron.ru
 0.0.0.0 hexes.dedspac.ru
 0.0.0.0 hexes.virosat.ru
+0.0.0.0 hexfiles.top
 0.0.0.0 hexinbbs.serpgold.com
 0.0.0.0 hexis-srl.com
 0.0.0.0 hexis.ulitron.ru
@@ -296174,6 +296184,7 @@
 0.0.0.0 indusfood.com.pk
 0.0.0.0 indusgreenassociates.com
 0.0.0.0 indusmarket.ru
+0.0.0.0 induspayments.com
 0.0.0.0 industilin.xyz
 0.0.0.0 industrali.xyz
 0.0.0.0 industrial-gt.22web.org
@@ -296205,6 +296216,7 @@
 0.0.0.0 industrybrains.com
 0.0.0.0 industryiot.pk
 0.0.0.0 industrywork.mooo.com
+0.0.0.0 indusx.tech
 0.0.0.0 induszaptron.com
 0.0.0.0 induweb.oewabox.at
 0.0.0.0 indverstoisn.co.vu
@@ -297924,7 +297936,6 @@
 0.0.0.0 inj-openseanft9.vercel.app
 0.0.0.0 injarch.com
 0.0.0.0 inject.chat
-0.0.0.0 injectroblox.ru
 0.0.0.0 injegwwjrviyezqx-dot-millinium.ey.r.appspot.com
 0.0.0.0 injitataroghlokhayboaaasabhiwayl.blogspot.com
 0.0.0.0 injjsipidest.info
@@ -374380,7 +374391,6 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
-0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -410625,6 +410635,7 @@
 0.0.0.0 paylivo.shop
 0.0.0.0 payload.adadapted.com
 0.0.0.0 payload.yieldbuild.com
+0.0.0.0 payloads.tralalarkefe.com
 0.0.0.0 payloadsets19.com
 0.0.0.0 paylogerhome.com
 0.0.0.0 payloginsnow.lima-city.ch
@@ -451801,7 +451812,6 @@
 0.0.0.0 ritualdiffer.top
 0.0.0.0 ritualistically.ruhodo.ru
 0.0.0.0 rituals-zr.shop
-0.0.0.0 ritubohara.com
 0.0.0.0 ritujha3112.github.io
 0.0.0.0 ritul-patel.github.io
 0.0.0.0 ritupant1.github.io
@@ -464511,6 +464521,7 @@
 0.0.0.0 security-update.qhigh.com
 0.0.0.0 security-verification.net
 0.0.0.0 security-verifications.com
+0.0.0.0 security.bpfi.digital
 0.0.0.0 security.home-19.35-88-210-91.cprapid.com
 0.0.0.0 security.home-69.44-223-65-141.cprapid.com
 0.0.0.0 security.ohsxy.com
@@ -481925,6 +481936,7 @@
 0.0.0.0 tradem.com
 0.0.0.0 tradeoffice.org
 0.0.0.0 trader-indonesia.site
+0.0.0.0 traderhype.com
 0.0.0.0 traderjoexyz.bylfg.org
 0.0.0.0 traderlidex-8-com.worldsoffinance.com
 0.0.0.0 traderprof.best
@@ -482048,6 +482060,7 @@
 0.0.0.0 traktrafficflow.com
 0.0.0.0 traktum.com
 0.0.0.0 tral.ulitron.ru
+0.0.0.0 tralalarkefe.com
 0.0.0.0 tram.ulitron.ru
 0.0.0.0 tramadol.1.p2l.info
 0.0.0.0 tramadol.3.p2l.info
@@ -489660,6 +489673,7 @@
 0.0.0.0 videotroncens.weebly.com
 0.0.0.0 videotroncom.112.2o7.net
 0.0.0.0 videovip.org
+0.0.0.0 videoviralviews.com
 0.0.0.0 videovor.fr
 0.0.0.0 videowhatsapp1.hidrocleaner.com
 0.0.0.0 vider-image.com
@@ -494830,6 +494844,7 @@
 0.0.0.0 wood-hungry-wish.glitch.me
 0.0.0.0 woodbeads.com
 0.0.0.0 woodducksless.pro
+0.0.0.0 woodenships-wholesale.com
 0.0.0.0 woodland.net.gr
 0.0.0.0 woodlandtrove.com
 0.0.0.0 woodlines.com
@@ -499438,6 +499453,7 @@
 0.0.0.0 www.bozworking.com
 0.0.0.0 www.bpb-corp.com
 0.0.0.0 www.bpbtq.com
+0.0.0.0 www.bpfi.digital
 0.0.0.0 www.bpigu.com
 0.0.0.0 www.bproentretien.com
 0.0.0.0 www.bprop.best
@@ -502404,6 +502420,7 @@
 0.0.0.0 www.dysonzz.pro
 0.0.0.0 www.dysprosihhums.info
 0.0.0.0 www.dystore.top
+0.0.0.0 www.dzbank.capital
 0.0.0.0 www.dzdsq.com
 0.0.0.0 www.dziennik-info.x9.eu
 0.0.0.0 www.dziennik-polski.x9.eu
@@ -506505,6 +506522,7 @@
 0.0.0.0 www.indosattoto88.online
 0.0.0.0 www.indsare.com
 0.0.0.0 www.inductioggns.info
+0.0.0.0 www.indusx.tech
 0.0.0.0 www.ineedhits.com
 0.0.0.0 www.ineffabletop.pro
 0.0.0.0 www.ineffectualitieaas.info
@@ -514673,6 +514691,7 @@
 0.0.0.0 www.sadiron.wpenginepowered.com
 0.0.0.0 www.sadostic.pl
 0.0.0.0 www.sadrfv.cc
+0.0.0.0 www.saf-oil.ru
 0.0.0.0 www.safe-screw.com
 0.0.0.0 www.safeashouses-book.com
 0.0.0.0 www.safeeasy.digital
@@ -518280,7 +518299,6 @@
 0.0.0.0 www.ucomp.edu-diplomys.com
 0.0.0.0 www.udderlypettable.com
 0.0.0.0 www.udire.hypersona.com
-0.0.0.0 www.udobrit.ru
 0.0.0.0 www.udziele-pozyczki-prywatnie.pl
 0.0.0.0 www.udzielepozyczkiprywatnejszybko.pl
 0.0.0.0 www.uehyx.com
