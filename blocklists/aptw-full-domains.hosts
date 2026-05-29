@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-29 16:48:39
-# Entries: 524952
+# Generated: 2026-05-29 18:31:25
+# Entries: 524953
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -506043,6 +506043,7 @@
 0.0.0.0 www.hotellegalieosakashinsaibashieast.com
 0.0.0.0 www.hotelmondoncekyotogojo.com
 0.0.0.0 www.hotelpass.info
+0.0.0.0 www.hotelrhousecuscoperu.com
 0.0.0.0 www.hotelroom-stay87192.com
 0.0.0.0 www.hotelsdetermine.bond
 0.0.0.0 www.hotflix-32.org
