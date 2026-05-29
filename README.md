@@ -22,7 +22,7 @@ APT Watch is a threat intelligence platform that collects, validates, and distri
 
 The project provides three things:
 
-- **A database** of 9,500+ validated IPv4 IOCs, 6,900+ CIDR ranges, 1.5M+ domains, and 190+ CVEs, cross-referenced with vulnerability scans and enrichment data
+- **A database** of validated IPv4 IOCs, CIDR ranges, domains, and CVEs, cross-referenced with vulnerability scans and enrichment data
 - **Blocklist feeds** in standard formats (FireHOL, StevenBlack, plain text) that update automatically every 6 hours and can be plugged into firewalls, DNS sinkholes, and SIEM tools — including unified feeds (`aptw-*`) that merge our data with FireHOL, Emerging Threats, Feodo Tracker, StevenBlack, URLhaus, AbuseIPDB, and Phishing.Database for broader coverage — plus DNS-resolved IPs and ISP-filtered reverse DNS for maximum visibility
 - **An interactive dashboard** at [aptwatch.org](https://aptwatch.org) for exploring the data directly in the browser
 
@@ -32,7 +32,7 @@ The project provides three things:
 
 The dashboard at [aptwatch.org](https://aptwatch.org) is a fully client-side application. It loads an SQLite database directly in your browser using sql.js — no backend, no account, no tracking. Everything runs locally on your machine.
 
-When you visit the site, it automatically fetches the web export database (~23 MB) and lets you explore:
+When you visit the site, it automatically fetches the web export database and lets you explore:
 
 - **Overview** — IOC counts, classification distribution, subnet tiers, top ASNs, validation coverage
 - **IOC Explorer** — search and filter IPv4, IPv6, domains, CIDRs, CVEs, emails
@@ -51,9 +51,9 @@ You can also open `web/index.html` locally with any browser and load a database 
 
 Two versions of the database are available, depending on your use case.
 
-### Web export (~30 MB)
+### Web export
 
-The web export is built for the browser dashboard. It contains all the intelligence data you need for analysis but excludes bulk tables that would make it too large to load in a browser.
+It carries the intelligence data needed for analysis, while excluding the bulk tables listed below.
 
 **Included:** IPv4 IOCs, CIDRs, scan results, vulnerability findings (Critical + High + top Medium by CVSS), enrichment results, staging servers, recon candidates, ASN records, CVEs, emails, campaign attribution and inter-agency correlation data.
 
@@ -61,9 +61,9 @@ The web export is built for the browser dashboard. It contains all the intellige
 
 Download: [api.aptwatch.org/api/download/web](https://api.aptwatch.org/api/download/web)
 
-### Full database (~800 MB)
+### Full database
 
-The full database contains everything — all 1.5M domains, 254K URLs, every vulnerability finding at every severity level, and the operational validation queue. Use this if you need complete domain/URL coverage for DNS analysis, full vulnerability scan data, or want to run the validation pipeline locally.
+The full database contains everything — all domains and URLs, every vulnerability finding at every severity level, and the operational validation queue. Use this if you need complete domain/URL coverage for DNS analysis, full vulnerability scan data, or want to run the validation pipeline locally.
 
 Download: [api.aptwatch.org/api/download/full](https://api.aptwatch.org/api/download/full) (rate limited, served behind Cloudflare)
 
