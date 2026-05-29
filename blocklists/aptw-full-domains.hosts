@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-29 06:33:18
-# Entries: 524930
+# Generated: 2026-05-29 12:31:32
+# Entries: 524934
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -178699,6 +178699,7 @@
 0.0.0.0 cloud2.timanar.ru
 0.0.0.0 cloud33646sfia.pages.dev
 0.0.0.0 cloud4.bibliota.ru
+0.0.0.0 cloud55file.cc
 0.0.0.0 cloud7.shoes
 0.0.0.0 cloud9paymentgateway.com
 0.0.0.0 cloudads.net
@@ -188033,6 +188034,7 @@
 0.0.0.0 coraliedeblock.shop
 0.0.0.0 corallz.com
 0.0.0.0 coralon.com
+0.0.0.0 coralpac.com
 0.0.0.0 coram.dedspac.ru
 0.0.0.0 coramlive.com
 0.0.0.0 coramoon.com
@@ -203288,7 +203290,6 @@
 0.0.0.0 desktop--ledgrelive-wlt.webflow.io
 0.0.0.0 desktop--live--ledgrus.webflow.io
 0.0.0.0 desktop--web-ledger.webflow.io
-0.0.0.0 desktop-app.click
 0.0.0.0 desktop-blockfi-l-auth.webflow.io
 0.0.0.0 desktop-cdn-ledgerlive.webflow.io
 0.0.0.0 desktop-coinbase.webflow.io
@@ -232737,7 +232738,6 @@
 0.0.0.0 f8d3b0d4.qepfmq.shop
 0.0.0.0 f8d413f66262770da1480960b6.3wn3j1kc-gfarb-csl-otgrmoi-ynucfy.usrfiles.com
 0.0.0.0 f8d4f89165abf3819ba50d484135670b.serveo.net
-0.0.0.0 f8designstudio.com
 0.0.0.0 f8e269024b2855447.tempsite.link
 0.0.0.0 f8eb1e42e0e9ce50f5f550190d992c1a8f03b2dfe1ff315cad29db4477.pages.dev
 0.0.0.0 f8f53642-68fd-4e8c-a7fe-7b363395677c-00-12d0kp102xo62.janeway.replit.dev
@@ -245767,7 +245767,6 @@
 0.0.0.0 fitfloppl.com
 0.0.0.0 fitfloppolskaoutlet.com
 0.0.0.0 fitflopspolskaoutlet.com
-0.0.0.0 fitforevercavan.ie
 0.0.0.0 fitful-manners.000webhostapp.com
 0.0.0.0 fitg.net
 0.0.0.0 fitges.oewabox.at
@@ -263279,6 +263278,7 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -285225,6 +285225,7 @@
 0.0.0.0 host4646.itelit.pro
 0.0.0.0 host48-15.viabrs.com.br
 0.0.0.0 host48.serpgold.com
+0.0.0.0 host4file.cc
 0.0.0.0 host6.hitbox.com
 0.0.0.0 host81-138-7-108.in-addr.btopenworld.com
 0.0.0.0 host840966.stronawcal.pl
@@ -344064,7 +344065,6 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
-0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -374380,6 +374380,7 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
+0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -378352,7 +378353,6 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
-0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -451801,6 +451801,7 @@
 0.0.0.0 ritualdiffer.top
 0.0.0.0 ritualistically.ruhodo.ru
 0.0.0.0 rituals-zr.shop
+0.0.0.0 ritubohara.com
 0.0.0.0 ritujha3112.github.io
 0.0.0.0 ritul-patel.github.io
 0.0.0.0 ritupant1.github.io
@@ -470256,6 +470257,7 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
+0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodnice.shop
 0.0.0.0 spoil.virosat.ru
@@ -475650,6 +475652,7 @@
 0.0.0.0 swiftcr.live
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -489657,7 +489660,6 @@
 0.0.0.0 videotroncens.weebly.com
 0.0.0.0 videotroncom.112.2o7.net
 0.0.0.0 videovip.org
-0.0.0.0 videoviralviews.com
 0.0.0.0 videovor.fr
 0.0.0.0 videowhatsapp1.hidrocleaner.com
 0.0.0.0 vider-image.com
@@ -490422,6 +490424,7 @@
 0.0.0.0 vizanto.cfd
 0.0.0.0 vizury.com
 0.0.0.0 vizyonuniversitesi.com.tr
+0.0.0.0 vizyonuniversitesi.web.tr
 0.0.0.0 vj.quanjingpay.com
 0.0.0.0 vjidxr.cn
 0.0.0.0 vjiihxvuda.duckdns.org
@@ -506684,6 +506687,7 @@
 0.0.0.0 www.integriung.cyou
 0.0.0.0 www.intela.com
 0.0.0.0 www.intelli-direct.com
+0.0.0.0 www.intelligradeeducation.vicentecisnerospub.com
 0.0.0.0 www.intellisuggest.com
 0.0.0.0 www.intellitxt.com
 0.0.0.0 www.intellivisiongames.com
@@ -510056,6 +510060,7 @@
 0.0.0.0 www.newhold.pro
 0.0.0.0 www.newjersey-wealth.com
 0.0.0.0 www.newjobzi.xyz
+0.0.0.0 www.newkey.co.kr
 0.0.0.0 www.newleaf-journeys.com
 0.0.0.0 www.newlifefloorcare.com
 0.0.0.0 www.newlimitedoffer.com
@@ -514668,7 +514673,6 @@
 0.0.0.0 www.sadiron.wpenginepowered.com
 0.0.0.0 www.sadostic.pl
 0.0.0.0 www.sadrfv.cc
-0.0.0.0 www.saf-oil.ru
 0.0.0.0 www.safe-screw.com
 0.0.0.0 www.safeashouses-book.com
 0.0.0.0 www.safeeasy.digital
