@@ -1,0 +1,106 @@
+author: aptwatch-curator-bot
+source: https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/
+source_name: CrowdStrike Counter Adversary Operations - Disrupting Glassworm - Inside CrowdStrike's Takedown of a Developer-Targeting Botnet (2026-05-26, primary takedown announcement) consolidated with Truesec Threat Insight 2025-10-21 (primary IOC list)
+
+apt_groups:
+  - Glassworm
+  - GlasswormRAT
+  - Russian-speaking supply-chain crime crew
+
+description: >
+  CrowdStrike Counter Adversary Operations published 2026-05-26 (14:00 UTC)
+  the takedown of the Glassworm botnet in coordination with Google and the
+  Shadowserver Foundation. Glassworm is a developer-targeting supply-chain
+  malware family active since at least early 2025, attributed by CrowdStrike
+  to a likely-Russian-speaking criminal crew based on (a) runtime locale,
+  language and timezone checks that cause the malware to quietly exit on
+  CIS-country systems (a classic evasion tactic of Russian-ecosystem
+  cybercriminals), and (b) Russian-language comments throughout the source
+  code observed across more than a year of activity. CrowdStrike's text is
+  appropriately cautious - no single indicator is proof on its own - but the
+  pattern is consistent.
+
+  Per the project's three-pillar attribution discipline for ransomware/crime
+  crews (codified 2026-05-25 post-Virtuo.Host incident, with the MaaS-operator
+  refinement of 2026-05-26): (1) vendor+ OSINT corroboration: CrowdStrike
+  PRIMARY (takedown announcement) plus Truesec (2025-10-21 primary IOC
+  publication), Veracode, Koi Security, BleepingComputer, SecurityWeek,
+  Computer Weekly, Cybernews, TechCrunch, Cybersecurity Dive, GovInfoSecurity,
+  iTnews - all citing the same campaign across Oct 2025 to May 2026.
+  (2) Per-infrastructure malicious signal: explicit Truesec attribution of
+  217.69.3[.]218 as primary C2 with three documented payload endpoints,
+  140.82.52[.]31 as exfiltration endpoint (/wall), Solana blockchain wallet
+  28PKnu7RzizxBzFPoLp69HLXp9bJL3JFtT2s5QzHsEA2 as dead-drop, Google Calendar
+  C2 organizer uhjdclolkdn@gmail.com. (3') Russian-speaking ecosystem confirmed
+  via the documented CIS-locale evasion + Russian-language comments observed
+  by CrowdStrike. Cybercriminal product confirmed: trojanized VSCode
+  extensions on OpenVSX marketplace (15+ named in Truesec IOC list), one
+  Microsoft VSCode Marketplace extension (cline-ai-main.cline-ai-agent
+  v3.1.3), compromised npm and Python packages via postinstall hooks, and
+  more than 300 GitHub repositories poisoned via stolen developer credentials.
+  Three-pillar bar cleared for "Russian-speaking crime crew" classification.
+
+  Operational pattern per CrowdStrike + Truesec consolidation: (a) attacker
+  publishes trojanized VSCode extension to OpenVSX (also affecting Cursor,
+  Positron, Windsurf, VSCodium and other downstream consumers), (b) extension
+  uses invisible Unicode characters to hide malicious code from code editors
+  and review processes, (c) on install the payload harvests NPM/GitHub/Git
+  credentials and targets 49 different cryptocurrency wallet extensions,
+  (d) deploys a SOCKS proxy server turning the developer machine into
+  criminal infrastructure and a hidden VNC server for remote access,
+  (e) GlasswormRAT (Node.js full-featured RAT) checks in via four redundant
+  C2 channels: Solana blockchain transaction memo fields, BitTorrent DHT
+  configuration lookups, Google Calendar event titles (Base64-encoded paths),
+  and direct connections to commercial VPS C2 (217.69.3[.]218),
+  (f) stolen developer credentials are used to automatically force-push
+  malicious code into default branches of additional GitHub repositories
+  AND to publish new poisoned packages to npm/PyPI/OpenVSX - creating
+  exponential self-propagation through the ecosystem (the worm in
+  "GlassWorm"), (g) persistence via HKCU/HKLM \Software\Microsoft\Windows\
+  CurrentVersion\Run on Windows. Cross-platform support spans Windows,
+  macOS, Linux. The operators continuously evolved across more than a year,
+  switching implementation languages (JavaScript -> Rust -> Zig) and
+  expanding package-ecosystem coverage. On 2026-05-26 14:00 UTC all four
+  C2 channels were severed simultaneously; CrowdStrike now operates a
+  benign sinkhole at 164.92.88[.]210 to detect surviving infections (this
+  sinkhole IP is intentionally NOT ingested as a malicious IOC in this
+  YAML - it is operator-controlled and benign).
+
+  MITRE ATT&CK candidates (logged in prose; curator schema has no structured
+  TTP field): T1195.002 Supply Chain Compromise: Compromise Software Supply
+  Chain, T1059.007 JavaScript, T1547.001 Boot or Logon Autostart Execution:
+  Registry Run Keys / Startup Folder, T1090.001 Internal Proxy, T1219 Remote
+  Access Software (VNC, SOCKS proxy), T1102.001 Web Service: Dead Drop
+  Resolver (Solana blockchain memo + Google Calendar + BitTorrent DHT),
+  T1657 Financial Theft (49 crypto wallet extension targets).
+
+  Per the project's delta-vs-context discipline: the four URL IOCs in this
+  YAML use bare-IP hosts (217.69.3.218 and 140.82.52.31) which are both
+  listed in ipv4 below as context anchors. Solana wallet
+  28PKnu7RzizxBzFPoLp69HLXp9bJL3JFtT2s5QzHsEA2 and StellarMonSetup-unrelated
+  ED25519 transaction signature noted in description only (no cryptocurrency-
+  address schema field). The calendar.app.google C2 dead-drop URL is
+  intentionally omitted - that path is a transient attacker-controlled
+  Google Calendar event link on legitimate Google infrastructure and would
+  burn a legitimate google subdomain if listed. The CrowdStrike sinkhole
+  IP 164.92.88[.]210 is intentionally omitted (benign post-takedown).
+
+  Discovery vector for this curator YAML: the daily APT Watch threat hunt
+  scheduled task (apt-threat-hunting, 2026-05-29), via The Register RSS
+  surfacing CrowdStrike's takedown announcement on 2026-05-27, which led
+  back to the CrowdStrike May 2026 primary and the Truesec October 2025
+  primary IOC list (still the most complete public IOC publication for
+  this campaign).
+
+ipv4:
+  - 217.69.3.218
+  - 140.82.52.31
+
+urls:
+  - http://217.69.3.218/qQD%2FJoi3WCWSk8ggGHiTdg%3D%3D
+  - http://217.69.3.218/get_arhive_npm/
+  - http://217.69.3.218/get_zombi_payload/qQD%2FJoi3WCWSk8ggGHiTdg%3D%3D
+  - http://140.82.52.31/wall
+
+emails:
+  - uhjdclolkdn@gmail.com
