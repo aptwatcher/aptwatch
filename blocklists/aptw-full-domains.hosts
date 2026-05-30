@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-30 00:31:30
-# Entries: 525012
+# Generated: 2026-05-30 06:01:46
+# Entries: 525016
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -147512,7 +147512,6 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
-0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -162787,6 +162786,7 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -292958,6 +292958,7 @@
 0.0.0.0 ijamjamsec.com
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
+0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -383913,7 +383914,6 @@
 0.0.0.0 neilblack.co.uk.usrfiles.com
 0.0.0.0 neilcoffman.com
 0.0.0.0 neilmacqueen.com
-0.0.0.0 neilshairdressers.co.uk
 0.0.0.0 neilweller11.wixsite.com
 0.0.0.0 neim.strametyapi.com
 0.0.0.0 neimali.ga
@@ -399696,6 +399696,7 @@
 0.0.0.0 oneyog.com
 0.0.0.0 onezamueac.com
 0.0.0.0 onf6sb82y.duckdns.org
+0.0.0.0 onfiltre.com.tr
 0.0.0.0 onfire11.mbamep.com
 0.0.0.0 onflix.us
 0.0.0.0 onfluencer.net
@@ -428110,6 +428111,7 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -470312,6 +470314,7 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
+0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodnice.shop
 0.0.0.0 spoil.virosat.ru
@@ -475706,7 +475709,6 @@
 0.0.0.0 swiftcr.live
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -489722,6 +489724,7 @@
 0.0.0.0 videotroncens.weebly.com
 0.0.0.0 videotroncom.112.2o7.net
 0.0.0.0 videovip.org
+0.0.0.0 videoviralviews.com
 0.0.0.0 videovor.fr
 0.0.0.0 videowhatsapp1.hidrocleaner.com
 0.0.0.0 vider-image.com
@@ -510415,6 +510418,7 @@
 0.0.0.0 www.nostalgia369.com
 0.0.0.0 www.nosvg.shop
 0.0.0.0 www.notariushotel.com
+0.0.0.0 www.notbak.com
 0.0.0.0 www.notepad2.com
 0.0.0.0 www.notexo.cnet.qorinzopedro.com
 0.0.0.0 www.notfy14.ke2vsl.top
@@ -514793,6 +514797,7 @@
 0.0.0.0 www.salesshocked.yoy0.com
 0.0.0.0 www.salezone.club
 0.0.0.0 www.salomonbutypolska.com
+0.0.0.0 www.salonmarketing.ca
 0.0.0.0 www.saloopppsretribalization.info
 0.0.0.0 www.saltlsciar.cyou
 0.0.0.0 www.salttm.com
@@ -518348,7 +518353,6 @@
 0.0.0.0 www.ucomp.edu-diplomys.com
 0.0.0.0 www.udderlypettable.com
 0.0.0.0 www.udire.hypersona.com
-0.0.0.0 www.udobrit.ru
 0.0.0.0 www.udziele-pozyczki-prywatnie.pl
 0.0.0.0 www.udzielepozyczkiprywatnejszybko.pl
 0.0.0.0 www.uehyx.com
