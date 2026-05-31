@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-31 06:31:29
-# Entries: 524283
+# Generated: 2026-05-31 12:32:38
+# Entries: 524281
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -68931,7 +68931,6 @@
 0.0.0.0 alarmingangryapplication.bancolombia1111.repl.co
 0.0.0.0 alarmingissue-contentdetails.firebaseapp.com
 0.0.0.0 alarmingissue-contentdetails.web.app
-0.0.0.0 alarmline.com.br
 0.0.0.0 alarmobninsk.ru
 0.0.0.0 alarmpiquillov.com
 0.0.0.0 alarms.virosat.ru
@@ -114864,6 +114863,7 @@
 0.0.0.0 audiblesobs.com
 0.0.0.0 audicat.net
 0.0.0.0 audicomsrl.com
+0.0.0.0 audicontadores.com
 0.0.0.0 audid-api.taobao.com
 0.0.0.0 audience-crouch.dvrlists.com
 0.0.0.0 audience-local-ads-main-418507293.vercel.app
@@ -136354,6 +136354,7 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
+0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -167200,6 +167201,7 @@
 0.0.0.0 castrolprofessionalacademy.pl
 0.0.0.0 castromonitoramento.com.br
 0.0.0.0 castromunicipio.cl
+0.0.0.0 castroycontadores.com
 0.0.0.0 casts.ulitron.ru
 0.0.0.0 casts.virosat.ru
 0.0.0.0 castuning.com
@@ -198959,6 +198961,7 @@
 0.0.0.0 dcreeves.com
 0.0.0.0 dcrrdlmspr.duckdns.org
 0.0.0.0 dcrtupvigysfybdzpmbpgskfah-dot-gleowayel400503.uc.r.appspot.com
+0.0.0.0 dcrun.co.uk
 0.0.0.0 dcrussianlessons.com
 0.0.0.0 dcrwkudhpygbmrxkgsuwgryhuu-dot-gowa11111111.rj.r.appspot.com
 0.0.0.0 dcs.netbiscuits.net
@@ -198990,6 +198993,7 @@
 0.0.0.0 dcv.pages.dev
 0.0.0.0 dcv111fbgfds.blogspot.tw
 0.0.0.0 dcvg.square.site
+0.0.0.0 dcwblida.dz
 0.0.0.0 dcwdfwefefef.weebly.com
 0.0.0.0 dcwhosaybbtnwbvp-dot-millinium.ey.r.appspot.com
 0.0.0.0 dcwzr.wqvec.workers.dev
@@ -212273,7 +212277,6 @@
 0.0.0.0 down-load-app.top
 0.0.0.0 down-load-tk.top
 0.0.0.0 down-vv.ddns.net
-0.0.0.0 down.54nb.com
 0.0.0.0 down.amazontaxrebate.com
 0.0.0.0 down.bortogat.ru
 0.0.0.0 down.bybitpro.construction
@@ -212283,7 +212286,6 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
-0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -225016,7 +225018,6 @@
 0.0.0.0 epaleccs.info
 0.0.0.0 epanadiplosis.life
 0.0.0.0 epancakeswap.com
-0.0.0.0 epanpano.com
 0.0.0.0 epansoftware.com
 0.0.0.0 epargne.temp.swtest.ru
 0.0.0.0 eparrgne.000webhostapp.com
@@ -263117,7 +263118,6 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -326989,7 +326989,6 @@
 0.0.0.0 laputan-truth.000webhostapp.com
 0.0.0.0 laqtaa.com
 0.0.0.0 laquiel.com
-0.0.0.0 lara.com.ar
 0.0.0.0 larabox.co.uk
 0.0.0.0 laracastilhoevento.com.br
 0.0.0.0 laraccount.com
@@ -349530,6 +349529,7 @@
 0.0.0.0 mail.sustainabletech.cc
 0.0.0.0 mail.swan-semi.com
 0.0.0.0 mail.swiatszynszyli.xaa.pl
+0.0.0.0 mail.swingologygolfschools.com
 0.0.0.0 mail.sydneyutshab.org.au
 0.0.0.0 mail.syncwon.com
 0.0.0.0 mail.szshunhe.com
@@ -364649,7 +364649,6 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
-0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -418704,6 +418703,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -423926,6 +423926,7 @@
 0.0.0.0 precetioadentryakolotaion.co.vu
 0.0.0.0 precinctfinder.com
 0.0.0.0 preciosaalimentos.com.br
+0.0.0.0 preciosasjoyitas.com.mx
 0.0.0.0 precious-person-875680.framer.app
 0.0.0.0 precious-toffee-b5074f.netlify.app
 0.0.0.0 precious-ziraat1-7b9148.netlify.app
@@ -468803,7 +468804,6 @@
 0.0.0.0 soft-side-946015.framer.app
 0.0.0.0 soft-storage.com
 0.0.0.0 soft-wealth.com
-0.0.0.0 soft.110route.com
 0.0.0.0 soft.dedspac.ru
 0.0.0.0 soft.timanar.ru
 0.0.0.0 soft.ulitron.ru
@@ -469950,7 +469950,6 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
-0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodnice.shop
 0.0.0.0 spoil.virosat.ru
@@ -472639,7 +472638,6 @@
 0.0.0.0 stcamconnmumnlty.com
 0.0.0.0 std.o.webmd.com
 0.0.0.0 std112.github.io
-0.0.0.0 stdown.dinju.com
 0.0.0.0 steacncomnuniry.ru
 0.0.0.0 stead.dedspac.ru
 0.0.0.0 steadfast-seemly-cobalt.glitch.me
@@ -483066,7 +483064,6 @@
 0.0.0.0 trsfsdezorwallet.webflow.io
 0.0.0.0 trsoriiostarrt.webflow.io
 0.0.0.0 trstart-trezur.webflow.io
-0.0.0.0 trtmyanmar.com
 0.0.0.0 trtrezohardwarwait.webflow.io
 0.0.0.0 trtsisskj.registid.com
 0.0.0.0 trturksars.click
@@ -485094,7 +485091,6 @@
 0.0.0.0 unifiedi-styvuydelm.edgeone.app
 0.0.0.0 unifiedmarketmedia.com
 0.0.0.0 unifomushop.com
-0.0.0.0 uniform-factory.ae
 0.0.0.0 unify.dedspac.ru
 0.0.0.0 uniglobalhserverline.weebly.com
 0.0.0.0 uniglobalserverlinetrentthdie.weebly.com
@@ -489356,6 +489352,7 @@
 0.0.0.0 videotroncens.weebly.com
 0.0.0.0 videotroncom.112.2o7.net
 0.0.0.0 videovip.org
+0.0.0.0 videoviralviews.com
 0.0.0.0 videovor.fr
 0.0.0.0 videowhatsapp1.hidrocleaner.com
 0.0.0.0 vider-image.com
@@ -493834,6 +493831,7 @@
 0.0.0.0 widen.dedspac.ru
 0.0.0.0 widespace.com
 0.0.0.0 widestep.com
+0.0.0.0 widexenmexico.com.mx
 0.0.0.0 widget-1.oncustomer.asia
 0.0.0.0 widget-2.oncustomer.asia
 0.0.0.0 widget-cdn.rpxnow.com
