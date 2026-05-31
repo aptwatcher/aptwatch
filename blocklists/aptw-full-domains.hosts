@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-31 12:32:38
-# Entries: 524281
+# Generated: 2026-05-31 18:31:15
+# Entries: 524284
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -21633,6 +21633,7 @@
 0.0.0.0 3bood89.standardseoservices.com
 0.0.0.0 3boredguys.com
 0.0.0.0 3bra.solonettochka.ru
+0.0.0.0 3brosstore.com
 0.0.0.0 3bscafe.com
 0.0.0.0 3btgzfk74gxejzr.qwo231sdx.club
 0.0.0.0 3btvalruqoxo.wusps.xyz
@@ -68931,6 +68932,7 @@
 0.0.0.0 alarmingangryapplication.bancolombia1111.repl.co
 0.0.0.0 alarmingissue-contentdetails.firebaseapp.com
 0.0.0.0 alarmingissue-contentdetails.web.app
+0.0.0.0 alarmline.com.br
 0.0.0.0 alarmobninsk.ru
 0.0.0.0 alarmpiquillov.com
 0.0.0.0 alarms.virosat.ru
@@ -114863,7 +114865,6 @@
 0.0.0.0 audiblesobs.com
 0.0.0.0 audicat.net
 0.0.0.0 audicomsrl.com
-0.0.0.0 audicontadores.com
 0.0.0.0 audid-api.taobao.com
 0.0.0.0 audience-crouch.dvrlists.com
 0.0.0.0 audience-local-ads-main-418507293.vercel.app
@@ -136354,7 +136355,6 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
-0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -147462,6 +147462,7 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
+0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -164010,6 +164011,7 @@
 0.0.0.0 calculatorstatement.com
 0.0.0.0 calculusindia.com
 0.0.0.0 calcuttaplastics.com
+0.0.0.0 caldas-pires.pt
 0.0.0.0 caldav.elitoras.ru
 0.0.0.0 calder.virosat.ru
 0.0.0.0 caldoro.shop
@@ -167201,7 +167203,6 @@
 0.0.0.0 castrolprofessionalacademy.pl
 0.0.0.0 castromonitoramento.com.br
 0.0.0.0 castromunicipio.cl
-0.0.0.0 castroycontadores.com
 0.0.0.0 casts.ulitron.ru
 0.0.0.0 casts.virosat.ru
 0.0.0.0 castuning.com
@@ -179483,7 +179484,6 @@
 0.0.0.0 cn.rkzmx.com
 0.0.0.0 cn.sekmx.com
 0.0.0.0 cn.sqhuabang.com
-0.0.0.0 cn.unionlever.com
 0.0.0.0 cn.vcbjmx.com
 0.0.0.0 cn.voranfi.ru
 0.0.0.0 cn.wanbo18.pro
@@ -225018,6 +225018,7 @@
 0.0.0.0 epaleccs.info
 0.0.0.0 epanadiplosis.life
 0.0.0.0 epancakeswap.com
+0.0.0.0 epanpano.com
 0.0.0.0 epansoftware.com
 0.0.0.0 epargne.temp.swtest.ru
 0.0.0.0 eparrgne.000webhostapp.com
@@ -275974,6 +275975,7 @@
 0.0.0.0 harworlu83.github.io
 0.0.0.0 harygbolahan.github.io
 0.0.0.0 has76q3yufe.hopto.org
+0.0.0.0 hasalltalent.com
 0.0.0.0 hasan-can-1.ml
 0.0.0.0 hasan.dedspac.ru
 0.0.0.0 hasan.ulitron.ru
@@ -307978,7 +307980,6 @@
 0.0.0.0 jessegue.com
 0.0.0.0 jessenewhart.com
 0.0.0.0 jesseroth.me
-0.0.0.0 jessespridecharters.com
 0.0.0.0 jessi.live
 0.0.0.0 jessica-houston.xyz
 0.0.0.0 jessica.atozgroup.ir
@@ -349529,7 +349530,6 @@
 0.0.0.0 mail.sustainabletech.cc
 0.0.0.0 mail.swan-semi.com
 0.0.0.0 mail.swiatszynszyli.xaa.pl
-0.0.0.0 mail.swingologygolfschools.com
 0.0.0.0 mail.sydneyutshab.org.au
 0.0.0.0 mail.syncwon.com
 0.0.0.0 mail.szshunhe.com
@@ -364649,6 +364649,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -397781,6 +397782,7 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -418703,7 +418705,6 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
-0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -427767,6 +427768,7 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -428630,6 +428632,7 @@
 0.0.0.0 ptosexwpndhpzzuawnkotrbvby-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 ptovesindo.com
 0.0.0.0 ptownpooch.com
+0.0.0.0 ptpilatesstudio.com
 0.0.0.0 ptplayground.com
 0.0.0.0 ptppp.cn
 0.0.0.0 ptpsc-dpd.cfd
@@ -453983,6 +453986,7 @@
 0.0.0.0 rosettastone.tt.omtrdc.net
 0.0.0.0 rosette.wavaigroup.com
 0.0.0.0 roseum.space
+0.0.0.0 rosewoodlaminates.com
 0.0.0.0 roshan-karande.github.io
 0.0.0.0 roshan-keshri.github.io
 0.0.0.0 roshani-ship.github.io
@@ -457057,7 +457061,6 @@
 0.0.0.0 rxoulvmh.1x4avau.cn
 0.0.0.0 rxpfy.top
 0.0.0.0 rxpwtetasancamqlbusefctqlm-dot-gle39404049.rj.r.appspot.com
-0.0.0.0 rxquickpay.com
 0.0.0.0 rxresults.purocueroecuador.com
 0.0.0.0 rxrunning.com
 0.0.0.0 rxsdruqzhrbhdjlsawsskumika-dot-gle39404049.rj.r.appspot.com
@@ -468804,6 +468807,7 @@
 0.0.0.0 soft-side-946015.framer.app
 0.0.0.0 soft-storage.com
 0.0.0.0 soft-wealth.com
+0.0.0.0 soft.110route.com
 0.0.0.0 soft.dedspac.ru
 0.0.0.0 soft.timanar.ru
 0.0.0.0 soft.ulitron.ru
@@ -469950,6 +469954,7 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
+0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodnice.shop
 0.0.0.0 spoil.virosat.ru
@@ -472239,7 +472244,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -472638,6 +472642,7 @@
 0.0.0.0 stcamconnmumnlty.com
 0.0.0.0 std.o.webmd.com
 0.0.0.0 std112.github.io
+0.0.0.0 stdown.dinju.com
 0.0.0.0 steacncomnuniry.ru
 0.0.0.0 stead.dedspac.ru
 0.0.0.0 steadfast-seemly-cobalt.glitch.me
@@ -475347,7 +475352,6 @@
 0.0.0.0 swiftcr.live
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -483064,6 +483068,7 @@
 0.0.0.0 trsfsdezorwallet.webflow.io
 0.0.0.0 trsoriiostarrt.webflow.io
 0.0.0.0 trstart-trezur.webflow.io
+0.0.0.0 trtmyanmar.com
 0.0.0.0 trtrezohardwarwait.webflow.io
 0.0.0.0 trtsisskj.registid.com
 0.0.0.0 trturksars.click
@@ -485091,6 +485096,7 @@
 0.0.0.0 unifiedi-styvuydelm.edgeone.app
 0.0.0.0 unifiedmarketmedia.com
 0.0.0.0 unifomushop.com
+0.0.0.0 uniform-factory.ae
 0.0.0.0 unify.dedspac.ru
 0.0.0.0 uniglobalhserverline.weebly.com
 0.0.0.0 uniglobalserverlinetrentthdie.weebly.com
@@ -489352,7 +489358,6 @@
 0.0.0.0 videotroncens.weebly.com
 0.0.0.0 videotroncom.112.2o7.net
 0.0.0.0 videovip.org
-0.0.0.0 videoviralviews.com
 0.0.0.0 videovor.fr
 0.0.0.0 videowhatsapp1.hidrocleaner.com
 0.0.0.0 vider-image.com
@@ -514835,7 +514840,6 @@
 0.0.0.0 www.silvano.cfd
 0.0.0.0 www.silvarena.top
 0.0.0.0 www.silver-dwell.com
-0.0.0.0 www.silver-hubdachwohnwagen.de
 0.0.0.0 www.silver-lumen.com
 0.0.0.0 www.silver-surge.com
 0.0.0.0 www.silveragesoftware.com
@@ -515640,7 +515644,6 @@
 0.0.0.0 www.star-fury.com
 0.0.0.0 www.star-windjk.com
 0.0.0.0 www.starcorenet.site
-0.0.0.0 www.starcountry.net
 0.0.0.0 www.stardigpulse.site
 0.0.0.0 www.stardustdump.pro
 0.0.0.0 www.starlit-path.com
