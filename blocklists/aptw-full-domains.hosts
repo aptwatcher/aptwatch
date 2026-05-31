@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-05-31 00:32:44
+# Generated: 2026-05-31 06:02:59
 # Entries: 524283
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -88458,6 +88458,7 @@
 0.0.0.0 api.evdevlab.ru
 0.0.0.0 api.exc.mob.com
 0.0.0.0 api.ezca.asia
+0.0.0.0 api.ezilax.com
 0.0.0.0 api.faceb00k.25march.com
 0.0.0.0 api.florense.com.br
 0.0.0.0 api.flygame.io
@@ -114863,7 +114864,6 @@
 0.0.0.0 audiblesobs.com
 0.0.0.0 audicat.net
 0.0.0.0 audicomsrl.com
-0.0.0.0 audicontadores.com
 0.0.0.0 audid-api.taobao.com
 0.0.0.0 audience-crouch.dvrlists.com
 0.0.0.0 audience-local-ads-main-418507293.vercel.app
@@ -198959,7 +198959,6 @@
 0.0.0.0 dcreeves.com
 0.0.0.0 dcrrdlmspr.duckdns.org
 0.0.0.0 dcrtupvigysfybdzpmbpgskfah-dot-gleowayel400503.uc.r.appspot.com
-0.0.0.0 dcrun.co.uk
 0.0.0.0 dcrussianlessons.com
 0.0.0.0 dcrwkudhpygbmrxkgsuwgryhuu-dot-gowa11111111.rj.r.appspot.com
 0.0.0.0 dcs.netbiscuits.net
@@ -198991,7 +198990,6 @@
 0.0.0.0 dcv.pages.dev
 0.0.0.0 dcv111fbgfds.blogspot.tw
 0.0.0.0 dcvg.square.site
-0.0.0.0 dcwblida.dz
 0.0.0.0 dcwdfwefefef.weebly.com
 0.0.0.0 dcwhosaybbtnwbvp-dot-millinium.ey.r.appspot.com
 0.0.0.0 dcwzr.wqvec.workers.dev
@@ -263119,6 +263117,7 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -295650,7 +295649,6 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
-0.0.0.0 indeanapolice.cc
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
 0.0.0.0 indecisive-pentagonal-carnation.glitch.me
@@ -326991,6 +326989,7 @@
 0.0.0.0 laputan-truth.000webhostapp.com
 0.0.0.0 laqtaa.com
 0.0.0.0 laquiel.com
+0.0.0.0 lara.com.ar
 0.0.0.0 larabox.co.uk
 0.0.0.0 laracastilhoevento.com.br
 0.0.0.0 laraccount.com
@@ -397783,7 +397782,6 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
-0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -423928,7 +423926,6 @@
 0.0.0.0 precetioadentryakolotaion.co.vu
 0.0.0.0 precinctfinder.com
 0.0.0.0 preciosaalimentos.com.br
-0.0.0.0 preciosasjoyitas.com.mx
 0.0.0.0 precious-person-875680.framer.app
 0.0.0.0 precious-toffee-b5074f.netlify.app
 0.0.0.0 precious-ziraat1-7b9148.netlify.app
@@ -469953,6 +469950,7 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
+0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodnice.shop
 0.0.0.0 spoil.virosat.ru
@@ -472242,6 +472240,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -475161,6 +475160,7 @@
 0.0.0.0 sutra.dedspac.ru
 0.0.0.0 sutra.newzfind.com
 0.0.0.0 sutsyuclnftody.com
+0.0.0.0 sutterpoint.com
 0.0.0.0 sutterstreetmhp.com
 0.0.0.0 suum.ulitron.ru
 0.0.0.0 suva.amaniwa.ru
@@ -489356,7 +489356,6 @@
 0.0.0.0 videotroncens.weebly.com
 0.0.0.0 videotroncom.112.2o7.net
 0.0.0.0 videovip.org
-0.0.0.0 videoviralviews.com
 0.0.0.0 videovor.fr
 0.0.0.0 videowhatsapp1.hidrocleaner.com
 0.0.0.0 vider-image.com
@@ -505578,6 +505577,7 @@
 0.0.0.0 www.hschool.shop
 0.0.0.0 www.hscptg.com
 0.0.0.0 www.hsearchp.katalystintegrations.com
+0.0.0.0 www.hseda.com
 0.0.0.0 www.hsinweilife.com
 0.0.0.0 www.hsmellc.taxdeedxpert.com
 0.0.0.0 www.hsnzj.com
