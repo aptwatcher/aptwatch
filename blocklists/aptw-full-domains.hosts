@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-01 00:31:09
-# Entries: 524336
+# Generated: 2026-06-01 01:56:23
+# Entries: 524334
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -164311,6 +164311,7 @@
 0.0.0.0 cambodiaharvest2.sovanntong.com
 0.0.0.0 cambodiakhmerpornvideo.vvipwww.com
 0.0.0.0 cambodiaporncinemakhmer.vvipwww.com
+0.0.0.0 cambodiatouristservice.com
 0.0.0.0 cambodiatraining.com
 0.0.0.0 cambojaporheranca.com.br
 0.0.0.0 cambonanza.com
@@ -174578,7 +174579,6 @@
 0.0.0.0 chunghwa-post-mailpost-kachkocha1252382.codeanyapp.com
 0.0.0.0 chunghwonow.wpengine.com
 0.0.0.0 chungling-wixsite-com.filesusr.com
-0.0.0.0 chungminhtaichinhsaigon.net
 0.0.0.0 chungo12345.hostfree.pw
 0.0.0.0 chunk.ulitron.ru
 0.0.0.0 chunks.dedspac.ru
@@ -187347,7 +187347,6 @@
 0.0.0.0 controlblasting.co.za
 0.0.0.0 controlengineering.in
 0.0.0.0 controlgatestorage.com
-0.0.0.0 controlhomecr.com
 0.0.0.0 controliumbt.com
 0.0.0.0 controllaportale-manualmente.com
 0.0.0.0 controller.4seeresults.com
@@ -308005,6 +308004,7 @@
 0.0.0.0 jessegue.com
 0.0.0.0 jessenewhart.com
 0.0.0.0 jesseroth.me
+0.0.0.0 jessespridecharters.com
 0.0.0.0 jessi.live
 0.0.0.0 jessica-houston.xyz
 0.0.0.0 jessica.atozgroup.ir
@@ -345580,7 +345580,6 @@
 0.0.0.0 magnumalsa0910201.weeblysite.com
 0.0.0.0 magnumbd.com
 0.0.0.0 magnumwallet.su
-0.0.0.0 magnusworkspace.com
 0.0.0.0 magodontologia.com.br
 0.0.0.0 magogcaskets.com
 0.0.0.0 magot.ulitron.ru
@@ -364684,6 +364683,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -373136,7 +373136,6 @@
 0.0.0.0 motoresrc.com
 0.0.0.0 motorfame.com
 0.0.0.0 motorfixx.digital
-0.0.0.0 motorhomecinema.com
 0.0.0.0 motoristas-shopee.com
 0.0.0.0 motoristo.ru
 0.0.0.0 motorl.oewabox.at
@@ -376091,6 +376090,7 @@
 0.0.0.0 murf-meta-lix-biz.pages.dev
 0.0.0.0 murga.ulitron.ru
 0.0.0.0 murge.io
+0.0.0.0 muriaspetin.es
 0.0.0.0 muriatic-speed.000webhostapp.com
 0.0.0.0 murid.ulitron.ru
 0.0.0.0 murikon.ru
@@ -399447,7 +399447,6 @@
 0.0.0.0 oneyog.com
 0.0.0.0 onezamueac.com
 0.0.0.0 onf6sb82y.duckdns.org
-0.0.0.0 onfiltre.com.tr
 0.0.0.0 onfire11.mbamep.com
 0.0.0.0 onflix.us
 0.0.0.0 onfluencer.net
@@ -418743,6 +418742,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -427806,7 +427806,6 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
-0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -466397,6 +466396,7 @@
 0.0.0.0 showy.virosat.ru
 0.0.0.0 showyouoffjy.shop
 0.0.0.0 shparkase.me
+0.0.0.0 shqdown.ggzuhao.com
 0.0.0.0 shraddha-chaudhari356.github.io
 0.0.0.0 shraddhashilwant05.github.io
 0.0.0.0 shrag-meta.pages.dev
@@ -466405,7 +466405,6 @@
 0.0.0.0 shredform.com
 0.0.0.0 shredova.ru
 0.0.0.0 shreenath1696.github.io
-0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
@@ -493882,6 +493881,7 @@
 0.0.0.0 widen.dedspac.ru
 0.0.0.0 widespace.com
 0.0.0.0 widestep.com
+0.0.0.0 widexenmexico.com.mx
 0.0.0.0 widget-1.oncustomer.asia
 0.0.0.0 widget-2.oncustomer.asia
 0.0.0.0 widget-cdn.rpxnow.com
@@ -498493,7 +498493,6 @@
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
 0.0.0.0 www.benowe.shop
-0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benulekaren-sale.sbs
 0.0.0.0 www.benulekaren.biotechusasale.shop
@@ -508732,7 +508731,6 @@
 0.0.0.0 www.metavertising.com
 0.0.0.0 www.methodhfunny.buzz
 0.0.0.0 www.metricsimage.com
-0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mexc.sc
 0.0.0.0 www.mexdrugs.com
 0.0.0.0 www.mexicantonewoods.com
