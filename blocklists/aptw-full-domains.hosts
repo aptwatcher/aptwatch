@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-01 01:56:23
-# Entries: 524334
+# Generated: 2026-06-01 06:02:40
+# Entries: 524333
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -198974,7 +198974,6 @@
 0.0.0.0 dcreeves.com
 0.0.0.0 dcrrdlmspr.duckdns.org
 0.0.0.0 dcrtupvigysfybdzpmbpgskfah-dot-gleowayel400503.uc.r.appspot.com
-0.0.0.0 dcrun.co.uk
 0.0.0.0 dcrussianlessons.com
 0.0.0.0 dcrwkudhpygbmrxkgsuwgryhuu-dot-gowa11111111.rj.r.appspot.com
 0.0.0.0 dcs.netbiscuits.net
@@ -229079,7 +229078,6 @@
 0.0.0.0 eventss.biz.id
 0.0.0.0 eventstrail.be
 0.0.0.0 eventsxmetros16.com
-0.0.0.0 eventsyouwant.com
 0.0.0.0 eventt-claim-freefiree.duckdns.org
 0.0.0.0 eventt-freefireegratis.duckdns.org
 0.0.0.0 eventt-gratis-free-fire-resmi.duckdns.org
@@ -263138,6 +263136,7 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -321113,7 +321112,6 @@
 0.0.0.0 kmrxgs.com
 0.0.0.0 kms-full.com
 0.0.0.0 kms-win11-update.net
-0.0.0.0 kms.com.bd
 0.0.0.0 kms.jo
 0.0.0.0 kmsauto.info
 0.0.0.0 kmsdhjeru.org
@@ -345747,6 +345745,7 @@
 0.0.0.0 maidazbuybox.com
 0.0.0.0 maidenhome.ddns.net
 0.0.0.0 maidenhomei.ddns.net
+0.0.0.0 maidforyou1985.com
 0.0.0.0 maidu.dedspac.ru
 0.0.0.0 maidu.ulitron.ru
 0.0.0.0 maiduguripoloclub.com
@@ -393331,6 +393330,7 @@
 0.0.0.0 nutrikalia.com
 0.0.0.0 nutrilshop.net.tr.ht
 0.0.0.0 nutrired.org
+0.0.0.0 nutrisc.com.br
 0.0.0.0 nutrisilviaramos.com.br
 0.0.0.0 nutrisincera.com
 0.0.0.0 nutritionalapproaches.com
@@ -475394,7 +475394,6 @@
 0.0.0.0 swiftcr.live
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
