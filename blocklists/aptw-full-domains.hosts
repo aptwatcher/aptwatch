@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-01 18:31:04
-# Entries: 524341
+# Generated: 2026-06-01 20:01:45
+# Entries: 524348
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -178738,6 +178738,7 @@
 0.0.0.0 cloudmsmessagesreleaingafterverificationmymsuser673479329482387.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 cloudmy-ids.com
 0.0.0.0 cloudnetfiji.com
+0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudofflceadmln.epizy.com
@@ -188226,6 +188227,7 @@
 0.0.0.0 corpmail.voranfi.ru
 0.0.0.0 corporacion-desguridad-deti.mx
 0.0.0.0 corporacion.com
+0.0.0.0 corporacioncrf.com
 0.0.0.0 corporaciondesafio.org
 0.0.0.0 corporacionjkys.com
 0.0.0.0 corporacionlasirena.com
@@ -212294,6 +212296,7 @@
 0.0.0.0 down-load-app.top
 0.0.0.0 down-load-tk.top
 0.0.0.0 down-vv.ddns.net
+0.0.0.0 down.54nb.com
 0.0.0.0 down.amazontaxrebate.com
 0.0.0.0 down.bortogat.ru
 0.0.0.0 down.bybitpro.construction
@@ -261677,7 +261680,6 @@
 0.0.0.0 globalapri.com
 0.0.0.0 globalasdjnifwe.com
 0.0.0.0 globalautodoor.com
-0.0.0.0 globalbank.us
 0.0.0.0 globalbizinternational.com
 0.0.0.0 globalbloodtx-com-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 globalbloodtx-com.gl494903049.wl.r.appspot.com
@@ -263139,6 +263141,7 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -318653,7 +318656,6 @@
 0.0.0.0 kevlaardiet.fr
 0.0.0.0 kevlarclint.github.io
 0.0.0.0 kevlinskkdkd.com
-0.0.0.0 kevtel.com
 0.0.0.0 kevtrion.com
 0.0.0.0 kewaowieurdff.weebly.com
 0.0.0.0 keweejuana.com
@@ -397822,6 +397824,7 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -408563,6 +408566,7 @@
 0.0.0.0 par-nets.co.uk
 0.0.0.0 par-v56.cf
 0.0.0.0 par-zo.net
+0.0.0.0 par.mzfpb.com
 0.0.0.0 par.ulitron.ru
 0.0.0.0 par.vip.prod.criteo.com
 0.0.0.0 par.vip.prod.criteo.net
@@ -409311,8 +409315,10 @@
 0.0.0.0 parwendotravel.co.zw
 0.0.0.0 parwindersinghbatra.github.io
 0.0.0.0 pary.sksave.sbs
+0.0.0.0 parys.clarel.sbs
 0.0.0.0 parys.evas.buzz
 0.0.0.0 parys.fishing-sk.shop
+0.0.0.0 parys.friscops.sbs
 0.0.0.0 parys.rybolov-sk.shop
 0.0.0.0 parys.shop
 0.0.0.0 parysczsale.shop
@@ -457104,7 +457110,6 @@
 0.0.0.0 rxoulvmh.1x4avau.cn
 0.0.0.0 rxpfy.top
 0.0.0.0 rxpwtetasancamqlbusefctqlm-dot-gle39404049.rj.r.appspot.com
-0.0.0.0 rxquickpay.com
 0.0.0.0 rxresults.purocueroecuador.com
 0.0.0.0 rxrunning.com
 0.0.0.0 rxsdruqzhrbhdjlsawsskumika-dot-gle39404049.rj.r.appspot.com
@@ -458868,7 +458873,6 @@
 0.0.0.0 safeurl.com.pl
 0.0.0.0 safeurl.maxthon.cn
 0.0.0.0 safewalletconnect.net
-0.0.0.0 safewatertech.com
 0.0.0.0 safeway96e7e.weebly.com
 0.0.0.0 safewaysecurityscreens.com.au
 0.0.0.0 safewebgrowthnation.vercel.app
@@ -467300,6 +467304,7 @@
 0.0.0.0 sjzph.com
 0.0.0.0 sk-comtel.com
 0.0.0.0 sk-karimunnisa.github.io
+0.0.0.0 sk-paryssale.shop
 0.0.0.0 sk-rahis.github.io
 0.0.0.0 sk.5.p2l.info
 0.0.0.0 sk.heato.ru
@@ -470065,6 +470070,7 @@
 0.0.0.0 sportingnews.122.2o7.net
 0.0.0.0 sportingnews.us.intellitxt.com
 0.0.0.0 sportisimo.ddeichmann-de.com
+0.0.0.0 sportisimo.flyingtiger-dk.shop
 0.0.0.0 sportisimo.outlcsale.com
 0.0.0.0 sportisimo.sfd-pl.shop
 0.0.0.0 sportisimoczolinesale.com
@@ -475400,6 +475406,7 @@
 0.0.0.0 swiftcr.live
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -480474,7 +480481,6 @@
 0.0.0.0 tools.ztod.com
 0.0.0.0 tools2.hitbox.com
 0.0.0.0 toolsa.hitbox.com
-0.0.0.0 toolshare.com.tr
 0.0.0.0 toolshedshop.top
 0.0.0.0 toolshopclearance-eu.shop
 0.0.0.0 toolshopclearance.shop
@@ -483116,6 +483122,7 @@
 0.0.0.0 trsfsdezorwallet.webflow.io
 0.0.0.0 trsoriiostarrt.webflow.io
 0.0.0.0 trstart-trezur.webflow.io
+0.0.0.0 trtmyanmar.com
 0.0.0.0 trtrezohardwarwait.webflow.io
 0.0.0.0 trtsisskj.registid.com
 0.0.0.0 trturksars.click
