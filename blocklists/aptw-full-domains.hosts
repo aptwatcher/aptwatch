@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-01 12:31:13
-# Entries: 524336
+# Generated: 2026-06-01 18:31:04
+# Entries: 524341
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -15426,7 +15426,6 @@
 0.0.0.0 24vulkanvegas.com
 0.0.0.0 24waznewydarzenia.pl
 0.0.0.0 24wg63.top
-0.0.0.0 24winnjury.com
 0.0.0.0 24wq4uq57g56ftxxugr7awrslu-adwhj77lcyoafdy-l-instagram-com.translate.goog
 0.0.0.0 24wqwq33.000webhostapp.com
 0.0.0.0 24wrestling.us.intellitxt.com
@@ -88464,6 +88463,7 @@
 0.0.0.0 api.evdevlab.ru
 0.0.0.0 api.exc.mob.com
 0.0.0.0 api.ezca.asia
+0.0.0.0 api.ezilax.com
 0.0.0.0 api.faceb00k.25march.com
 0.0.0.0 api.florense.com.br
 0.0.0.0 api.flygame.io
@@ -151573,6 +151573,7 @@
 0.0.0.0 bombayelectricstore.com
 0.0.0.0 bombayheightsny.com
 0.0.0.0 bombayindustries.com
+0.0.0.0 bombayonline.in
 0.0.0.0 bombbreakfastsandos.com
 0.0.0.0 bombcrypto-bcoin.netlify.app
 0.0.0.0 bombe.ulitron.ru
@@ -167211,6 +167212,7 @@
 0.0.0.0 castrolprofessionalacademy.pl
 0.0.0.0 castromonitoramento.com.br
 0.0.0.0 castromunicipio.cl
+0.0.0.0 castroycontadores.com
 0.0.0.0 casts.ulitron.ru
 0.0.0.0 casts.virosat.ru
 0.0.0.0 castuning.com
@@ -179492,6 +179494,7 @@
 0.0.0.0 cn.rkzmx.com
 0.0.0.0 cn.sekmx.com
 0.0.0.0 cn.sqhuabang.com
+0.0.0.0 cn.unionlever.com
 0.0.0.0 cn.vcbjmx.com
 0.0.0.0 cn.voranfi.ru
 0.0.0.0 cn.wanbo18.pro
@@ -179583,6 +179586,7 @@
 0.0.0.0 cnbpho.com
 0.0.0.0 cnbserlivwlt30dahon.azurewebsites.net
 0.0.0.0 cnbvn.carrd.co
+0.0.0.0 cnc.reaperc2.xyz
 0.0.0.0 cnceast.weebly.com
 0.0.0.0 cncfd.nikasr.xyz
 0.0.0.0 cnchax.com
@@ -188222,7 +188226,6 @@
 0.0.0.0 corpmail.voranfi.ru
 0.0.0.0 corporacion-desguridad-deti.mx
 0.0.0.0 corporacion.com
-0.0.0.0 corporacioncrf.com
 0.0.0.0 corporaciondesafio.org
 0.0.0.0 corporacionjkys.com
 0.0.0.0 corporacionlasirena.com
@@ -212291,7 +212294,6 @@
 0.0.0.0 down-load-app.top
 0.0.0.0 down-load-tk.top
 0.0.0.0 down-vv.ddns.net
-0.0.0.0 down.54nb.com
 0.0.0.0 down.amazontaxrebate.com
 0.0.0.0 down.bortogat.ru
 0.0.0.0 down.bybitpro.construction
@@ -229078,6 +229080,7 @@
 0.0.0.0 eventss.biz.id
 0.0.0.0 eventstrail.be
 0.0.0.0 eventsxmetros16.com
+0.0.0.0 eventsyouwant.com
 0.0.0.0 eventt-claim-freefiree.duckdns.org
 0.0.0.0 eventt-freefireegratis.duckdns.org
 0.0.0.0 eventt-gratis-free-fire-resmi.duckdns.org
@@ -297974,6 +297977,7 @@
 0.0.0.0 innova-tech.com.mx
 0.0.0.0 innovaespublicidad.com
 0.0.0.0 innovamosbanrural.0hi.me
+0.0.0.0 innovantksa.com
 0.0.0.0 innovaperutourscom.ipage.com
 0.0.0.0 innovatemanhattan.org
 0.0.0.0 innovaterez.tr
@@ -364682,6 +364686,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -397817,7 +397822,6 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
-0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -423964,6 +423968,7 @@
 0.0.0.0 precetioadentryakolotaion.co.vu
 0.0.0.0 precinctfinder.com
 0.0.0.0 preciosaalimentos.com.br
+0.0.0.0 preciosasjoyitas.com.mx
 0.0.0.0 precious-person-875680.framer.app
 0.0.0.0 precious-toffee-b5074f.netlify.app
 0.0.0.0 precious-ziraat1-7b9148.netlify.app
@@ -458863,6 +458868,7 @@
 0.0.0.0 safeurl.com.pl
 0.0.0.0 safeurl.maxthon.cn
 0.0.0.0 safewalletconnect.net
+0.0.0.0 safewatertech.com
 0.0.0.0 safeway96e7e.weebly.com
 0.0.0.0 safewaysecurityscreens.com.au
 0.0.0.0 safewebgrowthnation.vercel.app
@@ -475394,7 +475400,6 @@
 0.0.0.0 swiftcr.live
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -483111,7 +483116,6 @@
 0.0.0.0 trsfsdezorwallet.webflow.io
 0.0.0.0 trsoriiostarrt.webflow.io
 0.0.0.0 trstart-trezur.webflow.io
-0.0.0.0 trtmyanmar.com
 0.0.0.0 trtrezohardwarwait.webflow.io
 0.0.0.0 trtsisskj.registid.com
 0.0.0.0 trturksars.click
@@ -489403,6 +489407,7 @@
 0.0.0.0 videotroncens.weebly.com
 0.0.0.0 videotroncom.112.2o7.net
 0.0.0.0 videovip.org
+0.0.0.0 videoviralviews.com
 0.0.0.0 videovor.fr
 0.0.0.0 videowhatsapp1.hidrocleaner.com
 0.0.0.0 vider-image.com
@@ -492438,7 +492443,6 @@
 0.0.0.0 website-web.github.io
 0.0.0.0 website.alacritas.ru
 0.0.0.0 website.goloser.ru
-0.0.0.0 website.mypetapp.co.za
 0.0.0.0 websitecompany.org
 0.0.0.0 websiteconnecting.com
 0.0.0.0 websitedanaid.website-bantuan.top
@@ -508732,6 +508736,7 @@
 0.0.0.0 www.metavertising.com
 0.0.0.0 www.methodhfunny.buzz
 0.0.0.0 www.metricsimage.com
+0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mexc.sc
 0.0.0.0 www.mexdrugs.com
 0.0.0.0 www.mexicantonewoods.com
