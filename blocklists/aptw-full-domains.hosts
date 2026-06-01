@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-01 06:30:48
-# Entries: 524333
+# Generated: 2026-06-01 12:31:13
+# Entries: 524336
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -88464,7 +88464,6 @@
 0.0.0.0 api.evdevlab.ru
 0.0.0.0 api.exc.mob.com
 0.0.0.0 api.ezca.asia
-0.0.0.0 api.ezilax.com
 0.0.0.0 api.faceb00k.25march.com
 0.0.0.0 api.florense.com.br
 0.0.0.0 api.flygame.io
@@ -174579,6 +174578,7 @@
 0.0.0.0 chunghwa-post-mailpost-kachkocha1252382.codeanyapp.com
 0.0.0.0 chunghwonow.wpengine.com
 0.0.0.0 chungling-wixsite-com.filesusr.com
+0.0.0.0 chungminhtaichinhsaigon.net
 0.0.0.0 chungo12345.hostfree.pw
 0.0.0.0 chunk.ulitron.ru
 0.0.0.0 chunks.dedspac.ru
@@ -179492,7 +179492,6 @@
 0.0.0.0 cn.rkzmx.com
 0.0.0.0 cn.sekmx.com
 0.0.0.0 cn.sqhuabang.com
-0.0.0.0 cn.unionlever.com
 0.0.0.0 cn.vcbjmx.com
 0.0.0.0 cn.voranfi.ru
 0.0.0.0 cn.wanbo18.pro
@@ -198974,6 +198973,7 @@
 0.0.0.0 dcreeves.com
 0.0.0.0 dcrrdlmspr.duckdns.org
 0.0.0.0 dcrtupvigysfybdzpmbpgskfah-dot-gleowayel400503.uc.r.appspot.com
+0.0.0.0 dcrun.co.uk
 0.0.0.0 dcrussianlessons.com
 0.0.0.0 dcrwkudhpygbmrxkgsuwgryhuu-dot-gowa11111111.rj.r.appspot.com
 0.0.0.0 dcs.netbiscuits.net
@@ -263136,7 +263136,6 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -318650,6 +318649,7 @@
 0.0.0.0 kevlaardiet.fr
 0.0.0.0 kevlarclint.github.io
 0.0.0.0 kevlinskkdkd.com
+0.0.0.0 kevtel.com
 0.0.0.0 kevtrion.com
 0.0.0.0 kewaowieurdff.weebly.com
 0.0.0.0 keweejuana.com
@@ -364682,7 +364682,6 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
-0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -393330,7 +393329,6 @@
 0.0.0.0 nutrikalia.com
 0.0.0.0 nutrilshop.net.tr.ht
 0.0.0.0 nutrired.org
-0.0.0.0 nutrisc.com.br
 0.0.0.0 nutrisilviaramos.com.br
 0.0.0.0 nutrisincera.com
 0.0.0.0 nutritionalapproaches.com
@@ -399447,6 +399445,7 @@
 0.0.0.0 oneyog.com
 0.0.0.0 onezamueac.com
 0.0.0.0 onf6sb82y.duckdns.org
+0.0.0.0 onfiltre.com.tr
 0.0.0.0 onfire11.mbamep.com
 0.0.0.0 onflix.us
 0.0.0.0 onfluencer.net
@@ -414575,6 +414574,7 @@
 0.0.0.0 pfaqezewnwnokdmb-dot-millinium.ey.r.appspot.com
 0.0.0.0 pfarmania.com
 0.0.0.0 pfastelinho.groks-the.info
+0.0.0.0 pfatrivandrum.org
 0.0.0.0 pfaxsydzmcosfsgb-dot-millinium.ey.r.appspot.com
 0.0.0.0 pfbfinancialassts.com
 0.0.0.0 pfbid0hecxzdghajjktlqyypwbuurpgynu6n7ojnelemoqtlnotifid.my.id
@@ -418742,7 +418742,6 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
-0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -423965,7 +423964,6 @@
 0.0.0.0 precetioadentryakolotaion.co.vu
 0.0.0.0 precinctfinder.com
 0.0.0.0 preciosaalimentos.com.br
-0.0.0.0 preciosasjoyitas.com.mx
 0.0.0.0 precious-person-875680.framer.app
 0.0.0.0 precious-toffee-b5074f.netlify.app
 0.0.0.0 precious-ziraat1-7b9148.netlify.app
@@ -457101,6 +457099,7 @@
 0.0.0.0 rxoulvmh.1x4avau.cn
 0.0.0.0 rxpfy.top
 0.0.0.0 rxpwtetasancamqlbusefctqlm-dot-gle39404049.rj.r.appspot.com
+0.0.0.0 rxquickpay.com
 0.0.0.0 rxresults.purocueroecuador.com
 0.0.0.0 rxrunning.com
 0.0.0.0 rxsdruqzhrbhdjlsawsskumika-dot-gle39404049.rj.r.appspot.com
@@ -472286,6 +472285,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -475394,6 +475394,7 @@
 0.0.0.0 swiftcr.live
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -498492,6 +498493,7 @@
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
 0.0.0.0 www.benowe.shop
+0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.bentpre.ufopowderpuffs.com
 0.0.0.0 www.benulekaren-sale.sbs
 0.0.0.0 www.benulekaren.biotechusasale.shop
@@ -523574,6 +523576,7 @@
 0.0.0.0 zenee.shop
 0.0.0.0 zenek-caly-film.kazeo.com
 0.0.0.0 zengcan.net
+0.0.0.0 zenglobalenerji.com
 0.0.0.0 zenic-shock.com
 0.0.0.0 zenigameblinger.org
 0.0.0.0 zenith-drift.com
