@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-02 02:02:13
-# Entries: 524338
+# Generated: 2026-06-02 06:02:41
+# Entries: 524339
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -261682,6 +261682,7 @@
 0.0.0.0 globalapri.com
 0.0.0.0 globalasdjnifwe.com
 0.0.0.0 globalautodoor.com
+0.0.0.0 globalbank.us
 0.0.0.0 globalbizinternational.com
 0.0.0.0 globalbloodtx-com-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 globalbloodtx-com.gl494903049.wl.r.appspot.com
@@ -297535,7 +297536,6 @@
 0.0.0.0 ingecob.com
 0.0.0.0 ingedus.fr
 0.0.0.0 ingegneriaingonlin.com
-0.0.0.0 ingeline.fr
 0.0.0.0 ingenier.co.cr
 0.0.0.0 ingenieriadelagua.uy
 0.0.0.0 ingenieriamyc.cl
@@ -367617,6 +367617,7 @@
 0.0.0.0 millonariodesdecasa.com
 0.0.0.0 millrespond.com
 0.0.0.0 mills-812.cf
+0.0.0.0 mills-skyla30ec.com
 0.0.0.0 mills.virosat.ru
 0.0.0.0 millsf.gq
 0.0.0.0 millsfamilycemetery.com
@@ -391100,6 +391101,7 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
+0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
 0.0.0.0 northga.rocks
@@ -409321,6 +409323,7 @@
 0.0.0.0 pary.sksave.sbs
 0.0.0.0 parys.clarel.sbs
 0.0.0.0 parys.evas.buzz
+0.0.0.0 parys.fishing-akcio.shop
 0.0.0.0 parys.fishing-sk.shop
 0.0.0.0 parys.friscops.sbs
 0.0.0.0 parys.rybolov-sk.shop
@@ -457110,6 +457113,7 @@
 0.0.0.0 rxoulvmh.1x4avau.cn
 0.0.0.0 rxpfy.top
 0.0.0.0 rxpwtetasancamqlbusefctqlm-dot-gle39404049.rj.r.appspot.com
+0.0.0.0 rxquickpay.com
 0.0.0.0 rxresults.purocueroecuador.com
 0.0.0.0 rxrunning.com
 0.0.0.0 rxsdruqzhrbhdjlsawsskumika-dot-gle39404049.rj.r.appspot.com
@@ -466413,7 +466417,6 @@
 0.0.0.0 shredform.com
 0.0.0.0 shredova.ru
 0.0.0.0 shreenath1696.github.io
-0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
@@ -470004,7 +470007,6 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
-0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodnice.shop
 0.0.0.0 spoil.virosat.ru
@@ -475405,7 +475407,6 @@
 0.0.0.0 swiftcr.live
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
