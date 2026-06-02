@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-02 00:30:43
-# Entries: 524337
+# Generated: 2026-06-02 02:02:13
+# Entries: 524338
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -21634,6 +21634,7 @@
 0.0.0.0 3bood89.standardseoservices.com
 0.0.0.0 3boredguys.com
 0.0.0.0 3bra.solonettochka.ru
+0.0.0.0 3brosstore.com
 0.0.0.0 3bscafe.com
 0.0.0.0 3btgzfk74gxejzr.qwo231sdx.club
 0.0.0.0 3btvalruqoxo.wusps.xyz
@@ -178741,7 +178742,6 @@
 0.0.0.0 cloudmsmessagesreleaingafterverificationmymsuser673479329482387.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 cloudmy-ids.com
 0.0.0.0 cloudnetfiji.com
-0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudofflceadmln.epizy.com
@@ -187964,6 +187964,7 @@
 0.0.0.0 coraliedeblock.shop
 0.0.0.0 corallz.com
 0.0.0.0 coralon.com
+0.0.0.0 coralpac.com
 0.0.0.0 coram.dedspac.ru
 0.0.0.0 coramlive.com
 0.0.0.0 coramoon.com
@@ -209411,7 +209412,6 @@
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
-0.0.0.0 dl.dzqzd.com
 0.0.0.0 dl.elitoras.ru
 0.0.0.0 dl.fotoable.com
 0.0.0.0 dl.freeshare.link
@@ -212299,7 +212299,6 @@
 0.0.0.0 down-load-app.top
 0.0.0.0 down-load-tk.top
 0.0.0.0 down-vv.ddns.net
-0.0.0.0 down.54nb.com
 0.0.0.0 down.amazontaxrebate.com
 0.0.0.0 down.bortogat.ru
 0.0.0.0 down.bybitpro.construction
@@ -229087,6 +229086,7 @@
 0.0.0.0 eventss.biz.id
 0.0.0.0 eventstrail.be
 0.0.0.0 eventsxmetros16.com
+0.0.0.0 eventsyouwant.com
 0.0.0.0 eventt-claim-freefiree.duckdns.org
 0.0.0.0 eventt-freefireegratis.duckdns.org
 0.0.0.0 eventt-gratis-free-fire-resmi.duckdns.org
@@ -232926,6 +232926,7 @@
 0.0.0.0 facai.y82lj7e.cn
 0.0.0.0 facai2024.xn--bvs11es3ujti.com
 0.0.0.0 facai524.icu
+0.0.0.0 facanha.com.br
 0.0.0.0 facanjgijvsabnkfuadbybamyvbcjmulibwp-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 facaujowetta-8242-51618947-continue.vercel.app
 0.0.0.0 facb00keslat.000webhostapp.com
@@ -263143,7 +263144,6 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -489402,6 +489402,7 @@
 0.0.0.0 videotroncens.weebly.com
 0.0.0.0 videotroncom.112.2o7.net
 0.0.0.0 videovip.org
+0.0.0.0 videoviralviews.com
 0.0.0.0 videovor.fr
 0.0.0.0 videowhatsapp1.hidrocleaner.com
 0.0.0.0 vider-image.com
@@ -492439,6 +492440,7 @@
 0.0.0.0 website-web.github.io
 0.0.0.0 website.alacritas.ru
 0.0.0.0 website.goloser.ru
+0.0.0.0 website.mypetapp.co.za
 0.0.0.0 websitecompany.org
 0.0.0.0 websiteconnecting.com
 0.0.0.0 websitedanaid.website-bantuan.top
@@ -505625,7 +505627,6 @@
 0.0.0.0 www.hschool.shop
 0.0.0.0 www.hscptg.com
 0.0.0.0 www.hsearchp.katalystintegrations.com
-0.0.0.0 www.hseda.com
 0.0.0.0 www.hsinweilife.com
 0.0.0.0 www.hsmellc.taxdeedxpert.com
 0.0.0.0 www.hsnzj.com
@@ -521265,6 +521266,7 @@
 0.0.0.0 xelmoriq.shop
 0.0.0.0 xema.dedspac.ru
 0.0.0.0 xema.ulitron.ru
+0.0.0.0 xemhang.vn
 0.0.0.0 xen-media.com
 0.0.0.0 xenemoe.pro
 0.0.0.0 xenia.dedspac.ru
@@ -523577,7 +523579,6 @@
 0.0.0.0 zenee.shop
 0.0.0.0 zenek-caly-film.kazeo.com
 0.0.0.0 zengcan.net
-0.0.0.0 zenglobalenerji.com
 0.0.0.0 zenic-shock.com
 0.0.0.0 zenigameblinger.org
 0.0.0.0 zenith-drift.com
