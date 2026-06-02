@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-02 06:02:41
-# Entries: 524339
+# Generated: 2026-06-02 06:31:06
+# Entries: 524338
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -179498,7 +179498,6 @@
 0.0.0.0 cn.rkzmx.com
 0.0.0.0 cn.sekmx.com
 0.0.0.0 cn.sqhuabang.com
-0.0.0.0 cn.unionlever.com
 0.0.0.0 cn.vcbjmx.com
 0.0.0.0 cn.voranfi.ru
 0.0.0.0 cn.wanbo18.pro
@@ -188231,7 +188230,6 @@
 0.0.0.0 corpmail.voranfi.ru
 0.0.0.0 corporacion-desguridad-deti.mx
 0.0.0.0 corporacion.com
-0.0.0.0 corporacioncrf.com
 0.0.0.0 corporaciondesafio.org
 0.0.0.0 corporacionjkys.com
 0.0.0.0 corporacionlasirena.com
@@ -206446,6 +206444,7 @@
 0.0.0.0 dhmsxasfezzfpamh-dot-millinium.ey.r.appspot.com
 0.0.0.0 dhmxa.thamboli.co.za
 0.0.0.0 dhn7nhav3.top
+0.0.0.0 dhnconstrucciones.com.ar
 0.0.0.0 dho18l.bioeconomy.it
 0.0.0.0 dhocs-haze-a290.nuiblalrlewln.workers.dev
 0.0.0.0 dholt.bravusmentores.com
@@ -261682,7 +261681,6 @@
 0.0.0.0 globalapri.com
 0.0.0.0 globalasdjnifwe.com
 0.0.0.0 globalautodoor.com
-0.0.0.0 globalbank.us
 0.0.0.0 globalbizinternational.com
 0.0.0.0 globalbloodtx-com-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 globalbloodtx-com.gl494903049.wl.r.appspot.com
@@ -391101,7 +391099,6 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
-0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
 0.0.0.0 northga.rocks
@@ -470007,6 +470004,7 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
+0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodnice.shop
 0.0.0.0 spoil.virosat.ru
@@ -505628,6 +505626,7 @@
 0.0.0.0 www.hschool.shop
 0.0.0.0 www.hscptg.com
 0.0.0.0 www.hsearchp.katalystintegrations.com
+0.0.0.0 www.hseda.com
 0.0.0.0 www.hsinweilife.com
 0.0.0.0 www.hsmellc.taxdeedxpert.com
 0.0.0.0 www.hsnzj.com
@@ -515693,7 +515692,6 @@
 0.0.0.0 www.star-fury.com
 0.0.0.0 www.star-windjk.com
 0.0.0.0 www.starcorenet.site
-0.0.0.0 www.starcountry.net
 0.0.0.0 www.stardigpulse.site
 0.0.0.0 www.stardustdump.pro
 0.0.0.0 www.starlit-path.com
@@ -523580,6 +523578,7 @@
 0.0.0.0 zenee.shop
 0.0.0.0 zenek-caly-film.kazeo.com
 0.0.0.0 zengcan.net
+0.0.0.0 zenglobalenerji.com
 0.0.0.0 zenic-shock.com
 0.0.0.0 zenigameblinger.org
 0.0.0.0 zenith-drift.com
