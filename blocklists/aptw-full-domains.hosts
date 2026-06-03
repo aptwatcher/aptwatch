@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-03 00:30:59
-# Entries: 525917
+# Generated: 2026-06-03 06:02:17
+# Entries: 525923
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -5390,6 +5390,7 @@
 0.0.0.0 123.crazyboy830.workers.dev
 0.0.0.0 123.fluxads.com
 0.0.0.0 123.login-bankofamerica-com-security-dsa2.com
+0.0.0.0 123.ywxww.net
 0.0.0.0 123.zijingshan.cloudns.org
 0.0.0.0 123030120101.cloud
 0.0.0.0 1230503177.retarus.ru
@@ -114946,7 +114947,6 @@
 0.0.0.0 audicat.net
 0.0.0.0 audicer.info
 0.0.0.0 audicomsrl.com
-0.0.0.0 audicontadores.com
 0.0.0.0 audid-api.taobao.com
 0.0.0.0 audience-crouch.dvrlists.com
 0.0.0.0 audience-local-ads-main-418507293.vercel.app
@@ -115364,7 +115364,6 @@
 0.0.0.0 aumonewcarcom.112.2o7.net
 0.0.0.0 aumotradeinvaluecom.112.2o7.net
 0.0.0.0 aumous.matsuro.ru
-0.0.0.0 aumri.ae
 0.0.0.0 aumrie.dedspac.ru
 0.0.0.0 aumrie.matsuro.ru
 0.0.0.0 aumsprivacyconceptmessages.github.io
@@ -136454,7 +136453,6 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
-0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -161725,6 +161723,7 @@
 0.0.0.0 bv.hilotras.ru
 0.0.0.0 bv.horoton.ru
 0.0.0.0 bv3.impact11.xyz
+0.0.0.0 bvaco.com
 0.0.0.0 bvanehanctnrawuf-dot-millinium.ey.r.appspot.com
 0.0.0.0 bvargus.atozgroup.ir
 0.0.0.0 bvasecka.inshapeinforma.it
@@ -173210,6 +173209,7 @@
 0.0.0.0 checkerswey-info.azurewebsites.net
 0.0.0.0 checkfacebook.netlify.app
 0.0.0.0 checkfindmyiphone.com
+0.0.0.0 checkfivem.com
 0.0.0.0 checkfn.us
 0.0.0.0 checkforupdate019.weebly.com
 0.0.0.0 checkfreevideos.net
@@ -174676,6 +174676,7 @@
 0.0.0.0 chugchugchak.pages.dev
 0.0.0.0 chugging.matsuro.ru
 0.0.0.0 chugs.ulitron.ru
+0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chujdrtuityui.mydiscussion.net
 0.0.0.0 chuje.virosat.ru
 0.0.0.0 chukajoseph99.github.io
@@ -185244,6 +185245,7 @@
 0.0.0.0 compulogicpc.com
 0.0.0.0 compulsivenum.site
 0.0.0.0 compuretail.com
+0.0.0.0 compuserviceonline.com.br
 0.0.0.0 computador30horas.com
 0.0.0.0 computationalcenter.com.ar
 0.0.0.0 computech24x7.in
@@ -190160,7 +190162,6 @@
 0.0.0.0 cpo.adflex.vn
 0.0.0.0 cpo.co.jp
 0.0.0.0 cpocommerceinc.112.2o7.net
-0.0.0.0 cpofficial.com
 0.0.0.0 cpoohcodmfkucglhzjmmkkeyquhrnxjkzglo-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 cpopgiptzd.duckdns.org
 0.0.0.0 cporiente.cl
@@ -199184,6 +199185,7 @@
 0.0.0.0 dcv.pages.dev
 0.0.0.0 dcv111fbgfds.blogspot.tw
 0.0.0.0 dcvg.square.site
+0.0.0.0 dcwblida.dz
 0.0.0.0 dcwdfwefefef.weebly.com
 0.0.0.0 dcwhosaybbtnwbvp-dot-millinium.ey.r.appspot.com
 0.0.0.0 dcwzr.wqvec.workers.dev
@@ -209606,7 +209608,6 @@
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
-0.0.0.0 dl.dzqzd.com
 0.0.0.0 dl.elitoras.ru
 0.0.0.0 dl.fotoable.com
 0.0.0.0 dl.freeshare.link
@@ -212511,7 +212512,6 @@
 0.0.0.0 down.fwqlt.com
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
-0.0.0.0 down.pcclear.com
 0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
@@ -251954,6 +251954,7 @@
 0.0.0.0 frontendmentor-easybank-chi.vercel.app
 0.0.0.0 frontentrydoor.ca
 0.0.0.0 fronteranoticias.mx
+0.0.0.0 frontforce.org
 0.0.0.0 frontier-10523798001.weeblysite.com
 0.0.0.0 frontier-g.vercel.app
 0.0.0.0 frontier-pearl.vercel.app
@@ -261971,7 +261972,6 @@
 0.0.0.0 globalapri.com
 0.0.0.0 globalasdjnifwe.com
 0.0.0.0 globalautodoor.com
-0.0.0.0 globalbank.us
 0.0.0.0 globalbizinternational.com
 0.0.0.0 globalbloodtx-com-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 globalbloodtx-com.gl494903049.wl.r.appspot.com
@@ -264194,6 +264194,7 @@
 0.0.0.0 goodgreenneighbors.com
 0.0.0.0 goodgreensboutique.com
 0.0.0.0 goodhand88.com
+0.0.0.0 goodhillsenterprise.com
 0.0.0.0 goodhub.live
 0.0.0.0 goodideatravel.com
 0.0.0.0 goodiegirlgoodies.com
@@ -327297,6 +327298,7 @@
 0.0.0.0 lap.ulitron.ru
 0.0.0.0 lapage-d-authentification.webador.com
 0.0.0.0 laparlesse.cyou
+0.0.0.0 lapas.live
 0.0.0.0 lapdk.c505.net
 0.0.0.0 lapeisseyefro.vercel.app
 0.0.0.0 lapel.dedspac.ru
@@ -376402,6 +376404,7 @@
 0.0.0.0 mundis.pt
 0.0.0.0 mundobemestar.com.br
 0.0.0.0 mundocap.com
+0.0.0.0 mundocarnes.cl
 0.0.0.0 mundoconislam.es
 0.0.0.0 mundodigitalweb00-com.umbler.net
 0.0.0.0 mundodosinconfidentes.com.br
@@ -394607,6 +394610,7 @@
 0.0.0.0 o20qj2nwj041835.baruxxi28.biz.id
 0.0.0.0 o20qj2nwj079072.baruxxi28.biz.id
 0.0.0.0 o22ss.duckdns.org
+0.0.0.0 o24o.ru
 0.0.0.0 o26ya6.webwave.dev
 0.0.0.0 o2809876.bring-your-own-malware.com
 0.0.0.0 o2account24.vercel.app
@@ -416411,6 +416415,7 @@
 0.0.0.0 picyako.com
 0.0.0.0 pid.boletuso.ru
 0.0.0.0 pid.co.za
+0.0.0.0 pid.fly160.com
 0.0.0.0 pid.ulitron.ru
 0.0.0.0 pidan.ulitron.ru
 0.0.0.0 pidderadotre-3728.vercel.app
@@ -462702,7 +462707,6 @@
 0.0.0.0 save-xk.com
 0.0.0.0 save.dedspac.ru
 0.0.0.0 save.dovvnload-app.com
-0.0.0.0 save.jnrsmcu.com
 0.0.0.0 save.profaalbalopes.info
 0.0.0.0 save.ulitron.ru
 0.0.0.0 saveaim.pics
@@ -463586,7 +463590,6 @@
 0.0.0.0 scratch2cash.com
 0.0.0.0 scratched-lime-cress.glitch.me
 0.0.0.0 scray.hikotras.ru
-0.0.0.0 scrcarental.com
 0.0.0.0 screato.ru
 0.0.0.0 screeching-animal-mammoth.on-fleek.app
 0.0.0.0 screechingfurniture.com
@@ -466977,7 +466980,6 @@
 0.0.0.0 showy.virosat.ru
 0.0.0.0 showyouoffjy.shop
 0.0.0.0 shparkase.me
-0.0.0.0 shqdown.ggzuhao.com
 0.0.0.0 shraddha-chaudhari356.github.io
 0.0.0.0 shraddhashilwant05.github.io
 0.0.0.0 shrag-meta.pages.dev
@@ -466986,7 +466988,6 @@
 0.0.0.0 shredform.com
 0.0.0.0 shredova.ru
 0.0.0.0 shreenath1696.github.io
-0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
@@ -469448,6 +469449,7 @@
 0.0.0.0 softappef.vercel.app
 0.0.0.0 softbankbb.122.2o7.net
 0.0.0.0 softbanktechnology.112.2o7.net
+0.0.0.0 softcatalog.ru
 0.0.0.0 softclick.com.br
 0.0.0.0 softcore.xxxcounter.com
 0.0.0.0 softcore01.github.io
@@ -473286,6 +473288,7 @@
 0.0.0.0 stcamconnmumnlty.com
 0.0.0.0 std.o.webmd.com
 0.0.0.0 std112.github.io
+0.0.0.0 stdown.dinju.com
 0.0.0.0 steacncomnuniry.ru
 0.0.0.0 stead.dedspac.ru
 0.0.0.0 steadfast-seemly-cobalt.glitch.me
@@ -485417,6 +485420,7 @@
 0.0.0.0 ukrashulya.ru
 0.0.0.0 ukrbanner.net
 0.0.0.0 ukreporthub.com
+0.0.0.0 ukrguard.org
 0.0.0.0 ukrlocalsystems.net
 0.0.0.0 ukrmailpost.net
 0.0.0.0 ukrnet.serveftp.com
@@ -485460,6 +485464,7 @@
 0.0.0.0 ukrsett.com
 0.0.0.0 ukrstnet.com
 0.0.0.0 ukrsupport.info
+0.0.0.0 ukrvarta.online
 0.0.0.0 ukrway.galaktion.ru
 0.0.0.0 ukskrokus.pl
 0.0.0.0 uksm.dynatechportal.com
@@ -489060,6 +489065,7 @@
 0.0.0.0 vanshika-official.github.io
 0.0.0.0 vanshitavarma.github.io
 0.0.0.0 vanshpathare.github.io
+0.0.0.0 vanta.st
 0.0.0.0 vantagensappx.com
 0.0.0.0 vantalio.space
 0.0.0.0 vantellaofficial.com
@@ -507312,6 +507318,7 @@
 0.0.0.0 www.integriung.cyou
 0.0.0.0 www.intela.com
 0.0.0.0 www.intelli-direct.com
+0.0.0.0 www.intelligradeeducation.vicentecisnerospub.com
 0.0.0.0 www.intellisuggest.com
 0.0.0.0 www.intellitxt.com
 0.0.0.0 www.intencc.com
@@ -509909,7 +509916,6 @@
 0.0.0.0 www.metavertising.com
 0.0.0.0 www.methodhfunny.buzz
 0.0.0.0 www.metricsimage.com
-0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mexc.sc
 0.0.0.0 www.mexdrugs.com
 0.0.0.0 www.mexicantonewoods.com
