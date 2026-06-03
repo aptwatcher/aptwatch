@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-03 06:30:44
-# Entries: 525924
+# Generated: 2026-06-03 12:30:44
+# Entries: 525928
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -97729,7 +97729,6 @@
 0.0.0.0 archivo121.click
 0.0.0.0 archivohistoriaeconomicamexico.com
 0.0.0.0 archivos.escuelacentinela.cl
-0.0.0.0 archivoscrosoft.com
 0.0.0.0 archivosdelestado.com.co
 0.0.0.0 archivosysuministros.com
 0.0.0.0 archivotomasmontero.org
@@ -114948,6 +114947,7 @@
 0.0.0.0 audicat.net
 0.0.0.0 audicer.info
 0.0.0.0 audicomsrl.com
+0.0.0.0 audicontadores.com
 0.0.0.0 audid-api.taobao.com
 0.0.0.0 audience-crouch.dvrlists.com
 0.0.0.0 audience-local-ads-main-418507293.vercel.app
@@ -115365,6 +115365,7 @@
 0.0.0.0 aumonewcarcom.112.2o7.net
 0.0.0.0 aumotradeinvaluecom.112.2o7.net
 0.0.0.0 aumous.matsuro.ru
+0.0.0.0 aumri.ae
 0.0.0.0 aumrie.dedspac.ru
 0.0.0.0 aumrie.matsuro.ru
 0.0.0.0 aumsprivacyconceptmessages.github.io
@@ -149252,7 +149253,6 @@
 0.0.0.0 bmcxsellodemeleriniz.com
 0.0.0.0 bmd3508.wixsite.com
 0.0.0.0 bmdacservices.com
-0.0.0.0 bmdcompany.com
 0.0.0.0 bmdeiagrfuymwwtx-dot-millinium.ey.r.appspot.com
 0.0.0.0 bmdkilgjvpdovyjt-dot-millinium.ey.r.appspot.com
 0.0.0.0 bmdtwetyhxclghjjnpruagasaq-dot-gleowayel400503.uc.r.appspot.com
@@ -174677,7 +174677,6 @@
 0.0.0.0 chugchugchak.pages.dev
 0.0.0.0 chugging.matsuro.ru
 0.0.0.0 chugs.ulitron.ru
-0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chujdrtuityui.mydiscussion.net
 0.0.0.0 chuje.virosat.ru
 0.0.0.0 chukajoseph99.github.io
@@ -178772,6 +178771,7 @@
 0.0.0.0 cloudakshi.world
 0.0.0.0 cloudalert.shop
 0.0.0.0 cloudapi.imrworldwide.com
+0.0.0.0 cloudaryx.cloud
 0.0.0.0 cloudaservers.imfast.io
 0.0.0.0 cloudauthapp.s3.ca-tor.cloud-object-storage.appdomain.cloud
 0.0.0.0 cloudbanking.webcindario.com
@@ -185246,7 +185246,6 @@
 0.0.0.0 compulogicpc.com
 0.0.0.0 compulsivenum.site
 0.0.0.0 compuretail.com
-0.0.0.0 compuserviceonline.com.br
 0.0.0.0 computador30horas.com
 0.0.0.0 computationalcenter.com.ar
 0.0.0.0 computech24x7.in
@@ -190163,6 +190162,7 @@
 0.0.0.0 cpo.adflex.vn
 0.0.0.0 cpo.co.jp
 0.0.0.0 cpocommerceinc.112.2o7.net
+0.0.0.0 cpofficial.com
 0.0.0.0 cpoohcodmfkucglhzjmmkkeyquhrnxjkzglo-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 cpopgiptzd.duckdns.org
 0.0.0.0 cporiente.cl
@@ -192060,7 +192060,6 @@
 0.0.0.0 crystallographically.ruhodo.ru
 0.0.0.0 crystalmediatech.com
 0.0.0.0 crystalpuppy.com
-0.0.0.0 crystalpvp.ru
 0.0.0.0 crystalrain.xyz
 0.0.0.0 crystalslot.com
 0.0.0.0 crystaltrendng.com
@@ -199186,7 +199185,6 @@
 0.0.0.0 dcv.pages.dev
 0.0.0.0 dcv111fbgfds.blogspot.tw
 0.0.0.0 dcvg.square.site
-0.0.0.0 dcwblida.dz
 0.0.0.0 dcwdfwefefef.weebly.com
 0.0.0.0 dcwhosaybbtnwbvp-dot-millinium.ey.r.appspot.com
 0.0.0.0 dcwzr.wqvec.workers.dev
@@ -209609,6 +209607,7 @@
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
+0.0.0.0 dl.dzqzd.com
 0.0.0.0 dl.elitoras.ru
 0.0.0.0 dl.fotoable.com
 0.0.0.0 dl.freeshare.link
@@ -212513,6 +212512,7 @@
 0.0.0.0 down.fwqlt.com
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
+0.0.0.0 down.pcclear.com
 0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
@@ -244468,6 +244468,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -261973,6 +261974,7 @@
 0.0.0.0 globalapri.com
 0.0.0.0 globalasdjnifwe.com
 0.0.0.0 globalautodoor.com
+0.0.0.0 globalbank.us
 0.0.0.0 globalbizinternational.com
 0.0.0.0 globalbloodtx-com-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 globalbloodtx-com.gl494903049.wl.r.appspot.com
@@ -428301,6 +428303,7 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -462708,6 +462711,7 @@
 0.0.0.0 save-xk.com
 0.0.0.0 save.dedspac.ru
 0.0.0.0 save.dovvnload-app.com
+0.0.0.0 save.jnrsmcu.com
 0.0.0.0 save.profaalbalopes.info
 0.0.0.0 save.ulitron.ru
 0.0.0.0 saveaim.pics
@@ -464993,7 +464997,6 @@
 0.0.0.0 seishin-tea.com
 0.0.0.0 seism.dedspac.ru
 0.0.0.0 seism.virosat.ru
-0.0.0.0 seismophonic.com
 0.0.0.0 seitoshi.ru
 0.0.0.0 seity.dedspac.ru
 0.0.0.0 seivicess.weebly.com
@@ -466981,6 +466984,7 @@
 0.0.0.0 showy.virosat.ru
 0.0.0.0 showyouoffjy.shop
 0.0.0.0 shparkase.me
+0.0.0.0 shqdown.ggzuhao.com
 0.0.0.0 shraddha-chaudhari356.github.io
 0.0.0.0 shraddhashilwant05.github.io
 0.0.0.0 shrag-meta.pages.dev
@@ -467488,6 +467492,7 @@
 0.0.0.0 sinensisa.online
 0.0.0.0 sinensisa.ru
 0.0.0.0 sinera.org
+0.0.0.0 sinergiaconstruccion.com.mx
 0.0.0.0 sines.dedspac.ru
 0.0.0.0 sinettrk.com
 0.0.0.0 sing.dedspac.ru
@@ -469450,7 +469455,6 @@
 0.0.0.0 softappef.vercel.app
 0.0.0.0 softbankbb.122.2o7.net
 0.0.0.0 softbanktechnology.112.2o7.net
-0.0.0.0 softcatalog.ru
 0.0.0.0 softclick.com.br
 0.0.0.0 softcore.xxxcounter.com
 0.0.0.0 softcore01.github.io
@@ -494593,7 +494597,6 @@
 0.0.0.0 widen.dedspac.ru
 0.0.0.0 widespace.com
 0.0.0.0 widestep.com
-0.0.0.0 widexenmexico.com.mx
 0.0.0.0 widget-1.oncustomer.asia
 0.0.0.0 widget-2.oncustomer.asia
 0.0.0.0 widget-cdn.rpxnow.com
@@ -509917,6 +509920,7 @@
 0.0.0.0 www.metavertising.com
 0.0.0.0 www.methodhfunny.buzz
 0.0.0.0 www.metricsimage.com
+0.0.0.0 www.mevetlab.cl
 0.0.0.0 www.mexc.sc
 0.0.0.0 www.mexdrugs.com
 0.0.0.0 www.mexicantonewoods.com
