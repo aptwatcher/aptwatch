@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-03 18:30:30
-# Entries: 526407
+# Generated: 2026-06-03 22:41:48
+# Entries: 526446
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -74128,6 +74128,7 @@
 0.0.0.0 alternating-current.online
 0.0.0.0 alternativ-lernen.de
 0.0.0.0 alternativaletrasenumeros.com.br
+0.0.0.0 alternativas.ru
 0.0.0.0 alternative-acces.xyz
 0.0.0.0 alternative-online.xyz
 0.0.0.0 alternative.tallyelhyani.info
@@ -161746,6 +161747,7 @@
 0.0.0.0 bv.hilotras.ru
 0.0.0.0 bv.horoton.ru
 0.0.0.0 bv3.impact11.xyz
+0.0.0.0 bvaco.com
 0.0.0.0 bvanehanctnrawuf-dot-millinium.ey.r.appspot.com
 0.0.0.0 bvargus.atozgroup.ir
 0.0.0.0 bvasecka.inshapeinforma.it
@@ -164142,6 +164144,7 @@
 0.0.0.0 calculatorstatement.com
 0.0.0.0 calculusindia.com
 0.0.0.0 calcuttaplastics.com
+0.0.0.0 caldas-pires.pt
 0.0.0.0 caldav.elitoras.ru
 0.0.0.0 calder.virosat.ru
 0.0.0.0 caldoro.shop
@@ -174081,6 +174084,7 @@
 0.0.0.0 chippy.virosat.ru
 0.0.0.0 chips.dedspac.ru
 0.0.0.0 chips.ulitron.ru
+0.0.0.0 chiptune.com
 0.0.0.0 chiptuning.lviv.ua
 0.0.0.0 chipwavenet.com
 0.0.0.0 chipwavenet.site
@@ -179115,6 +179119,7 @@
 0.0.0.0 clubdao.com.cn
 0.0.0.0 clubdelaparrilla.cl
 0.0.0.0 clubdelasalud.com.ar
+0.0.0.0 clubdetiroelpicarcho.com
 0.0.0.0 clubeamigosdopedrosegundo.com.br
 0.0.0.0 clubecripto.com.br
 0.0.0.0 clubedevantangensbb.com.br
@@ -188415,6 +188420,7 @@
 0.0.0.0 corpmail.voranfi.ru
 0.0.0.0 corporacion-desguridad-deti.mx
 0.0.0.0 corporacion.com
+0.0.0.0 corporacioncrf.com
 0.0.0.0 corporaciondesafio.org
 0.0.0.0 corporacionjkys.com
 0.0.0.0 corporacionlasirena.com
@@ -190933,6 +190939,7 @@
 0.0.0.0 creativeteam.it
 0.0.0.0 creativetopic.pro
 0.0.0.0 creativevisionlv.com
+0.0.0.0 creativevoltage.com
 0.0.0.0 creativewastepartners.com
 0.0.0.0 creativeweb.co.zw
 0.0.0.0 creativewebsiteconcepts.com
@@ -208817,6 +208824,7 @@
 0.0.0.0 disjungere.ru
 0.0.0.0 disk-4fb5.pre-ooauth.workers.dev
 0.0.0.0 disk-previewer.com
+0.0.0.0 disk.accord1key.cn
 0.0.0.0 disk.dedspac.ru
 0.0.0.0 disk.vwwv.workers.dev
 0.0.0.0 diskbae.com
@@ -212634,6 +212642,7 @@
 0.0.0.0 download.freeshare.link
 0.0.0.0 download.fyxm.net
 0.0.0.0 download.grandcloud.cn
+0.0.0.0 download.haozip.com
 0.0.0.0 download.heato.ru
 0.0.0.0 download.hitbox.com
 0.0.0.0 download.hivdakarakoc.com
@@ -212727,6 +212736,7 @@
 0.0.0.0 downtownresident.org
 0.0.0.0 downy.ulitron.ru
 0.0.0.0 downy.virosat.ru
+0.0.0.0 dowonline.ru
 0.0.0.0 dowry.dedspac.ru
 0.0.0.0 dowry.ulitron.ru
 0.0.0.0 dowry.virosat.ru
@@ -213660,6 +213670,7 @@
 0.0.0.0 drevkontbreskmond.pro
 0.0.0.0 drevkontfal.top
 0.0.0.0 drevo-hracky.cz
+0.0.0.0 drevos.ro
 0.0.0.0 drevoskimhel.top
 0.0.0.0 drew.dedspac.ru
 0.0.0.0 drew.ulitron.ru
@@ -221825,6 +221836,7 @@
 0.0.0.0 electosake.com
 0.0.0.0 electra-conveyor.pages.dev
 0.0.0.0 electrex.it
+0.0.0.0 electri.billregulator.com
 0.0.0.0 electric-folds.000webhostapp.com
 0.0.0.0 electric-tesla.com
 0.0.0.0 electric-utilities.com
@@ -263531,6 +263543,7 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -276396,6 +276409,7 @@
 0.0.0.0 harworlu83.github.io
 0.0.0.0 harygbolahan.github.io
 0.0.0.0 has76q3yufe.hopto.org
+0.0.0.0 hasalltalent.com
 0.0.0.0 hasan-can-1.ml
 0.0.0.0 hasan.dedspac.ru
 0.0.0.0 hasan.ulitron.ru
@@ -322120,6 +322134,7 @@
 0.0.0.0 kokoni.space
 0.0.0.0 kokonorotomo.pro
 0.0.0.0 kokoqq1.online
+0.0.0.0 kokorostore.it
 0.0.0.0 kokoskym.vvipnewyear.my.id
 0.0.0.0 kokoziz.com
 0.0.0.0 koksurup.com
@@ -322408,6 +322423,7 @@
 0.0.0.0 konsciouscreations.com
 0.0.0.0 konserv-kassa.com
 0.0.0.0 konservesepeti.com
+0.0.0.0 konsor.ru
 0.0.0.0 konstellations.net
 0.0.0.0 konstrukcjestalowepolska.pl
 0.0.0.0 konsultanci.online
@@ -373531,6 +373547,7 @@
 0.0.0.0 mosryhltirswxqao-dot-millinium.ey.r.appspot.com
 0.0.0.0 moss.ulitron.ru
 0.0.0.0 mossandy0.wixsite.com
+0.0.0.0 mosselnet.co.za
 0.0.0.0 mossframef.vercel.app
 0.0.0.0 mossi.dedspac.ru
 0.0.0.0 mosso.dedspac.ru
@@ -377366,6 +377383,7 @@
 0.0.0.0 mx74.prueba.site
 0.0.0.0 mx7w33.shop
 0.0.0.0 mx888.vip
+0.0.0.0 mx9x.com
 0.0.0.0 mxapp46.com
 0.0.0.0 mxaps.appsempresa.ga
 0.0.0.0 mxardxisqmsl.top
@@ -381168,6 +381186,7 @@
 0.0.0.0 n.systemlog.me
 0.0.0.0 n.targetctracker.com
 0.0.0.0 n.timerto.ru
+0.0.0.0 n.vs108.com
 0.0.0.0 n.yj.fr
 0.0.0.0 n.z7mard.yhfnxn4yif.yyg.44f4bm8jj.tjgs.a7fwx4s.y4sk4f.fs.2ejmf.jjxp.scyrz6q.3k4y.cn2gbzw.epjnheai6.ndsye.6b8scztpm.rbfkhx.de.w.2qkwnw.hmtr.5ntsprmyy.awejw.jphz.iyxw3qjcn.ens3c.pay.paypalcancel.cc
 0.0.0.0 n01d05.cumulus-cloud.com
@@ -384269,6 +384288,7 @@
 0.0.0.0 nekuweurude-8417.vercel.app
 0.0.0.0 nelak.info
 0.0.0.0 nelclwpseyracysvpjrcutbhrgcomnjpnujh-dot-solar-vertex-285913.rj.r.appspot.com
+0.0.0.0 nelees.com
 0.0.0.0 nelem-acen.web.app
 0.0.0.0 neletao.digital
 0.0.0.0 nelfitv.shop
@@ -393872,6 +393892,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -405697,6 +405718,7 @@
 0.0.0.0 owl.proadscdn.com
 0.0.0.0 owl.ulitron.ru
 0.0.0.0 owl745.github.io
+0.0.0.0 owlcity.ru
 0.0.0.0 owldac.pages.dev
 0.0.0.0 owldata.com
 0.0.0.0 owler.dedspac.ru
@@ -419338,6 +419360,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -437447,6 +437470,7 @@
 0.0.0.0 pvrpmaflqrsrtvzr-dot-millinium.ey.r.appspot.com
 0.0.0.0 pvrqawrrei.5q5e5o.cn
 0.0.0.0 pvrtual-prcessdesblq.com
+0.0.0.0 pvsa.gxfugy.cn
 0.0.0.0 pvsbpinztmzinyxmdaisdmmdsr-dot-gl099898987fhkl.uk.r.appspot.com
 0.0.0.0 pvsissnm.shop
 0.0.0.0 pvsissnm.wiki
@@ -438779,6 +438803,7 @@
 0.0.0.0 qingtian.wtshaabp.cyou
 0.0.0.0 qingtian.zypofl.xyz
 0.0.0.0 qingyutiankong.github.io
+0.0.0.0 qiniuyunxz.yxflzs.com
 0.0.0.0 qinnan.pilot45.com
 0.0.0.0 qinrenwang.com.cn
 0.0.0.0 qintaz.com
@@ -446147,6 +446172,7 @@
 0.0.0.0 redliners.sikolar.ru
 0.0.0.0 redlinkbits.top
 0.0.0.0 redlion-lb.com
+0.0.0.0 redlk.com
 0.0.0.0 redllnk.ddns.net
 0.0.0.0 redllnk.sytes.net
 0.0.0.0 redly.dedspac.ru
@@ -457795,6 +457821,7 @@
 0.0.0.0 rxoulvmh.1x4avau.cn
 0.0.0.0 rxpfy.top
 0.0.0.0 rxpwtetasancamqlbusefctqlm-dot-gle39404049.rj.r.appspot.com
+0.0.0.0 rxquickpay.com
 0.0.0.0 rxresults.purocueroecuador.com
 0.0.0.0 rxrunning.com
 0.0.0.0 rxsdruqzhrbhdjlsawsskumika-dot-gle39404049.rj.r.appspot.com
@@ -467140,6 +467167,7 @@
 0.0.0.0 shredform.com
 0.0.0.0 shredova.ru
 0.0.0.0 shreenath1696.github.io
+0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
@@ -468665,6 +468693,7 @@
 0.0.0.0 smartdeconline.com
 0.0.0.0 smartdevicecentral.us.intellitxt.com
 0.0.0.0 smartdiscountzone.shop
+0.0.0.0 smartermail.host
 0.0.0.0 smartfiles.nocoshop.ru
 0.0.0.0 smartfiles.uploadbox.world
 0.0.0.0 smartfinancialbo.com
@@ -473062,6 +473091,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -475774,6 +475804,7 @@
 0.0.0.0 support.agpeypedia3.my.id
 0.0.0.0 support.autopay-update.telstra.sellergyllc.com
 0.0.0.0 support.business.privacy-center.help
+0.0.0.0 support.clz.kr
 0.0.0.0 support.decursio.online
 0.0.0.0 support.flodman.ru
 0.0.0.0 support.gta-link.com
@@ -478484,6 +478515,7 @@
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techsvibe.shop
 0.0.0.0 techtalentafrica.xyz
+0.0.0.0 techtattva.in
 0.0.0.0 techtulse-uk.com
 0.0.0.0 techvibeg.vercel.app
 0.0.0.0 techwald.serv00.net
@@ -482723,6 +482755,7 @@
 0.0.0.0 transorpodocs.com
 0.0.0.0 transpaink.cyou
 0.0.0.0 transparencia.bibliota.ru
+0.0.0.0 transparenciacanaa.com.br
 0.0.0.0 transparency-meta-policies-no1020-9.vercel.app
 0.0.0.0 transparency-meta-policies-no1021-h.vercel.app
 0.0.0.0 transparency-meta-policies-no1022-e.vercel.app
@@ -489508,6 +489541,7 @@
 0.0.0.0 veda.dedspac.ru
 0.0.0.0 veda.ulitron.ru
 0.0.0.0 vedant364.github.io
+0.0.0.0 vedantawisdom.org
 0.0.0.0 vedaprathikgattu.github.io
 0.0.0.0 vedhasssss.github.io
 0.0.0.0 vedkam.pages.dev
@@ -490296,6 +490330,7 @@
 0.0.0.0 videoliveasli.blogspot.com
 0.0.0.0 videology-partners.tremorhub.com
 0.0.0.0 videomediagroep.nl
+0.0.0.0 videomeetgoogle.com
 0.0.0.0 videopanasbanget.blogspot.be
 0.0.0.0 videoplanet.pl
 0.0.0.0 videoproductions.info
@@ -492682,6 +492717,7 @@
 0.0.0.0 wearehivemind.com
 0.0.0.0 wearelemonpeople.com
 0.0.0.0 wearelovelive.com
+0.0.0.0 wearjora.com
 0.0.0.0 wearlino.shop
 0.0.0.0 weartexhibitions.com
 0.0.0.0 weather-online.hopto.org
@@ -493343,6 +493379,7 @@
 0.0.0.0 website-web.github.io
 0.0.0.0 website.alacritas.ru
 0.0.0.0 website.goloser.ru
+0.0.0.0 website.mypetapp.co.za
 0.0.0.0 websitecompany.org
 0.0.0.0 websiteconnecting.com
 0.0.0.0 websitedanaid.website-bantuan.top
@@ -498827,6 +498864,7 @@
 0.0.0.0 www.arcuspartners.pro
 0.0.0.0 www.arcutisbiotherapeutics.com
 0.0.0.0 www.ardent-cash.com
+0.0.0.0 www.ardguisser.com
 0.0.0.0 www.area043.com
 0.0.0.0 www.areaflix.com
 0.0.0.0 www.areasnap.com
@@ -515937,6 +515975,7 @@
 0.0.0.0 www.salomonbutypolska.com
 0.0.0.0 www.salomxt4.shop
 0.0.0.0 www.salon-evolve.com
+0.0.0.0 www.salonmarketing.ca
 0.0.0.0 www.saloopppsretribalization.info
 0.0.0.0 www.salsajeans.shop
 0.0.0.0 www.saltomortalefilms.com
