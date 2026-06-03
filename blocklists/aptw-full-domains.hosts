@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-03 12:30:44
-# Entries: 525928
+# Generated: 2026-06-03 13:31:25
+# Entries: 525930
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -174677,6 +174677,7 @@
 0.0.0.0 chugchugchak.pages.dev
 0.0.0.0 chugging.matsuro.ru
 0.0.0.0 chugs.ulitron.ru
+0.0.0.0 chuguadventures.co.tz
 0.0.0.0 chujdrtuityui.mydiscussion.net
 0.0.0.0 chuje.virosat.ru
 0.0.0.0 chukajoseph99.github.io
@@ -185246,6 +185247,7 @@
 0.0.0.0 compulogicpc.com
 0.0.0.0 compulsivenum.site
 0.0.0.0 compuretail.com
+0.0.0.0 compuserviceonline.com.br
 0.0.0.0 computador30horas.com
 0.0.0.0 computationalcenter.com.ar
 0.0.0.0 computech24x7.in
@@ -457650,7 +457652,6 @@
 0.0.0.0 rxoulvmh.1x4avau.cn
 0.0.0.0 rxpfy.top
 0.0.0.0 rxpwtetasancamqlbusefctqlm-dot-gle39404049.rj.r.appspot.com
-0.0.0.0 rxquickpay.com
 0.0.0.0 rxresults.purocueroecuador.com
 0.0.0.0 rxrunning.com
 0.0.0.0 rxsdruqzhrbhdjlsawsskumika-dot-gle39404049.rj.r.appspot.com
@@ -469455,6 +469456,7 @@
 0.0.0.0 softappef.vercel.app
 0.0.0.0 softbankbb.122.2o7.net
 0.0.0.0 softbanktechnology.112.2o7.net
+0.0.0.0 softcatalog.ru
 0.0.0.0 softclick.com.br
 0.0.0.0 softcore.xxxcounter.com
 0.0.0.0 softcore01.github.io
