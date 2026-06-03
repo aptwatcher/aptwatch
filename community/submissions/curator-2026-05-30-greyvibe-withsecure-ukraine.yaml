@@ -1,0 +1,95 @@
+author: aptwatch-curator-bot
+source: https://labs.withsecure.com/publications/greyvibe
+source_name: >
+  WithSecure Labs - "GREYVIBE - A Russia-nexus group leveraging AI across
+  state-aligned operations" (Mohammad Kazem Hassan Nejad, 2026-05-28, primary
+  report + full PDF). Discovery vector - The Register RSS 2026-05-29
+  ("Russia-linked threat group put ChatGPT to work from lure to payload").
+  Sister coverage - BleepingComputer, The Hacker News, SecurityWeek,
+  SecurityAffairs, CSO Online (all 2026-05-28/29).
+
+apt_groups:
+  - GREYVIBE
+  - GreyVibe
+  - Russia-nexus AI-enabled intrusion set (new actor)
+
+description: >
+  NEW CAMPAIGN PROPOSAL. WithSecure published 2026-05-28 a primary report on
+  GREYVIBE, a previously undocumented Russia-nexus threat group active since at
+  least August 2025 against Ukrainian and Ukraine-related military, government,
+  civilian, and business targets. The Register surfaced it 2026-05-29; this
+  curator YAML consolidates the attacker-OWNED indicators named in WithSecure's
+  primary report body and full PDF. No GREYVIBE campaign existed in the DB prior
+  to this submission - propose new campaign: campaign_name "GREYVIBE",
+  threat_actor_type "Russia-nexus state-aligned intrusion set (cybercrime-adjacent)",
+  origin_country "RU", aliases ["GreyVibe"].
+
+  Attribution (project three-pillar discipline). (1) Vendor+ OSINT: WithSecure
+  PRIMARY plus sister coverage (BleepingComputer, The Hacker News, SecurityWeek,
+  SecurityAffairs, CSO Online, gbhackers, CyberSecurityNews). (2) Per-IP /
+  per-domain malicious signal: see IOCs below - attacker-registered lure apexes
+  (PhantomClick fake-LAPAS, DroneLink fake-charity fronts), HIGH-confidence
+  bulk-registered dev/C2 domain goodhillsenterprise.com, and KVMka C2/hosting
+  IP 193.233.23.81 that overlapped both the PhantomClick and PrincessClub
+  campaigns. (3) Russian-nexus confirmed by WithSecure with HIGH confidence:
+  Russian-language code/backend comments, Russian admin panels (FallSpy,
+  LegionRelay, PrincessClub), operator machines + C2 servers on UTC+3 (Moscow),
+  Moscow working-hours activity, and alignment with Russian state intelligence
+  interests in the Russia-Ukraine war. WithSecure also notes ties to the broader
+  Russian-speaking cybercrime ecosystem (suspected ISO builder linked to the
+  TrickBot ecosystem / UAC-0098, shared PhantomRelay variants), placing GREYVIBE
+  in a grey area between state-aligned and criminal activity - in-scope under the
+  project's Russian-attributed-APT and adjacent-crime-crew boundaries.
+
+  TTPs / tradecraft (logged in prose; curator schema has no structured TTP field):
+  systematic use of generative AI (Ideogram AI, ChatGPT, Google Gemini) across
+  lure development, custom obfuscator/loader development (LOOKVALPS, LOOKVALJS,
+  DAYLIGHT, TEASOUP), and full-stack development of the PowerShell RAT LegionRelay
+  and the PowerShell/WebSocket RAT PhantomRelay (variants Lite/V1/V2). Delivery
+  vectors: PhantomMail (spear-phishing with ZIP/RAR on Google Drive / 4sync /
+  abused file-shares, PyInstaller/JS loaders, decoy PDFs impersonating Kyiv City
+  Council, a Ukrainian energy company, the State Emergency Service, and the State
+  Service of Special Communications); PhantomClick (ClickFix fake-CAPTCHA pages
+  spoofing Zoom and LAPAS); PrincessClub (fake Ukrainian adult/dating sites
+  delivering FallSpy Android spyware + PhantomRelayV1/LegionRelay on Windows,
+  with a post-infection WebRTC live-call HUMINT feature); DroneLink (fake
+  Armed-Forces-of-Ukraine FPV/UAV charity sites); Nebo ("SPO NEBO" Russian-
+  language military-terminal lure). FallSpy + LegionRelay C2 hosted on Baxet
+  Group Inc. (AS26383); GREYVIBE PhantomRelay C2 migrated EDIS Global ->
+  KVMka (Russia VPS) -> Cloudzy -> Global Connectivity Solutions LLP (suspected
+  Russian bulletproof, AS215540). MITRE candidates: T1566.001/002 Spearphishing,
+  T1204 User Execution, T1059.001 PowerShell, T1059.007 JavaScript, T1027
+  Obfuscation, T1219 Remote Access Software, T1071 App-layer C2, T1657 (XMRig
+  miner observed on a few LegionRelay hosts).
+
+  Triage discipline applied (see reports/triage/greyvibe-withsecure-2026-05-30.csv):
+  only attacker-REGISTERED lure/dev apexes are ingested here as malicious. The
+  PhantomRelayLite C2 domains (thirdmetrics.com, tucsonanimalallergy.com,
+  saidozdemir.com, seahorsemethod.com, redviper.com, obmlink.com, bithill.com)
+  belong to SEPARATE financially-motivated commodity-crime clusters (Teams
+  vishing / KongTuke) that WithSecure explicitly distinguishes from GREYVIBE, and
+  several are COMPROMISED LEGITIMATE sites - deliberately EXCLUDED (out of scope +
+  would burn legitimate businesses). Abused legitimate file-sharing services
+  (storage.vlasiuk.kiev.ua, share.secureinfo.eu, 4sync.com, Google Drive) and the
+  real impersonated LAPAS (lapas.lv) are EXCLUDED. IP 162.252.172.83 (EDIS Global)
+  hosted GREYVIBE dev domain goodhillsenterprise.com but was later reassigned to a
+  compromised-cluster C2 on shared commercial VPS - HELD FOR REVIEW, not ingested.
+  fasterscommunications.com (PhantomRelay fingerprinting C2 matching the
+  compromised-domain pattern) likewise HELD FOR REVIEW.
+
+  COVERAGE GAP: WithSecure's GitHub IOC repo
+  (github.com/WithSecureLabs/iocs/tree/master/GREYVIBE) holds the complete
+  authoritative list - 18 PhantomRelay C2 domains, 8 PrincessClub domains, and
+  the Baxet FallSpy/LegionRelay C2 IPs - which could not be machine-fetched in
+  this run (raw.githubusercontent provenance gate). Dominic: backfill the full
+  IOC set from that repo + YARA rules before the next blocklist generation.
+
+domains:
+  - lapas.live
+  - frontforce.org
+  - ukrguard.org
+  - ukrvarta.online
+  - goodhillsenterprise.com
+
+ipv4:
+  - 193.233.23.81
