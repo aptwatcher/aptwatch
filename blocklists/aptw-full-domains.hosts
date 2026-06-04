@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-04 06:03:30
-# Entries: 526490
+# Generated: 2026-06-04 06:31:10
+# Entries: 526488
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -140690,6 +140690,7 @@
 0.0.0.0 bertrand-renaudin.com
 0.0.0.0 bertranddo.com
 0.0.0.0 bertrandelectricllc.com
+0.0.0.0 bertticleaning.com
 0.0.0.0 bertucellicorretora.com.br
 0.0.0.0 bertuyihwjasojcpokwt8q7otyw.pages.dev
 0.0.0.0 bertyiodop.ydns.eu
@@ -190947,7 +190948,6 @@
 0.0.0.0 creativeteam.it
 0.0.0.0 creativetopic.pro
 0.0.0.0 creativevisionlv.com
-0.0.0.0 creativevoltage.com
 0.0.0.0 creativewastepartners.com
 0.0.0.0 creativeweb.co.zw
 0.0.0.0 creativewebsiteconcepts.com
@@ -276429,7 +276429,6 @@
 0.0.0.0 harworlu83.github.io
 0.0.0.0 harygbolahan.github.io
 0.0.0.0 has76q3yufe.hopto.org
-0.0.0.0 hasalltalent.com
 0.0.0.0 hasan-can-1.ml
 0.0.0.0 hasan.dedspac.ru
 0.0.0.0 hasan.ulitron.ru
@@ -493416,7 +493415,6 @@
 0.0.0.0 website-web.github.io
 0.0.0.0 website.alacritas.ru
 0.0.0.0 website.goloser.ru
-0.0.0.0 website.mypetapp.co.za
 0.0.0.0 websitecompany.org
 0.0.0.0 websiteconnecting.com
 0.0.0.0 websitedanaid.website-bantuan.top
