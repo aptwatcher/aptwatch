@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-04 00:42:42
-# Entries: 526486
+# Generated: 2026-06-04 06:03:30
+# Entries: 526490
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -164154,7 +164154,6 @@
 0.0.0.0 calculatorstatement.com
 0.0.0.0 calculusindia.com
 0.0.0.0 calcuttaplastics.com
-0.0.0.0 caldas-pires.pt
 0.0.0.0 caldav.elitoras.ru
 0.0.0.0 calder.virosat.ru
 0.0.0.0 caldoro.shop
@@ -188430,7 +188429,6 @@
 0.0.0.0 corpmail.voranfi.ru
 0.0.0.0 corporacion-desguridad-deti.mx
 0.0.0.0 corporacion.com
-0.0.0.0 corporacioncrf.com
 0.0.0.0 corporaciondesafio.org
 0.0.0.0 corporacionjkys.com
 0.0.0.0 corporacionlasirena.com
@@ -192122,6 +192120,7 @@
 0.0.0.0 crystallographically.ruhodo.ru
 0.0.0.0 crystalmediatech.com
 0.0.0.0 crystalpuppy.com
+0.0.0.0 crystalpvp.ru
 0.0.0.0 crystalrain.xyz
 0.0.0.0 crystalslot.com
 0.0.0.0 crystaltrendng.com
@@ -196505,6 +196504,7 @@
 0.0.0.0 dametting.blogspot.mx
 0.0.0.0 dami1080.github.io
 0.0.0.0 damia.ulitron.ru
+0.0.0.0 damiancollier.com
 0.0.0.0 damianemile.com
 0.0.0.0 damianwampler.com
 0.0.0.0 damidamine.com
@@ -212641,6 +212641,7 @@
 0.0.0.0 download.arundelschool.net
 0.0.0.0 download.browseraccelerator.com
 0.0.0.0 download.caihong.com
+0.0.0.0 download.cavepay.app
 0.0.0.0 download.cdn.sharelive.net
 0.0.0.0 download.cdn.torchbrowser.com
 0.0.0.0 download.dasckup.site
@@ -223712,6 +223713,7 @@
 0.0.0.0 en.service-paypal.net
 0.0.0.0 en.smartappweb.org
 0.0.0.0 en.super-cleaning.be
+0.0.0.0 en.taichuan.com
 0.0.0.0 en.timerto.ru
 0.0.0.0 en.timoutupdate.in
 0.0.0.0 en.ucbi-groups.com
@@ -249401,6 +249403,7 @@
 0.0.0.0 forwardtechnology.artisanada.com
 0.0.0.0 forwardwithopportunities.co.vu
 0.0.0.0 forwillows.info
+0.0.0.0 forxtra.com
 0.0.0.0 foryou-get83.cf
 0.0.0.0 foryouaccounedbased.ct.ws
 0.0.0.0 foryoupagebyus.vercel.app
@@ -289639,6 +289642,7 @@
 0.0.0.0 hzksg.sovereignty2020.com
 0.0.0.0 hzkvxcbcjfxpjtrq-dot-millinium.ey.r.appspot.com
 0.0.0.0 hzkxxkavtbvypbmleugefeefabyfizqgveuf-dot-offgl8876899977678.uk.r.appspot.com
+0.0.0.0 hzldjf.com
 0.0.0.0 hzlida.shop
 0.0.0.0 hzliklyr3s.qwo231sdx.club
 0.0.0.0 hzlpikb.we9ixzz.co
@@ -289750,6 +289754,7 @@
 0.0.0.0 i-owa-b4a6b.firebaseapp.com
 0.0.0.0 i-pag.com.bd
 0.0.0.0 i-procom.fr
+0.0.0.0 i-ramps.com
 0.0.0.0 i-rea.com
 0.0.0.0 i-robot.kiev.ua
 0.0.0.0 i-sdk.mediation.unity3d.com
@@ -320066,6 +320071,7 @@
 0.0.0.0 kimtien999.ml
 0.0.0.0 kimupoyoigre.vercel.app
 0.0.0.0 kimwuinc.com
+0.0.0.0 kimyen.net
 0.0.0.0 kimzeycasing.com
 0.0.0.0 kin-0c8b.xilih94477.workers.dev
 0.0.0.0 kin-kin.sa.edu.au
@@ -321619,6 +321625,7 @@
 0.0.0.0 kmrr.xyz
 0.0.0.0 kms-full.com
 0.0.0.0 kms-win11-update.net
+0.0.0.0 kms.com.bd
 0.0.0.0 kms.jo
 0.0.0.0 kmsauto.info
 0.0.0.0 kmsdhjeru.org
@@ -322155,7 +322162,6 @@
 0.0.0.0 kokoni.space
 0.0.0.0 kokonorotomo.pro
 0.0.0.0 kokoqq1.online
-0.0.0.0 kokorostore.it
 0.0.0.0 kokoskym.vvipnewyear.my.id
 0.0.0.0 kokoziz.com
 0.0.0.0 koksurup.com
@@ -381210,7 +381216,6 @@
 0.0.0.0 n.systemlog.me
 0.0.0.0 n.targetctracker.com
 0.0.0.0 n.timerto.ru
-0.0.0.0 n.vs108.com
 0.0.0.0 n.yj.fr
 0.0.0.0 n.z7mard.yhfnxn4yif.yyg.44f4bm8jj.tjgs.a7fwx4s.y4sk4f.fs.2ejmf.jjxp.scyrz6q.3k4y.cn2gbzw.epjnheai6.ndsye.6b8scztpm.rbfkhx.de.w.2qkwnw.hmtr.5ntsprmyy.awejw.jphz.iyxw3qjcn.ens3c.pay.paypalcancel.cc
 0.0.0.0 n01d05.cumulus-cloud.com
@@ -409187,6 +409192,7 @@
 0.0.0.0 par-nets.co.uk
 0.0.0.0 par-v56.cf
 0.0.0.0 par-zo.net
+0.0.0.0 par.fxbtzzx.com
 0.0.0.0 par.mzfpb.com
 0.0.0.0 par.ulitron.ru
 0.0.0.0 par.vip.prod.criteo.com
@@ -419389,7 +419395,6 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
-0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -438832,7 +438837,6 @@
 0.0.0.0 qingtian.wtshaabp.cyou
 0.0.0.0 qingtian.zypofl.xyz
 0.0.0.0 qingyutiankong.github.io
-0.0.0.0 qiniuyunxz.yxflzs.com
 0.0.0.0 qinnan.pilot45.com
 0.0.0.0 qinrenwang.com.cn
 0.0.0.0 qintaz.com
@@ -446203,7 +446207,6 @@
 0.0.0.0 redliners.sikolar.ru
 0.0.0.0 redlinkbits.top
 0.0.0.0 redlion-lb.com
-0.0.0.0 redlk.com
 0.0.0.0 redllnk.ddns.net
 0.0.0.0 redllnk.sytes.net
 0.0.0.0 redly.dedspac.ru
@@ -463479,6 +463482,7 @@
 0.0.0.0 scag.ulitron.ru
 0.0.0.0 scags.virosat.ru
 0.0.0.0 scaia.cc
+0.0.0.0 scainseto.com.br
 0.0.0.0 scala.ulitron.ru
 0.0.0.0 scala.virosat.ru
 0.0.0.0 scaldsbonz.cyou
@@ -463598,6 +463602,7 @@
 0.0.0.0 scheme.adywind.com
 0.0.0.0 scheme.mobpowertech.com
 0.0.0.0 schemea.prinit.net
+0.0.0.0 schenckel.com.br
 0.0.0.0 schinter.com
 0.0.0.0 schlaap-de.nihongoschool-portal.info
 0.0.0.0 schlager.oewabox.at
@@ -467198,7 +467203,6 @@
 0.0.0.0 shredform.com
 0.0.0.0 shredova.ru
 0.0.0.0 shreenath1696.github.io
-0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
@@ -473122,7 +473126,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -475836,7 +475839,6 @@
 0.0.0.0 support.agpeypedia3.my.id
 0.0.0.0 support.autopay-update.telstra.sellergyllc.com
 0.0.0.0 support.business.privacy-center.help
-0.0.0.0 support.clz.kr
 0.0.0.0 support.decursio.online
 0.0.0.0 support.flodman.ru
 0.0.0.0 support.gta-link.com
@@ -478548,7 +478550,6 @@
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techsvibe.shop
 0.0.0.0 techtalentafrica.xyz
-0.0.0.0 techtattva.in
 0.0.0.0 techtulse-uk.com
 0.0.0.0 techvibeg.vercel.app
 0.0.0.0 techwald.serv00.net
@@ -479116,6 +479117,7 @@
 0.0.0.0 test.oeqxpsi0p.com
 0.0.0.0 test.osmanylmz.online
 0.0.0.0 test.paparoacho.ru
+0.0.0.0 test.peperoncinochepassione.it
 0.0.0.0 test.pittlergear.com
 0.0.0.0 test.report.jimpike.com.au
 0.0.0.0 test.rhchp.ru
@@ -486211,6 +486213,7 @@
 0.0.0.0 universalgame.space
 0.0.0.0 universalganja.com
 0.0.0.0 universalmsg.com
+0.0.0.0 universami.ge
 0.0.0.0 universe.send.microad.jp
 0.0.0.0 universeaccountvalidation.weebly.com
 0.0.0.0 universeactivecircleprofile.weebly.com
@@ -489574,7 +489577,6 @@
 0.0.0.0 veda.dedspac.ru
 0.0.0.0 veda.ulitron.ru
 0.0.0.0 vedant364.github.io
-0.0.0.0 vedantawisdom.org
 0.0.0.0 vedaprathikgattu.github.io
 0.0.0.0 vedhasssss.github.io
 0.0.0.0 vedkam.pages.dev
@@ -491592,6 +491594,7 @@
 0.0.0.0 vr-vorgang.support
 0.0.0.0 vr2ilw.top
 0.0.0.0 vraj-v.github.io
+0.0.0.0 vrajras.com
 0.0.0.0 vramelostik.pro
 0.0.0.0 vratio.space
 0.0.0.0 vratislavialex.pl
@@ -492752,7 +492755,6 @@
 0.0.0.0 wearehivemind.com
 0.0.0.0 wearelemonpeople.com
 0.0.0.0 wearelovelive.com
-0.0.0.0 wearjora.com
 0.0.0.0 wearlino.shop
 0.0.0.0 weartexhibitions.com
 0.0.0.0 weather-online.hopto.org
@@ -518566,6 +518568,7 @@
 0.0.0.0 www.tervo-wind.com
 0.0.0.0 www.tesmanley.shop
 0.0.0.0 www.tesori.pl
+0.0.0.0 www.test.peperoncinochepassione.it
 0.0.0.0 www.testacity.mom
 0.0.0.0 www.testbuilderpro.com
 0.0.0.0 www.testiimbam.cyou
@@ -523411,6 +523414,7 @@
 0.0.0.0 xelvora-sync.com
 0.0.0.0 xema.dedspac.ru
 0.0.0.0 xema.ulitron.ru
+0.0.0.0 xemhang.vn
 0.0.0.0 xen-media.com
 0.0.0.0 xenemoe.pro
 0.0.0.0 xenia.dedspac.ru
