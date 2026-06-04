@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-04 12:30:47
-# Entries: 526500
+# Generated: 2026-06-04 18:30:45
+# Entries: 526502
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -161757,6 +161757,7 @@
 0.0.0.0 bv.hilotras.ru
 0.0.0.0 bv.horoton.ru
 0.0.0.0 bv3.impact11.xyz
+0.0.0.0 bvaco.com
 0.0.0.0 bvanehanctnrawuf-dot-millinium.ey.r.appspot.com
 0.0.0.0 bvargus.atozgroup.ir
 0.0.0.0 bvasecka.inshapeinforma.it
@@ -162863,7 +162864,6 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -178916,6 +178916,7 @@
 0.0.0.0 cloudmsmessagesreleaingafterverificationmymsuser673479329482387.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 cloudmy-ids.com
 0.0.0.0 cloudnetfiji.com
+0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudofflceadmln.epizy.com
@@ -188429,6 +188430,7 @@
 0.0.0.0 corpmail.voranfi.ru
 0.0.0.0 corporacion-desguridad-deti.mx
 0.0.0.0 corporacion.com
+0.0.0.0 corporacioncrf.com
 0.0.0.0 corporaciondesafio.org
 0.0.0.0 corporacionjkys.com
 0.0.0.0 corporacionlasirena.com
@@ -208838,7 +208840,6 @@
 0.0.0.0 disjungere.ru
 0.0.0.0 disk-4fb5.pre-ooauth.workers.dev
 0.0.0.0 disk-previewer.com
-0.0.0.0 disk.accord1key.cn
 0.0.0.0 disk.dedspac.ru
 0.0.0.0 disk.vwwv.workers.dev
 0.0.0.0 diskbae.com
@@ -223714,6 +223715,7 @@
 0.0.0.0 en.service-paypal.net
 0.0.0.0 en.smartappweb.org
 0.0.0.0 en.super-cleaning.be
+0.0.0.0 en.taichuan.com
 0.0.0.0 en.timerto.ru
 0.0.0.0 en.timoutupdate.in
 0.0.0.0 en.ucbi-groups.com
@@ -229213,6 +229215,7 @@
 0.0.0.0 eventosconciertosbailes.mx
 0.0.0.0 eventosefeiras.com
 0.0.0.0 eventosyfiestasinfantiles.com
+0.0.0.0 eventourarte.cl
 0.0.0.0 eventpartys18.com
 0.0.0.0 eventpaypal2019.onedumb.com
 0.0.0.0 eventpestadiamond.duckdns.org
@@ -233276,6 +233279,7 @@
 0.0.0.0 facai.y82lj7e.cn
 0.0.0.0 facai2024.xn--bvs11es3ujti.com
 0.0.0.0 facai524.icu
+0.0.0.0 facanha.com.br
 0.0.0.0 facanjgijvsabnkfuadbybamyvbcjmulibwp-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 facaujowetta-8242-51618947-continue.vercel.app
 0.0.0.0 facb00keslat.000webhostapp.com
@@ -263561,7 +263565,6 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -264162,7 +264165,6 @@
 0.0.0.0 gombara.id
 0.0.0.0 gombhosets.duckdns.org
 0.0.0.0 gombo.dedspac.ru
-0.0.0.0 gomc.uk
 0.0.0.0 gomcmi.com
 0.0.0.0 gomdindbff.com
 0.0.0.0 gomdinfbg.com
@@ -275758,6 +275760,7 @@
 0.0.0.0 handherolplab.com
 0.0.0.0 handherolpweb.com
 0.0.0.0 handhinstruments.com
+0.0.0.0 handikaputra.my.id
 0.0.0.0 handipadel.com
 0.0.0.0 handirestaurant.com
 0.0.0.0 handlarzeonline.pl
@@ -276429,6 +276432,7 @@
 0.0.0.0 harworlu83.github.io
 0.0.0.0 harygbolahan.github.io
 0.0.0.0 has76q3yufe.hopto.org
+0.0.0.0 hasalltalent.com
 0.0.0.0 hasan-can-1.ml
 0.0.0.0 hasan.dedspac.ru
 0.0.0.0 hasan.ulitron.ru
@@ -293217,7 +293221,6 @@
 0.0.0.0 ijamjamsec.com
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
-0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -305612,6 +305615,7 @@
 0.0.0.0 iwbnsftudybekxui-dot-millinium.ey.r.appspot.com
 0.0.0.0 iwbubcs.v01aelux.space
 0.0.0.0 iwczughsgjqhlrvh-dot-millinium.ey.r.appspot.com
+0.0.0.0 iwd21.icu
 0.0.0.0 iwe8pzosa.appspot.com
 0.0.0.0 iweb.anmeb.top
 0.0.0.0 iweb3browser.com
@@ -320521,6 +320525,7 @@
 0.0.0.0 kitprodutos.com.br
 0.0.0.0 kits-anna.com
 0.0.0.0 kits.dedspac.ru
+0.0.0.0 kits.frog.tw
 0.0.0.0 kits.gratis
 0.0.0.0 kits.ulitron.ru
 0.0.0.0 kitsadat.net
@@ -381217,7 +381222,6 @@
 0.0.0.0 n.systemlog.me
 0.0.0.0 n.targetctracker.com
 0.0.0.0 n.timerto.ru
-0.0.0.0 n.vs108.com
 0.0.0.0 n.yj.fr
 0.0.0.0 n.z7mard.yhfnxn4yif.yyg.44f4bm8jj.tjgs.a7fwx4s.y4sk4f.fs.2ejmf.jjxp.scyrz6q.3k4y.cn2gbzw.epjnheai6.ndsye.6b8scztpm.rbfkhx.de.w.2qkwnw.hmtr.5ntsprmyy.awejw.jphz.iyxw3qjcn.ens3c.pay.paypalcancel.cc
 0.0.0.0 n01d05.cumulus-cloud.com
@@ -382056,6 +382060,7 @@
 0.0.0.0 nansen-ensmartvalidator.pages.dev
 0.0.0.0 nansenvalidatedao.pages.dev
 0.0.0.0 nansexports.com
+0.0.0.0 nanshiin.com
 0.0.0.0 nansolvalidate.pages.dev
 0.0.0.0 nant.ulitron.ru
 0.0.0.0 nantesmetrople.fr
@@ -393924,7 +393929,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -405752,7 +405756,6 @@
 0.0.0.0 owl.proadscdn.com
 0.0.0.0 owl.ulitron.ru
 0.0.0.0 owl745.github.io
-0.0.0.0 owlcity.ru
 0.0.0.0 owldac.pages.dev
 0.0.0.0 owldata.com
 0.0.0.0 owler.dedspac.ru
@@ -419397,6 +419400,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -428507,7 +428511,6 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
-0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -438840,6 +438843,7 @@
 0.0.0.0 qingtian.wtshaabp.cyou
 0.0.0.0 qingtian.zypofl.xyz
 0.0.0.0 qingyutiankong.github.io
+0.0.0.0 qiniuyunxz.yxflzs.com
 0.0.0.0 qinnan.pilot45.com
 0.0.0.0 qinrenwang.com.cn
 0.0.0.0 qintaz.com
@@ -458201,7 +458205,6 @@
 0.0.0.0 s.jpush.cn
 0.0.0.0 s.jsrdn.com
 0.0.0.0 s.kenh14.vn
-0.0.0.0 s.littleshabby.net
 0.0.0.0 s.liveads.jp
 0.0.0.0 s.logsss.com
 0.0.0.0 s.media-imdb.com
@@ -461232,7 +461235,6 @@
 0.0.0.0 sandy-explore.com
 0.0.0.0 sandy-thread-hortensia.glitch.me
 0.0.0.0 sandy.ulitron.ru
-0.0.0.0 sandyadamspodcast.com
 0.0.0.0 sandyandkristin.com
 0.0.0.0 sandybaytours.com
 0.0.0.0 sandybrown-wolverine-124843.hostingersite.com
@@ -463679,6 +463681,7 @@
 0.0.0.0 scian.dedspac.ru
 0.0.0.0 sciatiease.com
 0.0.0.0 science2.tsput.ru
+0.0.0.0 science4u.co.in
 0.0.0.0 scienceoforgasm.com
 0.0.0.0 sciencesetlavenir.fr
 0.0.0.0 scienceworldreport.us.intellitxt.com
@@ -465951,6 +465954,7 @@
 0.0.0.0 servicio.generatusolicitud-online.site
 0.0.0.0 serviciodelwebclientes.cloudaccess.host
 0.0.0.0 serviciopostal.vip
+0.0.0.0 servicioslogisticosdyc.com
 0.0.0.0 serviciospatito.com
 0.0.0.0 serviciotecnico.com.uy
 0.0.0.0 serviciotrackwp.sviluppo.host
@@ -466253,7 +466257,6 @@
 0.0.0.0 sgh.eea.mytemp.website
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
-0.0.0.0 sgindustries.lk
 0.0.0.0 sgjpackaging-es.vip
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
@@ -467580,7 +467583,6 @@
 0.0.0.0 silvicol.online
 0.0.0.0 silvicol.ru
 0.0.0.0 silvicolas.ru
-0.0.0.0 silvion.uk
 0.0.0.0 silvoko.shop
 0.0.0.0 silvoriaq.top
 0.0.0.0 sim.amaniwa.ru
@@ -468735,6 +468737,7 @@
 0.0.0.0 smartdeconline.com
 0.0.0.0 smartdevicecentral.us.intellitxt.com
 0.0.0.0 smartdiscountzone.shop
+0.0.0.0 smartermail.host
 0.0.0.0 smartfiles.nocoshop.ru
 0.0.0.0 smartfiles.uploadbox.world
 0.0.0.0 smartfinancialbo.com
@@ -473132,6 +473135,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -475846,6 +475850,7 @@
 0.0.0.0 support.agpeypedia3.my.id
 0.0.0.0 support.autopay-update.telstra.sellergyllc.com
 0.0.0.0 support.business.privacy-center.help
+0.0.0.0 support.clz.kr
 0.0.0.0 support.decursio.online
 0.0.0.0 support.flodman.ru
 0.0.0.0 support.gta-link.com
@@ -486221,7 +486226,6 @@
 0.0.0.0 universalgame.space
 0.0.0.0 universalganja.com
 0.0.0.0 universalmsg.com
-0.0.0.0 universami.ge
 0.0.0.0 universe.send.microad.jp
 0.0.0.0 universeaccountvalidation.weebly.com
 0.0.0.0 universeactivecircleprofile.weebly.com
@@ -491602,11 +491606,11 @@
 0.0.0.0 vr-vorgang.support
 0.0.0.0 vr2ilw.top
 0.0.0.0 vraj-v.github.io
-0.0.0.0 vrajras.com
 0.0.0.0 vramelostik.pro
 0.0.0.0 vratio.space
 0.0.0.0 vratislavialex.pl
 0.0.0.0 vraxil-sorin-pylak.pages.dev
+0.0.0.0 vrdccbank.com
 0.0.0.0 vre3w2edfre2.blogspot.com
 0.0.0.0 vre3w2edfre2.blogspot.tw
 0.0.0.0 vrefiudcisojervfdcs.com
@@ -493424,7 +493428,6 @@
 0.0.0.0 website-web.github.io
 0.0.0.0 website.alacritas.ru
 0.0.0.0 website.goloser.ru
-0.0.0.0 website.mypetapp.co.za
 0.0.0.0 websitecompany.org
 0.0.0.0 websiteconnecting.com
 0.0.0.0 websitedanaid.website-bantuan.top
@@ -521193,7 +521196,6 @@
 0.0.0.0 www.webaidywrpajworusod.site
 0.0.0.0 www.webalize.net
 0.0.0.0 www.webanalyser.net
-0.0.0.0 www.webangelo.it
 0.0.0.0 www.webaodr2qiepak.site
 0.0.0.0 www.webappasecureaccntdwkyjksdg.dfhwe46uhdfhgbdf.com
 0.0.0.0 www.webappasecureaccntsweboispodyhiosdg.fdhw45uyhdhdfh.com
@@ -523424,7 +523426,6 @@
 0.0.0.0 xelvora-sync.com
 0.0.0.0 xema.dedspac.ru
 0.0.0.0 xema.ulitron.ru
-0.0.0.0 xemhang.vn
 0.0.0.0 xen-media.com
 0.0.0.0 xenemoe.pro
 0.0.0.0 xenia.dedspac.ru
@@ -524356,6 +524357,7 @@
 0.0.0.0 yazibo.ru
 0.0.0.0 ybex.com
 0.0.0.0 ybhne-sourceot.ghjigclbopy.es
+0.0.0.0 ybhub.com.au
 0.0.0.0 ybinst0.ec.yimg.com
 0.0.0.0 ybinst1.ec.yimg.com
 0.0.0.0 ybinst2.ec.yimg.com
