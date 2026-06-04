@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-04 06:31:10
-# Entries: 526488
+# Generated: 2026-06-04 12:30:47
+# Entries: 526500
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -140690,7 +140690,6 @@
 0.0.0.0 bertrand-renaudin.com
 0.0.0.0 bertranddo.com
 0.0.0.0 bertrandelectricllc.com
-0.0.0.0 bertticleaning.com
 0.0.0.0 bertucellicorretora.com.br
 0.0.0.0 bertuyihwjasojcpokwt8q7otyw.pages.dev
 0.0.0.0 bertyiodop.ydns.eu
@@ -161758,7 +161757,6 @@
 0.0.0.0 bv.hilotras.ru
 0.0.0.0 bv.horoton.ru
 0.0.0.0 bv3.impact11.xyz
-0.0.0.0 bvaco.com
 0.0.0.0 bvanehanctnrawuf-dot-millinium.ey.r.appspot.com
 0.0.0.0 bvargus.atozgroup.ir
 0.0.0.0 bvasecka.inshapeinforma.it
@@ -162865,6 +162863,7 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -190948,6 +190947,7 @@
 0.0.0.0 creativeteam.it
 0.0.0.0 creativetopic.pro
 0.0.0.0 creativevisionlv.com
+0.0.0.0 creativevoltage.com
 0.0.0.0 creativewastepartners.com
 0.0.0.0 creativeweb.co.zw
 0.0.0.0 creativewebsiteconcepts.com
@@ -192449,6 +192449,7 @@
 0.0.0.0 csszy.xyz
 0.0.0.0 cst.is-a-geek.net
 0.0.0.0 cst.ulitron.ru
+0.0.0.0 cstaipas.pt
 0.0.0.0 cstasa.ca
 0.0.0.0 cstatic.weborama.fr
 0.0.0.0 cstdtaad.ddgrils.com
@@ -201833,6 +201834,7 @@
 0.0.0.0 deltas45.ru
 0.0.0.0 deltathreads.com
 0.0.0.0 deltawestern-adobe.pages.dev
+0.0.0.0 delte-mobrey.com
 0.0.0.0 delts.ulitron.ru
 0.0.0.0 delts.virosat.ru
 0.0.0.0 deltyn.com
@@ -212581,6 +212583,7 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
+0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -212641,7 +212644,6 @@
 0.0.0.0 download.arundelschool.net
 0.0.0.0 download.browseraccelerator.com
 0.0.0.0 download.caihong.com
-0.0.0.0 download.cavepay.app
 0.0.0.0 download.cdn.sharelive.net
 0.0.0.0 download.cdn.torchbrowser.com
 0.0.0.0 download.dasckup.site
@@ -221851,7 +221853,6 @@
 0.0.0.0 electosake.com
 0.0.0.0 electra-conveyor.pages.dev
 0.0.0.0 electrex.it
-0.0.0.0 electri.billregulator.com
 0.0.0.0 electric-folds.000webhostapp.com
 0.0.0.0 electric-tesla.com
 0.0.0.0 electric-utilities.com
@@ -223713,7 +223714,6 @@
 0.0.0.0 en.service-paypal.net
 0.0.0.0 en.smartappweb.org
 0.0.0.0 en.super-cleaning.be
-0.0.0.0 en.taichuan.com
 0.0.0.0 en.timerto.ru
 0.0.0.0 en.timoutupdate.in
 0.0.0.0 en.ucbi-groups.com
@@ -249403,7 +249403,6 @@
 0.0.0.0 forwardtechnology.artisanada.com
 0.0.0.0 forwardwithopportunities.co.vu
 0.0.0.0 forwillows.info
-0.0.0.0 forxtra.com
 0.0.0.0 foryou-get83.cf
 0.0.0.0 foryouaccounedbased.ct.ws
 0.0.0.0 foryoupagebyus.vercel.app
@@ -264163,6 +264162,7 @@
 0.0.0.0 gombara.id
 0.0.0.0 gombhosets.duckdns.org
 0.0.0.0 gombo.dedspac.ru
+0.0.0.0 gomc.uk
 0.0.0.0 gomcmi.com
 0.0.0.0 gomdindbff.com
 0.0.0.0 gomdinfbg.com
@@ -287194,6 +287194,7 @@
 0.0.0.0 hsgprints.co.uk
 0.0.0.0 hsgqa.padnjksajkbdsfjkbasdgjvsdfbjksvjhsjsdyaj.cc
 0.0.0.0 hsgsydy.wixsite.com
+0.0.0.0 hsh1serverboarding.xyz
 0.0.0.0 hshashhswhj.blogspot.com
 0.0.0.0 hshd2.jestersuit.com
 0.0.0.0 hshdy7wsjsuq89ddjqi89ewwu88eufufuejfju3rj3ij.weebly.com
@@ -293216,6 +293217,7 @@
 0.0.0.0 ijamjamsec.com
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
+0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -296539,6 +296541,7 @@
 0.0.0.0 inertiacattered.biz
 0.0.0.0 inertmica.eu.pythonanywhere.com
 0.0.0.0 inertrrnaxti.uy
+0.0.0.0 inervadores.life
 0.0.0.0 inesjaonline.com
 0.0.0.0 inesmanila.com
 0.0.0.0 inessademidova.com
@@ -303216,7 +303219,6 @@
 0.0.0.0 irbygfutghtxkxny-dot-millinium.ey.r.appspot.com
 0.0.0.0 irc.patrickm6.cyou
 0.0.0.0 ircferre.irorigaig.workers.dev
-0.0.0.0 ircftp.net
 0.0.0.0 irchan.com
 0.0.0.0 irchdlilnkfkrsqy-dot-millinium.ey.r.appspot.com
 0.0.0.0 ircon.com.sa
@@ -320070,7 +320072,6 @@
 0.0.0.0 kimtien999.ml
 0.0.0.0 kimupoyoigre.vercel.app
 0.0.0.0 kimwuinc.com
-0.0.0.0 kimyen.net
 0.0.0.0 kimzeycasing.com
 0.0.0.0 kin-0c8b.xilih94477.workers.dev
 0.0.0.0 kin-kin.sa.edu.au
@@ -321624,7 +321625,6 @@
 0.0.0.0 kmrr.xyz
 0.0.0.0 kms-full.com
 0.0.0.0 kms-win11-update.net
-0.0.0.0 kms.com.bd
 0.0.0.0 kms.jo
 0.0.0.0 kmsauto.info
 0.0.0.0 kmsdhjeru.org
@@ -322161,6 +322161,7 @@
 0.0.0.0 kokoni.space
 0.0.0.0 kokonorotomo.pro
 0.0.0.0 kokoqq1.online
+0.0.0.0 kokorostore.it
 0.0.0.0 kokoskym.vvipnewyear.my.id
 0.0.0.0 kokoziz.com
 0.0.0.0 koksurup.com
@@ -322895,6 +322896,7 @@
 0.0.0.0 kpmga.com
 0.0.0.0 kpmglawmaker.com
 0.0.0.0 kpmjkl.help
+0.0.0.0 kpmmg.org
 0.0.0.0 kpn-factuur.info
 0.0.0.0 kpnndpgbpatqeaoe-dot-millinium.ey.r.appspot.com
 0.0.0.0 kpns.ijinshan.com
@@ -381215,6 +381217,7 @@
 0.0.0.0 n.systemlog.me
 0.0.0.0 n.targetctracker.com
 0.0.0.0 n.timerto.ru
+0.0.0.0 n.vs108.com
 0.0.0.0 n.yj.fr
 0.0.0.0 n.z7mard.yhfnxn4yif.yyg.44f4bm8jj.tjgs.a7fwx4s.y4sk4f.fs.2ejmf.jjxp.scyrz6q.3k4y.cn2gbzw.epjnheai6.ndsye.6b8scztpm.rbfkhx.de.w.2qkwnw.hmtr.5ntsprmyy.awejw.jphz.iyxw3qjcn.ens3c.pay.paypalcancel.cc
 0.0.0.0 n01d05.cumulus-cloud.com
@@ -428504,6 +428507,7 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -446206,6 +446210,7 @@
 0.0.0.0 redliners.sikolar.ru
 0.0.0.0 redlinkbits.top
 0.0.0.0 redlion-lb.com
+0.0.0.0 redlk.com
 0.0.0.0 redllnk.ddns.net
 0.0.0.0 redllnk.sytes.net
 0.0.0.0 redly.dedspac.ru
@@ -458196,6 +458201,7 @@
 0.0.0.0 s.jpush.cn
 0.0.0.0 s.jsrdn.com
 0.0.0.0 s.kenh14.vn
+0.0.0.0 s.littleshabby.net
 0.0.0.0 s.liveads.jp
 0.0.0.0 s.logsss.com
 0.0.0.0 s.media-imdb.com
@@ -461226,6 +461232,7 @@
 0.0.0.0 sandy-explore.com
 0.0.0.0 sandy-thread-hortensia.glitch.me
 0.0.0.0 sandy.ulitron.ru
+0.0.0.0 sandyadamspodcast.com
 0.0.0.0 sandyandkristin.com
 0.0.0.0 sandybaytours.com
 0.0.0.0 sandybrown-wolverine-124843.hostingersite.com
@@ -463601,7 +463608,6 @@
 0.0.0.0 scheme.adywind.com
 0.0.0.0 scheme.mobpowertech.com
 0.0.0.0 schemea.prinit.net
-0.0.0.0 schenckel.com.br
 0.0.0.0 schinter.com
 0.0.0.0 schlaap-de.nihongoschool-portal.info
 0.0.0.0 schlager.oewabox.at
@@ -466247,6 +466253,7 @@
 0.0.0.0 sgh.eea.mytemp.website
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
+0.0.0.0 sgindustries.lk
 0.0.0.0 sgjpackaging-es.vip
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
@@ -467573,6 +467580,7 @@
 0.0.0.0 silvicol.online
 0.0.0.0 silvicol.ru
 0.0.0.0 silvicolas.ru
+0.0.0.0 silvion.uk
 0.0.0.0 silvoko.shop
 0.0.0.0 silvoriaq.top
 0.0.0.0 sim.amaniwa.ru
@@ -468727,7 +468735,6 @@
 0.0.0.0 smartdeconline.com
 0.0.0.0 smartdevicecentral.us.intellitxt.com
 0.0.0.0 smartdiscountzone.shop
-0.0.0.0 smartermail.host
 0.0.0.0 smartfiles.nocoshop.ru
 0.0.0.0 smartfiles.uploadbox.world
 0.0.0.0 smartfinancialbo.com
@@ -473908,6 +473915,7 @@
 0.0.0.0 stereo-bit.website
 0.0.0.0 stereobumb.cyou
 0.0.0.0 sterianbratu.ro
+0.0.0.0 sterich.online
 0.0.0.0 stericoe.github.io
 0.0.0.0 stericoe.lovable.app
 0.0.0.0 sterivo.shop
@@ -480968,6 +480976,7 @@
 0.0.0.0 tmatamackloggd.webflow.io
 0.0.0.0 tmc-webtripu.com
 0.0.0.0 tmcg.pl
+0.0.0.0 tmcksa.com
 0.0.0.0 tmdrz.com
 0.0.0.0 tmgr.ccmbg.com
 0.0.0.0 tmi505409549053423586558954093.pages.dev
@@ -493415,6 +493424,7 @@
 0.0.0.0 website-web.github.io
 0.0.0.0 website.alacritas.ru
 0.0.0.0 website.goloser.ru
+0.0.0.0 website.mypetapp.co.za
 0.0.0.0 websitecompany.org
 0.0.0.0 websiteconnecting.com
 0.0.0.0 websitedanaid.website-bantuan.top
@@ -518566,7 +518576,6 @@
 0.0.0.0 www.tervo-wind.com
 0.0.0.0 www.tesmanley.shop
 0.0.0.0 www.tesori.pl
-0.0.0.0 www.test.peperoncinochepassione.it
 0.0.0.0 www.testacity.mom
 0.0.0.0 www.testbuilderpro.com
 0.0.0.0 www.testiimbam.cyou
@@ -519287,6 +519296,7 @@
 0.0.0.0 www.tradeadexchange.com
 0.0.0.0 www.tradecompany.pl
 0.0.0.0 www.tradedoubler.com
+0.0.0.0 www.tradedsglobal.com
 0.0.0.0 www.tradeduac.ai
 0.0.0.0 www.tradelax.com
 0.0.0.0 www.tradem.com
@@ -521183,6 +521193,7 @@
 0.0.0.0 www.webaidywrpajworusod.site
 0.0.0.0 www.webalize.net
 0.0.0.0 www.webanalyser.net
+0.0.0.0 www.webangelo.it
 0.0.0.0 www.webaodr2qiepak.site
 0.0.0.0 www.webappasecureaccntdwkyjksdg.dfhwe46uhdfhgbdf.com
 0.0.0.0 www.webappasecureaccntsweboispodyhiosdg.fdhw45uyhdhdfh.com
@@ -521217,6 +521228,7 @@
 0.0.0.0 www.webpartition.com
 0.0.0.0 www.webportalclub.com
 0.0.0.0 www.webrobi.pl
+0.0.0.0 www.websenorllc.com
 0.0.0.0 www.webservicessl.sviluppo.host
 0.0.0.0 www.webservis.gen.tr
 0.0.0.0 www.website-6a2aa55f.kyt.blc.mybluehost.me
