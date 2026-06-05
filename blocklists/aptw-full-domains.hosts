@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-05 06:02:02
-# Entries: 526590
+# Generated: 2026-06-05 06:30:48
+# Entries: 526598
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -74142,6 +74142,7 @@
 0.0.0.0 alternating-current.online
 0.0.0.0 alternativ-lernen.de
 0.0.0.0 alternativaletrasenumeros.com.br
+0.0.0.0 alternativas.ru
 0.0.0.0 alternative-acces.xyz
 0.0.0.0 alternative-online.xyz
 0.0.0.0 alternative.tallyelhyani.info
@@ -174108,6 +174109,7 @@
 0.0.0.0 chippy.virosat.ru
 0.0.0.0 chips.dedspac.ru
 0.0.0.0 chips.ulitron.ru
+0.0.0.0 chiptune.com
 0.0.0.0 chiptuning.lviv.ua
 0.0.0.0 chipwavenet.com
 0.0.0.0 chipwavenet.site
@@ -221878,6 +221880,7 @@
 0.0.0.0 electosake.com
 0.0.0.0 electra-conveyor.pages.dev
 0.0.0.0 electrex.it
+0.0.0.0 electri.billregulator.com
 0.0.0.0 electric-folds.000webhostapp.com
 0.0.0.0 electric-tesla.com
 0.0.0.0 electric-utilities.com
@@ -320121,6 +320124,7 @@
 0.0.0.0 kimtien999.ml
 0.0.0.0 kimupoyoigre.vercel.app
 0.0.0.0 kimwuinc.com
+0.0.0.0 kimyen.net
 0.0.0.0 kimzeycasing.com
 0.0.0.0 kin-0c8b.xilih94477.workers.dev
 0.0.0.0 kin-kin.sa.edu.au
@@ -454805,6 +454809,7 @@
 0.0.0.0 rose9.vn
 0.0.0.0 roseadr.com
 0.0.0.0 roseannstreasures1.com
+0.0.0.0 rosebaie.ma
 0.0.0.0 rosebergreallty.com
 0.0.0.0 roseberryhomestead.org
 0.0.0.0 roseberryleisure.co.uk
@@ -463674,6 +463679,7 @@
 0.0.0.0 scheme.adywind.com
 0.0.0.0 scheme.mobpowertech.com
 0.0.0.0 schemea.prinit.net
+0.0.0.0 schenckel.com.br
 0.0.0.0 schinter.com
 0.0.0.0 schlaap-de.nihongoschool-portal.info
 0.0.0.0 schlager.oewabox.at
@@ -466440,6 +466446,7 @@
 0.0.0.0 shaky.ulitron.ru
 0.0.0.0 shakyamegha246.github.io
 0.0.0.0 shale.ulitron.ru
+0.0.0.0 shalimarlpg.com
 0.0.0.0 shalini-ark.github.io
 0.0.0.0 shalinisengar240.github.io
 0.0.0.0 shallowest.timanar.ru
@@ -479199,6 +479206,7 @@
 0.0.0.0 test.oeqxpsi0p.com
 0.0.0.0 test.osmanylmz.online
 0.0.0.0 test.paparoacho.ru
+0.0.0.0 test.peperoncinochepassione.it
 0.0.0.0 test.pittlergear.com
 0.0.0.0 test.report.jimpike.com.au
 0.0.0.0 test.rhchp.ru
@@ -518657,7 +518665,6 @@
 0.0.0.0 www.tervo-wind.com
 0.0.0.0 www.tesmanley.shop
 0.0.0.0 www.tesori.pl
-0.0.0.0 www.test.peperoncinochepassione.it
 0.0.0.0 www.testacity.mom
 0.0.0.0 www.testbuilderpro.com
 0.0.0.0 www.testiimbam.cyou
@@ -523506,6 +523513,7 @@
 0.0.0.0 xelvora-sync.com
 0.0.0.0 xema.dedspac.ru
 0.0.0.0 xema.ulitron.ru
+0.0.0.0 xemhang.vn
 0.0.0.0 xen-media.com
 0.0.0.0 xenemoe.pro
 0.0.0.0 xenia.dedspac.ru
