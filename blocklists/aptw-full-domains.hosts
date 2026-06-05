@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-05 00:30:14
-# Entries: 526594
+# Generated: 2026-06-05 06:02:02
+# Entries: 526590
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48771,6 +48771,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -74024,7 +74025,6 @@
 0.0.0.0 altamira.bluestacko.ru
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
-0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanyucetas.com
 0.0.0.0 altaplateria.com
@@ -74142,7 +74142,6 @@
 0.0.0.0 alternating-current.online
 0.0.0.0 alternativ-lernen.de
 0.0.0.0 alternativaletrasenumeros.com.br
-0.0.0.0 alternativas.ru
 0.0.0.0 alternative-acces.xyz
 0.0.0.0 alternative-online.xyz
 0.0.0.0 alternative.tallyelhyani.info
@@ -86058,7 +86057,6 @@
 0.0.0.0 anyesha-biswas.github.io
 0.0.0.0 anyglot.com
 0.0.0.0 anyhealthtips.com
-0.0.0.0 anyhoo.testeaza.eu
 0.0.0.0 anyillustrations.com
 0.0.0.0 anyimage.top
 0.0.0.0 anylist.c.appier.net
@@ -174110,7 +174108,6 @@
 0.0.0.0 chippy.virosat.ru
 0.0.0.0 chips.dedspac.ru
 0.0.0.0 chips.ulitron.ru
-0.0.0.0 chiptune.com
 0.0.0.0 chiptuning.lviv.ua
 0.0.0.0 chipwavenet.com
 0.0.0.0 chipwavenet.site
@@ -190969,6 +190966,7 @@
 0.0.0.0 creativeteam.it
 0.0.0.0 creativetopic.pro
 0.0.0.0 creativevisionlv.com
+0.0.0.0 creativevoltage.com
 0.0.0.0 creativewastepartners.com
 0.0.0.0 creativeweb.co.zw
 0.0.0.0 creativewebsiteconcepts.com
@@ -203845,7 +203843,6 @@
 0.0.0.0 detflix-96f2de.ingress-baronn.easywp.com
 0.0.0.0 dethecture.com
 0.0.0.0 dethex.pages.dev
-0.0.0.0 detierra.cl
 0.0.0.0 detik.serving-sys.com
 0.0.0.0 detiktotocakep.com
 0.0.0.0 detin.dedspac.ru
@@ -212683,7 +212680,6 @@
 0.0.0.0 download.freeshare.link
 0.0.0.0 download.fyxm.net
 0.0.0.0 download.grandcloud.cn
-0.0.0.0 download.haozip.com
 0.0.0.0 download.heato.ru
 0.0.0.0 download.hitbox.com
 0.0.0.0 download.hivdakarakoc.com
@@ -221882,7 +221878,6 @@
 0.0.0.0 electosake.com
 0.0.0.0 electra-conveyor.pages.dev
 0.0.0.0 electrex.it
-0.0.0.0 electri.billregulator.com
 0.0.0.0 electric-folds.000webhostapp.com
 0.0.0.0 electric-tesla.com
 0.0.0.0 electric-utilities.com
@@ -223745,6 +223740,7 @@
 0.0.0.0 en.service-paypal.net
 0.0.0.0 en.smartappweb.org
 0.0.0.0 en.super-cleaning.be
+0.0.0.0 en.taichuan.com
 0.0.0.0 en.timerto.ru
 0.0.0.0 en.timoutupdate.in
 0.0.0.0 en.ucbi-groups.com
@@ -320125,7 +320121,6 @@
 0.0.0.0 kimtien999.ml
 0.0.0.0 kimupoyoigre.vercel.app
 0.0.0.0 kimwuinc.com
-0.0.0.0 kimyen.net
 0.0.0.0 kimzeycasing.com
 0.0.0.0 kin-0c8b.xilih94477.workers.dev
 0.0.0.0 kin-kin.sa.edu.au
@@ -332315,7 +332310,6 @@
 0.0.0.0 libs.lavanetwork.net
 0.0.0.0 libs.outbrain.com
 0.0.0.0 libsa.in
-0.0.0.0 libss.0x504.com
 0.0.0.0 libsurg.com
 0.0.0.0 libya.ulitron.ru
 0.0.0.0 libya.virosat.ru
@@ -373640,6 +373634,7 @@
 0.0.0.0 mosryhltirswxqao-dot-millinium.ey.r.appspot.com
 0.0.0.0 moss.ulitron.ru
 0.0.0.0 mossandy0.wixsite.com
+0.0.0.0 mosselnet.co.za
 0.0.0.0 mossframef.vercel.app
 0.0.0.0 mossi.dedspac.ru
 0.0.0.0 mosso.dedspac.ru
@@ -379885,6 +379880,7 @@
 0.0.0.0 mykindkitchen.com
 0.0.0.0 mykinfotech.com
 0.0.0.0 mykitchenhacks.com
+0.0.0.0 mykitchenindonesia.com
 0.0.0.0 myklinik.co.id
 0.0.0.0 mykonos.cl
 0.0.0.0 mykq-whatsapp.duckdns.org
@@ -381278,7 +381274,6 @@
 0.0.0.0 n.systemlog.me
 0.0.0.0 n.targetctracker.com
 0.0.0.0 n.timerto.ru
-0.0.0.0 n.vs108.com
 0.0.0.0 n.yj.fr
 0.0.0.0 n.z7mard.yhfnxn4yif.yyg.44f4bm8jj.tjgs.a7fwx4s.y4sk4f.fs.2ejmf.jjxp.scyrz6q.3k4y.cn2gbzw.epjnheai6.ndsye.6b8scztpm.rbfkhx.de.w.2qkwnw.hmtr.5ntsprmyy.awejw.jphz.iyxw3qjcn.ens3c.pay.paypalcancel.cc
 0.0.0.0 n01d05.cumulus-cloud.com
@@ -419463,6 +419458,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -437574,6 +437570,7 @@
 0.0.0.0 pvrpmaflqrsrtvzr-dot-millinium.ey.r.appspot.com
 0.0.0.0 pvrqawrrei.5q5e5o.cn
 0.0.0.0 pvrtual-prcessdesblq.com
+0.0.0.0 pvsa.gxfugy.cn
 0.0.0.0 pvsbpinztmzinyxmdaisdmmdsr-dot-gl099898987fhkl.uk.r.appspot.com
 0.0.0.0 pvsissnm.shop
 0.0.0.0 pvsissnm.wiki
@@ -468766,6 +468763,7 @@
 0.0.0.0 smart-traffik.com
 0.0.0.0 smart-traffik.io
 0.0.0.0 smart-tutorial.com
+0.0.0.0 smart.abuse.st
 0.0.0.0 smart.hola.com
 0.0.0.0 smart.link
 0.0.0.0 smart.mobvista.com
@@ -478633,7 +478631,6 @@
 0.0.0.0 techsupportforum.us.intellitxt.com
 0.0.0.0 techsvibe.shop
 0.0.0.0 techtalentafrica.xyz
-0.0.0.0 techtattva.in
 0.0.0.0 techtulse-uk.com
 0.0.0.0 techvibeg.vercel.app
 0.0.0.0 techwald.serv00.net
@@ -490454,6 +490451,7 @@
 0.0.0.0 videoliveasli.blogspot.com
 0.0.0.0 videology-partners.tremorhub.com
 0.0.0.0 videomediagroep.nl
+0.0.0.0 videomeetgoogle.com
 0.0.0.0 videopanasbanget.blogspot.be
 0.0.0.0 videoplanet.pl
 0.0.0.0 videoproductions.info
@@ -491416,7 +491414,6 @@
 0.0.0.0 vokm.top
 0.0.0.0 vokr-gtavc.ic.cz
 0.0.0.0 vol.dedspac.ru
-0.0.0.0 volainc.co
 0.0.0.0 volandonlatamcol.com
 0.0.0.0 volanet.xyz
 0.0.0.0 volantiscap.com
@@ -493507,7 +493504,6 @@
 0.0.0.0 website-web.github.io
 0.0.0.0 website.alacritas.ru
 0.0.0.0 website.goloser.ru
-0.0.0.0 website.mypetapp.co.za
 0.0.0.0 websitecompany.org
 0.0.0.0 websiteconnecting.com
 0.0.0.0 websitedanaid.website-bantuan.top
