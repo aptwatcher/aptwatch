@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-05 12:31:09
-# Entries: 526602
+# Generated: 2026-06-05 18:30:47
+# Entries: 526604
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -9631,6 +9631,7 @@
 0.0.0.0 176.25.129.34.bc.googleusercontent.com
 0.0.0.0 176.28.116.58
 0.0.0.0 176.57.150.107
+0.0.0.0 176.65.149.124.ptr.pfcloud.network
 0.0.0.0 176.9.0.78
 0.0.0.0 1760286545.corolain.ru
 0.0.0.0 1760530716.corolain.ru
@@ -185526,6 +185527,7 @@
 0.0.0.0 concienciapromocional.com
 0.0.0.0 concilia.org
 0.0.0.0 conciliar-exercises.000webhostapp.com
+0.0.0.0 concilicartoes.com.br
 0.0.0.0 concise-respected-parakeet.glitch.me
 0.0.0.0 conclusionally.leonardis.ru
 0.0.0.0 concoascri.cyou
@@ -207527,6 +207529,7 @@
 0.0.0.0 digitalbusiness.sa.com
 0.0.0.0 digitalcertificate-update.online
 0.0.0.0 digitalcloudq.buzz
+0.0.0.0 digitalcode.sa
 0.0.0.0 digitalcommunityservices.com
 0.0.0.0 digitalconcept.pro
 0.0.0.0 digitalconexao.tk
@@ -228113,6 +228116,7 @@
 0.0.0.0 eurodld.shop
 0.0.0.0 euroenvases.com.ar
 0.0.0.0 eurofactory.shop
+0.0.0.0 eurofarm.ge
 0.0.0.0 eurofiranyonline.com
 0.0.0.0 eurogallery.shop
 0.0.0.0 eurohangar.net
@@ -261193,7 +261197,6 @@
 0.0.0.0 git-prod.yelk.com.ua
 0.0.0.0 git.budetdev.ru
 0.0.0.0 git.dnspoc2.info
-0.0.0.0 git.nightcord.ru
 0.0.0.0 git.scat.su
 0.0.0.0 git.younetmedia.com
 0.0.0.0 gitanocollection.com
@@ -306749,7 +306752,6 @@
 0.0.0.0 jalandharpolice.com
 0.0.0.0 jalanmania.com
 0.0.0.0 jaldorentex24.com
-0.0.0.0 jalebel7abeb.com
 0.0.0.0 jalfre.com
 0.0.0.0 jalgaonkaraakansha78-crypto.github.io
 0.0.0.0 jaliscoctm.org
@@ -314605,6 +314607,7 @@
 0.0.0.0 js.bizographics.com
 0.0.0.0 js.blozoo.info
 0.0.0.0 js.blueblade.co.jp
+0.0.0.0 js.byxly.eu.cc
 0.0.0.0 js.canstrm.com
 0.0.0.0 js.casalemedia.com
 0.0.0.0 js.center.io
@@ -322219,7 +322222,6 @@
 0.0.0.0 kokoni.space
 0.0.0.0 kokonorotomo.pro
 0.0.0.0 kokoqq1.online
-0.0.0.0 kokorostore.it
 0.0.0.0 kokoskym.vvipnewyear.my.id
 0.0.0.0 kokoziz.com
 0.0.0.0 koksurup.com
@@ -419465,6 +419467,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -454811,7 +454814,6 @@
 0.0.0.0 rose9.vn
 0.0.0.0 roseadr.com
 0.0.0.0 roseannstreasures1.com
-0.0.0.0 rosebaie.ma
 0.0.0.0 rosebergreallty.com
 0.0.0.0 roseberryhomestead.org
 0.0.0.0 roseberryleisure.co.uk
