@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-05 06:30:48
-# Entries: 526598
+# Generated: 2026-06-05 12:31:09
+# Entries: 526602
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48771,7 +48771,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -211462,6 +211461,7 @@
 0.0.0.0 doeueu.cn
 0.0.0.0 doevctcaghaqnleczlvbbpnlqdrxhbojstgt-dot-cedar-code-289917.nn.r.appspot.com
 0.0.0.0 doextbyeywdukdaq-dot-millinium.ey.r.appspot.com
+0.0.0.0 dofahospitals.com
 0.0.0.0 doff.bortogat.ru
 0.0.0.0 doff.dedspac.ru
 0.0.0.0 doff.ulitron.ru
@@ -212682,6 +212682,7 @@
 0.0.0.0 download.freeshare.link
 0.0.0.0 download.fyxm.net
 0.0.0.0 download.grandcloud.cn
+0.0.0.0 download.haozip.com
 0.0.0.0 download.heato.ru
 0.0.0.0 download.hitbox.com
 0.0.0.0 download.hivdakarakoc.com
@@ -261192,6 +261193,7 @@
 0.0.0.0 git-prod.yelk.com.ua
 0.0.0.0 git.budetdev.ru
 0.0.0.0 git.dnspoc2.info
+0.0.0.0 git.nightcord.ru
 0.0.0.0 git.scat.su
 0.0.0.0 git.younetmedia.com
 0.0.0.0 gitanocollection.com
@@ -262249,6 +262251,7 @@
 0.0.0.0 globalstylenews.com
 0.0.0.0 globaltechdeal.com
 0.0.0.0 globaltechengineers.org
+0.0.0.0 globaltechnosoft.com
 0.0.0.0 globaltechresearch.org
 0.0.0.0 globaltiktokshopmall.top
 0.0.0.0 globaltokenx.com
@@ -306746,6 +306749,7 @@
 0.0.0.0 jalandharpolice.com
 0.0.0.0 jalanmania.com
 0.0.0.0 jaldorentex24.com
+0.0.0.0 jalebel7abeb.com
 0.0.0.0 jalfre.com
 0.0.0.0 jalgaonkaraakansha78-crypto.github.io
 0.0.0.0 jaliscoctm.org
@@ -379884,7 +379888,6 @@
 0.0.0.0 mykindkitchen.com
 0.0.0.0 mykinfotech.com
 0.0.0.0 mykitchenhacks.com
-0.0.0.0 mykitchenindonesia.com
 0.0.0.0 myklinik.co.id
 0.0.0.0 mykonos.cl
 0.0.0.0 mykq-whatsapp.duckdns.org
@@ -419462,7 +419465,6 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
-0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -466446,7 +466448,6 @@
 0.0.0.0 shaky.ulitron.ru
 0.0.0.0 shakyamegha246.github.io
 0.0.0.0 shale.ulitron.ru
-0.0.0.0 shalimarlpg.com
 0.0.0.0 shalini-ark.github.io
 0.0.0.0 shalinisengar240.github.io
 0.0.0.0 shallowest.timanar.ru
@@ -473209,6 +473210,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -493512,6 +493514,7 @@
 0.0.0.0 website-web.github.io
 0.0.0.0 website.alacritas.ru
 0.0.0.0 website.goloser.ru
+0.0.0.0 website.mypetapp.co.za
 0.0.0.0 websitecompany.org
 0.0.0.0 websiteconnecting.com
 0.0.0.0 websitedanaid.website-bantuan.top
@@ -518665,6 +518668,7 @@
 0.0.0.0 www.tervo-wind.com
 0.0.0.0 www.tesmanley.shop
 0.0.0.0 www.tesori.pl
+0.0.0.0 www.test.peperoncinochepassione.it
 0.0.0.0 www.testacity.mom
 0.0.0.0 www.testbuilderpro.com
 0.0.0.0 www.testiimbam.cyou
