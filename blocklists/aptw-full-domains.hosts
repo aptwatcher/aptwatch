@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-06 06:02:21
-# Entries: 526652
+# Generated: 2026-06-06 06:31:13
+# Entries: 526653
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -513248,6 +513248,7 @@
 0.0.0.0 www.pekao-bezpieczenstwo.vercel.app
 0.0.0.0 www.pekao-peopay.vercel.app
 0.0.0.0 www.pekao24-logowanie.vercel.app
+0.0.0.0 www.pekj1403.com
 0.0.0.0 www.peldraviora24.top
 0.0.0.0 www.pelie.pl
 0.0.0.0 www.pellet-drzewny.com
