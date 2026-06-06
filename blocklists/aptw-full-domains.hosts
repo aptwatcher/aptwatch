@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-06 12:30:43
-# Entries: 526657
+# Generated: 2026-06-06 18:31:09
+# Entries: 526660
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -161775,6 +161775,7 @@
 0.0.0.0 bv.hilotras.ru
 0.0.0.0 bv.horoton.ru
 0.0.0.0 bv3.impact11.xyz
+0.0.0.0 bvaco.com
 0.0.0.0 bvanehanctnrawuf-dot-millinium.ey.r.appspot.com
 0.0.0.0 bvargus.atozgroup.ir
 0.0.0.0 bvasecka.inshapeinforma.it
@@ -162883,7 +162884,6 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -272595,6 +272595,7 @@
 0.0.0.0 gtoswapportal.pages.dev
 0.0.0.0 gtp1.acecounter.com
 0.0.0.0 gtp16.acecounter.com
+0.0.0.0 gtps4change.org
 0.0.0.0 gtqvbscypvvhtsudelnxdfuspqcicuvcbepk-dot-cedar-code-289917.nn.r.appspot.com
 0.0.0.0 gtrack.kueezrtb.com
 0.0.0.0 gtradeportal.com
@@ -322238,6 +322239,7 @@
 0.0.0.0 kokoni.space
 0.0.0.0 kokonorotomo.pro
 0.0.0.0 kokoqq1.online
+0.0.0.0 kokorostore.it
 0.0.0.0 kokoskym.vvipnewyear.my.id
 0.0.0.0 kokoziz.com
 0.0.0.0 koksurup.com
@@ -428605,7 +428607,6 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
-0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -467317,6 +467318,7 @@
 0.0.0.0 shredform.com
 0.0.0.0 shredova.ru
 0.0.0.0 shreenath1696.github.io
+0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
@@ -477403,6 +477405,7 @@
 0.0.0.0 takak.ru
 0.0.0.0 takaro.dev
 0.0.0.0 takcmbwo.cn
+0.0.0.0 take-care.africa
 0.0.0.0 take-coinbase.webflow.io
 0.0.0.0 take-satoshivm.pages.dev
 0.0.0.0 take.amaniwa.ru
@@ -489458,7 +489461,6 @@
 0.0.0.0 vanns.112.2o7.net
 0.0.0.0 vanofaevo.autos
 0.0.0.0 vanpoolingaaturacos.info
-0.0.0.0 vans-towing.com
 0.0.0.0 vans.dedspac.ru
 0.0.0.0 vanscheers.com
 0.0.0.0 vansh-coding.github.io
@@ -491155,6 +491157,7 @@
 0.0.0.0 visualscience.external.bbc.co.uk
 0.0.0.0 visualsonics.fr
 0.0.0.0 vita.dedspac.ru
+0.0.0.0 vitacocoyougoloco.potassium.st
 0.0.0.0 vitacost.122.2o7.net
 0.0.0.0 vitaes.ru
 0.0.0.0 vitaesther.shop
