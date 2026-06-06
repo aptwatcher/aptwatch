@@ -9625,6 +9625,7 @@
 176.28.116.58
 176.57.150.107
 176.65.149.124.ptr.pfcloud.network
+176.65.149.168.ptr.pfcloud.network
 176.9.0.78
 1760286545.corolain.ru
 1760530716.corolain.ru
@@ -140694,7 +140695,6 @@ bertonojo.com
 bertrand-renaudin.com
 bertranddo.com
 bertrandelectricllc.com
-bertticleaning.com
 bertucellicorretora.com.br
 bertuyihwjasojcpokwt8q7otyw.pages.dev
 bertyiodop.ydns.eu
@@ -161768,7 +161768,6 @@ bv.elitoras.ru
 bv.hilotras.ru
 bv.horoton.ru
 bv3.impact11.xyz
-bvaco.com
 bvanehanctnrawuf-dot-millinium.ey.r.appspot.com
 bvargus.atozgroup.ir
 bvasecka.inshapeinforma.it
@@ -162877,6 +162876,7 @@ c2.gostats.com
 c2.gostats.vn
 c2.hustorla.ru
 c2.l.qq.com
+c2.mc-live.online
 c2.outster.com
 c2.popads.net
 c2.qbk1.com
@@ -317637,6 +317637,7 @@ karinadatsiuk.github.io
 karinart.de
 karinegall.temp.swtest.ru
 kariqoke.com
+kariyersokagi.com.tr
 karkaas674.shop
 karkanloggoi.godaddysites.com
 karkeixnlogin.gitbook.io
@@ -322230,7 +322231,6 @@ kokoneh.000webhostapp.com
 kokoni.space
 kokonorotomo.pro
 kokoqq1.online
-kokorostore.it
 kokoskym.vvipnewyear.my.id
 kokoziz.com
 koksurup.com
@@ -373747,7 +373747,6 @@ motherlebbss.info
 mothermoonfathersun.org
 motherofpearlproductions.com
 mothersoftware.in
-mothertouch.ac.zw
 mothertouchgroup.org
 mothopogamelodge.co.za
 mothrash.vercel.app
@@ -390867,6 +390866,7 @@ no52v9ym.firebaseapp.com
 no5ed3l0ob.1934.gencmert.com
 no61jqdrobxwiqi4.colplat.com
 no6xb.csb.app
+no7shmh.shop
 no8design.com
 noa.tokenpouket.com
 noaa.dedspac.ru
@@ -428598,6 +428598,7 @@ proteug.ru
 proteusa.ru
 protezionecivile.comune.cassola.vi.it
 protezioneprofilo.com
+protherapycenter.com
 protibimbo.org
 protikgroup.com
 protimas.ru
@@ -463705,6 +463706,7 @@ schemas.microsoft.akadns.net
 scheme.adywind.com
 scheme.mobpowertech.com
 schemea.prinit.net
+schenckel.com.br
 schinter.com
 schlaap-de.nihongoschool-portal.info
 schlager.oewabox.at
@@ -473234,6 +473236,7 @@ static.ifa.camads.net
 static.ifa.empflixlive.com
 static.ifa.slutloadlive.com
 static.ifa.yobtcams.com
+static.ilclock.com
 static.innovid.com
 static.intentarget.com
 static.inviziads.com
@@ -489448,6 +489451,7 @@ vanlier-eu.shop
 vanns.112.2o7.net
 vanofaevo.autos
 vanpoolingaaturacos.info
+vans-towing.com
 vans.dedspac.ru
 vanscheers.com
 vansh-coding.github.io
