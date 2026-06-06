@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-06 00:30:43
-# Entries: 526653
+# Generated: 2026-06-06 06:02:21
+# Entries: 526652
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -140701,6 +140701,7 @@
 0.0.0.0 bertrand-renaudin.com
 0.0.0.0 bertranddo.com
 0.0.0.0 bertrandelectricllc.com
+0.0.0.0 bertticleaning.com
 0.0.0.0 bertucellicorretora.com.br
 0.0.0.0 bertuyihwjasojcpokwt8q7otyw.pages.dev
 0.0.0.0 bertyiodop.ydns.eu
@@ -162883,7 +162884,6 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -196531,6 +196531,7 @@
 0.0.0.0 dametting.blogspot.mx
 0.0.0.0 dami1080.github.io
 0.0.0.0 damia.ulitron.ru
+0.0.0.0 damiancollier.com
 0.0.0.0 damianemile.com
 0.0.0.0 damianwampler.com
 0.0.0.0 damidamine.com
@@ -373753,6 +373754,7 @@
 0.0.0.0 mothermoonfathersun.org
 0.0.0.0 motherofpearlproductions.com
 0.0.0.0 mothersoftware.in
+0.0.0.0 mothertouch.ac.zw
 0.0.0.0 mothertouchgroup.org
 0.0.0.0 mothopogamelodge.co.za
 0.0.0.0 mothrash.vercel.app
@@ -374790,7 +374792,6 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
-0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -419492,7 +419493,6 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
-0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -438941,6 +438941,7 @@
 0.0.0.0 qingtian.wtshaabp.cyou
 0.0.0.0 qingtian.zypofl.xyz
 0.0.0.0 qingyutiankong.github.io
+0.0.0.0 qiniuyunxz.yxflzs.com
 0.0.0.0 qinnan.pilot45.com
 0.0.0.0 qinrenwang.com.cn
 0.0.0.0 qintaz.com
@@ -463711,7 +463712,6 @@
 0.0.0.0 scheme.adywind.com
 0.0.0.0 scheme.mobpowertech.com
 0.0.0.0 schemea.prinit.net
-0.0.0.0 schenckel.com.br
 0.0.0.0 schinter.com
 0.0.0.0 schlaap-de.nihongoschool-portal.info
 0.0.0.0 schlager.oewabox.at
@@ -473241,7 +473241,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
