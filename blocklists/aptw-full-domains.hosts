@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-07 00:30:29
-# Entries: 526643
+# Generated: 2026-06-07 06:02:33
+# Entries: 526642
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -178932,7 +178932,6 @@
 0.0.0.0 cloudmsmessagesreleaingafterverificationmymsuser673479329482387.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 cloudmy-ids.com
 0.0.0.0 cloudnetfiji.com
-0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudofflceadmln.epizy.com
@@ -263605,7 +263604,6 @@
 0.0.0.0 gobikvip-euonline.shop
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -293267,7 +293265,6 @@
 0.0.0.0 ijamjamsec.com
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
-0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -352588,6 +352585,7 @@
 0.0.0.0 mand.ulitron.ru
 0.0.0.0 mand1r1.bezmxv.my.id
 0.0.0.0 mandafashion.com
+0.0.0.0 mandalaagrifresh.com
 0.0.0.0 mandalahome.es
 0.0.0.0 mandalamultimedia.com
 0.0.0.0 mandalasdoamor.com.br
@@ -419483,7 +419481,6 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
-0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -458662,6 +458659,7 @@
 0.0.0.0 s3-nato.cloud
 0.0.0.0 s3-nsa.cloud
 0.0.0.0 s3-poshmark.id829.com
+0.0.0.0 s3-python.cc
 0.0.0.0 s3.adbers.com
 0.0.0.0 s3.adpia.vn
 0.0.0.0 s3.ap-northeast-2.retrospectcloud.com
@@ -467308,6 +467306,7 @@
 0.0.0.0 shredform.com
 0.0.0.0 shredova.ru
 0.0.0.0 shreenath1696.github.io
+0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
@@ -489443,7 +489442,6 @@
 0.0.0.0 vanns.112.2o7.net
 0.0.0.0 vanofaevo.autos
 0.0.0.0 vanpoolingaaturacos.info
-0.0.0.0 vans-towing.com
 0.0.0.0 vans.dedspac.ru
 0.0.0.0 vanscheers.com
 0.0.0.0 vansh-coding.github.io
@@ -521354,6 +521352,7 @@
 0.0.0.0 www.webpartition.com
 0.0.0.0 www.webportalclub.com
 0.0.0.0 www.webrobi.pl
+0.0.0.0 www.websenorllc.com
 0.0.0.0 www.webservicessl.sviluppo.host
 0.0.0.0 www.webservis.gen.tr
 0.0.0.0 www.website-6a2aa55f.kyt.blc.mybluehost.me
