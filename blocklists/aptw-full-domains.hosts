@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-07 06:02:33
-# Entries: 526642
+# Generated: 2026-06-07 06:30:42
+# Entries: 526644
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -222112,6 +222112,7 @@
 0.0.0.0 elevefashion.com
 0.0.0.0 elevena.activite-rc-pro.com
 0.0.0.0 elevenb.activite-rc-pro.com
+0.0.0.0 elevenhold.hu
 0.0.0.0 elevennewz.com
 0.0.0.0 eleventy-base-blog-rv3g-git-master-mail-admin-mekdarntech.vercel.app
 0.0.0.0 eleventy-base-blog-xi.vercel.app
@@ -484505,6 +484506,7 @@
 0.0.0.0 tsl-github.com
 0.0.0.0 tslconsultores.es
 0.0.0.0 tsldg.com
+0.0.0.0 tsms.ogcs-tn.com
 0.0.0.0 tsmt.automatedprocesssystems.com
 0.0.0.0 tsmtphit.com
 0.0.0.0 tsmtrk.com
