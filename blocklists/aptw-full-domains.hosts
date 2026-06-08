@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-08 12:31:08
-# Entries: 526418
+# Generated: 2026-06-08 18:31:11
+# Entries: 526417
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -137717,7 +137717,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -164432,7 +164431,6 @@
 0.0.0.0 campaign.brand.zing.vn
 0.0.0.0 campaign.budgethyve.com
 0.0.0.0 campaign.gitiho.com
-0.0.0.0 campaign.khetkhamar.org
 0.0.0.0 campaigndbs.com
 0.0.0.0 campaignhighway.com
 0.0.0.0 campaignmapping.com
@@ -249385,7 +249383,6 @@
 0.0.0.0 fotoproductinsta.com
 0.0.0.0 fotopuan.com
 0.0.0.0 fotoschuppen.net
-0.0.0.0 fotosdepuebla.org
 0.0.0.0 fotosdevestidosdenovias.com
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
@@ -306622,6 +306619,7 @@
 0.0.0.0 jalandharpolice.com
 0.0.0.0 jalanmania.com
 0.0.0.0 jaldorentex24.com
+0.0.0.0 jalebel7abeb.com
 0.0.0.0 jalfre.com
 0.0.0.0 jalgaonkaraakansha78-crypto.github.io
 0.0.0.0 jaliscoctm.org
@@ -373599,6 +373597,7 @@
 0.0.0.0 motherofpearlproductions.com
 0.0.0.0 mothersmykpl.top
 0.0.0.0 mothersoftware.in
+0.0.0.0 mothertouch.ac.zw
 0.0.0.0 mothertouchgroup.org
 0.0.0.0 mothopogamelodge.co.za
 0.0.0.0 mothrash.vercel.app
@@ -439865,6 +439864,7 @@
 0.0.0.0 queen-fdcd.layne1095.workers.dev
 0.0.0.0 queenbunkbed.com
 0.0.0.0 queencityprincessparties.com
+0.0.0.0 queendent.hu
 0.0.0.0 queenfillers.com
 0.0.0.0 queenijain.github.io
 0.0.0.0 queenintown.com
@@ -499542,7 +499542,6 @@
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
 0.0.0.0 www.benowe.shop
-0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.benslocaltours.com
 0.0.0.0 www.benulekaren-sale.sbs
 0.0.0.0 www.benulekaren.biotechusasale.shop
@@ -514889,7 +514888,6 @@
 0.0.0.0 www.raykyte.com
 0.0.0.0 www.raysurrection.pro
 0.0.0.0 www.razavip.top
-0.0.0.0 www.rbcfort.com
 0.0.0.0 www.rbfa-shops.top
 0.0.0.0 www.rbrinc.com
 0.0.0.0 www.rbxfree.com
@@ -515690,6 +515688,7 @@
 0.0.0.0 www.ryosale.shop
 0.0.0.0 www.ryosuke.plus.com
 0.0.0.0 www.rytzcasting.com
+0.0.0.0 www.rywh1405.com
 0.0.0.0 www.rywiahsiahjebrasiabs.site
 0.0.0.0 www.rywumoi.com
 0.0.0.0 www.ryzusye.com
