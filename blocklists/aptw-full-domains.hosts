@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-08 06:30:48
-# Entries: 526417
+# Generated: 2026-06-08 12:31:08
+# Entries: 526418
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -91910,7 +91910,6 @@
 0.0.0.0 appdomagazineluiza.com
 0.0.0.0 appdown.globalonline.cc
 0.0.0.0 appdown.tiktokshop.cm
-0.0.0.0 appdownload.download
 0.0.0.0 appdownlsds.bond
 0.0.0.0 appdownlsds.lol
 0.0.0.0 appdownlsds.shop
@@ -137718,6 +137717,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -251752,7 +251752,6 @@
 0.0.0.0 friendsoflifechoices.org
 0.0.0.0 friendsofmelvinchigh.com
 0.0.0.0 friendsofryetownhall.org
-0.0.0.0 friendsofsclarc.org
 0.0.0.0 friendssteakhouse.com
 0.0.0.0 friendtest.us.intellitxt.com
 0.0.0.0 friendvote.xyz
@@ -470689,6 +470688,7 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
+0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodnice.shop
 0.0.0.0 spoil.virosat.ru
@@ -514889,6 +514889,7 @@
 0.0.0.0 www.raykyte.com
 0.0.0.0 www.raysurrection.pro
 0.0.0.0 www.razavip.top
+0.0.0.0 www.rbcfort.com
 0.0.0.0 www.rbfa-shops.top
 0.0.0.0 www.rbrinc.com
 0.0.0.0 www.rbxfree.com
