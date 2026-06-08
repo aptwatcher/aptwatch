@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-08 00:31:08
-# Entries: 526414
+# Generated: 2026-06-08 06:01:57
+# Entries: 526417
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -91910,6 +91910,7 @@
 0.0.0.0 appdomagazineluiza.com
 0.0.0.0 appdown.globalonline.cc
 0.0.0.0 appdown.tiktokshop.cm
+0.0.0.0 appdownload.download
 0.0.0.0 appdownlsds.bond
 0.0.0.0 appdownlsds.lol
 0.0.0.0 appdownlsds.shop
@@ -249384,6 +249385,7 @@
 0.0.0.0 fotoproductinsta.com
 0.0.0.0 fotopuan.com
 0.0.0.0 fotoschuppen.net
+0.0.0.0 fotosdepuebla.org
 0.0.0.0 fotosdevestidosdenovias.com
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
@@ -251750,6 +251752,7 @@
 0.0.0.0 friendsoflifechoices.org
 0.0.0.0 friendsofmelvinchigh.com
 0.0.0.0 friendsofryetownhall.org
+0.0.0.0 friendsofsclarc.org
 0.0.0.0 friendssteakhouse.com
 0.0.0.0 friendtest.us.intellitxt.com
 0.0.0.0 friendvote.xyz
@@ -263415,7 +263418,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -408134,6 +408136,7 @@
 0.0.0.0 palet.dedspac.ru
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
+0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palingviralsxx.duckdns.org
 0.0.0.0 paliodasti.com.usrfiles.com
