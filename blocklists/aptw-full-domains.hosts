@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-09 06:30:42
-# Entries: 526512
+# Generated: 2026-06-09 12:30:41
+# Entries: 526515
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32874,6 +32874,7 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
+0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -70640,7 +70641,6 @@
 0.0.0.0 alhujielanmedical.com
 0.0.0.0 alhujjah-pangkalpinang.net
 0.0.0.0 alhvgilr7sxeoontqthubx9lv.barclayis.co
-0.0.0.0 ali-alomaritrading.cam
 0.0.0.0 ali-baba.live
 0.0.0.0 ali-day.com
 0.0.0.0 ali-dosti-zanjsn.hassane69m.workers.dev
@@ -147344,6 +147344,7 @@
 0.0.0.0 blfifjolsnkxspjw-dot-millinium.ey.r.appspot.com
 0.0.0.0 blfjhrxcawirhaxz-dot-millinium.ey.r.appspot.com
 0.0.0.0 blftjvkrmcjniepz-dot-millinium.ey.r.appspot.com
+0.0.0.0 blg.com.mx
 0.0.0.0 blg0nd-e11-rr1.square.site
 0.0.0.0 blgigzwzxelaszdr-dot-millinium.ey.r.appspot.com
 0.0.0.0 blginter1.wixsite.com
@@ -147510,7 +147511,6 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
-0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -162775,6 +162775,7 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -199159,6 +199160,7 @@
 0.0.0.0 dcv.pages.dev
 0.0.0.0 dcv111fbgfds.blogspot.tw
 0.0.0.0 dcvg.square.site
+0.0.0.0 dcwblida.dz
 0.0.0.0 dcwdfwefefef.weebly.com
 0.0.0.0 dcwhosaybbtnwbvp-dot-millinium.ey.r.appspot.com
 0.0.0.0 dcwzr.wqvec.workers.dev
@@ -207471,7 +207473,6 @@
 0.0.0.0 digitalnodeservexyz.pages.dev
 0.0.0.0 digitalnotions.biz
 0.0.0.0 digitaloceans.sgp1.digitaloceanspaces.com
-0.0.0.0 digitalonline.cl
 0.0.0.0 digitalprimacy.com
 0.0.0.0 digitalprinceton.com
 0.0.0.0 digitalprivacyadvocates.com
@@ -256090,6 +256091,7 @@
 0.0.0.0 garnolabar.tk
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
+0.0.0.0 garogradba.mk
 0.0.0.0 garoo.ulitron.ru
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garovelhunt.info
@@ -304273,7 +304275,6 @@
 0.0.0.0 it6aucoindexfi.c1.biz
 0.0.0.0 it8txi5.ml
 0.0.0.0 ita-acesso-promo.tk
-0.0.0.0 ita-airwaysva.com
 0.0.0.0 ita-pontos-combr.ezpz.work
 0.0.0.0 ita-u-com.umbler.net
 0.0.0.0 ita.amaniwa.ru
@@ -458464,6 +458465,7 @@
 0.0.0.0 s3-nato.cloud
 0.0.0.0 s3-nsa.cloud
 0.0.0.0 s3-poshmark.id829.com
+0.0.0.0 s3-python.cc
 0.0.0.0 s3.adbers.com
 0.0.0.0 s3.adpia.vn
 0.0.0.0 s3.ap-northeast-2.retrospectcloud.com
@@ -465832,6 +465834,7 @@
 0.0.0.0 servicio.generatusolicitud-online.site
 0.0.0.0 serviciodelwebclientes.cloudaccess.host
 0.0.0.0 serviciopostal.vip
+0.0.0.0 servicioslogisticosdyc.com
 0.0.0.0 serviciospatito.com
 0.0.0.0 serviciotecnico.com.uy
 0.0.0.0 serviciotrackwp.sviluppo.host
@@ -469910,7 +469913,6 @@
 0.0.0.0 sonic-0101.github.io
 0.0.0.0 sonic-us.supersonicads.com
 0.0.0.0 sonicgylow.shop
-0.0.0.0 soniderosunidos.com
 0.0.0.0 sonik.hopto.org
 0.0.0.0 soniksports.fr
 0.0.0.0 sonk.ulitron.ru
@@ -470710,6 +470712,7 @@
 0.0.0.0 spirulinplus.pl
 0.0.0.0 spiry.dedspac.ru
 0.0.0.0 spise.dedspac.ru
+0.0.0.0 spiskisvo.xyz
 0.0.0.0 spit.amaniwa.ru
 0.0.0.0 spite.virosat.ru
 0.0.0.0 spitico.com
@@ -511469,7 +511472,6 @@
 0.0.0.0 www.norlavia.top
 0.0.0.0 www.norlfp4pfa.site
 0.0.0.0 www.norlfpp.site
-0.0.0.0 www.normativatecnica.org
 0.0.0.0 www.normislokml.com
 0.0.0.0 www.nororivane.shop
 0.0.0.0 www.norqelamora.top
@@ -522217,6 +522219,7 @@
 0.0.0.0 www.yroun.theqsolutions.com
 0.0.0.0 www.yrriwdewartdji.site
 0.0.0.0 www.yruwdhkwersjiadwe.site
+0.0.0.0 www.ysbaojia.com
 0.0.0.0 www.yscenef.optimagine.com
 0.0.0.0 www.yscou.com
 0.0.0.0 www.ysjfd.com
