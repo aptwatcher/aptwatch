@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-09 12:30:41
+# Generated: 2026-06-09 18:30:29
 # Entries: 526515
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -32874,7 +32874,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -48681,6 +48680,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -147344,7 +147344,6 @@
 0.0.0.0 blfifjolsnkxspjw-dot-millinium.ey.r.appspot.com
 0.0.0.0 blfjhrxcawirhaxz-dot-millinium.ey.r.appspot.com
 0.0.0.0 blftjvkrmcjniepz-dot-millinium.ey.r.appspot.com
-0.0.0.0 blg.com.mx
 0.0.0.0 blg0nd-e11-rr1.square.site
 0.0.0.0 blgigzwzxelaszdr-dot-millinium.ey.r.appspot.com
 0.0.0.0 blginter1.wixsite.com
@@ -162775,7 +162774,6 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -164056,6 +164054,7 @@
 0.0.0.0 calculatorstatement.com
 0.0.0.0 calculusindia.com
 0.0.0.0 calcuttaplastics.com
+0.0.0.0 caldas-pires.pt
 0.0.0.0 caldav.elitoras.ru
 0.0.0.0 calder.virosat.ru
 0.0.0.0 caldoro.shop
@@ -178843,6 +178842,7 @@
 0.0.0.0 cloudmsmessagesreleaingafterverificationmymsuser673479329482387.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 cloudmy-ids.com
 0.0.0.0 cloudnetfiji.com
+0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudofflceadmln.epizy.com
@@ -201726,6 +201726,7 @@
 0.0.0.0 deltacorporativo.com
 0.0.0.0 deltadioxasoftware-com.financecryptoworld.com
 0.0.0.0 deltaexchange.net
+0.0.0.0 deltaexecutorvip.xyz
 0.0.0.0 deltaexeon.com
 0.0.0.0 deltafinance.ro
 0.0.0.0 deltafixes.com
@@ -201733,6 +201734,7 @@
 0.0.0.0 deltageophysics.com
 0.0.0.0 deltago.com
 0.0.0.0 deltahaven.ph
+0.0.0.0 deltahub.vip
 0.0.0.0 deltalivebackup.baytechsoft.com
 0.0.0.0 deltametals.co
 0.0.0.0 deltanermo.site
@@ -245937,6 +245939,7 @@
 0.0.0.0 fitfloppl.com
 0.0.0.0 fitfloppolskaoutlet.com
 0.0.0.0 fitflopspolskaoutlet.com
+0.0.0.0 fitforevercavan.ie
 0.0.0.0 fitful-manners.000webhostapp.com
 0.0.0.0 fitg.net
 0.0.0.0 fitges.oewabox.at
@@ -256091,7 +256094,6 @@
 0.0.0.0 garnolabar.tk
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
-0.0.0.0 garogradba.mk
 0.0.0.0 garoo.ulitron.ru
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garovelhunt.info
@@ -263450,7 +263452,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -266333,6 +266334,7 @@
 0.0.0.0 graveolens.space
 0.0.0.0 gravepay.com
 0.0.0.0 gravest-defect.000webhostapp.com
+0.0.0.0 graviana.com
 0.0.0.0 gravimetric-remedy.000webhostapp.com
 0.0.0.0 gravitas-local-manage-031572684-xi.vercel.app
 0.0.0.0 gravitative-diaries.000webhostapp.com
@@ -458465,7 +458467,6 @@
 0.0.0.0 s3-nato.cloud
 0.0.0.0 s3-nsa.cloud
 0.0.0.0 s3-poshmark.id829.com
-0.0.0.0 s3-python.cc
 0.0.0.0 s3.adbers.com
 0.0.0.0 s3.adpia.vn
 0.0.0.0 s3.ap-northeast-2.retrospectcloud.com
@@ -465834,7 +465835,6 @@
 0.0.0.0 servicio.generatusolicitud-online.site
 0.0.0.0 serviciodelwebclientes.cloudaccess.host
 0.0.0.0 serviciopostal.vip
-0.0.0.0 servicioslogisticosdyc.com
 0.0.0.0 serviciospatito.com
 0.0.0.0 serviciotecnico.com.uy
 0.0.0.0 serviciotrackwp.sviluppo.host
@@ -470481,6 +470481,7 @@
 0.0.0.0 spary.dedspac.ru
 0.0.0.0 spas.ulitron.ru
 0.0.0.0 spasm.virosat.ru
+0.0.0.0 spasopro.at
 0.0.0.0 spassbuche.cyou
 0.0.0.0 spat.amaniwa.ru
 0.0.0.0 spatrcandl.cyou
@@ -470712,7 +470713,6 @@
 0.0.0.0 spirulinplus.pl
 0.0.0.0 spiry.dedspac.ru
 0.0.0.0 spise.dedspac.ru
-0.0.0.0 spiskisvo.xyz
 0.0.0.0 spit.amaniwa.ru
 0.0.0.0 spite.virosat.ru
 0.0.0.0 spitico.com
@@ -476207,6 +476207,7 @@
 0.0.0.0 swiftconnectapp.pages.dev
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -483877,7 +483878,6 @@
 0.0.0.0 tri.boletuso.ru
 0.0.0.0 tri.ulitron.ru
 0.0.0.0 triad.dedspac.ru
-0.0.0.0 triadejuridica.com.br
 0.0.0.0 triadically.bibliota.ru
 0.0.0.0 triakisicosahedral.bibliota.ru
 0.0.0.0 triakisicosahedron.amaniwa.ru
@@ -489454,6 +489454,7 @@
 0.0.0.0 vanns.112.2o7.net
 0.0.0.0 vanofaevo.autos
 0.0.0.0 vanpoolingaaturacos.info
+0.0.0.0 vans-towing.com
 0.0.0.0 vans.dedspac.ru
 0.0.0.0 vanscheers.com
 0.0.0.0 vansh-coding.github.io
@@ -499623,7 +499624,6 @@
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
 0.0.0.0 www.benowe.shop
-0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.benslocaltours.com
 0.0.0.0 www.benulekaren-sale.sbs
 0.0.0.0 www.benulekaren.biotechusasale.shop
