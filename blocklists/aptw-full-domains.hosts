@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-09 00:31:08
-# Entries: 526507
+# Generated: 2026-06-09 06:03:01
+# Entries: 526512
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -70640,6 +70640,7 @@
 0.0.0.0 alhujielanmedical.com
 0.0.0.0 alhujjah-pangkalpinang.net
 0.0.0.0 alhvgilr7sxeoontqthubx9lv.barclayis.co
+0.0.0.0 ali-alomaritrading.cam
 0.0.0.0 ali-baba.live
 0.0.0.0 ali-day.com
 0.0.0.0 ali-dosti-zanjsn.hassane69m.workers.dev
@@ -147509,6 +147510,7 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
+0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -207469,6 +207471,7 @@
 0.0.0.0 digitalnodeservexyz.pages.dev
 0.0.0.0 digitalnotions.biz
 0.0.0.0 digitaloceans.sgp1.digitaloceanspaces.com
+0.0.0.0 digitalonline.cl
 0.0.0.0 digitalprimacy.com
 0.0.0.0 digitalprinceton.com
 0.0.0.0 digitalprivacyadvocates.com
@@ -263445,6 +263448,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -304269,6 +304273,7 @@
 0.0.0.0 it6aucoindexfi.c1.biz
 0.0.0.0 it8txi5.ml
 0.0.0.0 ita-acesso-promo.tk
+0.0.0.0 ita-airwaysva.com
 0.0.0.0 ita-pontos-combr.ezpz.work
 0.0.0.0 ita-u-com.umbler.net
 0.0.0.0 ita.amaniwa.ru
@@ -373642,7 +373647,6 @@
 0.0.0.0 motherofpearlproductions.com
 0.0.0.0 mothersmykpl.top
 0.0.0.0 mothersoftware.in
-0.0.0.0 mothertouch.ac.zw
 0.0.0.0 mothertouchgroup.org
 0.0.0.0 mothopogamelodge.co.za
 0.0.0.0 mothrash.vercel.app
@@ -384240,7 +384244,6 @@
 0.0.0.0 neil033-design.github.io
 0.0.0.0 neilblack.co.uk.usrfiles.com
 0.0.0.0 neilmacqueen.com
-0.0.0.0 neilshairdressers.co.uk
 0.0.0.0 neilweller11.wixsite.com
 0.0.0.0 neim.strametyapi.com
 0.0.0.0 neimali.ga
@@ -442936,7 +442939,6 @@
 0.0.0.0 rann.dedspac.ru
 0.0.0.0 ranniipnot.cyou
 0.0.0.0 rannochplay.com
-0.0.0.0 ranojpegu.in
 0.0.0.0 ransomnet.com.au
 0.0.0.0 ransortx.cloudaccess.host
 0.0.0.0 rant.dedspac.ru
@@ -469908,6 +469910,7 @@
 0.0.0.0 sonic-0101.github.io
 0.0.0.0 sonic-us.supersonicads.com
 0.0.0.0 sonicgylow.shop
+0.0.0.0 soniderosunidos.com
 0.0.0.0 sonik.hopto.org
 0.0.0.0 soniksports.fr
 0.0.0.0 sonk.ulitron.ru
@@ -470756,6 +470759,7 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
+0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodnice.shop
 0.0.0.0 spoil.virosat.ru
@@ -476200,7 +476204,6 @@
 0.0.0.0 swiftconnectapp.pages.dev
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -499617,6 +499620,7 @@
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
 0.0.0.0 www.benowe.shop
+0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.benslocaltours.com
 0.0.0.0 www.benulekaren-sale.sbs
 0.0.0.0 www.benulekaren.biotechusasale.shop
@@ -511465,6 +511469,7 @@
 0.0.0.0 www.norlavia.top
 0.0.0.0 www.norlfp4pfa.site
 0.0.0.0 www.norlfpp.site
+0.0.0.0 www.normativatecnica.org
 0.0.0.0 www.normislokml.com
 0.0.0.0 www.nororivane.shop
 0.0.0.0 www.norqelamora.top
