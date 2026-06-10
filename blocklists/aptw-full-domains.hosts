@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-10 12:31:11
-# Entries: 526546
+# Generated: 2026-06-10 18:30:40
+# Entries: 526552
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -21602,6 +21602,7 @@
 0.0.0.0 3bnwebbpichincha.webcindario.com
 0.0.0.0 3bood89.standardseoservices.com
 0.0.0.0 3boredguys.com
+0.0.0.0 3brosstore.com
 0.0.0.0 3bscafe.com
 0.0.0.0 3btgzfk74gxejzr.qwo231sdx.club
 0.0.0.0 3btvalruqoxo.wusps.xyz
@@ -138308,7 +138309,6 @@
 0.0.0.0 bedriarrap.cyou
 0.0.0.0 bedrid.dedspac.ru
 0.0.0.0 bedrijfsbezoek.hejmo.online
-0.0.0.0 bedrive.ru
 0.0.0.0 bedrivel.matsuro.ru
 0.0.0.0 bedrivels.matsuro.ru
 0.0.0.0 bedrocktire.tk
@@ -141804,6 +141804,7 @@
 0.0.0.0 betulina.xyz
 0.0.0.0 betup88-mahaheng.com
 0.0.0.0 betus-us.info
+0.0.0.0 betvole9038.com
 0.0.0.0 between-event.ml
 0.0.0.0 between-events.com
 0.0.0.0 between.ehome521.com
@@ -147510,6 +147511,7 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
+0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -178847,6 +178849,7 @@
 0.0.0.0 cloudmsmessagesreleaingafterverificationmymsuser673479329482387.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 cloudmy-ids.com
 0.0.0.0 cloudnetfiji.com
+0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudofflceadmln.epizy.com
@@ -185281,7 +185284,6 @@
 0.0.0.0 comsbproslogen.gitbook.io
 0.0.0.0 comscoreresearch.com
 0.0.0.0 comse435twnet.ru
-0.0.0.0 comserlivuior.store
 0.0.0.0 comsistec.com
 0.0.0.0 comsjhxoi.firebaseapp.com
 0.0.0.0 comsjhxoi.web.app
@@ -192369,6 +192371,7 @@
 0.0.0.0 csszy.xyz
 0.0.0.0 cst.is-a-geek.net
 0.0.0.0 cst.ulitron.ru
+0.0.0.0 cstaipas.pt
 0.0.0.0 cstasa.ca
 0.0.0.0 cstatic.weborama.fr
 0.0.0.0 cstdtaad.ddgrils.com
@@ -205296,6 +205299,7 @@
 0.0.0.0 devletonlineisler.net
 0.0.0.0 devloped-coinbase-com-x-auth.typedream.app
 0.0.0.0 devlovers.com
+0.0.0.0 devltl.top
 0.0.0.0 devmahida.github.io
 0.0.0.0 devmanjuralahi.github.io
 0.0.0.0 devminhaz79.github.io
@@ -233177,7 +233181,6 @@
 0.0.0.0 facai.y82lj7e.cn
 0.0.0.0 facai2024.xn--bvs11es3ujti.com
 0.0.0.0 facai524.icu
-0.0.0.0 facanha.com.br
 0.0.0.0 facanjgijvsabnkfuadbybamyvbcjmulibwp-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 facaujowetta-8242-51618947-continue.vercel.app
 0.0.0.0 facb00keslat.000webhostapp.com
@@ -263463,6 +263466,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -317169,6 +317173,7 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
+0.0.0.0 kambohmag.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
@@ -369137,7 +369142,6 @@
 0.0.0.0 misionhome-agric.hostkda.com
 0.0.0.0 misionweb.net
 0.0.0.0 misjonarzetrzciel.pl
-0.0.0.0 miskolc-dugulaselharitas.hu
 0.0.0.0 misky.dedspac.ru
 0.0.0.0 mismaaiauuipymfhlepjgurpjulmtyqxlmrv-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 mismuskan.github.io
@@ -376002,7 +376006,6 @@
 0.0.0.0 muadumthuoc.com
 0.0.0.0 muahidmd.github.io
 0.0.0.0 muaightk.com
-0.0.0.0 muaklekcoop.com
 0.0.0.0 muang.dedspac.ru
 0.0.0.0 muang.ulitron.ru
 0.0.0.0 muangmailocal.go.th
@@ -390921,6 +390924,7 @@
 0.0.0.0 node.gameads.io
 0.0.0.0 node.smarteresolver.com
 0.0.0.0 node.ulitron.ru
+0.0.0.0 node2-py-store.com
 0.0.0.0 node2bind.tech
 0.0.0.0 nodeaccessactivation.live
 0.0.0.0 nodeapend.online
@@ -409053,6 +409057,7 @@
 0.0.0.0 paperclip-agency.com
 0.0.0.0 papereggplant.com
 0.0.0.0 papereggplantr.com
+0.0.0.0 paperfoldercenter.com
 0.0.0.0 paperg.com
 0.0.0.0 paperhander.pages.dev
 0.0.0.0 paperhands-portfoliotracker-wallet.pages.dev
@@ -409895,6 +409900,7 @@
 0.0.0.0 parys.rybolov-sk.shop
 0.0.0.0 parys.shop
 0.0.0.0 parysczsale.shop
+0.0.0.0 paryssk-online.shop
 0.0.0.0 pas-a-pas.jp
 0.0.0.0 pas-analytik.asia
 0.0.0.0 pas-cb.org
@@ -461138,7 +461144,6 @@
 0.0.0.0 sandy-explore.com
 0.0.0.0 sandy-thread-hortensia.glitch.me
 0.0.0.0 sandy.ulitron.ru
-0.0.0.0 sandyadamspodcast.com
 0.0.0.0 sandyandkristin.com
 0.0.0.0 sandybaytours.com
 0.0.0.0 sandybrown-wolverine-124843.hostingersite.com
@@ -466219,6 +466224,7 @@
 0.0.0.0 shaded-ridge.com
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
+0.0.0.0 shaderm.com
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-cruise.com
 0.0.0.0 shadow-hopper.com
@@ -468518,6 +468524,7 @@
 0.0.0.0 slopy.virosat.ru
 0.0.0.0 slosh.dedspac.ru
 0.0.0.0 slot.ulitron.ru
+0.0.0.0 slotmy-send.tech
 0.0.0.0 slots.dedspac.ru
 0.0.0.0 slotsjjj.com
 0.0.0.0 slotuna-1072.com
@@ -470779,7 +470786,6 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
-0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodnice.shop
 0.0.0.0 spoil.virosat.ru
@@ -484587,6 +484593,7 @@
 0.0.0.0 tsyndicate.net
 0.0.0.0 tsywc.com
 0.0.0.0 tt-104256.weeblysite.com
+0.0.0.0 tt-mods18.click
 0.0.0.0 tt-supplier.com
 0.0.0.0 tt.omtrdc.net
 0.0.0.0 tt.onthe.io
@@ -487519,7 +487526,6 @@
 0.0.0.0 usitatissimum.ru
 0.0.0.0 usitrust-capitelogin.webflow.io
 0.0.0.0 usj6.icu
-0.0.0.0 usjcx.site
 0.0.0.0 usjnqd.com
 0.0.0.0 usleica-camera.com
 0.0.0.0 uslimv.com
@@ -489472,7 +489478,6 @@
 0.0.0.0 vanns.112.2o7.net
 0.0.0.0 vanofaevo.autos
 0.0.0.0 vanpoolingaaturacos.info
-0.0.0.0 vans-towing.com
 0.0.0.0 vans.dedspac.ru
 0.0.0.0 vanscheers.com
 0.0.0.0 vansh-coding.github.io
@@ -499503,6 +499508,7 @@
 0.0.0.0 www.basece.com
 0.0.0.0 www.baseearn.futurahomebuilders.com
 0.0.0.0 www.baseequip.com
+0.0.0.0 www.basefile.click
 0.0.0.0 www.basic-resource-basics.pro
 0.0.0.0 www.basicpaths.pro
 0.0.0.0 www.basicsny.com
