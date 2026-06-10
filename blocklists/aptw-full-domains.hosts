@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-10 06:02:09
-# Entries: 526531
+# Generated: 2026-06-10 06:30:22
+# Entries: 526532
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -63057,6 +63057,7 @@
 0.0.0.0 aftaba.bluestacko.ru
 0.0.0.0 aftacickvy.duckdns.org
 0.0.0.0 afte.mopo.jp
+0.0.0.0 aftelecom.com.br
 0.0.0.0 after-hardest-climb.my.id
 0.0.0.0 after-oil.co.uk
 0.0.0.0 after-paying-biling-secure.com
@@ -120293,7 +120294,6 @@
 0.0.0.0 avelocidad.com
 0.0.0.0 avemaltsberger.com
 0.0.0.0 avemlmnvub.duckdns.org
-0.0.0.0 avemod.cc
 0.0.0.0 avena.dedspac.ru
 0.0.0.0 avenarchitects.co.ke
 0.0.0.0 avendo.vu
@@ -375992,6 +375992,7 @@
 0.0.0.0 muadumthuoc.com
 0.0.0.0 muahidmd.github.io
 0.0.0.0 muaightk.com
+0.0.0.0 muaklekcoop.com
 0.0.0.0 muang.dedspac.ru
 0.0.0.0 muang.ulitron.ru
 0.0.0.0 muangmailocal.go.th
