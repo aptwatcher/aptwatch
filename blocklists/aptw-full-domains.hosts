@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-10 00:30:46
-# Entries: 526530
+# Generated: 2026-06-10 06:02:09
+# Entries: 526531
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -72771,6 +72771,7 @@
 0.0.0.0 allrounder745.github.io
 0.0.0.0 alls-fashions.com
 0.0.0.0 alls.bortogat.ru
+0.0.0.0 allscaletreeservices.com.au
 0.0.0.0 allsdsdfdfdf.com
 0.0.0.0 allseasonscatering.ca
 0.0.0.0 allseated.com.py3gqq.grigorefelecan.ro
@@ -120292,6 +120293,7 @@
 0.0.0.0 avelocidad.com
 0.0.0.0 avemaltsberger.com
 0.0.0.0 avemlmnvub.duckdns.org
+0.0.0.0 avemod.cc
 0.0.0.0 avena.dedspac.ru
 0.0.0.0 avenarchitects.co.ke
 0.0.0.0 avendo.vu
@@ -147506,7 +147508,6 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
-0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -352479,7 +352480,6 @@
 0.0.0.0 mand.ulitron.ru
 0.0.0.0 mand1r1.bezmxv.my.id
 0.0.0.0 mandafashion.com
-0.0.0.0 mandalaagrifresh.com
 0.0.0.0 mandalahome.es
 0.0.0.0 mandalamultimedia.com
 0.0.0.0 mandalasdoamor.com.br
@@ -426755,7 +426755,6 @@
 0.0.0.0 prodigyfashion.es
 0.0.0.0 prodigynetlogss.weebly.com
 0.0.0.0 prodigysigninattsm.weebly.com
-0.0.0.0 prodimetal.com
 0.0.0.0 prodjs.wpenginepowered.com
 0.0.0.0 prodoctransfs.com
 0.0.0.0 prodromatically.bibliota.ru
@@ -499634,6 +499633,7 @@
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
 0.0.0.0 www.benowe.shop
+0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.benslocaltours.com
 0.0.0.0 www.benulekaren-sale.sbs
 0.0.0.0 www.benulekaren.biotechusasale.shop
@@ -514981,6 +514981,7 @@
 0.0.0.0 www.raykyte.com
 0.0.0.0 www.raysurrection.pro
 0.0.0.0 www.razavip.top
+0.0.0.0 www.rbcfort.com
 0.0.0.0 www.rbfa-shops.top
 0.0.0.0 www.rbrinc.com
 0.0.0.0 www.rbxfree.com
