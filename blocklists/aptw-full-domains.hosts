@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-10 06:30:22
-# Entries: 526532
+# Generated: 2026-06-10 12:31:11
+# Entries: 526546
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45771,6 +45771,7 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
+0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -138307,6 +138308,7 @@
 0.0.0.0 bedriarrap.cyou
 0.0.0.0 bedrid.dedspac.ru
 0.0.0.0 bedrijfsbezoek.hejmo.online
+0.0.0.0 bedrive.ru
 0.0.0.0 bedrivel.matsuro.ru
 0.0.0.0 bedrivels.matsuro.ru
 0.0.0.0 bedrocktire.tk
@@ -154988,6 +154990,7 @@
 0.0.0.0 brengenhariaeservicos.com.br
 0.0.0.0 brenhamflagfootball.com
 0.0.0.0 brenling.com.mx
+0.0.0.0 brenmayasociados.com
 0.0.0.0 brennenfinleywedding.com
 0.0.0.0 brennerdesignstudio.com
 0.0.0.0 brennholzimkarton.com
@@ -185278,6 +185281,7 @@
 0.0.0.0 comsbproslogen.gitbook.io
 0.0.0.0 comscoreresearch.com
 0.0.0.0 comse435twnet.ru
+0.0.0.0 comserlivuior.store
 0.0.0.0 comsistec.com
 0.0.0.0 comsjhxoi.firebaseapp.com
 0.0.0.0 comsjhxoi.web.app
@@ -199162,6 +199166,7 @@
 0.0.0.0 dcv.pages.dev
 0.0.0.0 dcv111fbgfds.blogspot.tw
 0.0.0.0 dcvg.square.site
+0.0.0.0 dcwblida.dz
 0.0.0.0 dcwdfwefefef.weebly.com
 0.0.0.0 dcwhosaybbtnwbvp-dot-millinium.ey.r.appspot.com
 0.0.0.0 dcwzr.wqvec.workers.dev
@@ -233172,6 +233177,7 @@
 0.0.0.0 facai.y82lj7e.cn
 0.0.0.0 facai2024.xn--bvs11es3ujti.com
 0.0.0.0 facai524.icu
+0.0.0.0 facanha.com.br
 0.0.0.0 facanjgijvsabnkfuadbybamyvbcjmulibwp-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 facaujowetta-8242-51618947-continue.vercel.app
 0.0.0.0 facb00keslat.000webhostapp.com
@@ -247913,6 +247919,7 @@
 0.0.0.0 fmqtjq.blogspot.lu
 0.0.0.0 fmqtjq.blogspot.sn
 0.0.0.0 fmr.payoffrequestloancare.com
+0.0.0.0 fmrio.com
 0.0.0.0 fmrwiswwiehjwvcx-dot-owaonk399399393.uk.r.appspot.com
 0.0.0.0 fms.infoniz.in
 0.0.0.0 fms.ipinyou.com
@@ -260613,6 +260620,7 @@
 0.0.0.0 gig.ulitron.ru
 0.0.0.0 giga-host.com
 0.0.0.0 giga.dedspac.ru
+0.0.0.0 giga.miraibotnet.su
 0.0.0.0 giga4ad228.github.io
 0.0.0.0 gigabess.com
 0.0.0.0 gigahax.com
@@ -306754,6 +306762,7 @@
 0.0.0.0 james921.com
 0.0.0.0 jamesalibi.com
 0.0.0.0 jamesalle48papinolop.000webhostapp.com
+0.0.0.0 jamesautomobile.online
 0.0.0.0 jamesblake76.tripod.com
 0.0.0.0 jamesboycreative.com
 0.0.0.0 jamescompany.world
@@ -369128,6 +369137,7 @@
 0.0.0.0 misionhome-agric.hostkda.com
 0.0.0.0 misionweb.net
 0.0.0.0 misjonarzetrzciel.pl
+0.0.0.0 miskolc-dugulaselharitas.hu
 0.0.0.0 misky.dedspac.ru
 0.0.0.0 mismaaiauuipymfhlepjgurpjulmtyqxlmrv-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 mismuskan.github.io
@@ -389225,6 +389235,7 @@
 0.0.0.0 nick-2d9.pages.dev
 0.0.0.0 nick.expofranchise.com.br
 0.0.0.0 nick.ulitron.ru
+0.0.0.0 nickart.ro
 0.0.0.0 nickashley.net
 0.0.0.0 nickatlas.com
 0.0.0.0 nickblackton.shop
@@ -460393,6 +460404,7 @@
 0.0.0.0 salrecords.com
 0.0.0.0 salsa.ulitron.ru
 0.0.0.0 salsabachatakizomba.com
+0.0.0.0 salsabil.com
 0.0.0.0 salsajeans.shop
 0.0.0.0 salsaofficialchat.duckdns.org
 0.0.0.0 salse.ulitron.ru
@@ -461126,6 +461138,7 @@
 0.0.0.0 sandy-explore.com
 0.0.0.0 sandy-thread-hortensia.glitch.me
 0.0.0.0 sandy.ulitron.ru
+0.0.0.0 sandyadamspodcast.com
 0.0.0.0 sandyandkristin.com
 0.0.0.0 sandybaytours.com
 0.0.0.0 sandybrown-wolverine-124843.hostingersite.com
@@ -466206,7 +466219,6 @@
 0.0.0.0 shaded-ridge.com
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
-0.0.0.0 shaderm.com
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-cruise.com
 0.0.0.0 shadow-hopper.com
@@ -487507,6 +487519,7 @@
 0.0.0.0 usitatissimum.ru
 0.0.0.0 usitrust-capitelogin.webflow.io
 0.0.0.0 usj6.icu
+0.0.0.0 usjcx.site
 0.0.0.0 usjnqd.com
 0.0.0.0 usleica-camera.com
 0.0.0.0 uslimv.com
@@ -499634,7 +499647,6 @@
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
 0.0.0.0 www.benowe.shop
-0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.benslocaltours.com
 0.0.0.0 www.benulekaren-sale.sbs
 0.0.0.0 www.benulekaren.biotechusasale.shop
@@ -520285,6 +520297,7 @@
 0.0.0.0 www.valuezing.com
 0.0.0.0 www.valuezonepl.shop
 0.0.0.0 www.valulifepharmacy.com
+0.0.0.0 www.vame.be
 0.0.0.0 www.vamorae.shop
 0.0.0.0 www.vamormon.eu
 0.0.0.0 www.vampandvelvet.shop
@@ -525977,6 +525990,7 @@
 0.0.0.0 zihar.dedspac.ru
 0.0.0.0 zihemedia.com
 0.0.0.0 zihkjk0.cn
+0.0.0.0 zihnyunrui.com
 0.0.0.0 zikoapteka.plmarket.shop
 0.0.0.0 zikoarew.myftp.biz
 0.0.0.0 zill.ulitron.ru
