@@ -75,13 +75,9 @@ Key points for contributors:
 
 - All scripts use relative paths from `BASE_DIR = Path(__file__).parent.parent`
 - Database path: `database/apt_intel.db` (schema in `database/schema_v2.sql`)
+- `database/schema.sql` is the published structural reference and is **auto-generated** by
+  `scripts/regen_schema.py` from the live DB — do not hand-edit it; re-run the script after a
+  schema migration so it cannot drift (`python3 scripts/regen_schema.py [path/to/apt_intel.db]`).
+  It deliberately omits server-internal auth/audit tables (`api_keys`, `api_queries`) and `sqlite_*` internals.
 - Config is read from `config.ini` (local) or environment variables (GitHub Actions / server)
-- The database is never committed to Git — only IOC text files, blocklists, and the lightweight web export
-- Scripts must work on both Windows and Linux (Debian 12)
-
-### Pull Request checklist
-
-- [ ] Only modifies files in the scope of the change
-- [ ] Tested locally with `python3 apt.py` commands
-- [ ] No API keys, server IPs, or secrets in the diff
-- [ ] Works on both Python 3.10+ and Debian 12
+- The data
