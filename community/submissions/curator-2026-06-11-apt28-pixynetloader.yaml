@@ -1,0 +1,35 @@
+# Curator submission — APT28 / Forest Blizzard PixyNetLoader (CVE-2026-21509)
+# ExaTrack report 2026-06-01. In-scope (APT28). Only the CVE is schema-eligible:
+# the ~90 published indicators are SHA256 file hashes + host artifacts
+# (PNG paths, COM CLSIDs, DLL paths) and the C2 is the legitimate 'filen'
+# cloud service - none map to the flat-IOC network schema. Hashes are in the
+# daily digest. confidence_score omitted -> loader assigns curator 1.0.
+
+author: aptwatch-curator
+source: https://blog.exatrack.com/Tracking_APT28_PixyNetLoader/
+source_name: ExaTrack - Tracking APT28 PixyNetLoader (2024-2026)
+
+apt_groups:
+  - APT28
+  - Forest Blizzard
+  - Fancy Bear
+  - Sednit
+
+description: >
+  APT28 (GRU Unit 26165 / Forest Blizzard) PixyNetLoader campaign. ExaTrack
+  tracked ~90 samples (23 versions, 4 sub-families, 2024-04 to 2026-04). Chain:
+  malicious DOC/XLS exploiting CVE-2026-21509 (Feb 2026) -> SimpleDropper ->
+  PixyNetLoader DLL (COM persistence) + companion PNG -> Covenant Grunt
+  extracted from PNG pixel LSBs (steganography), using the legitimate 'filen'
+  cloud service as C2. Family C (from 2026-03-13) introduced AES/PBKDF2 PNG
+  steganography. Sister coverage: Sekoia "Operation Phantom Net Voxel",
+  Zscaler "Operation Neusploit", CERT-UA advisory 6287250 (Feb 2026).
+  Only CVE-2026-21509 is ingestable here; the ~90 SHA256 sample hashes,
+  PNG paths, COM CLSIDs and DLL paths are listed in the daily digest for a
+  future hash-table addendum.
+  ATTRIBUTION NOTE: apt_groups[0] set to 'APT28' (per CLAUDE.md coverage list).
+  Confirm the exact campaign_name in the DB (APT28 vs Forest Blizzard) before
+  import to avoid creating a duplicate campaign.
+
+cves:
+  - CVE-2026-21509
