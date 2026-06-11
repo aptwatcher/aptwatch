@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-11 18:30:42
-# Entries: 527810
+# Generated: 2026-06-11 22:49:39
+# Entries: 527833
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -9219,6 +9219,7 @@
 0.0.0.0 171645068.retarus.ru
 0.0.0.0 1716451753.retarus.ru
 0.0.0.0 1716834139.corolain.ru
+0.0.0.0 1717.1000uc.com
 0.0.0.0 1717135148.corolain.ru
 0.0.0.0 1717657867.corolain.ru
 0.0.0.0 1717802833.corolain.ru
@@ -47579,6 +47580,7 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
+0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acavlsion.com
 0.0.0.0 acb11.helpcenter.buzz
@@ -85673,6 +85675,7 @@
 0.0.0.0 antrenbitapptech.com
 0.0.0.0 antres.dedspac.ru
 0.0.0.0 antres.matsuro.ru
+0.0.0.0 antresolle.online
 0.0.0.0 antresolle.ru
 0.0.0.0 antrewpl-pwe80.com
 0.0.0.0 antriksh16b.github.io
@@ -98229,6 +98232,7 @@
 0.0.0.0 areyouabot.net
 0.0.0.0 areyouahuman.co
 0.0.0.0 areyouall.ru
+0.0.0.0 areyouready.co.za
 0.0.0.0 areyoureadytocompete.xyz
 0.0.0.0 areyourobotornot.blogspot.com
 0.0.0.0 arezcs.000webhostapp.com
@@ -147341,6 +147345,7 @@
 0.0.0.0 blfifjolsnkxspjw-dot-millinium.ey.r.appspot.com
 0.0.0.0 blfjhrxcawirhaxz-dot-millinium.ey.r.appspot.com
 0.0.0.0 blftjvkrmcjniepz-dot-millinium.ey.r.appspot.com
+0.0.0.0 blg.com.mx
 0.0.0.0 blg0nd-e11-rr1.square.site
 0.0.0.0 blgigzwzxelaszdr-dot-millinium.ey.r.appspot.com
 0.0.0.0 blginter1.wixsite.com
@@ -208806,6 +208811,7 @@
 0.0.0.0 disjungere.ru
 0.0.0.0 disk-4fb5.pre-ooauth.workers.dev
 0.0.0.0 disk-previewer.com
+0.0.0.0 disk.accord1key.cn
 0.0.0.0 disk.dedspac.ru
 0.0.0.0 disk.vwwv.workers.dev
 0.0.0.0 diskbae.com
@@ -213528,6 +213534,7 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
+0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -319710,6 +319717,7 @@
 0.0.0.0 khnzkukflxnvtwcbdmovrrbtdd-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 khoaccre247.com
 0.0.0.0 khoadz.shopblackcode.tk
+0.0.0.0 khoancatbetong89.vn
 0.0.0.0 khoancaythep.com
 0.0.0.0 khoavantaycaocap.vn
 0.0.0.0 khobfimjuq.duckdns.org
@@ -320493,6 +320501,7 @@
 0.0.0.0 kiryanaoffers.com
 0.0.0.0 kis.dedspac.ru
 0.0.0.0 kis.hosteurope.de.rechnungcheck.live
+0.0.0.0 kis.marketing
 0.0.0.0 kis.ulitron.ru
 0.0.0.0 kish.dedspac.ru
 0.0.0.0 kish.io
@@ -332350,6 +332359,7 @@
 0.0.0.0 libs.lavanetwork.net
 0.0.0.0 libs.outbrain.com
 0.0.0.0 libsa.in
+0.0.0.0 libss.0x504.com
 0.0.0.0 libsurg.com
 0.0.0.0 libya.ulitron.ru
 0.0.0.0 libya.virosat.ru
@@ -369255,6 +369265,7 @@
 0.0.0.0 misionhome-agric.hostkda.com
 0.0.0.0 misionweb.net
 0.0.0.0 misjonarzetrzciel.pl
+0.0.0.0 miskolc-dugulaselharitas.hu
 0.0.0.0 misky.dedspac.ru
 0.0.0.0 mismaaiauuipymfhlepjgurpjulmtyqxlmrv-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 mismuskan.github.io
@@ -390847,6 +390858,7 @@
 0.0.0.0 no5ed3l0ob.1934.gencmert.com
 0.0.0.0 no61jqdrobxwiqi4.colplat.com
 0.0.0.0 no6xb.csb.app
+0.0.0.0 no7shmh.shop
 0.0.0.0 no8design.com
 0.0.0.0 noa.tokenpouket.com
 0.0.0.0 noaa.dedspac.ru
@@ -395815,6 +395827,7 @@
 0.0.0.0 ocljlrlhxgxmwzee-dot-millinium.ey.r.appspot.com
 0.0.0.0 oclopes.fr
 0.0.0.0 ocloudd.tilebids.com
+0.0.0.0 oclouds.online
 0.0.0.0 oclouds.ru
 0.0.0.0 oclqskalgk.duckdns.org
 0.0.0.0 ocls.co.uk
@@ -398472,6 +398485,7 @@
 0.0.0.0 oknmhjx.xenicalby6.com
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -416596,6 +416610,7 @@
 0.0.0.0 picyako.com
 0.0.0.0 pid.boletuso.ru
 0.0.0.0 pid.co.za
+0.0.0.0 pid.fly160.com
 0.0.0.0 pid.ulitron.ru
 0.0.0.0 pidan.ulitron.ru
 0.0.0.0 pidderadotre-3728.vercel.app
@@ -428512,6 +428527,7 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -440475,6 +440491,7 @@
 0.0.0.0 quisqueyatimes.com
 0.0.0.0 quite.dedspac.ru
 0.0.0.0 quitebd.com
+0.0.0.0 quitethepastry.ru
 0.0.0.0 quitmyjob.xyz
 0.0.0.0 quito.dedspac.ru
 0.0.0.0 quitopilchas.com.br
@@ -460346,6 +460363,7 @@
 0.0.0.0 salespro.hc.am
 0.0.0.0 salesshocked.yoy0.com
 0.0.0.0 salessscontrols.com
+0.0.0.0 salessteer.com
 0.0.0.0 salesteleperformance.com
 0.0.0.0 salestool.com.br
 0.0.0.0 salestoys.com
@@ -470932,6 +470950,7 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
+0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodnice.shop
@@ -474752,6 +474771,7 @@
 0.0.0.0 streamlinebulletin.pro
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streammodu.cfd
 0.0.0.0 streamnf.com
 0.0.0.0 streampressia.top
@@ -485940,6 +485960,7 @@
 0.0.0.0 uao-wswhatsapp.cc
 0.0.0.0 uapi.ads.heytapmobi.com
 0.0.0.0 uarating.com
+0.0.0.0 uarefire.online
 0.0.0.0 uarefire.ru
 0.0.0.0 uartela.today
 0.0.0.0 uas1-scotnect-portal.com
@@ -526111,6 +526132,7 @@
 0.0.0.0 you636.1insta.us
 0.0.0.0 you748.1insta.us
 0.0.0.0 youareanidiot.cc
+0.0.0.0 youaresilent.online
 0.0.0.0 youaresilent.ru
 0.0.0.0 youaresogay.com
 0.0.0.0 youborafds01.com
@@ -526197,6 +526219,7 @@
 0.0.0.0 yourlarson.com
 0.0.0.0 yourmailservice.com
 0.0.0.0 yourofficialsurveysplace.store
+0.0.0.0 yourrain.online
 0.0.0.0 yourrain.ru
 0.0.0.0 yourreservationconf-12384013.digital
 0.0.0.0 yourrewardzone.com
