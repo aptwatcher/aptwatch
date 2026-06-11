@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-11 06:30:44
-# Entries: 526597
+# Generated: 2026-06-11 12:31:12
+# Entries: 526595
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -64673,6 +64673,7 @@
 0.0.0.0 agrope.virosat.ru
 0.0.0.0 agropecuarioenlinea.mywp.info
 0.0.0.0 agropolbud.pl
+0.0.0.0 agropole.tg
 0.0.0.0 agropreneurmuda.my
 0.0.0.0 agropulsar.com
 0.0.0.0 agroquimicabrasinha.com.br
@@ -101631,7 +101632,6 @@
 0.0.0.0 asiacross.jp
 0.0.0.0 asiadiscoversolutions.azureedge.net
 0.0.0.0 asiaecobiz.com
-0.0.0.0 asiaengrs.com
 0.0.0.0 asiafoodco.com
 0.0.0.0 asiahost.eu.org
 0.0.0.0 asiainspection.122.2o7.net
@@ -147516,7 +147516,6 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
-0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -188723,6 +188722,7 @@
 0.0.0.0 cotaspremiadas.com.br
 0.0.0.0 cote.vadilops.ru
 0.0.0.0 coteaqui.planosparavc.com.br
+0.0.0.0 cotecsecuritygroup.com
 0.0.0.0 coted.vadilops.ru
 0.0.0.0 cotem-add.web.app
 0.0.0.0 cotes.vadilops.ru
@@ -212611,7 +212611,6 @@
 0.0.0.0 download.weatherblink.com
 0.0.0.0 download.wildcard.applovin.com.edgekey.net
 0.0.0.0 download.windowsmicrosoft.ml
-0.0.0.0 download.xu619.top
 0.0.0.0 download.yesmessenger.com
 0.0.0.0 download.ytdownloader.com
 0.0.0.0 download.zachchan.workers.dev
@@ -256699,6 +256698,7 @@
 0.0.0.0 gbomeptrwlroyfvo-dot-millinium.ey.r.appspot.com
 0.0.0.0 gbon.it
 0.0.0.0 gboqsjortfonwtqj-dot-millinium.ey.r.appspot.com
+0.0.0.0 gboutros.howto.rocks
 0.0.0.0 gbp.ebayadvertising.triadretail.net
 0.0.0.0 gbp.pages.dev
 0.0.0.0 gbpostage-tracknow.com
@@ -266503,7 +266503,6 @@
 0.0.0.0 grece.dedspac.ru
 0.0.0.0 greco.ulitron.ru
 0.0.0.0 grecocatering.com
-0.0.0.0 grecokitchens.com
 0.0.0.0 grecom.gt
 0.0.0.0 grecotitle.hideoutco.com
 0.0.0.0 greddoiheicreillu-5946.vercel.app
@@ -291404,6 +291403,7 @@
 0.0.0.0 icudjyaehkctcm7dpvht.us-south.cf.appdomain.cloud
 0.0.0.0 icudol.com
 0.0.0.0 icuphoclu.info
+0.0.0.0 icupsa.com.mx
 0.0.0.0 icusah.digital
 0.0.0.0 icuuqyhymuqmxeai-dot-millinium.ey.r.appspot.com
 0.0.0.0 icvassessments.com
@@ -317172,6 +317172,7 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
+0.0.0.0 kambohmag.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
@@ -336171,7 +336172,6 @@
 0.0.0.0 lmknbg7gnv.ga
 0.0.0.0 lmkw.azurewebsites.net
 0.0.0.0 lmkxnmjhpsxvqijr-dot-millinium.ey.r.appspot.com
-0.0.0.0 lmlawcorp.com
 0.0.0.0 lmlcas.com
 0.0.0.0 lmlenzitrasporti.com
 0.0.0.0 lmlragfqqjmmjxaf-dot-millinium.ey.r.appspot.com
@@ -466245,6 +466245,7 @@
 0.0.0.0 shaded-ridge.com
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
+0.0.0.0 shaderm.com
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-cruise.com
 0.0.0.0 shadow-hopper.com
@@ -469959,7 +469960,6 @@
 0.0.0.0 sonic-0101.github.io
 0.0.0.0 sonic-us.supersonicads.com
 0.0.0.0 sonicgylow.shop
-0.0.0.0 soniderosunidos.com
 0.0.0.0 sonik.hopto.org
 0.0.0.0 soniksports.fr
 0.0.0.0 sonk.ulitron.ru
@@ -470810,7 +470810,6 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
-0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodnice.shop
 0.0.0.0 spoil.virosat.ru
@@ -507619,7 +507618,6 @@
 0.0.0.0 www.indeed-job.com
 0.0.0.0 www.indemcroco.cyou
 0.0.0.0 www.independent-news-desk.xyz
-0.0.0.0 www.index-wps.com.cn
 0.0.0.0 www.indexdigpro.site
 0.0.0.0 www.indexprofile.com
 0.0.0.0 www.indfascex.com
