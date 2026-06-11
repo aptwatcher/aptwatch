@@ -16,6 +16,9 @@ database/apt_intel.db.bak
 
 # Allow the web export inside web/ (needed for GitHub Pages dashboard)
 !web/apt_intel_web.db
+*.db-wal
+*.db-shm
+*.db-journal
 
 # =========================
 # Private admin page (local only)
