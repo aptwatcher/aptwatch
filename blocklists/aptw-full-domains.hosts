@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-11 00:30:39
+# Generated: 2026-06-11 06:01:53
 # Entries: 526592
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -45777,7 +45777,6 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
-0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -62047,6 +62046,7 @@
 0.0.0.0 aether.dedspac.ru
 0.0.0.0 aether.matsuro.ru
 0.0.0.0 aethercoresolutions.life
+0.0.0.0 aetherframework.digital
 0.0.0.0 aetherinstalls.com
 0.0.0.0 aetherkid.com
 0.0.0.0 aethersms.com
@@ -101630,6 +101630,7 @@
 0.0.0.0 asiacross.jp
 0.0.0.0 asiadiscoversolutions.azureedge.net
 0.0.0.0 asiaecobiz.com
+0.0.0.0 asiaengrs.com
 0.0.0.0 asiafoodco.com
 0.0.0.0 asiahost.eu.org
 0.0.0.0 asiainspection.122.2o7.net
@@ -147514,6 +147515,7 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
+0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -162780,7 +162782,6 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -187479,7 +187480,6 @@
 0.0.0.0 controlblasting.co.za
 0.0.0.0 controlengineering.in
 0.0.0.0 controlgatestorage.com
-0.0.0.0 controlhomecr.com
 0.0.0.0 controliumbt.com
 0.0.0.0 controllaportale-manualmente.com
 0.0.0.0 controller.4seeresults.com
@@ -188096,7 +188096,6 @@
 0.0.0.0 coraline-cheats.pw
 0.0.0.0 corallz.com
 0.0.0.0 coralon.com
-0.0.0.0 coralpac.com
 0.0.0.0 coram.dedspac.ru
 0.0.0.0 coramlive.com
 0.0.0.0 coramoon.com
@@ -212611,6 +212610,7 @@
 0.0.0.0 download.weatherblink.com
 0.0.0.0 download.wildcard.applovin.com.edgekey.net
 0.0.0.0 download.windowsmicrosoft.ml
+0.0.0.0 download.xu619.top
 0.0.0.0 download.yesmessenger.com
 0.0.0.0 download.ytdownloader.com
 0.0.0.0 download.zachchan.workers.dev
@@ -213656,7 +213656,6 @@
 0.0.0.0 drgrossu.md
 0.0.0.0 drhankdelivered.com
 0.0.0.0 drharisinghjachak.com
-0.0.0.0 drhenrylopez.com
 0.0.0.0 drhhfddbwy.duckdns.org
 0.0.0.0 drias.dedspac.ru
 0.0.0.0 drias.ulitron.ru
@@ -263465,6 +263464,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -266347,7 +266347,6 @@
 0.0.0.0 graveolens.space
 0.0.0.0 gravepay.com
 0.0.0.0 gravest-defect.000webhostapp.com
-0.0.0.0 graviana.com
 0.0.0.0 gravimetric-remedy.000webhostapp.com
 0.0.0.0 gravitas-local-manage-031572684-xi.vercel.app
 0.0.0.0 gravitative-diaries.000webhostapp.com
@@ -266504,6 +266503,7 @@
 0.0.0.0 grece.dedspac.ru
 0.0.0.0 greco.ulitron.ru
 0.0.0.0 grecocatering.com
+0.0.0.0 grecokitchens.com
 0.0.0.0 grecom.gt
 0.0.0.0 grecotitle.hideoutco.com
 0.0.0.0 greddoiheicreillu-5946.vercel.app
@@ -291403,7 +291403,6 @@
 0.0.0.0 icudjyaehkctcm7dpvht.us-south.cf.appdomain.cloud
 0.0.0.0 icudol.com
 0.0.0.0 icuphoclu.info
-0.0.0.0 icupsa.com.mx
 0.0.0.0 icusah.digital
 0.0.0.0 icuuqyhymuqmxeai-dot-millinium.ey.r.appspot.com
 0.0.0.0 icvassessments.com
@@ -317172,7 +317171,6 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
-0.0.0.0 kambohmag.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
@@ -336172,6 +336170,7 @@
 0.0.0.0 lmknbg7gnv.ga
 0.0.0.0 lmkw.azurewebsites.net
 0.0.0.0 lmkxnmjhpsxvqijr-dot-millinium.ey.r.appspot.com
+0.0.0.0 lmlawcorp.com
 0.0.0.0 lmlcas.com
 0.0.0.0 lmlenzitrasporti.com
 0.0.0.0 lmlragfqqjmmjxaf-dot-millinium.ey.r.appspot.com
@@ -460090,7 +460089,6 @@
 0.0.0.0 sakura-icchi.com
 0.0.0.0 sakura.ne.jp147902c4.tecnoedilpontei.com
 0.0.0.0 sakuraclub-taxi.com
-0.0.0.0 sakuraloyalty.com
 0.0.0.0 sakuramiya-c.com
 0.0.0.0 sakuraset.top
 0.0.0.0 sakurasingh.github.io
@@ -467138,7 +467136,6 @@
 0.0.0.0 shredform.com
 0.0.0.0 shredova.ru
 0.0.0.0 shreenath1696.github.io
-0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
@@ -476257,7 +476254,6 @@
 0.0.0.0 swiftconnectapp.pages.dev
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -476398,6 +476394,7 @@
 0.0.0.0 syd-col.eum-appdynamics.com
 0.0.0.0 sydbilisim.com
 0.0.0.0 sydiy.com
+0.0.0.0 sydneyaffordablecremations.com.au
 0.0.0.0 sydvolpert-usderk.com
 0.0.0.0 sye.bortogat.ru
 0.0.0.0 sye4yerttyujtsfewretyuertyrutrehu5ytre.pages.dev
@@ -491723,6 +491720,7 @@
 0.0.0.0 vps.attollo.com.au
 0.0.0.0 vps.sspl.com.au
 0.0.0.0 vps140923.inmotionhosting.com
+0.0.0.0 vps36563.maxko-hosting.net
 0.0.0.0 vps55925.servconfig.com
 0.0.0.0 vps73816.inmotionhosting.com
 0.0.0.0 vpx-wahst5pp.com
@@ -507616,6 +507614,7 @@
 0.0.0.0 www.indeed-job.com
 0.0.0.0 www.indemcroco.cyou
 0.0.0.0 www.independent-news-desk.xyz
+0.0.0.0 www.index-wps.com.cn
 0.0.0.0 www.indexdigpro.site
 0.0.0.0 www.indexprofile.com
 0.0.0.0 www.indfascex.com
@@ -509573,6 +509572,7 @@
 0.0.0.0 www.littleowldesignsstudio.com
 0.0.0.0 www.littleowldesignstudio.com
 0.0.0.0 www.littleporch.eu
+0.0.0.0 www.littleprincesstours.com
 0.0.0.0 www.littletexashobbyshoppe.com
 0.0.0.0 www.littlethistlebrewingco.com
 0.0.0.0 www.littlewindowshop.eu
