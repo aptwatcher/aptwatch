@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-11 12:31:12
+# Generated: 2026-06-11 15:41:53
 # Entries: 526595
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -64673,7 +64673,6 @@
 0.0.0.0 agrope.virosat.ru
 0.0.0.0 agropecuarioenlinea.mywp.info
 0.0.0.0 agropolbud.pl
-0.0.0.0 agropole.tg
 0.0.0.0 agropreneurmuda.my
 0.0.0.0 agropulsar.com
 0.0.0.0 agroquimicabrasinha.com.br
@@ -188722,7 +188721,6 @@
 0.0.0.0 cotaspremiadas.com.br
 0.0.0.0 cote.vadilops.ru
 0.0.0.0 coteaqui.planosparavc.com.br
-0.0.0.0 cotecsecuritygroup.com
 0.0.0.0 coted.vadilops.ru
 0.0.0.0 cotem-add.web.app
 0.0.0.0 cotes.vadilops.ru
@@ -199174,6 +199172,7 @@
 0.0.0.0 dcv.pages.dev
 0.0.0.0 dcv111fbgfds.blogspot.tw
 0.0.0.0 dcvg.square.site
+0.0.0.0 dcwblida.dz
 0.0.0.0 dcwdfwefefef.weebly.com
 0.0.0.0 dcwhosaybbtnwbvp-dot-millinium.ey.r.appspot.com
 0.0.0.0 dcwzr.wqvec.workers.dev
@@ -266003,6 +266002,7 @@
 0.0.0.0 graeca.ru
 0.0.0.0 graefit.de
 0.0.0.0 graettingerlaw.com
+0.0.0.0 grafana.bot.dekma-gay.ru
 0.0.0.0 grafdfgbda2.pages.dev
 0.0.0.0 graff.ulitron.ru
 0.0.0.0 graffiitiprank.com
@@ -290387,7 +290387,6 @@
 0.0.0.0 ibcintlonline.com
 0.0.0.0 ibckcrhmsyhuuuvrpkncqyvrqu-dot-gleow2021ja.ue.r.appspot.com
 0.0.0.0 ibcomponentes.com
-0.0.0.0 ibcosociety.com.sa
 0.0.0.0 ibd.fcs.mybluehost.me
 0.0.0.0 ibdcb.sbs
 0.0.0.0 ibdcivil.org.br
@@ -291403,7 +291402,6 @@
 0.0.0.0 icudjyaehkctcm7dpvht.us-south.cf.appdomain.cloud
 0.0.0.0 icudol.com
 0.0.0.0 icuphoclu.info
-0.0.0.0 icupsa.com.mx
 0.0.0.0 icusah.digital
 0.0.0.0 icuuqyhymuqmxeai-dot-millinium.ey.r.appspot.com
 0.0.0.0 icvassessments.com
@@ -317172,7 +317170,6 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
-0.0.0.0 kambohmag.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
@@ -390928,10 +390925,12 @@
 0.0.0.0 node-p2e-zii3oh.sitescout.com
 0.0.0.0 node-securely.pages.dev
 0.0.0.0 node-solvers.net
+0.0.0.0 node-tls.dekma-gay.ru
 0.0.0.0 node-unblocker-six.vercel.app
 0.0.0.0 node-uptodate.live
 0.0.0.0 node-vault.pages.dev
 0.0.0.0 node.boletuso.ru
+0.0.0.0 node.bot.dekma-gay.ru
 0.0.0.0 node.business-agency-register.com
 0.0.0.0 node.dedspac.ru
 0.0.0.0 node.gameads.io
@@ -419975,6 +419974,7 @@
 0.0.0.0 pol.pages.dev
 0.0.0.0 pol0.tk
 0.0.0.0 polakijayakrishna.github.io
+0.0.0.0 poland.dekma-gay.ru
 0.0.0.0 poland.prom-newsinfo.site
 0.0.0.0 polandcapitai.com
 0.0.0.0 polandi.website
@@ -458502,6 +458502,7 @@
 0.0.0.0 s3-nato.cloud
 0.0.0.0 s3-nsa.cloud
 0.0.0.0 s3-poshmark.id829.com
+0.0.0.0 s3-python.cc
 0.0.0.0 s3.adbers.com
 0.0.0.0 s3.adpia.vn
 0.0.0.0 s3.ap-northeast-2.retrospectcloud.com
@@ -474622,7 +474623,6 @@
 0.0.0.0 streamlinebulletin.pro
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
-0.0.0.0 streammobs.com
 0.0.0.0 streammodu.cfd
 0.0.0.0 streamnf.com
 0.0.0.0 streampressia.top
