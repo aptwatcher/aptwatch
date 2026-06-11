@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-11 06:01:53
-# Entries: 526592
+# Generated: 2026-06-11 06:30:44
+# Entries: 526597
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45777,6 +45777,7 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
+0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -263464,7 +263465,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -290388,6 +290388,7 @@
 0.0.0.0 ibcintlonline.com
 0.0.0.0 ibckcrhmsyhuuuvrpkncqyvrqu-dot-gleow2021ja.ue.r.appspot.com
 0.0.0.0 ibcomponentes.com
+0.0.0.0 ibcosociety.com.sa
 0.0.0.0 ibd.fcs.mybluehost.me
 0.0.0.0 ibdcb.sbs
 0.0.0.0 ibdcivil.org.br
@@ -463433,6 +463434,7 @@
 0.0.0.0 scaleruby.spriteguild.com
 0.0.0.0 scalesbord.cyou
 0.0.0.0 scalestrader.com
+0.0.0.0 scaleyou.com.br
 0.0.0.0 scaling-waffle-sigma.vercel.app
 0.0.0.0 scalingreserve.com
 0.0.0.0 scall.dedspac.ru
@@ -469957,6 +469959,7 @@
 0.0.0.0 sonic-0101.github.io
 0.0.0.0 sonic-us.supersonicads.com
 0.0.0.0 sonicgylow.shop
+0.0.0.0 soniderosunidos.com
 0.0.0.0 sonik.hopto.org
 0.0.0.0 soniksports.fr
 0.0.0.0 sonk.ulitron.ru
@@ -476254,6 +476257,7 @@
 0.0.0.0 swiftconnectapp.pages.dev
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftgforge.live
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -499691,6 +499695,7 @@
 0.0.0.0 www.benlandscaping.co.uk
 0.0.0.0 www.benmed1778652514257.2301823.meusitehostgator.com.br
 0.0.0.0 www.benowe.shop
+0.0.0.0 www.benshamcentre.co.uk
 0.0.0.0 www.benslocaltours.com
 0.0.0.0 www.benulekaren-sale.sbs
 0.0.0.0 www.benulekaren.biotechusasale.shop
