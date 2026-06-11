@@ -1,0 +1,69 @@
+# =============================================================
+#  APT Watch — Curator submission
+#  Gamaredon (Earth Dahu) — WinRAR CVE-2025-8088 GammaDrop/GammaLoad chain
+#  Window: Sep 2025 – May 2026 (most dated samples Feb–May 2026)
+# =============================================================
+#
+#  Discipline notes (do not strip — context for review):
+#  - Shared-platform FQDNs observed in the report (*.workers.dev,
+#    *.myvnc.com, *.sytes.net, *.ddnsking.com, *.bounceme.net,
+#    *.ddns.net, *.3utilities.com, *.trycloudflare.com, *.endl.site)
+#    are INTENTIONALLY OMITTED from the blocklist sets below: they are
+#    legitimate shared services and full-FQDN blocklisting causes FPs.
+#    They are recorded here for hunt reference only.
+#  - ~110 SHA256 samples + ~160 historical .ru domains from the
+#    HarfangLab appendix are NOT in this YAML (no hash field in schema;
+#    historical-domain bulk decision deferred). Captured in
+#    reports/threat-hunt-catchup-2026-06-11.md for a follow-up SQL addendum.
+#  - joymobile.com.ua / mail.c1.com.ua are hijacked-legitimate relays ->
+#    compromised_domains, never the malicious blocklist.
+
+author: aptwatch_curator
+source: https://harfanglab.io/insidethelab/gamaredon-gammadrop-gammaload/
+source_name: HarfangLab TRR260501 — Gamaredon GammaDrop/GammaLoad (2026-05-13), corroborated by Trend Micro (2026-06-08)
+
+# apt_groups[0] MUST match an existing campaign_name EXACTLY -- resolve_campaign()
+# matches by campaign_name only (not aliases), else it CREATES a new campaign.
+# Canonical home for this exact activity = campaign #101 (live DB, currently 0 IOCs).
+# Generic "Gamaredon" (#20) is the broad 51k-IOC actor bucket -- NOT the target here.
+apt_groups:
+  - Gamaredon GammaDrop / GammaLoad Family
+  - Earth Dahu
+
+description: >
+  Gamaredon (HarfangLab/Trend Micro "Earth Dahu") delivery + C2 infrastructure
+  from the 2025-2026 WinRAR CVE-2025-8088 (NTFS-ADS) campaign against Ukrainian
+  government/military/defense targets. Chain: RAR lure -> GammaDrop (HTA/VBS) ->
+  GammaLoad -> GammaSteel infostealer. Only dedicated operator-controlled domains
+  and IPs are listed (shared-platform FQDNs omitted, see header). The
+  194.58.66.0/24 (Baxet Group AS26383) email-relay hub is flagged as persistent
+  Gamaredon infrastructure by both HarfangLab and Trend Micro.
+
+ipv4:
+  - 77.110.107.165
+  - 107.189.19.48
+  - 5.181.2.158
+  - 194.58.66.82
+
+cidrs:
+  - 194.58.66.0/24
+
+domains:
+  - kosoyed.ru
+  - kosoyed.online
+  - uarefire.ru
+  - youaresilent.ru
+  - antresolle.ru
+  - complicaty.ru
+  - yourrain.ru
+  - oclouds.ru
+  - rubakovox.pro
+  - astrocaf.com
+  - relay.astrocaf.com
+
+compromised_domains:
+  - joymobile.com.ua
+  - mail.c1.com.ua
+
+cves:
+  - CVE-2025-8088
