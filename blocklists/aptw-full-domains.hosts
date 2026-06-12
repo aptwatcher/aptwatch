@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-12 12:32:37
-# Entries: 527939
+# Generated: 2026-06-12 18:32:10
+# Entries: 527941
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -9220,7 +9220,6 @@
 0.0.0.0 171645068.retarus.ru
 0.0.0.0 1716451753.retarus.ru
 0.0.0.0 1716834139.corolain.ru
-0.0.0.0 1717.1000uc.com
 0.0.0.0 1717135148.corolain.ru
 0.0.0.0 1717657867.corolain.ru
 0.0.0.0 1717802833.corolain.ru
@@ -124690,7 +124689,6 @@
 0.0.0.0 baclinks.xyz
 0.0.0.0 bacnguyen020104.github.io
 0.0.0.0 bacnolobia-sucursall--yassercontreras.repl.co
-0.0.0.0 bacollections.com
 0.0.0.0 bacolombiapers.webcindario.com
 0.0.0.0 bacolombiasiempreaca.sucusalvirtual.repl.co
 0.0.0.0 bacon.dedspac.ru
@@ -147529,7 +147527,6 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
-0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -178876,6 +178873,7 @@
 0.0.0.0 cloudmsmessagesreleaingafterverificationmymsuser673479329482387.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 cloudmy-ids.com
 0.0.0.0 cloudnetfiji.com
+0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudofflceadmln.epizy.com
@@ -188229,6 +188227,7 @@
 0.0.0.0 corenlp.admicro.vn
 0.0.0.0 corenomics.com
 0.0.0.0 corepay.cfd
+0.0.0.0 corepilatesnicaragua.com
 0.0.0.0 coreplesk-cake-7dbf.leacshlenmmdgza.workers.dev
 0.0.0.0 corepoweryogaco.org
 0.0.0.0 corer.dedspac.ru
@@ -208837,7 +208836,6 @@
 0.0.0.0 disjungere.ru
 0.0.0.0 disk-4fb5.pre-ooauth.workers.dev
 0.0.0.0 disk-previewer.com
-0.0.0.0 disk.accord1key.cn
 0.0.0.0 disk.dedspac.ru
 0.0.0.0 disk.vwwv.workers.dev
 0.0.0.0 diskbae.com
@@ -211466,6 +211464,7 @@
 0.0.0.0 dofuspounlesnoobs.com
 0.0.0.0 dofuspourlenoob.com
 0.0.0.0 dofuspourlenoobs.fr
+0.0.0.0 dofuspourlesnoobe.com
 0.0.0.0 dofuspourlesnoobs.eu
 0.0.0.0 dofuspourlesnoobs.fr
 0.0.0.0 dofuspourlesnoobs.info
@@ -256178,6 +256177,7 @@
 0.0.0.0 garnolabar.tk
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
+0.0.0.0 garogradba.mk
 0.0.0.0 garoo.ulitron.ru
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garpydook.ru
@@ -261137,7 +261137,6 @@
 0.0.0.0 git.budetdev.ru
 0.0.0.0 git.dnspoc2.info
 0.0.0.0 git.nightcord.online
-0.0.0.0 git.nightcord.st
 0.0.0.0 git.scat.su
 0.0.0.0 git.younetmedia.com
 0.0.0.0 gitanocollection.com
@@ -263545,7 +263544,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -296246,6 +296244,7 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
+0.0.0.0 indeanapolice.cc
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
 0.0.0.0 indecisive-pentagonal-carnation.glitch.me
@@ -369391,7 +369390,6 @@
 0.0.0.0 missglamworld.com
 0.0.0.0 missgypsywhitemoon.com.au
 0.0.0.0 misshaus.org
-0.0.0.0 missileperformance.hu
 0.0.0.0 missinooer.tk
 0.0.0.0 missiodeinetwork.org
 0.0.0.0 missioinactio.com
@@ -428606,6 +428604,7 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -428732,6 +428731,7 @@
 0.0.0.0 prove.dedspac.ru
 0.0.0.0 prove.ulitron.ru
 0.0.0.0 prove.virosat.ru
+0.0.0.0 proveedoradeproyectosysoluciones.com
 0.0.0.0 proveedores.nef.com.mx
 0.0.0.0 proveedores.savant.com.ar
 0.0.0.0 proveedorsites.000webhostapp.com
@@ -478748,6 +478748,7 @@
 0.0.0.0 tech.zapps.me
 0.0.0.0 techaguides.info
 0.0.0.0 techbargins.com
+0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techchella.live
@@ -486981,6 +486982,7 @@
 0.0.0.0 unity-events.info
 0.0.0.0 unity-forum.com
 0.0.0.0 unity-forum.info
+0.0.0.0 unity-forum.online
 0.0.0.0 unity-hold.pages.dev
 0.0.0.0 unity-imp.aarki.net
 0.0.0.0 unity-k4bfoakley.gouchiodo.sa.com
