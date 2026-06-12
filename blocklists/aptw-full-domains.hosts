@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-12 02:09:33
-# Entries: 527939
+# Generated: 2026-06-12 06:03:21
+# Entries: 527938
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -47591,7 +47591,6 @@
 0.0.0.0 acavc.blogspot.bg
 0.0.0.0 acavc.blogspot.fi
 0.0.0.0 acavc.blogspot.is
-0.0.0.0 acaviationsupplies.com
 0.0.0.0 acavinash.github.io
 0.0.0.0 acavlsion.com
 0.0.0.0 acb11.helpcenter.buzz
@@ -85955,6 +85954,7 @@
 0.0.0.0 anyesha-biswas.github.io
 0.0.0.0 anyglot.com
 0.0.0.0 anyhealthtips.com
+0.0.0.0 anyhoo.testeaza.eu
 0.0.0.0 anyillustrations.com
 0.0.0.0 anyimage.top
 0.0.0.0 anylist.c.appier.net
@@ -147364,7 +147364,6 @@
 0.0.0.0 blfifjolsnkxspjw-dot-millinium.ey.r.appspot.com
 0.0.0.0 blfjhrxcawirhaxz-dot-millinium.ey.r.appspot.com
 0.0.0.0 blftjvkrmcjniepz-dot-millinium.ey.r.appspot.com
-0.0.0.0 blg.com.mx
 0.0.0.0 blg0nd-e11-rr1.square.site
 0.0.0.0 blgigzwzxelaszdr-dot-millinium.ey.r.appspot.com
 0.0.0.0 blginter1.wixsite.com
@@ -207489,6 +207488,7 @@
 0.0.0.0 digitalbusiness.sa.com
 0.0.0.0 digitalcertificate-update.online
 0.0.0.0 digitalcloudq.buzz
+0.0.0.0 digitalcode.sa
 0.0.0.0 digitalcommunityservices.com
 0.0.0.0 digitalconcept.pro
 0.0.0.0 digitalconexao.tk
@@ -332416,7 +332416,6 @@
 0.0.0.0 libs.lavanetwork.net
 0.0.0.0 libs.outbrain.com
 0.0.0.0 libsa.in
-0.0.0.0 libss.0x504.com
 0.0.0.0 libsurg.com
 0.0.0.0 libya.ulitron.ru
 0.0.0.0 libya.virosat.ru
@@ -402637,6 +402636,7 @@
 0.0.0.0 opmed.com.br
 0.0.0.0 opmemnesc.duckdns.org
 0.0.0.0 opmernasderlight.art
+0.0.0.0 opmg.top
 0.0.0.0 opml.gq
 0.0.0.0 opmnstr.com
 0.0.0.0 opmsnkahfwq.net
@@ -428604,7 +428604,6 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
-0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
