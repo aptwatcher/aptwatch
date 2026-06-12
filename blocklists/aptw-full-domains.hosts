@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-12 06:33:08
-# Entries: 527937
+# Generated: 2026-06-12 12:32:37
+# Entries: 527939
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -85954,7 +85954,6 @@
 0.0.0.0 anyesha-biswas.github.io
 0.0.0.0 anyglot.com
 0.0.0.0 anyhealthtips.com
-0.0.0.0 anyhoo.testeaza.eu
 0.0.0.0 anyillustrations.com
 0.0.0.0 anyimage.top
 0.0.0.0 anylist.c.appier.net
@@ -98246,7 +98245,6 @@
 0.0.0.0 areyouabot.net
 0.0.0.0 areyouahuman.co
 0.0.0.0 areyouall.ru
-0.0.0.0 areyouready.co.za
 0.0.0.0 areyoureadytocompete.xyz
 0.0.0.0 areyourobotornot.blogspot.com
 0.0.0.0 arezcs.000webhostapp.com
@@ -102598,6 +102596,7 @@
 0.0.0.0 assets.deployads.com
 0.0.0.0 assets.document-place-secure.workers.dev
 0.0.0.0 assets.downtownmusicpub.com
+0.0.0.0 assets.f1cs-dev.it
 0.0.0.0 assets.fathershops.com
 0.0.0.0 assets.freightinternationalservices.com
 0.0.0.0 assets.gunosy.com
@@ -124691,6 +124690,7 @@
 0.0.0.0 baclinks.xyz
 0.0.0.0 bacnguyen020104.github.io
 0.0.0.0 bacnolobia-sucursall--yassercontreras.repl.co
+0.0.0.0 bacollections.com
 0.0.0.0 bacolombiapers.webcindario.com
 0.0.0.0 bacolombiasiempreaca.sucusalvirtual.repl.co
 0.0.0.0 bacon.dedspac.ru
@@ -147529,6 +147529,7 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
+0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -165580,6 +165581,7 @@
 0.0.0.0 carbs.dedspac.ru
 0.0.0.0 carbs.virosat.ru
 0.0.0.0 carbunculus.ru
+0.0.0.0 carcaran.com
 0.0.0.0 carcaves.com.au
 0.0.0.0 card-au.info
 0.0.0.0 card-ebay-bussiness.gitlab.io
@@ -207488,7 +207490,6 @@
 0.0.0.0 digitalbusiness.sa.com
 0.0.0.0 digitalcertificate-update.online
 0.0.0.0 digitalcloudq.buzz
-0.0.0.0 digitalcode.sa
 0.0.0.0 digitalcommunityservices.com
 0.0.0.0 digitalconcept.pro
 0.0.0.0 digitalconexao.tk
@@ -261136,6 +261137,7 @@
 0.0.0.0 git.budetdev.ru
 0.0.0.0 git.dnspoc2.info
 0.0.0.0 git.nightcord.online
+0.0.0.0 git.nightcord.st
 0.0.0.0 git.scat.su
 0.0.0.0 git.younetmedia.com
 0.0.0.0 gitanocollection.com
@@ -263543,6 +263545,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -317343,6 +317346,7 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
+0.0.0.0 kambohmag.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
@@ -369387,6 +369391,7 @@
 0.0.0.0 missglamworld.com
 0.0.0.0 missgypsywhitemoon.com.au
 0.0.0.0 misshaus.org
+0.0.0.0 missileperformance.hu
 0.0.0.0 missinooer.tk
 0.0.0.0 missiodeinetwork.org
 0.0.0.0 missioinactio.com
@@ -398556,7 +398561,6 @@
 0.0.0.0 oknmhjx.xenicalby6.com
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
-0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -402635,7 +402639,6 @@
 0.0.0.0 opmed.com.br
 0.0.0.0 opmemnesc.duckdns.org
 0.0.0.0 opmernasderlight.art
-0.0.0.0 opmg.top
 0.0.0.0 opml.gq
 0.0.0.0 opmnstr.com
 0.0.0.0 opmsnkahfwq.net
@@ -487346,7 +487349,6 @@
 0.0.0.0 updates.slekkeud.workers.dev
 0.0.0.0 updatesamzsupportmailaccouncustome.4-155-105-207.cprapid.com
 0.0.0.0 updatesecure.pro
-0.0.0.0 updateservice1-telegramweb.com
 0.0.0.0 updateservicecenter.blogspot.com
 0.0.0.0 updateservices.in
 0.0.0.0 updatesoftware24.com
