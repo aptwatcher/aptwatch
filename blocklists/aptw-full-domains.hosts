@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-12 18:32:10
-# Entries: 527941
+# Generated: 2026-06-12 18:56:09
+# Entries: 527940
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -428731,7 +428731,6 @@
 0.0.0.0 prove.dedspac.ru
 0.0.0.0 prove.ulitron.ru
 0.0.0.0 prove.virosat.ru
-0.0.0.0 proveedoradeproyectosysoluciones.com
 0.0.0.0 proveedores.nef.com.mx
 0.0.0.0 proveedores.savant.com.ar
 0.0.0.0 proveedorsites.000webhostapp.com
