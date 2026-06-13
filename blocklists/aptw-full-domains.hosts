@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-13 12:32:18
-# Entries: 528052
+# Generated: 2026-06-13 18:32:21
+# Entries: 528054
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -242569,7 +242569,6 @@
 0.0.0.0 fersllc.com
 0.0.0.0 ferstoo.com
 0.0.0.0 fert4y66.ddns.net
-0.0.0.0 fertas.com.tr
 0.0.0.0 fertig.serpgold.com
 0.0.0.0 fertile-foundations.com
 0.0.0.0 fertlkim.com
@@ -263578,6 +263577,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -304489,7 +304489,6 @@
 0.0.0.0 it6aucoindexfi.c1.biz
 0.0.0.0 it8txi5.ml
 0.0.0.0 ita-acesso-promo.tk
-0.0.0.0 ita-airwaysva.com
 0.0.0.0 ita-pontos-combr.ezpz.work
 0.0.0.0 ita-u-com.umbler.net
 0.0.0.0 ita.amaniwa.ru
@@ -422035,6 +422034,7 @@
 0.0.0.0 portugalnoticias.ga
 0.0.0.0 portunio.site
 0.0.0.0 portwavenet.com
+0.0.0.0 portwesl.com
 0.0.0.0 portwwloga.buzz
 0.0.0.0 portyp.bitbucket.io
 0.0.0.0 portypromo.000webhostapp.com
@@ -463911,6 +463911,7 @@
 0.0.0.0 scnet.tv
 0.0.0.0 sco-verify7492.netlify.app
 0.0.0.0 scoad.ulitron.ru
+0.0.0.0 scoala1gherla.ro
 0.0.0.0 scoaladejoaca.ro
 0.0.0.0 scob.ulitron.ru
 0.0.0.0 scobs.dedspac.ru
@@ -471119,6 +471120,7 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
+0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodnice.shop
