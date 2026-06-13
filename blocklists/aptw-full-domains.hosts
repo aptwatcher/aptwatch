@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-13 06:32:51
-# Entries: 528055
+# Generated: 2026-06-13 12:32:18
+# Entries: 528052
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -115572,7 +115572,6 @@
 0.0.0.0 aurora.com.gt
 0.0.0.0 aurora.dedspac.ru
 0.0.0.0 aurora.protondns.net
-0.0.0.0 aurorabolnica.co.rs
 0.0.0.0 aurorabusinessunited.org
 0.0.0.0 aurorabyglenwood.com
 0.0.0.0 auroracok.xyz
@@ -162819,7 +162818,6 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -233301,7 +233299,6 @@
 0.0.0.0 facai.y82lj7e.cn
 0.0.0.0 facai2024.xn--bvs11es3ujti.com
 0.0.0.0 facai524.icu
-0.0.0.0 facanha.com.br
 0.0.0.0 facanjgijvsabnkfuadbybamyvbcjmulibwp-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 facaujowetta-8242-51618947-continue.vercel.app
 0.0.0.0 facb00keslat.000webhostapp.com
@@ -242572,6 +242569,7 @@
 0.0.0.0 fersllc.com
 0.0.0.0 ferstoo.com
 0.0.0.0 fert4y66.ddns.net
+0.0.0.0 fertas.com.tr
 0.0.0.0 fertig.serpgold.com
 0.0.0.0 fertile-foundations.com
 0.0.0.0 fertlkim.com
@@ -254945,7 +254943,6 @@
 0.0.0.0 gabuying.com
 0.0.0.0 gabuys.perspolisbet90.com
 0.0.0.0 gaby.amaniwa.ru
-0.0.0.0 gabyagozetim.com
 0.0.0.0 gabygaubwyw-watsp.duckdns.org
 0.0.0.0 gabyt.net
 0.0.0.0 gacca.gachamntoon.my.id
@@ -304492,6 +304489,7 @@
 0.0.0.0 it6aucoindexfi.c1.biz
 0.0.0.0 it8txi5.ml
 0.0.0.0 ita-acesso-promo.tk
+0.0.0.0 ita-airwaysva.com
 0.0.0.0 ita-pontos-combr.ezpz.work
 0.0.0.0 ita-u-com.umbler.net
 0.0.0.0 ita.amaniwa.ru
@@ -317393,6 +317391,7 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
+0.0.0.0 kambohmag.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
@@ -366722,7 +366721,6 @@
 0.0.0.0 mhrh7tqu0t.6901.4mat.com.tr
 0.0.0.0 mhrjj.blogspot.is
 0.0.0.0 mhrjj.blogspot.sn
-0.0.0.0 mhrmpcoop.com.ph
 0.0.0.0 mhrwzukojtmsucwvecdtlgfh.nfenzsy.cn
 0.0.0.0 mhryuvjliviyxurlcywclkihuk-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 mhserstatementsharepoint8385.myportfolio.com
@@ -390994,7 +390992,6 @@
 0.0.0.0 no5ed3l0ob.1934.gencmert.com
 0.0.0.0 no61jqdrobxwiqi4.colplat.com
 0.0.0.0 no6xb.csb.app
-0.0.0.0 no7shmh.shop
 0.0.0.0 no8design.com
 0.0.0.0 noa.tokenpouket.com
 0.0.0.0 noaa.dedspac.ru
@@ -471122,7 +471119,6 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
-0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodnice.shop
@@ -474944,6 +474940,7 @@
 0.0.0.0 streamlinebulletin.pro
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streammodu.cfd
 0.0.0.0 streamnf.com
 0.0.0.0 streampressia.top
