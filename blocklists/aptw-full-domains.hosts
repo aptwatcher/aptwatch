@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-13 00:32:10
-# Entries: 528053
+# Generated: 2026-06-13 04:12:54
+# Entries: 528054
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -115572,6 +115572,7 @@
 0.0.0.0 aurora.com.gt
 0.0.0.0 aurora.dedspac.ru
 0.0.0.0 aurora.protondns.net
+0.0.0.0 aurorabolnica.co.rs
 0.0.0.0 aurorabusinessunited.org
 0.0.0.0 aurorabyglenwood.com
 0.0.0.0 auroracok.xyz
@@ -162818,6 +162819,7 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -181174,7 +181176,6 @@
 0.0.0.0 codeads.com
 0.0.0.0 codeakio.github.io
 0.0.0.0 codeandwork.pl
-0.0.0.0 codeassociates.co.ke
 0.0.0.0 codebiogblog.com
 0.0.0.0 codebox.jabont.com
 0.0.0.0 codebrainf.vercel.app
@@ -233300,6 +233301,7 @@
 0.0.0.0 facai.y82lj7e.cn
 0.0.0.0 facai2024.xn--bvs11es3ujti.com
 0.0.0.0 facai524.icu
+0.0.0.0 facanha.com.br
 0.0.0.0 facanjgijvsabnkfuadbybamyvbcjmulibwp-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 facaujowetta-8242-51618947-continue.vercel.app
 0.0.0.0 facb00keslat.000webhostapp.com
@@ -254943,6 +254945,7 @@
 0.0.0.0 gabuying.com
 0.0.0.0 gabuys.perspolisbet90.com
 0.0.0.0 gaby.amaniwa.ru
+0.0.0.0 gabyagozetim.com
 0.0.0.0 gabygaubwyw-watsp.duckdns.org
 0.0.0.0 gabyt.net
 0.0.0.0 gacca.gachamntoon.my.id
@@ -285697,7 +285700,6 @@
 0.0.0.0 hostdomainpeople.112.2o7.net
 0.0.0.0 hostdomainpeopleca.112.2o7.net
 0.0.0.0 hosteagle.club
-0.0.0.0 hostealo.com
 0.0.0.0 hostechs.com
 0.0.0.0 hosted-ejz.pages.dev
 0.0.0.0 hosted-hispanic-being-meyer.trycloudflare.com
@@ -317391,7 +317393,6 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
-0.0.0.0 kambohmag.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
@@ -398625,6 +398626,7 @@
 0.0.0.0 oknmhjx.xenicalby6.com
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -466449,7 +466451,6 @@
 0.0.0.0 sgh.eea.mytemp.website
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
-0.0.0.0 sgindustries.lk
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -474942,7 +474943,6 @@
 0.0.0.0 streamlinebulletin.pro
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
-0.0.0.0 streammobs.com
 0.0.0.0 streammodu.cfd
 0.0.0.0 streamnf.com
 0.0.0.0 streampressia.top
@@ -480329,6 +480329,7 @@
 0.0.0.0 thaswapp.com
 0.0.0.0 that.ulitron.ru
 0.0.0.0 thatcherharrison.com
+0.0.0.0 thatdimensionalwebsite.com
 0.0.0.0 thatgptlady.com
 0.0.0.0 thathappened.us.intellitxt.com
 0.0.0.0 thatnaughtylife.com
