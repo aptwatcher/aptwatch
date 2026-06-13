@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-13 06:03:53
-# Entries: 528054
+# Generated: 2026-06-13 06:32:51
+# Entries: 528055
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -366722,6 +366722,7 @@
 0.0.0.0 mhrh7tqu0t.6901.4mat.com.tr
 0.0.0.0 mhrjj.blogspot.is
 0.0.0.0 mhrjj.blogspot.sn
+0.0.0.0 mhrmpcoop.com.ph
 0.0.0.0 mhrwzukojtmsucwvecdtlgfh.nfenzsy.cn
 0.0.0.0 mhryuvjliviyxurlcywclkihuk-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 mhserstatementsharepoint8385.myportfolio.com
