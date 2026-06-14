@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-14 06:33:02
-# Entries: 528038
+# Generated: 2026-06-14 12:32:12
+# Entries: 528040
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -73924,6 +73924,7 @@
 0.0.0.0 altamira.bluestacko.ru
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
+0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanyucetas.com
 0.0.0.0 altaplateria.com
@@ -162811,7 +162812,6 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -181168,7 +181168,6 @@
 0.0.0.0 codeads.com
 0.0.0.0 codeakio.github.io
 0.0.0.0 codeandwork.pl
-0.0.0.0 codeassociates.co.ke
 0.0.0.0 codebiogblog.com
 0.0.0.0 codebox.jabont.com
 0.0.0.0 codebrainf.vercel.app
@@ -230881,7 +230880,6 @@
 0.0.0.0 explorepro.org
 0.0.0.0 explorer.btgofficial.org
 0.0.0.0 explorer.production.qldvvmc.com.au
-0.0.0.0 explorer.vg
 0.0.0.0 explorersholidays.com
 0.0.0.0 explorertechnembe.cu.ma
 0.0.0.0 explorethenationnowbb.pages.dev
@@ -256335,6 +256333,7 @@
 0.0.0.0 gasvcghgh23e23.pages.dev
 0.0.0.0 gasvckgfqobeqpfd-dot-millinium.ey.r.appspot.com
 0.0.0.0 gasverif-konimail.web.app
+0.0.0.0 gat-matics.com
 0.0.0.0 gat-products.com
 0.0.0.0 gat.boletuso.ru
 0.0.0.0 gat.bortogat.ru
@@ -257345,7 +257344,6 @@
 0.0.0.0 gecnhkxkeapdlucp-dot-millinium.ey.r.appspot.com
 0.0.0.0 gecogroupindia.com
 0.0.0.0 geconsumerfinance.112.2o7.net
-0.0.0.0 gecopakistan.com
 0.0.0.0 gecpkpbygowdwgyy-dot-millinium.ey.r.appspot.com
 0.0.0.0 gecsbwykunssfjzf-dot-millinium.ey.r.appspot.com
 0.0.0.0 gecurrenttime.com
@@ -258610,6 +258608,7 @@
 0.0.0.0 geny83h92.atwebpages.com
 0.0.0.0 genys.dedspac.ru
 0.0.0.0 genys.virosat.ru
+0.0.0.0 geo-foundation.vg
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 geo.adobe.com
@@ -320599,6 +320598,7 @@
 0.0.0.0 kis.dedspac.ru
 0.0.0.0 kis.hosteurope.de.rechnungcheck.live
 0.0.0.0 kis.ulitron.ru
+0.0.0.0 kis2kis.shop
 0.0.0.0 kish.dedspac.ru
 0.0.0.0 kish.io
 0.0.0.0 kish.ulitron.ru
@@ -332460,7 +332460,6 @@
 0.0.0.0 libs.lavanetwork.net
 0.0.0.0 libs.outbrain.com
 0.0.0.0 libsa.in
-0.0.0.0 libss.0x504.com
 0.0.0.0 libsurg.com
 0.0.0.0 libya.ulitron.ru
 0.0.0.0 libya.virosat.ru
@@ -366711,7 +366710,6 @@
 0.0.0.0 mhrh7tqu0t.6901.4mat.com.tr
 0.0.0.0 mhrjj.blogspot.is
 0.0.0.0 mhrjj.blogspot.sn
-0.0.0.0 mhrmpcoop.com.ph
 0.0.0.0 mhrwzukojtmsucwvecdtlgfh.nfenzsy.cn
 0.0.0.0 mhryuvjliviyxurlcywclkihuk-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 mhserstatementsharepoint8385.myportfolio.com
@@ -443720,6 +443718,7 @@
 0.0.0.0 raytracingone.ga
 0.0.0.0 rayyan-mafia.github.io
 0.0.0.0 rayzdbs.gq
+0.0.0.0 raz1eve.shop
 0.0.0.0 raza-rk1.github.io
 0.0.0.0 razaahmad0192.github.io
 0.0.0.0 razack00.github.io
@@ -443729,6 +443728,7 @@
 0.0.0.0 razavip.top
 0.0.0.0 razcompany.cl
 0.0.0.0 razdacha-stykerov7.blogspot.com
+0.0.0.0 razdev11tj.shop
 0.0.0.0 razdevalkka.ru
 0.0.0.0 razdevanie.telegram-connect.ru
 0.0.0.0 razdevaniiiee.ru
@@ -471103,7 +471103,6 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
-0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodnice.shop
@@ -480310,6 +480309,7 @@
 0.0.0.0 thaswapp.com
 0.0.0.0 that.ulitron.ru
 0.0.0.0 thatcherharrison.com
+0.0.0.0 thatdimensionalwebsite.com
 0.0.0.0 thatgptlady.com
 0.0.0.0 thathappened.us.intellitxt.com
 0.0.0.0 thatnaughtylife.com
@@ -483613,6 +483613,7 @@
 0.0.0.0 transactionally.amaniwa.ru
 0.0.0.0 transactionally.bibliota.ru
 0.0.0.0 transafore.cyou
+0.0.0.0 transalpinafan.ro
 0.0.0.0 transcendent-marshmallow-12d88f.netlify.app
 0.0.0.0 transcriptionally.amaniwa.ru
 0.0.0.0 transeuroarts.com
@@ -485346,6 +485347,7 @@
 0.0.0.0 tu.ulitron.ru
 0.0.0.0 tu4dff-reflective-shark.eu-gb.mybluemix.net
 0.0.0.0 tuan.dedspac.ru
+0.0.0.0 tuasesoriadigital.es
 0.0.0.0 tuba.dedspac.ru
 0.0.0.0 tuba.ulitron.ru
 0.0.0.0 tubae.dedspac.ru
