@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-14 12:32:12
-# Entries: 528040
+# Generated: 2026-06-14 18:31:54
+# Entries: 528039
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32852,6 +32852,7 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
+0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -73924,7 +73925,6 @@
 0.0.0.0 altamira.bluestacko.ru
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
-0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanyucetas.com
 0.0.0.0 altaplateria.com
@@ -191882,6 +191882,7 @@
 0.0.0.0 cryptdatahub.com
 0.0.0.0 crypted.vadilops.ru
 0.0.0.0 cryptenlogoins.webflow.io
+0.0.0.0 cryptex-core.pw
 0.0.0.0 cryptic-profit.com
 0.0.0.0 cryptic-realm.com
 0.0.0.0 crypticcar.com
@@ -256333,7 +256334,6 @@
 0.0.0.0 gasvcghgh23e23.pages.dev
 0.0.0.0 gasvckgfqobeqpfd-dot-millinium.ey.r.appspot.com
 0.0.0.0 gasverif-konimail.web.app
-0.0.0.0 gat-matics.com
 0.0.0.0 gat-products.com
 0.0.0.0 gat.boletuso.ru
 0.0.0.0 gat.bortogat.ru
@@ -258608,7 +258608,6 @@
 0.0.0.0 geny83h92.atwebpages.com
 0.0.0.0 genys.dedspac.ru
 0.0.0.0 genys.virosat.ru
-0.0.0.0 geo-foundation.vg
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 geo.adobe.com
@@ -261199,6 +261198,7 @@
 0.0.0.0 githubmaster3000.github.io
 0.0.0.0 githubvideosphotos.github.io
 0.0.0.0 gitlab.sitemaps.toekn.im
+0.0.0.0 gitml.vu
 0.0.0.0 gito.dyn-vpn.de
 0.0.0.0 gitoba1216.temp.swtest.ru
 0.0.0.0 gitorfa.ru
@@ -291573,6 +291573,7 @@
 0.0.0.0 icudjyaehkctcm7dpvht.us-south.cf.appdomain.cloud
 0.0.0.0 icudol.com
 0.0.0.0 icuphoclu.info
+0.0.0.0 icupsa.com.mx
 0.0.0.0 icusah.digital
 0.0.0.0 icuuqyhymuqmxeai-dot-millinium.ey.r.appspot.com
 0.0.0.0 icvassessments.com
@@ -317384,7 +317385,6 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
-0.0.0.0 kambohmag.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
@@ -320598,7 +320598,6 @@
 0.0.0.0 kis.dedspac.ru
 0.0.0.0 kis.hosteurope.de.rechnungcheck.live
 0.0.0.0 kis.ulitron.ru
-0.0.0.0 kis2kis.shop
 0.0.0.0 kish.dedspac.ru
 0.0.0.0 kish.io
 0.0.0.0 kish.ulitron.ru
@@ -327685,6 +327684,7 @@
 0.0.0.0 lap.boletuso.ru
 0.0.0.0 lap.ulitron.ru
 0.0.0.0 lapage-d-authentification.webador.com
+0.0.0.0 lapakwebsite.com
 0.0.0.0 laparlesse.cyou
 0.0.0.0 lapas.live
 0.0.0.0 lapdk.c505.net
@@ -443718,7 +443718,6 @@
 0.0.0.0 raytracingone.ga
 0.0.0.0 rayyan-mafia.github.io
 0.0.0.0 rayzdbs.gq
-0.0.0.0 raz1eve.shop
 0.0.0.0 raza-rk1.github.io
 0.0.0.0 razaahmad0192.github.io
 0.0.0.0 razack00.github.io
@@ -443728,7 +443727,6 @@
 0.0.0.0 razavip.top
 0.0.0.0 razcompany.cl
 0.0.0.0 razdacha-stykerov7.blogspot.com
-0.0.0.0 razdev11tj.shop
 0.0.0.0 razdevalkka.ru
 0.0.0.0 razdevanie.telegram-connect.ru
 0.0.0.0 razdevaniiiee.ru
@@ -471103,6 +471101,7 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
+0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodnice.shop
@@ -483613,7 +483612,6 @@
 0.0.0.0 transactionally.amaniwa.ru
 0.0.0.0 transactionally.bibliota.ru
 0.0.0.0 transafore.cyou
-0.0.0.0 transalpinafan.ro
 0.0.0.0 transcendent-marshmallow-12d88f.netlify.app
 0.0.0.0 transcriptionally.amaniwa.ru
 0.0.0.0 transeuroarts.com
@@ -489787,6 +489785,7 @@
 0.0.0.0 uzbak.virosat.ru
 0.0.0.0 uzbek-film.ru
 0.0.0.0 uzct.top
+0.0.0.0 uzdating1.shop
 0.0.0.0 uzgtx.com
 0.0.0.0 uzi.amaniwa.ru
 0.0.0.0 uzi.dedspac.ru
