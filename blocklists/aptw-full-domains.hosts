@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-15 12:32:37
-# Entries: 528031
+# Generated: 2026-06-15 18:32:31
+# Entries: 528036
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -64656,6 +64656,7 @@
 0.0.0.0 agroturystykasorento.pl
 0.0.0.0 agroupkw.com
 0.0.0.0 agroutilaje.ro
+0.0.0.0 agrovelca.com
 0.0.0.0 agrover.uz
 0.0.0.0 agrovetjobs.com
 0.0.0.0 agrovez.com
@@ -67541,6 +67542,7 @@
 0.0.0.0 akarpiii.blogspot.com.by
 0.0.0.0 akarsh-7r.github.io
 0.0.0.0 akarsh-kumar-2004.github.io
+0.0.0.0 akarstresser.pro
 0.0.0.0 akarsusomine.com
 0.0.0.0 akasa.bortogat.ru
 0.0.0.0 akasakadenki.com
@@ -144758,6 +144760,7 @@
 0.0.0.0 bin.shoes98.ihsana.ru
 0.0.0.0 bin.st
 0.0.0.0 bin.ulitron.ru
+0.0.0.0 bin.workcentral.shop
 0.0.0.0 bin0smaki.azurewebsites.net
 0.0.0.0 bin2021e.beget.tech
 0.0.0.0 bina-mails.top
@@ -186864,6 +186867,7 @@
 0.0.0.0 consumerspanelsrv.eu3.org
 0.0.0.0 consumidors.org
 0.0.0.0 consutefatura.com
+0.0.0.0 consways.com
 0.0.0.0 conszziglieres.info
 0.0.0.0 cont-fb-13854679.ecocoating.net
 0.0.0.0 cont-fb-42914898.ecocoating.net
@@ -211042,7 +211046,6 @@
 0.0.0.0 docslcl-lclclientslclsmsprevldoc.info
 0.0.0.0 docsodochehd.syno-ds.de
 0.0.0.0 docsogenprotocolserv.duckdns.org
-0.0.0.0 docsonlineshare.shorepowersolution.net
 0.0.0.0 docsparksolutions.com
 0.0.0.0 docspo.ru
 0.0.0.0 docspreview.acciotech.company
@@ -244729,6 +244732,7 @@
 0.0.0.0 files.ukr.net.ssl2.in
 0.0.0.0 files.ulitron.ru
 0.0.0.0 files.webaccess-email.org
+0.0.0.0 files01.click
 0.0.0.0 files123.bounceme.net
 0.0.0.0 filesage-excel.netlify.app
 0.0.0.0 filesclouddsss.infura-ipfs.io
@@ -336393,7 +336397,6 @@
 0.0.0.0 lmknbg7gnv.ga
 0.0.0.0 lmkw.azurewebsites.net
 0.0.0.0 lmkxnmjhpsxvqijr-dot-millinium.ey.r.appspot.com
-0.0.0.0 lmlawcorp.com
 0.0.0.0 lmlcas.com
 0.0.0.0 lmlenzitrasporti.com
 0.0.0.0 lmlragfqqjmmjxaf-dot-millinium.ey.r.appspot.com
@@ -394175,6 +394178,7 @@
 0.0.0.0 nutrikalia.com
 0.0.0.0 nutrilshop.net.tr.ht
 0.0.0.0 nutrired.org
+0.0.0.0 nutrisc.com.br
 0.0.0.0 nutrisilviaramos.com.br
 0.0.0.0 nutrisincera.com
 0.0.0.0 nutritionalapproaches.com
@@ -399766,6 +399770,7 @@
 0.0.0.0 one-space-llc.square.site
 0.0.0.0 one-support-tgbvvplebqggw170135.codeanyapp.com
 0.0.0.0 one-t.pl
+0.0.0.0 one-verif.lol
 0.0.0.0 one-web-beta.vercel.app
 0.0.0.0 one-web.ink
 0.0.0.0 one.008118.workers.dev
@@ -428770,7 +428775,6 @@
 0.0.0.0 prove.dedspac.ru
 0.0.0.0 prove.ulitron.ru
 0.0.0.0 prove.virosat.ru
-0.0.0.0 proveedoradeproyectosysoluciones.com
 0.0.0.0 proveedores.nef.com.mx
 0.0.0.0 proveedores.savant.com.ar
 0.0.0.0 proveedorsites.000webhostapp.com
@@ -474917,6 +474921,7 @@
 0.0.0.0 streamlinebulletin.pro
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streammodu.cfd
 0.0.0.0 streamnf.com
 0.0.0.0 streampressia.top
