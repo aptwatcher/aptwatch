@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-15 00:32:26
-# Entries: 528028
+# Generated: 2026-06-15 06:03:05
+# Entries: 528030
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32852,7 +32852,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -162804,6 +162803,7 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -203808,6 +203808,7 @@
 0.0.0.0 detflix-96f2de.ingress-baronn.easywp.com
 0.0.0.0 dethecture.com
 0.0.0.0 dethex.pages.dev
+0.0.0.0 detierra.cl
 0.0.0.0 detik.serving-sys.com
 0.0.0.0 detiktotocakep.com
 0.0.0.0 detin.dedspac.ru
@@ -207560,6 +207561,7 @@
 0.0.0.0 digitalnodeservexyz.pages.dev
 0.0.0.0 digitalnotions.biz
 0.0.0.0 digitaloceans.sgp1.digitaloceanspaces.com
+0.0.0.0 digitalonline.cl
 0.0.0.0 digitalprinceton.com
 0.0.0.0 digitalprivacyadvocates.com
 0.0.0.0 digitalprocurements.com
@@ -223203,7 +223205,6 @@
 0.0.0.0 emotionduvin.be
 0.0.0.0 emotionjohn.com
 0.0.0.0 emotionoftime.com
-0.0.0.0 emoto.mk
 0.0.0.0 emotrash.net
 0.0.0.0 emp-game.com
 0.0.0.0 empackaged.sa.com
@@ -249251,7 +249252,6 @@
 0.0.0.0 forresterconstruct.com
 0.0.0.0 forrestgamache.info
 0.0.0.0 forrodokomeketo.agenciainnova.com.br
-0.0.0.0 forsalenear.me
 0.0.0.0 forsan.nusratelsunnah.com
 0.0.0.0 forscript.midaschange.my.id
 0.0.0.0 forsdesign.net
@@ -369363,6 +369363,7 @@
 0.0.0.0 misionhome-agric.hostkda.com
 0.0.0.0 misionweb.net
 0.0.0.0 misjonarzetrzciel.pl
+0.0.0.0 miskolc-dugulaselharitas.hu
 0.0.0.0 misky.dedspac.ru
 0.0.0.0 mismaaiauuipymfhlepjgurpjulmtyqxlmrv-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 mismuskan.github.io
@@ -378963,6 +378964,7 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
+0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -459776,7 +459778,6 @@
 0.0.0.0 safeurl-sharepoint-account-hvlaw.sohaibislamjoy.top
 0.0.0.0 safeurl.maxthon.cn
 0.0.0.0 safewalletconnect.net
-0.0.0.0 safewatertech.com
 0.0.0.0 safeway96e7e.weebly.com
 0.0.0.0 safewaysecurityscreens.com.au
 0.0.0.0 safewebgrowthnation.vercel.app
@@ -478806,6 +478807,7 @@
 0.0.0.0 tech.zapps.me
 0.0.0.0 techaguides.info
 0.0.0.0 techbargins.com
+0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techchella.live
