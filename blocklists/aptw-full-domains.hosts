@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-15 06:33:10
+# Generated: 2026-06-15 12:32:37
 # Entries: 528031
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -47008,6 +47008,7 @@
 0.0.0.0 absoluteautopartsales.com.silkimtradingfinancials.com
 0.0.0.0 absoluteblast.co.nz
 0.0.0.0 absolutebrandsolutions.com
+0.0.0.0 absolutecaninepa.com
 0.0.0.0 absolutecarellc.com
 0.0.0.0 absoluteelectronix.com
 0.0.0.0 absoluteepoxyflooring.com.au
@@ -162803,7 +162804,6 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -203808,7 +203808,6 @@
 0.0.0.0 detflix-96f2de.ingress-baronn.easywp.com
 0.0.0.0 dethecture.com
 0.0.0.0 dethex.pages.dev
-0.0.0.0 detierra.cl
 0.0.0.0 detik.serving-sys.com
 0.0.0.0 detiktotocakep.com
 0.0.0.0 detin.dedspac.ru
@@ -207561,7 +207560,6 @@
 0.0.0.0 digitalnodeservexyz.pages.dev
 0.0.0.0 digitalnotions.biz
 0.0.0.0 digitaloceans.sgp1.digitaloceanspaces.com
-0.0.0.0 digitalonline.cl
 0.0.0.0 digitalprinceton.com
 0.0.0.0 digitalprivacyadvocates.com
 0.0.0.0 digitalprocurements.com
@@ -211044,6 +211042,7 @@
 0.0.0.0 docslcl-lclclientslclsmsprevldoc.info
 0.0.0.0 docsodochehd.syno-ds.de
 0.0.0.0 docsogenprotocolserv.duckdns.org
+0.0.0.0 docsonlineshare.shorepowersolution.net
 0.0.0.0 docsparksolutions.com
 0.0.0.0 docspo.ru
 0.0.0.0 docspreview.acciotech.company
@@ -332455,6 +332454,7 @@
 0.0.0.0 libs.lavanetwork.net
 0.0.0.0 libs.outbrain.com
 0.0.0.0 libsa.in
+0.0.0.0 libss.0x504.com
 0.0.0.0 libsurg.com
 0.0.0.0 libya.ulitron.ru
 0.0.0.0 libya.virosat.ru
@@ -336393,6 +336393,7 @@
 0.0.0.0 lmknbg7gnv.ga
 0.0.0.0 lmkw.azurewebsites.net
 0.0.0.0 lmkxnmjhpsxvqijr-dot-millinium.ey.r.appspot.com
+0.0.0.0 lmlawcorp.com
 0.0.0.0 lmlcas.com
 0.0.0.0 lmlenzitrasporti.com
 0.0.0.0 lmlragfqqjmmjxaf-dot-millinium.ey.r.appspot.com
@@ -369363,7 +369364,6 @@
 0.0.0.0 misionhome-agric.hostkda.com
 0.0.0.0 misionweb.net
 0.0.0.0 misjonarzetrzciel.pl
-0.0.0.0 miskolc-dugulaselharitas.hu
 0.0.0.0 misky.dedspac.ru
 0.0.0.0 mismaaiauuipymfhlepjgurpjulmtyqxlmrv-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 mismuskan.github.io
@@ -378964,7 +378964,6 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
-0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -390960,6 +390959,7 @@
 0.0.0.0 no5ed3l0ob.1934.gencmert.com
 0.0.0.0 no61jqdrobxwiqi4.colplat.com
 0.0.0.0 no6xb.csb.app
+0.0.0.0 no7shmh.shop
 0.0.0.0 no8design.com
 0.0.0.0 noa.tokenpouket.com
 0.0.0.0 noaa.dedspac.ru
@@ -428770,6 +428770,7 @@
 0.0.0.0 prove.dedspac.ru
 0.0.0.0 prove.ulitron.ru
 0.0.0.0 prove.virosat.ru
+0.0.0.0 proveedoradeproyectosysoluciones.com
 0.0.0.0 proveedores.nef.com.mx
 0.0.0.0 proveedores.savant.com.ar
 0.0.0.0 proveedorsites.000webhostapp.com
@@ -460987,6 +460988,7 @@
 0.0.0.0 sami.eslamzaboli60.workers.dev
 0.0.0.0 sami768853.github.io
 0.0.0.0 samiksha-wani0211.github.io
+0.0.0.0 samiksha.com.sg
 0.0.0.0 samiksha2212.github.io
 0.0.0.0 samikshab3610.github.io
 0.0.0.0 samim123.000webhostapp.com
@@ -471095,7 +471097,6 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
-0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodnice.shop
@@ -474893,7 +474894,6 @@
 0.0.0.0 stream-fork-core.vercel.app
 0.0.0.0 stream-fork-vault.vercel.app
 0.0.0.0 stream.adtimaserver.vn
-0.0.0.0 stream.atc-labs.com
 0.0.0.0 stream.org.adtimaserver.vn
 0.0.0.0 stream1.livefyre.com
 0.0.0.0 streamate.com
@@ -477613,6 +477613,7 @@
 0.0.0.0 talented-banana-qdq58p.mystrikingly.com
 0.0.0.0 talentoo.weebly.com
 0.0.0.0 talentrecruitment.us-lax-1.linodeobjects.com
+0.0.0.0 talentrecruitments.com
 0.0.0.0 talents-4677997hjguyt-6779797hkjiu.pages.dev
 0.0.0.0 talep-t0ki.com
 0.0.0.0 talep-topla-t0ki.com
@@ -478808,7 +478809,6 @@
 0.0.0.0 tech.zapps.me
 0.0.0.0 techaguides.info
 0.0.0.0 techbargins.com
-0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techchella.live
