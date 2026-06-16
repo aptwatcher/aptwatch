@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-16 12:32:27
-# Entries: 528064
+# Generated: 2026-06-16 18:32:27
+# Entries: 528063
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -104694,6 +104694,7 @@
 0.0.0.0 atom-moustiques.com
 0.0.0.0 atom-unleashed-beat.glitch.me
 0.0.0.0 atom.att0.workers.dev
+0.0.0.0 atom.freehosting.dev
 0.0.0.0 atom.matsuro.ru
 0.0.0.0 atom.thiwaicoo.center
 0.0.0.0 atom.ulitron.ru
@@ -147372,7 +147373,6 @@
 0.0.0.0 blfifjolsnkxspjw-dot-millinium.ey.r.appspot.com
 0.0.0.0 blfjhrxcawirhaxz-dot-millinium.ey.r.appspot.com
 0.0.0.0 blftjvkrmcjniepz-dot-millinium.ey.r.appspot.com
-0.0.0.0 blg.com.mx
 0.0.0.0 blg0nd-e11-rr1.square.site
 0.0.0.0 blgigzwzxelaszdr-dot-millinium.ey.r.appspot.com
 0.0.0.0 blginter1.wixsite.com
@@ -147538,7 +147538,6 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
-0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -162813,7 +162812,6 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -256223,6 +256221,7 @@
 0.0.0.0 garnolabar.tk
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
+0.0.0.0 garogradba.mk
 0.0.0.0 garoo.ulitron.ru
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garpydook.ru
@@ -263591,6 +263590,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -293390,7 +293390,6 @@
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
 0.0.0.0 ijazkaaturi.eu
-0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -332465,7 +332464,6 @@
 0.0.0.0 libs.lavanetwork.net
 0.0.0.0 libs.outbrain.com
 0.0.0.0 libsa.in
-0.0.0.0 libss.0x504.com
 0.0.0.0 libsurg.com
 0.0.0.0 libya.ulitron.ru
 0.0.0.0 libya.virosat.ru
@@ -336405,6 +336403,7 @@
 0.0.0.0 lmknbg7gnv.ga
 0.0.0.0 lmkw.azurewebsites.net
 0.0.0.0 lmkxnmjhpsxvqijr-dot-millinium.ey.r.appspot.com
+0.0.0.0 lmlawcorp.com
 0.0.0.0 lmlcas.com
 0.0.0.0 lmlenzitrasporti.com
 0.0.0.0 lmlnqaju.karbordriyaziyat.xyz
@@ -378981,7 +378980,6 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
-0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -382273,6 +382271,7 @@
 0.0.0.0 nanotiona.com
 0.0.0.0 nanotions.com
 0.0.0.0 nanoze2019ogladajbezlimituonlinezalukaj.wordpress.com
+0.0.0.0 nanpe.eng.br
 0.0.0.0 nansasutiono.com
 0.0.0.0 nansen-ensmartvalidator.pages.dev
 0.0.0.0 nansenvalidatedao.pages.dev
@@ -394195,7 +394194,6 @@
 0.0.0.0 nutrikalia.com
 0.0.0.0 nutrilshop.net.tr.ht
 0.0.0.0 nutrired.org
-0.0.0.0 nutrisc.com.br
 0.0.0.0 nutrisilviaramos.com.br
 0.0.0.0 nutrisincera.com
 0.0.0.0 nutritionalapproaches.com
@@ -398614,6 +398612,7 @@
 0.0.0.0 oknmhjx.xenicalby6.com
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -410960,7 +410959,6 @@
 0.0.0.0 pay8-2v-gbz1keyte-ekontetevi-gmailcom.vercel.app
 0.0.0.0 pay8-2v-kbawr6w4i-ekontetevi-gmailcom.vercel.app
 0.0.0.0 paya1money.blogspot.com
-0.0.0.0 payables-deposit.com
 0.0.0.0 payaddition-ammend.com
 0.0.0.0 payae8moon9.com
 0.0.0.0 payafterking.com
@@ -416747,6 +416745,7 @@
 0.0.0.0 picyako.com
 0.0.0.0 pid.boletuso.ru
 0.0.0.0 pid.co.za
+0.0.0.0 pid.fly160.com
 0.0.0.0 pid.ulitron.ru
 0.0.0.0 pidan.ulitron.ru
 0.0.0.0 pidderadotre-3728.vercel.app
@@ -427648,7 +427647,6 @@
 0.0.0.0 project-trezor-io-logn.pages.dev
 0.0.0.0 project-trezor-io-start.pages.dev
 0.0.0.0 project-trezor-login-cdn.pages.dev
-0.0.0.0 project-vendors.icu
 0.0.0.0 project-x-suit.org
 0.0.0.0 project.activeadvice.eu
 0.0.0.0 project.jjjitech.com
@@ -455049,7 +455047,6 @@
 0.0.0.0 rosettastone.tt.omtrdc.net
 0.0.0.0 rosette.wavaigroup.com
 0.0.0.0 roseum.space
-0.0.0.0 rosewoodlaminates.com
 0.0.0.0 roshan-karande.github.io
 0.0.0.0 roshan-keshri.github.io
 0.0.0.0 roshani-ship.github.io
@@ -458165,6 +458162,7 @@
 0.0.0.0 rynekodziezowy.shop
 0.0.0.0 rynickcoaching.com
 0.0.0.0 rynt.dedspac.ru
+0.0.0.0 ryo.gamer.free
 0.0.0.0 ryobtloios.top
 0.0.0.0 ryohbvc.wixsite.com
 0.0.0.0 ryokoosljz.duckdns.org
@@ -458304,7 +458302,6 @@
 0.0.0.0 s-jsonp.moatads.com
 0.0.0.0 s-logperf.vnexpress.net
 0.0.0.0 s-mania.com
-0.0.0.0 s-medicus.si
 0.0.0.0 s-munawar.github.io
 0.0.0.0 s-rtb-pb.send.microad.jp
 0.0.0.0 s-rtb.send.microad.jp
@@ -471123,6 +471120,7 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
+0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodnice.shop
@@ -486961,6 +486959,7 @@
 0.0.0.0 uni-dex.net
 0.0.0.0 uni-littoral.fr
 0.0.0.0 uni-swap-protocols.pages.dev
+0.0.0.0 uni.site.je
 0.0.0.0 unian-news.info
 0.0.0.0 unibanco.digital
 0.0.0.0 uniccrwap.cc
