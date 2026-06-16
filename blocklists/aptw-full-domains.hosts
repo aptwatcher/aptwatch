@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-16 01:51:31
-# Entries: 528052
+# Generated: 2026-06-16 02:15:33
+# Entries: 528054
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -151465,6 +151465,7 @@
 0.0.0.0 bold-waterfall-8408.on.fleek.co
 0.0.0.0 bold.amaniwa.ru
 0.0.0.0 bold.wvo.workers.dev
+0.0.0.0 bold.zsjtn41091.workers.dev
 0.0.0.0 boldbeautyhair.com
 0.0.0.0 boldbusy.stefanmve.com
 0.0.0.0 boldconclusion.com
@@ -213582,7 +213583,6 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
-0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -220616,6 +220616,7 @@
 0.0.0.0 effexor-xr.1.p2l.info
 0.0.0.0 efficacious-intelligent-chimpanzee.glitch.me
 0.0.0.0 efficacious-tan-marionberry.glitch.me
+0.0.0.0 efficiency-planes-emotions-fascinating.trycloudflare.com
 0.0.0.0 efficient-comet-palm.glitch.me
 0.0.0.0 efficient.ft-dm.com
 0.0.0.0 efficientlive.xyz
@@ -248618,6 +248619,7 @@
 0.0.0.0 fonet.ec
 0.0.0.0 fonfmagljg4c4dte4hgehu86aa.wusps.xyz
 0.0.0.0 fonhnzlvatkkullucbbvljvxei-dot-gleow2021ja.ue.r.appspot.com
+0.0.0.0 fonij.cm
 0.0.0.0 fonitel.com.br
 0.0.0.0 fonixpizza.no
 0.0.0.0 fonksiyoneldoktor.com
@@ -378975,6 +378977,7 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
+0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -398605,7 +398608,6 @@
 0.0.0.0 oknmhjx.xenicalby6.com
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
-0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
