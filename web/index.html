@@ -236,6 +236,12 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
           <div style="margin-top:8px;border-top:1px solid var(--border);padding-top:8px">
             <span style="color:var(--accent)">MO:</span> Cloned brand cert (identical SHA-1) &rarr; ATS / AkamaiGHost reverse proxy &rarr; credential harvesting. 35 hosts promoted across 8 per-brand campaigns (SCAN_k19oow, 2026-05-29).
           </div>
+          <div style="margin-top:6px">
+            <span style="color:var(--red)">Expansion (2026-06-14):</span> SCAN_ycu1yj (partial) maps <b>360 net-new fleet hosts</b> on 193.233.133/208-211, 62.60.156/236-239, 77.221.138-143 &mdash; <b>fabricated-CA forgeries</b> (max.ru, www.microsoft.com via fake &ldquo;Microsoft TLS G2 RSA CA OCSP&rdquo;, VK interm CA, Empire WIN-4NFSE1QOBMS) promoted to #62/#55/#64/#54. Authentic-issuer brand clones (Apple EV, Sectigo, DigiCert, GeoTrust) HELD as leads pending a complete re-scan.
+          </div>
+          <div style="margin-top:6px;border-top:1px solid var(--border);padding-top:8px">
+            <span style="color:var(--red)">CONFIRMED ONE OPERATOR (2026-06-16):</span> a DB-wide CA sweep (1,658 live hosts) proves the per-brand campaigns share <b>fabricated CA certs</b> reused byte-identical across them &mdash; fake &ldquo;Microsoft G2 OCSP 04&rdquo; CA (146 hosts/49 /24s, spans #49/52/54/55/62/64/67/97), fake &ldquo;LE YR2&rdquo; minting max.ru, fake &ldquo;LE YE2&rdquo; minting CDN-fronted lures, &ldquo;VK interm CA&rdquo;. Consolidated under umbrella <b>#110 Cross-Bulletproof TLS-Camouflage Operator</b> (per-brand campaigns linked as facets). Backend: dockerized Telegram-bot stack + VLESS/3X-UI Xray proxy layer + own lure domains behind Cloudflare.
+          </div>
           <div style="margin-top:6px" id="campaign-brandtls-stats"></div>
         </div>
       </div>
@@ -243,18 +249,17 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
       <div class="card" style="border-left:3px solid var(--orange);padding:16px">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
           <div style="font-weight:700;color:var(--orange);font-size:14px">Key IOCs From Latest Scans</div>
-          <span class="badge HIGH">2026-05-29</span>
+          <span class="badge HIGH">2026-06-14</span>
         </div>
         <div style="font-size:11px;color:var(--text2);line-height:1.8">
-          <div><span class="badge CRITICAL">SPOOFED</span> <code>ada5f27d</code> &mdash; CN www.microsoft.com, +6 hosts cross-ASN</div>
-          <div><span class="badge CRITICAL">SPOOFED</span> <code>e65de673</code> &mdash; CN yahoo.com, +6 hosts (ATS proxy)</div>
-          <div><span class="badge CRITICAL">SPOOFED</span> <code>aa4c8391</code> &mdash; CN github.com, +5 hosts</div>
-          <div><span class="badge HIGH">OBFUSC</span> <code>3263edf2</code> &mdash; CN *.max.ru wildcard, +11 hosts</div>
-          <div><span class="badge HIGH">ANCHOR</span> <b>45.150.32.1</b> &mdash; MS spoof + byebyerkn.duckdns.org + grokyprog.aeza.network</div>
-          <div><span class="badge MEDIUM">NEW LEG</span> <b>Samsung</b> <code>6701d6dc</code> (5 hosts) &amp; <b>Twitch</b> <code>4656e0f4</code> (7 hosts, DV)</div>
-          <div><span class="badge MEDIUM">WATCH</span> <b>PMTA</b> on VegasNAP AS53340 &mdash; IP-default cert, no operator attribution</div>
+          <div><span class="badge HIGH">OBFUSC</span> <code>7224c0e8</code> &mdash; CN max.ru (fake CA &ldquo;YR2&rdquo;), <b>167 fleet hosts</b> &rarr; #62</div>
+          <div><span class="badge CRITICAL">SPOOFED</span> <code>ada5f27d</code> &mdash; CN www.microsoft.com (fake &ldquo;MS TLS G2 RSA CA OCSP 04&rdquo;), <b>111 hosts</b> &rarr; #55</div>
+          <div><span class="badge CRITICAL">SPOOFED</span> <code>e037999b</code> &mdash; CN www.vk (fake &ldquo;VK interm CA&rdquo;), 40 hosts &rarr; #64</div>
+          <div><span class="badge CRITICAL">EMPIRE</span> WIN-4NFSE1QOBMS self-signed template, 39 hosts &rarr; #54</div>
+          <div><span class="badge MEDIUM">HELD</span> Apple EV / Sectigo github / DigiCert yahoo-oracle / GeoTrust samsung-amd &mdash; <b>authentic issuer</b> = clone/relay, leads pending re-scan</div>
+          <div><span class="badge MEDIUM">LEAD</span> 77.221.143.59 &mdash; exposed Prometheus/Grafana/Redis (176.65.144.98) + Quasar Server CA + depsearch.sbs</div>
           <div style="margin-top:6px;border-top:1px solid var(--border);padding-top:6px">
-            <span style="color:var(--accent)">Discipline:</span> WIN-4NFSE1QOBMS template &amp; CyberGhost VPN (gen4.ninja) deliberately NOT promoted &mdash; shared-image / legit-infra.
+            <span style="color:var(--accent)">Discipline:</span> partial scan (operator-interrupted) &mdash; only fabricated-CA/self-signed forgeries promoted; authentic-CA brand certs HELD until a complete re-scan finishes the chain-trust checks.
           </div>
         </div>
       </div>
