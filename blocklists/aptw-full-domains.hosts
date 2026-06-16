@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-16 06:33:21
-# Entries: 528060
+# Generated: 2026-06-16 12:32:27
+# Entries: 528064
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -131373,6 +131373,7 @@
 0.0.0.0 bailey.us-southeast-1.linodeobjects.com
 0.0.0.0 baileychudesigns.com
 0.0.0.0 baileyelectricalfnq.com.au
+0.0.0.0 baileyemas.com
 0.0.0.0 baileyklein.com
 0.0.0.0 baileymcdermott.com
 0.0.0.0 baileyvoicewireless.weebly.com
@@ -147371,6 +147372,7 @@
 0.0.0.0 blfifjolsnkxspjw-dot-millinium.ey.r.appspot.com
 0.0.0.0 blfjhrxcawirhaxz-dot-millinium.ey.r.appspot.com
 0.0.0.0 blftjvkrmcjniepz-dot-millinium.ey.r.appspot.com
+0.0.0.0 blg.com.mx
 0.0.0.0 blg0nd-e11-rr1.square.site
 0.0.0.0 blgigzwzxelaszdr-dot-millinium.ey.r.appspot.com
 0.0.0.0 blginter1.wixsite.com
@@ -147536,6 +147538,7 @@
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
 0.0.0.0 blit-home.site
+0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blithe.dedspac.ru
@@ -162810,6 +162813,7 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -174466,6 +174470,7 @@
 0.0.0.0 christopher.dilbeck.matrixxplctures.com
 0.0.0.0 christopher.ferraro.x8il-pm.top
 0.0.0.0 christopheravilez.com
+0.0.0.0 christophercheung.com
 0.0.0.0 christophercornish.com
 0.0.0.0 christopherholland.me
 0.0.0.0 christopherlancaster.com
@@ -188144,10 +188149,8 @@
 0.0.0.0 coralgables-bridals.com.usrfiles.com
 0.0.0.0 coraliax.vercel.app
 0.0.0.0 coraline-cheats.pw
-0.0.0.0 coraline.work
 0.0.0.0 corallz.com
 0.0.0.0 coralon.com
-0.0.0.0 coralpac.com
 0.0.0.0 coram.dedspac.ru
 0.0.0.0 coramlive.com
 0.0.0.0 coramoon.com
@@ -213584,6 +213587,7 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
+0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -213743,7 +213747,6 @@
 0.0.0.0 drgrossu.md
 0.0.0.0 drhankdelivered.com
 0.0.0.0 drharisinghjachak.com
-0.0.0.0 drhenrylopez.com
 0.0.0.0 drhhfddbwy.duckdns.org
 0.0.0.0 drias.dedspac.ru
 0.0.0.0 drias.ulitron.ru
@@ -242574,7 +242577,6 @@
 0.0.0.0 fersllc.com
 0.0.0.0 ferstoo.com
 0.0.0.0 fert4y66.ddns.net
-0.0.0.0 fertas.com.tr
 0.0.0.0 fertig.serpgold.com
 0.0.0.0 fertile-foundations.com
 0.0.0.0 fertlkim.com
@@ -248622,7 +248624,6 @@
 0.0.0.0 fonet.ec
 0.0.0.0 fonfmagljg4c4dte4hgehu86aa.wusps.xyz
 0.0.0.0 fonhnzlvatkkullucbbvljvxei-dot-gleow2021ja.ue.r.appspot.com
-0.0.0.0 fonij.cm
 0.0.0.0 fonitel.com.br
 0.0.0.0 fonixpizza.no
 0.0.0.0 fonksiyoneldoktor.com
@@ -284059,7 +284060,6 @@
 0.0.0.0 holkshf.online
 0.0.0.0 holkshf.site
 0.0.0.0 holl.dedspac.ru
-0.0.0.0 holl.microtr.life
 0.0.0.0 holla.ulitron.ru
 0.0.0.0 holland-mysimon-roland-film.trycloudflare.com
 0.0.0.0 hollandcommunity.org
@@ -293390,6 +293390,7 @@
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
 0.0.0.0 ijazkaaturi.eu
+0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -394194,6 +394195,7 @@
 0.0.0.0 nutrikalia.com
 0.0.0.0 nutrilshop.net.tr.ht
 0.0.0.0 nutrired.org
+0.0.0.0 nutrisc.com.br
 0.0.0.0 nutrisilviaramos.com.br
 0.0.0.0 nutrisincera.com
 0.0.0.0 nutritionalapproaches.com
@@ -395258,6 +395260,7 @@
 0.0.0.0 oamazon.hailuogo.net
 0.0.0.0 oambousethoer.com
 0.0.0.0 oamnabouchse.com
+0.0.0.0 oamorprevalece.com
 0.0.0.0 oamqxcombzsyqssb-dot-millinium.ey.r.appspot.com
 0.0.0.0 oamsrhads.us.publicus.com
 0.0.0.0 oamsupportwells.servehttp.com
@@ -410957,6 +410960,7 @@
 0.0.0.0 pay8-2v-gbz1keyte-ekontetevi-gmailcom.vercel.app
 0.0.0.0 pay8-2v-kbawr6w4i-ekontetevi-gmailcom.vercel.app
 0.0.0.0 paya1money.blogspot.com
+0.0.0.0 payables-deposit.com
 0.0.0.0 payaddition-ammend.com
 0.0.0.0 payae8moon9.com
 0.0.0.0 payafterking.com
@@ -416743,7 +416747,6 @@
 0.0.0.0 picyako.com
 0.0.0.0 pid.boletuso.ru
 0.0.0.0 pid.co.za
-0.0.0.0 pid.fly160.com
 0.0.0.0 pid.ulitron.ru
 0.0.0.0 pidan.ulitron.ru
 0.0.0.0 pidderadotre-3728.vercel.app
@@ -427645,6 +427648,7 @@
 0.0.0.0 project-trezor-io-logn.pages.dev
 0.0.0.0 project-trezor-io-start.pages.dev
 0.0.0.0 project-trezor-login-cdn.pages.dev
+0.0.0.0 project-vendors.icu
 0.0.0.0 project-x-suit.org
 0.0.0.0 project.activeadvice.eu
 0.0.0.0 project.jjjitech.com
@@ -455045,6 +455049,7 @@
 0.0.0.0 rosettastone.tt.omtrdc.net
 0.0.0.0 rosette.wavaigroup.com
 0.0.0.0 roseum.space
+0.0.0.0 rosewoodlaminates.com
 0.0.0.0 roshan-karande.github.io
 0.0.0.0 roshan-keshri.github.io
 0.0.0.0 roshani-ship.github.io
@@ -458299,6 +458304,7 @@
 0.0.0.0 s-jsonp.moatads.com
 0.0.0.0 s-logperf.vnexpress.net
 0.0.0.0 s-mania.com
+0.0.0.0 s-medicus.si
 0.0.0.0 s-munawar.github.io
 0.0.0.0 s-rtb-pb.send.microad.jp
 0.0.0.0 s-rtb.send.microad.jp
@@ -466141,7 +466147,6 @@
 0.0.0.0 servicio.generatusolicitud-online.site
 0.0.0.0 serviciodelwebclientes.cloudaccess.host
 0.0.0.0 serviciopostal.vip
-0.0.0.0 servicioslogisticosdyc.com
 0.0.0.0 serviciospatito.com
 0.0.0.0 serviciotecnico.com.uy
 0.0.0.0 serviciotrackwp.sviluppo.host
@@ -471118,7 +471123,6 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
-0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodnice.shop
