@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-16 02:25:29
-# Entries: 528054
+# Generated: 2026-06-16 06:03:48
+# Entries: 528060
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -188144,8 +188144,10 @@
 0.0.0.0 coralgables-bridals.com.usrfiles.com
 0.0.0.0 coraliax.vercel.app
 0.0.0.0 coraline-cheats.pw
+0.0.0.0 coraline.work
 0.0.0.0 corallz.com
 0.0.0.0 coralon.com
+0.0.0.0 coralpac.com
 0.0.0.0 coram.dedspac.ru
 0.0.0.0 coramlive.com
 0.0.0.0 coramoon.com
@@ -213741,6 +213743,7 @@
 0.0.0.0 drgrossu.md
 0.0.0.0 drhankdelivered.com
 0.0.0.0 drharisinghjachak.com
+0.0.0.0 drhenrylopez.com
 0.0.0.0 drhhfddbwy.duckdns.org
 0.0.0.0 drias.dedspac.ru
 0.0.0.0 drias.ulitron.ru
@@ -242571,6 +242574,7 @@
 0.0.0.0 fersllc.com
 0.0.0.0 ferstoo.com
 0.0.0.0 fert4y66.ddns.net
+0.0.0.0 fertas.com.tr
 0.0.0.0 fertig.serpgold.com
 0.0.0.0 fertile-foundations.com
 0.0.0.0 fertlkim.com
@@ -263586,7 +263590,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -284056,6 +284059,7 @@
 0.0.0.0 holkshf.online
 0.0.0.0 holkshf.site
 0.0.0.0 holl.dedspac.ru
+0.0.0.0 holl.microtr.life
 0.0.0.0 holla.ulitron.ru
 0.0.0.0 holland-mysimon-roland-film.trycloudflare.com
 0.0.0.0 hollandcommunity.org
@@ -466137,6 +466141,7 @@
 0.0.0.0 servicio.generatusolicitud-online.site
 0.0.0.0 serviciodelwebclientes.cloudaccess.host
 0.0.0.0 serviciopostal.vip
+0.0.0.0 servicioslogisticosdyc.com
 0.0.0.0 serviciospatito.com
 0.0.0.0 serviciotecnico.com.uy
 0.0.0.0 serviciotrackwp.sviluppo.host
@@ -474934,6 +474939,7 @@
 0.0.0.0 streamlinebulletin.pro
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streammodu.cfd
 0.0.0.0 streamnf.com
 0.0.0.0 streampressia.top
