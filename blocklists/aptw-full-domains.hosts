@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-17 06:32:42
-# Entries: 528071
+# Generated: 2026-06-17 12:32:36
+# Entries: 528069
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -21586,7 +21586,6 @@
 0.0.0.0 3bnwebbpichincha.webcindario.com
 0.0.0.0 3bood89.standardseoservices.com
 0.0.0.0 3boredguys.com
-0.0.0.0 3brosstore.com
 0.0.0.0 3bscafe.com
 0.0.0.0 3btgzfk74gxejzr.qwo231sdx.club
 0.0.0.0 3btvalruqoxo.wusps.xyz
@@ -32856,6 +32855,7 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
+0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -52025,6 +52025,7 @@
 0.0.0.0 acmes.matsuro.ru
 0.0.0.0 acmespprtpages.gq
 0.0.0.0 acmeyarns.com
+0.0.0.0 acmgrupo.com
 0.0.0.0 acmhn.iuwaypg.dornaaco.ir
 0.0.0.0 acmic.dedspac.ru
 0.0.0.0 acmic.ulitron.ru
@@ -131249,6 +131250,7 @@
 0.0.0.0 bagsofall.shop
 0.0.0.0 bagsofshopping.net
 0.0.0.0 bagsonsale.online
+0.0.0.0 bagsrad.work
 0.0.0.0 bagsurprise.com
 0.0.0.0 bagtrace.shop
 0.0.0.0 baguet.matsuro.ru
@@ -162818,7 +162820,6 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -205784,6 +205785,7 @@
 0.0.0.0 dfghuyjamu.duckdns.org
 0.0.0.0 dfgihjhgfdsdfghjjhdssmfdkjfdnnbveifindndinin.pages.dev
 0.0.0.0 dfgjhklhlfghjnk.weebly.com
+0.0.0.0 dfgjhkllkhuuk.info
 0.0.0.0 dfgretgg.blogspot.bg
 0.0.0.0 dfgretgg.blogspot.cl
 0.0.0.0 dfgretgg.blogspot.co.id
@@ -263588,7 +263590,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -266626,7 +266627,6 @@
 0.0.0.0 grece.dedspac.ru
 0.0.0.0 greco.ulitron.ru
 0.0.0.0 grecocatering.com
-0.0.0.0 grecokitchens.com
 0.0.0.0 grecom.gt
 0.0.0.0 grecotitle.hideoutco.com
 0.0.0.0 greddoiheicreillu-5946.vercel.app
@@ -296238,6 +296238,7 @@
 0.0.0.0 incrediwearwork-dot-sharefilingcloud-downloads.uk.r.appspot.com
 0.0.0.0 incrediwearwork.sharefilingcloud-downloads.uk.r.appspot.com
 0.0.0.0 incrementumagency.it
+0.0.0.0 increvalor.com
 0.0.0.0 incrivel-jjlhocorra.com
 0.0.0.0 incriveldecarnaval.com
 0.0.0.0 incro.domainerati.com
@@ -317393,7 +317394,6 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
-0.0.0.0 kambohmag.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
@@ -321822,7 +321822,6 @@
 0.0.0.0 kmrr.xyz
 0.0.0.0 kms-full.com
 0.0.0.0 kms-win11-update.net
-0.0.0.0 kms.com.bd
 0.0.0.0 kms.jo
 0.0.0.0 kmsauto.info
 0.0.0.0 kmsdhjeru.org
@@ -471129,7 +471128,6 @@
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
 0.0.0.0 spnzuoez.masaelmohandesi.xyz
-0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodnice.shop
@@ -474951,6 +474949,7 @@
 0.0.0.0 streamlinebulletin.pro
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streammodu.cfd
 0.0.0.0 streamnf.com
 0.0.0.0 streampressia.top
@@ -481085,7 +481084,6 @@
 0.0.0.0 ticm.sap0508x9v.vip
 0.0.0.0 ticm.tap0297p8b.top
 0.0.0.0 ticolatonisan.pages.dev
-0.0.0.0 ticpc8a.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 tics.ulitron.ru
 0.0.0.0 ticskwsythree.icu
@@ -483641,7 +483639,6 @@
 0.0.0.0 transactionally.amaniwa.ru
 0.0.0.0 transactionally.bibliota.ru
 0.0.0.0 transafore.cyou
-0.0.0.0 transalpinafan.ro
 0.0.0.0 transcendent-marshmallow-12d88f.netlify.app
 0.0.0.0 transcriptionally.amaniwa.ru
 0.0.0.0 transeuroarts.com
@@ -485374,6 +485371,7 @@
 0.0.0.0 ttwworld.com
 0.0.0.0 tu-lllave.com
 0.0.0.0 tu-mundo.net
+0.0.0.0 tu.feyhaum.com
 0.0.0.0 tu.ulitron.ru
 0.0.0.0 tu4dff-reflective-shark.eu-gb.mybluemix.net
 0.0.0.0 tuan.dedspac.ru
