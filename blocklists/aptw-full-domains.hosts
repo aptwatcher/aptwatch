@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-17 06:04:15
+# Generated: 2026-06-17 06:32:42
 # Entries: 528071
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -162818,6 +162818,7 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -327783,7 +327784,6 @@
 0.0.0.0 laputan-truth.000webhostapp.com
 0.0.0.0 laqtaa.com
 0.0.0.0 laquiel.com
-0.0.0.0 lara.com.ar
 0.0.0.0 larabox.co.uk
 0.0.0.0 laracastilhoevento.com.br
 0.0.0.0 laraccount.com

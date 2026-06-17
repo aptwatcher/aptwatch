@@ -162811,6 +162811,7 @@ c2.gostats.com
 c2.gostats.vn
 c2.hustorla.ru
 c2.l.qq.com
+c2.mc-live.online
 c2.outster.com
 c2.popads.net
 c2.qbk1.com
@@ -327776,7 +327777,6 @@ lapunser.cfd
 laputan-truth.000webhostapp.com
 laqtaa.com
 laquiel.com
-lara.com.ar
 larabox.co.uk
 laracastilhoevento.com.br
 laraccount.com
