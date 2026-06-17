@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-17 00:32:23
-# Entries: 528066
+# Generated: 2026-06-17 06:04:15
+# Entries: 528071
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -9223,6 +9223,7 @@
 0.0.0.0 171645068.retarus.ru
 0.0.0.0 1716451753.retarus.ru
 0.0.0.0 1716834139.corolain.ru
+0.0.0.0 1717.1000uc.com
 0.0.0.0 1717135148.corolain.ru
 0.0.0.0 1717657867.corolain.ru
 0.0.0.0 1717802833.corolain.ru
@@ -21585,6 +21586,7 @@
 0.0.0.0 3bnwebbpichincha.webcindario.com
 0.0.0.0 3bood89.standardseoservices.com
 0.0.0.0 3boredguys.com
+0.0.0.0 3brosstore.com
 0.0.0.0 3bscafe.com
 0.0.0.0 3btgzfk74gxejzr.qwo231sdx.club
 0.0.0.0 3btvalruqoxo.wusps.xyz
@@ -188790,7 +188792,6 @@
 0.0.0.0 cotaspremiadas.com.br
 0.0.0.0 cote.vadilops.ru
 0.0.0.0 coteaqui.planosparavc.com.br
-0.0.0.0 cotecsecuritygroup.com
 0.0.0.0 coted.vadilops.ru
 0.0.0.0 cotem-add.web.app
 0.0.0.0 cotes.vadilops.ru
@@ -230886,7 +230887,6 @@
 0.0.0.0 explorepro.org
 0.0.0.0 explorer.btgofficial.org
 0.0.0.0 explorer.production.qldvvmc.com.au
-0.0.0.0 explorer.vg
 0.0.0.0 explorersholidays.com
 0.0.0.0 explorertechnembe.cu.ma
 0.0.0.0 explorethenationnowbb.pages.dev
@@ -245616,6 +245616,7 @@
 0.0.0.0 finos.dedspac.ru
 0.0.0.0 finpis.mi.sanu.ac.rs
 0.0.0.0 finpolska.pro
+0.0.0.0 finpremium.ru
 0.0.0.0 finprointernational.com
 0.0.0.0 finroute.site
 0.0.0.0 fins.bortogat.ru
@@ -263586,6 +263587,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -266623,6 +266625,7 @@
 0.0.0.0 grece.dedspac.ru
 0.0.0.0 greco.ulitron.ru
 0.0.0.0 grecocatering.com
+0.0.0.0 grecokitchens.com
 0.0.0.0 grecom.gt
 0.0.0.0 grecotitle.hideoutco.com
 0.0.0.0 greddoiheicreillu-5946.vercel.app
@@ -321818,6 +321821,7 @@
 0.0.0.0 kmrr.xyz
 0.0.0.0 kms-full.com
 0.0.0.0 kms-win11-update.net
+0.0.0.0 kms.com.bd
 0.0.0.0 kms.jo
 0.0.0.0 kmsauto.info
 0.0.0.0 kmsdhjeru.org
@@ -327779,6 +327783,7 @@
 0.0.0.0 laputan-truth.000webhostapp.com
 0.0.0.0 laqtaa.com
 0.0.0.0 laquiel.com
+0.0.0.0 lara.com.ar
 0.0.0.0 larabox.co.uk
 0.0.0.0 laracastilhoevento.com.br
 0.0.0.0 laraccount.com
@@ -443204,7 +443209,6 @@
 0.0.0.0 rann.dedspac.ru
 0.0.0.0 ranniipnot.cyou
 0.0.0.0 rannochplay.com
-0.0.0.0 ranojpegu.in
 0.0.0.0 ransomnet.com.au
 0.0.0.0 ransortx.cloudaccess.host
 0.0.0.0 rant.dedspac.ru
@@ -467943,7 +467947,6 @@
 0.0.0.0 sinensisa.online
 0.0.0.0 sinensisa.ru
 0.0.0.0 sinera.org
-0.0.0.0 sinergiaconstruccion.com.mx
 0.0.0.0 sinergiglobalmanajemen.space
 0.0.0.0 sines.dedspac.ru
 0.0.0.0 sinettrk.com
@@ -474948,7 +474951,6 @@
 0.0.0.0 streamlinebulletin.pro
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
-0.0.0.0 streammobs.com
 0.0.0.0 streammodu.cfd
 0.0.0.0 streamnf.com
 0.0.0.0 streampressia.top
@@ -481083,6 +481085,7 @@
 0.0.0.0 ticm.sap0508x9v.vip
 0.0.0.0 ticm.tap0297p8b.top
 0.0.0.0 ticolatonisan.pages.dev
+0.0.0.0 ticpc8a.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 tics.ulitron.ru
 0.0.0.0 ticskwsythree.icu
@@ -483638,6 +483641,7 @@
 0.0.0.0 transactionally.amaniwa.ru
 0.0.0.0 transactionally.bibliota.ru
 0.0.0.0 transafore.cyou
+0.0.0.0 transalpinafan.ro
 0.0.0.0 transcendent-marshmallow-12d88f.netlify.app
 0.0.0.0 transcriptionally.amaniwa.ru
 0.0.0.0 transeuroarts.com
@@ -485381,6 +485385,7 @@
 0.0.0.0 tubas.dedspac.ru
 0.0.0.0 tubby.dedspac.ru
 0.0.0.0 tubcrfit.pro
+0.0.0.0 tube-18.xyz
 0.0.0.0 tube-to-tube.com
 0.0.0.0 tube.ulitron.ru
 0.0.0.0 tube8vidscjk.ddns.name
