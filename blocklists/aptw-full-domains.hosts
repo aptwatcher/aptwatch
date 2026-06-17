@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-17 12:32:36
-# Entries: 528069
+# Generated: 2026-06-17 18:32:16
+# Entries: 528072
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32855,7 +32855,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -48645,6 +48644,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -131250,7 +131250,6 @@
 0.0.0.0 bagsofall.shop
 0.0.0.0 bagsofshopping.net
 0.0.0.0 bagsonsale.online
-0.0.0.0 bagsrad.work
 0.0.0.0 bagsurprise.com
 0.0.0.0 bagtrace.shop
 0.0.0.0 baguet.matsuro.ru
@@ -225432,6 +225431,7 @@
 0.0.0.0 epg.portal.ae.payonline.digiman.co.za
 0.0.0.0 epg.portal.tracking.ae-payonline.brandsoptima.com
 0.0.0.0 epg.unas.edu.pe
+0.0.0.0 epgggtee.leaguejazire.com
 0.0.0.0 epgskrwhyuweksmg-dot-owaonk399399393.uk.r.appspot.com
 0.0.0.0 epgvakyprqfeothdxlhepitxtj-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 epha.dedspac.ru
@@ -285676,6 +285676,7 @@
 0.0.0.0 host.omni4africa.com
 0.0.0.0 host.phdt.lk
 0.0.0.0 host.ulitron.ru
+0.0.0.0 host.zaminshenasi.shop
 0.0.0.0 host10.click
 0.0.0.0 host12.dnsinweb.com
 0.0.0.0 host15.standardseoservices.com
@@ -317394,6 +317395,7 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
+0.0.0.0 kambohmag.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
@@ -390990,7 +390992,6 @@
 0.0.0.0 no5ed3l0ob.1934.gencmert.com
 0.0.0.0 no61jqdrobxwiqi4.colplat.com
 0.0.0.0 no6xb.csb.app
-0.0.0.0 no7shmh.shop
 0.0.0.0 no8design.com
 0.0.0.0 noa.tokenpouket.com
 0.0.0.0 noaa.dedspac.ru
@@ -398623,7 +398624,6 @@
 0.0.0.0 oknmhjx.xenicalby6.com
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
-0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -427486,6 +427486,7 @@
 0.0.0.0 profound-begonia-940695.netlify.app
 0.0.0.0 profound-haupia-19b09d.netlify.app
 0.0.0.0 profound-horse-5cf402.netlify.app
+0.0.0.0 profound-property.com
 0.0.0.0 profound.zzux.com
 0.0.0.0 profoundeast.siminmotion.com
 0.0.0.0 profoundisreal.com
@@ -465536,6 +465537,7 @@
 0.0.0.0 semasio.net
 0.0.0.0 semaviyro.autos
 0.0.0.0 semaxin.pl
+0.0.0.0 semencepourlavie.org
 0.0.0.0 semi.amaniwa.ru
 0.0.0.0 semi.ulitron.ru
 0.0.0.0 semicecta.cyou
@@ -471128,6 +471130,7 @@
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
 0.0.0.0 spnzuoez.masaelmohandesi.xyz
+0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodnice.shop
