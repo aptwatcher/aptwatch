@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-18 12:32:50
-# Entries: 528051
+# Generated: 2026-06-18 18:32:31
+# Entries: 528045
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -138075,7 +138075,6 @@
 0.0.0.0 beborides.info
 0.0.0.0 beboskartofili.000webhostapp.com
 0.0.0.0 bebpalazzonapolitano.italianbooking.net
-0.0.0.0 bebra-dev.pro
 0.0.0.0 bebrasindia.org
 0.0.0.0 bebravenow.com
 0.0.0.0 bebsemo50.com
@@ -186872,7 +186871,6 @@
 0.0.0.0 consumerspanelsrv.eu3.org
 0.0.0.0 consumidors.org
 0.0.0.0 consutefatura.com
-0.0.0.0 consways.com
 0.0.0.0 conszziglieres.info
 0.0.0.0 cont-fb-13854679.ecocoating.net
 0.0.0.0 cont-fb-42914898.ecocoating.net
@@ -211935,7 +211933,6 @@
 0.0.0.0 domnetmeta.xyz
 0.0.0.0 domodminfbsf.com
 0.0.0.0 domofonik.pl
-0.0.0.0 domokitw.lol
 0.0.0.0 domolmarket.com
 0.0.0.0 domolquqrk.duckdns.org
 0.0.0.0 domon.com.tw
@@ -213582,6 +213579,7 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
+0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -255079,7 +255077,6 @@
 0.0.0.0 gahu.hit.gemius.pl
 0.0.0.0 gahwjj.blogspot.gr
 0.0.0.0 gaia.dedspac.ru
-0.0.0.0 gaiadeqi.com
 0.0.0.0 gaiaherbs.fr
 0.0.0.0 gaiarec.org
 0.0.0.0 gaiaretailer.shop
@@ -258602,7 +258599,6 @@
 0.0.0.0 geny83h92.atwebpages.com
 0.0.0.0 genys.dedspac.ru
 0.0.0.0 genys.virosat.ru
-0.0.0.0 geo-foundation.vg
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 geo.adobe.com
@@ -261172,7 +261168,6 @@
 0.0.0.0 gite-lafage.com
 0.0.0.0 gite.dedspac.ru
 0.0.0.0 gite53-larimonniere.fr
-0.0.0.0 gitea.nightcord.st
 0.0.0.0 gitedelamontagnenoire.fr
 0.0.0.0 gitelt.net
 0.0.0.0 gitep.com.ar
@@ -318821,6 +318816,7 @@
 0.0.0.0 keisu02.eproof.com
 0.0.0.0 keit1on.net
 0.0.0.0 keitaro1.cityads.com
+0.0.0.0 keitarosofts.com
 0.0.0.0 keitcrm.pl
 0.0.0.0 keith.temple.keith.temple.theperfectpocketbook.com
 0.0.0.0 keith.ulitron.ru
@@ -390976,7 +390972,6 @@
 0.0.0.0 no5ed3l0ob.1934.gencmert.com
 0.0.0.0 no61jqdrobxwiqi4.colplat.com
 0.0.0.0 no6xb.csb.app
-0.0.0.0 no7shmh.shop
 0.0.0.0 no8design.com
 0.0.0.0 noa.tokenpouket.com
 0.0.0.0 noaa.dedspac.ru
@@ -398608,6 +398603,7 @@
 0.0.0.0 oknmhjx.xenicalby6.com
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -471110,7 +471106,6 @@
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
 0.0.0.0 spnzuoez.masaelmohandesi.xyz
-0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodnice.shop
@@ -524945,7 +524940,6 @@
 0.0.0.0 xenical.3.p2l.info
 0.0.0.0 xenical.4.p2l.info
 0.0.0.0 xenlume.shop
-0.0.0.0 xeno.lat
 0.0.0.0 xenodochial-liskov.34-125-197-109.plesk.page
 0.0.0.0 xenon.studio
 0.0.0.0 xenono.ru
