@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-18 06:33:31
-# Entries: 528045
+# Generated: 2026-06-18 12:32:50
+# Entries: 528051
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -89789,6 +89789,7 @@
 0.0.0.0 app-ccm-whatshktw.com
 0.0.0.0 app-cdc89bc2-875e-429a-af00-950792174d36.cleverapps.io
 0.0.0.0 app-cdeac196-39d3-4772-a061-2b3a0d347c36.cleverapps.io
+0.0.0.0 app-cdek-online.ru
 0.0.0.0 app-cdn-suite-trzor.webflow.io
 0.0.0.0 app-cdn.delivery-usps.click-n-ship.info
 0.0.0.0 app-ced1f799-ab6e-4d60-a65a-f373a878ea6b.cleverapps.io
@@ -138074,6 +138075,7 @@
 0.0.0.0 beborides.info
 0.0.0.0 beboskartofili.000webhostapp.com
 0.0.0.0 bebpalazzonapolitano.italianbooking.net
+0.0.0.0 bebra-dev.pro
 0.0.0.0 bebrasindia.org
 0.0.0.0 bebravenow.com
 0.0.0.0 bebsemo50.com
@@ -156104,7 +156106,6 @@
 0.0.0.0 broishai.ifinitefuture.ru
 0.0.0.0 brojnqgpez.ddns.net
 0.0.0.0 brokbridge.com
-0.0.0.0 brokbutcher.com
 0.0.0.0 broke.bibirpergikedanaubuatan.workers.dev
 0.0.0.0 brokebitchescashinout.com
 0.0.0.0 brokemanbabenahanothermangodeysmasham.weebly.com
@@ -211934,6 +211935,7 @@
 0.0.0.0 domnetmeta.xyz
 0.0.0.0 domodminfbsf.com
 0.0.0.0 domofonik.pl
+0.0.0.0 domokitw.lol
 0.0.0.0 domolmarket.com
 0.0.0.0 domolquqrk.duckdns.org
 0.0.0.0 domon.com.tw
@@ -213580,7 +213582,6 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
-0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -255078,6 +255079,7 @@
 0.0.0.0 gahu.hit.gemius.pl
 0.0.0.0 gahwjj.blogspot.gr
 0.0.0.0 gaia.dedspac.ru
+0.0.0.0 gaiadeqi.com
 0.0.0.0 gaiaherbs.fr
 0.0.0.0 gaiarec.org
 0.0.0.0 gaiaretailer.shop
@@ -261170,6 +261172,7 @@
 0.0.0.0 gite-lafage.com
 0.0.0.0 gite.dedspac.ru
 0.0.0.0 gite53-larimonniere.fr
+0.0.0.0 gitea.nightcord.st
 0.0.0.0 gitedelamontagnenoire.fr
 0.0.0.0 gitelt.net
 0.0.0.0 gitep.com.ar
@@ -390973,6 +390976,7 @@
 0.0.0.0 no5ed3l0ob.1934.gencmert.com
 0.0.0.0 no61jqdrobxwiqi4.colplat.com
 0.0.0.0 no6xb.csb.app
+0.0.0.0 no7shmh.shop
 0.0.0.0 no8design.com
 0.0.0.0 noa.tokenpouket.com
 0.0.0.0 noaa.dedspac.ru
@@ -398604,7 +398608,6 @@
 0.0.0.0 oknmhjx.xenicalby6.com
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
-0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -437179,6 +437182,7 @@
 0.0.0.0 puritanical-roll.000webhostapp.com
 0.0.0.0 puritpersu.cyou
 0.0.0.0 puritywindowcleaninglimited.co.uk
+0.0.0.0 purmed.ro
 0.0.0.0 purnisherchinaorder.office12000.repl.co
 0.0.0.0 purobio07.000webhostapp.com
 0.0.0.0 purobio09.000webhostapp.com
@@ -442190,6 +442194,7 @@
 0.0.0.0 railing.filikato.ru
 0.0.0.0 railing44.com
 0.0.0.0 railkcon.shop
+0.0.0.0 railmesenpai.com
 0.0.0.0 railroadtomato.com
 0.0.0.0 railwayreason.com
 0.0.0.0 raimapu.cl
@@ -473302,6 +473307,7 @@
 0.0.0.0 static-trackers.adtarget.me
 0.0.0.0 static-tracking.klaviyo.com
 0.0.0.0 static-uk.addynamo.net
+0.0.0.0 static.249.223.175.5.nextregister.eu
 0.0.0.0 static.2mdn.net
 0.0.0.0 static.4chan-ads.org
 0.0.0.0 static.a-ads.com
@@ -487430,7 +487436,6 @@
 0.0.0.0 updates.slekkeud.workers.dev
 0.0.0.0 updatesamzsupportmailaccouncustome.4-155-105-207.cprapid.com
 0.0.0.0 updatesecure.pro
-0.0.0.0 updateservice1-telegramweb.com
 0.0.0.0 updateservicecenter.blogspot.com
 0.0.0.0 updateservices.in
 0.0.0.0 updatesoftware24.com
@@ -524940,6 +524945,7 @@
 0.0.0.0 xenical.3.p2l.info
 0.0.0.0 xenical.4.p2l.info
 0.0.0.0 xenlume.shop
+0.0.0.0 xeno.lat
 0.0.0.0 xenodochial-liskov.34-125-197-109.plesk.page
 0.0.0.0 xenon.studio
 0.0.0.0 xenono.ru
