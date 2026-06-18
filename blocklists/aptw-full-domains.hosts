@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-18 00:32:23
-# Entries: 528042
+# Generated: 2026-06-18 06:04:26
+# Entries: 528045
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -156104,6 +156104,7 @@
 0.0.0.0 broishai.ifinitefuture.ru
 0.0.0.0 brojnqgpez.ddns.net
 0.0.0.0 brokbridge.com
+0.0.0.0 brokbutcher.com
 0.0.0.0 broke.bibirpergikedanaubuatan.workers.dev
 0.0.0.0 brokebitchescashinout.com
 0.0.0.0 brokemanbabenahanothermangodeysmasham.weebly.com
@@ -186870,6 +186871,7 @@
 0.0.0.0 consumerspanelsrv.eu3.org
 0.0.0.0 consumidors.org
 0.0.0.0 consutefatura.com
+0.0.0.0 consways.com
 0.0.0.0 conszziglieres.info
 0.0.0.0 cont-fb-13854679.ecocoating.net
 0.0.0.0 cont-fb-42914898.ecocoating.net
@@ -258598,6 +258600,7 @@
 0.0.0.0 geny83h92.atwebpages.com
 0.0.0.0 genys.dedspac.ru
 0.0.0.0 genys.virosat.ru
+0.0.0.0 geo-foundation.vg
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 geo.adobe.com
@@ -296280,7 +296283,6 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
-0.0.0.0 indeanapolice.cc
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
 0.0.0.0 indecisive-pentagonal-carnation.glitch.me
@@ -487428,6 +487430,7 @@
 0.0.0.0 updates.slekkeud.workers.dev
 0.0.0.0 updatesamzsupportmailaccouncustome.4-155-105-207.cprapid.com
 0.0.0.0 updatesecure.pro
+0.0.0.0 updateservice1-telegramweb.com
 0.0.0.0 updateservicecenter.blogspot.com
 0.0.0.0 updateservices.in
 0.0.0.0 updatesoftware24.com
