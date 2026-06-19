@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-19 12:32:22
-# Entries: 526839
+# Generated: 2026-06-19 18:32:19
+# Entries: 526844
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45587,7 +45587,6 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
-0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -138001,7 +138000,6 @@
 0.0.0.0 beborides.info
 0.0.0.0 beboskartofili.000webhostapp.com
 0.0.0.0 bebpalazzonapolitano.italianbooking.net
-0.0.0.0 bebra-dev.com
 0.0.0.0 bebra-dev.pro
 0.0.0.0 bebrasindia.org
 0.0.0.0 bebravenow.com
@@ -159800,6 +159798,7 @@
 0.0.0.0 bulrhxbdedckcssr-dot-millinium.ey.r.appspot.com
 0.0.0.0 bulrikwyqk.duckdns.org
 0.0.0.0 bulse.dedspac.ru
+0.0.0.0 bulsis.net
 0.0.0.0 bulspqsoxzxhehzmekeaeuimal-dot-project2-297402.rj.r.appspot.com
 0.0.0.0 bulspqsoxzxhehzmekeaeuimal.project2-297402.rj.r.appspot.com
 0.0.0.0 bult.dedspac.ru
@@ -168839,7 +168838,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -187984,7 +187982,6 @@
 0.0.0.0 coralasargetia.ro
 0.0.0.0 coralgables-bridals.com.usrfiles.com
 0.0.0.0 coraliax.vercel.app
-0.0.0.0 coraline.buzz
 0.0.0.0 corallz.com
 0.0.0.0 coralon.com
 0.0.0.0 coram.dedspac.ru
@@ -208010,6 +208007,7 @@
 0.0.0.0 directsocial.info
 0.0.0.0 directstoragegate.com
 0.0.0.0 directstoragepro.com
+0.0.0.0 directtooffer.com
 0.0.0.0 directupgradetoattcurrentlyyahoo.square.site
 0.0.0.0 directvisible.com
 0.0.0.0 directwwnk.art
@@ -213010,6 +213008,7 @@
 0.0.0.0 dqzhxaugzfnptqbi-dot-millinium.ey.r.appspot.com
 0.0.0.0 dr-ahmed-moussa.com
 0.0.0.0 dr-amer.com
+0.0.0.0 dr-blanca-mhfscak.work
 0.0.0.0 dr-corbin-christian.chirurgiens-dentistes.fr
 0.0.0.0 dr-haghbin.info
 0.0.0.0 dr-hamada.webredirect.org
@@ -242238,6 +242237,7 @@
 0.0.0.0 fersllc.com
 0.0.0.0 ferstoo.com
 0.0.0.0 fert4y66.ddns.net
+0.0.0.0 fertas.com.tr
 0.0.0.0 fertig.serpgold.com
 0.0.0.0 fertlkim.com
 0.0.0.0 fertravail.jp
@@ -261372,6 +261372,7 @@
 0.0.0.0 glb.adtechus.com
 0.0.0.0 glballogistics.com
 0.0.0.0 glbbaserv.ml
+0.0.0.0 glbe.co
 0.0.0.0 glbgcl.logsss.com
 0.0.0.0 glbhmjzsovkywfvhjqknuwiurkedfevhqbnm-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 glbticket.bio
@@ -303485,6 +303486,7 @@
 0.0.0.0 iryn-vision-dmp.pages.dev
 0.0.0.0 irynaiugrabjmcyf-dot-millinium.ey.r.appspot.com
 0.0.0.0 irysnet.com
+0.0.0.0 iryva.com
 0.0.0.0 is-assets-cubunecon7686756.pages.dev
 0.0.0.0 is-drc.com
 0.0.0.0 is-gateway.supersonicads.com
@@ -307557,6 +307559,7 @@
 0.0.0.0 jbkh.000webhostapp.com
 0.0.0.0 jbkutkmbnyzwdhbx-dot-millinium.ey.r.appspot.com
 0.0.0.0 jblack.ask-cg.ir
+0.0.0.0 jblackard.com
 0.0.0.0 jbleonardo.com
 0.0.0.0 jblgermany.shop
 0.0.0.0 jblogstackers.com
@@ -398108,7 +398111,6 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
-0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -481102,6 +481104,7 @@
 0.0.0.0 tko.swa.mybluehost.me
 0.0.0.0 tkoent.com
 0.0.0.0 tkorderpro.com
+0.0.0.0 tkpopp.cfd
 0.0.0.0 tkpopup.asia
 0.0.0.0 tkpopup.vn
 0.0.0.0 tkportal.aotter.net
@@ -524592,6 +524595,7 @@
 0.0.0.0 yappertree.com
 0.0.0.0 yaps.dedspac.ru
 0.0.0.0 yaps.ulitron.ru
+0.0.0.0 yapstermarline.top
 0.0.0.0 yaqui.dedspac.ru
 0.0.0.0 yaqui.virosat.ru
 0.0.0.0 yar.amaniwa.ru
@@ -524842,6 +524846,7 @@
 0.0.0.0 yet.ulitron.ru
 0.0.0.0 yeta.dedspac.ru
 0.0.0.0 yeta.ulitron.ru
+0.0.0.0 yetansd.com
 0.0.0.0 yeti.dedspac.ru
 0.0.0.0 yeti.virosat.ru
 0.0.0.0 yetis.dedspac.ru
