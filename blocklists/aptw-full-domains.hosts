@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-19 06:33:06
-# Entries: 526838
+# Generated: 2026-06-19 12:32:22
+# Entries: 526839
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45587,6 +45587,7 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
+0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -187983,6 +187984,7 @@
 0.0.0.0 coralasargetia.ro
 0.0.0.0 coralgables-bridals.com.usrfiles.com
 0.0.0.0 coraliax.vercel.app
+0.0.0.0 coraline.buzz
 0.0.0.0 corallz.com
 0.0.0.0 coralon.com
 0.0.0.0 coram.dedspac.ru
@@ -272978,7 +272980,6 @@
 0.0.0.0 guthyrenker.112.2o7.net
 0.0.0.0 guti.ulitron.ru
 0.0.0.0 gutifaiy.top
-0.0.0.0 gutiput.lol
 0.0.0.0 gutjb.turpitudef.com
 0.0.0.0 gutomarcicano.zapto.org
 0.0.0.0 guts.dedspac.ru
@@ -300405,6 +300406,7 @@
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
+0.0.0.0 intellicaddev.ru
 0.0.0.0 intelligence-head.pinsightmedia.com
 0.0.0.0 intelligence.jimpike.com.au
 0.0.0.0 intelligence.perform10.flashiko.ru
@@ -453134,7 +453136,6 @@
 0.0.0.0 roblotx.com
 0.0.0.0 roblox-3e6.pages.dev
 0.0.0.0 roblox-app.com
-0.0.0.0 roblox-execute.net
 0.0.0.0 roblox-gift.xyz
 0.0.0.0 roblox-help.com
 0.0.0.0 roblox-verification.com
