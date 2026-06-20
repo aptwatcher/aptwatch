@@ -14,8 +14,12 @@ database/apt_intel.db-shm
 database/apt_intel.db.bak
 /apt_intel_web.db
 
-# Allow the web export inside web/ (needed for GitHub Pages dashboard)
-!web/apt_intel_web.db
+# [web-db-decouple-2026-06-20] The web export is NO LONGER committed to this repo. Committing a
+# fresh ~43 MB binary every sync bloated .git past 1 GB and OOM-killed git gc on the VPS. The DB
+# is now served from https://api.aptwatch.org/apt_intel_web.db (nginx + Cloudflare, CORS). Keep it
+# ignored everywhere so it can never re-enter history. (Was previously force-included via
+# `!web/apt_intel_web.db` for GitHub Pages; that line is intentionally removed.)
+web/apt_intel_web.db
 *.db-wal
 *.db-shm
 *.db-journal

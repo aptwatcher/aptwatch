@@ -360,8 +360,8 @@ The API at `api.aptwatch.org` serves blocklists, IOC lookups, and database downl
 | `GET /api/ioc/<ip>` | Full profile for a single IP |
 | `GET /api/search?q=<pattern>` | Search across IOCs |
 | `GET /api/stats` | Database statistics |
-| `GET /api/download/web` | Download web export (~23 MB) |
-| `GET /api/download/full` | Download full database (~400 MB) |
+| `GET /api/download/web` | Download web export |
+| `GET /api/download/full` | Download full database |
 
 ---
 

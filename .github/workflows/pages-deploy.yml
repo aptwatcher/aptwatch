@@ -52,11 +52,13 @@ jobs:
           mkdir -p web/iocs/suricata
           cp iocs/suricata/*.rules web/iocs/suricata/ 2>/dev/null || true
 
-          # Check for web database
+          # Web database is intentionally NOT in this repo (decoupled 2026-06-20 to stop the
+          # ~43 MB binary bloating .git). The dashboard fetches it from api.aptwatch.org. Its
+          # absence here is expected and not an error.
           if [ -f web/apt_intel_web.db ]; then
-            echo "Web database: $(du -h web/apt_intel_web.db | cut -f1)"
+            echo "Web database present in repo: $(du -h web/apt_intel_web.db | cut -f1) (legacy copy)"
           else
-            echo "::warning::No web database found. Dashboard will prompt for manual upload."
+            echo "Web database served off-repo from api.aptwatch.org (decoupled 2026-06-20)."
           fi
 
           # feeds.html is maintained manually in web/feeds.html (Phase 3 unified design).

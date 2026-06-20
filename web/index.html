@@ -902,25 +902,37 @@ async function openDatabase(arrayBuf, name) {
 }
 
 // Auto-load web DB when hosted on a web server (GitHub Pages, etc.)
+// [web-db-decouple-2026-06-20] The ~43 MB web DB is no longer committed to this Pages repo
+// (it bloated .git and OOM-killed git gc on the server). It is now served from api.aptwatch.org
+// (CORS is already configured server-wide for https://aptwatch.org). Sources are tried in order:
+//   1. nginx static (fast, edge-cached, no rate limit) -- optional, see the decouple RUNBOOK
+//   2. the existing Flask /api/download/web endpoint -- always available, CORS-enabled, but
+//      rate-limited/throttled (fine as a fallback)
+//   3. repo-relative copy -- only resolves for a local file:// open or before the history purge
+const WEB_DB_SOURCES = [
+  'https://api.aptwatch.org/apt_intel_web.db',
+  'https://api.aptwatch.org/api/download/web',
+  'apt_intel_web.db'
+];
 async function autoLoadDB() {
   const statusEl = document.getElementById('db-status');
   const loadInfo = document.getElementById('load-info');
   if (window.location.protocol === 'file:') return;
-  try {
-    statusEl.textContent = 'Auto-loading web database...';
-    loadInfo.textContent = 'Fetching apt_intel_web.db from server...';
-    const resp = await fetch('apt_intel_web.db');
-    if (!resp.ok) {
-      statusEl.textContent = 'No database deployed yet — upload manually';
-      loadInfo.textContent = 'apt_intel_web.db not found on server. Upload a local copy or wait for the next sync.';
+  for (const url of WEB_DB_SOURCES) {
+    try {
+      statusEl.textContent = 'Auto-loading web database...';
+      loadInfo.textContent = 'Fetching apt_intel_web.db from ' + url + ' ...';
+      const resp = await fetch(url, { cache: 'no-cache' });
+      if (!resp.ok) continue;
+      const buf = await resp.arrayBuffer();
+      await openDatabase(buf, 'apt_intel_web.db');
       return;
+    } catch(e) {
+      console.warn('Auto-load from ' + url + ' failed:', e);
     }
-    const buf = await resp.arrayBuffer();
-    await openDatabase(buf, 'apt_intel_web.db');
-  } catch(e) {
-    console.warn('Auto-load failed:', e);
-    statusEl.textContent = 'Auto-load failed — upload manually';
   }
+  statusEl.textContent = 'No database deployed yet — upload manually';
+  loadInfo.textContent = 'Could not fetch apt_intel_web.db from any source. Upload a local copy or wait for the next sync.';
 }
 autoLoadDB();
 
