@@ -1,0 +1,19 @@
+author: auto-threatfox
+source: https://threatfox.abuse.ch/
+source_name: "ThreatFox taginfo: SocGholish, AsyncRAT, NetSupport, MintsLoader, RansomHub"
+apt_groups:
+  - Unattributed
+confidence_score: 0.50
+description: >
+  Daily ThreatFox MaaS/commodity discovery leg (SocGholish downstream ecosystem).
+  Tags queried: SocGholish, AsyncRAT, NetSupport, MintsLoader, RansomHub.
+  Raw hits: 2 (both from the SocGholish tag; AsyncRAT/NetSupport/MintsLoader/RansomHub
+  returned no results). Kept after cross-validation: 2. Dropped (single-source): 0.
+  Compromised held: 0. Cross-validation: both domains corroborated by VirusTotal
+  (malicious 10 and 11 respectively); OTX pulse_count 0, Steven Black not listed.
+  Both flagged is_compromised=false on ThreatFox -> treated as owned operator
+  infrastructure. Unattributed per the 3-pillar discipline; malware-family tag
+  (AsyncRAT, threat_type botnet_cc) is a descriptor, not an attribution.
+domains:
+  - socgholish[.]ariaaglass[.]com
+  - socgholish[.]artmonkees[.]io
