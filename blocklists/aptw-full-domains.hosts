@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-20 06:33:59
+# Generated: 2026-06-20 12:32:50
 # Entries: 526890
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -260415,7 +260415,6 @@
 0.0.0.0 gig.ulitron.ru
 0.0.0.0 giga-host.com
 0.0.0.0 giga.dedspac.ru
-0.0.0.0 giga.miraibotnet.su
 0.0.0.0 giga4ad228.github.io
 0.0.0.0 gigabess.com
 0.0.0.0 gigahax.com
@@ -314419,6 +314418,7 @@
 0.0.0.0 js.bizographics.com
 0.0.0.0 js.blozoo.info
 0.0.0.0 js.blueblade.co.jp
+0.0.0.0 js.byxly.eu.cc
 0.0.0.0 js.canstrm.com
 0.0.0.0 js.casalemedia.com
 0.0.0.0 js.center.io
@@ -352026,6 +352026,7 @@
 0.0.0.0 mamidoudz2.temp.swtest.ru
 0.0.0.0 mamie.dedspac.ru
 0.0.0.0 mamiejedwards.com
+0.0.0.0 mamigummy.com
 0.0.0.0 mamilade.oewabox.at
 0.0.0.0 mamillosa.space
 0.0.0.0 mamillosa.xyz
@@ -374580,7 +374581,6 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
-0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -390574,6 +390574,7 @@
 0.0.0.0 no5ed3l0ob.1934.gencmert.com
 0.0.0.0 no61jqdrobxwiqi4.colplat.com
 0.0.0.0 no6xb.csb.app
+0.0.0.0 no7shmh.shop
 0.0.0.0 no8design.com
 0.0.0.0 noa.tokenpouket.com
 0.0.0.0 noaa.dedspac.ru
@@ -393729,7 +393730,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -443342,6 +443342,7 @@
 0.0.0.0 rbxgft1m.pages.dev
 0.0.0.0 rbxmd1.netlify.app
 0.0.0.0 rbxmodapk.com
+0.0.0.0 rbxproject.com
 0.0.0.0 rbxtools.kg
 0.0.0.0 rbxus25.blogspot.am
 0.0.0.0 rbxus25.blogspot.ba
@@ -470295,7 +470296,6 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
-0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodmetalowychdrzwi.pro
