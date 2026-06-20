@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-20 12:32:50
+# Generated: 2026-06-20 18:32:20
 # Entries: 526890
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -260415,6 +260415,7 @@
 0.0.0.0 gig.ulitron.ru
 0.0.0.0 giga-host.com
 0.0.0.0 giga.dedspac.ru
+0.0.0.0 giga.miraibotnet.su
 0.0.0.0 giga4ad228.github.io
 0.0.0.0 gigabess.com
 0.0.0.0 gigahax.com
@@ -390574,7 +390575,6 @@
 0.0.0.0 no5ed3l0ob.1934.gencmert.com
 0.0.0.0 no61jqdrobxwiqi4.colplat.com
 0.0.0.0 no6xb.csb.app
-0.0.0.0 no7shmh.shop
 0.0.0.0 no8design.com
 0.0.0.0 noa.tokenpouket.com
 0.0.0.0 noaa.dedspac.ru
@@ -418846,6 +418846,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -443342,7 +443343,6 @@
 0.0.0.0 rbxgft1m.pages.dev
 0.0.0.0 rbxmd1.netlify.app
 0.0.0.0 rbxmodapk.com
-0.0.0.0 rbxproject.com
 0.0.0.0 rbxtools.kg
 0.0.0.0 rbxus25.blogspot.am
 0.0.0.0 rbxus25.blogspot.ba
@@ -470296,6 +470296,7 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
+0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodmetalowychdrzwi.pro
@@ -484718,7 +484719,6 @@
 0.0.0.0 tsyndicate.com
 0.0.0.0 tsyndicate.net
 0.0.0.0 tt-104256.weeblysite.com
-0.0.0.0 tt-mods18.click
 0.0.0.0 tt-supplier.com
 0.0.0.0 tt.omtrdc.net
 0.0.0.0 tt.onthe.io
