@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-20 18:32:20
-# Entries: 526890
+# Generated: 2026-06-20 21:04:53
+# Entries: 526891
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45595,6 +45595,7 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
+0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
