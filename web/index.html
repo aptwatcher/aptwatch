@@ -914,6 +914,24 @@ const WEB_DB_SOURCES = [
   'https://api.aptwatch.org/api/download/web',
   'apt_intel_web.db'
 ];
+// Fetch one source with a single Retry-After-aware retry on a transient rate-limit (429) or
+// 503. Default caching (NOT no-cache) so the static source's Cache-Control: max-age lets the
+// browser/Cloudflare serve repeated dashboard loads from cache instead of re-downloading ~43 MB
+// and tripping the /api/download/ 2/min limit.
+async function fetchWebDB(url) {
+  for (let attempt = 0; attempt < 2; attempt++) {
+    const resp = await fetch(url);
+    if (resp.ok) return resp;
+    if ((resp.status === 429 || resp.status === 503) && attempt === 0) {
+      const ra = parseInt(resp.headers.get('Retry-After') || '', 10);
+      const waitS = Math.min(Number.isFinite(ra) ? ra : 2, 5);
+      await new Promise(r => setTimeout(r, waitS * 1000));
+      continue;
+    }
+    return null;
+  }
+  return null;
+}
 async function autoLoadDB() {
   const statusEl = document.getElementById('db-status');
   const loadInfo = document.getElementById('load-info');
@@ -922,8 +940,8 @@ async function autoLoadDB() {
     try {
       statusEl.textContent = 'Auto-loading web database...';
       loadInfo.textContent = 'Fetching apt_intel_web.db from ' + url + ' ...';
-      const resp = await fetch(url, { cache: 'no-cache' });
-      if (!resp.ok) continue;
+      const resp = await fetchWebDB(url);
+      if (!resp) continue;
       const buf = await resp.arrayBuffer();
       await openDatabase(buf, 'apt_intel_web.db');
       return;
