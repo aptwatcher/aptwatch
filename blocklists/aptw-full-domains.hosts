@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-21 00:32:46
+# Generated: 2026-06-21 06:05:21
 # Entries: 526942
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -398182,7 +398182,6 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
-0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -428056,6 +428055,7 @@
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
 0.0.0.0 proteztirnakmerkezi.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
