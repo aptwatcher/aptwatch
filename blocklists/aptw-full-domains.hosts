@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-21 12:32:52
+# Generated: 2026-06-21 15:19:25
 # Entries: 526943
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -45606,6 +45606,7 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
+0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -319652,7 +319653,6 @@
 0.0.0.0 kickoffo.site
 0.0.0.0 kickpukapp.top
 0.0.0.0 kicks-se.shop
-0.0.0.0 kickstrean.art
 0.0.0.0 kickstructure.com
 0.0.0.0 kickthebucketnow.info
 0.0.0.0 kickthetrend.shop
@@ -408774,6 +408774,7 @@
 0.0.0.0 paperlesstimecard.com
 0.0.0.0 paperonni.space
 0.0.0.0 paperquest.vercel.app
+0.0.0.0 paperrig.com
 0.0.0.0 paperrzdesigns.com
 0.0.0.0 papers.contentstudies.net
 0.0.0.0 papervolcano.vip
@@ -418884,7 +418885,6 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
-0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
