@@ -168861,7 +168861,6 @@ cdn.exactag.com
 cdn.exelator.com
 cdn.ezca.asia
 cdn.fastclick.net
-cdn.file6.goodid.com
 cdn.firstimpression.io
 cdn.firstlook.com
 cdn.fivecdm.com
@@ -169007,6 +169006,7 @@ cdn.pigchao-2011.workers.dev
 cdn.playstream.media
 cdn.polmontventures.com
 cdn.popcash.net
+cdn.privatefile.host
 cdn.proadscdn.com
 cdn.prod.uidapi.com
 cdn.program3.com
@@ -213310,6 +213310,7 @@ dreamachronicles.co.zw
 dreamad.org
 dreamalive5.com
 dreamalivemedia.com
+dreamapp.xyz
 dreamartdesigns.com
 dreambasetechnologies.net
 dreamboostzu.vercel.app
@@ -260430,6 +260431,7 @@ gig.amaniwa.ru
 gig.ulitron.ru
 giga-host.com
 giga.dedspac.ru
+giga.miraibotnet.su
 giga4ad228.github.io
 gigabess.com
 gigahax.com
@@ -263266,7 +263268,6 @@ gobik-fff.shop
 gobikehike.com
 gobinbbc404.azurewebsites.net
 gobio.ulitron.ru
-gobiotechpestcontrol.com
 gobjudicial.royalwebhosting.net
 goblesdd.elementor.cloud
 goblog166.blogspot.com
@@ -398176,7 +398177,6 @@ okna-vsaratove.com
 oknaparapetypoczesna.pl
 okno.uk
 oknogrup.pl
-oknoplastik.sk
 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 okogm.com
 okok0-3uujff.pages.dev
@@ -408767,7 +408767,6 @@ paperless-auth-services.ga
 paperlesstimecard.com
 paperonni.space
 paperquest.vercel.app
-paperrig.com
 paperrzdesigns.com
 papers.contentstudies.net
 papervolcano.vip
@@ -470330,6 +470329,7 @@ spnet2-1.i-mobile.co.jp
 spnet33.i-mobile.co.jp
 spnet5.i-mobile.co.jp
 spngtrd.xyz
+spoar.org.in
 spode.virosat.ru
 spodklatkischodowej.pro
 spodmetalowychdrzwi.pro
@@ -511163,6 +511163,7 @@ www.nbdcj.com
 www.nbillioni.fitwik.com
 www.nbpmennica.pl
 www.nbrtrack.com
+www.nccommunication.be
 www.ncelwndsirinfew.com
 www.nctracking.com
 www.ndalel.shop
@@ -512785,6 +512786,7 @@ www.panzarella.net
 www.papatyaeczanesi.online
 www.papayaengi.ateliefidalga.com
 www.paperg.com
+www.paperrig.com
 www.papervolcano.vip
 www.papla.pl
 www.papowa.com

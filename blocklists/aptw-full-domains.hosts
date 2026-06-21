@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-21 15:19:25
-# Entries: 526943
+# Generated: 2026-06-21 18:32:27
+# Entries: 526945
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -168868,7 +168868,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -169014,6 +169013,7 @@
 0.0.0.0 cdn.playstream.media
 0.0.0.0 cdn.polmontventures.com
 0.0.0.0 cdn.popcash.net
+0.0.0.0 cdn.privatefile.host
 0.0.0.0 cdn.proadscdn.com
 0.0.0.0 cdn.prod.uidapi.com
 0.0.0.0 cdn.program3.com
@@ -213317,6 +213317,7 @@
 0.0.0.0 dreamad.org
 0.0.0.0 dreamalive5.com
 0.0.0.0 dreamalivemedia.com
+0.0.0.0 dreamapp.xyz
 0.0.0.0 dreamartdesigns.com
 0.0.0.0 dreambasetechnologies.net
 0.0.0.0 dreamboostzu.vercel.app
@@ -260437,6 +260438,7 @@
 0.0.0.0 gig.ulitron.ru
 0.0.0.0 giga-host.com
 0.0.0.0 giga.dedspac.ru
+0.0.0.0 giga.miraibotnet.su
 0.0.0.0 giga4ad228.github.io
 0.0.0.0 gigabess.com
 0.0.0.0 gigahax.com
@@ -263273,7 +263275,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -398183,7 +398184,6 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
-0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -408774,7 +408774,6 @@
 0.0.0.0 paperlesstimecard.com
 0.0.0.0 paperonni.space
 0.0.0.0 paperquest.vercel.app
-0.0.0.0 paperrig.com
 0.0.0.0 paperrzdesigns.com
 0.0.0.0 papers.contentstudies.net
 0.0.0.0 papervolcano.vip
@@ -470337,6 +470336,7 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
+0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodmetalowychdrzwi.pro
@@ -511170,6 +511170,7 @@
 0.0.0.0 www.nbillioni.fitwik.com
 0.0.0.0 www.nbpmennica.pl
 0.0.0.0 www.nbrtrack.com
+0.0.0.0 www.nccommunication.be
 0.0.0.0 www.ncelwndsirinfew.com
 0.0.0.0 www.nctracking.com
 0.0.0.0 www.ndalel.shop
@@ -512792,6 +512793,7 @@
 0.0.0.0 www.papatyaeczanesi.online
 0.0.0.0 www.papayaengi.ateliefidalga.com
 0.0.0.0 www.paperg.com
+0.0.0.0 www.paperrig.com
 0.0.0.0 www.papervolcano.vip
 0.0.0.0 www.papla.pl
 0.0.0.0 www.papowa.com
