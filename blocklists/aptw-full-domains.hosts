@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-21 06:34:12
-# Entries: 526942
+# Generated: 2026-06-21 12:32:52
+# Entries: 526943
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45606,7 +45606,6 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
-0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -260437,7 +260436,6 @@
 0.0.0.0 gig.ulitron.ru
 0.0.0.0 giga-host.com
 0.0.0.0 giga.dedspac.ru
-0.0.0.0 giga.miraibotnet.su
 0.0.0.0 giga4ad228.github.io
 0.0.0.0 gigabess.com
 0.0.0.0 gigahax.com
@@ -263274,6 +263272,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -319653,6 +319652,7 @@
 0.0.0.0 kickoffo.site
 0.0.0.0 kickpukapp.top
 0.0.0.0 kicks-se.shop
+0.0.0.0 kickstrean.art
 0.0.0.0 kickstructure.com
 0.0.0.0 kickthebucketnow.info
 0.0.0.0 kickthetrend.shop
@@ -393765,6 +393765,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -398182,6 +398183,7 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -428055,7 +428057,6 @@
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
 0.0.0.0 proteztirnakmerkezi.com
-0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -470336,7 +470337,6 @@
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spngtrd.xyz
-0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodmetalowychdrzwi.pro
@@ -486312,6 +486312,7 @@
 0.0.0.0 un.nqoxur2.sa.com
 0.0.0.0 un.ulitron.ru
 0.0.0.0 un1lch.weebly.com
+0.0.0.0 un1rw11q4u.com
 0.0.0.0 una.dedspac.ru
 0.0.0.0 unable-beggar.surge.sh
 0.0.0.0 unaccountable-nidnever.surge.sh
