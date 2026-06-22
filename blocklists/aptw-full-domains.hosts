@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-22 01:27:35
-# Entries: 525569
+# Generated: 2026-06-22 06:03:57
+# Entries: 525575
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -168757,6 +168757,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -213190,6 +213191,7 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
+0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -306865,6 +306867,7 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
+0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -316558,6 +316561,7 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
+0.0.0.0 kambohmag.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
@@ -390023,6 +390027,7 @@
 0.0.0.0 no5ed3l0ob.1934.gencmert.com
 0.0.0.0 no61jqdrobxwiqi4.colplat.com
 0.0.0.0 no6xb.csb.app
+0.0.0.0 no7shmh.shop
 0.0.0.0 noa.tokenpouket.com
 0.0.0.0 noaa.dedspac.ru
 0.0.0.0 noack-commercial.org
@@ -390201,6 +390206,7 @@
 0.0.0.0 node.gameads.io
 0.0.0.0 node.smarteresolver.com
 0.0.0.0 node.ulitron.ru
+0.0.0.0 node2-py-store.com
 0.0.0.0 node2bind.tech
 0.0.0.0 nodeaccessactivation.live
 0.0.0.0 nodeapend.online
@@ -465231,7 +465237,6 @@
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeoeight.bastemur.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
-0.0.0.0 shaderm.com
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-quester.com
 0.0.0.0 shadow16programmer.github.io
@@ -521342,6 +521347,7 @@
 0.0.0.0 www.yrutuifudgidgiusfi.site
 0.0.0.0 www.yruwdhkwersjiadwe.site
 0.0.0.0 www.yryds.median-pay.xyz
+0.0.0.0 www.ysbaojia.com
 0.0.0.0 www.yscou.com
 0.0.0.0 www.yskip.bessts-diplomas.com
 0.0.0.0 www.ysmokee.bullshityourbrain.com
