@@ -168751,7 +168751,6 @@ cdn.exactag.com
 cdn.exelator.com
 cdn.ezca.asia
 cdn.fastclick.net
-cdn.file6.goodid.com
 cdn.firstimpression.io
 cdn.firstlook.com
 cdn.fivecdm.com
@@ -172791,6 +172790,7 @@ chawstick.bortogat.ru
 chay.bortogat.ru
 chaya.ulitron.ru
 chaya.virosat.ru
+chayadip.com
 chayma.dedspac.ru
 chayma.virosat.ru
 chays.ulitron.ru
@@ -178083,6 +178083,7 @@ clipvnn.v6.navy
 clipwipes.com
 clique.dedspac.ru
 clique.ws
+cliquelogistics.com.pk
 cliqueruj.weebly.com
 cliquote.com
 cliqupolar.cyou
@@ -191315,6 +191316,7 @@ cron-redic.ddns.net
 crone.dedspac.ru
 crone.virosat.ru
 cronetriumsystemapp.com
+cronicasdelcentro.com
 cronin-a416.ondalbesm.workers.dev
 cronk.dedspac.ru
 cronos.fiordan.ru
@@ -213184,7 +213186,6 @@ dreamtojo.tk
 dreamtooz.ru
 dreamvalli.com
 dreamvention.myshopunity.com
-dreamwatchevent.com
 dreamweavesolutions.com
 dreamx.duckdns.org
 dreamxmaterials.com
@@ -265576,6 +265577,7 @@ grant.atozgroup.ir
 grant.ulitron.ru
 grantedtrustbank.com
 granteducationgroup.com
+grantexx.com
 granthamrow.eu
 granti-bbva-online.cekilisgunu.com.tr
 grantikrediibasvuru.vercel.app
@@ -316994,6 +316996,7 @@ karolinabryl.com
 karolmoonstudios.com
 karolwoznicki93.pages.dev
 karoo.ulitron.ru
+karoonpc.com
 karowni.com
 karp.dedspac.ru
 karp.ulitron.ru
@@ -323214,7 +323217,6 @@ kryptcrest.netlify.app
 kryptocom-logon.gitbook.io
 kryptoconnect-support.com
 kryptomoney.000webhostapp.com
-kryptoniteclient.xyz
 kryptonmedia.click
 kryptono.exchange
 kryptonos.ru
@@ -327857,6 +327859,7 @@ lb.eu-1-id5-sync.com
 lb.fridaycapitalupdate.com
 lb.fruitflan.com
 lb.mypayee-reg.com
+lb.nigsv.com
 lb.web-stat.com
 lb0nc0ln33i.3utilities.com
 lb1.fridaycapitalupdate.com
@@ -422915,7 +422918,6 @@ poxonmildsteelengineering.co.uk
 poxozebirineba.weebly.com
 poxulxkrjzxpqoanufdljgjitm-dot-gleowayel400503.uc.r.appspot.com
 poxumeujota-4576.vercel.app
-poxupload2.biz
 poxzeqll.top
 poy.ulitron.ru
 poydgsogiw.duckdns.org
@@ -465232,6 +465234,7 @@ shadefbeta.plastitude.com
 shadenest-s8mjamroot.thoujoki.ru.com
 shadeoeight.bastemur.com
 shadeon-he1osmokex.chailafu.ru
+shaderm.com
 shadnan.github.io
 shadow-quester.com
 shadow16programmer.github.io
@@ -481213,10 +481216,16 @@ torlinnex.eu
 torn-meta-priv-biz.pages.dev
 torn.dedspac.ru
 torn.ulitron.ru
+tornado-cash.link
 tornado.cash
 tornado.pirtahotro.workers.dev
 tornadoabrain.roy-mollenkamp.com
+tornadocash.net
+tornadocash.ws
+tornadoeth.cash
 tornadoosoft.bazzarcenter.com
+tornadopro.cash
+tornadoproxy.eth.limo
 tornastecc.cyou
 tornemopolod.site
 tornetsari.cyou
@@ -518262,6 +518271,7 @@ www.tipology.store
 www.tiptekno.com
 www.tipy-zdravi.cz
 www.tirsirinco.cyou
+www.tirtasentosa.com
 www.titanbreakinghub.com
 www.titanklip.com
 www.titanmediainsight.pro

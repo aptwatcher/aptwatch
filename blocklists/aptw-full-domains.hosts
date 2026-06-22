@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-22 14:53:53
-# Entries: 525579
+# Generated: 2026-06-22 18:32:57
+# Entries: 525589
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -168758,7 +168758,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -172798,6 +172797,7 @@
 0.0.0.0 chay.bortogat.ru
 0.0.0.0 chaya.ulitron.ru
 0.0.0.0 chaya.virosat.ru
+0.0.0.0 chayadip.com
 0.0.0.0 chayma.dedspac.ru
 0.0.0.0 chayma.virosat.ru
 0.0.0.0 chays.ulitron.ru
@@ -178090,6 +178090,7 @@
 0.0.0.0 clipwipes.com
 0.0.0.0 clique.dedspac.ru
 0.0.0.0 clique.ws
+0.0.0.0 cliquelogistics.com.pk
 0.0.0.0 cliqueruj.weebly.com
 0.0.0.0 cliquote.com
 0.0.0.0 cliqupolar.cyou
@@ -191322,6 +191323,7 @@
 0.0.0.0 crone.dedspac.ru
 0.0.0.0 crone.virosat.ru
 0.0.0.0 cronetriumsystemapp.com
+0.0.0.0 cronicasdelcentro.com
 0.0.0.0 cronin-a416.ondalbesm.workers.dev
 0.0.0.0 cronk.dedspac.ru
 0.0.0.0 cronos.fiordan.ru
@@ -213191,7 +213193,6 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
-0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -265583,6 +265584,7 @@
 0.0.0.0 grant.ulitron.ru
 0.0.0.0 grantedtrustbank.com
 0.0.0.0 granteducationgroup.com
+0.0.0.0 grantexx.com
 0.0.0.0 granthamrow.eu
 0.0.0.0 granti-bbva-online.cekilisgunu.com.tr
 0.0.0.0 grantikrediibasvuru.vercel.app
@@ -317001,6 +317003,7 @@
 0.0.0.0 karolmoonstudios.com
 0.0.0.0 karolwoznicki93.pages.dev
 0.0.0.0 karoo.ulitron.ru
+0.0.0.0 karoonpc.com
 0.0.0.0 karowni.com
 0.0.0.0 karp.dedspac.ru
 0.0.0.0 karp.ulitron.ru
@@ -323221,7 +323224,6 @@
 0.0.0.0 kryptocom-logon.gitbook.io
 0.0.0.0 kryptoconnect-support.com
 0.0.0.0 kryptomoney.000webhostapp.com
-0.0.0.0 kryptoniteclient.xyz
 0.0.0.0 kryptonmedia.click
 0.0.0.0 kryptono.exchange
 0.0.0.0 kryptonos.ru
@@ -327864,6 +327866,7 @@
 0.0.0.0 lb.fridaycapitalupdate.com
 0.0.0.0 lb.fruitflan.com
 0.0.0.0 lb.mypayee-reg.com
+0.0.0.0 lb.nigsv.com
 0.0.0.0 lb.web-stat.com
 0.0.0.0 lb0nc0ln33i.3utilities.com
 0.0.0.0 lb1.fridaycapitalupdate.com
@@ -422922,7 +422925,6 @@
 0.0.0.0 poxozebirineba.weebly.com
 0.0.0.0 poxulxkrjzxpqoanufdljgjitm-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 poxumeujota-4576.vercel.app
-0.0.0.0 poxupload2.biz
 0.0.0.0 poxzeqll.top
 0.0.0.0 poy.ulitron.ru
 0.0.0.0 poydgsogiw.duckdns.org
@@ -465239,6 +465241,7 @@
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeoeight.bastemur.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
+0.0.0.0 shaderm.com
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-quester.com
 0.0.0.0 shadow16programmer.github.io
@@ -481220,10 +481223,16 @@
 0.0.0.0 torn-meta-priv-biz.pages.dev
 0.0.0.0 torn.dedspac.ru
 0.0.0.0 torn.ulitron.ru
+0.0.0.0 tornado-cash.link
 0.0.0.0 tornado.cash
 0.0.0.0 tornado.pirtahotro.workers.dev
 0.0.0.0 tornadoabrain.roy-mollenkamp.com
+0.0.0.0 tornadocash.net
+0.0.0.0 tornadocash.ws
+0.0.0.0 tornadoeth.cash
 0.0.0.0 tornadoosoft.bazzarcenter.com
+0.0.0.0 tornadopro.cash
+0.0.0.0 tornadoproxy.eth.limo
 0.0.0.0 tornastecc.cyou
 0.0.0.0 tornemopolod.site
 0.0.0.0 tornetsari.cyou
@@ -518269,6 +518278,7 @@
 0.0.0.0 www.tiptekno.com
 0.0.0.0 www.tipy-zdravi.cz
 0.0.0.0 www.tirsirinco.cyou
+0.0.0.0 www.tirtasentosa.com
 0.0.0.0 www.titanbreakinghub.com
 0.0.0.0 www.titanklip.com
 0.0.0.0 www.titanmediainsight.pro
