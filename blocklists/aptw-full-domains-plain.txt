@@ -486284,7 +486284,6 @@ updates-windows.com
 updates.slekkeud.workers.dev
 updatesamzsupportmailaccouncustome.4-155-105-207.cprapid.com
 updatesecure.pro
-updateservice1-telegramweb.com
 updateservicecenter.blogspot.com
 updateservices.in
 updatesoftware24.com
@@ -489041,6 +489040,7 @@ vandb4447.wixsite.com
 vandersonguerrier.github.io
 vane.ulitron.ru
 vaned.dedspac.ru
+vaneijkprojecten.nl
 vanessacybulski.com
 vanfireworks.com
 vangoghmuseeuumsee.cyou
