@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-22 06:33:50
-# Entries: 525575
+# Generated: 2026-06-22 12:33:00
+# Entries: 525579
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -124716,6 +124716,7 @@
 0.0.0.0 bade.bortogat.ru
 0.0.0.0 bade.matsuro.ru
 0.0.0.0 bade.ulitron.ru
+0.0.0.0 badeer.fit
 0.0.0.0 badehomedecoration.com
 0.0.0.0 badell.zaperocomedia.com
 0.0.0.0 bademola135.wixsite.com
@@ -190718,7 +190719,6 @@
 0.0.0.0 credenciaisltaucard.getenjoyment.net
 0.0.0.0 credenciales-microsoftt.zz.com.ve
 0.0.0.0 credenciales-outlook1.vercel.app
-0.0.0.0 credencys.com
 0.0.0.0 credential-phishing.file-auto-download-test-sandbox.workers.dev
 0.0.0.0 credentiall-into.zya.me
 0.0.0.0 credentials.webadmin-email.net
@@ -328738,6 +328738,7 @@
 0.0.0.0 leahcruikshankphotography.com
 0.0.0.0 leaitworldprod.112.2o7.net
 0.0.0.0 leak.dedspac.ru
+0.0.0.0 leakads.com
 0.0.0.0 leaks.sngpr.my.id
 0.0.0.0 leal.boletuso.ru
 0.0.0.0 leal.ulitron.ru
@@ -331630,6 +331631,7 @@
 0.0.0.0 libs.lavanetwork.net
 0.0.0.0 libs.outbrain.com
 0.0.0.0 libsa.in
+0.0.0.0 libss.0x504.com
 0.0.0.0 libsurg.com
 0.0.0.0 libya.ulitron.ru
 0.0.0.0 libya.virosat.ru
@@ -390027,7 +390029,6 @@
 0.0.0.0 no5ed3l0ob.1934.gencmert.com
 0.0.0.0 no61jqdrobxwiqi4.colplat.com
 0.0.0.0 no6xb.csb.app
-0.0.0.0 no7shmh.shop
 0.0.0.0 noa.tokenpouket.com
 0.0.0.0 noaa.dedspac.ru
 0.0.0.0 noack-commercial.org
@@ -390206,7 +390207,6 @@
 0.0.0.0 node.gameads.io
 0.0.0.0 node.smarteresolver.com
 0.0.0.0 node.ulitron.ru
-0.0.0.0 node2-py-store.com
 0.0.0.0 node2bind.tech
 0.0.0.0 nodeaccessactivation.live
 0.0.0.0 nodeapend.online
@@ -422921,6 +422921,7 @@
 0.0.0.0 poxozebirineba.weebly.com
 0.0.0.0 poxulxkrjzxpqoanufdljgjitm-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 poxumeujota-4576.vercel.app
+0.0.0.0 poxupload2.biz
 0.0.0.0 poxzeqll.top
 0.0.0.0 poy.ulitron.ru
 0.0.0.0 poydgsogiw.duckdns.org
@@ -465237,6 +465238,7 @@
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeoeight.bastemur.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
+0.0.0.0 shaderm.com
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-quester.com
 0.0.0.0 shadow16programmer.github.io
@@ -480324,6 +480326,7 @@
 0.0.0.0 tirotar.ru
 0.0.0.0 tirrejr-wallitss.webflow.io
 0.0.0.0 tirsirinco.cyou
+0.0.0.0 tirtasentosa.com
 0.0.0.0 tirzriiostct.webflow.io
 0.0.0.0 tis.amaniwa.ru
 0.0.0.0 tisa-mebli.com
@@ -486288,6 +486291,7 @@
 0.0.0.0 updates.slekkeud.workers.dev
 0.0.0.0 updatesamzsupportmailaccouncustome.4-155-105-207.cprapid.com
 0.0.0.0 updatesecure.pro
+0.0.0.0 updateservice1-telegramweb.com
 0.0.0.0 updateservicecenter.blogspot.com
 0.0.0.0 updateservices.in
 0.0.0.0 updatesoftware24.com
