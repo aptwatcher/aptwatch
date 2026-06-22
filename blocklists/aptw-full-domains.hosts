@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-22 12:33:00
+# Generated: 2026-06-22 14:43:10
 # Entries: 525579
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -254431,6 +254431,7 @@
 0.0.0.0 gahu.hit.gemius.pl
 0.0.0.0 gahwjj.blogspot.gr
 0.0.0.0 gaia.dedspac.ru
+0.0.0.0 gaiadeqi.com
 0.0.0.0 gaiaherbs.fr
 0.0.0.0 gaiarec.org
 0.0.0.0 gaiaretailer.shop
@@ -323220,6 +323221,7 @@
 0.0.0.0 kryptocom-logon.gitbook.io
 0.0.0.0 kryptoconnect-support.com
 0.0.0.0 kryptomoney.000webhostapp.com
+0.0.0.0 kryptoniteclient.xyz
 0.0.0.0 kryptonmedia.click
 0.0.0.0 kryptono.exchange
 0.0.0.0 kryptonos.ru
@@ -328738,7 +328740,6 @@
 0.0.0.0 leahcruikshankphotography.com
 0.0.0.0 leaitworldprod.112.2o7.net
 0.0.0.0 leak.dedspac.ru
-0.0.0.0 leakads.com
 0.0.0.0 leaks.sngpr.my.id
 0.0.0.0 leal.boletuso.ru
 0.0.0.0 leal.ulitron.ru
@@ -465238,7 +465239,6 @@
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeoeight.bastemur.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
-0.0.0.0 shaderm.com
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-quester.com
 0.0.0.0 shadow16programmer.github.io
