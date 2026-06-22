@@ -242,6 +242,9 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
           <div style="margin-top:6px;border-top:1px solid var(--border);padding-top:8px">
             <span style="color:var(--red)">CONFIRMED ONE OPERATOR (2026-06-16):</span> a DB-wide CA sweep (1,658 live hosts) proves the per-brand campaigns share <b>fabricated CA certs</b> reused byte-identical across them &mdash; fake &ldquo;Microsoft G2 OCSP 04&rdquo; CA (146 hosts/49 /24s, spans #49/52/54/55/62/64/67/97), fake &ldquo;LE YR2&rdquo; minting max.ru, fake &ldquo;LE YE2&rdquo; minting CDN-fronted lures, &ldquo;VK interm CA&rdquo;. Consolidated under umbrella <b>#110 Cross-Bulletproof TLS-Camouflage Operator</b> (per-brand campaigns linked as facets). Backend: dockerized Telegram-bot stack + VLESS/3X-UI Xray proxy layer + own lure domains behind Cloudflare.
           </div>
+          <div style="margin-top:6px">
+            <span style="color:var(--accent)">Strategy (2026-06-21):</span> self-contained operation &mdash; mints its OWN fake CAs to mass-produce brand-spoof + lure certs, and is <b>invisible to commodity abuse feeds</b> (ThreatFox/OTX = 0 hits on its IPs and lure domains), so cert-CA SHA-1 clustering is the primary way to track it. Lure layer = <b>VPN/proxy/VLESS/CDN-fronting</b> (29 operator domains: artvpn, vnet-vpn, clementinevpn, e-vless/xvless, 3X-UI&hellip;) attributed on CA-mint binding. All on <span style="color:var(--red)">AEZA AS210644 (OFAC)</span>.
+          </div>
           <div style="margin-top:6px" id="campaign-brandtls-stats"></div>
         </div>
       </div>
