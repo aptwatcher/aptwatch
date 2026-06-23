@@ -6,6 +6,7 @@ api.operilezabre.com
 api.portimaloter.com
 api.tuipoekolqrx.com
 api.yuretemelo.com
+apivuecomponent.com
 assistant.praiselimollc.com
 b2b.genethairsalon.com
 backoffice.ptbaconsulting.com

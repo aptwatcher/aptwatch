@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-23 03:22:32
-# Entries: 525627
+# Generated: 2026-06-23 06:04:15
+# Entries: 525625
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -175684,6 +175684,7 @@
 0.0.0.0 cl.s10.exct.net
 0.0.0.0 cl.selfhost.co.in
 0.0.0.0 cl.serveirc.com
+0.0.0.0 cl.ssouy.com
 0.0.0.0 cl.turkishairlines.com
 0.0.0.0 cl.ws000nsxc.cloudns.asia
 0.0.0.0 cl05460.tmweb.ru
@@ -306889,6 +306890,7 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
+0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -331654,7 +331656,6 @@
 0.0.0.0 libs.lavanetwork.net
 0.0.0.0 libs.outbrain.com
 0.0.0.0 libsa.in
-0.0.0.0 libss.0x504.com
 0.0.0.0 libsurg.com
 0.0.0.0 libya.ulitron.ru
 0.0.0.0 libya.virosat.ru
@@ -480360,7 +480361,6 @@
 0.0.0.0 tirotar.ru
 0.0.0.0 tirrejr-wallitss.webflow.io
 0.0.0.0 tirsirinco.cyou
-0.0.0.0 tirtasentosa.com
 0.0.0.0 tirzriiostct.webflow.io
 0.0.0.0 tis.amaniwa.ru
 0.0.0.0 tisa-mebli.com
@@ -489339,7 +489339,6 @@
 0.0.0.0 vdopia.com
 0.0.0.0 vdpdv.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
-0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 vdtwrrrv.com
 0.0.0.0 vdwse.com
@@ -518313,7 +518312,6 @@
 0.0.0.0 www.tiptekno.com
 0.0.0.0 www.tipy-zdravi.cz
 0.0.0.0 www.tirsirinco.cyou
-0.0.0.0 www.tirtasentosa.com
 0.0.0.0 www.titanbreakinghub.com
 0.0.0.0 www.titanklip.com
 0.0.0.0 www.titanmediainsight.pro
