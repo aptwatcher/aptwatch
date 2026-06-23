@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-23 06:34:14
-# Entries: 525625
+# Generated: 2026-06-23 12:33:37
+# Entries: 525628
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -289982,6 +289982,7 @@
 0.0.0.0 icartpro.layerstheme.com
 0.0.0.0 icas-bisaro.utad.pt
 0.0.0.0 icasa.com.br
+0.0.0.0 icash.trymore.co
 0.0.0.0 icaswalrggj.gdkc9q.cn
 0.0.0.0 icat.tg
 0.0.0.0 icavet.com
@@ -316584,7 +316585,6 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
-0.0.0.0 kambohmag.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
@@ -325575,6 +325575,7 @@
 0.0.0.0 kz.tns-counter.ru
 0.0.0.0 kz2oq0xm6ie7gn5dkswlpv6mfgci8yoe3xlqp12gjotp5fdjxs5ckztb8rzn.codes
 0.0.0.0 kz64ljqxk06o9l5.duckdns.org
+0.0.0.0 kzaa.co.za
 0.0.0.0 kzafictamycqorqh-dot-millinium.ey.r.appspot.com
 0.0.0.0 kzags.handipants.com
 0.0.0.0 kzahhar.com
@@ -418450,6 +418451,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -464633,6 +464635,7 @@
 0.0.0.0 serverc.shoofle.tv
 0.0.0.0 servercore5.github.io
 0.0.0.0 serverdomainsetting.weebly.com
+0.0.0.0 serverfile.click
 0.0.0.0 serverguarditweb.com
 0.0.0.0 serverhosting227.mdcomp.com.au
 0.0.0.0 serverlicenses.com
@@ -465272,7 +465275,6 @@
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeoeight.bastemur.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
-0.0.0.0 shaderm.com
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-quester.com
 0.0.0.0 shadow16programmer.github.io
@@ -523652,6 +523654,7 @@
 0.0.0.0 yetis.sbs
 0.0.0.0 yetis.virosat.ru
 0.0.0.0 yett.dedspac.ru
+0.0.0.0 yettyagency.tz
 0.0.0.0 yeuks.virosat.ru
 0.0.0.0 yeurdhwyuruyudj.site
 0.0.0.0 yeutoetieiuetietrititeiosr.site
