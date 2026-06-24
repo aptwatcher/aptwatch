@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-24 06:06:26
-# Entries: 525632
+# Generated: 2026-06-24 06:33:50
+# Entries: 525634
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -141766,6 +141766,7 @@
 0.0.0.0 betwefg.duckdns.org
 0.0.0.0 betwet.online
 0.0.0.0 betwit.dedspac.ru
+0.0.0.0 betwotech.com
 0.0.0.0 betyabuddy.com
 0.0.0.0 betyabuddy.us
 0.0.0.0 beu4fr7dobpcqeqk1obubk.qwo231sdx.club
@@ -168774,6 +168775,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
