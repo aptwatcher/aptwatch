@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-24 06:33:50
+# Generated: 2026-06-24 12:32:52
 # Entries: 525634
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -151579,6 +151579,7 @@
 0.0.0.0 bonasklep.pl
 0.0.0.0 bonatida.cloudns.asia
 0.0.0.0 bonatura.com
+0.0.0.0 bonavol.xyz
 0.0.0.0 bonay.dunhill.cyou
 0.0.0.0 bonazagt.com
 0.0.0.0 bonazxs.top
@@ -189774,7 +189775,6 @@
 0.0.0.0 cpbxu-jyaaa-aaaad-qerqa-cai.raw.ic0.app
 0.0.0.0 cpc-lda.cc
 0.0.0.0 cpc.cx
-0.0.0.0 cpc188.day
 0.0.0.0 cpc86615-seve25-2-0-cust14.13-3.cable.virginm.net
 0.0.0.0 cpcagricole.mncdn.com
 0.0.0.0 cpcalendars.3-14-127-80.cprapid.com
@@ -463921,6 +463921,7 @@
 0.0.0.0 securedbillemailal.wixsite.com
 0.0.0.0 securedenvironment.com
 0.0.0.0 securedeposit-et.com
+0.0.0.0 securedisk.cfd
 0.0.0.0 securedloading.com
 0.0.0.0 securedlogin.org
 0.0.0.0 securedocumentloadingverification.ticeabai.co.za
@@ -521405,7 +521406,6 @@
 0.0.0.0 www.yrutuifudgidgiusfi.site
 0.0.0.0 www.yruwdhkwersjiadwe.site
 0.0.0.0 www.yryds.median-pay.xyz
-0.0.0.0 www.ysbaojia.com
 0.0.0.0 www.yscou.com
 0.0.0.0 www.yskip.bessts-diplomas.com
 0.0.0.0 www.ysmokee.bullshityourbrain.com
