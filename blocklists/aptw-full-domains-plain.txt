@@ -168767,7 +168767,6 @@ cdn.exactag.com
 cdn.exelator.com
 cdn.ezca.asia
 cdn.fastclick.net
-cdn.file6.goodid.com
 cdn.firstimpression.io
 cdn.firstlook.com
 cdn.fivecdm.com
@@ -306893,6 +306892,7 @@ jawabarat.online
 jawaharchannel.in
 jawan.dedspac.ru
 jawan.ulitron.ru
+jawaratekno.com
 jawasunda.my.id
 jawatan-kosong-perkhidmatan.com
 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -316585,6 +316585,7 @@ kamazcentr.nichost.ru
 kamba.virosat.ru
 kambai2.github.io
 kambkhat.duckdns.org
+kambohmag.net
 kamcintosh.com
 kamddapll-com.azurewebsites.net
 kamdj.wpenginepowered.com
@@ -343793,6 +343794,7 @@ m.marketplace.mahrouztr.com
 m.marketplacepremium24.com
 m.mcxin.net
 m.mes2018.com
+m.meta-dm.com
 m.metamasck.com
 m.metascenters04.com
 m.metoocakae.com
@@ -397652,7 +397654,6 @@ okna-vsaratove.com
 oknaparapetypoczesna.pl
 okno.uk
 oknogrup.pl
-oknoplastik.sk
 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 okogm.com
 okok0-3uujff.pages.dev
@@ -491004,7 +491005,6 @@ void-hub-9oo.pages.dev
 void.dedspac.ru
 void.ulitron.ru
 voidfes.puertoricoffroad.com
-voidgame.cc
 voids.virosat.ru
 voidsshape.forum
 voijreuhw.duckdns.org
