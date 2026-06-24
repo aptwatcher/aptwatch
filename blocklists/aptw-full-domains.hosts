@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-24 12:32:52
-# Entries: 525634
+# Generated: 2026-06-24 18:32:46
+# Entries: 525633
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -141766,7 +141766,6 @@
 0.0.0.0 betwefg.duckdns.org
 0.0.0.0 betwet.online
 0.0.0.0 betwit.dedspac.ru
-0.0.0.0 betwotech.com
 0.0.0.0 betyabuddy.com
 0.0.0.0 betyabuddy.us
 0.0.0.0 beu4fr7dobpcqeqk1obubk.qwo231sdx.club
@@ -151579,7 +151578,6 @@
 0.0.0.0 bonasklep.pl
 0.0.0.0 bonatida.cloudns.asia
 0.0.0.0 bonatura.com
-0.0.0.0 bonavol.xyz
 0.0.0.0 bonay.dunhill.cyou
 0.0.0.0 bonazagt.com
 0.0.0.0 bonazxs.top
@@ -257628,6 +257626,7 @@
 0.0.0.0 gencu.dynvpn.de
 0.0.0.0 gendang88.com
 0.0.0.0 gendarmeriegouveur.wixsite.com
+0.0.0.0 genddos.st
 0.0.0.0 gendelivery.live
 0.0.0.0 genderdatakenya.org
 0.0.0.0 gendo-mode.web.app
@@ -276793,6 +276792,7 @@
 0.0.0.0 heartal.space
 0.0.0.0 heartandsoul.org.au
 0.0.0.0 heartbeat360media.com
+0.0.0.0 heartbeatlinkbot.online
 0.0.0.0 heartbreaking-curvy-airport.glitch.me
 0.0.0.0 heartbreaking-grizzly-staircase.glitch.me
 0.0.0.0 heartbreaking-handsome-archduchess.glitch.me
@@ -306900,7 +306900,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -418458,7 +418457,6 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
-0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -463921,7 +463919,6 @@
 0.0.0.0 securedbillemailal.wixsite.com
 0.0.0.0 securedenvironment.com
 0.0.0.0 securedeposit-et.com
-0.0.0.0 securedisk.cfd
 0.0.0.0 securedloading.com
 0.0.0.0 securedlogin.org
 0.0.0.0 securedocumentloadingverification.ticeabai.co.za
@@ -491014,6 +491011,7 @@
 0.0.0.0 void.dedspac.ru
 0.0.0.0 void.ulitron.ru
 0.0.0.0 voidfes.puertoricoffroad.com
+0.0.0.0 voidgame.cc
 0.0.0.0 voids.virosat.ru
 0.0.0.0 voidsshape.forum
 0.0.0.0 voijreuhw.duckdns.org
@@ -524558,6 +524556,7 @@
 0.0.0.0 zaladujpakla.com
 0.0.0.0 zalanado.fr
 0.0.0.0 zalando-nl.top
+0.0.0.0 zalando.bags-outlet.shop
 0.0.0.0 zalando.shoppinglapa.com
 0.0.0.0 zalando.stadiumshop.sbs
 0.0.0.0 zalandon.fr
