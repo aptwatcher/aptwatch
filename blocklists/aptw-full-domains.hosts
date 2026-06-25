@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-25 00:34:38
-# Entries: 525629
+# Generated: 2026-06-25 06:04:32
+# Entries: 525632
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48521,6 +48521,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -101281,6 +101282,7 @@
 0.0.0.0 asha.ahmadbarzan26.workers.dev
 0.0.0.0 ashab.shop
 0.0.0.0 ashabverified.blogspot.com
+0.0.0.0 ashahaarmans.nl
 0.0.0.0 ashaherq.com
 0.0.0.0 ashaholidays.com
 0.0.0.0 ashaimarineintl.com
@@ -178103,7 +178105,6 @@
 0.0.0.0 clipwipes.com
 0.0.0.0 clique.dedspac.ru
 0.0.0.0 clique.ws
-0.0.0.0 cliquelogistics.com.pk
 0.0.0.0 cliqueruj.weebly.com
 0.0.0.0 cliquote.com
 0.0.0.0 cliqupolar.cyou
@@ -331664,6 +331665,7 @@
 0.0.0.0 libs.lavanetwork.net
 0.0.0.0 libs.outbrain.com
 0.0.0.0 libsa.in
+0.0.0.0 libss.0x504.com
 0.0.0.0 libsurg.com
 0.0.0.0 libya.ulitron.ru
 0.0.0.0 libya.virosat.ru
@@ -397662,6 +397664,7 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
