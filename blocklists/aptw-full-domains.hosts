@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-25 06:34:53
-# Entries: 525629
+# Generated: 2026-06-25 12:32:57
+# Entries: 525633
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32779,6 +32779,7 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
+0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -48521,7 +48522,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -229088,6 +229088,7 @@
 0.0.0.0 every-onebritish.club
 0.0.0.0 every.dedspac.ru
 0.0.0.0 every.ulitron.ru
+0.0.0.0 everycarebd.com
 0.0.0.0 everydayblessing.org
 0.0.0.0 everydayfamilynutrition.com
 0.0.0.0 everydaygays.com
@@ -251348,6 +251349,7 @@
 0.0.0.0 friendsoflifechoices.org
 0.0.0.0 friendsofmelvinchigh.com
 0.0.0.0 friendsofryetownhall.org
+0.0.0.0 friendsofsclarc.org
 0.0.0.0 friendssteakhouse.com
 0.0.0.0 friendtest.us.intellitxt.com
 0.0.0.0 friendvote.xyz
@@ -306900,7 +306902,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -370109,7 +370110,6 @@
 0.0.0.0 mnbvcxxcvbhgf.weebly.com
 0.0.0.0 mnby8g.webwave.dev
 0.0.0.0 mncelektronik.com
-0.0.0.0 mnch.at
 0.0.0.0 mncmnc.onrender.com
 0.0.0.0 mncssssssssssssk.byethost8.com
 0.0.0.0 mncveozntdotusgm-dot-millinium.ey.r.appspot.com
@@ -371726,6 +371726,7 @@
 0.0.0.0 mojpremiumdom.pl
 0.0.0.0 mojprojekt19.000webhostapp.com
 0.0.0.0 mojseans.pl
+0.0.0.0 mojtabaabbasi.com
 0.0.0.0 mojuelypbkiexcybumjbqmzsiqavpkrmxwfo.solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 mojvkak.blogspot.com
 0.0.0.0 mojvkak.blogspot.tw
@@ -473392,6 +473393,7 @@
 0.0.0.0 storefront.heato.ru
 0.0.0.0 storelive.co
 0.0.0.0 storeon-lineshop.xyz
+0.0.0.0 stores-dofus.fr
 0.0.0.0 storeshopon-line.xyz
 0.0.0.0 storesmyk-pl.top
 0.0.0.0 storetail.io
@@ -484642,6 +484644,7 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
+0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyerudaidjwirwr.site
@@ -494528,6 +494531,7 @@
 0.0.0.0 wide-dinner-shrilling.on-fleek.app
 0.0.0.0 wide.ulitron.ru
 0.0.0.0 widen.dedspac.ru
+0.0.0.0 widerangegroup.com
 0.0.0.0 widespace.com
 0.0.0.0 widestep.com
 0.0.0.0 widexenmexico.com.mx
