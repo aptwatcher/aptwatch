@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-26 06:34:08
-# Entries: 525619
+# Generated: 2026-06-26 12:33:03
+# Entries: 525622
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -207661,6 +207661,7 @@
 0.0.0.0 dio.admicro.vn
 0.0.0.0 dio.azrealonce.workers.dev
 0.0.0.0 dioaboa34.de
+0.0.0.0 diobenu2silva.com
 0.0.0.0 diocesan-charge.000webhostapp.com
 0.0.0.0 dioceseofpueblo-og.cf
 0.0.0.0 dioceseoftrincomalee.org.lk
@@ -253238,7 +253239,6 @@
 0.0.0.0 fxxff4.wixsite.com
 0.0.0.0 fxxmpavktyihgyqitmuaimubui-dot-gl44393333333.rj.r.appspot.com
 0.0.0.0 fxxy.plaisnrf.net
-0.0.0.0 fxyachts.com
 0.0.0.0 fxybank.servehttp.com
 0.0.0.0 fxyfqqktsmedfray-dot-millinium.ey.r.appspot.com
 0.0.0.0 fxyyqpha.99w97k.cn
@@ -316590,6 +316590,7 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
+0.0.0.0 kambohmag.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
@@ -331658,7 +331659,6 @@
 0.0.0.0 libs.lavanetwork.net
 0.0.0.0 libs.outbrain.com
 0.0.0.0 libsa.in
-0.0.0.0 libss.0x504.com
 0.0.0.0 libsurg.com
 0.0.0.0 libya.ulitron.ru
 0.0.0.0 libya.virosat.ru
@@ -371717,7 +371717,6 @@
 0.0.0.0 mojpremiumdom.pl
 0.0.0.0 mojprojekt19.000webhostapp.com
 0.0.0.0 mojseans.pl
-0.0.0.0 mojtabaabbasi.com
 0.0.0.0 mojuelypbkiexcybumjbqmzsiqavpkrmxwfo.solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 mojvkak.blogspot.com
 0.0.0.0 mojvkak.blogspot.tw
@@ -397654,6 +397653,7 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -418452,6 +418452,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -464291,6 +464292,7 @@
 0.0.0.0 semasio.net
 0.0.0.0 semaviyro.autos
 0.0.0.0 semaxin.pl
+0.0.0.0 semencepourlavie.org
 0.0.0.0 semi.amaniwa.ru
 0.0.0.0 semi.ulitron.ru
 0.0.0.0 semicecta.cyou
@@ -465269,7 +465271,6 @@
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeoeight.bastemur.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
-0.0.0.0 shaderm.com
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-quester.com
 0.0.0.0 shadow16programmer.github.io
@@ -484636,6 +484637,7 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
+0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyerudaidjwirwr.site
@@ -509180,6 +509182,7 @@
 0.0.0.0 www.masshysteria.store
 0.0.0.0 www.massiaumen.cyou
 0.0.0.0 www.massimo-bitpuls-soft.com
+0.0.0.0 www.massiv.net
 0.0.0.0 www.mastentrax-software.com
 0.0.0.0 www.master.rarftwg.icu
 0.0.0.0 www.masteringdiabetes.org
