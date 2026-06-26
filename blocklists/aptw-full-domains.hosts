@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-26 01:17:58
-# Entries: 525622
+# Generated: 2026-06-26 06:04:54
+# Entries: 525621
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -316591,6 +316591,7 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
+0.0.0.0 kambohmag.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
@@ -327536,7 +327537,6 @@
 0.0.0.0 lava.amaniwa.ru
 0.0.0.0 lava.boletuso.ru
 0.0.0.0 lava.ulitron.ru
-0.0.0.0 lavacolla.com
 0.0.0.0 lavaenseco.com.ar
 0.0.0.0 lavaflow.cf
 0.0.0.0 lavaflow.ml
@@ -371719,6 +371719,7 @@
 0.0.0.0 mojpremiumdom.pl
 0.0.0.0 mojprojekt19.000webhostapp.com
 0.0.0.0 mojseans.pl
+0.0.0.0 mojtabaabbasi.com
 0.0.0.0 mojuelypbkiexcybumjbqmzsiqavpkrmxwfo.solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 mojvkak.blogspot.com
 0.0.0.0 mojvkak.blogspot.tw
@@ -485995,7 +485996,6 @@
 0.0.0.0 universalfxmm.com
 0.0.0.0 universalgame.space
 0.0.0.0 universalmsg.com
-0.0.0.0 universami.ge
 0.0.0.0 universe.send.microad.jp
 0.0.0.0 universeaccountvalidation.weebly.com
 0.0.0.0 universeactivecircleprofile.weebly.com
@@ -524583,7 +524583,6 @@
 0.0.0.0 zamaniwa.ru
 0.0.0.0 zamaniwa.zanulor.ru
 0.0.0.0 zamanto.ru
-0.0.0.0 zamatours.net
 0.0.0.0 zamekpotstejn.cz
 0.0.0.0 zamen.cfd
 0.0.0.0 zamia.dedspac.ru
