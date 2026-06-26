@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-26 06:04:54
-# Entries: 525621
+# Generated: 2026-06-26 06:34:08
+# Entries: 525619
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -213209,7 +213209,6 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
-0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -316591,7 +316590,6 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
-0.0.0.0 kambohmag.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
