@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-27 02:54:56
-# Entries: 526785
+# Generated: 2026-06-27 06:04:57
+# Entries: 526791
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -164518,6 +164518,7 @@
 0.0.0.0 canal.loudgaming.com.br
 0.0.0.0 canal.ulitron.ru
 0.0.0.0 canal.virosat.ru
+0.0.0.0 canal1zac1a.onrender.com
 0.0.0.0 canalantigua.tv
 0.0.0.0 canalas.ru
 0.0.0.0 canaldecontestacao.net
@@ -213751,6 +213752,7 @@
 0.0.0.0 drivers.potrakit.ru
 0.0.0.0 driversupdate.info
 0.0.0.0 driveruk-renew-auth.com
+0.0.0.0 driverx86-adobe.onrender.com
 0.0.0.0 drivesglassy.timothymaness.com
 0.0.0.0 driveshaftpart.dnddemo.com
 0.0.0.0 drivesharepdf.net
@@ -230628,6 +230630,7 @@
 0.0.0.0 explorepro.org
 0.0.0.0 explorer.btgofficial.org
 0.0.0.0 explorer.production.qldvvmc.com.au
+0.0.0.0 explorer.vg
 0.0.0.0 explorersholidays.com
 0.0.0.0 explorertechnembe.cu.ma
 0.0.0.0 explorethenationnowbb.pages.dev
@@ -264013,6 +264016,7 @@
 0.0.0.0 google-account-verification.pages.dev
 0.0.0.0 google-accounts.fengying20.workers.dev
 0.0.0.0 google-ads.hara.vn
+0.0.0.0 google-ai-labs-it.onrender.com
 0.0.0.0 google-analytics.com
 0.0.0.0 google-auth-required.com
 0.0.0.0 google-auth.xn--hostiner-ugb.com
@@ -493003,6 +493007,7 @@
 0.0.0.0 weatherapi.co
 0.0.0.0 weatherbug.adsbynimbus.com
 0.0.0.0 weatherbugbrowserbar.mywebsearch.com
+0.0.0.0 weatherdataai.theworkpc.com
 0.0.0.0 weathered-salad-c4ea.domain2.workers.dev
 0.0.0.0 weathet.com
 0.0.0.0 weave.dedspac.ru
@@ -495777,6 +495782,7 @@
 0.0.0.0 woodstone.space
 0.0.0.0 woofy.dedspac.ru
 0.0.0.0 wooiijjoiwiirffjiwfa.site
+0.0.0.0 wool-basalt-clock.glitch.me
 0.0.0.0 wool-rhinestone-lifeboatsfgjgbv-iyrfch-hnbc.glitch.me
 0.0.0.0 wooly.dedspac.ru
 0.0.0.0 woon.ulitron.ru

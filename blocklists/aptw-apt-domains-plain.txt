@@ -3,6 +3,7 @@ api-ext.bixbitemarketing.com
 api.ioteromixes.com
 api.loretesimorix.com
 api.operilezabre.com
+api.pimparolix.com
 api.portimaloter.com
 api.tuipoekolqrx.com
 api.yuretemelo.com

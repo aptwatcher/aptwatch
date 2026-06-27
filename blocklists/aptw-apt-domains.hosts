@@ -1,7 +1,7 @@
 # Title: APT Watch — APT Malicious Domains
 # Description: Domains from APT threat intelligence reports
-# Last modified: 2026-06-27 02:54:54
-# Entries: 46
+# Last modified: 2026-06-27 06:04:55
+# Entries: 47
 # Homepage: https://aptwatch.org
 # License: TLP:AMBER — do not share publicly
 #
@@ -12,6 +12,7 @@
 0.0.0.0 api.ioteromixes.com
 0.0.0.0 api.loretesimorix.com
 0.0.0.0 api.operilezabre.com
+0.0.0.0 api.pimparolix.com
 0.0.0.0 api.portimaloter.com
 0.0.0.0 api.tuipoekolqrx.com
 0.0.0.0 api.yuretemelo.com

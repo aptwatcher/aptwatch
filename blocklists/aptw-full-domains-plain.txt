@@ -164511,6 +164511,7 @@ canal.elitoras.ru
 canal.loudgaming.com.br
 canal.ulitron.ru
 canal.virosat.ru
+canal1zac1a.onrender.com
 canalantigua.tv
 canalas.ru
 canaldecontestacao.net
@@ -213744,6 +213745,7 @@ drivers.mujakini.ru
 drivers.potrakit.ru
 driversupdate.info
 driveruk-renew-auth.com
+driverx86-adobe.onrender.com
 drivesglassy.timothymaness.com
 driveshaftpart.dnddemo.com
 drivesharepdf.net
@@ -230621,6 +230623,7 @@ explorentravel.com
 explorepro.org
 explorer.btgofficial.org
 explorer.production.qldvvmc.com.au
+explorer.vg
 explorersholidays.com
 explorertechnembe.cu.ma
 explorethenationnowbb.pages.dev
@@ -264006,6 +264009,7 @@ google-account-signin.netlify.app
 google-account-verification.pages.dev
 google-accounts.fengying20.workers.dev
 google-ads.hara.vn
+google-ai-labs-it.onrender.com
 google-analytics.com
 google-auth-required.com
 google-auth.xn--hostiner-ugb.com
@@ -492996,6 +493000,7 @@ weather.fixitpro.ro
 weatherapi.co
 weatherbug.adsbynimbus.com
 weatherbugbrowserbar.mywebsearch.com
+weatherdataai.theworkpc.com
 weathered-salad-c4ea.domain2.workers.dev
 weathet.com
 weave.dedspac.ru
@@ -495770,6 +495775,7 @@ woodshomeservices.com
 woodstone.space
 woofy.dedspac.ru
 wooiijjoiwiirffjiwfa.site
+wool-basalt-clock.glitch.me
 wool-rhinestone-lifeboatsfgjgbv-iyrfch-hnbc.glitch.me
 wooly.dedspac.ru
 woon.ulitron.ru
