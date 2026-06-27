@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-26 18:32:56
-# Entries: 526733
+# Generated: 2026-06-27 00:32:42
+# Entries: 526785
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -376,6 +376,7 @@
 0.0.0.0 00pgvf.sa.com
 0.0.0.0 00pie.sa.com
 0.0.0.0 00pix.sa.com
+0.0.0.0 00pq7d1j.1xboropartners.com
 0.0.0.0 00privacidad-cuenta-bhd-2025-22.weebly.com
 0.0.0.0 00ql.paypal-merchant.ru
 0.0.0.0 00refund321-mobile.com
@@ -2376,6 +2377,7 @@
 0.0.0.0 0q4kax.cfd
 0.0.0.0 0q5w-casefb215691.vercel.app
 0.0.0.0 0qajhy2wyspmaj6bvit68.wisuda.ump.ac.id
+0.0.0.0 0qam1x6q.alobet.pro
 0.0.0.0 0qcaqfc.qwo231sdx.club
 0.0.0.0 0qcfdk.qwo231sdx.club
 0.0.0.0 0qea2xs6mrezi7m8rczrauolai.qwo231sdx.club
@@ -19611,6 +19613,7 @@
 0.0.0.0 360.anatic.net
 0.0.0.0 360.coinfrex.co.uk
 0.0.0.0 360.dynamic-reauth.workers.dev
+0.0.0.0 360.intraserv.pl
 0.0.0.0 360.lasalle.edu.br
 0.0.0.0 360034463.goloser.ru
 0.0.0.0 3604ec74.hiweo93il.shop
@@ -32817,6 +32820,7 @@
 0.0.0.0 6b3d0019.vsdjyumne.org.cn
 0.0.0.0 6b421caa795d.ngrok.app
 0.0.0.0 6b4dd240.d26218.cn
+0.0.0.0 6b4ki3sp.abt90kade.com
 0.0.0.0 6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefac.pages.dev
 0.0.0.0 6b55ddd3-921b-4725-a3b2-5dbc35f54b4d.usrfiles.com
 0.0.0.0 6b5633ffd441162aa8614e879e99fa86-dot-gle9392420309493993.rj.r.appspot.com
@@ -35629,6 +35633,7 @@
 0.0.0.0 7sfyruk53k538gfmank85ffg7sfyruk53k538gfmank85.weeblysite.com
 0.0.0.0 7sgjjrt8hpspsilnm.qwo231sdx.club
 0.0.0.0 7siyowaw.square.site
+0.0.0.0 7sjngotr.1xsignupbet.com
 0.0.0.0 7sjvrywli3.s3.us-south.objectstorage.softlayer.net
 0.0.0.0 7sl.ru
 0.0.0.0 7sn.fat-fly.com
@@ -40071,6 +40076,7 @@
 0.0.0.0 9eow.sap0532h0u.vip
 0.0.0.0 9eow.sap2340l0m.cc
 0.0.0.0 9eow.tap2389l0v.cc
+0.0.0.0 9ergp1lh.yekshart.app
 0.0.0.0 9ersd0erm4-405.weebly.com
 0.0.0.0 9esnifaba.ru.com
 0.0.0.0 9et-5t4rted-565865.ga
@@ -71149,6 +71155,7 @@
 0.0.0.0 alkhalilgraphics.com
 0.0.0.0 alkhaliliconsultant.my
 0.0.0.0 alkhatbaa.com
+0.0.0.0 alkhateebholding.com
 0.0.0.0 alkhayar.com
 0.0.0.0 alkhayaringroup.qa
 0.0.0.0 alkhayarinplastic.com
@@ -97880,6 +97887,7 @@
 0.0.0.0 areainformativaclienti.com
 0.0.0.0 areaintesasp.com
 0.0.0.0 areal.matsuro.ru
+0.0.0.0 areal.rj.gov.br
 0.0.0.0 areal.virosat.ru
 0.0.0.0 arealcansuppoe.cc
 0.0.0.0 arealco.de
@@ -99317,6 +99325,7 @@
 0.0.0.0 arpricers.000webhostapp.com
 0.0.0.0 arproofing.walywyfiw.workers.dev
 0.0.0.0 arpstulqvxpwacowvojdnupqbt-dot-gl9393jan.uk.r.appspot.com
+0.0.0.0 arpt9xvl.1xdlbet.com
 0.0.0.0 arpxtjum.tutor2go.my
 0.0.0.0 arpztwhbussccxjvpjabvjfaew-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 arq.name
@@ -178709,6 +178718,7 @@
 0.0.0.0 cloudmsmessagesreleaingafterverificationmymsuser673479329482387.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 cloudmy-ids.com
 0.0.0.0 cloudnetfiji.com
+0.0.0.0 cloudnewsfeed.com
 0.0.0.0 cloudnineconcierge.info
 0.0.0.0 cloudns4-3rc.pages.dev
 0.0.0.0 cloudofflceadmln.epizy.com
@@ -210076,6 +210086,7 @@
 0.0.0.0 dns10.sikolar.ru
 0.0.0.0 dns176136.phdns3.es
 0.0.0.0 dns2.net1.it
+0.0.0.0 dns2.vendasptg.com
 0.0.0.0 dns31692.dizinc.com
 0.0.0.0 dnsaccount.axehar.ru
 0.0.0.0 dnsaccount.flashiko.ru
@@ -212313,6 +212324,7 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
+0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -213550,6 +213562,7 @@
 0.0.0.0 dreymart.com.ng
 0.0.0.0 dreyzaxwpyatmqwr-dot-millinium.ey.r.appspot.com
 0.0.0.0 drezinex-soft.com
+0.0.0.0 drf.honareslami.xyz
 0.0.0.0 drfahah8.tk
 0.0.0.0 drfahath1.tk
 0.0.0.0 drfdisvc.walmart.com
@@ -220393,6 +220406,7 @@
 0.0.0.0 eff.bortogat.ru
 0.0.0.0 eff.ulitron.ru
 0.0.0.0 effafrica.org
+0.0.0.0 effc4p41.honardartarikh.xyz
 0.0.0.0 effect-magazine.com
 0.0.0.0 effective-apps-338548.framer.app
 0.0.0.0 effective-email-marketing2.com
@@ -223554,6 +223568,7 @@
 0.0.0.0 en.service-paypal.net
 0.0.0.0 en.smartappweb.org
 0.0.0.0 en.super-cleaning.be
+0.0.0.0 en.taichuan.com
 0.0.0.0 en.timerto.ru
 0.0.0.0 en.timoutupdate.in
 0.0.0.0 en.ucbi-groups.com
@@ -260103,6 +260118,7 @@
 0.0.0.0 gibelio.xyz
 0.0.0.0 gibertoni.it
 0.0.0.0 gibes.virosat.ru
+0.0.0.0 gibi1zic.alobet.pro
 0.0.0.0 giblarota.com
 0.0.0.0 gibnmjnmemdjoktudwsptfnfoc-dot-project2-297402.rj.r.appspot.com
 0.0.0.0 giboltar.ru
@@ -261101,6 +261117,7 @@
 0.0.0.0 gkmcs.edu.pk
 0.0.0.0 gkmgkuejtnxndwfs-dot-millinium.ey.r.appspot.com
 0.0.0.0 gkmklm6.vercel.app
+0.0.0.0 gkn9py5i.honarrang.online
 0.0.0.0 gknkhjyepvocvciy-dot-millinium.ey.r.appspot.com
 0.0.0.0 gknlfn.cn
 0.0.0.0 gknsbhvjqpxtl.work
@@ -271944,6 +271961,7 @@
 0.0.0.0 gsx.heato.ru
 0.0.0.0 gsx.idsslapple.com
 0.0.0.0 gsx.it.apple.internal-corp.com.login.manage.help.index.hrml.grskn.com
+0.0.0.0 gsx.life
 0.0.0.0 gsx2-crm-apple-portal.com
 0.0.0.0 gsx2-portal-aasp-manager.com
 0.0.0.0 gsx2-portal.carrier-ui.com
@@ -303474,6 +303492,7 @@
 0.0.0.0 isg01.casalemedia.com
 0.0.0.0 isgebxu.one
 0.0.0.0 isginsaat.com.tr
+0.0.0.0 isgmj697.hesabdarishabahang.xyz
 0.0.0.0 isgz7yv223ya-1322892769.cos.ap-jakarta.myqcloud.com
 0.0.0.0 isgzh.site54.my.id
 0.0.0.0 ish.ulitron.ru
@@ -305875,6 +305894,7 @@
 0.0.0.0 jaazmart.com
 0.0.0.0 jab.amaniwa.ru
 0.0.0.0 jab.ulitron.ru
+0.0.0.0 jabalitowers.nexatestwp.com
 0.0.0.0 jabank.3goalball.com
 0.0.0.0 jabank.livistone.com
 0.0.0.0 jabanuk-sindgin1.duckdns.org
@@ -317277,6 +317297,7 @@
 0.0.0.0 karolmoonstudios.com
 0.0.0.0 karolwoznicki93.pages.dev
 0.0.0.0 karoo.ulitron.ru
+0.0.0.0 karoonpc.com
 0.0.0.0 karowni.com
 0.0.0.0 karp.dedspac.ru
 0.0.0.0 karp.ulitron.ru
@@ -318430,6 +318451,7 @@
 0.0.0.0 kelvinsjjsjs11.com
 0.0.0.0 kelvinsmjej79.com
 0.0.0.0 kelvinsoirnt985.com
+0.0.0.0 kelvintahvieh.com
 0.0.0.0 kelvisnie01.com
 0.0.0.0 kelvisnie011.com
 0.0.0.0 kelvisnsjdhdhd1.com
@@ -347184,6 +347206,7 @@
 0.0.0.0 mail.dmgratis.claimff18.my.id
 0.0.0.0 mail.dmig.ga
 0.0.0.0 mail.dmwoodson.online
+0.0.0.0 mail.dns2.vendasptg.com
 0.0.0.0 mail.dobleframe.com
 0.0.0.0 mail.dodgxylconsulting.com
 0.0.0.0 mail.dog2puppy.thats.im
@@ -349049,6 +349072,7 @@
 0.0.0.0 mail.p5p.com
 0.0.0.0 mail.p6.185-225-74-94.cprapid.com
 0.0.0.0 mail.padi.org.ar
+0.0.0.0 mail.pagar10.vendasptg.com
 0.0.0.0 mail.page-fbmaintenance-information-2021.my.id
 0.0.0.0 mail.page.bgmievents.in
 0.0.0.0 mail.pageaccdiseble5589.duckdns.org
@@ -380420,6 +380444,7 @@
 0.0.0.0 mytgms.ru
 0.0.0.0 myth.bet
 0.0.0.0 myth.ulitron.ru
+0.0.0.0 mythandmycelium.com
 0.0.0.0 mytheamsauthecent.wapgem.com
 0.0.0.0 mytheresa.commander1.com
 0.0.0.0 mythfashion.in
@@ -393475,6 +393500,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -393852,6 +393878,7 @@
 0.0.0.0 nxbf.my.id
 0.0.0.0 nxboatsturkey.com
 0.0.0.0 nxbsr-micegroups.theagrirevolution.in
+0.0.0.0 nxbv.sabad724.bio
 0.0.0.0 nxbwhfkkkrwecrvp-dot-dbenitonline.ey.r.appspot.com
 0.0.0.0 nxcount.com
 0.0.0.0 nxd.adhaven.com
@@ -393876,6 +393903,7 @@
 0.0.0.0 nxjkoo.wang
 0.0.0.0 nxjnxcjc.wixsite.com
 0.0.0.0 nxjsia.net
+0.0.0.0 nxk3vadq.1xprobet.app
 0.0.0.0 nxkad.ru
 0.0.0.0 nxkbjjqfiipeiwgc-dot-millinium.ey.r.appspot.com
 0.0.0.0 nxmbfhj.tk
@@ -397929,6 +397957,7 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -406627,6 +406656,7 @@
 0.0.0.0 pagan.ulitron.ru
 0.0.0.0 paganiniyasociados.com
 0.0.0.0 pagaonline-descuento.com
+0.0.0.0 pagar10.vendasptg.com
 0.0.0.0 pagaseidntomationsactivitys.co.vu
 0.0.0.0 pagasidtitysacountidnfomtionsideityts.co.vu
 0.0.0.0 pagavanpagesserviceacc.co.vu
@@ -414785,6 +414815,7 @@
 0.0.0.0 pffgcv.click
 0.0.0.0 pffgoc.top
 0.0.0.0 pfft.dedspac.ru
+0.0.0.0 pffvv3yw.22bahis-tr.com
 0.0.0.0 pfg6g6.webwave.dev
 0.0.0.0 pfgarberr.wixsite.com
 0.0.0.0 pfhdfhjfa6.vercel.app
@@ -427562,6 +427593,7 @@
 0.0.0.0 propertyinaustralia.github.io
 0.0.0.0 propertymanagementclearwaterfl.com
 0.0.0.0 propertyments.com
+0.0.0.0 propertymgmtsoft.com
 0.0.0.0 propertysaints.co
 0.0.0.0 propertyshowistanbul.com
 0.0.0.0 propertysourcebd.com
@@ -437564,6 +437596,7 @@
 0.0.0.0 qa01.undostres.com.mx
 0.0.0.0 qa1.elern7.eu.org
 0.0.0.0 qa162y4t9.top
+0.0.0.0 qa4lsxxi.313betapk.com
 0.0.0.0 qa5jezcggzkcadmno.pages.dev
 0.0.0.0 qa6e8j54tu.jimdofree.com
 0.0.0.0 qa7.fkjd67r.com
@@ -438133,6 +438166,7 @@
 0.0.0.0 qgwxbv.cn
 0.0.0.0 qgxnerfnbjpxfycjxwbybtykhyxujdbhwuds-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 qgxxljcxbjouwevm-dot-millinium.ey.r.appspot.com
+0.0.0.0 qgyszj8a.abt90kade.com
 0.0.0.0 qgyxbklkpelttmcx-dot-millinium.ey.r.appspot.com
 0.0.0.0 qh47fhs89u5gs.firebaseapp.com
 0.0.0.0 qh8qhqh8q.el.r.appspot.com
@@ -438812,6 +438846,7 @@
 0.0.0.0 qq522455.w103.xunnet.wang
 0.0.0.0 qq61.misuo77.pp.ua
 0.0.0.0 qq647.oud53.com
+0.0.0.0 qq6dl5dg.1x303.casino
 0.0.0.0 qq8.ag
 0.0.0.0 qq953710428.github.io
 0.0.0.0 qqadebiyati.uz
@@ -442856,6 +442891,7 @@
 0.0.0.0 ravishingfurtive.co.za
 0.0.0.0 ravitravels.in.net
 0.0.0.0 raviyaka1.tripod.com
+0.0.0.0 ravstore.cl
 0.0.0.0 rawa.cu.ma
 0.0.0.0 rawamyhfvpxlqoiaacdezcnakr-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 rawards-sblcollect.pages.dev
@@ -450419,6 +450455,7 @@
 0.0.0.0 rfgwe.279xt.cn
 0.0.0.0 rfhcd.weeblysite.com
 0.0.0.0 rfhcszigep.duckdns.org
+0.0.0.0 rfhudhbz.313betsingup.casino
 0.0.0.0 rfi.com.pe
 0.0.0.0 rfidhr.tk
 0.0.0.0 rfigeqsskrjaplne-dot-millinium.ey.r.appspot.com
@@ -464873,6 +464910,7 @@
 0.0.0.0 serge.ulitron.ru
 0.0.0.0 sergey.bibliota.ru
 0.0.0.0 sergio-l-h-a.github.io
+0.0.0.0 sergiodiazcoach.com
 0.0.0.0 sergiomarshall.com
 0.0.0.0 seri.amaniwa.ru
 0.0.0.0 seri.ulitron.ru
@@ -465687,6 +465725,7 @@
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeoeight.bastemur.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
+0.0.0.0 shaderm.com
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-quester.com
 0.0.0.0 shadow16programmer.github.io
@@ -467392,6 +467431,7 @@
 0.0.0.0 sjc-tr.contextweb.com
 0.0.0.0 sjc-usadmm-ds.dotomi.com
 0.0.0.0 sjc-usadmm.dotomi.com
+0.0.0.0 sjc3.sabad724.bio
 0.0.0.0 sjdiijsdsofkado.site
 0.0.0.0 sjgoodandcompany.com
 0.0.0.0 sjhdoirrsjx.wixsite.com
@@ -475502,6 +475542,7 @@
 0.0.0.0 swiftconnectapp.pages.dev
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftlinknexoraplatform.com
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -478734,6 +478775,7 @@
 0.0.0.0 test.oeqxpsi0p.com
 0.0.0.0 test.osmanylmz.online
 0.0.0.0 test.paparoacho.ru
+0.0.0.0 test.peperoncinochepassione.it
 0.0.0.0 test.pittlergear.com
 0.0.0.0 test.report.jimpike.com.au
 0.0.0.0 test.rhchp.ru
@@ -478759,6 +478801,7 @@
 0.0.0.0 testbook.fr
 0.0.0.0 testcentre.vn
 0.0.0.0 testdata.coremetrics.com
+0.0.0.0 testdomain.kognitivtrainer.de
 0.0.0.0 teste.conexaomkt.com
 0.0.0.0 teste.raulkiyoshi.adv.br
 0.0.0.0 tested-isload.surge.sh
@@ -485135,6 +485178,7 @@
 0.0.0.0 ty-wtb.xyz
 0.0.0.0 ty65xcc-smart-manatee.mybluemix.net
 0.0.0.0 ty8ou.rhdomfiosgzy.es
+0.0.0.0 ty954rii.313betios.com
 0.0.0.0 tyashop.icu
 0.0.0.0 tyb.elitoras.ru
 0.0.0.0 tycoongeneral.com
@@ -485303,6 +485347,7 @@
 0.0.0.0 u53y.xyz
 0.0.0.0 u5687.48.spylog.com
 0.0.0.0 u574.07.spylog.com
+0.0.0.0 u5xjkopi.1xbetpartnersiran.com
 0.0.0.0 u604.41.spylog.com
 0.0.0.0 u61t.xyz
 0.0.0.0 u6762.46.spylog.com
@@ -486838,6 +486883,7 @@
 0.0.0.0 updates.slekkeud.workers.dev
 0.0.0.0 updatesamzsupportmailaccouncustome.4-155-105-207.cprapid.com
 0.0.0.0 updatesecure.pro
+0.0.0.0 updateservice1-telegramweb.com
 0.0.0.0 updateservicecenter.blogspot.com
 0.0.0.0 updateservices.in
 0.0.0.0 updatesoftware24.com
@@ -493981,6 +494027,7 @@
 0.0.0.0 westbriton.uk.intellitxt.com
 0.0.0.0 westchester.sikolar.ru
 0.0.0.0 westcoastcoupling.com
+0.0.0.0 westcodex.com
 0.0.0.0 westerdayeol.site
 0.0.0.0 western.lohmabok.shop
 0.0.0.0 westernautomobileassembly.com
@@ -495582,6 +495629,7 @@
 0.0.0.0 wlplay.aniview.com
 0.0.0.0 wltrack.aniview.com
 0.0.0.0 wlwlk.info
+0.0.0.0 wlwnophi.313betiran.online
 0.0.0.0 wlxnj.com
 0.0.0.0 wm.baidu.com
 0.0.0.0 wm.banners.sextracker.com
@@ -496136,6 +496184,7 @@
 0.0.0.0 wq02.ddns.net
 0.0.0.0 wq03.ddns.net
 0.0.0.0 wqehthd.duckdns.org
+0.0.0.0 wqeign6o.vip1xbet.org
 0.0.0.0 wqfc-casefb017565.vercel.app
 0.0.0.0 wqjps.ethique-services.eu
 0.0.0.0 wqkdwkn.com
@@ -520625,6 +520674,7 @@
 0.0.0.0 www.uzo.com.pl
 0.0.0.0 www.uzumconcept.com
 0.0.0.0 www.uzupelniaj-dane.ml
+0.0.0.0 www.v-care.hk
 0.0.0.0 www.v-inet.waw.pl
 0.0.0.0 www.v-links.net
 0.0.0.0 www.v0ranijecdslxrb.com
@@ -523618,6 +523668,7 @@
 0.0.0.0 xavion-vault.pages.dev
 0.0.0.0 xawfozd6.duckdns.org
 0.0.0.0 xaxis.com
+0.0.0.0 xb.bet1bonus.com
 0.0.0.0 xb3z.world
 0.0.0.0 xbancobhd2025xxxxxxxxx.xo.je
 0.0.0.0 xbank.plus
@@ -525427,6 +525478,7 @@
 0.0.0.0 yvgztweb.yyzby.com
 0.0.0.0 yvhgeesdf5r7t6y87udscugyjbhdcyuy7iu8dcuihse.vercel.app
 0.0.0.0 yvi0-n.shop
+0.0.0.0 yvkbbq3e.1xdownload2023.com
 0.0.0.0 yvo.ivtzlppblg.es
 0.0.0.0 yvrgeayutg.duckdns.org
 0.0.0.0 yvu.waapd.icu
