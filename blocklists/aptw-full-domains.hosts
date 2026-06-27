@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-27 06:04:57
-# Entries: 526791
+# Generated: 2026-06-27 06:35:03
+# Entries: 526789
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -230630,7 +230630,6 @@
 0.0.0.0 explorepro.org
 0.0.0.0 explorer.btgofficial.org
 0.0.0.0 explorer.production.qldvvmc.com.au
-0.0.0.0 explorer.vg
 0.0.0.0 explorersholidays.com
 0.0.0.0 explorertechnembe.cu.ma
 0.0.0.0 explorethenationnowbb.pages.dev
@@ -317301,7 +317300,6 @@
 0.0.0.0 karolmoonstudios.com
 0.0.0.0 karolwoznicki93.pages.dev
 0.0.0.0 karoo.ulitron.ru
-0.0.0.0 karoonpc.com
 0.0.0.0 karowni.com
 0.0.0.0 karp.dedspac.ru
 0.0.0.0 karp.ulitron.ru
@@ -375620,6 +375618,7 @@
 0.0.0.0 muahidmd.github.io
 0.0.0.0 muaightk.com
 0.0.0.0 muaisynec.cyou
+0.0.0.0 muaklekcoop.com
 0.0.0.0 muang.dedspac.ru
 0.0.0.0 muang.ulitron.ru
 0.0.0.0 muangmailocal.go.th
@@ -397962,7 +397961,6 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
-0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
