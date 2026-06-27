@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-27 12:35:59
+# Generated: 2026-06-27 18:32:44
 # Entries: 526787
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -91537,7 +91537,6 @@
 0.0.0.0 app.tokec.im
 0.0.0.0 app.tonerpro.bg
 0.0.0.0 app.topol.io
-0.0.0.0 app.tornado.cash
 0.0.0.0 app.towbook.dev
 0.0.0.0 app.trust-inst.com
 0.0.0.0 app.trustwalleupgrade.com
@@ -283291,7 +283290,6 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
-0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -308070,6 +308068,7 @@
 0.0.0.0 jenniferfuller.com
 0.0.0.0 jennifergentile.com
 0.0.0.0 jenniferheuer.org
+0.0.0.0 jenniferloeffler.com
 0.0.0.0 jennifermacarthurrealty.com
 0.0.0.0 jenningsandmeser.net
 0.0.0.0 jenningsplumbingllc.site
@@ -393504,6 +393503,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
