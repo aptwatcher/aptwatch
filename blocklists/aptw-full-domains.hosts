@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-28 12:34:43
-# Entries: 526817
+# Generated: 2026-06-28 18:34:05
+# Entries: 526818
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -168205,6 +168205,7 @@
 0.0.0.0 cclaquila.it
 0.0.0.0 ccleaner.fr
 0.0.0.0 ccleaner.gholam.ru
+0.0.0.0 ccleaner.gl
 0.0.0.0 cclhl.com
 0.0.0.0 cclnjcyzkhpwtyxbfsnolkpnpd.polished-shore-301017.uk.r.appspot.com
 0.0.0.0 cclose.com
@@ -244315,7 +244316,6 @@
 0.0.0.0 figukj.amxs22r8bf.workers.dev
 0.0.0.0 figurable-coasts.000webhostapp.com
 0.0.0.0 figurable-wire.000webhostapp.com
-0.0.0.0 figural.pro
 0.0.0.0 figurecompetitor.net
 0.0.0.0 figurehunter.net
 0.0.0.0 figuresquare101.com
@@ -258242,6 +258242,7 @@
 0.0.0.0 geny83h92.atwebpages.com
 0.0.0.0 genys.dedspac.ru
 0.0.0.0 genys.virosat.ru
+0.0.0.0 geo-foundation.vg
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 geo.adobe.com
@@ -373201,7 +373202,6 @@
 0.0.0.0 moses.virosat.ru
 0.0.0.0 mosetsklep.pl
 0.0.0.0 mosey.virosat.ru
-0.0.0.0 moshatech.com
 0.0.0.0 moshaverandarya2.ir
 0.0.0.0 moshydrogen.co.za
 0.0.0.0 mosibi4232.temp.swtest.ru
@@ -517273,6 +517273,7 @@
 0.0.0.0 www.steam-wallet-money.com
 0.0.0.0 www.steamgifts.5v.pl
 0.0.0.0 www.steamkarta.pl
+0.0.0.0 www.steamrub.com
 0.0.0.0 www.steamtraffic.com
 0.0.0.0 www.steelbucks.com
 0.0.0.0 www.steelcitysue.net
