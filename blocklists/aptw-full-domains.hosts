@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-28 06:34:00
-# Entries: 526812
+# Generated: 2026-06-28 12:34:43
+# Entries: 526817
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -223649,6 +223649,7 @@
 0.0.0.0 enbxhczhywigrlms-dot-millinium.ey.r.appspot.com
 0.0.0.0 enbyrlgsfzgsqsbg-dot-millinium.ey.r.appspot.com
 0.0.0.0 enc0ntrar-1locati0ns-1device.com
+0.0.0.0 encalabrino.life
 0.0.0.0 encancel.duckdns.org
 0.0.0.0 encantofestaseeventos.com.br
 0.0.0.0 encaon-568f.adademord.workers.dev
@@ -236973,6 +236974,7 @@
 0.0.0.0 faleupas.kissr.com
 0.0.0.0 falgun.damanimaynie.info
 0.0.0.0 falgunmahajan.github.io
+0.0.0.0 falhuhna.shop
 0.0.0.0 falinow.com
 0.0.0.0 falipi9424.temp.swtest.ru
 0.0.0.0 falkag.net
@@ -244313,6 +244315,7 @@
 0.0.0.0 figukj.amxs22r8bf.workers.dev
 0.0.0.0 figurable-coasts.000webhostapp.com
 0.0.0.0 figurable-wire.000webhostapp.com
+0.0.0.0 figural.pro
 0.0.0.0 figurecompetitor.net
 0.0.0.0 figurehunter.net
 0.0.0.0 figuresquare101.com
@@ -373198,6 +373201,7 @@
 0.0.0.0 moses.virosat.ru
 0.0.0.0 mosetsklep.pl
 0.0.0.0 mosey.virosat.ru
+0.0.0.0 moshatech.com
 0.0.0.0 moshaverandarya2.ir
 0.0.0.0 moshydrogen.co.za
 0.0.0.0 mosibi4232.temp.swtest.ru
@@ -397979,6 +397983,7 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -475564,6 +475569,7 @@
 0.0.0.0 swiftconnectapp.pages.dev
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftlinknexoraplatform.com
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
@@ -489908,7 +489914,6 @@
 0.0.0.0 vdopia.com
 0.0.0.0 vdpdv.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
-0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 vdwse.com
 0.0.0.0 ve1.claker.top
