@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-27 18:32:44
-# Entries: 526787
+# Generated: 2026-06-28 00:33:32
+# Entries: 526812
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -2589,6 +2589,7 @@
 0.0.0.0 0yw47m7.gdkc9q.cn
 0.0.0.0 0yyxej1z8leuixarbv0z004.qwo231sdx.club
 0.0.0.0 0z.itmod.heath.net.au
+0.0.0.0 0z4y5ci2.1xboropartners.com
 0.0.0.0 0z9kmrypf55vlpkjiyhtzuwfzss.qwo231sdx.club
 0.0.0.0 0zd4-olyd5t-bvq7.anjaan.com.np
 0.0.0.0 0zddf4z.tokenapp.download
@@ -11934,6 +11935,7 @@
 0.0.0.0 1e07bfd2.qepfmq.shop
 0.0.0.0 1e09c8a63b2d.ngrok.io
 0.0.0.0 1e16831b-e8c0-4fcc-be7d-abde0a24c834-00-8wehzac0phfm.riker.replit.dev
+0.0.0.0 1e2sdyr4.honardartarikh.xyz
 0.0.0.0 1e4358ccea3604280.temporary.link
 0.0.0.0 1e56322b.satgrjtxcvdv.org.cn
 0.0.0.0 1e57382f-75a8-456d-8fe8-c484befa231d.id.repl.co
@@ -32641,6 +32643,7 @@
 0.0.0.0 69.79.32.80
 0.0.0.0 69.79.32.82
 0.0.0.0 690058951.goloser.ru
+0.0.0.0 6901jz2b.hesabdarishabahang.xyz
 0.0.0.0 6902470365.com
 0.0.0.0 690338.com
 0.0.0.0 69033d72.counselorcontacts-code3214.pages.dev
@@ -35574,6 +35577,7 @@
 0.0.0.0 7pichin201892.tonohost.com
 0.0.0.0 7pjbrtbo.square.site
 0.0.0.0 7pjnl.eyecolourfaces.com
+0.0.0.0 7pkztjkc.1xbetpartnersiran.com
 0.0.0.0 7pptdtdrtsesrtwrhvfx.weebly.com
 0.0.0.0 7ppyabm0kjrxyoqsmvtl4ukpw.qwo231sdx.club
 0.0.0.0 7pqk3ubqwb.jimdofree.com
@@ -36687,6 +36691,7 @@
 0.0.0.0 85usrs120ps.cc
 0.0.0.0 85v-zvxvbvba-vfadbfghnh-dvafv-dbfg.vercel.app
 0.0.0.0 85wbhs.sbs
+0.0.0.0 85xhbv2q.shartcart.xyz
 0.0.0.0 85ynhs.sbs
 0.0.0.0 86-7sc.pages.dev
 0.0.0.0 86.104.194.51
@@ -40263,6 +40268,7 @@
 0.0.0.0 9pekmvv.wiserwebus.io
 0.0.0.0 9ph.us
 0.0.0.0 9phzc6th.duckdns.org
+0.0.0.0 9pkiisod.jetbet1.pro
 0.0.0.0 9pkzjlmd6n.monitorminor.com.tr
 0.0.0.0 9po3.cc
 0.0.0.0 9po6mz7g48.projects.webpages.one
@@ -88080,6 +88086,7 @@
 0.0.0.0 apexcarparts.in
 0.0.0.0 apexcityunion.site
 0.0.0.0 apexclaim.org
+0.0.0.0 apexdataserver4.sbs
 0.0.0.0 apexenterprisesweb.com
 0.0.0.0 apexes.matsuro.ru
 0.0.0.0 apexes.virosat.ru
@@ -124324,6 +124331,7 @@
 0.0.0.0 babawebdesign.com
 0.0.0.0 babawest12.weeblysite.com
 0.0.0.0 babayaga101.000webhostapp.com
+0.0.0.0 babayagareborn.net
 0.0.0.0 babayeff.com
 0.0.0.0 babayellooowwwwwwwwwww.blob.core.windows.net
 0.0.0.0 babayo-2022.duckdns.org
@@ -136669,6 +136677,7 @@
 0.0.0.0 bcatendim.sslblindado.com
 0.0.0.0 bcayg.com.mx
 0.0.0.0 bcb2.state-country.workers.dev
+0.0.0.0 bcb7ukdo.tinyshart.com
 0.0.0.0 bcbadvogados.com.br
 0.0.0.0 bcbb74f7bffcde1187d3e077de422a9a16f9f581cc512c39c09755a0e3.pages.dev
 0.0.0.0 bcbbbbbb.000webhostapp.com
@@ -162795,6 +162804,7 @@
 0.0.0.0 c2shb.pubgw.yahoo.com
 0.0.0.0 c2shb.ssp.yahoo.com
 0.0.0.0 c2taxservice.com
+0.0.0.0 c2uwzjf8.blackjackonlineplay83.com
 0.0.0.0 c2vjdxjpdhkubwljcm9zb2z0lmnvbq.com
 0.0.0.0 c2vs.short.gy
 0.0.0.0 c3.adalyser.com
@@ -168038,6 +168048,7 @@
 0.0.0.0 cccterminal.com
 0.0.0.0 cccvbv.weeblysite.com
 0.0.0.0 cccwega-auth.ml
+0.0.0.0 ccczqxl6.blackjackonlineplay83.com
 0.0.0.0 ccczv.za.com
 0.0.0.0 ccd8.azurewebsites.net
 0.0.0.0 ccdarts.com
@@ -175593,6 +175604,7 @@
 0.0.0.0 ck07762.tmweb.ru
 0.0.0.0 ck08437.tmweb.ru
 0.0.0.0 ck09456.tw1.ru
+0.0.0.0 ck0ny34p.1xprobet.app
 0.0.0.0 ck10309.tmweb.ru
 0.0.0.0 ck10855.tmweb.ru
 0.0.0.0 ck16771.tw1.ru
@@ -205521,6 +205533,7 @@
 0.0.0.0 dfghuyjamu.duckdns.org
 0.0.0.0 dfgihjhgfdsdfghjjhdssmfdkjfdnnbveifindndinin.pages.dev
 0.0.0.0 dfgjhklhlfghjnk.weebly.com
+0.0.0.0 dfgjhkllkhuuk.info
 0.0.0.0 dfgretgg.blogspot.bg
 0.0.0.0 dfgretgg.blogspot.cl
 0.0.0.0 dfgretgg.blogspot.co.id
@@ -209426,6 +209439,7 @@
 0.0.0.0 dl.keywordstrategy.org
 0.0.0.0 dl.logging.admicro.vn
 0.0.0.0 dl.mod30t.ir
+0.0.0.0 dl.multiextension.com
 0.0.0.0 dl.myindustry.ir
 0.0.0.0 dl.natgo.cn
 0.0.0.0 dl.payforme.top
@@ -216713,6 +216727,7 @@
 0.0.0.0 e.nemoiti.ru
 0.0.0.0 e.nu-soft.xyz
 0.0.0.0 e.pagey-offset.top
+0.0.0.0 e.perspolis.pro
 0.0.0.0 e.plortac.ru
 0.0.0.0 e.putrif.ru
 0.0.0.0 e.qq.com
@@ -273714,6 +273729,7 @@
 0.0.0.0 h64u.xyz
 0.0.0.0 h654bv.shop
 0.0.0.0 h65d4.xyz
+0.0.0.0 h663gbdv.ahkam.xyz
 0.0.0.0 h6bzimhcrkqt.thedsdstudio.com
 0.0.0.0 h6fxt.top
 0.0.0.0 h6gg8-256mkm0u.b4a.run
@@ -289234,6 +289250,7 @@
 0.0.0.0 hzjlievphzxncnef-dot-millinium.ey.r.appspot.com
 0.0.0.0 hzjsxly.com
 0.0.0.0 hzjy7k.duckdns.org
+0.0.0.0 hzks2llo.1xdownload2023.com
 0.0.0.0 hzksg.sovereignty2020.com
 0.0.0.0 hzkvxcbcjfxpjtrq-dot-millinium.ey.r.appspot.com
 0.0.0.0 hzkxxkavtbvypbmleugefeefabyfizqgveuf-dot-offgl8876899977678.uk.r.appspot.com
@@ -292871,6 +292888,7 @@
 0.0.0.0 ik-muras.kg
 0.0.0.0 ik.7bug6mrsli7933.workers.dev
 0.0.0.0 ik.imagekit.io
+0.0.0.0 ik029b3d.1xsignupbet.com
 0.0.0.0 ikademo.ru
 0.0.0.0 ikajuen.com
 0.0.0.0 ikampya-bireysel-basvur-com.ml
@@ -324621,6 +324639,7 @@
 0.0.0.0 kuikooinlogon.webflow.io
 0.0.0.0 kuikooinslogon.webflow.io
 0.0.0.0 kuikoswinxslogon.webflow.io
+0.0.0.0 kuilfgfd.cc
 0.0.0.0 kuinbass-pr-logzx.godaddysites.com
 0.0.0.0 kuincoinlogon.webflow.io
 0.0.0.0 kuinnloggn.webflow.io
@@ -438811,6 +438830,7 @@
 0.0.0.0 qplosvxhgvnrvhld-dot-millinium.ey.r.appspot.com
 0.0.0.0 qplw-whatsepp.com
 0.0.0.0 qpm.teleqriem.club
+0.0.0.0 qpmbndoi.yekshart.app
 0.0.0.0 qpnccwm9owgf48cu9t1e.qwo231sdx.club
 0.0.0.0 qpneu.com.br
 0.0.0.0 qpoijkcfdocumentreview.tecdocproject.com
@@ -476332,6 +476352,7 @@
 0.0.0.0 t6fu7gu.weebly.com
 0.0.0.0 t6hqn-innomotics.gksnhlbhkq.es
 0.0.0.0 t6p.podatgov.com
+0.0.0.0 t71awqhc.1xsignupbet.com
 0.0.0.0 t87bb.top
 0.0.0.0 t8dvzv-4a4epr-token.vercel.app
 0.0.0.0 t8hair2.hair
@@ -477516,6 +477537,7 @@
 0.0.0.0 tazeemtex.com
 0.0.0.0 tazohor.com
 0.0.0.0 tb.de17a.com
+0.0.0.0 tb4awyc7.vip1xbet.net
 0.0.0.0 tb8jgv.sbs
 0.0.0.0 tbc.yox.mybluehost.me
 0.0.0.0 tbcargo.com.br
@@ -481188,6 +481210,7 @@
 0.0.0.0 tmtitks134.top
 0.0.0.0 tmv.ulitron.ru
 0.0.0.0 tmvc-whatsepp.com
+0.0.0.0 tmvkionb.taktikbet.bio
 0.0.0.0 tmvvaosg.shop
 0.0.0.0 tmx.technoratimedia.com
 0.0.0.0 tmxajche.mddf.com.cn
@@ -484598,6 +484621,7 @@
 0.0.0.0 tsxclub.us.intellitxt.com
 0.0.0.0 tsyndicate.com
 0.0.0.0 tsyndicate.net
+0.0.0.0 tszebpwz.1xprobet.app
 0.0.0.0 tt-104256.weeblysite.com
 0.0.0.0 tt-supplier.com
 0.0.0.0 tt.omtrdc.net
@@ -490422,6 +490446,7 @@
 0.0.0.0 vfny76u555u6y4rth.weebly.com
 0.0.0.0 vfprrostcf.duckdns.org
 0.0.0.0 vfrhjrtjfwwettgonline.com
+0.0.0.0 vfu1w9au.honarrang.online
 0.0.0.0 vfvr3.pages.dev
 0.0.0.0 vfw.dedspac.ru
 0.0.0.0 vfyq5.cyou
