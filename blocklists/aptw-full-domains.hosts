@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-28 00:33:32
-# Entries: 526812
+# Generated: 2026-06-28 00:37:39
+# Entries: 526813
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -489909,6 +489909,7 @@
 0.0.0.0 vdopia.com
 0.0.0.0 vdpdv.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
+0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 vdwse.com
 0.0.0.0 ve1.claker.top
