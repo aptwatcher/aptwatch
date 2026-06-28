@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-28 06:04:49
+# Generated: 2026-06-28 06:34:00
 # Entries: 526812
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -212338,7 +212338,6 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
-0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -344105,6 +344104,7 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
+0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
