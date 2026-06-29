@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-29 06:34:08
-# Entries: 526802
+# Generated: 2026-06-29 12:33:37
+# Entries: 526803
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -207202,6 +207202,7 @@
 0.0.0.0 digital-engagement-key-a0ce2.web.app
 0.0.0.0 digital-exodssweb3-com.pages.dev
 0.0.0.0 digital-ledger-downloadd.webflow.io
+0.0.0.0 digital-magicians.com
 0.0.0.0 digital-novelty-10f9b58.ingress-erytho.ewp.live
 0.0.0.0 digital-post.net
 0.0.0.0 digital-private-web.com
@@ -465743,6 +465744,7 @@
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeoeight.bastemur.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
+0.0.0.0 shaderm.com
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-quester.com
 0.0.0.0 shadow16programmer.github.io
@@ -472466,7 +472468,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -492841,6 +492842,7 @@
 0.0.0.0 watch24streamtv.com
 0.0.0.0 watch9.com
 0.0.0.0 watchallwrestling.com
+0.0.0.0 watchbeam.tv
 0.0.0.0 watcher.host
 0.0.0.0 watchforyou.pl
 0.0.0.0 watchframe.ownmobilehomes.com
@@ -517259,7 +517261,6 @@
 0.0.0.0 www.steam-wallet-money.com
 0.0.0.0 www.steamgifts.5v.pl
 0.0.0.0 www.steamkarta.pl
-0.0.0.0 www.steamrub.com
 0.0.0.0 www.steamtraffic.com
 0.0.0.0 www.steelbucks.com
 0.0.0.0 www.steelcitysue.net

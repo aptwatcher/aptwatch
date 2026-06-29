@@ -4,8 +4,8 @@
 #
 # Category: apt/threat-intelligence
 # Maintainer: APT Watch (aptwatch.org)
-# Generated: 2026-06-29 06:34:06
-# Entries: 7604
+# Generated: 2026-06-29 12:33:36
+# Entries: 7606
 #
 # This file is auto-generated from the APT intelligence database.
 # DO NOT EDIT MANUALLY — re-run generate_blocklists.py instead.
@@ -5587,6 +5587,8 @@
 79.137.204.69
 79.137.204.71
 79.137.204.73
+79.137.204.87
+79.137.204.93
 79.141.160.78
 79.141.161.66
 79.141.161.67
