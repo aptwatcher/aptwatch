@@ -1,7 +1,7 @@
 # Title: APT Watch — APT Combined Blocklist
 # Description: All validated APT IPs + malicious domains
-# Last modified: 2026-06-29 00:34:30
-# Entries: 11241
+# Last modified: 2026-06-29 06:04:14
+# Entries: 11243
 # Homepage: https://aptwatch.org
 # License: TLP:AMBER — do not share publicly
 #
@@ -11204,6 +11204,7 @@
 0.0.0.0 99.79.78.199
 
 # === MALICIOUS DOMAINS ===
+0.0.0.0 advanceslibrary.com
 0.0.0.0 api-app.uppercrafteroom.com
 0.0.0.0 api-ext.bixbitemarketing.com
 0.0.0.0 api.ioteromixes.com
@@ -11236,6 +11237,7 @@
 0.0.0.0 nickbush24.com
 0.0.0.0 parish.menberetsebaotholytrinityeotc.org
 0.0.0.0 platform.isystemservices.com
+0.0.0.0 remiumholdings.com
 0.0.0.0 resumebuilders.us
 0.0.0.0 roadmap.lifeinsurancemasters.net
 0.0.0.0 schedule.eznosdrivingschool.com

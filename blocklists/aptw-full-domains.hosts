@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-29 00:34:32
-# Entries: 526804
+# Generated: 2026-06-29 06:04:18
+# Entries: 526801
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -168819,7 +168819,6 @@
 0.0.0.0 cdn.creative-bars1.com
 0.0.0.0 cdn.crowdtwist.com
 0.0.0.0 cdn.crwdcntrl.net
-0.0.0.0 cdn.cs-elect.ru
 0.0.0.0 cdn.cxense.com
 0.0.0.0 cdn.cxense.com.edgekey.net
 0.0.0.0 cdn.datacenterate.com
@@ -212340,7 +212339,6 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
-0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -231208,7 +231206,6 @@
 0.0.0.0 ezchairfair.com
 0.0.0.0 ezchallenger.net
 0.0.0.0 ezchallengerz.pro
-0.0.0.0 ezcheats-market.com
 0.0.0.0 ezcm137.klaastemedia.co.za
 0.0.0.0 ezd-rivemal.top
 0.0.0.0 ezd-rivemao.top
@@ -344110,6 +344107,7 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
+0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -465744,7 +465742,6 @@
 0.0.0.0 shadenest-s8mjamroot.thoujoki.ru.com
 0.0.0.0 shadeoeight.bastemur.com
 0.0.0.0 shadeon-he1osmokex.chailafu.ru
-0.0.0.0 shaderm.com
 0.0.0.0 shadnan.github.io
 0.0.0.0 shadow-quester.com
 0.0.0.0 shadow16programmer.github.io

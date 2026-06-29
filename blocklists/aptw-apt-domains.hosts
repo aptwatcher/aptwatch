@@ -1,12 +1,13 @@
 # Title: APT Watch — APT Malicious Domains
 # Description: Domains from APT threat intelligence reports
-# Last modified: 2026-06-29 00:34:30
-# Entries: 47
+# Last modified: 2026-06-29 06:04:14
+# Entries: 49
 # Homepage: https://aptwatch.org
 # License: TLP:AMBER — do not share publicly
 #
 # This file is auto-generated. Re-run generate_blocklists.py to update.
 #
+0.0.0.0 advanceslibrary.com
 0.0.0.0 api-app.uppercrafteroom.com
 0.0.0.0 api-ext.bixbitemarketing.com
 0.0.0.0 api.ioteromixes.com
@@ -39,6 +40,7 @@
 0.0.0.0 nickbush24.com
 0.0.0.0 parish.menberetsebaotholytrinityeotc.org
 0.0.0.0 platform.isystemservices.com
+0.0.0.0 remiumholdings.com
 0.0.0.0 resumebuilders.us
 0.0.0.0 roadmap.lifeinsurancemasters.net
 0.0.0.0 schedule.eznosdrivingschool.com
