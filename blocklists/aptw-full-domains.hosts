@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-29 12:33:37
-# Entries: 526803
+# Generated: 2026-06-29 18:32:43
+# Entries: 526804
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -168854,6 +168854,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -344109,7 +344110,6 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
-0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -397984,6 +397984,7 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -492842,7 +492843,6 @@
 0.0.0.0 watch24streamtv.com
 0.0.0.0 watch9.com
 0.0.0.0 watchallwrestling.com
-0.0.0.0 watchbeam.tv
 0.0.0.0 watcher.host
 0.0.0.0 watchforyou.pl
 0.0.0.0 watchframe.ownmobilehomes.com
@@ -517261,6 +517261,7 @@
 0.0.0.0 www.steam-wallet-money.com
 0.0.0.0 www.steamgifts.5v.pl
 0.0.0.0 www.steamkarta.pl
+0.0.0.0 www.steamrub.com
 0.0.0.0 www.steamtraffic.com
 0.0.0.0 www.steelbucks.com
 0.0.0.0 www.steelcitysue.net
