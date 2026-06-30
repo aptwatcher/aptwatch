@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-29 18:32:43
-# Entries: 526804
+# Generated: 2026-06-30 00:04:11
+# Entries: 526799
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -1869,6 +1869,7 @@
 0.0.0.0 0d8e991.wcomhost.com
 0.0.0.0 0d991bf2d52637370.tempsite.link
 0.0.0.0 0dad8c13.eatceo.cn
+0.0.0.0 0dahrppq.taktikbet.bio
 0.0.0.0 0datax-entr02yz.com
 0.0.0.0 0dax.com
 0.0.0.0 0dbox.com
@@ -2587,7 +2588,6 @@
 0.0.0.0 0yw47m7.gdkc9q.cn
 0.0.0.0 0yyxej1z8leuixarbv0z004.qwo231sdx.club
 0.0.0.0 0z.itmod.heath.net.au
-0.0.0.0 0z4y5ci2.1xboropartners.com
 0.0.0.0 0z9kmrypf55vlpkjiyhtzuwfzss.qwo231sdx.club
 0.0.0.0 0zd4-olyd5t-bvq7.anjaan.com.np
 0.0.0.0 0zddf4z.tokenapp.download
@@ -11934,7 +11934,6 @@
 0.0.0.0 1e07bfd2.qepfmq.shop
 0.0.0.0 1e09c8a63b2d.ngrok.io
 0.0.0.0 1e16831b-e8c0-4fcc-be7d-abde0a24c834-00-8wehzac0phfm.riker.replit.dev
-0.0.0.0 1e2sdyr4.honardartarikh.xyz
 0.0.0.0 1e4358ccea3604280.temporary.link
 0.0.0.0 1e56322b.satgrjtxcvdv.org.cn
 0.0.0.0 1e57382f-75a8-456d-8fe8-c484befa231d.id.repl.co
@@ -12149,6 +12148,7 @@
 0.0.0.0 1j0c6.weblium.site
 0.0.0.0 1j2dtbn.qwo231sdx.club
 0.0.0.0 1j3i32.difarmafarmaceutica.com.br
+0.0.0.0 1j4lxwuu.1xboropartners.com
 0.0.0.0 1j4nwi4v2zr0eyjvlewwf.wusps.xyz
 0.0.0.0 1j4r94h.cn
 0.0.0.0 1jba87d9ahuda.vercel.app
@@ -21397,6 +21397,7 @@
 0.0.0.0 39nrki0ost.s3.us-south.objectstorage.softlayer.net
 0.0.0.0 39ojgvt2pqakyb9nbumn7svbjofkww.wusps.xyz
 0.0.0.0 39oof7oney0bjbqk.wusps.xyz
+0.0.0.0 39p49guo.mokatebatedari.xyz
 0.0.0.0 39ra398386.com
 0.0.0.0 39tm.cn
 0.0.0.0 39tnteyxp.repuestogas.com
@@ -22187,6 +22188,7 @@
 0.0.0.0 3mileride.com
 0.0.0.0 3mindfulpath7.xyz
 0.0.0.0 3mjiu1bqhlvpybfdgq.qwo231sdx.club
+0.0.0.0 3mjtqxj3.1xsignupbet.com
 0.0.0.0 3mlhuinpkd.onsitetruckrepairssydney.com.au
 0.0.0.0 3mm-ttb.vercel.app
 0.0.0.0 3mmg-ccr-carb0n-tax2024.com
@@ -24617,6 +24619,7 @@
 0.0.0.0 4ce.ca
 0.0.0.0 4ceqpchyl95ug1rhbvo095k.53244ds.xyz
 0.0.0.0 4cfy.pages.dev
+0.0.0.0 4cfyhd61.fagaheestedlali.xyz
 0.0.0.0 4children.com.br
 0.0.0.0 4civsj0ohq9ny.qwo231sdx.club
 0.0.0.0 4clicker.pro
@@ -25273,6 +25276,7 @@
 0.0.0.0 4wqtfwr.ink
 0.0.0.0 4wr9pkv.hair
 0.0.0.0 4wvcr0g.qwo231sdx.club
+0.0.0.0 4wvw2ekl.jarayemaleyhamval.xyz
 0.0.0.0 4wx2sls93ouczzvvuxm.qwo231sdx.club
 0.0.0.0 4wxx671p56kwulhvsszqylqn.qwo231sdx.club
 0.0.0.0 4wybaqtiqa2tv2l.qwo231sdx.club
@@ -32646,7 +32650,6 @@
 0.0.0.0 69.79.32.80
 0.0.0.0 69.79.32.82
 0.0.0.0 690058951.goloser.ru
-0.0.0.0 6901jz2b.hesabdarishabahang.xyz
 0.0.0.0 6902470365.com
 0.0.0.0 690338.com
 0.0.0.0 69033d72.counselorcontacts-code3214.pages.dev
@@ -33333,6 +33336,7 @@
 0.0.0.0 6qrxl804cs13.qwo231sdx.club
 0.0.0.0 6qxwevjfyshbr25v.wusps.xyz
 0.0.0.0 6r66o6zcsblx5umqvwmjne4.qwo231sdx.club
+0.0.0.0 6r6t7wot.blackjackonlineplay83.com
 0.0.0.0 6r7s4-eiaaa-aaaad-qehga-cai.raw.ic0.app
 0.0.0.0 6r8jsq2.cn
 0.0.0.0 6rajs.duckdns.org
@@ -33474,6 +33478,7 @@
 0.0.0.0 6x.work
 0.0.0.0 6x66.site
 0.0.0.0 6x74s-6yaaa-aaaad-qetsa-cai.raw.ic0.app
+0.0.0.0 6xbjz1e7.1xfa.bio
 0.0.0.0 6xlqjg2tvviu4hpzuk.qwo231sdx.club
 0.0.0.0 6xnsw8jdux.qwo231sdx.club
 0.0.0.0 6xq2bc1q2k7fypu3.snap-external.com
@@ -35121,6 +35126,7 @@
 0.0.0.0 7awj4mi7ascwxeye.lspower.xyz
 0.0.0.0 7awv7-viaaa-aaaad-qdtca-cai.raw.ic0.app
 0.0.0.0 7ay--firsat---online.shop
+0.0.0.0 7ay17187.vip1xbet.net
 0.0.0.0 7azc.info
 0.0.0.0 7azd7pm9h.mycompanyportal.xyz
 0.0.0.0 7b067896.qepfmq.shop
@@ -35579,7 +35585,6 @@
 0.0.0.0 7pichin201892.tonohost.com
 0.0.0.0 7pjbrtbo.square.site
 0.0.0.0 7pjnl.eyecolourfaces.com
-0.0.0.0 7pkztjkc.1xbetpartnersiran.com
 0.0.0.0 7pptdtdrtsesrtwrhvfx.weebly.com
 0.0.0.0 7ppyabm0kjrxyoqsmvtl4ukpw.qwo231sdx.club
 0.0.0.0 7pqk3ubqwb.jimdofree.com
@@ -36692,7 +36697,6 @@
 0.0.0.0 85usrs120ps.cc
 0.0.0.0 85v-zvxvbvba-vfadbfghnh-dvafv-dbfg.vercel.app
 0.0.0.0 85wbhs.sbs
-0.0.0.0 85xhbv2q.shartcart.xyz
 0.0.0.0 85ynhs.sbs
 0.0.0.0 86-7sc.pages.dev
 0.0.0.0 86.104.194.51
@@ -40229,6 +40233,7 @@
 0.0.0.0 9llbkgregmmjeuxihgrf.53244ds.xyz
 0.0.0.0 9lszuanlj5.liusanjie.cc
 0.0.0.0 9lvnb3.liusanjie.cc
+0.0.0.0 9lw19l8l.betbuf.live
 0.0.0.0 9lxxkff.qwo231sdx.club
 0.0.0.0 9m.no
 0.0.0.0 9m1re-alternate.app.link
@@ -40269,7 +40274,6 @@
 0.0.0.0 9pekmvv.wiserwebus.io
 0.0.0.0 9ph.us
 0.0.0.0 9phzc6th.duckdns.org
-0.0.0.0 9pkiisod.jetbet1.pro
 0.0.0.0 9pkzjlmd6n.monitorminor.com.tr
 0.0.0.0 9po3.cc
 0.0.0.0 9po6mz7g48.projects.webpages.one
@@ -88086,7 +88090,6 @@
 0.0.0.0 apexcarparts.in
 0.0.0.0 apexcityunion.site
 0.0.0.0 apexclaim.org
-0.0.0.0 apexdataserver4.sbs
 0.0.0.0 apexenterprisesweb.com
 0.0.0.0 apexes.matsuro.ru
 0.0.0.0 apexes.virosat.ru
@@ -124329,7 +124332,6 @@
 0.0.0.0 babawebdesign.com
 0.0.0.0 babawest12.weeblysite.com
 0.0.0.0 babayaga101.000webhostapp.com
-0.0.0.0 babayagareborn.net
 0.0.0.0 babayeff.com
 0.0.0.0 babayellooowwwwwwwwwww.blob.core.windows.net
 0.0.0.0 babayo-2022.duckdns.org
@@ -136675,7 +136677,6 @@
 0.0.0.0 bcatendim.sslblindado.com
 0.0.0.0 bcayg.com.mx
 0.0.0.0 bcb2.state-country.workers.dev
-0.0.0.0 bcb7ukdo.tinyshart.com
 0.0.0.0 bcbadvogados.com.br
 0.0.0.0 bcbb74f7bffcde1187d3e077de422a9a16f9f581cc512c39c09755a0e3.pages.dev
 0.0.0.0 bcbbbbbb.000webhostapp.com
@@ -153500,6 +153501,7 @@
 0.0.0.0 bp5c8t3lbj2wk.p18.rt3.io
 0.0.0.0 bp81ygebyy1.tulisku.my.id
 0.0.0.0 bp8475.tmweb.ru
+0.0.0.0 bp8ahtdg.blackjackonlineplay83.com
 0.0.0.0 bp8q8j.40261.81935.m.shuaihu99.com
 0.0.0.0 bp9vxftorx4df.qwo231sdx.club
 0.0.0.0 bpa.vn
@@ -162804,7 +162806,6 @@
 0.0.0.0 c2shb.pubgw.yahoo.com
 0.0.0.0 c2shb.ssp.yahoo.com
 0.0.0.0 c2taxservice.com
-0.0.0.0 c2uwzjf8.blackjackonlineplay83.com
 0.0.0.0 c2vjdxjpdhkubwljcm9zb2z0lmnvbq.com
 0.0.0.0 c2vs.short.gy
 0.0.0.0 c3.adalyser.com
@@ -168048,7 +168049,6 @@
 0.0.0.0 cccterminal.com
 0.0.0.0 cccvbv.weeblysite.com
 0.0.0.0 cccwega-auth.ml
-0.0.0.0 ccczqxl6.blackjackonlineplay83.com
 0.0.0.0 ccczv.za.com
 0.0.0.0 ccd8.azurewebsites.net
 0.0.0.0 ccdarts.com
@@ -168854,7 +168854,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -175606,7 +175605,6 @@
 0.0.0.0 ck07762.tmweb.ru
 0.0.0.0 ck08437.tmweb.ru
 0.0.0.0 ck09456.tw1.ru
-0.0.0.0 ck0ny34p.1xprobet.app
 0.0.0.0 ck10309.tmweb.ru
 0.0.0.0 ck10855.tmweb.ru
 0.0.0.0 ck16771.tw1.ru
@@ -202320,6 +202318,7 @@
 0.0.0.0 depbjeuimlfbqpghtytnxfbvtw-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 depconnect-apple-support.com
 0.0.0.0 depconnect-prn-apple.com
+0.0.0.0 depdoej0.taktikbet.bio
 0.0.0.0 depeche00777.github.io
 0.0.0.0 depedlacarlota.com
 0.0.0.0 depend.coffiti.ru
@@ -205536,7 +205535,6 @@
 0.0.0.0 dfghuyjamu.duckdns.org
 0.0.0.0 dfgihjhgfdsdfghjjhdssmfdkjfdnnbveifindndinin.pages.dev
 0.0.0.0 dfgjhklhlfghjnk.weebly.com
-0.0.0.0 dfgjhkllkhuuk.info
 0.0.0.0 dfgretgg.blogspot.bg
 0.0.0.0 dfgretgg.blogspot.cl
 0.0.0.0 dfgretgg.blogspot.co.id
@@ -209443,7 +209441,6 @@
 0.0.0.0 dl.keywordstrategy.org
 0.0.0.0 dl.logging.admicro.vn
 0.0.0.0 dl.mod30t.ir
-0.0.0.0 dl.multiextension.com
 0.0.0.0 dl.myindustry.ir
 0.0.0.0 dl.natgo.cn
 0.0.0.0 dl.payforme.top
@@ -214539,6 +214536,7 @@
 0.0.0.0 dsqllsqleiiekel.blogspot.is
 0.0.0.0 dsqllsqleiiekel.blogspot.md
 0.0.0.0 dsquared2-eu.shop
+0.0.0.0 dsr.bet1forward.com
 0.0.0.0 dsrcdxojunetsrwg-dot-millinium.ey.r.appspot.com
 0.0.0.0 dsrcqaynekpjqgfr-dot-millinium.ey.r.appspot.com
 0.0.0.0 dsrgn.blogspot.bg
@@ -216730,7 +216728,6 @@
 0.0.0.0 e.nemoiti.ru
 0.0.0.0 e.nu-soft.xyz
 0.0.0.0 e.pagey-offset.top
-0.0.0.0 e.perspolis.pro
 0.0.0.0 e.plortac.ru
 0.0.0.0 e.putrif.ru
 0.0.0.0 e.qq.com
@@ -225152,6 +225149,7 @@
 0.0.0.0 eostechnologies.net
 0.0.0.0 eoszwpyqsqzgroelhbcnzlainx-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 eotjnoofnurpiyxrjmaortoezm-dot-gle39404049.rj.r.appspot.com
+0.0.0.0 eotm8liv.xbetone.com
 0.0.0.0 eotrade.de
 0.0.0.0 eotsoumgnvimhykdlpkkkapzrv-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 eottxji4yk4vg5x.m.pipedream.net
@@ -273735,7 +273733,6 @@
 0.0.0.0 h64u.xyz
 0.0.0.0 h654bv.shop
 0.0.0.0 h65d4.xyz
-0.0.0.0 h663gbdv.ahkam.xyz
 0.0.0.0 h6bzimhcrkqt.thedsdstudio.com
 0.0.0.0 h6fxt.top
 0.0.0.0 h6gg8-256mkm0u.b4a.run
@@ -281281,6 +281278,7 @@
 0.0.0.0 hi0yw5nwkw0o.shop
 0.0.0.0 hi1l3.csb.app
 0.0.0.0 hi41x1sxpi673o3jhs2l.cybertruck.eu.com
+0.0.0.0 hi4ztw3j.vip1xbet.org
 0.0.0.0 hi6vxx.duckdns.org
 0.0.0.0 hi7ru-yiaaa-aaaad-qerna-cai.raw.ic0.app
 0.0.0.0 hial.shop
@@ -289258,7 +289256,6 @@
 0.0.0.0 hzjlievphzxncnef-dot-millinium.ey.r.appspot.com
 0.0.0.0 hzjsxly.com
 0.0.0.0 hzjy7k.duckdns.org
-0.0.0.0 hzks2llo.1xdownload2023.com
 0.0.0.0 hzksg.sovereignty2020.com
 0.0.0.0 hzkvxcbcjfxpjtrq-dot-millinium.ey.r.appspot.com
 0.0.0.0 hzkxxkavtbvypbmleugefeefabyfizqgveuf-dot-offgl8876899977678.uk.r.appspot.com
@@ -292896,7 +292893,6 @@
 0.0.0.0 ik-muras.kg
 0.0.0.0 ik.7bug6mrsli7933.workers.dev
 0.0.0.0 ik.imagekit.io
-0.0.0.0 ik029b3d.1xsignupbet.com
 0.0.0.0 ikademo.ru
 0.0.0.0 ikajuen.com
 0.0.0.0 ikampya-bireysel-basvur-com.ml
@@ -324644,7 +324640,6 @@
 0.0.0.0 kuikooinlogon.webflow.io
 0.0.0.0 kuikooinslogon.webflow.io
 0.0.0.0 kuikoswinxslogon.webflow.io
-0.0.0.0 kuilfgfd.cc
 0.0.0.0 kuinbass-pr-logzx.godaddysites.com
 0.0.0.0 kuincoinlogon.webflow.io
 0.0.0.0 kuinnloggn.webflow.io
@@ -437278,6 +437273,7 @@
 0.0.0.0 pyh5qc0f.spotifik.ru
 0.0.0.0 pyhvt.weblium.site
 0.0.0.0 pyhzoiiggtkugzmollrvtjiafqmbiwbuphnd-dot-cedar-code-289917.nn.r.appspot.com
+0.0.0.0 pyi9pmd8.1xbetpartnersiran.com
 0.0.0.0 pyiahrtwnlipvsdg-dot-millinium.ey.r.appspot.com
 0.0.0.0 pyifvzydajxfqzkhgahlkmnaqmrunsdpchro-dot-glegen303939423233.ue.r.appspot.com
 0.0.0.0 pyimkqjraksjexoprimsutkifd-dot-gleowayel400503.uc.r.appspot.com
@@ -438830,7 +438826,6 @@
 0.0.0.0 qplosvxhgvnrvhld-dot-millinium.ey.r.appspot.com
 0.0.0.0 qplw-whatsepp.com
 0.0.0.0 qpm.teleqriem.club
-0.0.0.0 qpmbndoi.yekshart.app
 0.0.0.0 qpnccwm9owgf48cu9t1e.qwo231sdx.club
 0.0.0.0 qpneu.com.br
 0.0.0.0 qpoijkcfdocumentreview.tecdocproject.com
@@ -440781,6 +440776,7 @@
 0.0.0.0 r32.co.uk
 0.0.0.0 r32222.vercel.app
 0.0.0.0 r32b8fd2ee82.ptqbtoken.top
+0.0.0.0 r32rtlhu.1xbetpartnersiran.com
 0.0.0.0 r32t-c64ib-21.com
 0.0.0.0 r344qwasz.appspot.com
 0.0.0.0 r366464646e.weebly.com
@@ -440827,6 +440823,7 @@
 0.0.0.0 r4vedsczsas.site
 0.0.0.0 r4wp8kv.hair
 0.0.0.0 r4xttrb6.cn
+0.0.0.0 r4zhwkgz.betbuf.live
 0.0.0.0 r5-black.vercel.app
 0.0.0.0 r5.ritikajoshi.com
 0.0.0.0 r5.romeflirt.com
@@ -472469,6 +472466,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -476349,7 +476347,6 @@
 0.0.0.0 t6fu7gu.weebly.com
 0.0.0.0 t6hqn-innomotics.gksnhlbhkq.es
 0.0.0.0 t6p.podatgov.com
-0.0.0.0 t71awqhc.1xsignupbet.com
 0.0.0.0 t87bb.top
 0.0.0.0 t8dvzv-4a4epr-token.vercel.app
 0.0.0.0 t8hair2.hair
@@ -477534,7 +477531,6 @@
 0.0.0.0 tazeemtex.com
 0.0.0.0 tazohor.com
 0.0.0.0 tb.de17a.com
-0.0.0.0 tb4awyc7.vip1xbet.net
 0.0.0.0 tb8jgv.sbs
 0.0.0.0 tbc.yox.mybluehost.me
 0.0.0.0 tbcargo.com.br
@@ -481206,7 +481202,6 @@
 0.0.0.0 tmtitks134.top
 0.0.0.0 tmv.ulitron.ru
 0.0.0.0 tmvc-whatsepp.com
-0.0.0.0 tmvkionb.taktikbet.bio
 0.0.0.0 tmvvaosg.shop
 0.0.0.0 tmx.technoratimedia.com
 0.0.0.0 tmxajche.mddf.com.cn
@@ -484617,7 +484612,6 @@
 0.0.0.0 tsxclub.us.intellitxt.com
 0.0.0.0 tsyndicate.com
 0.0.0.0 tsyndicate.net
-0.0.0.0 tszebpwz.1xprobet.app
 0.0.0.0 tt-104256.weeblysite.com
 0.0.0.0 tt-supplier.com
 0.0.0.0 tt.omtrdc.net
@@ -485680,6 +485674,7 @@
 0.0.0.0 ugurdeveci.com.tr
 0.0.0.0 uguvy.cn
 0.0.0.0 uh.ulitron.ru
+0.0.0.0 uhaita1o.1x303.casino
 0.0.0.0 uharun.ru
 0.0.0.0 uhaywtolrj.duckdns.org
 0.0.0.0 uhbixnjfnp5x1.cc
@@ -490440,7 +490435,6 @@
 0.0.0.0 vfny76u555u6y4rth.weebly.com
 0.0.0.0 vfprrostcf.duckdns.org
 0.0.0.0 vfrhjrtjfwwettgonline.com
-0.0.0.0 vfu1w9au.honarrang.online
 0.0.0.0 vfvr3.pages.dev
 0.0.0.0 vfw.dedspac.ru
 0.0.0.0 vfyq5.cyou
@@ -492165,6 +492159,7 @@
 0.0.0.0 w00tpublishers.wootmedia.net
 0.0.0.0 w02f.xyz
 0.0.0.0 w0kpf.bwjwaypwsd.es
+0.0.0.0 w0l83hua.1xsignupbet.com
 0.0.0.0 w0p0t-gesswein.ghjigclbopy.es
 0.0.0.0 w0re.stadrourea.ru
 0.0.0.0 w0won-lee-associates.qkipikpp.es
