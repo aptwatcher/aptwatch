@@ -475552,7 +475552,6 @@ swiftblockresolve.pages.dev
 swiftconnectapp.pages.dev
 swiftdecentralizedapp.com
 swiftfieldxc.vercel.app
-swiftfusion.tech
 swiftlinknexoraplatform.com
 swiftnodeaccessrefix.pages.dev
 swiftnoderessolves.pages.dev
