@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-30 06:37:27
-# Entries: 525684
+# Generated: 2026-06-30 12:36:16
+# Entries: 525688
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -81934,6 +81934,7 @@
 0.0.0.0 anakbaikitu.anakembok.de
 0.0.0.0 anakes.dedspac.ru
 0.0.0.0 anakharam21.duckdns.org
+0.0.0.0 anakort32ew.site
 0.0.0.0 anaksekolahsangedigenjottemansekelas.000webhostapp.com
 0.0.0.0 anaksekolahsangenggatahancrot.000webhostapp.com
 0.0.0.0 anaksmahot.000webhostapp.com
@@ -178416,6 +178417,7 @@
 0.0.0.0 cloud.ogury.io
 0.0.0.0 cloud.onedrive.my-wiley.com
 0.0.0.0 cloud.orangevg.workers.dev
+0.0.0.0 cloud.pearlpeel.com
 0.0.0.0 cloud.robi-nud.com
 0.0.0.0 cloud.rodemsys.com
 0.0.0.0 cloud.shailoyio.com
@@ -244304,6 +244306,7 @@
 0.0.0.0 fileviasharpointt2.web.app
 0.0.0.0 fileviasharpointt4.web.app
 0.0.0.0 filexfrshareadmin.weebly.com
+0.0.0.0 fileza.xyz
 0.0.0.0 filezilla.fr
 0.0.0.0 filezip.mrbonus.com
 0.0.0.0 filf.pages.dev
@@ -282991,6 +282994,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -474931,7 +474935,6 @@
 0.0.0.0 swiftconnectapp.pages.dev
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftlinknexoraplatform.com
 0.0.0.0 swiftnesth.shop
 0.0.0.0 swiftnodeaccessrefix.pages.dev
@@ -479284,6 +479287,7 @@
 0.0.0.0 theblakewelt.shop
 0.0.0.0 theblemish.us.intellitxt.com
 0.0.0.0 thebosh.us.intellitxt.com
+0.0.0.0 thebrighttable.com
 0.0.0.0 thebrighttag.com
 0.0.0.0 thebugs.ws
 0.0.0.0 thebuzz.today
