@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-06-30 12:36:16
-# Entries: 525688
+# Generated: 2026-06-30 18:33:46
+# Entries: 525689
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45598,6 +45598,7 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
+0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -282994,7 +282995,6 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
-0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -408312,6 +408312,7 @@
 0.0.0.0 par-v56.cf
 0.0.0.0 par.fxbtzzx.com
 0.0.0.0 par.mzfpb.com
+0.0.0.0 par.sitwxh.com
 0.0.0.0 par.ulitron.ru
 0.0.0.0 par.vip.prod.criteo.com
 0.0.0.0 par.vip.prod.criteo.net
@@ -464366,6 +464367,7 @@
 0.0.0.0 sergey.bibliota.ru
 0.0.0.0 sergio-l-h-a.github.io
 0.0.0.0 sergiomarshall.com
+0.0.0.0 sergiotrabuccocineasta.com
 0.0.0.0 seri.amaniwa.ru
 0.0.0.0 seri.ulitron.ru
 0.0.0.0 seriale.best
@@ -500929,7 +500931,6 @@
 0.0.0.0 www.cocoopt.com
 0.0.0.0 www.cocorico-mode.com
 0.0.0.0 www.cocukdiyarianaokulu.com
-0.0.0.0 www.code-beautify.com
 0.0.0.0 www.codeads.com
 0.0.0.0 www.codeandwork.pl
 0.0.0.0 www.codecraftq.shop
