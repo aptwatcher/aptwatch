@@ -390058,6 +390058,7 @@ node.dedspac.ru
 node.gameads.io
 node.smarteresolver.com
 node.ulitron.ru
+node2-py-store.com
 node2bind.tech
 nodeaccessactivation.live
 nodeapend.online
@@ -486349,7 +486350,6 @@ updates-windows.com
 updates.slekkeud.workers.dev
 updatesamzsupportmailaccouncustome.4-155-105-207.cprapid.com
 updatesecure.pro
-updateservice1-telegramweb.com
 updateservicecenter.blogspot.com
 updateservices.in
 updatesoftware24.com
