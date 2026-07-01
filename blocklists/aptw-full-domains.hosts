@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-01 06:37:20
-# Entries: 525906
+# Generated: 2026-07-01 12:34:19
+# Entries: 525911
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -137709,7 +137709,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -217558,6 +217557,7 @@
 0.0.0.0 easydec.iinkedin.li
 0.0.0.0 easydosensenken.de
 0.0.0.0 easyfeed-back.pages.dev
+0.0.0.0 easyfiles.cc
 0.0.0.0 easyfiles.nocoshop.ru
 0.0.0.0 easyfiles.topupload.ru
 0.0.0.0 easyfilingcabinet.com
@@ -283080,6 +283080,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -292565,6 +292566,7 @@
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
 0.0.0.0 ijazkaaturi.eu
+0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -409151,6 +409153,7 @@
 0.0.0.0 parys.njymbz.com
 0.0.0.0 parys.parfym.sbs
 0.0.0.0 parys.rybolov-sk.shop
+0.0.0.0 parys.secridnl.xyz
 0.0.0.0 parys.shop
 0.0.0.0 parysczsale.shop
 0.0.0.0 paryssk-online.shop
@@ -484722,6 +484725,7 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
+0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyerudaidjwirwr.site
@@ -502734,6 +502738,7 @@
 0.0.0.0 www.drezinex-soft.com
 0.0.0.0 www.drfiratsen.com
 0.0.0.0 www.drfundaakin.com
+0.0.0.0 www.drgenov.com
 0.0.0.0 www.drhikmetbasmak.com
 0.0.0.0 www.drift-sharp.com
 0.0.0.0 www.driftwell.eu
