@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-01 06:04:16
-# Entries: 525905
+# Generated: 2026-07-01 06:37:20
+# Entries: 525906
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48552,7 +48552,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -179385,6 +179384,7 @@
 0.0.0.0 cn.rkzmx.com
 0.0.0.0 cn.sekmx.com
 0.0.0.0 cn.sqhuabang.com
+0.0.0.0 cn.unionlever.com
 0.0.0.0 cn.vcbjmx.com
 0.0.0.0 cn.voranfi.ru
 0.0.0.0 cn.wanbo18.pro
@@ -382705,6 +382705,7 @@
 0.0.0.0 ncvnaleidoscopichashmaps.stacychun5.repl.co
 0.0.0.0 ncwqcdzhby.duckdns.org
 0.0.0.0 ncwqvsckedvrtlwucwnlwycqmj-dot-gleowayel400503.uc.r.appspot.com
+0.0.0.0 ncxps.com
 0.0.0.0 ncxrpjezyx.duckdns.org
 0.0.0.0 ncxzjn.we9ixzz.co
 0.0.0.0 ncybedfg.weebly.com
