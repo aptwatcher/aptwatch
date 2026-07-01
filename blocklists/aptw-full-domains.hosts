@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-01 18:33:14
-# Entries: 525911
+# Generated: 2026-07-01 19:04:51
+# Entries: 525912
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -215923,6 +215923,7 @@
 0.0.0.0 dyne.dedspac.ru
 0.0.0.0 dyneavo.top
 0.0.0.0 dynel.ulitron.ru
+0.0.0.0 dynga.pl
 0.0.0.0 dynid.com
 0.0.0.0 dynip.org
 0.0.0.0 dynis-hold.pages.dev
