@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-01 00:35:50
-# Entries: 525893
+# Generated: 2026-07-01 06:04:16
+# Entries: 525905
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48552,6 +48552,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -137709,6 +137710,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -164201,6 +164203,7 @@
 0.0.0.0 cambodiaharvest2.sovanntong.com
 0.0.0.0 cambodiakhmerpornvideo.vvipwww.com
 0.0.0.0 cambodiaporncinemakhmer.vvipwww.com
+0.0.0.0 cambodiatouristservice.com
 0.0.0.0 cambodiatraining.com
 0.0.0.0 cambojaporheranca.com.br
 0.0.0.0 cambonanza.com
@@ -188338,6 +188341,7 @@
 0.0.0.0 corvusi.online
 0.0.0.0 corvusi.ru
 0.0.0.0 corvusso.ru
+0.0.0.0 corwineagles.com
 0.0.0.0 corwinhome.eu
 0.0.0.0 cory.lura.larealtypertners.com
 0.0.0.0 cory.vadilops.ru
@@ -213257,6 +213261,7 @@
 0.0.0.0 dreamad.org
 0.0.0.0 dreamalive5.com
 0.0.0.0 dreamalivemedia.com
+0.0.0.0 dreamapp.xyz
 0.0.0.0 dreamartdesigns.com
 0.0.0.0 dreambasetechnologies.net
 0.0.0.0 dreamboostzu.vercel.app
@@ -316572,6 +316577,7 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
+0.0.0.0 kambohmag.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
@@ -355382,6 +355388,7 @@
 0.0.0.0 mblokiram.cf
 0.0.0.0 mblokiram.tk
 0.0.0.0 mbltext.com
+0.0.0.0 mblue.cc
 0.0.0.0 mbmabargrups-fants11.duckdns.org
 0.0.0.0 mbmarquitectos.com.pe
 0.0.0.0 mbmb.pages.dev
@@ -380475,6 +380482,7 @@
 0.0.0.0 n.systemlog.me
 0.0.0.0 n.targetctracker.com
 0.0.0.0 n.timerto.ru
+0.0.0.0 n.vs108.com
 0.0.0.0 n.yj.fr
 0.0.0.0 n.z7mard.yhfnxn4yif.yyg.44f4bm8jj.tjgs.a7fwx4s.y4sk4f.fs.2ejmf.jjxp.scyrz6q.3k4y.cn2gbzw.epjnheai6.ndsye.6b8scztpm.rbfkhx.de.w.2qkwnw.hmtr.5ntsprmyy.awejw.jphz.iyxw3qjcn.ens3c.pay.paypalcancel.cc
 0.0.0.0 n01d05.cumulus-cloud.com
@@ -414415,6 +414423,7 @@
 0.0.0.0 pfaqezewnwnokdmb-dot-millinium.ey.r.appspot.com
 0.0.0.0 pfarmania.com
 0.0.0.0 pfastelinho.groks-the.info
+0.0.0.0 pfatrivandrum.org
 0.0.0.0 pfaxsydzmcosfsgb-dot-millinium.ey.r.appspot.com
 0.0.0.0 pfbfinancialassts.com
 0.0.0.0 pfbid0hecxzdghajjktlqyypwbuurpgynu6n7ojnelemoqtlnotifid.my.id
@@ -469672,6 +469681,7 @@
 0.0.0.0 spnet2-1.i-mobile.co.jp
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
+0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodmetalowychdrzwi.pro
@@ -472351,6 +472361,7 @@
 0.0.0.0 stcamconnmumnlty.com
 0.0.0.0 std.o.webmd.com
 0.0.0.0 std112.github.io
+0.0.0.0 stdown.dinju.com
 0.0.0.0 steacncomnuniry.ru
 0.0.0.0 stead.dedspac.ru
 0.0.0.0 steadfast-seemly-cobalt.glitch.me
@@ -472899,6 +472910,7 @@
 0.0.0.0 stonebyhome.eu
 0.0.0.0 stonecornerco.eu
 0.0.0.0 stonecornerhome.eu
+0.0.0.0 stonecradle.com
 0.0.0.0 stonecrestupdatev.info
 0.0.0.0 stoneford.eu
 0.0.0.0 stonegate-bitflow-engine.com
