@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-02 12:36:31
-# Entries: 525950
+# Generated: 2026-07-02 16:39:25
+# Entries: 525945
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -244259,7 +244259,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -302688,7 +302687,6 @@
 0.0.0.0 irade.virosat.ru
 0.0.0.0 iraelavic69.click
 0.0.0.0 iraentel88.click
-0.0.0.0 irahook.org
 0.0.0.0 irak.amaniwa.ru
 0.0.0.0 irak.ulitron.ru
 0.0.0.0 iraki.dedspac.ru
@@ -469714,7 +469712,6 @@
 0.0.0.0 spnet2-1.i-mobile.co.jp
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spnet5.i-mobile.co.jp
-0.0.0.0 spoar.org.in
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodklatkischodowej.pro
 0.0.0.0 spodmetalowychdrzwi.pro
@@ -472945,7 +472942,6 @@
 0.0.0.0 stonebyhome.eu
 0.0.0.0 stonecornerco.eu
 0.0.0.0 stonecornerhome.eu
-0.0.0.0 stonecradle.com
 0.0.0.0 stonecrestupdatev.info
 0.0.0.0 stoneford.eu
 0.0.0.0 stonegate-bitflow-engine.com
@@ -498755,7 +498751,6 @@
 0.0.0.0 www.astalavista.us
 0.0.0.0 www.astardrip.com
 0.0.0.0 www.astenterprises.com.pk
-0.0.0.0 www.asterglobal.com
 0.0.0.0 www.asterpsych.cyou
 0.0.0.0 www.astmata.info
 0.0.0.0 www.astriunblu.cyou
