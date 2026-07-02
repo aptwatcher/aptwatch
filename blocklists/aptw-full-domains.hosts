@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-02 06:38:35
+# Generated: 2026-07-02 12:36:31
 # Entries: 525950
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -48558,7 +48558,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -188350,7 +188349,6 @@
 0.0.0.0 corvusi.online
 0.0.0.0 corvusi.ru
 0.0.0.0 corvusso.ru
-0.0.0.0 corwineagles.com
 0.0.0.0 corwinhome.eu
 0.0.0.0 cory.lura.larealtypertners.com
 0.0.0.0 cory.vadilops.ru
@@ -302690,6 +302688,7 @@
 0.0.0.0 irade.virosat.ru
 0.0.0.0 iraelavic69.click
 0.0.0.0 iraentel88.click
+0.0.0.0 irahook.org
 0.0.0.0 irak.amaniwa.ru
 0.0.0.0 irak.ulitron.ru
 0.0.0.0 iraki.dedspac.ru
@@ -498756,6 +498755,7 @@
 0.0.0.0 www.astalavista.us
 0.0.0.0 www.astardrip.com
 0.0.0.0 www.astenterprises.com.pk
+0.0.0.0 www.asterglobal.com
 0.0.0.0 www.asterpsych.cyou
 0.0.0.0 www.astmata.info
 0.0.0.0 www.astriunblu.cyou
