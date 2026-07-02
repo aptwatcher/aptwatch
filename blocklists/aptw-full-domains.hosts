@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-02 00:36:50
-# Entries: 525945
+# Generated: 2026-07-02 06:05:18
+# Entries: 525949
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48558,6 +48558,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -283093,6 +283094,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -424839,6 +424841,7 @@
 0.0.0.0 primabahasa.com
 0.0.0.0 primadent.com.tr
 0.0.0.0 primaface.pages.dev
+0.0.0.0 primaflor-sby.com
 0.0.0.0 primafpseguroenlinea1pe.com
 0.0.0.0 primage.com.br
 0.0.0.0 primago.co.id
@@ -464320,6 +464323,7 @@
 0.0.0.0 semashi.ru
 0.0.0.0 semasio.net
 0.0.0.0 semaxin.pl
+0.0.0.0 semencepourlavie.org
 0.0.0.0 semi.amaniwa.ru
 0.0.0.0 semi.ulitron.ru
 0.0.0.0 semiftease.cyou
@@ -469790,6 +469794,7 @@
 0.0.0.0 sportisimo.outlcsale.com
 0.0.0.0 sportisimo.sfd-pl.shop
 0.0.0.0 sportisimoczolinesale.com
+0.0.0.0 sportisimoonlineshop.com
 0.0.0.0 sportisimoonlinesk.com
 0.0.0.0 sportisimoshop.com
 0.0.0.0 sportmora.shop
@@ -477276,7 +477281,6 @@
 0.0.0.0 techaguides.info
 0.0.0.0 techartadverts.com
 0.0.0.0 techbargins.com
-0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techcitychurch.com
