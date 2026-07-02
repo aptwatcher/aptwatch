@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-02 18:52:08
-# Entries: 525946
+# Generated: 2026-07-02 23:38:08
+# Entries: 525950
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -122224,6 +122224,7 @@
 0.0.0.0 ayudabancaria.weebly.com
 0.0.0.0 ayudabancolombia.com
 0.0.0.0 ayudabancolombla.webcindario.com
+0.0.0.0 ayudaclientes.bntrab.sbs
 0.0.0.0 ayudaenlinea.vastserve.com
 0.0.0.0 ayudainteractiva.webcindario.com
 0.0.0.0 ayudanecesaria22.000webhostapp.com
@@ -244260,6 +244261,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -409163,6 +409165,7 @@
 0.0.0.0 parwindersinghbatra.github.io
 0.0.0.0 pary.fishing-sk.shop
 0.0.0.0 pary.sksave.sbs
+0.0.0.0 parys-cz.shop
 0.0.0.0 parys.clarel.sbs
 0.0.0.0 parys.cz-sale.top
 0.0.0.0 parys.cz-store.shop
@@ -469794,6 +469797,7 @@
 0.0.0.0 sportisimoczolinesale.com
 0.0.0.0 sportisimoonlineshop.com
 0.0.0.0 sportisimoonlinesk.com
+0.0.0.0 sportisimooutletssk.com
 0.0.0.0 sportisimoshop.com
 0.0.0.0 sportmora.shop
 0.0.0.0 sportmovementcentre.com
@@ -472943,6 +472947,7 @@
 0.0.0.0 stonebyhome.eu
 0.0.0.0 stonecornerco.eu
 0.0.0.0 stonecornerhome.eu
+0.0.0.0 stonecradle.com
 0.0.0.0 stonecrestupdatev.info
 0.0.0.0 stoneford.eu
 0.0.0.0 stonegate-bitflow-engine.com
@@ -484753,7 +484758,6 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
-0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyerudaidjwirwr.site
