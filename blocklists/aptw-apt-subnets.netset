@@ -4,15 +4,20 @@
 #
 # Category: apt/threat-intelligence
 # Maintainer: APT Watch (aptwatch.org)
-# Generated: 2026-07-02 23:38:07
-# Entries: 4
+# Generated: 2026-07-03 00:34:41
+# Entries: 9
 #
 # This file is auto-generated from the APT intelligence database.
 # DO NOT EDIT MANUALLY — re-run generate_blocklists.py instead.
 #
 # Redistribution: TLP:AMBER — do not share publicly
 #
+138.124.92.0/24  # 131 IOCs (51.2%) — AEZA-AS
+138.124.91.0/24  # 85 IOCs (33.2%) — AEZA-AS
 185.208.159.0/24  # 51 IOCs (19.9%) — Global-Data System IT Corporation
 185.196.10.0/24  # 50 IOCs (19.5%) — Global-Data System IT Corporation
 185.196.9.0/24  # 50 IOCs (19.5%) — Global-Data System IT Corporation
+138.124.54.0/24  # 46 IOCs (18.0%) — AEZA-AS
+138.124.55.0/24  # 45 IOCs (17.6%) — AEZA-AS
 185.196.11.0/24  # 41 IOCs (16.0%) — Global-Data System IT Corporation
+138.124.113.0/24  # 41 IOCs (16.0%) — AEZA-AS
