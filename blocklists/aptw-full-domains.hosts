@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-03 14:16:59
-# Entries: 525962
+# Generated: 2026-07-03 18:10:54
+# Entries: 525988
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -118616,6 +118616,7 @@
 0.0.0.0 authorizeappsandgeoservicesllc.jesafetelecoms.com
 0.0.0.0 authorized-account.ddns.net
 0.0.0.0 authorized-deviced-toolz.biz.id
+0.0.0.0 authorized-logins.net
 0.0.0.0 authorized-notifications.com
 0.0.0.0 authorized-webapps.redirectme.net
 0.0.0.0 authorizedapps.pages.dev
@@ -123976,6 +123977,7 @@
 0.0.0.0 b6p.top
 0.0.0.0 b6r0em.webwave.dev
 0.0.0.0 b6tddihf.qwo231sdx.club
+0.0.0.0 b6w9m2z5x8q1v3k.top
 0.0.0.0 b6yuxktylavunp8mfdc.qwo231sdx.club
 0.0.0.0 b6z0p8zgqae.000webhostapp.com
 0.0.0.0 b6z9468gmhadwehg6sy.qwo231sdx.club
@@ -165881,6 +165883,7 @@
 0.0.0.0 carriva.store
 0.0.0.0 carrjan55o.temp.swtest.ru
 0.0.0.0 carrocerialauruca.com
+0.0.0.0 carrolc.com
 0.0.0.0 carrolju.netlify.app
 0.0.0.0 carrollfuel.securedthirdwaysearch.com
 0.0.0.0 carrosel.co.ke
@@ -175379,6 +175382,7 @@
 0.0.0.0 cj00113.tw1.ru
 0.0.0.0 cj02582.tw1.ru
 0.0.0.0 cj03905.tmweb.ru
+0.0.0.0 cj06y9v4xab.com
 0.0.0.0 cj09048.tmweb.ru
 0.0.0.0 cj09949.tw1.ru
 0.0.0.0 cj0d1sa8f.xzf.my.id
@@ -179388,6 +179392,7 @@
 0.0.0.0 cn.rkzmx.com
 0.0.0.0 cn.sekmx.com
 0.0.0.0 cn.sqhuabang.com
+0.0.0.0 cn.unionlever.com
 0.0.0.0 cn.vcbjmx.com
 0.0.0.0 cn.voranfi.ru
 0.0.0.0 cn.wanbo18.pro
@@ -194092,6 +194097,7 @@
 0.0.0.0 cwqvfrnews.com
 0.0.0.0 cwqzf.top
 0.0.0.0 cwrqogzfho.duckdns.org
+0.0.0.0 cwrtwright.com
 0.0.0.0 cws-eu.conviva.com
 0.0.0.0 cws-hotstar.conviva.com
 0.0.0.0 cws-hulu.conviva.com
@@ -200749,6 +200755,7 @@
 0.0.0.0 defpush.com
 0.0.0.0 defre321.blogspot.com
 0.0.0.0 defrost.pl
+0.0.0.0 defs.updater-worelos.com
 0.0.0.0 deft-bunny-7c49c9.netlify.app
 0.0.0.0 deft-cat-58c1f5.netlify.app
 0.0.0.0 deft-frangollo-f84b6a.netlify.app
@@ -252220,6 +252227,7 @@
 0.0.0.0 ftpadmin.edv-stumpf.de
 0.0.0.0 ftpcontent.worldnow.com
 0.0.0.0 ftpqbnsiahjyuyeh-dot-owaonk399399393.uk.r.appspot.com
+0.0.0.0 ftps.upd-domain-goloro.com
 0.0.0.0 ftqdeoyfoevpzzqm-dot-millinium.ey.r.appspot.com
 0.0.0.0 ftratywlogs.square.site
 0.0.0.0 ftreqaf.info
@@ -265589,6 +265597,7 @@
 0.0.0.0 grandcentralatkennedy.com
 0.0.0.0 grandcitygroup.com
 0.0.0.0 grande-liquida-panelas.com
+0.0.0.0 grande-luna.top
 0.0.0.0 grandentrydoorsadmin.com
 0.0.0.0 grandeporto.com.br
 0.0.0.0 grandeverybody.com
@@ -287836,6 +287845,7 @@
 0.0.0.0 humadaovalidator.pages.dev
 0.0.0.0 humadwsq.gq
 0.0.0.0 humaidtelwala.github.io
+0.0.0.0 human-check.top
 0.0.0.0 human-resources-owa.pages.dev
 0.0.0.0 human.ug
 0.0.0.0 human.winmail01.cn
@@ -346344,6 +346354,7 @@
 0.0.0.0 mail.authorise-mynewpayees.com
 0.0.0.0 mail.authorise-mynewtransactions.com
 0.0.0.0 mail.authorisemy-payment.com
+0.0.0.0 mail.authorized-logins.net
 0.0.0.0 mail.authysecure0.duckdns.org
 0.0.0.0 mail.autocontinentalltd.com
 0.0.0.0 mail.autojansmultimarcas.com.br
@@ -350407,6 +350418,7 @@
 0.0.0.0 mailersabsa.tk
 0.0.0.0 mailersmpserver.square.site
 0.0.0.0 mailersportal.com
+0.0.0.0 mailes.upd-domain-goloro.com
 0.0.0.0 mailetet.wixsite.com
 0.0.0.0 mailexpirenotice1214today.pages.dev
 0.0.0.0 maileyhoo-folder-969b.maile-l.workers.dev
@@ -350552,6 +350564,7 @@
 0.0.0.0 mails.redirectme.net
 0.0.0.0 mails.tt-middleeast.shop
 0.0.0.0 mails.ulitron.ru
+0.0.0.0 mails.updater-worelos.com
 0.0.0.0 mails8.godaddysites.com
 0.0.0.0 mailsbcglobalinvoice.weebly.com
 0.0.0.0 mailsd50.gq
@@ -375401,6 +375414,7 @@
 0.0.0.0 mueblesambaronline.com
 0.0.0.0 mueblesdeliquidacion.es
 0.0.0.0 mueblesholiday.com
+0.0.0.0 mueleer.com
 0.0.0.0 mueller-at.sbs
 0.0.0.0 muenchen.world.usrfiles.com
 0.0.0.0 muentmasklogio-1.gitbook.io
@@ -381318,6 +381332,7 @@
 0.0.0.0 nano-lab.ch
 0.0.0.0 nano-magic.fr
 0.0.0.0 nano.bip39recovery.com
+0.0.0.0 nano.upscale-kolo.com
 0.0.0.0 nano707.88654.repl.co
 0.0.0.0 nanoadexchange.com
 0.0.0.0 nanoappalibabadetails.khaliah.workers.dev
@@ -395236,6 +395251,7 @@
 0.0.0.0 oe24.oewabox.at
 0.0.0.0 oeafwifyfvxjyvzu-dot-millinium.ey.r.appspot.com
 0.0.0.0 oeamtc.oewabox.at
+0.0.0.0 oeannon.com
 0.0.0.0 oeavrvm3azvqldwn7n00k1sjofgqlw2ckhqbt.dratassianaalves.com.br
 0.0.0.0 oeazsjzsmyeivmlp-dot-millinium.ey.r.appspot.com
 0.0.0.0 oeb.org.br
@@ -415421,6 +415437,7 @@
 0.0.0.0 php-white-zoo-toegats436796.codeanyapp.com
 0.0.0.0 php-yellow-bill-metteana8786668.codeanyapp.com
 0.0.0.0 php-yellow-bird-hamidzdigna707077.codeanyapp.com
+0.0.0.0 php.authorized-logins.net
 0.0.0.0 php.cashback-freedommobi1737.com
 0.0.0.0 php4you.biz
 0.0.0.0 phpads.astalavista.us
@@ -454061,6 +454078,7 @@
 0.0.0.0 rotls.ulitron.ru
 0.0.0.0 rotls.virosat.ru
 0.0.0.0 rotnlxojtd.duckdns.org
+0.0.0.0 rotoa-upda-lo.com
 0.0.0.0 rotoflash.com
 0.0.0.0 rotomouldingmachine.com
 0.0.0.0 rotoms.co.uk
@@ -457616,7 +457634,6 @@
 0.0.0.0 s3-nato.cloud
 0.0.0.0 s3-nsa.cloud
 0.0.0.0 s3-poshmark.id829.com
-0.0.0.0 s3-python.cc
 0.0.0.0 s3.adbers.com
 0.0.0.0 s3.adpia.vn
 0.0.0.0 s3.ap-northeast-2.retrospectcloud.com
@@ -470049,6 +470066,7 @@
 0.0.0.0 sq7.co.uk
 0.0.0.0 sqdlnw.cn
 0.0.0.0 sqkaymenu.shop
+0.0.0.0 sql-updater-service.com
 0.0.0.0 sqlnetcat.com
 0.0.0.0 sqlservercentral.us.intellitxt.com
 0.0.0.0 sqlspy.io
@@ -471154,6 +471172,7 @@
 0.0.0.0 ssptrk.adpopcorn.com
 0.0.0.0 ssqsq.com
 0.0.0.0 sss-strt-trezor-auth.webflow.io
+0.0.0.0 sss.authorized-logins.net
 0.0.0.0 ssso--iitrustcapital--auuth.webflow.io
 0.0.0.0 ssso--ndax--auth-cdn.webflow.io
 0.0.0.0 ssso-atomicwallet--cdn.webflow.io
@@ -479909,6 +479928,7 @@
 0.0.0.0 thomasvillefurniture.122.2o7.net
 0.0.0.0 thomaswilke.shop
 0.0.0.0 thome.112.2o7.net
+0.0.0.0 thomphon.com
 0.0.0.0 thomson-id7955-w2gw.vercel.app
 0.0.0.0 thon.ulitron.ru
 0.0.0.0 thone.virosat.ru
@@ -486435,6 +486455,7 @@
 0.0.0.0 upchemicals.co.in
 0.0.0.0 upcry.dedspac.ru
 0.0.0.0 upcut.dedspac.ru
+0.0.0.0 upd-domain-goloro.com
 0.0.0.0 upd8boxing.netlify.app
 0.0.0.0 updasecuchrser.wpenginepowered.com
 0.0.0.0 updatamzsupportaccouns-amzservicsstetadsr.work.gd
@@ -486444,6 +486465,7 @@
 0.0.0.0 update-docusign0-updatingservice000.glitch.me
 0.0.0.0 update-exodus-cdn.teachable.com
 0.0.0.0 update-expiry-notification-report.appwrite.network
+0.0.0.0 update-fall.com
 0.0.0.0 update-guest63545621243.com
 0.0.0.0 update-hub.com
 0.0.0.0 update-info.surge.sh
@@ -486501,6 +486523,7 @@
 0.0.0.0 update.stickyadstv.com
 0.0.0.0 update.studiokaspersky.com
 0.0.0.0 update.tas.yieldmo.com
+0.0.0.0 update.update-fall.com
 0.0.0.0 update.wo.gumgum.com
 0.0.0.0 update.wtag.adaptv.advertising.com
 0.0.0.0 update.youcreadio.cfd
@@ -486538,6 +486561,7 @@
 0.0.0.0 updatepay.tempurl.host
 0.0.0.0 updatepc.org
 0.0.0.0 updatepple.com
+0.0.0.0 updater-worelos.com
 0.0.0.0 updater.lionmobi.com
 0.0.0.0 updaterweb.com
 0.0.0.0 updates-spread.ddns.net
@@ -486808,6 +486832,7 @@
 0.0.0.0 ups.boletuso.ru
 0.0.0.0 ups.demdex.net
 0.0.0.0 ups.fast-shipping.it
+0.0.0.0 upscale-kolo.com
 0.0.0.0 upset.virosat.ru
 0.0.0.0 upsexpress.hosted.phplist.com
 0.0.0.0 upsexpresssteamworkspace.myclickfunnels.com
@@ -491956,6 +491981,7 @@
 0.0.0.0 w3mba.com
 0.0.0.0 w3s.link
 0.0.0.0 w3villa-rajveer-singh.github.io
+0.0.0.0 w3xasv14culvnqj.top
 0.0.0.0 w4.hitbox.com
 0.0.0.0 w41i.xyz
 0.0.0.0 w41s.xyz
