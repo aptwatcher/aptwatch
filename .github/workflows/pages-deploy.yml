@@ -15,8 +15,14 @@ permissions:
   id-token: write
 
 concurrency:
+  # Allow only one concurrent Pages deployment; queue newer runs behind the one
+  # in progress. Do NOT cancel in-progress runs — cancelling a Pages deployment
+  # mid-flight leaves the Pages API in a bad state and makes the next run fail
+  # with "Deployment failed, try again later." (GitHub's official Pages workflow
+  # uses cancel-in-progress: false for exactly this reason). Flipped 2026-07-03
+  # after clustered publish/sync pushes triggered that error.
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
