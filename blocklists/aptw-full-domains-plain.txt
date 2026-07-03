@@ -244247,7 +244247,6 @@ file.purchasedoc.workers.dev
 file.sharedd-project-document.workers.dev
 file.srfreightbd.com
 file.timanar.ru
-file.uhsea.com
 file.ulitron.ru
 file.zeahezea.sa.com
 file.ziyu.net
@@ -352155,7 +352154,6 @@ manongautier.com
 manopecas.com.br
 manos.ulitron.ru
 manostyle.fr
-manovingenieria.com
 manpdase.com
 manpleaudase.com
 manpower.122.2o7.net

@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-03 12:33:23
-# Entries: 525964
+# Generated: 2026-07-03 14:16:59
+# Entries: 525962
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -244254,7 +244254,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -352162,7 +352161,6 @@
 0.0.0.0 manopecas.com.br
 0.0.0.0 manos.ulitron.ru
 0.0.0.0 manostyle.fr
-0.0.0.0 manovingenieria.com
 0.0.0.0 manpdase.com
 0.0.0.0 manpleaudase.com
 0.0.0.0 manpower.122.2o7.net
