@@ -1,12 +1,18 @@
 name: Deploy Dashboard to GitHub Pages
 
 on:
+  # Deploy immediately only when the DASHBOARD CODE changes. The blocklists/iocs
+  # data pushes happen many times a day (hourly sync + scan bundles); deploying
+  # Pages on each one exhausted GitHub Pages' ~10-deployments/hour limit →
+  # "Deployment failed, try again later" (2026-07-03). The dashboard fetches its
+  # DB from api.aptwatch.org at runtime, so a data push needs no redeploy; the
+  # downloadable blocklists/iocs copied into web/ are refreshed once a day below.
   push:
     branches: [main]
     paths:
       - 'web/**'
-      - 'blocklists/**'
-      - 'iocs/**'
+  schedule:
+    - cron: '0 6 * * *'   # daily refresh of the downloadable blocklists/iocs on Pages
   workflow_dispatch:
 
 permissions:
