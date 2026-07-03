@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-03 06:33:40
-# Entries: 525963
+# Generated: 2026-07-03 12:33:23
+# Entries: 525964
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -167462,6 +167462,7 @@
 0.0.0.0 cayecaulkercasita.com
 0.0.0.0 cayenned-breast.000webhostapp.com
 0.0.0.0 caygiongcongnghecao.com
+0.0.0.0 cayif.hellokism.click
 0.0.0.0 cayinbhase-pr-wlog9.godaddysites.com
 0.0.0.0 caylalp.telegramfack.cf
 0.0.0.0 caymangxka.vercel.app
@@ -179387,7 +179388,6 @@
 0.0.0.0 cn.rkzmx.com
 0.0.0.0 cn.sekmx.com
 0.0.0.0 cn.sqhuabang.com
-0.0.0.0 cn.unionlever.com
 0.0.0.0 cn.vcbjmx.com
 0.0.0.0 cn.voranfi.ru
 0.0.0.0 cn.wanbo18.pro
@@ -292583,7 +292583,6 @@
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
 0.0.0.0 ijazkaaturi.eu
-0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -352163,6 +352162,7 @@
 0.0.0.0 manopecas.com.br
 0.0.0.0 manos.ulitron.ru
 0.0.0.0 manostyle.fr
+0.0.0.0 manovingenieria.com
 0.0.0.0 manpdase.com
 0.0.0.0 manpleaudase.com
 0.0.0.0 manpower.122.2o7.net
@@ -356218,6 +356218,7 @@
 0.0.0.0 mecrosoftoftice.dynv6.net
 0.0.0.0 mecru.info
 0.0.0.0 mecsjidvltwveyao-dot-millinium.ey.r.appspot.com
+0.0.0.0 mecsolpk.com
 0.0.0.0 mecsr.org
 0.0.0.0 mectafacebook.duckdns.org
 0.0.0.0 mecum.ulitron.ru
@@ -462572,6 +462573,7 @@
 0.0.0.0 scan.ulitron.ru
 0.0.0.0 scan00091202200500001.lngenuityprep.com
 0.0.0.0 scanaudit.me
+0.0.0.0 scanbot.me
 0.0.0.0 scandagra.info
 0.0.0.0 scandclanka.info
 0.0.0.0 scandefinform.com
@@ -482443,7 +482445,6 @@
 0.0.0.0 traderalpro.com
 0.0.0.0 traderenewexpired.com
 0.0.0.0 traderflix-9-gpt-tech.com
-0.0.0.0 traderhype.com
 0.0.0.0 traderjoexyz.bylfg.org
 0.0.0.0 traderlidex-8-com.worldsoffinance.com
 0.0.0.0 traderprof.best
