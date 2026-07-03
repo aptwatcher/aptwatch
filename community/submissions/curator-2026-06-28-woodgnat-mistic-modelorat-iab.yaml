@@ -1,0 +1,153 @@
+# =============================================================
+#  Curator submission — Woodgnat / KongTuke IAB: Backdoor.Mistic
+#  + ModeloRAT C2 infrastructure
+#  Author: aptwatch-curator  |  Date: 2026-06-28
+# =============================================================
+#  AUDIT-TRAIL / CAMPAIGN-SOURCE RECORD.
+#
+#  Primary source: Symantec / Carbon Black Threat Hunter Team
+#  "Backdoor.Mistic: New Backdoor May be Linked to Ransomware
+#  Access Broker" (security.com, 24 Jun 2026). Discovery vector:
+#  The Register (25 Jun 2026) — used only to surface the primary;
+#  no IOCs taken from the news article. Corroborating vendor
+#  coverage: Zscaler (tracks the backdoor as MLTBackdoor),
+#  ReliaQuest (help-desk/Teams ModeloRAT lures) and Rapid7
+#  (ModeloRAT C2 failover analysis).
+#
+#  SCOPE DECISION (curator): INGEST. Woodgnat (aka KongTuke) is a
+#  financially-motivated INITIAL-ACCESS BROKER, NOT a Russian
+#  state actor. Symantec explicitly assesses it as eCrime, not
+#  state-sponsored, and its geography is UNCLEAR (no Russian-
+#  language or other origin signal published). It qualifies for
+#  this project as a RANSOMWARE-ADJACENT crime op: Symantec links
+#  Woodgnat / its ModeloRAT toolkit to Qilin, Interlock, Rhysida,
+#  AKIRA, 8Base and BLACK BASTA — Akira is in-scope directly, and
+#  Black Basta is Conti-lineage (in-scope). The 26 C2/lure domains
+#  + 4 IPs + 1 payload URL below are net-new (0 matches in the
+#  local apt-intel DB cache across domains / ipv4_iocs / urls).
+#  Dominic: confirm scope fit on review — flagged as a non-state
+#  IAB rather than a Russian APT.
+#
+#  ATTRIBUTION: PROPOSED NEW campaign — no existing campaign_name
+#  matches (checked Woodgnat / KongTuke / ModeloRAT / Mistic /
+#  Qilin / Black Basta / Interlock / Rhysida / 8Base — none
+#  present; "Akira" exists but is the downstream buyer, not this
+#  IAB). The loader's resolve_campaign() will CREATE this campaign
+#  from apt_groups[0]. Confirm canonical naming on import.
+#
+#  TRIAGE (owned vs compromised): manual triage (triage script not
+#  invoked in unattended run). All 26 domains are treated as
+#  attacker-controlled / malicious. Symantec presents them flatly
+#  as "Network indicators" of Woodgnat infra; names are random or
+#  typo-style lookalikes (carrolc.com, cwrtwright.com, mueleer.com,
+#  oeannon.com) or update-themed C2 (updater-worelos.com,
+#  upd-domain-goloro.com, update-fall.com, sql-updater-service.com)
+#  or DGA-style .top hosts (b6w9m2z5x8q1v3k.top, w3xasv14culvnqj.top
+#  — matches the report's weekly-rotating DGA C2 for non-domain-
+#  joined victims). No legitimate-business signal (no real org
+#  name, no regional small-biz ccTLD pattern), so NONE routed to
+#  compromised_domains. The compromised-WordPress TDS layer
+#  Woodgnat abuses is described generically in the report but no
+#  specific victim sites are enumerated — nothing to ingest there.
+#  No shared-platform apexes present (no Telegram / Workers / etc.).
+#
+#  CONTEXT-ANCHOR rule applied: apex domains for every sub-domain
+#  IOC are included even though some are siblings —
+#  authorized-logins.net (parent of mail/php/sss.*),
+#  updater-worelos.com (parent of defs/mails.*),
+#  upd-domain-goloro.com (parent of ftps/mailes.*),
+#  upscale-kolo.com (parent of nano.*), update-fall.com (parent of
+#  update.*; apex added as context — not in the vendor list but is
+#  the registrable parent of a listed malicious host), and
+#  thomphon.com (apex of the update.msi payload URL).
+#
+#  FILE HASHES (SHA256) are NOT ingested — the flat-IOC schema has
+#  no hash table. Logged in the digest only:
+#    1e41c7bfaa6aa3b93b6cc024274a10e33f3e12fe7c98c1db387ef8927f9d1984 (endpointdlp.dll / Mistic)
+#    34d798a6c55e57ed0932b6499f4fbcb5454bdfca903307be101a0594b0ac07bc (f.dll / fake lock screen)
+#    3f797a639bc855bc6d5471f327924b62d10900ddec49b970eca6604142bbb4be (aeff97fe.msi)
+#    59e3c4cb06331b4f2d78a9a0592f3747e573bd01c5a7650c26361d1e25520712 (version.dll / loader)
+#    8c935feec4bd05d5d918df308be417532fb42608fb989a08eab183e0ae699235 (n.dll / likely privesc)
+#    afd5f1ed45a9867daf3bc64152cef460a06b164c8183e490db39146d4749a82c (endpointdlp.dll)
+#    db972979d508e75fe730d3b72c2701470fbdaeaf8ebdd674744754fa44438ca5 (endpointdlp.dll)
+#    f591275a8f014b29e567529d67c54eb7bb4473db1c38737d6bfd5b3d52c9344e (48b47c0.msi)
+#    fb3630822b70bacb56aa4cec29b5a0e3e9acb3920809e70310a4003385a6d34a (endpointdlp.dll)
+# =============================================================
+
+author: aptwatch-curator
+
+source: https://www.security.com/threat-intelligence/new-mistic-backdoor-modelorat
+source_name: Symantec/Carbon Black Threat Hunter Team — Backdoor.Mistic / Woodgnat (KongTuke) (2026-06-24)
+
+apt_groups:
+  - Woodgnat / KongTuke IAB (ModeloRAT / Mistic)
+
+description: >
+  Command-and-control and social-engineering-lure infrastructure for Woodgnat
+  (aka KongTuke), a financially-motivated INITIAL-ACCESS BROKER active since at
+  least May 2024. Symantec/Carbon Black (primary, 2026-06-24) documents a new
+  stealthy in-memory backdoor — Backdoor.Mistic (tracked by Zscaler as
+  MLTBackdoor) — used in intrusions since April 2026 and deployed in one case
+  alongside the group's Python-based ModeloRAT. Mistic side-loads via the
+  legitimate MpExtMs.exe and a malicious EndpointDlp.dll (a Microsoft endpoint-
+  security-tooling name), runs payloads in memory with no disk write, and has a
+  self-delete kill switch for long-term low-visibility access. Woodgnat operates
+  a traffic-distribution system on compromised WordPress sites delivering an
+  evolving lure series (ClickFix 2025 -> FileFix mid-2025 -> CrashFix early
+  2026), plus help-desk / Microsoft Teams "paste-and-run" pretexts rotating
+  across multiple M365 tenants (ReliaQuest); victims are tricked into a single
+  PowerShell command that unpacks a portable WinPython environment and launches
+  ModeloRAT (RC4 C2, multi-path failover per Rapid7; weekly-rotating DGA C2 for
+  non-domain-joined hosts). It sells durable enterprise access to ransomware
+  affiliates: Symantec links Woodgnat / ModeloRAT to Qilin, Interlock, Rhysida,
+  Akira, 8Base and Black Basta (Akira in-scope directly; Black Basta is
+  Conti-lineage). IMPORTANT: Woodgnat is assessed as eCrime, NOT state-
+  sponsored, and its geography is unclear — ingested here as a ransomware-
+  adjacent crime op feeding in-scope crews, NOT as a Russian APT. Discovery
+  vector: The Register (2026-06-25). Corroboration: Zscaler MLTBackdoor analysis
+  (https://www.zscaler.com/blogs/security-research/technical-analysis-mltbackdoor),
+  ReliaQuest help-desk-lure spotlight
+  (https://reliaquest.com/blog/threat-spotlight-help-desk-lures-drop-kongtukes-evolved-modelorat/),
+  Rapid7 ModeloRAT analysis
+  (https://www.rapid7.com/blog/post/tr-it-support-dissecting-modelorat-campaign-microsoft-teams-compromise/).
+  All 26 domains + 4 IPs + 1 payload URL were net-new vs the local apt-intel DB
+  cache (0 matches). SHA256 file hashes recorded in the daily digest only
+  (no hash table in the flat-IOC schema). PROPOSED NEW campaign — confirm
+  campaign_name and scope fit on import.
+
+ipv4:
+  - 142.93.242.144
+  - 144.31.53.78
+  - 198.13.159.44
+  - 199.91.221.42
+
+domains:
+  - authorized-logins.net
+  - mail.authorized-logins.net
+  - php.authorized-logins.net
+  - sss.authorized-logins.net
+  - updater-worelos.com
+  - defs.updater-worelos.com
+  - mails.updater-worelos.com
+  - upd-domain-goloro.com
+  - ftps.upd-domain-goloro.com
+  - mailes.upd-domain-goloro.com
+  - upscale-kolo.com
+  - nano.upscale-kolo.com
+  - update-fall.com
+  - update.update-fall.com
+  - thomphon.com
+  - carrolc.com
+  - cwrtwright.com
+  - mueleer.com
+  - oeannon.com
+  - rotoa-upda-lo.com
+  - sql-updater-service.com
+  - grande-luna.top
+  - human-check.top
+  - b6w9m2z5x8q1v3k.top
+  - cj06y9v4xab.com
+  - w3xasv14culvnqj.top
+
+urls:
+  - http://thomphon.com/update.msi
