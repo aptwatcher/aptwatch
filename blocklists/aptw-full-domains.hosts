@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-04 00:37:41
-# Entries: 526005
+# Generated: 2026-07-04 01:48:40
+# Entries: 526009
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -177213,6 +177213,7 @@
 0.0.0.0 clear-your-storage-space-limit-capacity-erzqspcgubavfwjhiomdkyl.us-east-1.linodeobjects.com
 0.0.0.0 clear-your-storage-space-limit-capacity-opezcxjgnrwakqvtysmldu.us-southeast-1.linodeobjects.com
 0.0.0.0 clear.ulitron.ru
+0.0.0.0 clear90489058903-document.workers.dev
 0.0.0.0 clearaccesswells-7a94f5.ingress-baronn.ewp.live
 0.0.0.0 clearbasket.eu
 0.0.0.0 clearbn.com
@@ -197365,6 +197366,7 @@
 0.0.0.0 dashboard-alpha.allegro-task.shop
 0.0.0.0 dashboard-alpha.jimpike.com.au
 0.0.0.0 dashboard-auth-itrustcapital.webflow.io
+0.0.0.0 dashboard-bl.pamconj.com
 0.0.0.0 dashboard-citi.com
 0.0.0.0 dashboard-coinbase-pro.square.site
 0.0.0.0 dashboard-coinbase.webflow.io
@@ -283110,6 +283112,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -295566,7 +295569,6 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
-0.0.0.0 indeanapolice.cc
 0.0.0.0 indebrisch.cyou
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
@@ -371706,7 +371708,6 @@
 0.0.0.0 mojpremiumdom.pl
 0.0.0.0 mojprojekt19.000webhostapp.com
 0.0.0.0 mojseans.pl
-0.0.0.0 mojtabaabbasi.com
 0.0.0.0 mojuelypbkiexcybumjbqmzsiqavpkrmxwfo.solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 mojvkak.blogspot.com
 0.0.0.0 mojvkak.blogspot.tw
@@ -407640,6 +407641,7 @@
 0.0.0.0 pambaheritage.com
 0.0.0.0 pamberplace.co.uk
 0.0.0.0 pamcetwtwipztfexhfqkmkrwau-dot-gleowayel400503.uc.r.appspot.com
+0.0.0.0 pamconj.com
 0.0.0.0 pamelaadler4.com
 0.0.0.0 pamelaconnollypianist.com
 0.0.0.0 pamelakalili.com.br
@@ -470057,6 +470059,7 @@
 0.0.0.0 spvsc.send.microad.jp
 0.0.0.0 spvscwqgzc.eu-west-3.awsapprunner.com
 0.0.0.0 spx.owneriq.net
+0.0.0.0 spx.pamconj.com
 0.0.0.0 spy.cashnow.ee
 0.0.0.0 spy.dedspac.ru
 0.0.0.0 spy.ulitron.ru
@@ -484805,6 +484808,7 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
+0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyerudaidjwirwr.site
