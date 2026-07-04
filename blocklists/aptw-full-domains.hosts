@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-04 06:04:57
-# Entries: 526010
+# Generated: 2026-07-04 06:33:47
+# Entries: 526011
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -468651,6 +468651,7 @@
 0.0.0.0 softlinkers.popunder.ru
 0.0.0.0 softlyfec.vercel.app
 0.0.0.0 softmania.pl
+0.0.0.0 softmix.online
 0.0.0.0 softonic.112.2o7.net
 0.0.0.0 softonic.de.intellitxt.com
 0.0.0.0 softonic.it
