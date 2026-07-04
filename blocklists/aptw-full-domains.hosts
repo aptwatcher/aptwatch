@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-04 12:34:07
+# Generated: 2026-07-04 18:33:35
 # Entries: 526011
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -213275,6 +213275,7 @@
 0.0.0.0 dreamad.org
 0.0.0.0 dreamalive5.com
 0.0.0.0 dreamalivemedia.com
+0.0.0.0 dreamapp.xyz
 0.0.0.0 dreamartdesigns.com
 0.0.0.0 dreambasetechnologies.net
 0.0.0.0 dreamboostzu.vercel.app
@@ -356241,7 +356242,6 @@
 0.0.0.0 mecrosoftoftice.dynv6.net
 0.0.0.0 mecru.info
 0.0.0.0 mecsjidvltwveyao-dot-millinium.ey.r.appspot.com
-0.0.0.0 mecsolpk.com
 0.0.0.0 mecsr.org
 0.0.0.0 mectafacebook.duckdns.org
 0.0.0.0 mecum.ulitron.ru
@@ -413263,6 +413263,7 @@
 0.0.0.0 peoplehere820.club
 0.0.0.0 peoplehere820.work
 0.0.0.0 peopleleadership.academy
+0.0.0.0 peopleops.uti.cool
 0.0.0.0 peoplepowerhk.com.usrfiles.com
 0.0.0.0 peopleres-za.com
 0.0.0.0 peoplerightsandyou.com
@@ -484810,7 +484811,6 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
-0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyerudaidjwirwr.site
