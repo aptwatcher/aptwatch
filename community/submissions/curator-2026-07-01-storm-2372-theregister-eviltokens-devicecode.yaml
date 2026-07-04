@@ -1,0 +1,60 @@
+# Origine: skill analyse-veille-securite-rss v0.3 — run 2026-07-02 09h44 (HE)
+# Brief source: sttr-workspace/outputs/veille-securite-rss/veille-securite-rss-20260702-0944.md
+author: aptwatch-curator-bot
+source: https://www.theregister.com/cyber-crime/2026/07/01/eviltokens-device-code-phishing-kit-totally-more-evil-than-we-all-thought/5265409
+source_name: The Register / Cisco Talos - EvilTokens (ARToken) device-code phishing kit targeting Microsoft 365
+
+apt_groups:
+  - EvilTokens
+  - ARToken
+
+description: >
+  Article de The Register (2026-07-01) relayant une analyse Cisco Talos du kit d'hameconnage par 
+  code d'appareil (device-code phishing) EvilTokens, decrit comme un environnement complet d'oper
+  ations BEC. Le kit contourne l'AMF et authentifie silencieusement l'attaquant dans les applicat
+  ions Microsoft 365 de la victime. Talos documente un panneau PhaaS 'ARToken' partageant infrast
+  ructure, contrats d'API et patrons operationnels avec EvilTokens. Chaine de leurre observee le 
+  2026-04-20 : deux courriels quasi identiques abusant une vraie relation fournisseur (societe de
+   sciences de la vie x sous-traitant plomberie/protection incendie), leurre de facture impayee, 
+  en-tete 'from' usurpant le domaine reel du fournisseur, reply-to vers domaine tiers, et lien po
+  intant vers un tenant SharePoint copie sous espace M365 controle par l'attaquant (hote sharepoi
+  nt.com legitime => moindre detection). EvilTokens documente initialement par Sekoia en mars 202
+  6 ; Microsoft (Tanmay Ganacharya) rapportait 10 a 15 campagnes distinctes par 24 h compromettan
+  t des centaines d'organisations quotidiennement. Note de portee APT Watch : match effectue via 
+  l'alias de technique 'device-code phishing' configure pour Storm-2372 ; l'article n'attribue PA
+  S explicitement EvilTokens/ARToken a Storm-2372 (kit PhaaS multi-clients). Attribution a valide
+  r par le curateur. TTPs / MITRE ATT&CK candidats en prose : Phishing (T1566), Steal Application
+   Access Token / device code abuse, Valid Accounts (T1078), abus OAuth M365, contournement AMF. 
+  Aucun hash, IP, domaine ni CVE precis publie dans l'article. Sources compagnonnes : Cisco Talos
+   (rapport ARToken), Sekoia (mars 2026), Microsoft. Signale par le skill analyse-veille-securite
+  -rss (run 2026-07-02).
+  CURATOR NOTE (EN): attribution reassigned from the auto-generated Storm-2372 /
+  device-code-phishing technique-alias false-positive to the actual platform,
+  EvilTokens (APT Watch campaign id=37, threat_actor_type "Phishing-as-a-Service
+  platform operator", origin RU — in scope as a Russian-speaking MaaS operator).
+  ARToken is the affiliate panel Talos ties to EvilTokens by shared API contract,
+  clientMode "broker" PRT flow and Cloudflare-Workers deployment model. Network
+  IOCs extracted from the Cisco Talos ARToken report
+  (https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/):
+  operator apex pamconj[.]com (VT 3/91 malicious, OTX "ARToken Phishing Campaign"
+  pulse, registered 2026-04-06 via Hetzner, Cloudflare NS, Zoho mail) with the C2
+  API spx.pamconj[.]com and the ARToken panel dashboard-bl.pamconj[.]com, plus the
+  Cloudflare-Workers lure host clear90489058903-document.workers[.]dev. Additional
+  operator UUID 84eb384d-cd3e-4c90-a283-c960ce557913 and XOR payload key (16-byte)
+  are not storable IOC types. NOT included as IOCs (discipline / anti-mislabelling):
+  the attacker-controlled look-alike Microsoft 365 tenant
+  mononapfpcom.sharepoint[.]com sits on Microsoft's legitimate sharepoint.com host
+  and the spoofed anchor mononapfp.sharepoint[.]com is the real vendor tenant — both
+  left out to avoid tagging Microsoft SaaS infrastructure as operator-owned.
+
+cidrs: []
+ipv4: []
+domains:
+  - pamconj.com
+  - spx.pamconj.com
+  - dashboard-bl.pamconj.com
+  - clear90489058903-document.workers.dev
+compromised_domains: []
+urls: []
+emails: []
+cves: []
