@@ -42929,6 +42929,7 @@ a7-psi.vercel.app
 a7.elitoras.ru
 a7.timerto.ru
 a7.voranfi.ru
+a7.wtf
 a708.cc
 a70892jf.beget.tech
 a70a1ccbd4.nxcli.io
@@ -66776,6 +66777,7 @@ airy.bluestacko.ru
 airy.bortogat.ru
 airy.dedspac.ru
 airydb.com
+airyvineic.help
 ais-assets-now.pages.dev
 ais.bortogat.ru
 ais.com.np
@@ -213266,7 +213268,6 @@ dreamachronicles.co.zw
 dreamad.org
 dreamalive5.com
 dreamalivemedia.com
-dreamapp.xyz
 dreamartdesigns.com
 dreambasetechnologies.net
 dreamboostzu.vercel.app
@@ -307828,7 +307829,6 @@ jenkins.production.eips.com.au
 jenkins.worfect.ru
 jenkins.younetmedia.com
 jenkinsmews.icu
-jenkinsmoving.com
 jenkscommunityed.com
 jenlion.com
 jenmaness.com
@@ -412187,6 +412187,7 @@ peach-night-observatory.glitch.me
 peach.ulitron.ru
 peach.virosat.ru
 peach12195351.brizy.site
+peachcity.si
 peachhealthgroup-doc.cf
 peachhealthgroup-doc.tk
 peachora.com
@@ -468644,7 +468645,6 @@ softlayer.d1.sc.omtrdc.net
 softlinkers.popunder.ru
 softlyfec.vercel.app
 softmania.pl
-softmix.online
 softonic.112.2o7.net
 softonic.de.intellitxt.com
 softonic.it

@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-04 06:33:47
+# Generated: 2026-07-04 12:34:07
 # Entries: 526011
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -42936,6 +42936,7 @@
 0.0.0.0 a7.elitoras.ru
 0.0.0.0 a7.timerto.ru
 0.0.0.0 a7.voranfi.ru
+0.0.0.0 a7.wtf
 0.0.0.0 a708.cc
 0.0.0.0 a70892jf.beget.tech
 0.0.0.0 a70a1ccbd4.nxcli.io
@@ -66783,6 +66784,7 @@
 0.0.0.0 airy.bortogat.ru
 0.0.0.0 airy.dedspac.ru
 0.0.0.0 airydb.com
+0.0.0.0 airyvineic.help
 0.0.0.0 ais-assets-now.pages.dev
 0.0.0.0 ais.bortogat.ru
 0.0.0.0 ais.com.np
@@ -213273,7 +213275,6 @@
 0.0.0.0 dreamad.org
 0.0.0.0 dreamalive5.com
 0.0.0.0 dreamalivemedia.com
-0.0.0.0 dreamapp.xyz
 0.0.0.0 dreamartdesigns.com
 0.0.0.0 dreambasetechnologies.net
 0.0.0.0 dreamboostzu.vercel.app
@@ -307835,7 +307836,6 @@
 0.0.0.0 jenkins.worfect.ru
 0.0.0.0 jenkins.younetmedia.com
 0.0.0.0 jenkinsmews.icu
-0.0.0.0 jenkinsmoving.com
 0.0.0.0 jenkscommunityed.com
 0.0.0.0 jenlion.com
 0.0.0.0 jenmaness.com
@@ -412194,6 +412194,7 @@
 0.0.0.0 peach.ulitron.ru
 0.0.0.0 peach.virosat.ru
 0.0.0.0 peach12195351.brizy.site
+0.0.0.0 peachcity.si
 0.0.0.0 peachhealthgroup-doc.cf
 0.0.0.0 peachhealthgroup-doc.tk
 0.0.0.0 peachora.com
@@ -468651,7 +468652,6 @@
 0.0.0.0 softlinkers.popunder.ru
 0.0.0.0 softlyfec.vercel.app
 0.0.0.0 softmania.pl
-0.0.0.0 softmix.online
 0.0.0.0 softonic.112.2o7.net
 0.0.0.0 softonic.de.intellitxt.com
 0.0.0.0 softonic.it
