@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-04 01:48:40
-# Entries: 526009
+# Generated: 2026-07-04 06:04:57
+# Entries: 526010
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -307835,6 +307835,7 @@
 0.0.0.0 jenkins.worfect.ru
 0.0.0.0 jenkins.younetmedia.com
 0.0.0.0 jenkinsmews.icu
+0.0.0.0 jenkinsmoving.com
 0.0.0.0 jenkscommunityed.com
 0.0.0.0 jenlion.com
 0.0.0.0 jenmaness.com
