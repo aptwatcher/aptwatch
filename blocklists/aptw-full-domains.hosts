@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-05 06:36:19
-# Entries: 522064
+# Generated: 2026-07-05 12:35:43
+# Entries: 522067
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -417209,6 +417209,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -507205,6 +507206,7 @@
 0.0.0.0 www.nbrtrack.com
 0.0.0.0 www.nbsiyu.com
 0.0.0.0 www.nbvelorastudio.com
+0.0.0.0 www.nccommunication.be
 0.0.0.0 www.nciapaet.hair
 0.0.0.0 www.nctracking.com
 0.0.0.0 www.ncvapaet.hair
@@ -512895,6 +512897,7 @@
 0.0.0.0 www.steam-wallet-money.com
 0.0.0.0 www.steamgifts.5v.pl
 0.0.0.0 www.steamkarta.pl
+0.0.0.0 www.steamrub.com
 0.0.0.0 www.steamtraffic.com
 0.0.0.0 www.steelbucks.com
 0.0.0.0 www.steelcitysue.net
