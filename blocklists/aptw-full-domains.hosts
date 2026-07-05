@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-05 01:07:15
-# Entries: 522061
+# Generated: 2026-07-05 06:05:30
+# Entries: 522064
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -243641,6 +243641,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -252809,6 +252810,7 @@
 0.0.0.0 fyyuiihko.weebly.com
 0.0.0.0 fyzoceu.pro
 0.0.0.0 fz.elitoras.ru
+0.0.0.0 fz.tiansys.cn
 0.0.0.0 fz1r9wu.laicommferhobackmica.ru
 0.0.0.0 fz34rim2.union-label.com
 0.0.0.0 fz6y0wk19.duckdns.org
@@ -470397,6 +470399,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
