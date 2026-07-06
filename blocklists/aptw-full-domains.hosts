@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-06 00:33:29
-# Entries: 521220
+# Generated: 2026-07-06 01:09:15
+# Entries: 521221
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45624,6 +45624,7 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
+0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -372653,7 +372654,6 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
-0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -421353,6 +421353,7 @@
 0.0.0.0 powerprecinct.com.au
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
+0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
