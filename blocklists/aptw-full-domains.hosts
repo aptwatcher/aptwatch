@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-06 01:35:25
-# Entries: 521220
+# Generated: 2026-07-06 06:04:46
+# Entries: 521237
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45624,6 +45624,7 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
+0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -136392,6 +136393,7 @@
 0.0.0.0 bbvdx.blogspot.fi
 0.0.0.0 bbvhs.weebly.com
 0.0.0.0 bbvinetcashmx.com
+0.0.0.0 bbviop.com
 0.0.0.0 bbvip666bet.com
 0.0.0.0 bbvkgj.jaunpurnewspaper.in
 0.0.0.0 bbvsh.blogspot.ba
@@ -136900,6 +136902,8 @@
 0.0.0.0 bdbgta-platfrma.com
 0.0.0.0 bdbhotels-arriwe841.com
 0.0.0.0 bdbncodebogotavirtual24.weebly.com
+0.0.0.0 bdbofp.com
+0.0.0.0 bdbovip.com
 0.0.0.0 bdbqlbkjebwobsxiyjspeakoqb-dot-glex9394293032.oa.r.appspot.com
 0.0.0.0 bdc.elitoras.ru
 0.0.0.0 bdc10654944f452cbeefa3a612d5a3b4.clo.footprintdns.com
@@ -136952,6 +136956,7 @@
 0.0.0.0 bdfng.blogspot.fi
 0.0.0.0 bdfng.blogspot.lu
 0.0.0.0 bdfnq.blogspot.com
+0.0.0.0 bdfofp.com
 0.0.0.0 bdfs.blkchex.cc
 0.0.0.0 bdfshopping.com
 0.0.0.0 bdfx.e-monsite.com
@@ -137001,6 +137006,7 @@
 0.0.0.0 bdjnkmdl.pages.dev
 0.0.0.0 bdjo729ojln4pwox2path.qwo231sdx.club
 0.0.0.0 bdjobdplwkxjhtad-dot-millinium.ey.r.appspot.com
+0.0.0.0 bdjofp.com
 0.0.0.0 bdjtklgugorgnecn-dot-millinium.ey.r.appspot.com
 0.0.0.0 bdjtplbd.webcindario.com
 0.0.0.0 bdjueryfhjcfhru-cbdhruesdjcndkifed.kelpermechanical.ie
@@ -137028,6 +137034,7 @@
 0.0.0.0 bdndydcxppqmxpba-dot-millinium.ey.r.appspot.com
 0.0.0.0 bdnews24in.com
 0.0.0.0 bdnmbdfdqdkeubpb-dot-millinium.ey.r.appspot.com
+0.0.0.0 bdnofp.com
 0.0.0.0 bdnp-wahtsapp.com
 0.0.0.0 bdnskakm.weeblysite.com
 0.0.0.0 bdnth.blogspot.am
@@ -137075,10 +137082,14 @@
 0.0.0.0 bdoonlinepage.onlinebankingbdo-5b5.workers.dev
 0.0.0.0 bdoonlineph-access.run-us-west2.goorm.io
 0.0.0.0 bdopages.onlinebankingbdo-c0e.workers.dev
+0.0.0.0 bdopakj.com
 0.0.0.0 bdopbnoncxexcqwn-dot-millinium.ey.r.appspot.com
 0.0.0.0 bdopersonal.devices-delete.workers.dev
 0.0.0.0 bdorcvrypgehlpbsns01.my.id
 0.0.0.0 bdosubmitrequest.onlinerequest.workers.dev
+0.0.0.0 bdoveboip.com
+0.0.0.0 bdoviop.cc
+0.0.0.0 bdoviwp.cc
 0.0.0.0 bdovu.duckdns.org
 0.0.0.0 bdpajootte.duckdns.org
 0.0.0.0 bdpasifico.alwaysdata.net
@@ -137560,6 +137571,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -152162,6 +152174,7 @@
 0.0.0.0 bopackaging.co.uk
 0.0.0.0 bopbiz.com
 0.0.0.0 bopc7hp5tsdfchxz.bayareasantaclausexperience.com
+0.0.0.0 bopdd.cc
 0.0.0.0 bopeep.matsuro.ru
 0.0.0.0 bopeep.virosat.ru
 0.0.0.0 bopezdsauly.we9ixzz.co
@@ -153288,14 +153301,17 @@
 0.0.0.0 bpi4p8vsu.qwo231sdx.club
 0.0.0.0 bpids.ipb.ac.id
 0.0.0.0 bpihdwgfdtxvihcx-dot-millinium.ey.r.appspot.com
+0.0.0.0 bpihub.com
 0.0.0.0 bpijedohipisbslyxgenkwdgpwbayfemhlff-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 bpiklfgaex.duckdns.org
 0.0.0.0 bpinky.pages.dev
 0.0.0.0 bpinsgroup.herokuapp.com
 0.0.0.0 bpinsgroupsecure.herokuapp.com
+0.0.0.0 bpioop.com
 0.0.0.0 bpiperwilliams.updatemygpsdevice.com
 0.0.0.0 bpireceive.cc
 0.0.0.0 bpirictfierer.xyz
+0.0.0.0 bpitub.com
 0.0.0.0 bpizzabpproduction.112.2o7.net
 0.0.0.0 bpjezhpxbkdwllvg-dot-millinium.ey.r.appspot.com
 0.0.0.0 bpjlettfxz29xqepyjvgm8swkomov.qwo231sdx.club
@@ -210564,6 +210580,7 @@
 0.0.0.0 dofhshop.com
 0.0.0.0 dofinancecoinbase-nikoldaviome70782.codeanyapp.com
 0.0.0.0 dofineancecoinbase-ramopesfonorame264096.codeanyapp.com
+0.0.0.0 dofpsx.com
 0.0.0.0 dofunspourlesnoobs.com
 0.0.0.0 dofus-actualites.com
 0.0.0.0 dofus-cadeau.shop
