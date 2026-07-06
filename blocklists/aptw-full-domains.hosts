@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-06 12:34:34
-# Entries: 521238
+# Generated: 2026-07-06 18:33:46
+# Entries: 521239
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45624,7 +45624,6 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
-0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -327681,6 +327680,7 @@
 0.0.0.0 leandrohenriq.github.io
 0.0.0.0 leandroserain.com.br
 0.0.0.0 leanldedyjerlogh-dot-millinium.ey.r.appspot.com
+0.0.0.0 leanmaestro.com
 0.0.0.0 leanmanagement.ro
 0.0.0.0 leanmobi.fusetracking.com
 0.0.0.0 leannethdam.buzz
@@ -344311,6 +344311,7 @@
 0.0.0.0 magnumalsa0910201.weeblysite.com
 0.0.0.0 magnumbd.com
 0.0.0.0 magnumwallet.su
+0.0.0.0 magnusworkspace.com
 0.0.0.0 magodontologia.com.br
 0.0.0.0 magogcaskets.com
 0.0.0.0 magot.ulitron.ru
@@ -370378,7 +370379,6 @@
 0.0.0.0 mojpremiumdom.pl
 0.0.0.0 mojprojekt19.000webhostapp.com
 0.0.0.0 mojseans.pl
-0.0.0.0 mojtabaabbasi.com
 0.0.0.0 mojuelypbkiexcybumjbqmzsiqavpkrmxwfo.solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 mojvkak.blogspot.com
 0.0.0.0 mojvkak.blogspot.tw
@@ -426033,7 +426033,6 @@
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
 0.0.0.0 proteztirnakmerkezi.com
-0.0.0.0 protherapycenter.com
 0.0.0.0 prothostr.net
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
@@ -467935,6 +467934,7 @@
 0.0.0.0 sportnovia.ottos-chsaffsdafsadasda.sbs
 0.0.0.0 sportnovia.shop
 0.0.0.0 sportnovias.sbs
+0.0.0.0 sportoutletsonlinesk.shop
 0.0.0.0 sportplus.pro
 0.0.0.0 sportreisen.de
 0.0.0.0 sportrybar-sk.shop
@@ -487457,6 +487457,7 @@
 0.0.0.0 vdocs.sasktel.mmspos.com
 0.0.0.0 vdopia.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
+0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 ve1.claker.top
 0.0.0.0 ve1.techgeetam.com
