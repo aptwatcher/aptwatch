@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-06 06:35:30
-# Entries: 521237
+# Generated: 2026-07-06 12:34:34
+# Entries: 521238
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -137571,7 +137571,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -214691,6 +214690,7 @@
 0.0.0.0 dustyhammer.com
 0.0.0.0 dusukilaci2025.online
 0.0.0.0 dusun.ulitron.ru
+0.0.0.0 dutalogambone.com
 0.0.0.0 dutatocy.com
 0.0.0.0 dutch-bian.com
 0.0.0.0 dutch.dedspac.ru
@@ -370378,6 +370378,7 @@
 0.0.0.0 mojpremiumdom.pl
 0.0.0.0 mojprojekt19.000webhostapp.com
 0.0.0.0 mojseans.pl
+0.0.0.0 mojtabaabbasi.com
 0.0.0.0 mojuelypbkiexcybumjbqmzsiqavpkrmxwfo.solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 mojvkak.blogspot.com
 0.0.0.0 mojvkak.blogspot.tw
@@ -415272,6 +415273,7 @@
 0.0.0.0 pizzarewal.pl
 0.0.0.0 pizzaria.top
 0.0.0.0 pizzariacarlluccio.com.br
+0.0.0.0 pizzariatrattoria.com
 0.0.0.0 pizzasteen.net
 0.0.0.0 pizzateca-houseforsalemarketplace.com
 0.0.0.0 pizzayolo.co
@@ -421368,7 +421370,6 @@
 0.0.0.0 powerprecinct.com.au
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
-0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -426032,6 +426033,7 @@
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
 0.0.0.0 proteztirnakmerkezi.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 prothostr.net
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
@@ -520250,7 +520252,6 @@
 0.0.0.0 zamaniwa.ru
 0.0.0.0 zamaniwa.zanulor.ru
 0.0.0.0 zamanto.ru
-0.0.0.0 zamatours.net
 0.0.0.0 zamekpotstejn.cz
 0.0.0.0 zamen.cfd
 0.0.0.0 zamia.dedspac.ru
