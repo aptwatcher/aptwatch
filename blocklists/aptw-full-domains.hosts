@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-06 01:09:15
-# Entries: 521221
+# Generated: 2026-07-06 01:35:25
+# Entries: 521220
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45624,7 +45624,6 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
-0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -168444,7 +168443,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -520235,6 +520233,7 @@
 0.0.0.0 zamaniwa.ru
 0.0.0.0 zamaniwa.zanulor.ru
 0.0.0.0 zamanto.ru
+0.0.0.0 zamatours.net
 0.0.0.0 zamekpotstejn.cz
 0.0.0.0 zamen.cfd
 0.0.0.0 zamia.dedspac.ru
