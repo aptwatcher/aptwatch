@@ -3,7 +3,63 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>APT Intel Dashboard</title>
+
+<!-- ============================ SEO / social ============================ -->
+<title>APT Watch — Russian APT Threat Intelligence &amp; IOC Feeds</title>
+<meta name="description" content="APT Watch is an open threat-intelligence platform tracking Russian state-sponsored APTs and allied ransomware crews. Browse validated, scored IOCs (IPs, domains, URLs, certificates, CVEs), campaign attribution, and free blocklist feeds.">
+<meta name="keywords" content="APT, threat intelligence, IOC, indicators of compromise, Russian APT, Gamaredon, Sandworm, APT28, APT29, Turla, ransomware, blocklist, cyber threat intel, C2, TLS certificate spoofing, MITRE ATT&amp;CK">
+<meta name="author" content="APT Watch">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0d1117">
+<link rel="canonical" href="https://aptwatch.org/">
+
+<!-- favicons -->
+<link rel="icon" type="image/svg+xml" href="/aptwatch-logo.svg">
+<link rel="icon" type="image/png" href="/aptwatch-logo.png">
+<link rel="apple-touch-icon" href="/aptwatch-logo.png">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="APT Watch">
+<meta property="og:title" content="APT Watch — Russian APT Threat Intelligence &amp; IOC Feeds">
+<meta property="og:description" content="Open threat-intelligence platform tracking Russian state-sponsored APTs and allied ransomware crews: validated, scored IOCs, campaign attribution, and free blocklist feeds.">
+<meta property="og:url" content="https://aptwatch.org/">
+<meta property="og:image" content="https://aptwatch.org/aptwatch-logo.png">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="APT Watch — Russian APT Threat Intelligence &amp; IOC Feeds">
+<meta name="twitter:description" content="Open threat-intelligence platform tracking Russian state-sponsored APTs and allied ransomware crews: validated, scored IOCs and free blocklist feeds.">
+<meta name="twitter:image" content="https://aptwatch.org/aptwatch-logo.png">
+
+<!-- JSON-LD structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://aptwatch.org/#org",
+      "name": "APT Watch",
+      "url": "https://aptwatch.org/",
+      "logo": "https://aptwatch.org/aptwatch-logo.png",
+      "description": "Open threat-intelligence platform tracking Russian state-sponsored APTs and allied ransomware crews.",
+      "sameAs": ["https://github.com/aptwatcher/aptwatch"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://aptwatch.org/#website",
+      "url": "https://aptwatch.org/",
+      "name": "APT Watch — Russian APT Threat Intelligence",
+      "description": "Validated, scored indicators of compromise (IOCs), campaign attribution, and free blocklist feeds for Russian state-sponsored APTs and allied ransomware crews.",
+      "publisher": { "@id": "https://aptwatch.org/#org" }
+    }
+  ]
+}
+</script>
+<!-- ====================================================================== -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -125,6 +181,32 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
 </style>
 </head>
 <body>
+
+<noscript>
+  <section style="max-width:820px;margin:24px auto;padding:0 24px;line-height:1.6;color:#c9d1d9;">
+    <h1>APT Watch — Russian APT Threat Intelligence &amp; IOC Feeds</h1>
+    <p>APT Watch is an open threat-intelligence platform that collects, validates, scores, and
+    publishes indicators of compromise (IOCs) focused on Russian state-sponsored advanced
+    persistent threats (APTs) and allied ransomware crews. The interactive dashboard requires
+    JavaScript, but the resources below are available without it:</p>
+    <ul>
+      <li><strong>Threat actors tracked:</strong> Gamaredon, Sandworm, APT28 (Fancy Bear),
+      APT29 (Cozy Bear), Turla / Secret Blizzard, Cadet Blizzard, Callisto, Storm-2372,
+      and allied ransomware operations (LockBit, ALPHV/BlackCat, Akira, Conti, Warlock).</li>
+      <li><strong>IOC types:</strong> IPv4/IPv6 addresses, domains, URLs, email addresses,
+      file hashes, CVEs, CIDR ranges, and TLS certificate patterns — each carrying campaign
+      attribution and a confidence score.</li>
+      <li><strong>Free blocklist feeds:</strong> <a href="feeds.html">aptw-* blocklists</a>
+      (IPs, domains, unified sets) for firewalls and NIDS.</li>
+      <li><strong>Scoring methodology:</strong> <a href="methodology.html">how IOCs are validated
+      and scored</a>.</li>
+      <li><strong>Public API:</strong> <a href="https://api.aptwatch.org/intel/v1/health">Intel API v1</a>
+      for programmatic lookups.</li>
+      <li><strong>Source &amp; contributions:</strong>
+      <a href="https://github.com/aptwatcher/aptwatch">github.com/aptwatcher/aptwatch</a>.</li>
+    </ul>
+  </section>
+</noscript>
 
 <header>
   <img src="../aptwatch-logo.png" alt="APTWatch" style="height:32px;width:32px;">

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Large generated artifacts (not useful for search indexing)
+Disallow: /blocklists/
+Disallow: /iocs/
+
+Sitemap: https://aptwatch.org/sitemap.xml
