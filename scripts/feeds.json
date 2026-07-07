@@ -1,0 +1,13 @@
+[
+  { "name": "bleepingcomputer", "description": "BleepingComputer — all stories (RSS 2.0). Tested working.", "url": "https://www.bleepingcomputer.com/feed/", "kind": "rss" },
+  { "name": "thehackernews", "description": "The Hacker News (RSS via FeedBurner). (validate)", "url": "https://feeds.feedburner.com/TheHackersNews", "kind": "rss" },
+  { "name": "theregister_security", "description": "The Register — Security (Atom 1.0). Empty via WebFetch; works direct-to-origin.", "url": "https://www.theregister.com/security/headlines.atom", "kind": "atom" },
+  { "name": "microsoft_threat", "description": "Microsoft Threat Intelligence blog (RSS). (from rss_monitor.py)", "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/", "kind": "rss" },
+  { "name": "google_ti_mandiant", "description": "Google Threat Intelligence / Mandiant (RSS via FeedBurner). (from rss_monitor.py)", "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v", "kind": "rss" },
+  { "name": "eset_welivesecurity", "description": "ESET WeLiveSecurity research (RSS via FeedBurner). (from rss_monitor.py)", "url": "https://feeds.feedburner.com/eset/blog?format=xml", "kind": "rss" },
+  { "name": "lab52", "description": "Lab52 (S2 Grupo) threat research (RSS). (from rss_monitor.py)", "url": "https://lab52.io/blog/feed/", "kind": "rss" },
+  { "name": "securelist", "description": "Kaspersky Securelist research (RSS). (validate)", "url": "https://securelist.com/feed/", "kind": "rss" },
+  { "name": "certua", "description": "CERT-UA advisories (RSS) — most relevant for Russian APTs. (from rss_monitor.py)", "url": "https://cert.gov.ua/api/articles/rss", "kind": "rss" },
+  { "name": "certfr_avis", "description": "CERT-FR — Avis de sécurité (RSS). (validate)", "url": "https://www.cert.ssi.gouv.fr/avis/feed/", "kind": "rss" },
+  { "name": "certfr_alerte", "description": "CERT-FR — Alertes de sécurité (RSS). (validate)", "url": "https://www.cert.ssi.gouv.fr/alerte/feed/", "kind": "rss" }
+]
