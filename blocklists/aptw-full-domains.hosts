@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-07 12:35:34
-# Entries: 521329
+# Generated: 2026-07-07 18:34:13
+# Entries: 521328
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -46529,7 +46529,6 @@
 0.0.0.0 aboteleb.com
 0.0.0.0 abotvqjwdpz.wiki
 0.0.0.0 abouanu-de1224.ingress-haven.ewp.live
-0.0.0.0 aboulokman.howto.rocks
 0.0.0.0 abound.dedspac.ru
 0.0.0.0 abounding-glen-aurora.glitch.me
 0.0.0.0 abounding-ordinary-louse.glitch.me
@@ -148934,6 +148933,7 @@
 0.0.0.0 bmcxsellodemeleriniz.com
 0.0.0.0 bmd3508.wixsite.com
 0.0.0.0 bmdacservices.com
+0.0.0.0 bmdcompany.com
 0.0.0.0 bmdeiagrfuymwwtx-dot-millinium.ey.r.appspot.com
 0.0.0.0 bmdkilgjvpdovyjt-dot-millinium.ey.r.appspot.com
 0.0.0.0 bmdtwetyhxclghjjnpruagasaq-dot-gleowayel400503.uc.r.appspot.com
@@ -151626,7 +151626,6 @@
 0.0.0.0 boodle.virosat.ru
 0.0.0.0 boodlerdesigns.com
 0.0.0.0 boody.dedspac.ru
-0.0.0.0 boodystat.click
 0.0.0.0 booengyhbnworkul-dot-millinium.ey.r.appspot.com
 0.0.0.0 booga.life
 0.0.0.0 boogadelic.com
@@ -212630,7 +212629,6 @@
 0.0.0.0 dragonlike-warship.000webhostapp.com
 0.0.0.0 dragonpalaceindia.org
 0.0.0.0 dragonparallel.com
-0.0.0.0 dragonsurcing.com
 0.0.0.0 dragontechs.com
 0.0.0.0 dragontestwebsite.duckdns.org
 0.0.0.0 dragontransfer.com
@@ -220859,6 +220857,7 @@
 0.0.0.0 elalmacen.ponte.com.pe
 0.0.0.0 elamaria.net
 0.0.0.0 elamera.ga
+0.0.0.0 elaml4maids.com
 0.0.0.0 elamnwophvetzopqhxogksklhi-dot-poised-bot-306515.uk.r.appspot.com
 0.0.0.0 elamsnwjedffd.weebly.com
 0.0.0.0 elan.amaniwa.ru
@@ -232336,6 +232335,7 @@
 0.0.0.0 facai.y82lj7e.cn
 0.0.0.0 facai2024.xn--bvs11es3ujti.com
 0.0.0.0 facai524.icu
+0.0.0.0 facanha.com.br
 0.0.0.0 facanjgijvsabnkfuadbybamyvbcjmulibwp-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 facaujowetta-8242-51618947-continue.vercel.app
 0.0.0.0 facb00keslat.000webhostapp.com
@@ -250715,7 +250715,6 @@
 0.0.0.0 friendsoflifechoices.org
 0.0.0.0 friendsofmelvinchigh.com
 0.0.0.0 friendsofryetownhall.org
-0.0.0.0 friendsofsclarc.org
 0.0.0.0 friendssteakhouse.com
 0.0.0.0 friendtest.us.intellitxt.com
 0.0.0.0 friendvote.xyz
@@ -289122,6 +289121,7 @@
 0.0.0.0 icartpro.layerstheme.com
 0.0.0.0 icas-bisaro.utad.pt
 0.0.0.0 icasa.com.br
+0.0.0.0 icash.trymore.co
 0.0.0.0 icaswalrggj.gdkc9q.cn
 0.0.0.0 icat.tg
 0.0.0.0 icavet.com
@@ -299151,6 +299151,7 @@
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intellidrug.info
+0.0.0.0 intelligence-bloomberg-tonsol.cfd
 0.0.0.0 intelligence-head.pinsightmedia.com
 0.0.0.0 intelligence.jimpike.com.au
 0.0.0.0 intelligence.perform10.flashiko.ru
@@ -354303,7 +354304,6 @@
 0.0.0.0 mcallister.realestate
 0.0.0.0 mcas.me
 0.0.0.0 mcaservice.it
-0.0.0.0 mcb0187.gamer.gd
 0.0.0.0 mcba-whatsepp.com
 0.0.0.0 mcbgvsbcos.ytyukai.cn
 0.0.0.0 mcc-alaska.com
@@ -371432,7 +371432,6 @@
 0.0.0.0 morgandesignonline.com
 0.0.0.0 morganis.com.au
 0.0.0.0 morganjpco-institution2020.duckdns.org
-0.0.0.0 morganstat.sbs
 0.0.0.0 morgdm.ru
 0.0.0.0 morgdog.springserve.com
 0.0.0.0 morgenglans.com
@@ -396266,7 +396265,6 @@
 0.0.0.0 oknaparapetypoczesna.pl
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
-0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -410621,6 +410619,7 @@
 0.0.0.0 pdk4.pages.dev
 0.0.0.0 pdkmwoetqtmnxavl-dot-millinium.ey.r.appspot.com
 0.0.0.0 pdl.ulitron.ru
+0.0.0.0 pdlaw.com.ph
 0.0.0.0 pdlcgoxcxwwrjiyaacmhaumrzeszfpusfkjw-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 pdlcrmrbubnwrkrq-dot-millinium.ey.r.appspot.com
 0.0.0.0 pdmckqa.awtopm3745.workers.dev
@@ -438206,6 +438205,7 @@
 0.0.0.0 quynhanhi006.servebbs.com
 0.0.0.0 quynhff.sukien-freefire.garenaaa.io.vn
 0.0.0.0 quynhff.sukien-freefire.garenaaa.vn
+0.0.0.0 qv.co.ke
 0.0.0.0 qv2xzy7wop.digital
 0.0.0.0 qv3dp7rx.ahkam.xyz
 0.0.0.0 qvajdangwg.duckdns.org
@@ -483928,6 +483928,7 @@
 0.0.0.0 un.nqoxur2.sa.com
 0.0.0.0 un.ulitron.ru
 0.0.0.0 un1lch.weebly.com
+0.0.0.0 un1rw11q4u.com
 0.0.0.0 una.dedspac.ru
 0.0.0.0 unabbptnesses.info
 0.0.0.0 unable-beggar.surge.sh
@@ -502600,7 +502601,6 @@
 0.0.0.0 www.grewsturch.cyou
 0.0.0.0 www.greyfordcorebit-tech.com
 0.0.0.0 www.greywood-finviora-system.com
-0.0.0.0 www.gridfile.cfd
 0.0.0.0 www.gridglass.storiesoftech.com
 0.0.0.0 www.gridglass32.co
 0.0.0.0 www.gridronics.com
@@ -518880,7 +518880,6 @@
 0.0.0.0 xuuqokgxff.duckdns.org
 0.0.0.0 xv2-prrz.vercel.app
 0.0.0.0 xv7h0bw.duckdns.org
-0.0.0.0 xverikstat.us
 0.0.0.0 xvfbnyumkilkiujyht.weebly.com
 0.0.0.0 xvgup.net
 0.0.0.0 xvhv.ej3zus.sbs
