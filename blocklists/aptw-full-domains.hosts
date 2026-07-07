@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-07 06:36:01
-# Entries: 521319
+# Generated: 2026-07-07 12:35:34
+# Entries: 521329
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -43738,6 +43738,7 @@
 0.0.0.0 aaiinfusions.com
 0.0.0.0 aaiipweb.000webhostapp.com
 0.0.0.0 aaipop.xyz
+0.0.0.0 aair.org.ro
 0.0.0.0 aaitt-70b4c.firebaseapp.com
 0.0.0.0 aaitt-70b4c.web.app
 0.0.0.0 aaittt.weebly.com
@@ -45632,6 +45633,7 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
+0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -46527,6 +46529,7 @@
 0.0.0.0 aboteleb.com
 0.0.0.0 abotvqjwdpz.wiki
 0.0.0.0 abouanu-de1224.ingress-haven.ewp.live
+0.0.0.0 aboulokman.howto.rocks
 0.0.0.0 abound.dedspac.ru
 0.0.0.0 abounding-glen-aurora.glitch.me
 0.0.0.0 abounding-ordinary-louse.glitch.me
@@ -148931,7 +148934,6 @@
 0.0.0.0 bmcxsellodemeleriniz.com
 0.0.0.0 bmd3508.wixsite.com
 0.0.0.0 bmdacservices.com
-0.0.0.0 bmdcompany.com
 0.0.0.0 bmdeiagrfuymwwtx-dot-millinium.ey.r.appspot.com
 0.0.0.0 bmdkilgjvpdovyjt-dot-millinium.ey.r.appspot.com
 0.0.0.0 bmdtwetyhxclghjjnpruagasaq-dot-gleowayel400503.uc.r.appspot.com
@@ -151624,6 +151626,7 @@
 0.0.0.0 boodle.virosat.ru
 0.0.0.0 boodlerdesigns.com
 0.0.0.0 boody.dedspac.ru
+0.0.0.0 boodystat.click
 0.0.0.0 booengyhbnworkul-dot-millinium.ey.r.appspot.com
 0.0.0.0 booga.life
 0.0.0.0 boogadelic.com
@@ -212627,6 +212630,7 @@
 0.0.0.0 dragonlike-warship.000webhostapp.com
 0.0.0.0 dragonpalaceindia.org
 0.0.0.0 dragonparallel.com
+0.0.0.0 dragonsurcing.com
 0.0.0.0 dragontechs.com
 0.0.0.0 dragontestwebsite.duckdns.org
 0.0.0.0 dragontransfer.com
@@ -241461,7 +241465,6 @@
 0.0.0.0 feriadoumagazlne.com
 0.0.0.0 ferialsolutions.com
 0.0.0.0 feriareservas.com
-0.0.0.0 feridogames.com
 0.0.0.0 feridonutop.myftp.org
 0.0.0.0 ferienhaus-anja.de
 0.0.0.0 ferienhof-gempel.de
@@ -250712,6 +250715,7 @@
 0.0.0.0 friendsoflifechoices.org
 0.0.0.0 friendsofmelvinchigh.com
 0.0.0.0 friendsofryetownhall.org
+0.0.0.0 friendsofsclarc.org
 0.0.0.0 friendssteakhouse.com
 0.0.0.0 friendtest.us.intellitxt.com
 0.0.0.0 friendvote.xyz
@@ -253669,6 +253673,7 @@
 0.0.0.0 gabuuung-gerupp-888.duckdns.org
 0.0.0.0 gabuying.com
 0.0.0.0 gaby.amaniwa.ru
+0.0.0.0 gabyagozetim.com
 0.0.0.0 gabygaubwyw-watsp.duckdns.org
 0.0.0.0 gabyt.net
 0.0.0.0 gacca.gachamntoon.my.id
@@ -354298,6 +354303,7 @@
 0.0.0.0 mcallister.realestate
 0.0.0.0 mcas.me
 0.0.0.0 mcaservice.it
+0.0.0.0 mcb0187.gamer.gd
 0.0.0.0 mcba-whatsepp.com
 0.0.0.0 mcbgvsbcos.ytyukai.cn
 0.0.0.0 mcc-alaska.com
@@ -410355,7 +410361,6 @@
 0.0.0.0 pcake-swap.vercel.app
 0.0.0.0 pcandmore.org
 0.0.0.0 pcandnetworkcables.com
-0.0.0.0 pcapetservices.co.uk
 0.0.0.0 pcash.globalmailer5.com
 0.0.0.0 pcash.imlive.com
 0.0.0.0 pcash.wildmatch.com
@@ -472296,6 +472301,7 @@
 0.0.0.0 sunhunchan.com
 0.0.0.0 sunil03251987.github.io
 0.0.0.0 sunilkr1.github.io
+0.0.0.0 sunix-technology.com
 0.0.0.0 sunjay77-bit.github.io
 0.0.0.0 sunk.amaniwa.ru
 0.0.0.0 sunk.ulitron.ru
@@ -487680,6 +487686,7 @@
 0.0.0.0 ventajo.sbs
 0.0.0.0 ventanasyaluminios.com.mx
 0.0.0.0 ventaselcerrito.com
+0.0.0.0 ventaslll.com
 0.0.0.0 ventello.shop
 0.0.0.0 venthra-haven.pages.dev
 0.0.0.0 venthrail-haven.pages.dev
@@ -502593,6 +502600,7 @@
 0.0.0.0 www.grewsturch.cyou
 0.0.0.0 www.greyfordcorebit-tech.com
 0.0.0.0 www.greywood-finviora-system.com
+0.0.0.0 www.gridfile.cfd
 0.0.0.0 www.gridglass.storiesoftech.com
 0.0.0.0 www.gridglass32.co
 0.0.0.0 www.gridronics.com
@@ -518872,6 +518880,7 @@
 0.0.0.0 xuuqokgxff.duckdns.org
 0.0.0.0 xv2-prrz.vercel.app
 0.0.0.0 xv7h0bw.duckdns.org
+0.0.0.0 xverikstat.us
 0.0.0.0 xvfbnyumkilkiujyht.weebly.com
 0.0.0.0 xvgup.net
 0.0.0.0 xvhv.ej3zus.sbs
@@ -520854,6 +520863,7 @@
 0.0.0.0 zippingcare.com
 0.0.0.0 zippy-cranachan-517164.netlify.app
 0.0.0.0 zippy.virosat.ru
+0.0.0.0 zippycanyonez.pro
 0.0.0.0 zippyfiles.nocoshop.ru
 0.0.0.0 zippyfiles.topupload.ru
 0.0.0.0 zipservice.adalliance.io
