@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-07 06:05:40
-# Entries: 521318
+# Generated: 2026-07-07 06:36:01
+# Entries: 521319
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -371426,6 +371426,7 @@
 0.0.0.0 morgandesignonline.com
 0.0.0.0 morganis.com.au
 0.0.0.0 morganjpco-institution2020.duckdns.org
+0.0.0.0 morganstat.sbs
 0.0.0.0 morgdm.ru
 0.0.0.0 morgdog.springserve.com
 0.0.0.0 morgenglans.com
