@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-07 01:08:36
-# Entries: 521316
+# Generated: 2026-07-07 06:05:40
+# Entries: 521318
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45632,7 +45632,6 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
-0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -241462,6 +241461,7 @@
 0.0.0.0 feriadoumagazlne.com
 0.0.0.0 ferialsolutions.com
 0.0.0.0 feriareservas.com
+0.0.0.0 feridogames.com
 0.0.0.0 feridonutop.myftp.org
 0.0.0.0 ferienhaus-anja.de
 0.0.0.0 ferienhof-gempel.de
@@ -317298,6 +317298,7 @@
 0.0.0.0 kenufipafalenar.weebly.com
 0.0.0.0 kenvnkgiceaharjp-dot-millinium.ey.r.appspot.com
 0.0.0.0 kenward.me
+0.0.0.0 kenwillzltd.com
 0.0.0.0 kenyabigpicturelearningcorporation.org
 0.0.0.0 kenzabet.com
 0.0.0.0 kenzie-academy-brasil-developers.github.io
@@ -445858,6 +445859,7 @@
 0.0.0.0 rentacar-halkidiki.com
 0.0.0.0 rentacarinaruba.com
 0.0.0.0 rentacars.fr
+0.0.0.0 rentadefrio.com
 0.0.0.0 rentadrom.com
 0.0.0.0 rental-elementary-command-reservations.trycloudflare.com
 0.0.0.0 rental-servis.ru
@@ -474192,7 +474194,6 @@
 0.0.0.0 takak.ru
 0.0.0.0 takami-web.co.jp
 0.0.0.0 takcmbwo.cn
-0.0.0.0 take-care.africa
 0.0.0.0 take-coinbase.webflow.io
 0.0.0.0 take-satoshivm.pages.dev
 0.0.0.0 take.amaniwa.ru
@@ -504617,6 +504618,7 @@
 0.0.0.0 www.kennethhomelive.com
 0.0.0.0 www.kenthomelive.com
 0.0.0.0 www.kentseldonusumprojeleri.com
+0.0.0.0 www.kenwillzltd.com
 0.0.0.0 www.kenzabet.com
 0.0.0.0 www.kerfuffled.pro
 0.0.0.0 www.kermitowy-sklep.pl
