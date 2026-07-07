@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-07 00:33:50
-# Entries: 521299
+# Generated: 2026-07-07 01:08:36
+# Entries: 521316
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -173543,6 +173543,7 @@
 0.0.0.0 chiseled-furry-gazelle.glitch.me
 0.0.0.0 chiseled-level-deerstalker.glitch.me
 0.0.0.0 chiseled-zealous-drawbridge.glitch.me
+0.0.0.0 chiselworksenterprise.com
 0.0.0.0 chishani.com
 0.0.0.0 chismefueradelconsul.000webhostapp.com
 0.0.0.0 chisonoinebuns.net
@@ -178525,6 +178526,7 @@
 0.0.0.0 clubmix.com.au
 0.0.0.0 clubmom.122.2o7.net
 0.0.0.0 cluborlov.blogspot.ca
+0.0.0.0 clubprincess.click
 0.0.0.0 clubrenaultsport.com
 0.0.0.0 clubs.hilotras.ru
 0.0.0.0 clubs.jupirest.ru
@@ -237129,6 +237131,7 @@
 0.0.0.0 fasterclean.cl
 0.0.0.0 fasterfiles.net
 0.0.0.0 fasterolonian.info
+0.0.0.0 fasterscommunications.com
 0.0.0.0 fasterunlocks.com
 0.0.0.0 fastesmadsing.web.app
 0.0.0.0 fastexpresslogistic.com
@@ -279069,6 +279072,7 @@
 0.0.0.0 helsdeskus.weebly.com
 0.0.0.0 helsoialsnfience.top
 0.0.0.0 helswlet-consxect.gitbook.io
+0.0.0.0 heltaskeltahenterprise.com
 0.0.0.0 helto.capitoldataanalytics.com
 0.0.0.0 heluapla.wiki
 0.0.0.0 helusi1xdap.pages.dev
@@ -384971,6 +384975,7 @@
 0.0.0.0 newenglandent.org
 0.0.0.0 newenglandlab.com.standoutjewelsfor5.com
 0.0.0.0 newenglandtaxcare.com
+0.0.0.0 newequipmentsolutions.com
 0.0.0.0 newer-ltd.weeblysite.com
 0.0.0.0 newer.tollseu.info
 0.0.0.0 newer.ulitron.ru
@@ -392305,6 +392310,7 @@
 0.0.0.0 nyco-corp.pages.dev
 0.0.0.0 nycolasfelipe.github.io
 0.0.0.0 nycp-hlb.dvgtm.akadns.net
+0.0.0.0 nycpartnersenterprise.com
 0.0.0.0 nycreparationlawyer-1318439371.cos.sa-saopaulo.myqcloud.com
 0.0.0.0 nyctzpdqganfjkqllxegri-hh06bay-dsb36.vercel.app
 0.0.0.0 nycyhycyp.com
@@ -423518,6 +423524,8 @@
 0.0.0.0 princeofshop.versacommerce.de
 0.0.0.0 princesasoferts.com
 0.0.0.0 princess-este.com
+0.0.0.0 princess-mens-club.com
+0.0.0.0 princess-mens.click
 0.0.0.0 princess.ambulance28.boytran.ru
 0.0.0.0 princess.ambulance30.boytran.ru
 0.0.0.0 princess.ambulance34.boytran.ru
@@ -423531,6 +423539,9 @@
 0.0.0.0 princess96.arenosi.ru
 0.0.0.0 princessbosting.ml
 0.0.0.0 princesscharleneofmonaco.com
+0.0.0.0 princessclub.best
+0.0.0.0 princessclub.click
+0.0.0.0 princessclub.online
 0.0.0.0 princestudio.net
 0.0.0.0 princeswharfapartment.co.nz
 0.0.0.0 princetonblackcar.us
@@ -447290,6 +447301,7 @@
 0.0.0.0 resumekeeper.com
 0.0.0.0 resumersvo.fun
 0.0.0.0 resumescore.000webhostapp.com
+0.0.0.0 resutato.com
 0.0.0.0 reswase.com
 0.0.0.0 resy.getmyip.com
 0.0.0.0 resycbotweb.link
@@ -457229,6 +457241,7 @@
 0.0.0.0 saidi.virosat.ru
 0.0.0.0 saidiamondtools.com
 0.0.0.0 saidimohmed.github.io
+0.0.0.0 saidozdemir.com
 0.0.0.0 saidservice.com
 0.0.0.0 saidtlarrr.net
 0.0.0.0 saidzfqfrlapytfn-dot-millinium.ey.r.appspot.com
@@ -461499,6 +461512,7 @@
 0.0.0.0 seafsoft.maxapex.net
 0.0.0.0 seah.dedspac.ru
 0.0.0.0 seahorse-app-cy3ab.ondigitalocean.app
+0.0.0.0 seahorsemethod.com
 0.0.0.0 seaivicess.weebly.com
 0.0.0.0 seak.ulitron.ru
 0.0.0.0 seal-app-2-9i8ac.ondigitalocean.app
@@ -474178,6 +474192,7 @@
 0.0.0.0 takak.ru
 0.0.0.0 takami-web.co.jp
 0.0.0.0 takcmbwo.cn
+0.0.0.0 take-care.africa
 0.0.0.0 take-coinbase.webflow.io
 0.0.0.0 take-satoshivm.pages.dev
 0.0.0.0 take.amaniwa.ru
@@ -521051,6 +521066,8 @@
 0.0.0.0 zoom.dedspac.ru
 0.0.0.0 zoom.readyex-eg.com
 0.0.0.0 zoomailer.org
+0.0.0.0 zoomconference.app
+0.0.0.0 zoomconference.click
 0.0.0.0 zoommeeting.zone
 0.0.0.0 zoomovies.org
 0.0.0.0 zoompegs.com
