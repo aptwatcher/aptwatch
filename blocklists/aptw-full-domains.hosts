@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-08 06:05:57
-# Entries: 521353
+# Generated: 2026-07-08 06:35:51
+# Entries: 521350
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45632,7 +45632,6 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
-0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -364063,7 +364062,6 @@
 0.0.0.0 mevn69.v6.navy
 0.0.0.0 mevoqua.comvvincenzo.cutronem.osvar-aliment.ro
 0.0.0.0 mevoyauk.com
-0.0.0.0 mevrio.com
 0.0.0.0 mevzuat.com.tr
 0.0.0.0 mew.dedspac.ru
 0.0.0.0 mew0vnc4rz.0857.gencmert.com
@@ -370430,7 +370428,6 @@
 0.0.0.0 mojpremiumdom.pl
 0.0.0.0 mojprojekt19.000webhostapp.com
 0.0.0.0 mojseans.pl
-0.0.0.0 mojtabaabbasi.com
 0.0.0.0 mojuelypbkiexcybumjbqmzsiqavpkrmxwfo.solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 mojvkak.blogspot.com
 0.0.0.0 mojvkak.blogspot.tw
