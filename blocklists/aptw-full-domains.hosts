@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-08 06:35:51
-# Entries: 521350
+# Generated: 2026-07-08 12:35:21
+# Entries: 521348
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -211320,6 +211320,7 @@
 0.0.0.0 donum.ulitron.ru
 0.0.0.0 donusumyapidekorasyon.com
 0.0.0.0 donut.dedspac.ru
+0.0.0.0 donutcash.lol
 0.0.0.0 donutecocolate.com
 0.0.0.0 donval.112.2o7.net
 0.0.0.0 donweeseinc.com
@@ -339169,6 +339170,7 @@
 0.0.0.0 lovooo.godaddysites.com
 0.0.0.0 lovril.com
 0.0.0.0 lovuhjvkfvafrgoc-dot-millinium.ey.r.appspot.com
+0.0.0.0 lovvybava.sbs
 0.0.0.0 low-comet-zebu.glitch.me
 0.0.0.0 low-hacker.popunder.ru
 0.0.0.0 low-kilobyte-crooked.on-fleek.app
@@ -355998,7 +356000,6 @@
 0.0.0.0 mejustgopal.github.io
 0.0.0.0 mekabulls.com
 0.0.0.0 mekamiwo.ru
-0.0.0.0 mekasa.pro
 0.0.0.0 mekatamasekeloge.webflow.io
 0.0.0.0 mekatimaksssklogin.webflow.io
 0.0.0.0 mekblue.com
@@ -380070,7 +380071,6 @@
 0.0.0.0 nanotiona.com
 0.0.0.0 nanotions.com
 0.0.0.0 nanoze2019ogladajbezlimituonlinezalukaj.wordpress.com
-0.0.0.0 nanpe.eng.br
 0.0.0.0 nansasutiono.com
 0.0.0.0 nansen-ensmartvalidator.pages.dev
 0.0.0.0 nansenvalidatedao.pages.dev
@@ -417643,7 +417643,6 @@
 0.0.0.0 pokeronline.casa
 0.0.0.0 pokerqq188.biz
 0.0.0.0 pokerstars2.atspace.com
-0.0.0.0 pokese.pro
 0.0.0.0 pokey.ulitron.ru
 0.0.0.0 poki8ju7.github.io
 0.0.0.0 pokibowlkendall.com
@@ -484603,7 +484602,6 @@
 0.0.0.0 updates.slekkeud.workers.dev
 0.0.0.0 updatesamzsupportmailaccouncustome.4-155-105-207.cprapid.com
 0.0.0.0 updatesecure.pro
-0.0.0.0 updateservice1-telegramweb.com
 0.0.0.0 updateservicecenter.blogspot.com
 0.0.0.0 updateservices.in
 0.0.0.0 updatesoftware24.com
