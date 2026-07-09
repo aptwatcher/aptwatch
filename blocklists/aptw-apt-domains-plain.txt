@@ -9,6 +9,7 @@ api.portimaloter.com
 api.tuipoekolqrx.com
 api.yuretemelo.com
 apivuecomponent.com
+app-front.anmaradigital.com
 assistant.praiselimollc.com
 b2b.genethairsalon.com
 backoffice.ptbaconsulting.com
