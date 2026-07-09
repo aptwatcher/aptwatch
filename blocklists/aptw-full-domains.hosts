@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-09 12:33:37
-# Entries: 521452
+# Generated: 2026-07-09 18:33:12
+# Entries: 521457
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -98157,6 +98157,7 @@
 0.0.0.0 areyouabot.net
 0.0.0.0 areyouahuman.co
 0.0.0.0 areyouall.ru
+0.0.0.0 areyouready.co.za
 0.0.0.0 areyoureadytocompete.xyz
 0.0.0.0 areyourobotornot.blogspot.com
 0.0.0.0 arezcs.000webhostapp.com
@@ -198948,6 +198949,7 @@
 0.0.0.0 deafgbc.pilot45.com
 0.0.0.0 deagjl.com
 0.0.0.0 deagricole.loseitwithsio.com
+0.0.0.0 deagroup-ks.com
 0.0.0.0 deair.dedspac.ru
 0.0.0.0 deal-bonus.de
 0.0.0.0 deal-cajamares.com
@@ -319006,6 +319008,7 @@
 0.0.0.0 kitprodutos.com.br
 0.0.0.0 kits-anna.com
 0.0.0.0 kits.dedspac.ru
+0.0.0.0 kits.frog.tw
 0.0.0.0 kits.gratis
 0.0.0.0 kits.ulitron.ru
 0.0.0.0 kitsadat.net
@@ -470371,6 +470374,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -484206,6 +484210,7 @@
 0.0.0.0 universalcoba.com
 0.0.0.0 universalfxmm.com
 0.0.0.0 universalmsg.com
+0.0.0.0 universami.ge
 0.0.0.0 universe.send.microad.jp
 0.0.0.0 universeaccountvalidation.weebly.com
 0.0.0.0 universeactivecircleprofile.weebly.com
