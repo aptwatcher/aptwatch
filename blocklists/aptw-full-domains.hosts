@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-09 18:33:12
-# Entries: 521457
+# Generated: 2026-07-10 00:33:08
+# Entries: 521460
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -131587,6 +131587,7 @@
 0.0.0.0 balck.pages.dev
 0.0.0.0 balco546msale.gb.net
 0.0.0.0 balconservice.ru
+0.0.0.0 balconyresidences.com.br
 0.0.0.0 bald-fearless-kidney.glitch.me
 0.0.0.0 bald-highfalutin-flyaway.glitch.me
 0.0.0.0 bald-lizard-corleggy.glitch.me
@@ -212918,6 +212919,7 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
+0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -475030,6 +475032,7 @@
 0.0.0.0 tape.amaniwa.ru
 0.0.0.0 tapecoraro683.wixsite.com
 0.0.0.0 tapestry.tapad.com
+0.0.0.0 tapestryoftruth.com
 0.0.0.0 tapfiliate.com
 0.0.0.0 taphrometopon.xyz
 0.0.0.0 tapinfluence.com
