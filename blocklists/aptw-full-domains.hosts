@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-10 12:33:35
-# Entries: 521532
+# Generated: 2026-07-10 18:33:19
+# Entries: 521535
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -137128,6 +137128,8 @@
 0.0.0.0 bdo-app.ngbhfcsg-kielph.workers.dev
 0.0.0.0 bdo-app.sbdoonline.workers.dev
 0.0.0.0 bdo-banking-ph.duckdns.org
+0.0.0.0 bdo-c1.cc
+0.0.0.0 bdo-kk.com
 0.0.0.0 bdo-mobilebanking.com
 0.0.0.0 bdo-online-com-ph-terms.duckdns.org
 0.0.0.0 bdo-online-mbboo.run-ap-south1.goorm.io
@@ -217027,6 +217029,7 @@
 0.0.0.0 eastmedcrops.com
 0.0.0.0 eastmelbournegeneralstore.com
 0.0.0.0 eastmoney.allyes.com
+0.0.0.0 eastnug.com
 0.0.0.0 eastorange-pt.com
 0.0.0.0 easts.ulitron.ru
 0.0.0.0 eastsharepoint2.web.app
