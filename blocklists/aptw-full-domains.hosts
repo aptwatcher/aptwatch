@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-11 00:33:21
-# Entries: 521574
+# Generated: 2026-07-11 06:04:45
+# Entries: 521575
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -411919,6 +411919,7 @@
 0.0.0.0 penholder.near90.drowrang.ru
 0.0.0.0 penial-guilt.000webhostapp.com
 0.0.0.0 penicil.ru
+0.0.0.0 peniclean.com
 0.0.0.0 penielspiritual.com
 0.0.0.0 penileerectiledysfunction.com
 0.0.0.0 peningkaatan-sistem-dana.new-xw.biz.id
