@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-11 06:04:45
-# Entries: 521575
+# Generated: 2026-07-11 06:34:42
+# Entries: 521576
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -328340,6 +328340,7 @@
 0.0.0.0 leclo-desclos.com
 0.0.0.0 lecohism.com
 0.0.0.0 leconnaisseur-dz.com
+0.0.0.0 leconto.lol
 0.0.0.0 lecoqvintage.com
 0.0.0.0 lecpbpvtdeumqhas-dot-millinium.ey.r.appspot.com
 0.0.0.0 lecrieur3-wixsite-com.filesusr.com
