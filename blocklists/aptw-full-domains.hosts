@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-11 12:33:28
-# Entries: 521578
+# Generated: 2026-07-11 18:33:52
+# Entries: 521579
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -257264,6 +257264,7 @@
 0.0.0.0 generous-badge-861659.framer.app
 0.0.0.0 generous-offer-help.vercel.app
 0.0.0.0 genesiac-accomplish.000webhostapp.com
+0.0.0.0 genesis-softs.com
 0.0.0.0 genesis-vault.pages.dev
 0.0.0.0 genesis11guitarlab.com
 0.0.0.0 genesis7h.com
@@ -342777,7 +342778,6 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
-0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -475658,6 +475658,7 @@
 0.0.0.0 techbargins.com
 0.0.0.0 techbase.site
 0.0.0.0 techbeyin.net
+0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techchronicleworld.com
