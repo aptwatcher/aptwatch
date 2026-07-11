@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-11 06:34:42
-# Entries: 521576
+# Generated: 2026-07-11 12:33:28
+# Entries: 521578
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -328340,7 +328340,6 @@
 0.0.0.0 leclo-desclos.com
 0.0.0.0 lecohism.com
 0.0.0.0 leconnaisseur-dz.com
-0.0.0.0 leconto.lol
 0.0.0.0 lecoqvintage.com
 0.0.0.0 lecpbpvtdeumqhas-dot-millinium.ey.r.appspot.com
 0.0.0.0 lecrieur3-wixsite-com.filesusr.com
@@ -342778,6 +342777,7 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
+0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -387645,6 +387645,7 @@
 0.0.0.0 nightlifesofl.com
 0.0.0.0 nightlypressreview.com
 0.0.0.0 nightmare-cheats.buzz
+0.0.0.0 nightmare-download.pw
 0.0.0.0 nightmegaburner.pl
 0.0.0.0 nightmit.ru
 0.0.0.0 nightowlgk.github.io
@@ -411920,7 +411921,6 @@
 0.0.0.0 penholder.near90.drowrang.ru
 0.0.0.0 penial-guilt.000webhostapp.com
 0.0.0.0 penicil.ru
-0.0.0.0 peniclean.com
 0.0.0.0 penielspiritual.com
 0.0.0.0 penileerectiledysfunction.com
 0.0.0.0 peningkaatan-sistem-dana.new-xw.biz.id
@@ -417563,6 +417563,7 @@
 0.0.0.0 poconorecordcom.112.2o7.net
 0.0.0.0 poconoshotels.com
 0.0.0.0 poconoslakefronthomes.com
+0.0.0.0 pocopaco.co.za
 0.0.0.0 pocoty.fr
 0.0.0.0 pocrovskiihram.ru
 0.0.0.0 pocrtalpersssocnas-bencochiile-cl.drdssf.com
@@ -424017,6 +424018,7 @@
 0.0.0.0 prithvisai.com.swaraj-stones.com
 0.0.0.0 priti98.github.io
 0.0.0.0 pritibarot.github.io
+0.0.0.0 pritinder.ifree.page
 0.0.0.0 pritisella.ativesecurepas.com
 0.0.0.0 pritorec.online
 0.0.0.0 pritorjtai.qpon
@@ -461091,6 +461093,7 @@
 0.0.0.0 sc.5.p2l.info
 0.0.0.0 sc.adelement.com
 0.0.0.0 sc.boletuso.ru
+0.0.0.0 sc.c1s.su
 0.0.0.0 sc.iasds01.com
 0.0.0.0 sc.independent.co.uk
 0.0.0.0 sc.omtrdc.net
@@ -484311,7 +484314,6 @@
 0.0.0.0 universalcoba.com
 0.0.0.0 universalfxmm.com
 0.0.0.0 universalmsg.com
-0.0.0.0 universami.ge
 0.0.0.0 universe.send.microad.jp
 0.0.0.0 universeaccountvalidation.weebly.com
 0.0.0.0 universeactivecircleprofile.weebly.com
