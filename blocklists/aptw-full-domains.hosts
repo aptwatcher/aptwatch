@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-12 06:34:07
-# Entries: 521581
+# Generated: 2026-07-12 12:34:21
+# Entries: 521585
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -212934,6 +212934,7 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
+0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -232413,6 +232414,7 @@
 0.0.0.0 facai.y82lj7e.cn
 0.0.0.0 facai2024.xn--bvs11es3ujti.com
 0.0.0.0 facai524.icu
+0.0.0.0 facanha.com.br
 0.0.0.0 facanjgijvsabnkfuadbybamyvbcjmulibwp-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 facaujowetta-8242-51618947-continue.vercel.app
 0.0.0.0 facb00keslat.000webhostapp.com
@@ -257446,7 +257448,6 @@
 0.0.0.0 geny83h92.atwebpages.com
 0.0.0.0 genys.dedspac.ru
 0.0.0.0 genys.virosat.ru
-0.0.0.0 geo-foundation.vg
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 geo.adobe.com
@@ -294742,7 +294743,6 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
-0.0.0.0 indeanapolice.cc
 0.0.0.0 indebrisch.cyou
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
@@ -315599,6 +315599,7 @@
 0.0.0.0 kalea-poke.de
 0.0.0.0 kaleciekipmanlari.com
 0.0.0.0 kalection.com
+0.0.0.0 kaleda.pro
 0.0.0.0 kalee.com.tr
 0.0.0.0 kaleidoscope.in
 0.0.0.0 kaleidoscopic-semolina-700c35.netlify.app
@@ -342776,6 +342777,7 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
+0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -375317,6 +375319,7 @@
 0.0.0.0 mvconf.uk.cloud.360safe.com
 0.0.0.0 mvcwebdeveloper.com
 0.0.0.0 mvcxgkkgpj.click
+0.0.0.0 mvd-2026.ru
 0.0.0.0 mvd-cloud.ru
 0.0.0.0 mvd-redir.ru
 0.0.0.0 mvdhowfgkr.duckdns.org
@@ -449771,6 +449774,7 @@
 0.0.0.0 ringind.localchristiancounselor.com
 0.0.0.0 ringles.ru.com
 0.0.0.0 ringmarketing.net
+0.0.0.0 ringmycellphone.com
 0.0.0.0 ringocapri.cyou
 0.0.0.0 ringocom.com
 0.0.0.0 ringolink.freibours.com
