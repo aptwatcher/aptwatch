@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-13 00:33:13
-# Entries: 521628
+# Generated: 2026-07-13 06:04:26
+# Entries: 521627
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32827,7 +32827,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -417359,6 +417358,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -470506,7 +470506,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
