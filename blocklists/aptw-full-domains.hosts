@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-13 06:04:26
-# Entries: 521627
+# Generated: 2026-07-13 06:34:32
+# Entries: 521629
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -262624,6 +262624,7 @@
 0.0.0.0 gogodolss.hoooliwingstrot.link
 0.0.0.0 gogogo648w.duckdns.org
 0.0.0.0 gogohomla.com
+0.0.0.0 gogolfonline.com
 0.0.0.0 gogomas.ml
 0.0.0.0 gogomountain.com
 0.0.0.0 gogoomy3.myftp.info
@@ -470506,6 +470507,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
