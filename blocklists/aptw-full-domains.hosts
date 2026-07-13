@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-13 06:34:32
-# Entries: 521629
+# Generated: 2026-07-13 12:33:53
+# Entries: 521630
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -145663,6 +145663,7 @@
 0.0.0.0 bitnineto.click
 0.0.0.0 bitnobweb-app.surge.sh
 0.0.0.0 bito.boletuso.ru
+0.0.0.0 bito.com.pk
 0.0.0.0 bitobmen.online
 0.0.0.0 bitobmenc.online
 0.0.0.0 bitobmenc.ru
@@ -408110,6 +408111,7 @@
 0.0.0.0 pasaportinsaat.com
 0.0.0.0 pasapuroshini.github.io
 0.0.0.0 pasasgeinitmtisonidetytys.co.vu
+0.0.0.0 pasastesintagsav.cc
 0.0.0.0 pasateadigital.cl
 0.0.0.0 pasca.univbinainsan.ac.id
 0.0.0.0 pascaldash.com
@@ -417359,7 +417361,6 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
-0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
