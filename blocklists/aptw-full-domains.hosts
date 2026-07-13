@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-13 12:33:53
-# Entries: 521630
+# Generated: 2026-07-13 18:33:49
+# Entries: 521636
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -342798,7 +342798,6 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
-0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -365668,6 +365667,7 @@
 0.0.0.0 microsoftupdate.fr
 0.0.0.0 microsoftupdate67.wixsite.com
 0.0.0.0 microsoftupdated.com
+0.0.0.0 microsoftupdater.info
 0.0.0.0 microsoftupdatestore.weebly.com
 0.0.0.0 microsoftvoice00-officepassowrd-updateco8980-microsoftautoma-u0.s3.eu-de.cloud-object-storage.appdomain.cloud
 0.0.0.0 microsoftvoice0ffice3650-messagevoicemessage-listenvoice908voic.s3.eu-de.cloud-object-storage.appdomain.cloud
@@ -387666,6 +387666,7 @@
 0.0.0.0 nightlifesofl.com
 0.0.0.0 nightlypressreview.com
 0.0.0.0 nightmare-cheats.buzz
+0.0.0.0 nightmare-cheats.vip
 0.0.0.0 nightmare-download.pw
 0.0.0.0 nightmegaburner.pl
 0.0.0.0 nightmit.ru
@@ -390718,6 +390719,7 @@
 0.0.0.0 novemberrainx.com
 0.0.0.0 novempop.com
 0.0.0.0 novensilesto.ru
+0.0.0.0 noventis8.com
 0.0.0.0 noventraconsultancy.com
 0.0.0.0 noventrix-fusion.com
 0.0.0.0 novepath.com
@@ -421732,6 +421734,7 @@
 0.0.0.0 powerprecinct.com.au
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
+0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -468309,9 +468312,11 @@
 0.0.0.0 sportisimoczolinesale.com
 0.0.0.0 sportisimoonlineshop.com
 0.0.0.0 sportisimoonlinesk.com
+0.0.0.0 sportisimooutletsonlinesk.com
 0.0.0.0 sportisimooutletssk.com
 0.0.0.0 sportisimos-cz.shop
 0.0.0.0 sportisimoshop.com
+0.0.0.0 sportisimoskonline.shop
 0.0.0.0 sportmovementcentre.com
 0.0.0.0 sportmusic.servemp3.com
 0.0.0.0 sportnewspaper.strangled.net
@@ -475540,6 +475545,7 @@
 0.0.0.0 tdco.scjmariquina.cl
 0.0.0.0 tdcv3.talkingdata.net
 0.0.0.0 tdcyob.zmanedkfwt.es
+0.0.0.0 tdhviatnam.com
 0.0.0.0 tdid.m.qq.com
 0.0.0.0 tdk-opt.ru
 0.0.0.0 tdk.xjw.temporary.site
