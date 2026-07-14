@@ -1,7 +1,7 @@
 # Title: APT Watch — APT Malicious Domains
 # Description: Domains from APT threat intelligence reports
-# Last modified: 2026-07-14 00:33:31
-# Entries: 51
+# Last modified: 2026-07-14 06:04:50
+# Entries: 52
 # Homepage: https://aptwatch.org
 # License: TLP:AMBER — do not share publicly
 #
@@ -51,6 +51,7 @@
 0.0.0.0 socgholish.ariaaglass.com
 0.0.0.0 socgholish.artmonkees.io
 0.0.0.0 speed-optimizer.com
+0.0.0.0 stake.libertariancounterpoint.com
 0.0.0.0 storehouse.beautysupplysalonllc.com
 0.0.0.0 support.grovecityelectrician.com
 0.0.0.0 thresumebuilder.com

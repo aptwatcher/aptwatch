@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-14 00:33:32
+# Generated: 2026-07-14 06:04:52
 # Entries: 521640
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -89735,7 +89735,6 @@
 0.0.0.0 app-ccm-whatshktw.com
 0.0.0.0 app-cdc89bc2-875e-429a-af00-950792174d36.cleverapps.io
 0.0.0.0 app-cdeac196-39d3-4772-a061-2b3a0d347c36.cleverapps.io
-0.0.0.0 app-cdek-online.ru
 0.0.0.0 app-cdn-suite-trzor.webflow.io
 0.0.0.0 app-cdn.delivery-usps.click-n-ship.info
 0.0.0.0 app-ced1f799-ab6e-4d60-a65a-f373a878ea6b.cleverapps.io
@@ -168572,6 +168571,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -338450,6 +338450,7 @@
 0.0.0.0 londamiachels.tk
 0.0.0.0 london-delight.ga
 0.0.0.0 london-healthcare.com
+0.0.0.0 londonairportstransfer.co.uk
 0.0.0.0 londoncamerahireservices.co.uk
 0.0.0.0 londondanceschool.com
 0.0.0.0 londonfreweb.website.cv
@@ -417374,7 +417375,6 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
-0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
