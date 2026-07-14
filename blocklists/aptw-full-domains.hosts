@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-14 06:34:54
-# Entries: 521640
+# Generated: 2026-07-14 12:33:52
+# Entries: 521647
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -168571,7 +168571,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -223369,6 +223368,7 @@
 0.0.0.0 endosovers.cyou
 0.0.0.0 endow.virosat.ru
 0.0.0.0 endpoint-fail.vercel.app
+0.0.0.0 endpoint.project0.cc
 0.0.0.0 endrizzi.com
 0.0.0.0 ends.dedspac.ru
 0.0.0.0 ends.ulitron.ru
@@ -265257,6 +265257,7 @@
 0.0.0.0 gravitysucks.thingsmicro.com
 0.0.0.0 gravityzo2nee.site
 0.0.0.0 gravkey.online
+0.0.0.0 gravy.rapidbranchzi.com
 0.0.0.0 gravy.ulitron.ru
 0.0.0.0 gravy.virosat.ru
 0.0.0.0 gravygirls.com
@@ -317168,6 +317169,7 @@
 0.0.0.0 keisu02.eproof.com
 0.0.0.0 keit1on.net
 0.0.0.0 keitaro1.cityads.com
+0.0.0.0 keitarosofts.com
 0.0.0.0 keitcrm.pl
 0.0.0.0 keith.temple.keith.temple.theperfectpocketbook.com
 0.0.0.0 keith.ulitron.ru
@@ -351954,6 +351956,7 @@
 0.0.0.0 mariyam-abdulla.github.io
 0.0.0.0 marjampingjamping.tarungdrajatsiokalama.com
 0.0.0.0 marjarrygroves.com
+0.0.0.0 marjdl.pro
 0.0.0.0 marjie.bravusmentores.com
 0.0.0.0 marjirangustambayum.co.vu
 0.0.0.0 marjolismak.co.vu
@@ -401937,6 +401940,7 @@
 0.0.0.0 organizingcanvassers.com
 0.0.0.0 organogold.com
 0.0.0.0 organonambiental.jmcsoftware.com.br
+0.0.0.0 organza.rapidbranchzi.com
 0.0.0.0 orgean.com
 0.0.0.0 orgeudguuefd98787.godaddysites.com
 0.0.0.0 orgeworld.gq
@@ -417375,6 +417379,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -493878,6 +493883,7 @@
 0.0.0.0 wrawl.virosat.ru
 0.0.0.0 wreak.dedspac.ru
 0.0.0.0 wreak.virosat.ru
+0.0.0.0 wreath.rapidbranchzi.com
 0.0.0.0 wreck.virosat.ru
 0.0.0.0 wrelvaxion.shop
 0.0.0.0 wren-meta-shif-biz.pages.dev
@@ -521163,6 +521169,7 @@
 0.0.0.0 ziplinetransfer.com
 0.0.0.0 ziply.pk
 0.0.0.0 zipolpolit.cyou
+0.0.0.0 zipper.rapidbranchzi.com
 0.0.0.0 zippercomputer.com
 0.0.0.0 zippingcare.com
 0.0.0.0 zippy-cranachan-517164.netlify.app
