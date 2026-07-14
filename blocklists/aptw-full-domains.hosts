@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-14 12:33:52
-# Entries: 521647
+# Generated: 2026-07-14 18:33:26
+# Entries: 521646
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -218331,6 +218331,7 @@
 0.0.0.0 echeloncolours.com
 0.0.0.0 echemistry.in
 0.0.0.0 echis.ulitron.ru
+0.0.0.0 echkdia.com
 0.0.0.0 echkdtfov.neslovo.ru
 0.0.0.0 echl.ml
 0.0.0.0 echo-dnia.24.eu
@@ -351956,7 +351957,6 @@
 0.0.0.0 mariyam-abdulla.github.io
 0.0.0.0 marjampingjamping.tarungdrajatsiokalama.com
 0.0.0.0 marjarrygroves.com
-0.0.0.0 marjdl.pro
 0.0.0.0 marjie.bravusmentores.com
 0.0.0.0 marjirangustambayum.co.vu
 0.0.0.0 marjolismak.co.vu
@@ -424064,7 +424064,6 @@
 0.0.0.0 prithvisai.com.swaraj-stones.com
 0.0.0.0 priti98.github.io
 0.0.0.0 pritibarot.github.io
-0.0.0.0 pritinder.ifree.page
 0.0.0.0 pritisella.ativesecurepas.com
 0.0.0.0 pritorec.online
 0.0.0.0 pritorjtai.qpon
