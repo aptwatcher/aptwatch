@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-14 18:33:26
-# Entries: 521646
+# Generated: 2026-07-14 22:41:48
+# Entries: 521648
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32830,6 +32830,7 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
+0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -186976,6 +186977,7 @@
 0.0.0.0 controller.4seeresults.com
 0.0.0.0 controller.duokanbox.com
 0.0.0.0 controller.foreseeresults.com
+0.0.0.0 controllerjs.com
 0.0.0.0 controlliweb-bper.duckdns.org
 0.0.0.0 controllo-accessi-giornalieri-nexi.it.rotarychennaigateway.org
 0.0.0.0 controllo-amministrativo.com
@@ -342810,7 +342812,6 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
-0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -351957,6 +351958,7 @@
 0.0.0.0 mariyam-abdulla.github.io
 0.0.0.0 marjampingjamping.tarungdrajatsiokalama.com
 0.0.0.0 marjarrygroves.com
+0.0.0.0 marjdl.pro
 0.0.0.0 marjie.bravusmentores.com
 0.0.0.0 marjirangustambayum.co.vu
 0.0.0.0 marjolismak.co.vu
@@ -417379,7 +417381,6 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
-0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -477813,6 +477814,7 @@
 0.0.0.0 themacuser.org
 0.0.0.0 themagicweapon.com
 0.0.0.0 themaidscrm.com
+0.0.0.0 themaintechnician.us
 0.0.0.0 themangotea.com
 0.0.0.0 themanroom.us.intellitxt.com
 0.0.0.0 themaplemethod.com
