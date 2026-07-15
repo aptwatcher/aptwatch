@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-15 12:34:11
-# Entries: 519014
+# Generated: 2026-07-15 18:33:25
+# Entries: 519012
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -18366,7 +18366,6 @@
 0.0.0.0 316895092.corolain.ru
 0.0.0.0 316e0e6e.gskjdfegwhu.shop
 0.0.0.0 316gym.com
-0.0.0.0 317.wtf
 0.0.0.0 31700x.cn
 0.0.0.0 317095242.lahatas.ru
 0.0.0.0 317127162.pafamar.ru
@@ -168263,7 +168262,6 @@
 0.0.0.0 cdn.amplitude.com
 0.0.0.0 cdn.ampproject.org
 0.0.0.0 cdn.amxprd.com
-0.0.0.0 cdn.anzho06.xyz
 0.0.0.0 cdn.appdynamics.com
 0.0.0.0 cdn.appnext.com
 0.0.0.0 cdn.apprope.com
@@ -250493,7 +250491,6 @@
 0.0.0.0 friendsoflifechoices.org
 0.0.0.0 friendsofmelvinchigh.com
 0.0.0.0 friendsofryetownhall.org
-0.0.0.0 friendsofsclarc.org
 0.0.0.0 friendssteakhouse.com
 0.0.0.0 friendtest.us.intellitxt.com
 0.0.0.0 friendvote.xyz
@@ -391510,7 +391507,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -459495,7 +459491,6 @@
 0.0.0.0 sarif.dedspac.ru
 0.0.0.0 sarilarabiteriiiz.shop
 0.0.0.0 sarilaserbeautytherapy.com.au
-0.0.0.0 sarinaglobal.sbs
 0.0.0.0 sarinahotel.com
 0.0.0.0 sarip.dedspac.ru
 0.0.0.0 saris.ulitron.ru
@@ -467578,6 +467573,7 @@
 0.0.0.0 sportisimos-cz.shop
 0.0.0.0 sportisimoshop.com
 0.0.0.0 sportisimoskonline.shop
+0.0.0.0 sportisimotop-cz.shop
 0.0.0.0 sportmovementcentre.com
 0.0.0.0 sportmusic.servemp3.com
 0.0.0.0 sportnewspaper.strangled.net
@@ -471320,6 +471316,7 @@
 0.0.0.0 studio-taddei.it
 0.0.0.0 studiodentisticoantonelli.it
 0.0.0.0 studiodozaj.com
+0.0.0.0 studiogioeli.it
 0.0.0.0 studiokaspersky.com
 0.0.0.0 studiomugnaini.eu
 0.0.0.0 studiomusicaleserafini.com
@@ -476796,6 +476793,7 @@
 0.0.0.0 thepropellingpencil.com
 0.0.0.0 theproperresponse.com
 0.0.0.0 theprotikraj.github.io
+0.0.0.0 thepullmanfolkestone.com
 0.0.0.0 thepulpitinn.com
 0.0.0.0 thepureharbor.shop
 0.0.0.0 thepursuitecollection.com
