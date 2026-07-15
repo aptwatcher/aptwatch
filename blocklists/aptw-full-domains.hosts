@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-15 06:35:30
-# Entries: 519001
+# Generated: 2026-07-15 12:34:11
+# Entries: 519014
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32873,7 +32873,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -99376,6 +99375,7 @@
 0.0.0.0 arrogated-decks.000webhostapp.com
 0.0.0.0 arroketainsificansion.com
 0.0.0.0 arroma.mrsarees.com
+0.0.0.0 arromaseis.com.tr
 0.0.0.0 arron3232.xyz
 0.0.0.0 arroncomer.com
 0.0.0.0 arrondissementsgroupes.com
@@ -241066,6 +241066,7 @@
 0.0.0.0 felodesktealsbag.pages.dev
 0.0.0.0 felolenge1.000webhostapp.com
 0.0.0.0 felomane390.wixsite.com
+0.0.0.0 felomint.click
 0.0.0.0 felon.ulitron.ru
 0.0.0.0 felor-synak-darox.pages.dev
 0.0.0.0 feloroi.com
@@ -250492,6 +250493,7 @@
 0.0.0.0 friendsoflifechoices.org
 0.0.0.0 friendsofmelvinchigh.com
 0.0.0.0 friendsofryetownhall.org
+0.0.0.0 friendsofsclarc.org
 0.0.0.0 friendssteakhouse.com
 0.0.0.0 friendtest.us.intellitxt.com
 0.0.0.0 friendvote.xyz
@@ -271580,6 +271582,7 @@
 0.0.0.0 gurb-viral-2021.duckdns.org
 0.0.0.0 gurbbocilpink-2022.duckdns.org
 0.0.0.0 gurdalcocukyuvalarim.com
+0.0.0.0 gurdjieff-philadelphia.org
 0.0.0.0 guresneksiy.com
 0.0.0.0 gurgaonchamber.org
 0.0.0.0 gurge.ulitron.ru
@@ -327836,6 +327839,7 @@
 0.0.0.0 lebrederm.space
 0.0.0.0 lebreman.space
 0.0.0.0 lebrewcrew.com
+0.0.0.0 lebsons.space
 0.0.0.0 lebus24.com
 0.0.0.0 lebveri.com
 0.0.0.0 lebvinhostation.com
@@ -342259,6 +342263,7 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
+0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -343991,6 +343996,7 @@
 0.0.0.0 magrent.de
 0.0.0.0 magricole.temp.swtest.ru
 0.0.0.0 magrimdiet.com
+0.0.0.0 magsa.com.pe
 0.0.0.0 magseal.com
 0.0.0.0 magsrv.com
 0.0.0.0 magtaxmail.pk
@@ -391504,6 +391510,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -410340,6 +410347,7 @@
 0.0.0.0 pdkj.betkhaneiran.com
 0.0.0.0 pdkmwoetqtmnxavl-dot-millinium.ey.r.appspot.com
 0.0.0.0 pdl.ulitron.ru
+0.0.0.0 pdlaw.com.ph
 0.0.0.0 pdlcgoxcxwwrjiyaacmhaumrzeszfpusfkjw-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 pdlcrmrbubnwrkrq-dot-millinium.ey.r.appspot.com
 0.0.0.0 pdmckqa.awtopm3745.workers.dev
@@ -443107,6 +443115,7 @@
 0.0.0.0 redguias.com.br
 0.0.0.0 redhato.ru
 0.0.0.0 redherring.ngadcenter.net
+0.0.0.0 redhiban.cfd
 0.0.0.0 redhillaccountants.com.au
 0.0.0.0 redhiper.com
 0.0.0.0 redhotchilli.co.uk
@@ -443126,7 +443135,6 @@
 0.0.0.0 redim47.hoanzo.ru
 0.0.0.0 redim5.hoanzo.ru
 0.0.0.0 redim72.hoanzo.ru
-0.0.0.0 redimsa.net
 0.0.0.0 redinformativacolombia.com
 0.0.0.0 redintdf.com
 0.0.0.0 redintelligence.net
@@ -459487,6 +459495,7 @@
 0.0.0.0 sarif.dedspac.ru
 0.0.0.0 sarilarabiteriiiz.shop
 0.0.0.0 sarilaserbeautytherapy.com.au
+0.0.0.0 sarinaglobal.sbs
 0.0.0.0 sarinahotel.com
 0.0.0.0 sarip.dedspac.ru
 0.0.0.0 saris.ulitron.ru
@@ -464097,6 +464106,7 @@
 0.0.0.0 si.team-stt.com
 0.0.0.0 si.ulitron.ru
 0.0.0.0 sia.bortogat.ru
+0.0.0.0 siaasesoria.com.mx
 0.0.0.0 siadorg.com
 0.0.0.0 siads.sv.publicus.com
 0.0.0.0 sial.amaniwa.ru
@@ -472446,6 +472456,7 @@
 0.0.0.0 surfindave.com
 0.0.0.0 surfline.112.2o7.net
 0.0.0.0 surfsecured.net
+0.0.0.0 surgeonperth.com.au
 0.0.0.0 surgesopen.bastemur.com
 0.0.0.0 surgical-lyart.vercel.app
 0.0.0.0 suriyeliler.xyz
@@ -489862,6 +489873,7 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -518969,6 +518981,7 @@
 0.0.0.0 zymsvdz.cn
 0.0.0.0 zymylyydkw.duckdns.org
 0.0.0.0 zynibvruu75.click
+0.0.0.0 zynimg.com
 0.0.0.0 zypero.shop
 0.0.0.0 zypheryx.info
 0.0.0.0 zyra-fount.pages.dev
