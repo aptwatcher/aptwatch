@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-16 12:33:37
-# Entries: 519293
+# Generated: 2026-07-16 18:34:17
+# Entries: 519300
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -226961,6 +226961,7 @@
 0.0.0.0 eufrjrtschznxucz-dot-millinium.ey.r.appspot.com
 0.0.0.0 eufuschhqsvocttrdrhyfgwbmkaowmvguzib-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 euge.ulitron.ru
+0.0.0.0 eugencogroup.com
 0.0.0.0 eugenemennonite.com
 0.0.0.0 eugeneproductions.com
 0.0.0.0 eugenfasci.cyou
@@ -248269,6 +248270,7 @@
 0.0.0.0 fotoporcelanapanama.com
 0.0.0.0 fotoproductinsta.com
 0.0.0.0 fotoschuppen.net
+0.0.0.0 fotosdepuebla.org
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
 0.0.0.0 fotoshop-instagram.b0tnet.com
@@ -342420,6 +342422,7 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
+0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -387256,6 +387259,7 @@
 0.0.0.0 nightlypressreview.com
 0.0.0.0 nightmare-cheats.vip
 0.0.0.0 nightmare-download.pw
+0.0.0.0 nightmare-loader.cc
 0.0.0.0 nightmegaburner.pl
 0.0.0.0 nightmit.ru
 0.0.0.0 nightowlgk.github.io
@@ -391681,6 +391685,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -416984,6 +416989,7 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
+0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsc.radioshartbandi.bet
@@ -467791,6 +467797,7 @@
 0.0.0.0 sportnovia.jysk.club
 0.0.0.0 sportnovia.ottos-chsaffsdafsadasda.sbs
 0.0.0.0 sportnovias.sbs
+0.0.0.0 sportoutletsonlinesk.com
 0.0.0.0 sportoutletsonlinesk.shop
 0.0.0.0 sportplus.pro
 0.0.0.0 sportreisen.de
