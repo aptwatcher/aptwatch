@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-16 06:34:30
-# Entries: 519292
+# Generated: 2026-07-16 12:33:37
+# Entries: 519293
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -531,6 +531,7 @@
 0.0.0.0 01o.12o.workers.dev
 0.0.0.0 01online-asb-co-nz-auth-fm-header-login.duckdns.org
 0.0.0.0 01petl41.duckdns.org
+0.0.0.0 01pr.com.tr
 0.0.0.0 01securechas5elogin.duckdns.org
 0.0.0.0 01t-uiyeusd76tf8yged76f98eusd8uijo.vercel.app
 0.0.0.0 01telegramsexy.pages.dev
@@ -45704,7 +45705,6 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
-0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -145013,7 +145013,6 @@
 0.0.0.0 bip-provincia.webcindario.com
 0.0.0.0 bip.creativdesigfnonline.com
 0.0.0.0 bip.presage.io
-0.0.0.0 bip.priestsw.com
 0.0.0.0 bip2023web.webcindario.com
 0.0.0.0 bipack.matsuro.ru
 0.0.0.0 bipandgo.work
@@ -160829,6 +160828,7 @@
 0.0.0.0 businesscommunicationzz.weebly.com
 0.0.0.0 businesscommunityscenter.com
 0.0.0.0 businessdirectoryplus.com
+0.0.0.0 businesseconomics.in
 0.0.0.0 businessehelp-statulinkw-fsd2110d.netlify.app
 0.0.0.0 businesseonline.com
 0.0.0.0 businesses-support-56b4f.web.app
@@ -200876,6 +200876,7 @@
 0.0.0.0 deliveryfromdhl.com
 0.0.0.0 deliverygumtree.com
 0.0.0.0 deliveryma.temp.swtest.ru
+0.0.0.0 deliverymailreport.co.za
 0.0.0.0 deliveryn-login.alfisal.com
 0.0.0.0 deliverynote1.club
 0.0.0.0 deliverypackage-b20ca1.ingress-erytho.ewp.live
@@ -342419,7 +342420,6 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
-0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -484366,6 +484366,7 @@
 0.0.0.0 usadserver.com
 0.0.0.0 usaf.dedspac.ru
 0.0.0.0 usaf.ulitron.ru
+0.0.0.0 usafansweepstakes2026.us
 0.0.0.0 usafeowa.vercel.app
 0.0.0.0 usage-rights-unverified-m69e.vercel.app
 0.0.0.0 usage.trackjs.com
