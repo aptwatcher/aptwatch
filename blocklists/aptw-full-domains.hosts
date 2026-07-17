@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-17 00:33:30
-# Entries: 519384
+# Generated: 2026-07-17 06:05:48
+# Entries: 519382
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -248301,7 +248301,6 @@
 0.0.0.0 fotoporcelanapanama.com
 0.0.0.0 fotoproductinsta.com
 0.0.0.0 fotoschuppen.net
-0.0.0.0 fotosdepuebla.org
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
 0.0.0.0 fotoshop-instagram.b0tnet.com
@@ -258854,7 +258853,6 @@
 0.0.0.0 ghana.dedspac.ru
 0.0.0.0 ghana.virosat.ru
 0.0.0.0 ghanahealthservice.org
-0.0.0.0 ghanioilandgas.com
 0.0.0.0 ghaniyyat.github.io
 0.0.0.0 ghaodxnxmgwa.xyz
 0.0.0.0 gharaviri.ir
@@ -288126,6 +288124,7 @@
 0.0.0.0 i-ksiazka.pl
 0.0.0.0 i-learnenglish2day.com
 0.0.0.0 i-locate.xyz
+0.0.0.0 i-love-git.com
 0.0.0.0 i-m-vijay-deshmukh.github.io
 0.0.0.0 i-m.mx
 0.0.0.0 i-mac-lcloud.underworld-onlin3.us
@@ -342467,7 +342466,6 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
-0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
