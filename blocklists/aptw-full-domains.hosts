@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-17 12:33:39
-# Entries: 519384
+# Generated: 2026-07-17 18:33:25
+# Entries: 519387
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45712,7 +45712,6 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
-0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -253846,6 +253845,7 @@
 0.0.0.0 galbaniflua.website
 0.0.0.0 galbaniflua.xyz
 0.0.0.0 galcervo.nl
+0.0.0.0 galdum.ro
 0.0.0.0 gale.amaniwa.ru
 0.0.0.0 gale.boletuso.ru
 0.0.0.0 gale.dedspac.ru
@@ -348289,6 +348289,7 @@
 0.0.0.0 mail.trabiza.com
 0.0.0.0 mail.traceretract-updates.com
 0.0.0.0 mail.trainingstrategist.com
+0.0.0.0 mail.tranquilglowqx.pro
 0.0.0.0 mail.transario.com
 0.0.0.0 mail.transgranel.cu.ma
 0.0.0.0 mail.travelpushalert.com
@@ -391735,7 +391736,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -407744,6 +407744,7 @@
 0.0.0.0 parys.disfulu.shop
 0.0.0.0 parys.dozpl.life
 0.0.0.0 parys.evas.buzz
+0.0.0.0 parys.ezebracz.shop
 0.0.0.0 parys.fishing-akcio.shop
 0.0.0.0 parys.fishing-sk.shop
 0.0.0.0 parys.friscops.sbs
@@ -455132,6 +455133,7 @@
 0.0.0.0 rybat.ulitron.ru
 0.0.0.0 rybkewirbqplklnuyiqgrwqinb-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 rybnoemesto.net.ua
+0.0.0.0 rybolovsleva.com
 0.0.0.0 rybruniueltsarvksuznjzdwks-dot-gleow2021ja.ue.r.appspot.com
 0.0.0.0 rycbradgvedzlxiqhhzrpvukptwvuzhrvvmt-dot-offglen.uk.r.appspot.com
 0.0.0.0 rycecfqomrboyuxk-dot-millinium.ey.r.appspot.com
@@ -460719,6 +460721,7 @@
 0.0.0.0 scamp.ulitron.ru
 0.0.0.0 scan-bb.com
 0.0.0.0 scan-node-tree.vercel.app
+0.0.0.0 scan.ivankozlovsky.com
 0.0.0.0 scan.ulitron.ru
 0.0.0.0 scan00091202200500001.lngenuityprep.com
 0.0.0.0 scanaudit.me
