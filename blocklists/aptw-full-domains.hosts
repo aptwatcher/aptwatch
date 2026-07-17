@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-17 06:35:06
-# Entries: 519382
+# Generated: 2026-07-17 12:33:39
+# Entries: 519384
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45712,6 +45712,7 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
+0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -218249,6 +218250,7 @@
 0.0.0.0 eckertco.buzz
 0.0.0.0 eckosport.fr
 0.0.0.0 eckoweb.com
+0.0.0.0 ecl80.cfd
 0.0.0.0 eclass.johnrobertpowers.co.id
 0.0.0.0 eclass47.duckdns.org
 0.0.0.0 eclat.group
@@ -270919,6 +270921,7 @@
 0.0.0.0 gsmart88.github.io
 0.0.0.0 gsmlootera.com
 0.0.0.0 gsmps.com
+0.0.0.0 gsmtoolpack.com
 0.0.0.0 gsmyhl.com
 0.0.0.0 gsne406j.duckdns.org
 0.0.0.0 gsnmylrdve.red
@@ -288124,7 +288127,6 @@
 0.0.0.0 i-ksiazka.pl
 0.0.0.0 i-learnenglish2day.com
 0.0.0.0 i-locate.xyz
-0.0.0.0 i-love-git.com
 0.0.0.0 i-m-vijay-deshmukh.github.io
 0.0.0.0 i-m.mx
 0.0.0.0 i-mac-lcloud.underworld-onlin3.us
@@ -342466,6 +342468,7 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
+0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -387307,7 +387310,6 @@
 0.0.0.0 nightlypressreview.com
 0.0.0.0 nightmare-cheats.vip
 0.0.0.0 nightmare-download.pw
-0.0.0.0 nightmare-loader.cc
 0.0.0.0 nightmegaburner.pl
 0.0.0.0 nightmit.ru
 0.0.0.0 nightowlgk.github.io
@@ -391733,6 +391735,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -417039,7 +417042,6 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
-0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsc.radioshartbandi.bet
