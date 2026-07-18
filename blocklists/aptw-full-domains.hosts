@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-18 12:33:44
-# Entries: 519358
+# Generated: 2026-07-18 18:33:32
+# Entries: 519356
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -99439,6 +99439,7 @@
 0.0.0.0 arrogated-decks.000webhostapp.com
 0.0.0.0 arroketainsificansion.com
 0.0.0.0 arroma.mrsarees.com
+0.0.0.0 arromaseis.com.tr
 0.0.0.0 arron3232.xyz
 0.0.0.0 arroncomer.com
 0.0.0.0 arrondissementsgroupes.com
@@ -477354,7 +477355,6 @@
 0.0.0.0 thrum.dedspac.ru
 0.0.0.0 thruport.com
 0.0.0.0 thryftasia.com
-0.0.0.0 ths.lat
 0.0.0.0 thsuacesso-pagamento-ctrl.github.io
 0.0.0.0 thtp2.volamngayxua.net
 0.0.0.0 thtpso.cc
@@ -482511,7 +482511,6 @@
 0.0.0.0 ueidvkgyilqznsfkjcvfyb-dbw30-t13sau.vercel.app
 0.0.0.0 ueijed.cn
 0.0.0.0 uelbdc74fn.s.ad6media.fr
-0.0.0.0 uemdkef.webyek.com
 0.0.0.0 ueroas-vb4s7953rw.edgeone.app
 0.0.0.0 uewensocxcsar-6zhlmqypky.edgeone.app
 0.0.0.0 uewtgbc.duckdns.org
@@ -488738,7 +488737,6 @@
 0.0.0.0 vtickblusppl.pages.dev
 0.0.0.0 vtieb.ellaureldelespino.com
 0.0.0.0 vtiger.silferacademic.com
-0.0.0.0 vtneuluzf.pathfindersafrica.com
 0.0.0.0 vtomanofficialshop.id
 0.0.0.0 vtomanofficialshop.vip
 0.0.0.0 vtopg.neuronamarketing.com
