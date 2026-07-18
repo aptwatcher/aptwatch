@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-18 06:34:49
-# Entries: 519359
+# Generated: 2026-07-18 12:33:44
+# Entries: 519358
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32886,7 +32886,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -99440,7 +99439,6 @@
 0.0.0.0 arrogated-decks.000webhostapp.com
 0.0.0.0 arroketainsificansion.com
 0.0.0.0 arroma.mrsarees.com
-0.0.0.0 arromaseis.com.tr
 0.0.0.0 arron3232.xyz
 0.0.0.0 arroncomer.com
 0.0.0.0 arrondissementsgroupes.com
@@ -137649,7 +137647,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -417030,7 +417027,6 @@
 0.0.0.0 pnrt-stsdk.vivo.com.cn
 0.0.0.0 pnrt.stsdk.vivo.com.cn
 0.0.0.0 pnrtscr.com
-0.0.0.0 pns.org.pk
 0.0.0.0 pns.rsl.mybluehost.me
 0.0.0.0 pnsahu94.github.io
 0.0.0.0 pnsd.pages.dev
@@ -472875,6 +472871,7 @@
 0.0.0.0 sverd.net
 0.0.0.0 svezzconfa.cyou
 0.0.0.0 svfwetv.com
+0.0.0.0 svganchordev.net
 0.0.0.0 svi-wswhatsapp.cc
 0.0.0.0 svicomeshe.cyou
 0.0.0.0 svirtual.sanviatorperu.edu.pe
@@ -482514,6 +482511,7 @@
 0.0.0.0 ueidvkgyilqznsfkjcvfyb-dbw30-t13sau.vercel.app
 0.0.0.0 ueijed.cn
 0.0.0.0 uelbdc74fn.s.ad6media.fr
+0.0.0.0 uemdkef.webyek.com
 0.0.0.0 ueroas-vb4s7953rw.edgeone.app
 0.0.0.0 uewensocxcsar-6zhlmqypky.edgeone.app
 0.0.0.0 uewtgbc.duckdns.org
@@ -488740,6 +488738,7 @@
 0.0.0.0 vtickblusppl.pages.dev
 0.0.0.0 vtieb.ellaureldelespino.com
 0.0.0.0 vtiger.silferacademic.com
+0.0.0.0 vtneuluzf.pathfindersafrica.com
 0.0.0.0 vtomanofficialshop.id
 0.0.0.0 vtomanofficialshop.vip
 0.0.0.0 vtopg.neuronamarketing.com
