@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-18 06:05:40
+# Generated: 2026-07-18 06:34:49
 # Entries: 519359
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -342461,7 +342461,6 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
-0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -477358,6 +477357,7 @@
 0.0.0.0 thrum.dedspac.ru
 0.0.0.0 thruport.com
 0.0.0.0 thryftasia.com
+0.0.0.0 ths.lat
 0.0.0.0 thsuacesso-pagamento-ctrl.github.io
 0.0.0.0 thtp2.volamngayxua.net
 0.0.0.0 thtpso.cc
