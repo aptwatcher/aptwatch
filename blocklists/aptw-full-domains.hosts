@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-19 00:33:17
-# Entries: 524276
+# Generated: 2026-07-19 06:04:03
+# Entries: 524280
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -5378,6 +5378,7 @@
 0.0.0.0 123.crazyboy830.workers.dev
 0.0.0.0 123.fluxads.com
 0.0.0.0 123.login-bankofamerica-com-security-dsa2.com
+0.0.0.0 123.ywxww.net
 0.0.0.0 123.zijingshan.cloudns.org
 0.0.0.0 123030120101.cloud
 0.0.0.0 12304982h5.xyz
@@ -48672,6 +48673,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -412283,6 +412285,7 @@
 0.0.0.0 pctecharena.com
 0.0.0.0 pctoolscom.112.2o7.net
 0.0.0.0 pcunaxypzeaimpew-dot-millinium.ey.r.appspot.com
+0.0.0.0 pcupd.com
 0.0.0.0 pcvzaeomjipof.run-eu-central1.goorm.site
 0.0.0.0 pcw.lafilgroup.com
 0.0.0.0 pcw.uk.intellitxt.com
@@ -473746,6 +473749,7 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamsyseprex-es.com
 0.0.0.0 streamvod.pl
