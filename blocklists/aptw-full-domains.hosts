@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-19 06:04:03
-# Entries: 524280
+# Generated: 2026-07-19 06:34:55
+# Entries: 524281
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -486008,6 +486008,7 @@
 0.0.0.0 updatesamzsupportmailaccouncustome.4-155-105-207.cprapid.com
 0.0.0.0 updatesbit.instantcoverletter.com
 0.0.0.0 updatesecure.pro
+0.0.0.0 updateservice1-telegramweb.com
 0.0.0.0 updateservicecenter.blogspot.com
 0.0.0.0 updateservices.in
 0.0.0.0 updatesoftware24.com
