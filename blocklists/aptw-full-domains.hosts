@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-19 06:34:55
-# Entries: 524281
+# Generated: 2026-07-19 12:33:58
+# Entries: 524284
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48673,7 +48673,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -191538,6 +191537,7 @@
 0.0.0.0 crimea-camry.ru
 0.0.0.0 crimea.virosat.ru
 0.0.0.0 crimeahealth.ru
+0.0.0.0 crimefreesoftware.com
 0.0.0.0 crimeireland.com
 0.0.0.0 crimewatchpatrols.co.nz
 0.0.0.0 crimg.sv.publicus.com
@@ -205624,6 +205624,7 @@
 0.0.0.0 deybi1.000webhostapp.com
 0.0.0.0 deyblox.netlify.app
 0.0.0.0 deydafagne.temp.swtest.ru
+0.0.0.0 deyetechnical.com
 0.0.0.0 deylwwmrld.duckdns.org
 0.0.0.0 deyobiy997.temp.swtest.ru
 0.0.0.0 deyokheart.web.app
@@ -213783,7 +213784,6 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
-0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -258764,6 +258764,7 @@
 0.0.0.0 gerencicefempres.tk
 0.0.0.0 gerencieltau.com
 0.0.0.0 gerenciiamenttoap.com
+0.0.0.0 gerenland.click
 0.0.0.0 gerentedigital.000webhostapp.com
 0.0.0.0 gereston.gotdns.ch
 0.0.0.0 gerettoinitio.site
@@ -266179,6 +266180,7 @@
 0.0.0.0 grant.ulitron.ru
 0.0.0.0 grantedtrustbank.com
 0.0.0.0 granteducationgroup.com
+0.0.0.0 grantexx.com
 0.0.0.0 granti-bbva-online.cekilisgunu.com.tr
 0.0.0.0 grantikrediibasvuru.vercel.app
 0.0.0.0 grantisorgubilgi.com.tr
@@ -393494,6 +393496,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -399780,6 +399783,7 @@
 0.0.0.0 oneyog.com
 0.0.0.0 onezamueac.com
 0.0.0.0 onf6sb82y.duckdns.org
+0.0.0.0 onfiltre.com.tr
 0.0.0.0 onfire11.mbamep.com
 0.0.0.0 onflix.us
 0.0.0.0 onfluencer.net
@@ -486008,7 +486012,6 @@
 0.0.0.0 updatesamzsupportmailaccouncustome.4-155-105-207.cprapid.com
 0.0.0.0 updatesbit.instantcoverletter.com
 0.0.0.0 updatesecure.pro
-0.0.0.0 updateservice1-telegramweb.com
 0.0.0.0 updateservicecenter.blogspot.com
 0.0.0.0 updateservices.in
 0.0.0.0 updatesoftware24.com
