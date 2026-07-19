@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-19 12:33:58
+# Generated: 2026-07-19 18:33:19
 # Entries: 524284
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -205624,7 +205624,6 @@
 0.0.0.0 deybi1.000webhostapp.com
 0.0.0.0 deyblox.netlify.app
 0.0.0.0 deydafagne.temp.swtest.ru
-0.0.0.0 deyetechnical.com
 0.0.0.0 deylwwmrld.duckdns.org
 0.0.0.0 deyobiy997.temp.swtest.ru
 0.0.0.0 deyokheart.web.app
@@ -213784,6 +213783,7 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
+0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -258156,6 +258156,7 @@
 0.0.0.0 gencu.dynvpn.de
 0.0.0.0 gendang88.com
 0.0.0.0 gendarmeriegouveur.wixsite.com
+0.0.0.0 genddos.st
 0.0.0.0 gendelivery.live
 0.0.0.0 genderdatakenya.org
 0.0.0.0 gendo-mode.web.app
@@ -319278,7 +319279,6 @@
 0.0.0.0 khnzkukflxnvtwcbdmovrrbtdd-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 khoaccre247.com
 0.0.0.0 khoadz.shopblackcode.tk
-0.0.0.0 khoancatbetong89.vn
 0.0.0.0 khoancaythep.com
 0.0.0.0 khoavantaycaocap.vn
 0.0.0.0 khobfimjuq.duckdns.org
@@ -328418,6 +328418,7 @@
 0.0.0.0 lccuidaho-144175fb760a.herokuapp.com
 0.0.0.0 lcd-studio.com
 0.0.0.0 lcd.rahul.ac.in
+0.0.0.0 lcd88.cfd
 0.0.0.0 lcddua.xyz
 0.0.0.0 lcdigital.screening.live
 0.0.0.0 lcdlmq.000webhostapp.com
@@ -399783,7 +399784,6 @@
 0.0.0.0 oneyog.com
 0.0.0.0 onezamueac.com
 0.0.0.0 onf6sb82y.duckdns.org
-0.0.0.0 onfiltre.com.tr
 0.0.0.0 onfire11.mbamep.com
 0.0.0.0 onflix.us
 0.0.0.0 onfluencer.net
