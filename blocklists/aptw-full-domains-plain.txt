@@ -5371,6 +5371,7 @@
 123.crazyboy830.workers.dev
 123.fluxads.com
 123.login-bankofamerica-com-security-dsa2.com
+123.ywxww.net
 123.zijingshan.cloudns.org
 123030120101.cloud
 12304982h5.xyz
@@ -169245,7 +169246,6 @@ cdn.exactag.com
 cdn.exelator.com
 cdn.ezca.asia
 cdn.fastclick.net
-cdn.file6.goodid.com
 cdn.firstimpression.io
 cdn.firstlook.com
 cdn.fivecdm.com
@@ -212665,7 +212665,6 @@ down.sqlnetcat.com
 down.t0kanpoaket.biz
 down.t0kbnpobket.biz
 down.t0kdnpodket.biz
-down.unicron-cdn.click
 down.us2.mclick.mobi
 down.zhuolin.workers.dev
 down140.mclick.mobi
@@ -244568,7 +244567,6 @@ file.purchasedoc.workers.dev
 file.sharedd-project-document.workers.dev
 file.srfreightbd.com
 file.timanar.ru
-file.uhsea.com
 file.ulitron.ru
 file.zeahezea.sa.com
 file.ziyu.net
@@ -368639,6 +368637,7 @@ mireya2407.github.io
 mireyakeith.autos
 miri.boletuso.ru
 miri.ulitron.ru
+miriamgualda.com.br
 miricanvas.com
 mirid.ulitron.ru
 miriettelacombe.wixsite.com
@@ -423317,7 +423316,6 @@ powerpolymerindustry.com
 powerprecinct.com.au
 powerrunicevent.com
 powersfully.com
-powershell-storage.vg
 powershell.noogousto.dev
 powershell.traibiru.world
 powersite.nl
@@ -476435,6 +476433,7 @@ takaecdwu.xyz
 takak.ru
 takaventix.live
 takcmbwo.cn
+take-care.africa
 take-coinbase.webflow.io
 take-satoshivm.pages.dev
 take.amaniwa.ru

@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-20 06:34:53
-# Entries: 524375
+# Generated: 2026-07-20 12:35:26
+# Entries: 524374
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -5378,6 +5378,7 @@
 0.0.0.0 123.crazyboy830.workers.dev
 0.0.0.0 123.fluxads.com
 0.0.0.0 123.login-bankofamerica-com-security-dsa2.com
+0.0.0.0 123.ywxww.net
 0.0.0.0 123.zijingshan.cloudns.org
 0.0.0.0 123030120101.cloud
 0.0.0.0 12304982h5.xyz
@@ -169252,7 +169253,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -212672,7 +212672,6 @@
 0.0.0.0 down.t0kanpoaket.biz
 0.0.0.0 down.t0kbnpobket.biz
 0.0.0.0 down.t0kdnpodket.biz
-0.0.0.0 down.unicron-cdn.click
 0.0.0.0 down.us2.mclick.mobi
 0.0.0.0 down.zhuolin.workers.dev
 0.0.0.0 down140.mclick.mobi
@@ -244575,7 +244574,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -368646,6 +368644,7 @@
 0.0.0.0 mireyakeith.autos
 0.0.0.0 miri.boletuso.ru
 0.0.0.0 miri.ulitron.ru
+0.0.0.0 miriamgualda.com.br
 0.0.0.0 miricanvas.com
 0.0.0.0 mirid.ulitron.ru
 0.0.0.0 miriettelacombe.wixsite.com
@@ -423324,7 +423323,6 @@
 0.0.0.0 powerprecinct.com.au
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
-0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -476442,6 +476440,7 @@
 0.0.0.0 takak.ru
 0.0.0.0 takaventix.live
 0.0.0.0 takcmbwo.cn
+0.0.0.0 take-care.africa
 0.0.0.0 take-coinbase.webflow.io
 0.0.0.0 take-satoshivm.pages.dev
 0.0.0.0 take.amaniwa.ru
