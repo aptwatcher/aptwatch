@@ -5371,7 +5371,6 @@
 123.crazyboy830.workers.dev
 123.fluxads.com
 123.login-bankofamerica-com-security-dsa2.com
-123.ywxww.net
 123.zijingshan.cloudns.org
 123030120101.cloud
 12304982h5.xyz
@@ -169246,6 +169245,7 @@ cdn.exactag.com
 cdn.exelator.com
 cdn.ezca.asia
 cdn.fastclick.net
+cdn.file6.goodid.com
 cdn.firstimpression.io
 cdn.firstlook.com
 cdn.fivecdm.com
@@ -213792,7 +213792,6 @@ dreamtojo.tk
 dreamtooz.ru
 dreamvalli.com
 dreamvention.myshopunity.com
-dreamwatchevent.com
 dreamweavesolutions.com
 dreamx.duckdns.org
 dreamxmaterials.com
@@ -319309,7 +319308,6 @@ khnzd.app.link
 khnzkukflxnvtwcbdmovrrbtdd-dot-gleowayel400503.uc.r.appspot.com
 khoaccre247.com
 khoadz.shopblackcode.tk
-khoancatbetong89.vn
 khoancaythep.com
 khoavantaycaocap.vn
 khob.formonstore.com
@@ -467508,6 +467506,7 @@ skrill-app.co.com
 skrill-login.com
 skrill-login.top
 skripotan.ru
+skript.club
 skroutza.skroutz.gr
 skryptonite-pl.com
 skrzynka-rozmowy.vercel.app
@@ -486070,7 +486069,6 @@ updates.slekkeud.workers.dev
 updatesamzsupportmailaccouncustome.4-155-105-207.cprapid.com
 updatesbit.instantcoverletter.com
 updatesecure.pro
-updateservice1-telegramweb.com
 updateservicecenter.blogspot.com
 updateservices.in
 updatesoftware24.com
