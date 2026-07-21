@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-21 06:37:30
-# Entries: 524274
+# Generated: 2026-07-21 12:34:39
+# Entries: 524279
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48678,6 +48678,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -80103,6 +80104,7 @@
 0.0.0.0 americanlandtexas.americanland-texas.us
 0.0.0.0 americanmadeclean.com
 0.0.0.0 americanmadedesigners.com
+0.0.0.0 americanmanchester.org
 0.0.0.0 americanmarblework.com
 0.0.0.0 americanmedia.blueconic.net
 0.0.0.0 americanmedia.us.intellitxt.com
@@ -169242,7 +169244,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -198507,6 +198508,7 @@
 0.0.0.0 davesguitarmounts.com
 0.0.0.0 daveshowa.com
 0.0.0.0 davesplace.epconline.net
+0.0.0.0 davestrap.xyz
 0.0.0.0 davethenoobdev.com
 0.0.0.0 davi-cib.cyou
 0.0.0.0 daviapp.co
@@ -231891,6 +231893,7 @@
 0.0.0.0 ezploying.000webhostapp.com
 0.0.0.0 ezproh.site
 0.0.0.0 ezpruahv.tk
+0.0.0.0 ezpz.link
 0.0.0.0 ezra.dedspac.ru
 0.0.0.0 ezra.ulitron.ru
 0.0.0.0 ezra.vadilops.ru
@@ -307382,6 +307385,7 @@
 0.0.0.0 jazzy.ulitron.ru
 0.0.0.0 jazzyautoimaging.com
 0.0.0.0 jazzymaid.com
+0.0.0.0 jb.mywwjj.xyz
 0.0.0.0 jb.onbolapp.com
 0.0.0.0 jb.revolvermaps.com
 0.0.0.0 jb3avfdd.weebly.com
@@ -319261,7 +319265,6 @@
 0.0.0.0 khnzkukflxnvtwcbdmovrrbtdd-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 khoaccre247.com
 0.0.0.0 khoadz.shopblackcode.tk
-0.0.0.0 khoancatbetong89.vn
 0.0.0.0 khoancaythep.com
 0.0.0.0 khoavantaycaocap.vn
 0.0.0.0 khob.formonstore.com
@@ -332271,6 +332274,7 @@
 0.0.0.0 lightcloud.pl
 0.0.0.0 lightco.co.uk
 0.0.0.0 lightcoral-frog-yd0b4lnjqji2lgvo.builder-preview.com
+0.0.0.0 lightcord.xyz
 0.0.0.0 lightella-9oswaveleaf.voucrutroo.ru
 0.0.0.0 lighter-contests-memorabilia-hosts.trycloudflare.com
 0.0.0.0 lighter-married-disk-marks.trycloudflare.com
@@ -416039,6 +416043,7 @@
 0.0.0.0 pick-a-pizza.com.au
 0.0.0.0 pick-supervisors-bio-clinic.trycloudflare.com
 0.0.0.0 pick-woad-ov.uk
+0.0.0.0 pick.hexstresser.org
 0.0.0.0 pick.ulitron.ru
 0.0.0.0 pickabook.lk
 0.0.0.0 pickaflatparis.com
@@ -488963,7 +488968,6 @@
 0.0.0.0 vdocs.sasktel.mmspos.com
 0.0.0.0 vdopia.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
-0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 ve1.claker.top
 0.0.0.0 ve1.techgeetam.com
@@ -503327,6 +503331,7 @@
 0.0.0.0 www.eznokar.sbs
 0.0.0.0 www.ezoliniawrozby.com
 0.0.0.0 www.ezproh.site
+0.0.0.0 www.ezpz.link
 0.0.0.0 www.f.drops.fortunella-new.com
 0.0.0.0 www.f0kylc.isogransoutheurope.eu
 0.0.0.0 www.f40914238-3da7-4de7-8dee-307e6692cfb8.edgeone.dev
