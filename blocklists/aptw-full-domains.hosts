@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-21 06:05:52
-# Entries: 524266
+# Generated: 2026-07-21 06:37:30
+# Entries: 524274
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -5379,6 +5379,7 @@
 0.0.0.0 123.crazyboy830.workers.dev
 0.0.0.0 123.fluxads.com
 0.0.0.0 123.login-bankofamerica-com-security-dsa2.com
+0.0.0.0 123.ywxww.net
 0.0.0.0 123.zijingshan.cloudns.org
 0.0.0.0 123030120101.cloud
 0.0.0.0 12304982h5.xyz
@@ -62861,6 +62862,7 @@
 0.0.0.0 afoialexiou.gr
 0.0.0.0 afoikatsouda.gr
 0.0.0.0 afolabi-109795.weeblysite.com
+0.0.0.0 afonja.nfy.fyi
 0.0.0.0 afonsopires.github.io
 0.0.0.0 afoot.bluestacko.ru
 0.0.0.0 afoot.bortogat.ru
@@ -169240,6 +169242,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -244541,6 +244544,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -294040,6 +294044,7 @@
 0.0.0.0 imf.get.mybluehost.me
 0.0.0.0 imf.ulitron.ru
 0.0.0.0 imfbken.com
+0.0.0.0 imffy.com
 0.0.0.0 imfiletisim.com
 0.0.0.0 imftoken.top
 0.0.0.0 imfusuk.com
@@ -319256,6 +319261,7 @@
 0.0.0.0 khnzkukflxnvtwcbdmovrrbtdd-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 khoaccre247.com
 0.0.0.0 khoadz.shopblackcode.tk
+0.0.0.0 khoancatbetong89.vn
 0.0.0.0 khoancaythep.com
 0.0.0.0 khoavantaycaocap.vn
 0.0.0.0 khob.formonstore.com
@@ -472253,6 +472259,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -473714,6 +473721,7 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamsyseprex-es.com
 0.0.0.0 streamvod.pl
