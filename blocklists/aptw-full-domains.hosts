@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-22 12:34:09
-# Entries: 533175
+# Generated: 2026-07-22 18:33:51
+# Entries: 533176
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -175538,7 +175538,6 @@
 0.0.0.0 chrome-coinbase-extension.pages.dev
 0.0.0.0 chrome-coinbasecom.typedream.app
 0.0.0.0 chrome-colorful-cardboard.glitch.me
-0.0.0.0 chrome-desktop.net
 0.0.0.0 chrome-ext-metamsk-us.square.site
 0.0.0.0 chrome-extension-nkbihfbeogaeaoehlefnkodbefgpgknn.kaikaikikki.com
 0.0.0.0 chrome-extension-nkbihfbeogaeaoehlefnkodbefgpgknn.nest-moonbird.xyz
@@ -247355,6 +247354,8 @@
 0.0.0.0 fishgroder.tadabase.io
 0.0.0.0 fishing-fbook-authenticate-fak.000webhostapp.com
 0.0.0.0 fishing.eu-save.com
+0.0.0.0 fishing.popular-sale.com
+0.0.0.0 fishing.sk-sale.com
 0.0.0.0 fishingcapitol.com
 0.0.0.0 fishingcarepackage.com.usrfiles.com
 0.0.0.0 fishingcreation.info
@@ -321366,6 +321367,7 @@
 0.0.0.0 khnzkukflxnvtwcbdmovrrbtdd-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 khoaccre247.com
 0.0.0.0 khoadz.shopblackcode.tk
+0.0.0.0 khoancatbetong89.vn
 0.0.0.0 khoancaythep.com
 0.0.0.0 khoavantaycaocap.vn
 0.0.0.0 khob.formonstore.com
@@ -321478,7 +321480,6 @@
 0.0.0.0 ki7kfgf.cn
 0.0.0.0 ki90.ddnsking.com
 0.0.0.0 kia-sorento-problem.com
-0.0.0.0 kiabillc.online
 0.0.0.0 kiabo.fr
 0.0.0.0 kiabuhcsfpqpodyq-dot-millinium.ey.r.appspot.com
 0.0.0.0 kiaby.fr
@@ -396167,6 +396168,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -461035,7 +461037,6 @@
 0.0.0.0 s3-nato.cloud
 0.0.0.0 s3-nsa.cloud
 0.0.0.0 s3-poshmark.id829.com
-0.0.0.0 s3-python.cc
 0.0.0.0 s3.adbers.com
 0.0.0.0 s3.adpia.vn
 0.0.0.0 s3.ap-northeast-2.retrospectcloud.com
