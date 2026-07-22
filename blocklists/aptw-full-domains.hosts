@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-22 06:36:56
-# Entries: 533169
+# Generated: 2026-07-22 12:34:09
+# Entries: 533175
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -66959,6 +66959,7 @@
 0.0.0.0 airted.virosat.ru
 0.0.0.0 airth.vadilops.ru
 0.0.0.0 airth.virosat.ru
+0.0.0.0 airtickts.com
 0.0.0.0 airtight.matsuro.ru
 0.0.0.0 airtime.bluestacko.ru
 0.0.0.0 airting.matsuro.ru
@@ -121511,6 +121512,7 @@
 0.0.0.0 awareness.pln.co.id
 0.0.0.0 awareness28.wixsite.com
 0.0.0.0 awarenesscovert.com
+0.0.0.0 awarenessexhibition.com
 0.0.0.0 awarenesstech.122.2o7.net
 0.0.0.0 awareofthat.za.com
 0.0.0.0 awarialaptopa.pl
@@ -175536,6 +175538,7 @@
 0.0.0.0 chrome-coinbase-extension.pages.dev
 0.0.0.0 chrome-coinbasecom.typedream.app
 0.0.0.0 chrome-colorful-cardboard.glitch.me
+0.0.0.0 chrome-desktop.net
 0.0.0.0 chrome-ext-metamsk-us.square.site
 0.0.0.0 chrome-extension-nkbihfbeogaeaoehlefnkodbefgpgknn.kaikaikikki.com
 0.0.0.0 chrome-extension-nkbihfbeogaeaoehlefnkodbefgpgknn.nest-moonbird.xyz
@@ -175553,6 +175556,7 @@
 0.0.0.0 chrome-spangled-bell.glitch.me
 0.0.0.0 chrome-support-metamskin.gitbook.io
 0.0.0.0 chrome-update.ddns.net
+0.0.0.0 chrome-windows.ru
 0.0.0.0 chromecust.org
 0.0.0.0 chromemetmsk.webflow.io
 0.0.0.0 chrometamusk-extns.gitbook.io
@@ -213724,6 +213728,7 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
+0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -247349,6 +247354,7 @@
 0.0.0.0 fishfarmuae.com
 0.0.0.0 fishgroder.tadabase.io
 0.0.0.0 fishing-fbook-authenticate-fak.000webhostapp.com
+0.0.0.0 fishing.eu-save.com
 0.0.0.0 fishingcapitol.com
 0.0.0.0 fishingcarepackage.com.usrfiles.com
 0.0.0.0 fishingcreation.info
@@ -321360,7 +321366,6 @@
 0.0.0.0 khnzkukflxnvtwcbdmovrrbtdd-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 khoaccre247.com
 0.0.0.0 khoadz.shopblackcode.tk
-0.0.0.0 khoancatbetong89.vn
 0.0.0.0 khoancaythep.com
 0.0.0.0 khoavantaycaocap.vn
 0.0.0.0 khob.formonstore.com
@@ -321473,6 +321478,7 @@
 0.0.0.0 ki7kfgf.cn
 0.0.0.0 ki90.ddnsking.com
 0.0.0.0 kia-sorento-problem.com
+0.0.0.0 kiabillc.online
 0.0.0.0 kiabo.fr
 0.0.0.0 kiabuhcsfpqpodyq-dot-millinium.ey.r.appspot.com
 0.0.0.0 kiaby.fr
@@ -348128,7 +348134,6 @@
 0.0.0.0 magnumator-software.com
 0.0.0.0 magnumbd.com
 0.0.0.0 magnumwallet.su
-0.0.0.0 magnusworkspace.com
 0.0.0.0 magodontologia.com.br
 0.0.0.0 magogcaskets.com
 0.0.0.0 magot.ulitron.ru
@@ -461030,6 +461035,7 @@
 0.0.0.0 s3-nato.cloud
 0.0.0.0 s3-nsa.cloud
 0.0.0.0 s3-poshmark.id829.com
+0.0.0.0 s3-python.cc
 0.0.0.0 s3.adbers.com
 0.0.0.0 s3.adpia.vn
 0.0.0.0 s3.ap-northeast-2.retrospectcloud.com
