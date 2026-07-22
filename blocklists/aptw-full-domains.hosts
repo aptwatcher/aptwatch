@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-22 00:33:48
-# Entries: 533167
+# Generated: 2026-07-22 06:05:11
+# Entries: 533169
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -213723,7 +213723,6 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
-0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -346294,6 +346293,7 @@
 0.0.0.0 m.jinlonghaoyang.com
 0.0.0.0 m.jiomnbv.xyz
 0.0.0.0 m.jk96053.com
+0.0.0.0 m.jkoa.co.kr
 0.0.0.0 m.jljiefeng.com
 0.0.0.0 m.joyeng.net
 0.0.0.0 m.js-lean.com
@@ -396161,6 +396161,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -448799,6 +448800,7 @@
 0.0.0.0 ref9300245.com
 0.0.0.0 ref94jsmgmtcoderuremitaug14796.ue.r.appspot.com
 0.0.0.0 ref97hsdf323.welcome.online.id62hhd5fs6.gateway.acc.bingobabe.co.uk
+0.0.0.0 refaccionesalma.com.mx
 0.0.0.0 refactored-giggle.vercel.app
 0.0.0.0 refactory-antiques.jp
 0.0.0.0 refankozmetik.com
