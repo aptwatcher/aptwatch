@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-22 18:33:51
-# Entries: 533176
+# Generated: 2026-07-23 00:34:24
+# Entries: 533180
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -169958,7 +169958,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -175538,6 +175537,7 @@
 0.0.0.0 chrome-coinbase-extension.pages.dev
 0.0.0.0 chrome-coinbasecom.typedream.app
 0.0.0.0 chrome-colorful-cardboard.glitch.me
+0.0.0.0 chrome-desktop.net
 0.0.0.0 chrome-ext-metamsk-us.square.site
 0.0.0.0 chrome-extension-nkbihfbeogaeaoehlefnkodbefgpgknn.kaikaikikki.com
 0.0.0.0 chrome-extension-nkbihfbeogaeaoehlefnkodbefgpgknn.nest-moonbird.xyz
@@ -175556,6 +175556,7 @@
 0.0.0.0 chrome-support-metamskin.gitbook.io
 0.0.0.0 chrome-update.ddns.net
 0.0.0.0 chrome-windows.ru
+0.0.0.0 chrome.browserapp.ru
 0.0.0.0 chromecust.org
 0.0.0.0 chromemetmsk.webflow.io
 0.0.0.0 chrometamusk-extns.gitbook.io
@@ -210781,7 +210782,6 @@
 0.0.0.0 dl-ruijin.com
 0.0.0.0 dl-tornj.ir
 0.0.0.0 dl-trustwallet.com
-0.0.0.0 dl.1003b.56a.com
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
@@ -321367,7 +321367,6 @@
 0.0.0.0 khnzkukflxnvtwcbdmovrrbtdd-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 khoaccre247.com
 0.0.0.0 khoadz.shopblackcode.tk
-0.0.0.0 khoancatbetong89.vn
 0.0.0.0 khoancaythep.com
 0.0.0.0 khoavantaycaocap.vn
 0.0.0.0 khob.formonstore.com
@@ -321480,6 +321479,7 @@
 0.0.0.0 ki7kfgf.cn
 0.0.0.0 ki90.ddnsking.com
 0.0.0.0 kia-sorento-problem.com
+0.0.0.0 kiabillc.online
 0.0.0.0 kiabo.fr
 0.0.0.0 kiabuhcsfpqpodyq-dot-millinium.ey.r.appspot.com
 0.0.0.0 kiaby.fr
@@ -353230,6 +353230,7 @@
 0.0.0.0 mailshawaccount.weebly.com
 0.0.0.0 mailshaws.weebly.com
 0.0.0.0 mailsolutions-helpdesk.azurefd.net
+0.0.0.0 mailsonbelle.com.br
 0.0.0.0 mailspn.cf
 0.0.0.0 mailspn.ml
 0.0.0.0 mailspoof.weebly.com
@@ -405985,6 +405986,7 @@
 0.0.0.0 orientationpour-tous.fr
 0.0.0.0 orientedargument.com
 0.0.0.0 orientgrammarschools.edu.pk
+0.0.0.0 orienttaxtile.com
 0.0.0.0 orifl21ame01.000webhostapp.com
 0.0.0.0 oriflamegiftforyou1.000webhostapp.com
 0.0.0.0 origa-cloud-b38d.c71rcsyb.workers.dev
@@ -443191,6 +443193,7 @@
 0.0.0.0 qvxbt.blogspot.hr
 0.0.0.0 qvxby.blogspot.sn
 0.0.0.0 qvxnqzkxaefgiqhh-dot-millinium.ey.r.appspot.com
+0.0.0.0 qvxzaetnb.vip
 0.0.0.0 qvz.ell.craelsabinar.com
 0.0.0.0 qvzbu.blogspot.hr
 0.0.0.0 qvzbu.blogspot.sn
@@ -499069,6 +499072,7 @@
 0.0.0.0 woon.ulitron.ru
 0.0.0.0 woopra.com
 0.0.0.0 woopty.info
+0.0.0.0 woorimart.vip
 0.0.0.0 woos.ulitron.ru
 0.0.0.0 wootric-eligibility.herokuapp.com
 0.0.0.0 woozy.dedspac.ru
