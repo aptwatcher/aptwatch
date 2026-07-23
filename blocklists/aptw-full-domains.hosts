@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-23 12:35:32
-# Entries: 533183
+# Generated: 2026-07-23 18:33:41
+# Entries: 533190
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -169958,7 +169958,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -193007,6 +193006,7 @@
 0.0.0.0 cryptdatagate.com
 0.0.0.0 cryptdatahub.com
 0.0.0.0 crypted.vadilops.ru
+0.0.0.0 cryptefilea.infy.click
 0.0.0.0 cryptenlogoins.webflow.io
 0.0.0.0 crypterium-21.live
 0.0.0.0 crypterium21.click
@@ -212586,6 +212586,7 @@
 0.0.0.0 dofus-retro-com.com
 0.0.0.0 dofus-retro-devblog.com
 0.0.0.0 dofus-retro-event.shop
+0.0.0.0 dofus-retro-fr.com
 0.0.0.0 dofus-retro-maj.com
 0.0.0.0 dofus-retro-saisonnier.com
 0.0.0.0 dofus-touch-forum.com
@@ -213729,6 +213730,7 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
+0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -224018,6 +224020,7 @@
 0.0.0.0 emailactive-restorenow2948.pages.dev
 0.0.0.0 emailadmin.dedyn.io
 0.0.0.0 emailaisha.com
+0.0.0.0 emailanalytics.com.ua
 0.0.0.0 emailbox-microosooftt-validated.weebly.com
 0.0.0.0 emailbt-apx0366.vercel.app
 0.0.0.0 emailbt-cpr2-corn.vercel.app
@@ -321117,6 +321120,7 @@
 0.0.0.0 kgathazwmx.0324.gencmert.com
 0.0.0.0 kgbcoins.com
 0.0.0.0 kgbemvemlr.duckdns.org
+0.0.0.0 kgbhost.digital
 0.0.0.0 kgbqqlgfey.duckdns.org
 0.0.0.0 kgculgondwaufojc-dot-millinium.ey.r.appspot.com
 0.0.0.0 kgcustoms.gov.vn
@@ -411084,6 +411088,7 @@
 0.0.0.0 panel.home.pl.muna.it
 0.0.0.0 panel.kaprila.com
 0.0.0.0 panel.moat.com
+0.0.0.0 panel.munchyyyyyscpann.live
 0.0.0.0 panel.ogspy.net
 0.0.0.0 panel.openbenchvehicle.org
 0.0.0.0 panel.rccu-ovl.be
@@ -494615,6 +494620,7 @@
 0.0.0.0 vjtuqh.cn
 0.0.0.0 vjtyo.com
 0.0.0.0 vjxtska5ixb2dgwp.moolin.ru
+0.0.0.0 vjy888.com
 0.0.0.0 vk.qthm.xyz
 0.0.0.0 vk2ca.com
 0.0.0.0 vkabutik.pl
@@ -532750,6 +532756,7 @@
 0.0.0.0 zmail-epanel-5771c2.netlify.app
 0.0.0.0 zmail-web-adx-zimbra.netlify.app
 0.0.0.0 zmail.attollo.com.au
+0.0.0.0 zmailanalytics.com
 0.0.0.0 zmall.pl
 0.0.0.0 zmaticoo.funsdata.com
 0.0.0.0 zmedia.com

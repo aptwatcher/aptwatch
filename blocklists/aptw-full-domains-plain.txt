@@ -169951,7 +169951,6 @@ cdn.exactag.com
 cdn.exelator.com
 cdn.ezca.asia
 cdn.fastclick.net
-cdn.file6.goodid.com
 cdn.firstimpression.io
 cdn.firstlook.com
 cdn.fivecdm.com
@@ -193000,6 +192999,7 @@ cryptdapp.pages.dev
 cryptdatagate.com
 cryptdatahub.com
 crypted.vadilops.ru
+cryptefilea.infy.click
 cryptenlogoins.webflow.io
 crypterium-21.live
 crypterium21.click
@@ -212579,6 +212579,7 @@ dofus-quest.shop
 dofus-retro-com.com
 dofus-retro-devblog.com
 dofus-retro-event.shop
+dofus-retro-fr.com
 dofus-retro-maj.com
 dofus-retro-saisonnier.com
 dofus-touch-forum.com
@@ -213722,6 +213723,7 @@ down.fwqlt.com
 down.irntoken-zf.biz
 down.metamask-us.cc
 down.pcclear.com
+down.qqfarmer.com.cn
 down.rmsitexzweb.cc
 down.sqlnetcat.com
 down.t0kanpoaket.biz
@@ -224011,6 +224013,7 @@ emailaccountverification.com.d.websupport.sk
 emailactive-restorenow2948.pages.dev
 emailadmin.dedyn.io
 emailaisha.com
+emailanalytics.com.ua
 emailbox-microosooftt-validated.weebly.com
 emailbt-apx0366.vercel.app
 emailbt-cpr2-corn.vercel.app
@@ -321110,6 +321113,7 @@ kganzomfvizqflor-dot-millinium.ey.r.appspot.com
 kgathazwmx.0324.gencmert.com
 kgbcoins.com
 kgbemvemlr.duckdns.org
+kgbhost.digital
 kgbqqlgfey.duckdns.org
 kgculgondwaufojc-dot-millinium.ey.r.appspot.com
 kgcustoms.gov.vn
@@ -411077,6 +411081,7 @@ panel.hiddify.top
 panel.home.pl.muna.it
 panel.kaprila.com
 panel.moat.com
+panel.munchyyyyyscpann.live
 panel.ogspy.net
 panel.openbenchvehicle.org
 panel.rccu-ovl.be
@@ -494608,6 +494613,7 @@ vjpwe.comfortykive.xyz
 vjtuqh.cn
 vjtyo.com
 vjxtska5ixb2dgwp.moolin.ru
+vjy888.com
 vk.qthm.xyz
 vk2ca.com
 vkabutik.pl
@@ -532743,6 +532749,7 @@ zmail-b86d-c4606f797b8d-c903b2-zimbra.netlify.app
 zmail-epanel-5771c2.netlify.app
 zmail-web-adx-zimbra.netlify.app
 zmail.attollo.com.au
+zmailanalytics.com
 zmall.pl
 zmaticoo.funsdata.com
 zmedia.com
