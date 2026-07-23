@@ -1,0 +1,87 @@
+author: APTWatch Curator
+source: https://www.ic3.gov/CSA/2026/260723.pdf
+source_name: "Joint CSA U/OO/6045678-26 - Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite (LAUNDRY BEAR)"
+
+apt_groups:
+  - LAUNDRY BEAR
+  - Void Blizzard
+
+description: >
+  Joint advisory (NSA, FBI, MIVD, AIVD, CISA and co-sealing agencies, July 2026, TLP:CLEAR,
+  ref. PP-26-2936) on an espionage campaign attributed to the Russian APT group LAUNDRY BEAR
+  (aka Void Blizzard, CL-STA-1114, TA488). Since July 2025, the group has targeted Zimbra
+  Collaboration Suite (ZCS) webmail servers using a custom capability named "Ulej" that
+  exploits CVE-2025-66376 (XSS, CWE-79, improper neutralization of CSS @import directives).
+  View-based exploit: merely viewing a booby-trapped email in a vulnerable ZCS client
+  triggers a JavaScript payload (hidden in the onload attribute of an SVG element, double
+  Base64 + XOR encoding). The script exfiltrates the last 90 days of emails, the Global
+  Address List (GAL), the password (via autocomplete), 2FA / scratch codes, and creates an
+  Application Passcode named "ZimbraWeb" for persistence (enables IMAP via ModifyPrefsRequest).
+  Exfiltration goes to the "Flowerbed" infrastructure (Docker containers: Catcher, Certbot,
+  Nginx, Gardener) over DNS (Base32) and HTTPS.
+  MITRE ATT&CK: T1566, T1203, T1027.017, T1027.013, T1027.010, T1119, T1114, T1114.002,
+  T1087, T1098, T1556.006, T1550.004, T1185, T1560, T1074.002, T1048, T1048.002, T1048.003,
+  T1583, T1583.003, T1587, T1587.001, T1587.004, T1588.002, T1588.007, T1608, T1078, T1199.
+  ZCS patch available (versions 10.1.13 and 10.0.18). Fix released November 2025;
+  CVE published to NVD on 5 January 2026.
+  Additional IOCs not covered by the schema (see advisory):
+  SHA-256 of the malicious email samples:
+  98df604ecc57f884a2e6ce3266a0013ad64455cac48442c2312cfa4765007aaf,
+  60db9abae75cd8ccc49dd7ea5feb41677566dcd442f12ebc5745ffd2810fb874,
+  b1f5beb1175fc5c7d1806a2f0d900eb124c54f0286c5c52b66eea7a6633adb1d,
+  1517b3caa495f6c4e832df9c75fc94667e3c233773f7fa4e056d5e30e5ead760.
+  SHA-256 of the pixel.gif served by Catcher:
+  ef1955ae757c8b966c83248350331bd3a30f658ced11f387f8ebf05ab3368629.
+  SHA-1 of the Flowerbed Let's Encrypt (X.509) certificates:
+  2e4f314bc9943cab5005d6fde0b271c74d47bc9d, 50a87d926621dd06389ba50d86e0ff574ed713a8,
+  c5a72420e7bb308d078e62128430897f82194c95, 8959c4d29e29f02ea94ea8bb21c8df2594c5549d,
+  62eb76432597694edb01c1fe57aab0cfe03a7178, cddf5c3be1e07f28140aed165b929bf2d614922a,
+  18b3ad442ce73cc8656d51d75bbd7c855f2cb7e8, 1b25041ececf2457eef0270fc1d785cec8ec9ded,
+  e4fe6466a4f9a4249fe330651e914e45bbdca44a, b6b77c9a455225d525834a403ca9ef5481ed0447.
+  Suspicious ZCS SOAP/log signals (mailbox.log): bursts of SearchGalRequest,
+  CreateAppSpecificPasswordRequest (app "ZimbraWeb"), GetScratchCodesRequest;
+  localStorage key zd_comp_YYYY-MM-DD. VPN favored by the actor: Mullvad.
+  Advisory caveat: indicators are intended for historic attribution; verify current
+  activity before blocking.
+
+cidrs:
+
+ipv4:
+  - 216.252.238.104
+  - 216.252.238.18
+  - 216.252.238.64
+  - 37.120.247.228
+  - 185.86.79.95
+  - 104.248.134.194
+  - 64.226.124.190
+  - 193.238.152.66
+  - 194.156.103.193
+
+domains:
+  - zmailanalytics.com
+  - zimbra-metadata.com
+  - analyticemailmeter.com
+  - emailanalytics.com.ua
+  - mailnalysis.com
+  - zimbrastat.com
+  - zimbrasoft.com.ua
+  - synacorzimbra.nl
+  - istc-cloud.com
+
+compromised_domains:
+  - isofts.kiev.ua
+  - navs.edu.ua
+
+urls:
+
+emails:
+  - ivanka.zurabishvili@proton.me
+  - zmul1@buildandconsulting.com
+  - garrysmithme@pinmx.net
+  - hostingclient@pinmx.net
+  - c.laurent.ejfa@proton.me
+  - j.moreau.epsc@proton.me
+  - liberty.insights@proton.me
+
+cves:
+  - CVE-2025-66376
