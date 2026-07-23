@@ -169951,6 +169951,7 @@ cdn.exactag.com
 cdn.exelator.com
 cdn.ezca.asia
 cdn.fastclick.net
+cdn.file6.goodid.com
 cdn.firstimpression.io
 cdn.firstlook.com
 cdn.fivecdm.com
@@ -213721,7 +213722,6 @@ down.fwqlt.com
 down.irntoken-zf.biz
 down.metamask-us.cc
 down.pcclear.com
-down.qqfarmer.com.cn
 down.rmsitexzweb.cc
 down.sqlnetcat.com
 down.t0kanpoaket.biz
@@ -480202,6 +480202,7 @@ taneshabhatt09.github.io
 tang.dedspac.ru
 tanga.dedspac.ru
 tanganrss.com
+tangentwaves.com
 tangerine-gelato-e637c8.netlify.app
 tangerine-pudding-d450f1.netlify.app
 tangibleteam.com

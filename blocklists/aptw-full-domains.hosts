@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-23 06:35:40
-# Entries: 533182
+# Generated: 2026-07-23 12:35:32
+# Entries: 533183
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -169958,6 +169958,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -213728,7 +213729,6 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
-0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -480209,6 +480209,7 @@
 0.0.0.0 tang.dedspac.ru
 0.0.0.0 tanga.dedspac.ru
 0.0.0.0 tanganrss.com
+0.0.0.0 tangentwaves.com
 0.0.0.0 tangerine-gelato-e637c8.netlify.app
 0.0.0.0 tangerine-pudding-d450f1.netlify.app
 0.0.0.0 tangibleteam.com
