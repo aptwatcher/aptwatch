@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-24 12:33:36
-# Entries: 536624
+# Generated: 2026-07-24 18:33:59
+# Entries: 536629
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -65888,6 +65888,7 @@
 0.0.0.0 aidiscord.jiayiapi.cn
 0.0.0.0 aidiscord.whalespet.com
 0.0.0.0 aidjekibawa9jv7.53244ds.xyz
+0.0.0.0 aidlifempowerment.com
 0.0.0.0 aidman.vadilops.ru
 0.0.0.0 aidman.virosat.ru
 0.0.0.0 aidmen.bluestacko.ru
@@ -72414,6 +72415,7 @@
 0.0.0.0 allen95.buckso.ru
 0.0.0.0 allenanna.com
 0.0.0.0 allencai.net
+0.0.0.0 allendaltonproduction.com
 0.0.0.0 allendostmen.com
 0.0.0.0 allendzines.com
 0.0.0.0 allene.bluestacko.ru
@@ -170218,7 +170220,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -291567,7 +291568,6 @@
 0.0.0.0 hyper-tangy-court.glitch.me
 0.0.0.0 hyperads.gotrackier.com
 0.0.0.0 hyperbanner.net
-0.0.0.0 hypercorevector9.lol
 0.0.0.0 hypereutectic-equiv.000webhostapp.com
 0.0.0.0 hyperfuturosemanal.com
 0.0.0.0 hypergolically.bibliota.ru
@@ -295365,6 +295365,7 @@
 0.0.0.0 ijegwzuippfuwhdmatudclcsdvxavwpcfbdx-dot-offglen.uk.r.appspot.com
 0.0.0.0 ijens.org
 0.0.0.0 ijere.com
+0.0.0.0 ijexgroup.com.br
 0.0.0.0 ijgml-emeraldsundae.spiceloans.com
 0.0.0.0 ijgtlv5qn8e.pages.dev
 0.0.0.0 ijgxevsl.derived.com.cn
@@ -426901,6 +426902,7 @@
 0.0.0.0 powerprecinct.com.au
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
+0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -473438,6 +473440,7 @@
 0.0.0.0 software-phile.com
 0.0.0.0 software-updates.co
 0.0.0.0 software-wenc.co.cc
+0.0.0.0 softwarecdn.net
 0.0.0.0 softwaresupportsv.com
 0.0.0.0 softwaresupportsv.name
 0.0.0.0 softwareupdatenews.com
@@ -496151,6 +496154,7 @@
 0.0.0.0 vivaki.demdex.net
 0.0.0.0 vivaldar.ru
 0.0.0.0 vivalife.fr
+0.0.0.0 vivantis.1day-sk.shop
 0.0.0.0 vivantis.cosibellapl-co.com
 0.0.0.0 vivantis.edeka24salede24.top
 0.0.0.0 vivantis.ejnl.shop
@@ -496158,6 +496162,7 @@
 0.0.0.0 vivantis.motozemcz.com
 0.0.0.0 vivantis.outsale.shop
 0.0.0.0 vivantis.rohlik.online
+0.0.0.0 vivantis.shop
 0.0.0.0 vivantis.zooartpl.shop
 0.0.0.0 vivantisc.top
 0.0.0.0 vivatango-steakhouse.com
