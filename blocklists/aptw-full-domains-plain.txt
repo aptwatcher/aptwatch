@@ -170211,6 +170211,7 @@ cdn.exactag.com
 cdn.exelator.com
 cdn.ezca.asia
 cdn.fastclick.net
+cdn.file6.goodid.com
 cdn.firstimpression.io
 cdn.firstlook.com
 cdn.fivecdm.com
@@ -291559,6 +291560,7 @@ hyper-secure.pages.dev
 hyper-tangy-court.glitch.me
 hyperads.gotrackier.com
 hyperbanner.net
+hypercorevector9.lol
 hypereutectic-equiv.000webhostapp.com
 hyperfuturosemanal.com
 hypergolically.bibliota.ru
@@ -309781,7 +309783,6 @@ jawab.ulitron.ru
 jawaharchannel.in
 jawan.dedspac.ru
 jawan.ulitron.ru
-jawaratekno.com
 jawasunda.my.id
 jawatan-kosong-perkhidmatan.com
 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -410009,6 +410010,7 @@ packet-anpost.com
 packet-update-track.com
 packeta.order3578.eu
 packetcodeofficialstuddy.github.io
+packetget.com
 packetlinal2545packaginaramexs-b7d90a.ingress-daribow.ewp.live
 packhonduras.filesusr.com
 packinforms001.dynv6.net

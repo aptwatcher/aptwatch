@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-24 06:36:08
-# Entries: 536622
+# Generated: 2026-07-24 12:33:36
+# Entries: 536624
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -170218,6 +170218,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -291566,6 +291567,7 @@
 0.0.0.0 hyper-tangy-court.glitch.me
 0.0.0.0 hyperads.gotrackier.com
 0.0.0.0 hyperbanner.net
+0.0.0.0 hypercorevector9.lol
 0.0.0.0 hypereutectic-equiv.000webhostapp.com
 0.0.0.0 hyperfuturosemanal.com
 0.0.0.0 hypergolically.bibliota.ru
@@ -309788,7 +309790,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -410016,6 +410017,7 @@
 0.0.0.0 packet-update-track.com
 0.0.0.0 packeta.order3578.eu
 0.0.0.0 packetcodeofficialstuddy.github.io
+0.0.0.0 packetget.com
 0.0.0.0 packetlinal2545packaginaramexs-b7d90a.ingress-daribow.ewp.live
 0.0.0.0 packhonduras.filesusr.com
 0.0.0.0 packinforms001.dynv6.net
