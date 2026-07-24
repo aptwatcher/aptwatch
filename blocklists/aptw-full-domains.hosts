@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-24 06:04:32
-# Entries: 536619
+# Generated: 2026-07-24 06:36:08
+# Entries: 536622
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -74677,6 +74677,7 @@
 0.0.0.0 always-instagram.blogspot.com
 0.0.0.0 always-instagram.blogspot.com.uy
 0.0.0.0 always-instagram.blogspot.mk
+0.0.0.0 always-undetected.com
 0.0.0.0 always.coferto.ru
 0.0.0.0 always.virosat.ru
 0.0.0.0 always1.tilofol.ru
@@ -490899,6 +490900,7 @@
 0.0.0.0 underthesuncolonial.com
 0.0.0.0 undertone.com
 0.0.0.0 undertonenetworks.com
+0.0.0.0 undetected-always.com
 0.0.0.0 undiamonded.kramati.ru
 0.0.0.0 undian-fstfl.biz.id
 0.0.0.0 undian-kupon4.gratis2025.my.id
@@ -491102,6 +491104,7 @@
 0.0.0.0 universalesdeskandia.pro
 0.0.0.0 universalfxmm.com
 0.0.0.0 universalmsg.com
+0.0.0.0 universami.ge
 0.0.0.0 universe.send.microad.jp
 0.0.0.0 universeaccountvalidation.weebly.com
 0.0.0.0 universeactivecircleprofile.weebly.com
