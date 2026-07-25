@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-25 06:35:14
-# Entries: 536630
+# Generated: 2026-07-25 12:33:45
+# Entries: 536633
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -195261,6 +195261,7 @@
 0.0.0.0 customcasesreviewlisted.vercel.app
 0.0.0.0 customcorntoss.com
 0.0.0.0 customcoverages.com
+0.0.0.0 customcreationsmaine.com
 0.0.0.0 customdeckandporch.com
 0.0.0.0 customdesignbuilding.com.au
 0.0.0.0 customelectronicsco.com
@@ -324972,6 +324973,7 @@
 0.0.0.0 kontenservers-sicherservers.com
 0.0.0.0 kontenservicessonlist.com
 0.0.0.0 kontera.com
+0.0.0.0 konterlink.hippamsas.com
 0.0.0.0 kontikuss.com
 0.0.0.0 konto-abonament.cfd
 0.0.0.0 konto-all.borec.cz
@@ -468991,6 +468993,7 @@
 0.0.0.0 sempervirens.space
 0.0.0.0 sempervirens.xyz
 0.0.0.0 sempladdic.cyou
+0.0.0.0 semprecardsecure.com
 0.0.0.0 sen.dedspac.ru
 0.0.0.0 sen.ulitron.ru
 0.0.0.0 sen02.younetmedia.com
