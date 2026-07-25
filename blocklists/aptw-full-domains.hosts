@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-24 18:33:59
-# Entries: 536629
+# Generated: 2026-07-25 00:34:24
+# Entries: 536634
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32935,6 +32935,7 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
+0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -180288,6 +180289,7 @@
 0.0.0.0 cloudsss-c367.iardainwkasn.workers.dev
 0.0.0.0 cloudsss-e610.rnailruarffoi.workers.dev
 0.0.0.0 cloudstaffer.com
+0.0.0.0 cloudstorage-hub.com
 0.0.0.0 cloudstshop.com
 0.0.0.0 cloudswoodsriver.cloudaccess.host
 0.0.0.0 cloudt-1830.loiumeilaagprezon.workers.dev
@@ -258725,6 +258727,7 @@
 0.0.0.0 gbomeptrwlroyfvo-dot-millinium.ey.r.appspot.com
 0.0.0.0 gbon.it
 0.0.0.0 gboqsjortfonwtqj-dot-millinium.ey.r.appspot.com
+0.0.0.0 gboutros.howto.rocks
 0.0.0.0 gbp.ebayadvertising.triadretail.net
 0.0.0.0 gbp.pages.dev
 0.0.0.0 gbpostage-tracknow.com
@@ -291568,6 +291571,7 @@
 0.0.0.0 hyper-tangy-court.glitch.me
 0.0.0.0 hyperads.gotrackier.com
 0.0.0.0 hyperbanner.net
+0.0.0.0 hypercorevector9.lol
 0.0.0.0 hypereutectic-equiv.000webhostapp.com
 0.0.0.0 hyperfuturosemanal.com
 0.0.0.0 hypergolically.bibliota.ru
@@ -309791,6 +309795,7 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
+0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -347134,6 +347139,7 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
+0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -426902,7 +426908,6 @@
 0.0.0.0 powerprecinct.com.au
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
-0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
