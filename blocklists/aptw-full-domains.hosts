@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-25 00:34:24
-# Entries: 536634
+# Generated: 2026-07-25 06:04:33
+# Entries: 536631
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32935,7 +32935,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -309795,7 +309794,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -491114,7 +491112,6 @@
 0.0.0.0 universalesdeskandia.pro
 0.0.0.0 universalfxmm.com
 0.0.0.0 universalmsg.com
-0.0.0.0 universami.ge
 0.0.0.0 universe.send.microad.jp
 0.0.0.0 universeaccountvalidation.weebly.com
 0.0.0.0 universeactivecircleprofile.weebly.com
