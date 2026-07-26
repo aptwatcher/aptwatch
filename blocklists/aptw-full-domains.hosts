@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-26 12:34:11
-# Entries: 536384
+# Generated: 2026-07-26 18:33:51
+# Entries: 536389
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -156842,6 +156842,7 @@
 0.0.0.0 broadusent.com
 0.0.0.0 broadusmt.buzz
 0.0.0.0 broadviewsoftare.com
+0.0.0.0 broadwalkindia.com
 0.0.0.0 broadwayadvisory.com
 0.0.0.0 broadwayelectric.com
 0.0.0.0 broadwaygalleries.net
@@ -214051,7 +214052,6 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
-0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -243780,6 +243780,7 @@
 0.0.0.0 femaleviagra.findmenow.info
 0.0.0.0 femarvilla.com
 0.0.0.0 femaxatus.net
+0.0.0.0 femboykisser.sbs
 0.0.0.0 femboytw.ink
 0.0.0.0 feme.ulitron.ru
 0.0.0.0 femeariagokl.pro
@@ -352314,6 +352315,7 @@
 0.0.0.0 mail.ramaikangrubbokep.whattsap.net
 0.0.0.0 mail.ramonmachado.thats.im
 0.0.0.0 mail.raofuturefinance.com.au
+0.0.0.0 mail.rarewingvm.blog
 0.0.0.0 mail.ravenbuildersinc.com
 0.0.0.0 mail.razempomagamy.xyz
 0.0.0.0 mail.rbc1royalalert.com
@@ -352426,6 +352428,7 @@
 0.0.0.0 mail.salon26north.com
 0.0.0.0 mail.samkaleenjanmat.in
 0.0.0.0 mail.samssmgr.com
+0.0.0.0 mail.sandystudiogh.blog
 0.0.0.0 mail.sanforyou.akuanakmamah.de
 0.0.0.0 mail.sange-bokepers2020.hol1.shop
 0.0.0.0 mail.sangenihsay.duckdns.org
@@ -377400,7 +377403,6 @@
 0.0.0.0 msevo.synology.me
 0.0.0.0 msexchange.dogvilla.ru
 0.0.0.0 msfauth.confirminfo.myonlineportal.net
-0.0.0.0 msfconfig.icu
 0.0.0.0 msfed.officesecure.online
 0.0.0.0 msfkpolymqupzgwjzniclwzzqu-dot-gleow2021ja.ue.r.appspot.com
 0.0.0.0 msfn.us.intellitxt.com
@@ -401338,6 +401340,7 @@
 0.0.0.0 okningfundex.pro
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -446413,6 +446416,7 @@
 0.0.0.0 raregem.serveftp.com
 0.0.0.0 rares.virosat.ru
 0.0.0.0 raresummer.com
+0.0.0.0 rarewingvm.blog
 0.0.0.0 rarible-appnft.com
 0.0.0.0 rarible-nft.staking-it.eu
 0.0.0.0 rarible-stores.com
@@ -464674,6 +464678,7 @@
 0.0.0.0 sandymaddox.com
 0.0.0.0 sandys-five-star-site-55ec59.webflow.io
 0.0.0.0 sandyspringsdental.com
+0.0.0.0 sandystudiogh.blog
 0.0.0.0 sandzakinfo.com
 0.0.0.0 sanean.com.br
 0.0.0.0 sanebliss.github.io
