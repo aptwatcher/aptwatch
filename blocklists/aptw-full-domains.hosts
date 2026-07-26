@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-26 06:36:31
-# Entries: 536379
+# Generated: 2026-07-26 12:34:11
+# Entries: 536384
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -238307,6 +238307,7 @@
 0.0.0.0 fairfeeling.com
 0.0.0.0 fairfield59.com
 0.0.0.0 fairgodtop.000webhostapp.com
+0.0.0.0 fairgroovetr.blog
 0.0.0.0 fairgroundsaints.com
 0.0.0.0 fairholtcryptrix-pro.com
 0.0.0.0 fairm.dedspac.ru
@@ -298635,6 +298636,7 @@
 0.0.0.0 indus.iad-01.braze.com
 0.0.0.0 indus.virosat.ru
 0.0.0.0 induscapitalplatform.live
+0.0.0.0 indusenterprises.co
 0.0.0.0 indusfood.com.pk
 0.0.0.0 indusgreenassociates.com
 0.0.0.0 indusmarket.ru
@@ -330000,7 +330002,6 @@
 0.0.0.0 laphagroup.com
 0.0.0.0 laphoceen.fr
 0.0.0.0 lapiden.com
-0.0.0.0 lapidorseposoalovbs2.com
 0.0.0.0 lapildora.com.ve
 0.0.0.0 lapin.ulitron.ru
 0.0.0.0 lapinadubois.com
@@ -347017,6 +347018,7 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
+0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -350331,6 +350333,7 @@
 0.0.0.0 mail.facilities-communication.com
 0.0.0.0 mail.faciliusincinstagram-business-services.com
 0.0.0.0 mail.facyang.tk
+0.0.0.0 mail.fairgroovetr.blog
 0.0.0.0 mail.fairytales-adored.duckdns.org
 0.0.0.0 mail.faixavermelha.com.br
 0.0.0.0 mail.fallauae.com
@@ -375077,6 +375080,7 @@
 0.0.0.0 molefaphoyles.pages.dev
 0.0.0.0 molegal.co.ke
 0.0.0.0 moleincam.cyou
+0.0.0.0 molemole.my.id
 0.0.0.0 moler.dedspac.ru
 0.0.0.0 moler.ulitron.ru
 0.0.0.0 molescana.vercel.app
@@ -377396,6 +377400,7 @@
 0.0.0.0 msevo.synology.me
 0.0.0.0 msexchange.dogvilla.ru
 0.0.0.0 msfauth.confirminfo.myonlineportal.net
+0.0.0.0 msfconfig.icu
 0.0.0.0 msfed.officesecure.online
 0.0.0.0 msfkpolymqupzgwjzniclwzzqu-dot-gleow2021ja.ue.r.appspot.com
 0.0.0.0 msfn.us.intellitxt.com
@@ -401333,7 +401338,6 @@
 0.0.0.0 okningfundex.pro
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
-0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
@@ -486989,6 +486993,7 @@
 0.0.0.0 trackyoursorder.us
 0.0.0.0 trackzapper.com
 0.0.0.0 tracteur-agripro-82236454.com
+0.0.0.0 tractor.trees4sale.net
 0.0.0.0 tractorchariot4u.com
 0.0.0.0 tractrecon.cyou
 0.0.0.0 tracy.tutoads.tv
