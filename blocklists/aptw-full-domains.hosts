@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-25 18:33:41
-# Entries: 536632
+# Generated: 2026-07-26 00:34:23
+# Entries: 536379
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -47073,7 +47073,6 @@
 0.0.0.0 absrhsvboaepumflpfcnpvhxdt-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 absrqofb.tutor2go.my
 0.0.0.0 absshare.com
-0.0.0.0 absshop-ping.xyz
 0.0.0.0 abssolutions.co.id
 0.0.0.0 absteknik.com
 0.0.0.0 abstills.com
@@ -57554,7 +57553,6 @@
 0.0.0.0 adocean.pl
 0.0.0.0 adocmx.com
 0.0.0.0 adocxwork.github.io
-0.0.0.0 adodebtsole.xyz
 0.0.0.0 adofurniture.com
 0.0.0.0 adogv.svivi.art
 0.0.0.0 adolaz.com
@@ -74069,7 +74067,6 @@
 0.0.0.0 also83.tilofol.ru
 0.0.0.0 also84.chromatol.ru
 0.0.0.0 also90.chromatol.ru
-0.0.0.0 alsofillsoar.xyz
 0.0.0.0 alsohave.com
 0.0.0.0 alsomam.com
 0.0.0.0 alsoorcpa.com
@@ -80713,7 +80710,6 @@
 0.0.0.0 amicrosofthelps.b-cdn.net
 0.0.0.0 amicus.bluestacko.ru
 0.0.0.0 amicusadr.com
-0.0.0.0 amid-darnsoul.xyz
 0.0.0.0 amid.arianos.ru
 0.0.0.0 amid.bluestacko.ru
 0.0.0.0 amid.bortogat.ru
@@ -83407,7 +83403,6 @@
 0.0.0.0 ancutaleonte.online
 0.0.0.0 ancylus.bluestacko.ru
 0.0.0.0 and-ads.pulse.weatherbug.net
-0.0.0.0 and-last-lock.xyz
 0.0.0.0 and-marks.com
 0.0.0.0 and-mas.web.app
 0.0.0.0 and-most.web.app
@@ -86139,7 +86134,6 @@
 0.0.0.0 anury.dedspac.ru
 0.0.0.0 anury.matsuro.ru
 0.0.0.0 anury.ulitron.ru
-0.0.0.0 anus-staylard.xyz
 0.0.0.0 anusgear.com
 0.0.0.0 anusha468-web.github.io
 0.0.0.0 anushaaneel.com
@@ -88935,7 +88929,6 @@
 0.0.0.0 api.radar.io
 0.0.0.0 api.ranking.rakuten.co.jp
 0.0.0.0 api.rbc.design
-0.0.0.0 api.recapcha.space
 0.0.0.0 api.receptivity.io
 0.0.0.0 api.redirect-bentobot199.com
 0.0.0.0 api.redirect-human-validation.com
@@ -99316,7 +99309,6 @@
 0.0.0.0 armsandassociates.com
 0.0.0.0 armsart.com
 0.0.0.0 armsedt.github.io
-0.0.0.0 armsmead-bell.xyz
 0.0.0.0 armstrong-2025.org
 0.0.0.0 armstrong-f90d31.ingress-haven.ewp.live
 0.0.0.0 armstrongtrace.buzz
@@ -124950,7 +124942,6 @@
 0.0.0.0 babydrop.pics
 0.0.0.0 babyf.oewabox.at
 0.0.0.0 babygirlshot.weebly.com
-0.0.0.0 babyglee-all.xyz
 0.0.0.0 babyglowco.com
 0.0.0.0 babygreey.com
 0.0.0.0 babyhomemade.com
@@ -132367,7 +132358,6 @@
 0.0.0.0 balltreetops.com
 0.0.0.0 balluchi.net
 0.0.0.0 balluffmex.com
-0.0.0.0 ballweldleer.xyz
 0.0.0.0 bally.bortogat.ru
 0.0.0.0 bally.matsuro.ru
 0.0.0.0 bally.timanar.ru
@@ -133502,11 +133492,9 @@
 0.0.0.0 bandopen.candutech.online.sdialazhar52.sch.id
 0.0.0.0 bandor.dedspac.ru
 0.0.0.0 bandor.virosat.ru
-0.0.0.0 bandrice-pity.xyz
 0.0.0.0 bands.ulitron.ru
 0.0.0.0 bandspace-console.web.app
 0.0.0.0 bandstop.matsuro.ru
-0.0.0.0 bandsway-arch.xyz
 0.0.0.0 bandungindo.com
 0.0.0.0 bandungyogyakartatour.com
 0.0.0.0 bandy.ulitron.ru
@@ -136143,7 +136131,6 @@
 0.0.0.0 bather.matsuro.ru
 0.0.0.0 bather.virosat.ru
 0.0.0.0 bathetically.chahoda.ru
-0.0.0.0 bathgram-rare.xyz
 0.0.0.0 bathic.matsuro.ru
 0.0.0.0 bathos.matsuro.ru
 0.0.0.0 bathroomremodelingpearland.com
@@ -138989,9 +138976,7 @@
 0.0.0.0 been.boletuso.ru
 0.0.0.0 been.ulitron.ru
 0.0.0.0 beeneresaveherji0216.page.link
-0.0.0.0 beenfatenext.xyz
 0.0.0.0 beengie.com
-0.0.0.0 beensale-lion.xyz
 0.0.0.0 beenterprises.com
 0.0.0.0 beep-media-player.org
 0.0.0.0 beep.bortogat.ru
@@ -139725,7 +139710,6 @@
 0.0.0.0 bell-email-100958.weeblysite.com
 0.0.0.0 bell-email-102335.weeblysite.com
 0.0.0.0 bell-email-ca2b13.webflow.io
-0.0.0.0 bell-geneclan.xyz
 0.0.0.0 bell-invoice-gateway.vercel.app
 0.0.0.0 bell-invoice8839.com
 0.0.0.0 bell-mail-alpha.vercel.app
@@ -144670,7 +144654,6 @@
 0.0.0.0 bikestr.ru
 0.0.0.0 biketodinner.com
 0.0.0.0 biketourvacations.net
-0.0.0.0 biketype-not.xyz
 0.0.0.0 bikh.amaniwa.ru
 0.0.0.0 bikh.bortogat.ru
 0.0.0.0 bikie.dedspac.ru
@@ -145442,7 +145425,6 @@
 0.0.0.0 binca-lote.web.app
 0.0.0.0 bincodpla.com
 0.0.0.0 bincsant-bbc9ad.ingress-baronn.ewp.live
-0.0.0.0 bind-mice-glow.xyz
 0.0.0.0 bind.dedspac.ru
 0.0.0.0 bind.matsuro.ru
 0.0.0.0 bindedge.com
@@ -147413,7 +147395,6 @@
 0.0.0.0 blabby.virosat.ru
 0.0.0.0 blaberidae.online
 0.0.0.0 blaberidae.ru
-0.0.0.0 blabhunk-copy.xyz
 0.0.0.0 blabla-f08.pages.dev
 0.0.0.0 blablabla-crr.pages.dev
 0.0.0.0 blablacam.fr
@@ -152138,7 +152119,6 @@
 0.0.0.0 bolcom-helpdesk1.freshdesk.com
 0.0.0.0 bold-azure-cousin.glitch.me
 0.0.0.0 bold-beadow-5848.pages.dev
-0.0.0.0 bold-blab-cold.xyz
 0.0.0.0 bold-brook-23ee.yiencross.workers.dev
 0.0.0.0 bold-butterfly-322c.pontesleila134.workers.dev
 0.0.0.0 bold-capholm-ai.live
@@ -155317,7 +155297,6 @@
 0.0.0.0 brassy-strong-oak.glitch.me
 0.0.0.0 brassy-sudsy-knee.glitch.me
 0.0.0.0 brassy-violet-subway-adsfghnmj.glitch.me
-0.0.0.0 brat-malllake.xyz
 0.0.0.0 brat.com.br
 0.0.0.0 brat.dedspac.ru
 0.0.0.0 bratislavabucks.live
@@ -155668,7 +155647,6 @@
 0.0.0.0 bred-authentification-97-6.web.app
 0.0.0.0 bred-authentification-97-7.web.app
 0.0.0.0 bred-authentification-source-b.web.app
-0.0.0.0 bred-mornidea.xyz
 0.0.0.0 bred-service-client.cf
 0.0.0.0 bredband.chlc3.com
 0.0.0.0 bredbandswebbenf.gb.net
@@ -156313,7 +156291,6 @@
 0.0.0.0 briffuleilaque.vercel.app
 0.0.0.0 brifing.kz
 0.0.0.0 brifiols.112.2o7.net
-0.0.0.0 brig-skipdeep.xyz
 0.0.0.0 brig.ulitron.ru
 0.0.0.0 brigadadigitalcolombia.org
 0.0.0.0 brigade-c.de
@@ -156588,11 +156565,9 @@
 0.0.0.0 brisbanewinecellars.com.au
 0.0.0.0 brisceeoe.com
 0.0.0.0 brises.virosat.ru
-0.0.0.0 brisk-with-easy.xyz
 0.0.0.0 briskaburras.top
 0.0.0.0 briskatory53.com
 0.0.0.0 briskly.hurtinkk.ru
-0.0.0.0 briskpair-rode.xyz
 0.0.0.0 briskpakistan.com
 0.0.0.0 briskpmglegalpro.com
 0.0.0.0 brisksoupydivisor.accountsss.repl.co
@@ -161436,7 +161411,6 @@
 0.0.0.0 burny.dedspac.ru
 0.0.0.0 burny.virosat.ru
 0.0.0.0 buro.ulitron.ru
-0.0.0.0 burp-flung-pilot.xyz
 0.0.0.0 burp.ulitron.ru
 0.0.0.0 burps.dedspac.ru
 0.0.0.0 burps.matsuro.ru
@@ -166845,9 +166819,7 @@
 0.0.0.0 card-jreast.cn
 0.0.0.0 card-security-center.wilulw.cn
 0.0.0.0 card-service.ml
-0.0.0.0 card-slip-pier.xyz
 0.0.0.0 card-support.com
-0.0.0.0 card-votecrew.xyz
 0.0.0.0 card-wallet.pro
 0.0.0.0 card.americanexpress.com.trendyzbulletin.com
 0.0.0.0 card.chcgc.com
@@ -172939,7 +172911,6 @@
 0.0.0.0 chappycheeks.com
 0.0.0.0 chaps.ulitron.ru
 0.0.0.0 chaptersprovide.promiedosapp.com
-0.0.0.0 char-avid-verb.xyz
 0.0.0.0 char.boletuso.ru
 0.0.0.0 char.dyndns.dk
 0.0.0.0 char.matsuro.ru
@@ -178693,7 +178664,6 @@
 0.0.0.0 clayheart.com
 0.0.0.0 clayish-hatchets.000webhostapp.com
 0.0.0.0 claylab.co
-0.0.0.0 claylikepilot.xyz
 0.0.0.0 claymoregroupinc.com
 0.0.0.0 clays.ulitron.ru
 0.0.0.0 claytonclanprojects.dactylological.com
@@ -178852,6 +178822,7 @@
 0.0.0.0 clee.amaniwa.ru
 0.0.0.0 clee.bortogat.ru
 0.0.0.0 cleeble.pl
+0.0.0.0 cleenfoecleen22.com
 0.0.0.0 clef-departementale.web.app
 0.0.0.0 clef.bortogat.ru
 0.0.0.0 clef.ulitron.ru
@@ -181429,7 +181400,6 @@
 0.0.0.0 coalcategory.com
 0.0.0.0 coaled.dedspac.ru
 0.0.0.0 coalface.sikolar.ru
-0.0.0.0 coalfact-tear.xyz
 0.0.0.0 coals.dedspac.ru
 0.0.0.0 coals.matsuro.ru
 0.0.0.0 coalsell.de
@@ -191270,7 +191240,6 @@
 0.0.0.0 cozykangaroo.com
 0.0.0.0 cozyone.co.jp
 0.0.0.0 cozypadsgrouphomes.com
-0.0.0.0 cozysigh-nick.xyz
 0.0.0.0 cozzes.virosat.ru
 0.0.0.0 cp-11.whb.tempwebhost.net
 0.0.0.0 cp-bluewin.weebly.com
@@ -192816,7 +192785,6 @@
 0.0.0.0 crippled.timanar.ru
 0.0.0.0 cripplers.ruhodo.ru
 0.0.0.0 cripptocmlogi.webflow.io
-0.0.0.0 cripter.xo.je
 0.0.0.0 criptoapplogin.webflow.io
 0.0.0.0 criptocurrenlog.webflow.io
 0.0.0.0 criptocurrnlogin.webflow.io
@@ -193037,7 +193005,6 @@
 0.0.0.0 cropppl-sale.shop
 0.0.0.0 croppytailors.overfashionplus.com
 0.0.0.0 cropreboiqueke-2870.vercel.app
-0.0.0.0 cropriftmore.xyz
 0.0.0.0 crops-corns.com
 0.0.0.0 crops.ulitron.ru
 0.0.0.0 cropvlower.xdsmart.com
@@ -194601,7 +194568,6 @@
 0.0.0.0 cureently87543.weebly.com
 0.0.0.0 curefect.com
 0.0.0.0 curejoint.sa.com
-0.0.0.0 curename-gust.xyz
 0.0.0.0 curentatwires45.wixstudio.com
 0.0.0.0 curentlr001.weeblysite.com
 0.0.0.0 curentlyattservicing.weebly.com
@@ -201109,7 +201075,6 @@
 0.0.0.0 dealerhondapbun.com
 0.0.0.0 dealerinfo.com
 0.0.0.0 dealerspuertorico.com
-0.0.0.0 dealflung-four.xyz
 0.0.0.0 dealforthecause.com
 0.0.0.0 dealgringo.com
 0.0.0.0 dealgroupsinc.com
@@ -202515,7 +202480,6 @@
 0.0.0.0 defrettyu.site
 0.0.0.0 defrost.pl
 0.0.0.0 defs.updater-worelos.com
-0.0.0.0 deft-army-glad.xyz
 0.0.0.0 deft-bunny-7c49c9.netlify.app
 0.0.0.0 deft-cat-58c1f5.netlify.app
 0.0.0.0 deft-frangollo-f84b6a.netlify.app
@@ -208554,7 +208518,6 @@
 0.0.0.0 dibucinsal.cyou
 0.0.0.0 dibya-menace.github.io
 0.0.0.0 dicassobredicas.com.br
-0.0.0.0 dice-grate-plan.xyz
 0.0.0.0 dice-total-serv.com
 0.0.0.0 dice.boletuso.ru
 0.0.0.0 dice.bortogat.ru
@@ -208663,7 +208626,6 @@
 0.0.0.0 dieaaccie.cyou
 0.0.0.0 dieb.bortogat.ru
 0.0.0.0 diebhoseihjtinhj-dot-millinium.ey.r.appspot.com
-0.0.0.0 died-halo-tang.xyz
 0.0.0.0 died.ulitron.ru
 0.0.0.0 dieentretenimento.com
 0.0.0.0 diegobianchinews.it
@@ -208736,7 +208698,6 @@
 0.0.0.0 dieswiss.wuaze.com
 0.0.0.0 dieswisspost.blogspot.com
 0.0.0.0 diet-confusion.000webhostapp.com
-0.0.0.0 diet-graymost.xyz
 0.0.0.0 diet-pills.hut1.ru
 0.0.0.0 diet.bortogat.ru
 0.0.0.0 diet.dedspac.ru
@@ -210317,7 +210278,6 @@
 0.0.0.0 disjungere.online
 0.0.0.0 disjungere.ru
 0.0.0.0 disk-4fb5.pre-ooauth.workers.dev
-0.0.0.0 disk-bask-rusk.xyz
 0.0.0.0 disk-previewer.com
 0.0.0.0 disk.accord1key.cn
 0.0.0.0 disk.dedspac.ru
@@ -214048,13 +214008,11 @@
 0.0.0.0 douvagroup.com
 0.0.0.0 douw.cf
 0.0.0.0 douwaooryahairoupsp-be5e38.ingress-baronn.ewp.live
-0.0.0.0 dove-void-pave.xyz
 0.0.0.0 dove.dedspac.ru
 0.0.0.0 dove.saymedia.com
 0.0.0.0 dove.ulitron.ru
 0.0.0.0 dovemobi.net
 0.0.0.0 doven.virosat.ru
-0.0.0.0 dovepact-gist.xyz
 0.0.0.0 dover.dedspac.ru
 0.0.0.0 doves.ulitron.ru
 0.0.0.0 dovik.shop
@@ -214083,7 +214041,6 @@
 0.0.0.0 down-at-heel-crewme.000webhostapp.com
 0.0.0.0 down-load-app.top
 0.0.0.0 down-load-tk.top
-0.0.0.0 down-loanleap.xyz
 0.0.0.0 down-vv.ddns.net
 0.0.0.0 down.54nb.com
 0.0.0.0 down.amazontaxrebate.com
@@ -214961,7 +214918,6 @@
 0.0.0.0 drama.virosat.ru
 0.0.0.0 dramatic-challenge.com
 0.0.0.0 dramatic-flossy-crush.glitch.me
-0.0.0.0 dramdare-shop.xyz
 0.0.0.0 dramedinadentalclinic.es
 0.0.0.0 dramin.pk
 0.0.0.0 dramivorah.com
@@ -215858,7 +215814,6 @@
 0.0.0.0 drucill83.wixsite.com
 0.0.0.0 druen-node.pages.dev
 0.0.0.0 drug-addiction-help-now.org
-0.0.0.0 drug-arereef.xyz
 0.0.0.0 drug-testing.shengen.ru
 0.0.0.0 drug.boletuso.ru
 0.0.0.0 druga-rzeczpospolitapolska.pl
@@ -216538,7 +216493,6 @@
 0.0.0.0 duchy.virosat.ru
 0.0.0.0 ducitlet.com
 0.0.0.0 duck-billed-classif.000webhostapp.com
-0.0.0.0 duck-fondmoan.xyz
 0.0.0.0 duck.amaniwa.ru
 0.0.0.0 duck.bortogat.ru
 0.0.0.0 duck.dedspac.ru
@@ -216604,7 +216558,6 @@
 0.0.0.0 duegemaa2.click
 0.0.0.0 duegemae9.click
 0.0.0.0 dueksam.com.ph
-0.0.0.0 duel-gulp-luck.xyz
 0.0.0.0 duel.boletuso.ru
 0.0.0.0 duellansuno.cyou
 0.0.0.0 duelloo.com
@@ -216752,7 +216705,6 @@
 0.0.0.0 dumansky.net
 0.0.0.0 dumanssa.com
 0.0.0.0 dumasinspektorat.kepriprov.go.id
-0.0.0.0 dumb-heel-boy.xyz
 0.0.0.0 dumb.boletuso.ru
 0.0.0.0 dumbbell.bortogat.ru
 0.0.0.0 dumbo.ulitron.ru
@@ -216986,7 +216938,6 @@
 0.0.0.0 dusitd2nairobi.com
 0.0.0.0 dusk-coat-pl.shop
 0.0.0.0 dusk-glen-zr4.pages.dev
-0.0.0.0 dusk-omit-epic.xyz
 0.0.0.0 dusk-stream.pages.dev
 0.0.0.0 dusk.boletuso.ru
 0.0.0.0 dusk.dedspac.ru
@@ -219034,9 +218985,7 @@
 0.0.0.0 earlier-concept-180784.framer.app
 0.0.0.0 earlier-experiences-391581.framer.app
 0.0.0.0 earllynnkemper.com
-0.0.0.0 earlnotgray.xyz
 0.0.0.0 earlsindustries.com
-0.0.0.0 earltoll-snap.xyz
 0.0.0.0 early-branch-shrilling.on-fleek.app
 0.0.0.0 early-evening-diadem.glitch.me
 0.0.0.0 early-megabyte-numerous.on-fleek.app
@@ -225665,8 +225614,6 @@
 0.0.0.0 endpoint-fail.vercel.app
 0.0.0.0 endpoint.project0.cc
 0.0.0.0 endrizzi.com
-0.0.0.0 ends-fork-ores.xyz
-0.0.0.0 ends-pare-stow.xyz
 0.0.0.0 ends.dedspac.ru
 0.0.0.0 ends.ulitron.ru
 0.0.0.0 endue.dedspac.ru
@@ -228958,7 +228905,6 @@
 0.0.0.0 etcciruyjh.duckdns.org
 0.0.0.0 etch.boletuso.ru
 0.0.0.0 etch.dedspac.ru
-0.0.0.0 etchspinhas.xyz
 0.0.0.0 etcmda.cc
 0.0.0.0 etcmeisa.com
 0.0.0.0 etcqenahmxbdmivzrlxrhmufci-dot-gleowayel400503.uc.r.appspot.com
@@ -231562,7 +231508,6 @@
 0.0.0.0 exam.ulitron.ru
 0.0.0.0 exam4placeexperience.site
 0.0.0.0 exam4plefeel.site
-0.0.0.0 examclaparmy.xyz
 0.0.0.0 examicelsi.cyou
 0.0.0.0 examination-user-architecture.vercel.app
 0.0.0.0 examinationchew.com
@@ -244173,7 +244118,6 @@
 0.0.0.0 feste.dedspac.ru
 0.0.0.0 feste.website
 0.0.0.0 festern.cf
-0.0.0.0 festgrape-bog.xyz
 0.0.0.0 festicolor.fr
 0.0.0.0 festina.gq
 0.0.0.0 festival-bulan-ramadhan.vizvaz.com
@@ -247771,7 +247715,6 @@
 0.0.0.0 fishsite.pythonanywhere.com
 0.0.0.0 fishstandard.pages.dev
 0.0.0.0 fishunmakinu.com
-0.0.0.0 fishwallhand.xyz
 0.0.0.0 fishy-leather-ogre.glitch.me
 0.0.0.0 fishy-romantic-salute.glitch.me
 0.0.0.0 fishyfishyyy.000webhostapp.com
@@ -249566,7 +249509,6 @@
 0.0.0.0 fluviatilis.xyz
 0.0.0.0 fluweah.cn
 0.0.0.0 fluwxtdypmilqojrvohioryjhwltejecyprs.offgl8876899977678.uk.r.appspot.com
-0.0.0.0 flux-heldsham.xyz
 0.0.0.0 flux-invexussoftware.com
 0.0.0.0 flux-ridge.pages.dev
 0.0.0.0 flux.boletuso.ru
@@ -250063,7 +250005,6 @@
 0.0.0.0 fodi.caijimoyu.eu.org
 0.0.0.0 fodifs.com
 0.0.0.0 fodnetwork23.blogspot.com
-0.0.0.0 foe-flawmire.xyz
 0.0.0.0 foe.bortogat.ru
 0.0.0.0 foe.ulitron.ru
 0.0.0.0 foe2f-yqaaa-aaaad-qdfbq-cai.raw.ic0.app
@@ -250154,7 +250095,6 @@
 0.0.0.0 folabell.vercel.app
 0.0.0.0 folberry.com
 0.0.0.0 folclsaleg.cyou
-0.0.0.0 fold-hide-deft.xyz
 0.0.0.0 fold.bortogat.ru
 0.0.0.0 fold.dedspac.ru
 0.0.0.0 fold.ulitron.ru
@@ -250251,7 +250191,6 @@
 0.0.0.0 folioinvesting.com-gjwsypdlutl8yrsorwqh.gjwsypdlutl8yrsorwqh.manxttrider.com
 0.0.0.0 folisin.pl
 0.0.0.0 foljk.sbs
-0.0.0.0 folk-gleeglee.xyz
 0.0.0.0 folk.amaniwa.ru
 0.0.0.0 folk.boletuso.ru
 0.0.0.0 folk.bortogat.ru
@@ -250386,7 +250325,6 @@
 0.0.0.0 foo.cosmocode.de
 0.0.0.0 food-blogs.000webhostapp.com
 0.0.0.0 food-offer.com
-0.0.0.0 food-rulegrate.xyz
 0.0.0.0 food.amaniwa.ru
 0.0.0.0 food.angryfungus.net
 0.0.0.0 food.dedspac.ru
@@ -250592,7 +250530,6 @@
 0.0.0.0 fordimo.ru
 0.0.0.0 fords.ulitron.ru
 0.0.0.0 fordseh45s.pages.dev
-0.0.0.0 fordsoupward.xyz
 0.0.0.0 fordy.virosat.ru
 0.0.0.0 fore.bortogat.ru
 0.0.0.0 fore.dedspac.ru
@@ -250916,7 +250853,6 @@
 0.0.0.0 formix.uno
 0.0.0.0 formloginfaceb00k.mc-id.com
 0.0.0.0 formm.1vp.my.id
-0.0.0.0 formnote-from.xyz
 0.0.0.0 formosanus.online
 0.0.0.0 formosanus.ru
 0.0.0.0 formove-escalonmed.com
@@ -251460,7 +251396,6 @@
 0.0.0.0 fourdayray.com.s3.eu-de.cloud-object-storage.appdomain.cloud
 0.0.0.0 foureranaturals.com
 0.0.0.0 fourfizjo.shop
-0.0.0.0 fourhomethen.xyz
 0.0.0.0 fourlevelsgame.com
 0.0.0.0 fourmulir-layanann.top
 0.0.0.0 fournosmargaritis.gr
@@ -253194,7 +253129,6 @@
 0.0.0.0 freejoinwhatsapp.zyns.com
 0.0.0.0 freejoinwhatsappviral.ml
 0.0.0.0 freekids.world
-0.0.0.0 freeknot-norm.xyz
 0.0.0.0 freekredi.tk
 0.0.0.0 freelacne.ru
 0.0.0.0 freelance-designer.ru
@@ -254965,7 +254899,6 @@
 0.0.0.0 functiondiscovery.net
 0.0.0.0 functioning-lock-plum.vercel.app
 0.0.0.0 functions-page.vercel.app
-0.0.0.0 fund-fool-stub.xyz
 0.0.0.0 fund.amaniwa.ru
 0.0.0.0 fund.dedspac.ru
 0.0.0.0 fund.ulitron.ru
@@ -256955,7 +256888,6 @@
 0.0.0.0 gaiminilgin.webflow.io
 0.0.0.0 gaiminilogin2.godaddysites.com
 0.0.0.0 gaiminlogink.webflow.io
-0.0.0.0 gain-daze-kept.xyz
 0.0.0.0 gain-node-mint.vercel.app
 0.0.0.0 gain.amaniwa.ru
 0.0.0.0 gain.boletuso.ru
@@ -257618,7 +257550,6 @@
 0.0.0.0 gangrenous-warranty.000webhostapp.com
 0.0.0.0 gangsallhere.icu
 0.0.0.0 gangtask.com
-0.0.0.0 gangteem-beam.xyz
 0.0.0.0 ganharseguidor.com.br
 0.0.0.0 ganhedinheirocomanet.com
 0.0.0.0 ganheseudinheiroaqui.000webhostapp.com
@@ -261470,7 +261401,6 @@
 0.0.0.0 getreward-exclusive.com
 0.0.0.0 getreward-treasure.com
 0.0.0.0 getrezr-iostart.webflow.io
-0.0.0.0 getrichcurl.xyz
 0.0.0.0 getrid-inovattinf0-spongel1i7.vercel.app
 0.0.0.0 getridofstuff.net
 0.0.0.0 getriebeservice-gse.de
@@ -263213,10 +263143,8 @@
 0.0.0.0 givawayse.com
 0.0.0.0 givbalm22.dumb1.com
 0.0.0.0 give-away-free-fire.duckdns.org
-0.0.0.0 give-lawncalm.xyz
 0.0.0.0 give-mlbbfree91.duckdns.org
 0.0.0.0 give-money-to-friends.000webhostapp.com
-0.0.0.0 give-pore-upon.xyz
 0.0.0.0 give-win.midasbuy-page.com
 0.0.0.0 give.boletuso.ru
 0.0.0.0 give.manta.plus
@@ -263582,7 +263510,6 @@
 0.0.0.0 gladiator.bortogat.ru
 0.0.0.0 gladiatornut.com
 0.0.0.0 gladiators.hikotras.ru
-0.0.0.0 gladloanwhat.xyz
 0.0.0.0 gladmustyri.cyou
 0.0.0.0 gladtemplate.timedline.com
 0.0.0.0 glady.ulitron.ru
@@ -264474,10 +264401,8 @@
 0.0.0.0 glow-branch-satellite.glitch.me
 0.0.0.0 glow-cleaning.co.uk
 0.0.0.0 glow-deeply-divan.glitch.me
-0.0.0.0 glow-died-fail.xyz
 0.0.0.0 glow-engine.pages.dev
 0.0.0.0 glow-genix.com
-0.0.0.0 glow-once-four.xyz
 0.0.0.0 glow-sparkly-island.glitch.me
 0.0.0.0 glow.dedspac.ru
 0.0.0.0 glow.nakushita.ru
@@ -264576,7 +264501,6 @@
 0.0.0.0 glucotex-it.live
 0.0.0.0 glucotex-nl.live
 0.0.0.0 glucotex.live
-0.0.0.0 glue-more-cork.xyz
 0.0.0.0 glue.boletuso.ru
 0.0.0.0 glue.dedspac.ru
 0.0.0.0 glue.naturalist44.cavalierso.ru
@@ -265381,7 +265305,6 @@
 0.0.0.0 goaf.bortogat.ru
 0.0.0.0 goaf.ulitron.ru
 0.0.0.0 goaheadgroup.com.au
-0.0.0.0 goal-soil-see.xyz
 0.0.0.0 goal-validate-explication.vercel.app
 0.0.0.0 goal.amaniwa.ru
 0.0.0.0 goal.com.pe
@@ -268519,7 +268442,6 @@
 0.0.0.0 graveolens.space
 0.0.0.0 gravepay.com
 0.0.0.0 gravest-defect.000webhostapp.com
-0.0.0.0 gravezerosold.xyz
 0.0.0.0 gravidanza-app.cyou
 0.0.0.0 gravidanza-engine.com
 0.0.0.0 gravimetric-remedy.000webhostapp.com
@@ -269041,7 +268963,6 @@
 0.0.0.0 grice.ulitron.ru
 0.0.0.0 grico-posoto.web.app
 0.0.0.0 grid-bidder.criteo.com
-0.0.0.0 grid-brisk-lard.xyz
 0.0.0.0 grid.amaniwa.ru
 0.0.0.0 grid.bidswitch.net
 0.0.0.0 grid.dedspac.ru
@@ -269050,7 +268971,6 @@
 0.0.0.0 gride.ulitron.ru
 0.0.0.0 gridglass.storiesoftech.com
 0.0.0.0 gridglass32.co
-0.0.0.0 gridgrimmorn.xyz
 0.0.0.0 gridlinkcables.com
 0.0.0.0 gridspec.vudhasrcep.com
 0.0.0.0 gridwavegate.com
@@ -269127,7 +269047,6 @@
 0.0.0.0 grist.ulitron.ru
 0.0.0.0 grist.virosat.ru
 0.0.0.0 gristlinesses.bortogat.ru
-0.0.0.0 grit-briskbath.xyz
 0.0.0.0 grit-meta.pages.dev
 0.0.0.0 gritabs.tk
 0.0.0.0 grits.ulitron.ru
@@ -269196,7 +269115,6 @@
 0.0.0.0 grnyu.blogspot.ug
 0.0.0.0 gro0py-tantecroot.duckdns.org
 0.0.0.0 gro1.ml
-0.0.0.0 groan-brim-peak.xyz
 0.0.0.0 groan.dedspac.ru
 0.0.0.0 groave.provenceaixperts.info
 0.0.0.0 grobsyllenesliopa.com
@@ -276401,7 +276319,6 @@
 0.0.0.0 hack.dedspac.ru
 0.0.0.0 hackademit.fr
 0.0.0.0 hackaviator-ind.online
-0.0.0.0 hackburppace.xyz
 0.0.0.0 hackconsole.fr
 0.0.0.0 hackedgadgets.us.intellitxt.com
 0.0.0.0 hackensacklimoserviceer.com
@@ -276875,7 +276792,6 @@
 0.0.0.0 half-caste-combatan.000webhostapp.com
 0.0.0.0 half-dead-hydromete.000webhostapp.com
 0.0.0.0 half-momentous-dance.glitch.me
-0.0.0.0 half-mufflurk.xyz
 0.0.0.0 half-trite-boat.glitch.me
 0.0.0.0 half.amaniwa.ru
 0.0.0.0 half.ulitron.ru
@@ -278323,7 +278239,6 @@
 0.0.0.0 harls.ulitron.ru
 0.0.0.0 harlvexonqystralix.digital
 0.0.0.0 harlynsystems.com
-0.0.0.0 harm-mint-veto.xyz
 0.0.0.0 harm.dedspac.ru
 0.0.0.0 harm.ulitron.ru
 0.0.0.0 harm45ari.ru
@@ -278341,7 +278256,6 @@
 0.0.0.0 harmless-path5435470.click
 0.0.0.0 harmless-path5435473.click
 0.0.0.0 harmless-path5435474.click
-0.0.0.0 harmlick-mode.xyz
 0.0.0.0 harmokley.tripod.com
 0.0.0.0 harmon.211credit.com
 0.0.0.0 harmoniaertkhe.hu
@@ -278629,7 +278543,6 @@
 0.0.0.0 hast.amaniwa.ru
 0.0.0.0 hast.dedspac.ru
 0.0.0.0 hastagmedia.com
-0.0.0.0 haste-flop-smug.xyz
 0.0.0.0 haste.ulitron.ru
 0.0.0.0 hastebin.stamm.me
 0.0.0.0 hastenestate.com
@@ -278661,7 +278574,6 @@
 0.0.0.0 hatch.ulitron.ru
 0.0.0.0 hatched-energies.000webhostapp.com
 0.0.0.0 hatcher-jazzmaster.xyz
-0.0.0.0 hatchfoe-flung.xyz
 0.0.0.0 hatchsubbi.cyou
 0.0.0.0 hatdfg-rhgreh684.frge.io
 0.0.0.0 hate.dedspac.ru
@@ -279437,7 +279349,6 @@
 0.0.0.0 heaf.amaniwa.ru
 0.0.0.0 heaf.ulitron.ru
 0.0.0.0 heahe.co.za
-0.0.0.0 heal-jazz-shop.xyz
 0.0.0.0 heal-post-traumatic-stress.com
 0.0.0.0 heal.boletuso.ru
 0.0.0.0 heal.bortogat.ru
@@ -282816,7 +282727,6 @@
 0.0.0.0 heqwpeoqwiape922.ml
 0.0.0.0 her-bdvonlinea-credito.pages.dev
 0.0.0.0 her-reparcel.com
-0.0.0.0 her-vein-pool.xyz
 0.0.0.0 her.amaniwa.ru
 0.0.0.0 her.ulitron.ru
 0.0.0.0 her1opntsm.0315.gencmert.com
@@ -283127,7 +283037,6 @@
 0.0.0.0 hewruieyrui-gfdgfd-pd3z3.ondigitalocean.app
 0.0.0.0 hews.healthygenez.club
 0.0.0.0 hews.ulitron.ru
-0.0.0.0 hewsseen-tear.xyz
 0.0.0.0 hex.amaniwa.ru
 0.0.0.0 hex.elitoras.ru
 0.0.0.0 hex.ulitron.ru
@@ -284529,7 +284438,6 @@
 0.0.0.0 hiranovainsaat.com
 0.0.0.0 hiraokabjj.com
 0.0.0.0 hirdbeetroots.club
-0.0.0.0 hire-just-deep.xyz
 0.0.0.0 hire.amaniwa.ru
 0.0.0.0 hire.boletuso.ru
 0.0.0.0 hire.easyinterviewbookingsp.com
@@ -286089,7 +285997,6 @@
 0.0.0.0 holdmembershipntfx.aulaseidec.com
 0.0.0.0 holdmybeerofficial.com
 0.0.0.0 holdnoticefifththird.duckdns.org
-0.0.0.0 holdpogohaul.xyz
 0.0.0.0 holdstation-swap.vercel.app
 0.0.0.0 holdstory.com
 0.0.0.0 holduplogic.godaddysites.com
@@ -287409,14 +287316,12 @@
 0.0.0.0 hoommie.com
 0.0.0.0 hoooo.pages.dev
 0.0.0.0 hooooooo000000.000webhostapp.com
-0.0.0.0 hoop-chad-gust.xyz
 0.0.0.0 hoopearrings.000webhostapp.com
 0.0.0.0 hooped.timanar.ru
 0.0.0.0 hooperleather.co.uk
 0.0.0.0 hoopilibusinesspark.com
 0.0.0.0 hooping.alohahomestaging.com
 0.0.0.0 hoopla.timanar.ru
-0.0.0.0 hoopramplawn.xyz
 0.0.0.0 hoopsnsand.com
 0.0.0.0 hoopstara.vercel.app
 0.0.0.0 hoopswithoutborders.com
@@ -290593,7 +290498,6 @@
 0.0.0.0 hull.dedspac.ru
 0.0.0.0 hull.ulitron.ru
 0.0.0.0 hullico.com
-0.0.0.0 hullmall-cool.xyz
 0.0.0.0 hullo.dedspac.ru
 0.0.0.0 hullo.virosat.ru
 0.0.0.0 hulls.virosat.ru
@@ -293427,7 +293331,6 @@
 0.0.0.0 iconnectdapps.net
 0.0.0.0 iconnectpro.digital
 0.0.0.0 iconrack.top
-0.0.0.0 iconropeknob.xyz
 0.0.0.0 icons.virosat.ru
 0.0.0.0 iconsorciodigital.com.br
 0.0.0.0 iconsultasapple.com
@@ -293936,7 +293839,6 @@
 0.0.0.0 ide.bortogat.ru
 0.0.0.0 idea-logowanie.live
 0.0.0.0 idea-meta-idd394786520.pages.dev
-0.0.0.0 idea-nickdoor.xyz
 0.0.0.0 idea.amaniwa.ru
 0.0.0.0 idea.boletuso.ru
 0.0.0.0 idea.dedspac.ru
@@ -299477,7 +299379,6 @@
 0.0.0.0 infocontact.duckdns.org
 0.0.0.0 infocoursrierar24.dynv6.net
 0.0.0.0 infocpom.myportfolio.com
-0.0.0.0 infocrabcob.xyz
 0.0.0.0 infocrality-ai17t11d-certnotionx.pages.dev
 0.0.0.0 infocreatorstudiocommunitystandards.co.vu
 0.0.0.0 infocrnpi3.temp.swtest.ru
@@ -310782,7 +310683,6 @@
 0.0.0.0 jerk.jump.artisola.ru
 0.0.0.0 jerk.siliquastrum.ru
 0.0.0.0 jerk.ulitron.ru
-0.0.0.0 jerkloss-flux.xyz
 0.0.0.0 jerky.ulitron.ru
 0.0.0.0 jerl.ga
 0.0.0.0 jerl.ulitron.ru
@@ -311696,10 +311596,8 @@
 0.0.0.0 jilontvx.beget.tech
 0.0.0.0 jilotrapo.ru
 0.0.0.0 jilshflbsxfzaktc-dot-millinium.ey.r.appspot.com
-0.0.0.0 jilt-elsebeam.xyz
 0.0.0.0 jilt.dedspac.ru
 0.0.0.0 jilt.ulitron.ru
-0.0.0.0 jiltparkhint.xyz
 0.0.0.0 jiluoapp.top
 0.0.0.0 jilzrlpzzxhkagni-dot-millinium.ey.r.appspot.com
 0.0.0.0 jim-store.top
@@ -318275,7 +318173,6 @@
 0.0.0.0 justsmsf.com.au
 0.0.0.0 justsmsfaudits.com.au
 0.0.0.0 justsqianthink.com
-0.0.0.0 juststep-rent.xyz
 0.0.0.0 justtattoodesigns.com
 0.0.0.0 justtellme-a42def.ingress-earth.easywp.com
 0.0.0.0 justtiktokblog.com
@@ -321322,7 +321219,6 @@
 0.0.0.0 keps.dedspac.ru
 0.0.0.0 kepsa.or.ke
 0.0.0.0 kept.ulitron.ru
-0.0.0.0 keptpilekeep.xyz
 0.0.0.0 keputong.com
 0.0.0.0 keqfeer.com.ng
 0.0.0.0 keqpwdncyrqdidbd-dot-millinium.ey.r.appspot.com
@@ -321753,7 +321649,6 @@
 0.0.0.0 kgathazwmx.0324.gencmert.com
 0.0.0.0 kgbcoins.com
 0.0.0.0 kgbemvemlr.duckdns.org
-0.0.0.0 kgbhost.digital
 0.0.0.0 kgbqqlgfey.duckdns.org
 0.0.0.0 kgculgondwaufojc-dot-millinium.ey.r.appspot.com
 0.0.0.0 kgcustoms.gov.vn
@@ -322403,7 +322298,6 @@
 0.0.0.0 kilt.boletuso.ru
 0.0.0.0 kilts.fr
 0.0.0.0 kilts.ulitron.ru
-0.0.0.0 kiltwent-our.xyz
 0.0.0.0 kilua12.github.io
 0.0.0.0 kilvtakllrkwuejj-dot-millinium.ey.r.appspot.com
 0.0.0.0 kilzuupuwtao.vercel.app
@@ -322560,7 +322454,6 @@
 0.0.0.0 kinfinfmkafa.vercel.app
 0.0.0.0 king-5f12.demozor1217.workers.dev
 0.0.0.0 king-contenido-prod.secure2.footprint.net
-0.0.0.0 king-culmdown.xyz
 0.0.0.0 king-oreoo-23.com
 0.0.0.0 king-prawn-app-9ab8w.ondigitalocean.app
 0.0.0.0 king-prawn-dfjghjkfdkdfg-vvy5w.ondigitalocean.app
@@ -324299,7 +324192,6 @@
 0.0.0.0 knosp.ulitron.ru
 0.0.0.0 knot.ulitron.ru
 0.0.0.0 knotewhirlwind.javiervilalta.com
-0.0.0.0 knotgymstwo.xyz
 0.0.0.0 knotinabox.ca
 0.0.0.0 knotomar.net
 0.0.0.0 knots.ulitron.ru
@@ -329330,7 +329222,6 @@
 0.0.0.0 laccount-netflix.ddns.net
 0.0.0.0 laccvery1.ucce.my.id
 0.0.0.0 lace-amethyst-thyme.glitch.me
-0.0.0.0 lace-wise-crop.xyz
 0.0.0.0 lace.org.ar
 0.0.0.0 lace.ulitron.ru
 0.0.0.0 laced-false-tibia.glitch.me
@@ -330398,7 +330289,6 @@
 0.0.0.0 lasso.dedspac.ru
 0.0.0.0 lassolinks.com
 0.0.0.0 last-chainleash.net
-0.0.0.0 last-hull-brig.xyz
 0.0.0.0 last-minute-bang.000webhostapp.com
 0.0.0.0 last-step-for-process-appeal.review-submission.repl.co
 0.0.0.0 last-v01.tk
@@ -330537,7 +330427,6 @@
 0.0.0.0 latha-cv.github.io
 0.0.0.0 lathe.ulitron.ru
 0.0.0.0 laths.dedspac.ru
-0.0.0.0 lathvetoiris.xyz
 0.0.0.0 lathy.dedspac.ru
 0.0.0.0 lathy.ulitron.ru
 0.0.0.0 laticostate.ruhodo.ru
@@ -331925,7 +331814,6 @@
 0.0.0.0 leaf-voracious-name.glitch.me
 0.0.0.0 leaf.boletuso.ru
 0.0.0.0 leafapppmoz.giraffe500.workers.dev
-0.0.0.0 leafcash-even.xyz
 0.0.0.0 leafcup.ruhodo.ru
 0.0.0.0 leaffi.jp
 0.0.0.0 leaflandscapesupplyonlinesecureinvoicingservice.on.fleek.co
@@ -334082,7 +333970,6 @@
 0.0.0.0 lestrislam.online
 0.0.0.0 lesuwutronni.vercel.app
 0.0.0.0 lesview.com
-0.0.0.0 let-dyed-crow.xyz
 0.0.0.0 let-ledgrcom-stert.webflow.io
 0.0.0.0 let-mail.online
 0.0.0.0 let-v55.tk
@@ -334960,7 +334847,6 @@
 0.0.0.0 licitacao.rc.sp.gov.br
 0.0.0.0 licittare.com.br
 0.0.0.0 lickermoon.net
-0.0.0.0 lickinchmail.xyz
 0.0.0.0 licks.ulitron.ru
 0.0.0.0 licks.virosat.ru
 0.0.0.0 licloud.web.app
@@ -335354,7 +335240,6 @@
 0.0.0.0 like-fluttering-cymbal.glitch.me
 0.0.0.0 like-grand-lemonade.glitch.me
 0.0.0.0 like-grizzly-pram.glitch.me
-0.0.0.0 like-hold-fray.xyz
 0.0.0.0 like-honey-albertonykus.glitch.me
 0.0.0.0 like-past-curiosity.glitch.me
 0.0.0.0 like-snapdragon-damselfly.glitch.me
@@ -337287,14 +337172,12 @@
 0.0.0.0 live-enledger.typedream.app
 0.0.0.0 live-event-microsoft.ubpages.com
 0.0.0.0 live-faceb00k.com
-0.0.0.0 live-fled-slam.xyz
 0.0.0.0 live-g-mail.com
 0.0.0.0 live-gemini.webflow.io
 0.0.0.0 live-girlz.com
 0.0.0.0 live-grabsession35.vercel.app
 0.0.0.0 live-grabsession39.vercel.app
 0.0.0.0 live-halifax.com
-0.0.0.0 live-helpinfo.xyz
 0.0.0.0 live-hsbc-service.com
 0.0.0.0 live-identifier.com
 0.0.0.0 live-idia.com
@@ -339414,7 +339297,6 @@
 0.0.0.0 loanmone23.com
 0.0.0.0 loanserver.mayocoo.com
 0.0.0.0 loanservice.vip
-0.0.0.0 loansome-rare.xyz
 0.0.0.0 loanthali.com
 0.0.0.0 loanwuc.vip
 0.0.0.0 loapsidsfkoaodiaodspd.site
@@ -342848,7 +342730,6 @@
 0.0.0.0 lookatmydemo.com
 0.0.0.0 lookatmynewphotos.com
 0.0.0.0 lookbemine.fr
-0.0.0.0 lookbergseal.xyz
 0.0.0.0 lookdigital.co
 0.0.0.0 looker.org.uk
 0.0.0.0 lookerteds.site
@@ -343055,7 +342936,6 @@
 0.0.0.0 lord.dedspac.ru
 0.0.0.0 lord2jbpages.pages.dev
 0.0.0.0 lordakhyul.duckdns.org
-0.0.0.0 lordcozytrap.xyz
 0.0.0.0 lordgimmeasign.vercel.app
 0.0.0.0 lordhavemercy.diskstation.eu
 0.0.0.0 lordkrishnaschool.co.in
@@ -343186,7 +343066,6 @@
 0.0.0.0 loss.milotraf.ru
 0.0.0.0 lossand-disappointment.duckdns.org
 0.0.0.0 lossmall.cc
-0.0.0.0 losspreyshot.xyz
 0.0.0.0 lossy.ulitron.ru
 0.0.0.0 lossy.virosat.ru
 0.0.0.0 lost-apple.info
@@ -344510,7 +344389,6 @@
 0.0.0.0 lucker.co
 0.0.0.0 luckey.hopto.org
 0.0.0.0 luckeymedia.com
-0.0.0.0 luckfort-grim.xyz
 0.0.0.0 luckhok.com
 0.0.0.0 luckhotstreak.quest
 0.0.0.0 luckiestmint1.vercel.app
@@ -344944,7 +344822,6 @@
 0.0.0.0 lula.ulitron.ru
 0.0.0.0 lulilab.com.br
 0.0.0.0 luliporst.com
-0.0.0.0 lull-islebrew.xyz
 0.0.0.0 lull.ulitron.ru
 0.0.0.0 lulu.boletuso.ru
 0.0.0.0 lulu.pnckswap.financial
@@ -347140,6 +347017,7 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
+0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -354647,7 +354525,6 @@
 0.0.0.0 malcrboole.cyou
 0.0.0.0 maldi2.com.global.prod.fastly.net
 0.0.0.0 maldrove.online
-0.0.0.0 male-martloss.xyz
 0.0.0.0 male.ulitron.ru
 0.0.0.0 maleahjenkins.org
 0.0.0.0 maledict-deflectors.000webhostapp.com
@@ -355743,7 +355620,6 @@
 0.0.0.0 manya1127.github.io
 0.0.0.0 manyamerdc.org.zw
 0.0.0.0 manygoodnews.com
-0.0.0.0 manyhaste-seat.xyz
 0.0.0.0 manymindz33.wixsite.com
 0.0.0.0 manzyisk.cc
 0.0.0.0 manzylowry.com
@@ -356843,7 +356719,6 @@
 0.0.0.0 markhamchesterfield.com
 0.0.0.0 markhamwallis.com
 0.0.0.0 markhande.github.io
-0.0.0.0 markherdbark.xyz
 0.0.0.0 markin.com.ng
 0.0.0.0 markin.github.io
 0.0.0.0 markinfo.ru
@@ -357832,7 +357707,6 @@
 0.0.0.0 matconcorporation.com
 0.0.0.0 matd.online
 0.0.0.0 matd.website
-0.0.0.0 mate-limegive.xyz
 0.0.0.0 mate-mask.top
 0.0.0.0 mate.dedspac.ru
 0.0.0.0 mate.ulitron.ru
@@ -358027,7 +357901,6 @@
 0.0.0.0 matexworldwideexpress.com
 0.0.0.0 matey.dedspac.ru
 0.0.0.0 matey.ulitron.ru
-0.0.0.0 math-buoy-seen.xyz
 0.0.0.0 math.kz
 0.0.0.0 math.lspu48.ru
 0.0.0.0 math.mak.ac.ug
@@ -358672,7 +358545,6 @@
 0.0.0.0 maze.dedspac.ru
 0.0.0.0 mazed.ulitron.ru
 0.0.0.0 mazedeliversatilesol.netlify.app
-0.0.0.0 mazeduskloud.xyz
 0.0.0.0 mazefashions.im
 0.0.0.0 mazer.ulitron.ru
 0.0.0.0 mazh.inventnamb.click
@@ -361531,7 +361403,6 @@
 0.0.0.0 mercyhealthcare.org.in
 0.0.0.0 merde.ulitron.ru
 0.0.0.0 merdictfowz.nl
-0.0.0.0 mere-tosspush.xyz
 0.0.0.0 mere.boletuso.ru
 0.0.0.0 mere.ulitron.ru
 0.0.0.0 merecemosalemdetudo.club
@@ -370910,7 +370781,6 @@
 0.0.0.0 milkeywayfishing.com
 0.0.0.0 milkforyoumari1.000webhostapp.com
 0.0.0.0 milkfountain.com
-0.0.0.0 milkgang-yell.xyz
 0.0.0.0 milkiest-technology.000webhostapp.com
 0.0.0.0 milkiran.ir
 0.0.0.0 milknug.servicesamz-2.duckdns.org
@@ -373741,9 +373611,7 @@
 0.0.0.0 moalooec.net
 0.0.0.0 moalooee.net
 0.0.0.0 moamen-eg.com
-0.0.0.0 moan-prod-did.xyz
 0.0.0.0 moan.ulitron.ru
-0.0.0.0 moandownsave.xyz
 0.0.0.0 moans.dedspac.ru
 0.0.0.0 moarganity.com
 0.0.0.0 moartraffic.com
@@ -374668,7 +374536,6 @@
 0.0.0.0 modbqhitvtijabbh-dot-millinium.ey.r.appspot.com
 0.0.0.0 modcraftmc.fr
 0.0.0.0 moddb.fr
-0.0.0.0 mode-poll-grew.xyz
 0.0.0.0 mode.xlaunch-pads.xyz
 0.0.0.0 modecchallenger.com
 0.0.0.0 modecchallenger.pro
@@ -376488,7 +376355,6 @@
 0.0.0.0 mothopogamelodge.co.za
 0.0.0.0 mothrash.vercel.app
 0.0.0.0 mothvvcc6ggh.ml
-0.0.0.0 mothwellkeep.xyz
 0.0.0.0 mothy.dedspac.ru
 0.0.0.0 mothy.ulitron.ru
 0.0.0.0 moti-mksk-logeiyz.godaddysites.com
@@ -376596,7 +376462,6 @@
 0.0.0.0 motteiru.ru
 0.0.0.0 mottino.pl
 0.0.0.0 mottivationaldrive.xyz
-0.0.0.0 mottl-dirtnine.xyz
 0.0.0.0 mottmputbagricole.hopto.org
 0.0.0.0 motto.dedspac.ru
 0.0.0.0 motto.ulitron.ru
@@ -376731,7 +376596,6 @@
 0.0.0.0 movalphotos.com
 0.0.0.0 movapp-openidco.shop
 0.0.0.0 movbmog.ga
-0.0.0.0 move-dram-film.xyz
 0.0.0.0 move.boletuso.ru
 0.0.0.0 move6352.000webhostapp.com
 0.0.0.0 moveandgroovedj.com
@@ -386722,7 +386586,6 @@
 0.0.0.0 neartreatfreeman.000webhostapp.com
 0.0.0.0 nearwalet.top
 0.0.0.0 nearwallet.com.saranaglobaltelecom.com
-0.0.0.0 nearzero-drug.xyz
 0.0.0.0 neasiatravels.com
 0.0.0.0 neat-absorbing-discovery.glitch.me
 0.0.0.0 neat-architecture-869594.framer.app
@@ -391160,7 +391023,6 @@
 0.0.0.0 next-group.biz
 0.0.0.0 next-instaclone.vercel.app
 0.0.0.0 next-instagram-clone-alpha.vercel.app
-0.0.0.0 next-jazz-iron.xyz
 0.0.0.0 next-js-airbnb-clone-sigma.vercel.app
 0.0.0.0 next-member-garena.vn
 0.0.0.0 next-netflix-22nd-modelly.vercel.app
@@ -392198,7 +392060,6 @@
 0.0.0.0 nicchubutai.sa-kon.net
 0.0.0.0 niccolumo.ru
 0.0.0.0 nicdftmwenfxsebi-dot-millinium.ey.r.appspot.com
-0.0.0.0 nice-aunt-milk.xyz
 0.0.0.0 nice-bell.134-209-243-30.plesk.page
 0.0.0.0 nice-bhaskara.198-23-176-68.plesk.page
 0.0.0.0 nice-brass-authorization.glitch.me
@@ -392212,7 +392073,6 @@
 0.0.0.0 nice-mendel.91-190-155-120.plesk.page
 0.0.0.0 nice-moser.193-111-31-93.plesk.page
 0.0.0.0 nice-perlman.74-208-206-87.plesk.page
-0.0.0.0 nice-poolback.xyz
 0.0.0.0 nice-prism-lipstick.glitch.me
 0.0.0.0 nice-strong-hurricane.glitch.me
 0.0.0.0 nice-wirehaired-banana-someprivacymustcome.glitch.me
@@ -392280,7 +392140,6 @@
 0.0.0.0 nickmitricka.com
 0.0.0.0 nickmundy.com
 0.0.0.0 nicknack.hu
-0.0.0.0 nickodds-none.xyz
 0.0.0.0 nickpaez.com
 0.0.0.0 nickrobinsonart.com
 0.0.0.0 nickstechnicalservices.com
@@ -392742,7 +392601,6 @@
 0.0.0.0 nine-a.p.adnxs.com
 0.0.0.0 nine-akt1fkan-paylteridn.thebestns.biz.id
 0.0.0.0 nine-brindle-hippopotamus.glitch.me
-0.0.0.0 nine-edge-was.xyz
 0.0.0.0 nine-fanatical-mortarboard.glitch.me
 0.0.0.0 nine-gusty-riddle.glitch.me
 0.0.0.0 nine-letterpress.com
@@ -398445,9 +398303,7 @@
 0.0.0.0 obev.pauya.de
 0.0.0.0 obex.amaniwa.ru
 0.0.0.0 obey.dedspac.ru
-0.0.0.0 obeylandchap.xyz
 0.0.0.0 obeys.dedspac.ru
-0.0.0.0 obeyyellwool.xyz
 0.0.0.0 obfgy-uniqa.ghjigclbopy.es
 0.0.0.0 obfsvdojqkzqtuddvojbaszvtx-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 obfuscateddump.info
@@ -404789,7 +404645,6 @@
 0.0.0.0 open-nft.io
 0.0.0.0 open-nftburn.firebaseapp.com
 0.0.0.0 open-p.jdevcloud.com
-0.0.0.0 open-pact-fore.xyz
 0.0.0.0 open-pattern-7567-4812.vercel.app
 0.0.0.0 open-premium-membership.websitepro.hosting
 0.0.0.0 open-rekrutmen-freelance-2024.chek5.my.id
@@ -404805,7 +404660,6 @@
 0.0.0.0 open-sex-service-6s7.pages.dev
 0.0.0.0 open-spot-pt.com
 0.0.0.0 open-sudsy-poppy.glitch.me
-0.0.0.0 open-teem-test.xyz
 0.0.0.0 open-to--here.surge.sh
 0.0.0.0 open-token.sale
 0.0.0.0 open-trezxor-auth.square.site
@@ -406720,7 +406574,6 @@
 0.0.0.0 oreowa.tetraida.top
 0.0.0.0 oreqi.com
 0.0.0.0 orerwinsaddso.tk
-0.0.0.0 ores-font-form.xyz
 0.0.0.0 oresac.com
 0.0.0.0 oresponsive.org
 0.0.0.0 orestes.project-dev.in
@@ -407126,7 +406979,6 @@
 0.0.0.0 oryj8-jzbmc.ads.tremorhub.com
 0.0.0.0 oryntrassai.click
 0.0.0.0 oryvessa-qelmorin-ai.com
-0.0.0.0 oryx-foryell.xyz
 0.0.0.0 oryx.dedspac.ru
 0.0.0.0 oryxcaracalsecurity.com
 0.0.0.0 oryxomilonix.click
@@ -407842,7 +407694,6 @@
 0.0.0.0 ousts.dedspac.ru
 0.0.0.0 ousts.ulitron.ru
 0.0.0.0 ousvavbiqh.duckdns.org
-0.0.0.0 out-duct-till.xyz
 0.0.0.0 out-lok.hpage.com
 0.0.0.0 out-look-284422.df.r.appspot.com
 0.0.0.0 out-owa.co.nf
@@ -408411,7 +408262,6 @@
 0.0.0.0 oveman-austral.com
 0.0.0.0 ovens.ulitron.ru
 0.0.0.0 ovenzano.com
-0.0.0.0 over-clapmolt.xyz
 0.0.0.0 over-heidbericht.com
 0.0.0.0 over.dedspac.ru
 0.0.0.0 over.ulitron.ru
@@ -410496,7 +410346,6 @@
 0.0.0.0 page-verify-for-opprtunity.vercel.app
 0.0.0.0 page-verify-now-coinbsehelp.github.io
 0.0.0.0 page-verifysecurityaccount.live
-0.0.0.0 page-vest-lost.xyz
 0.0.0.0 page-violation-1-remove.replit.app
 0.0.0.0 page-violation-fpfhf.ondigitalocean.app
 0.0.0.0 page-violation-issues-46fa0.web.app
@@ -411404,7 +411253,6 @@
 0.0.0.0 pallu.ulitron.ru
 0.0.0.0 palluch-valide.cf
 0.0.0.0 pally.dedspac.ru
-0.0.0.0 palm-cartfind.xyz
 0.0.0.0 palm-desert-sapphire.glitch.me
 0.0.0.0 palm-entertaining-spur.glitch.me
 0.0.0.0 palm-leather-orca.glitch.me
@@ -412132,7 +411980,6 @@
 0.0.0.0 pantelias.gr
 0.0.0.0 panterapublicidade.com.br
 0.0.0.0 panterpro.com
-0.0.0.0 pantfontmalt.xyz
 0.0.0.0 pantheragear.com
 0.0.0.0 pantherp19.github.io
 0.0.0.0 panthertools.app
@@ -412178,7 +412025,6 @@
 0.0.0.0 pap.ulitron.ru
 0.0.0.0 pap38er.duckdns.org
 0.0.0.0 papa-chinos.com
-0.0.0.0 papa-graze-wart.xyz
 0.0.0.0 papa029eo3.de
 0.0.0.0 papa2oracle.ddnsfree.com
 0.0.0.0 papaentulhoba.com
@@ -412825,9 +412671,6 @@
 0.0.0.0 parssteel.com
 0.0.0.0 parstec.co.za
 0.0.0.0 part-ameli-remboursement.com
-0.0.0.0 part-doselawn.xyz
-0.0.0.0 part-lame-door.xyz
-0.0.0.0 part-tape-into.xyz
 0.0.0.0 part.dedspac.ru
 0.0.0.0 part.eyrehead.com
 0.0.0.0 part.unaux.com
@@ -413252,7 +413095,6 @@
 0.0.0.0 past-datehold-uspost.zyns.com
 0.0.0.0 past-grandiose-spot.glitch.me
 0.0.0.0 past-lightning-chauffeur.glitch.me
-0.0.0.0 past-reefprin.xyz
 0.0.0.0 past-woozy-jacket.glitch.me
 0.0.0.0 past.dedspac.ru
 0.0.0.0 past.eu-gb.cf.appdomain.cloud
@@ -416298,7 +416140,6 @@
 0.0.0.0 peepy.ulitron.ru
 0.0.0.0 peepy.virosat.ru
 0.0.0.0 peeqkkfrk3lriurgqlmyu2rkywuem0mahs.pages.dev
-0.0.0.0 peer-tend-urge.xyz
 0.0.0.0 peer-voiceime.com
 0.0.0.0 peer.dedspac.ru
 0.0.0.0 peer.ulitron.ru
@@ -418096,7 +417937,6 @@
 0.0.0.0 pestola.space
 0.0.0.0 pestopremium.shop
 0.0.0.0 pestproblemsspain.com
-0.0.0.0 pestrear-lamp.xyz
 0.0.0.0 pestrec-mariansky.eu
 0.0.0.0 pests.ulitron.ru
 0.0.0.0 pesttechllc.com
@@ -419919,7 +419759,6 @@
 0.0.0.0 pilbataryamarketi.com
 0.0.0.0 pilch.ulitron.ru
 0.0.0.0 pilcharda.site
-0.0.0.0 pile-thinuse.xyz
 0.0.0.0 pile.fr
 0.0.0.0 pilea.ulitron.ru
 0.0.0.0 piled.dedspac.ru
@@ -420074,7 +419913,6 @@
 0.0.0.0 pindy.ulitron.ru
 0.0.0.0 pine-accidental-newsstand.glitch.me
 0.0.0.0 pine-artistic-foam.glitch.me
-0.0.0.0 pine-bathbear.xyz
 0.0.0.0 pine-pushy-caribou.glitch.me
 0.0.0.0 pine-viridian-hoverfly.glitch.me
 0.0.0.0 pine.ulitron.ru
@@ -421298,7 +421136,6 @@
 0.0.0.0 plam-meta-zon-biz.pages.dev
 0.0.0.0 plamaut-ai-edge.live
 0.0.0.0 plamtech.com
-0.0.0.0 plan-druggrape.xyz
 0.0.0.0 plan-opensea.com
 0.0.0.0 plan.dedspac.ru
 0.0.0.0 plan.hemilynescudero.com
@@ -422161,7 +421998,6 @@
 0.0.0.0 pluckyyouth.com
 0.0.0.0 pluff.dedspac.ru
 0.0.0.0 pluff.ulitron.ru
-0.0.0.0 plug-halo-flip.xyz
 0.0.0.0 plug.plugerr.com
 0.0.0.0 plugcertbp.resgitsplugacxecssid.xyz
 0.0.0.0 plugdistant.com
@@ -422819,13 +422655,11 @@
 0.0.0.0 podgladperonowy.info
 0.0.0.0 podgladwiesci24.info
 0.0.0.0 podgy.ulitron.ru
-0.0.0.0 podhelp-peat.xyz
 0.0.0.0 podia.dedspac.ru
 0.0.0.0 podion.vionn.top
 0.0.0.0 podissosta.cyou
 0.0.0.0 podlasiegotuje.pl
 0.0.0.0 podloka.ru
-0.0.0.0 podlossrota.xyz
 0.0.0.0 podologik.ca
 0.0.0.0 podpiskaboom.xyz
 0.0.0.0 podr-tv.ddns.net
@@ -422858,7 +422692,6 @@
 0.0.0.0 poemprompt.com
 0.0.0.0 poems.ulitron.ru
 0.0.0.0 poemsforsale.com
-0.0.0.0 poemtendriot.xyz
 0.0.0.0 poeopeal.blogspot.com
 0.0.0.0 poeorisikfixjfidfisfjsfis.site
 0.0.0.0 poeorson.pages.dev
@@ -422892,7 +422725,6 @@
 0.0.0.0 pogge.dedspac.ru
 0.0.0.0 poggenpoelseo.com
 0.0.0.0 pogjgmhnvnbvnbjbjb.site
-0.0.0.0 pogo-hunt-brisk.xyz
 0.0.0.0 pogonruda.pl
 0.0.0.0 pogotowie-24h.org.pl
 0.0.0.0 pogreb-complect.ru
@@ -423493,7 +423325,6 @@
 0.0.0.0 pollo123sad.000webhostapp.com
 0.0.0.0 pollo8372.multiscreensite.com
 0.0.0.0 pollserver.interpolls.com
-0.0.0.0 pollsort-tick.xyz
 0.0.0.0 pollutionshortage.com
 0.0.0.0 pollvol.com
 0.0.0.0 polly.dedspac.ru
@@ -428634,7 +428465,6 @@
 0.0.0.0 prex.dedspac.ru
 0.0.0.0 prexy.dedspac.ru
 0.0.0.0 prexyone.appspot.com
-0.0.0.0 prey-body-word.xyz
 0.0.0.0 prey18.bishoten.ru
 0.0.0.0 prey41.bishoten.ru
 0.0.0.0 prey45.bishoten.ru
@@ -431312,7 +431142,6 @@
 0.0.0.0 propertytradezone.ng
 0.0.0.0 propertyxplore.com
 0.0.0.0 propertyxpress.com.sg
-0.0.0.0 propgrab-bird.xyz
 0.0.0.0 propgurgaon.com
 0.0.0.0 prophecyfilm.com
 0.0.0.0 prophecyreview.com
@@ -440543,7 +440372,6 @@
 0.0.0.0 push-api.topaz-analytics.com
 0.0.0.0 push-legitimierung.com
 0.0.0.0 push-notification.tools
-0.0.0.0 push-seeksash.xyz
 0.0.0.0 push.aarth.net
 0.0.0.0 push.apusapps.com
 0.0.0.0 push.connecto.io
@@ -446402,7 +446230,6 @@
 0.0.0.0 ranjitkumarmehta1.github.io
 0.0.0.0 ranjitmehta.github.io
 0.0.0.0 ranjuramawat.com
-0.0.0.0 rank-idea-mass.xyz
 0.0.0.0 rank.areu.ir
 0.0.0.0 rank.ulitron.ru
 0.0.0.0 rankc1.apserver.net
@@ -446442,7 +446269,6 @@
 0.0.0.0 rannochplay.com
 0.0.0.0 ransomnet.com.au
 0.0.0.0 ransortx.cloudaccess.host
-0.0.0.0 rant-heel-perk.xyz
 0.0.0.0 rant.dedspac.ru
 0.0.0.0 rant.ulitron.ru
 0.0.0.0 rantai.space
@@ -455201,7 +455027,6 @@
 0.0.0.0 richmondcreche.com.au
 0.0.0.0 richmondcsa.org
 0.0.0.0 richngabbers.com
-0.0.0.0 richoverfold.xyz
 0.0.0.0 richpgehlpbsnsrcvrysrvce01.my.id
 0.0.0.0 richsnvail2cdwzf8ududchbc50xnyvpa5cjcows.surge.sh
 0.0.0.0 richsped.com
@@ -455273,7 +455098,6 @@
 0.0.0.0 rideindiaonwheels.com
 0.0.0.0 ridel-one.top
 0.0.0.0 ridelone.top
-0.0.0.0 rideloreomit.xyz
 0.0.0.0 rideofy.com
 0.0.0.0 ridepico.com
 0.0.0.0 ridepush.com
@@ -455372,7 +455196,6 @@
 0.0.0.0 rift.ulitron.ru
 0.0.0.0 riftbars.com
 0.0.0.0 riftescapes.com
-0.0.0.0 riftfacetill.xyz
 0.0.0.0 riftgrbf.shop
 0.0.0.0 riftoticm.com
 0.0.0.0 riftshaft.ga
@@ -456994,7 +456817,6 @@
 0.0.0.0 robbuux.vercel.app
 0.0.0.0 robbyfreerobby.github.io
 0.0.0.0 robbyridltrucking.com
-0.0.0.0 robe-denyharm.xyz
 0.0.0.0 robe.ulitron.ru
 0.0.0.0 robeeexform.blogspot.ae
 0.0.0.0 robeeexform.blogspot.be
@@ -458012,7 +457834,6 @@
 0.0.0.0 rollerdied.com
 0.0.0.0 rollerized.com
 0.0.0.0 rollet.org
-0.0.0.0 rollgropeamid.xyz
 0.0.0.0 rollinghomesrv.com
 0.0.0.0 rollingrubber4u.co.za
 0.0.0.0 rollingslots63.com
@@ -458304,7 +458125,6 @@
 0.0.0.0 root-amfc.web.app
 0.0.0.0 root-amfcu.web.app
 0.0.0.0 root-fox-vocale12.yolasite.com
-0.0.0.0 root-slot-quit.xyz
 0.0.0.0 root.aegialiteso.ru
 0.0.0.0 root.alaudulao.ru
 0.0.0.0 root.anaso.ru
@@ -458339,10 +458159,8 @@
 0.0.0.0 roozaaa.github.io
 0.0.0.0 ropagang.com
 0.0.0.0 ropbinhodloggin.webflow.io
-0.0.0.0 rope-goalalso.xyz
 0.0.0.0 ropersrubber.com
 0.0.0.0 ropes.virosat.ru
-0.0.0.0 ropestem-math.xyz
 0.0.0.0 ropexon.com
 0.0.0.0 ropey.dedspac.ru
 0.0.0.0 ropgp.us
@@ -458408,7 +458226,6 @@
 0.0.0.0 rose-inquisitive-grey.glitch.me
 0.0.0.0 rose-ribbon.shop
 0.0.0.0 rose-tricky-mandrill.glitch.me
-0.0.0.0 rose-wallidea.xyz
 0.0.0.0 rose.ixbt.com
 0.0.0.0 rose.ulitron.ru
 0.0.0.0 rose65.com
@@ -458419,7 +458236,6 @@
 0.0.0.0 roseberryhomestead.org
 0.0.0.0 roseberryleisure.co.uk
 0.0.0.0 rosecc.cf
-0.0.0.0 rosecodeknew.xyz
 0.0.0.0 rosed.dedspac.ru
 0.0.0.0 roseepilationaufil.com
 0.0.0.0 roseflglamin.weebly.com
@@ -458721,7 +458537,6 @@
 0.0.0.0 rousidaosuneilosu5.xyz
 0.0.0.0 rousseuzeseque-4176.vercel.app
 0.0.0.0 roust.virosat.ru
-0.0.0.0 rout-draw-roll.xyz
 0.0.0.0 rout.dedspac.ru
 0.0.0.0 routb.cyou
 0.0.0.0 route-thunder.dvrlists.com
@@ -460525,7 +460340,6 @@
 0.0.0.0 rugs.ulitron.ru
 0.0.0.0 rugsijmymlw.wusps.xyz
 0.0.0.0 rugsmuseum.com.rugsmuseum.in
-0.0.0.0 rugsrudeculm.xyz
 0.0.0.0 ruguo1.top
 0.0.0.0 ruh.boletuso.ru
 0.0.0.0 ruh.dedspac.ru
@@ -460604,7 +460418,6 @@
 0.0.0.0 rule-876532994.5themoments.com
 0.0.0.0 rule-88260005.skinmavel.com
 0.0.0.0 rule-973708294.5themoments.com
-0.0.0.0 rule-bead-dust.xyz
 0.0.0.0 rule-needing-confirmation-ivpo.vercel.app
 0.0.0.0 rule.dedspac.ru
 0.0.0.0 rule.ulitron.ru
@@ -463484,7 +463297,6 @@
 0.0.0.0 saicmotor.fr
 0.0.0.0 saicomm.net.in
 0.0.0.0 saicsc-acs.com
-0.0.0.0 said-site-luck.xyz
 0.0.0.0 said.ulitron.ru
 0.0.0.0 saidagruop.jp
 0.0.0.0 saideepthi27.github.io
@@ -463543,7 +463355,6 @@
 0.0.0.0 saikumarmudumunthala.github.io
 0.0.0.0 saikumarseepana01.github.io
 0.0.0.0 sail-horizon.com
-0.0.0.0 sail-sham-step.xyz
 0.0.0.0 sail.dedspac.ru
 0.0.0.0 sail.timanar.ru
 0.0.0.0 sail.ulitron.ru
@@ -464354,7 +464165,6 @@
 0.0.0.0 same-same.co.uk
 0.0.0.0 same-scandalous-character.glitch.me
 0.0.0.0 same-space-spotify-ashy.vercel.app
-0.0.0.0 same-theeaft.xyz
 0.0.0.0 same-xfdojfk875h-latest.netlify.app
 0.0.0.0 same-zinc-click.glitch.me
 0.0.0.0 same.arianos.ru
@@ -464391,7 +464201,6 @@
 0.0.0.0 same70.diletras.ru
 0.0.0.0 samebhrdkfsswshd.weebly.com
 0.0.0.0 samecitylinz.myftp.org
-0.0.0.0 samecobmill.xyz
 0.0.0.0 samedaydeliverytexas.com
 0.0.0.0 samedayluxurytours.com
 0.0.0.0 samedaypainting.com.au
@@ -464750,7 +464559,6 @@
 0.0.0.0 sancy.dedspac.ru
 0.0.0.0 sand-closed-sweatpants.glitch.me
 0.0.0.0 sand-lapis-nautilus.glitch.me
-0.0.0.0 sand-lure-noon.xyz
 0.0.0.0 sand-plausible-cabbage.glitch.me
 0.0.0.0 sand.nonima.ru
 0.0.0.0 sand.reject5.koportas.ru
@@ -467151,7 +466959,6 @@
 0.0.0.0 scamp.dedspac.ru
 0.0.0.0 scamp.ulitron.ru
 0.0.0.0 scan-bb.com
-0.0.0.0 scan-coolhock.xyz
 0.0.0.0 scan-node-tree.vercel.app
 0.0.0.0 scan.ulitron.ru
 0.0.0.0 scan00091202200500001.lngenuityprep.com
@@ -468752,7 +468559,6 @@
 0.0.0.0 seemakri123.github.io
 0.0.0.0 seemascakes.com
 0.0.0.0 seemed-projected-hughes-sally.trycloudflare.com
-0.0.0.0 seemeet-vine.xyz
 0.0.0.0 seemlessfixing.tech
 0.0.0.0 seemsnerdy.com
 0.0.0.0 seemsspaoman.com
@@ -468760,8 +468566,6 @@
 0.0.0.0 seen.anokoga.ru
 0.0.0.0 seen.dedspac.ru
 0.0.0.0 seen.ulitron.ru
-0.0.0.0 seendone-clef.xyz
-0.0.0.0 seenlamegnat.xyz
 0.0.0.0 seep.ulitron.ru
 0.0.0.0 seeques.com
 0.0.0.0 seer.dedspac.ru
@@ -468949,7 +468753,6 @@
 0.0.0.0 sellingmilliondollarhomes.com
 0.0.0.0 selllikecrazybook.com
 0.0.0.0 sellmeyourtraffic.com
-0.0.0.0 sellnotlife.xyz
 0.0.0.0 selloor.com
 0.0.0.0 sellskin.shop
 0.0.0.0 selltosell.ru
@@ -468993,6 +468796,7 @@
 0.0.0.0 sempervirens.space
 0.0.0.0 sempervirens.xyz
 0.0.0.0 sempladdic.cyou
+0.0.0.0 semprecardsecure.com
 0.0.0.0 sen.dedspac.ru
 0.0.0.0 sen.ulitron.ru
 0.0.0.0 sen02.younetmedia.com
@@ -470034,7 +469838,6 @@
 0.0.0.0 shafou.com
 0.0.0.0 shag.amaniwa.ru
 0.0.0.0 shag.dedspac.ru
-0.0.0.0 shaggulf-sold.xyz
 0.0.0.0 shaggy-variation-568526.framer.app
 0.0.0.0 shah-m-hammad.github.io
 0.0.0.0 shah.dedspac.ru
@@ -470351,7 +470154,6 @@
 0.0.0.0 shenshirt.com
 0.0.0.0 shent.ulitron.ru
 0.0.0.0 shep.ulitron.ru
-0.0.0.0 shepalemess.xyz
 0.0.0.0 shepherd.ff.avast.com
 0.0.0.0 sheppard.fun
 0.0.0.0 sheppard.website
@@ -471187,7 +470989,6 @@
 0.0.0.0 silkroadfuturesdesk.pro
 0.0.0.0 silkymood.com
 0.0.0.0 silkyunif.cfd
-0.0.0.0 sill-flog-aunt.xyz
 0.0.0.0 sill.dedspac.ru
 0.0.0.0 sillage-fondaure-fr.live
 0.0.0.0 sillage-fondaure.live
@@ -471839,7 +471640,6 @@
 0.0.0.0 skewl.dedspac.ru
 0.0.0.0 skews.dedspac.ru
 0.0.0.0 skews.virosat.ru
-0.0.0.0 skewsage-loft.xyz
 0.0.0.0 skey.amaniwa.ru
 0.0.0.0 skey.ulitron.ru
 0.0.0.0 ski.boletuso.ru
@@ -472036,7 +471836,6 @@
 0.0.0.0 sla.bortogat.ru
 0.0.0.0 slab.dedspac.ru
 0.0.0.0 slableakatlanta.com
-0.0.0.0 slabride-herd.xyz
 0.0.0.0 slabs.dedspac.ru
 0.0.0.0 slabs.virosat.ru
 0.0.0.0 slack-app.net
@@ -472049,7 +471848,6 @@
 0.0.0.0 slait.dedspac.ru
 0.0.0.0 slake.dedspac.ru
 0.0.0.0 slam.ulitron.ru
-0.0.0.0 slamlacetube.xyz
 0.0.0.0 slams.dedspac.ru
 0.0.0.0 slan-meta-glur-biz.pages.dev
 0.0.0.0 slanglingo.com
@@ -472190,9 +471988,7 @@
 0.0.0.0 slime.virosat.ru
 0.0.0.0 slimesupplies.net
 0.0.0.0 slimfinloretrade.com
-0.0.0.0 slimnice-brow.xyz
 0.0.0.0 slims.dedspac.ru
-0.0.0.0 slimsidehero.xyz
 0.0.0.0 slimspots.com
 0.0.0.0 slimxxxtubealn.ddns.name
 0.0.0.0 slimxxxtubeanr.ddns.name
@@ -472293,7 +472089,6 @@
 0.0.0.0 slopy.virosat.ru
 0.0.0.0 slosh.dedspac.ru
 0.0.0.0 slot-dunyasi.com
-0.0.0.0 slot-maul-card.xyz
 0.0.0.0 slot.ulitron.ru
 0.0.0.0 slots.dedspac.ru
 0.0.0.0 slotsjjj.com
@@ -472997,8 +472792,6 @@
 0.0.0.0 smtx.belfius.be
 0.0.0.0 smtx.lastminute.com.au
 0.0.0.0 smtx.travel.com.au
-0.0.0.0 smug-graze-omit.xyz
-0.0.0.0 smug-lend-gray.xyz
 0.0.0.0 smugmugincflickrprodudction.112.2o7.net
 0.0.0.0 smur.ulitron.ru
 0.0.0.0 smurhjxx8dbp7rj.duckdns.org
@@ -473483,7 +473276,6 @@
 0.0.0.0 soil.amaniwa.ru
 0.0.0.0 soil.ulitron.ru
 0.0.0.0 soildly.xyz
-0.0.0.0 soilleafmain.xyz
 0.0.0.0 soilvet.info
 0.0.0.0 soja.dedspac.ru
 0.0.0.0 sojagi-xitavo.info
@@ -473545,7 +473337,6 @@
 0.0.0.0 soldi.dedspac.ru
 0.0.0.0 soldierreproduceadmiration.com
 0.0.0.0 soldmyhomessolution.com
-0.0.0.0 sole-cederole.xyz
 0.0.0.0 sole.amaniwa.ru
 0.0.0.0 sole.dedspac.ru
 0.0.0.0 soled.site
@@ -473755,7 +473546,6 @@
 0.0.0.0 songo.dedspac.ru
 0.0.0.0 songs.dedspac.ru
 0.0.0.0 songsar.com
-0.0.0.0 songsunk-view.xyz
 0.0.0.0 soniaborges.com.br
 0.0.0.0 soniariberi.com
 0.0.0.0 soniathousehotel.com
@@ -473829,7 +473619,6 @@
 0.0.0.0 sooke.dedspac.ru
 0.0.0.0 soon.dedspac.ru
 0.0.0.0 soon.ulitron.ru
-0.0.0.0 soonmuff-cob.xyz
 0.0.0.0 soorajvarrma.github.io
 0.0.0.0 soot.amaniwa.ru
 0.0.0.0 sooth.dedspac.ru
@@ -477754,7 +477543,6 @@
 0.0.0.0 stellarwindcraft.digital
 0.0.0.0 stelmio.pl
 0.0.0.0 stelvara.online
-0.0.0.0 stem-doseleft.xyz
 0.0.0.0 stemboastfulrattle.com
 0.0.0.0 stemcommunity.cfd
 0.0.0.0 stemcomnunty.cfd
@@ -478081,7 +477869,6 @@
 0.0.0.0 stooped9.ziyafat.ru
 0.0.0.0 stooped95.ziyafat.ru
 0.0.0.0 stoopidcatsapps.pages.dev
-0.0.0.0 stop-lathtrap.xyz
 0.0.0.0 stop-sign.com
 0.0.0.0 stop-smoking.1.p2l.info
 0.0.0.0 stop.clash19.freebsdo.ru
@@ -478157,7 +477944,6 @@
 0.0.0.0 stopper92.cavalierso.ru
 0.0.0.0 stopper93.cavalierso.ru
 0.0.0.0 stopphoulplay.com
-0.0.0.0 stopplay-rich.xyz
 0.0.0.0 stops.plateri.ru
 0.0.0.0 stops13.witchdors.ru
 0.0.0.0 stops33.courage.zeinar.ru
@@ -478685,7 +478471,6 @@
 0.0.0.0 stuartlippman.rfgapications.com
 0.0.0.0 stub.mainspotvideosfree.best
 0.0.0.0 stub.ulitron.ru
-0.0.0.0 stubclue-hold.xyz
 0.0.0.0 stubhub.122.2o7.net
 0.0.0.0 stuck.dedspac.ru
 0.0.0.0 stud.amaniwa.ru
@@ -478966,7 +478751,6 @@
 0.0.0.0 successionally.potroka.ru
 0.0.0.0 successtuuroretrade.com
 0.0.0.0 succiblarn.cyou
-0.0.0.0 such-sitejoke.xyz
 0.0.0.0 such.amaniwa.ru
 0.0.0.0 such.ulitron.ru
 0.0.0.0 suchen.mobile.de.meine-fahrzeug.de
@@ -479118,7 +478902,6 @@
 0.0.0.0 suitesmanjuba.com.br
 0.0.0.0 suitetrezor-secure.pages.dev
 0.0.0.0 suitetrezor.m-pages.com
-0.0.0.0 suitgive-jerk.xyz
 0.0.0.0 suity.dedspac.ru
 0.0.0.0 suiwallet.cc
 0.0.0.0 suiwalletsolution.pages.dev
@@ -479896,7 +479679,6 @@
 0.0.0.0 sureshrealestate.co.in
 0.0.0.0 suretevalflux.live
 0.0.0.0 surewinsgjackpot.com
-0.0.0.0 surf-life-sank.xyz
 0.0.0.0 surf-pouncing-prosecution.glitch.me
 0.0.0.0 surfcountor.com
 0.0.0.0 surfindave.com
@@ -480191,8 +479973,6 @@
 0.0.0.0 swatteam219.wixsite.com
 0.0.0.0 swattechrmaillrr.weebly.com
 0.0.0.0 sway.amaniwa.ru
-0.0.0.0 swaycladstop.xyz
-0.0.0.0 swayoralnear.xyz
 0.0.0.0 swbs.dedspac.ru
 0.0.0.0 swbs.ulitron.ru
 0.0.0.0 swcs.jp
@@ -481469,7 +481249,6 @@
 0.0.0.0 tamaryanant.com
 0.0.0.0 tamasktool.com
 0.0.0.0 tamasktool.info
-0.0.0.0 tame-damp-nail.xyz
 0.0.0.0 tame.dedspac.ru
 0.0.0.0 tamekranmedya.com
 0.0.0.0 tames.dedspac.ru
@@ -481498,7 +481277,6 @@
 0.0.0.0 tandlab.jp
 0.0.0.0 tandlaegerneistoden.dk
 0.0.0.0 taneshabhatt09.github.io
-0.0.0.0 tang-sail-and.xyz
 0.0.0.0 tang.dedspac.ru
 0.0.0.0 tanga.dedspac.ru
 0.0.0.0 tanganrss.com
@@ -483056,7 +482834,6 @@
 0.0.0.0 tendertest.com
 0.0.0.0 tenderyx.com
 0.0.0.0 tendiamond.quest
-0.0.0.0 tendnone-heel.xyz
 0.0.0.0 tends.dedspac.ru
 0.0.0.0 tengfeidn.cn
 0.0.0.0 tengo.popunder.ru
@@ -483069,7 +482846,6 @@
 0.0.0.0 tennis.oewabox.at
 0.0.0.0 tenosha.ru
 0.0.0.0 tensakuai-ja.com
-0.0.0.0 tenscub-goat.xyz
 0.0.0.0 tense.virosat.ru
 0.0.0.0 tensinorum-new.org
 0.0.0.0 tenterons.ru
@@ -483401,7 +483177,6 @@
 0.0.0.0 term-ez.com
 0.0.0.0 terma.dedspac.ru
 0.0.0.0 termcent.weebly.com
-0.0.0.0 termgruffpost.xyz
 0.0.0.0 terminal-repair.netlify.app
 0.0.0.0 terminally.bibliota.ru
 0.0.0.0 terminar.ru
@@ -483424,12 +483199,10 @@
 0.0.0.0 termserviceupdate.wixsite.com
 0.0.0.0 termstrackersecurity.vercel.app
 0.0.0.0 termsupdate.wixsite.com
-0.0.0.0 tern-beck-chop.xyz
 0.0.0.0 tern-meta.pages.dev
 0.0.0.0 terna.dedspac.ru
 0.0.0.0 ternet.pages.dev
 0.0.0.0 ternica.xyz
-0.0.0.0 ternlaiddram.xyz
 0.0.0.0 terns.dedspac.ru
 0.0.0.0 terns.virosat.ru
 0.0.0.0 teroba.ru
@@ -484681,7 +484454,6 @@
 0.0.0.0 thirtydaychange.com
 0.0.0.0 thiru-vikram.github.io
 0.0.0.0 this-is-a-new-order.vercel.app
-0.0.0.0 this-maimreef.xyz
 0.0.0.0 this-test-proj.vercel.app
 0.0.0.0 this.content.served.by.addshuffle.com
 0.0.0.0 this.content.served.by.adshuffle.com
@@ -485130,7 +484902,6 @@
 0.0.0.0 tilda.dedspac.ru
 0.0.0.0 tilda.virosat.ru
 0.0.0.0 tilde.dedspac.ru
-0.0.0.0 tile-mythwake.xyz
 0.0.0.0 tile.dedspac.ru
 0.0.0.0 tileroofpowerwashing.com
 0.0.0.0 tiles.dedspac.ru
@@ -485148,7 +484919,6 @@
 0.0.0.0 tilofol.ru
 0.0.0.0 tiloraso.ru
 0.0.0.0 tils.ulitron.ru
-0.0.0.0 tilt-wear-weak.xyz
 0.0.0.0 tilt.ulitron.ru
 0.0.0.0 tilth.dedspac.ru
 0.0.0.0 tiltott.net
@@ -485327,7 +485097,6 @@
 0.0.0.0 tiquetes.promocionesyofertaslatam.com
 0.0.0.0 tir94wepsdxox.appspot.com
 0.0.0.0 tira-funex-simo.pages.dev
-0.0.0.0 tire-moat-shin.xyz
 0.0.0.0 tirer.virosat.ru
 0.0.0.0 tirerackcom.112.2o7.net
 0.0.0.0 tiresomethunder.com
@@ -486246,9 +486015,7 @@
 0.0.0.0 torkvulid.click
 0.0.0.0 torkvulidplatform.com
 0.0.0.0 torlena.xyz
-0.0.0.0 torn-beatduct.xyz
 0.0.0.0 torn-meta-priv-biz.pages.dev
-0.0.0.0 torn-midgegrim.xyz
 0.0.0.0 torn.dedspac.ru
 0.0.0.0 torn.ulitron.ru
 0.0.0.0 tornado-cash.link
@@ -488866,7 +488633,6 @@
 0.0.0.0 true-center-527250.framer.app
 0.0.0.0 true-counter.com
 0.0.0.0 true-date.eu
-0.0.0.0 true-gategrin.xyz
 0.0.0.0 true.ulitron.ru
 0.0.0.0 trueawsclicknetappread.hosted.phplist.com
 0.0.0.0 truebellcapital.com.au
@@ -489346,7 +489112,6 @@
 0.0.0.0 tubulla.com
 0.0.0.0 tubulmario.cyou
 0.0.0.0 tucajadeahorrspa.web.app
-0.0.0.0 tuck-hoaxwade.xyz
 0.0.0.0 tuck.dedspac.ru
 0.0.0.0 tucky.dedspac.ru
 0.0.0.0 tucsonhatsusa.com
@@ -489356,7 +489121,6 @@
 0.0.0.0 tudatosanelok.com
 0.0.0.0 tudnodkell.info
 0.0.0.0 tudoalss.com
-0.0.0.0 tue-orange-01.cfd
 0.0.0.0 tue.ulitron.ru
 0.0.0.0 tueragiolene.xyz
 0.0.0.0 tues.dedspac.ru
@@ -489516,7 +489280,6 @@
 0.0.0.0 turnershipex.com
 0.0.0.0 turnersports.112.2o7.net
 0.0.0.0 turnip.cdn.turner.com
-0.0.0.0 turniron-mound.xyz
 0.0.0.0 turnkeynftcollection.shop
 0.0.0.0 turnpikeraisin.logansparlin.com
 0.0.0.0 turnstone-hub.pages.dev
@@ -490258,10 +490021,7 @@
 0.0.0.0 ughvvhyg555ftyrdtgsrtgcfetxdfgvsetxgdfv.fun
 0.0.0.0 ugjsxcpcontacts.mdcomp.com.au
 0.0.0.0 ugli.ulitron.ru
-0.0.0.0 ugly-arcs-lyre.xyz
-0.0.0.0 ugly-oursold.xyz
 0.0.0.0 ugly.ulitron.ru
-0.0.0.0 uglyshop-mare.xyz
 0.0.0.0 ugo.eu-adcenter.net
 0.0.0.0 ugorado.online
 0.0.0.0 ugorado.ru
@@ -494505,6 +494265,7 @@
 0.0.0.0 vcbfdfdrt-3qercwz0jn.edgeone.app
 0.0.0.0 vcbqdfdn.cn
 0.0.0.0 vcbuyiw.duckdns.org
+0.0.0.0 vcc-library.uk
 0.0.0.0 vccaswk.com
 0.0.0.0 vccmissions7.wixstudio.com
 0.0.0.0 vcdaz.danaaktifasiifiturrresmiiq.my.id
@@ -494804,7 +494565,6 @@
 0.0.0.0 venscoffe.com
 0.0.0.0 vent-capitoire-ai.com
 0.0.0.0 vent-capitoireai.com
-0.0.0.0 vent-live-crab.xyz
 0.0.0.0 vent.dedspac.ru
 0.0.0.0 ventajo.sbs
 0.0.0.0 ventanasyaluminios.com.mx
@@ -494852,13 +494612,11 @@
 0.0.0.0 verarbeitungsschritt.info
 0.0.0.0 veratrum.space
 0.0.0.0 veravexnilo.live
-0.0.0.0 verb-fowl-old.xyz
 0.0.0.0 verb.dedspac.ru
 0.0.0.0 verb.ulitron.ru
 0.0.0.0 verbascum.space
 0.0.0.0 verbasorna.cyou
 0.0.0.0 verbification.timanar.ru
-0.0.0.0 verbsireblew.xyz
 0.0.0.0 vercanorv.vercel.app
 0.0.0.0 vercel0a309ef53ff1a92c.vercel.app
 0.0.0.0 vercel13a0ae72b21a4f91.vercel.app
@@ -497873,7 +497631,6 @@
 0.0.0.0 we3bwebma1l-r0unclcube-web3nail-nailweb-deliv3ry.glitch.me
 0.0.0.0 wea.dedspac.ru
 0.0.0.0 weaaletphantom.webflow.io
-0.0.0.0 weak-obeylore.xyz
 0.0.0.0 weal.ulitron.ru
 0.0.0.0 weald.dedspac.ru
 0.0.0.0 weals.dedspac.ru
@@ -497905,7 +497662,6 @@
 0.0.0.0 wealthy-achieved-pudding.glitch.me
 0.0.0.0 wealtrix.digital
 0.0.0.0 weaman.space
-0.0.0.0 wean-bredfact.xyz
 0.0.0.0 wean.ulitron.ru
 0.0.0.0 weapfuh.originalriver-tone.top
 0.0.0.0 wearandlayer.shop
@@ -500246,11 +500002,9 @@
 0.0.0.0 wilhedenit.cyou
 0.0.0.0 wilk.ulitron.ru
 0.0.0.0 wilkiewicz.pl
-0.0.0.0 will-side-weed.xyz
 0.0.0.0 will.ulitron.ru
 0.0.0.0 willa.dedspac.ru
 0.0.0.0 willapasym.pl
-0.0.0.0 willbile-gyms.xyz
 0.0.0.0 willder.xyz
 0.0.0.0 willhab.oewabox.at
 0.0.0.0 willhenk988.github.io
@@ -500300,7 +500054,6 @@
 0.0.0.0 wincleaner.com
 0.0.0.0 wincraftnepal.com
 0.0.0.0 wincreator.ddns.net
-0.0.0.0 wind-cragblur.xyz
 0.0.0.0 wind.ulitron.ru
 0.0.0.0 wind.windmilldrops.com
 0.0.0.0 wind0ws.kz
@@ -500469,7 +500222,6 @@
 0.0.0.0 wisebazaar.cc
 0.0.0.0 wisebazaar.xyz
 0.0.0.0 wisefalcontrail.live
-0.0.0.0 wisemateboth.xyz
 0.0.0.0 wisepops.com
 0.0.0.0 wiserapps.site
 0.0.0.0 wises.dedspac.ru
@@ -500659,7 +500411,6 @@
 0.0.0.0 wolf-kapitthal.live
 0.0.0.0 wolf.virosat.ru
 0.0.0.0 wolfaravmoreaas.online
-0.0.0.0 wolfbill-rope.xyz
 0.0.0.0 wolfetdpc.com
 0.0.0.0 wolleith-ledgerlievs.webflow.io
 0.0.0.0 wolnachwilakiremo.site
@@ -500747,7 +500498,6 @@
 0.0.0.0 word-gread.ddns.net
 0.0.0.0 word-help.3utilities.com
 0.0.0.0 word-lis.myftp.org
-0.0.0.0 word-notcolt.xyz
 0.0.0.0 word-office.myftp.biz
 0.0.0.0 word-online.site
 0.0.0.0 word-proxy.site
@@ -500858,7 +500608,6 @@
 0.0.0.0 workikan.com
 0.0.0.0 working-online.net
 0.0.0.0 workinglikeaman-kmd1tnd2ci.edgeone.app
-0.0.0.0 workmane-seem.xyz
 0.0.0.0 workmora.shop
 0.0.0.0 workmyweb.ro
 0.0.0.0 workopolis.122.2o7.net
@@ -534835,7 +534584,6 @@
 0.0.0.0 youquzhineng.com
 0.0.0.0 your-blockfilogin-acount.webflow.io
 0.0.0.0 your-day.tech
-0.0.0.0 your-duty-cube.xyz
 0.0.0.0 your-edu-forma-id896233pl-condi332.gruppoimmobiliaresceglicasa.com
 0.0.0.0 your-gift-zone.com
 0.0.0.0 your-mail.press
@@ -536252,7 +536000,6 @@
 0.0.0.0 zonawm.biz.popunder.ru
 0.0.0.0 zonconsidersfy.online
 0.0.0.0 zondagpt.click
-0.0.0.0 zone-pour-too.xyz
 0.0.0.0 zone-telechargement-albums.com
 0.0.0.0 zone.dedspac.ru
 0.0.0.0 zoned.dedspac.ru
