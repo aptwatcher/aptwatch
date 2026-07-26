@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-26 00:34:23
-# Entries: 536379
+# Generated: 2026-07-26 06:05:24
+# Entries: 536378
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -178822,7 +178822,6 @@
 0.0.0.0 clee.amaniwa.ru
 0.0.0.0 clee.bortogat.ru
 0.0.0.0 cleeble.pl
-0.0.0.0 cleenfoecleen22.com
 0.0.0.0 clef-departementale.web.app
 0.0.0.0 clef.bortogat.ru
 0.0.0.0 clef.ulitron.ru
@@ -321901,7 +321900,6 @@
 0.0.0.0 khnzkukflxnvtwcbdmovrrbtdd-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 khoaccre247.com
 0.0.0.0 khoadz.shopblackcode.tk
-0.0.0.0 khoancatbetong89.vn
 0.0.0.0 khoancaythep.com
 0.0.0.0 khoavantaycaocap.vn
 0.0.0.0 khobfimjuq.duckdns.org
@@ -330001,6 +329999,7 @@
 0.0.0.0 laphagroup.com
 0.0.0.0 laphoceen.fr
 0.0.0.0 lapiden.com
+0.0.0.0 lapidorseposoalovbs2.com
 0.0.0.0 lapildora.com.ve
 0.0.0.0 lapin.ulitron.ru
 0.0.0.0 lapinadubois.com
@@ -347017,7 +347016,6 @@
 0.0.0.0 m.marketplacepremium24.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
-0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -401334,6 +401332,7 @@
 0.0.0.0 okningfundex.pro
 0.0.0.0 okno.uk
 0.0.0.0 oknogrup.pl
+0.0.0.0 oknoplastik.sk
 0.0.0.0 oknujffxzturhuhd-dot-millinium.ey.r.appspot.com
 0.0.0.0 okogm.com
 0.0.0.0 okok0-3uujff.pages.dev
