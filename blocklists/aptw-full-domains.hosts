@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-26 06:05:24
-# Entries: 536378
+# Generated: 2026-07-26 06:36:31
+# Entries: 536379
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -321900,6 +321900,7 @@
 0.0.0.0 khnzkukflxnvtwcbdmovrrbtdd-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 khoaccre247.com
 0.0.0.0 khoadz.shopblackcode.tk
+0.0.0.0 khoancatbetong89.vn
 0.0.0.0 khoancaythep.com
 0.0.0.0 khoavantaycaocap.vn
 0.0.0.0 khobfimjuq.duckdns.org
