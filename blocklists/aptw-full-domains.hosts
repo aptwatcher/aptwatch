@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-27 06:35:42
-# Entries: 536393
+# Generated: 2026-07-27 12:35:06
+# Entries: 536395
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48659,7 +48659,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -62086,6 +62085,7 @@
 0.0.0.0 aetherkid.com
 0.0.0.0 aetherlumenforge.live
 0.0.0.0 aethersms.com
+0.0.0.0 aethersyncmatrix5.lol
 0.0.0.0 aethertradesoft.com
 0.0.0.0 aethionemaso.ru
 0.0.0.0 aethntwrk.com
@@ -170192,7 +170192,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -216067,6 +216066,7 @@
 0.0.0.0 dsg321.cf
 0.0.0.0 dsg5gd.baollll1.cc
 0.0.0.0 dsgaf.paneldigital.my.id
+0.0.0.0 dsgagfsahkfsahfjs.shop
 0.0.0.0 dsgasasgsaa.blogspot.mk
 0.0.0.0 dsgasasgsaa.blogspot.sn
 0.0.0.0 dsgdfhghjllhg.000webhostapp.com
@@ -260477,7 +260477,6 @@
 0.0.0.0 geny83h92.atwebpages.com
 0.0.0.0 genys.dedspac.ru
 0.0.0.0 genys.virosat.ru
-0.0.0.0 geo-foundation.vg
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 geo.adobe.com
@@ -298639,7 +298638,6 @@
 0.0.0.0 indus.iad-01.braze.com
 0.0.0.0 indus.virosat.ru
 0.0.0.0 induscapitalplatform.live
-0.0.0.0 indusenterprises.co
 0.0.0.0 indusfood.com.pk
 0.0.0.0 indusgreenassociates.com
 0.0.0.0 indusmarket.ru
@@ -452566,6 +452564,7 @@
 0.0.0.0 reservesafegrove.live
 0.0.0.0 reserveyouraccountnow.date
 0.0.0.0 reservornkapdam.digital
+0.0.0.0 reservphotoinstay.one
 0.0.0.0 reserwesoftware.shop
 0.0.0.0 reset-79y.pages.dev
 0.0.0.0 reset-access-login-account-98400121.outdoorfurnituremorganville.com
@@ -457149,6 +457148,7 @@
 0.0.0.0 roblox-gift.xyz
 0.0.0.0 roblox-help.com
 0.0.0.0 roblox-verification.com
+0.0.0.0 roblox-xeno.net
 0.0.0.0 roblox.cam
 0.0.0.0 roblox.cd
 0.0.0.0 roblox.com.ag
@@ -462042,6 +462042,7 @@
 0.0.0.0 s3indonesia.co.id
 0.0.0.0 s3m.mediav.com
 0.0.0.0 s3mfo5rvi.duckdns.org
+0.0.0.0 s3o65awrf56.net
 0.0.0.0 s3pnjx.cn
 0.0.0.0 s3q.github.io
 0.0.0.0 s3r.io
@@ -500878,6 +500879,7 @@
 0.0.0.0 wqfc-casefb017565.vercel.app
 0.0.0.0 wqjps.ethique-services.eu
 0.0.0.0 wqngm.dezceccc.ru
+0.0.0.0 wqok85qtq.net
 0.0.0.0 wqoplzzxcvb.icu
 0.0.0.0 wqy6sey3q.icissitudion.ru
 0.0.0.0 wr0h11.ozouh.es
