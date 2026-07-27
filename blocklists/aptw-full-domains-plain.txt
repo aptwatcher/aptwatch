@@ -282871,6 +282871,7 @@ hero.sashal337.workers.dev
 herodukins.hopto.org
 heroeshandoff.com
 heroesofrpg.com
+heroestales.com
 heroesxa.vercel.app
 heroic-crumble-2f110e.netlify.app
 heroic-gecko-ae944c.netlify.app
@@ -298631,6 +298632,7 @@ indus.dedspac.ru
 indus.iad-01.braze.com
 indus.virosat.ru
 induscapitalplatform.live
+indusenterprises.co
 indusfood.com.pk
 indusgreenassociates.com
 indusmarket.ru
@@ -309691,7 +309693,6 @@ jawab.ulitron.ru
 jawaharchannel.in
 jawan.dedspac.ru
 jawan.ulitron.ru
-jawaratekno.com
 jawasunda.my.id
 jawatan-kosong-perkhidmatan.com
 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -321896,7 +321897,6 @@ khnzd.app.link
 khnzkukflxnvtwcbdmovrrbtdd-dot-gleowayel400503.uc.r.appspot.com
 khoaccre247.com
 khoadz.shopblackcode.tk
-khoancatbetong89.vn
 khoancaythep.com
 khoavantaycaocap.vn
 khobfimjuq.duckdns.org
@@ -355157,6 +355157,7 @@ mandanu-iz1k.vercel.app
 mandapsoflondon.co.uk
 mandar123454.github.io
 mandarin.lasalsamilonga.info
+mandarin.net.au
 mandarin20828374.brizy.site
 mandarin6946768.brizy.site
 mandarinlatino.com
