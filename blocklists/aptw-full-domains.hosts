@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-26 18:33:51
+# Generated: 2026-07-27 00:33:57
 # Entries: 536389
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -65886,7 +65886,6 @@
 0.0.0.0 aidiscord.jiayiapi.cn
 0.0.0.0 aidiscord.whalespet.com
 0.0.0.0 aidjekibawa9jv7.53244ds.xyz
-0.0.0.0 aidlifempowerment.com
 0.0.0.0 aidman.vadilops.ru
 0.0.0.0 aidman.virosat.ru
 0.0.0.0 aidmen.bluestacko.ru
@@ -74676,7 +74675,6 @@
 0.0.0.0 always-instagram.blogspot.com
 0.0.0.0 always-instagram.blogspot.com.uy
 0.0.0.0 always-instagram.blogspot.mk
-0.0.0.0 always-undetected.com
 0.0.0.0 always.coferto.ru
 0.0.0.0 always.virosat.ru
 0.0.0.0 always1.tilofol.ru
@@ -178823,6 +178821,7 @@
 0.0.0.0 clee.amaniwa.ru
 0.0.0.0 clee.bortogat.ru
 0.0.0.0 cleeble.pl
+0.0.0.0 cleenfoecleen22.com
 0.0.0.0 clef-departementale.web.app
 0.0.0.0 clef.bortogat.ru
 0.0.0.0 clef.ulitron.ru
@@ -180259,7 +180258,6 @@
 0.0.0.0 cloudsss-c367.iardainwkasn.workers.dev
 0.0.0.0 cloudsss-e610.rnailruarffoi.workers.dev
 0.0.0.0 cloudstaffer.com
-0.0.0.0 cloudstorage-hub.com
 0.0.0.0 cloudstshop.com
 0.0.0.0 cloudswoodsriver.cloudaccess.host
 0.0.0.0 cloudt-1830.loiumeilaagprezon.workers.dev
@@ -212929,6 +212927,7 @@
 0.0.0.0 dofuspourlesnoobs.fr
 0.0.0.0 dofuspourlesnoobs.info
 0.0.0.0 dofuspourlesnoobs.quest
+0.0.0.0 dofuspourlesnoohs.com
 0.0.0.0 dofuspourlesnooobs.fr
 0.0.0.0 dofuspourlesrnoobs.com
 0.0.0.0 dofuspourslesnoobss.com
@@ -214052,6 +214051,7 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
+0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -260475,6 +260475,7 @@
 0.0.0.0 geny83h92.atwebpages.com
 0.0.0.0 genys.dedspac.ru
 0.0.0.0 genys.virosat.ru
+0.0.0.0 geo-foundation.vg
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 geo.adobe.com
@@ -291476,7 +291477,6 @@
 0.0.0.0 hyper-tangy-court.glitch.me
 0.0.0.0 hyperads.gotrackier.com
 0.0.0.0 hyperbanner.net
-0.0.0.0 hypercorevector9.lol
 0.0.0.0 hypereutectic-equiv.000webhostapp.com
 0.0.0.0 hyperfuturosemanal.com
 0.0.0.0 hypergolically.bibliota.ru
@@ -321903,7 +321903,6 @@
 0.0.0.0 khnzkukflxnvtwcbdmovrrbtdd-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 khoaccre247.com
 0.0.0.0 khoadz.shopblackcode.tk
-0.0.0.0 khoancatbetong89.vn
 0.0.0.0 khoancaythep.com
 0.0.0.0 khoavantaycaocap.vn
 0.0.0.0 khobfimjuq.duckdns.org
@@ -330003,6 +330002,7 @@
 0.0.0.0 laphagroup.com
 0.0.0.0 laphoceen.fr
 0.0.0.0 lapiden.com
+0.0.0.0 lapidorseposoalovbs2.com
 0.0.0.0 lapildora.com.ve
 0.0.0.0 lapin.ulitron.ru
 0.0.0.0 lapinadubois.com
@@ -377403,6 +377403,7 @@
 0.0.0.0 msevo.synology.me
 0.0.0.0 msexchange.dogvilla.ru
 0.0.0.0 msfauth.confirminfo.myonlineportal.net
+0.0.0.0 msfconfig.icu
 0.0.0.0 msfed.officesecure.online
 0.0.0.0 msfkpolymqupzgwjzniclwzzqu-dot-gleow2021ja.ue.r.appspot.com
 0.0.0.0 msfn.us.intellitxt.com
@@ -409880,7 +409881,6 @@
 0.0.0.0 packet-update-track.com
 0.0.0.0 packeta.order3578.eu
 0.0.0.0 packetcodeofficialstuddy.github.io
-0.0.0.0 packetget.com
 0.0.0.0 packetlinal2545packaginaramexs-b7d90a.ingress-daribow.ewp.live
 0.0.0.0 packhonduras.filesusr.com
 0.0.0.0 packinforms001.dynv6.net
@@ -454690,6 +454690,7 @@
 0.0.0.0 rhea.ulitron.ru
 0.0.0.0 rheas.dedspac.ru
 0.0.0.0 rheas.virosat.ru
+0.0.0.0 rheddh.com
 0.0.0.0 rheem.cl
 0.0.0.0 rhegjzdyknhbqfvxfjxudwssli-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 rheiath-hyiouks-mcdoedly.yolasite.com
@@ -473246,7 +473247,6 @@
 0.0.0.0 software-phile.com
 0.0.0.0 software-updates.co
 0.0.0.0 software-wenc.co.cc
-0.0.0.0 softwarecdn.net
 0.0.0.0 softwaresupportsv.com
 0.0.0.0 softwaresupportsv.name
 0.0.0.0 softwareupdatenews.com
@@ -481270,6 +481270,7 @@
 0.0.0.0 tamodesign.shop
 0.0.0.0 tamp.dedspac.ru
 0.0.0.0 tampa.dedspac.ru
+0.0.0.0 tampareroofing.com
 0.0.0.0 tamprc.com
 0.0.0.0 tamqe279-fibre.industrialplane.su
 0.0.0.0 tamsanservis.com
@@ -490679,7 +490680,6 @@
 0.0.0.0 underthesuncolonial.com
 0.0.0.0 undertone.com
 0.0.0.0 undertonenetworks.com
-0.0.0.0 undetected-always.com
 0.0.0.0 undiamonded.kramati.ru
 0.0.0.0 undian-fstfl.biz.id
 0.0.0.0 undian-kupon4.gratis2025.my.id
