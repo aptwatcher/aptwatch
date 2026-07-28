@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-28 06:04:30
-# Entries: 539977
+# Generated: 2026-07-28 06:36:22
+# Entries: 539978
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -138451,6 +138451,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -195970,6 +195971,7 @@
 0.0.0.0 cutt.us
 0.0.0.0 cutt.us.com
 0.0.0.0 cutthecrap.in
+0.0.0.0 cuttingedgefencing.ca
 0.0.0.0 cuttle.virosat.ru
 0.0.0.0 cuttt.ink
 0.0.0.0 cutup.dedspac.ru
@@ -529185,7 +529187,6 @@
 0.0.0.0 www.steamcomunnmity.com
 0.0.0.0 www.steamgifts.5v.pl
 0.0.0.0 www.steamkarta.pl
-0.0.0.0 www.steamrub.com
 0.0.0.0 www.steamtraffic.com
 0.0.0.0 www.stedoquin.pro
 0.0.0.0 www.steelbucks.com
