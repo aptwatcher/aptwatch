@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-28 06:36:22
-# Entries: 539978
+# Generated: 2026-07-28 12:34:05
+# Entries: 539980
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -138451,7 +138451,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -215554,6 +215553,7 @@
 0.0.0.0 dreamad.org
 0.0.0.0 dreamalive5.com
 0.0.0.0 dreamalivemedia.com
+0.0.0.0 dreamapp.xyz
 0.0.0.0 dreamartdesigns.com
 0.0.0.0 dreambasetechnologies.net
 0.0.0.0 dreamboostzu.vercel.app
@@ -336588,7 +336588,6 @@
 0.0.0.0 lindhaprofit.com
 0.0.0.0 lindinasedred.serveminecraft.net
 0.0.0.0 lindleylabs.com
-0.0.0.0 lindnerelektroanlagen.de
 0.0.0.0 lindo.virosat.ru
 0.0.0.0 lindojon.com.br
 0.0.0.0 lindprofitt.com
@@ -453842,6 +453841,7 @@
 0.0.0.0 reserveyouraccountnow.date
 0.0.0.0 reservornkapdam.digital
 0.0.0.0 reservphotoinstay.one
+0.0.0.0 reservphotoinstaynow.shop
 0.0.0.0 reserwesoftware.shop
 0.0.0.0 reset-79y.pages.dev
 0.0.0.0 reset-access-login-account-98400121.outdoorfurnituremorganville.com
@@ -529187,6 +529187,7 @@
 0.0.0.0 www.steamcomunnmity.com
 0.0.0.0 www.steamgifts.5v.pl
 0.0.0.0 www.steamkarta.pl
+0.0.0.0 www.steamrub.com
 0.0.0.0 www.steamtraffic.com
 0.0.0.0 www.stedoquin.pro
 0.0.0.0 www.steelbucks.com
@@ -539868,6 +539869,7 @@
 0.0.0.0 zyberlichbeamaiswitzerland.org
 0.0.0.0 zyberlichbeamaiupdates.com
 0.0.0.0 zyberlichbeamaiupdates.org
+0.0.0.0 zycdjz.com
 0.0.0.0 zyciqyori.autos
 0.0.0.0 zydsmkifgi.duckdns.org
 0.0.0.0 zyfrapro.pro
