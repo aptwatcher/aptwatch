@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-27 18:34:32
-# Entries: 536396
+# Generated: 2026-07-28 00:33:48
+# Entries: 536402
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -117282,6 +117282,7 @@
 0.0.0.0 auth-citizens.com
 0.0.0.0 auth-clen.cf
 0.0.0.0 auth-clientonlinepayee0.com
+0.0.0.0 auth-clo-id.cc
 0.0.0.0 auth-cloud783452.web.app
 0.0.0.0 auth-cnnectwallt.gitbook.io
 0.0.0.0 auth-code-check.info
@@ -124936,6 +124937,7 @@
 0.0.0.0 babycentercom.112.2o7.net
 0.0.0.0 babycomepack.com
 0.0.0.0 babydance-b754d8.ingress-earth.ewp.live
+0.0.0.0 babydiapersinturkey.com
 0.0.0.0 babydoge-new-upgrade.live
 0.0.0.0 babydolls2021.blogspot.com
 0.0.0.0 babydrop.pics
@@ -138306,6 +138308,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -155603,6 +155606,7 @@
 0.0.0.0 breakingwap.thats.im
 0.0.0.0 breakinnews.webnode.do
 0.0.0.0 breaklambodonw.com
+0.0.0.0 breakneckridgefarm.com
 0.0.0.0 breakngrlesaccntpage13th.us.to
 0.0.0.0 breaknull.usedtiresking.com
 0.0.0.0 breakoutreport.com
@@ -170192,6 +170196,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -214042,7 +214047,6 @@
 0.0.0.0 down-load-app.top
 0.0.0.0 down-load-tk.top
 0.0.0.0 down-vv.ddns.net
-0.0.0.0 down.54nb.com
 0.0.0.0 down.amazontaxrebate.com
 0.0.0.0 down.bortogat.ru
 0.0.0.0 down.bybitpro.construction
@@ -321904,6 +321908,7 @@
 0.0.0.0 khnzkukflxnvtwcbdmovrrbtdd-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 khoaccre247.com
 0.0.0.0 khoadz.shopblackcode.tk
+0.0.0.0 khoancatbetong89.vn
 0.0.0.0 khoancaythep.com
 0.0.0.0 khoavantaycaocap.vn
 0.0.0.0 khobfimjuq.duckdns.org
@@ -324869,7 +324874,6 @@
 0.0.0.0 kontenservers-sicherservers.com
 0.0.0.0 kontenservicessonlist.com
 0.0.0.0 kontera.com
-0.0.0.0 konterlink.hippamsas.com
 0.0.0.0 kontikuss.com
 0.0.0.0 konto-abonament.cfd
 0.0.0.0 konto-all.borec.cz
@@ -408164,6 +408168,7 @@
 0.0.0.0 outook.lojaseofertas.com
 0.0.0.0 outplayed.com
 0.0.0.0 outplayed.it
+0.0.0.0 outpost.co.ke
 0.0.0.0 outpostoutdoor.com
 0.0.0.0 outprttoduced.info
 0.0.0.0 outputmediagroup.com
@@ -468811,7 +468816,6 @@
 0.0.0.0 sempervirens.space
 0.0.0.0 sempervirens.xyz
 0.0.0.0 sempladdic.cyou
-0.0.0.0 semprecardsecure.com
 0.0.0.0 sen.dedspac.ru
 0.0.0.0 sen.ulitron.ru
 0.0.0.0 sen02.younetmedia.com
@@ -472680,6 +472684,7 @@
 0.0.0.0 smoke.dedspac.ru
 0.0.0.0 smoke.virosat.ru
 0.0.0.0 smokersopinionpoll.com
+0.0.0.0 smoking-hot.net
 0.0.0.0 smokingeverywhere.122.2o7.net
 0.0.0.0 smokinggun.122.2o7.net
 0.0.0.0 smokinrob.com
@@ -489805,6 +489810,7 @@
 0.0.0.0 uadxti.pages.dev
 0.0.0.0 uae---booking-com.webflow.io
 0.0.0.0 uae.com.br
+0.0.0.0 uafsoftware.in
 0.0.0.0 uagrl9eb0.jsejaxxsget.es
 0.0.0.0 uaid-linkage.imrworldwide.com
 0.0.0.0 uaid.tap3698gr7.cc
