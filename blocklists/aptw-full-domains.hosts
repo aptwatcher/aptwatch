@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-28 12:34:05
-# Entries: 539980
+# Generated: 2026-07-28 18:33:58
+# Entries: 539987
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -219897,6 +219897,7 @@
 0.0.0.0 easyplot.xyz
 0.0.0.0 easyport.in
 0.0.0.0 easyprofithunters.com
+0.0.0.0 easyqapark.vu
 0.0.0.0 easyresearchsolutions.com
 0.0.0.0 easyrideug.com
 0.0.0.0 easys.duckdns.org
@@ -247693,6 +247694,7 @@
 0.0.0.0 findyourphone.org
 0.0.0.0 findyourphone.shop
 0.0.0.0 fine-tv.net
+0.0.0.0 fine-work-team.com
 0.0.0.0 fine.amaniwa.ru
 0.0.0.0 fine.boletuso.ru
 0.0.0.0 fine.bortogat.ru
@@ -284995,6 +284997,7 @@
 0.0.0.0 hindu.virosat.ru
 0.0.0.0 hindufuneral.in
 0.0.0.0 hindustanage.com
+0.0.0.0 hindustanagency.com
 0.0.0.0 hindustandefirishtaay.org
 0.0.0.0 hindustaniherbals.com
 0.0.0.0 hindusthan.com
@@ -414071,6 +414074,7 @@
 0.0.0.0 parys.cz-sale.top
 0.0.0.0 parys.cz-store.shop
 0.0.0.0 parys.dealsk.sbs
+0.0.0.0 parys.debijenkorfs.help
 0.0.0.0 parys.disfulu.shop
 0.0.0.0 parys.dozpl.life
 0.0.0.0 parys.evas.buzz
@@ -433484,6 +433488,7 @@
 0.0.0.0 pstas.emiweb.es
 0.0.0.0 pstatic.datafastguru.info
 0.0.0.0 pstats.blogworks.com
+0.0.0.0 pstbn.dev
 0.0.0.0 pstcrcde.blogspot.com
 0.0.0.0 psteau.top
 0.0.0.0 pstek.org
@@ -495903,6 +495908,7 @@
 0.0.0.0 vdocs.sasktel.mmspos.com
 0.0.0.0 vdopia.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
+0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 ve1.claker.top
 0.0.0.0 ve1.techgeetam.com
@@ -495976,6 +495982,7 @@
 0.0.0.0 vekstfundoria-no.live
 0.0.0.0 vekstfundoria.click
 0.0.0.0 vekstfundoria.live
+0.0.0.0 vektorex.com
 0.0.0.0 vektortradeviaxtech.com
 0.0.0.0 vela.iad-01.braze.com
 0.0.0.0 veladrip.site
