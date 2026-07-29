@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-29 06:36:36
-# Entries: 539992
+# Generated: 2026-07-29 12:34:41
+# Entries: 540002
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52367,6 +52367,7 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
+0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -144648,6 +144649,7 @@
 0.0.0.0 bigrecess.com
 0.0.0.0 bigredmug.com
 0.0.0.0 bigrigrvadventures.com
+0.0.0.0 bigs.bikershop.biz
 0.0.0.0 bigs.bortogat.ru
 0.0.0.0 bigs.dedspac.ru
 0.0.0.0 bigs.ulitron.ru
@@ -193152,6 +193154,7 @@
 0.0.0.0 crestvermothal.net
 0.0.0.0 crestyieldmere.pro
 0.0.0.0 crestyieldvale.com
+0.0.0.0 cresvin.com
 0.0.0.0 cret.pages.dev
 0.0.0.0 cretan.virosat.ru
 0.0.0.0 crete.cloudns.ph
@@ -232348,6 +232351,7 @@
 0.0.0.0 exconline.web.app
 0.0.0.0 excoudelogin.webflow.io
 0.0.0.0 exctyenmetamask.webflow.io
+0.0.0.0 excursiionline.ro
 0.0.0.0 excusebonfire.org
 0.0.0.0 exdie.dedspac.ru
 0.0.0.0 exdkhk.cf
@@ -235234,7 +235238,6 @@
 0.0.0.0 fabricofurnitures.com
 0.0.0.0 fabricpaintings.com
 0.0.0.0 fabrics.chiripalgroup.com
-0.0.0.0 fabrics.lahoreshoes.com
 0.0.0.0 fabricsewingh.com
 0.0.0.0 fabrikaistanbul.com
 0.0.0.0 fabrikala.com
@@ -254644,6 +254647,7 @@
 0.0.0.0 frosty-wiles-7e6058.netlify.app
 0.0.0.0 frosty-williams-cbc21f.netlify.app
 0.0.0.0 frosty-wing.45-132-242-241.plesk.page
+0.0.0.0 frostyislebe.pro
 0.0.0.0 frostywhale.vercel.app
 0.0.0.0 froth.ulitron.ru
 0.0.0.0 frou.pages.dev
@@ -261554,6 +261558,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gestuny.space
 0.0.0.0 gesundheit-zu-hause.com
@@ -283731,6 +283736,7 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
+0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -290164,7 +290170,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -295647,6 +295652,7 @@
 0.0.0.0 ignationspin.com
 0.0.0.0 ignc1.com
 0.0.0.0 igneousnirvana.com
+0.0.0.0 ignetwork.us
 0.0.0.0 igneus.xyz
 0.0.0.0 igniapp.com
 0.0.0.0 ignis.dedspac.ru
@@ -308799,6 +308805,7 @@
 0.0.0.0 ixie1.weebly.com
 0.0.0.0 ixindamix.org
 0.0.0.0 ixion.ulitron.ru
+0.0.0.0 ixirgroup.com
 0.0.0.0 ixjgpzmibh.5q5e5o.cn
 0.0.0.0 ixjnzitelqmeuoxrhtehcatajj.triple-upgrade-293822.rj.r.appspot.com
 0.0.0.0 ixlosmebel.uz
@@ -321875,6 +321882,7 @@
 0.0.0.0 kemanibucket798.s3.eu-de.cloud-object-storage.appdomain.cloud
 0.0.0.0 kemanoptical.com
 0.0.0.0 kemanvouphoures.com
+0.0.0.0 kemaxglobalshippings.com
 0.0.0.0 kembain.gardinary.com
 0.0.0.0 kemcu.com
 0.0.0.0 kemencefm.com
@@ -354280,7 +354288,6 @@
 0.0.0.0 mail1.goggle.workers.dev
 0.0.0.0 mail1.googlle.workers.dev
 0.0.0.0 mail1.lectec.com.au
-0.0.0.0 mail1.mycollege.com.my
 0.0.0.0 mail1.netjets.com
 0.0.0.0 mail1.sspl.com.au
 0.0.0.0 mail1.systemone.com
@@ -393406,6 +393413,7 @@
 0.0.0.0 nigeriavoguejournalism.org
 0.0.0.0 nigerlife.com
 0.0.0.0 nigertechnologie.com
+0.0.0.0 nigg.tashirpizza.su
 0.0.0.0 nigh.dedspac.ru
 0.0.0.0 nigh.ulitron.ru
 0.0.0.0 nighs.ulitron.ru
@@ -426039,6 +426047,7 @@
 0.0.0.0 pos.drivrr.com
 0.0.0.0 pos.healthrxbd.com
 0.0.0.0 pos.miebp.com
+0.0.0.0 pos.nittosupport.ca
 0.0.0.0 pos.vfixit.com.au
 0.0.0.0 pos2.usahawan.cc
 0.0.0.0 posadalalucia.com.ar
@@ -447843,7 +447852,6 @@
 0.0.0.0 rathepayments.com
 0.0.0.0 rathirirounds.com
 0.0.0.0 rathkealechildcare.ie
-0.0.0.0 rathodsoftware.in
 0.0.0.0 rathoraryann.github.io
 0.0.0.0 rathuiasa.duckdns.org
 0.0.0.0 rathvionex.live
@@ -485835,6 +485843,7 @@
 0.0.0.0 therynovexai.com
 0.0.0.0 therynovexai.org
 0.0.0.0 thesafarigarden.com
+0.0.0.0 thesalons.in
 0.0.0.0 thesavrox-path.com
 0.0.0.0 thesavrox-path.org
 0.0.0.0 thesavrynpulseai.com
@@ -491632,6 +491641,7 @@
 0.0.0.0 uezow.gkscwu.es
 0.0.0.0 uf-airao-vermil.pt
 0.0.0.0 ufa.bibliota.ru
+0.0.0.0 ufavalkplus.com
 0.0.0.0 ufeb8nd9wudwnidjunw9dueb.weebly.com
 0.0.0.0 ufggfnh2.pages.dev
 0.0.0.0 ufgkjhgfghjkn.weebly.com
