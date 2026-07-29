@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-29 12:34:41
-# Entries: 540002
+# Generated: 2026-07-29 18:33:36
+# Entries: 540006
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48666,6 +48666,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstherealworld.com
 0.0.0.0 accesstrials.store
@@ -52367,7 +52368,6 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
-0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -144649,7 +144649,6 @@
 0.0.0.0 bigrecess.com
 0.0.0.0 bigredmug.com
 0.0.0.0 bigrigrvadventures.com
-0.0.0.0 bigs.bikershop.biz
 0.0.0.0 bigs.bortogat.ru
 0.0.0.0 bigs.dedspac.ru
 0.0.0.0 bigs.ulitron.ru
@@ -170974,6 +170973,7 @@
 0.0.0.0 cdnnews.hs-sites.com
 0.0.0.0 cdnondemand.org
 0.0.0.0 cdnonedrive.zengxiaopi123.workers.dev
+0.0.0.0 cdnorigin.net
 0.0.0.0 cdnp1.yieldoptimizer.com
 0.0.0.0 cdnpixel.simpli.fi
 0.0.0.0 cdns-upholds-io-login-secure.pages.dev
@@ -193154,7 +193154,6 @@
 0.0.0.0 crestvermothal.net
 0.0.0.0 crestyieldmere.pro
 0.0.0.0 crestyieldvale.com
-0.0.0.0 cresvin.com
 0.0.0.0 cret.pages.dev
 0.0.0.0 cretan.virosat.ru
 0.0.0.0 crete.cloudns.ph
@@ -211694,6 +211693,7 @@
 0.0.0.0 dl.pejmanbarakati.ir
 0.0.0.0 dl.plusmaster.pro
 0.0.0.0 dl.privatecollection.top
+0.0.0.0 dl.proxiespool.wiki
 0.0.0.0 dl.qsq.icu
 0.0.0.0 dl.rlh.ir
 0.0.0.0 dl.securefiledrives.com
@@ -232351,7 +232351,6 @@
 0.0.0.0 exconline.web.app
 0.0.0.0 excoudelogin.webflow.io
 0.0.0.0 exctyenmetamask.webflow.io
-0.0.0.0 excursiionline.ro
 0.0.0.0 excusebonfire.org
 0.0.0.0 exdie.dedspac.ru
 0.0.0.0 exdkhk.cf
@@ -246892,6 +246891,7 @@
 0.0.0.0 filmbest.video.blog
 0.0.0.0 filmbimcxll.com
 0.0.0.0 filmblue-69.duckdns.org
+0.0.0.0 filmchill.net
 0.0.0.0 filmdopobraniacbd92.ek1.pl
 0.0.0.0 filmdrunk.us.intellitxt.com
 0.0.0.0 filmedy.com
@@ -248272,6 +248272,7 @@
 0.0.0.0 fishfarmuae.com
 0.0.0.0 fishgroder.tadabase.io
 0.0.0.0 fishing-fbook-authenticate-fak.000webhostapp.com
+0.0.0.0 fishing.deal-eu.sbs
 0.0.0.0 fishing.eu-save.com
 0.0.0.0 fishing.popular-sale.com
 0.0.0.0 fishing.sk-sale.com
@@ -250031,7 +250032,6 @@
 0.0.0.0 fluidcontitech.com
 0.0.0.0 fluiddeliverymanagement.com
 0.0.0.0 fluidesclimat.com
-0.0.0.0 fluidfilm.bg
 0.0.0.0 fluidou-71.ml
 0.0.0.0 fluiptvserver.com
 0.0.0.0 fluir-mercadopl.click
@@ -253181,6 +253181,7 @@
 0.0.0.0 free.s689.xyz
 0.0.0.0 free.sitenow1033.gq
 0.0.0.0 free.thesocialsexnetwork.com
+0.0.0.0 free.tiurl.top
 0.0.0.0 free.ulitron.ru
 0.0.0.0 free.videodownloadconverter.com
 0.0.0.0 free.xxxcounter.com
@@ -283736,7 +283737,6 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
-0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -290170,6 +290170,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -321882,7 +321883,6 @@
 0.0.0.0 kemanibucket798.s3.eu-de.cloud-object-storage.appdomain.cloud
 0.0.0.0 kemanoptical.com
 0.0.0.0 kemanvouphoures.com
-0.0.0.0 kemaxglobalshippings.com
 0.0.0.0 kembain.gardinary.com
 0.0.0.0 kemcu.com
 0.0.0.0 kemencefm.com
@@ -330333,6 +330333,7 @@
 0.0.0.0 lahorecallgirlsescorts.com
 0.0.0.0 lahorefundmere.com
 0.0.0.0 lahorepropertygroup.com
+0.0.0.0 lahoreshoes.com
 0.0.0.0 lahoreviphotels.com
 0.0.0.0 lahoyws2.com
 0.0.0.0 lahstudios.com
@@ -355718,6 +355719,7 @@
 0.0.0.0 mama.pipi.ne.jp
 0.0.0.0 mama.ulitron.ru
 0.0.0.0 mamaandmimi.com
+0.0.0.0 mamabearcoffee.com
 0.0.0.0 mamabearhikes.com.au
 0.0.0.0 mamacehin.com
 0.0.0.0 mamachumbas.com
@@ -472699,6 +472701,7 @@
 0.0.0.0 siss.ulitron.ru
 0.0.0.0 sissu.dedspac.ru
 0.0.0.0 sistemafar.sistemafar.far.br
+0.0.0.0 sistemasyusa.icu
 0.0.0.0 sistemishop.it
 0.0.0.0 sistemobilya.com
 0.0.0.0 sisterliness.timanar.ru
@@ -476396,6 +476399,7 @@
 0.0.0.0 ssbuenosaires.com
 0.0.0.0 ssc-cms.33across.com
 0.0.0.0 ssc.33across.com
+0.0.0.0 ssc.nexajs.com
 0.0.0.0 sschmitz59.wixsite.com
 0.0.0.0 ssconstructions.in
 0.0.0.0 ssd.lofriovou.sa.com
@@ -485843,7 +485847,6 @@
 0.0.0.0 therynovexai.com
 0.0.0.0 therynovexai.org
 0.0.0.0 thesafarigarden.com
-0.0.0.0 thesalons.in
 0.0.0.0 thesavrox-path.com
 0.0.0.0 thesavrox-path.org
 0.0.0.0 thesavrynpulseai.com
@@ -491641,7 +491644,6 @@
 0.0.0.0 uezow.gkscwu.es
 0.0.0.0 uf-airao-vermil.pt
 0.0.0.0 ufa.bibliota.ru
-0.0.0.0 ufavalkplus.com
 0.0.0.0 ufeb8nd9wudwnidjunw9dueb.weebly.com
 0.0.0.0 ufggfnh2.pages.dev
 0.0.0.0 ufgkjhgfghjkn.weebly.com
@@ -497696,6 +497698,7 @@
 0.0.0.0 vms.bluebillywig.com
 0.0.0.0 vmsl.co.in
 0.0.0.0 vmweb.net
+0.0.0.0 vmwrvtools.com
 0.0.0.0 vmyuvxbyj2glwl2.moolin.ru
 0.0.0.0 vn-gmtdmp.mookie1.com
 0.0.0.0 vn-platform.bidgear.com
@@ -511608,6 +511611,7 @@
 0.0.0.0 www.dqxwst.com
 0.0.0.0 www.dr.sanguine.space
 0.0.0.0 www.dr3wx.f1izsv.cfd
+0.0.0.0 www.dra.com.ve
 0.0.0.0 www.drablehub.live
 0.0.0.0 www.draculacabs.info
 0.0.0.0 www.dragolucrietto.digital
