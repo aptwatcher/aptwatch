@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-29 18:33:36
-# Entries: 540006
+# Generated: 2026-07-30 00:33:49
+# Entries: 540010
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48666,7 +48666,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstherealworld.com
 0.0.0.0 accesstrials.store
@@ -62105,7 +62104,6 @@
 0.0.0.0 aetherkid.com
 0.0.0.0 aetherlumenforge.live
 0.0.0.0 aethersms.com
-0.0.0.0 aethersyncmatrix5.lol
 0.0.0.0 aethertradesoft.com
 0.0.0.0 aethertradetrade.com
 0.0.0.0 aethionemaso.ru
@@ -117412,7 +117410,6 @@
 0.0.0.0 auth-citizens.com
 0.0.0.0 auth-clen.cf
 0.0.0.0 auth-clientonlinepayee0.com
-0.0.0.0 auth-clo-id.cc
 0.0.0.0 auth-cloud783452.web.app
 0.0.0.0 auth-cnnectwallt.gitbook.io
 0.0.0.0 auth-code-check.info
@@ -181494,6 +181491,7 @@
 0.0.0.0 cnbpho.com
 0.0.0.0 cnbserlivwlt30dahon.azurewebsites.net
 0.0.0.0 cnbvn.carrd.co
+0.0.0.0 cnc.strikec2.wtf
 0.0.0.0 cnceast.weebly.com
 0.0.0.0 cncfd.nikasr.xyz
 0.0.0.0 cnchax.com
@@ -193791,7 +193789,6 @@
 0.0.0.0 cryptdatagate.com
 0.0.0.0 cryptdatahub.com
 0.0.0.0 crypted.vadilops.ru
-0.0.0.0 cryptefilea.infy.click
 0.0.0.0 cryptenlogoins.webflow.io
 0.0.0.0 crypterium-21.live
 0.0.0.0 crypterium21.click
@@ -195150,6 +195147,7 @@
 0.0.0.0 curlew.virosat.ru
 0.0.0.0 curls.duckdns.org
 0.0.0.0 curls.vadilops.ru
+0.0.0.0 curlservice.com
 0.0.0.0 curly-augmentations.000webhostapp.com
 0.0.0.0 curly-band-5557.on.fleek.co
 0.0.0.0 curly-cell-0628.on.fleek.co
@@ -244317,6 +244315,7 @@
 0.0.0.0 femaleviagra.findmenow.info
 0.0.0.0 femarvilla.com
 0.0.0.0 femaxatus.net
+0.0.0.0 femboy.center
 0.0.0.0 femboykisser.sbs
 0.0.0.0 femboytw.ink
 0.0.0.0 feme.ulitron.ru
@@ -277018,6 +277017,7 @@
 0.0.0.0 hacker651ai.github.io
 0.0.0.0 hackerbot.net
 0.0.0.0 hackerlogesh.github.io
+0.0.0.0 hackers.krd
 0.0.0.0 hackerz.ir
 0.0.0.0 hackflu.github.io
 0.0.0.0 hackgroup.byethost3.com
@@ -321883,6 +321883,7 @@
 0.0.0.0 kemanibucket798.s3.eu-de.cloud-object-storage.appdomain.cloud
 0.0.0.0 kemanoptical.com
 0.0.0.0 kemanvouphoures.com
+0.0.0.0 kemaxglobalshippings.com
 0.0.0.0 kembain.gardinary.com
 0.0.0.0 kemcu.com
 0.0.0.0 kemencefm.com
@@ -330333,7 +330334,6 @@
 0.0.0.0 lahorecallgirlsescorts.com
 0.0.0.0 lahorefundmere.com
 0.0.0.0 lahorepropertygroup.com
-0.0.0.0 lahoreshoes.com
 0.0.0.0 lahoreviphotels.com
 0.0.0.0 lahoyws2.com
 0.0.0.0 lahstudios.com
@@ -355719,7 +355719,6 @@
 0.0.0.0 mama.pipi.ne.jp
 0.0.0.0 mama.ulitron.ru
 0.0.0.0 mamaandmimi.com
-0.0.0.0 mamabearcoffee.com
 0.0.0.0 mamabearhikes.com.au
 0.0.0.0 mamacehin.com
 0.0.0.0 mamachumbas.com
@@ -392325,6 +392324,7 @@
 0.0.0.0 nfehx.blogspot.sn
 0.0.0.0 nfeidzod658.com
 0.0.0.0 nfejezpqhraypysdfynarcebizpgfcjczotm-dot-glegen303939423233.ue.r.appspot.com
+0.0.0.0 nfeletronica.sevendocumentos.vip
 0.0.0.0 nfemhs.org
 0.0.0.0 nfepdxwfvn.duckdns.org
 0.0.0.0 nffajhgq.shop
@@ -394793,6 +394793,7 @@
 0.0.0.0 noblerendoire-fr.live
 0.0.0.0 noblerendoire.digital
 0.0.0.0 noblerendoire.live
+0.0.0.0 nobleshadebu.pro
 0.0.0.0 noblesparmere.net
 0.0.0.0 noblestree.com
 0.0.0.0 nobletycraft.shop
@@ -405889,6 +405890,7 @@
 0.0.0.0 openceapro.vercel.app
 0.0.0.0 openclaimnft.web.app
 0.0.0.0 openclickclaim.vercel.app
+0.0.0.0 opencode.ai
 0.0.0.0 openditosxx.easy.co
 0.0.0.0 opendoc.infinityfreeapp.com
 0.0.0.0 opendoc1.homelinux.com
@@ -407860,6 +407862,7 @@
 0.0.0.0 orientationpour-tous.fr
 0.0.0.0 orientedargument.com
 0.0.0.0 orientgrammarschools.edu.pk
+0.0.0.0 orienttaxtile.com
 0.0.0.0 orifl21ame01.000webhostapp.com
 0.0.0.0 oriflamegiftforyou1.000webhostapp.com
 0.0.0.0 origa-cloud-b38d.c71rcsyb.workers.dev
@@ -426049,7 +426052,6 @@
 0.0.0.0 pos.drivrr.com
 0.0.0.0 pos.healthrxbd.com
 0.0.0.0 pos.miebp.com
-0.0.0.0 pos.nittosupport.ca
 0.0.0.0 pos.vfixit.com.au
 0.0.0.0 pos2.usahawan.cc
 0.0.0.0 posadalalucia.com.ar
@@ -458458,7 +458460,6 @@
 0.0.0.0 roblox-gift.xyz
 0.0.0.0 roblox-help.com
 0.0.0.0 roblox-verification.com
-0.0.0.0 roblox-xeno.net
 0.0.0.0 roblox.cam
 0.0.0.0 roblox.cd
 0.0.0.0 roblox.com.ag
@@ -487822,6 +487823,7 @@
 0.0.0.0 tpfranchiseinquiries.com
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpgcreationz.com
+0.0.0.0 tpkpolus.ru
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
 0.0.0.0 tpr.moolin.ru
@@ -491434,7 +491436,6 @@
 0.0.0.0 uadxti.pages.dev
 0.0.0.0 uae---booking-com.webflow.io
 0.0.0.0 uae.com.br
-0.0.0.0 uafsoftware.in
 0.0.0.0 uagrl9eb0.jsejaxxsget.es
 0.0.0.0 uaid-linkage.imrworldwide.com
 0.0.0.0 uaid.tap3698gr7.cc
@@ -491644,6 +491645,7 @@
 0.0.0.0 uezow.gkscwu.es
 0.0.0.0 uf-airao-vermil.pt
 0.0.0.0 ufa.bibliota.ru
+0.0.0.0 ufavalkplus.com
 0.0.0.0 ufeb8nd9wudwnidjunw9dueb.weebly.com
 0.0.0.0 ufggfnh2.pages.dev
 0.0.0.0 ufgkjhgfghjkn.weebly.com
@@ -495927,6 +495929,7 @@
 0.0.0.0 vdocs.sasktel.mmspos.com
 0.0.0.0 vdopia.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
+0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 ve1.claker.top
 0.0.0.0 ve1.techgeetam.com
@@ -496199,6 +496202,7 @@
 0.0.0.0 venkian.ru
 0.0.0.0 venkiteshns.github.io
 0.0.0.0 venling.ru
+0.0.0.0 venom.rotero.vc
 0.0.0.0 venom766.github.io
 0.0.0.0 venomart.space
 0.0.0.0 venox-trylek-syvol.pages.dev
