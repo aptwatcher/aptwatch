@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-30 06:35:39
-# Entries: 540009
+# Generated: 2026-07-30 12:34:00
+# Entries: 540013
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -123614,6 +123614,7 @@
 0.0.0.0 azuredocs-ext-coinbasehelp.webflow.io
 0.0.0.0 azureinvestmarksoftware.com
 0.0.0.0 azureinvestmarksoftware.digital
+0.0.0.0 azuremods.cc
 0.0.0.0 azureoauth365.elementor.cloud
 0.0.0.0 azureon-line.com
 0.0.0.0 azureoszyrevbucket621-035.s3.au-syd.cloud-object-storage.appdomain.cloud
@@ -267213,6 +267214,7 @@
 0.0.0.0 googlesocialweb.standardseoservices.com
 0.0.0.0 googlesrc.us
 0.0.0.0 googlesyndication.com
+0.0.0.0 googletagamnager.com
 0.0.0.0 googletagmanager.com
 0.0.0.0 googletagservices.com
 0.0.0.0 googletest.jontzeng.com
@@ -292539,6 +292541,7 @@
 0.0.0.0 i-ksiazka.pl
 0.0.0.0 i-learnenglish2day.com
 0.0.0.0 i-locate.xyz
+0.0.0.0 i-love-git.com
 0.0.0.0 i-m-vijay-deshmukh.github.io
 0.0.0.0 i-m.mx
 0.0.0.0 i-mac-lcloud.underworld-onlin3.us
@@ -295653,6 +295656,7 @@
 0.0.0.0 ignationspin.com
 0.0.0.0 ignc1.com
 0.0.0.0 igneousnirvana.com
+0.0.0.0 ignetwork.us
 0.0.0.0 igneus.xyz
 0.0.0.0 igniapp.com
 0.0.0.0 ignis.dedspac.ru
@@ -296116,6 +296120,7 @@
 0.0.0.0 iki.daleriki.com
 0.0.0.0 ikiginqfyr.duckdns.org
 0.0.0.0 ikikuiu.weeblysite.com
+0.0.0.0 ikincielesyaciankara.com.tr
 0.0.0.0 ikincielraf.istanbul
 0.0.0.0 ikitele.vercel.app
 0.0.0.0 ikiztarim.com
@@ -308805,7 +308810,6 @@
 0.0.0.0 ixie1.weebly.com
 0.0.0.0 ixindamix.org
 0.0.0.0 ixion.ulitron.ru
-0.0.0.0 ixirgroup.com
 0.0.0.0 ixjgpzmibh.5q5e5o.cn
 0.0.0.0 ixjnzitelqmeuoxrhtehcatajj.triple-upgrade-293822.rj.r.appspot.com
 0.0.0.0 ixlosmebel.uz
@@ -405889,7 +405893,6 @@
 0.0.0.0 openceapro.vercel.app
 0.0.0.0 openclaimnft.web.app
 0.0.0.0 openclickclaim.vercel.app
-0.0.0.0 opencode.ai
 0.0.0.0 openditosxx.easy.co
 0.0.0.0 opendoc.infinityfreeapp.com
 0.0.0.0 opendoc1.homelinux.com
@@ -458459,6 +458462,7 @@
 0.0.0.0 roblox-gift.xyz
 0.0.0.0 roblox-help.com
 0.0.0.0 roblox-verification.com
+0.0.0.0 roblox-xeno.info
 0.0.0.0 roblox.cam
 0.0.0.0 roblox.cd
 0.0.0.0 roblox.com.ag
