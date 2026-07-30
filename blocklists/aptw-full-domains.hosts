@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-30 12:34:00
-# Entries: 540013
+# Generated: 2026-07-30 18:33:46
+# Entries: 540010
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -74195,6 +74195,7 @@
 0.0.0.0 altamira.bluestacko.ru
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
+0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanyucetas.com
 0.0.0.0 altapayvale-ai.com
@@ -123614,7 +123615,6 @@
 0.0.0.0 azuredocs-ext-coinbasehelp.webflow.io
 0.0.0.0 azureinvestmarksoftware.com
 0.0.0.0 azureinvestmarksoftware.digital
-0.0.0.0 azuremods.cc
 0.0.0.0 azureoauth365.elementor.cloud
 0.0.0.0 azureon-line.com
 0.0.0.0 azureoszyrevbucket621-035.s3.au-syd.cloud-object-storage.appdomain.cloud
@@ -215556,7 +215556,6 @@
 0.0.0.0 dreamad.org
 0.0.0.0 dreamalive5.com
 0.0.0.0 dreamalivemedia.com
-0.0.0.0 dreamapp.xyz
 0.0.0.0 dreamartdesigns.com
 0.0.0.0 dreambasetechnologies.net
 0.0.0.0 dreamboostzu.vercel.app
@@ -290172,7 +290171,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -292541,7 +292539,6 @@
 0.0.0.0 i-ksiazka.pl
 0.0.0.0 i-learnenglish2day.com
 0.0.0.0 i-locate.xyz
-0.0.0.0 i-love-git.com
 0.0.0.0 i-m-vijay-deshmukh.github.io
 0.0.0.0 i-m.mx
 0.0.0.0 i-mac-lcloud.underworld-onlin3.us
@@ -308810,6 +308807,7 @@
 0.0.0.0 ixie1.weebly.com
 0.0.0.0 ixindamix.org
 0.0.0.0 ixion.ulitron.ru
+0.0.0.0 ixirgroup.com
 0.0.0.0 ixjgpzmibh.5q5e5o.cn
 0.0.0.0 ixjnzitelqmeuoxrhtehcatajj.triple-upgrade-293822.rj.r.appspot.com
 0.0.0.0 ixlosmebel.uz
@@ -345780,6 +345778,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumahmarkets.shop
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -458462,7 +458461,6 @@
 0.0.0.0 roblox-gift.xyz
 0.0.0.0 roblox-help.com
 0.0.0.0 roblox-verification.com
-0.0.0.0 roblox-xeno.info
 0.0.0.0 roblox.cam
 0.0.0.0 roblox.cd
 0.0.0.0 roblox.com.ag
@@ -479814,7 +479812,6 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
-0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamsyseprex-es.com
 0.0.0.0 streamvod.pl
