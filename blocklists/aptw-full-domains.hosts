@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-30 00:33:49
-# Entries: 540010
+# Generated: 2026-07-30 06:06:48
+# Entries: 540009
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -261558,7 +261558,6 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gestuny.space
 0.0.0.0 gesundheit-zu-hause.com
@@ -280296,6 +280295,7 @@
 0.0.0.0 heavycom.122.2o7.net
 0.0.0.0 heavyduties.info
 0.0.0.0 heavyduty.uz
+0.0.0.0 heavyhorses.com
 0.0.0.0 heavyironinc.com.illusionsxpllc.net
 0.0.0.0 heavyrains.info
 0.0.0.0 heavyunhappyaudacity.josealbertoal21.repl.co
@@ -295653,7 +295653,6 @@
 0.0.0.0 ignationspin.com
 0.0.0.0 ignc1.com
 0.0.0.0 igneousnirvana.com
-0.0.0.0 ignetwork.us
 0.0.0.0 igneus.xyz
 0.0.0.0 igniapp.com
 0.0.0.0 ignis.dedspac.ru
@@ -470353,6 +470352,7 @@
 0.0.0.0 september.cityads.com
 0.0.0.0 septicidally.timanar.ru
 0.0.0.0 sepume-xokaxu.com
+0.0.0.0 seputartuban.com
 0.0.0.0 seq.ulitron.ru
 0.0.0.0 sequeludif.cyou
 0.0.0.0 sequeorizz.cyou
@@ -495929,7 +495929,6 @@
 0.0.0.0 vdocs.sasktel.mmspos.com
 0.0.0.0 vdopia.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
-0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 ve1.claker.top
 0.0.0.0 ve1.techgeetam.com
