@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-31 06:05:56
-# Entries: 540014
+# Generated: 2026-07-31 06:35:31
+# Entries: 540015
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -482407,6 +482407,7 @@
 0.0.0.0 tab.dedspac.ru
 0.0.0.0 tab.dellrescue.com
 0.0.0.0 tab.myreserp.com
+0.0.0.0 tabak.hr
 0.0.0.0 tabby.dedspac.ru
 0.0.0.0 tabby.virosat.ru
 0.0.0.0 tabbylinejewelry.com
