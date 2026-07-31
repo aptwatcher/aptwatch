@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-30 18:33:46
+# Generated: 2026-07-31 00:33:47
 # Entries: 540010
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -74195,7 +74195,6 @@
 0.0.0.0 altamira.bluestacko.ru
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
-0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanyucetas.com
 0.0.0.0 altapayvale-ai.com
@@ -195972,7 +195971,6 @@
 0.0.0.0 cutt.us
 0.0.0.0 cutt.us.com
 0.0.0.0 cutthecrap.in
-0.0.0.0 cuttingedgefencing.ca
 0.0.0.0 cuttle.virosat.ru
 0.0.0.0 cuttt.ink
 0.0.0.0 cutup.dedspac.ru
@@ -247698,7 +247696,6 @@
 0.0.0.0 findyourphone.org
 0.0.0.0 findyourphone.shop
 0.0.0.0 fine-tv.net
-0.0.0.0 fine-work-team.com
 0.0.0.0 fine.amaniwa.ru
 0.0.0.0 fine.boletuso.ru
 0.0.0.0 fine.bortogat.ru
@@ -290171,6 +290168,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -355470,7 +355468,6 @@
 0.0.0.0 malaysiadfh.pages.net.br
 0.0.0.0 malaysiahot69.com
 0.0.0.0 malaysianindian.com
-0.0.0.0 malaysianpastrybakery.org
 0.0.0.0 malaysianviral.usdns.eu.org
 0.0.0.0 malaysiapools.net
 0.0.0.0 malaysiatk.com
@@ -412998,6 +412995,7 @@
 0.0.0.0 panel-intro.parsonline.com
 0.0.0.0 panel-one.ru
 0.0.0.0 panel-sagem-urls-celebs.trycloudflare.com
+0.0.0.0 panel.b2brouter-secure.com
 0.0.0.0 panel.dedspac.ru
 0.0.0.0 panel.hiddify.top
 0.0.0.0 panel.home.pl.muna.it
@@ -433508,7 +433506,6 @@
 0.0.0.0 pstas.emiweb.es
 0.0.0.0 pstatic.datafastguru.info
 0.0.0.0 pstats.blogworks.com
-0.0.0.0 pstbn.dev
 0.0.0.0 pstcrcde.blogspot.com
 0.0.0.0 psteau.top
 0.0.0.0 pstek.org
@@ -458461,6 +458458,7 @@
 0.0.0.0 roblox-gift.xyz
 0.0.0.0 roblox-help.com
 0.0.0.0 roblox-verification.com
+0.0.0.0 roblox-xeno.info
 0.0.0.0 roblox.cam
 0.0.0.0 roblox.cd
 0.0.0.0 roblox.com.ag
@@ -479812,6 +479810,7 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamsyseprex-es.com
 0.0.0.0 streamvod.pl
@@ -493046,6 +493045,7 @@
 0.0.0.0 uploader.social
 0.0.0.0 uploader.sytes.net
 0.0.0.0 uploadingyourproject687268747isjhgjjmz.pages.dev
+0.0.0.0 uploadloop.com
 0.0.0.0 uploads-gain.vercel.app
 0.0.0.0 uploads.dev30vps045401.managerc20vpx5903.host
 0.0.0.0 uploads.mngrc24srv09527.site
