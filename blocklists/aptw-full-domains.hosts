@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-31 12:33:45
-# Entries: 540025
+# Generated: 2026-07-31 18:33:55
+# Entries: 540016
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -168795,7 +168795,6 @@
 0.0.0.0 casino770.com
 0.0.0.0 casinoaffiliatereviews.com
 0.0.0.0 casinobon.us
-0.0.0.0 casinodas.com
 0.0.0.0 casinogamelifex.blogspot.co.ke
 0.0.0.0 casinogamelifex.blogspot.com.ee
 0.0.0.0 casinogamelifex.blogspot.com.ng
@@ -180621,7 +180620,6 @@
 0.0.0.0 cloudhost.ct.ws
 0.0.0.0 cloudi-liveledger.webflow.io
 0.0.0.0 cloudi.sitea.workers.dev
-0.0.0.0 cloudimagehostingupdatesrealted.yzz.me
 0.0.0.0 cloudimo.com.br
 0.0.0.0 cloudindoac.top
 0.0.0.0 cloudinet0700-b88475.ingress-daribow.ewp.live
@@ -190520,7 +190518,6 @@
 0.0.0.0 coslychaczzsasiadkaobokprzezcianke.xyz
 0.0.0.0 cosm.cc
 0.0.0.0 cosmediaviviane.com
-0.0.0.0 cosmeticapampa.com.ar
 0.0.0.0 cosmeticeyebrowtattoomelbourne.com
 0.0.0.0 cosmeticosdevegetalesmioficina.com
 0.0.0.0 cosmeticoslatiendona.com
@@ -193155,7 +193152,6 @@
 0.0.0.0 crestvermothal.net
 0.0.0.0 crestyieldmere.pro
 0.0.0.0 crestyieldvale.com
-0.0.0.0 cresvin.com
 0.0.0.0 cret.pages.dev
 0.0.0.0 cretan.virosat.ru
 0.0.0.0 crete.cloudns.ph
@@ -219901,7 +219897,6 @@
 0.0.0.0 easyport.in
 0.0.0.0 easyprofithunters.com
 0.0.0.0 easyqapark.vu
-0.0.0.0 easyrentbyowner.com
 0.0.0.0 easyresearchsolutions.com
 0.0.0.0 easyrideug.com
 0.0.0.0 easys.duckdns.org
@@ -227998,7 +227993,6 @@
 0.0.0.0 ergot.virosat.ru
 0.0.0.0 ergoterapeutene.broke-it.net
 0.0.0.0 ergoterapiacaribu.ch
-0.0.0.0 ergotherapeia-kalamata.gr
 0.0.0.0 ergqzszqmvsdcfyu-dot-millinium.ey.r.appspot.com
 0.0.0.0 ergrq.blogspot.fi
 0.0.0.0 ergrq.blogspot.hr
@@ -232352,7 +232346,6 @@
 0.0.0.0 exconline.web.app
 0.0.0.0 excoudelogin.webflow.io
 0.0.0.0 exctyenmetamask.webflow.io
-0.0.0.0 excursiionline.ro
 0.0.0.0 excusebonfire.org
 0.0.0.0 exdie.dedspac.ru
 0.0.0.0 exdkhk.cf
@@ -250034,6 +250027,7 @@
 0.0.0.0 fluidcontitech.com
 0.0.0.0 fluiddeliverymanagement.com
 0.0.0.0 fluidesclimat.com
+0.0.0.0 fluidfilm.bg
 0.0.0.0 fluidou-71.ml
 0.0.0.0 fluiptvserver.com
 0.0.0.0 fluir-mercadopl.click
@@ -261561,6 +261555,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gestuny.space
 0.0.0.0 gesundheit-zu-hause.com
@@ -283741,7 +283736,6 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
-0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -308812,7 +308806,6 @@
 0.0.0.0 ixie1.weebly.com
 0.0.0.0 ixindamix.org
 0.0.0.0 ixion.ulitron.ru
-0.0.0.0 ixirgroup.com
 0.0.0.0 ixjgpzmibh.5q5e5o.cn
 0.0.0.0 ixjnzitelqmeuoxrhtehcatajj.triple-upgrade-293822.rj.r.appspot.com
 0.0.0.0 ixlosmebel.uz
@@ -330340,7 +330333,6 @@
 0.0.0.0 lahorecallgirlsescorts.com
 0.0.0.0 lahorefundmere.com
 0.0.0.0 lahorepropertygroup.com
-0.0.0.0 lahoreshoes.com
 0.0.0.0 lahoreviphotels.com
 0.0.0.0 lahoyws2.com
 0.0.0.0 lahstudios.com
@@ -336610,7 +336602,6 @@
 0.0.0.0 lindhaprofit.com
 0.0.0.0 lindinasedred.serveminecraft.net
 0.0.0.0 lindleylabs.com
-0.0.0.0 lindnerelektroanlagen.de
 0.0.0.0 lindo.virosat.ru
 0.0.0.0 lindojon.com.br
 0.0.0.0 lindprofitt.com
@@ -355027,7 +355018,6 @@
 0.0.0.0 main.exoclick.com
 0.0.0.0 main.exosrv.com
 0.0.0.0 main.fbmmnsnnsm-6061949153.1oxjkps3ah-yjr3oxzrm31m.p.runcloud.link
-0.0.0.0 main.lahoreshoes.com
 0.0.0.0 main.lancefiber.net
 0.0.0.0 main.museumofwesternco.live
 0.0.0.0 main.paylessautoz.de
@@ -355727,6 +355717,7 @@
 0.0.0.0 mama.pipi.ne.jp
 0.0.0.0 mama.ulitron.ru
 0.0.0.0 mamaandmimi.com
+0.0.0.0 mamabearcoffee.com
 0.0.0.0 mamabearhikes.com.au
 0.0.0.0 mamacehin.com
 0.0.0.0 mamachumbas.com
@@ -392290,6 +392281,7 @@
 0.0.0.0 nf-rs.netlify.app
 0.0.0.0 nf-subsinc.com
 0.0.0.0 nf.5.p2l.info
+0.0.0.0 nf.boletos-notas.com
 0.0.0.0 nf.kuaiyu.xyz
 0.0.0.0 nf.purocueroecuador.com
 0.0.0.0 nf02ch1pos.xzf.my.id
@@ -392325,6 +392317,7 @@
 0.0.0.0 nfcuvfgy46.link
 0.0.0.0 nfcverif.com
 0.0.0.0 nfdgfxtwciwnmvjq-dot-owaonk399399393.uk.r.appspot.com
+0.0.0.0 nfe.boletos-notas.com
 0.0.0.0 nfe168.com
 0.0.0.0 nfe98hnnwu98.df.r.appspot.com
 0.0.0.0 nfefiscal.com
@@ -416876,6 +416869,7 @@
 0.0.0.0 pdev.chartbeat.net
 0.0.0.0 pdewq.world
 0.0.0.0 pdf-adobe-online-viewer.on-fleek.app
+0.0.0.0 pdf-bro.lat
 0.0.0.0 pdf-cache.com
 0.0.0.0 pdf-cache.online
 0.0.0.0 pdf-cd974.web.app
@@ -420523,7 +420517,6 @@
 0.0.0.0 physics.uctm.edu
 0.0.0.0 physicsashok.com
 0.0.0.0 physicsbeckons.com
-0.0.0.0 physicsbyfiziks.org
 0.0.0.0 physimath.com
 0.0.0.0 physio-roesch.de
 0.0.0.0 physiology-anatomy.seo-florida.com
@@ -426062,7 +426055,6 @@
 0.0.0.0 pos.drivrr.com
 0.0.0.0 pos.healthrxbd.com
 0.0.0.0 pos.miebp.com
-0.0.0.0 pos.nittosupport.ca
 0.0.0.0 pos.vfixit.com.au
 0.0.0.0 pos2.usahawan.cc
 0.0.0.0 posadalalucia.com.ar
@@ -471730,7 +471722,6 @@
 0.0.0.0 shiviislive.github.io
 0.0.0.0 shivmundhe7.github.io
 0.0.0.0 shivshreetravelworld.com
-0.0.0.0 shivsoftwaresolutions.com
 0.0.0.0 shivuu2803.github.io
 0.0.0.0 shizhenwang.com
 0.0.0.0 shizhong.pilot45.com
@@ -482416,7 +482407,6 @@
 0.0.0.0 tab.dedspac.ru
 0.0.0.0 tab.dellrescue.com
 0.0.0.0 tab.myreserp.com
-0.0.0.0 tabak.hr
 0.0.0.0 tabby.dedspac.ru
 0.0.0.0 tabby.virosat.ru
 0.0.0.0 tabbylinejewelry.com
@@ -491157,6 +491147,7 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
+0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyn.com
@@ -496017,7 +496008,6 @@
 0.0.0.0 vekstfundoria-no.live
 0.0.0.0 vekstfundoria.click
 0.0.0.0 vekstfundoria.live
-0.0.0.0 vektorex.com
 0.0.0.0 vektortradeviaxtech.com
 0.0.0.0 vela.iad-01.braze.com
 0.0.0.0 veladrip.site
@@ -514822,6 +514812,7 @@
 0.0.0.0 www.gersjkn3k3.shop
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.gestuny.space
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
