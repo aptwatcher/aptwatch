@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-01 00:33:49
-# Entries: 540006
+# Generated: 2026-08-01 06:05:31
+# Entries: 540003
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -144646,7 +144646,6 @@
 0.0.0.0 bigrecess.com
 0.0.0.0 bigredmug.com
 0.0.0.0 bigrigrvadventures.com
-0.0.0.0 bigs.bikershop.biz
 0.0.0.0 bigs.bortogat.ru
 0.0.0.0 bigs.dedspac.ru
 0.0.0.0 bigs.ulitron.ru
@@ -193154,7 +193153,6 @@
 0.0.0.0 crestvermothal.net
 0.0.0.0 crestyieldmere.pro
 0.0.0.0 crestyieldvale.com
-0.0.0.0 cresvin.com
 0.0.0.0 cret.pages.dev
 0.0.0.0 cretan.virosat.ru
 0.0.0.0 crete.cloudns.ph
@@ -220836,6 +220834,7 @@
 0.0.0.0 ebubxsbsqh.duckdns.org
 0.0.0.0 ebuddynews.com
 0.0.0.0 ebullienceinabundance.com
+0.0.0.0 ebullientlife.in
 0.0.0.0 eburdwanmuktodhara.org.in
 0.0.0.0 eburkhardt.techvalleyabbottabad.pk
 0.0.0.0 ebusiness-bofamerica.online
@@ -250026,6 +250025,7 @@
 0.0.0.0 fluidcontitech.com
 0.0.0.0 fluiddeliverymanagement.com
 0.0.0.0 fluidesclimat.com
+0.0.0.0 fluidfilm.bg
 0.0.0.0 fluidou-71.ml
 0.0.0.0 fluiptvserver.com
 0.0.0.0 fluir-mercadopl.click
@@ -283732,7 +283732,6 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
-0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -308804,7 +308803,6 @@
 0.0.0.0 ixie1.weebly.com
 0.0.0.0 ixindamix.org
 0.0.0.0 ixion.ulitron.ru
-0.0.0.0 ixirgroup.com
 0.0.0.0 ixjgpzmibh.5q5e5o.cn
 0.0.0.0 ixjnzitelqmeuoxrhtehcatajj.triple-upgrade-293822.rj.r.appspot.com
 0.0.0.0 ixlosmebel.uz
@@ -354287,7 +354285,6 @@
 0.0.0.0 mail1.goggle.workers.dev
 0.0.0.0 mail1.googlle.workers.dev
 0.0.0.0 mail1.lectec.com.au
-0.0.0.0 mail1.mycollege.com.my
 0.0.0.0 mail1.netjets.com
 0.0.0.0 mail1.sspl.com.au
 0.0.0.0 mail1.systemone.com
@@ -380005,6 +380002,7 @@
 0.0.0.0 mule.boletuso.ru
 0.0.0.0 mule.dedspac.ru
 0.0.0.0 mule.ulitron.ru
+0.0.0.0 muledo.com
 0.0.0.0 muleforce.fr
 0.0.0.0 mulefroifadi-2217.vercel.app
 0.0.0.0 mulerinfospectables-bd2029.ingress-baronn.ewp.live
@@ -380405,6 +380403,7 @@
 0.0.0.0 murf-meta-lix-biz.pages.dev
 0.0.0.0 murga.ulitron.ru
 0.0.0.0 murge.io
+0.0.0.0 muriaspetin.es
 0.0.0.0 muriatic-speed.000webhostapp.com
 0.0.0.0 murid.ulitron.ru
 0.0.0.0 murikon.ru
@@ -471176,7 +471175,6 @@
 0.0.0.0 sgroup.nhsaportal.com
 0.0.0.0 sgs001.adtech.fr
 0.0.0.0 sgs001.adtech.us
-0.0.0.0 sgskolkata.com
 0.0.0.0 sgsnssdk.com.edgekey.net
 0.0.0.0 sgtknotswholesale.com
 0.0.0.0 sguallaser.cyou
@@ -491140,6 +491138,7 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
+0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyn.com
@@ -499743,7 +499742,6 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
-0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -529213,7 +529211,6 @@
 0.0.0.0 www.steamcomunnmity.com
 0.0.0.0 www.steamgifts.5v.pl
 0.0.0.0 www.steamkarta.pl
-0.0.0.0 www.steamrub.com
 0.0.0.0 www.steamtraffic.com
 0.0.0.0 www.stedoquin.pro
 0.0.0.0 www.steelbucks.com
