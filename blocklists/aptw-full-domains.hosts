@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-07-31 18:33:55
-# Entries: 540016
+# Generated: 2026-08-01 00:33:49
+# Entries: 540006
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -144646,6 +144646,7 @@
 0.0.0.0 bigrecess.com
 0.0.0.0 bigredmug.com
 0.0.0.0 bigrigrvadventures.com
+0.0.0.0 bigs.bikershop.biz
 0.0.0.0 bigs.bortogat.ru
 0.0.0.0 bigs.dedspac.ru
 0.0.0.0 bigs.ulitron.ru
@@ -168795,6 +168796,7 @@
 0.0.0.0 casino770.com
 0.0.0.0 casinoaffiliatereviews.com
 0.0.0.0 casinobon.us
+0.0.0.0 casinodas.com
 0.0.0.0 casinogamelifex.blogspot.co.ke
 0.0.0.0 casinogamelifex.blogspot.com.ee
 0.0.0.0 casinogamelifex.blogspot.com.ng
@@ -170970,7 +170972,6 @@
 0.0.0.0 cdnnews.hs-sites.com
 0.0.0.0 cdnondemand.org
 0.0.0.0 cdnonedrive.zengxiaopi123.workers.dev
-0.0.0.0 cdnorigin.net
 0.0.0.0 cdnp1.yieldoptimizer.com
 0.0.0.0 cdnpixel.simpli.fi
 0.0.0.0 cdns-upholds-io-login-secure.pages.dev
@@ -180620,6 +180621,7 @@
 0.0.0.0 cloudhost.ct.ws
 0.0.0.0 cloudi-liveledger.webflow.io
 0.0.0.0 cloudi.sitea.workers.dev
+0.0.0.0 cloudimagehostingupdatesrealted.yzz.me
 0.0.0.0 cloudimo.com.br
 0.0.0.0 cloudindoac.top
 0.0.0.0 cloudinet0700-b88475.ingress-daribow.ewp.live
@@ -181491,7 +181493,6 @@
 0.0.0.0 cnbpho.com
 0.0.0.0 cnbserlivwlt30dahon.azurewebsites.net
 0.0.0.0 cnbvn.carrd.co
-0.0.0.0 cnc.strikec2.wtf
 0.0.0.0 cnceast.weebly.com
 0.0.0.0 cncfd.nikasr.xyz
 0.0.0.0 cnchax.com
@@ -190518,6 +190519,7 @@
 0.0.0.0 coslychaczzsasiadkaobokprzezcianke.xyz
 0.0.0.0 cosm.cc
 0.0.0.0 cosmediaviviane.com
+0.0.0.0 cosmeticapampa.com.ar
 0.0.0.0 cosmeticeyebrowtattoomelbourne.com
 0.0.0.0 cosmeticosdevegetalesmioficina.com
 0.0.0.0 cosmeticoslatiendona.com
@@ -193152,6 +193154,7 @@
 0.0.0.0 crestvermothal.net
 0.0.0.0 crestyieldmere.pro
 0.0.0.0 crestyieldvale.com
+0.0.0.0 cresvin.com
 0.0.0.0 cret.pages.dev
 0.0.0.0 cretan.virosat.ru
 0.0.0.0 crete.cloudns.ph
@@ -195147,7 +195150,6 @@
 0.0.0.0 curlew.virosat.ru
 0.0.0.0 curls.duckdns.org
 0.0.0.0 curls.vadilops.ru
-0.0.0.0 curlservice.com
 0.0.0.0 curly-augmentations.000webhostapp.com
 0.0.0.0 curly-band-5557.on.fleek.co
 0.0.0.0 curly-cell-0628.on.fleek.co
@@ -211690,7 +211692,6 @@
 0.0.0.0 dl.pejmanbarakati.ir
 0.0.0.0 dl.plusmaster.pro
 0.0.0.0 dl.privatecollection.top
-0.0.0.0 dl.proxiespool.wiki
 0.0.0.0 dl.qsq.icu
 0.0.0.0 dl.rlh.ir
 0.0.0.0 dl.securefiledrives.com
@@ -244312,7 +244313,6 @@
 0.0.0.0 femaleviagra.findmenow.info
 0.0.0.0 femarvilla.com
 0.0.0.0 femaxatus.net
-0.0.0.0 femboy.center
 0.0.0.0 femboykisser.sbs
 0.0.0.0 femboytw.ink
 0.0.0.0 feme.ulitron.ru
@@ -246887,7 +246887,6 @@
 0.0.0.0 filmbest.video.blog
 0.0.0.0 filmbimcxll.com
 0.0.0.0 filmblue-69.duckdns.org
-0.0.0.0 filmchill.net
 0.0.0.0 filmdopobraniacbd92.ek1.pl
 0.0.0.0 filmdrunk.us.intellitxt.com
 0.0.0.0 filmedy.com
@@ -250027,7 +250026,6 @@
 0.0.0.0 fluidcontitech.com
 0.0.0.0 fluiddeliverymanagement.com
 0.0.0.0 fluidesclimat.com
-0.0.0.0 fluidfilm.bg
 0.0.0.0 fluidou-71.ml
 0.0.0.0 fluiptvserver.com
 0.0.0.0 fluir-mercadopl.click
@@ -253177,7 +253175,6 @@
 0.0.0.0 free.s689.xyz
 0.0.0.0 free.sitenow1033.gq
 0.0.0.0 free.thesocialsexnetwork.com
-0.0.0.0 free.tiurl.top
 0.0.0.0 free.ulitron.ru
 0.0.0.0 free.videodownloadconverter.com
 0.0.0.0 free.xxxcounter.com
@@ -254644,7 +254641,6 @@
 0.0.0.0 frosty-wiles-7e6058.netlify.app
 0.0.0.0 frosty-williams-cbc21f.netlify.app
 0.0.0.0 frosty-wing.45-132-242-241.plesk.page
-0.0.0.0 frostyislebe.pro
 0.0.0.0 frostywhale.vercel.app
 0.0.0.0 froth.ulitron.ru
 0.0.0.0 frou.pages.dev
@@ -277015,7 +277011,6 @@
 0.0.0.0 hacker651ai.github.io
 0.0.0.0 hackerbot.net
 0.0.0.0 hackerlogesh.github.io
-0.0.0.0 hackers.krd
 0.0.0.0 hackerz.ir
 0.0.0.0 hackflu.github.io
 0.0.0.0 hackgroup.byethost3.com
@@ -280422,6 +280417,7 @@
 0.0.0.0 hehd-zzp2m9.medicalfollow.mobi
 0.0.0.0 hehdhdh1.roombox.online
 0.0.0.0 hehe-190.github.io
+0.0.0.0 hehe.dstat.tech
 0.0.0.0 hehe.ulitron.ru
 0.0.0.0 hehfb.blogspot.sn
 0.0.0.0 hehjeheheawghsdjseyheh.blogspot.am
@@ -283736,6 +283732,7 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
+0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -291288,6 +291285,7 @@
 0.0.0.0 humansync.net
 0.0.0.0 humanverify.net
 0.0.0.0 humanwarnings.com
+0.0.0.0 humasjatim.id
 0.0.0.0 humayunsaghir.github.io
 0.0.0.0 humbaur.hr
 0.0.0.0 humbertocarpio.com
@@ -308806,6 +308804,7 @@
 0.0.0.0 ixie1.weebly.com
 0.0.0.0 ixindamix.org
 0.0.0.0 ixion.ulitron.ru
+0.0.0.0 ixirgroup.com
 0.0.0.0 ixjgpzmibh.5q5e5o.cn
 0.0.0.0 ixjnzitelqmeuoxrhtehcatajj.triple-upgrade-293822.rj.r.appspot.com
 0.0.0.0 ixlosmebel.uz
@@ -321882,7 +321881,6 @@
 0.0.0.0 kemanibucket798.s3.eu-de.cloud-object-storage.appdomain.cloud
 0.0.0.0 kemanoptical.com
 0.0.0.0 kemanvouphoures.com
-0.0.0.0 kemaxglobalshippings.com
 0.0.0.0 kembain.gardinary.com
 0.0.0.0 kemcu.com
 0.0.0.0 kemencefm.com
@@ -336602,6 +336600,7 @@
 0.0.0.0 lindhaprofit.com
 0.0.0.0 lindinasedred.serveminecraft.net
 0.0.0.0 lindleylabs.com
+0.0.0.0 lindnerelektroanlagen.de
 0.0.0.0 lindo.virosat.ru
 0.0.0.0 lindojon.com.br
 0.0.0.0 lindprofitt.com
@@ -354288,6 +354287,7 @@
 0.0.0.0 mail1.goggle.workers.dev
 0.0.0.0 mail1.googlle.workers.dev
 0.0.0.0 mail1.lectec.com.au
+0.0.0.0 mail1.mycollege.com.my
 0.0.0.0 mail1.netjets.com
 0.0.0.0 mail1.sspl.com.au
 0.0.0.0 mail1.systemone.com
@@ -360803,7 +360803,6 @@
 0.0.0.0 medibaad.com
 0.0.0.0 medic.ulitron.ru
 0.0.0.0 medica-lab.com
-0.0.0.0 medica-me.com
 0.0.0.0 medical-devices-purchase-quotation.vercel.app
 0.0.0.0 medical-equipments.vercel.app
 0.0.0.0 medical-jets.com
@@ -392326,7 +392325,6 @@
 0.0.0.0 nfehx.blogspot.sn
 0.0.0.0 nfeidzod658.com
 0.0.0.0 nfejezpqhraypysdfynarcebizpgfcjczotm-dot-glegen303939423233.ue.r.appspot.com
-0.0.0.0 nfeletronica.sevendocumentos.vip
 0.0.0.0 nfemhs.org
 0.0.0.0 nfepdxwfvn.duckdns.org
 0.0.0.0 nffajhgq.shop
@@ -393417,7 +393415,6 @@
 0.0.0.0 nigeriavoguejournalism.org
 0.0.0.0 nigerlife.com
 0.0.0.0 nigertechnologie.com
-0.0.0.0 nigg.tashirpizza.su
 0.0.0.0 nigh.dedspac.ru
 0.0.0.0 nigh.ulitron.ru
 0.0.0.0 nighs.ulitron.ru
@@ -394795,7 +394792,6 @@
 0.0.0.0 noblerendoire-fr.live
 0.0.0.0 noblerendoire.digital
 0.0.0.0 noblerendoire.live
-0.0.0.0 nobleshadebu.pro
 0.0.0.0 noblesparmere.net
 0.0.0.0 noblestree.com
 0.0.0.0 nobletycraft.shop
@@ -407863,7 +407859,6 @@
 0.0.0.0 orientationpour-tous.fr
 0.0.0.0 orientedargument.com
 0.0.0.0 orientgrammarschools.edu.pk
-0.0.0.0 orienttaxtile.com
 0.0.0.0 orifl21ame01.000webhostapp.com
 0.0.0.0 oriflamegiftforyou1.000webhostapp.com
 0.0.0.0 origa-cloud-b38d.c71rcsyb.workers.dev
@@ -447858,7 +447853,6 @@
 0.0.0.0 rathepayments.com
 0.0.0.0 rathirirounds.com
 0.0.0.0 rathkealechildcare.ie
-0.0.0.0 rathodsoftware.in
 0.0.0.0 rathoraryann.github.io
 0.0.0.0 rathuiasa.duckdns.org
 0.0.0.0 rathvionex.live
@@ -471182,6 +471176,7 @@
 0.0.0.0 sgroup.nhsaportal.com
 0.0.0.0 sgs001.adtech.fr
 0.0.0.0 sgs001.adtech.us
+0.0.0.0 sgskolkata.com
 0.0.0.0 sgsnssdk.com.edgekey.net
 0.0.0.0 sgtknotswholesale.com
 0.0.0.0 sguallaser.cyou
@@ -472707,7 +472702,6 @@
 0.0.0.0 siss.ulitron.ru
 0.0.0.0 sissu.dedspac.ru
 0.0.0.0 sistemafar.sistemafar.far.br
-0.0.0.0 sistemasyusa.icu
 0.0.0.0 sistemishop.it
 0.0.0.0 sistemobilya.com
 0.0.0.0 sisterliness.timanar.ru
@@ -476405,7 +476399,6 @@
 0.0.0.0 ssbuenosaires.com
 0.0.0.0 ssc-cms.33across.com
 0.0.0.0 ssc.33across.com
-0.0.0.0 ssc.nexajs.com
 0.0.0.0 sschmitz59.wixsite.com
 0.0.0.0 ssconstructions.in
 0.0.0.0 ssd.lofriovou.sa.com
@@ -479815,6 +479808,7 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamsyseprex-es.com
 0.0.0.0 streamvod.pl
@@ -487827,7 +487821,6 @@
 0.0.0.0 tpfranchiseinquiries.com
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpgcreationz.com
-0.0.0.0 tpkpolus.ru
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
 0.0.0.0 tpr.moolin.ru
@@ -491147,7 +491140,6 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
-0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyn.com
@@ -491649,7 +491641,6 @@
 0.0.0.0 uezow.gkscwu.es
 0.0.0.0 uf-airao-vermil.pt
 0.0.0.0 ufa.bibliota.ru
-0.0.0.0 ufavalkplus.com
 0.0.0.0 ufeb8nd9wudwnidjunw9dueb.weebly.com
 0.0.0.0 ufggfnh2.pages.dev
 0.0.0.0 ufgkjhgfghjkn.weebly.com
@@ -496008,6 +495999,7 @@
 0.0.0.0 vekstfundoria-no.live
 0.0.0.0 vekstfundoria.click
 0.0.0.0 vekstfundoria.live
+0.0.0.0 vektorex.com
 0.0.0.0 vektortradeviaxtech.com
 0.0.0.0 vela.iad-01.braze.com
 0.0.0.0 veladrip.site
@@ -496207,7 +496199,6 @@
 0.0.0.0 venkian.ru
 0.0.0.0 venkiteshns.github.io
 0.0.0.0 venling.ru
-0.0.0.0 venom.rotero.vc
 0.0.0.0 venom766.github.io
 0.0.0.0 venomart.space
 0.0.0.0 venox-trylek-syvol.pages.dev
@@ -497707,7 +497698,6 @@
 0.0.0.0 vms.bluebillywig.com
 0.0.0.0 vmsl.co.in
 0.0.0.0 vmweb.net
-0.0.0.0 vmwrvtools.com
 0.0.0.0 vmyuvxbyj2glwl2.moolin.ru
 0.0.0.0 vn-gmtdmp.mookie1.com
 0.0.0.0 vn-platform.bidgear.com
@@ -499753,6 +499743,7 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -514812,7 +514803,6 @@
 0.0.0.0 www.gersjkn3k3.shop
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.gestuny.space
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
