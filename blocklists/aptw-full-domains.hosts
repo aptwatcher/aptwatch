@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-01 06:35:29
+# Generated: 2026-08-01 12:34:00
 # Entries: 540003
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -65913,6 +65913,7 @@
 0.0.0.0 aidiscord.jiayiapi.cn
 0.0.0.0 aidiscord.whalespet.com
 0.0.0.0 aidjekibawa9jv7.53244ds.xyz
+0.0.0.0 aidlifempowerment.com
 0.0.0.0 aidman.vadilops.ru
 0.0.0.0 aidman.virosat.ru
 0.0.0.0 aidmen.bluestacko.ru
@@ -122930,7 +122931,6 @@
 0.0.0.0 ayudabancaria.weebly.com
 0.0.0.0 ayudabancolombia.com
 0.0.0.0 ayudabancolombla.webcindario.com
-0.0.0.0 ayudaclientes.bntrab.sbs
 0.0.0.0 ayudaenlinea.vastserve.com
 0.0.0.0 ayudainteractiva.webcindario.com
 0.0.0.0 ayudanecesaria22.000webhostapp.com
@@ -220834,7 +220834,6 @@
 0.0.0.0 ebubxsbsqh.duckdns.org
 0.0.0.0 ebuddynews.com
 0.0.0.0 ebullienceinabundance.com
-0.0.0.0 ebullientlife.in
 0.0.0.0 eburdwanmuktodhara.org.in
 0.0.0.0 eburkhardt.techvalleyabbottabad.pk
 0.0.0.0 ebusiness-bofamerica.online
@@ -250025,7 +250024,6 @@
 0.0.0.0 fluidcontitech.com
 0.0.0.0 fluiddeliverymanagement.com
 0.0.0.0 fluidesclimat.com
-0.0.0.0 fluidfilm.bg
 0.0.0.0 fluidou-71.ml
 0.0.0.0 fluiptvserver.com
 0.0.0.0 fluir-mercadopl.click
@@ -291284,7 +291282,6 @@
 0.0.0.0 humansync.net
 0.0.0.0 humanverify.net
 0.0.0.0 humanwarnings.com
-0.0.0.0 humasjatim.id
 0.0.0.0 humayunsaghir.github.io
 0.0.0.0 humbaur.hr
 0.0.0.0 humbertocarpio.com
@@ -308803,6 +308800,7 @@
 0.0.0.0 ixie1.weebly.com
 0.0.0.0 ixindamix.org
 0.0.0.0 ixion.ulitron.ru
+0.0.0.0 ixirgroup.com
 0.0.0.0 ixjgpzmibh.5q5e5o.cn
 0.0.0.0 ixjnzitelqmeuoxrhtehcatajj.triple-upgrade-293822.rj.r.appspot.com
 0.0.0.0 ixlosmebel.uz
@@ -336598,7 +336596,6 @@
 0.0.0.0 lindhaprofit.com
 0.0.0.0 lindinasedred.serveminecraft.net
 0.0.0.0 lindleylabs.com
-0.0.0.0 lindnerelektroanlagen.de
 0.0.0.0 lindo.virosat.ru
 0.0.0.0 lindojon.com.br
 0.0.0.0 lindprofitt.com
@@ -355714,7 +355711,6 @@
 0.0.0.0 mama.pipi.ne.jp
 0.0.0.0 mama.ulitron.ru
 0.0.0.0 mamaandmimi.com
-0.0.0.0 mamabearcoffee.com
 0.0.0.0 mamabearhikes.com.au
 0.0.0.0 mamacehin.com
 0.0.0.0 mamachumbas.com
@@ -378402,6 +378398,7 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
+0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -419383,6 +419380,7 @@
 0.0.0.0 pfaqezewnwnokdmb-dot-millinium.ey.r.appspot.com
 0.0.0.0 pfarmania.com
 0.0.0.0 pfastelinho.groks-the.info
+0.0.0.0 pfatrivandrum.org
 0.0.0.0 pfaxsydzmcosfsgb-dot-millinium.ey.r.appspot.com
 0.0.0.0 pfbfinancialassts.com
 0.0.0.0 pfbid0hecxzdghajjktlqyypwbuurpgynu6n7ojnelemoqtlnotifid.my.id
@@ -427946,6 +427944,7 @@
 0.0.0.0 powerprecinct.com.au
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
+0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -495998,7 +495997,6 @@
 0.0.0.0 vekstfundoria-no.live
 0.0.0.0 vekstfundoria.click
 0.0.0.0 vekstfundoria.live
-0.0.0.0 vektorex.com
 0.0.0.0 vektortradeviaxtech.com
 0.0.0.0 vela.iad-01.braze.com
 0.0.0.0 veladrip.site
@@ -514801,6 +514799,7 @@
 0.0.0.0 www.gersjkn3k3.shop
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.gestuny.space
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
@@ -529211,6 +529210,7 @@
 0.0.0.0 www.steamcomunnmity.com
 0.0.0.0 www.steamgifts.5v.pl
 0.0.0.0 www.steamkarta.pl
+0.0.0.0 www.steamrub.com
 0.0.0.0 www.steamtraffic.com
 0.0.0.0 www.stedoquin.pro
 0.0.0.0 www.steelbucks.com
