@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-01 18:33:59
-# Entries: 540002
+# Generated: 2026-08-02 00:33:21
+# Entries: 539999
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32928,7 +32928,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -308801,7 +308800,6 @@
 0.0.0.0 ixie1.weebly.com
 0.0.0.0 ixindamix.org
 0.0.0.0 ixion.ulitron.ru
-0.0.0.0 ixirgroup.com
 0.0.0.0 ixjgpzmibh.5q5e5o.cn
 0.0.0.0 ixjnzitelqmeuoxrhtehcatajj.triple-upgrade-293822.rj.r.appspot.com
 0.0.0.0 ixlosmebel.uz
@@ -374707,6 +374705,7 @@
 0.0.0.0 mobil.nugmui.de
 0.0.0.0 mobil.uyap-gov.com
 0.0.0.0 mobila.pl
+0.0.0.0 mobilab.by
 0.0.0.0 mobilacikdenizkredi.cf
 0.0.0.0 mobilacikdenizkredi.ga
 0.0.0.0 mobilacikdenizkredi.gq
@@ -458455,7 +458454,6 @@
 0.0.0.0 roblox-gift.xyz
 0.0.0.0 roblox-help.com
 0.0.0.0 roblox-verification.com
-0.0.0.0 roblox-xeno.info
 0.0.0.0 roblox.cam
 0.0.0.0 roblox.cd
 0.0.0.0 roblox.com.ag
@@ -493038,7 +493036,6 @@
 0.0.0.0 uploader.social
 0.0.0.0 uploader.sytes.net
 0.0.0.0 uploadingyourproject687268747isjhgjjmz.pages.dev
-0.0.0.0 uploadloop.com
 0.0.0.0 uploads-gain.vercel.app
 0.0.0.0 uploads.dev30vps045401.managerc20vpx5903.host
 0.0.0.0 uploads.mngrc24srv09527.site
