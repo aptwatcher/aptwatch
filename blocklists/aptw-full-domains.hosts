@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-02 06:35:17
-# Entries: 542482
+# Generated: 2026-08-02 12:33:49
+# Entries: 542486
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -98742,6 +98742,7 @@
 0.0.0.0 areyouabot.net
 0.0.0.0 areyouahuman.co
 0.0.0.0 areyouall.ru
+0.0.0.0 areyouready.co.za
 0.0.0.0 areyoureadytocompete.xyz
 0.0.0.0 areyourobotornot.blogspot.com
 0.0.0.0 arezcs.000webhostapp.com
@@ -177057,6 +177058,7 @@
 0.0.0.0 cilmwgll.duckdns.org
 0.0.0.0 ciltbakimiveguzellik.com
 0.0.0.0 ciltiralsirvevalorg.com
+0.0.0.0 cim-kolea.com
 0.0.0.0 cimaonrendaviol.click
 0.0.0.0 cimaonrendaviol.com
 0.0.0.0 cimaonrendaviol.live
@@ -287049,6 +287051,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -300069,6 +300072,7 @@
 0.0.0.0 indus.iad-01.braze.com
 0.0.0.0 indus.virosat.ru
 0.0.0.0 induscapitalplatform.live
+0.0.0.0 indusenterprises.co
 0.0.0.0 indusfood.com.pk
 0.0.0.0 indusgreenassociates.com
 0.0.0.0 indusmarket.ru
@@ -311223,7 +311227,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -516512,6 +516515,7 @@
 0.0.0.0 www.gerteuzonim-sg.live
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.gestuny.space
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
