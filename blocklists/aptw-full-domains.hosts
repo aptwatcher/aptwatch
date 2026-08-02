@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-02 12:33:49
-# Entries: 542486
+# Generated: 2026-08-02 18:33:30
+# Entries: 542490
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -210554,6 +210554,7 @@
 0.0.0.0 directdocumentgate.com
 0.0.0.0 directdocumentgateway.com
 0.0.0.0 directdocumentinfo.com
+0.0.0.0 directdownloadl.ink
 0.0.0.0 directe.authenlbcns.com
 0.0.0.0 directe.authlecoins.com
 0.0.0.0 directechs.us
@@ -221523,6 +221524,7 @@
 0.0.0.0 eclipse-earn-tech.com
 0.0.0.0 eclipse-gear.com
 0.0.0.0 eclipsebank.directsmailsolution.com
+0.0.0.0 eclipsebible.com
 0.0.0.0 eclipsecorevix.digital
 0.0.0.0 eclipsecorevix.net
 0.0.0.0 eclipsecorevix.pro
@@ -311227,6 +311229,7 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
+0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -335692,6 +335695,7 @@
 0.0.0.0 letsfree10281club.duckdns.org
 0.0.0.0 letsgetverifiedxxudayefryou.godaddysites.com
 0.0.0.0 letsgivelife.com
+0.0.0.0 letsgobok.com
 0.0.0.0 letsgoclaim.com
 0.0.0.0 letsgodigital.uk.intellitxt.com
 0.0.0.0 letsgoogiveaway.myftp.info
@@ -465465,6 +465469,7 @@
 0.0.0.0 safetytrackerfunnelmatrix.vercel.app
 0.0.0.0 safetytrackerleadcraft.vercel.app
 0.0.0.0 safetytrackersocialup.vercel.app
+0.0.0.0 safeuploadz.com
 0.0.0.0 safeurl-amazon-us.com
 0.0.0.0 safeurl-sharepoint-account-hvlaw.sohaibislamjoy.top
 0.0.0.0 safeurl.maxthon.cn
@@ -516515,7 +516520,6 @@
 0.0.0.0 www.gerteuzonim-sg.live
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.gestuny.space
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
