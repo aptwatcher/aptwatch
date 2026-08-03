@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-03 12:33:54
-# Entries: 542499
+# Generated: 2026-08-03 18:33:39
+# Entries: 542493
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -311232,7 +311232,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -398931,7 +398930,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -403079,7 +403077,6 @@
 0.0.0.0 oilymedication.cn
 0.0.0.0 oilzero.nl
 0.0.0.0 oilzero.org
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -492235,7 +492232,6 @@
 0.0.0.0 twist.virosat.ru
 0.0.0.0 twistshake.cyou
 0.0.0.0 twit.dedspac.ru
-0.0.0.0 twitch.tj
 0.0.0.0 twitchguru.us.intellitxt.com
 0.0.0.0 twitchindoor.best
 0.0.0.0 twiterservices.org
@@ -528294,7 +528290,6 @@
 0.0.0.0 www.rayoluxorix-es.com
 0.0.0.0 www.razese49l.sbs
 0.0.0.0 www.razvandumitrescu.com
-0.0.0.0 www.rbcfort.com
 0.0.0.0 www.rbfljek.sbs
 0.0.0.0 www.rbxfree.com
 0.0.0.0 www.rcfbolt.com
@@ -538009,7 +538004,6 @@
 0.0.0.0 www.zhenhongwz.com
 0.0.0.0 www.zhenhuo168.com
 0.0.0.0 www.zhibang178.com
-0.0.0.0 www.zhikey.com
 0.0.0.0 www.zhokvarit-de.live
 0.0.0.0 www.zhokvarit-es.live
 0.0.0.0 www.zhokvarit-nl.live
