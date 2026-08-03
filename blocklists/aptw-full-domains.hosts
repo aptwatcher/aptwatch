@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-02 18:33:30
-# Entries: 542490
+# Generated: 2026-08-03 00:33:22
+# Entries: 542495
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -170927,6 +170927,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -194439,6 +194440,7 @@
 0.0.0.0 cs.emxdgt.com
 0.0.0.0 cs.esportsvotes.com
 0.0.0.0 cs.exitmonitor.com
+0.0.0.0 cs.go.kg
 0.0.0.0 cs.hustorla.ru
 0.0.0.0 cs.jungara.com.au
 0.0.0.0 cs.lkqd.net
@@ -247102,6 +247104,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.tugou.com.co
 0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
@@ -300074,7 +300077,6 @@
 0.0.0.0 indus.iad-01.braze.com
 0.0.0.0 indus.virosat.ru
 0.0.0.0 induscapitalplatform.live
-0.0.0.0 indusenterprises.co
 0.0.0.0 indusfood.com.pk
 0.0.0.0 indusgreenassociates.com
 0.0.0.0 indusmarket.ru
@@ -398927,7 +398929,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -486831,6 +486832,7 @@
 0.0.0.0 theneoprofit.com
 0.0.0.0 thenetters.net
 0.0.0.0 thenewc0der-24.github.io
+0.0.0.0 thenewcoffeshop.com
 0.0.0.0 thenewswire.fr
 0.0.0.0 thenexorabeacongpt.net
 0.0.0.0 thenexthorcore.net
@@ -492228,6 +492230,7 @@
 0.0.0.0 twist.virosat.ru
 0.0.0.0 twistshake.cyou
 0.0.0.0 twit.dedspac.ru
+0.0.0.0 twitch.tj
 0.0.0.0 twitchguru.us.intellitxt.com
 0.0.0.0 twitchindoor.best
 0.0.0.0 twiterservices.org
@@ -497069,6 +497072,7 @@
 0.0.0.0 vdocs.sasktel.mmspos.com
 0.0.0.0 vdopia.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
+0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 ve1.claker.top
 0.0.0.0 ve1.techgeetam.com
@@ -516520,6 +516524,7 @@
 0.0.0.0 www.gerteuzonim-sg.live
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.gestuny.space
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
