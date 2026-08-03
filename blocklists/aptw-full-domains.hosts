@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-03 00:33:22
-# Entries: 542495
+# Generated: 2026-08-03 06:06:03
+# Entries: 542496
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -300077,6 +300077,7 @@
 0.0.0.0 indus.iad-01.braze.com
 0.0.0.0 indus.virosat.ru
 0.0.0.0 induscapitalplatform.live
+0.0.0.0 indusenterprises.co
 0.0.0.0 indusfood.com.pk
 0.0.0.0 indusgreenassociates.com
 0.0.0.0 indusmarket.ru
@@ -346584,6 +346585,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -497072,7 +497074,6 @@
 0.0.0.0 vdocs.sasktel.mmspos.com
 0.0.0.0 vdopia.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
-0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 ve1.claker.top
 0.0.0.0 ve1.techgeetam.com
