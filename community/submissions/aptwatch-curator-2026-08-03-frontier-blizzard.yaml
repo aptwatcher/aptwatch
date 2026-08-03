@@ -1,0 +1,16 @@
+author: APTWatch Curator
+
+source: https://security.microsoft.com/threatanalytics3
+source_name: Microsoft Defender TI - Actor Profile Frontier Blizzard
+
+apt_groups:
+  - Frontier Blizzard
+
+description: >
+  IOCs from the Microsoft Defender TI actor profile "Frontier Blizzard"
+  (retrieved 2026-08-03). Infrastructure domains tied to phishing /
+  AiTM operations attributed to this Russian state actor.
+
+domains:
+  - go-note.net
+  - gl-form.net
