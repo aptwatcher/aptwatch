@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-04 12:34:22
+# Generated: 2026-08-04 18:33:27
 # Entries: 542513
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -53368,6 +53368,7 @@
 0.0.0.0 actualitesdroitbelge.be
 0.0.0.0 actualiza-cuenta-mail.weebly.com
 0.0.0.0 actualiza-cuentas-support34.weebly.com
+0.0.0.0 actualiza-red5g.app
 0.0.0.0 actualiza-web-pichin-cha.000webhostapp.com
 0.0.0.0 actualizabbc.top
 0.0.0.0 actualizacion-microsoft.mx.hstn.me
@@ -203844,7 +203845,6 @@
 0.0.0.0 delile.space
 0.0.0.0 delindeboom.info
 0.0.0.0 delinquent-community-fla-dc9e6.firebaseapp.com
-0.0.0.0 deliozmabrano.site.je
 0.0.0.0 delirious-angry-mayflower.glitch.me
 0.0.0.0 delirious-puzzle-ninja.glitch.me
 0.0.0.0 delirious-zinc-slice.glitch.me
@@ -287063,6 +287063,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -311238,7 +311239,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -346593,6 +346593,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -468822,7 +468823,6 @@
 0.0.0.0 savana.ycsoftturkey.com
 0.0.0.0 savannah-moisture-electronic-internal.trycloudflare.com
 0.0.0.0 savannah.holter.es
-0.0.0.0 savannahadventureslimited.com
 0.0.0.0 savannahcoachworks-co-za.ga
 0.0.0.0 savannahout.com
 0.0.0.0 savannahpaez.com
@@ -488163,6 +488163,7 @@
 0.0.0.0 tli.sh
 0.0.0.0 tlinkokk.top
 0.0.0.0 tlio.forskningsnytt.info
+0.0.0.0 tlmtravelstours.com
 0.0.0.0 tls.dxsvr.com
 0.0.0.0 tls.telemetry.swe.quicinc.com
 0.0.0.0 tlsoxwcg.shop
@@ -528308,7 +528309,6 @@
 0.0.0.0 www.rayoluxorix-es.com
 0.0.0.0 www.razese49l.sbs
 0.0.0.0 www.razvandumitrescu.com
-0.0.0.0 www.rbcfort.com
 0.0.0.0 www.rbfljek.sbs
 0.0.0.0 www.rbxfree.com
 0.0.0.0 www.rcfbolt.com
