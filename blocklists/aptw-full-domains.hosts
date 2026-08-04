@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-04 06:06:33
-# Entries: 542508
+# Generated: 2026-08-04 06:36:22
+# Entries: 542509
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -488159,6 +488159,7 @@
 0.0.0.0 tli.sh
 0.0.0.0 tlinkokk.top
 0.0.0.0 tlio.forskningsnytt.info
+0.0.0.0 tlmtravelstours.com
 0.0.0.0 tls.dxsvr.com
 0.0.0.0 tls.telemetry.swe.quicinc.com
 0.0.0.0 tlsoxwcg.shop
