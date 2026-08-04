@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-04 06:36:22
-# Entries: 542509
+# Generated: 2026-08-04 12:34:22
+# Entries: 542513
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -196839,6 +196839,7 @@
 0.0.0.0 cxxxdss.duckdns.org
 0.0.0.0 cxxxewuxiekqzfre-dot-millinium.ey.r.appspot.com
 0.0.0.0 cxxxv8.wixsite.com
+0.0.0.0 cxxz.co.za
 0.0.0.0 cxxzcctpawnfoxbv-dot-millinium.ey.r.appspot.com
 0.0.0.0 cxyvnmtjgivgqeay-dot-millinium.ey.r.appspot.com
 0.0.0.0 cxzalinlgetxzmws-dot-millinium.ey.r.appspot.com
@@ -203843,6 +203844,7 @@
 0.0.0.0 delile.space
 0.0.0.0 delindeboom.info
 0.0.0.0 delinquent-community-fla-dc9e6.firebaseapp.com
+0.0.0.0 deliozmabrano.site.je
 0.0.0.0 delirious-angry-mayflower.glitch.me
 0.0.0.0 delirious-puzzle-ninja.glitch.me
 0.0.0.0 delirious-zinc-slice.glitch.me
@@ -286111,6 +286113,7 @@
 0.0.0.0 hjgkujtdryhtryr.mywebsites360.com
 0.0.0.0 hjgpcplswmpvwuij-dot-millinium.ey.r.appspot.com
 0.0.0.0 hjgrc.cn
+0.0.0.0 hjha.ao
 0.0.0.0 hjhgjfgndgvd.000webhostapp.com
 0.0.0.0 hjhhdfdfhhgghggryuuuuyuj-104847.weeblysite.com
 0.0.0.0 hjhkgdtf.cf
@@ -287060,7 +287063,6 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
-0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -344236,6 +344238,7 @@
 0.0.0.0 lomginr0nfficial0nlinestiem3yui1nimessoftsi.gq
 0.0.0.0 lomginr0nfficial0nlinestiem3yui1nimessoftsi.ml
 0.0.0.0 lomgmlbhri.duckdns.org
+0.0.0.0 lomiva.vu
 0.0.0.0 lomix-id685392-w2tg.vercel.app
 0.0.0.0 lomke0ap2jlcmu3j.jimpike.com.au
 0.0.0.0 lomlattinc.framer.ai
@@ -346590,7 +346593,6 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
-0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -398942,6 +398944,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -468819,6 +468822,7 @@
 0.0.0.0 savana.ycsoftturkey.com
 0.0.0.0 savannah-moisture-electronic-internal.trycloudflare.com
 0.0.0.0 savannah.holter.es
+0.0.0.0 savannahadventureslimited.com
 0.0.0.0 savannahcoachworks-co-za.ga
 0.0.0.0 savannahout.com
 0.0.0.0 savannahpaez.com
@@ -488159,7 +488163,6 @@
 0.0.0.0 tli.sh
 0.0.0.0 tlinkokk.top
 0.0.0.0 tlio.forskningsnytt.info
-0.0.0.0 tlmtravelstours.com
 0.0.0.0 tls.dxsvr.com
 0.0.0.0 tls.telemetry.swe.quicinc.com
 0.0.0.0 tlsoxwcg.shop
@@ -516538,6 +516541,7 @@
 0.0.0.0 www.gerteuzonim-sg.live
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.gestuny.space
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
