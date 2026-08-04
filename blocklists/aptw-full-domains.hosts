@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-03 18:33:39
-# Entries: 542493
+# Generated: 2026-08-04 00:33:31
+# Entries: 542508
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -164668,6 +164668,7 @@
 0.0.0.0 c2.rfihub.net
 0.0.0.0 c2.somalisounds.com
 0.0.0.0 c2.statcounter.com
+0.0.0.0 c2.strikec2.wtf
 0.0.0.0 c2.taboola.com
 0.0.0.0 c2.tentaculos.net
 0.0.0.0 c2.thecounter.de
@@ -264651,6 +264652,7 @@
 0.0.0.0 gkyiykb.b-cdn.net
 0.0.0.0 gkzhokfntp.duckdns.org
 0.0.0.0 gkznvxbnhoghmknm-dot-millinium.ey.r.appspot.com
+0.0.0.0 gl-form.net
 0.0.0.0 gl-pubgmobile.com
 0.0.0.0 gl-xms-xiaomi.com.lagranbruja.com
 0.0.0.0 gl.070610.net
@@ -266229,6 +266231,7 @@
 0.0.0.0 go-microsoft-com.office365.apps.maxsolutions.com.au
 0.0.0.0 go-mpulse.net
 0.0.0.0 go-mrga.hr
+0.0.0.0 go-note.net
 0.0.0.0 go-ogl.com
 0.0.0.0 go-premium.netsons.org
 0.0.0.0 go-rank.de
@@ -311232,6 +311235,7 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
+0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -320772,6 +320776,7 @@
 0.0.0.0 kaitystein.com
 0.0.0.0 kaiu-marketing.com
 0.0.0.0 kaiwi.virosat.ru
+0.0.0.0 kaiwyrey.eu.cc
 0.0.0.0 kaiying-tey.github.io
 0.0.0.0 kaizalawebcraft.com
 0.0.0.0 kaizavon.com
@@ -346584,7 +346589,6 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
-0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -349197,6 +349201,7 @@
 0.0.0.0 m33250.alphainvestment.co
 0.0.0.0 m365-munich-airport.de
 0.0.0.0 m365-o365.an.r.appspot.com
+0.0.0.0 m365-owa.com
 0.0.0.0 m365.shdeyioaiw.grainxgllobal.com
 0.0.0.0 m365ahp.xyz
 0.0.0.0 m365cloud-pdf16-886795-fhgvtp.mowpvwkfi4.workers.dev
@@ -379190,6 +379195,8 @@
 0.0.0.0 ms10be.be
 0.0.0.0 ms1mmons.wixsite.com
 0.0.0.0 ms1w.icu
+0.0.0.0 ms365-device.com
+0.0.0.0 ms365-live.com
 0.0.0.0 ms4.applovin.com
 0.0.0.0 ms4.applvn.com
 0.0.0.0 ms61.download
@@ -379667,6 +379674,9 @@
 0.0.0.0 mt-customer-3-7a94f5.ingress-daribow.ewp.live
 0.0.0.0 mt-info.store
 0.0.0.0 mt-link.demomailtrap.com
+0.0.0.0 mt-link.hxnxajp.club
+0.0.0.0 mt-link.jiosjcjp.club
+0.0.0.0 mt-link.qdhuzf.cc
 0.0.0.0 mt-llinink.info
 0.0.0.0 mt-online.webcindario.com
 0.0.0.0 mt-store.top
@@ -398930,6 +398940,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -410567,6 +410578,7 @@
 0.0.0.0 owa-message-reviewcenter.web.app
 0.0.0.0 owa-messages-reviews.web.app
 0.0.0.0 owa-microsft.web.app
+0.0.0.0 owa-ms365.com
 0.0.0.0 owa-outlook-mu.vercel.app
 0.0.0.0 owa-outlook-web.dt.r.appspot.com
 0.0.0.0 owa-outlooklive.ga
@@ -442810,6 +442822,7 @@
 0.0.0.0 pvnvbqvwpouegyzfjxurwocjtf-dot-gl909989876787.uk.r.appspot.com
 0.0.0.0 pvokrvrulwdubxra-dot-millinium.ey.r.appspot.com
 0.0.0.0 pvp.siteregitsl.top
+0.0.0.0 pvphood.cc
 0.0.0.0 pvpmp4oloh1nk.liusanjie.cc
 0.0.0.0 pvpn.qius.eu.org
 0.0.0.0 pvppphpodkeipndncukxwvisym-dot-goff039302032323.rj.r.appspot.com
@@ -528290,6 +528303,7 @@
 0.0.0.0 www.rayoluxorix-es.com
 0.0.0.0 www.razese49l.sbs
 0.0.0.0 www.razvandumitrescu.com
+0.0.0.0 www.rbcfort.com
 0.0.0.0 www.rbfljek.sbs
 0.0.0.0 www.rbxfree.com
 0.0.0.0 www.rcfbolt.com
@@ -538004,6 +538018,7 @@
 0.0.0.0 www.zhenhongwz.com
 0.0.0.0 www.zhenhuo168.com
 0.0.0.0 www.zhibang178.com
+0.0.0.0 www.zhikey.com
 0.0.0.0 www.zhokvarit-de.live
 0.0.0.0 www.zhokvarit-es.live
 0.0.0.0 www.zhokvarit-nl.live
