@@ -300083,7 +300083,6 @@ indus.dedspac.ru
 indus.iad-01.braze.com
 indus.virosat.ru
 induscapitalplatform.live
-indusenterprises.co
 indusfood.com.pk
 indusgreenassociates.com
 indusmarket.ru
@@ -493630,6 +493629,7 @@ universalesdeskandia.live
 universalesdeskandia.pro
 universalfxmm.com
 universalmsg.com
+universami.ge
 universe.send.microad.jp
 universeaccountvalidation.weebly.com
 universeactivecircleprofile.weebly.com
