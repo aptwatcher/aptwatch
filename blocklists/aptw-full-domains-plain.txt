@@ -9590,6 +9590,8 @@
 176.25.129.34.bc.googleusercontent.com
 176.28.116.58
 176.57.150.107
+176.65.148.145.ptr.pfcloud.network
+176.65.149.168.ptr.pfcloud.network
 176.9.0.78
 1760286545.corolain.ru
 1760530716.corolain.ru
@@ -23648,6 +23650,7 @@
 45.133.200.254
 45.133.245.64
 45.134.171.230
+45.135.194.70.ptr.pfcloud.network
 45.135.237.55
 45.137.150.105
 45.137.20.71
@@ -64983,6 +64986,7 @@ aha.ulitron.ru
 aha.vadilops.ru
 ahab.ulitron.ru
 ahacxmykimpleyhpynyqoqpjpwqahlgyhdal-dot-cedar-code-289917.nn.r.appspot.com
+ahad-cn.com
 ahad275.github.io
 ahafood.e2k.in
 ahaganrtewebb.byethost6.com
@@ -170922,7 +170926,6 @@ cdn.exactag.com
 cdn.exelator.com
 cdn.ezca.asia
 cdn.fastclick.net
-cdn.file6.goodid.com
 cdn.firstimpression.io
 cdn.firstlook.com
 cdn.fivecdm.com
@@ -194138,6 +194141,7 @@ cryptdatagate.com
 cryptdatahub.com
 crypted.vadilops.ru
 cryptenlogoins.webflow.io
+crypter.gt.tc
 crypterium-21.live
 crypterium21.click
 crypterium21.live
@@ -203838,6 +203842,7 @@ delilahduck.com
 delile.space
 delindeboom.info
 delinquent-community-fla-dc9e6.firebaseapp.com
+deliozmabrano.site.je
 delirious-angry-mayflower.glitch.me
 delirious-puzzle-ninja.glitch.me
 delirious-zinc-slice.glitch.me
@@ -210552,7 +210557,6 @@ directdepositmoneytransfer.mimassidaa.com
 directdocumentgate.com
 directdocumentgateway.com
 directdocumentinfo.com
-directdownloadl.ink
 directe.authenlbcns.com
 directe.authlecoins.com
 directechs.us
@@ -227322,6 +227326,7 @@ enter-discord-events.com
 enter-mantagalaxies.app
 enter-mantagalaxies.com
 enter-nftsmint.web.app
+enter-pverif-code.info
 enter-redeem.github.io
 enter-user-uphld.pages.dev
 enter.ardeas.ru
@@ -244968,6 +244973,7 @@ fernandxk2.serv00.net
 fernangas.es
 ferncreekchiro.com.usrfiles.com
 ferncrest.com
+ferncurrent14.com
 fernestatesales.com
 fernhill.bravusmentores.com
 fernier-bearings.000webhostapp.com
@@ -247101,7 +247107,6 @@ file.purchasedoc.workers.dev
 file.sharedd-project-document.workers.dev
 file.srfreightbd.com
 file.timanar.ru
-file.tugou.com.co
 file.uhsea.com
 file.ulitron.ru
 file.zeahezea.sa.com
@@ -311232,6 +311237,7 @@ jawab.ulitron.ru
 jawaharchannel.in
 jawan.dedspac.ru
 jawan.ulitron.ru
+jawaratekno.com
 jawasunda.my.id
 jawatan-kosong-perkhidmatan.com
 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -335698,7 +335704,6 @@ letsfish.cf
 letsfree10281club.duckdns.org
 letsgetverifiedxxudayefryou.godaddysites.com
 letsgivelife.com
-letsgobok.com
 letsgoclaim.com
 letsgodigital.uk.intellitxt.com
 letsgoogiveaway.myftp.info
@@ -346586,7 +346591,6 @@ lum22-8cfp.vercel.app
 lum22.vercel.app
 lum4.com
 luma.dedspac.ru
-lumacrea.com
 lumanfountiose.com
 lumaqest.vercel.app
 lumas.dedspac.ru
@@ -468816,6 +468820,7 @@ savagemouser.com
 savana.ycsoftturkey.com
 savannah-moisture-electronic-internal.trycloudflare.com
 savannah.holter.es
+savannahadventureslimited.com
 savannahcoachworks-co-za.ga
 savannahout.com
 savannahpaez.com
@@ -486844,7 +486849,6 @@ thence.timanar.ru
 theneoprofit.com
 thenetters.net
 thenewc0der-24.github.io
-thenewcoffeshop.com
 thenewswire.fr
 thenexorabeacongpt.net
 thenexthorcore.net
@@ -540120,6 +540124,7 @@ ycsshb.cn
 yctcchem.com
 yctk.vinawebsite.vn
 ycuv3xil.moolin.ru
+yd.lyjt.cc
 yd0g3z4eanoffx.jolotras.ru
 yd4b-bmmanager114201.vercel.app
 yday.dedspac.ru

@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-04 18:33:27
-# Entries: 542513
+# Generated: 2026-08-05 00:33:30
+# Entries: 542518
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -9597,6 +9597,8 @@
 0.0.0.0 176.25.129.34.bc.googleusercontent.com
 0.0.0.0 176.28.116.58
 0.0.0.0 176.57.150.107
+0.0.0.0 176.65.148.145.ptr.pfcloud.network
+0.0.0.0 176.65.149.168.ptr.pfcloud.network
 0.0.0.0 176.9.0.78
 0.0.0.0 1760286545.corolain.ru
 0.0.0.0 1760530716.corolain.ru
@@ -23655,6 +23657,7 @@
 0.0.0.0 45.133.200.254
 0.0.0.0 45.133.245.64
 0.0.0.0 45.134.171.230
+0.0.0.0 45.135.194.70.ptr.pfcloud.network
 0.0.0.0 45.135.237.55
 0.0.0.0 45.137.150.105
 0.0.0.0 45.137.20.71
@@ -64990,6 +64993,7 @@
 0.0.0.0 aha.vadilops.ru
 0.0.0.0 ahab.ulitron.ru
 0.0.0.0 ahacxmykimpleyhpynyqoqpjpwqahlgyhdal-dot-cedar-code-289917.nn.r.appspot.com
+0.0.0.0 ahad-cn.com
 0.0.0.0 ahad275.github.io
 0.0.0.0 ahafood.e2k.in
 0.0.0.0 ahaganrtewebb.byethost6.com
@@ -170929,7 +170933,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -194145,6 +194148,7 @@
 0.0.0.0 cryptdatahub.com
 0.0.0.0 crypted.vadilops.ru
 0.0.0.0 cryptenlogoins.webflow.io
+0.0.0.0 crypter.gt.tc
 0.0.0.0 crypterium-21.live
 0.0.0.0 crypterium21.click
 0.0.0.0 crypterium21.live
@@ -203845,6 +203849,7 @@
 0.0.0.0 delile.space
 0.0.0.0 delindeboom.info
 0.0.0.0 delinquent-community-fla-dc9e6.firebaseapp.com
+0.0.0.0 deliozmabrano.site.je
 0.0.0.0 delirious-angry-mayflower.glitch.me
 0.0.0.0 delirious-puzzle-ninja.glitch.me
 0.0.0.0 delirious-zinc-slice.glitch.me
@@ -210559,7 +210564,6 @@
 0.0.0.0 directdocumentgate.com
 0.0.0.0 directdocumentgateway.com
 0.0.0.0 directdocumentinfo.com
-0.0.0.0 directdownloadl.ink
 0.0.0.0 directe.authenlbcns.com
 0.0.0.0 directe.authlecoins.com
 0.0.0.0 directechs.us
@@ -227329,6 +227333,7 @@
 0.0.0.0 enter-mantagalaxies.app
 0.0.0.0 enter-mantagalaxies.com
 0.0.0.0 enter-nftsmint.web.app
+0.0.0.0 enter-pverif-code.info
 0.0.0.0 enter-redeem.github.io
 0.0.0.0 enter-user-uphld.pages.dev
 0.0.0.0 enter.ardeas.ru
@@ -244975,6 +244980,7 @@
 0.0.0.0 fernangas.es
 0.0.0.0 ferncreekchiro.com.usrfiles.com
 0.0.0.0 ferncrest.com
+0.0.0.0 ferncurrent14.com
 0.0.0.0 fernestatesales.com
 0.0.0.0 fernhill.bravusmentores.com
 0.0.0.0 fernier-bearings.000webhostapp.com
@@ -247108,7 +247114,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.tugou.com.co
 0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
@@ -311239,6 +311244,7 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
+0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -335705,7 +335711,6 @@
 0.0.0.0 letsfree10281club.duckdns.org
 0.0.0.0 letsgetverifiedxxudayefryou.godaddysites.com
 0.0.0.0 letsgivelife.com
-0.0.0.0 letsgobok.com
 0.0.0.0 letsgoclaim.com
 0.0.0.0 letsgodigital.uk.intellitxt.com
 0.0.0.0 letsgoogiveaway.myftp.info
@@ -346593,7 +346598,6 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
-0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -468823,6 +468827,7 @@
 0.0.0.0 savana.ycsoftturkey.com
 0.0.0.0 savannah-moisture-electronic-internal.trycloudflare.com
 0.0.0.0 savannah.holter.es
+0.0.0.0 savannahadventureslimited.com
 0.0.0.0 savannahcoachworks-co-za.ga
 0.0.0.0 savannahout.com
 0.0.0.0 savannahpaez.com
@@ -486851,7 +486856,6 @@
 0.0.0.0 theneoprofit.com
 0.0.0.0 thenetters.net
 0.0.0.0 thenewc0der-24.github.io
-0.0.0.0 thenewcoffeshop.com
 0.0.0.0 thenewswire.fr
 0.0.0.0 thenexorabeacongpt.net
 0.0.0.0 thenexthorcore.net
@@ -540127,6 +540131,7 @@
 0.0.0.0 yctcchem.com
 0.0.0.0 yctk.vinawebsite.vn
 0.0.0.0 ycuv3xil.moolin.ru
+0.0.0.0 yd.lyjt.cc
 0.0.0.0 yd0g3z4eanoffx.jolotras.ru
 0.0.0.0 yd4b-bmmanager114201.vercel.app
 0.0.0.0 yday.dedspac.ru
