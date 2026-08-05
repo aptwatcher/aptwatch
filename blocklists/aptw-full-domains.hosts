@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-05 06:34:53
-# Entries: 542520
+# Generated: 2026-08-05 12:33:59
+# Entries: 542531
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32933,7 +32933,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -86051,6 +86050,7 @@
 0.0.0.0 antiwar-mud.000webhostapp.com
 0.0.0.0 antiwto.jinbo.net
 0.0.0.0 antjereinhard200865hg8rg4hddpdnc-a349e8.ingress-earth.easywp.com
+0.0.0.0 antleds.com
 0.0.0.0 antlercountry.com
 0.0.0.0 antlerpersonality.com
 0.0.0.0 antliaounce.com
@@ -169044,6 +169044,7 @@
 0.0.0.0 cashbackwow.co.uk
 0.0.0.0 cashbckmobi.com
 0.0.0.0 cashbee.top
+0.0.0.0 cashblaq.fit
 0.0.0.0 cashbook.net.au
 0.0.0.0 cashbooma.vercel.app
 0.0.0.0 cashbro.net
@@ -194149,6 +194150,7 @@
 0.0.0.0 crypted.vadilops.ru
 0.0.0.0 cryptenlogoins.webflow.io
 0.0.0.0 crypter.gt.tc
+0.0.0.0 crypter00.gt.tc
 0.0.0.0 crypterium-21.live
 0.0.0.0 crypterium21.click
 0.0.0.0 crypterium21.live
@@ -274431,6 +274433,7 @@
 0.0.0.0 grupografico-pilar.com.ar
 0.0.0.0 grupoguirao.com
 0.0.0.0 grupoguza.com
+0.0.0.0 grupohenry1.com
 0.0.0.0 grupohospedaje.com
 0.0.0.0 grupohqi.com.br
 0.0.0.0 grupohsj.com
@@ -300090,6 +300093,7 @@
 0.0.0.0 indus.iad-01.braze.com
 0.0.0.0 indus.virosat.ru
 0.0.0.0 induscapitalplatform.live
+0.0.0.0 indusenterprises.co
 0.0.0.0 indusfood.com.pk
 0.0.0.0 indusgreenassociates.com
 0.0.0.0 indusmarket.ru
@@ -311244,7 +311248,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -335386,6 +335389,7 @@
 0.0.0.0 lenoisecomix.com
 0.0.0.0 lenomau.safartayuilhertuocadas.link
 0.0.0.0 lenoooooo.azurewebsites.net
+0.0.0.0 lenotecadiarqua.it
 0.0.0.0 lenovo.112.2o7.net
 0.0.0.0 lenovo.com.np
 0.0.0.0 lenovoappsshareitprod.112.2o7.net
@@ -424719,6 +424723,7 @@
 0.0.0.0 poconorecordcom.112.2o7.net
 0.0.0.0 poconoshotels.com
 0.0.0.0 poconoslakefronthomes.com
+0.0.0.0 pocopaco.co.za
 0.0.0.0 pocoty.fr
 0.0.0.0 pocrovskiihram.ru
 0.0.0.0 pocrtalpersssocnas-bencochiile-cl.drdssf.com
@@ -449631,6 +449636,7 @@
 0.0.0.0 rcdtjtournarkb7895.ml
 0.0.0.0 rcenter.co.uk
 0.0.0.0 rception2.wixsite.com
+0.0.0.0 rcf.co.mz
 0.0.0.0 rcfbolt.com
 0.0.0.0 rcfboltnut.com
 0.0.0.0 rcflightline-1316850103.cos.na-siliconvalley.myqcloud.com
@@ -475867,6 +475873,7 @@
 0.0.0.0 solankisuryansh.github.io
 0.0.0.0 solankitanu532-lgtm.github.io
 0.0.0.0 solar-metal-snickerdoodle.glitch.me
+0.0.0.0 solar-sanat.net
 0.0.0.0 solar.dedspac.ru
 0.0.0.0 solar.virosat.ru
 0.0.0.0 solara-app.digital
@@ -488170,6 +488177,7 @@
 0.0.0.0 tli.sh
 0.0.0.0 tlinkokk.top
 0.0.0.0 tlio.forskningsnytt.info
+0.0.0.0 tlmtravelstours.com
 0.0.0.0 tls.dxsvr.com
 0.0.0.0 tls.telemetry.swe.quicinc.com
 0.0.0.0 tlsoxwcg.shop
@@ -494592,6 +494600,7 @@
 0.0.0.0 us.tags.newscgp.com
 0.0.0.0 us.tracking.justpremium.com
 0.0.0.0 us.ulitron.ru
+0.0.0.0 us.wind0ws.net
 0.0.0.0 us.y.atwola.com
 0.0.0.0 us01.ddns.net
 0.0.0.0 us01.rayjump.com
@@ -518146,6 +518155,7 @@
 0.0.0.0 www.hpiyeskf.shop
 0.0.0.0 www.hpkaainer.biz
 0.0.0.0 www.hpregen.pl
+0.0.0.0 www.hqsblog.com
 0.0.0.0 www.hradorrion.net
 0.0.0.0 www.hrastboldenza.net
 0.0.0.0 www.hrbcits17u.com
@@ -539232,6 +539242,7 @@
 0.0.0.0 xiaomi-mipdx.cn.miaozhen.com
 0.0.0.0 xiaozbcg.akuanakmamah.de
 0.0.0.0 xiashan.pilot45.com
+0.0.0.0 xiazaixitong8.com
 0.0.0.0 xibloxreborn.serv00.net
 0.0.0.0 xicak.dedspac.ru
 0.0.0.0 xicix.sa.com
