@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-05 00:33:30
-# Entries: 542518
+# Generated: 2026-08-05 06:06:41
+# Entries: 542520
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32933,6 +32933,7 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
+0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -177064,7 +177065,6 @@
 0.0.0.0 cilmwgll.duckdns.org
 0.0.0.0 ciltbakimiveguzellik.com
 0.0.0.0 ciltiralsirvevalorg.com
-0.0.0.0 cim-kolea.com
 0.0.0.0 cimaonrendaviol.click
 0.0.0.0 cimaonrendaviol.com
 0.0.0.0 cimaonrendaviol.live
@@ -210564,6 +210564,7 @@
 0.0.0.0 directdocumentgate.com
 0.0.0.0 directdocumentgateway.com
 0.0.0.0 directdocumentinfo.com
+0.0.0.0 directdownloadl.ink
 0.0.0.0 directe.authenlbcns.com
 0.0.0.0 directe.authlecoins.com
 0.0.0.0 directechs.us
@@ -346598,6 +346599,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -474288,6 +474290,7 @@
 0.0.0.0 skrill-app.co.com
 0.0.0.0 skrill-login.top
 0.0.0.0 skripotan.ru
+0.0.0.0 skript.club
 0.0.0.0 skroutza.skroutz.gr
 0.0.0.0 skrovendiq-es.live
 0.0.0.0 skrovendiq-it.live
@@ -475612,6 +475615,7 @@
 0.0.0.0 soam.dedspac.ru
 0.0.0.0 soam.ulitron.ru
 0.0.0.0 soap.ulitron.ru
+0.0.0.0 soap2dayfree.top
 0.0.0.0 soapy.virosat.ru
 0.0.0.0 soar.amaniwa.ru
 0.0.0.0 soar.dedspac.ru
@@ -488167,7 +488171,6 @@
 0.0.0.0 tli.sh
 0.0.0.0 tlinkokk.top
 0.0.0.0 tlio.forskningsnytt.info
-0.0.0.0 tlmtravelstours.com
 0.0.0.0 tls.dxsvr.com
 0.0.0.0 tls.telemetry.swe.quicinc.com
 0.0.0.0 tlsoxwcg.shop
@@ -516546,7 +516549,6 @@
 0.0.0.0 www.gerteuzonim-sg.live
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.gestuny.space
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
