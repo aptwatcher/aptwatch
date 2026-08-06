@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-06 12:34:14
-# Entries: 542777
+# Generated: 2026-08-06 18:33:45
+# Entries: 542781
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -215191,6 +215191,7 @@
 0.0.0.0 download.studio3marketing.site
 0.0.0.0 download.suxiazai.com
 0.0.0.0 download.televisionfanatic.com
+0.0.0.0 download.tfyxzai.com
 0.0.0.0 download.tiktok906.com
 0.0.0.0 download.tiktoks971.com
 0.0.0.0 download.tkk-mall.icu
@@ -227885,6 +227886,7 @@
 0.0.0.0 epaleccs.info
 0.0.0.0 epanadiplosis.life
 0.0.0.0 epancakeswap.com
+0.0.0.0 epanpano.com
 0.0.0.0 epansoftware.com
 0.0.0.0 epargne.temp.swtest.ru
 0.0.0.0 epargneplateforme-fr.live
@@ -267477,6 +267479,7 @@
 0.0.0.0 golshere.com
 0.0.0.0 golswhats.ru
 0.0.0.0 golvixena.shop
+0.0.0.0 golvteametvarberg.se
 0.0.0.0 golvurikenz-de.live
 0.0.0.0 golvurikenz-es.live
 0.0.0.0 golvurikenz-it.live
@@ -290926,7 +290929,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -357155,6 +357157,7 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
+0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarinlatino.com
@@ -464709,6 +464712,7 @@
 0.0.0.0 s3indonesia.co.id
 0.0.0.0 s3m.mediav.com
 0.0.0.0 s3mfo5rvi.duckdns.org
+0.0.0.0 s3o65awrf56.net
 0.0.0.0 s3pnjx.cn
 0.0.0.0 s3q.github.io
 0.0.0.0 s3r.io
@@ -503873,6 +503877,7 @@
 0.0.0.0 wqfc-casefb017565.vercel.app
 0.0.0.0 wqjps.ethique-services.eu
 0.0.0.0 wqngm.dezceccc.ru
+0.0.0.0 wqok85qtq.net
 0.0.0.0 wqoplzzxcvb.icu
 0.0.0.0 wqy6sey3q.icissitudion.ru
 0.0.0.0 wr0h11.ozouh.es
@@ -542408,7 +542413,6 @@
 0.0.0.0 zora-hold-3ue.pages.dev
 0.0.0.0 zoravine-tulanexo.pages.dev
 0.0.0.0 zoravixent.com
-0.0.0.0 zoredaye.com
 0.0.0.0 zorentila.vercel.app
 0.0.0.0 zorf-meta-nilk-biz.pages.dev
 0.0.0.0 zorf-meta-tix-biz.pages.dev
