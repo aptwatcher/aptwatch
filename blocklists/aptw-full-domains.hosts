@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-06 06:35:34
-# Entries: 542773
+# Generated: 2026-08-06 12:34:14
+# Entries: 542777
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -227885,7 +227885,6 @@
 0.0.0.0 epaleccs.info
 0.0.0.0 epanadiplosis.life
 0.0.0.0 epancakeswap.com
-0.0.0.0 epanpano.com
 0.0.0.0 epansoftware.com
 0.0.0.0 epargne.temp.swtest.ru
 0.0.0.0 epargneplateforme-fr.live
@@ -280794,6 +280793,7 @@
 0.0.0.0 heaf.amaniwa.ru
 0.0.0.0 heaf.ulitron.ru
 0.0.0.0 heahe.co.za
+0.0.0.0 heajost.online
 0.0.0.0 heal-post-traumatic-stress.com
 0.0.0.0 heal.boletuso.ru
 0.0.0.0 heal.bortogat.ru
@@ -357155,7 +357155,6 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
-0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarinlatino.com
@@ -466417,6 +466416,7 @@
 0.0.0.0 sales.expofranchise.com.br
 0.0.0.0 sales.healthrxbd.com
 0.0.0.0 sales.idio.co
+0.0.0.0 sales.ifree.page
 0.0.0.0 sales.pilonce.co.uk
 0.0.0.0 sales.sales.theperfectpocketbook.com
 0.0.0.0 sales.sales.utdllc.com
@@ -481829,6 +481829,7 @@
 0.0.0.0 sumefu.gq
 0.0.0.0 sumesh-skr.github.io
 0.0.0.0 sumikko.ru
+0.0.0.0 sumiko.vu
 0.0.0.0 sumiledlights.com
 0.0.0.0 sumit-chakhde.github.io
 0.0.0.0 sumit0373.github.io
@@ -487874,6 +487875,7 @@
 0.0.0.0 timesofkashmir.com
 0.0.0.0 timesofvartha.com
 0.0.0.0 timespctenbest.122.2o7.net
+0.0.0.0 timestampasa.howto.rocks
 0.0.0.0 timestesol.com
 0.0.0.0 timeteenpeople.122.2o7.net
 0.0.0.0 timetunnel.net
@@ -516863,6 +516865,7 @@
 0.0.0.0 www.gerteuzonim-sg.live
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.gestuny.space
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
@@ -542405,6 +542408,7 @@
 0.0.0.0 zora-hold-3ue.pages.dev
 0.0.0.0 zoravine-tulanexo.pages.dev
 0.0.0.0 zoravixent.com
+0.0.0.0 zoredaye.com
 0.0.0.0 zorentila.vercel.app
 0.0.0.0 zorf-meta-nilk-biz.pages.dev
 0.0.0.0 zorf-meta-tix-biz.pages.dev
