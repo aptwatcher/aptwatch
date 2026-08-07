@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-06 18:33:45
-# Entries: 542781
+# Generated: 2026-08-07 00:33:27
+# Entries: 542786
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -217870,6 +217870,7 @@
 0.0.0.0 durableonline.com.sg
 0.0.0.0 durablyproscjjribe.info
 0.0.0.0 duracorefix.pages.dev
+0.0.0.0 durakutihs.com
 0.0.0.0 dural-forecast.000webhostapp.com
 0.0.0.0 dural.ulitron.ru
 0.0.0.0 duramo.pl
@@ -290929,6 +290930,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -357157,7 +357159,6 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
-0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarinlatino.com
@@ -408938,6 +408939,7 @@
 0.0.0.0 orientationpour-tous.fr
 0.0.0.0 orientedargument.com
 0.0.0.0 orientgrammarschools.edu.pk
+0.0.0.0 orienttaxtile.com
 0.0.0.0 orifl21ame01.000webhostapp.com
 0.0.0.0 oriflamegiftforyou1.000webhostapp.com
 0.0.0.0 origa-cloud-b38d.c71rcsyb.workers.dev
@@ -463941,6 +463943,7 @@
 0.0.0.0 ryal.ulitron.ru
 0.0.0.0 ryalcapital.com
 0.0.0.0 ryanandbriana.com
+0.0.0.0 ryanborn.net
 0.0.0.0 ryancarlock.com
 0.0.0.0 ryanciusjmak.github.io
 0.0.0.0 ryanharrisondesign.com
@@ -520786,6 +520789,7 @@
 0.0.0.0 www.knifts.com
 0.0.0.0 www.knipetarn.com
 0.0.0.0 www.knipetarnestate.com
+0.0.0.0 www.knockknock.top
 0.0.0.0 www.knopkasnoom.com
 0.0.0.0 www.knovazoh.shop
 0.0.0.0 www.knowinteractive.com
@@ -542413,6 +542417,7 @@
 0.0.0.0 zora-hold-3ue.pages.dev
 0.0.0.0 zoravine-tulanexo.pages.dev
 0.0.0.0 zoravixent.com
+0.0.0.0 zoredaye.com
 0.0.0.0 zorentila.vercel.app
 0.0.0.0 zorf-meta-nilk-biz.pages.dev
 0.0.0.0 zorf-meta-tix-biz.pages.dev
