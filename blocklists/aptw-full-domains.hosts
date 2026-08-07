@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-07 12:33:41
-# Entries: 542791
+# Generated: 2026-08-07 18:33:29
+# Entries: 542790
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -194358,7 +194358,6 @@
 0.0.0.0 cryptologinhelp.webflow.io
 0.0.0.0 cryptologist.ruhodo.ru
 0.0.0.0 cryptoloicn.webflow.io
-0.0.0.0 cryptomeshforge5.lol
 0.0.0.0 cryptometamask-wallet-extantion.webflow.io
 0.0.0.0 cryptomindai.net
 0.0.0.0 cryptominded.com
@@ -223115,7 +223114,6 @@
 0.0.0.0 effective-waffle.vercel.app
 0.0.0.0 effective.com.uy
 0.0.0.0 effectivebrand.com
-0.0.0.0 effectively32.infinityfree.me
 0.0.0.0 effectivemarketing.in
 0.0.0.0 effectivemeasure.net
 0.0.0.0 effectivespeech.net
@@ -290932,6 +290930,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -355683,7 +355682,6 @@
 0.0.0.0 mailibex0b.weeblysite.com
 0.0.0.0 mailidorange.weebly.com
 0.0.0.0 mailifo-105600.square.site
-0.0.0.0 mailify.cc
 0.0.0.0 mailii.ga
 0.0.0.0 mailin.attollo.com.au
 0.0.0.0 mailin.caq.com.au
@@ -458163,6 +458161,7 @@
 0.0.0.0 ripple-notch-gasosaurus.glitch.me
 0.0.0.0 ripple-promo.org
 0.0.0.0 ripple-twilight-aragosaurus.glitch.me
+0.0.0.0 rippled.cleverpondky.com
 0.0.0.0 ripplegiveaway.net
 0.0.0.0 ripq.buyive.top
 0.0.0.0 ripristina-dati-isp.com
@@ -500646,7 +500645,6 @@
 0.0.0.0 wealthicator-tech.com
 0.0.0.0 wealthicator.live
 0.0.0.0 wealthicatorsystem.com
-0.0.0.0 wealthishealth.free.je
 0.0.0.0 wealthiumkeur-it.live
 0.0.0.0 wealthiumkeur.live
 0.0.0.0 wealthlorex.live
@@ -540222,6 +540220,7 @@
 0.0.0.0 yakanvillage.com
 0.0.0.0 yakocx-vnmk.vercel.app
 0.0.0.0 yaks.dedspac.ru
+0.0.0.0 yakult-hk.com
 0.0.0.0 yakut.virosat.ru
 0.0.0.0 yale.filitrus.ru
 0.0.0.0 yale.kramati.ru
