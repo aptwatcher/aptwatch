@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-08 12:34:46
-# Entries: 542787
+# Generated: 2026-08-08 18:33:49
+# Entries: 542804
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -98015,6 +98015,7 @@
 0.0.0.0 arca2.danielgabinio.com
 0.0.0.0 arcacg.com
 0.0.0.0 arcade.business
+0.0.0.0 arcade.cleverpondky.com
 0.0.0.0 arcade.dedspac.ru
 0.0.0.0 arcade.ya.com
 0.0.0.0 arcadecats.com
@@ -125469,6 +125470,7 @@
 0.0.0.0 backup.synergyglobal.one
 0.0.0.0 backup.system-ledger.live
 0.0.0.0 backup.tamga.net.ua
+0.0.0.0 backup.tkspr1v.com
 0.0.0.0 backup.utsafrica.com
 0.0.0.0 backup.virosat.ru
 0.0.0.0 backup.vnateqi.workers.dev
@@ -132722,6 +132724,7 @@
 0.0.0.0 baltimorebreakrooms.com
 0.0.0.0 baltimoretrips.com
 0.0.0.0 baltis.dedspac.ru
+0.0.0.0 baltos.online
 0.0.0.0 baltzyskura-ai.com
 0.0.0.0 baltzyskura-pl.com
 0.0.0.0 baltzyskura.com
@@ -136559,6 +136562,7 @@
 0.0.0.0 batydo.ru
 0.0.0.0 batzen.matsuro.ru
 0.0.0.0 bauamvhyvocgkomc-dot-millinium.ey.r.appspot.com
+0.0.0.0 bauble.cleverpondky.com
 0.0.0.0 bauble.virosat.ru
 0.0.0.0 baublesandbagsonline.com
 0.0.0.0 baubo.matsuro.ru
@@ -190370,6 +190374,7 @@
 0.0.0.0 coralon.com
 0.0.0.0 coralrimpa.cyou
 0.0.0.0 coralsiren.com
+0.0.0.0 coralwebqe.help
 0.0.0.0 coram.dedspac.ru
 0.0.0.0 coramoon.com
 0.0.0.0 coranovacommunitypoint.site
@@ -261861,6 +261866,7 @@
 0.0.0.0 geny83h92.atwebpages.com
 0.0.0.0 genys.dedspac.ru
 0.0.0.0 genys.virosat.ru
+0.0.0.0 geo-foundation.vg
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 geo.adobe.com
@@ -290929,7 +290935,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -310733,6 +310738,7 @@
 0.0.0.0 jam-art.net
 0.0.0.0 jam-bo.ru
 0.0.0.0 jam.boletuso.ru
+0.0.0.0 jam.cleverpondky.com
 0.0.0.0 jam.dedspac.ru
 0.0.0.0 jam.gimbori.cyou
 0.0.0.0 jam.goolati.ru
@@ -341140,6 +341146,7 @@
 0.0.0.0 load.cofry.com
 0.0.0.0 load.collegesmooch.com
 0.0.0.0 load.dedspac.ru
+0.0.0.0 load.dstat.top
 0.0.0.0 load.exelator.com
 0.0.0.0 load.focalex.com
 0.0.0.0 load.fomo.com
@@ -354578,6 +354585,7 @@
 0.0.0.0 mail.sign-myphone.com
 0.0.0.0 mail.sihgyr.c505.net
 0.0.0.0 mail.silavpravde.info
+0.0.0.0 mail.silverrockay.pro
 0.0.0.0 mail.simonebellucci.it
 0.0.0.0 mail.simpower.com.cn
 0.0.0.0 mail.singapore-naughty-girl.citzy19.pw
@@ -354638,6 +354646,7 @@
 0.0.0.0 mail.spotifybyhardik.freewebhostmost.com
 0.0.0.0 mail.spotifyyclonne.freewebhostmost.com
 0.0.0.0 mail.spotonroofing.com.au
+0.0.0.0 mail.springnetpm.pro
 0.0.0.0 mail.sqaccountinformation.tk
 0.0.0.0 mail.sqareeednet.org
 0.0.0.0 mail.sqaurareee.net
@@ -355197,6 +355206,7 @@
 0.0.0.0 mail.wijewardena.com
 0.0.0.0 mail.wildpridesafaris.com
 0.0.0.0 mail.windows-updater.com
+0.0.0.0 mail.windycreekbc.pro
 0.0.0.0 mail.wingsclothing.co.in
 0.0.0.0 mail.wininn.duckdns.org
 0.0.0.0 mail.wintools.com.cn
@@ -355279,6 +355289,7 @@
 0.0.0.0 mail.ywhns4.meclickts.my.id
 0.0.0.0 mail.z-protection.business-minagne.com
 0.0.0.0 mail.zammy.akuanakmamah.de
+0.0.0.0 mail.zanyyewuh.pro
 0.0.0.0 mail.zebrogs.com
 0.0.0.0 mail.zeltech.com.au
 0.0.0.0 mail.zenservices.net
@@ -355679,6 +355690,7 @@
 0.0.0.0 mailibex0b.weeblysite.com
 0.0.0.0 mailidorange.weebly.com
 0.0.0.0 mailifo-105600.square.site
+0.0.0.0 mailify.cc
 0.0.0.0 mailii.ga
 0.0.0.0 mailin.attollo.com.au
 0.0.0.0 mailin.caq.com.au
@@ -403288,7 +403300,6 @@
 0.0.0.0 oilymedication.cn
 0.0.0.0 oilzero.nl
 0.0.0.0 oilzero.org
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -408779,6 +408790,7 @@
 0.0.0.0 oreas.dedspac.ru
 0.0.0.0 orebu-cloud-3bde.lwvemrlaensi.workers.dev
 0.0.0.0 oreg-start-leadger.webflow.io
+0.0.0.0 oregano.brightleafrv.com
 0.0.0.0 oregeryshop01.top
 0.0.0.0 oregeryshop02.top
 0.0.0.0 oregeryshop03.top
@@ -473794,6 +473806,7 @@
 0.0.0.0 silverpetalforge.info
 0.0.0.0 silverpinecraft.info
 0.0.0.0 silverquartzforge.info
+0.0.0.0 silverrockay.pro
 0.0.0.0 silverstarfacilities.com
 0.0.0.0 silverstarotomotiv.com
 0.0.0.0 silverstripe.vizeabo.biz.id
@@ -475041,6 +475054,7 @@
 0.0.0.0 smartstats.com
 0.0.0.0 smartstor.xyz
 0.0.0.0 smartstream.tv
+0.0.0.0 smartsummitlo.pro
 0.0.0.0 smartsystemfromfacebook.com
 0.0.0.0 smarttag.rubiconproject.com
 0.0.0.0 smarttechgroup.net
@@ -477499,6 +477513,7 @@
 0.0.0.0 spring.frestaici.ru.com
 0.0.0.0 springbot.com
 0.0.0.0 springbrook.shop
+0.0.0.0 springnetpm.pro
 0.0.0.0 springserve.com
 0.0.0.0 sprint-srs-appopen.asapp.com
 0.0.0.0 sprint.asapp.com
@@ -477776,6 +477791,7 @@
 0.0.0.0 sserverfit.com
 0.0.0.0 sservletailview.flazio.com
 0.0.0.0 ssgss888.com
+0.0.0.0 ssh.microc2.lol
 0.0.0.0 ssh.net-upt.com
 0.0.0.0 sshippingline.com
 0.0.0.0 sshort-market.co
@@ -489114,7 +489130,6 @@
 0.0.0.0 tpgcreationz.com
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
-0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -493985,7 +494000,6 @@
 0.0.0.0 up.maschinen.ba
 0.0.0.0 up.nytimes.com
 0.0.0.0 upadhyayabhi9173.github.io
-0.0.0.0 upaicdn.xinmei365.com
 0.0.0.0 upalytics.com
 0.0.0.0 upandshare.nocoshop.ru
 0.0.0.0 upandshare.uploadbox.world
@@ -496281,6 +496295,7 @@
 0.0.0.0 uteca.virosat.ru
 0.0.0.0 utees.dedspac.ru
 0.0.0.0 utemomac.ru
+0.0.0.0 utensil.cleverpondky.com
 0.0.0.0 utensils.pro
 0.0.0.0 utenti.lycos.it
 0.0.0.0 utero.virosat.ru
@@ -503123,6 +503138,7 @@
 0.0.0.0 windsorcredpeakbot.live
 0.0.0.0 windstreamupgradeservice.pages.dev
 0.0.0.0 windstreamupgradeservicess.pages.dev
+0.0.0.0 windycreekbc.pro
 0.0.0.0 wine.ulitron.ru
 0.0.0.0 winecom.112.2o7.net
 0.0.0.0 wineemu.autos
@@ -541474,6 +541490,7 @@
 0.0.0.0 zanulor.ru
 0.0.0.0 zanusson.website
 0.0.0.0 zany.ulitron.ru
+0.0.0.0 zanyyewuh.pro
 0.0.0.0 zanzar.space
 0.0.0.0 zaoeryuijas.hopto.org
 0.0.0.0 zaopatrzeni.com
