@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-07 18:33:29
-# Entries: 542790
+# Generated: 2026-08-08 00:33:33
+# Entries: 542785
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -76501,7 +76501,6 @@
 0.0.0.0 amazom.mokurs.xyz
 0.0.0.0 amazom.monwe.xyz
 0.0.0.0 amazom.mtdnfr.shop
-0.0.0.0 amazom.my
 0.0.0.0 amazom.myvnc.com
 0.0.0.0 amazom.nbhaafuih.xyz
 0.0.0.0 amazom.nmfdkf.cyou
@@ -178078,7 +178077,6 @@
 0.0.0.0 cl880425-wordpress-s3md1.tw1.ru
 0.0.0.0 cl92622.tmweb.ru
 0.0.0.0 cl96695-wordpress-rylzu.tw1.ru
-0.0.0.0 cla.stingold.com
 0.0.0.0 cla2020gov.com
 0.0.0.0 cla9konfirmasiidhadiah2025rs.pages.dev
 0.0.0.0 claaim-resmii-giveeawey-rp10jutaa.danalu.my.id
@@ -194218,7 +194216,6 @@
 0.0.0.0 crypted.vadilops.ru
 0.0.0.0 cryptenlogoins.webflow.io
 0.0.0.0 crypter.gt.tc
-0.0.0.0 crypter00.gt.tc
 0.0.0.0 crypterium-21.live
 0.0.0.0 crypterium21.click
 0.0.0.0 crypterium21.live
@@ -194358,6 +194355,7 @@
 0.0.0.0 cryptologinhelp.webflow.io
 0.0.0.0 cryptologist.ruhodo.ru
 0.0.0.0 cryptoloicn.webflow.io
+0.0.0.0 cryptomeshforge5.lol
 0.0.0.0 cryptometamask-wallet-extantion.webflow.io
 0.0.0.0 cryptomindai.net
 0.0.0.0 cryptominded.com
@@ -223114,6 +223112,7 @@
 0.0.0.0 effective-waffle.vercel.app
 0.0.0.0 effective.com.uy
 0.0.0.0 effectivebrand.com
+0.0.0.0 effectively32.infinityfree.me
 0.0.0.0 effectivemarketing.in
 0.0.0.0 effectivemeasure.net
 0.0.0.0 effectivespeech.net
@@ -338393,7 +338392,6 @@
 0.0.0.0 linktrack.bravenet.com
 0.0.0.0 linktracker.angelfire.com
 0.0.0.0 linktrade.pp.ua
-0.0.0.0 linktrap.co
 0.0.0.0 linktwo-sigma.vercel.app
 0.0.0.0 linkupyouaccnt.weebly.com
 0.0.0.0 linkuyyghjghdgkihkijhjmghb.blogspot.sn
@@ -344741,7 +344739,6 @@
 0.0.0.0 loose.dedspac.ru
 0.0.0.0 loosingweightnow.com
 0.0.0.0 loostorm.co.kr
-0.0.0.0 loosun.net
 0.0.0.0 loot.boletuso.ru
 0.0.0.0 loot.ulitron.ru
 0.0.0.0 lootdweller.sa.com
@@ -355682,6 +355679,7 @@
 0.0.0.0 mailibex0b.weeblysite.com
 0.0.0.0 mailidorange.weebly.com
 0.0.0.0 mailifo-105600.square.site
+0.0.0.0 mailify.cc
 0.0.0.0 mailii.ga
 0.0.0.0 mailin.attollo.com.au
 0.0.0.0 mailin.caq.com.au
@@ -357159,7 +357157,6 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
-0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarinlatino.com
@@ -363501,6 +363498,7 @@
 0.0.0.0 meridia.1.p2l.info
 0.0.0.0 meridia.3.p2l.info
 0.0.0.0 meridia.4.p2l.info
+0.0.0.0 meridia.rs
 0.0.0.0 meridiameridia.3xforum.ro
 0.0.0.0 meridianbrandy.com
 0.0.0.0 meridianrendcroft.digital
@@ -500645,6 +500643,7 @@
 0.0.0.0 wealthicator-tech.com
 0.0.0.0 wealthicator.live
 0.0.0.0 wealthicatorsystem.com
+0.0.0.0 wealthishealth.free.je
 0.0.0.0 wealthiumkeur-it.live
 0.0.0.0 wealthiumkeur.live
 0.0.0.0 wealthlorex.live
@@ -503826,7 +503825,6 @@
 0.0.0.0 wp-serwis.netlify.app
 0.0.0.0 wp-stat.s3.amazonasw.com
 0.0.0.0 wp-stats.com
-0.0.0.0 wp.ameyiando.com
 0.0.0.0 wp.autodiscover.3lo.com.au
 0.0.0.0 wp.pilot45.com
 0.0.0.0 wp.tectrics.com
@@ -516876,7 +516874,6 @@
 0.0.0.0 www.gerteuzonim-sg.live
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.gestuny.space
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
@@ -527660,7 +527657,6 @@
 0.0.0.0 www.propdfconverter.com
 0.0.0.0 www.propellerinvest.com
 0.0.0.0 www.properrayam.pro
-0.0.0.0 www.propertiesofcayman.com
 0.0.0.0 www.property.valid-rooms-1282.com
 0.0.0.0 www.prophecyreview.com
 0.0.0.0 www.propicksai.live
@@ -539506,7 +539502,6 @@
 0.0.0.0 xiaomi-mipdx.cn.miaozhen.com
 0.0.0.0 xiaozbcg.akuanakmamah.de
 0.0.0.0 xiashan.pilot45.com
-0.0.0.0 xiazaixitong8.com
 0.0.0.0 xibloxreborn.serv00.net
 0.0.0.0 xicak.dedspac.ru
 0.0.0.0 xicix.sa.com
