@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-09 06:35:38
-# Entries: 542799
+# Generated: 2026-08-09 12:34:23
+# Entries: 542802
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -175183,6 +175183,7 @@
 0.0.0.0 cheapxanax.hut1.ru
 0.0.0.0 cheat.ulitron.ru
 0.0.0.0 cheatcc.us.intellitxt.com
+0.0.0.0 cheatclients.com
 0.0.0.0 cheatdiamond.my.id
 0.0.0.0 cheaters.matsuro.ru
 0.0.0.0 cheatingdome.us.intellitxt.com
@@ -369496,6 +369497,7 @@
 0.0.0.0 meteor-chill-reward.glitch.me
 0.0.0.0 meteor-enthusiastic-wine.glitch.me
 0.0.0.0 meteor-meadow-petunia.glitch.me
+0.0.0.0 meteorclient.shop
 0.0.0.0 meteorologia.florianopolis.ifsc.edu.br
 0.0.0.0 meteorplyp.live
 0.0.0.0 meteorprofit.live
@@ -528319,6 +528321,7 @@
 0.0.0.0 www.quartexindustries.com
 0.0.0.0 www.quartfrang.cyou
 0.0.0.0 www.quartibo.com
+0.0.0.0 www.quartier-midi.be
 0.0.0.0 www.quartoraxin-system.com
 0.0.0.0 www.quartz-crossbody.shop
 0.0.0.0 www.quartzflowai.digital
