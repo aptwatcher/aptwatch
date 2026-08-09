@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-09 00:33:49
-# Entries: 542798
+# Generated: 2026-08-09 06:06:15
+# Entries: 542799
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -491266,6 +491266,7 @@
 0.0.0.0 tries.dedspac.ru
 0.0.0.0 triezooiostart.webflow.io
 0.0.0.0 trifama.com
+0.0.0.0 triflackcom.com
 0.0.0.0 trifoliata.ru
 0.0.0.0 triforma.com.ar
 0.0.0.0 triggerinstalls.com
