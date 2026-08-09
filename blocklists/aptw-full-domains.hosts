@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-08 18:33:49
-# Entries: 542804
+# Generated: 2026-08-09 00:33:49
+# Entries: 542798
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -215194,7 +215194,6 @@
 0.0.0.0 download.studio3marketing.site
 0.0.0.0 download.suxiazai.com
 0.0.0.0 download.televisionfanatic.com
-0.0.0.0 download.tfyxzai.com
 0.0.0.0 download.tiktok906.com
 0.0.0.0 download.tiktoks971.com
 0.0.0.0 download.tkk-mall.icu
@@ -261866,7 +261865,6 @@
 0.0.0.0 geny83h92.atwebpages.com
 0.0.0.0 genys.dedspac.ru
 0.0.0.0 genys.virosat.ru
-0.0.0.0 geo-foundation.vg
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 geo.adobe.com
@@ -280802,7 +280800,6 @@
 0.0.0.0 heaf.amaniwa.ru
 0.0.0.0 heaf.ulitron.ru
 0.0.0.0 heahe.co.za
-0.0.0.0 heajost.online
 0.0.0.0 heal-post-traumatic-stress.com
 0.0.0.0 heal.boletuso.ru
 0.0.0.0 heal.bortogat.ru
@@ -290935,6 +290932,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -355690,7 +355688,6 @@
 0.0.0.0 mailibex0b.weeblysite.com
 0.0.0.0 mailidorange.weebly.com
 0.0.0.0 mailifo-105600.square.site
-0.0.0.0 mailify.cc
 0.0.0.0 mailii.ga
 0.0.0.0 mailin.attollo.com.au
 0.0.0.0 mailin.caq.com.au
@@ -408951,7 +408948,6 @@
 0.0.0.0 orientationpour-tous.fr
 0.0.0.0 orientedargument.com
 0.0.0.0 orientgrammarschools.edu.pk
-0.0.0.0 orienttaxtile.com
 0.0.0.0 orifl21ame01.000webhostapp.com
 0.0.0.0 oriflamegiftforyou1.000webhostapp.com
 0.0.0.0 origa-cloud-b38d.c71rcsyb.workers.dev
@@ -494000,6 +493996,7 @@
 0.0.0.0 up.maschinen.ba
 0.0.0.0 up.nytimes.com
 0.0.0.0 upadhyayabhi9173.github.io
+0.0.0.0 upaicdn.xinmei365.com
 0.0.0.0 upalytics.com
 0.0.0.0 upandshare.nocoshop.ru
 0.0.0.0 upandshare.uploadbox.world
@@ -516891,7 +516888,6 @@
 0.0.0.0 www.gerteuzonim-sg.live
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.gestuny.space
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
@@ -518474,7 +518470,6 @@
 0.0.0.0 www.hpiyeskf.shop
 0.0.0.0 www.hpkaainer.biz
 0.0.0.0 www.hpregen.pl
-0.0.0.0 www.hqsblog.com
 0.0.0.0 www.hradorrion.net
 0.0.0.0 www.hrastboldenza.net
 0.0.0.0 www.hrbcits17u.com
@@ -542435,7 +542430,6 @@
 0.0.0.0 zora-hold-3ue.pages.dev
 0.0.0.0 zoravine-tulanexo.pages.dev
 0.0.0.0 zoravixent.com
-0.0.0.0 zoredaye.com
 0.0.0.0 zorentila.vercel.app
 0.0.0.0 zorf-meta-nilk-biz.pages.dev
 0.0.0.0 zorf-meta-tix-biz.pages.dev
