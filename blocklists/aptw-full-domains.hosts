@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-10 00:33:24
+# Generated: 2026-08-10 06:05:11
 # Entries: 542796
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -239382,7 +239382,6 @@
 0.0.0.0 fairpumps.site
 0.0.0.0 fairpumps.website
 0.0.0.0 fairs.royalfootprintsafaris.com
-0.0.0.0 fairth.dev
 0.0.0.0 fairtom.azurewebsites.net
 0.0.0.0 fairtransfer-euler-e68520.netlify.app
 0.0.0.0 fairu-blog.com
@@ -292050,6 +292049,7 @@
 0.0.0.0 humansync.net
 0.0.0.0 humanverify.net
 0.0.0.0 humanwarnings.com
+0.0.0.0 humasjatim.id
 0.0.0.0 humayunsaghir.github.io
 0.0.0.0 humbaur.hr
 0.0.0.0 humbertocarpio.com
@@ -448956,6 +448956,7 @@
 0.0.0.0 raq.programtts.top
 0.0.0.0 raqamtasdiqlash.com
 0.0.0.0 raqi-gamer.github.io
+0.0.0.0 raqmnh.com
 0.0.0.0 raqnor.com
 0.0.0.0 raquelbarros.com.br
 0.0.0.0 raquelnash.autos
@@ -487892,7 +487893,6 @@
 0.0.0.0 timesofkashmir.com
 0.0.0.0 timesofvartha.com
 0.0.0.0 timespctenbest.122.2o7.net
-0.0.0.0 timestampasa.howto.rocks
 0.0.0.0 timestesol.com
 0.0.0.0 timeteenpeople.122.2o7.net
 0.0.0.0 timetunnel.net
@@ -493994,6 +493994,7 @@
 0.0.0.0 up.maschinen.ba
 0.0.0.0 up.nytimes.com
 0.0.0.0 upadhyayabhi9173.github.io
+0.0.0.0 upaicdn.xinmei365.com
 0.0.0.0 upalytics.com
 0.0.0.0 upandshare.nocoshop.ru
 0.0.0.0 upandshare.uploadbox.world
@@ -516884,7 +516885,6 @@
 0.0.0.0 www.gerteuzonim-sg.live
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.gestuny.space
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
