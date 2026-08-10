@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-10 12:33:53
-# Entries: 542804
+# Generated: 2026-08-10 18:33:37
+# Entries: 542810
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32945,7 +32945,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -52388,6 +52387,7 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
+0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -119890,6 +119890,7 @@
 0.0.0.0 autochthonous-tapes.000webhostapp.com
 0.0.0.0 autocitycuracao.com
 0.0.0.0 autoclaiming.pages.dev
+0.0.0.0 autoclinic.autos
 0.0.0.0 autocmb.ro
 0.0.0.0 autocoatingking.com
 0.0.0.0 autocomp.net
@@ -125108,6 +125109,7 @@
 0.0.0.0 babas.ulitron.ru
 0.0.0.0 babasio.com
 0.0.0.0 babaskan.ru
+0.0.0.0 babaszepsegverseny.hu
 0.0.0.0 babawa3213.liveblog365.com
 0.0.0.0 babawebdesign.com
 0.0.0.0 babawest12.weeblysite.com
@@ -144795,7 +144797,6 @@
 0.0.0.0 bigrecess.com
 0.0.0.0 bigredmug.com
 0.0.0.0 bigrigrvadventures.com
-0.0.0.0 bigs.bikershop.biz
 0.0.0.0 bigs.bortogat.ru
 0.0.0.0 bigs.dedspac.ru
 0.0.0.0 bigs.ulitron.ru
@@ -194997,6 +194998,7 @@
 0.0.0.0 cts.w55c.net
 0.0.0.0 ctsempresa.com
 0.0.0.0 ctservices.fr
+0.0.0.0 ctsfactory.com
 0.0.0.0 ctsinteractive.com
 0.0.0.0 ctsp-arequipa.org.pe
 0.0.0.0 ctsprojectsolutions.com
@@ -221334,6 +221336,7 @@
 0.0.0.0 ebubxsbsqh.duckdns.org
 0.0.0.0 ebuddynews.com
 0.0.0.0 ebullienceinabundance.com
+0.0.0.0 ebullientlife.in
 0.0.0.0 eburdwanmuktodhara.org.in
 0.0.0.0 eburkhardt.techvalleyabbottabad.pk
 0.0.0.0 ebusiness-bofamerica.online
@@ -224892,7 +224895,6 @@
 0.0.0.0 elmasyedekparca.com
 0.0.0.0 elmavorn.com
 0.0.0.0 elmejoragenteinmobiliario.es
-0.0.0.0 elmejorlocal.com.co
 0.0.0.0 elmensajerotours.com
 0.0.0.0 elmerfortreasurer.org
 0.0.0.0 elmes.de
@@ -235775,7 +235777,6 @@
 0.0.0.0 fabricofurnitures.com
 0.0.0.0 fabricpaintings.com
 0.0.0.0 fabrics.chiripalgroup.com
-0.0.0.0 fabrics.lahoreshoes.com
 0.0.0.0 fabricsewingh.com
 0.0.0.0 fabrikaistanbul.com
 0.0.0.0 fabrikala.com
@@ -252695,7 +252696,6 @@
 0.0.0.0 foundation.con-wallet.network
 0.0.0.0 foundational-rating.000webhostapp.com
 0.0.0.0 foundationally.timanar.ru
-0.0.0.0 foundationforwomenshealth.com
 0.0.0.0 foundationmoon.grayboxfarms.com
 0.0.0.0 foundationnational-ai.live
 0.0.0.0 foundationnational.live
@@ -267487,6 +267487,7 @@
 0.0.0.0 golshere.com
 0.0.0.0 golswhats.ru
 0.0.0.0 golvixena.shop
+0.0.0.0 golvteametvarberg.se
 0.0.0.0 golvurikenz-de.live
 0.0.0.0 golvurikenz-es.live
 0.0.0.0 golvurikenz-it.live
@@ -284495,7 +284496,6 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
-0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -290936,6 +290936,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -297227,6 +297228,7 @@
 0.0.0.0 ilot.dedspac.ru
 0.0.0.0 ilove-herbs.uighurmedicine.org
 0.0.0.0 iloveamericatour.com.kiaraashanti.com
+0.0.0.0 iloveboats.st
 0.0.0.0 ilovebug10.com
 0.0.0.0 ilovecheating.com
 0.0.0.0 ilovedmt.com
@@ -331018,6 +331020,7 @@
 0.0.0.0 laborex.hu
 0.0.0.0 laborjlps.zzz.com.ua
 0.0.0.0 laboroflove.us.intellitxt.com
+0.0.0.0 laborpartyjo.com
 0.0.0.0 laborsbook.jinbo.net
 0.0.0.0 laboso.fr
 0.0.0.0 labotiguetadelmig.cat
@@ -354297,6 +354300,7 @@
 0.0.0.0 mail.quazzars.com
 0.0.0.0 mail.quermessedesaofrancisco.com.br
 0.0.0.0 mail.queroquarto.com
+0.0.0.0 mail.quietsurfwi.help
 0.0.0.0 mail.quququ.ru
 0.0.0.0 mail.r0ger-lnterac.com
 0.0.0.0 mail.rabo-betaalpas-aanvragen.info
@@ -421630,6 +421634,7 @@
 0.0.0.0 physics.uctm.edu
 0.0.0.0 physicsashok.com
 0.0.0.0 physicsbeckons.com
+0.0.0.0 physicsbyfiziks.org
 0.0.0.0 physimath.com
 0.0.0.0 physio-roesch.de
 0.0.0.0 physiology-anatomy.seo-florida.com
@@ -424059,7 +424064,6 @@
 0.0.0.0 plenavia.cl
 0.0.0.0 plendrik.com
 0.0.0.0 plenet.in
-0.0.0.0 plenia.pt
 0.0.0.0 plenipotent-screens.000webhostapp.com
 0.0.0.0 pleno-dexlin-engine.com
 0.0.0.0 plenocaudenza-es.live
@@ -431793,6 +431797,7 @@
 0.0.0.0 privitize.com
 0.0.0.0 privnumtra.eckbreyandasso.ml
 0.0.0.0 privontryal-a17z11id-edudeskpro.pages.dev
+0.0.0.0 privrawmirai.privnetwork.tech
 0.0.0.0 privxdayz.com
 0.0.0.0 privy.com
 0.0.0.0 privy.dedspac.ru
@@ -446106,6 +446111,7 @@
 0.0.0.0 quietknowledge.com
 0.0.0.0 quietmorninglight.info
 0.0.0.0 quietpine.vercel.app
+0.0.0.0 quietsurfwi.help
 0.0.0.0 quietunripegreenware--five-nine.repl.co
 0.0.0.0 quiglyai.net
 0.0.0.0 quik-serv.com
@@ -448960,7 +448966,6 @@
 0.0.0.0 raq.programtts.top
 0.0.0.0 raqamtasdiqlash.com
 0.0.0.0 raqi-gamer.github.io
-0.0.0.0 raqmnh.com
 0.0.0.0 raqnor.com
 0.0.0.0 raquelbarros.com.br
 0.0.0.0 raquelnash.autos
@@ -449146,6 +449151,7 @@
 0.0.0.0 rathepayments.com
 0.0.0.0 rathirirounds.com
 0.0.0.0 rathkealechildcare.ie
+0.0.0.0 rathodsoftware.in
 0.0.0.0 rathoraryann.github.io
 0.0.0.0 rathuiasa.duckdns.org
 0.0.0.0 rathvionex.live
@@ -474513,6 +474519,7 @@
 0.0.0.0 skogluxaris-software.com
 0.0.0.0 skogluxaris.sbs
 0.0.0.0 skok-bitrow.com
+0.0.0.0 skolazasisanjepasa.com
 0.0.0.0 skonhed.net
 0.0.0.0 skorgg.gxaeasz.es
 0.0.0.0 skort.dedspac.ru
@@ -481641,7 +481648,6 @@
 0.0.0.0 sudahosting.com
 0.0.0.0 sudais73.github.io
 0.0.0.0 sudanlist.com
-0.0.0.0 sudariocontabilidade.com.br
 0.0.0.0 sudarshanabpatil.github.io
 0.0.0.0 sudd.ulitron.ru
 0.0.0.0 suddenplot.com
@@ -487144,7 +487150,6 @@
 0.0.0.0 theryplonsyncgpt.com
 0.0.0.0 theryplonsyncgpt.net
 0.0.0.0 thesafarigarden.com
-0.0.0.0 thesalons.in
 0.0.0.0 thesavrox-path.com
 0.0.0.0 thesavrox-path.org
 0.0.0.0 thesavrynpulseai.com
@@ -487900,7 +487905,6 @@
 0.0.0.0 timesofkashmir.com
 0.0.0.0 timesofvartha.com
 0.0.0.0 timespctenbest.122.2o7.net
-0.0.0.0 timestampasa.howto.rocks
 0.0.0.0 timestesol.com
 0.0.0.0 timeteenpeople.122.2o7.net
 0.0.0.0 timetunnel.net
@@ -489131,6 +489135,7 @@
 0.0.0.0 tpgcreationz.com
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
+0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -492420,6 +492425,7 @@
 0.0.0.0 twist.virosat.ru
 0.0.0.0 twistshake.cyou
 0.0.0.0 twit.dedspac.ru
+0.0.0.0 twitch.tj
 0.0.0.0 twitchguru.us.intellitxt.com
 0.0.0.0 twitchindoor.best
 0.0.0.0 twiterservices.org
