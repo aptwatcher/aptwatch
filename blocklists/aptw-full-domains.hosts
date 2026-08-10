@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-10 06:35:15
-# Entries: 542797
+# Generated: 2026-08-10 12:33:53
+# Entries: 542804
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32945,6 +32945,7 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
+0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -46316,7 +46317,6 @@
 0.0.0.0 abitare.com.mx
 0.0.0.0 abitareainmo.com
 0.0.0.0 abitaremx.com
-0.0.0.0 abitcoinbull.com
 0.0.0.0 abitinoble.ru
 0.0.0.0 abitoincommunity.it
 0.0.0.0 abitrativeapp.pages.dev
@@ -119890,7 +119890,6 @@
 0.0.0.0 autochthonous-tapes.000webhostapp.com
 0.0.0.0 autocitycuracao.com
 0.0.0.0 autoclaiming.pages.dev
-0.0.0.0 autoclinic.autos
 0.0.0.0 autocmb.ro
 0.0.0.0 autocoatingking.com
 0.0.0.0 autocomp.net
@@ -144796,6 +144795,7 @@
 0.0.0.0 bigrecess.com
 0.0.0.0 bigredmug.com
 0.0.0.0 bigrigrvadventures.com
+0.0.0.0 bigs.bikershop.biz
 0.0.0.0 bigs.bortogat.ru
 0.0.0.0 bigs.dedspac.ru
 0.0.0.0 bigs.ulitron.ru
@@ -224892,6 +224892,7 @@
 0.0.0.0 elmasyedekparca.com
 0.0.0.0 elmavorn.com
 0.0.0.0 elmejoragenteinmobiliario.es
+0.0.0.0 elmejorlocal.com.co
 0.0.0.0 elmensajerotours.com
 0.0.0.0 elmerfortreasurer.org
 0.0.0.0 elmes.de
@@ -235774,6 +235775,7 @@
 0.0.0.0 fabricofurnitures.com
 0.0.0.0 fabricpaintings.com
 0.0.0.0 fabrics.chiripalgroup.com
+0.0.0.0 fabrics.lahoreshoes.com
 0.0.0.0 fabricsewingh.com
 0.0.0.0 fabrikaistanbul.com
 0.0.0.0 fabrikala.com
@@ -252693,6 +252695,7 @@
 0.0.0.0 foundation.con-wallet.network
 0.0.0.0 foundational-rating.000webhostapp.com
 0.0.0.0 foundationally.timanar.ru
+0.0.0.0 foundationforwomenshealth.com
 0.0.0.0 foundationmoon.grayboxfarms.com
 0.0.0.0 foundationnational-ai.live
 0.0.0.0 foundationnational.live
@@ -267484,7 +267487,6 @@
 0.0.0.0 golshere.com
 0.0.0.0 golswhats.ru
 0.0.0.0 golvixena.shop
-0.0.0.0 golvteametvarberg.se
 0.0.0.0 golvurikenz-de.live
 0.0.0.0 golvurikenz-es.live
 0.0.0.0 golvurikenz-it.live
@@ -284493,6 +284495,7 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
+0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -290933,7 +290936,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -424057,6 +424059,7 @@
 0.0.0.0 plenavia.cl
 0.0.0.0 plendrik.com
 0.0.0.0 plenet.in
+0.0.0.0 plenia.pt
 0.0.0.0 plenipotent-screens.000webhostapp.com
 0.0.0.0 pleno-dexlin-engine.com
 0.0.0.0 plenocaudenza-es.live
@@ -481638,6 +481641,7 @@
 0.0.0.0 sudahosting.com
 0.0.0.0 sudais73.github.io
 0.0.0.0 sudanlist.com
+0.0.0.0 sudariocontabilidade.com.br
 0.0.0.0 sudarshanabpatil.github.io
 0.0.0.0 sudd.ulitron.ru
 0.0.0.0 suddenplot.com
@@ -483419,6 +483423,7 @@
 0.0.0.0 systemtron-internship.pages.dev
 0.0.0.0 systracking.admicro.vn
 0.0.0.0 systweak.com
+0.0.0.0 sysupdate.online
 0.0.0.0 syup.top
 0.0.0.0 syvlyn.info
 0.0.0.0 syyd-bmmanager366568.vercel.app
@@ -487139,6 +487144,7 @@
 0.0.0.0 theryplonsyncgpt.com
 0.0.0.0 theryplonsyncgpt.net
 0.0.0.0 thesafarigarden.com
+0.0.0.0 thesalons.in
 0.0.0.0 thesavrox-path.com
 0.0.0.0 thesavrox-path.org
 0.0.0.0 thesavrynpulseai.com
@@ -487894,6 +487900,7 @@
 0.0.0.0 timesofkashmir.com
 0.0.0.0 timesofvartha.com
 0.0.0.0 timespctenbest.122.2o7.net
+0.0.0.0 timestampasa.howto.rocks
 0.0.0.0 timestesol.com
 0.0.0.0 timeteenpeople.122.2o7.net
 0.0.0.0 timetunnel.net
@@ -497326,6 +497333,7 @@
 0.0.0.0 vekstfundoria-no.live
 0.0.0.0 vekstfundoria.click
 0.0.0.0 vekstfundoria.live
+0.0.0.0 vektorex.com
 0.0.0.0 vektortradeviaxtech.com
 0.0.0.0 vela.iad-01.braze.com
 0.0.0.0 veladrip.site
@@ -520801,7 +520809,6 @@
 0.0.0.0 www.knifts.com
 0.0.0.0 www.knipetarn.com
 0.0.0.0 www.knipetarnestate.com
-0.0.0.0 www.knockknock.top
 0.0.0.0 www.knopkasnoom.com
 0.0.0.0 www.knovazoh.shop
 0.0.0.0 www.knowinteractive.com
