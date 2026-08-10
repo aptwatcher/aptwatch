@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-10 06:05:11
-# Entries: 542796
+# Generated: 2026-08-10 06:35:15
+# Entries: 542797
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -46316,6 +46316,7 @@
 0.0.0.0 abitare.com.mx
 0.0.0.0 abitareainmo.com
 0.0.0.0 abitaremx.com
+0.0.0.0 abitcoinbull.com
 0.0.0.0 abitinoble.ru
 0.0.0.0 abitoincommunity.it
 0.0.0.0 abitrativeapp.pages.dev
@@ -119889,6 +119890,7 @@
 0.0.0.0 autochthonous-tapes.000webhostapp.com
 0.0.0.0 autocitycuracao.com
 0.0.0.0 autoclaiming.pages.dev
+0.0.0.0 autoclinic.autos
 0.0.0.0 autocmb.ro
 0.0.0.0 autocoatingking.com
 0.0.0.0 autocomp.net
@@ -292049,7 +292051,6 @@
 0.0.0.0 humansync.net
 0.0.0.0 humanverify.net
 0.0.0.0 humanwarnings.com
-0.0.0.0 humasjatim.id
 0.0.0.0 humayunsaghir.github.io
 0.0.0.0 humbaur.hr
 0.0.0.0 humbertocarpio.com
