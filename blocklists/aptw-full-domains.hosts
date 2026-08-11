@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-11 00:33:42
-# Entries: 542790
+# Generated: 2026-08-11 06:04:55
+# Entries: 542833
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52387,6 +52387,7 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
+0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -56519,6 +56520,7 @@
 0.0.0.0 admin.gov.teams.microsoft.us.office.rp1.abangaritest.govshn.net
 0.0.0.0 admin.gym-ag-ioannis-lem.schools.ac.cy
 0.0.0.0 admin.hamro.academy
+0.0.0.0 admin.hantangcapital.com
 0.0.0.0 admin.haohf.icu
 0.0.0.0 admin.hostpoint-ch-customer.auth-03a7d698.budgetsportkleding.nl
 0.0.0.0 admin.hostpoint-ch-customer.auth-e75c9780.ijsblokjesalmere.nl
@@ -103201,6 +103203,7 @@
 0.0.0.0 assets.fathershops.com
 0.0.0.0 assets.freightinternationalservices.com
 0.0.0.0 assets.gunosy.com
+0.0.0.0 assets.hantangcapital.com
 0.0.0.0 assets.harafunnel.com
 0.0.0.0 assets.igapi.com
 0.0.0.0 assets.ipcdigital.co.uk
@@ -105091,6 +105094,7 @@
 0.0.0.0 atlasfm.com
 0.0.0.0 atlasformrn.fr
 0.0.0.0 atlasfundodeinvestimento.online
+0.0.0.0 atlasgroup-ua.com
 0.0.0.0 atlashealthperformance.co.uk
 0.0.0.0 atlaskote.com
 0.0.0.0 atlasmotorcycles.com
@@ -166546,6 +166550,7 @@
 0.0.0.0 canadachartered.com
 0.0.0.0 canadacity.brizy.site
 0.0.0.0 canadadpst.wpenginepowered.com
+0.0.0.0 canadafarmersbusinessnetwork.com
 0.0.0.0 canadainsightshub.net
 0.0.0.0 canadamoneysent.colomayasociados.cl
 0.0.0.0 canadaoneautoglobalproduction.112.2o7.net
@@ -207404,6 +207409,7 @@
 0.0.0.0 dev.foned.nl
 0.0.0.0 dev.gllit.com
 0.0.0.0 dev.hansarobotics.com
+0.0.0.0 dev.hantangcapital.com
 0.0.0.0 dev.hpsafety.com.au
 0.0.0.0 dev.informed.uspsinnovation.tech
 0.0.0.0 dev.informedcoupons.com
@@ -215028,6 +215034,7 @@
 0.0.0.0 doulipai.com
 0.0.0.0 doumastiques.thats.im
 0.0.0.0 doums.ulitron.ru
+0.0.0.0 douncloud.site
 0.0.0.0 douniau2as.com
 0.0.0.0 dounou-beben-londo.surge.sh
 0.0.0.0 douofficial-pl.com
@@ -255423,6 +255430,7 @@
 0.0.0.0 frt.scqu061.vip
 0.0.0.0 frt.uzob291.vip
 0.0.0.0 frt.vvdo076.vip
+0.0.0.0 frtgcwljktnews.m.hantangcapital.com
 0.0.0.0 frth-pvmpd-ttelstra.glitch.me
 0.0.0.0 frtn.socdm.com
 0.0.0.0 frtwy.cm2024.dynv6.net
@@ -260600,7 +260608,6 @@
 0.0.0.0 gee.amaniwa.ru
 0.0.0.0 gee.boletuso.ru
 0.0.0.0 gee.ulitron.ru
-0.0.0.0 geeconglobal.com
 0.0.0.0 geed.amaniwa.ru
 0.0.0.0 geeeculqlghwhzpulpigvxduyz-dot-poised-bot-306515.uk.r.appspot.com
 0.0.0.0 geeeeeeeeemini.godaddysites.com
@@ -279373,6 +279380,7 @@
 0.0.0.0 hanstancent.jrganm4.cyou
 0.0.0.0 hansuryhighschool.boseglobal.in
 0.0.0.0 hant.ulitron.ru
+0.0.0.0 hantangcapital.com
 0.0.0.0 hantengu50.shop
 0.0.0.0 hants.dedspac.ru
 0.0.0.0 hanulsms.com
@@ -284490,6 +284498,7 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
+0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -284862,6 +284871,7 @@
 0.0.0.0 hgmkcbfljphw.pages.dev
 0.0.0.0 hgmmmgh.ddns.net
 0.0.0.0 hgmumth.dentavenue.com.tr
+0.0.0.0 hgmydr.wiki
 0.0.0.0 hgn6.za.com
 0.0.0.0 hgnaaymxqeesrosrwdtnkfvfpm-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hgnbvcxwe.cf
@@ -290930,7 +290940,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -320127,6 +320136,8 @@
 0.0.0.0 jwara99793565659859.rf.gd
 0.0.0.0 jwattier07.wixsite.com
 0.0.0.0 jwazvxtfdszgtrrsyaedlomqah-dot-polished-shore-301017.uk.r.appspot.com
+0.0.0.0 jwc.hantangcapital.com
+0.0.0.0 jwc.siban.hantangcapital.com
 0.0.0.0 jwc4k.school
 0.0.0.0 jwconsulting.cc
 0.0.0.0 jwd9d9.jwb43.workers.dev
@@ -334020,6 +334031,7 @@
 0.0.0.0 learn.cbybitapp.com
 0.0.0.0 learn.dbybits.com
 0.0.0.0 learn.dedspac.ru
+0.0.0.0 learn.hantangcapital.com
 0.0.0.0 learn.hbybit.net
 0.0.0.0 learn.ibybit.net
 0.0.0.0 learn.imets.site
@@ -340714,6 +340726,7 @@
 0.0.0.0 ln-peppy-eclair-630b04.netlify.app
 0.0.0.0 ln-upl.ddns.net
 0.0.0.0 ln-upl.ddns.no
+0.0.0.0 ln.canadafarmersbusinessnetwork.com
 0.0.0.0 ln.sleto.net
 0.0.0.0 ln07sp0lsk4-bxvht.nh5tin.cfd
 0.0.0.0 ln2306.egirisimuniversitesi.com
@@ -356759,7 +356772,6 @@
 0.0.0.0 mama.pipi.ne.jp
 0.0.0.0 mama.ulitron.ru
 0.0.0.0 mamaandmimi.com
-0.0.0.0 mamabearcoffee.com
 0.0.0.0 mamabearhikes.com.au
 0.0.0.0 mamacehin.com
 0.0.0.0 mamachumbas.com
@@ -361618,6 +361630,7 @@
 0.0.0.0 media.funpic.de
 0.0.0.0 media.go2speed.org
 0.0.0.0 media.gssp.asia
+0.0.0.0 media.hantangcapital.com
 0.0.0.0 media.henrol.se
 0.0.0.0 media.hometeamsonline.com
 0.0.0.0 media.innity.net
@@ -392655,14 +392668,17 @@
 0.0.0.0 news.gara.ind.br
 0.0.0.0 news.gatopoles.com.br
 0.0.0.0 news.grapho.com.br
+0.0.0.0 news.hantangcapital.com
 0.0.0.0 news.hkrevolt.com
 0.0.0.0 news.hullo.space
 0.0.0.0 news.intelsupportcenter.com
 0.0.0.0 news.juvi-preview.infomaniak-test.ch
+0.0.0.0 news.jwc.hantangcapital.com
 0.0.0.0 news.krafton-redeem.com
 0.0.0.0 news.kraftonevent.com
 0.0.0.0 news.lite-pro-tradelist-28992337690.xyz
 0.0.0.0 news.livejasmin.com
+0.0.0.0 news.m.hantangcapital.com
 0.0.0.0 news.mailclick.me
 0.0.0.0 news.meconstructionnews.com
 0.0.0.0 news.mhotels.com.br
@@ -392677,9 +392693,11 @@
 0.0.0.0 news.nato.com.br
 0.0.0.0 news.newlandbrasil.com.br
 0.0.0.0 news.niche-beauty.com
+0.0.0.0 news.oa.hantangcapital.com
 0.0.0.0 news.omronbrasil.com
 0.0.0.0 news.post-online-cars-item-452369170.xyz
 0.0.0.0 news.redepapelsolidario.org.br
+0.0.0.0 news.renshi.hantangcapital.com
 0.0.0.0 news.safe-security-item-462585.xyz
 0.0.0.0 news.sequencialctp.com.br
 0.0.0.0 news.sindilojas.far.br
@@ -402303,6 +402321,7 @@
 0.0.0.0 office365xlfjordshipping.dleegyuxzpi.ru
 0.0.0.0 office365z2intrum.dleegyuxzpi.ru
 0.0.0.0 office366-cdfd4.web.app
+0.0.0.0 office366.com
 0.0.0.0 office369.aba.ae
 0.0.0.0 office37aab6a6bc5a7b72eb9b5e22ce50a3ba37aab6a6bc5a7b72eb9b5e22c.hockeyql.workers.dev
 0.0.0.0 office39283c79b6d239c952b821624b0e6a26c3383c79b6d239c952b821624.emailnow2.workers.dev
@@ -408940,7 +408959,6 @@
 0.0.0.0 orient-water.com
 0.0.0.0 orientationpour-tous.fr
 0.0.0.0 orientedargument.com
-0.0.0.0 orientedworld.com
 0.0.0.0 orientgrammarschools.edu.pk
 0.0.0.0 orifl21ame01.000webhostapp.com
 0.0.0.0 oriflamegiftforyou1.000webhostapp.com
@@ -424051,6 +424069,7 @@
 0.0.0.0 plenavia.cl
 0.0.0.0 plendrik.com
 0.0.0.0 plenet.in
+0.0.0.0 plenia.pt
 0.0.0.0 plenipotent-screens.000webhostapp.com
 0.0.0.0 pleno-dexlin-engine.com
 0.0.0.0 plenocaudenza-es.live
@@ -432213,6 +432232,7 @@
 0.0.0.0 prod.criteo.com
 0.0.0.0 prod.criteo.net
 0.0.0.0 prod.fraud.adjoe.zone
+0.0.0.0 prod.hantangcapital.com
 0.0.0.0 prod.justpremium.com
 0.0.0.0 prod.leanplum.com
 0.0.0.0 prod.letswinstuff.com
@@ -444471,6 +444491,7 @@
 0.0.0.0 qj9w7mqewt.imtokend.top
 0.0.0.0 qjasenuqmjqkyjye-dot-millinium.ey.r.appspot.com
 0.0.0.0 qjaww.cn
+0.0.0.0 qjdtfsmtp.hantangcapital.com
 0.0.0.0 qjdu.email-helpdesk.world
 0.0.0.0 qjdxkeztrp.duckdns.org
 0.0.0.0 qjemmie.ml
@@ -448953,7 +448974,6 @@
 0.0.0.0 raq.programtts.top
 0.0.0.0 raqamtasdiqlash.com
 0.0.0.0 raqi-gamer.github.io
-0.0.0.0 raqmnh.com
 0.0.0.0 raqnor.com
 0.0.0.0 raquelbarros.com.br
 0.0.0.0 raquelnash.autos
@@ -454302,6 +454322,7 @@
 0.0.0.0 renownsc.com
 0.0.0.0 renownunited.com.au
 0.0.0.0 renqnnes.wwwaz1-ts105.a2hosted.com
+0.0.0.0 renshi.news.hantangcapital.com
 0.0.0.0 renshou.pilot45.com
 0.0.0.0 rent-airbnb.safe-8324687.com
 0.0.0.0 rent-always-edit-acer.trycloudflare.com
@@ -467216,6 +467237,7 @@
 0.0.0.0 sanatualma.com
 0.0.0.0 sanavitawellnesscoaching.com
 0.0.0.0 sanaworks.com
+0.0.0.0 sanban.hantangcapital.com
 0.0.0.0 sanbuzs.com
 0.0.0.0 sanchezsurveys.com
 0.0.0.0 sanchiagar.github.io
@@ -471882,6 +471904,7 @@
 0.0.0.0 server.lectec.com.au
 0.0.0.0 server.net-upt.com
 0.0.0.0 server.seadform.net
+0.0.0.0 server.servermsn.life
 0.0.0.0 server.siteamplifier.net
 0.0.0.0 server.sspl.com.au
 0.0.0.0 server.typedream.app
@@ -472694,6 +472717,7 @@
 0.0.0.0 share-point5463583758297998475.pages.dev
 0.0.0.0 share-server.com
 0.0.0.0 share-stores.com
+0.0.0.0 share-ya.space
 0.0.0.0 share.bibliota.ru
 0.0.0.0 share.mob.com
 0.0.0.0 share1techinfo.stech.site
@@ -473069,7 +473093,6 @@
 0.0.0.0 shiviislive.github.io
 0.0.0.0 shivmundhe7.github.io
 0.0.0.0 shivshreetravelworld.com
-0.0.0.0 shivsoftwaresolutions.com
 0.0.0.0 shivuu2803.github.io
 0.0.0.0 shizhenwang.com
 0.0.0.0 shizhong.pilot45.com
@@ -473241,6 +473264,7 @@
 0.0.0.0 shop.fbshtfs.com
 0.0.0.0 shop.flodman.ru
 0.0.0.0 shop.futocoin.cc
+0.0.0.0 shop.hantangcapital.com
 0.0.0.0 shop.jimpike.com.au
 0.0.0.0 shop.mediasova.ru
 0.0.0.0 shop.nihell58.xyz
@@ -473522,6 +473546,7 @@
 0.0.0.0 siap.tahory.site
 0.0.0.0 sib.bortogat.ru
 0.0.0.0 sib.ulitron.ru
+0.0.0.0 siban.hantangcapital.com
 0.0.0.0 sibb.amaniwa.ru
 0.0.0.0 sibb.ulitron.ru
 0.0.0.0 sibe.ulitron.ru
@@ -474170,6 +474195,7 @@
 0.0.0.0 site-zknrqnvan.godaddysites.com
 0.0.0.0 site.adform.com
 0.0.0.0 site.applerts.net
+0.0.0.0 site.canadafarmersbusinessnetwork.com
 0.0.0.0 site.falconbucks.com
 0.0.0.0 site.great-restaurant-deals.com
 0.0.0.0 site.hazari.ru
@@ -476451,6 +476477,13 @@
 0.0.0.0 soprarecap.cyou
 0.0.0.0 soprarimbe.cyou
 0.0.0.0 soprasbale.cyou
+0.0.0.0 soprasoftware.co.uk
+0.0.0.0 soprasteria-bg.com
+0.0.0.0 soprasteria-career.com
+0.0.0.0 soprasteria-careers.com
+0.0.0.0 soprasteria-job.com
+0.0.0.0 soprasteria-local.com
+0.0.0.0 soprasteriabg.com
 0.0.0.0 soprorotos.ru
 0.0.0.0 sops.ulitron.ru
 0.0.0.0 soputh.ru
@@ -478875,6 +478908,7 @@
 0.0.0.0 staging.churchfarmvillage.org
 0.0.0.0 staging.fiogaice.za.com
 0.0.0.0 staging.fuseplatform.net
+0.0.0.0 staging.hantangcapital.com
 0.0.0.0 staging.j.eclick.vn
 0.0.0.0 staging.novaonx.com
 0.0.0.0 staging.paylix.gg
@@ -481631,7 +481665,6 @@
 0.0.0.0 sudahosting.com
 0.0.0.0 sudais73.github.io
 0.0.0.0 sudanlist.com
-0.0.0.0 sudariocontabilidade.com.br
 0.0.0.0 sudarshanabpatil.github.io
 0.0.0.0 sudd.ulitron.ru
 0.0.0.0 suddenplot.com
@@ -483803,6 +483836,7 @@
 0.0.0.0 tab.dedspac.ru
 0.0.0.0 tab.dellrescue.com
 0.0.0.0 tab.myreserp.com
+0.0.0.0 tabak.hr
 0.0.0.0 tabby.dedspac.ru
 0.0.0.0 tabby.virosat.ru
 0.0.0.0 tabbylinejewelry.com
@@ -486017,6 +486051,7 @@
 0.0.0.0 test.fraispei.com
 0.0.0.0 test.gadoliniumo.ru
 0.0.0.0 test.gutir.ru
+0.0.0.0 test.hantangcapital.com
 0.0.0.0 test.ishvara-yoga.com
 0.0.0.0 test.jungara.com.au
 0.0.0.0 test.kryptonos.ru
@@ -493019,6 +493054,7 @@
 0.0.0.0 uhmkd.cn
 0.0.0.0 uhoriabackrawgiro.top
 0.0.0.0 uhwaso.nexrkn.es
+0.0.0.0 uhxqlnews.media.hantangcapital.com
 0.0.0.0 uhydesaq.duckdns.org
 0.0.0.0 ui.chelepi.contractors
 0.0.0.0 ui.clevernt.com
@@ -494170,6 +494206,7 @@
 0.0.0.0 upgradeqb.com
 0.0.0.0 upgradeyoga.com
 0.0.0.0 upgshoolldlogiiin.godaddysites.com
+0.0.0.0 upgybj.store
 0.0.0.0 uph-oldlo-gin-hub.pages.dev
 0.0.0.0 uph-oldlogin-public.pages.dev
 0.0.0.0 uph-xxxold-login.webflow.io
@@ -497320,7 +497357,6 @@
 0.0.0.0 vekstfundoria-no.live
 0.0.0.0 vekstfundoria.click
 0.0.0.0 vekstfundoria.live
-0.0.0.0 vektorex.com
 0.0.0.0 vektortradeviaxtech.com
 0.0.0.0 vela.iad-01.braze.com
 0.0.0.0 veladrip.site
@@ -501898,6 +501934,7 @@
 0.0.0.0 whalex-app.live
 0.0.0.0 wham.ulitron.ru
 0.0.0.0 wham.virosat.ru
+0.0.0.0 whantangcapital.com
 0.0.0.0 whare.100webspace.net
 0.0.0.0 whart.dedspac.ru
 0.0.0.0 whartsapp.cn
@@ -502996,6 +503033,7 @@
 0.0.0.0 wildcard.bkrtx.com.edgekey.net
 0.0.0.0 wildcard.evidon.com.edgekey.net
 0.0.0.0 wildcard.facture-rapide.fr
+0.0.0.0 wildcard.hantangcapital.com
 0.0.0.0 wildcard.humanresources-group.com
 0.0.0.0 wildcard.marketo.com.edgekey.net
 0.0.0.0 wildcard.marketo.net.edgekey.net
@@ -539665,6 +539703,7 @@
 0.0.0.0 xmsuge.com
 0.0.0.0 xmtk01.xyz
 0.0.0.0 xmwsjd.com
+0.0.0.0 xmybnnews.gs.hantangcapital.com
 0.0.0.0 xmyiguang.com
 0.0.0.0 xn--12coi1d2ea5cvf.com
 0.0.0.0 xn--15tp58axzgrvi.com
@@ -539869,6 +539908,7 @@
 0.0.0.0 xstatic.nk-net.pl
 0.0.0.0 xsy-textile.com
 0.0.0.0 xsyncbridge.com
+0.0.0.0 xsza.net
 0.0.0.0 xt-ask.pages.dev
 0.0.0.0 xtainment.net
 0.0.0.0 xtb-ai.live
@@ -539960,6 +540000,7 @@
 0.0.0.0 xvvvszzra.site
 0.0.0.0 xwavesystem.site
 0.0.0.0 xwaygrowths.com
+0.0.0.0 xwe.us
 0.0.0.0 xweiosoajjdioasdd.site
 0.0.0.0 xws8888.cn
 0.0.0.0 xwww.tiktokshoptsp.com
@@ -540032,6 +540073,7 @@
 0.0.0.0 xxxxfish-hu.sbs
 0.0.0.0 xy-mail.online
 0.0.0.0 xy.xyss38.cc
+0.0.0.0 xybdgapi.hantangcapital.com
 0.0.0.0 xyberito.live
 0.0.0.0 xyberorenda-system.com
 0.0.0.0 xyberorenda-system.net
@@ -542653,6 +542695,7 @@
 0.0.0.0 zxrgh.viouni.com
 0.0.0.0 zxvbcrt.ug
 0.0.0.0 zxvfdkn.cfd
+0.0.0.0 zxzaq.com
 0.0.0.0 zy1rt.cyou
 0.0.0.0 zyakir.ru
 0.0.0.0 zyban-store.shengen.ru
