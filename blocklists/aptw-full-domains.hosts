@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-11 06:04:55
-# Entries: 542833
+# Generated: 2026-08-11 06:35:33
+# Entries: 542830
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52387,7 +52387,6 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
-0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -56237,6 +56236,7 @@
 0.0.0.0 admeridianads.com
 0.0.0.0 admerize.be
 0.0.0.0 admesportes.com.br
+0.0.0.0 admetricslab.org
 0.0.0.0 admex.com
 0.0.0.0 admez.com
 0.0.0.0 admgeral.weebly.com
@@ -144794,7 +144794,6 @@
 0.0.0.0 bigrecess.com
 0.0.0.0 bigredmug.com
 0.0.0.0 bigrigrvadventures.com
-0.0.0.0 bigs.bikershop.biz
 0.0.0.0 bigs.bortogat.ru
 0.0.0.0 bigs.dedspac.ru
 0.0.0.0 bigs.ulitron.ru
@@ -284498,7 +284497,6 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
-0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -424069,7 +424067,6 @@
 0.0.0.0 plenavia.cl
 0.0.0.0 plendrik.com
 0.0.0.0 plenet.in
-0.0.0.0 plenia.pt
 0.0.0.0 plenipotent-screens.000webhostapp.com
 0.0.0.0 pleno-dexlin-engine.com
 0.0.0.0 plenocaudenza-es.live
