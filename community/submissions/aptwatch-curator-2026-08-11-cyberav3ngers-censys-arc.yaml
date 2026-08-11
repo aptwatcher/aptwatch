@@ -1,0 +1,27 @@
+author: APTWatch Curator
+
+source: https://censys.com/wp-content/uploads/ARC_Sitrep_Rockwell_PLC_AA26097A3.pdf
+source_name: Censys ARC Situation Report - Rockwell PLC Exposure (AA26-097A pivot, 2026-04-07)
+
+apt_groups:
+  - CyberAv3ngers
+
+description: >
+  Additional operator IPs identified by Censys ARC via RDP certificate pivot
+  (CN "DESKTOP-BOE5MUC", RDP on TCP 43589) on the CISA AA26-097A indicator
+  set. Censys assesses the seven 185.82.73.x IOCs published by CISA are a
+  single multi-homed Windows engineering workstation in AS214036 (ULTAHOST,
+  Amsterdam) running the full Rockwell toolchain (Studio 5000, FactoryTalk,
+  RSLinx, CodeMeter). The four IPs below share the same host, ASN, certificate
+  family, and activity window (2025 through Mar 2026) but are absent from the
+  CISA advisory. 185.82.73.169 is currently dark but is the likely twelfth
+  interface; Censys recommends treating the whole 185.82.73.160-171 range in
+  AS214036 as suspect and querying historical logs for TCP 44818/2222/102/502/22.
+  Confidence: vendor OSINT pivot (TLP:CLEAR), not government-confirmed - vet
+  before blocking.
+
+ipv4:
+  - 185.82.73.160
+  - 185.82.73.161
+  - 185.82.73.163
+  - 185.82.73.166
