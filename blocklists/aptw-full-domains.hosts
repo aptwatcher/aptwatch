@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-10 18:33:37
-# Entries: 542810
+# Generated: 2026-08-11 00:33:42
+# Entries: 542790
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52387,7 +52387,6 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
-0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -98016,7 +98015,6 @@
 0.0.0.0 arca2.danielgabinio.com
 0.0.0.0 arcacg.com
 0.0.0.0 arcade.business
-0.0.0.0 arcade.cleverpondky.com
 0.0.0.0 arcade.dedspac.ru
 0.0.0.0 arcade.ya.com
 0.0.0.0 arcadecats.com
@@ -119890,7 +119888,6 @@
 0.0.0.0 autochthonous-tapes.000webhostapp.com
 0.0.0.0 autocitycuracao.com
 0.0.0.0 autoclaiming.pages.dev
-0.0.0.0 autoclinic.autos
 0.0.0.0 autocmb.ro
 0.0.0.0 autocoatingking.com
 0.0.0.0 autocomp.net
@@ -125109,7 +125106,6 @@
 0.0.0.0 babas.ulitron.ru
 0.0.0.0 babasio.com
 0.0.0.0 babaskan.ru
-0.0.0.0 babaszepsegverseny.hu
 0.0.0.0 babawa3213.liveblog365.com
 0.0.0.0 babawebdesign.com
 0.0.0.0 babawest12.weeblysite.com
@@ -125473,7 +125469,6 @@
 0.0.0.0 backup.synergyglobal.one
 0.0.0.0 backup.system-ledger.live
 0.0.0.0 backup.tamga.net.ua
-0.0.0.0 backup.tkspr1v.com
 0.0.0.0 backup.utsafrica.com
 0.0.0.0 backup.virosat.ru
 0.0.0.0 backup.vnateqi.workers.dev
@@ -132727,7 +132722,6 @@
 0.0.0.0 baltimorebreakrooms.com
 0.0.0.0 baltimoretrips.com
 0.0.0.0 baltis.dedspac.ru
-0.0.0.0 baltos.online
 0.0.0.0 baltzyskura-ai.com
 0.0.0.0 baltzyskura-pl.com
 0.0.0.0 baltzyskura.com
@@ -136565,7 +136559,6 @@
 0.0.0.0 batydo.ru
 0.0.0.0 batzen.matsuro.ru
 0.0.0.0 bauamvhyvocgkomc-dot-millinium.ey.r.appspot.com
-0.0.0.0 bauble.cleverpondky.com
 0.0.0.0 bauble.virosat.ru
 0.0.0.0 baublesandbagsonline.com
 0.0.0.0 baubo.matsuro.ru
@@ -144797,6 +144790,7 @@
 0.0.0.0 bigrecess.com
 0.0.0.0 bigredmug.com
 0.0.0.0 bigrigrvadventures.com
+0.0.0.0 bigs.bikershop.biz
 0.0.0.0 bigs.bortogat.ru
 0.0.0.0 bigs.dedspac.ru
 0.0.0.0 bigs.ulitron.ru
@@ -190378,7 +190372,6 @@
 0.0.0.0 coralon.com
 0.0.0.0 coralrimpa.cyou
 0.0.0.0 coralsiren.com
-0.0.0.0 coralwebqe.help
 0.0.0.0 coram.dedspac.ru
 0.0.0.0 coramoon.com
 0.0.0.0 coranovacommunitypoint.site
@@ -194998,7 +194991,6 @@
 0.0.0.0 cts.w55c.net
 0.0.0.0 ctsempresa.com
 0.0.0.0 ctservices.fr
-0.0.0.0 ctsfactory.com
 0.0.0.0 ctsinteractive.com
 0.0.0.0 ctsp-arequipa.org.pe
 0.0.0.0 ctsprojectsolutions.com
@@ -220361,6 +220353,7 @@
 0.0.0.0 easycommerce.plus
 0.0.0.0 easyconnectionwallet.com
 0.0.0.0 easycontainer.co.th
+0.0.0.0 easycryptos.org
 0.0.0.0 easydappsfix.com
 0.0.0.0 easydec.iinkedin.li
 0.0.0.0 easydosensenken.de
@@ -221336,7 +221329,6 @@
 0.0.0.0 ebubxsbsqh.duckdns.org
 0.0.0.0 ebuddynews.com
 0.0.0.0 ebullienceinabundance.com
-0.0.0.0 ebullientlife.in
 0.0.0.0 eburdwanmuktodhara.org.in
 0.0.0.0 eburkhardt.techvalleyabbottabad.pk
 0.0.0.0 ebusiness-bofamerica.online
@@ -250774,6 +250766,7 @@
 0.0.0.0 fluidcontitech.com
 0.0.0.0 fluiddeliverymanagement.com
 0.0.0.0 fluidesclimat.com
+0.0.0.0 fluidfilm.bg
 0.0.0.0 fluidou-71.ml
 0.0.0.0 fluiptvserver.com
 0.0.0.0 fluir-mercadopl.click
@@ -260607,6 +260600,7 @@
 0.0.0.0 gee.amaniwa.ru
 0.0.0.0 gee.boletuso.ru
 0.0.0.0 gee.ulitron.ru
+0.0.0.0 geeconglobal.com
 0.0.0.0 geed.amaniwa.ru
 0.0.0.0 geeeculqlghwhzpulpigvxduyz-dot-poised-bot-306515.uk.r.appspot.com
 0.0.0.0 geeeeeeeeemini.godaddysites.com
@@ -310741,7 +310735,6 @@
 0.0.0.0 jam-art.net
 0.0.0.0 jam-bo.ru
 0.0.0.0 jam.boletuso.ru
-0.0.0.0 jam.cleverpondky.com
 0.0.0.0 jam.dedspac.ru
 0.0.0.0 jam.gimbori.cyou
 0.0.0.0 jam.goolati.ru
@@ -331020,7 +331013,6 @@
 0.0.0.0 laborex.hu
 0.0.0.0 laborjlps.zzz.com.ua
 0.0.0.0 laboroflove.us.intellitxt.com
-0.0.0.0 laborpartyjo.com
 0.0.0.0 laborsbook.jinbo.net
 0.0.0.0 laboso.fr
 0.0.0.0 labotiguetadelmig.cat
@@ -341150,7 +341142,6 @@
 0.0.0.0 load.cofry.com
 0.0.0.0 load.collegesmooch.com
 0.0.0.0 load.dedspac.ru
-0.0.0.0 load.dstat.top
 0.0.0.0 load.exelator.com
 0.0.0.0 load.focalex.com
 0.0.0.0 load.fomo.com
@@ -354590,7 +354581,6 @@
 0.0.0.0 mail.sign-myphone.com
 0.0.0.0 mail.sihgyr.c505.net
 0.0.0.0 mail.silavpravde.info
-0.0.0.0 mail.silverrockay.pro
 0.0.0.0 mail.simonebellucci.it
 0.0.0.0 mail.simpower.com.cn
 0.0.0.0 mail.singapore-naughty-girl.citzy19.pw
@@ -354651,7 +354641,6 @@
 0.0.0.0 mail.spotifybyhardik.freewebhostmost.com
 0.0.0.0 mail.spotifyyclonne.freewebhostmost.com
 0.0.0.0 mail.spotonroofing.com.au
-0.0.0.0 mail.springnetpm.pro
 0.0.0.0 mail.sqaccountinformation.tk
 0.0.0.0 mail.sqareeednet.org
 0.0.0.0 mail.sqaurareee.net
@@ -355211,7 +355200,6 @@
 0.0.0.0 mail.wijewardena.com
 0.0.0.0 mail.wildpridesafaris.com
 0.0.0.0 mail.windows-updater.com
-0.0.0.0 mail.windycreekbc.pro
 0.0.0.0 mail.wingsclothing.co.in
 0.0.0.0 mail.wininn.duckdns.org
 0.0.0.0 mail.wintools.com.cn
@@ -355294,7 +355282,6 @@
 0.0.0.0 mail.ywhns4.meclickts.my.id
 0.0.0.0 mail.z-protection.business-minagne.com
 0.0.0.0 mail.zammy.akuanakmamah.de
-0.0.0.0 mail.zanyyewuh.pro
 0.0.0.0 mail.zebrogs.com
 0.0.0.0 mail.zeltech.com.au
 0.0.0.0 mail.zenservices.net
@@ -356772,6 +356759,7 @@
 0.0.0.0 mama.pipi.ne.jp
 0.0.0.0 mama.ulitron.ru
 0.0.0.0 mamaandmimi.com
+0.0.0.0 mamabearcoffee.com
 0.0.0.0 mamabearhikes.com.au
 0.0.0.0 mamacehin.com
 0.0.0.0 mamachumbas.com
@@ -408793,7 +408781,6 @@
 0.0.0.0 oreas.dedspac.ru
 0.0.0.0 orebu-cloud-3bde.lwvemrlaensi.workers.dev
 0.0.0.0 oreg-start-leadger.webflow.io
-0.0.0.0 oregano.brightleafrv.com
 0.0.0.0 oregeryshop01.top
 0.0.0.0 oregeryshop02.top
 0.0.0.0 oregeryshop03.top
@@ -408953,6 +408940,7 @@
 0.0.0.0 orient-water.com
 0.0.0.0 orientationpour-tous.fr
 0.0.0.0 orientedargument.com
+0.0.0.0 orientedworld.com
 0.0.0.0 orientgrammarschools.edu.pk
 0.0.0.0 orifl21ame01.000webhostapp.com
 0.0.0.0 oriflamegiftforyou1.000webhostapp.com
@@ -421634,7 +421622,6 @@
 0.0.0.0 physics.uctm.edu
 0.0.0.0 physicsashok.com
 0.0.0.0 physicsbeckons.com
-0.0.0.0 physicsbyfiziks.org
 0.0.0.0 physimath.com
 0.0.0.0 physio-roesch.de
 0.0.0.0 physiology-anatomy.seo-florida.com
@@ -448966,6 +448953,7 @@
 0.0.0.0 raq.programtts.top
 0.0.0.0 raqamtasdiqlash.com
 0.0.0.0 raqi-gamer.github.io
+0.0.0.0 raqmnh.com
 0.0.0.0 raqnor.com
 0.0.0.0 raquelbarros.com.br
 0.0.0.0 raquelnash.autos
@@ -449151,7 +449139,6 @@
 0.0.0.0 rathepayments.com
 0.0.0.0 rathirirounds.com
 0.0.0.0 rathkealechildcare.ie
-0.0.0.0 rathodsoftware.in
 0.0.0.0 rathoraryann.github.io
 0.0.0.0 rathuiasa.duckdns.org
 0.0.0.0 rathvionex.live
@@ -464732,7 +464719,6 @@
 0.0.0.0 s3indonesia.co.id
 0.0.0.0 s3m.mediav.com
 0.0.0.0 s3mfo5rvi.duckdns.org
-0.0.0.0 s3o65awrf56.net
 0.0.0.0 s3pnjx.cn
 0.0.0.0 s3q.github.io
 0.0.0.0 s3r.io
@@ -473083,6 +473069,7 @@
 0.0.0.0 shiviislive.github.io
 0.0.0.0 shivmundhe7.github.io
 0.0.0.0 shivshreetravelworld.com
+0.0.0.0 shivsoftwaresolutions.com
 0.0.0.0 shivuu2803.github.io
 0.0.0.0 shizhenwang.com
 0.0.0.0 shizhong.pilot45.com
@@ -473810,7 +473797,6 @@
 0.0.0.0 silverpetalforge.info
 0.0.0.0 silverpinecraft.info
 0.0.0.0 silverquartzforge.info
-0.0.0.0 silverrockay.pro
 0.0.0.0 silverstarfacilities.com
 0.0.0.0 silverstarotomotiv.com
 0.0.0.0 silverstripe.vizeabo.biz.id
@@ -474519,7 +474505,6 @@
 0.0.0.0 skogluxaris-software.com
 0.0.0.0 skogluxaris.sbs
 0.0.0.0 skok-bitrow.com
-0.0.0.0 skolazasisanjepasa.com
 0.0.0.0 skonhed.net
 0.0.0.0 skorgg.gxaeasz.es
 0.0.0.0 skort.dedspac.ru
@@ -475059,7 +475044,6 @@
 0.0.0.0 smartstats.com
 0.0.0.0 smartstor.xyz
 0.0.0.0 smartstream.tv
-0.0.0.0 smartsummitlo.pro
 0.0.0.0 smartsystemfromfacebook.com
 0.0.0.0 smarttag.rubiconproject.com
 0.0.0.0 smarttechgroup.net
@@ -477518,7 +477502,6 @@
 0.0.0.0 spring.frestaici.ru.com
 0.0.0.0 springbot.com
 0.0.0.0 springbrook.shop
-0.0.0.0 springnetpm.pro
 0.0.0.0 springserve.com
 0.0.0.0 sprint-srs-appopen.asapp.com
 0.0.0.0 sprint.asapp.com
@@ -477796,7 +477779,6 @@
 0.0.0.0 sserverfit.com
 0.0.0.0 sservletailview.flazio.com
 0.0.0.0 ssgss888.com
-0.0.0.0 ssh.microc2.lol
 0.0.0.0 ssh.net-upt.com
 0.0.0.0 sshippingline.com
 0.0.0.0 sshort-market.co
@@ -480426,6 +480408,7 @@
 0.0.0.0 steps.dedspac.ru
 0.0.0.0 stepstone.112.2o7.net
 0.0.0.0 stepstreams.com
+0.0.0.0 stepupnetworks.com
 0.0.0.0 stereo-bit.fun
 0.0.0.0 stereo-bit.site
 0.0.0.0 stereo-bit.space
@@ -481648,6 +481631,7 @@
 0.0.0.0 sudahosting.com
 0.0.0.0 sudais73.github.io
 0.0.0.0 sudanlist.com
+0.0.0.0 sudariocontabilidade.com.br
 0.0.0.0 sudarshanabpatil.github.io
 0.0.0.0 sudd.ulitron.ru
 0.0.0.0 suddenplot.com
@@ -489135,7 +489119,6 @@
 0.0.0.0 tpgcreationz.com
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
-0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -492425,7 +492408,6 @@
 0.0.0.0 twist.virosat.ru
 0.0.0.0 twistshake.cyou
 0.0.0.0 twit.dedspac.ru
-0.0.0.0 twitch.tj
 0.0.0.0 twitchguru.us.intellitxt.com
 0.0.0.0 twitchindoor.best
 0.0.0.0 twiterservices.org
@@ -496304,7 +496286,6 @@
 0.0.0.0 uteca.virosat.ru
 0.0.0.0 utees.dedspac.ru
 0.0.0.0 utemomac.ru
-0.0.0.0 utensil.cleverpondky.com
 0.0.0.0 utensils.pro
 0.0.0.0 utenti.lycos.it
 0.0.0.0 utero.virosat.ru
@@ -500011,6 +499992,7 @@
 0.0.0.0 waerdisystem.click
 0.0.0.0 waes.dedspac.ru
 0.0.0.0 waes.ulitron.ru
+0.0.0.0 waf.proxytunnel.co
 0.0.0.0 waff.ulitron.ru
 0.0.0.0 wafmedia3.com
 0.0.0.0 waft.dedspac.ru
@@ -503147,7 +503129,6 @@
 0.0.0.0 windsorcredpeakbot.live
 0.0.0.0 windstreamupgradeservice.pages.dev
 0.0.0.0 windstreamupgradeservicess.pages.dev
-0.0.0.0 windycreekbc.pro
 0.0.0.0 wine.ulitron.ru
 0.0.0.0 winecom.112.2o7.net
 0.0.0.0 wineemu.autos
@@ -541497,7 +541478,6 @@
 0.0.0.0 zanulor.ru
 0.0.0.0 zanusson.website
 0.0.0.0 zany.ulitron.ru
-0.0.0.0 zanyyewuh.pro
 0.0.0.0 zanzar.space
 0.0.0.0 zaoeryuijas.hopto.org
 0.0.0.0 zaopatrzeni.com
