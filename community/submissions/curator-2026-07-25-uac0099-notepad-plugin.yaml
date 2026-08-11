@@ -1,0 +1,100 @@
+# =============================================================
+#  Curator submission — UAC-0099 fake Notepad++ plugin / MATCHBOIL.V2
+#  Author: aptwatch-curator  |  Date: 2026-07-25
+# =============================================================
+#  AUDIT-TRAIL / CAMPAIGN-SOURCE RECORD.
+#
+#  Trigger: CERT-UA advisory #6318634 (reported 2026-07-23/24),
+#  "Fake Notepad++ plugin delivers MATCHBOIL.V2 in UAC-0099
+#  attacks", surfaced via the RSS/search leg (The Hacker News feed
+#  hit 2026-07-24, matched_terms kw:cert-ua) and corroborated by
+#  BleepingComputer (2026-07-23) and Security Affairs (2026-07-24).
+#
+#  Attribution / campaign mapping (curator): CERT-UA tracks this
+#  cluster as UAC-0099, a Russia-aligned actor active since mid-2022
+#  (previously LONEPAGE via WinRAR CVE-2023-38831; MATCHBOIL /
+#  MATCHWOK / DRAGSTARE via HTA phishing). apt_groups[0] is set to
+#  the EXACT existing DB campaign_name "UAC-0099 MATCHBOIL Family
+#  (Gamaredon-coop)" (campaigns id 103, aliases UAC-0099, MATCHBOIL,
+#  MATCHWOK, DRAGSTARE) so resolve_campaign() matches — no duplicate
+#  campaign creation. NOTE: BleepingComputer describes UAC-0099 as
+#  an initial-access provider for APT44 / Sandworm; the DB campaign
+#  currently labels the coop as Gamaredon. That coop-attribution
+#  nuance is a digest note, not changed here (kept to the existing
+#  campaign_name to avoid a duplicate).
+#
+#  SCOPE / EXCLUSION DECISIONS:
+#    * Stage-1 ZIP hosted on "a file-sharing service such as
+#      EasySend[.]co" — a LEGITIMATE global file-transfer SaaS
+#      abused as a lure host. Shared-platform apex: deliberately
+#      EXCLUDED (blocklisting easysend.co would burn the whole
+#      service). Noted in prose; not ingested.
+#    * The phishing link-shortener host was not named by CERT-UA —
+#      nothing fabricated.
+#    * Host artifacts NppExport.dll (LUNCHPOKE), RemoteLibUpdater.exe
+#      (BURNYBEAR), InitTest.dll (MATCHBOIL.V2), updater.rar,
+#      Evernote.zip, the scheduled-task name "\W1n3r-U09oTy-Ap5\
+#      Updates" and the "%PUBLIC%\Libraries\fFthY3-...\" drop dir
+#      are DETECTION SIGNATURES / file names, not flat network IOCs,
+#      and the schema has no filename/hash table — recorded in the
+#      digest only.
+#    * CERT-UA did not enumerate the C2 address or final payloads
+#      ("BURNYBEAR ... updates its ... C2 address") — none recorded
+#      rather than fabricated.
+#  Ingested IOC = the one CVE the advisory ties to the exact bundled
+#  version:
+#    * CVE-2025-56383 — Notepad++ v8.8.3 DLL-hijack (the version
+#      shipped inside Evernote.zip). Disputed by the Notepad++ team
+#      (they consider plugin loading standard behaviour), but cited
+#      by CERT-UA as the mechanism-enabling flaw. NEW to apt-intel
+#      (cves table = 0 matches) — genuine delta plus fresh UAC-0099 /
+#      MATCHBOIL.V2 campaign linkage.
+#  Ownership triage: manual (report attribution language).
+#  Verdict CSV: reports/triage/certua-uac0099-2026-07-25.csv.
+
+author: aptwatch-curator
+
+source: https://cert.gov.ua/article/6318634
+source_name: CERT-UA #6318634 — Fake Notepad++ plugin delivers MATCHBOIL.V2 (UAC-0099), reported 2026-07-23
+
+apt_groups:
+  - UAC-0099 MATCHBOIL Family (Gamaredon-coop)
+  - UAC-0099
+  - MATCHBOIL
+  - BURNYBEAR
+  - LUNCHPOKE
+
+description: >
+  One CVE attributed to the Russia-aligned cluster UAC-0099 by CERT-UA advisory
+  #6318634 (reported 2026-07-23/24). UAC-0099 shifted delivery to a trojanized
+  Notepad++ plugin: a phishing email with an image attachment opens a
+  link-shortener URL that pulls a ZIP from a file-sharing service (e.g.
+  EasySend[.]co) containing a VBScript disguised as a PDF (double extension with
+  padded spaces, e.g. "Zavodskyi rayon.pdf .vbs"). The VBS shows a decoy PDF and
+  silently fetches "Evernote.zip", which bundles a full legitimate Notepad++
+  v8.8.3, a malicious NppExport.dll (LUNCHPOKE), a password-protected updater.rar
+  and a legitimate winrar.exe. LUNCHPOKE unpacks the RAR to a randomized
+  %PUBLIC%\Libraries directory and schedules RemoteLibUpdater.exe (BURNYBEAR) to
+  run every three minutes; BURNYBEAR loads InitTest.dll (MATCHBOIL.V2, a C#
+  loader for secondary payloads) and, if launched without arguments, runs a
+  RAM/CPU exhaustion routine as an anti-analysis/sandbox check. The only
+  ingestible flat IOC is CVE-2025-56383 (Notepad++ v8.8.3 DLL-hijack, the exact
+  bundled version), cited by CERT-UA though disputed by the Notepad++ team; it is
+  NEW to the DB. SCOPE: easysend.co is a legitimate shared file-transfer platform
+  abused as a lure host and is deliberately NOT blocklisted; the link shortener
+  and C2 address were not enumerated by CERT-UA (none fabricated); malware/file
+  artifacts (NppExport.dll/LUNCHPOKE, RemoteLibUpdater.exe/BURNYBEAR,
+  InitTest.dll/MATCHBOIL.V2, scheduled-task and drop-dir names) are detection
+  signatures recorded in the digest only (no filename/hash table in the flat-IOC
+  schema). Discovery vector / sister coverage: The Hacker News
+  (https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html,
+  2026-07-24), BleepingComputer
+  (https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/,
+  2026-07-23), Security Affairs
+  (https://securityaffairs.com/195923/cyber-warfare-2/uac-0099-is-now-hiding-malware-inside-a-fake-notepad-plugin-to-target-ukrainian-organizations.html,
+  2026-07-24). Note: BleepingComputer links UAC-0099 to APT44/Sandworm as an
+  initial-access provider; the existing DB campaign labels the coop as Gamaredon
+  — nuance flagged in the digest, not resolved here.
+
+cves:
+  - CVE-2025-56383

@@ -48,6 +48,10 @@ community/import_log.txt
 logs/
 *.log
 
+# rss_discovery.py run artifacts (jetables, régénérés à chaque run — ne pas committer)
+discovery_*.json
+scripts/rss_out.json
+
 # =========================
 # Cache
 # =========================

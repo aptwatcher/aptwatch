@@ -1,0 +1,118 @@
+# =============================================================
+#  Curator submission — APT28-linked hospitality Wi-Fi DNS poisoning (M365 lures)
+#  Author: aptwatch-curator  |  Date: 2026-07-31
+# =============================================================
+#  AUDIT-TRAIL / CAMPAIGN-SOURCE RECORD.
+#
+#  Trigger: ReliaQuest Threat Research "DNS Poisoning Tactics
+#  Expand to Hospitality Wi-Fi" (2026-07-23), surfaced during the
+#  RSS/search leg via sister coverage — BleepingComputer
+#  "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts"
+#  (2026-07-24) and Security Affairs (2026-07-26). Campaign ongoing
+#  since >= June 2026; compromised captive-portal Wi-Fi gateways in
+#  multiple US cities + India + Saudi Arabia, DNS-poisoning every
+#  guest toward Microsoft-365-impersonation lures.
+#
+#  ATTRIBUTION (READ CAREFULLY — low-to-medium confidence):
+#  ReliaQuest assesses this activity as sharing TRADECRAFT with the
+#  APT28 (Fancy Bear / Forest Blizzard, GRU) "FrostArmada" SOHO-router
+#  DNS-hijack campaign, but EXPLICITLY DECLINES direct attribution:
+#  "This campaign isn't currently assessed to be FrostArmada itself"
+#  and "the domain registrations and IP addresses used don't align
+#  with infrastructure previously seen in APT28 campaigns." The link
+#  rests on TTP overlap (gateway-level DNS poisoning of Microsoft auth
+#  domains + AiTM M365 compromise), NOT shared infra / code reuse /
+#  OPSEC failure. ReliaQuest even notes the non-selective redirection
+#  suggests a "less sophisticated or less careful actor than APT28."
+#
+#  apt_groups[0] is set to the EXACT existing DB campaign_name
+#  "Storm-2754 / FrostArmada (APT28 SOHO DNS hijack)" (campaigns id
+#  99) so resolve_campaign() matches the closest tracked APT28-DNS-
+#  hijack cluster and does NOT create a duplicate campaign. This is a
+#  DELIBERATE lineage-bucket choice, not a claim that it IS FrostArmada.
+#  >>> DOMINIC DECISION ON IMPORT: keep these IOCs under #99, OR split
+#  into a distinct child campaign (e.g. "APT28-linked Hospitality
+#  Captive-Portal DNS Poisoning 2026") given ReliaQuest's new-infra /
+#  not-FrostArmada caveat. Flagged in the digest.
+#
+#  DELTA: all 8 IOCs are NEW to apt-intel — local RO DB cache
+#  (2026-07-14): 0 matches; live Intel API batch_lookup: 0 matches.
+#  Genuine delta + fresh APT28-lineage/hospitality-wave linkage.
+#
+#  SCOPE / TRIAGE DECISIONS:
+#    * 4 attacker-REGISTERED M365-impersonation apexes -> domains:
+#      (domain_type=malicious). High confidence single-operator per
+#      ReliaQuest (shared registrant email + same hosting IPs + same
+#      browsing-session co-occurrence).
+#    * 3 attacker IPs -> ipv4: (DNS-poisoning forged-response host
+#      38.146.28.75, also the WPAD PAC host; + 2 domain-hosting IPs).
+#      Report claims NO CIDR aggregation -> cidrs: intentionally empty
+#      (not fabricated).
+#    * Registrant email chikolimdrid@gmail.com -> emails: (attacker-
+#      specific registrant IOC; the gmail.com apex is NOT added as a
+#      domain IOC — shared-platform, would burn the whole provider).
+#    * login.microsoftonline.com etc. are the IMPERSONATED LEGITIMATE
+#      targets, NOT IOCs — excluded.
+#    * The compromised hotel/venue Wi-Fi gateways were NOT publicly
+#      enumerated by ReliaQuest (host-level visibility constraints),
+#      so nothing goes under compromised_domains: (not fabricated).
+#    * WPAD/PAC abuse + Microsoft device-code-flow abuse are TTPs;
+#      no static network IOC beyond the IPs/domains above.
+#  Ownership triage: manual (report attribution language) — verdict
+#  CSV: reports/triage/reliaquest-hospitality-dns-2026-07-31.csv.
+
+author: aptwatch-curator
+
+source: https://reliaquest.com/blog/threat-spotlight-dns-poisoning-tactics-expand-to-hospitality/
+source_name: ReliaQuest Threat Research — DNS Poisoning Tactics Expand to Hospitality Wi-Fi (2026-07-23)
+
+apt_groups:
+  - Storm-2754 / FrostArmada (APT28 SOHO DNS hijack)
+  - APT28
+  - Forest Blizzard
+  - Fancy Bear
+  - FrostArmada
+  - Storm-2754
+
+description: >
+  Four attacker-registered Microsoft-365-impersonation domains, three attacker
+  IPs and one shared registrant email tied to a hospitality-sector Wi-Fi DNS
+  poisoning campaign documented by ReliaQuest Threat Research (2026-07-23).
+  Threat actors compromised captive-portal Wi-Fi gateways at hotels and
+  conference centers (US cities + India + Saudi Arabia; ongoing since >= June
+  2026) and used gateway-level DNS response forgery to silently redirect every
+  connecting guest to attacker-controlled Microsoft-365 credential-harvesting /
+  AiTM pages — no phishing email or endpoint compromise required. Secondary
+  activity: WPAD/PAC abuse (~1/3 of cases) and abuse of Microsoft's device-code
+  authentication flow (directly observed on ms365-live.com; operator cloaking
+  panel observed on ms365-device.com 2026-07-23) to obtain MFA-satisfied OAuth
+  tokens. ATTRIBUTION IS LOW-TO-MEDIUM CONFIDENCE: ReliaQuest assesses TTP
+  overlap with the APT28 (Fancy Bear / Forest Blizzard, GRU) "FrostArmada"
+  SOHO-router DNS-hijack campaign but explicitly does NOT directly attribute
+  this to APT28 — attacker infrastructure and domain registrations do NOT match
+  prior APT28 infra, and it is "not currently assessed to be FrostArmada
+  itself." apt_groups[0] maps to the closest existing tracked cluster (DB
+  campaign #99 "Storm-2754 / FrostArmada (APT28 SOHO DNS hijack)") purely to
+  keep the IOCs discoverable under the right operator lineage; on import decide
+  whether to split into a distinct hospitality-captive-portal child campaign.
+  Discovery vector / sister coverage: BleepingComputer "Hackers hijack hotel
+  Wi-Fi DNS to steal Microsoft 365 accounts"
+  (https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/,
+  2026-07-24); Security Affairs
+  (https://securityaffairs.com/196017/security/hackers-hijack-hotel-wi-fi-to-steal-microsoft-365-credentials.html,
+  2026-07-26). All 8 IOCs NEW to apt-intel (local cache + live API both 0
+  matches).
+
+domains:
+  - m365-owa.com
+  - owa-ms365.com
+  - ms365-device.com
+  - ms365-live.com
+
+ipv4:
+  - 38.146.28.75
+  - 31.57.243.154
+  - 104.194.159.150
+
+emails:
+  - chikolimdrid@gmail.com
