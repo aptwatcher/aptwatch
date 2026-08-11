@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-11 06:35:33
-# Entries: 542830
+# Generated: 2026-08-11 12:33:50
+# Entries: 542836
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -16834,6 +16834,7 @@
 0.0.0.0 2gnl.pages.dev
 0.0.0.0 2go-eg.com
 0.0.0.0 2gobud4amirjhydaats9eb7z86.liusanjie.cc
+0.0.0.0 2goelectricity.co.za
 0.0.0.0 2goldies.com
 0.0.0.0 2gurus.co.za
 0.0.0.0 2guys1stump.org
@@ -56236,7 +56237,6 @@
 0.0.0.0 admeridianads.com
 0.0.0.0 admerize.be
 0.0.0.0 admesportes.com.br
-0.0.0.0 admetricslab.org
 0.0.0.0 admex.com
 0.0.0.0 admez.com
 0.0.0.0 admgeral.weebly.com
@@ -73868,6 +73868,7 @@
 0.0.0.0 alphakeem-adroit.github.io
 0.0.0.0 alphakitrade.de
 0.0.0.0 alphakls.com.np
+0.0.0.0 alphalkenya.com
 0.0.0.0 alphalux.oewabox.at
 0.0.0.0 alphalytefx.com
 0.0.0.0 alphamailbrd1.com
@@ -89035,6 +89036,7 @@
 0.0.0.0 api.megacool.co
 0.0.0.0 api.mgid.com
 0.0.0.0 api.microsoftgroup.com
+0.0.0.0 api.mineblack.lol
 0.0.0.0 api.mixpanel.com
 0.0.0.0 api.mobadvent.com
 0.0.0.0 api.mobcells.com
@@ -217529,6 +217531,7 @@
 0.0.0.0 ducsposooise3.co.vu
 0.0.0.0 ducsposooise6.co.vu
 0.0.0.0 ducsposooise8.co.vu
+0.0.0.0 duct-master.com
 0.0.0.0 duct.amaniwa.ru
 0.0.0.0 duct.dedspac.ru
 0.0.0.0 duct.ulitron.ru
@@ -250772,7 +250775,6 @@
 0.0.0.0 fluidcontitech.com
 0.0.0.0 fluiddeliverymanagement.com
 0.0.0.0 fluidesclimat.com
-0.0.0.0 fluidfilm.bg
 0.0.0.0 fluidou-71.ml
 0.0.0.0 fluiptvserver.com
 0.0.0.0 fluir-mercadopl.click
@@ -290938,6 +290940,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -471598,6 +471601,7 @@
 0.0.0.0 senega.space
 0.0.0.0 senegala.xyz
 0.0.0.0 seniorsecurityind.com
+0.0.0.0 seniorsushi.com
 0.0.0.0 seniului.v6.navy
 0.0.0.0 senkanlar.com
 0.0.0.0 senoarkdigital.com
@@ -471901,7 +471905,6 @@
 0.0.0.0 server.lectec.com.au
 0.0.0.0 server.net-upt.com
 0.0.0.0 server.seadform.net
-0.0.0.0 server.servermsn.life
 0.0.0.0 server.siteamplifier.net
 0.0.0.0 server.sspl.com.au
 0.0.0.0 server.typedream.app
@@ -473647,6 +473650,7 @@
 0.0.0.0 sign.in.fib.xqj.mybluehost.me
 0.0.0.0 sign.in.support.wxo.tma.mybluehost.me
 0.0.0.0 sign.tikmaillnow.com
+0.0.0.0 signageinsignia.co.za
 0.0.0.0 signal-avapro-nx.live
 0.0.0.0 signal-beacon.s-onetag.com
 0.0.0.0 signal-layered-circuit.com
@@ -480439,7 +480443,6 @@
 0.0.0.0 steps.dedspac.ru
 0.0.0.0 stepstone.112.2o7.net
 0.0.0.0 stepstreams.com
-0.0.0.0 stepupnetworks.com
 0.0.0.0 stereo-bit.fun
 0.0.0.0 stereo-bit.site
 0.0.0.0 stereo-bit.space
@@ -483833,7 +483836,6 @@
 0.0.0.0 tab.dedspac.ru
 0.0.0.0 tab.dellrescue.com
 0.0.0.0 tab.myreserp.com
-0.0.0.0 tabak.hr
 0.0.0.0 tabby.dedspac.ru
 0.0.0.0 tabby.virosat.ru
 0.0.0.0 tabbylinejewelry.com
@@ -497630,6 +497632,7 @@
 0.0.0.0 verdigris-heels.shop
 0.0.0.0 verdisverd-ai.live
 0.0.0.0 verdisverd.live
+0.0.0.0 verdiva.life
 0.0.0.0 verdosulph.cyou
 0.0.0.0 verdtrdmakesense.vercel.app
 0.0.0.0 verefication.com
@@ -499205,6 +499208,7 @@
 0.0.0.0 voltacapitenza.com
 0.0.0.0 voltacapitenza.live
 0.0.0.0 voltacapitenza.shop
+0.0.0.0 voltagec2.tech
 0.0.0.0 voltarion-ai.live
 0.0.0.0 voltarion-hr.live
 0.0.0.0 voltarionai-de.live
@@ -503867,6 +503871,7 @@
 0.0.0.0 wp-serwis.netlify.app
 0.0.0.0 wp-stat.s3.amazonasw.com
 0.0.0.0 wp-stats.com
+0.0.0.0 wp.ameyiando.com
 0.0.0.0 wp.autodiscover.3lo.com.au
 0.0.0.0 wp.pilot45.com
 0.0.0.0 wp.tectrics.com
@@ -516916,6 +516921,7 @@
 0.0.0.0 www.gerteuzonim-sg.live
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.gestuny.space
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
