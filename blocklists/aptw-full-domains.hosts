@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-11 12:33:50
+# Generated: 2026-08-11 18:33:45
 # Entries: 542836
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -73868,7 +73868,6 @@
 0.0.0.0 alphakeem-adroit.github.io
 0.0.0.0 alphakitrade.de
 0.0.0.0 alphakls.com.np
-0.0.0.0 alphalkenya.com
 0.0.0.0 alphalux.oewabox.at
 0.0.0.0 alphalytefx.com
 0.0.0.0 alphamailbrd1.com
@@ -89036,7 +89035,6 @@
 0.0.0.0 api.megacool.co
 0.0.0.0 api.mgid.com
 0.0.0.0 api.microsoftgroup.com
-0.0.0.0 api.mineblack.lol
 0.0.0.0 api.mixpanel.com
 0.0.0.0 api.mobadvent.com
 0.0.0.0 api.mobcells.com
@@ -217877,7 +217875,6 @@
 0.0.0.0 durableonline.com.sg
 0.0.0.0 durablyproscjjribe.info
 0.0.0.0 duracorefix.pages.dev
-0.0.0.0 durakutihs.com
 0.0.0.0 dural-forecast.000webhostapp.com
 0.0.0.0 dural.ulitron.ru
 0.0.0.0 duramo.pl
@@ -381086,6 +381083,7 @@
 0.0.0.0 mujt.ptic.ir
 0.0.0.0 muk.msk.ru
 0.0.0.0 muk670.keap-link002.com
+0.0.0.0 mukabar.co.mz
 0.0.0.0 mukahrendholm.com
 0.0.0.0 mukassa.net
 0.0.0.0 mukbangg6.com
@@ -403311,6 +403309,7 @@
 0.0.0.0 oilymedication.cn
 0.0.0.0 oilzero.nl
 0.0.0.0 oilzero.org
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -414934,6 +414933,7 @@
 0.0.0.0 parque.sanignaciofutrono.cl
 0.0.0.0 parquedelnorte.com
 0.0.0.0 parqueharvard.likkn.com
+0.0.0.0 parquelosencinos.cl
 0.0.0.0 parquemayatours.com
 0.0.0.0 parqueperfumes.in
 0.0.0.0 parquesarvi.com
@@ -470095,6 +470095,7 @@
 0.0.0.0 scrooge.wnbc.com
 0.0.0.0 scrouhanas.cyou
 0.0.0.0 scrow.dedspac.ru
+0.0.0.0 scrroeder.com
 0.0.0.0 scrubswim.com
 0.0.0.0 scruf.dedspac.ru
 0.0.0.0 scrum.dedspac.ru
@@ -503871,7 +503872,6 @@
 0.0.0.0 wp-serwis.netlify.app
 0.0.0.0 wp-stat.s3.amazonasw.com
 0.0.0.0 wp-stats.com
-0.0.0.0 wp.ameyiando.com
 0.0.0.0 wp.autodiscover.3lo.com.au
 0.0.0.0 wp.pilot45.com
 0.0.0.0 wp.tectrics.com
