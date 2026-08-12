@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-12 12:34:34
-# Entries: 540913
+# Generated: 2026-08-12 18:34:05
+# Entries: 540910
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -229293,7 +229293,6 @@
 0.0.0.0 essie.ulitron.ru
 0.0.0.0 essingtonlee250.000webhostapp.com
 0.0.0.0 essiwwworechh.blogspot.com
-0.0.0.0 essizs.com
 0.0.0.0 essldra.com
 0.0.0.0 essmanyvxrxwdfgc-dot-millinium.ey.r.appspot.com
 0.0.0.0 essor-modevopro.com
@@ -233043,7 +233042,6 @@
 0.0.0.0 explorepro.org
 0.0.0.0 explorer.btgofficial.org
 0.0.0.0 explorer.production.qldvvmc.com.au
-0.0.0.0 explorer.vg
 0.0.0.0 explorersholidays.com
 0.0.0.0 explorertechnembe.cu.ma
 0.0.0.0 explorespaintrade.com
@@ -250328,6 +250326,7 @@
 0.0.0.0 floodsd.com
 0.0.0.0 flooringandconcrete.com
 0.0.0.0 flooringexpert.com
+0.0.0.0 flooriscoveringworld.com
 0.0.0.0 floorsdirectltd.co.uk
 0.0.0.0 floortjemutsaers.nl
 0.0.0.0 floozboncoin.000webhostapp.com
@@ -262100,7 +262099,6 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -509950,7 +509948,6 @@
 0.0.0.0 www.chemin-fundria-solution.com
 0.0.0.0 www.cheminfundria-solution.com
 0.0.0.0 www.chemounret.autos
-0.0.0.0 www.chenwangqiao.com
 0.0.0.0 www.cheongmyeongfintrex.net
 0.0.0.0 www.cheongmyeongfintrexai.net
 0.0.0.0 www.cherry82.com
