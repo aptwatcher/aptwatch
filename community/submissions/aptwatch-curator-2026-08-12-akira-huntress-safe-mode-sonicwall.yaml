@@ -1,0 +1,51 @@
+author: APTWatch Curator
+
+source: https://www.huntress.com/blog/akira-hits-safe-mode-ransomware-rebooting-around-edr
+source_name: Huntress - Akira affiliate Safe Mode boot anti-EDR play after SonicWall SSL VPN credential spray (Aug 2026)
+
+apt_groups:
+  - Akira
+  - Storm-0844
+  - Storm-1567
+
+description: >
+  Incident response by Huntress (James Northey, with Dray Agha, published
+  2026-08-12; covered same day by The Register). An Akira ransomware
+  affiliate compromised a victim starting 2026-08-04 ~03:45 UTC via a
+  credential spray against a SonicWall SSL VPN; a valid account with no
+  MFA succeeded at 03:52:42 UTC from external IP 72.23.77.35. Post-access
+  TTPs: RDP to the domain controller from attacker workgroup jump-host
+  WIN-DNCVG09TAT8, elevated cmd.exe, full-property Active Directory
+  enumeration via Get-ADUser/Get-ADComputer with
+  $formatenumerationlimit=-1, output staged to C:\ProgramData\AdUsers.txt
+  and AdComp.txt (T1087/T1018); WinRAR downloaded mid-intrusion to
+  archive mapped file shares with flags "a -ep1 -scul -r0 -iext -imon1"
+  (T1560.001), exfiltration via s5cmd to an attacker S3 bucket
+  (T1567.002); AnyDesk installed as a service (peer Client-ID 1778787240)
+  as RAT/C2 and payload delivery channel (T1219), pre-registered in
+  HKLM\SYSTEM\CurrentControlSet\Control\SafeBoot\Network to survive Safe
+  Mode. Novel for Akira: msconfig.exe-forced reboot into Safe Mode with
+  Networking (Kernel-Boot EID 27 SAFEBOOT:NETWORK, Kernel-General EID 12
+  BootMode=2) to disable EDR and Defender real-time protection — MITRE
+  ATT&CK T1688 Impair Defenses: Safe Mode Boot, previously seen with
+  Snatch and AvosLocker. The stripped-down Safe Mode virtual memory
+  starved akira.exe: out-of-virtual-memory errors ~13 s after the child
+  process burst, encryption failed; data had already been exfiltrated
+  (double extortion still viable). Defender flagged
+  Ransom:Win32/Akira.B!ibt but could only quarantine after the attacker
+  rebooted back to normal mode. File hashes published by Huntress (no
+  hash table in this schema): s5cmd.exe SHA256
+  e2356c742c74cce5c6b6100162d0071a3f71e2fed2ed895c2011061a95b3299a
+  (Defender HackTool:Win32/SSCmd!dha), akira.exe SHA256
+  414b9985f46714f44dd1bd63860d2a48dcfababcfe5c712a4b4f575378127a56.
+  Detection guidance: alert on VPN credential-spray bursts resolving into
+  a success from same IP/ASN, boot-configuration changes and Safe Mode
+  boots, additions to the SafeBoot minimal-service registry list.
+  Companion coverage: The Register 2026-08-12
+  (theregister.com/research/2026/08/12/..., article 5286515). Origin of
+  flag: STTR skill analyse-veille-securite-rss run 2026-08-12 09:44
+  (brief veille-securite-rss-20260812-0944.md); IOCs enriched from the
+  Huntress primary source on operator request.
+
+ipv4:
+  - 72.23.77.35
