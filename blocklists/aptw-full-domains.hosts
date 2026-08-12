@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-12 00:33:43
-# Entries: 540903
+# Generated: 2026-08-12 06:05:55
+# Entries: 540908
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -262098,6 +262098,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -299943,6 +299944,7 @@
 0.0.0.0 indus.iad-01.braze.com
 0.0.0.0 indus.virosat.ru
 0.0.0.0 induscapitalplatform.live
+0.0.0.0 indusenterprises.co
 0.0.0.0 indusfood.com.pk
 0.0.0.0 indusgreenassociates.com
 0.0.0.0 indusmarket.ru
@@ -316836,6 +316838,7 @@
 0.0.0.0 joker-auto24.pl
 0.0.0.0 joker-autohandel.net.pl
 0.0.0.0 joker-ua.com.ua
+0.0.0.0 joker.aec944b68370194a50.link
 0.0.0.0 joker.ms989freedom.workers.dev
 0.0.0.0 joker.sikolar.ru
 0.0.0.0 jokercity303.com
@@ -346354,7 +346357,6 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
-0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -356731,6 +356733,7 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
+0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarinlatino.com
@@ -478956,7 +478959,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -479368,6 +479370,7 @@
 0.0.0.0 stcbilisim.com
 0.0.0.0 std.o.webmd.com
 0.0.0.0 std112.github.io
+0.0.0.0 stdown.dinju.com
 0.0.0.0 steacncomnuniry.ru
 0.0.0.0 stead.dedspac.ru
 0.0.0.0 steadfast-seemly-cobalt.glitch.me
@@ -503348,6 +503351,7 @@
 0.0.0.0 www-cakev3pool.com
 0.0.0.0 www-checkpoints-pages-contacts.ubpages.com
 0.0.0.0 www-checkpoints-pages-platform.ubpages.com
+0.0.0.0 www-connect-secure-wellcfargo.sekolahkejarpaket.com
 0.0.0.0 www-convergapay.top
 0.0.0.0 www-convergapoy.top
 0.0.0.0 www-cow.com
@@ -536413,6 +536417,7 @@
 0.0.0.0 www.zhenhongwz.com
 0.0.0.0 www.zhenhuo168.com
 0.0.0.0 www.zhibang178.com
+0.0.0.0 www.zhikey.com
 0.0.0.0 www.zhokvarit-de.live
 0.0.0.0 www.zhokvarit-es.live
 0.0.0.0 www.zhokvarit-nl.live
