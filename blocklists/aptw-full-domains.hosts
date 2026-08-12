@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-12 06:36:09
-# Entries: 540909
+# Generated: 2026-08-12 12:34:34
+# Entries: 540913
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -229293,6 +229293,7 @@
 0.0.0.0 essie.ulitron.ru
 0.0.0.0 essingtonlee250.000webhostapp.com
 0.0.0.0 essiwwworechh.blogspot.com
+0.0.0.0 essizs.com
 0.0.0.0 essldra.com
 0.0.0.0 essmanyvxrxwdfgc-dot-millinium.ey.r.appspot.com
 0.0.0.0 essor-modevopro.com
@@ -233042,6 +233043,7 @@
 0.0.0.0 explorepro.org
 0.0.0.0 explorer.btgofficial.org
 0.0.0.0 explorer.production.qldvvmc.com.au
+0.0.0.0 explorer.vg
 0.0.0.0 explorersholidays.com
 0.0.0.0 explorertechnembe.cu.ma
 0.0.0.0 explorespaintrade.com
@@ -346357,6 +346359,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -509947,6 +509950,7 @@
 0.0.0.0 www.chemin-fundria-solution.com
 0.0.0.0 www.cheminfundria-solution.com
 0.0.0.0 www.chemounret.autos
+0.0.0.0 www.chenwangqiao.com
 0.0.0.0 www.cheongmyeongfintrex.net
 0.0.0.0 www.cheongmyeongfintrexai.net
 0.0.0.0 www.cherry82.com
