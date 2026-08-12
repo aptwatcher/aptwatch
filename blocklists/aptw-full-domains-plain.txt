@@ -478952,6 +478952,7 @@ static.ifa.camads.net
 static.ifa.empflixlive.com
 static.ifa.slutloadlive.com
 static.ifa.yobtcams.com
+static.ilclock.com
 static.innovid.com
 static.intentarget.com
 static.inviziads.com
