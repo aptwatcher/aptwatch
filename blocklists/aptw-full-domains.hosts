@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-12 18:34:05
-# Entries: 540910
+# Generated: 2026-08-13 00:33:42
+# Entries: 540917
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -12752,6 +12752,7 @@
 0.0.0.0 2.hpyub.social
 0.0.0.0 2.hustorla.ru
 0.0.0.0 2.ilimeng.cn
+0.0.0.0 2.indexsinas.me
 0.0.0.0 2.livejasmin.com
 0.0.0.0 2.ljy980206.workers.dev
 0.0.0.0 2.marketbanker.com
@@ -170832,6 +170833,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -229293,6 +229295,7 @@
 0.0.0.0 essie.ulitron.ru
 0.0.0.0 essingtonlee250.000webhostapp.com
 0.0.0.0 essiwwworechh.blogspot.com
+0.0.0.0 essizs.com
 0.0.0.0 essldra.com
 0.0.0.0 essmanyvxrxwdfgc-dot-millinium.ey.r.appspot.com
 0.0.0.0 essor-modevopro.com
@@ -262099,6 +262102,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -478960,7 +478964,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -490735,6 +490738,7 @@
 0.0.0.0 truehits.net
 0.0.0.0 truehits1.gits.net.th
 0.0.0.0 truehits2.gits.net.th
+0.0.0.0 trueinggrik.com
 0.0.0.0 trueizoraasallet.webflow.io
 0.0.0.0 trueledgewick.digital
 0.0.0.0 trueledgewick.pro
@@ -500179,6 +500183,7 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -509948,6 +509953,7 @@
 0.0.0.0 www.chemin-fundria-solution.com
 0.0.0.0 www.cheminfundria-solution.com
 0.0.0.0 www.chemounret.autos
+0.0.0.0 www.chenwangqiao.com
 0.0.0.0 www.cheongmyeongfintrex.net
 0.0.0.0 www.cheongmyeongfintrexai.net
 0.0.0.0 www.cherry82.com
@@ -530308,6 +530314,7 @@
 0.0.0.0 www.steamcomrnuunity.com
 0.0.0.0 www.steamgifts.5v.pl
 0.0.0.0 www.steamkarta.pl
+0.0.0.0 www.steamrub.com
 0.0.0.0 www.steamtraffic.com
 0.0.0.0 www.steamverifyhelp.com
 0.0.0.0 www.stedoquin.pro
