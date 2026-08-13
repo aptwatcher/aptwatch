@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-13 12:34:23
-# Entries: 540917
+# Generated: 2026-08-13 18:33:54
+# Entries: 540925
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -154112,7 +154112,6 @@
 0.0.0.0 botkesaksham.github.io
 0.0.0.0 botlandsailors.com
 0.0.0.0 botless.gq
-0.0.0.0 botnet.botnet.xd.67.flightleaks.xyz
 0.0.0.0 botnyayhpx.duckdns.org
 0.0.0.0 botoforamltododiapravc.com
 0.0.0.0 botonbancolombia.glitch.me
@@ -199786,6 +199785,7 @@
 0.0.0.0 das287jayta.duckdns.org
 0.0.0.0 dasano.ro
 0.0.0.0 dasasmiky.online
+0.0.0.0 dasberlinerhotel.com
 0.0.0.0 dascoin.com
 0.0.0.0 dascoin.prowly.com
 0.0.0.0 dascombyt.xyz
@@ -346362,6 +346362,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -346810,6 +346811,7 @@
 0.0.0.0 luxaviati0n.com
 0.0.0.0 luxbycc.com
 0.0.0.0 luxcamp.pubblicita-marketing.com
+0.0.0.0 luxcar-24.com
 0.0.0.0 luxcyspins13.com
 0.0.0.0 luxdeg.com
 0.0.0.0 luxdiscount.zone
@@ -361496,6 +361498,7 @@
 0.0.0.0 medicineproblems.uz
 0.0.0.0 medicines-collaborative-dock-developed.trycloudflare.com
 0.0.0.0 medicolegally.bortogat.ru
+0.0.0.0 medicosantiagomarrero.com
 0.0.0.0 medicoutpatient.com
 0.0.0.0 medicprognosis.com
 0.0.0.0 medicurepatuli.com
@@ -381022,6 +381025,7 @@
 0.0.0.0 municipiofreire.cl
 0.0.0.0 munifresia.cl
 0.0.0.0 munigaute.cam
+0.0.0.0 munihuacho.gob.pe
 0.0.0.0 munilahiguera.cl
 0.0.0.0 munimacu.github.io
 0.0.0.0 munimonoce.com
@@ -467983,6 +467987,7 @@
 0.0.0.0 saraeprosperahcsorgg.ga
 0.0.0.0 saraf.ulitron.ru
 0.0.0.0 sarafcarpets.in
+0.0.0.0 sarafinance.in
 0.0.0.0 sarafobl.beget.tech
 0.0.0.0 sarafreshtelecom.github.io
 0.0.0.0 sarah-fay.com
@@ -478964,6 +478969,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -480423,6 +480429,7 @@
 0.0.0.0 strat--le-dger--org.webflow.io
 0.0.0.0 strata-core-8f8.pages.dev
 0.0.0.0 stratagemically.draagotan.ru
+0.0.0.0 stratagemzw.com
 0.0.0.0 strategicinsightjournal.com
 0.0.0.0 strategicinvestmentanalysis.pro
 0.0.0.0 strategicreflect.com
@@ -488150,6 +488157,7 @@
 0.0.0.0 totalcomredes.com
 0.0.0.0 totaldebrid.fr
 0.0.0.0 totalfibra.shop
+0.0.0.0 totalfitting.com.au
 0.0.0.0 totalhomesafe.com
 0.0.0.0 totalinteresor.click
 0.0.0.0 totalinteresor.live
@@ -491878,7 +491886,6 @@
 0.0.0.0 u7w0y5lh.duckdns.org
 0.0.0.0 u7z5fgj3k9c0vkah2v8zj1zj7v6gkm2f8zjc9j2vk6o9p2zks3a6sjc2mj6h.me
 0.0.0.0 u810.15.spylog.com
-0.0.0.0 u87yy3f87b23f8293bfg83bgu94.bombamodzik.xyz
 0.0.0.0 u8wgkjbovxybc.moolin.ru
 0.0.0.0 u9186.com
 0.0.0.0 u920.31.spylog.com
@@ -530487,6 +530494,7 @@
 0.0.0.0 www.strampromo.cyou
 0.0.0.0 www.strangefullthiggngs.com
 0.0.0.0 www.strapvisce.cyou
+0.0.0.0 www.stratagemzw.com
 0.0.0.0 www.strategicinsightjournal.com
 0.0.0.0 www.strategicinvestmentanalysis.pro
 0.0.0.0 www.strategicsignalnews.com
