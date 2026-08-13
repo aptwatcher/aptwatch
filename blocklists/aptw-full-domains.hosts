@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-13 06:35:17
-# Entries: 540914
+# Generated: 2026-08-13 12:34:23
+# Entries: 540917
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -154112,6 +154112,7 @@
 0.0.0.0 botkesaksham.github.io
 0.0.0.0 botlandsailors.com
 0.0.0.0 botless.gq
+0.0.0.0 botnet.botnet.xd.67.flightleaks.xyz
 0.0.0.0 botnyayhpx.duckdns.org
 0.0.0.0 botoforamltododiapravc.com
 0.0.0.0 botonbancolombia.glitch.me
@@ -262101,6 +262102,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -264809,6 +264811,7 @@
 0.0.0.0 glballogistics.com
 0.0.0.0 glbbaserv.ml
 0.0.0.0 glbe.co
+0.0.0.0 glbeletronica.com.br
 0.0.0.0 glbgcl.logsss.com
 0.0.0.0 glbhmjzsovkywfvhjqknuwiurkedfevhqbnm-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 glbticket.bio
@@ -346359,7 +346362,6 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
-0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -356736,7 +356738,6 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
-0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarinlatino.com
@@ -360233,6 +360234,7 @@
 0.0.0.0 mbavuqno.whaastsapp.com
 0.0.0.0 mbbelectronics.es
 0.0.0.0 mbblawfirmkc.karlacalixtro.com
+0.0.0.0 mbcasesores.com
 0.0.0.0 mbcconnection.co.za
 0.0.0.0 mbcdream2021.ga
 0.0.0.0 mbcgroofpngvenpj-dot-millinium.ey.r.appspot.com
@@ -478962,7 +478964,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -484966,6 +484967,7 @@
 0.0.0.0 ten.amaniwa.ru
 0.0.0.0 ten.bortogat.ru
 0.0.0.0 ten.dedspac.ru
+0.0.0.0 ten.devurek.xyz
 0.0.0.0 ten.ulitron.ru
 0.0.0.0 tenai.virosat.ru
 0.0.0.0 tenancy-nexus.com
@@ -491876,6 +491878,7 @@
 0.0.0.0 u7w0y5lh.duckdns.org
 0.0.0.0 u7z5fgj3k9c0vkah2v8zj1zj7v6gkm2f8zjc9j2vk6o9p2zks3a6sjc2mj6h.me
 0.0.0.0 u810.15.spylog.com
+0.0.0.0 u87yy3f87b23f8293bfg83bgu94.bombamodzik.xyz
 0.0.0.0 u8wgkjbovxybc.moolin.ru
 0.0.0.0 u9186.com
 0.0.0.0 u920.31.spylog.com
