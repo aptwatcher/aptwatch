@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-13 18:33:54
-# Entries: 540925
+# Generated: 2026-08-14 00:33:31
+# Entries: 540921
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48677,6 +48677,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstherealworld.com
 0.0.0.0 accesstrials.store
@@ -56219,7 +56220,6 @@
 0.0.0.0 admeridianads.com
 0.0.0.0 admerize.be
 0.0.0.0 admesportes.com.br
-0.0.0.0 admetricslab.org
 0.0.0.0 admex.com
 0.0.0.0 admez.com
 0.0.0.0 admgeral.weebly.com
@@ -61860,6 +61860,7 @@
 0.0.0.0 aeozzqpcgj.duckdns.org
 0.0.0.0 aepamimxnvoowpko-dot-millinium.ey.r.appspot.com
 0.0.0.0 aepbexpphdllcqdf-dot-millinium.ey.r.appspot.com
+0.0.0.0 aeplled.cfd
 0.0.0.0 aeplsolar.com
 0.0.0.0 aepost.dhl.partner.hungamaplay.pk
 0.0.0.0 aepubuulgx.web.app
@@ -73759,7 +73760,6 @@
 0.0.0.0 alphakeem-adroit.github.io
 0.0.0.0 alphakitrade.de
 0.0.0.0 alphakls.com.np
-0.0.0.0 alphalkenya.com
 0.0.0.0 alphalux.oewabox.at
 0.0.0.0 alphalytefx.com
 0.0.0.0 alphamailbrd1.com
@@ -88902,7 +88902,6 @@
 0.0.0.0 api.megacool.co
 0.0.0.0 api.mgid.com
 0.0.0.0 api.microsoftgroup.com
-0.0.0.0 api.mineblack.lol
 0.0.0.0 api.mixpanel.com
 0.0.0.0 api.mobadvent.com
 0.0.0.0 api.mobcells.com
@@ -135119,7 +135118,6 @@
 0.0.0.0 bap.dedspac.ru
 0.0.0.0 bap.matsuro.ru
 0.0.0.0 bap.ulitron.ru
-0.0.0.0 bapak178.org
 0.0.0.0 bapakbotak.com
 0.0.0.0 bapakopla.live
 0.0.0.0 bapaubagibagi.baim-wong12.kozow.com
@@ -154112,6 +154110,7 @@
 0.0.0.0 botkesaksham.github.io
 0.0.0.0 botlandsailors.com
 0.0.0.0 botless.gq
+0.0.0.0 botnet.botnet.xd.67.flightleaks.xyz
 0.0.0.0 botnyayhpx.duckdns.org
 0.0.0.0 botoforamltododiapravc.com
 0.0.0.0 botonbancolombia.glitch.me
@@ -255244,6 +255243,7 @@
 0.0.0.0 frt.vvdo076.vip
 0.0.0.0 frtgcwljktnews.m.hantangcapital.com
 0.0.0.0 frth-pvmpd-ttelstra.glitch.me
+0.0.0.0 frtkvnpa.xyz
 0.0.0.0 frtn.socdm.com
 0.0.0.0 frtwy.cm2024.dynv6.net
 0.0.0.0 frtya.com
@@ -262102,7 +262102,6 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -346362,7 +346361,6 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
-0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -356087,6 +356085,7 @@
 0.0.0.0 malaysiadfh.pages.net.br
 0.0.0.0 malaysiahot69.com
 0.0.0.0 malaysianindian.com
+0.0.0.0 malaysianpastrybakery.org
 0.0.0.0 malaysianviral.usdns.eu.org
 0.0.0.0 malaysiapools.net
 0.0.0.0 malaysiatk.com
@@ -356740,6 +356739,7 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
+0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarinlatino.com
@@ -371922,6 +371922,7 @@
 0.0.0.0 midlandrubber.vn
 0.0.0.0 midlandvape.co.uk
 0.0.0.0 midlandvapes.co.uk
+0.0.0.0 midle-eastcompany.com
 0.0.0.0 midline.bortogat.ru
 0.0.0.0 midlutp.github.io
 0.0.0.0 midmvsafe3l2.com
@@ -375242,6 +375243,7 @@
 0.0.0.0 mnuninbet.com
 0.0.0.0 mnuolpo.top
 0.0.0.0 mnupgwfzemtdefsg-dot-millinium.ey.r.appspot.com
+0.0.0.0 mnurlogistics.az
 0.0.0.0 mnutan.fr
 0.0.0.0 mnvchffjhjk.tk
 0.0.0.0 mnx.8fe.mywebsitetransfer.com
@@ -380672,7 +380674,6 @@
 0.0.0.0 mujt.ptic.ir
 0.0.0.0 muk.msk.ru
 0.0.0.0 muk670.keap-link002.com
-0.0.0.0 mukabar.co.mz
 0.0.0.0 mukahrendholm.com
 0.0.0.0 mukassa.net
 0.0.0.0 mukbangg6.com
@@ -384218,7 +384219,6 @@
 0.0.0.0 myiphones.us.bigboss-mx.com
 0.0.0.0 myirstaxpayerreturn.com
 0.0.0.0 myispaccount-help.com
-0.0.0.0 myissuereport.live
 0.0.0.0 myitappnext.com
 0.0.0.0 myitem-attemptedfee.com
 0.0.0.0 myittechnext.com
@@ -408430,7 +408430,6 @@
 0.0.0.0 orientationpour-tous.fr
 0.0.0.0 orientedargument.com
 0.0.0.0 orientgrammarschools.edu.pk
-0.0.0.0 orienttaxtile.com
 0.0.0.0 orifl21ame01.000webhostapp.com
 0.0.0.0 oriflamegiftforyou1.000webhostapp.com
 0.0.0.0 origa-cloud-b38d.c71rcsyb.workers.dev
@@ -410552,7 +410551,6 @@
 0.0.0.0 ownerxxxxxxhelp-support-center2022.web.id
 0.0.0.0 ownittech.com
 0.0.0.0 ownmilligatew.buzz
-0.0.0.0 ownnewstoday.live
 0.0.0.0 ownourvote.com
 0.0.0.0 ownpagehelp-support-center.cf
 0.0.0.0 ownpathway.digital
@@ -471285,7 +471283,6 @@
 0.0.0.0 server.lectec.com.au
 0.0.0.0 server.net-upt.com
 0.0.0.0 server.seadform.net
-0.0.0.0 server.servermsn.life
 0.0.0.0 server.siteamplifier.net
 0.0.0.0 server.sspl.com.au
 0.0.0.0 server.typedream.app
@@ -480784,7 +480781,6 @@
 0.0.0.0 suant.dedspac.ru
 0.0.0.0 suanudefoli.com
 0.0.0.0 suastaxasecontratos.com
-0.0.0.0 suavasua.vn
 0.0.0.0 suave-peridot-gym.glitch.me
 0.0.0.0 suaveolens.online
 0.0.0.0 suavino.cfd
@@ -484087,6 +484083,7 @@
 0.0.0.0 tarihicengelkoyborekcisi.com
 0.0.0.0 tarihiselanikborekcisi.com
 0.0.0.0 tarihly.com
+0.0.0.0 tarkioweb.com
 0.0.0.0 tarlit.ru
 0.0.0.0 tarn.nhsaportal.com
 0.0.0.0 tarnfundvane.live
@@ -491886,6 +491883,7 @@
 0.0.0.0 u7w0y5lh.duckdns.org
 0.0.0.0 u7z5fgj3k9c0vkah2v8zj1zj7v6gkm2f8zjc9j2vk6o9p2zks3a6sjc2mj6h.me
 0.0.0.0 u810.15.spylog.com
+0.0.0.0 u87yy3f87b23f8293bfg83bgu94.bombamodzik.xyz
 0.0.0.0 u8wgkjbovxybc.moolin.ru
 0.0.0.0 u9186.com
 0.0.0.0 u920.31.spylog.com
@@ -502905,7 +502903,6 @@
 0.0.0.0 wp-serwis.netlify.app
 0.0.0.0 wp-stat.s3.amazonasw.com
 0.0.0.0 wp-stats.com
-0.0.0.0 wp.ameyiando.com
 0.0.0.0 wp.autodiscover.3lo.com.au
 0.0.0.0 wp.pilot45.com
 0.0.0.0 wp.tectrics.com
@@ -517290,7 +517287,6 @@
 0.0.0.0 www.hutchisongpt.live
 0.0.0.0 www.hutchisongpt.net
 0.0.0.0 www.hutchisongpt.shop
-0.0.0.0 www.huttprimax.partners
 0.0.0.0 www.huusk-original.com
 0.0.0.0 www.huusk-store.com
 0.0.0.0 www.huuskmesser.de
