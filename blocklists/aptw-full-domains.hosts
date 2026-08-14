@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-14 06:35:27
-# Entries: 542198
+# Generated: 2026-08-14 12:34:03
+# Entries: 542206
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -234244,6 +234244,7 @@
 0.0.0.0 ezpkledivqbmpgrkahpyqegqpp-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 ezploying.000webhostapp.com
 0.0.0.0 ezpruahv.tk
+0.0.0.0 ezpz.link
 0.0.0.0 ezra.dedspac.ru
 0.0.0.0 ezra.ulitron.ru
 0.0.0.0 ezra.vadilops.ru
@@ -262366,6 +262367,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -470304,6 +470306,7 @@
 0.0.0.0 searshomeservices.112.2o7.net
 0.0.0.0 searskmartcom.112.2o7.net
 0.0.0.0 seasonale.1.p2l.info
+0.0.0.0 seasquadshipping.com
 0.0.0.0 seatreasures.org
 0.0.0.0 seavideo-ak.espn.go.com
 0.0.0.0 seaviewlane.shop
@@ -491228,6 +491231,7 @@
 0.0.0.0 trsoriiostarrt.webflow.io
 0.0.0.0 trstart-trezur.webflow.io
 0.0.0.0 trstwcard.icu
+0.0.0.0 trtmyanmar.com
 0.0.0.0 trtrezohardwarwait.webflow.io
 0.0.0.0 trtsisskj.registid.com
 0.0.0.0 trturksars.click
@@ -500745,6 +500749,7 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -503470,6 +503475,7 @@
 0.0.0.0 wp-serwis.netlify.app
 0.0.0.0 wp-stat.s3.amazonasw.com
 0.0.0.0 wp-stats.com
+0.0.0.0 wp.ameyiando.com
 0.0.0.0 wp.autodiscover.3lo.com.au
 0.0.0.0 wp.pilot45.com
 0.0.0.0 wp.tectrics.com
@@ -514077,6 +514083,7 @@
 0.0.0.0 www.eznamsk.com
 0.0.0.0 www.eznokar.sbs
 0.0.0.0 www.ezoliniawrozby.com
+0.0.0.0 www.ezpz.link
 0.0.0.0 www.f.drops.fortunella-new.com
 0.0.0.0 www.f1izsv.cfd
 0.0.0.0 www.f1q7vh.lat
@@ -531392,6 +531399,7 @@
 0.0.0.0 www.steamcomrnuunity.com
 0.0.0.0 www.steamgifts.5v.pl
 0.0.0.0 www.steamkarta.pl
+0.0.0.0 www.steamrub.com
 0.0.0.0 www.steamtraffic.com
 0.0.0.0 www.steamverifyhelp.com
 0.0.0.0 www.stedoquin.pro
