@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-14 18:33:50
-# Entries: 542206
+# Generated: 2026-08-15 00:34:06
+# Entries: 542210
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32964,7 +32964,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -170945,6 +170944,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -214965,6 +214965,7 @@
 0.0.0.0 down.t0kanpoaket.biz
 0.0.0.0 down.t0kbnpobket.biz
 0.0.0.0 down.t0kdnpodket.biz
+0.0.0.0 down.unicron-cdn.click
 0.0.0.0 down.us2.mclick.mobi
 0.0.0.0 down.zhuolin.workers.dev
 0.0.0.0 down140.mclick.mobi
@@ -234245,7 +234246,6 @@
 0.0.0.0 ezpkledivqbmpgrkahpyqegqpp-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 ezploying.000webhostapp.com
 0.0.0.0 ezpruahv.tk
-0.0.0.0 ezpz.link
 0.0.0.0 ezra.dedspac.ru
 0.0.0.0 ezra.ulitron.ru
 0.0.0.0 ezra.vadilops.ru
@@ -396069,6 +396069,7 @@
 0.0.0.0 nodelive.sbs
 0.0.0.0 nodelman.org
 0.0.0.0 nodemainnet.pages.dev
+0.0.0.0 nodemetrics3379.com
 0.0.0.0 nodeny.targetspot.com
 0.0.0.0 nodep-games.com
 0.0.0.0 nodepagedata.xyz
@@ -470307,6 +470308,7 @@
 0.0.0.0 searshomeservices.112.2o7.net
 0.0.0.0 searskmartcom.112.2o7.net
 0.0.0.0 seasonale.1.p2l.info
+0.0.0.0 seasquadshipping.com
 0.0.0.0 seatreasures.org
 0.0.0.0 seavideo-ak.espn.go.com
 0.0.0.0 seaviewlane.shop
@@ -471583,6 +471585,7 @@
 0.0.0.0 serbview.com
 0.0.0.0 serceszukaserca.pl
 0.0.0.0 serconsole.vicp.cc
+0.0.0.0 serdaregitim.com
 0.0.0.0 serdtfngbfv3.pages.dev
 0.0.0.0 sere.ulitron.ru
 0.0.0.0 seredneco.com
@@ -475270,6 +475273,7 @@
 0.0.0.0 smitt.nl
 0.0.0.0 smkalbasyariyahpkc.sch.id
 0.0.0.0 smmcj.pages.dev
+0.0.0.0 smmnet.store
 0.0.0.0 smmpush.com
 0.0.0.0 smnedc.webwave.dev
 0.0.0.0 smog.ulitron.ru
