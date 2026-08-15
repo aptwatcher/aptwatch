@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-15 06:35:51
-# Entries: 542209
+# Generated: 2026-08-15 12:34:05
+# Entries: 542212
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32964,6 +32964,7 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
+0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -262367,7 +262368,6 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -379500,6 +379500,7 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
+0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -403232,7 +403233,6 @@
 0.0.0.0 oilymedication.cn
 0.0.0.0 oilzero.nl
 0.0.0.0 oilzero.org
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -485030,6 +485030,7 @@
 0.0.0.0 teamsr.org
 0.0.0.0 teamsvr.com
 0.0.0.0 teamsynex.akuanakmamah.de
+0.0.0.0 teamt.co.za
 0.0.0.0 teamtalk.uk.intellitxt.com
 0.0.0.0 teamtnt.red
 0.0.0.0 teamworkbab.github.io
@@ -503478,6 +503479,7 @@
 0.0.0.0 wp-serwis.netlify.app
 0.0.0.0 wp-stat.s3.amazonasw.com
 0.0.0.0 wp-stats.com
+0.0.0.0 wp.ameyiando.com
 0.0.0.0 wp.autodiscover.3lo.com.au
 0.0.0.0 wp.pilot45.com
 0.0.0.0 wp.tectrics.com
@@ -541775,6 +541777,7 @@
 0.0.0.0 zomzone.tech
 0.0.0.0 zona-segura.viabcp.sa.com
 0.0.0.0 zona.dedspac.ru
+0.0.0.0 zonaah.co.uk
 0.0.0.0 zonaluxbitapp.com
 0.0.0.0 zonar.dedspac.ru
 0.0.0.0 zonawm.biz.popunder.ru
