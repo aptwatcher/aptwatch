@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-15 00:34:06
-# Entries: 542210
+# Generated: 2026-08-15 06:05:13
+# Entries: 542209
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -170944,7 +170944,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -290891,7 +290890,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -344324,6 +344322,7 @@
 0.0.0.0 lomehuajskley-81901morksanshey19s.duckdns.org
 0.0.0.0 lomejordesalamanca.es
 0.0.0.0 lomentos7tri.ru
+0.0.0.0 lomeqpe.com
 0.0.0.0 lomeshdave.com
 0.0.0.0 lomginr0nfficial0nlinestiem3yui1nimessoftsi.cf
 0.0.0.0 lomginr0nfficial0nlinestiem3yui1nimessoftsi.gq
@@ -403233,6 +403232,7 @@
 0.0.0.0 oilymedication.cn
 0.0.0.0 oilzero.nl
 0.0.0.0 oilzero.org
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -514085,7 +514085,6 @@
 0.0.0.0 www.eznamsk.com
 0.0.0.0 www.eznokar.sbs
 0.0.0.0 www.ezoliniawrozby.com
-0.0.0.0 www.ezpz.link
 0.0.0.0 www.f.drops.fortunella-new.com
 0.0.0.0 www.f1izsv.cfd
 0.0.0.0 www.f1q7vh.lat
