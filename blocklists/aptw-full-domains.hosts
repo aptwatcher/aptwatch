@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-15 12:34:05
-# Entries: 542212
+# Generated: 2026-08-15 18:33:42
+# Entries: 542207
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32964,7 +32964,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -290890,6 +290889,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -346674,7 +346674,6 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
-0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -379500,7 +379499,6 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
-0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -399097,7 +399095,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -485030,7 +485027,6 @@
 0.0.0.0 teamsr.org
 0.0.0.0 teamsvr.com
 0.0.0.0 teamsynex.akuanakmamah.de
-0.0.0.0 teamt.co.za
 0.0.0.0 teamtalk.uk.intellitxt.com
 0.0.0.0 teamtnt.red
 0.0.0.0 teamworkbab.github.io
@@ -503479,7 +503475,6 @@
 0.0.0.0 wp-serwis.netlify.app
 0.0.0.0 wp-stat.s3.amazonasw.com
 0.0.0.0 wp-stats.com
-0.0.0.0 wp.ameyiando.com
 0.0.0.0 wp.autodiscover.3lo.com.au
 0.0.0.0 wp.pilot45.com
 0.0.0.0 wp.tectrics.com
@@ -520577,6 +520572,7 @@
 0.0.0.0 www.kryonvision.site
 0.0.0.0 www.kryptaxeltrade.com
 0.0.0.0 www.kryptolaisepro.digital
+0.0.0.0 www.krypton-client.net
 0.0.0.0 www.kryptono.exchange
 0.0.0.0 www.kryptoportal.pl
 0.0.0.0 www.kryptozantor.live
@@ -541777,7 +541773,6 @@
 0.0.0.0 zomzone.tech
 0.0.0.0 zona-segura.viabcp.sa.com
 0.0.0.0 zona.dedspac.ru
-0.0.0.0 zonaah.co.uk
 0.0.0.0 zonaluxbitapp.com
 0.0.0.0 zonar.dedspac.ru
 0.0.0.0 zonawm.biz.popunder.ru
