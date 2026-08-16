@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-16 00:34:03
-# Entries: 542209
+# Generated: 2026-08-16 06:05:43
+# Entries: 542211
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -290889,7 +290889,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -434187,6 +434186,7 @@
 0.0.0.0 prtptpllwaqaybfl-dot-millinium.ey.r.appspot.com
 0.0.0.0 prtseriesfilmesauter.tcp4.me
 0.0.0.0 prtsr-dpd.cfd
+0.0.0.0 prtsscr.com
 0.0.0.0 prtydiodn.ydns.eu
 0.0.0.0 prtyscndgrtz.co.vu
 0.0.0.0 pru087.zu0kmi-7.life
@@ -487148,6 +487148,7 @@
 0.0.0.0 thsuacesso-pagamento-ctrl.github.io
 0.0.0.0 thtp2.volamngayxua.net
 0.0.0.0 thtpso.cc
+0.0.0.0 thu-iphone-07.cfd
 0.0.0.0 thud.ulitron.ru
 0.0.0.0 thug.dedspac.ru
 0.0.0.0 thug.ulitron.ru
@@ -489660,6 +489661,7 @@
 0.0.0.0 traderflix9gpt-pro.com
 0.0.0.0 tradergptai.click
 0.0.0.0 tradergptai.live
+0.0.0.0 traderhype.com
 0.0.0.0 traderi100sprix.com
 0.0.0.0 traderia-app.shop
 0.0.0.0 traderjoexyz.bylfg.org
@@ -516612,6 +516614,7 @@
 0.0.0.0 www.gerteuzonim-sg.live
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
@@ -541774,7 +541777,6 @@
 0.0.0.0 zomzone.tech
 0.0.0.0 zona-segura.viabcp.sa.com
 0.0.0.0 zona.dedspac.ru
-0.0.0.0 zonaah.co.uk
 0.0.0.0 zonaluxbitapp.com
 0.0.0.0 zonar.dedspac.ru
 0.0.0.0 zonawm.biz.popunder.ru
