@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-16 06:36:05
-# Entries: 542211
+# Generated: 2026-08-16 12:34:05
+# Entries: 542210
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -262367,6 +262367,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -290889,6 +290890,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -392875,6 +392877,7 @@
 0.0.0.0 newsspypro.com
 0.0.0.0 newsstorefast.digital
 0.0.0.0 newsstudio.com.np
+0.0.0.0 newstan.online
 0.0.0.0 newstarlinellc.com
 0.0.0.0 newstartardes.com
 0.0.0.0 newstime.hs-sites.com
@@ -399095,7 +399098,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -487148,7 +487150,6 @@
 0.0.0.0 thsuacesso-pagamento-ctrl.github.io
 0.0.0.0 thtp2.volamngayxua.net
 0.0.0.0 thtpso.cc
-0.0.0.0 thu-iphone-07.cfd
 0.0.0.0 thud.ulitron.ru
 0.0.0.0 thug.dedspac.ru
 0.0.0.0 thug.ulitron.ru
@@ -489661,7 +489662,6 @@
 0.0.0.0 traderflix9gpt-pro.com
 0.0.0.0 tradergptai.click
 0.0.0.0 tradergptai.live
-0.0.0.0 traderhype.com
 0.0.0.0 traderi100sprix.com
 0.0.0.0 traderia-app.shop
 0.0.0.0 traderjoexyz.bylfg.org
@@ -516614,7 +516614,6 @@
 0.0.0.0 www.gerteuzonim-sg.live
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
