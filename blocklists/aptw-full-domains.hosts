@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-16 18:34:18
-# Entries: 542208
+# Generated: 2026-08-17 00:34:07
+# Entries: 542209
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -214963,7 +214963,6 @@
 0.0.0.0 down.t0kanpoaket.biz
 0.0.0.0 down.t0kbnpobket.biz
 0.0.0.0 down.t0kdnpodket.biz
-0.0.0.0 down.unicron-cdn.click
 0.0.0.0 down.us2.mclick.mobi
 0.0.0.0 down.zhuolin.workers.dev
 0.0.0.0 down140.mclick.mobi
@@ -262367,7 +262366,6 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -290185,6 +290183,7 @@
 0.0.0.0 hr-directnews.myftp.biz
 0.0.0.0 hr-engine.xclaimwords.net
 0.0.0.0 hr-messages.com
+0.0.0.0 hr-survey.ma
 0.0.0.0 hr-systemmet.dk
 0.0.0.0 hr.bulletinshr.com
 0.0.0.0 hr.co-il.info
@@ -346675,6 +346674,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -392876,6 +392876,7 @@
 0.0.0.0 newsspypro.com
 0.0.0.0 newsstorefast.digital
 0.0.0.0 newsstudio.com.np
+0.0.0.0 newstan.online
 0.0.0.0 newstarlinellc.com
 0.0.0.0 newstartardes.com
 0.0.0.0 newstime.hs-sites.com
@@ -396068,7 +396069,6 @@
 0.0.0.0 nodelive.sbs
 0.0.0.0 nodelman.org
 0.0.0.0 nodemainnet.pages.dev
-0.0.0.0 nodemetrics3379.com
 0.0.0.0 nodeny.targetspot.com
 0.0.0.0 nodep-games.com
 0.0.0.0 nodepagedata.xyz
@@ -403232,6 +403232,7 @@
 0.0.0.0 oilymedication.cn
 0.0.0.0 oilzero.nl
 0.0.0.0 oilzero.org
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -456024,6 +456025,7 @@
 0.0.0.0 revenda.holork.com.br
 0.0.0.0 revendehosting.com.ve
 0.0.0.0 revendeurs.ogivart.us
+0.0.0.0 revengegrompegroups.pl
 0.0.0.0 revengehostage.com
 0.0.0.0 revengg.000webhostapp.com
 0.0.0.0 revenhtf.cc
@@ -470308,7 +470310,6 @@
 0.0.0.0 searshomeservices.112.2o7.net
 0.0.0.0 searskmartcom.112.2o7.net
 0.0.0.0 seasonale.1.p2l.info
-0.0.0.0 seasquadshipping.com
 0.0.0.0 seatreasures.org
 0.0.0.0 seavideo-ak.espn.go.com
 0.0.0.0 seaviewlane.shop
@@ -471585,7 +471586,6 @@
 0.0.0.0 serbview.com
 0.0.0.0 serceszukaserca.pl
 0.0.0.0 serconsole.vicp.cc
-0.0.0.0 serdaregitim.com
 0.0.0.0 serdtfngbfv3.pages.dev
 0.0.0.0 sere.ulitron.ru
 0.0.0.0 seredneco.com
@@ -475273,7 +475273,6 @@
 0.0.0.0 smitt.nl
 0.0.0.0 smkalbasyariyahpkc.sch.id
 0.0.0.0 smmcj.pages.dev
-0.0.0.0 smmnet.store
 0.0.0.0 smmpush.com
 0.0.0.0 smnedc.webwave.dev
 0.0.0.0 smog.ulitron.ru
@@ -487149,6 +487148,7 @@
 0.0.0.0 thsuacesso-pagamento-ctrl.github.io
 0.0.0.0 thtp2.volamngayxua.net
 0.0.0.0 thtpso.cc
+0.0.0.0 thu-iphone-07.cfd
 0.0.0.0 thud.ulitron.ru
 0.0.0.0 thug.dedspac.ru
 0.0.0.0 thug.ulitron.ru
@@ -520316,6 +520316,7 @@
 0.0.0.0 www.knifts.com
 0.0.0.0 www.knipetarn.com
 0.0.0.0 www.knipetarnestate.com
+0.0.0.0 www.knockknock.top
 0.0.0.0 www.knopkasnoom.com
 0.0.0.0 www.knowinteractive.com
 0.0.0.0 www.knowlsnggmfffngngn.site
