@@ -1,0 +1,104 @@
+# =============================================================
+#  Curator submission — Sandworm / UAC-0145 SopraVPN campaign — IOC DELTA
+#  Author: aptwatch-curator  |  Date: 2026-08-13
+# =============================================================
+#  DELTA of curator-2026-08-11-sandworm-sopravpn-recruiter.yaml.
+#  The 2026-08-11 YAML was built from early press coverage before the
+#  full CERT-UA IOC table (article/6318863) circulated. Sister coverage
+#  published 2026-08-12 (Cyber Security News, reproducing the CERT-UA
+#  IOC table) adds infrastructure not present in the first YAML:
+#  payload-delivery domain douncloud.site, VPN endpoint 139.28.36.23,
+#  two lure/impersonation apexes, two sender emails, and path-precise
+#  SourceForge download URLs.
+#
+#  Attribution: apt_groups[0] = exact DB campaign_name "Sandworm"
+#  (id 6; aliases include UAC-0002 / APT44 / Seashell Blizzard).
+#  UAC-0145 subcluster tag recorded in prose, as in the 08-11 YAML.
+#
+#  Triage (reports/triage/certua-sandworm-sopravpn-delta-2026-08-13.csv):
+#    * douncloud.site — script verdict attacker_owned -> malicious.
+#    * atlasgroup-ua.com — script defaulted needs_review; CURATOR OVERRIDE
+#      to malicious: CERT-UA labels the domain "Impersonation domain" in
+#      its IOC table, and the recruiter firm "Atlas Business Group" is
+#      fictitious (08-11 analysis: real entities NOT compromised) — the
+#      apex is the attacker-registered lure-recruiter site. Flagged for
+#      Dominic's confirmation in the 2026-08-13 digest.
+#    * soprasteriabg.com — script defaulted needs_review; CURATOR OVERRIDE
+#      to malicious: typo-variant twin of the attacker-registered lookalike
+#      soprasteria-bg.com, listed by CERT-UA as related suspicious domain.
+#      Also flagged for confirmation.
+#    * soprasteria-bg.com — re-listed as CONTEXT ANCHOR (parent of email
+#      mike.weitzman@soprasteria-bg.com and of the root URL); duplicate
+#      of the 08-11 YAML is expected and harmless (loader INSERT OR IGNORE).
+#  Shared-platform exclusions: sourceforge.net (lure projects on a
+#  legitimate platform — only path-precise URLs kept) and ukr.net
+#  (public Ukrainian mail provider — only the mailbox kept).
+#  URL normalization note: CERT-UA/CSN table shows the mangled string
+#  "sopravpn_v10.exenload"; normalized here to the evident intended form
+#  ".../sopravpn_v10.exe/download" (defang-mangling artifact) — see digest.
+#  douncloud.site delivery URL recorded at path precision
+#  (/sitedatastorageadvanced/); the observed ?subid=%UUID%---%MACHINE%
+#  template placeholders are documented here rather than encoded in the IOC.
+#
+#  Hashes (SHA-512, digest-only — flat-IOC schema has no hash table):
+#    sopravpn_v7__1_.exe  bf6670760305228fd83a5e1467a99d914646ea832a61c9f7bdb11fee64ad82ae6d9856d2f3a4b36a8a4a571145be1260
+#    sopraconf.conf       d478e96bfb0f3a586c6d17d8bfc874ea480ab92995295378c9b30b8b6fb61516313ed7482eb893967841b05e233fe341
+#    sopraconfLinux.conf  088acb50f7a7e54f887da7b561e1861322a21958a2c4752214192175793c13acae2f6d766007d55d2140f1570ae1df67
+#    SopraVPN.exe         be11cc798c239b9d4eaa76ab03d07168aeb702f65445d12605a84be6fa31545c71be0bf619b1cbedbee5800a43fc6793
+#    SopraVPN.exe (alt)   676f44c7fa03693247d0dd5c3a0e13f76a60152f7c83d3416925316b75eb7720953cdd69aae9f0e088c789c25f51437f
+#  Other prose-only artifacts: Telegram lure account @Sales_ManagerABG
+#  (shared platform — not a domain/URL IOC); Linux payload path
+#  /usr/libexec/timesyncd-check; VPN endpoint udp://139.28.36.23:51820.
+# =============================================================
+
+author: aptwatch-curator
+
+source: https://cert.gov.ua/article/6318863
+source_name: CERT-UA — UAC-0145 (Sandworm) SopraVPN campaign, full IOC table (delta to 2026-08-11 submission)
+
+apt_groups:
+  - Sandworm
+
+description: >
+  IOC delta for the Sandworm/UAC-0145 (GRU; APT44 / Seashell Blizzard /
+  UAC-0002 ecosystem) fake-recruiter "SopraVPN" trojanized-WireGuard campaign
+  first recorded in curator-2026-08-11-sandworm-sopravpn-recruiter.yaml.
+  Adds the infrastructure from the full CERT-UA IOC table (article/6318863)
+  as reproduced by Cyber Security News on 2026-08-12: payload-delivery domain
+  douncloud[.]site (Windows scheduled-task next-stage URL under
+  /sitedatastorageadvanced/ with ?subid=%UUID%---%MACHINE% templating),
+  WireGuard VPN endpoint 139.28.36[.]23 (udp/51820, Linux next-stage pulled
+  through the tunnel), attacker-registered lure apexes atlasgroup-ua[.]com
+  (fictitious recruiter "Atlas Business Group") and soprasteriabg[.]com
+  (typo-twin of soprasteria-bg[.]com), sender mailboxes
+  alex.boichenkoit@ukr[.]net and mike.weitzman@soprasteria-bg[.]com, and
+  path-precise SourceForge download URLs for the trojanized client.
+  soprasteria-bg.com re-listed as context anchor (expected duplicate).
+  Real Sopra Steria / SourceForge / ukr.net platforms NOT compromised;
+  shared-platform apexes deliberately excluded. SHA-512 hashes and Telegram
+  handle recorded in comments/digest only (no hash schema). Discovery
+  vector: BleepingComputer + The Hacker News RSS (2026-08-11/12).
+  Sister coverage: https://cybersecuritynews.com/sandworm-fake-job-interviews/ ;
+  https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html ;
+  https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/
+
+ipv4:
+  - 139.28.36.23
+
+domains:
+  - douncloud.site
+  - soprasteria-bg.com
+  - soprasteriabg.com
+  - atlasgroup-ua.com
+
+urls:
+  - https://douncloud.site/sitedatastorageadvanced/
+  - https://sourceforge.net/projects/soprabulgariavpn/files/sopravpn_v10.exe/download
+  - https://sourceforge.net/projects/sopravpn/files/sopravpn_v5.exe/download
+  - https://sourceforge.net/projects/sopravpn/files/sopravpn.exe/download
+  - https://soprasteria-bg.com/
+  - https://atlasgroup-ua.com/
+
+emails:
+  - alex.boichenkoit@ukr.net
+  - mike.weitzman@soprasteria-bg.com

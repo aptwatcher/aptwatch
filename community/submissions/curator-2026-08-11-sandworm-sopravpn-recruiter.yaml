@@ -1,0 +1,94 @@
+# =============================================================
+#  Curator submission — Sandworm / UAC-0145 SopraVPN fake-recruiter campaign
+#  Author: aptwatch-curator  |  Date: 2026-08-11
+# =============================================================
+#  AUDIT-TRAIL / CAMPAIGN-SOURCE RECORD.
+#
+#  Trigger: CERT-UA advisory (article/6318863, 2026-08-09) attributing
+#  an ongoing (since May 2026) fake-recruiter / "Contagious Interview"
+#  campaign against Ukrainian sysadmins & IT specialists to UAC-0145 —
+#  a subcluster of UAC-0002 = Sandworm (APT44 / Seashell Blizzard, GRU).
+#  Corroborated by The Record/Recorded Future (2026-08-10) and reported
+#  by The Hacker News + TechTimes (2026-08-11, discovery vectors:
+#  BleepingComputer + The Hacker News RSS).
+#
+#  Attribution / campaign mapping (curator): apt_groups[0] set to the
+#  EXACT existing DB campaign_name "Sandworm" (id 6; aliases already
+#  include Seashell Blizzard, APT44, UAC-0002, Telebots, Voodoo Bear)
+#  so resolve_campaign() matches and creates NO duplicate campaign.
+#  UAC-0145 is recorded as the CERT-UA subcluster tag in prose; the
+#  DB does not carry a distinct UAC-0145 campaign, and the specific
+#  Sandworm subgroups present (BadPilot #98, Western-Critical-Infra
+#  #100) do not match this recruiter/SopraVPN activity.
+#
+#  TTP summary (prose — no schema field): social-engineering via
+#  legitimate UA job platforms; lure firm "Atlas Business Group"
+#  staffing for real "Sopra Steria Bulgaria"; chat pivots to Telegram;
+#  Zoom interview (possibly AI-synthetic persona); emailed WireGuard
+#  .conf files that fail by design; victim steered to download a
+#  trojanized WireGuard build "SopraVPN". Malware is in the CONFIG,
+#  not the binary: a custom WireGuard recompile adds a non-standard
+#  "SymmetricKey" option carrying BASE64 AES-256-GCM (nonce+ciphertext
+#  +tag); the 32-byte decode of "PrivateKey" is the AES key; decrypted
+#  PowerShell is passed to WireGuard's runScriptCommand via "PostUp".
+#  Windows path: scheduled task downloads next-stage from attacker infra.
+#  Linux path: cURL pulls an ELF over the VPN tunnel. Next-stage payload
+#  and any C2 hosts are NOT publicly enumerated — none fabricated.
+#  MITRE (curator note): T1566 (Phishing), T1204 (User Execution),
+#  T1059.001 (PowerShell), T1053.005 (Scheduled Task), T1027 (payload
+#  hidden in config), T1656 (Impersonation).
+#
+#  SCOPE / triage decisions:
+#    * soprasteria-bg.com — attacker-registered LOOKALIKE apex mimicking
+#      Sopra Steria Bulgaria. The real Sopra Steria / SourceForge / Atlas
+#      were NOT compromised (explicit in CERT-UA + TechTimes) → listed as
+#      malicious under domains:, NOT compromised_domains:.
+#    * SourceForge project URLs — attacker-controlled lure projects on a
+#      legitimate SHARED PLATFORM. Per shared-platform-apex exception the
+#      apex "sourceforge.net" is DELIBERATELY EXCLUDED as a domain IOC
+#      (blocklisting it would burn all of SourceForge). Only the three
+#      path-precise project URLs are recorded. Projects currently show as
+#      unavailable-for-download but are retained as campaign artifacts.
+#    * No hashes / IPs published in the reporting reviewed → none recorded
+#      (flat-IOC schema has no hash table regardless).
+#  Triage CSV: reports/triage/sandworm-sopravpn-2026-08-11.csv (manual).
+# =============================================================
+
+author: aptwatch-curator
+
+source: https://cert.gov.ua/article/6318863
+source_name: CERT-UA — UAC-0145 (Sandworm) fake-recruiter SopraVPN / trojanized WireGuard campaign (2026-08-09)
+
+apt_groups:
+  - Sandworm
+
+description: >
+  Ongoing (since May 2026) Sandworm/UAC-0145 (GRU; APT44 / Seashell Blizzard /
+  UAC-0002 ecosystem) fake-recruiter campaign disclosed by CERT-UA on 2026-08-09,
+  targeting Ukrainian system administrators and IT specialists. Attackers pose as
+  recruiters ("Atlas Business Group") on legitimate Ukrainian job platforms,
+  staffing a fictitious role for the real firm Sopra Steria Bulgaria, pivot to
+  Telegram + Zoom, then deliver a trojanized WireGuard client "SopraVPN" via
+  SourceForge, linked from the lookalike phishing domain soprasteria-bg[.]com.
+  The malware hides in the VPN config, not the binary: a recompiled WireGuard
+  recognizes a non-standard 'SymmetricKey' option holding BASE64 AES-256-GCM
+  data; decrypted PowerShell is executed through WireGuard's runScriptCommand
+  ('PostUp'). Windows drops a scheduled task pulling a next-stage payload from
+  attacker infrastructure; Linux uses cURL over the tunnel. Real entities
+  (Sopra Steria, SourceForge, Atlas) were NOT compromised — soprasteria-bg.com
+  is an attacker-registered lookalike (malicious), and the SourceForge project
+  URLs are attacker lures on a legitimate shared platform (apex sourceforge.net
+  deliberately excluded from IOCs). Discovery vectors: BleepingComputer + The
+  Hacker News RSS. Sister/corroborating coverage:
+  https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html ;
+  https://therecord.media/russian-military-hackers-pose-as-recruiters-ukraine-it-workers ;
+  https://www.techtimes.com/articles/323950/20260811/sandworm-recruiter-scam-targets-ukrainian-sysadmins-deploys-hidden-wireguard-trojan.htm ;
+  https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/
+
+domains:
+  - soprasteria-bg.com
+
+urls:
+  - https://sourceforge.net/projects/soprabulgariavpn
+  - https://sourceforge.net/projects/sopravpn
+  - https://sourceforge.net/projects/soprasteriavpn
