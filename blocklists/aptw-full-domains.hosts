@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-17 00:34:07
-# Entries: 542209
+# Generated: 2026-08-17 06:04:46
+# Entries: 542212
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -212006,6 +212006,7 @@
 0.0.0.0 dl-ruijin.com
 0.0.0.0 dl-tornj.ir
 0.0.0.0 dl-trustwallet.com
+0.0.0.0 dl.1003b.56a.com
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
@@ -262366,6 +262367,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -269761,6 +269763,7 @@
 0.0.0.0 grapefruit16897804.brizy.site
 0.0.0.0 grapefruit7097143.brizy.site
 0.0.0.0 grapefruit8357755.brizy.site
+0.0.0.0 grapemundo.com
 0.0.0.0 grapeqelse.logansparlin.com
 0.0.0.0 grapeshot.co.uk
 0.0.0.0 grapgenba.site
@@ -290183,7 +290186,6 @@
 0.0.0.0 hr-directnews.myftp.biz
 0.0.0.0 hr-engine.xclaimwords.net
 0.0.0.0 hr-messages.com
-0.0.0.0 hr-survey.ma
 0.0.0.0 hr-systemmet.dk
 0.0.0.0 hr.bulletinshr.com
 0.0.0.0 hr.co-il.info
@@ -324393,6 +324395,7 @@
 0.0.0.0 kiryanaoffers.com
 0.0.0.0 kis.dedspac.ru
 0.0.0.0 kis.hosteurope.de.rechnungcheck.live
+0.0.0.0 kis.marketing
 0.0.0.0 kis.ulitron.ru
 0.0.0.0 kish.dedspac.ru
 0.0.0.0 kish.io
@@ -403232,7 +403235,6 @@
 0.0.0.0 oilymedication.cn
 0.0.0.0 oilzero.nl
 0.0.0.0 oilzero.org
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -476107,6 +476109,7 @@
 0.0.0.0 somalistudio.com
 0.0.0.0 somas.dedspac.ru
 0.0.0.0 somascom.com
+0.0.0.0 somautomotivorj.com.br
 0.0.0.0 sombersea.com
 0.0.0.0 sombersquirrel.com
 0.0.0.0 sombersurprise.com
