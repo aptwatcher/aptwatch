@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-17 06:35:59
-# Entries: 542212
+# Generated: 2026-08-17 12:34:23
+# Entries: 542217
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32964,6 +32964,7 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
+0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -212015,6 +212016,7 @@
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
 0.0.0.0 dl.dzqzd.com
 0.0.0.0 dl.elitoras.ru
+0.0.0.0 dl.faster-cdn-hk.click
 0.0.0.0 dl.fotoable.com
 0.0.0.0 dl.freeshare.link
 0.0.0.0 dl.gameplaylabs.com
@@ -324395,7 +324397,6 @@
 0.0.0.0 kiryanaoffers.com
 0.0.0.0 kis.dedspac.ru
 0.0.0.0 kis.hosteurope.de.rechnungcheck.live
-0.0.0.0 kis.marketing
 0.0.0.0 kis.ulitron.ru
 0.0.0.0 kish.dedspac.ru
 0.0.0.0 kish.io
@@ -379503,6 +379504,7 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
+0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -472559,6 +472561,7 @@
 0.0.0.0 share-stores.com
 0.0.0.0 share-ya.space
 0.0.0.0 share.bibliota.ru
+0.0.0.0 share.dovgertz.com
 0.0.0.0 share.mob.com
 0.0.0.0 share1techinfo.stech.site
 0.0.0.0 shareaholic.com
@@ -475318,6 +475321,7 @@
 0.0.0.0 sms.oewabox.at
 0.0.0.0 sms22.com
 0.0.0.0 smscentro.com
+0.0.0.0 smsechodata.cc
 0.0.0.0 smser.net
 0.0.0.0 smsiak.pl
 0.0.0.0 smsiaki.eu
@@ -476109,7 +476113,6 @@
 0.0.0.0 somalistudio.com
 0.0.0.0 somas.dedspac.ru
 0.0.0.0 somascom.com
-0.0.0.0 somautomotivorj.com.br
 0.0.0.0 sombersea.com
 0.0.0.0 sombersquirrel.com
 0.0.0.0 sombersurprise.com
@@ -487557,6 +487560,7 @@
 0.0.0.0 timekacardenas.shop
 0.0.0.0 timeless-vault.pages.dev
 0.0.0.0 timelesscelebrity.com
+0.0.0.0 timelevel12.com
 0.0.0.0 timelife.122.2o7.net
 0.0.0.0 timenavy.lavoixdessages.com
 0.0.0.0 timeofficepirates.122.2o7.net
@@ -516616,6 +516620,7 @@
 0.0.0.0 www.gerteuzonim-sg.live
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
