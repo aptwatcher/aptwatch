@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-18 06:36:32
+# Generated: 2026-08-18 12:34:52
 # Entries: 542239
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -91653,7 +91653,6 @@
 0.0.0.0 app.fajhsdreas.cloud
 0.0.0.0 app.farmaciadelmonestironline.com
 0.0.0.0 app.fastappsolutions.com
-0.0.0.0 app.faster-cdn-hk.click
 0.0.0.0 app.fastsolutionsapp.com
 0.0.0.0 app.fastwaysandbox.com
 0.0.0.0 app.fbmgnd-pages-wd.v0m3ljmqvg-jqp3vvon7350.p.runcloud.link
@@ -170950,6 +170949,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -296718,7 +296718,6 @@
 0.0.0.0 ijamjamsec.com
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
-0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -299884,6 +299883,7 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
+0.0.0.0 indeanapolice.cc
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
 0.0.0.0 indecisive-pentagonal-carnation.glitch.me
@@ -444755,6 +444755,7 @@
 0.0.0.0 qorvelyne-zanthorix-fr.live
 0.0.0.0 qorvelyne-zanthorix.live
 0.0.0.0 qorvelynezanthorix.digital
+0.0.0.0 qorvi.pro
 0.0.0.0 qorxdyiwymwuzgrb-dot-millinium.ey.r.appspot.com
 0.0.0.0 qos.pages.dev
 0.0.0.0 qosmrltqqnpvcplq-dot-millinium.ey.r.appspot.com
@@ -522679,7 +522680,6 @@
 0.0.0.0 www.misyoniks-tr.live
 0.0.0.0 www.misyoniks.com
 0.0.0.0 www.misyoniks.live
-0.0.0.0 www.mixierealty.com
 0.0.0.0 www.mixsorts.garden
 0.0.0.0 www.mixuplumo.click
 0.0.0.0 www.miyazaki-catv.ne.jp
