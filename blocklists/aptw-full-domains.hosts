@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-18 06:05:01
-# Entries: 542240
+# Generated: 2026-08-18 06:36:32
+# Entries: 542239
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -155682,7 +155682,6 @@
 0.0.0.0 brandt.dedspac.ru
 0.0.0.0 brandt.virosat.ru
 0.0.0.0 brandtapel.cyou
-0.0.0.0 brandtinoda.com
 0.0.0.0 brandtlaw.net
 0.0.0.0 brandtraining.att.com.rsolc.p3c.xyz
 0.0.0.0 brandvaultsecurity.vercel.app
@@ -212014,6 +212013,7 @@
 0.0.0.0 dl-ruijin.com
 0.0.0.0 dl-tornj.ir
 0.0.0.0 dl-trustwallet.com
+0.0.0.0 dl.1003b.56a.com
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
@@ -290903,6 +290903,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -434206,7 +434207,6 @@
 0.0.0.0 prtptpllwaqaybfl-dot-millinium.ey.r.appspot.com
 0.0.0.0 prtseriesfilmesauter.tcp4.me
 0.0.0.0 prtsr-dpd.cfd
-0.0.0.0 prtsscr.com
 0.0.0.0 prtydiodn.ydns.eu
 0.0.0.0 prtyscndgrtz.co.vu
 0.0.0.0 pru087.zu0kmi-7.life
@@ -489688,7 +489688,6 @@
 0.0.0.0 traderflix9gpt-pro.com
 0.0.0.0 tradergptai.click
 0.0.0.0 tradergptai.live
-0.0.0.0 traderhype.com
 0.0.0.0 traderi100sprix.com
 0.0.0.0 traderia-app.shop
 0.0.0.0 traderjoexyz.bylfg.org
