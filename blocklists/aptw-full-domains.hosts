@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-18 00:33:49
-# Entries: 542216
+# Generated: 2026-08-18 06:05:01
+# Entries: 542240
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -4045,6 +4045,7 @@
 0.0.0.0 109988187.coridas.ru
 0.0.0.0 109yes.com
 0.0.0.0 109zy.com
+0.0.0.0 10afdmasaxsssaqrk.com
 0.0.0.0 10affiliates.online
 0.0.0.0 10airyotnh4qvwt.moolin.ru
 0.0.0.0 10asw5ozd.top
@@ -35693,6 +35694,7 @@
 0.0.0.0 7mdkq2h0ba.s3.us-south.objectstorage.softlayer.net
 0.0.0.0 7me.4ce.mywebsitetransfer.com
 0.0.0.0 7metasearch.com
+0.0.0.0 7mfsdfasdmkgmrk.com
 0.0.0.0 7minuteworkout.com
 0.0.0.0 7mkead6.cn
 0.0.0.0 7mljv.anqi88.cn
@@ -38050,6 +38052,7 @@
 0.0.0.0 8lwn7.weblium.site
 0.0.0.0 8m-94n.iifgg.com
 0.0.0.0 8m4ukl83ob.r2citnmq.duckdns.org
+0.0.0.0 8masaxsssaqrk.com
 0.0.0.0 8mc3cttjwg0ejarp.qwo231sdx.club
 0.0.0.0 8mddldwxpuzx020asrhde.azurewebsites.net
 0.0.0.0 8mgqk99xs3.spirlttrucklines.com
@@ -40288,6 +40291,7 @@
 0.0.0.0 9fbcc30c.qepfmq.shop
 0.0.0.0 9fbuasl1.qwo231sdx.club
 0.0.0.0 9fcadd98-5136-44cb-a94e-851a50d9905e.id.repl.co
+0.0.0.0 9fdmasaxsssaqrk.com
 0.0.0.0 9fdoqubdi48vm7i.qwo231sdx.club
 0.0.0.0 9fec7dd6aed57c61d9a163f872d10fe9-dot-gle9392420309493993.rj.r.appspot.com
 0.0.0.0 9fezn.app.link
@@ -91649,6 +91653,7 @@
 0.0.0.0 app.fajhsdreas.cloud
 0.0.0.0 app.farmaciadelmonestironline.com
 0.0.0.0 app.fastappsolutions.com
+0.0.0.0 app.faster-cdn-hk.click
 0.0.0.0 app.fastsolutionsapp.com
 0.0.0.0 app.fastwaysandbox.com
 0.0.0.0 app.fbmgnd-pages-wd.v0m3ljmqvg-jqp3vvon7350.p.runcloud.link
@@ -155677,6 +155682,7 @@
 0.0.0.0 brandt.dedspac.ru
 0.0.0.0 brandt.virosat.ru
 0.0.0.0 brandtapel.cyou
+0.0.0.0 brandtinoda.com
 0.0.0.0 brandtlaw.net
 0.0.0.0 brandtraining.att.com.rsolc.p3c.xyz
 0.0.0.0 brandvaultsecurity.vercel.app
@@ -158183,6 +158189,7 @@
 0.0.0.0 bselomyxzc.duckdns.org
 0.0.0.0 bsemep.com
 0.0.0.0 bsentrep.qsu.edu.ph
+0.0.0.0 bserail.com
 0.0.0.0 bservd.hondalapuente.com
 0.0.0.0 bsesol.com
 0.0.0.0 bseuxpyfgbxygclw-dot-millinium.ey.r.appspot.com
@@ -212007,7 +212014,6 @@
 0.0.0.0 dl-ruijin.com
 0.0.0.0 dl-tornj.ir
 0.0.0.0 dl-trustwallet.com
-0.0.0.0 dl.1003b.56a.com
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
@@ -222866,6 +222872,7 @@
 0.0.0.0 efbqw.blogspot.tw
 0.0.0.0 efbrc.blogspot.sn
 0.0.0.0 efbsq.blogspot.fi
+0.0.0.0 efbthmoiuykmkjkjgt.com
 0.0.0.0 efbty.blogspot.fi
 0.0.0.0 efbwq.blogspot.bg
 0.0.0.0 efbwq.blogspot.fi
@@ -230385,6 +230392,7 @@
 0.0.0.0 eum4jw25qu.monitorminor.com.tr
 0.0.0.0 eumafdfuum.duckdns.org
 0.0.0.0 eumet.inmeteu.com
+0.0.0.0 eummagvnbp.com
 0.0.0.0 eumrzgpqerebufex-dot-millinium.ey.r.appspot.com
 0.0.0.0 eun2oj1giisg.fenet.com.tr
 0.0.0.0 eunad-27d7.sllckeraaimit.workers.dev
@@ -259510,7 +259518,6 @@
 0.0.0.0 garnolabar.tk
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
-0.0.0.0 garogradba.mk
 0.0.0.0 garoo.ulitron.ru
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garpydook.ru
@@ -262371,6 +262378,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -277834,6 +277842,7 @@
 0.0.0.0 hackneysurvival.com
 0.0.0.0 hacks.ulitron.ru
 0.0.0.0 hacksrevolution.com
+0.0.0.0 hackucdt.com
 0.0.0.0 hackwebaccoun.blogspot.com
 0.0.0.0 hacky.dedspac.ru
 0.0.0.0 hackzona.tk
@@ -290894,7 +290903,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -296709,6 +296717,7 @@
 0.0.0.0 ijamjamsec.com
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
+0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -300079,6 +300088,7 @@
 0.0.0.0 indication-admin-1000002559374586903.tk
 0.0.0.0 indication-service-541547700156025489303254623-hk.tk
 0.0.0.0 indication-statement-1000000065945667894525.tk
+0.0.0.0 indicator.style.top
 0.0.0.0 indice.in
 0.0.0.0 indicedebonheur.com
 0.0.0.0 indicum.space
@@ -338418,6 +338428,7 @@
 0.0.0.0 linuxtest.cloudpress.ws
 0.0.0.0 linuxusersguide.com
 0.0.0.0 linvo-yzex.vercel.app
+0.0.0.0 linwudi.f3322.net
 0.0.0.0 linxx-webxxxx-ld.vxwbxsite.my
 0.0.0.0 linxyieldvern.com
 0.0.0.0 liny.ulitron.ru
@@ -339729,6 +339740,7 @@
 0.0.0.0 lkjh-102964.weeblysite.com
 0.0.0.0 lkjhgfd.fwh.is
 0.0.0.0 lkjhgfdsa.biz
+0.0.0.0 lkjhgfdsatryuio.com
 0.0.0.0 lkjhgfnbvcx.blogspot.tw
 0.0.0.0 lkjhgfsd.weebly.com
 0.0.0.0 lkjhgvhyf675gygy.weebly.com
@@ -375416,6 +375428,7 @@
 0.0.0.0 mnbvcs.com
 0.0.0.0 mnbvcxcvjytf.weebly.com
 0.0.0.0 mnbvcxxcvbhgf.weebly.com
+0.0.0.0 mnbvcxzzz12.com
 0.0.0.0 mnby8g.webwave.dev
 0.0.0.0 mncelektronik.com
 0.0.0.0 mncmnc.onrender.com
@@ -425096,6 +425109,7 @@
 0.0.0.0 poiuytresdfghjkjhcvbattglobal.weeblysite.com
 0.0.0.0 poiuytryuioyu.duckdns.org
 0.0.0.0 poiuytyu.weeblysite.com
+0.0.0.0 poiuytyuiopkjfnf.com
 0.0.0.0 poiuyyt.duckdns.org
 0.0.0.0 poivy.000webhostapp.com
 0.0.0.0 poiwmuawdcd.ga
@@ -443393,6 +443407,7 @@
 0.0.0.0 q0v.pl
 0.0.0.0 q0we5tcsctub.loportar.ru
 0.0.0.0 q110z830.fat-fly.com
+0.0.0.0 q111333.top
 0.0.0.0 q12310lomp.temp.swtest.ru
 0.0.0.0 q12q21q234er5t655644.bayfieldprinting.com.au
 0.0.0.0 q13j2d.vinemobile.co.za
@@ -456927,6 +456942,7 @@
 0.0.0.0 rfihtqqfaclxgbjkywnybfcxxp-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 rfihub.com
 0.0.0.0 rfilqtypyscbdyfy-dot-millinium.ey.r.appspot.com
+0.0.0.0 rfjejnfjnefje.com
 0.0.0.0 rfkdfmzxujtbwcwpzifuutjnwxmxjgmgevqj-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 rfkejosbkvwjexlxluxfcnxzbwdwideyhryv-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 rfl-35qfp-pw-ze-m-i4q-vl-2w.vercel.app
@@ -477407,6 +477423,7 @@
 0.0.0.0 spywords.com
 0.0.0.0 spznpv.cn
 0.0.0.0 sq2trk2.com
+0.0.0.0 sq520.f3322.net
 0.0.0.0 sq7.co.uk
 0.0.0.0 sqdlnw.cn
 0.0.0.0 sql-updater-service.com
@@ -483519,6 +483536,7 @@
 0.0.0.0 t.singular.net
 0.0.0.0 t.skimresources.com
 0.0.0.0 t.smartads.tech
+0.0.0.0 t.style.top
 0.0.0.0 t.svtrd.com
 0.0.0.0 t.tailtarget.com
 0.0.0.0 t.teads.tv
@@ -488793,6 +488811,7 @@
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
 0.0.0.0 tpobop.icu
+0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -489669,6 +489688,7 @@
 0.0.0.0 traderflix9gpt-pro.com
 0.0.0.0 tradergptai.click
 0.0.0.0 tradergptai.live
+0.0.0.0 traderhype.com
 0.0.0.0 traderi100sprix.com
 0.0.0.0 traderia-app.shop
 0.0.0.0 traderjoexyz.bylfg.org
@@ -492589,6 +492609,7 @@
 0.0.0.0 ucrgusr.cn
 0.0.0.0 ucs709.fanqier1.cn
 0.0.0.0 ucstat.baidu.com
+0.0.0.0 uctkone.com
 0.0.0.0 ucuzabenzin.com
 0.0.0.0 ud-coder.github.io
 0.0.0.0 ud.adkmob.com
@@ -516621,6 +516642,7 @@
 0.0.0.0 www.gerteuzonim-sg.live
 0.0.0.0 www.gerteuzonim.live
 0.0.0.0 www.gestionandoportunidades.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-a-room-89012.help
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
@@ -522658,6 +522680,7 @@
 0.0.0.0 www.misyoniks-tr.live
 0.0.0.0 www.misyoniks.com
 0.0.0.0 www.misyoniks.live
+0.0.0.0 www.mixierealty.com
 0.0.0.0 www.mixsorts.garden
 0.0.0.0 www.mixuplumo.click
 0.0.0.0 www.miyazaki-catv.ne.jp
@@ -542058,6 +542081,7 @@
 0.0.0.0 zx1317.com
 0.0.0.0 zx8rdi.top
 0.0.0.0 zxbaoye.com
+0.0.0.0 zxcvbmnnfjjfwq.com
 0.0.0.0 zxczxczjawndjhnaasidkm.lol
 0.0.0.0 zxczxuiozx.karri833a.workers.dev
 0.0.0.0 zxd365756.com
