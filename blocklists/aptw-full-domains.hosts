@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-17 18:34:26
-# Entries: 542212
+# Generated: 2026-08-18 00:33:49
+# Entries: 542216
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -212016,6 +212016,7 @@
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
 0.0.0.0 dl.dzqzd.com
 0.0.0.0 dl.elitoras.ru
+0.0.0.0 dl.faster-cdn-hk.click
 0.0.0.0 dl.fotoable.com
 0.0.0.0 dl.freeshare.link
 0.0.0.0 dl.gameplaylabs.com
@@ -259509,6 +259510,7 @@
 0.0.0.0 garnolabar.tk
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
+0.0.0.0 garogradba.mk
 0.0.0.0 garoo.ulitron.ru
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garpydook.ru
@@ -290892,6 +290894,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -346676,6 +346679,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -399097,6 +399101,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -433850,7 +433855,6 @@
 0.0.0.0 protexiagpt.digital
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
-0.0.0.0 protherapycenter.com
 0.0.0.0 prothover.site
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
@@ -472558,6 +472562,7 @@
 0.0.0.0 share-stores.com
 0.0.0.0 share-ya.space
 0.0.0.0 share.bibliota.ru
+0.0.0.0 share.dovgertz.com
 0.0.0.0 share.mob.com
 0.0.0.0 share1techinfo.stech.site
 0.0.0.0 shareaholic.com
@@ -520577,7 +520582,6 @@
 0.0.0.0 www.kryonvision.site
 0.0.0.0 www.kryptaxeltrade.com
 0.0.0.0 www.kryptolaisepro.digital
-0.0.0.0 www.krypton-client.net
 0.0.0.0 www.kryptono.exchange
 0.0.0.0 www.kryptoportal.pl
 0.0.0.0 www.kryptozantor.live
