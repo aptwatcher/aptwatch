@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-19 12:34:25
-# Entries: 538975
+# Generated: 2026-08-19 18:33:40
+# Entries: 538980
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45738,6 +45738,7 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
+0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -68857,7 +68858,6 @@
 0.0.0.0 alaheakbar.temp.swtest.ru
 0.0.0.0 alaheofd.com
 0.0.0.0 alahiu.pages.net.br
-0.0.0.0 alahlam.sa
 0.0.0.0 alahliword.wpengine.com
 0.0.0.0 alahlyef.ru.com
 0.0.0.0 alahmed.com.sa
@@ -97429,7 +97429,6 @@
 0.0.0.0 aquatic-towering-havarti.glitch.me
 0.0.0.0 aquaticowl.com
 0.0.0.0 aquatictestinglabs.com
-0.0.0.0 aquatitewaterproofing.com
 0.0.0.0 aquawaterpurifiers.com
 0.0.0.0 aquazoneamqui.com
 0.0.0.0 aquecedoreskbs.com.br
@@ -150194,6 +150193,7 @@
 0.0.0.0 bmn.dmv.mybluehost.me
 0.0.0.0 bmnewextension.com
 0.0.0.0 bmnfccbyyn.duckdns.org
+0.0.0.0 bmnjhy.shop
 0.0.0.0 bmnlawyers.gardinary.com
 0.0.0.0 bmo-access-update-kexisih260895620.codeanyapp.com
 0.0.0.0 bmo-account-ca.duckdns.org
@@ -161606,6 +161606,7 @@
 0.0.0.0 buruncha.ru
 0.0.0.0 burushaski.matsuro.ru
 0.0.0.0 burut.ulitron.ru
+0.0.0.0 buruujtech.com
 0.0.0.0 burwod.ru
 0.0.0.0 burwoodrsl-sharedocument.on.fleek.co
 0.0.0.0 bury.0fees.us
@@ -192208,7 +192209,6 @@
 0.0.0.0 crazyindiandeals.com
 0.0.0.0 crazyjeeps.com
 0.0.0.0 crazyjellyfish.com
-0.0.0.0 crazypianoswebshop.nl
 0.0.0.0 crazypopups.com
 0.0.0.0 crazyprotocol.com
 0.0.0.0 crazyspicyangels.000webhostapp.com
@@ -192804,7 +192804,6 @@
 0.0.0.0 crestvermothal.net
 0.0.0.0 crestyieldmere.pro
 0.0.0.0 crestyieldvale.com
-0.0.0.0 cresvin.com
 0.0.0.0 cret.pages.dev
 0.0.0.0 cretan.virosat.ru
 0.0.0.0 crete.cloudns.ph
@@ -194210,7 +194209,6 @@
 0.0.0.0 cts.w55c.net
 0.0.0.0 ctsempresa.com
 0.0.0.0 ctservices.fr
-0.0.0.0 ctsfactory.com
 0.0.0.0 ctsinteractive.com
 0.0.0.0 ctsp-arequipa.org.pe
 0.0.0.0 ctsprojectsolutions.com
@@ -215214,6 +215212,7 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
+0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -243203,7 +243202,6 @@
 0.0.0.0 fdsfsewfdsf.cf
 0.0.0.0 fdsgdsgs.easy.co
 0.0.0.0 fdshrtgds.yourtrap.com
-0.0.0.0 fdstat.vip
 0.0.0.0 fdsxaz2cds.pages.dev
 0.0.0.0 fdsxc.cckqatx.cn
 0.0.0.0 fdsyfmtfoa.duckdns.org
@@ -259872,7 +259870,6 @@
 0.0.0.0 gee.amaniwa.ru
 0.0.0.0 gee.boletuso.ru
 0.0.0.0 gee.ulitron.ru
-0.0.0.0 geeconglobal.com
 0.0.0.0 geed.amaniwa.ru
 0.0.0.0 geeeculqlghwhzpulpigvxduyz-dot-poised-bot-306515.uk.r.appspot.com
 0.0.0.0 geeeeeeeeemini.godaddysites.com
@@ -292036,6 +292033,7 @@
 0.0.0.0 hyper-tangy-court.glitch.me
 0.0.0.0 hyperads.gotrackier.com
 0.0.0.0 hyperbanner.net
+0.0.0.0 hypercorevector5.lol
 0.0.0.0 hypereutectic-equiv.000webhostapp.com
 0.0.0.0 hyperfuturosemanal.com
 0.0.0.0 hypergolically.bibliota.ru
@@ -330245,7 +330243,6 @@
 0.0.0.0 lahorefundmere.com
 0.0.0.0 lahorefundmere.live
 0.0.0.0 lahorepropertygroup.com
-0.0.0.0 lahoreshoes.com
 0.0.0.0 lahoreviphotels.com
 0.0.0.0 lahoyws2.com
 0.0.0.0 lahstudios.com
@@ -345680,6 +345677,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -355674,6 +355672,7 @@
 0.0.0.0 mama.pipi.ne.jp
 0.0.0.0 mama.ulitron.ru
 0.0.0.0 mamaandmimi.com
+0.0.0.0 mamabearcoffee.com
 0.0.0.0 mamabearhikes.com.au
 0.0.0.0 mamacehin.com
 0.0.0.0 mamachumbas.com
@@ -373087,7 +373086,6 @@
 0.0.0.0 mitralos.ru
 0.0.0.0 mitramasklogin.gitbook.io
 0.0.0.0 mitramediagroup.com
-0.0.0.0 mitraperijinan.co.id
 0.0.0.0 mitrasellerbeauty.com
 0.0.0.0 mitraserbu.com
 0.0.0.0 mitrasolusiseragam.com
@@ -373460,6 +373458,7 @@
 0.0.0.0 mkbixhnvc.dermals.org
 0.0.0.0 mkchowdhury.com
 0.0.0.0 mkcommunications.net
+0.0.0.0 mkconstructions.net
 0.0.0.0 mkcthehomemarketplace.112.2o7.net
 0.0.0.0 mkdbeauty.com
 0.0.0.0 mkdhawan.net
@@ -373506,6 +373505,7 @@
 0.0.0.0 mkjgdaqmfi.duckdns.org
 0.0.0.0 mkjgqf2p.jimdofree.com
 0.0.0.0 mkjiool.weebly.com
+0.0.0.0 mkjiun.shop
 0.0.0.0 mkjiydersdt.xyz
 0.0.0.0 mkkaywefjjjashqww-0568825.proen.app.ruk-com.cloud
 0.0.0.0 mkkitapsarayi.online
@@ -374578,6 +374578,7 @@
 0.0.0.0 mnuninbet.com
 0.0.0.0 mnuolpo.top
 0.0.0.0 mnupgwfzemtdefsg-dot-millinium.ey.r.appspot.com
+0.0.0.0 mnurlogistics.az
 0.0.0.0 mnutan.fr
 0.0.0.0 mnvchffjhjk.tk
 0.0.0.0 mnx.8fe.mywebsitetransfer.com
@@ -394499,6 +394500,7 @@
 0.0.0.0 nmgjxj.com
 0.0.0.0 nmhcxuojhc.duckdns.org
 0.0.0.0 nmhiltonhead.112.2o7.net
+0.0.0.0 nmhjnu.shop
 0.0.0.0 nmhospital.in
 0.0.0.0 nmhtj.blogspot.bg
 0.0.0.0 nmhtj.blogspot.tw
@@ -420508,6 +420510,7 @@
 0.0.0.0 pic.casee.cn
 0.0.0.0 pic.e-get.com.tw
 0.0.0.0 pic.ivectorize.com
+0.0.0.0 pic.li
 0.0.0.0 pica.dedspac.ru
 0.0.0.0 pical.virosat.ru
 0.0.0.0 picalisy.ru
@@ -422783,7 +422786,6 @@
 0.0.0.0 plenavia.cl
 0.0.0.0 plendrik.com
 0.0.0.0 plenet.in
-0.0.0.0 plenia.pt
 0.0.0.0 pleninvertancia.com
 0.0.0.0 plenipotent-screens.000webhostapp.com
 0.0.0.0 pleno-dexlin-engine.com
@@ -447594,6 +447596,7 @@
 0.0.0.0 raqamtasdiqlash.com
 0.0.0.0 raqi-gamer.github.io
 0.0.0.0 raqmeribn.lovable.app
+0.0.0.0 raqmnh.com
 0.0.0.0 raqnor.com
 0.0.0.0 raquelbarros.com.br
 0.0.0.0 raquelnash.autos
@@ -447783,7 +447786,6 @@
 0.0.0.0 rathepayments.com
 0.0.0.0 rathirirounds.com
 0.0.0.0 rathkealechildcare.ie
-0.0.0.0 rathodsoftware.in
 0.0.0.0 rathoraryann.github.io
 0.0.0.0 rathuiasa.duckdns.org
 0.0.0.0 ratiborus2023.com
@@ -461621,6 +461623,7 @@
 0.0.0.0 ruketanapp.com
 0.0.0.0 ruketansjp.com
 0.0.0.0 ruketanvip.xyz
+0.0.0.0 rukeyou.com
 0.0.0.0 rukh.ulitron.ru
 0.0.0.0 rukholme.shop
 0.0.0.0 rukifernan.000webhostapp.com
@@ -464416,7 +464419,6 @@
 0.0.0.0 sager.dedspac.ru
 0.0.0.0 sager.ulitron.ru
 0.0.0.0 sages.dedspac.ru
-0.0.0.0 sagescasebytes.com
 0.0.0.0 sageworkflow10.azurefd.net
 0.0.0.0 saggezza.in
 0.0.0.0 sagimanagement.com.my
@@ -471565,6 +471567,7 @@
 0.0.0.0 shiviislive.github.io
 0.0.0.0 shivmundhe7.github.io
 0.0.0.0 shivshreetravelworld.com
+0.0.0.0 shivsoftwaresolutions.com
 0.0.0.0 shivuu2803.github.io
 0.0.0.0 shizhenwang.com
 0.0.0.0 shizhong.pilot45.com
@@ -479817,6 +479820,7 @@
 0.0.0.0 suaiu.firerounds.com
 0.0.0.0 suant.dedspac.ru
 0.0.0.0 suastaxasecontratos.com
+0.0.0.0 suavasua.vn
 0.0.0.0 suave-peridot-gym.glitch.me
 0.0.0.0 suaveolens.online
 0.0.0.0 suavino.cfd
@@ -483510,7 +483514,6 @@
 0.0.0.0 teagschwendner.mom
 0.0.0.0 teak.gen.tr
 0.0.0.0 teaken.im
-0.0.0.0 teakivo.com
 0.0.0.0 teaks.dedspac.ru
 0.0.0.0 teal-cobbler-74b19a.netlify.app
 0.0.0.0 teal-nasturtium-1feeaf.netlify.app
@@ -490610,6 +490613,7 @@
 0.0.0.0 twirl.dedspac.ru
 0.0.0.0 twist.virosat.ru
 0.0.0.0 twit.dedspac.ru
+0.0.0.0 twitch.tj
 0.0.0.0 twitchguru.us.intellitxt.com
 0.0.0.0 twitchindoor.best
 0.0.0.0 twiterservices.org
@@ -495812,6 +495816,7 @@
 0.0.0.0 verifycenter-trust-wallet-com.vercel.app
 0.0.0.0 verifyfaceit.click
 0.0.0.0 verifyguides.com
+0.0.0.0 verifyidentify.com
 0.0.0.0 verifyme.run.place
 0.0.0.0 verifymsg.goukoomi.ru
 0.0.0.0 verifymyiden.com
@@ -505193,7 +505198,6 @@
 0.0.0.0 www.artisanhxouse.shop
 0.0.0.0 www.artistikstudyo.live
 0.0.0.0 www.artistsoftimesoft.com
-0.0.0.0 www.artleadsdigital.com
 0.0.0.0 www.artrosteell.com
 0.0.0.0 www.artssets.com
 0.0.0.0 www.artstation-terms.click
@@ -517218,6 +517222,7 @@
 0.0.0.0 www.justocredovia.shop
 0.0.0.0 www.justokredowia.com
 0.0.0.0 www.justsayit.online
+0.0.0.0 www.justturtle.com
 0.0.0.0 www.justwatch.asia
 0.0.0.0 www.jutrandborsvik-da.live
 0.0.0.0 www.jutrandborsvik.digital
