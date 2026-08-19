@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-19 06:35:09
-# Entries: 538974
+# Generated: 2026-08-19 12:34:25
+# Entries: 538975
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45738,7 +45738,6 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
-0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -52340,7 +52339,6 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
-0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -68859,6 +68857,7 @@
 0.0.0.0 alaheakbar.temp.swtest.ru
 0.0.0.0 alaheofd.com
 0.0.0.0 alahiu.pages.net.br
+0.0.0.0 alahlam.sa
 0.0.0.0 alahliword.wpengine.com
 0.0.0.0 alahlyef.ru.com
 0.0.0.0 alahmed.com.sa
@@ -97430,6 +97429,7 @@
 0.0.0.0 aquatic-towering-havarti.glitch.me
 0.0.0.0 aquaticowl.com
 0.0.0.0 aquatictestinglabs.com
+0.0.0.0 aquatitewaterproofing.com
 0.0.0.0 aquawaterpurifiers.com
 0.0.0.0 aquazoneamqui.com
 0.0.0.0 aquecedoreskbs.com.br
@@ -131980,6 +131980,7 @@
 0.0.0.0 bailey.us-southeast-1.linodeobjects.com
 0.0.0.0 baileychudesigns.com
 0.0.0.0 baileyelectricalfnq.com.au
+0.0.0.0 baileyemas.com
 0.0.0.0 baileymcdermott.com
 0.0.0.0 baileyvoicewireless.weebly.com
 0.0.0.0 bailibabcom.000webhostapp.com
@@ -144578,7 +144579,6 @@
 0.0.0.0 bigrecess.com
 0.0.0.0 bigredmug.com
 0.0.0.0 bigrigrvadventures.com
-0.0.0.0 bigs.bikershop.biz
 0.0.0.0 bigs.bortogat.ru
 0.0.0.0 bigs.dedspac.ru
 0.0.0.0 bigs.ulitron.ru
@@ -148431,7 +148431,6 @@
 0.0.0.0 blisspoint.us-west-2.stinger-ad.bidr.io
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
-0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blitexa.site
@@ -150240,6 +150239,7 @@
 0.0.0.0 bmp.abgc.org.au
 0.0.0.0 bmpawrjdwbxcjquszdqdfzyyzi-dot-gleow2021ja.ue.r.appspot.com
 0.0.0.0 bmpdqrrsjk.duckdns.org
+0.0.0.0 bmpincorporated.com
 0.0.0.0 bmpo.co.kr
 0.0.0.0 bmpsmnlrgdhkgcgl-dot-millinium.ey.r.appspot.com
 0.0.0.0 bmpssjajjtjxiguc-dot-millinium.ey.r.appspot.com
@@ -192208,6 +192208,7 @@
 0.0.0.0 crazyindiandeals.com
 0.0.0.0 crazyjeeps.com
 0.0.0.0 crazyjellyfish.com
+0.0.0.0 crazypianoswebshop.nl
 0.0.0.0 crazypopups.com
 0.0.0.0 crazyprotocol.com
 0.0.0.0 crazyspicyangels.000webhostapp.com
@@ -194209,6 +194210,7 @@
 0.0.0.0 cts.w55c.net
 0.0.0.0 ctsempresa.com
 0.0.0.0 ctservices.fr
+0.0.0.0 ctsfactory.com
 0.0.0.0 ctsinteractive.com
 0.0.0.0 ctsp-arequipa.org.pe
 0.0.0.0 ctsprojectsolutions.com
@@ -215212,7 +215214,6 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
-0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -223957,7 +223958,6 @@
 0.0.0.0 elmasyedekparca.com
 0.0.0.0 elmavorn.com
 0.0.0.0 elmejoragenteinmobiliario.es
-0.0.0.0 elmejorlocal.com.co
 0.0.0.0 elmensajerotours.com
 0.0.0.0 elmerfortreasurer.org
 0.0.0.0 elmes.de
@@ -227576,7 +227576,6 @@
 0.0.0.0 ergot.virosat.ru
 0.0.0.0 ergoterapeutene.broke-it.net
 0.0.0.0 ergoterapiacaribu.ch
-0.0.0.0 ergotherapeia-kalamata.gr
 0.0.0.0 ergqzszqmvsdcfyu-dot-millinium.ey.r.appspot.com
 0.0.0.0 ergrq.blogspot.fi
 0.0.0.0 ergrq.blogspot.hr
@@ -231147,6 +231146,7 @@
 0.0.0.0 every-onebritish.club
 0.0.0.0 every.dedspac.ru
 0.0.0.0 every.ulitron.ru
+0.0.0.0 everycarebd.com
 0.0.0.0 everydayblessing.org
 0.0.0.0 everydayfamilynutrition.com
 0.0.0.0 everydaygays.com
@@ -243203,6 +243203,7 @@
 0.0.0.0 fdsfsewfdsf.cf
 0.0.0.0 fdsgdsgs.easy.co
 0.0.0.0 fdshrtgds.yourtrap.com
+0.0.0.0 fdstat.vip
 0.0.0.0 fdsxaz2cds.pages.dev
 0.0.0.0 fdsxc.cckqatx.cn
 0.0.0.0 fdsyfmtfoa.duckdns.org
@@ -259871,6 +259872,7 @@
 0.0.0.0 gee.amaniwa.ru
 0.0.0.0 gee.boletuso.ru
 0.0.0.0 gee.ulitron.ru
+0.0.0.0 geeconglobal.com
 0.0.0.0 geed.amaniwa.ru
 0.0.0.0 geeeculqlghwhzpulpigvxduyz-dot-poised-bot-306515.uk.r.appspot.com
 0.0.0.0 geeeeeeeeemini.godaddysites.com
@@ -308755,7 +308757,6 @@
 0.0.0.0 ixie1.weebly.com
 0.0.0.0 ixindamix.org
 0.0.0.0 ixion.ulitron.ru
-0.0.0.0 ixirgroup.com
 0.0.0.0 ixjgpzmibh.5q5e5o.cn
 0.0.0.0 ixjnzitelqmeuoxrhtehcatajj.triple-upgrade-293822.rj.r.appspot.com
 0.0.0.0 ixlosmebel.uz
@@ -330244,6 +330245,7 @@
 0.0.0.0 lahorefundmere.com
 0.0.0.0 lahorefundmere.live
 0.0.0.0 lahorepropertygroup.com
+0.0.0.0 lahoreshoes.com
 0.0.0.0 lahoreviphotels.com
 0.0.0.0 lahoyws2.com
 0.0.0.0 lahstudios.com
@@ -345678,7 +345680,6 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
-0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -354966,7 +354967,6 @@
 0.0.0.0 main.exoclick.com
 0.0.0.0 main.exosrv.com
 0.0.0.0 main.fbmmnsnnsm-6061949153.1oxjkps3ah-yjr3oxzrm31m.p.runcloud.link
-0.0.0.0 main.lahoreshoes.com
 0.0.0.0 main.lancefiber.net
 0.0.0.0 main.museumofwesternco.live
 0.0.0.0 main.paylessautoz.de
@@ -360806,7 +360806,6 @@
 0.0.0.0 medibrand.shop
 0.0.0.0 medic.ulitron.ru
 0.0.0.0 medica-lab.com
-0.0.0.0 medica-me.com
 0.0.0.0 medical-devices-purchase-quotation.vercel.app
 0.0.0.0 medical-equipments.vercel.app
 0.0.0.0 medical-jets.com
@@ -422784,6 +422783,7 @@
 0.0.0.0 plenavia.cl
 0.0.0.0 plendrik.com
 0.0.0.0 plenet.in
+0.0.0.0 plenia.pt
 0.0.0.0 pleninvertancia.com
 0.0.0.0 plenipotent-screens.000webhostapp.com
 0.0.0.0 pleno-dexlin-engine.com
@@ -447594,7 +447594,6 @@
 0.0.0.0 raqamtasdiqlash.com
 0.0.0.0 raqi-gamer.github.io
 0.0.0.0 raqmeribn.lovable.app
-0.0.0.0 raqmnh.com
 0.0.0.0 raqnor.com
 0.0.0.0 raquelbarros.com.br
 0.0.0.0 raquelnash.autos
@@ -447784,6 +447783,7 @@
 0.0.0.0 rathepayments.com
 0.0.0.0 rathirirounds.com
 0.0.0.0 rathkealechildcare.ie
+0.0.0.0 rathodsoftware.in
 0.0.0.0 rathoraryann.github.io
 0.0.0.0 rathuiasa.duckdns.org
 0.0.0.0 ratiborus2023.com
@@ -464416,6 +464416,7 @@
 0.0.0.0 sager.dedspac.ru
 0.0.0.0 sager.ulitron.ru
 0.0.0.0 sages.dedspac.ru
+0.0.0.0 sagescasebytes.com
 0.0.0.0 sageworkflow10.azurefd.net
 0.0.0.0 saggezza.in
 0.0.0.0 sagimanagement.com.my
@@ -471033,6 +471034,7 @@
 0.0.0.0 sgroup.nhsaportal.com
 0.0.0.0 sgs001.adtech.fr
 0.0.0.0 sgs001.adtech.us
+0.0.0.0 sgskolkata.com
 0.0.0.0 sgsnssdk.com.edgekey.net
 0.0.0.0 sguartorentione.com
 0.0.0.0 sguinarheabu.pro
@@ -476066,7 +476068,6 @@
 0.0.0.0 srothuynguyen.com
 0.0.0.0 sroy2002.github.io
 0.0.0.0 srpaymxscrtu.loportar.ru
-0.0.0.0 srrealestate.techzonecam.com
 0.0.0.0 srryrvrdcwi.tauzetaomega.org
 0.0.0.0 srs.targetpoint.com
 0.0.0.0 srt-srv.xlisting.jp
@@ -480283,6 +480284,7 @@
 0.0.0.0 sunhi.cc
 0.0.0.0 sunil03251987.github.io
 0.0.0.0 sunilkr1.github.io
+0.0.0.0 sunix-technology.com
 0.0.0.0 sunjay77-bit.github.io
 0.0.0.0 sunk.amaniwa.ru
 0.0.0.0 sunk.ulitron.ru
@@ -482138,7 +482140,6 @@
 0.0.0.0 tab.dellrescue.com
 0.0.0.0 tab.myreserp.com
 0.0.0.0 tabaclilia.store
-0.0.0.0 tabak.hr
 0.0.0.0 tabby.dedspac.ru
 0.0.0.0 tabby.virosat.ru
 0.0.0.0 tabegroup.nl
@@ -483191,6 +483192,7 @@
 0.0.0.0 tats.cecash.com
 0.0.0.0 tatsumi-sys.jp
 0.0.0.0 tatsumi-unsou.com
+0.0.0.0 tattinamecheap.com
 0.0.0.0 tattnet.weebly.com
 0.0.0.0 tatto-travel.com
 0.0.0.0 tattoolukas.com
@@ -483508,6 +483510,7 @@
 0.0.0.0 teagschwendner.mom
 0.0.0.0 teak.gen.tr
 0.0.0.0 teaken.im
+0.0.0.0 teakivo.com
 0.0.0.0 teaks.dedspac.ru
 0.0.0.0 teal-cobbler-74b19a.netlify.app
 0.0.0.0 teal-nasturtium-1feeaf.netlify.app
@@ -485374,7 +485377,6 @@
 0.0.0.0 theryplonsyncgpt.com
 0.0.0.0 theryplonsyncgpt.net
 0.0.0.0 thesafarigarden.com
-0.0.0.0 thesalons.in
 0.0.0.0 thesavrox-path.com
 0.0.0.0 thesavrox-path.org
 0.0.0.0 thesavrynpulseai.com
@@ -495427,7 +495429,6 @@
 0.0.0.0 vekstfundoria-no.live
 0.0.0.0 vekstfundoria.click
 0.0.0.0 vekstfundoria.live
-0.0.0.0 vektorex.com
 0.0.0.0 vektortradeviaxtech.com
 0.0.0.0 vela.iad-01.braze.com
 0.0.0.0 velablur.site
@@ -499191,7 +499192,6 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
-0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -505193,6 +505193,7 @@
 0.0.0.0 www.artisanhxouse.shop
 0.0.0.0 www.artistikstudyo.live
 0.0.0.0 www.artistsoftimesoft.com
+0.0.0.0 www.artleadsdigital.com
 0.0.0.0 www.artrosteell.com
 0.0.0.0 www.artssets.com
 0.0.0.0 www.artstation-terms.click
