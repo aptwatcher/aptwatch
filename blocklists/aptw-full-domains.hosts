@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-19 06:05:13
-# Entries: 538973
+# Generated: 2026-08-19 06:35:09
+# Entries: 538974
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -476066,6 +476066,7 @@
 0.0.0.0 srothuynguyen.com
 0.0.0.0 sroy2002.github.io
 0.0.0.0 srpaymxscrtu.loportar.ru
+0.0.0.0 srrealestate.techzonecam.com
 0.0.0.0 srryrvrdcwi.tauzetaomega.org
 0.0.0.0 srs.targetpoint.com
 0.0.0.0 srt-srv.xlisting.jp
