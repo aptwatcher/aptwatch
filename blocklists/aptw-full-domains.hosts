@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-18 18:34:19
-# Entries: 538947
+# Generated: 2026-08-19 00:34:08
+# Entries: 538961
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45738,6 +45738,7 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
+0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -91583,6 +91584,7 @@
 0.0.0.0 app.fajhsdreas.cloud
 0.0.0.0 app.farmaciadelmonestironline.com
 0.0.0.0 app.fastappsolutions.com
+0.0.0.0 app.faster-cdn-hk.click
 0.0.0.0 app.fastsolutionsapp.com
 0.0.0.0 app.fastwaysandbox.com
 0.0.0.0 app.fbmgnd-pages-wd.v0m3ljmqvg-jqp3vvon7350.p.runcloud.link
@@ -155384,6 +155386,7 @@
 0.0.0.0 brandt.dedspac.ru
 0.0.0.0 brandt.virosat.ru
 0.0.0.0 brandtapel.cyou
+0.0.0.0 brandtinoda.com
 0.0.0.0 brandtlaw.net
 0.0.0.0 brandtraining.att.com.rsolc.p3c.xyz
 0.0.0.0 brandvaultsecurity.vercel.app
@@ -192797,6 +192800,7 @@
 0.0.0.0 crestvermothal.net
 0.0.0.0 crestyieldmere.pro
 0.0.0.0 crestyieldvale.com
+0.0.0.0 cresvin.com
 0.0.0.0 cret.pages.dev
 0.0.0.0 cretan.virosat.ru
 0.0.0.0 crete.cloudns.ph
@@ -215205,6 +215209,7 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
+0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -219478,6 +219483,7 @@
 0.0.0.0 easyport.in
 0.0.0.0 easyprofithunters.com
 0.0.0.0 easyqapark.vu
+0.0.0.0 easyrentbyowner.com
 0.0.0.0 easyresearchsolutions.com
 0.0.0.0 easyrideug.com
 0.0.0.0 easys.duckdns.org
@@ -251990,6 +251996,7 @@
 0.0.0.0 foundation.con-wallet.network
 0.0.0.0 foundational-rating.000webhostapp.com
 0.0.0.0 foundationally.timanar.ru
+0.0.0.0 foundationforwomenshealth.com
 0.0.0.0 foundationmoon.grayboxfarms.com
 0.0.0.0 foundationnational-ai.live
 0.0.0.0 foundations-admin-10000005546884950.ml
@@ -308742,6 +308749,7 @@
 0.0.0.0 ixie1.weebly.com
 0.0.0.0 ixindamix.org
 0.0.0.0 ixion.ulitron.ru
+0.0.0.0 ixirgroup.com
 0.0.0.0 ixjgpzmibh.5q5e5o.cn
 0.0.0.0 ixjnzitelqmeuoxrhtehcatajj.triple-upgrade-293822.rj.r.appspot.com
 0.0.0.0 ixlosmebel.uz
@@ -345664,6 +345672,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumas.dedspac.ru
@@ -428680,6 +428689,7 @@
 0.0.0.0 precetioadentryakolotaion.co.vu
 0.0.0.0 precinctfinder.com
 0.0.0.0 preciosaalimentos.com.br
+0.0.0.0 preciosasjoyitas.com.mx
 0.0.0.0 precious-person-875680.framer.app
 0.0.0.0 precious-toffee-b5074f.netlify.app
 0.0.0.0 precious-ziraat1-7b9148.netlify.app
@@ -444742,6 +444752,7 @@
 0.0.0.0 quikkwebrepbook.tw
 0.0.0.0 quikye.pages.dev
 0.0.0.0 quill-common-pisces.glitch.me
+0.0.0.0 quill-flint.com
 0.0.0.0 quillaja.space
 0.0.0.0 quilled-early-square.glitch.me
 0.0.0.0 quilled-sparkly-oriole.glitch.me
@@ -464395,7 +464406,6 @@
 0.0.0.0 sager.dedspac.ru
 0.0.0.0 sager.ulitron.ru
 0.0.0.0 sages.dedspac.ru
-0.0.0.0 sagescasebytes.com
 0.0.0.0 sageworkflow10.azurefd.net
 0.0.0.0 saggezza.in
 0.0.0.0 sagimanagement.com.my
@@ -477969,7 +477979,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -478748,6 +478757,7 @@
 0.0.0.0 steps.dedspac.ru
 0.0.0.0 stepstone.112.2o7.net
 0.0.0.0 stepstreams.com
+0.0.0.0 stepupnetworks.com
 0.0.0.0 stereo-bit.fun
 0.0.0.0 stereo-bit.site
 0.0.0.0 stereo-bit.space
@@ -480146,6 +480156,7 @@
 0.0.0.0 sulphmozar.rest
 0.0.0.0 sulphotannic.yazibo.ru
 0.0.0.0 sultan-raza.github.io
+0.0.0.0 sultanaexecutive.com
 0.0.0.0 sultanajshjdjsd.vercel.app
 0.0.0.0 sultano25.blogspot.be
 0.0.0.0 sultano25.blogspot.co.nz
@@ -482116,6 +482127,7 @@
 0.0.0.0 tab.dellrescue.com
 0.0.0.0 tab.myreserp.com
 0.0.0.0 tabaclilia.store
+0.0.0.0 tabak.hr
 0.0.0.0 tabby.dedspac.ru
 0.0.0.0 tabby.virosat.ru
 0.0.0.0 tabegroup.nl
@@ -496874,6 +496886,7 @@
 0.0.0.0 vitis.space
 0.0.0.0 vitlescaux.com
 0.0.0.0 vitorog.ru
+0.0.0.0 vitoturizm.com.tr
 0.0.0.0 vitranexima-pl.com
 0.0.0.0 vitranexima-shop.pages.dev
 0.0.0.0 vitranexima.shop
@@ -520008,6 +520021,7 @@
 0.0.0.0 www.mistrzmotywacji.pl
 0.0.0.0 www.mistrzpiekarz.mom
 0.0.0.0 www.misyoniks.com
+0.0.0.0 www.mixierealty.com
 0.0.0.0 www.mixsorts.garden
 0.0.0.0 www.mixstyledance.mom
 0.0.0.0 www.miyazaki-catv.ne.jp
