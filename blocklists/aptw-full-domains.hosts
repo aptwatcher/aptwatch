@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-20 06:06:16
+# Generated: 2026-08-20 06:36:30
 # Entries: 538995
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -194215,6 +194215,7 @@
 0.0.0.0 cts.w55c.net
 0.0.0.0 ctsempresa.com
 0.0.0.0 ctservices.fr
+0.0.0.0 ctsfactory.com
 0.0.0.0 ctsinteractive.com
 0.0.0.0 ctsp-arequipa.org.pe
 0.0.0.0 ctsprojectsolutions.com
@@ -479830,7 +479831,6 @@
 0.0.0.0 suaiu.firerounds.com
 0.0.0.0 suant.dedspac.ru
 0.0.0.0 suastaxasecontratos.com
-0.0.0.0 suavasua.vn
 0.0.0.0 suave-peridot-gym.glitch.me
 0.0.0.0 suaveolens.online
 0.0.0.0 suavino.cfd
