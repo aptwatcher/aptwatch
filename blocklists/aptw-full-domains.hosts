@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-20 06:36:30
+# Generated: 2026-08-20 12:34:34
 # Entries: 538995
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -194215,7 +194215,6 @@
 0.0.0.0 cts.w55c.net
 0.0.0.0 ctsempresa.com
 0.0.0.0 ctservices.fr
-0.0.0.0 ctsfactory.com
 0.0.0.0 ctsinteractive.com
 0.0.0.0 ctsp-arequipa.org.pe
 0.0.0.0 ctsprojectsolutions.com
@@ -361075,7 +361074,6 @@
 0.0.0.0 meeting-bonus.firebaseapp.com
 0.0.0.0 meeting-bonus.web.app
 0.0.0.0 meeting.azurefd.net
-0.0.0.0 meeting.supply-reflection.shop
 0.0.0.0 meeting57422d52.scanlonchiro.com
 0.0.0.0 meeting86952.scanlonchiro.com
 0.0.0.0 meetingconcern.com
@@ -409852,7 +409850,6 @@
 0.0.0.0 ownerxxxxxxhelp-support-center2022.web.id
 0.0.0.0 ownittech.com
 0.0.0.0 ownmilligatew.buzz
-0.0.0.0 ownnewstoday.live
 0.0.0.0 ownourvote.com
 0.0.0.0 ownpagehelp-support-center.cf
 0.0.0.0 ownpathway.digital
@@ -472723,6 +472720,7 @@
 0.0.0.0 siver.virosat.ru
 0.0.0.0 siviorauk.vercel.app
 0.0.0.0 sivorentix-system.com
+0.0.0.0 sivrex.click
 0.0.0.0 siwan.virosat.ru
 0.0.0.0 siwer-to.hopto.org
 0.0.0.0 six.bortogat.ru
@@ -472736,6 +472734,7 @@
 0.0.0.0 sixes.dedspac.ru
 0.0.0.0 sixflagsrosarito.com
 0.0.0.0 sixhbx.sbs
+0.0.0.0 sixmexicos.com
 0.0.0.0 sixmilecreekestate.com.au
 0.0.0.0 sixscissors.com
 0.0.0.0 sixsigmatraffic.com
@@ -478005,7 +478004,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -479831,6 +479829,7 @@
 0.0.0.0 suaiu.firerounds.com
 0.0.0.0 suant.dedspac.ru
 0.0.0.0 suastaxasecontratos.com
+0.0.0.0 suavasua.vn
 0.0.0.0 suave-peridot-gym.glitch.me
 0.0.0.0 suaveolens.online
 0.0.0.0 suavino.cfd
@@ -495370,6 +495369,7 @@
 0.0.0.0 vdocs.sasktel.mmspos.com
 0.0.0.0 vdopia.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
+0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 ve1.claker.top
 0.0.0.0 ve1.techgeetam.com
