@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-19 18:33:40
-# Entries: 538980
+# Generated: 2026-08-20 00:33:48
+# Entries: 538985
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -67747,6 +67747,7 @@
 0.0.0.0 akb-ch2.click
 0.0.0.0 akb-ch3.click
 0.0.0.0 akb.anindafaizsizkredi.com
+0.0.0.0 akb.cat
 0.0.0.0 akb.com.pk
 0.0.0.0 akb92.online
 0.0.0.0 akbandassociates.com
@@ -68858,6 +68859,7 @@
 0.0.0.0 alaheakbar.temp.swtest.ru
 0.0.0.0 alaheofd.com
 0.0.0.0 alahiu.pages.net.br
+0.0.0.0 alahlam.sa
 0.0.0.0 alahliword.wpengine.com
 0.0.0.0 alahlyef.ru.com
 0.0.0.0 alahmed.com.sa
@@ -102713,6 +102715,7 @@
 0.0.0.0 aspengardens.com
 0.0.0.0 aspenresultsgroup.com
 0.0.0.0 aspenridgewealthmanagment.com
+0.0.0.0 aspenriver6.com
 0.0.0.0 aspens.dedspac.ru
 0.0.0.0 aspenvalleyvapes.co
 0.0.0.0 aspenwineprogram.com
@@ -161606,7 +161609,6 @@
 0.0.0.0 buruncha.ru
 0.0.0.0 burushaski.matsuro.ru
 0.0.0.0 burut.ulitron.ru
-0.0.0.0 buruujtech.com
 0.0.0.0 burwod.ru
 0.0.0.0 burwoodrsl-sharedocument.on.fleek.co
 0.0.0.0 bury.0fees.us
@@ -164108,6 +164110,7 @@
 0.0.0.0 c1zmem.lagushotel.com.br
 0.0.0.0 c2-a5c.pages.dev
 0.0.0.0 c2-cdw.pages.dev
+0.0.0.0 c2.11179669.cloud
 0.0.0.0 c2.amazingcounters.com
 0.0.0.0 c2.cembuyukhanli.com
 0.0.0.0 c2.clickprotects.com
@@ -192209,6 +192212,7 @@
 0.0.0.0 crazyindiandeals.com
 0.0.0.0 crazyjeeps.com
 0.0.0.0 crazyjellyfish.com
+0.0.0.0 crazypianoswebshop.nl
 0.0.0.0 crazypopups.com
 0.0.0.0 crazyprotocol.com
 0.0.0.0 crazyspicyangels.000webhostapp.com
@@ -197981,6 +197985,7 @@
 0.0.0.0 dale.vadilops.ru
 0.0.0.0 dalea.ulitron.ru
 0.0.0.0 dalea.vadilops.ru
+0.0.0.0 daleeby.com
 0.0.0.0 daleel.qa.nadsoft.co
 0.0.0.0 daleemeen-61391.web.app
 0.0.0.0 daleesh.fun
@@ -219486,7 +219491,6 @@
 0.0.0.0 easyport.in
 0.0.0.0 easyprofithunters.com
 0.0.0.0 easyqapark.vu
-0.0.0.0 easyrentbyowner.com
 0.0.0.0 easyresearchsolutions.com
 0.0.0.0 easyrideug.com
 0.0.0.0 easys.duckdns.org
@@ -248205,6 +248209,7 @@
 0.0.0.0 firstplanettravels.com
 0.0.0.0 firstpresswines.co.uk
 0.0.0.0 firstratefamily.com
+0.0.0.0 firstratezim.com
 0.0.0.0 firstreact-hj9n1etax-johanesashn-gmailcom.vercel.app
 0.0.0.0 firstrowsports.fr
 0.0.0.0 firstshiroclaim.online
@@ -250132,7 +250137,6 @@
 0.0.0.0 fluidcontitech.com
 0.0.0.0 fluiddeliverymanagement.com
 0.0.0.0 fluidesclimat.com
-0.0.0.0 fluidfilm.bg
 0.0.0.0 fluidou-71.ml
 0.0.0.0 fluiptvserver.com
 0.0.0.0 fluir-mercadopl.click
@@ -283647,7 +283651,6 @@
 0.0.0.0 hevrak.shop
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
-0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -355672,7 +355675,6 @@
 0.0.0.0 mama.pipi.ne.jp
 0.0.0.0 mama.ulitron.ru
 0.0.0.0 mamaandmimi.com
-0.0.0.0 mamabearcoffee.com
 0.0.0.0 mamabearhikes.com.au
 0.0.0.0 mamacehin.com
 0.0.0.0 mamachumbas.com
@@ -373086,6 +373088,7 @@
 0.0.0.0 mitralos.ru
 0.0.0.0 mitramasklogin.gitbook.io
 0.0.0.0 mitramediagroup.com
+0.0.0.0 mitraperijinan.co.id
 0.0.0.0 mitrasellerbeauty.com
 0.0.0.0 mitraserbu.com
 0.0.0.0 mitrasolusiseragam.com
@@ -403664,6 +403667,7 @@
 0.0.0.0 one-drrv.mnbjasd.repl.co
 0.0.0.0 one-drv-file.ey.r.appspot.com
 0.0.0.0 one-golos2019.zzz.com.ua
+0.0.0.0 one-graup.com
 0.0.0.0 one-keys.com
 0.0.0.0 one-night-sex-service.pages.dev
 0.0.0.0 one-note-document.proxymob542.workers.dev
@@ -447596,7 +447600,6 @@
 0.0.0.0 raqamtasdiqlash.com
 0.0.0.0 raqi-gamer.github.io
 0.0.0.0 raqmeribn.lovable.app
-0.0.0.0 raqmnh.com
 0.0.0.0 raqnor.com
 0.0.0.0 raquelbarros.com.br
 0.0.0.0 raquelnash.autos
@@ -468628,6 +468631,7 @@
 0.0.0.0 scure-royaibamk.com
 0.0.0.0 scut.dedspac.ru
 0.0.0.0 scut.ulitron.ru
+0.0.0.0 scuttlepopdownload.monster
 0.0.0.0 scwharzkopf.fr
 0.0.0.0 scye.ulitron.ru
 0.0.0.0 scyld.dedspac.ru
@@ -471036,7 +471040,6 @@
 0.0.0.0 sgroup.nhsaportal.com
 0.0.0.0 sgs001.adtech.fr
 0.0.0.0 sgs001.adtech.us
-0.0.0.0 sgskolkata.com
 0.0.0.0 sgsnssdk.com.edgekey.net
 0.0.0.0 sguartorentione.com
 0.0.0.0 sguinarheabu.pro
@@ -471567,7 +471570,6 @@
 0.0.0.0 shiviislive.github.io
 0.0.0.0 shivmundhe7.github.io
 0.0.0.0 shivshreetravelworld.com
-0.0.0.0 shivsoftwaresolutions.com
 0.0.0.0 shivuu2803.github.io
 0.0.0.0 shizhenwang.com
 0.0.0.0 shizhong.pilot45.com
@@ -479991,7 +479993,6 @@
 0.0.0.0 sudahosting.com
 0.0.0.0 sudais73.github.io
 0.0.0.0 sudanlist.com
-0.0.0.0 sudariocontabilidade.com.br
 0.0.0.0 sudarshanabpatil.github.io
 0.0.0.0 sudd.ulitron.ru
 0.0.0.0 suddenplot.com
@@ -483514,6 +483515,7 @@
 0.0.0.0 teagschwendner.mom
 0.0.0.0 teak.gen.tr
 0.0.0.0 teaken.im
+0.0.0.0 teakivo.com
 0.0.0.0 teaks.dedspac.ru
 0.0.0.0 teal-cobbler-74b19a.netlify.app
 0.0.0.0 teal-nasturtium-1feeaf.netlify.app
@@ -485672,6 +485674,7 @@
 0.0.0.0 threatdetect.org
 0.0.0.0 three-yummy-voyage.glitch.me
 0.0.0.0 three.dedspac.ru
+0.0.0.0 threedrows.net
 0.0.0.0 threestarcrm.com
 0.0.0.0 threw.dedspac.ru
 0.0.0.0 threxia.click
@@ -501179,6 +501182,7 @@
 0.0.0.0 windroara.vercel.app
 0.0.0.0 winds-soft.com
 0.0.0.0 winds.dedspac.ru
+0.0.0.0 winds11.site
 0.0.0.0 windsorcredpeak.digital
 0.0.0.0 windsorcredpeak.live
 0.0.0.0 windsorcredpeakbot.live
@@ -505198,6 +505202,7 @@
 0.0.0.0 www.artisanhxouse.shop
 0.0.0.0 www.artistikstudyo.live
 0.0.0.0 www.artistsoftimesoft.com
+0.0.0.0 www.artleadsdigital.com
 0.0.0.0 www.artrosteell.com
 0.0.0.0 www.artssets.com
 0.0.0.0 www.artstation-terms.click
