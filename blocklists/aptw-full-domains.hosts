@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-20 00:33:48
-# Entries: 538985
+# Generated: 2026-08-20 06:06:16
+# Entries: 538995
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -135077,6 +135077,7 @@
 0.0.0.0 baovietweb.top
 0.0.0.0 baoweiqiangq.sbs
 0.0.0.0 baoxiangfood.com
+0.0.0.0 baoxissde.one
 0.0.0.0 baozhey.ru
 0.0.0.0 baozhugongyp.com
 0.0.0.0 bap-host.com
@@ -150033,6 +150034,7 @@
 0.0.0.0 bm1t-telegram.org
 0.0.0.0 bm258.net
 0.0.0.0 bm26dsdq.qwo231sdx.club
+0.0.0.0 bm2contabilidade.com.br
 0.0.0.0 bm2hs.codesandbox.io
 0.0.0.0 bm2leqnrlehizg8n22mil.qwo231sdx.club
 0.0.0.0 bm5nhi.persianstarter.ir
@@ -211341,6 +211343,7 @@
 0.0.0.0 dl.logging.admicro.vn
 0.0.0.0 dl.mod30t.ir
 0.0.0.0 dl.myindustry.ir
+0.0.0.0 dl.myresult.co.za
 0.0.0.0 dl.natgo.cn
 0.0.0.0 dl.payforme.top
 0.0.0.0 dl.pejmanbarakati.ir
@@ -308203,6 +308206,7 @@
 0.0.0.0 itsmejesus.us
 0.0.0.0 itsmenovs.com
 0.0.0.0 itsmuhudrak.akuanakmamah.de
+0.0.0.0 itsmystik.com
 0.0.0.0 itsmyturn.mosherfinancial.com
 0.0.0.0 itsn.com.au
 0.0.0.0 itsnevertooearlyandnevertoolate.com
@@ -308758,6 +308762,7 @@
 0.0.0.0 ixie1.weebly.com
 0.0.0.0 ixindamix.org
 0.0.0.0 ixion.ulitron.ru
+0.0.0.0 ixirgroup.com
 0.0.0.0 ixjgpzmibh.5q5e5o.cn
 0.0.0.0 ixjnzitelqmeuoxrhtehcatajj.triple-upgrade-293822.rj.r.appspot.com
 0.0.0.0 ixlosmebel.uz
@@ -361069,6 +361074,7 @@
 0.0.0.0 meeting-bonus.firebaseapp.com
 0.0.0.0 meeting-bonus.web.app
 0.0.0.0 meeting.azurefd.net
+0.0.0.0 meeting.supply-reflection.shop
 0.0.0.0 meeting57422d52.scanlonchiro.com
 0.0.0.0 meeting86952.scanlonchiro.com
 0.0.0.0 meetingconcern.com
@@ -409845,6 +409851,7 @@
 0.0.0.0 ownerxxxxxxhelp-support-center2022.web.id
 0.0.0.0 ownittech.com
 0.0.0.0 ownmilligatew.buzz
+0.0.0.0 ownnewstoday.live
 0.0.0.0 ownourvote.com
 0.0.0.0 ownpagehelp-support-center.cf
 0.0.0.0 ownpathway.digital
@@ -476075,6 +476082,7 @@
 0.0.0.0 srpaymxscrtu.loportar.ru
 0.0.0.0 srryrvrdcwi.tauzetaomega.org
 0.0.0.0 srs.targetpoint.com
+0.0.0.0 srsorvete.com.br
 0.0.0.0 srt-srv.xlisting.jp
 0.0.0.0 srtaa.org
 0.0.0.0 srtb.msn.com
@@ -482585,6 +482593,7 @@
 0.0.0.0 tansliyaass.com
 0.0.0.0 tansy.dedspac.ru
 0.0.0.0 tanti.virosat.ru
+0.0.0.0 tantralegacy.com
 0.0.0.0 tantricparadise.live
 0.0.0.0 tanujmistry.github.io
 0.0.0.0 tanumishra-sudo.github.io
@@ -536146,6 +536155,7 @@
 0.0.0.0 xxix.virosat.ru
 0.0.0.0 xxlargepop.com
 0.0.0.0 xxlqsx.tynorra.es
+0.0.0.0 xxpro.dev
 0.0.0.0 xxs.kk-1.top
 0.0.0.0 xxs.mall-l.top
 0.0.0.0 xxsweety.com
