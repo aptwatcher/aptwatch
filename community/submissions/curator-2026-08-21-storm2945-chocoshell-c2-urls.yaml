@@ -1,0 +1,62 @@
+# Storm-2945 / CaptiveCrunch — ChocoShell (CHERRYPIE) C2 URL endpoints,
+# Zscaler ThreatLabz 2026-08-11.
+#
+# Supplement to curator-2026-08-18-midnight-blizzard-captivecrunch.yaml.
+# Found during the 2026-08-21 broadened sister-vendor sweep: Zscaler's
+# ThreatLabz analysis is the only source in the CaptiveCrunch reporting set
+# that publishes path-precise C2 URLs. The Microsoft primary (2026-07-31),
+# ReliaQuest (2026-07-23) and GTIG (2026-08-20) all list host-level IOCs
+# only, so these 3 URLs are net-new to the project (0 matches in the urls
+# table).
+#
+# Schema note: Zscaler prints the URLs scheme-less (213.145.86.112/t/...).
+# The canonical validator requires an http/https scheme, so https:// is
+# prepended — justified by the report, which states exfiltration occurs via
+# HTTPS POST and that the endpoints are camouflaged as ordinary web assets.
+#
+# Context anchor: 213.145.86.112 is the parent IP of all three URLs and is
+# re-listed per the context-anchor rule (already curator 1.0 via the
+# pending 08-18 YAML — expect 1 duplicate warning, that is intended).
+# No CIDR claimed by the report.
+#
+# Hashes (digest only): CornFlake 918fa52a..., ChocoShell be998574...
+# (both already logged in the 2026-08-18 digest).
+
+author: APTWatch Curator
+source: "https://www.zscaler.com/blogs/security-research/captivecrunch-midnight-blizzard-weaponizes-hotel-wi-fi-captive-portals"
+source_name: "Zscaler ThreatLabz: CaptiveCrunch — Midnight Blizzard Weaponizes Hotel Wi-Fi Captive Portals to Steal Microsoft 365 Credentials"
+
+apt_groups:
+  - Midnight Blizzard CaptiveCrunch (Storm-2945)
+  - Storm-2945
+  - CaptiveCrunch
+
+description: >
+  Path-precise ChocoShell (aka CHERRYPIE) C2 endpoints on 213.145.86.112,
+  published by Zscaler ThreatLabz 2026-08-11 as sister analysis of the
+  Microsoft CaptiveCrunch primary (2026-07-31). ChocoShell is an in-memory
+  PowerShell infostealer (AMSI bypass via .NET reflection, sandbox/VM
+  detection, silent UAC bypass via SilentCleanup / wsreset.exe COM /
+  sdclt.exe folder hijack) that harvests browser cookies and passwords
+  (ChromeKatz-derived, Chrome ABE bypass, Firefox NSS/SDR, Chrome DevTools
+  Protocol remote debugging), Microsoft 365 and Azure AD/WAM tokens from
+  the Token Broker cache, and Wi-Fi credentials via netsh wlan. The three
+  URLs are deliberately camouflaged as benign web assets: /t/pixel.gif is
+  the beacon URI (mimics an image tracking pixel),
+  /cdn/chunks/polyfill-7e2b.min.js is the additional-tooling download URI
+  (disguised as a JS polyfill), and /t/event is the exfiltration endpoint
+  receiving GZip-compressed, Base64-wrapped JSON via HTTPS POST. Operators
+  manage victims through FruitStone, an unauthenticated single-page web C2
+  panel branded "CloudSync Console" / "Acuity Systems, Inc.". Parent IP
+  213.145.86.112 re-listed as context anchor (already curator 1.0 via the
+  pending 2026-08-18 CaptiveCrunch YAML). Sister coverage consulted in the
+  same sweep with no additional network IOCs: ReliaQuest 2026-07-23,
+  GTIG 2026-08-20, The Hacker News 2026-08-20, SOC Prime.
+
+urls:
+  - https://213.145.86.112/t/pixel.gif
+  - https://213.145.86.112/cdn/chunks/polyfill-7e2b.min.js
+  - https://213.145.86.112/t/event
+
+ipv4:
+  - 213.145.86.112

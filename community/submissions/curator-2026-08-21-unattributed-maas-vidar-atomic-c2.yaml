@@ -1,0 +1,53 @@
+# VIDAR / ATOMIC (AtomicStealer) MaaS C2 infrastructure served in the
+# UNC7005 late-May 2026 infostealer wave — GTIG "Going with the Flow(s)"
+# 2026-08-20.
+#
+# Deliberately filed under the 'Unattributed' sentinel, NOT under
+# Storm-2945/UNC7005: GTIG's IOC table intentionally leaves these rows
+# attribution-blank because VIDAR and ATOMIC are Malware-as-a-Service —
+# the C2s are operated by MaaS operators serving many customers, so
+# attributing them to a state actor would contaminate the attribution
+# layer with shared-infra noise (project MaaS discipline / 3' pillars).
+# The IOCs remain blocklist-worthy regardless of operator.
+#
+# Operational context (cross-ref, not attribution): served to targets of
+# the UNC7005 "summit companion app" phishing wave (late May 2026,
+# US-based academics/diplomats/researchers on Russia). See
+# curator-2026-08-21-unc7005-storm2945-authflow-phishing.yaml.
+#
+# Hashes (digest only): VIDAR 1d929979..., ATOMIC c5826032...
+
+author: APTWatch Curator
+source: "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/"
+source_name: "GTIG: Going with the Flow(s) — Distinct Clusters Target Individuals of Interest to Russia"
+
+apt_groups:
+  - Unattributed
+
+description: >
+  MaaS infostealer C2 infrastructure from GTIG's 2026-08-20 report, served
+  OS-conditionally to targets of the UNC7005 late-May 2026 phishing wave
+  but left unattributed by GTIG (shared Malware-as-a-Service
+  infrastructure). Windows targets received VIDAR (obfuscated Go binary)
+  with C2 107.189.18.7; macOS targets received ATOMIC/AtomicStealer with
+  first-payload C2 fewfwfwfwfwf.info, second-payload C2 196.251.107.171
+  and second-stage C2s miov2iaiaoubqosiqoiajwowiwjso.online and
+  mioisiskwowiwjowuwjwolab.club. All domains are throwaway
+  attacker/MaaS-registered (gibberish labels, no legitimate-business
+  signal) — curator override of the triage heuristic's needs_review
+  default on the .club domain; triage CSV at
+  reports/triage/gtig-distinct-clusters-2026-08-21.csv. No CIDR claimed by
+  the report. Linkage lead (hypothesis, not attribution): 107.189.18.7
+  sits in the same 107.189.0.0/16 provider range (FranTech/PONYNET) as
+  107.189.26.194 (ChocoShell C2, pending 2026-08-18 CaptiveCrunch YAML) —
+  provider-level overlap only, see 2026-08-21 digest cross-campaign
+  section.
+
+domains:
+  - fewfwfwfwfwf.info
+  - miov2iaiaoubqosiqoiajwowiwjso.online
+  - mioisiskwowiwjowuwjwolab.club
+
+ipv4:
+  - 107.189.18.7
+  - 196.251.107.171
