@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-21 06:36:20
+# Generated: 2026-08-21 12:34:09
 # Entries: 536819
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -183706,6 +183706,7 @@
 0.0.0.0 colias.dedspac.ru
 0.0.0.0 colias.virosat.ru
 0.0.0.0 colibanboxes.com.au
+0.0.0.0 colibrik.com
 0.0.0.0 colibrita.ru
 0.0.0.0 colic.dedspac.ru
 0.0.0.0 colic.ulitron.ru
@@ -289533,7 +289534,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -298843,7 +298843,6 @@
 0.0.0.0 indus.dedspac.ru
 0.0.0.0 indus.iad-01.braze.com
 0.0.0.0 indus.virosat.ru
-0.0.0.0 indusenterprises.co
 0.0.0.0 indusfood.com.pk
 0.0.0.0 indusgreenassociates.com
 0.0.0.0 indusmarket.ru
@@ -309951,7 +309950,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -321005,6 +321003,7 @@
 0.0.0.0 kedrovan.ru
 0.0.0.0 keds8o2e.vectorguitars.com
 0.0.0.0 kedtar.cf
+0.0.0.0 kee126.com
 0.0.0.0 keefemagic.com
 0.0.0.0 keefs.dedspac.ru
 0.0.0.0 keefs.ulitron.ru
@@ -326157,6 +326156,7 @@
 0.0.0.0 kreliumpro.com
 0.0.0.0 krelixbarden.com
 0.0.0.0 krelvin.click
+0.0.0.0 krem.mesoptik.com
 0.0.0.0 krembo.freedynamicdns.org
 0.0.0.0 kremenchug.org.ua
 0.0.0.0 kremenovicmikanovic.new-appbox.com
@@ -401511,7 +401511,6 @@
 0.0.0.0 oilymedication.cn
 0.0.0.0 oilzero.nl
 0.0.0.0 oilzero.org
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -477111,6 +477110,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
