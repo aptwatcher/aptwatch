@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-20 18:34:18
-# Entries: 536800
+# Generated: 2026-08-21 00:34:02
+# Entries: 536817
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -86270,7 +86270,6 @@
 0.0.0.0 anyeleventura.github.io
 0.0.0.0 anyesha-biswas.github.io
 0.0.0.0 anyhealthtips.com
-0.0.0.0 anyhoo.testeaza.eu
 0.0.0.0 anyillustrations.com
 0.0.0.0 anyimage.top
 0.0.0.0 anylist.c.appier.net
@@ -100054,6 +100053,7 @@
 0.0.0.0 art-gou.com.cn
 0.0.0.0 art-gymnastics.ru
 0.0.0.0 art-hous.ru
+0.0.0.0 art-jewels.de
 0.0.0.0 art-juli.ru
 0.0.0.0 art-labs-design.ru
 0.0.0.0 art-nautic.com
@@ -123151,6 +123151,7 @@
 0.0.0.0 azlon.virosat.ru
 0.0.0.0 azlons.virosat.ru
 0.0.0.0 azlort.pages.dev
+0.0.0.0 azlvaka.vu
 0.0.0.0 azmanagers.000webhostapp.com
 0.0.0.0 azmaonline.com
 0.0.0.0 azmaotan.com
@@ -138304,6 +138305,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -187602,6 +187604,7 @@
 0.0.0.0 connectivity-bridge-trezor.webflow.io
 0.0.0.0 connectivity-trzxrr.pages.dev
 0.0.0.0 connectlink7.webcindario.com
+0.0.0.0 connectmagazineads.com
 0.0.0.0 connectmebot.xyz
 0.0.0.0 connectmetamask.com
 0.0.0.0 connectmewallet.gitbook.io
@@ -212648,8 +212651,10 @@
 0.0.0.0 docuslgnauth.azurewebsites.net
 0.0.0.0 docuslgnread.diskstation.org
 0.0.0.0 docuslot-portfolio.myportfolio.com
+0.0.0.0 docuslutmentadoonline.top
 0.0.0.0 docusognauth.azurewebsites.net
 0.0.0.0 docutickverify.tk
+0.0.0.0 docuuumennnntonline.top
 0.0.0.0 docuvault.cc
 0.0.0.0 docuware.duckdns.org
 0.0.0.0 docview.cloud
@@ -223779,6 +223784,7 @@
 0.0.0.0 elwyndatamere.com
 0.0.0.0 elxftclyntawhqtv-dot-millinium.ey.r.appspot.com
 0.0.0.0 elxmaiutmodzbkrr-dot-millinium.ey.r.appspot.com
+0.0.0.0 elxxvvx.xyz
 0.0.0.0 ely.dedspac.ru
 0.0.0.0 elymi.ulitron.ru
 0.0.0.0 elynqorevazemixtrade.com
@@ -242775,6 +242781,7 @@
 0.0.0.0 fdre-e589c.web.app
 0.0.0.0 fdreyb.pages.dev
 0.0.0.0 fdrptdrmtueidpis-dot-millinium.ey.r.appspot.com
+0.0.0.0 fdrv.beeyuskincare.co.nz
 0.0.0.0 fdryu5.pages.dev
 0.0.0.0 fdsagdfg.rf.gd
 0.0.0.0 fdsbvb4857-com.preview-domain.com
@@ -280424,6 +280431,7 @@
 0.0.0.0 helmorixytrade.com
 0.0.0.0 helmorixytrade.net
 0.0.0.0 helmtb566verfy.myvnc.com
+0.0.0.0 helnivo.vu
 0.0.0.0 heloban.game-host.org
 0.0.0.0 helodvg.com
 0.0.0.0 heloe.dedspac.ru
@@ -289524,6 +289532,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -295467,6 +295476,7 @@
 0.0.0.0 iki.daleriki.com
 0.0.0.0 ikiginqfyr.duckdns.org
 0.0.0.0 ikikuiu.weeblysite.com
+0.0.0.0 ikincielesyaciankara.com.tr
 0.0.0.0 ikitele.vercel.app
 0.0.0.0 ikiztarim.com
 0.0.0.0 ikjgttlfww.duckdns.org
@@ -298832,7 +298842,6 @@
 0.0.0.0 indus.dedspac.ru
 0.0.0.0 indus.iad-01.braze.com
 0.0.0.0 indus.virosat.ru
-0.0.0.0 indusenterprises.co
 0.0.0.0 indusfood.com.pk
 0.0.0.0 indusgreenassociates.com
 0.0.0.0 indusmarket.ru
@@ -309940,6 +309949,7 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
+0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -360454,6 +360464,7 @@
 0.0.0.0 meeting-bonus.firebaseapp.com
 0.0.0.0 meeting-bonus.web.app
 0.0.0.0 meeting.azurefd.net
+0.0.0.0 meeting.supply-reflection.shop
 0.0.0.0 meeting57422d52.scanlonchiro.com
 0.0.0.0 meeting86952.scanlonchiro.com
 0.0.0.0 meetingconcern.com
@@ -379600,6 +379611,7 @@
 0.0.0.0 multiresollvedapp.pages.dev
 0.0.0.0 multiresolveapp.pages.dev
 0.0.0.0 multirestoreauth.pages.dev
+0.0.0.0 multisavcx.xyz
 0.0.0.0 multiscalingdeclou.pages.dev
 0.0.0.0 multisellerdemo.arraybricks.com
 0.0.0.0 multiservicios.jmingenieriayservicios.com
@@ -413764,6 +413776,7 @@
 0.0.0.0 paulagomeez.mnrimaapadnyitygsshkmpre.link
 0.0.0.0 paulaherlo.ro
 0.0.0.0 paulajuan.com
+0.0.0.0 paularavanelli.com.br
 0.0.0.0 paulatierney.com
 0.0.0.0 paulbrotsky.brotskydesigns.com
 0.0.0.0 paulcaltier.pl
@@ -441320,6 +441333,7 @@
 0.0.0.0 pythagore.demdex.net
 0.0.0.0 pythiancastlehagerstown.com
 0.0.0.0 pythocapital.com
+0.0.0.0 python3.en-us--balancing.co
 0.0.0.0 pythonctf.com
 0.0.0.0 pythonvista.github.io
 0.0.0.0 pytimdashboard.co.at
@@ -457431,6 +457445,7 @@
 0.0.0.0 robinhoodogine.gitbook.io
 0.0.0.0 robinhoodslogin.weebly.com
 0.0.0.0 robinhoodtre.top
+0.0.0.0 robinhoodwallet.dervano.vu
 0.0.0.0 robinhoodxlogi.gitbook.io
 0.0.0.0 robinhooed.top
 0.0.0.0 robinhoologin.wixsite.com
@@ -480191,6 +480206,7 @@
 0.0.0.0 swan.ulitron.ru
 0.0.0.0 swanksoft.com
 0.0.0.0 swankysquare.com
+0.0.0.0 swanrecovery.com
 0.0.0.0 swans.dedspac.ru
 0.0.0.0 swanstudio.mom
 0.0.0.0 swap-14xexalgo.com
@@ -532280,6 +532296,7 @@
 0.0.0.0 www.zenitique.shop
 0.0.0.0 www.zenitrendivo.net
 0.0.0.0 www.zenkurasi.shop
+0.0.0.0 www.zenledgerpolicy.com
 0.0.0.0 www.zenlivying.shop
 0.0.0.0 www.zennatural.pl
 0.0.0.0 www.zennewinstholm.com
