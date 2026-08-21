@@ -1,0 +1,39 @@
+# UNC6293 — app-specific-password (ASP) + OAuth "verification code"
+# phishing, GTIG "Going with the Flow(s)" 2026-08-20.
+#
+# NEW CAMPAIGN: UNC6293 is assessed by GTIG with moderate confidence as an
+# ICE RELIC (formerly APT29 / SVR) initial-access sub-cluster. Deliberately
+# NOT attached to 'APT29 / Cozy Bear' or 'Earth Koshchei' (same rationale
+# as the Storm-2945 campaign: 'Midnight Blizzard'/'APT29' are ambiguous
+# aliases of both). Distinct tracked cluster since June 2025 (GTIG +
+# Citizen Lab ASP-phishing reporting).
+
+author: APTWatch Curator
+source: "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/"
+source_name: "GTIG: Going with the Flow(s) — Distinct Clusters Target Individuals of Interest to Russia"
+
+apt_groups:
+  - UNC6293 ASP/OAuth Phishing (ICE RELIC-linked)
+  - UNC6293
+
+description: >
+  GTIG 2026-08-20 update on UNC6293, a suspected Russian (ICE RELIC/APT29
+  -linked, moderate confidence) cluster running highly selective (<5
+  targets/wave) app-specific-password phishing against academics,
+  journalists and critics of Russia, impersonating US State Department
+  officials (ms.state.gov app-password lure PDFs reused since June 2025).
+  Since October 2025 the app password is harvested via a web form instead
+  of email reply; since June 2026 the cluster also runs OAuth phishing
+  asking targets to relay the post-login "verification code"/URL.
+  foreignrelations.us hosts the verification-code phishing page (Figure 2);
+  dosportal.app is a phishing domain. Both attacker-registered per GTIG —
+  curator override of triage-heuristic needs_review default for
+  foreignrelations.us (vendor attribution explicit); triage CSV at
+  reports/triage/gtig-distinct-clusters-2026-08-21.csv. Prior reporting:
+  GTIG June 2025, Citizen Lab June 2025, Volexity December 2025. Discovery
+  vector: Google TI RSS feed. No IP/URL/CVE IOCs published for this
+  cluster.
+
+domains:
+  - dosportal.app
+  - foreignrelations.us

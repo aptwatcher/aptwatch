@@ -1,0 +1,55 @@
+# UNC5976 — OAuth cloud-project token phishing + HEADRUSH Excel plugin,
+# GTIG "Going with the Flow(s)" 2026-08-20.
+#
+# NEW CAMPAIGN: suspected Russian espionage cluster tracked by GTIG since
+# March 2026, assessed DISTINCT from the ICE RELIC-linked UNC6293/UNC7005
+# clusters (dedicated post-compromise infra instead of residential proxies,
+# heavier malware footprint, Ukraine/Armenia + defense-industrial-base
+# targeting; possibly a different Russian service). Kept separate from all
+# APT29-family campaigns.
+#
+# kiis.co.uk apex: GTIG lists only mail.kiis.co.uk. Curator WHOIS check
+# (Whoxy, 2026-08-21) shows kiis.co.uk created 2026-04-16 via Namecheap,
+# registrant redacted, registrar-default NS — fresh registration exactly
+# matching the April 2026 HEADRUSH distribution window and the report's
+# "domain that impersonated a research institute in Ukraine" (lookalike of
+# kiis.com.ua, Kyiv International Institute of Sociology). Verdict:
+# attacker-registered -> malicious, overriding the offline triage
+# heuristic's conservative 'compromised' default.
+#
+# HEADRUSH SHA-256 2c7f4165... logged in digest only (no hash table).
+
+author: APTWatch Curator
+source: "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/"
+source_name: "GTIG: Going with the Flow(s) — Distinct Clusters Target Individuals of Interest to Russia"
+
+apt_groups:
+  - UNC5976 OAuth Cloud-Project Phishing / HEADRUSH
+  - UNC5976
+
+description: >
+  GTIG 2026-08-20 report on UNC5976, a suspected Russian espionage cluster
+  (distinct from ICE RELIC-linked UNC6293/UNC7005) running Google OAuth
+  phishing since March 2026: attacker-purchased file-sharing-themed domains
+  host fake file-share pages that push targets through a legitimate Google
+  OAuth login, then redirect to attacker cloud projects that automate
+  authentication-token collection. At least twelve new domains created
+  within ~3 months of GTIG disruption; the cluster is migrating off Google
+  infrastructure. verify-drive.com is attacker-purchased (Figure 21 OAuth
+  page); drive.google.verify-drive.com is its deceptive Google-spoofing
+  host (path-precise child + apex per context-anchor rule). In April 2026
+  UNC5976 distributed HEADRUSH, a malicious Excel plugin leading to an HTA
+  downloader, via mail.kiis.co.uk on the fresh-registered (2026-04-16,
+  Namecheap, WHOIS-redacted) lookalike apex kiis.co.uk impersonating a
+  Ukrainian research institute; possible target: a Ukrainian aerospace and
+  imaging company. Targeting: military, aerospace, defense industrial
+  base, NGOs/think tanks, centered on Ukraine and Armenia. Triage CSV at
+  reports/triage/gtig-distinct-clusters-2026-08-21.csv (curator WHOIS
+  override documented above). Discovery vector: Google TI RSS feed. No
+  IP/URL/CVE IOCs published for this cluster.
+
+domains:
+  - drive.google.verify-drive.com
+  - verify-drive.com
+  - mail.kiis.co.uk
+  - kiis.co.uk

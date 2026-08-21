@@ -1,0 +1,54 @@
+# Midnight Blizzard CaptiveCrunch (Storm-2945) — captive-portal hijack
+# campaign against travelers, Microsoft Threat Intelligence 2026-07-31
+#
+# NEW SUB-CAMPAIGN: Storm-2945 is a Midnight Blizzard (APT29/SVR) sub-cluster
+# per Microsoft. Deliberately NOT attached to the existing 'APT29 / Cozy Bear'
+# or 'Earth Koshchei' campaigns: 'Midnight Blizzard' is an alias of BOTH
+# (ambiguous alias — loader would refuse), and CaptiveCrunch is distinct
+# tracked activity. 'Midnight Blizzard' intentionally NOT added as an alias
+# here to avoid a three-way alias collision.
+#
+# Hashes logged in the 2026-08-18 digest only (no hash table in flat schema):
+# CornFlake SHA-256 918fa52a..., ChocoShell SHA-256 be998574...
+
+author: APTWatch Curator
+source: "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/"
+source_name: "Microsoft Threat Intelligence: CaptiveCrunch — Midnight Blizzard targets travelers worldwide for malware delivery and credential theft"
+
+apt_groups:
+  - Midnight Blizzard CaptiveCrunch (Storm-2945)
+  - Storm-2945
+  - CaptiveCrunch
+
+description: >
+  Backfill of Microsoft Threat Intelligence's 2026-07-31 CaptiveCrunch report.
+  Storm-2945, a sub-cluster of Midnight Blizzard (APT29 / SVR), hijacks hotel
+  and conference captive portals since early May 2026, answering OS/browser
+  connectivity checks with fake update pages (ClickFix paste-and-run, some
+  APK delivery) and, from 2026-07-16, device-code-flow phishing against
+  genuine Microsoft sign-in. Implants: CornFlake (Go RAT, service name
+  "Cloud Sync Service"), ChocoShell (in-memory PowerShell infostealer, AMSI
+  bypass, steals M365 SSO tokens / cookies / Wi-Fi creds), FruitStone C2
+  panel. Domains are attacker-registered Microsoft-lookalikes (malicious):
+  ms365-device.com and ms365-live.com are device-code-flow redirects;
+  m365-owa.com and owa-ms365.com are AitM infrastructure. IPs are AitM
+  servers, CaptiveCrunch DNS resolvers and ChocoShell C2 per the report's IOC
+  table (107.189.26.194 already in DB unattributed at 0.0 — this report adds
+  attribution). No CIDR claimed by the report. Sister coverage: ReliaQuest
+  2026-07-23
+  (https://reliaquest.com/blog/threat-spotlight-dns-poisoning-tactics-expand-to-hospitality/),
+  Zscaler ThreatLabz, Infosecurity Magazine 2026-08-03 (discovery vector).
+
+domains:
+  - ms365-device.com
+  - ms365-live.com
+  - m365-owa.com
+  - owa-ms365.com
+
+ipv4:
+  - 31.57.243.154
+  - 38.146.28.75
+  - 38.146.28.132
+  - 104.194.159.150
+  - 107.189.26.194
+  - 213.145.86.112
