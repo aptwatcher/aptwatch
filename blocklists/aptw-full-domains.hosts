@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-21 06:06:03
-# Entries: 536818
+# Generated: 2026-08-21 06:36:20
+# Entries: 536819
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -181460,6 +181460,7 @@
 0.0.0.0 coconut6932483.brizy.site
 0.0.0.0 coconutcrea.buzz
 0.0.0.0 coconutmilkextractor.com
+0.0.0.0 coconutoficial.com.br
 0.0.0.0 coconutoils.org
 0.0.0.0 coconutstock.com
 0.0.0.0 cocooler.com
