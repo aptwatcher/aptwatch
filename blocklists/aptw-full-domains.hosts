@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-21 18:34:01
-# Entries: 536823
+# Generated: 2026-08-22 00:33:39
+# Entries: 536842
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -74147,7 +74147,6 @@
 0.0.0.0 altamira.bluestacko.ru
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
-0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanyucetas.com
 0.0.0.0 altapayvale.com
@@ -172553,6 +172552,7 @@
 0.0.0.0 chamar.dedspac.ru
 0.0.0.0 chambalin.wixsite.com
 0.0.0.0 chamber-properly-glenn-polo.trycloudflare.com
+0.0.0.0 chamber-ua.org
 0.0.0.0 chamber.blackchamber.ca
 0.0.0.0 chambers.matsuro.ru
 0.0.0.0 chambersbayinsurancesa.com
@@ -213639,6 +213639,7 @@
 0.0.0.0 doskicentr.ru
 0.0.0.0 dosletrastequila.com
 0.0.0.0 dosnmxgviepmmstmnmobdbwqre-dot-gloff849483.uk.r.appspot.com
+0.0.0.0 dosportal.app
 0.0.0.0 dospunceroabr1.vercel.app
 0.0.0.0 doss.bortogat.ru
 0.0.0.0 doss.dedspac.ru
@@ -215133,6 +215134,7 @@
 0.0.0.0 drive.google.com.jdvz.net
 0.0.0.0 drive.google.com.pdfdocument.bcuworks.com
 0.0.0.0 drive.google.sepamate.fr
+0.0.0.0 drive.google.verify-drive.com
 0.0.0.0 drive.google.webtechuanta.com
 0.0.0.0 drive.sier.my.id
 0.0.0.0 drive.sparkdrive.online
@@ -250267,6 +250269,7 @@
 0.0.0.0 fobqrustdlcypkzv-dot-millinium.ey.r.appspot.com
 0.0.0.0 fobress.hicam.net
 0.0.0.0 foc-share.com
+0.0.0.0 foc-share.org
 0.0.0.0 focalcurl.icu
 0.0.0.0 focalframe53.icu
 0.0.0.0 focar.vn
@@ -250872,6 +250875,7 @@
 0.0.0.0 foreign4k.com
 0.0.0.0 foreignapexmargin.net
 0.0.0.0 foreignlivingsolutions.org
+0.0.0.0 foreignrelations.us
 0.0.0.0 foreignreview.com
 0.0.0.0 forel.virosat.ru
 0.0.0.0 foremost-brave-mouse.glitch.me
@@ -264430,6 +264434,7 @@
 0.0.0.0 globomailatendim.tmp.k8.com.br
 0.0.0.0 globosolucoes.com
 0.0.0.0 globs.ulitron.ru
+0.0.0.0 globsec.net
 0.0.0.0 globulus.xyz
 0.0.0.0 globusdate.com
 0.0.0.0 globusjourneys.in
@@ -303797,6 +303802,7 @@
 0.0.0.0 internal-rdpfix.pages.dev
 0.0.0.0 internal-revenue.recoverbaycounty.net
 0.0.0.0 internal-selvorn-meta-frelin-archive.pages.dev
+0.0.0.0 internal-share.com
 0.0.0.0 internal-shelvon-meta-parnith-archive.pages.dev
 0.0.0.0 internal-simtrix-meta-audit-log.pages.dev
 0.0.0.0 internal-sivron-meta-control-map.pages.dev
@@ -322462,6 +322468,7 @@
 0.0.0.0 kiip.me
 0.0.0.0 kiipsich.vercel.app
 0.0.0.0 kiirakenliogiun.gitbook.io
+0.0.0.0 kiis.co.uk
 0.0.0.0 kiiucoinleggiun.webflow.io
 0.0.0.0 kiiujsh.xyz
 0.0.0.0 kijiji-refund-onlinepaymentkijiji.kijijrefunonline.com
@@ -326160,6 +326167,7 @@
 0.0.0.0 kreliumpro.com
 0.0.0.0 krelixbarden.com
 0.0.0.0 krelvin.click
+0.0.0.0 krem.mesoptik.com
 0.0.0.0 krembo.freedynamicdns.org
 0.0.0.0 kremenchug.org.ua
 0.0.0.0 kremenovicmikanovic.new-appbox.com
@@ -351722,6 +351730,7 @@
 0.0.0.0 mail.kia-siloammotors.com
 0.0.0.0 mail.kidsbookaccelerator.com
 0.0.0.0 mail.kidsquizonline.com
+0.0.0.0 mail.kiis.co.uk
 0.0.0.0 mail.kiki-event101.duckdns.org
 0.0.0.0 mail.kilspark-event888.duckdns.org
 0.0.0.0 mail.kimsinh.vn
@@ -375639,6 +375648,7 @@
 0.0.0.0 mon--cadepartementregional.ml
 0.0.0.0 mon--departementregional-fbc40.web.app
 0.0.0.0 mon-b.hongo.top
+0.0.0.0 mon-blanc-04.cfd
 0.0.0.0 mon-bricoleur.fr
 0.0.0.0 mon-compte-agricole-credit.ch20412.tmweb.ru
 0.0.0.0 mon-compte-bnp.web.app
@@ -381089,6 +381099,7 @@
 0.0.0.0 my-id-telstra-com-au.info
 0.0.0.0 my-info-ee.web.app
 0.0.0.0 my-intesabank.com
+0.0.0.0 my-invite.org
 0.0.0.0 my-ionos-update-help55419763.blogspot.com
 0.0.0.0 my-iri.org
 0.0.0.0 my-itrust--capital-com-auths.webflow.io
@@ -395153,7 +395164,6 @@
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
 0.0.0.0 northernseedmontana.com
-0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
 0.0.0.0 northga.rocks
@@ -404568,6 +404578,7 @@
 0.0.0.0 onlyinyqg.com
 0.0.0.0 onlymelmaia.digital
 0.0.0.0 onlynowqwertn.work.gd
+0.0.0.0 onlypackaging.grupoinde.com
 0.0.0.0 onlyprizesonline.com
 0.0.0.0 onlytoday.biz
 0.0.0.0 onlytransappsprotocol.online
@@ -440178,6 +440189,7 @@
 0.0.0.0 pulbarlhbossqu.000webhostapp.com
 0.0.0.0 puled.dedspac.ru
 0.0.0.0 pulex.dedspac.ru
+0.0.0.0 pulgarinrealtor.com
 0.0.0.0 pulgatore8721.hursola.repl.co
 0.0.0.0 pulharktheherald.112.2o7.net
 0.0.0.0 pulhotvirt.hursola.repl.co
@@ -470347,6 +470359,7 @@
 0.0.0.0 share-clouds.com
 0.0.0.0 share-drive-ua.com
 0.0.0.0 share-file-online.eu
+0.0.0.0 share-foc.com
 0.0.0.0 share-point.on-line-site.com
 0.0.0.0 share-point5463583758297998475.pages.dev
 0.0.0.0 share-server.com
@@ -470951,6 +470964,7 @@
 0.0.0.0 shopifysite.cn
 0.0.0.0 shopifytt1.vip
 0.0.0.0 shopigo.fr
+0.0.0.0 shopinvite.org
 0.0.0.0 shopkeep.fr
 0.0.0.0 shoplaner.store
 0.0.0.0 shoplfyzero.icu
@@ -477114,6 +477128,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -478609,7 +478624,6 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
-0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamofdance.mom
 0.0.0.0 streamvod.pl
@@ -493654,6 +493668,7 @@
 0.0.0.0 uzziswmwjg.duckdns.org
 0.0.0.0 v-ak.chartboost.com
 0.0.0.0 v-bil-inc.weeblysite.com
+0.0.0.0 v-k.com.ua
 0.0.0.0 v-start-ledger-auth.webflow.io
 0.0.0.0 v-support.free.bg
 0.0.0.0 v-trend.jp
@@ -494821,6 +494836,7 @@
 0.0.0.0 verify-center-accounts.vercel.app
 0.0.0.0 verify-checkpage-information.vercel.app
 0.0.0.0 verify-cs2.net
+0.0.0.0 verify-drive.com
 0.0.0.0 verify-email-token.vercel.app
 0.0.0.0 verify-field.com
 0.0.0.0 verify-gosuslugi.ru
@@ -497074,6 +497090,9 @@
 0.0.0.0 w9z1vupcj.localto.net
 0.0.0.0 wa-b.warpamen.top
 0.0.0.0 wa-connect.eu
+0.0.0.0 wa-connect.net
+0.0.0.0 wa-device.com
+0.0.0.0 wa-invite.com
 0.0.0.0 wa-meeting.com
 0.0.0.0 wa-private-chat.vercel.app
 0.0.0.0 wa-track.com
