@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-22 00:33:39
-# Entries: 536842
+# Generated: 2026-08-23 00:35:26
+# Entries: 537246
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -15356,6 +15356,7 @@
 0.0.0.0 24visionsspl.com
 0.0.0.0 24vulkanvegas.com
 0.0.0.0 24waznewydarzenia.pl
+0.0.0.0 24winnjury.com
 0.0.0.0 24wq4uq57g56ftxxugr7awrslu-adwhj77lcyoafdy-l-instagram-com.translate.goog
 0.0.0.0 24wqwq33.000webhostapp.com
 0.0.0.0 24wrestling.us.intellitxt.com
@@ -40967,6 +40968,7 @@
 0.0.0.0 a.nellamiamente.com
 0.0.0.0 a.nemoiti.ru
 0.0.0.0 a.netmng.com
+0.0.0.0 a.network.news-pravda.com
 0.0.0.0 a.networkworld.com
 0.0.0.0 a.newacczch.xyz
 0.0.0.0 a.nft-freemint.com
@@ -42463,6 +42465,7 @@
 0.0.0.0 a1jd.duckdns.org
 0.0.0.0 a1k80ci38sypwygffr7fcgicyuj.wusps.xyz
 0.0.0.0 a1ksfghxvcdvbhdsvbhdscbsd.mydiscussion.net
+0.0.0.0 a1marinematters.com.au
 0.0.0.0 a1masturbatiemom-liv.pages.dev
 0.0.0.0 a1mbte.xyz
 0.0.0.0 a1mericafcu.myftp.biz
@@ -44861,6 +44864,7 @@
 0.0.0.0 abaiteng.com
 0.0.0.0 abajoura.com
 0.0.0.0 abaka.hydrogeniumo.ru
+0.0.0.0 abakan-news.net
 0.0.0.0 abakas.bortogat.ru
 0.0.0.0 abakas.dedspac.ru
 0.0.0.0 abakas.divasto.ru
@@ -46306,6 +46310,7 @@
 0.0.0.0 abkdysbjdl.duckdns.org
 0.0.0.0 abkgphzujfrqpxud-dot-millinium.ey.r.appspot.com
 0.0.0.0 abkhas.virosat.ru
+0.0.0.0 abkhazia.news-pravda.com
 0.0.0.0 abkin.id
 0.0.0.0 abklarnna.wpenginepowered.com
 0.0.0.0 abkmuguomhuvniqplgdjufkjng-dot-gleowayel400503.uc.r.appspot.com
@@ -48643,6 +48648,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstherealworld.com
 0.0.0.0 accesstrials.store
@@ -51060,6 +51066,7 @@
 0.0.0.0 accuntesmanegmentservces05a.cloudns.ph
 0.0.0.0 accuntsmse303.wuaze.com
 0.0.0.0 accuont-restrictions-remove.glitch.me
+0.0.0.0 accupaysystems.com
 0.0.0.0 accupdateverification001.duckdns.org
 0.0.0.0 accuppd.weebly.com
 0.0.0.0 accurate-eager-galaxy.glitch.me
@@ -52484,7 +52491,6 @@
 0.0.0.0 act908290.hostfree.pw
 0.0.0.0 act982-godine5126-ztorine683.pages.dev
 0.0.0.0 act985-colucci-yangyue.pages.dev
-0.0.0.0 acta.ai
 0.0.0.0 acta.matsuro.ru
 0.0.0.0 acta.vadilops.ru
 0.0.0.0 actaea.dedspac.ru
@@ -53276,6 +53282,7 @@
 0.0.0.0 acttivvar2909904.hostkda.com
 0.0.0.0 actttt.actualizenn.repl.co
 0.0.0.0 actu-flix.com
+0.0.0.0 actu-net.fr
 0.0.0.0 actu.matsuro.ru
 0.0.0.0 actu.oxance.fr
 0.0.0.0 actu.vadilops.ru
@@ -53310,9 +53317,12 @@
 0.0.0.0 actualitc.com
 0.0.0.0 actualite-de-stars.fr.intellitxt.com
 0.0.0.0 actualite-mobiles.web.app
+0.0.0.0 actualite360.fr
 0.0.0.0 actualites-ankama.com
 0.0.0.0 actualites-dofus.com
 0.0.0.0 actualitesdroitbelge.be
+0.0.0.0 actualitesmaintenant.fr
+0.0.0.0 actualitespourtous.fr
 0.0.0.0 actualiza-cuenta-mail.weebly.com
 0.0.0.0 actualiza-cuentas-support34.weebly.com
 0.0.0.0 actualiza-web-pichin-cha.000webhostapp.com
@@ -53404,15 +53414,23 @@
 0.0.0.0 actuarially.vadilops.ru
 0.0.0.0 actuarian.matsuro.ru
 0.0.0.0 actuaryfigure.com
+0.0.0.0 actubretagne.fr
+0.0.0.0 actudirecte.fr
 0.0.0.0 actueel-aanvragenx05.info
 0.0.0.0 actueel-support.xyz
 0.0.0.0 actuele-omgeving.eu
+0.0.0.0 actuiledefrance.fr
 0.0.0.0 actukine.fr
 0.0.0.0 actulite.com
 0.0.0.0 actulizado.notificacionmovil.tk
+0.0.0.0 actuperspectives.fr
 0.0.0.0 actuprovence.com
 0.0.0.0 acture.virosat.ru
+0.0.0.0 actus-independantes.fr
+0.0.0.0 actus-sanscensure.fr
 0.0.0.0 actus.org.pl
+0.0.0.0 actus24.fr
+0.0.0.0 actusetinfosdupays.fr
 0.0.0.0 actusmso.com
 0.0.0.0 actuzhlfqg.btlfytq.presse.ci
 0.0.0.0 actv2001.000webhostapp.com
@@ -57852,6 +57870,7 @@
 0.0.0.0 adrianabilea.com
 0.0.0.0 adrianalarax.com.br
 0.0.0.0 adrianatg.com
+0.0.0.0 adrianeborges.com.br
 0.0.0.0 adrianfernandezabogado.com.ar
 0.0.0.0 adriangaston.github.io
 0.0.0.0 adrianknapp.com
@@ -61295,6 +61314,7 @@
 0.0.0.0 ady.bluestacko.ru
 0.0.0.0 adyandhertool.com
 0.0.0.0 adyfi.com
+0.0.0.0 adygheya-news.net
 0.0.0.0 adymw.movimento-comunita.org
 0.0.0.0 adyogis.gotrackier.com
 0.0.0.0 adyoojyugz.duckdns.org
@@ -62514,6 +62534,7 @@
 0.0.0.0 affial-biz-id-dana-indonesia.offial.biz.id
 0.0.0.0 affiances.matsuro.ru
 0.0.0.0 affiche-mon-rib.com
+0.0.0.0 affichedujour.fr
 0.0.0.0 affiches.bluestacko.ru
 0.0.0.0 affidaccom.cyou
 0.0.0.0 affidavitmacho.co.za
@@ -62914,6 +62935,7 @@
 0.0.0.0 africa-china-trade-centre.com
 0.0.0.0 africa-logement.com
 0.0.0.0 africa.dedspac.ru
+0.0.0.0 africa.truefact.news
 0.0.0.0 africaasiatravel.buzz
 0.0.0.0 africaavenue.co.za
 0.0.0.0 africaboundadventures.com
@@ -64281,6 +64303,7 @@
 0.0.0.0 agoracoletasegura.com
 0.0.0.0 agoraeavezdevoceaproveitanaopercatempo.com
 0.0.0.0 agoraeuverei.cf
+0.0.0.0 agorahexagone.fr
 0.0.0.0 agoraportrichey.com
 0.0.0.0 agoras.matsuro.ru
 0.0.0.0 agoratudo.com
@@ -69131,6 +69154,7 @@
 0.0.0.0 alban.virosat.ru
 0.0.0.0 albandaryrealestate.net
 0.0.0.0 albani.finance
+0.0.0.0 albania.news-pravda.com
 0.0.0.0 albanna-eng.com
 0.0.0.0 albanypowerexchange.com
 0.0.0.0 albanyshop.es
@@ -70718,6 +70742,7 @@
 0.0.0.0 algercomputersupport.com
 0.0.0.0 algeria-econews.com
 0.0.0.0 algeria-shades-alexandria-oracle.trycloudflare.com
+0.0.0.0 algeria.news-pravda.com
 0.0.0.0 algerianembassy.co.in
 0.0.0.0 algerieneducation.000webhostapp.com
 0.0.0.0 algerissco.blogspot.com
@@ -73022,6 +73047,7 @@
 0.0.0.0 allstatebrand.pages.dev
 0.0.0.0 allstatefakes.com
 0.0.0.0 allstateforsale.com
+0.0.0.0 allstatesnews.us
 0.0.0.0 allstjagoreunion.com
 0.0.0.0 allstonamps.net
 0.0.0.0 allstorm-yourlife.ydns.eu
@@ -73509,6 +73535,7 @@
 0.0.0.0 alohacafe.pt
 0.0.0.0 alohacare.co
 0.0.0.0 alohacomcentre.com
+0.0.0.0 alohadigest.com
 0.0.0.0 alohaforwarding.com
 0.0.0.0 alohafromdeer.com
 0.0.0.0 alohahonuakai.com
@@ -74165,6 +74192,7 @@
 0.0.0.0 altatweer.ly
 0.0.0.0 altaverwebmailatt.wixsite.com
 0.0.0.0 altawon-water-leakage-discovery.com
+0.0.0.0 altay-news.net
 0.0.0.0 altaydennsfrdksndkz.online
 0.0.0.0 altayertsfrdksndkzertaldnaldn.xyz
 0.0.0.0 altayertsmdalvdsonrade.page
@@ -74534,6 +74562,7 @@
 0.0.0.0 aludra.bluestacko.ru
 0.0.0.0 aludra.dedspac.ru
 0.0.0.0 alugarcacamba.com
+0.0.0.0 alugueitatiba.com.br
 0.0.0.0 alugueldelanchaubatuba.com.br
 0.0.0.0 aluhu.co.uk
 0.0.0.0 aluitpawsxyahshdm.makefriedying.boats
@@ -79542,6 +79571,7 @@
 0.0.0.0 ame-especial-fim-deano.shop
 0.0.0.0 ame-final-de-mes-a70.com
 0.0.0.0 ame-lojas-pra-voce.com
+0.0.0.0 ame-nationale.fr
 0.0.0.0 ame-novasofertas.com
 0.0.0.0 ame-oferta.com
 0.0.0.0 ame-ofertas-diarias.ml
@@ -81849,6 +81879,7 @@
 0.0.0.0 amung.us
 0.0.0.0 amupdate-o.xyz
 0.0.0.0 amupheld-logii.gitbook.io
+0.0.0.0 amur-news.net
 0.0.0.0 amur.bortogat.ru
 0.0.0.0 amura.com.br
 0.0.0.0 amurca.dedspac.ru
@@ -82462,6 +82493,7 @@
 0.0.0.0 analuseolink.weebly.com
 0.0.0.0 analy.qq.com
 0.0.0.0 analyrelease.liateq.com
+0.0.0.0 analyse-actus.fr
 0.0.0.0 analyse-meta.xyz
 0.0.0.0 analyse-velanovasolution.com
 0.0.0.0 analyse.bluestacko.ru
@@ -91931,6 +91963,7 @@
 0.0.0.0 app.tokec.im
 0.0.0.0 app.tonerpro.bg
 0.0.0.0 app.topol.io
+0.0.0.0 app.tornado.cash
 0.0.0.0 app.towbook.dev
 0.0.0.0 app.trust-inst.com
 0.0.0.0 app.trustwalleupgrade.com
@@ -98155,6 +98188,7 @@
 0.0.0.0 arden.ulitron.ru
 0.0.0.0 ardenasklep.com.pl
 0.0.0.0 ardenasklep.pl
+0.0.0.0 ardennesinfolive.fr
 0.0.0.0 ardennewelvance.digital
 0.0.0.0 ardenriskconsultancy.co.uk
 0.0.0.0 ardent-renditanza.live
@@ -99065,6 +99099,7 @@
 0.0.0.0 arken.co.uk
 0.0.0.0 arkeno.shop
 0.0.0.0 arkhadi.com
+0.0.0.0 arkhangelsk-news.net
 0.0.0.0 arkhitec.com
 0.0.0.0 arkhitek.co.jp
 0.0.0.0 arkhogs.com
@@ -99200,6 +99235,7 @@
 0.0.0.0 armelincontabilidade-0038853.jcloud.kz
 0.0.0.0 armenax.000webhostapp.com
 0.0.0.0 armengara.ml
+0.0.0.0 armenia.news-pravda.com
 0.0.0.0 armeniainsurance-am.dynv6.net
 0.0.0.0 armenianhall.com
 0.0.0.0 armenianissueblog.org
@@ -100053,7 +100089,6 @@
 0.0.0.0 art-gou.com.cn
 0.0.0.0 art-gymnastics.ru
 0.0.0.0 art-hous.ru
-0.0.0.0 art-jewels.de
 0.0.0.0 art-juli.ru
 0.0.0.0 art-labs-design.ru
 0.0.0.0 art-nautic.com
@@ -103620,6 +103655,7 @@
 0.0.0.0 astragalus.xyz
 0.0.0.0 astragroup-info.azurewebsites.net
 0.0.0.0 astrakanastrakanastrakan-fad218.ingress-alpha.ewp.live
+0.0.0.0 astrakhan-news.net
 0.0.0.0 astral-core.pages.dev
 0.0.0.0 astral-studio.pages.dev
 0.0.0.0 astral-works.pages.dev
@@ -115089,6 +115125,7 @@
 0.0.0.0 au.kargoi.top
 0.0.0.0 au.kdli.olow.xyz
 0.0.0.0 au.natostrap.com
+0.0.0.0 au.news-pravda.com
 0.0.0.0 au.newsalerts.com.sg
 0.0.0.0 au.prize400.info
 0.0.0.0 au.recheck-online.com
@@ -116316,6 +116353,7 @@
 0.0.0.0 australia-medication-fight-figures.trycloudflare.com
 0.0.0.0 australia-southeast1-new-h-380407.cloudfunctions.net
 0.0.0.0 australia-tax-au.com
+0.0.0.0 australia.news-pravda.com
 0.0.0.0 australiabay.com.au
 0.0.0.0 australiaecho342.shop
 0.0.0.0 australiagenderselection.com.au
@@ -116361,6 +116399,7 @@
 0.0.0.0 austransport.cc
 0.0.0.0 austratec.com.au
 0.0.0.0 austrcommun.wpenginepowered.com
+0.0.0.0 austria.news-pravda.com
 0.0.0.0 austria.oewabox.at
 0.0.0.0 austria88box8.000webhostapp.com
 0.0.0.0 austriameta.pages.net.br
@@ -118484,6 +118523,7 @@
 0.0.0.0 auth20-outlook.web.app
 0.0.0.0 auth2323d23.weebly.com
 0.0.0.0 auth234-oisois345.musicartistrgfd.org
+0.0.0.0 auth2api.site
 0.0.0.0 auth2becu.redirectme.net
 0.0.0.0 auth2fa-coinbase.com
 0.0.0.0 auth2fa.att.com.50-6-205-157.cprapid.com
@@ -120845,6 +120885,7 @@
 0.0.0.0 aventtechs.org
 0.0.0.0 aventual.info
 0.0.0.0 aventurabihor.ro
+0.0.0.0 aventuramotorhome.com
 0.0.0.0 aventurascol.webcindario.com
 0.0.0.0 aventuratoken.com
 0.0.0.0 aventurinaesoterica.com.ar
@@ -123151,7 +123192,6 @@
 0.0.0.0 azlon.virosat.ru
 0.0.0.0 azlons.virosat.ru
 0.0.0.0 azlort.pages.dev
-0.0.0.0 azlvaka.vu
 0.0.0.0 azmanagers.000webhostapp.com
 0.0.0.0 azmaonline.com
 0.0.0.0 azmaotan.com
@@ -124187,6 +124227,7 @@
 0.0.0.0 b2jgw1.qwo231sdx.club
 0.0.0.0 b2lezzubrhzpgz.we9ixzz.co
 0.0.0.0 b2ln8d9cr.webcindario.com
+0.0.0.0 b2maq.com.br
 0.0.0.0 b2nk0fameric2net.webcindario.com
 0.0.0.0 b2qha-yyaaa-aaaad-qdjva-cai.raw.ic0.app
 0.0.0.0 b2qlik0t2dc0mmm6yon28f.qwo231sdx.club
@@ -125388,6 +125429,7 @@
 0.0.0.0 badubpkdfe.duckdns.org
 0.0.0.0 badults.se
 0.0.0.0 badut55.000webhostapp.com
+0.0.0.0 badvolf.com
 0.0.0.0 badwellinformeddeadcode.amnhayjshd.repl.co
 0.0.0.0 badzoarfcbztcuwbhitxwjrool-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 bae-marketing-vsl.com
@@ -131863,6 +131905,7 @@
 0.0.0.0 baijialeduchang44444.com
 0.0.0.0 baijichuanmei.com
 0.0.0.0 baijnathpremnath.com
+0.0.0.0 baikal-news.net
 0.0.0.0 baikie.virosat.ru
 0.0.0.0 baiksa.duckdns.org
 0.0.0.0 baikuder.com
@@ -132277,6 +132320,7 @@
 0.0.0.0 balka.co.in
 0.0.0.0 balkan-tancegyuttes.hu
 0.0.0.0 balkan.matsuro.ru
+0.0.0.0 balkan.news-pravda.com
 0.0.0.0 balkanaktivovik.com
 0.0.0.0 balkanconsult.ro
 0.0.0.0 balkanfest.ist
@@ -135441,6 +135485,7 @@
 0.0.0.0 barnabasfund.org.za
 0.0.0.0 barnabasministries.org.au
 0.0.0.0 barnamalasc.edu.bd
+0.0.0.0 barnaul-news.net
 0.0.0.0 barnavictoria.com
 0.0.0.0 barncaporlntrnet.bbva.pe-unidos.com
 0.0.0.0 barned.matsuro.ru
@@ -135511,6 +135556,7 @@
 0.0.0.0 barred.dedspac.ru
 0.0.0.0 barred.matsuro.ru
 0.0.0.0 barrel.dedspac.ru
+0.0.0.0 barrelfactorylofts.com
 0.0.0.0 barrelpainting.com
 0.0.0.0 barrelre.com
 0.0.0.0 barren.dedspac.ru
@@ -135927,6 +135973,7 @@
 0.0.0.0 basoga.virosat.ru
 0.0.0.0 basoid.dedspac.ru
 0.0.0.0 basos.virosat.ru
+0.0.0.0 basque.news-pravda.com
 0.0.0.0 basque.virosat.ru
 0.0.0.0 basquetlaplata.com.ar
 0.0.0.0 basquine.matsuro.ru
@@ -136506,6 +136553,9 @@
 0.0.0.0 bayonets.chahoda.ru
 0.0.0.0 bayou.matsuro.ru
 0.0.0.0 bayou.ulitron.ru
+0.0.0.0 bayoucity.news
+0.0.0.0 bayoucitycrier.com
+0.0.0.0 bayoucitytoday.com
 0.0.0.0 bayoucustomholsters.com
 0.0.0.0 bayougrandehomes.com
 0.0.0.0 bayoujanitorial.com
@@ -137636,6 +137686,7 @@
 0.0.0.0 bdbofp.com
 0.0.0.0 bdbovip.com
 0.0.0.0 bdbqlbkjebwobsxiyjspeakoqb-dot-glex9394293032.oa.r.appspot.com
+0.0.0.0 bdc.cz
 0.0.0.0 bdc.elitoras.ru
 0.0.0.0 bdc10654944f452cbeefa3a612d5a3b4.clo.footprintdns.com
 0.0.0.0 bdcadmin.dxmb.vn
@@ -139501,13 +139552,16 @@
 0.0.0.0 belgie-ing.live
 0.0.0.0 belgikanst.iad-03.braze.com
 0.0.0.0 belgique-app-net.de
+0.0.0.0 belgique.news-pravda.com
 0.0.0.0 belgium-bnpparibasfortisbe.web.app
 0.0.0.0 belgium-bnpparibasfortiscom.web.app
 0.0.0.0 belgium-pack-annual-nickname.trycloudflare.com
+0.0.0.0 belgium.news-pravda.com
 0.0.0.0 belgium.vietlh1.site
 0.0.0.0 belgiumcapital.shop
 0.0.0.0 belgiumcapitalpro.com
 0.0.0.0 belgiumwi.buzz
+0.0.0.0 belgorod-news.net
 0.0.0.0 belgradeforme.com
 0.0.0.0 belgradegym.com
 0.0.0.0 belgrunveskor.de
@@ -140882,6 +140936,7 @@
 0.0.0.0 berdonfamily.com
 0.0.0.0 berdox.duckdns.org
 0.0.0.0 berds.org.pk
+0.0.0.0 berdyansk-news.ru
 0.0.0.0 bere.bortogat.ru
 0.0.0.0 bere.dedspac.ru
 0.0.0.0 berea.virosat.ru
@@ -141111,6 +141166,7 @@
 0.0.0.0 berraktulperde.com
 0.0.0.0 berret.virosat.ru
 0.0.0.0 berrienelementary.myspapp.com
+0.0.0.0 berriesandco.pl
 0.0.0.0 berry-cake-ladybug.glitch.me
 0.0.0.0 berry-cut-bamboo.glitch.me
 0.0.0.0 berry-erratic-rudbeckia.glitch.me
@@ -143547,6 +143603,7 @@
 0.0.0.0 bhkxizbvojhhoeqdytfmpowypxojtgdfbrmq-dot-off94032393204.uk.r.appspot.com
 0.0.0.0 bhl-goods.8688898.xyz
 0.0.0.0 bhleondorn.com
+0.0.0.0 bhlhockey.com
 0.0.0.0 bhlifcqpdb.duckdns.org
 0.0.0.0 bhloungedesoto.com
 0.0.0.0 bhlslctlmcf.wcnv20.cn
@@ -145641,6 +145698,8 @@
 0.0.0.0 biolabinsights.com
 0.0.0.0 biolife.co.in
 0.0.0.0 biolink.co.de
+0.0.0.0 biolink.info
+0.0.0.0 biolink.website
 0.0.0.0 biolinky.co
 0.0.0.0 biolinky.com
 0.0.0.0 biologet-al.com
@@ -153609,6 +153668,7 @@
 0.0.0.0 bosnewpaye.com
 0.0.0.0 bosnewpayee.com
 0.0.0.0 bosni.org
+0.0.0.0 bosnia-herzegovina.news-pravda.com
 0.0.0.0 bosnia.dedspac.ru
 0.0.0.0 bosnia.virosat.ru
 0.0.0.0 bosniagate.com
@@ -155778,6 +155838,7 @@
 0.0.0.0 breezy.virosat.ru
 0.0.0.0 breezy.z6.web.core.windows.net
 0.0.0.0 breezylumber.com
+0.0.0.0 bref-france24.fr
 0.0.0.0 brefdvfv.tumblr.com
 0.0.0.0 breffutraumapre-1955.vercel.app
 0.0.0.0 breg.fiversity.com
@@ -160902,6 +160963,7 @@
 0.0.0.0 bulbil.virosat.ru
 0.0.0.0 bulby.virosat.ru
 0.0.0.0 bulgar.dedspac.ru
+0.0.0.0 bulgaria.news-pravda.com
 0.0.0.0 bulgariabg.com
 0.0.0.0 bulgariaholidays.bg
 0.0.0.0 bulgariatripholidays.com
@@ -160921,6 +160983,7 @@
 0.0.0.0 bulk.matsuro.ru
 0.0.0.0 bulk.ulitron.ru
 0.0.0.0 bulkarenasms.cloud
+0.0.0.0 bulkdevices.com
 0.0.0.0 bulkdirectproversa.pages.dev
 0.0.0.0 bulker.dedspac.ru
 0.0.0.0 bulkextreme.pl
@@ -161260,6 +161323,7 @@
 0.0.0.0 burkehedges.com
 0.0.0.0 burkeservice.com
 0.0.0.0 burkesobservatory.com
+0.0.0.0 burkina-faso.news-pravda.com
 0.0.0.0 burl.ulitron.ru
 0.0.0.0 burlap.matsuro.ru
 0.0.0.0 burlap.virosat.ru
@@ -165513,6 +165577,7 @@
 0.0.0.0 cameronmccormickgolf.com
 0.0.0.0 cameronr.tk
 0.0.0.0 cameronyellowjackets.com
+0.0.0.0 cameroon.news-pravda.com
 0.0.0.0 cames.dedspac.ru
 0.0.0.0 cames.ulitron.ru
 0.0.0.0 camfeb.org
@@ -165663,6 +165728,7 @@
 0.0.0.0 canada-revenue-agency.co
 0.0.0.0 canada-s.pages.net.br
 0.0.0.0 canada-ups-tracking-central-update-1712654731.businesscentrenewyork.com
+0.0.0.0 canada.news-pravda.com
 0.0.0.0 canada.ontario-moneyreturn20l7.afflatuscapital.com.au
 0.0.0.0 canada.postcanadakxcif.top
 0.0.0.0 canada.postcanadantwb.top
@@ -166443,6 +166509,7 @@
 0.0.0.0 capitalarg.com
 0.0.0.0 capitalbooks-publishing.com
 0.0.0.0 capitalcitiintegratedfinancebank.com
+0.0.0.0 capitalcitydaily.com
 0.0.0.0 capitalcomputer.com
 0.0.0.0 capitalcoreai.net
 0.0.0.0 capitalcow.fynmate.com
@@ -166516,6 +166583,7 @@
 0.0.0.0 capito.sikolar.ru
 0.0.0.0 capito.virosat.ru
 0.0.0.0 capitol.bortogat.ru
+0.0.0.0 capitoldaily.news
 0.0.0.0 capitolium.matsuro.ru
 0.0.0.0 capitoloralsurgery.com
 0.0.0.0 capitols.bortogat.ru
@@ -166647,6 +166715,7 @@
 0.0.0.0 car.bortogat.ru
 0.0.0.0 car.dedspac.ru
 0.0.0.0 car.matsuro.ru
+0.0.0.0 car.news-pravda.com
 0.0.0.0 car0737.com
 0.0.0.0 car4you.oewabox.at
 0.0.0.0 cara-cosmetics.com
@@ -168442,6 +168511,7 @@
 0.0.0.0 catachrestically.bortogat.ru
 0.0.0.0 catacumbal.matsuro.ru
 0.0.0.0 catag.papelesa.com
+0.0.0.0 catalan.news-pravda.com
 0.0.0.0 cataldesos.cyou
 0.0.0.0 catalina.serpgold.com
 0.0.0.0 catalinacuervo.com
@@ -172333,6 +172403,7 @@
 0.0.0.0 chactivation.info
 0.0.0.0 chad.boletuso.ru
 0.0.0.0 chad.dedspac.ru
+0.0.0.0 chad.news-pravda.com
 0.0.0.0 chad.ulitron.ru
 0.0.0.0 chadabrand.com
 0.0.0.0 chadacventures.com
@@ -173605,6 +173676,7 @@
 0.0.0.0 chat.cdn-ourtimee.workers.dev
 0.0.0.0 chat.chrischro.me
 0.0.0.0 chat.convercatioon.workers.dev
+0.0.0.0 chat.darkpulsar.ai
 0.0.0.0 chat.dattings-auth.workers.dev
 0.0.0.0 chat.dattings-our.workers.dev
 0.0.0.0 chat.dedspac.ru
@@ -174204,6 +174276,7 @@
 0.0.0.0 cheatsheetketo.com
 0.0.0.0 cheatstandoff2.ru
 0.0.0.0 cheb-hassni-ft-zahouaniya.malagatour.es
+0.0.0.0 cheb-news.net
 0.0.0.0 chebanca-it.clienti.sbs
 0.0.0.0 chebar.tripod.com
 0.0.0.0 chebec.virosat.ru
@@ -174627,6 +174700,7 @@
 0.0.0.0 chelseasmile.co.uk
 0.0.0.0 chelseek.com
 0.0.0.0 chelseypearsonkelly74806429392-29392748064pearsonkelly.com.hugglehonlamsf.com
+0.0.0.0 chelyabinsk-news.net
 0.0.0.0 chelyabinsk.fontan24.ru
 0.0.0.0 chelys.dedspac.ru
 0.0.0.0 chelys.matsuro.ru
@@ -174696,6 +174770,7 @@
 0.0.0.0 cherinailsspa.live
 0.0.0.0 cherished-city.000webhostapp.com
 0.0.0.0 cherishthemadness.com
+0.0.0.0 cherkessk-news.net
 0.0.0.0 chernw.com
 0.0.0.0 cherokeemoonhealingartsforanimals.com
 0.0.0.0 cherricomputers.com
@@ -175686,6 +175761,7 @@
 0.0.0.0 chroniclewealth.com-twt4vodwibqqfvitbi9a.twt4vodwibqqfvitbi9a.manxttrider.com
 0.0.0.0 chroniclewealth.glowbydanielleminett.com
 0.0.0.0 chronictoken.io
+0.0.0.0 chroniquesfrancaises.fr
 0.0.0.0 chronlivraison.com
 0.0.0.0 chrono-post-verif.com
 0.0.0.0 chrono-post.info
@@ -175697,6 +175773,7 @@
 0.0.0.0 chronographically.bibliota.ru
 0.0.0.0 chronographically.bortogat.ru
 0.0.0.0 chronographically.potroka.ru
+0.0.0.0 chronoinfo.fr
 0.0.0.0 chronokenesis.com
 0.0.0.0 chronolimasstra.blogspot.mk
 0.0.0.0 chronolimasstra.blogspot.sn
@@ -175812,6 +175889,7 @@
 0.0.0.0 chukka.dedspac.ru
 0.0.0.0 chuklead.web.app
 0.0.0.0 chuknu.sokrati.com
+0.0.0.0 chukotka-news.net
 0.0.0.0 chukwu-godgive.github.io
 0.0.0.0 chum.ulitron.ru
 0.0.0.0 chumaanagbado.com
@@ -176025,6 +176103,7 @@
 0.0.0.0 cicd.attollo.com.au
 0.0.0.0 cicd.sandbox.eips.com.au
 0.0.0.0 ciceklioglu.com
+0.0.0.0 cicektekstil.com
 0.0.0.0 cicer.dedspac.ru
 0.0.0.0 cicero-mit.com
 0.0.0.0 cicero.dedspac.ru
@@ -178627,6 +178706,7 @@
 0.0.0.0 clearpm-docusign.com
 0.0.0.0 clearroutew.vercel.app
 0.0.0.0 clearscorenatwest.com
+0.0.0.0 clearstory.news
 0.0.0.0 cleartech-dot-sharepointfiles.wm.r.appspot.com
 0.0.0.0 clearupdeat.co.vu
 0.0.0.0 clearview-zeta.vercel.app
@@ -179944,6 +180024,7 @@
 0.0.0.0 cloude-15e5.karsonjacobsen.workers.dev
 0.0.0.0 cloude-dd47.aeancsesekhi.workers.dev
 0.0.0.0 cloudeadmin.com
+0.0.0.0 cloudenterprise26.com
 0.0.0.0 clouders.cf
 0.0.0.0 cloudfarecreative.pages.dev
 0.0.0.0 cloudfares.000webhostapp.com
@@ -187607,7 +187688,6 @@
 0.0.0.0 connectivity-bridge-trezor.webflow.io
 0.0.0.0 connectivity-trzxrr.pages.dev
 0.0.0.0 connectlink7.webcindario.com
-0.0.0.0 connectmagazineads.com
 0.0.0.0 connectmebot.xyz
 0.0.0.0 connectmetamask.com
 0.0.0.0 connectmewallet.gitbook.io
@@ -190538,6 +190618,7 @@
 0.0.0.0 courrier-information.scrapping.cc
 0.0.0.0 courrier-outlook88.yolasite.com
 0.0.0.0 courrier-outlook91.yolasite.com
+0.0.0.0 courrierfrance24.fr
 0.0.0.0 courriersserveur3.moonfruit.com
 0.0.0.0 cours.dedspac.ru
 0.0.0.0 cours.ulitron.ru
@@ -192129,6 +192210,7 @@
 0.0.0.0 credenciaisltaucard.getenjoyment.net
 0.0.0.0 credenciales-microsoftt.zz.com.ve
 0.0.0.0 credenciales-outlook1.vercel.app
+0.0.0.0 credencys.com
 0.0.0.0 credential-phishing.file-auto-download-test-sandbox.workers.dev
 0.0.0.0 credentiall-into.zya.me
 0.0.0.0 credentials.webadmin-email.net
@@ -192528,6 +192610,7 @@
 0.0.0.0 crime.ulitron.ru
 0.0.0.0 crime.virosat.ru
 0.0.0.0 crimea-camry.ru
+0.0.0.0 crimea-news.com
 0.0.0.0 crimea.virosat.ru
 0.0.0.0 crimeahealth.ru
 0.0.0.0 crimeireland.com
@@ -192746,6 +192829,7 @@
 0.0.0.0 cro.vadilops.ru
 0.0.0.0 croak.dedspac.ru
 0.0.0.0 croak.virosat.ru
+0.0.0.0 croatia.news-pravda.com
 0.0.0.0 crobaselogines.godaddysites.com
 0.0.0.0 croc.ulitron.ru
 0.0.0.0 croceimper.cyou
@@ -196047,6 +196131,7 @@
 0.0.0.0 cypria.virosat.ru
 0.0.0.0 cyprupost.help
 0.0.0.0 cyprus-contacts.com
+0.0.0.0 cyprus.news-pravda.com
 0.0.0.0 cyprus.virosat.ru
 0.0.0.0 cyprusivflabs.com.usrfiles.com
 0.0.0.0 cyprys-rentova.com
@@ -196226,6 +196311,7 @@
 0.0.0.0 czech.dedspac.ru
 0.0.0.0 czechescargot.cz
 0.0.0.0 czechia-onile.dream.press
+0.0.0.0 czechia.news-pravda.com
 0.0.0.0 czechupdatecentral2023.life
 0.0.0.0 czefxuewpg.duckdns.org
 0.0.0.0 czegxkjov.wcnv20.cn
@@ -197421,6 +197507,7 @@
 0.0.0.0 dagdusheth.in
 0.0.0.0 dagelijks.nu
 0.0.0.0 dagelijkseverhalen.nl
+0.0.0.0 dagestan-news.net
 0.0.0.0 daget-1803.real6.biz.id
 0.0.0.0 daget-4112.real6.biz.id
 0.0.0.0 daget-9552.real6.biz.id
@@ -197529,6 +197616,7 @@
 0.0.0.0 dailyvalueoffers.shop
 0.0.0.0 dailyvents.com
 0.0.0.0 dailywebstats.com
+0.0.0.0 dailyweekly.news
 0.0.0.0 daimlerag.122.2o7.net
 0.0.0.0 daimlerag.d2.sc.omtrdc.net
 0.0.0.0 daimon.virosat.ru
@@ -198793,6 +198881,8 @@
 0.0.0.0 darkorchidjuvenilesort--ricardoillrea.repl.co
 0.0.0.0 darkphoenix-75.github.io
 0.0.0.0 darkpilgria.ml
+0.0.0.0 darkpulsar.ai
+0.0.0.0 darkquasar.tech
 0.0.0.0 darks.dedspac.ru
 0.0.0.0 darks.virosat.ru
 0.0.0.0 darksalmonstunningkeyboardmacro.elmazoprieto.repl.co
@@ -200837,6 +200927,7 @@
 0.0.0.0 de.thenewnormalapparel.com
 0.0.0.0 de.thkbfssgjhvssrh.e8273.pro
 0.0.0.0 de.tjx8doisi1deev0.e8273.pro
+0.0.0.0 de.truefact.news
 0.0.0.0 de.txoh0hjivs3xfq6.e8273.pro
 0.0.0.0 de.tynt.com
 0.0.0.0 de.ub4uih2udjsaekc.e8273.pro
@@ -203536,6 +203627,7 @@
 0.0.0.0 denlzbnikcom.tk
 0.0.0.0 denlzbxankcom.tk
 0.0.0.0 denmaonline.us-sea-1.linodeobjects.com
+0.0.0.0 denmark.news-pravda.com
 0.0.0.0 denmarkfishing.ga
 0.0.0.0 denmarkhillkafe.com.au
 0.0.0.0 dennettconstruction.soimper.com.br
@@ -205109,6 +205201,7 @@
 0.0.0.0 deuteua03.click
 0.0.0.0 deutkaptrade.de
 0.0.0.0 deutsch-telekom.us-south.cf.appdomain.cloud
+0.0.0.0 deutsch.news-pravda.com
 0.0.0.0 deutsche-82763.web.app
 0.0.0.0 deutsche-ac.pro
 0.0.0.0 deutsche-bahn-reaktivierung.com
@@ -209424,6 +209517,7 @@
 0.0.0.0 direct-fedexparty.com
 0.0.0.0 direct-international.com
 0.0.0.0 direct-lbpiaccess.pages.dev
+0.0.0.0 direct-nouvelles.fr
 0.0.0.0 direct-po.com
 0.0.0.0 direct-promo.pro
 0.0.0.0 direct-qualify-425a1.firebaseapp.com
@@ -211522,6 +211616,7 @@
 0.0.0.0 dndsk.kngmm.ru
 0.0.0.0 dnefytsfsp.duckdns.org
 0.0.0.0 dnem3hxwwybg.thedsdstudio.com
+0.0.0.0 dnepr-news.ru
 0.0.0.0 dnes.heato.ru
 0.0.0.0 dnessasynergy.com.ng
 0.0.0.0 dnetshelter3.d.chango.com
@@ -211590,6 +211685,7 @@
 0.0.0.0 dnps.us.intellitxt.com
 0.0.0.0 dnpwt.cn
 0.0.0.0 dnqawjk.com
+0.0.0.0 dnr-news.ru
 0.0.0.0 dnr.rs
 0.0.0.0 dnrfmrklnzsbcbpy-dot-millinium.ey.r.appspot.com
 0.0.0.0 dnrgn.blogspot.sn
@@ -212654,10 +212750,8 @@
 0.0.0.0 docuslgnauth.azurewebsites.net
 0.0.0.0 docuslgnread.diskstation.org
 0.0.0.0 docuslot-portfolio.myportfolio.com
-0.0.0.0 docuslutmentadoonline.top
 0.0.0.0 docusognauth.azurewebsites.net
 0.0.0.0 docutickverify.tk
-0.0.0.0 docuuumennnntonline.top
 0.0.0.0 docuvault.cc
 0.0.0.0 docuware.duckdns.org
 0.0.0.0 docview.cloud
@@ -213312,6 +213406,7 @@
 0.0.0.0 donesterx.000.pe
 0.0.0.0 donet.ulitron.ru
 0.0.0.0 donetechnologies.com
+0.0.0.0 donetsk-news.ru
 0.0.0.0 donewithagun.com
 0.0.0.0 doney.virosat.ru
 0.0.0.0 donfitzsimmons.com
@@ -214383,6 +214478,7 @@
 0.0.0.0 dprgczxxjdeodjws-dot-owaonk399399393.uk.r.appspot.com
 0.0.0.0 dprisuzavkaurlea-dot-millinium.ey.r.appspot.com
 0.0.0.0 dprk.bandaacehkota.go.id
+0.0.0.0 dprk.news-pravda.com
 0.0.0.0 dprzyfk.sovereignty2020.com
 0.0.0.0 dps-ua.org
 0.0.0.0 dps.jp.cinarra.com
@@ -214683,6 +214779,7 @@
 0.0.0.0 drasentirax.top
 0.0.0.0 draskeer.fr
 0.0.0.0 draskun.shop
+0.0.0.0 drastok.xyz
 0.0.0.0 drastyczneinfo.click
 0.0.0.0 drastycznewiadomosci.click
 0.0.0.0 drat-meta.pages.dev
@@ -216727,6 +216824,7 @@
 0.0.0.0 dutatocy.com
 0.0.0.0 dutch-bian.com
 0.0.0.0 dutch.dedspac.ru
+0.0.0.0 dutch.news-pravda.com
 0.0.0.0 dutch.ulitron.ru
 0.0.0.0 dutch.virosat.ru
 0.0.0.0 dutchcultureusa.sprigslab.com
@@ -217016,6 +217114,7 @@
 0.0.0.0 dw.hustorla.ru
 0.0.0.0 dw.kim.cardiopedbrasil.com.br
 0.0.0.0 dw.lp.eu.mobilehub4u.com
+0.0.0.0 dwaai.com
 0.0.0.0 dwale.dedspac.ru
 0.0.0.0 dwale.virosat.ru
 0.0.0.0 dwalinsmith.com
@@ -220198,6 +220297,7 @@
 0.0.0.0 eccellenteromaix.com
 0.0.0.0 ecceywvnijorbyzm-dot-owaonk399399393.uk.r.appspot.com
 0.0.0.0 eccm.ulitron.ru
+0.0.0.0 eccmice.com
 0.0.0.0 eccololtd.me
 0.0.0.0 eccon.mexetry.com
 0.0.0.0 eccrine-disciplines.000webhostapp.com
@@ -220283,6 +220383,7 @@
 0.0.0.0 echonpanda.info
 0.0.0.0 echopicoteo.com
 0.0.0.0 echopressmint.site
+0.0.0.0 echorhonealpes.fr
 0.0.0.0 echoriverforge.com
 0.0.0.0 echosdecole.com
 0.0.0.0 echotaitung.net
@@ -220303,6 +220404,7 @@
 0.0.0.0 eckertco.buzz
 0.0.0.0 eckosport.fr
 0.0.0.0 eckoweb.com
+0.0.0.0 eclairinfo.fr
 0.0.0.0 eclaissance-ai-fr.com
 0.0.0.0 eclass.johnrobertpowers.co.id
 0.0.0.0 eclass47.duckdns.org
@@ -220902,6 +221004,7 @@
 0.0.0.0 editorakazua.com.br
 0.0.0.0 editoranews.com
 0.0.0.0 editoranovaalexandria.com.br
+0.0.0.0 editorialesactus.fr
 0.0.0.0 editorialesla.com
 0.0.0.0 edits.mywebsearch.com
 0.0.0.0 edituraobiectiv.ro
@@ -222168,6 +222271,7 @@
 0.0.0.0 egypolice.com
 0.0.0.0 egypressoffice.com
 0.0.0.0 egypt.far7na.com
+0.0.0.0 egypt.news-pravda.com
 0.0.0.0 egypt.virosat.ru
 0.0.0.0 egyptanode.com
 0.0.0.0 egyptian-agent.com
@@ -223789,7 +223893,6 @@
 0.0.0.0 elwyndatamere.com
 0.0.0.0 elxftclyntawhqtv-dot-millinium.ey.r.appspot.com
 0.0.0.0 elxmaiutmodzbkrr-dot-millinium.ey.r.appspot.com
-0.0.0.0 elxxvvx.xyz
 0.0.0.0 ely.dedspac.ru
 0.0.0.0 elymi.ulitron.ru
 0.0.0.0 elynqorevazemixtrade.com
@@ -224755,6 +224858,7 @@
 0.0.0.0 en-help-coinbase-login.typedream.app
 0.0.0.0 en-help-extension.typedream.app
 0.0.0.0 en-help-legr-live.teachable.com
+0.0.0.0 en-hu.news-pravda.com
 0.0.0.0 en-id2942.asia
 0.0.0.0 en-id3461.asia
 0.0.0.0 en-id3492.asia
@@ -224775,6 +224879,7 @@
 0.0.0.0 en-issuefix.pages.dev
 0.0.0.0 en-join-trezorstart.webflow.io
 0.0.0.0 en-join-trezzor.github.io
+0.0.0.0 en-jp.news-pravda.com
 0.0.0.0 en-ledger-com-start.webflow.io
 0.0.0.0 en-ledger-home.teachable.com
 0.0.0.0 en-ledger-install.com
@@ -224822,6 +224927,7 @@
 0.0.0.0 en-portal-uphold-com.netlify.app
 0.0.0.0 en-portaltrizor-cdn.github.io
 0.0.0.0 en-proagro.com.ec
+0.0.0.0 en-ro.news-pravda.com
 0.0.0.0 en-ru.services
 0.0.0.0 en-s-trezor.github.io
 0.0.0.0 en-scure-terzor-wallet.pages.dev
@@ -225985,6 +226091,7 @@
 0.0.0.0 enpurety.life
 0.0.0.0 enpyr9b2p.duckdns.org
 0.0.0.0 enqbuiasqxh9.karlthehandyman.com
+0.0.0.0 enquetedujour.fr
 0.0.0.0 enquetegendgouveur.wixsite.com
 0.0.0.0 enquetesexcellence.com
 0.0.0.0 enquiries.mcamigration.com.au
@@ -227308,6 +227415,7 @@
 0.0.0.0 erisnormanrealtor.ru.com
 0.0.0.0 eristic-stings.000webhostapp.com
 0.0.0.0 eritoetikdfsieorijfsooe.site
+0.0.0.0 eritrea.news-pravda.com
 0.0.0.0 eritreanarchives.org
 0.0.0.0 erjelpfmojf.hubside.fr
 0.0.0.0 erjj3f.hightowntee.com
@@ -228374,6 +228482,7 @@
 0.0.0.0 estocap.com.br
 0.0.0.0 estock.ci
 0.0.0.0 estofadoscamboriu.com.br
+0.0.0.0 estonia.news-pravda.com
 0.0.0.0 estop.ulitron.ru
 0.0.0.0 estoquelimitado.com
 0.0.0.0 estrakov.gq
@@ -229117,6 +229226,7 @@
 0.0.0.0 eu.inmobi.koneomobiledsp.com
 0.0.0.0 eu.jormmy.workers.dev
 0.0.0.0 eu.microsft.org
+0.0.0.0 eu.news-pravda.com
 0.0.0.0 eu.retailpriceindex.xyz
 0.0.0.0 eu.safebank.onl
 0.0.0.0 eu.sarasotaextensionbar.com
@@ -229267,6 +229377,7 @@
 0.0.0.0 eurekaconsultants.co.ke
 0.0.0.0 eurekster.com
 0.0.0.0 euretec.com
+0.0.0.0 eurevolt.com
 0.0.0.0 eurfngjfkfdl.weebly.com
 0.0.0.0 euriosport.fr
 0.0.0.0 eurisko.co
@@ -229608,6 +229719,7 @@
 0.0.0.0 evend-codn.duckdns.org
 0.0.0.0 evendclaimgratisgarenafreefire.duckdns.org
 0.0.0.0 evenement-krosmopack.shop
+0.0.0.0 evenementsetactus.fr
 0.0.0.0 evenf-ff.duckdns.org
 0.0.0.0 evenffoldggw.duckdns.org
 0.0.0.0 evenfreefiree200.duckdns.org
@@ -232113,6 +232225,7 @@
 0.0.0.0 express.jnews5.com
 0.0.0.0 express.rakutenglobal.com
 0.0.0.0 express.uk.intellitxt.com
+0.0.0.0 expressactus.fr
 0.0.0.0 expressaffiliatesite.com
 0.0.0.0 expressarms.duckdns.org
 0.0.0.0 expressatts.duckdns.org
@@ -237574,6 +237687,7 @@
 0.0.0.0 faceibooock250.blogspot.lt
 0.0.0.0 faceibooock250.blogspot.md
 0.0.0.0 faceit-accountverify.com
+0.0.0.0 faceit-anti-cheat.com
 0.0.0.0 faceit-authclub.com
 0.0.0.0 faceit-discordseasonscs.ru
 0.0.0.0 faceit-events.com
@@ -242786,7 +242900,6 @@
 0.0.0.0 fdre-e589c.web.app
 0.0.0.0 fdreyb.pages.dev
 0.0.0.0 fdrptdrmtueidpis-dot-millinium.ey.r.appspot.com
-0.0.0.0 fdrv.beeyuskincare.co.nz
 0.0.0.0 fdryu5.pages.dev
 0.0.0.0 fdsagdfg.rf.gd
 0.0.0.0 fdsbvb4857-com.preview-domain.com
@@ -247317,6 +247430,7 @@
 0.0.0.0 finlab9-voluptate51.sbs
 0.0.0.0 finlab9-voluptatum14.sbs
 0.0.0.0 finlab9-voluptatum74.sbs
+0.0.0.0 finland.news-pravda.com
 0.0.0.0 finlaysondesign.com
 0.0.0.0 finlfrgppkilofev-dot-owaonk399399393.uk.r.appspot.com
 0.0.0.0 finlockmase.net
@@ -248808,6 +248922,8 @@
 0.0.0.0 flary.dedspac.ru
 0.0.0.0 flary.virosat.ru
 0.0.0.0 flash-1062.weeblysite.com
+0.0.0.0 flash-actualites.fr
+0.0.0.0 flash-bourgognefranchecomte.fr
 0.0.0.0 flash-codashop-sale.duckdns.org
 0.0.0.0 flash-continuous-shear.glitch.me
 0.0.0.0 flash-courageous-aphid.glitch.me
@@ -248835,6 +248951,7 @@
 0.0.0.0 flashfiletool.com
 0.0.0.0 flashfood.cc
 0.0.0.0 flashgride.vercel.app
+0.0.0.0 flashhexagone.fr
 0.0.0.0 flashiko.ru
 0.0.0.0 flashing-recommenda.000webhostapp.com
 0.0.0.0 flashingcards.com
@@ -248962,6 +249079,7 @@
 0.0.0.0 fld.e1ity.shop
 0.0.0.0 fld.e1ity.top
 0.0.0.0 fld0-lnt3r4c.com
+0.0.0.0 fldaily.news
 0.0.0.0 flde-1lity.cfd
 0.0.0.0 flde-1lity.cyou
 0.0.0.0 flde-1lity.icu
@@ -249222,6 +249340,7 @@
 0.0.0.0 flfkschcopkuxioz-dot-millinium.ey.r.appspot.com
 0.0.0.0 flfohghfedlqjmce-dot-millinium.ey.r.appspot.com
 0.0.0.0 flfzl-4yaaa-aaaad-qdjna-cai.raw.ic0.app
+0.0.0.0 flga.news
 0.0.0.0 flgjlfkgfgfdnghjd.blogspot.com.eg
 0.0.0.0 flgjlfkgfgfdnghjd.blogspot.md
 0.0.0.0 flgvywnoycgz.duckdns.org
@@ -249289,6 +249408,7 @@
 0.0.0.0 fli.so
 0.0.0.0 flia.live
 0.0.0.0 flibqmt.thebookstrunk.com
+0.0.0.0 flicargo.com
 0.0.0.0 flicartgolf.com
 0.0.0.0 flick-edge.pro
 0.0.0.0 flick-meta-grim-biz-bgo.pages.dev
@@ -250603,6 +250723,7 @@
 0.0.0.0 fondby.com
 0.0.0.0 fondep.net
 0.0.0.0 fonderatrade.com
+0.0.0.0 fondfbr.ru
 0.0.0.0 fondholmemisvik.pro
 0.0.0.0 fondonazionale.digital
 0.0.0.0 fondonazionale.org
@@ -252052,6 +252173,7 @@
 0.0.0.0 fr.imsly.com
 0.0.0.0 fr.mediaplayercodecpack.com
 0.0.0.0 fr.movieproxy.com
+0.0.0.0 fr.news-pravda.com
 0.0.0.0 fr.proxy.al
 0.0.0.0 fr.secure-access.help
 0.0.0.0 fr.security-pagecheck.com
@@ -252062,6 +252184,7 @@
 0.0.0.0 fr.super-deel.site
 0.0.0.0 fr.timerto.ru
 0.0.0.0 fr.torrentproxy.co
+0.0.0.0 fr.truefact.news
 0.0.0.0 fr.unknownproxy.com
 0.0.0.0 fr.youtubefreeproxy.com
 0.0.0.0 fr001425.tmweb.ru
@@ -252213,6 +252336,7 @@
 0.0.0.0 franc.ulitron.ru
 0.0.0.0 franc.virosat.ru
 0.0.0.0 francais.ires.cc
+0.0.0.0 francais.news-pravda.com
 0.0.0.0 francaisederesinesdesols.com
 0.0.0.0 francar.cl
 0.0.0.0 francavaldorio.net
@@ -252220,15 +252344,29 @@
 0.0.0.0 france--paris-orange-pro-2021-orangefr.yolasite.com
 0.0.0.0 france-4d5.pages.dev
 0.0.0.0 france-apple-store.azurewebsites.net
+0.0.0.0 france-aujourdhui.fr
+0.0.0.0 france-droite.fr
+0.0.0.0 france-premiere.fr
 0.0.0.0 france-service-cline.justns.ru
+0.0.0.0 france-vision.fr
 0.0.0.0 france.busiiiness.click
 0.0.0.0 france.impotsgouv.fr-accederamonespace.accueil.u856464qq6.ha004.t.justns.ru
+0.0.0.0 france.news-pravda.com
+0.0.0.0 france.truefact.news
+0.0.0.0 france24-7.fr
+0.0.0.0 france24actus.fr
 0.0.0.0 france771c.temp.swtest.ru
+0.0.0.0 franceactuelle.fr
+0.0.0.0 franceactuweb.fr
 0.0.0.0 franceandcolps.org
+0.0.0.0 franceavanttout.fr
 0.0.0.0 franceban.click
 0.0.0.0 francebanc.freedomain.thehost.com.ua
 0.0.0.0 francebanque-assurance-2021frace.justns.ru
 0.0.0.0 francebootball.fr
+0.0.0.0 francechronique.fr
+0.0.0.0 francedetail.fr
+0.0.0.0 franceencolere.fr
 0.0.0.0 francelbleu.fr
 0.0.0.0 francele.com
 0.0.0.0 francemire.temp.swtest.ru
@@ -252236,9 +252374,12 @@
 0.0.0.0 franceneverland.cloudns.be
 0.0.0.0 franceom.yolasite.com
 0.0.0.0 franceonline.sytes.net
+0.0.0.0 francepatriotique.fr
 0.0.0.0 francephoto1.webstriple.com
 0.0.0.0 francephotos.webstriple.com
+0.0.0.0 francepourlesfrancais.fr
 0.0.0.0 francepplsecure.ddns.net
+0.0.0.0 francerealites.fr
 0.0.0.0 franceregion-union.telecominication.fr.u1164326hzu.ha004.t.justns.ru
 0.0.0.0 frances-movil.ml
 0.0.0.0 frances.entrar1.repl.co
@@ -254098,6 +254239,7 @@
 0.0.0.0 frm.loginmicrosoft-pbllp.in
 0.0.0.0 frmbtlm.duckdns.org
 0.0.0.0 frmcbusinessventures.com
+0.0.0.0 frmedialive.fr
 0.0.0.0 frmxpustdna.layananxrsmi.my.id
 0.0.0.0 frnafinance.fr
 0.0.0.0 frndqzbqbmztdthy-dot-millinium.ey.r.appspot.com
@@ -255204,6 +255346,7 @@
 0.0.0.0 fundaccount.000webhostapp.com
 0.0.0.0 fundacionacuario.com
 0.0.0.0 fundacionfaes.cl
+0.0.0.0 fundacioniades.com.ar
 0.0.0.0 fundacionjab.org
 0.0.0.0 fundacionlaboraldelmetal.es
 0.0.0.0 fundacionleyeg.com
@@ -255955,6 +256098,7 @@
 0.0.0.0 fxxff4.wixsite.com
 0.0.0.0 fxxmpavktyihgyqitmuaimubui-dot-gl44393333333.rj.r.appspot.com
 0.0.0.0 fxxy.plaisnrf.net
+0.0.0.0 fxyachts.com
 0.0.0.0 fxybank.servehttp.com
 0.0.0.0 fxyfqqktsmedfray-dot-millinium.ey.r.appspot.com
 0.0.0.0 fxyyqpha.99w97k.cn
@@ -257364,6 +257508,7 @@
 0.0.0.0 galiciacuentaenalerta.galiciagana.repl.co
 0.0.0.0 galiciaexplora.repl.co
 0.0.0.0 galiciahb.seguridadhb20.com
+0.0.0.0 galician.news-pravda.com
 0.0.0.0 galicianempresas-ar.com
 0.0.0.0 galiciaofficcc.com
 0.0.0.0 galiciaofficebankingverific.atsnx.com
@@ -257528,6 +257673,7 @@
 0.0.0.0 gambe.ulitron.ru
 0.0.0.0 gambero3.cs.tin.it
 0.0.0.0 gambia-property-shop.com
+0.0.0.0 gambia.news-pravda.com
 0.0.0.0 gambiaaink.online
 0.0.0.0 gambitathleisure.com
 0.0.0.0 gamble24-7.com
@@ -258336,6 +258482,7 @@
 0.0.0.0 garnolabar.tk
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
+0.0.0.0 garogradba.mk
 0.0.0.0 garoo.ulitron.ru
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garpydook.ru
@@ -259380,6 +259527,7 @@
 0.0.0.0 ge.helionproducts.net
 0.0.0.0 ge.hustorla.ru
 0.0.0.0 ge.igdwcun.presse.ci
+0.0.0.0 ge.news-pravda.com
 0.0.0.0 ge.onyemusic.com
 0.0.0.0 ge.oojwh.serenalebbolo.it
 0.0.0.0 ge.ourbustedcompass.com
@@ -261048,6 +261196,8 @@
 0.0.0.0 germany-lifts.net
 0.0.0.0 germany-news.rest
 0.0.0.0 germany.buuisinesss.click
+0.0.0.0 germany.news-pravda.com
+0.0.0.0 germany.truefact.news
 0.0.0.0 germany222-zxczxc179-boxes179.click
 0.0.0.0 germany333-zxczxc179-boxes179.click
 0.0.0.0 germanyu-1601.vercel.app
@@ -265698,6 +265848,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -266107,6 +266258,7 @@
 0.0.0.0 goldeneuroperestaurant.com.usrfiles.com
 0.0.0.0 goldengardenparty.com
 0.0.0.0 goldengateacupuncture.com
+0.0.0.0 goldengatedaily.com
 0.0.0.0 goldengatesportsmedicine.com.usrfiles.com
 0.0.0.0 goldenglovecleaning.com
 0.0.0.0 goldengracedahs.com
@@ -268819,6 +268971,7 @@
 0.0.0.0 greeaticac66.click
 0.0.0.0 greeauoer03.co.vu
 0.0.0.0 greece-travel.servepics.com
+0.0.0.0 greece.news-pravda.com
 0.0.0.0 greeceori4flame.000webhostapp.com
 0.0.0.0 greecuea10.click
 0.0.0.0 greed.dedspac.ru
@@ -268875,6 +269028,7 @@
 0.0.0.0 greenapk.app
 0.0.0.0 greenapplebags.com
 0.0.0.0 greenappleedu.com
+0.0.0.0 greenarmenia.org
 0.0.0.0 greenassociados.com.br
 0.0.0.0 greenaverbags.com
 0.0.0.0 greenbags.co.in
@@ -270225,6 +270379,7 @@
 0.0.0.0 growwebrank.com
 0.0.0.0 growweedwith.us
 0.0.0.0 growwithgrv.com
+0.0.0.0 grozny-news.net
 0.0.0.0 grozur.ru
 0.0.0.0 grp-acelote-colani.pages.dev
 0.0.0.0 grp-atoiner-kalev.pages.dev
@@ -275169,6 +275324,8 @@
 0.0.0.0 guiming-kloin.godaddysites.com
 0.0.0.0 guimnnloggn.webflow.io
 0.0.0.0 guindo.co
+0.0.0.0 guinea-bissau.news-pravda.com
+0.0.0.0 guinea.news-pravda.com
 0.0.0.0 guineemining.info
 0.0.0.0 guineenouvelles.com
 0.0.0.0 guineensis.net
@@ -280439,7 +280596,6 @@
 0.0.0.0 helmorixytrade.com
 0.0.0.0 helmorixytrade.net
 0.0.0.0 helmtb566verfy.myvnc.com
-0.0.0.0 helnivo.vu
 0.0.0.0 heloban.game-host.org
 0.0.0.0 helodvg.com
 0.0.0.0 heloe.dedspac.ru
@@ -290205,6 +290361,7 @@
 0.0.0.0 htzbwpafnihklkue-dot-millinium.ey.r.appspot.com
 0.0.0.0 hu-0tp-ajanlat.online
 0.0.0.0 hu-accountselfhelpcheck2019.brisasdelbosque.com
+0.0.0.0 hu-hu.news-pravda.com
 0.0.0.0 hu-otp-ajanlat.online
 0.0.0.0 hu.2.cqcounter.com
 0.0.0.0 hu.boletuso.ru
@@ -290729,6 +290886,7 @@
 0.0.0.0 hungakira.garerna.io.vn
 0.0.0.0 hungakira20k-ff.garerana.io.vn
 0.0.0.0 hungary-alwaysguys.oo.gd
+0.0.0.0 hungary.news-pravda.com
 0.0.0.0 hungarybao07.co.vu
 0.0.0.0 hungaryexpres.com
 0.0.0.0 hungdubau.000webhostapp.com
@@ -292886,6 +293044,7 @@
 0.0.0.0 iced.amaniwa.ru
 0.0.0.0 iced.ulitron.ru
 0.0.0.0 icejzddgtogkdzcfzycetkagmk-dot-gleow23456788988878.ts.r.appspot.com
+0.0.0.0 iceland.news-pravda.com
 0.0.0.0 iceman30.de
 0.0.0.0 icemeninsole.com
 0.0.0.0 icemini47.com
@@ -298850,7 +299009,6 @@
 0.0.0.0 indus.dedspac.ru
 0.0.0.0 indus.iad-01.braze.com
 0.0.0.0 indus.virosat.ru
-0.0.0.0 indusenterprises.co
 0.0.0.0 indusfood.com.pk
 0.0.0.0 indusgreenassociates.com
 0.0.0.0 indusmarket.ru
@@ -299240,6 +299398,7 @@
 0.0.0.0 info-free-fr.com
 0.0.0.0 info-games.my.id
 0.0.0.0 info-gastro.at
+0.0.0.0 info-grand-est.fr
 0.0.0.0 info-group-bokep12.duckdns.org
 0.0.0.0 info-home-trezor.webflow.io
 0.0.0.0 info-hthsport.com
@@ -299275,6 +299434,7 @@
 0.0.0.0 info-meta-use-app.surge.sh
 0.0.0.0 info-mfacebook.001www.com
 0.0.0.0 info-miastowe24.club
+0.0.0.0 info-minute.fr
 0.0.0.0 info-mise-a-jour-ca.surge.sh
 0.0.0.0 info-mob-support.com
 0.0.0.0 info-mod.firstcloudit.com
@@ -299651,6 +299811,8 @@
 0.0.0.0 infofecs.unamba.edu.pe
 0.0.0.0 infofedex2.temp.swtest.ru
 0.0.0.0 infoformdata.com
+0.0.0.0 infofrancaisedujour.fr
+0.0.0.0 infofrance-focus.fr
 0.0.0.0 infofunctionboard.autos
 0.0.0.0 infogame21.com
 0.0.0.0 infogatestorage.com
@@ -299662,6 +299824,7 @@
 0.0.0.0 infogratis-garena.duckdns.org
 0.0.0.0 infogroupwhatsappmessenger.ezua.com
 0.0.0.0 infohereconnetions505.pages.dev
+0.0.0.0 infohexagone.fr
 0.0.0.0 infohidden.com
 0.0.0.0 infohiper.com
 0.0.0.0 infohuntbd.com
@@ -300108,6 +300271,7 @@
 0.0.0.0 infos-creditaqricole.ml
 0.0.0.0 infos-doq.pages.dev
 0.0.0.0 infos-du-net.fr.intellitxt.com
+0.0.0.0 infos-encontinu.fr
 0.0.0.0 infos-mail.hubside.fr
 0.0.0.0 infos-online-bulbankunicredit.com
 0.0.0.0 infos-orange12.yolasite.com
@@ -300125,6 +300289,7 @@
 0.0.0.0 infosclien.temp.swtest.ru
 0.0.0.0 infosclientellenikel.site44.com
 0.0.0.0 infosdesj-confirm.com
+0.0.0.0 infosdupays.fr
 0.0.0.0 infosec-ca.com
 0.0.0.0 infosecbuzz.com
 0.0.0.0 infosecurewe.is-leet.com
@@ -300141,6 +300306,7 @@
 0.0.0.0 infoshvisa.temp.swtest.ru
 0.0.0.0 infosicurezzaingdirect.000webhostapp.com
 0.0.0.0 infosicurprotec.com
+0.0.0.0 infosinternationales.fr
 0.0.0.0 infoskatteetaten.info
 0.0.0.0 infosmail.moonfruit.com
 0.0.0.0 infosmailers.wixsite.com
@@ -300384,6 +300550,7 @@
 0.0.0.0 ingedus.fr
 0.0.0.0 ingegdisgr.online
 0.0.0.0 ingegneriaingonlin.com
+0.0.0.0 ingeline.fr
 0.0.0.0 ingenieous.com
 0.0.0.0 ingenier.co.cr
 0.0.0.0 ingenieriadelagua.uy
@@ -300513,6 +300680,7 @@
 0.0.0.0 ingurabomi.cyou
 0.0.0.0 ingurregur.store
 0.0.0.0 ingus-sparrow-q6fk0q.mystrikingly.com
+0.0.0.0 ingushetiya-news.net
 0.0.0.0 inhabit.in
 0.0.0.0 inhabitable-prisons.000webhostapp.com
 0.0.0.0 inhabitalising.info
@@ -301073,6 +301241,7 @@
 0.0.0.0 insideoutside.co.nz
 0.0.0.0 insidepsych.net
 0.0.0.0 insider-training.co
+0.0.0.0 insider.eu.com
 0.0.0.0 insiderfinances.site
 0.0.0.0 insiderpagescom.122.2o7.net
 0.0.0.0 insidersxclusiveconnect.io
@@ -302571,6 +302740,7 @@
 0.0.0.0 instant820glant.net
 0.0.0.0 instant9-3cryppro.com
 0.0.0.0 instant9bferon.pro
+0.0.0.0 instantactus.fr
 0.0.0.0 instantadvantageai.club
 0.0.0.0 instantakpro2x.shop
 0.0.0.0 instantaloxi.click
@@ -304419,6 +304589,7 @@
 0.0.0.0 investigacionperitosydefensas.com
 0.0.0.0 investigate-support-query.vercel.app
 0.0.0.0 investigate-user-incident.vercel.app
+0.0.0.0 investigateurfrancophone.fr
 0.0.0.0 investigation-nz.azurewebsites.net
 0.0.0.0 investigative-battl.000webhostapp.com
 0.0.0.0 investiginfo.com
@@ -305761,6 +305932,7 @@
 0.0.0.0 irees.ro
 0.0.0.0 ireklama.cz
 0.0.0.0 ireland-365boi.com
+0.0.0.0 ireland.news-pravda.com
 0.0.0.0 ireland362.biz
 0.0.0.0 irelandd365.biz
 0.0.0.0 irelandsissuesmagazine.com
@@ -305847,6 +306019,7 @@
 0.0.0.0 irisbrigs.tk
 0.0.0.0 irisbuenconsejo.com
 0.0.0.0 iriscollaborative.com
+0.0.0.0 irish.news-pravda.com
 0.0.0.0 irishrecruiters.com
 0.0.0.0 irishrovers.org
 0.0.0.0 irisrendszerhaz.hu
@@ -305862,6 +306035,7 @@
 0.0.0.0 irked.virosat.ru
 0.0.0.0 irks.boletuso.ru
 0.0.0.0 irks.ulitron.ru
+0.0.0.0 irkutsk-news.net
 0.0.0.0 irlajdcc.boyacentury.cn
 0.0.0.0 irlfyhgxruwolhcy-dot-millinium.ey.r.appspot.com
 0.0.0.0 irlivesupport.vercel.app
@@ -306815,6 +306989,7 @@
 0.0.0.0 it.jwydtcd.presse.ci
 0.0.0.0 it.maranatha.edu
 0.0.0.0 it.newnaz.net
+0.0.0.0 it.news-pravda.com
 0.0.0.0 it.ourtestground.com
 0.0.0.0 it.roi500.site
 0.0.0.0 it.support.alertsnotification.com
@@ -306834,6 +307009,7 @@
 0.0.0.0 it6aucoindexfi.c1.biz
 0.0.0.0 it8txi5.ml
 0.0.0.0 ita-acesso-promo.tk
+0.0.0.0 ita-areia.com.br
 0.0.0.0 ita-pontos-combr.ezpz.work
 0.0.0.0 ita-u-com.umbler.net
 0.0.0.0 ita.amaniwa.ru
@@ -306892,6 +307068,7 @@
 0.0.0.0 italy-covid19.u720553s9g.ha004.t.justns.ru
 0.0.0.0 italy.amoscato.com
 0.0.0.0 italy.cc.global.prod.fastly.net
+0.0.0.0 italy.news-pravda.com
 0.0.0.0 italyarchitecture.atspace.com
 0.0.0.0 italyweddings.mom
 0.0.0.0 itamilaneu8.click
@@ -308401,6 +308578,7 @@
 0.0.0.0 izharhussain.com
 0.0.0.0 izhd.top
 0.0.0.0 izhentou.com
+0.0.0.0 izhevsk-news.net
 0.0.0.0 izhevsk.sikolar.ru
 0.0.0.0 izhqzywb.hjz.libellus.ru
 0.0.0.0 izhuntingtonsupport.myvnc.com
@@ -308650,6 +308828,7 @@
 0.0.0.0 ja-icloud.com
 0.0.0.0 ja-ja-meta-center-acccounters.pages.dev
 0.0.0.0 ja-ja.top
+0.0.0.0 ja-jp.news-pravda.com
 0.0.0.0 ja-opiwaea00.com
 0.0.0.0 ja.amazons.cloud
 0.0.0.0 ja.revolvermaps.com
@@ -309594,6 +309773,7 @@
 0.0.0.0 japan-pplintl.com
 0.0.0.0 japan-teiegram.cc
 0.0.0.0 japan.eosandsotionsar.info
+0.0.0.0 japan.news-pravda.com
 0.0.0.0 japan.virosat.ru
 0.0.0.0 japanamazonhost.servehalflife.com
 0.0.0.0 japandica.shop
@@ -309959,7 +310139,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -316181,6 +316360,7 @@
 0.0.0.0 journalismanddesign.com
 0.0.0.0 journalofpolitics.org
 0.0.0.0 journalregistercompany.122.2o7.net
+0.0.0.0 journalrepublicain.fr
 0.0.0.0 journalvoixrussie.com.usrfiles.com
 0.0.0.0 journey--coinbasehome-cdn.webflow.io
 0.0.0.0 journey-x-auth.com
@@ -319616,6 +319796,7 @@
 0.0.0.0 kaligunjgovernmentiti.com
 0.0.0.0 kalindaandassociates.com
 0.0.0.0 kalinia.pl
+0.0.0.0 kaliningrad-news.net
 0.0.0.0 kaliony.co.uk
 0.0.0.0 kalipa.apanet.org
 0.0.0.0 kalipelus-banjarnegara.desa.id
@@ -319641,6 +319822,7 @@
 0.0.0.0 kalmet.click
 0.0.0.0 kalmovira.shop
 0.0.0.0 kalmuk.shop
+0.0.0.0 kalmykia-news.net
 0.0.0.0 kalo.dedspac.ru
 0.0.0.0 kalo.ulitron.ru
 0.0.0.0 kalohanimuntucarihotelygbagus.ga
@@ -319665,6 +319847,7 @@
 0.0.0.0 kaltberg.click
 0.0.0.0 kalten.cf
 0.0.0.0 kaltun.shop
+0.0.0.0 kaluga-news.net
 0.0.0.0 kalutarawindscreen.com
 0.0.0.0 kalved9835-philadent98254.pages.dev
 0.0.0.0 kalvin9835-philadent98254.pages.dev
@@ -319693,6 +319876,7 @@
 0.0.0.0 kamba.virosat.ru
 0.0.0.0 kambai2.github.io
 0.0.0.0 kambkhat.duckdns.org
+0.0.0.0 kamchatka-news.net
 0.0.0.0 kamcintosh.com
 0.0.0.0 kamddapll-com.azurewebsites.net
 0.0.0.0 kamdj.wpenginepowered.com
@@ -320066,6 +320250,7 @@
 0.0.0.0 kareg.net
 0.0.0.0 kareka999.github.io
 0.0.0.0 karel.dedspac.ru
+0.0.0.0 karelia-news.net
 0.0.0.0 karen-dent.ru
 0.0.0.0 karen.frazier.larealtypertners.com
 0.0.0.0 karen.segoviano.siammodintech.org
@@ -320633,6 +320818,7 @@
 0.0.0.0 kazahstan-money.com
 0.0.0.0 kazajxfzen.duckdns.org
 0.0.0.0 kazak.ulitron.ru
+0.0.0.0 kazan-news.net
 0.0.0.0 kazanciholdinq.com
 0.0.0.0 kazandirbayi.0fees.us
 0.0.0.0 kazatomprom-app.com
@@ -321332,6 +321518,7 @@
 0.0.0.0 kemcu.com
 0.0.0.0 kemencefm.com
 0.0.0.0 kemenpupr.com
+0.0.0.0 kemerovo-news.net
 0.0.0.0 kemhsjhhdh01.com
 0.0.0.0 kemit.pages.dev
 0.0.0.0 kemitraan-pgn.lyanan.my.id
@@ -322022,6 +322209,7 @@
 0.0.0.0 khaasdeal.com
 0.0.0.0 khabare2020.3dfine.com
 0.0.0.0 khabarial.net
+0.0.0.0 khabarovsk-news.net
 0.0.0.0 khabarupbihar.com
 0.0.0.0 khaboroya.com
 0.0.0.0 khachhang.obdvietnam.vn
@@ -322091,6 +322279,7 @@
 0.0.0.0 kharekul.com
 0.0.0.0 kharid-adams.ir
 0.0.0.0 kharidahan.com
+0.0.0.0 kharkov-news.ru
 0.0.0.0 kharoub.me
 0.0.0.0 khasa.ulitron.ru
 0.0.0.0 khasi.dedspac.ru
@@ -322130,6 +322319,7 @@
 0.0.0.0 khenmuerro1605erroxxonm.ml
 0.0.0.0 khepratsd345fgyju.gb.net
 0.0.0.0 kherad.ir
+0.0.0.0 kherson-news.ru
 0.0.0.0 khesanh.org
 0.0.0.0 kheth.ulitron.ru
 0.0.0.0 khetibuddy.com
@@ -323241,6 +323431,7 @@
 0.0.0.0 kjf.jfk.mybluehost.me
 0.0.0.0 kjf.pages.dev
 0.0.0.0 kjfgj-812.ml
+0.0.0.0 kjfk.news
 0.0.0.0 kjfurnituredesign.com
 0.0.0.0 kjghcv.rfi1qf9.cn
 0.0.0.0 kjghcx.iwizlkf.cn
@@ -323772,6 +323963,7 @@
 0.0.0.0 klarwertenz.de
 0.0.0.0 klarzinvold.de
 0.0.0.0 klas-hihmivee-hihmivee-klas.jindunqst.com
+0.0.0.0 klas.news
 0.0.0.0 klashindustries.com.au
 0.0.0.0 klasmann-delmann.com
 0.0.0.0 klassecoffee.com
@@ -323786,6 +323978,7 @@
 0.0.0.0 klatz.pro
 0.0.0.0 klaurel.ddns.net
 0.0.0.0 klawebdesign.com
+0.0.0.0 klax.news
 0.0.0.0 klay--ad.firebaseapp.com
 0.0.0.0 klay--ad.web.app
 0.0.0.0 klay-ac.firebaseapp.com
@@ -324187,6 +324380,7 @@
 0.0.0.0 kmh.com.au
 0.0.0.0 kmhime.com
 0.0.0.0 kmhxuymkzowe.top
+0.0.0.0 kmia.news
 0.0.0.0 kmifbyuiwg.duckdns.org
 0.0.0.0 kmioph.janice-ritchie.workers.dev
 0.0.0.0 kmjkednc.pqnsatfas.net
@@ -325227,6 +325421,7 @@
 0.0.0.0 korea-exploring-surveys-packet.trycloudflare.com
 0.0.0.0 korea-telegram.com
 0.0.0.0 korea.heato.ru
+0.0.0.0 korea.news-pravda.com
 0.0.0.0 korea.ulitron.ru
 0.0.0.0 koreabiobank.com
 0.0.0.0 koreagame.my.id
@@ -325488,6 +325683,7 @@
 0.0.0.0 kpaxcsuhdyntufmd-dot-millinium.ey.r.appspot.com
 0.0.0.0 kpaxdtnsnwuyviyeqgntmtqgmogagucddisk-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 kpaxzzpntesjlzvs-dot-millinium.ey.r.appspot.com
+0.0.0.0 kpbi.news
 0.0.0.0 kpbrzziku.my.id
 0.0.0.0 kpbs8ygz.bhz.my.id
 0.0.0.0 kpc.ninjaweb.us
@@ -325504,6 +325700,7 @@
 0.0.0.0 kpgyjsc.dentavenue.com.tr
 0.0.0.0 kphcom.uber.space
 0.0.0.0 kphje64841y03rzepzy.vuai.de
+0.0.0.0 kphl.news
 0.0.0.0 kphnyguh.pqnsatfas.net
 0.0.0.0 kphpjnrjlf.duckdns.org
 0.0.0.0 kpidigitalmedia.top
@@ -326048,6 +326245,7 @@
 0.0.0.0 krama.ulitron.ru
 0.0.0.0 kramati.ru
 0.0.0.0 krameria.ru
+0.0.0.0 kramersmarionnettes.com
 0.0.0.0 kramot.gq
 0.0.0.0 kramot.my.id
 0.0.0.0 kramro.shop
@@ -326068,7 +326266,9 @@
 0.0.0.0 kraski-oseni.sbs
 0.0.0.0 krasnaya.co.uk
 0.0.0.0 krasnodar-arena-kassa.ru
+0.0.0.0 krasnodar-news.net
 0.0.0.0 krasnodar.jimpike.com.au
+0.0.0.0 krasnoyarsk-news.net
 0.0.0.0 kratbiad.ddgrils.com
 0.0.0.0 krater.iprom.net
 0.0.0.0 kratika-rai.github.io
@@ -326603,6 +326803,7 @@
 0.0.0.0 ksewqpiyv.com.es
 0.0.0.0 ksf.org.ua
 0.0.0.0 ksf1einu8sdle.53244ds.xyz
+0.0.0.0 ksfo.news
 0.0.0.0 ksg-hetschbach.de
 0.0.0.0 ksgab.eu
 0.0.0.0 ksgentleman70.wixsite.com.usrfiles.com
@@ -326652,6 +326853,7 @@
 0.0.0.0 ksmhtmvzfyujjcsjdglawlfthtcnugqhadug-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 ksmith.thats-so-hip.com
 0.0.0.0 ksmkhaoaajao.com
+0.0.0.0 ksmo.news
 0.0.0.0 ksmoslemstore.com
 0.0.0.0 ksmuou1p5egy.karlthehandyman.com
 0.0.0.0 ksn4n.icu
@@ -328113,6 +328315,7 @@
 0.0.0.0 kuresc.net
 0.0.0.0 kureselmekanik.com
 0.0.0.0 kureselticaret.com
+0.0.0.0 kurgan-news.net
 0.0.0.0 kuri.dedspac.ru
 0.0.0.0 kuri.ulitron.ru
 0.0.0.0 kurier-dpd-paketscheinnummer-15503340744219.solidaritysunday.org
@@ -328149,6 +328352,7 @@
 0.0.0.0 kurrystop.com
 0.0.0.0 kurs.gefragt-sein.at
 0.0.0.0 kursiinvestments.com
+0.0.0.0 kursk-news.net
 0.0.0.0 kurskonb.ru
 0.0.0.0 kursusmengemudisahabat.com
 0.0.0.0 kursvermberg.de
@@ -329199,6 +329403,7 @@
 0.0.0.0 la-conciergerie-deauville.com
 0.0.0.0 la-cuenta-online-cliente-santander.misecure.com
 0.0.0.0 la-decima.camilovargas195.repl.co
+0.0.0.0 la-francegaullienne.fr
 0.0.0.0 la-garage-mishuku.com
 0.0.0.0 la-inmaculada.mx
 0.0.0.0 la-invitiamo-a-procedere-al-nuovo-aggiornamento-di-sicurezza-il.justwebsolution.com
@@ -329498,6 +329703,7 @@
 0.0.0.0 lache.virosat.ru
 0.0.0.0 lachel.co.kr
 0.0.0.0 lachenisgezond.be
+0.0.0.0 lachronicle.news
 0.0.0.0 lacienda-es.com
 0.0.0.0 laciest-goal.000webhostapp.com
 0.0.0.0 lacimaecohotel.com
@@ -329537,6 +329743,7 @@
 0.0.0.0 lactonic.me
 0.0.0.0 lactrastool.ga
 0.0.0.0 lactrastoole.ml
+0.0.0.0 lactualite-provencale.fr
 0.0.0.0 lactuca.ru
 0.0.0.0 lacunar-lace.000webhostapp.com
 0.0.0.0 lacur.cu.ma
@@ -329657,6 +329864,8 @@
 0.0.0.0 laforetsdf.temp.swtest.ru
 0.0.0.0 laforgiamarineo.com
 0.0.0.0 lafouine22.infos.st
+0.0.0.0 lafrance-debout.fr
+0.0.0.0 lafrancesouveraine.fr
 0.0.0.0 lafuentebarandgrill.com
 0.0.0.0 lafv-casefb419443.vercel.app
 0.0.0.0 lafwbyymmzpkibzj-dot-millinium.ey.r.appspot.com
@@ -330387,6 +330596,7 @@
 0.0.0.0 larenouvelle.mom
 0.0.0.0 larenzd.in
 0.0.0.0 lareplubliquedespyrenees.fr
+0.0.0.0 lareport.news
 0.0.0.0 larepos.es
 0.0.0.0 larevio.shop
 0.0.0.0 larg-profitarian-tech.com
@@ -330729,6 +330939,7 @@
 0.0.0.0 latradeaitrade.com
 0.0.0.0 latradizione.mom
 0.0.0.0 latribuen.fr
+0.0.0.0 latribunefrancaise.fr
 0.0.0.0 latrinchera.com.ar
 0.0.0.0 latropical.mom
 0.0.0.0 latrubune.fr
@@ -330742,6 +330953,7 @@
 0.0.0.0 latu.boletuso.ru
 0.0.0.0 latuapagina.click
 0.0.0.0 latus.dedspac.ru
+0.0.0.0 latvia.news-pravda.com
 0.0.0.0 latviaconsul.com
 0.0.0.0 latwogang.shop
 0.0.0.0 lau-qee.com
@@ -331949,6 +332161,7 @@
 0.0.0.0 ldzys0.cn
 0.0.0.0 le-chat-libre.com
 0.0.0.0 le-chineur.fr
+0.0.0.0 le-choinfo.fr
 0.0.0.0 le-dg-er-wall3.netlify.app
 0.0.0.0 le-diablotin-rouen.com
 0.0.0.0 le-leng.github.io
@@ -333568,10 +333781,13 @@
 0.0.0.0 leficaro.fr
 0.0.0.0 lefigarao.fr
 0.0.0.0 lefigarop.fr
+0.0.0.0 lefilactualites.fr
+0.0.0.0 lefilhexagonal.fr
 0.0.0.0 lefiogaro.fr
 0.0.0.0 lefirgaro.fr
 0.0.0.0 lefkos36-wixsite-com.filesusr.com
 0.0.0.0 leflix.us
+0.0.0.0 lefocus-occitanie.fr
 0.0.0.0 lefos.net
 0.0.0.0 lefrag.gq
 0.0.0.0 lefrolonnuquei-6477.vercel.app
@@ -333816,6 +334032,8 @@
 0.0.0.0 lejkmrcclkwvsmac-dot-millinium.ey.r.appspot.com
 0.0.0.0 lejln.top
 0.0.0.0 lejonajij.weebly.com
+0.0.0.0 lejournalfrancophone.fr
+0.0.0.0 lejournalnormand.fr
 0.0.0.0 lejrauzidn.duckdns.org
 0.0.0.0 lejtglwerjt.ga
 0.0.0.0 leju.jp
@@ -334115,6 +334333,7 @@
 0.0.0.0 leplrszfwciykder-dot-millinium.ey.r.appspot.com
 0.0.0.0 lepodownload.mediatek.com
 0.0.0.0 lepoinf.fr
+0.0.0.0 lepointnumerique.fr
 0.0.0.0 lepoissonier.github.io
 0.0.0.0 leponde.fr
 0.0.0.0 lepp.com.bd
@@ -334128,6 +334347,7 @@
 0.0.0.0 lepus.virosat.ru
 0.0.0.0 lepusi.site
 0.0.0.0 leqfhsnbou.duckdns.org
+0.0.0.0 lequotidienfrancais.fr
 0.0.0.0 ler.dedspac.ru
 0.0.0.0 ler.ulitron.ru
 0.0.0.0 lerabs.firebaseapp.com
@@ -336085,6 +336305,7 @@
 0.0.0.0 linexustrade.com
 0.0.0.0 liney.ulitron.ru
 0.0.0.0 linfamilyhawaii.com
+0.0.0.0 linformateurdujour.fr
 0.0.0.0 ling-grob-18.duckdns.org
 0.0.0.0 ling-grub-wa19.duckdns.org
 0.0.0.0 ling.ulitron.ru
@@ -336950,6 +337171,7 @@
 0.0.0.0 lipanthersfootball.com
 0.0.0.0 lipas.live
 0.0.0.0 lipe.dedspac.ru
+0.0.0.0 lipetsk-news.net
 0.0.0.0 lipglass.co.kr
 0.0.0.0 lipi4ecrr9jo.lspower.xyz
 0.0.0.0 lipid.ulitron.ru
@@ -337277,6 +337499,7 @@
 0.0.0.0 lithoscapes.com
 0.0.0.0 lithoscapes.org
 0.0.0.0 lithosolar.online
+0.0.0.0 lithuania.news-pravda.com
 0.0.0.0 lithy.dedspac.ru
 0.0.0.0 litigantscrub.com
 0.0.0.0 litigation-ftx.com
@@ -339183,6 +339406,7 @@
 0.0.0.0 lnk-vrlvidio2022.duckdns.org
 0.0.0.0 lnk.fingerso.ru
 0.0.0.0 lnk.ie
+0.0.0.0 lnk.ink
 0.0.0.0 lnk.ua
 0.0.0.0 lnkaqvwowakoflei-dot-millinium.ey.r.appspot.com
 0.0.0.0 lnkdeka.standard.us-east-1.oortech.com
@@ -339213,6 +339437,7 @@
 0.0.0.0 lnpot-bv81.qm9nri.cfd
 0.0.0.0 lnpworld.com
 0.0.0.0 lnqpliwnvm.duckdns.org
+0.0.0.0 lnr-news.ru
 0.0.0.0 lnracing.com
 0.0.0.0 lnrpro.com
 0.0.0.0 lnrsdqtgnnmwzlepkvqedbomih-dot-gleowayel400503.uc.r.appspot.com
@@ -344287,6 +344512,7 @@
 0.0.0.0 lt.imwallk.vip
 0.0.0.0 lt.ints-lt.gq
 0.0.0.0 lt.login.bayingli1688.com
+0.0.0.0 lt.news-pravda.com
 0.0.0.0 lt.q5wikm.casa
 0.0.0.0 lt.retargeter.com
 0.0.0.0 lt.uoieogtwiuj.sbs
@@ -345556,6 +345782,7 @@
 0.0.0.0 luxedrive.fr
 0.0.0.0 luxem-net-12.cfd
 0.0.0.0 luxemanisbylauren.com
+0.0.0.0 luxembourg.news-pravda.com
 0.0.0.0 luxemlocatorprod.112.2o7.net
 0.0.0.0 luxemone.co
 0.0.0.0 luxentrixprime.org
@@ -348614,6 +348841,7 @@
 0.0.0.0 magacadastro.com
 0.0.0.0 magacaiuzine.com
 0.0.0.0 magacor.com
+0.0.0.0 magadan-news.net
 0.0.0.0 magadestaque.com
 0.0.0.0 magafacildigital.xyz
 0.0.0.0 magafaturtaonline.com
@@ -348787,6 +349015,7 @@
 0.0.0.0 magazinecx2.000webhostapp.com
 0.0.0.0 magazinedaluizabrasil.com
 0.0.0.0 magazinedescontofimdeano.com
+0.0.0.0 magazinedusoir.fr
 0.0.0.0 magazinehostrb.000webhostapp.com
 0.0.0.0 magazinejaneiro.black
 0.0.0.0 magazineliquida.000webhostapp.com
@@ -354887,6 +355116,7 @@
 0.0.0.0 malhitravels.com
 0.0.0.0 mali-dugi.tumblr.com
 0.0.0.0 mali.dedspac.ru
+0.0.0.0 mali.news-pravda.com
 0.0.0.0 mali.ulitron.ru
 0.0.0.0 malia-york57.crabdance.com
 0.0.0.0 malianafotomolik.000webhostapp.com
@@ -355051,6 +355281,7 @@
 0.0.0.0 malt.boletuso.ru
 0.0.0.0 malt.dedspac.ru
 0.0.0.0 malt.ulitron.ru
+0.0.0.0 malta.news-pravda.com
 0.0.0.0 maltamask-wallata.gitbook.io
 0.0.0.0 malteklein.de
 0.0.0.0 maltese-breeder.com
@@ -355490,6 +355721,7 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
+0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarria5daleeeee.000webhostapp.com
@@ -355969,6 +356201,7 @@
 0.0.0.0 maopd.top
 0.0.0.0 maopiche.com
 0.0.0.0 maori.dedspac.ru
+0.0.0.0 maori.news-pravda.com
 0.0.0.0 maoric7c8.myvnc.com
 0.0.0.0 maotaismasklogin.gitbook.io
 0.0.0.0 maotherpy.com
@@ -356469,6 +356702,7 @@
 0.0.0.0 mariefrancebauvin90.wixsite.com
 0.0.0.0 marieiannotti.com
 0.0.0.0 mariejanne1975.wixsite.com
+0.0.0.0 mariel-news.net
 0.0.0.0 mariel-perez.github.io
 0.0.0.0 mariemichelotfac7567.x10.mx
 0.0.0.0 mariepatrouxprofilface1709.x10.mx
@@ -356540,6 +356774,7 @@
 0.0.0.0 maritimeaccounts.com
 0.0.0.0 maritoons.com
 0.0.0.0 marittahallani.com
+0.0.0.0 mariupol-news.ru
 0.0.0.0 mariusza.top
 0.0.0.0 mariuszmroz.pl
 0.0.0.0 marivernetta.wixsite.com
@@ -358547,6 +358782,7 @@
 0.0.0.0 mauriciodiahoje.xyz
 0.0.0.0 maurilioneto9.wix.com.usrfiles.com
 0.0.0.0 maurinexispro.net
+0.0.0.0 mauritania.news-pravda.com
 0.0.0.0 maurivoxpro.click
 0.0.0.0 maurodoimo.it
 0.0.0.0 maururutravel.com
@@ -359409,6 +359645,7 @@
 0.0.0.0 md-uk-3.whb.tempwebhost.net
 0.0.0.0 md.5.p2l.info
 0.0.0.0 md.m-space.jp
+0.0.0.0 md.news-pravda.com
 0.0.0.0 md1.affluenceinaugurate.top
 0.0.0.0 md2.wahsantuy.xyz
 0.0.0.0 md2nnx9im52kzdmvbxxos.53244ds.xyz
@@ -360478,7 +360715,6 @@
 0.0.0.0 meeting-bonus.firebaseapp.com
 0.0.0.0 meeting-bonus.web.app
 0.0.0.0 meeting.azurefd.net
-0.0.0.0 meeting.supply-reflection.shop
 0.0.0.0 meeting57422d52.scanlonchiro.com
 0.0.0.0 meeting86952.scanlonchiro.com
 0.0.0.0 meetingconcern.com
@@ -360736,6 +360972,7 @@
 0.0.0.0 meilinkode.nl
 0.0.0.0 meilitaikang.com
 0.0.0.0 meilityre.com
+0.0.0.0 meilleuresactus.fr
 0.0.0.0 meilleurmutuelle-e99b51.ingress-earth.ewp.live
 0.0.0.0 meiluziai.info
 0.0.0.0 meimanatfoodcar.dr72rpgr9p.workers.dev
@@ -360991,6 +361228,7 @@
 0.0.0.0 melitaeas.online
 0.0.0.0 melitaeas.ru
 0.0.0.0 melitaes.online
+0.0.0.0 melitopol-news.ru
 0.0.0.0 meliveshow.duckdns.org
 0.0.0.0 mell.amaniwa.ru
 0.0.0.0 mell.ulitron.ru
@@ -368347,7 +368585,6 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
-0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -368552,6 +368789,7 @@
 0.0.0.0 metropubgm.com
 0.0.0.0 metropubgmvip.com
 0.0.0.0 metropubgx.com
+0.0.0.0 metroreport.news
 0.0.0.0 metrorestorations.net
 0.0.0.0 metroroyale.org
 0.0.0.0 metroroyaleexodus.com
@@ -369037,6 +369275,7 @@
 0.0.0.0 mexico-outlookinformacion.liveblog365.com
 0.0.0.0 mexico.m-metashelp-en.online
 0.0.0.0 mexico.pages.net.br
+0.0.0.0 mexico.truefact.news
 0.0.0.0 mexico2023validarinf.royalwebhosting.net
 0.0.0.0 mexicoplatebyplate.com
 0.0.0.0 mexicotouring.net
@@ -370659,6 +370898,7 @@
 0.0.0.0 midi-fresh-ophthalmologist.glitch.me
 0.0.0.0 midi-lemon-pig.glitch.me
 0.0.0.0 midi-mammoth-tenor.glitch.me
+0.0.0.0 midi-pyreneesactualite.fr
 0.0.0.0 midi.ulitron.ru
 0.0.0.0 midiakit.net
 0.0.0.0 midiaplural.com.br
@@ -371914,6 +372154,7 @@
 0.0.0.0 minus.ulitron.ru
 0.0.0.0 minuslab.fr
 0.0.0.0 minutainfo.numpet.com
+0.0.0.0 minutedinfo.fr
 0.0.0.0 minutemanarmament.com
 0.0.0.0 minuto.mx
 0.0.0.0 minutoligado.com.br
@@ -372073,6 +372314,7 @@
 0.0.0.0 miro.ulitron.ru
 0.0.0.0 miro87.000webhostapp.com
 0.0.0.0 mirobenteu.com
+0.0.0.0 miroirdelafrance.fr
 0.0.0.0 miropc.org
 0.0.0.0 mirorword.com
 0.0.0.0 mirotas.ru
@@ -373824,6 +374066,7 @@
 0.0.0.0 mnbvcxzzz12.com
 0.0.0.0 mnby8g.webwave.dev
 0.0.0.0 mncelektronik.com
+0.0.0.0 mnch.at
 0.0.0.0 mncmnc.onrender.com
 0.0.0.0 mncssssssssssssk.byethost8.com
 0.0.0.0 mncveozntdotusgm-dot-millinium.ey.r.appspot.com
@@ -375504,6 +375747,8 @@
 0.0.0.0 moldanasklep.pl
 0.0.0.0 moldasteis.ru.com
 0.0.0.0 molddoctortampa.com
+0.0.0.0 moldova-news.com
+0.0.0.0 moldova.news-pravda.com
 0.0.0.0 molds.ulitron.ru
 0.0.0.0 moldstream.md
 0.0.0.0 moldtek.ro
@@ -375648,6 +375893,7 @@
 0.0.0.0 mon--cadepartementregional.ml
 0.0.0.0 mon--departementregional-fbc40.web.app
 0.0.0.0 mon-b.hongo.top
+0.0.0.0 mon-blanc-03.cfd
 0.0.0.0 mon-blanc-04.cfd
 0.0.0.0 mon-bricoleur.fr
 0.0.0.0 mon-compte-agricole-credit.ch20412.tmweb.ru
@@ -376142,6 +376388,7 @@
 0.0.0.0 montenay.net
 0.0.0.0 montenedean.wixsite.com
 0.0.0.0 montenegro-macedonia.mk
+0.0.0.0 montenegro.news-pravda.com
 0.0.0.0 montepaschi.me
 0.0.0.0 montepio-particulares.com
 0.0.0.0 montepio.info
@@ -377932,6 +378179,7 @@
 0.0.0.0 msjn.ir
 0.0.0.0 msjsopvfoz.duckdns.org
 0.0.0.0 msk-ka-yt526.duckdns.org
+0.0.0.0 msk-news.net
 0.0.0.0 msk-skif.ru
 0.0.0.0 msk-viralih.duckdns.org
 0.0.0.0 msk.memmek.gq
@@ -379626,7 +379874,6 @@
 0.0.0.0 multiresollvedapp.pages.dev
 0.0.0.0 multiresolveapp.pages.dev
 0.0.0.0 multirestoreauth.pages.dev
-0.0.0.0 multisavcx.xyz
 0.0.0.0 multiscalingdeclou.pages.dev
 0.0.0.0 multisellerdemo.arraybricks.com
 0.0.0.0 multiservicios.jmingenieriayservicios.com
@@ -379746,6 +379993,7 @@
 0.0.0.0 municipiodesanmiguelchimalapa.com.mx
 0.0.0.0 municipiofreire.cl
 0.0.0.0 munifresia.cl
+0.0.0.0 munihuacho.gob.pe
 0.0.0.0 munilahiguera.cl
 0.0.0.0 munimacu.github.io
 0.0.0.0 munimonoce.com
@@ -385104,6 +385352,7 @@
 0.0.0.0 nalajandaindk.duckdns.org
 0.0.0.0 nalandaias.com
 0.0.0.0 nalandenv.github.io
+0.0.0.0 nalchik-news.net
 0.0.0.0 naldex.click
 0.0.0.0 naldossary.com
 0.0.0.0 naletovo.ru
@@ -385340,6 +385589,7 @@
 0.0.0.0 nanxsports.com
 0.0.0.0 nanyang108.com
 0.0.0.0 nanyhub.ga
+0.0.0.0 nao-news.net
 0.0.0.0 nao.gov.lr
 0.0.0.0 nao.onlinebrformid2431816.oreozac.com
 0.0.0.0 nao.onlinebrformid5832638.naizero.com
@@ -385813,6 +386063,7 @@
 0.0.0.0 nato-spr.ddns.net
 0.0.0.0 nato.boletuso.ru
 0.0.0.0 nato.dedspac.ru
+0.0.0.0 nato.news-pravda.com
 0.0.0.0 nato.nshq.in
 0.0.0.0 natoexhibitionff14.com
 0.0.0.0 natohqint.com
@@ -386875,6 +387126,7 @@
 0.0.0.0 ndbjieog.ytyukai.cn
 0.0.0.0 ndbvcviqhd.duckdns.org
 0.0.0.0 ndc-asurion.com
+0.0.0.0 ndc.eu.com
 0.0.0.0 ndcgroup.com.au
 0.0.0.0 ndckeixwi.wcnv20.cn
 0.0.0.0 ndcollege.in
@@ -389345,6 +389597,7 @@
 0.0.0.0 netherladd88.click
 0.0.0.0 netherlade99.click
 0.0.0.0 netherlands-icscards2016.it
+0.0.0.0 netherlands.news-pravda.com
 0.0.0.0 nethertoxagent.live
 0.0.0.0 nethit-free.nl
 0.0.0.0 nethj.xyz
@@ -390082,6 +390335,7 @@
 0.0.0.0 new-ws.lib2lib.click
 0.0.0.0 new-xsuit.freexsuit.in
 0.0.0.0 new-xyz-bokep-vvip1.duckdns.org
+0.0.0.0 new-zealand.news-pravda.com
 0.0.0.0 new.407chef.com
 0.0.0.0 new.915yzt.cn
 0.0.0.0 new.adreport.com
@@ -390904,12 +391158,15 @@
 0.0.0.0 news-389767-mshome.com
 0.0.0.0 news-7day.ru
 0.0.0.0 news-almasirah.net
+0.0.0.0 news-balashiha.ru
 0.0.0.0 news-bbc.podzone.org
 0.0.0.0 news-bovido.cc
 0.0.0.0 news-cdn.site
 0.0.0.0 news-claimevent1.hicam.net
 0.0.0.0 news-claimevent2.hicam.net
+0.0.0.0 news-cr.ru
 0.0.0.0 news-dofus.com
+0.0.0.0 news-donetsk.ru
 0.0.0.0 news-fb-w-sprawie.site
 0.0.0.0 news-finances.com
 0.0.0.0 news-flash.net
@@ -390919,6 +391176,10 @@
 0.0.0.0 news-interface-account-updates-gner2021.net
 0.0.0.0 news-interface-accountupdates-global2021.co
 0.0.0.0 news-interface-accountupdates-global2021.my.id
+0.0.0.0 news-kharkov.ru
+0.0.0.0 news-kherson.ru
+0.0.0.0 news-kiev.ru
+0.0.0.0 news-lugansk.ru
 0.0.0.0 news-manageer.merchats.com
 0.0.0.0 news-metamask-for-chrome.webflow.io
 0.0.0.0 news-mgl.mlbbesports.us
@@ -390926,6 +391187,7 @@
 0.0.0.0 news-new-york.constantcontactsites.com
 0.0.0.0 news-news.co
 0.0.0.0 news-nine-wheat.vercel.app
+0.0.0.0 news-pravda.com
 0.0.0.0 news-pubg.biz.id
 0.0.0.0 news-room-katolicki.click
 0.0.0.0 news-server17-yahoo.com
@@ -391131,6 +391393,7 @@
 0.0.0.0 newsgetsclaim-ml7bnl6bnj.tk
 0.0.0.0 newsghonline.com
 0.0.0.0 newsgoodmax-midasbuys.merchats.com
+0.0.0.0 newsguard.tech
 0.0.0.0 newshawsitesss.gotdns.org
 0.0.0.0 newshawupdatingapps.weebly.com
 0.0.0.0 newshealthsport.com
@@ -392828,7 +393091,9 @@
 0.0.0.0 nigelbarber.co.uk
 0.0.0.0 nigelgriffith.com
 0.0.0.0 niger.dedspac.ru
+0.0.0.0 niger.news-pravda.com
 0.0.0.0 niger.ulitron.ru
+0.0.0.0 nigeria.news-pravda.com
 0.0.0.0 nigeriancryptoexchange.com
 0.0.0.0 nigerianstudentsaccommodation.com
 0.0.0.0 nigeriavoguejournalism.org
@@ -393000,6 +393265,7 @@
 0.0.0.0 nikogtngkali.duckdns.org
 0.0.0.0 nikolac.ru
 0.0.0.0 nikoladjurovic.com
+0.0.0.0 nikolaev-news.ru
 0.0.0.0 nikolag.me
 0.0.0.0 nikollsco.com
 0.0.0.0 nikolort.ru
@@ -393956,6 +394222,7 @@
 0.0.0.0 nmzhorfcxgpdmqie-dot-millinium.ey.r.appspot.com
 0.0.0.0 nmzxbf.tk
 0.0.0.0 nn-22.top
+0.0.0.0 nn-news.net
 0.0.0.0 nn-update.freaze.eu
 0.0.0.0 nn.cdn-health-service.com
 0.0.0.0 nn.metashepl-en.click
@@ -394934,6 +395201,7 @@
 0.0.0.0 nord-zasobownia.com
 0.0.0.0 nord-zasobownia.net
 0.0.0.0 nord05.web.app
+0.0.0.0 nordactuquotidien.fr
 0.0.0.0 nordafinextra.live
 0.0.0.0 nordancreditvale.com
 0.0.0.0 nordballons.ga
@@ -395084,6 +395352,7 @@
 0.0.0.0 norman172.preview.softr.app
 0.0.0.0 normandia.fun
 0.0.0.0 normandia.website
+0.0.0.0 normandie-actusinfos.fr
 0.0.0.0 normandieimpressionniste.com
 0.0.0.0 normansa.vercel.app
 0.0.0.0 normanwebsignin-au234d.vignetasti.workers.dev
@@ -395134,6 +395403,7 @@
 0.0.0.0 nortelcom.112.2o7.net
 0.0.0.0 north-area.bbsindex.com
 0.0.0.0 north-congruous-diver.glitch.me
+0.0.0.0 north-macedonia.news-pravda.com
 0.0.0.0 north-ring-pin.glitch.me
 0.0.0.0 north-service.live
 0.0.0.0 north.dedspac.ru
@@ -395231,6 +395501,7 @@
 0.0.0.0 norvixai.digital
 0.0.0.0 norw-v006.ga
 0.0.0.0 norway-ship.weeblysite.com
+0.0.0.0 norway.news-pravda.com
 0.0.0.0 norwaygjensidi.wpenginepowered.com
 0.0.0.0 norwegian.myassignmentpro.com
 0.0.0.0 norwerden.live-website.com
@@ -395888,6 +396159,7 @@
 0.0.0.0 nouveaudoc.temp.swtest.ru
 0.0.0.0 nouveauficher-eonu.vercel.app
 0.0.0.0 nouvelfactservice.framer.photos
+0.0.0.0 nouvelle-aquitaine-aujourdhui.fr
 0.0.0.0 nouvelle-com-fr.umbler.net
 0.0.0.0 nouvelle-ecole-booking.fr
 0.0.0.0 nouvelle-notification-ca.surge.sh
@@ -395898,10 +396170,14 @@
 0.0.0.0 nouvellemiseajour3secureline.com
 0.0.0.0 nouvellemiseenforme20.web.app
 0.0.0.0 nouvellemiseenjour22.web.app
+0.0.0.0 nouvelleperspective.fr
 0.0.0.0 nouvelleperspective.net
+0.0.0.0 nouvelles-deshautsdefrance.fr
+0.0.0.0 nouvelles-hexagonales.fr
 0.0.0.0 nouvelles-voitures.fr
 0.0.0.0 nouvelles247.com
 0.0.0.0 nouvellesfonctionsducrecreoiy675935ghdjbkzedez.cc13123.tmweb.ru
+0.0.0.0 nouvellesfrance24.fr
 0.0.0.0 nouvlly06.vercel.app
 0.0.0.0 nouwwabilet-sicaminu.web.app
 0.0.0.0 nouxunautomotive.com
@@ -396032,6 +396308,7 @@
 0.0.0.0 novensilesto.ru
 0.0.0.0 noventoria.com
 0.0.0.0 novestraxtrade.com
+0.0.0.0 novgorod-news.net
 0.0.0.0 novgorodrus.ru
 0.0.0.0 novice24.net
 0.0.0.0 novidadespodechegarsomentehoje.xyz
@@ -396072,6 +396349,7 @@
 0.0.0.0 novoplanodetaxas.com
 0.0.0.0 novopt.meyalli.org
 0.0.0.0 novos-beneficios.dynv6.net
+0.0.0.0 novosibirsk-news.net
 0.0.0.0 novosibirsk.serpgold.com
 0.0.0.0 novosibirsk.websitenp.ru
 0.0.0.0 novosti247.com
@@ -401525,6 +401803,7 @@
 0.0.0.0 oilymedication.cn
 0.0.0.0 oilzero.nl
 0.0.0.0 oilzero.org
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -402821,6 +403100,7 @@
 0.0.0.0 omshete0550.github.io
 0.0.0.0 omshjijgxtlsesgn-dot-millinium.ey.r.appspot.com
 0.0.0.0 omsje.duckdns.org
+0.0.0.0 omsk-news.net
 0.0.0.0 omskpets.ru
 0.0.0.0 omsmexico.com
 0.0.0.0 omsnne-d6c24d.ingress-earth.ewp.live
@@ -406929,9 +407209,11 @@
 0.0.0.0 oregrande.com
 0.0.0.0 orehkscgawyupaoz-dot-millinium.ey.r.appspot.com
 0.0.0.0 oreidoscabritos.com.br
+0.0.0.0 orel-news.net
 0.0.0.0 orellanaturismo.gob.ec
 0.0.0.0 oremiklo.xyz
 0.0.0.0 orenbucket78.s3.eu-de.cloud-object-storage.appdomain.cloud
+0.0.0.0 orenburg-news.net
 0.0.0.0 orenburg-rabota-vachtoy.ru
 0.0.0.0 orenda-bg.net
 0.0.0.0 orendafs.doordashes.ga
@@ -407574,6 +407856,7 @@
 0.0.0.0 ossc.co.za
 0.0.0.0 ossesinfor.cyou
 0.0.0.0 osset.dedspac.ru
+0.0.0.0 ossetia.news-pravda.com
 0.0.0.0 ossified-careful-parsley.glitch.me
 0.0.0.0 ossified-curse-existence.glitch.me
 0.0.0.0 ossifiedgaited.com
@@ -407770,6 +408053,7 @@
 0.0.0.0 otricfrate.cyou
 0.0.0.0 otrkises.royalwebhosting.net
 0.0.0.0 otropuerto.com
+0.0.0.0 otryadkovpaka.org
 0.0.0.0 ots.bibliota.ru
 0.0.0.0 ots.optimize.webtrends.com
 0.0.0.0 otsserver.com
@@ -412322,6 +412606,7 @@
 0.0.0.0 panointellegence.info
 0.0.0.0 panomora-trading-llc.weebly.com
 0.0.0.0 panorama-hotels.com
+0.0.0.0 panorama-info.fr
 0.0.0.0 panorama-kislovodsk.ru
 0.0.0.0 panoramaderma.com
 0.0.0.0 panoramadigitalnews.com
@@ -413172,6 +413457,7 @@
 0.0.0.0 partieshub.com
 0.0.0.0 partijet.reklawnos.com
 0.0.0.0 parting.es
+0.0.0.0 partiroyaliste.fr
 0.0.0.0 partition-close-spectacular-introductory.trycloudflare.com
 0.0.0.0 partizan-specificat.000webhostapp.com
 0.0.0.0 partkeepr.arkadruk.pl
@@ -413256,6 +413542,7 @@
 0.0.0.0 parts.ulitron.ru
 0.0.0.0 partschina.kz
 0.0.0.0 partsearches.sa.com
+0.0.0.0 partsforwatch.com
 0.0.0.0 partsstorelanm.000webhostapp.com
 0.0.0.0 parttaspar1bas.net
 0.0.0.0 parttimejobslover.com
@@ -413719,6 +414006,7 @@
 0.0.0.0 patrimarven.com.br
 0.0.0.0 patrimoine24.com
 0.0.0.0 patrimoine360.live
+0.0.0.0 patrimoineinfo.fr
 0.0.0.0 patrimoni.montcada.cat
 0.0.0.0 patrimonioai-app.pro
 0.0.0.0 patrimonioai-system.com
@@ -413794,7 +414082,6 @@
 0.0.0.0 paulagomeez.mnrimaapadnyitygsshkmpre.link
 0.0.0.0 paulaherlo.ro
 0.0.0.0 paulajuan.com
-0.0.0.0 paularavanelli.com.br
 0.0.0.0 paulatierney.com
 0.0.0.0 paulbrotsky.brotskydesigns.com
 0.0.0.0 paulcaltier.pl
@@ -413843,6 +414130,7 @@
 0.0.0.0 paurenoveilo.info
 0.0.0.0 pausatiri.eu.org
 0.0.0.0 pausautocuan.com
+0.0.0.0 pause-actus.fr
 0.0.0.0 pause.ulitron.ru
 0.0.0.0 pauseviolation.vercel.app
 0.0.0.0 pausiait.gq
@@ -413939,6 +414227,7 @@
 0.0.0.0 paws.dedspac.ru
 0.0.0.0 paws.org.au
 0.0.0.0 pawsewvpjqjspizf-dot-millinium.ey.r.appspot.com
+0.0.0.0 pawsockenjoyer.site
 0.0.0.0 pawsodyuwu.duckdns.org
 0.0.0.0 pawsomepetdeals.com
 0.0.0.0 pawsprecious.ca
@@ -415886,6 +416175,7 @@
 0.0.0.0 pcake-swap.vercel.app
 0.0.0.0 pcandmore.org
 0.0.0.0 pcandnetworkcables.com
+0.0.0.0 pcapetservices.co.uk
 0.0.0.0 pcash.globalmailer5.com
 0.0.0.0 pcash.imlive.com
 0.0.0.0 pcash.wildmatch.com
@@ -417320,6 +417610,7 @@
 0.0.0.0 penyatubangsa21.duckdns.org
 0.0.0.0 penyatubangsax17.duckdns.org
 0.0.0.0 penyspata.autos
+0.0.0.0 penza-news.net
 0.0.0.0 penzek.center
 0.0.0.0 penzul.shop
 0.0.0.0 peofw05.pages.dev
@@ -417959,6 +418250,7 @@
 0.0.0.0 perlkonat-ai-system.com
 0.0.0.0 perlkonatai.de
 0.0.0.0 perlointer.gq
+0.0.0.0 perm-news.net
 0.0.0.0 perm.dedspac.ru
 0.0.0.0 perm.helenclare.id.au
 0.0.0.0 perm.jimpike.com.au
@@ -418200,6 +418492,7 @@
 0.0.0.0 persosetol.cyou
 0.0.0.0 perspectiva-consulting.com
 0.0.0.0 perspectiveperceptionhypnosis.com
+0.0.0.0 perspectives-francaises.fr
 0.0.0.0 perspectivespersonal.mclegalsolutions.com
 0.0.0.0 persplayoktop.000webhostapp.com
 0.0.0.0 perssonalitemovel.com
@@ -420689,6 +420982,7 @@
 0.0.0.0 pitckotli.com
 0.0.0.0 pitcoin.cash
 0.0.0.0 piteqdiwdkjxpcwdbnbtntawuj-dot-gl909989876787.uk.r.appspot.com
+0.0.0.0 piter-news.net
 0.0.0.0 pitevcrnxwywuofqnncstvdwlzsbvyyxjvla-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 pitexam.com
 0.0.0.0 pitfire.net
@@ -423241,6 +423535,7 @@
 0.0.0.0 pointclaims-giltskin.kraftoneventrpa7update.workers.dev
 0.0.0.0 pointclicktrack.com
 0.0.0.0 pointdancestudio.live
+0.0.0.0 pointdevueactu.fr
 0.0.0.0 pointdopontos.myddns.me
 0.0.0.0 pointed-clean-replace.glitch.me
 0.0.0.0 pointed-husky-yak.glitch.me
@@ -423388,6 +423683,7 @@
 0.0.0.0 poland-capital.pl
 0.0.0.0 poland-corepay.cyou
 0.0.0.0 poland-parking.com
+0.0.0.0 poland.news-pravda.com
 0.0.0.0 poland.prom-newsinfo.site
 0.0.0.0 polandastrology.icu
 0.0.0.0 polandi.website
@@ -425252,8 +425548,10 @@
 0.0.0.0 portsecure04bank.servequake.com
 0.0.0.0 portsinfo.ru
 0.0.0.0 portugal-figures-tests-gambling.trycloudflare.com
+0.0.0.0 portugal.news-pravda.com
 0.0.0.0 portugalgreen.com
 0.0.0.0 portugalnoticias.ga
+0.0.0.0 portuguese.news-pravda.com
 0.0.0.0 portunio.site
 0.0.0.0 portwwloga.buzz
 0.0.0.0 portyp.bitbucket.io
@@ -427709,6 +428007,7 @@
 0.0.0.0 practice.net.au
 0.0.0.0 practicehazard.com
 0.0.0.0 practicoinnovation.com
+0.0.0.0 practisingcertificateprotection.com
 0.0.0.0 pracuinbaleccm.gitbook.io
 0.0.0.0 pracuinbaliccm.gitbook.io
 0.0.0.0 pracuinbasecam.gitbook.io
@@ -427900,6 +428199,12 @@
 0.0.0.0 prau.amaniwa.ru
 0.0.0.0 praus.dedspac.ru
 0.0.0.0 prava-servise.ru
+0.0.0.0 pravda-de.com
+0.0.0.0 pravda-dk.com
+0.0.0.0 pravda-en.com
+0.0.0.0 pravda-es.com
+0.0.0.0 pravda-fr.com
+0.0.0.0 pravda-mk.com
 0.0.0.0 praveen9705.github.io
 0.0.0.0 praveenflix.netlify.app
 0.0.0.0 praveenggouda.github.io
@@ -432610,6 +432915,7 @@
 0.0.0.0 pskmail.ru
 0.0.0.0 pskmua.est36.edu.mx
 0.0.0.0 psknhosting.online
+0.0.0.0 pskov-news.net
 0.0.0.0 pskz8v.shop
 0.0.0.0 psl-ecoleinterne.inscription.psl.eu
 0.0.0.0 psl-recruit.com
@@ -441346,13 +441652,13 @@
 0.0.0.0 pysykkelin.kz
 0.0.0.0 pysznatoskania.pl
 0.0.0.0 pyta.muticy.live
+0.0.0.0 pytalovo-news.ru
 0.0.0.0 pytest.shohuhi.digital
 0.0.0.0 pytgnz-bc.myshopify.com
 0.0.0.0 pyth-network-io.web.app
 0.0.0.0 pythagore.demdex.net
 0.0.0.0 pythiancastlehagerstown.com
 0.0.0.0 pythocapital.com
-0.0.0.0 python3.en-us--balancing.co
 0.0.0.0 pythonctf.com
 0.0.0.0 pythonvista.github.io
 0.0.0.0 pytimdashboard.co.at
@@ -447725,6 +448031,7 @@
 0.0.0.0 rc9.i2i.jp
 0.0.0.0 rc9organic.com
 0.0.0.0 rc9ssnpjrpyjqxema1xjdzyim3prbqqffl2etrsakcsulv.pages.dev
+0.0.0.0 rca.news-pravda.com
 0.0.0.0 rca.ulitron.ru
 0.0.0.0 rcabsejnldvglyvx-dot-millinium.ey.r.appspot.com
 0.0.0.0 rcadelivery.com.br
@@ -449690,6 +449997,7 @@
 0.0.0.0 redim47.hoanzo.ru
 0.0.0.0 redim5.hoanzo.ru
 0.0.0.0 redim72.hoanzo.ru
+0.0.0.0 redimsa.net
 0.0.0.0 redinformativacolombia.com
 0.0.0.0 redinnovacionglobal.com
 0.0.0.0 redintdf.com
@@ -452480,6 +452788,7 @@
 0.0.0.0 report2.mediahub.vn
 0.0.0.0 report2.ziyu.net
 0.0.0.0 reportaccompany.com
+0.0.0.0 reportagesinternationaux.fr
 0.0.0.0 reportar-com-pra-ahora-20.weebly.com
 0.0.0.0 reportatamazonshopping.com
 0.0.0.0 reportchase.duckdns.org
@@ -452859,6 +453168,7 @@
 0.0.0.0 researchnow.com
 0.0.0.0 researchnumberone.com
 0.0.0.0 researchpaperservice.org
+0.0.0.0 reseauavecactus.fr
 0.0.0.0 reseaucctt-ca-sahrepoint-87bc2848.azurewebsites.net
 0.0.0.0 reseauvdi.com
 0.0.0.0 reseaux-telecoms.fr.intellitxt.com
@@ -453869,6 +454179,7 @@
 0.0.0.0 reuterexpo.com
 0.0.0.0 reuterling.webstandesssbk.com
 0.0.0.0 reuters-press.com
+0.0.0.0 reuters.uk.net
 0.0.0.0 reutersdfpcw319687550988.s.moatpixel.com
 0.0.0.0 reutilizemais.co.mz
 0.0.0.0 rev-boredapeyachtclub.com
@@ -453939,6 +454250,7 @@
 0.0.0.0 revelarcabinedefotos.com.br
 0.0.0.0 revelation.now.sh
 0.0.0.0 revelation.vercel.app
+0.0.0.0 revelationdes-mensonges.fr
 0.0.0.0 revelationlending.org
 0.0.0.0 revelationpercussion.org
 0.0.0.0 revelcollab.com
@@ -457113,6 +457425,7 @@
 0.0.0.0 ro-binhoodlogan.weebly.com
 0.0.0.0 ro-cyber.com
 0.0.0.0 ro-gmtdmp.mookie1.com
+0.0.0.0 ro-ro.news-pravda.com
 0.0.0.0 ro-tune.com
 0.0.0.0 ro-ver.link
 0.0.0.0 ro.imtokne.vip
@@ -457464,7 +457777,6 @@
 0.0.0.0 robinhoodogine.gitbook.io
 0.0.0.0 robinhoodslogin.weebly.com
 0.0.0.0 robinhoodtre.top
-0.0.0.0 robinhoodwallet.dervano.vu
 0.0.0.0 robinhoodxlogi.gitbook.io
 0.0.0.0 robinhooed.top
 0.0.0.0 robinhoologin.wixsite.com
@@ -458273,6 +458585,7 @@
 0.0.0.0 romanexgpt.click
 0.0.0.0 romanexgpttrade.com
 0.0.0.0 romanhl.com
+0.0.0.0 romania.news-pravda.com
 0.0.0.0 romanianxa.gq
 0.0.0.0 romankintler1.netlify.app
 0.0.0.0 romanmoeseneder.at
@@ -458725,6 +459038,7 @@
 0.0.0.0 roster.pro
 0.0.0.0 rostiyanzado.tk
 0.0.0.0 rostoleum-int.com
+0.0.0.0 rostov-news.net
 0.0.0.0 rostov-sound.ru
 0.0.0.0 rostromagazine.com
 0.0.0.0 rosy.dedspac.ru
@@ -460056,6 +460370,7 @@
 0.0.0.0 rs.gwallet.com
 0.0.0.0 rs.instantservice.com
 0.0.0.0 rs.moneywayappl.com
+0.0.0.0 rs.news-pravda.com
 0.0.0.0 rs.p8iatz.sbs
 0.0.0.0 rs.ru
 0.0.0.0 rs.search.etargetnet.com
@@ -461719,6 +462034,7 @@
 0.0.0.0 ryantransjogja.com
 0.0.0.0 ryanvillezz.buzz
 0.0.0.0 ryaty.xknloqz.cn
+0.0.0.0 ryazan-news.net
 0.0.0.0 rybakdom.ru
 0.0.0.0 rybaripraha7.cz
 0.0.0.0 rybarstroj.shop
@@ -464537,6 +464853,7 @@
 0.0.0.0 samanthatowne.com
 0.0.0.0 samantik-b8e4c5.ingress-erytho.ewp.live
 0.0.0.0 samappz.com.global.prod.fastly.net
+0.0.0.0 samara-news.net
 0.0.0.0 samarakwt.com
 0.0.0.0 samarapressteam.com
 0.0.0.0 samarawickramaexporters.com
@@ -466326,6 +466643,7 @@
 0.0.0.0 saranilsson.xyz
 0.0.0.0 saransh-vashisht.github.io
 0.0.0.0 saranshchoudhary.github.io
+0.0.0.0 saransk-news.net
 0.0.0.0 saranyakharidas.github.io
 0.0.0.0 saranyasidda.github.io
 0.0.0.0 sarapeculi.000webhostapp.com
@@ -466336,6 +466654,7 @@
 0.0.0.0 saraswathi-dev.github.io
 0.0.0.0 sarathjithu89.github.io
 0.0.0.0 saratogapoloproperties.com
+0.0.0.0 saratov-news.net
 0.0.0.0 saratov.bibliota.ru
 0.0.0.0 saratov.kitaiavtozap.ru
 0.0.0.0 sarawak-govs.zapto.org
@@ -466833,6 +467152,7 @@
 0.0.0.0 savinonlogistics.com
 0.0.0.0 saviplkertiko24.today
 0.0.0.0 saviti.ru
+0.0.0.0 savoirtout.fr
 0.0.0.0 savon-olympic.net
 0.0.0.0 savor.monster
 0.0.0.0 savor.ulitron.ru
@@ -467663,6 +467983,7 @@
 0.0.0.0 scotias.jisholot.ru
 0.0.0.0 scotiaverificationregistry.com
 0.0.0.0 scotiawebscotlabank.mx13.com.mx
+0.0.0.0 scotland.news-pravda.com
 0.0.0.0 scott.dedspac.ru
 0.0.0.0 scottish-scoobies.net
 0.0.0.0 scottish.axehar.ru
@@ -469271,6 +469592,7 @@
 0.0.0.0 sendy.adpia.vn
 0.0.0.0 sene.ulitron.ru
 0.0.0.0 senega.space
+0.0.0.0 senegal.news-pravda.com
 0.0.0.0 senegala.xyz
 0.0.0.0 senior-mentor.com
 0.0.0.0 seniordancestudio.live
@@ -469385,6 +469707,7 @@
 0.0.0.0 serax.ulitron.ru
 0.0.0.0 serb.dedspac.ru
 0.0.0.0 serb.ulitron.ru
+0.0.0.0 serbia.news-pravda.com
 0.0.0.0 serbview.com
 0.0.0.0 serceszukaserca.pl
 0.0.0.0 serconsole.vicp.cc
@@ -470035,6 +470358,7 @@
 0.0.0.0 seurr.sbs
 0.0.0.0 seusbeneficios.dynv6.net
 0.0.0.0 sev.sev2.workers.dev
+0.0.0.0 sevastopol-news.com
 0.0.0.0 sevceiicess.weebly.com
 0.0.0.0 sevcviicess.weebly.com
 0.0.0.0 sevena.space
@@ -470115,6 +470439,7 @@
 0.0.0.0 sfrbvrfgv.weebly.com
 0.0.0.0 sfrclak.com
 0.0.0.0 sfrenrical.autos
+0.0.0.0 sfreport.news
 0.0.0.0 sfsddsg.vip
 0.0.0.0 sfshopee.com
 0.0.0.0 sfteamcoonmumnlty.com
@@ -471428,6 +471753,7 @@
 0.0.0.0 silveragesoftware.com
 0.0.0.0 silverbondgrove.com
 0.0.0.0 silverchalrpartners.com
+0.0.0.0 silvercity.news
 0.0.0.0 silverertragmere.net
 0.0.0.0 silvermob.com
 0.0.0.0 silverpeak.jdevcloud.com
@@ -471566,6 +471892,7 @@
 0.0.0.0 sing.dedspac.ru
 0.0.0.0 sing.ulitron.ru
 0.0.0.0 singally.timanar.ru
+0.0.0.0 singapore.news-pravda.com
 0.0.0.0 singe.virosat.ru
 0.0.0.0 singh.dedspac.ru
 0.0.0.0 singhamsuper.sellfy.store
@@ -472160,6 +472487,8 @@
 0.0.0.0 skryptonite-pl.cc
 0.0.0.0 skryptonite.live
 0.0.0.0 skrytown.com
+0.0.0.0 skryty.com
+0.0.0.0 skryty.ru
 0.0.0.0 sksvamsi.github.io
 0.0.0.0 sktptf2.xyz
 0.0.0.0 skua.dedspac.ru
@@ -472487,8 +472816,10 @@
 0.0.0.0 slotsjjj.com
 0.0.0.0 slotuna-1072.com
 0.0.0.0 slour.virosat.ru
+0.0.0.0 slovakia.news-pravda.com
 0.0.0.0 slovakpress.com
 0.0.0.0 slovaraix.net
+0.0.0.0 slovenia.news-pravda.com
 0.0.0.0 slovorti.ru
 0.0.0.0 slow-spring-rapping.on-fleek.app
 0.0.0.0 slow.dedspac.ru
@@ -473048,6 +473379,7 @@
 0.0.0.0 smokingeverywhere.122.2o7.net
 0.0.0.0 smokinggun.122.2o7.net
 0.0.0.0 smoky.virosat.ru
+0.0.0.0 smolensk-news.net
 0.0.0.0 smon-meta-klam-biz.pages.dev
 0.0.0.0 smoos.virosat.ru
 0.0.0.0 smooth-emojis-924009.framer.app
@@ -473455,6 +473787,7 @@
 0.0.0.0 soccerfansuk.com
 0.0.0.0 soccergaming.us.intellitxt.com
 0.0.0.0 socdm.com
+0.0.0.0 sochi-news.net
 0.0.0.0 sochi-park-otel.ru
 0.0.0.0 sochibeer.ru
 0.0.0.0 sochipark-hotel.ru
@@ -473544,6 +473877,7 @@
 0.0.0.0 soft-sawine-4598cd.netlify.app
 0.0.0.0 soft-side-946015.framer.app
 0.0.0.0 soft-storage.com
+0.0.0.0 soft-update.dev
 0.0.0.0 soft.110route.com
 0.0.0.0 soft.dedspac.ru
 0.0.0.0 soft.softchecker.org
@@ -474245,6 +474579,8 @@
 0.0.0.0 sourmath.com
 0.0.0.0 sours.virosat.ru
 0.0.0.0 sout.dedspac.ru
+0.0.0.0 south-korea.news-pravda.com
+0.0.0.0 south-sudan.news-pravda.com
 0.0.0.0 south.adcglobai.cyou
 0.0.0.0 south.virosat.ru
 0.0.0.0 southafricafuturefund.digital
@@ -474394,6 +474730,8 @@
 0.0.0.0 spae.ulitron.ru
 0.0.0.0 spaes.dedspac.ru
 0.0.0.0 spaf.jp
+0.0.0.0 spain.news-pravda.com
+0.0.0.0 spain.truefact.news
 0.0.0.0 spain.virosat.ru
 0.0.0.0 spainhubtrade.com
 0.0.0.0 spait.dedspac.ru
@@ -474420,6 +474758,7 @@
 0.0.0.0 spanianai.com
 0.0.0.0 spanids.dictionary.com
 0.0.0.0 spanids.thesaurus.com
+0.0.0.0 spanish.news-pravda.com
 0.0.0.0 spank.dedspac.ru
 0.0.0.0 spanner.store
 0.0.0.0 spanrowvvallef.digital
@@ -475207,6 +475546,7 @@
 0.0.0.0 srothuynguyen.com
 0.0.0.0 sroy2002.github.io
 0.0.0.0 srpaymxscrtu.loportar.ru
+0.0.0.0 srpska.news-pravda.com
 0.0.0.0 srryrvrdcwi.tauzetaomega.org
 0.0.0.0 srs.targetpoint.com
 0.0.0.0 srsorvete.com.br
@@ -477128,7 +477468,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -477828,6 +478167,7 @@
 0.0.0.0 stedmcooommnlunlty.com
 0.0.0.0 stedoquin.pro
 0.0.0.0 steelbitepro24.com
+0.0.0.0 steelcitydaily.com
 0.0.0.0 steelheadincs.com
 0.0.0.0 steelhouse.com
 0.0.0.0 steelhousemedia.com
@@ -478624,6 +478964,7 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamofdance.mom
 0.0.0.0 streamvod.pl
@@ -479118,6 +479459,7 @@
 0.0.0.0 sud.dedspac.ru
 0.0.0.0 sudahosting.com
 0.0.0.0 sudais73.github.io
+0.0.0.0 sudan.news-pravda.com
 0.0.0.0 sudanlist.com
 0.0.0.0 sudarshanabpatil.github.io
 0.0.0.0 sudd.ulitron.ru
@@ -479134,6 +479476,7 @@
 0.0.0.0 sudokuwhiz.com
 0.0.0.0 sudonova.com
 0.0.0.0 sudor.dedspac.ru
+0.0.0.0 sudouestdirect.fr
 0.0.0.0 sudsy.dedspac.ru
 0.0.0.0 sue.amaniwa.ru
 0.0.0.0 sued.dedspac.ru
@@ -480055,6 +480398,7 @@
 0.0.0.0 survey.survicate.com
 0.0.0.0 survey.wootric.com
 0.0.0.0 survey2.voicefive.com
+0.0.0.0 surveymethods.com
 0.0.0.0 surveymonkeycom.tt.omtrdc.net
 0.0.0.0 surveypass.com
 0.0.0.0 surveys.insightexpressai.com
@@ -480226,7 +480570,6 @@
 0.0.0.0 swan.ulitron.ru
 0.0.0.0 swanksoft.com
 0.0.0.0 swankysquare.com
-0.0.0.0 swanrecovery.com
 0.0.0.0 swans.dedspac.ru
 0.0.0.0 swanstudio.mom
 0.0.0.0 swap-14xexalgo.com
@@ -480319,6 +480662,7 @@
 0.0.0.0 sweb.ulta.com
 0.0.0.0 swed-eg.com
 0.0.0.0 swede.virosat.ru
+0.0.0.0 sweden.news-pravda.com
 0.0.0.0 sweeden-history.zapto.org
 0.0.0.0 sweekardahal.github.io
 0.0.0.0 sweep.dedspac.ru
@@ -480476,6 +480820,7 @@
 0.0.0.0 switchlotemax2u.shop
 0.0.0.0 switlicki.altoner.com
 0.0.0.0 switluxent-system.com
+0.0.0.0 switzerland.news-pravda.com
 0.0.0.0 switzertravels.com
 0.0.0.0 swiz.amaniwa.ru
 0.0.0.0 swiz.ulitron.ru
@@ -480804,6 +481149,7 @@
 0.0.0.0 syph.dedspac.ru
 0.0.0.0 syren.virosat.ru
 0.0.0.0 syria.dedspac.ru
+0.0.0.0 syria.news-pravda.com
 0.0.0.0 syriabazaronline.com
 0.0.0.0 syrianhrc.org
 0.0.0.0 syrin-vorak-helno.pages.dev
@@ -481479,6 +481825,7 @@
 0.0.0.0 taisrivog.cyou
 0.0.0.0 taitei-andreea.ro
 0.0.0.0 taitomarkbittrade.com
+0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
 0.0.0.0 taj.dedspac.ru
@@ -484183,6 +484530,7 @@
 0.0.0.0 thediplomat-press.com
 0.0.0.0 thedirecthor.com
 0.0.0.0 thediscoveryrun.com
+0.0.0.0 thedivadeveloper.com
 0.0.0.0 thedopenledgervadilator.pages.dev
 0.0.0.0 thedrevonlinkgpt.com
 0.0.0.0 thedrevonlinkgpt.org
@@ -485370,6 +485718,7 @@
 0.0.0.0 tiquetes.promocionesyofertaslatam.com
 0.0.0.0 tir94wepsdxox.appspot.com
 0.0.0.0 tira-funex-simo.pages.dev
+0.0.0.0 tiraspol-news.ru
 0.0.0.0 tiratburne.cyou
 0.0.0.0 tirer.virosat.ru
 0.0.0.0 tirerackcom.112.2o7.net
@@ -486009,6 +486358,7 @@
 0.0.0.0 tolus.virosat.ru
 0.0.0.0 tolvernmerit.com
 0.0.0.0 tolvynrendmere.com
+0.0.0.0 tolyatti-news.net
 0.0.0.0 tolyl.virosat.ru
 0.0.0.0 tom.allyes.com
 0.0.0.0 tom.bortogat.ru
@@ -486043,6 +486393,7 @@
 0.0.0.0 tomshardware.fr.intellitxt.com
 0.0.0.0 tomshardware.se.intellitxt.com
 0.0.0.0 tomshardware.us.intellitxt.com
+0.0.0.0 tomsk-news.net
 0.0.0.0 tomsnetworking.us.intellitxt.com
 0.0.0.0 tomsonguitars.co.uk
 0.0.0.0 tomsshoes.122.2o7.net
@@ -486297,6 +486648,7 @@
 0.0.0.0 torn.dedspac.ru
 0.0.0.0 torn.ulitron.ru
 0.0.0.0 tornado-cash.link
+0.0.0.0 tornado.cash
 0.0.0.0 tornado.pirtahotro.workers.dev
 0.0.0.0 tornadocash.net
 0.0.0.0 tornadocash.ws
@@ -486313,6 +486665,7 @@
 0.0.0.0 torohota.ru
 0.0.0.0 toroidally.amaniwa.ru
 0.0.0.0 toromadon.weebly.com
+0.0.0.0 torontojournal.ca
 0.0.0.0 torontos.ru
 0.0.0.0 torontostar.demdex.net
 0.0.0.0 tororango.com
@@ -488534,6 +488887,7 @@
 0.0.0.0 tri.boletuso.ru
 0.0.0.0 tri.ulitron.ru
 0.0.0.0 triad.dedspac.ru
+0.0.0.0 triadejuridica.com.br
 0.0.0.0 triadically.bibliota.ru
 0.0.0.0 triakisicosahedral.bibliota.ru
 0.0.0.0 triakisicosahedron.amaniwa.ru
@@ -488893,6 +489247,7 @@
 0.0.0.0 truebellcapital.com.au
 0.0.0.0 truecapitvane.click
 0.0.0.0 truecrypt.fr
+0.0.0.0 truefact.news
 0.0.0.0 truefashionnews.com
 0.0.0.0 truehits.net
 0.0.0.0 truehits1.gits.net.th
@@ -488919,6 +489274,7 @@
 0.0.0.0 truly.dedspac.ru
 0.0.0.0 trum-meta.pages.dev
 0.0.0.0 trump-chield.vercel.app
+0.0.0.0 trump.news-pravda.com
 0.0.0.0 trumped.bibliota.ru
 0.0.0.0 trumpery.bibliota.ru
 0.0.0.0 trumpet.bibliota.ru
@@ -489422,6 +489778,7 @@
 0.0.0.0 tukrypboard.site
 0.0.0.0 tuksisssitai17oo.tech
 0.0.0.0 tuktuc.ru
+0.0.0.0 tula-news.net
 0.0.0.0 tula.ulitron.ru
 0.0.0.0 tuldem.shop
 0.0.0.0 tuldra.shop
@@ -489540,6 +489897,8 @@
 0.0.0.0 turikar.ru
 0.0.0.0 turin.dedspac.ru
 0.0.0.0 turismocuatro.com
+0.0.0.0 turkey.news-pravda.com
+0.0.0.0 turkey.truefact.news
 0.0.0.0 turkeyrank.com
 0.0.0.0 turki.virosat.ru
 0.0.0.0 turkishairines.info
@@ -489630,7 +489989,9 @@
 0.0.0.0 tvc.biphim.club
 0.0.0.0 tvcmnbanavc.vercel.app
 0.0.0.0 tvdg.io
+0.0.0.0 tver-news.net
 0.0.0.0 tvfanatic.us.intellitxt.com
+0.0.0.0 tvfrance2.fr
 0.0.0.0 tvguide.112.2o7.net
 0.0.0.0 tvichile.cl
 0.0.0.0 tvip.edvuh.cn
@@ -489717,6 +490078,7 @@
 0.0.0.0 twill.dedspac.ru
 0.0.0.0 twimle.cn
 0.0.0.0 twin.dedspac.ru
+0.0.0.0 twincityreport.com
 0.0.0.0 twink.dedspac.ru
 0.0.0.0 twinkle-14.github.io
 0.0.0.0 twinpowerfx.net
@@ -489795,6 +490157,7 @@
 0.0.0.0 tx2returnhome.com
 0.0.0.0 txb9l.com
 0.0.0.0 txbn-casefb149500.vercel.app
+0.0.0.0 txdaily.news
 0.0.0.0 txdclcpcalendars.mdcomp.com.au
 0.0.0.0 txdmv.cyou
 0.0.0.0 txdmv.gov-amrn.cc
@@ -489912,6 +490275,7 @@
 0.0.0.0 tyty.lolokira.lol
 0.0.0.0 tyu.bndkm.com
 0.0.0.0 tyuiuyoiuygb.limited
+0.0.0.0 tyumen-news.net
 0.0.0.0 tyveralon-app.com
 0.0.0.0 tywra-defix-system.com
 0.0.0.0 tyyestercued.info
@@ -490053,6 +490417,7 @@
 0.0.0.0 ua-nl-mx.weebly.com
 0.0.0.0 ua.account-check.hostapp.link
 0.0.0.0 ua.badongo.com
+0.0.0.0 ua.news-pravda.com
 0.0.0.0 ua.supersonicads.com
 0.0.0.0 ua.yektanet.com
 0.0.0.0 ua1.hit.stat24.com
@@ -490250,6 +490615,7 @@
 0.0.0.0 udm.ri9.scorecardresearch.com
 0.0.0.0 udm.scorecardresearch.com
 0.0.0.0 udmserve.net
+0.0.0.0 udmurt-news.net
 0.0.0.0 udncoeln.com
 0.0.0.0 udoblechu.github.io
 0.0.0.0 udos.dedspac.ru
@@ -490281,6 +490647,7 @@
 0.0.0.0 uewtgbc.duckdns.org
 0.0.0.0 uezow.gkscwu.es
 0.0.0.0 uf-airao-vermil.pt
+0.0.0.0 ufa-news.net
 0.0.0.0 ufa.bibliota.ru
 0.0.0.0 ufeb8nd9wudwnidjunw9dueb.weebly.com
 0.0.0.0 uff6.com
@@ -490315,6 +490682,7 @@
 0.0.0.0 ugo.eu-adcenter.net
 0.0.0.0 ugorado.online
 0.0.0.0 ugorado.ru
+0.0.0.0 ugra-news.net
 0.0.0.0 ugric.virosat.ru
 0.0.0.0 ugtieh3n7vypqij.grupo-conde.com
 0.0.0.0 ugu-iota.vercel.app
@@ -490447,6 +490815,7 @@
 0.0.0.0 uk.cetis011.edu.mx
 0.0.0.0 uk.cqcounter.com
 0.0.0.0 uk.mediaplayercodecpack.com
+0.0.0.0 uk.news-pravda.com
 0.0.0.0 uk.sitestat.com
 0.0.0.0 uk.thor.rtk.io
 0.0.0.0 uk2.thor.rtk.io
@@ -490504,6 +490873,8 @@
 0.0.0.0 ukraine-news.ddns.net
 0.0.0.0 ukraine-story.com
 0.0.0.0 ukraine.html-5.me
+0.0.0.0 ukraine.news-pravda.com
+0.0.0.0 ukraine.truefact.news
 0.0.0.0 ukraineeducation.org
 0.0.0.0 ukrainesafe.is-great.org
 0.0.0.0 ukrainesafeurl.talebco.ir
@@ -490668,6 +491039,7 @@
 0.0.0.0 ulveronqesthira.digital
 0.0.0.0 ulveronqesthiratrade.com
 0.0.0.0 ulvico.shop
+0.0.0.0 ulyanovsk-news.net
 0.0.0.0 ulys-telepeage.fr
 0.0.0.0 um.oyfive3.sa.com
 0.0.0.0 um.simpli.fi
@@ -491687,6 +492059,7 @@
 0.0.0.0 uqz.com
 0.0.0.0 ura.amaniwa.ru
 0.0.0.0 ura.credits-center.com
+0.0.0.0 ural-news.net
 0.0.0.0 uraltransneft.com
 0.0.0.0 uraniumwhiterobot.net
 0.0.0.0 urare.dedspac.ru
@@ -491995,6 +492368,7 @@
 0.0.0.0 usa.boletuso.ru
 0.0.0.0 usa.bortogat.ru
 0.0.0.0 usa.nedstat.net
+0.0.0.0 usa.news-pravda.com
 0.0.0.0 usa.officesecure.online
 0.0.0.0 usaa-member-account-login-207520.gitlab.io
 0.0.0.0 usachoice.net
@@ -492023,6 +492397,7 @@
 0.0.0.0 usastampsales.com
 0.0.0.0 usasync01.admantx.com
 0.0.0.0 usataxirs.us
+0.0.0.0 usatimes.news
 0.0.0.0 usatoday.app.ur.gcion.com
 0.0.0.0 usatoday1.112.2o7.net
 0.0.0.0 usb-relay.com
@@ -494902,6 +495277,7 @@
 0.0.0.0 verisonwildcard.112.2o7.net
 0.0.0.0 veristart.company
 0.0.0.0 veritasgrading.com
+0.0.0.0 veritecachee.fr
 0.0.0.0 veriucdsevedm.com
 0.0.0.0 verivox01.webtrekk.net
 0.0.0.0 verixentraprotrade.com
@@ -495302,6 +495678,7 @@
 0.0.0.0 video.alxbgo.com
 0.0.0.0 video.bttrack.com
 0.0.0.0 video.cynogage.com
+0.0.0.0 video.darkpulsar.ai
 0.0.0.0 video.dmtracker.com
 0.0.0.0 video.entertaintastic.com
 0.0.0.0 video.fyber.com
@@ -495521,6 +495898,7 @@
 0.0.0.0 vimark-solutions.com
 0.0.0.0 vimeanchey.com
 0.0.0.0 vimpel.3utilities.com
+0.0.0.0 vin-news.ru
 0.0.0.0 vin.dedspac.ru
 0.0.0.0 vina.virosat.ru
 0.0.0.0 vinadwk.cyou
@@ -495862,9 +496240,11 @@
 0.0.0.0 vision5.sigma-art.pl
 0.0.0.0 visionbeampro.com
 0.0.0.0 visionciproxp.net
+0.0.0.0 visiondelafrance.fr
 0.0.0.0 visiondigitalnews.com
 0.0.0.0 visionembolexhex.net
 0.0.0.0 visioneprexneo.net
+0.0.0.0 visionfrancophone.fr
 0.0.0.0 visionfuturodigital.com
 0.0.0.0 visiongcraft.info
 0.0.0.0 visionglobalhub.com
@@ -496005,6 +496385,7 @@
 0.0.0.0 vivekscode.github.io
 0.0.0.0 vivelucroire.com
 0.0.0.0 viveplacoire.com
+0.0.0.0 vivezlinfo.fr
 0.0.0.0 vivgilance.fr
 0.0.0.0 vividcoffee.mom
 0.0.0.0 vivinns.github.io
@@ -496062,6 +496443,9 @@
 0.0.0.0 vkzefm.secondhandparts.co.za
 0.0.0.0 vl3pwd.metanat.ru
 0.0.0.0 vlaamswinstor.com
+0.0.0.0 vladikavkaz-news.net
+0.0.0.0 vladimir-news.net
+0.0.0.0 vladivostok-news.net
 0.0.0.0 vladonsd.ru
 0.0.0.0 vlage.cn
 0.0.0.0 vlamwaardiek-de.live
@@ -496247,6 +496631,8 @@
 0.0.0.0 voipwise.fr
 0.0.0.0 vois.gotdns.ch
 0.0.0.0 voitraai.com
+0.0.0.0 voix-francophone.fr
+0.0.0.0 voixdelafrance.fr
 0.0.0.0 voken.eyereturn.com
 0.0.0.0 vokm.top
 0.0.0.0 vokr-gtavc.ic.cz
@@ -496260,6 +496646,7 @@
 0.0.0.0 volenuzarixo.de
 0.0.0.0 volfavpcaa.duckdns.org
 0.0.0.0 volgamalau.cyou
+0.0.0.0 volgograd-news.net
 0.0.0.0 volhandelsburg-nl.live
 0.0.0.0 volhandelsburgtrade.com
 0.0.0.0 volictrans.cyou
@@ -496279,6 +496666,7 @@
 0.0.0.0 vollume.wixstudio.com
 0.0.0.0 volnari.shop
 0.0.0.0 volnopas.ru
+0.0.0.0 vologda-news.net
 0.0.0.0 volokhconspiracysucks.com
 0.0.0.0 voloqqo.click
 0.0.0.0 volotin.space
@@ -496386,6 +496774,7 @@
 0.0.0.0 vornelcrest.com
 0.0.0.0 vornhaus.click
 0.0.0.0 vornik.click
+0.0.0.0 voronezh-news.net
 0.0.0.0 vorpkel.vip
 0.0.0.0 vorplen.shop
 0.0.0.0 vortbridge.site
@@ -496418,6 +496807,7 @@
 0.0.0.0 voryn-haven.pages.dev
 0.0.0.0 voryou.my.id
 0.0.0.0 vosemart.ru
+0.0.0.0 vosges-enligne.fr
 0.0.0.0 vosita.ru
 0.0.0.0 vositra.ru
 0.0.0.0 vosken.click
@@ -497204,6 +497594,7 @@
 0.0.0.0 waldportivon.shop
 0.0.0.0 walenciak.mom
 0.0.0.0 walerthrdrezor.webflow.io
+0.0.0.0 wales.news-pravda.com
 0.0.0.0 walet-metmsak.webflow.io
 0.0.0.0 walet-trazor-logon-auth.pages.dev
 0.0.0.0 waletcoonect.gitbook.io
@@ -497367,6 +497758,7 @@
 0.0.0.0 walutnla.com
 0.0.0.0 walutura.pl
 0.0.0.0 walutura.pro
+0.0.0.0 walx.news
 0.0.0.0 waly.dedspac.ru
 0.0.0.0 waly.ulitron.ru
 0.0.0.0 wamazon.online
@@ -497776,6 +498168,7 @@
 0.0.0.0 wdgnewabcnewsandroidapp.112.2o7.net
 0.0.0.0 wdhjmx.com
 0.0.0.0 wdm29.com
+0.0.0.0 wdmdtv.com
 0.0.0.0 wdmwebs.us
 0.0.0.0 wdomu24.pl
 0.0.0.0 wdp.poladtkacc.com
@@ -500214,6 +500607,9 @@
 0.0.0.0 windsorcredpeak.digital
 0.0.0.0 windstreamupgradeservice.pages.dev
 0.0.0.0 windstreamupgradeservicess.pages.dev
+0.0.0.0 windycitycrier.com
+0.0.0.0 windycitymirror.com
+0.0.0.0 windycitytimes.news
 0.0.0.0 wine.ulitron.ru
 0.0.0.0 winecom.112.2o7.net
 0.0.0.0 wineenthusiastcom.112.2o7.net
@@ -500406,6 +500802,7 @@
 0.0.0.0 wknie.dxufvtmy.es
 0.0.0.0 wkoinfo.webredirect.org
 0.0.0.0 wks.ero-advertising.com
+0.0.0.0 wktv.news
 0.0.0.0 wkvqbxzfvstwyerdcnjauh-th08bay-dsn2.vercel.app
 0.0.0.0 wl.aniview.com.edgekey.net
 0.0.0.0 wl.spotify.com
@@ -501180,6 +501577,7 @@
 0.0.0.0 wt.sexsearchcom.com
 0.0.0.0 wta.ero-advertising.com
 0.0.0.0 wtag.adaptv.advertising.com
+0.0.0.0 wtat.news
 0.0.0.0 wteefo00dqe6.loportar.ru
 0.0.0.0 wtepedy.mom
 0.0.0.0 wtnj.worldnow.com
@@ -501236,6 +501634,7 @@
 0.0.0.0 wv.5.p2l.info
 0.0.0.0 wv.inner-active.mobi
 0.0.0.0 wv12i.icu
+0.0.0.0 wval.news
 0.0.0.0 wvc.r9ucep.top
 0.0.0.0 wvhzrgbdlmnl48pnt320i9aze6xykafou-hh28b.vercel.app
 0.0.0.0 wvj2n.jbifnidlafjb.es
@@ -532321,7 +532720,6 @@
 0.0.0.0 www.zenitique.shop
 0.0.0.0 www.zenitrendivo.net
 0.0.0.0 www.zenkurasi.shop
-0.0.0.0 www.zenledgerpolicy.com
 0.0.0.0 www.zenlivying.shop
 0.0.0.0 www.zennatural.pl
 0.0.0.0 www.zennewinstholm.com
@@ -533131,7 +533529,6 @@
 0.0.0.0 wyle.dedspac.ru
 0.0.0.0 wyleczpc.pl
 0.0.0.0 wyled.virosat.ru
-0.0.0.0 wylkpznq.xyz
 0.0.0.0 wylnw.com
 0.0.0.0 wynavi.com
 0.0.0.0 wyndhamvet.live
@@ -533760,6 +534157,7 @@
 0.0.0.0 xn--80afden1bnch4a.xn--p1ai
 0.0.0.0 xn--90aavapgipqq5hpb.robbiewilliamsmusic.ru
 0.0.0.0 xn--9krs5qgl1aizd.com
+0.0.0.0 xn--actu-auvergne-rhne-alpes-lnc.fr
 0.0.0.0 xn--adminbesttigen-eib.weebly.com
 0.0.0.0 xn--adspace-kvg.ero-advertising.com
 0.0.0.0 xn--agiel-kursawnia-hkd.org
@@ -534328,6 +534726,7 @@
 0.0.0.0 yaks.dedspac.ru
 0.0.0.0 yakult-hk.com
 0.0.0.0 yakut.virosat.ru
+0.0.0.0 yakutsk-news.net
 0.0.0.0 yalacapvexon.net
 0.0.0.0 yaldexo.shop
 0.0.0.0 yale.filitrus.ru
@@ -534339,6 +534738,7 @@
 0.0.0.0 yama.myfixhub.cfd
 0.0.0.0 yamaha.122.2o7.net
 0.0.0.0 yamahazabrze.mom
+0.0.0.0 yamal-news.net
 0.0.0.0 yamaoboli.com
 0.0.0.0 yamaru.org
 0.0.0.0 yamatattoostudio.mom
@@ -534405,6 +534805,7 @@
 0.0.0.0 yarm.ulitron.ru
 0.0.0.0 yarn.dedspac.ru
 0.0.0.0 yarn.virosat.ru
+0.0.0.0 yaroslavl-news.net
 0.0.0.0 yarovinsul.online
 0.0.0.0 yarp.msofficeworksau.com
 0.0.0.0 yarr.dedspac.ru
@@ -535663,6 +536064,7 @@
 0.0.0.0 zavod2281.icu
 0.0.0.0 zavodik11.help
 0.0.0.0 zavodka842.help
+0.0.0.0 zavos.io
 0.0.0.0 zavrixonta.com
 0.0.0.0 zavvdex.com
 0.0.0.0 zavyfitness.com
@@ -536104,6 +536506,7 @@
 0.0.0.0 zhihu-web-analytics.zhihu.com
 0.0.0.0 zhilan.ru
 0.0.0.0 zhirok.com
+0.0.0.0 zhitomir-news.ru
 0.0.0.0 zhiyang-edu.cn
 0.0.0.0 zhiziyun.com
 0.0.0.0 zhmud.dedspac.ru
@@ -536539,6 +536942,7 @@
 0.0.0.0 zoxjxitphd.duckdns.org
 0.0.0.0 zoxoq-imelect.qkipikpp.es
 0.0.0.0 zozo0329.github.io
+0.0.0.0 zp-news.ru
 0.0.0.0 zpafiska.pl
 0.0.0.0 zpaydns.quartz.web.id
 0.0.0.0 zpfgr.com
