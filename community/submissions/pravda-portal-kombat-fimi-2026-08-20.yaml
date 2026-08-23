@@ -8,7 +8,6 @@ source: "https://dfrlab.org/2025/04/18/introducing-the-pravda-dashboard/"
 source_name: "DFRLab/CheckFirst Pravda dashboard (2025-04-18) + CheckFirst hourly dataset (github.com/CheckFirstHQ/pravda-network, pulled 2026-08-20) + EU OJ reg. 2025/1444 (Shevchenko/TigerWeb) + DFRLab 2026-04-03 (post-sanctions persistence)"
 apt_groups:
   - "Pravda Network / Portal Kombat"
-confidence_score: 1.0
 description: >-
   Pro-Kremlin content-laundering network (100+ country/language portals)
   run by Crimea-based TigerWeb (founder Yevgeny Shevchenko, EU-sanctioned

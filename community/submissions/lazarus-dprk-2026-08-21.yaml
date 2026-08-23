@@ -9,8 +9,7 @@ author: "APTWatch Curator"
 source: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a"
 source_name: "CISA/FBI/Treasury AA22-108A TraderTraitor (2022-04-18) + AA21-048A AppleJeus (2021-02-17) + FBI IC3 PSA I-022625 Bybit (2025-02-26) + OFAC SDN (Lazarus 2019-09-13)"
 apt_groups:
-  - "Lazarus Group"
-confidence_score: 1.0
+  - "Lazarus / DPRK Crypto-Theft"
 description: >-
   DPRK state-sponsored cryptocurrency theft (Lazarus/APT38/BlueNoroff), ADJACENT
   scope per curator handoff 2026-08-21 (filterable sub-tag). IOC set ingested via

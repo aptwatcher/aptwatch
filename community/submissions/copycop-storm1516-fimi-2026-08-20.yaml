@@ -12,7 +12,6 @@ source: "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-ru-2025-0
 source_name: "Recorded Future Insikt CTA-RU-2025-0917 - CopyCop Deepens Its Playbook (2025-09-17); corroboration: DisinfoWatch 2026-05-05 (Canada/Alberta), EU OJ reg. 2025/2568 (Dougan)"
 apt_groups:
   - "CopyCop / Storm-1516"
-confidence_score: 1.0
 description: >-
   FIRST FIMI-SCOPE CAMPAIGN (curator scope decision 2026-08-19: influence-ops
   infrastructure IN, same inclusion criteria as C2). Russian state-directed
