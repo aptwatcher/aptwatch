@@ -177,6 +177,11 @@ TRIGGER_KEYWORDS = [
     "unit 26165", "unit 74455", "unit 29155",
     "ransomware affiliate", "ransomware-as-a-service", "raas",
     "wiper", "cert-ua",
+    # Filter-gap backfill (2026-08-23): outlet phrasings that name no actor
+    # alias in title/summary (e.g. The Register 2026-08-21 "Russian snoops add
+    # OAuth abuse..." — sister coverage of the GTIG primary, missed by the
+    # title+summary filter). Phrase forms only — never a bare "russia".
+    "russian snoops", "russian spies",
 ]
 
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,7}", re.IGNORECASE)
