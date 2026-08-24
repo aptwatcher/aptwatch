@@ -154,7 +154,11 @@ IN_SCOPE_ACTORS = [
     "apt28", "forest blizzard", "fancy bear", "sofacy", "sednit", "strontium",
     "apt29", "midnight blizzard", "cozy bear", "nobelium", "the dukes",
     "winter vivern", "tag-70",
-    "void blizzard",
+    "void blizzard", "laundry bear", "cl-sta-1114", "ta488",             # Void Blizzard/Laundry Bear (backfill 2026-08-18)
+    "storm-2945", "captivecrunch", "cornflake", "chocoshell",            # Midnight Blizzard CaptiveCrunch sub-cluster
+    "ice relic",                                                          # GTIG's new name for APT29 (backfill 2026-08-21)
+    "unc6293", "unc7005", "unc5976",                                      # GTIG suspected-Russian auth-flow clusters (2026-08-21)
+    "engineligh", "cherrypie", "headrush",                                # UNC7005/UNC5976 malware (ENGINELIGHT truncated to catch inflections)
     # --- Ransomware / crime ops adjacent (in-scope list + aliases) ---
     "blacksanta", "black santa",
     "alphv", "blackcat", "noberus",                                  # ALPHV
@@ -177,11 +181,12 @@ TRIGGER_KEYWORDS = [
     "unit 26165", "unit 74455", "unit 29155",
     "ransomware affiliate", "ransomware-as-a-service", "raas",
     "wiper", "cert-ua",
-    # Filter-gap backfill (2026-08-23): outlet phrasings that name no actor
-    # alias in title/summary (e.g. The Register 2026-08-21 "Russian snoops add
-    # OAuth abuse..." — sister coverage of the GTIG primary, missed by the
-    # title+summary filter). Phrase forms only — never a bare "russia".
-    "russian snoops", "russian spies",
+    # Outlet phrasings for unnamed Russian state activity (added 2026-08-21:
+    # The Register's "Russian snoops add OAuth abuse..." sister coverage of
+    # the GTIG primary was parsed but not matched — title/summary carried no
+    # actor alias). Phrase forms only, to avoid bare-"russia" noise.
+    "russian snoops", "russian spies", "russian state-sponsored",
+    "russian state hackers", "russian cyber",
 ]
 
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,7}", re.IGNORECASE)
