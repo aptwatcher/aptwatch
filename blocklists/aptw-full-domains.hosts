@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-24 06:36:08
-# Entries: 526378
+# Generated: 2026-08-24 12:34:28
+# Entries: 526379
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45679,7 +45679,6 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
-0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -209835,6 +209834,7 @@
 0.0.0.0 dl-phsl.com
 0.0.0.0 dl-tornj.ir
 0.0.0.0 dl-trustwallet.com
+0.0.0.0 dl.1003b.56a.com
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
@@ -248149,6 +248149,7 @@
 0.0.0.0 floodsd.com
 0.0.0.0 flooringandconcrete.com
 0.0.0.0 flooringexpert.com
+0.0.0.0 flooriscoveringworld.com
 0.0.0.0 floorsdirectltd.co.uk
 0.0.0.0 floortjemutsaers.nl
 0.0.0.0 floozboncoin.000webhostapp.com
@@ -256831,6 +256832,7 @@
 0.0.0.0 garnolabar.tk
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
+0.0.0.0 garogradba.mk
 0.0.0.0 garoo.ulitron.ru
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garpydook.ru
@@ -342810,7 +342812,6 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
-0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumarvexakiz.com
@@ -394753,7 +394754,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -418114,6 +418114,7 @@
 0.0.0.0 pixelmax.pl
 0.0.0.0 pixelnetworkltd.com
 0.0.0.0 pixelnexo.com
+0.0.0.0 pixelnoased.com
 0.0.0.0 pixelparcel.com.au
 0.0.0.0 pixelphotofcontest.pages.dev
 0.0.0.0 pixelphotofcontests.pages.dev
