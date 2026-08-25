@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-25 12:34:24
-# Entries: 526391
+# Generated: 2026-08-25 18:33:50
+# Entries: 526404
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -12077,6 +12077,7 @@
 0.0.0.0 1gym-kilkis.kil.sch.gr
 0.0.0.0 1h-usghdfy98oiehjs7iyushjg.vercel.app
 0.0.0.0 1h.vuregyy1.ru
+0.0.0.0 1h.xeteloi4.ru
 0.0.0.0 1h16.com
 0.0.0.0 1h1x7.com
 0.0.0.0 1h2g3.skin
@@ -45679,6 +45680,7 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
+0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -97745,6 +97747,7 @@
 0.0.0.0 architecturehealth.co.uk
 0.0.0.0 architecturerelated.com
 0.0.0.0 architekt-weinreich.de
+0.0.0.0 architekten-schreiner.de
 0.0.0.0 architekturbeglinger.com
 0.0.0.0 architgoel229.github.io
 0.0.0.0 architraved-doorkno.000webhostapp.com
@@ -101767,6 +101770,7 @@
 0.0.0.0 asiacross.jp
 0.0.0.0 asiadiscoversolutions.azureedge.net
 0.0.0.0 asiaecobiz.com
+0.0.0.0 asiaengrs.com
 0.0.0.0 asiafoodco.com
 0.0.0.0 asiahost.eu.org
 0.0.0.0 asiainspection.122.2o7.net
@@ -156848,6 +156852,7 @@
 0.0.0.0 brusk.virosat.ru
 0.0.0.0 brusknet.net
 0.0.0.0 brussadejeiyi-3224.vercel.app
+0.0.0.0 brussels-indo-pacific-forum.org
 0.0.0.0 brusselsarport.be
 0.0.0.0 brusselstourismjobs.be
 0.0.0.0 brut.dedspac.ru
@@ -156989,6 +156994,7 @@
 0.0.0.0 bsbygctheyeji78.w3spaces.com
 0.0.0.0 bsc-pancakeswap.pages.dev
 0.0.0.0 bsc-pics.surge.sh
+0.0.0.0 bsc2025.org
 0.0.0.0 bscase.ru
 0.0.0.0 bscfscan.us
 0.0.0.0 bscglobaledu.com
@@ -168645,6 +168651,7 @@
 0.0.0.0 ccny.matsuro.ru
 0.0.0.0 ccnz.pl
 0.0.0.0 ccoac0tij2wpl9cqqvgq.yuexiarts.com
+0.0.0.0 ccoffice.site
 0.0.0.0 ccoinbaselogin.blogspot.cl
 0.0.0.0 ccoinbaselogin.blogspot.sn
 0.0.0.0 ccoinbasewalletexxtension.webflow.io
@@ -181417,6 +181424,7 @@
 0.0.0.0 codeads.com
 0.0.0.0 codeakio.github.io
 0.0.0.0 codeandwork.pl
+0.0.0.0 codeassociates.co.ke
 0.0.0.0 codebiogblog.com
 0.0.0.0 codebox.jabont.com
 0.0.0.0 codebrainf.vercel.app
@@ -186348,6 +186356,7 @@
 0.0.0.0 confirmusercard.com
 0.0.0.0 confirmyouraccount.rf.gd
 0.0.0.0 confirmyouraccount2022.co.vu
+0.0.0.0 confirmyourflight-parisaeroport.com
 0.0.0.0 confirmyouridentity.web.id
 0.0.0.0 confirmyourinfos.one
 0.0.0.0 confisaconsorcio.com.br
@@ -242604,6 +242613,7 @@
 0.0.0.0 fewer.ulitron.ru
 0.0.0.0 fewer.virosat.ru
 0.0.0.0 fewezouffaqua-6022.vercel.app
+0.0.0.0 fewfwfwfwfwf.info
 0.0.0.0 fewisydujfihhifc-dot-millinium.ey.r.appspot.com
 0.0.0.0 fewkdoskd.xyz
 0.0.0.0 fewmasksteps.xyz
@@ -304851,7 +304861,6 @@
 0.0.0.0 it6aucoindexfi.c1.biz
 0.0.0.0 it8txi5.ml
 0.0.0.0 ita-acesso-promo.tk
-0.0.0.0 ita-airwaysva.com
 0.0.0.0 ita-areia.com.br
 0.0.0.0 ita-pontos-combr.ezpz.work
 0.0.0.0 ita-u-com.umbler.net
@@ -306269,7 +306278,6 @@
 0.0.0.0 ixie1.weebly.com
 0.0.0.0 ixindamix.org
 0.0.0.0 ixion.ulitron.ru
-0.0.0.0 ixirgroup.com
 0.0.0.0 ixjgpzmibh.5q5e5o.cn
 0.0.0.0 ixjnzitelqmeuoxrhtehcatajj.triple-upgrade-293822.rj.r.appspot.com
 0.0.0.0 ixlosmebel.uz
@@ -322708,6 +322716,7 @@
 0.0.0.0 kolotist.ru
 0.0.0.0 kolotran.ru
 0.0.0.0 kolowanishereshit.ga
+0.0.0.0 kolpa.lol
 0.0.0.0 kolporast.ru
 0.0.0.0 kolpoukamjyu.blogspot.com
 0.0.0.0 kolsalz.cf
@@ -342815,7 +342824,6 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
-0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumarvexakiz.com
@@ -369528,6 +369536,7 @@
 0.0.0.0 mioetamaxk-logie.godaddysites.com
 0.0.0.0 mioffice.info
 0.0.0.0 miogr4m.byethost17.com
+0.0.0.0 mioisiskwowiwjowuwjwolab.club
 0.0.0.0 miokn8.com
 0.0.0.0 miolkoijhjhjhb.gq
 0.0.0.0 miomquubudancufkalrsihzqpm-dot-gle39404049.rj.r.appspot.com
@@ -369539,6 +369548,7 @@
 0.0.0.0 mioplic.duckdns.org
 0.0.0.0 mioplie.duckdns.org
 0.0.0.0 miotamsklogin.gitbook.io
+0.0.0.0 miov2iaiaoubqosiqoiajwowiwjso.online
 0.0.0.0 mioveni.pl
 0.0.0.0 miozpro.com
 0.0.0.0 mipack369.org
@@ -375454,7 +375464,6 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
-0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -419706,6 +419715,7 @@
 0.0.0.0 pluto.ulitron.ru
 0.0.0.0 plutomaiserf.myvnc.com
 0.0.0.0 plutoniumo.ru
+0.0.0.0 plutotvshow.biz
 0.0.0.0 plutusmlm.ru
 0.0.0.0 plutusxone.com
 0.0.0.0 plutwrapsign.site
@@ -424337,7 +424347,6 @@
 0.0.0.0 powerprecinct.com.au
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
-0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -446758,6 +446767,7 @@
 0.0.0.0 redirr-0web.web.app
 0.0.0.0 redirr4.herokuapp.com
 0.0.0.0 redirsxpromo.dnsup.net
+0.0.0.0 rediruri.app
 0.0.0.0 redisecuredppalaantid178362463.ml
 0.0.0.0 redisman.ddns.net
 0.0.0.0 redistributescowinjjg.info
@@ -469493,7 +469503,6 @@
 0.0.0.0 smile-angel.com
 0.0.0.0 smile.zeabur.app
 0.0.0.0 smilesdentals.com
-0.0.0.0 smileshiplogistics.com
 0.0.0.0 smilewanted.com
 0.0.0.0 smileybins.co.ke
 0.0.0.0 smileyvibes.mom
@@ -480768,6 +480777,7 @@
 0.0.0.0 ticm.sap0508x9v.vip
 0.0.0.0 ticm.tap0297p8b.top
 0.0.0.0 ticolatonisan.pages.dev
+0.0.0.0 ticpc8a.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 tics.ulitron.ru
 0.0.0.0 ticskwsythree.icu
@@ -489053,6 +489063,7 @@
 0.0.0.0 ust.dedspac.ru
 0.0.0.0 ustg.top
 0.0.0.0 ustreamix.su
+0.0.0.0 ustrs.com
 0.0.0.0 ustrzorwalet.gitbook.io
 0.0.0.0 uststipog.autos
 0.0.0.0 usual.dedspac.ru
@@ -495750,6 +495761,7 @@
 0.0.0.0 wnaozle93.icu
 0.0.0.0 wnathan.fr
 0.0.0.0 wndoaylvjcvginisi54mraavgpeoafbcxvhot.dratassianaalves.com.br
+0.0.0.0 wne-2025.com
 0.0.0.0 wnioski-kredytowe.pl
 0.0.0.0 wnj8q.cyou
 0.0.0.0 wnj8q.icu
@@ -495923,6 +495935,7 @@
 0.0.0.0 wordseach.com
 0.0.0.0 wordslowe.myftp.org
 0.0.0.0 wordstore.net
+0.0.0.0 wordtax.ink
 0.0.0.0 worexua.pro
 0.0.0.0 worfect.ru
 0.0.0.0 work-offer.com
@@ -496076,6 +496089,7 @@
 0.0.0.0 workusb.ddns.net
 0.0.0.0 workvps.zhuimeng1319.workers.dev
 0.0.0.0 workwithsallykamara.com
+0.0.0.0 world-nuclear-exhibition-paris.com
 0.0.0.0 world-oil-company.com
 0.0.0.0 world-weather.zapto.org
 0.0.0.0 world.popadscdn.net
@@ -525363,7 +525377,6 @@
 0.0.0.0 zc1.maillist-manage.com.cn
 0.0.0.0 zc1.zeroredirect11.com
 0.0.0.0 zc11m.csb.app
-0.0.0.0 zcalton.com
 0.0.0.0 zcash-blockbook.twnodes.com
 0.0.0.0 zcbml.cn
 0.0.0.0 zckcp.net
