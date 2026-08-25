@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-24 18:34:09
-# Entries: 526380
+# Generated: 2026-08-25 00:34:00
+# Entries: 526383
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -136567,6 +136567,7 @@
 0.0.0.0 bblesdashboard.com
 0.0.0.0 bblfismqkimhijlh-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblhotmailway.weebly.com
+0.0.0.0 bblissmassage.com
 0.0.0.0 bbljmleaiorvaage-dot-millinium.ey.r.appspot.com
 0.0.0.0 bblockchain-login.webflow.io
 0.0.0.0 bblockchuain.azurewebsites.net
@@ -137928,7 +137929,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -179197,6 +179197,7 @@
 0.0.0.0 clouds-verr-162f.oinrsactsfanyif.workers.dev
 0.0.0.0 clouds-voice-509b.incaamand.workers.dev
 0.0.0.0 clouds.us-lax-1.linodeobjects.com
+0.0.0.0 cloudsenterprise26.com
 0.0.0.0 cloudserver009964.home.pl
 0.0.0.0 cloudserver048670.home.pl
 0.0.0.0 cloudserver098095.home.pl
@@ -290090,6 +290091,7 @@
 0.0.0.0 i-learnenglish2day.com
 0.0.0.0 i-locate.xyz
 0.0.0.0 i-love-bitches.lol
+0.0.0.0 i-love-git.com
 0.0.0.0 i-m-vijay-deshmukh.github.io
 0.0.0.0 i-m.mx
 0.0.0.0 i-mac-lcloud.underworld-onlin3.us
@@ -294217,6 +294219,7 @@
 0.0.0.0 imageefoto.000webhostapp.com
 0.0.0.0 imagefilms.com.pk
 0.0.0.0 imagefoto.live
+0.0.0.0 imagehopeag.com
 0.0.0.0 imageless.bortogat.ru
 0.0.0.0 imagelinetech.com
 0.0.0.0 imagematch300.com
@@ -306267,6 +306270,7 @@
 0.0.0.0 ixie1.weebly.com
 0.0.0.0 ixindamix.org
 0.0.0.0 ixion.ulitron.ru
+0.0.0.0 ixirgroup.com
 0.0.0.0 ixjgpzmibh.5q5e5o.cn
 0.0.0.0 ixjnzitelqmeuoxrhtehcatajj.triple-upgrade-293822.rj.r.appspot.com
 0.0.0.0 ixlosmebel.uz
@@ -365948,7 +365952,6 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
-0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -418114,6 +418117,7 @@
 0.0.0.0 pixelmax.pl
 0.0.0.0 pixelnetworkltd.com
 0.0.0.0 pixelnexo.com
+0.0.0.0 pixelnoased.com
 0.0.0.0 pixelparcel.com.au
 0.0.0.0 pixelphotofcontest.pages.dev
 0.0.0.0 pixelphotofcontests.pages.dev
@@ -460118,7 +460122,6 @@
 0.0.0.0 safeurl-sharepoint-account-hvlaw.sohaibislamjoy.top
 0.0.0.0 safeurl.maxthon.cn
 0.0.0.0 safewalletconnect.net
-0.0.0.0 safewatertech.com
 0.0.0.0 safeway96e7e.weebly.com
 0.0.0.0 safewaysecurityscreens.com.au
 0.0.0.0 safewebgrowthnation.vercel.app
