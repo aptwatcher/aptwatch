@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-25 00:34:00
-# Entries: 526383
+# Generated: 2026-08-25 02:17:35
+# Entries: 526386
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -194904,6 +194904,7 @@
 0.0.0.0 cyberriskresearchinstitute.org.usrfiles.com
 0.0.0.0 cyberrmain.000webhostapp.com
 0.0.0.0 cybersafety.technology
+0.0.0.0 cybersavvynetwork.com
 0.0.0.0 cybersc00.000webhostapp.com
 0.0.0.0 cyberscat.com
 0.0.0.0 cybersentinelbangladesh.github.io
@@ -318073,6 +318074,7 @@
 0.0.0.0 karma.dedspac.ru
 0.0.0.0 karma.mdpcdn.com
 0.0.0.0 karma.ulitron.ru
+0.0.0.0 karma0.xyz
 0.0.0.0 karmaaindia.com
 0.0.0.0 karmaclimb.live
 0.0.0.0 karmacourse.ml
@@ -342325,6 +342327,7 @@
 0.0.0.0 lucid.dedspac.ru
 0.0.0.0 lucid.ulitron.ru
 0.0.0.0 lucid.virosat.ru
+0.0.0.0 lucidamiproductions.com
 0.0.0.0 lucidfestival.com
 0.0.0.0 lucidly.intelligent66.buckso.ru
 0.0.0.0 lucidly.taramiet.ru
@@ -390076,6 +390079,7 @@
 0.0.0.0 nickashley.net
 0.0.0.0 nickatlas.com
 0.0.0.0 nickblackton.shop
+0.0.0.0 nickbush24.com
 0.0.0.0 nickchavezmusic.com
 0.0.0.0 nickcher.github.io
 0.0.0.0 nickde.oewabox.at
@@ -394756,7 +394760,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -466771,6 +466774,7 @@
 0.0.0.0 sh-cp8-au.yyz2.servername.online
 0.0.0.0 sh-cp9.yyz2.servername.online
 0.0.0.0 sh-jiyou.com
+0.0.0.0 sh-k.net
 0.0.0.0 sh-staging-cdn.younetmedia.com
 0.0.0.0 sh-staging.younetmedia.com
 0.0.0.0 sh-yayuan.net
@@ -473454,7 +473458,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
