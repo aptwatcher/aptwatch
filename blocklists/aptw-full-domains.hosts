@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-25 06:37:08
-# Entries: 526388
+# Generated: 2026-08-25 12:34:24
+# Entries: 526391
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45679,7 +45679,6 @@
 0.0.0.0 abdul-moeiz.github.io
 0.0.0.0 abdul-rasheed-talal.github.io
 0.0.0.0 abdul-soharab.github.io
-0.0.0.0 abdulahad.net
 0.0.0.0 abdulahad56.github.io
 0.0.0.0 abdulazizakyol.com
 0.0.0.0 abdulazizjonka.github.io
@@ -137928,7 +137927,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -264110,7 +264108,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -296950,6 +296947,7 @@
 0.0.0.0 indus.dedspac.ru
 0.0.0.0 indus.iad-01.braze.com
 0.0.0.0 indus.virosat.ru
+0.0.0.0 indusenterprises.co
 0.0.0.0 indusfood.com.pk
 0.0.0.0 indusgreenassociates.com
 0.0.0.0 indusmarket.ru
@@ -304853,6 +304851,7 @@
 0.0.0.0 it6aucoindexfi.c1.biz
 0.0.0.0 it8txi5.ml
 0.0.0.0 ita-acesso-promo.tk
+0.0.0.0 ita-airwaysva.com
 0.0.0.0 ita-areia.com.br
 0.0.0.0 ita-pontos-combr.ezpz.work
 0.0.0.0 ita-u-com.umbler.net
@@ -365954,6 +365953,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -375454,6 +375454,7 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
+0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -398899,7 +398900,6 @@
 0.0.0.0 oilymedication.cn
 0.0.0.0 oilzero.nl
 0.0.0.0 oilzero.org
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -418121,7 +418121,6 @@
 0.0.0.0 pixelmax.pl
 0.0.0.0 pixelnetworkltd.com
 0.0.0.0 pixelnexo.com
-0.0.0.0 pixelnoased.com
 0.0.0.0 pixelparcel.com.au
 0.0.0.0 pixelphotofcontest.pages.dev
 0.0.0.0 pixelphotofcontests.pages.dev
@@ -424338,6 +424337,7 @@
 0.0.0.0 powerprecinct.com.au
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
+0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -469493,6 +469493,7 @@
 0.0.0.0 smile-angel.com
 0.0.0.0 smile.zeabur.app
 0.0.0.0 smilesdentals.com
+0.0.0.0 smileshiplogistics.com
 0.0.0.0 smilewanted.com
 0.0.0.0 smileybins.co.ke
 0.0.0.0 smileyvibes.mom
@@ -476670,6 +476671,7 @@
 0.0.0.0 sxdcfvgb.weeblysite.com
 0.0.0.0 sxdfvrt.weebly.com
 0.0.0.0 sxdsdylw.com
+0.0.0.0 sxetnavelelaio.com
 0.0.0.0 sxhrsj.com
 0.0.0.0 sxhuanghaotex.com
 0.0.0.0 sxiulqxi.cn
@@ -525361,6 +525363,7 @@
 0.0.0.0 zc1.maillist-manage.com.cn
 0.0.0.0 zc1.zeroredirect11.com
 0.0.0.0 zc11m.csb.app
+0.0.0.0 zcalton.com
 0.0.0.0 zcash-blockbook.twnodes.com
 0.0.0.0 zcbml.cn
 0.0.0.0 zckcp.net
