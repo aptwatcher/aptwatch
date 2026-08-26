@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-25 18:33:50
-# Entries: 526404
+# Generated: 2026-08-26 00:34:13
+# Entries: 526405
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -26793,6 +26793,7 @@
 0.0.0.0 540090ea.sibforms.com
 0.0.0.0 5401-bmmanager442826.vercel.app
 0.0.0.0 5401546.synergyglobal.one
+0.0.0.0 540239621396215402.raymelo.vu
 0.0.0.0 540430.selcdn.ru
 0.0.0.0 5408344aca3b1f1392ecfd3d5163ce1b5b0848cf49644c03e8ac4aeb3e.pages.dev
 0.0.0.0 540997774302557.mnn-iyt-oo.xyxn.net
@@ -101770,7 +101771,6 @@
 0.0.0.0 asiacross.jp
 0.0.0.0 asiadiscoversolutions.azureedge.net
 0.0.0.0 asiaecobiz.com
-0.0.0.0 asiaengrs.com
 0.0.0.0 asiafoodco.com
 0.0.0.0 asiahost.eu.org
 0.0.0.0 asiainspection.122.2o7.net
@@ -137931,6 +137931,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -147804,6 +147805,7 @@
 0.0.0.0 blisspoint.us-west-2.stinger-ad.bidr.io
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
+0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blitexa.site
@@ -181424,7 +181426,6 @@
 0.0.0.0 codeads.com
 0.0.0.0 codeakio.github.io
 0.0.0.0 codeandwork.pl
-0.0.0.0 codeassociates.co.ke
 0.0.0.0 codebiogblog.com
 0.0.0.0 codebox.jabont.com
 0.0.0.0 codebrainf.vercel.app
@@ -244803,6 +244804,7 @@
 0.0.0.0 fin.ulitron.ru
 0.0.0.0 finabrighta.com
 0.0.0.0 finaitrixcoreai.com
+0.0.0.0 final-aura.top
 0.0.0.0 final-fb.vercel.app
 0.0.0.0 final-holding.com
 0.0.0.0 final-reminder-attached-document-for-your-viewing.us-east-1.linodeobjects.com
@@ -342824,6 +342826,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumarvexakiz.com
@@ -365961,7 +365964,6 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
-0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -469503,6 +469505,7 @@
 0.0.0.0 smile-angel.com
 0.0.0.0 smile.zeabur.app
 0.0.0.0 smilesdentals.com
+0.0.0.0 smileshiplogistics.com
 0.0.0.0 smilewanted.com
 0.0.0.0 smileybins.co.ke
 0.0.0.0 smileyvibes.mom
@@ -473469,7 +473472,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -480777,7 +480779,6 @@
 0.0.0.0 ticm.sap0508x9v.vip
 0.0.0.0 ticm.tap0297p8b.top
 0.0.0.0 ticolatonisan.pages.dev
-0.0.0.0 ticpc8a.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 tics.ulitron.ru
 0.0.0.0 ticskwsythree.icu
@@ -490277,7 +490278,6 @@
 0.0.0.0 verification-commbank.com
 0.0.0.0 verification-email2025.iceiy.com
 0.0.0.0 verification-info-mise-a-jour.surge.sh
-0.0.0.0 verification-process.com
 0.0.0.0 verification.healthyemployee.me
 0.0.0.0 verification.idapp1e.com
 0.0.0.0 verification.jiguang.cn
@@ -525377,6 +525377,7 @@
 0.0.0.0 zc1.maillist-manage.com.cn
 0.0.0.0 zc1.zeroredirect11.com
 0.0.0.0 zc11m.csb.app
+0.0.0.0 zcalton.com
 0.0.0.0 zcash-blockbook.twnodes.com
 0.0.0.0 zcbml.cn
 0.0.0.0 zckcp.net
