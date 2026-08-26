@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-26 06:36:29
-# Entries: 525168
+# Generated: 2026-08-26 12:34:12
+# Entries: 525178
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -73729,6 +73729,7 @@
 0.0.0.0 alphanumericfamiliarinstruction.cesarcastillo9.repl.co
 0.0.0.0 alphaonehire.com.au
 0.0.0.0 alphaoversea.com
+0.0.0.0 alphapicaficagency.com
 0.0.0.0 alphaposbd.com
 0.0.0.0 alphapowerspecial.hypno-beginning.com
 0.0.0.0 alphaprecisioncapital.net
@@ -101328,6 +101329,7 @@
 0.0.0.0 asdsicfbmowaktqp-dot-millinium.ey.r.appspot.com
 0.0.0.0 asdsjkadnk.vercel.app
 0.0.0.0 asdsmktktcewnlag-dot-millinium.ey.r.appspot.com
+0.0.0.0 asdsocial.pt
 0.0.0.0 asdssdadixisdn.xyz
 0.0.0.0 asdun.top
 0.0.0.0 asdutrafbtr.xyz
@@ -209870,7 +209872,6 @@
 0.0.0.0 dl.skyled.it
 0.0.0.0 dl.t39uvk5.top
 0.0.0.0 dl.tevipshoo.shop
-0.0.0.0 dl.unicron-dl.click
 0.0.0.0 dl1d2m8ri9v3j.cloudfront.net
 0.0.0.0 dl2cu.localto.net
 0.0.0.0 dl3bx-yqaaa-aaaad-qc7xa-cai.raw.ic0.app
@@ -246339,6 +246340,7 @@
 0.0.0.0 fisc.dedspac.ru
 0.0.0.0 fisc.ulitron.ru
 0.0.0.0 fiscalia-confirmar.c1.biz
+0.0.0.0 fiscalizarais.xyz
 0.0.0.0 fiscally.garbani.ru
 0.0.0.0 fiscalob.wwwaz1-ss19.a2hosted.com
 0.0.0.0 fiscalsss-cl.c1.biz
@@ -249915,6 +249917,7 @@
 0.0.0.0 forrealoh.blogspot.com
 0.0.0.0 forrestgamache.info
 0.0.0.0 forrodokomeketo.agenciainnova.com.br
+0.0.0.0 forsalenear.me
 0.0.0.0 forsan.nusratelsunnah.com
 0.0.0.0 forscript.midaschange.my.id
 0.0.0.0 forsdesign.net
@@ -260816,6 +260819,7 @@
 0.0.0.0 ghana.dedspac.ru
 0.0.0.0 ghana.virosat.ru
 0.0.0.0 ghanahealthservice.org
+0.0.0.0 ghanioilandgas.com
 0.0.0.0 ghaniyyat.github.io
 0.0.0.0 ghaodxnxmgwa.xyz
 0.0.0.0 gharaviri.ir
@@ -295194,6 +295198,7 @@
 0.0.0.0 impdk.tradedoubler.com
 0.0.0.0 impeachbinden2022.com
 0.0.0.0 impecdrapp.cyou
+0.0.0.0 impectorinternational.com
 0.0.0.0 imped.ulitron.ru
 0.0.0.0 impel.ulitron.ru
 0.0.0.0 impelinter.store
@@ -333656,7 +333661,6 @@
 0.0.0.0 lindhaprofit.com
 0.0.0.0 lindinasedred.serveminecraft.net
 0.0.0.0 lindleylabs.com
-0.0.0.0 lindnerelektroanlagen.de
 0.0.0.0 lindo.virosat.ru
 0.0.0.0 lindojon.com.br
 0.0.0.0 lindprofitt.com
@@ -358328,6 +358332,7 @@
 0.0.0.0 meirong.zyys128.com
 0.0.0.0 meirong5.com
 0.0.0.0 meiseek-ajsfgjasgfjasgfas97979asfasf7a9.pages.dev
+0.0.0.0 meissner.ae
 0.0.0.0 meister.bal-tester.shop
 0.0.0.0 meita-misklugin.godaddysites.com
 0.0.0.0 meitaamasklogin.gitbook.io
@@ -394833,6 +394838,7 @@
 0.0.0.0 nw-updater.vercel.app
 0.0.0.0 nw-verify-iproceed.com
 0.0.0.0 nw.ads.doko.jp
+0.0.0.0 nw.almfwb.com
 0.0.0.0 nw.bsaa0.za.com
 0.0.0.0 nw.empoparais.click
 0.0.0.0 nw0.de
@@ -417468,6 +417474,7 @@
 0.0.0.0 pinkhuefashion.com
 0.0.0.0 pinkies.pl
 0.0.0.0 pinkisthenewblog.us.intellitxt.com
+0.0.0.0 pinklabel.no
 0.0.0.0 pinko.dedspac.ru
 0.0.0.0 pinko.ulitron.ru
 0.0.0.0 pinkoliveentertainment.com
@@ -444427,6 +444434,7 @@
 0.0.0.0 rcdtjtournarkb7895.ml
 0.0.0.0 rcenter.co.uk
 0.0.0.0 rception2.wixsite.com
+0.0.0.0 rcf.co.mz
 0.0.0.0 rcfboltnut.com
 0.0.0.0 rcflightline-1316850103.cos.na-siliconvalley.myqcloud.com
 0.0.0.0 rcforecasting.com
@@ -458125,6 +458133,7 @@
 0.0.0.0 ryal.ulitron.ru
 0.0.0.0 ryalcapital.com
 0.0.0.0 ryanandbriana.com
+0.0.0.0 ryanborn.net
 0.0.0.0 ryancarlock.com
 0.0.0.0 ryanciusjmak.github.io
 0.0.0.0 ryanharrisondesign.com
@@ -511232,6 +511241,7 @@
 0.0.0.0 www.ninewestpolska.pl
 0.0.0.0 www.ninferzap.site
 0.0.0.0 www.ninjadollars.com
+0.0.0.0 www.nishiwaki.ne.jp
 0.0.0.0 www.nisprofit-system.com
 0.0.0.0 www.nissangofuku.live
 0.0.0.0 www.nissirestaurant.live
