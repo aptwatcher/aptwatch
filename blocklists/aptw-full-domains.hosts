@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-26 12:34:12
-# Entries: 525178
+# Generated: 2026-08-26 18:34:02
+# Entries: 525180
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -169327,7 +169327,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -176252,7 +176251,6 @@
 0.0.0.0 cl.s10.exct.net
 0.0.0.0 cl.selfhost.co.in
 0.0.0.0 cl.serveirc.com
-0.0.0.0 cl.ssouy.com
 0.0.0.0 cl.turkishairlines.com
 0.0.0.0 cl.ws000nsxc.cloudns.asia
 0.0.0.0 cl05460.tmweb.ru
@@ -192793,6 +192791,7 @@
 0.0.0.0 ct90914.tw1.ru
 0.0.0.0 ct91558-wordpress-1jjfq.tw1.ru
 0.0.0.0 ct97516.tmweb.ru
+0.0.0.0 cta.edu.pe
 0.0.0.0 cta.my
 0.0.0.0 ctaap.aamra.com.bd
 0.0.0.0 ctadbfkcpmyoyyajsdrjdwtdodsndrfiaeit-dot-cryptic-now-290917.ey.r.appspot.com
@@ -249917,7 +249916,6 @@
 0.0.0.0 forrealoh.blogspot.com
 0.0.0.0 forrestgamache.info
 0.0.0.0 forrodokomeketo.agenciainnova.com.br
-0.0.0.0 forsalenear.me
 0.0.0.0 forsan.nusratelsunnah.com
 0.0.0.0 forscript.midaschange.my.id
 0.0.0.0 forsdesign.net
@@ -292684,6 +292682,7 @@
 0.0.0.0 idyllic-beignet-ae761d.netlify.app
 0.0.0.0 idyllic-daifuku-b85f05.netlify.app
 0.0.0.0 idyllic-elf-955535.netlify.app
+0.0.0.0 idylliccreations.net
 0.0.0.0 idyllpictures.com
 0.0.0.0 idyls.dedspac.ru
 0.0.0.0 idyls.ulitron.ru
@@ -306233,7 +306232,6 @@
 0.0.0.0 ixie1.weebly.com
 0.0.0.0 ixindamix.org
 0.0.0.0 ixion.ulitron.ru
-0.0.0.0 ixirgroup.com
 0.0.0.0 ixjgpzmibh.5q5e5o.cn
 0.0.0.0 ixjnzitelqmeuoxrhtehcatajj.triple-upgrade-293822.rj.r.appspot.com
 0.0.0.0 ixlosmebel.uz
@@ -328713,6 +328711,7 @@
 0.0.0.0 lavoixdunet.info
 0.0.0.0 lavoixedunord.fr
 0.0.0.0 lavora-warszawa.com
+0.0.0.0 lavos.life
 0.0.0.0 lavozdegalapagos.com
 0.0.0.0 lavozdeloscentauros.com
 0.0.0.0 lavozdelquequen.com.ar
@@ -333661,6 +333660,7 @@
 0.0.0.0 lindhaprofit.com
 0.0.0.0 lindinasedred.serveminecraft.net
 0.0.0.0 lindleylabs.com
+0.0.0.0 lindnerelektroanlagen.de
 0.0.0.0 lindo.virosat.ru
 0.0.0.0 lindojon.com.br
 0.0.0.0 lindprofitt.com
@@ -357798,6 +357798,7 @@
 0.0.0.0 medicineproblems.uz
 0.0.0.0 medicines-collaborative-dock-developed.trycloudflare.com
 0.0.0.0 medicolegally.bortogat.ru
+0.0.0.0 medicosantiagomarrero.com
 0.0.0.0 medicoutpatient.com
 0.0.0.0 medicprognosis.com
 0.0.0.0 medicurepatuli.com
@@ -358332,7 +358333,6 @@
 0.0.0.0 meirong.zyys128.com
 0.0.0.0 meirong5.com
 0.0.0.0 meiseek-ajsfgjasgfjasgfas97979asfasf7a9.pages.dev
-0.0.0.0 meissner.ae
 0.0.0.0 meister.bal-tester.shop
 0.0.0.0 meita-misklugin.godaddysites.com
 0.0.0.0 meitaamasklogin.gitbook.io
@@ -417474,7 +417474,6 @@
 0.0.0.0 pinkhuefashion.com
 0.0.0.0 pinkies.pl
 0.0.0.0 pinkisthenewblog.us.intellitxt.com
-0.0.0.0 pinklabel.no
 0.0.0.0 pinko.dedspac.ru
 0.0.0.0 pinko.ulitron.ru
 0.0.0.0 pinkoliveentertainment.com
@@ -481002,6 +481001,7 @@
 0.0.0.0 tmatamackloggd.webflow.io
 0.0.0.0 tmc-webtripu.com
 0.0.0.0 tmcg.pl
+0.0.0.0 tmcksa.com
 0.0.0.0 tmgr.ccmbg.com
 0.0.0.0 tmi505409549053423586558954093.pages.dev
 0.0.0.0 tmk.smartadserver.com
@@ -484035,6 +484035,7 @@
 0.0.0.0 trsoriiostarrt.webflow.io
 0.0.0.0 trstart-trezur.webflow.io
 0.0.0.0 trstwcard.icu
+0.0.0.0 trtmyanmar.com
 0.0.0.0 trtrezohardwarwait.webflow.io
 0.0.0.0 trtsisskj.registid.com
 0.0.0.0 trturksars.click
@@ -489418,6 +489419,7 @@
 0.0.0.0 vc-login.com
 0.0.0.0 vc.hotjar.io
 0.0.0.0 vc.oewu.xyz
+0.0.0.0 vc.tnygbw.com
 0.0.0.0 vc28e-americanbuildsupply.ghjigclbopy.es
 0.0.0.0 vcardsdkservice.vivo.com.cn
 0.0.0.0 vcarrefour.fr
