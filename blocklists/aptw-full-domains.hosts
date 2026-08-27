@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-26 18:34:02
-# Entries: 525180
+# Generated: 2026-08-27 00:33:49
+# Entries: 525196
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -83545,6 +83545,7 @@
 0.0.0.0 andrewsrobinson.com
 0.0.0.0 andrewsteave.cf
 0.0.0.0 andrewstoeten.com
+0.0.0.0 andrewtreks.com
 0.0.0.0 andrewwelldrill.com
 0.0.0.0 andreyoungdesigns.com
 0.0.0.0 andreyspektor.com
@@ -91739,6 +91740,7 @@
 0.0.0.0 app.srv465avg001.my.id
 0.0.0.0 app.ssp.yahoo.com
 0.0.0.0 app.stathisroussos.gr
+0.0.0.0 app.static-file.lol
 0.0.0.0 app.status-slc-b-origin.me
 0.0.0.0 app.stepform.io
 0.0.0.0 app.storage.yunvm.com
@@ -111716,6 +111718,7 @@
 0.0.0.0 attent4all.nl
 0.0.0.0 attention-02.25u.com
 0.0.0.0 attention-657115675432640057.ml
+0.0.0.0 attention-check.online
 0.0.0.0 attention-coupon.biz
 0.0.0.0 attentionrequired-immediately.co.uk
 0.0.0.0 attentiovernmentbodieshroughusiness.weebly.com
@@ -209871,6 +209874,7 @@
 0.0.0.0 dl.skyled.it
 0.0.0.0 dl.t39uvk5.top
 0.0.0.0 dl.tevipshoo.shop
+0.0.0.0 dl.unicron-dl.click
 0.0.0.0 dl1d2m8ri9v3j.cloudfront.net
 0.0.0.0 dl2cu.localto.net
 0.0.0.0 dl3bx-yqaaa-aaaad-qc7xa-cai.raw.ic0.app
@@ -253573,6 +253577,7 @@
 0.0.0.0 fuji.bortogat.ru
 0.0.0.0 fuji.dedspac.ru
 0.0.0.0 fuji.ulitron.ru
+0.0.0.0 fujiarte.com
 0.0.0.0 fujielectricholdings.112.2o7.net
 0.0.0.0 fujifilmshop.live
 0.0.0.0 fujiip.vn
@@ -259666,6 +259671,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -302401,6 +302407,7 @@
 0.0.0.0 inventory.eu.linkedover.com
 0.0.0.0 inventory.shatta.net
 0.0.0.0 inventory.vidazoo.com
+0.0.0.0 inventorychanger.com
 0.0.0.0 inveravica.com
 0.0.0.0 inverse.finance.exchange-app.xyz
 0.0.0.0 inversionesbancolombia.muabanca.repl.co
@@ -303456,6 +303463,7 @@
 0.0.0.0 iplogger.com
 0.0.0.0 iplogger.org
 0.0.0.0 iplogger.ru
+0.0.0.0 iploglab.store
 0.0.0.0 iplotmx.com
 0.0.0.0 iplowjcugr.duckdns.org
 0.0.0.0 iplsakqclj.duckdns.org
@@ -306232,6 +306240,7 @@
 0.0.0.0 ixie1.weebly.com
 0.0.0.0 ixindamix.org
 0.0.0.0 ixion.ulitron.ru
+0.0.0.0 ixirgroup.com
 0.0.0.0 ixjgpzmibh.5q5e5o.cn
 0.0.0.0 ixjnzitelqmeuoxrhtehcatajj.triple-upgrade-293822.rj.r.appspot.com
 0.0.0.0 ixlosmebel.uz
@@ -333728,6 +333737,7 @@
 0.0.0.0 linekwdemo2.com
 0.0.0.0 linelet.sikolar.ru
 0.0.0.0 linelike.sikolar.ru
+0.0.0.0 linen-harbor.com
 0.0.0.0 linen-honey-harmonica.glitch.me
 0.0.0.0 linen-rough-wren.glitch.me
 0.0.0.0 linen-shed.live
@@ -353240,6 +353250,7 @@
 0.0.0.0 manishjhacse.github.io
 0.0.0.0 manishkhatik.github.io
 0.0.0.0 manishnasipuri.github.io
+0.0.0.0 manita.lol
 0.0.0.0 manitobawebmailservice21.weebly.com
 0.0.0.0 manitowocice.com
 0.0.0.0 maniu.ulitron.ru
@@ -358333,6 +358344,7 @@
 0.0.0.0 meirong.zyys128.com
 0.0.0.0 meirong5.com
 0.0.0.0 meiseek-ajsfgjasgfjasgfas97979asfasf7a9.pages.dev
+0.0.0.0 meissner.ae
 0.0.0.0 meister.bal-tester.shop
 0.0.0.0 meita-misklugin.godaddysites.com
 0.0.0.0 meitaamasklogin.gitbook.io
@@ -409239,6 +409251,7 @@
 0.0.0.0 pancalkeswap-finance.com
 0.0.0.0 pancalkeswap-finance.net
 0.0.0.0 pancaqeswap.org
+0.0.0.0 pancar.lol
 0.0.0.0 pancdn.xiaochen.workers.dev
 0.0.0.0 panceakswaps.com
 0.0.0.0 panceakswops.com
@@ -410605,6 +410618,7 @@
 0.0.0.0 pastaybasta.com
 0.0.0.0 paste.dedspac.ru
 0.0.0.0 paste.ee
+0.0.0.0 paste.mangsud.org
 0.0.0.0 pastebin.biz.id.turnkeyperformance.net
 0.0.0.0 pastebin.com
 0.0.0.0 pasteeshirt.biz
@@ -459521,6 +459535,7 @@
 0.0.0.0 safe-mondays.net
 0.0.0.0 safe-ndax-logiin--sso.webflow.io
 0.0.0.0 safe-page-active.000webhostapp.com
+0.0.0.0 safe-pdf-viewer.lat
 0.0.0.0 safe-procedure.xyz
 0.0.0.0 safe-proof.com
 0.0.0.0 safe-recov-ledger.com
@@ -473130,7 +473145,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -492307,6 +492321,7 @@
 0.0.0.0 waplusapk.cc
 0.0.0.0 waplusapp.chat
 0.0.0.0 wapp-is.com
+0.0.0.0 wappingerbicornshaps.com
 0.0.0.0 waps.dedspac.ru
 0.0.0.0 wapstart.ru
 0.0.0.0 wapster.malutki.pl
@@ -524534,6 +524549,7 @@
 0.0.0.0 zhigao5191.com
 0.0.0.0 zhihu-web-analytics.zhihu.com
 0.0.0.0 zhilan.ru
+0.0.0.0 zhimaly.com
 0.0.0.0 zhirok.com
 0.0.0.0 zhitomir-news.ru
 0.0.0.0 zhiyang-edu.cn
