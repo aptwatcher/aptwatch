@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-27 12:34:41
-# Entries: 525213
+# Generated: 2026-08-27 18:34:02
+# Entries: 525214
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -74073,7 +74073,6 @@
 0.0.0.0 altamira.bluestacko.ru
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
-0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanyucetas.com
 0.0.0.0 altapayvale.com
@@ -241474,6 +241473,7 @@
 0.0.0.0 fdsfsewfdsf.cf
 0.0.0.0 fdsgdsgs.easy.co
 0.0.0.0 fdshrtgds.yourtrap.com
+0.0.0.0 fdstat.vip
 0.0.0.0 fdsxaz2cds.pages.dev
 0.0.0.0 fdsxc.cckqatx.cn
 0.0.0.0 fdsyfmtfoa.duckdns.org
@@ -242136,6 +242136,7 @@
 0.0.0.0 fem-staffservice.ssl-lolipop.jp
 0.0.0.0 fem.bortogat.ru
 0.0.0.0 fem4rnd.com
+0.0.0.0 femade.co.uk
 0.0.0.0 femal3bk.com
 0.0.0.0 female-band.surge.sh
 0.0.0.0 female-v.1.p2l.info
@@ -259678,6 +259679,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -289768,7 +289770,6 @@
 0.0.0.0 hyper-tangy-court.glitch.me
 0.0.0.0 hyperads.gotrackier.com
 0.0.0.0 hyperbanner.net
-0.0.0.0 hypercorevector4.lol
 0.0.0.0 hypereutectic-equiv.000webhostapp.com
 0.0.0.0 hyperfuturosemanal.com
 0.0.0.0 hypergolically.bibliota.ru
@@ -459639,6 +459640,7 @@
 0.0.0.0 safeguardtrackerdigitalleads.vercel.app
 0.0.0.0 safeguardtrackerimpactjourney.vercel.app
 0.0.0.0 safegurd001.pages.dev
+0.0.0.0 safeifm.com
 0.0.0.0 safeincgroup.com
 0.0.0.0 safeintelchannel.pages.dev
 0.0.0.0 safelink-unapproved-attempt.com
@@ -477268,7 +477270,6 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
-0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajgyey.com
 0.0.0.0 tajikistan.noyaidetipio.qpon
@@ -486190,6 +486191,7 @@
 0.0.0.0 universal.iperceptions.com
 0.0.0.0 universalcoba.com
 0.0.0.0 universalfxmm.com
+0.0.0.0 universalmobility.pro
 0.0.0.0 universalmsg.com
 0.0.0.0 universalmusic.mom
 0.0.0.0 universe.send.microad.jp
@@ -493044,6 +493046,7 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -493711,7 +493714,6 @@
 0.0.0.0 wexmar.shop
 0.0.0.0 wexprotraderopt.net
 0.0.0.0 wexunibupe.com
-0.0.0.0 weybli.com
 0.0.0.0 weynuoligzare.pro
 0.0.0.0 wez-bon.24.eu
 0.0.0.0 wf.basebanner.com
@@ -510148,7 +510150,6 @@
 0.0.0.0 www.medical4u.eu
 0.0.0.0 www.medicals4.com
 0.0.0.0 www.medicinebo.shop
-0.0.0.0 www.mediocasavolponi.com
 0.0.0.0 www.medipms.com
 0.0.0.0 www.medises.co.kr
 0.0.0.0 www.mediterrianbest.com
