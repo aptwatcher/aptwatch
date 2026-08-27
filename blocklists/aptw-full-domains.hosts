@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-27 06:35:50
-# Entries: 525199
+# Generated: 2026-08-27 12:34:41
+# Entries: 525213
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -74073,6 +74073,7 @@
 0.0.0.0 altamira.bluestacko.ru
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
+0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanyucetas.com
 0.0.0.0 altapayvale.com
@@ -97857,6 +97858,7 @@
 0.0.0.0 archivo121.click
 0.0.0.0 archivohistoriaeconomicamexico.com
 0.0.0.0 archivos.escuelacentinela.cl
+0.0.0.0 archivoscrosoft.com
 0.0.0.0 archivosdelestado.com.co
 0.0.0.0 archivosysuministros.com
 0.0.0.0 archivotomasmontero.org
@@ -166668,6 +166670,7 @@
 0.0.0.0 casascommsa.com.mx
 0.0.0.0 casasempelos.pt
 0.0.0.0 casaslascervalizas.com
+0.0.0.0 casasmediterraneas.com
 0.0.0.0 casasofertasespecial2019.com
 0.0.0.0 casasyterrenos.uy
 0.0.0.0 casatho.com
@@ -179063,6 +179066,7 @@
 0.0.0.0 cloud.alacritas.ru
 0.0.0.0 cloud.aouthman-logistik.de
 0.0.0.0 cloud.byebyeu.workers.dev
+0.0.0.0 cloud.calltop.com.br
 0.0.0.0 cloud.cc.swtest.ru
 0.0.0.0 cloud.cdi.to
 0.0.0.0 cloud.clotingfaretaas.cloud
@@ -191169,6 +191173,7 @@
 0.0.0.0 creativestate-fy2010.leftbankcompanies.com
 0.0.0.0 creativeteam.it
 0.0.0.0 creativevisionlv.com
+0.0.0.0 creativevoltage.com
 0.0.0.0 creativewastepartners.com
 0.0.0.0 creativeweb.co.zw
 0.0.0.0 creativewebsiteconcepts.com
@@ -229127,7 +229132,6 @@
 0.0.0.0 eventosconciertosbailes.mx
 0.0.0.0 eventosefeiras.com
 0.0.0.0 eventosyfiestasinfantiles.com
-0.0.0.0 eventourarte.cl
 0.0.0.0 eventpartys18.com
 0.0.0.0 eventpaypal2019.onedumb.com
 0.0.0.0 eventpestadiamond.duckdns.org
@@ -259667,6 +259671,7 @@
 0.0.0.0 gestionpersonaldeseguros.w3spaces.com
 0.0.0.0 gestionpyme.cl
 0.0.0.0 gestionsegurovirtual.brizy.site
+0.0.0.0 gestionycobranzas.com
 0.0.0.0 gestiscionline.com
 0.0.0.0 gestiscismartbper.com
 0.0.0.0 gestmsmions.firebaseapp.com
@@ -266682,6 +266687,7 @@
 0.0.0.0 graffitiprankxluckyspin.com
 0.0.0.0 grafia.co
 0.0.0.0 graficadupress.com.br
+0.0.0.0 graficaminascard.com.br
 0.0.0.0 graficasigma.com.ar
 0.0.0.0 graficasiniesta.com
 0.0.0.0 graficasutileza.com.br
@@ -289762,6 +289768,7 @@
 0.0.0.0 hyper-tangy-court.glitch.me
 0.0.0.0 hyperads.gotrackier.com
 0.0.0.0 hyperbanner.net
+0.0.0.0 hypercorevector4.lol
 0.0.0.0 hypereutectic-equiv.000webhostapp.com
 0.0.0.0 hyperfuturosemanal.com
 0.0.0.0 hypergolically.bibliota.ru
@@ -327993,6 +328000,7 @@
 0.0.0.0 lanzar.publicidadweb.com
 0.0.0.0 lao.ulitron.ru
 0.0.0.0 lao21.cn
+0.0.0.0 laofa.kaoaaapc.cc
 0.0.0.0 laogangtea.com
 0.0.0.0 laokonsin.cn
 0.0.0.0 laonc.ml
@@ -342857,6 +342865,7 @@
 0.0.0.0 luminous-overjoyed-water.glitch.me
 0.0.0.0 luminous-sulfuric-diagram.glitch.me
 0.0.0.0 luminous-twilight-b0e05a.netlify.app
+0.0.0.0 luminouspower.com.pk
 0.0.0.0 luminoussilkydatabase--alfakhan.repl.co
 0.0.0.0 luminousstreamhavengift.com
 0.0.0.0 luminovaai.net
@@ -424160,7 +424169,6 @@
 0.0.0.0 powerprecinct.com.au
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
-0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -437088,6 +437096,7 @@
 0.0.0.0 pulbarlhbossqu.000webhostapp.com
 0.0.0.0 puled.dedspac.ru
 0.0.0.0 pulex.dedspac.ru
+0.0.0.0 pulgarinrealtor.com
 0.0.0.0 pulgatore8721.hursola.repl.co
 0.0.0.0 pulharktheherald.112.2o7.net
 0.0.0.0 pulhotvirt.hursola.repl.co
@@ -468127,6 +468136,7 @@
 0.0.0.0 sixes.dedspac.ru
 0.0.0.0 sixflagsrosarito.com
 0.0.0.0 sixhbx.sbs
+0.0.0.0 sixmexicos.com
 0.0.0.0 sixmilecreekestate.com.au
 0.0.0.0 sixscissors.com
 0.0.0.0 sixsigmatraffic.com
@@ -477258,6 +477268,7 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
+0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajgyey.com
 0.0.0.0 tajikistan.noyaidetipio.qpon
@@ -493700,6 +493711,7 @@
 0.0.0.0 wexmar.shop
 0.0.0.0 wexprotraderopt.net
 0.0.0.0 wexunibupe.com
+0.0.0.0 weybli.com
 0.0.0.0 weynuoligzare.pro
 0.0.0.0 wez-bon.24.eu
 0.0.0.0 wf.basebanner.com
@@ -508251,6 +508263,7 @@
 0.0.0.0 www.kanseihome.shop
 0.0.0.0 www.kanseiliving.shop
 0.0.0.0 www.kanso.app
+0.0.0.0 www.kaoaaapc.cc
 0.0.0.0 www.kaoos-kdidjhcv.pro
 0.0.0.0 www.kapiloqtrade.de
 0.0.0.0 www.kapita-rynvexon.net
@@ -510135,6 +510148,7 @@
 0.0.0.0 www.medical4u.eu
 0.0.0.0 www.medicals4.com
 0.0.0.0 www.medicinebo.shop
+0.0.0.0 www.mediocasavolponi.com
 0.0.0.0 www.medipms.com
 0.0.0.0 www.medises.co.kr
 0.0.0.0 www.mediterrianbest.com
