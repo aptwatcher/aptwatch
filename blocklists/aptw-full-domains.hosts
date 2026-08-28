@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-28 06:35:34
-# Entries: 523522
+# Generated: 2026-08-28 12:34:06
+# Entries: 523518
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -169098,6 +169098,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -265919,8 +265920,6 @@
 0.0.0.0 gox.ulitron.ru
 0.0.0.0 goxboom.com
 0.0.0.0 goxdluyvfenfkkzvoesiiadjri-dot-gleowayel400503.uc.r.appspot.com
-0.0.0.0 goxlr.io
-0.0.0.0 goxlrutility.net
 0.0.0.0 goxrczcnklgjmpyc-dot-millinium.ey.r.appspot.com
 0.0.0.0 goxscarpa.shop
 0.0.0.0 goxtrade.com
@@ -287361,7 +287360,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -476611,7 +476609,6 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
-0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -504760,7 +504757,6 @@
 0.0.0.0 www.gerniopsodkeriosdpods.site
 0.0.0.0 www.gershop.com
 0.0.0.0 www.gerteuzonim-sg.live
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com
