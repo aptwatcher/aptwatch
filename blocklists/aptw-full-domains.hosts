@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-28 12:34:06
-# Entries: 523518
+# Generated: 2026-08-28 18:34:18
+# Entries: 523527
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -73717,6 +73717,7 @@
 0.0.0.0 alphardgolf.fr
 0.0.0.0 alpharealmx.com
 0.0.0.0 alphas.dedspac.ru
+0.0.0.0 alphasaling.site
 0.0.0.0 alphasan.in
 0.0.0.0 alphasaurabh.github.io
 0.0.0.0 alphaservicesupports.com
@@ -187800,6 +187801,7 @@
 0.0.0.0 cool.ulitron.ru
 0.0.0.0 cool.vadilops.ru
 0.0.0.0 cooladata.kampyle.com
+0.0.0.0 coolairesgroup.com
 0.0.0.0 coolbridge.xyz
 0.0.0.0 coolcoolers.com.au
 0.0.0.0 coolcools.xyz
@@ -207984,6 +207986,7 @@
 0.0.0.0 dipolecryptchain.online
 0.0.0.0 dippy.dedspac.ru
 0.0.0.0 dippy.ulitron.ru
+0.0.0.0 dipre.com.tr
 0.0.0.0 diprocar.com.py
 0.0.0.0 diproelec.com.sv
 0.0.0.0 diprolia.com
@@ -217542,6 +217545,7 @@
 0.0.0.0 easyantrim.pages.dev
 0.0.0.0 easyappauthenticator.com
 0.0.0.0 easyappt.com
+0.0.0.0 easyaround.st
 0.0.0.0 easybank-com.vercel.app
 0.0.0.0 easybank-frontendmentor-two.vercel.app
 0.0.0.0 easybank-landing-bage-six.vercel.app
@@ -256555,6 +256559,7 @@
 0.0.0.0 garnolabar.tk
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
+0.0.0.0 garogradba.mk
 0.0.0.0 garoo.ulitron.ru
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garpeli.shop
@@ -265920,6 +265925,7 @@
 0.0.0.0 gox.ulitron.ru
 0.0.0.0 goxboom.com
 0.0.0.0 goxdluyvfenfkkzvoesiiadjri-dot-gleowayel400503.uc.r.appspot.com
+0.0.0.0 goxlrutility.net
 0.0.0.0 goxrczcnklgjmpyc-dot-millinium.ey.r.appspot.com
 0.0.0.0 goxscarpa.shop
 0.0.0.0 goxtrade.com
@@ -287360,6 +287366,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -365370,7 +365377,6 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
-0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -406840,6 +406846,7 @@
 0.0.0.0 packinstall.kozow.com
 0.0.0.0 packisaurelagrandz.000webhostapp.com
 0.0.0.0 packlevovd.byethost32.com
+0.0.0.0 packmate.in
 0.0.0.0 packndpackage.com
 0.0.0.0 packprivconsultline.online
 0.0.0.0 packrile.com
@@ -463420,6 +463427,7 @@
 0.0.0.0 screechingstove.com
 0.0.0.0 screen-cup-extended-alfred.trycloudflare.com
 0.0.0.0 screen-mates.com
+0.0.0.0 screen.lixiiimunchiihamzzz.live
 0.0.0.0 screen.thougai.beer
 0.0.0.0 screenaddict.thewhizproducts.com
 0.0.0.0 screencaptue-cdn.kampyle.com
@@ -480540,6 +480548,7 @@
 0.0.0.0 tokibasvuru.click
 0.0.0.0 tokibasvurulariniz.com
 0.0.0.0 tokidenbasvur.live
+0.0.0.0 tokidsa.com
 0.0.0.0 tokietap.com
 0.0.0.0 tokievbasvurusu.com
 0.0.0.0 tokievkonut.net
