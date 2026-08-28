@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-28 00:33:49
-# Entries: 523518
+# Generated: 2026-08-28 06:06:02
+# Entries: 523519
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -384383,7 +384383,6 @@
 0.0.0.0 neil033-design.github.io
 0.0.0.0 neilblack.co.uk.usrfiles.com
 0.0.0.0 neilmacqueen.com
-0.0.0.0 neilshairdressers.co.uk
 0.0.0.0 neilweller11.wixsite.com
 0.0.0.0 neim.strametyapi.com
 0.0.0.0 neimali.ga
@@ -476609,6 +476608,7 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
+0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -504757,6 +504757,7 @@
 0.0.0.0 www.gerniopsodkeriosdpods.site
 0.0.0.0 www.gershop.com
 0.0.0.0 www.gerteuzonim-sg.live
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com
