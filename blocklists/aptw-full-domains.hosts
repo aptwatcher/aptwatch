@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-28 06:06:02
-# Entries: 523519
+# Generated: 2026-08-28 06:35:34
+# Entries: 523522
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -192051,6 +192051,7 @@
 0.0.0.0 cryptotechdirect.com
 0.0.0.0 cryptotechnext.wixsite.com
 0.0.0.0 cryptothistech.com
+0.0.0.0 cryptovectorhub1.lol
 0.0.0.0 cryptovisionsolutions.com
 0.0.0.0 cryptovoltonai.net
 0.0.0.0 cryptowalletconnect.pages.dev
@@ -265918,6 +265919,8 @@
 0.0.0.0 gox.ulitron.ru
 0.0.0.0 goxboom.com
 0.0.0.0 goxdluyvfenfkkzvoesiiadjri-dot-gleowayel400503.uc.r.appspot.com
+0.0.0.0 goxlr.io
+0.0.0.0 goxlrutility.net
 0.0.0.0 goxrczcnklgjmpyc-dot-millinium.ey.r.appspot.com
 0.0.0.0 goxscarpa.shop
 0.0.0.0 goxtrade.com
