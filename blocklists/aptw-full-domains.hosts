@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-29 06:35:16
-# Entries: 523537
+# Generated: 2026-08-29 12:33:56
+# Entries: 523536
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -54929,7 +54929,6 @@
 0.0.0.0 adcrops.net
 0.0.0.0 adcropswnet.ru
 0.0.0.0 adcs.rqmob.com
-0.0.0.0 adctanzania.co.tz
 0.0.0.0 adctsgakcjkjwchn-dot-millinium.ey.r.appspot.com
 0.0.0.0 adcuratorstechtrail.vercel.app
 0.0.0.0 adcv.jp
@@ -147789,7 +147788,6 @@
 0.0.0.0 blisspoint.us-west-2.stinger-ad.bidr.io
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
-0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blitexa.site
@@ -152290,7 +152288,6 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
-0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
 0.0.0.0 booking.com-31t.prop5253145.homes
@@ -169102,7 +169099,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -254349,7 +254345,6 @@
 0.0.0.0 fyynpcrnkgvvqqvlseuwgxahmnkttujvsgvs-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 fyyuiihko.weebly.com
 0.0.0.0 fz.elitoras.ru
-0.0.0.0 fz.tiansys.cn
 0.0.0.0 fz1r9wu.laicommferhobackmica.ru
 0.0.0.0 fz34rim2.union-label.com
 0.0.0.0 fz6y0wk19.duckdns.org
@@ -319524,6 +319519,7 @@
 0.0.0.0 khattakinternational.com
 0.0.0.0 khaty-71.cf
 0.0.0.0 khautrang.com
+0.0.0.0 khavar.com
 0.0.0.0 khawi.flywheelsites.com
 0.0.0.0 khaxzis-71.gq
 0.0.0.0 khaya.dedspac.ru
@@ -342281,6 +342277,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumarvexakiz.com
@@ -504775,6 +504772,7 @@
 0.0.0.0 www.gerniopsodkeriosdpods.site
 0.0.0.0 www.gershop.com
 0.0.0.0 www.gerteuzonim-sg.live
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com
@@ -507207,6 +507205,7 @@
 0.0.0.0 www.kgstinvest.com
 0.0.0.0 www.kgwqgwnbb.com
 0.0.0.0 www.khanomtour.com
+0.0.0.0 www.khavar.com
 0.0.0.0 www.khc3x.vo1mie.qpon
 0.0.0.0 www.khjfdgsfsdfhjklljdhgdstryt-dp97141gwv85.edgeone.dev
 0.0.0.0 www.khtradegrok.net
