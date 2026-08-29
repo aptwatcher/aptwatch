@@ -152281,6 +152281,7 @@ booking.autodelivered.xyz
 booking.autoordered.xyz
 booking.autoorders.xyz
 booking.bookingverif2421.com
+booking.captcha-message-extranet.com
 booking.chlc3.com
 booking.clickers-safetidetaliz.info
 booking.com-31t.prop5253145.homes
@@ -254338,6 +254339,7 @@ fyyafbryrd.temp.swtest.ru
 fyynpcrnkgvvqqvlseuwgxahmnkttujvsgvs-dot-solar-vertex-285913.rj.r.appspot.com
 fyyuiihko.weebly.com
 fz.elitoras.ru
+fz.tiansys.cn
 fz1r9wu.laicommferhobackmica.ru
 fz34rim2.union-label.com
 fz6y0wk19.duckdns.org
@@ -365371,7 +365373,6 @@ metrics.gcimetrics.com
 metrics.getrockerbox.com
 metrics.gfycat.com
 metrics.gnc.com
-metrics.gocloudmaps.com
 metrics.govexec.com
 metrics.hackerrank.com.edgekey.net
 metrics.harley-davidson.com
@@ -398185,6 +398186,7 @@ oily.dedspac.ru
 oilymedication.cn
 oilzero.nl
 oilzero.org
+oim.doganltd.com.tr
 oim.qjk.mybluehost.me
 oimg.nbcuni.com
 oimos.com.mx
@@ -504765,7 +504767,6 @@ www.gernad.click
 www.gerniopsodkeriosdpods.site
 www.gershop.com
 www.gerteuzonim-sg.live
-www.gestroom.it
 www.get-avast.com
 www.get-derila.com
 www.get-express-vpn.com
