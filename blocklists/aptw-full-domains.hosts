@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-29 00:33:50
-# Entries: 523537
+# Generated: 2026-08-29 06:04:34
+# Entries: 523536
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -68637,7 +68637,6 @@
 0.0.0.0 alaheakbar.temp.swtest.ru
 0.0.0.0 alaheofd.com
 0.0.0.0 alahiu.pages.net.br
-0.0.0.0 alahlam.sa
 0.0.0.0 alahliword.wpengine.com
 0.0.0.0 alahlyef.ru.com
 0.0.0.0 alahmed.com.sa
@@ -147790,6 +147789,7 @@
 0.0.0.0 blisspoint.us-west-2.stinger-ad.bidr.io
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
+0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blitexa.site
@@ -152290,7 +152290,6 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
-0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
 0.0.0.0 booking.com-31t.prop5253145.homes
@@ -169102,6 +169101,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -263823,7 +263823,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -287370,6 +287369,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -342280,7 +342280,6 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
-0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumarvexakiz.com
@@ -468658,7 +468657,6 @@
 0.0.0.0 sms.oewabox.at
 0.0.0.0 sms22.com
 0.0.0.0 smscentro.com
-0.0.0.0 smsechodata.cc
 0.0.0.0 smser.net
 0.0.0.0 smsiak.pl
 0.0.0.0 smsiaki.eu
@@ -512079,6 +512077,7 @@
 0.0.0.0 www.point-krakow-point.lovable.app
 0.0.0.0 www.pointclicktrack.com
 0.0.0.0 www.pointdancestudio.live
+0.0.0.0 www.pointtohealth.com
 0.0.0.0 www.poisedaroma.com
 0.0.0.0 www.pokemonporno.com
 0.0.0.0 www.poker-new.com
