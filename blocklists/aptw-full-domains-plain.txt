@@ -54922,6 +54922,7 @@ adcresources.com.my
 adcrops.net
 adcropswnet.ru
 adcs.rqmob.com
+adctanzania.co.tz
 adctsgakcjkjwchn-dot-millinium.ey.r.appspot.com
 adcuratorstechtrail.vercel.app
 adcv.jp
@@ -68629,6 +68630,7 @@ alagoando.com.br
 alaheakbar.temp.swtest.ru
 alaheofd.com
 alahiu.pages.net.br
+alahlam.sa
 alahliword.wpengine.com
 alahlyef.ru.com
 alahmed.com.sa
@@ -152281,6 +152283,7 @@ booking.autodelivered.xyz
 booking.autoordered.xyz
 booking.autoorders.xyz
 booking.bookingverif2421.com
+booking.captcha-message-extranet.com
 booking.chlc3.com
 booking.clickers-safetidetaliz.info
 booking.com-31t.prop5253145.homes
@@ -169092,7 +169095,6 @@ cdn.exactag.com
 cdn.exelator.com
 cdn.ezca.asia
 cdn.fastclick.net
-cdn.file6.goodid.com
 cdn.firstimpression.io
 cdn.firstlook.com
 cdn.fivecdm.com
@@ -171547,7 +171549,6 @@ chameleonclothing.in
 chameleongroupnj.com
 chamikipolisdd.vercel.app
 chamindu-janith.github.io
-chamjs.com
 chammkoulugerspe.com
 chammy.dedspac.ru
 chammy.virosat.ru
@@ -235927,6 +235928,7 @@ faceibooock250.blogspot.lt
 faceibooock250.blogspot.md
 faceit-accountverify.com
 faceit-authclub.com
+faceit-cdn.org
 faceit-discordseasonscs.ru
 faceit-events.com
 faceit-userstatus.com
@@ -256552,7 +256554,6 @@ garnntrbvba.com
 garnolabar.tk
 garntinyanind.vercel.app
 garnttttt.com.tr
-garogradba.mk
 garoo.ulitron.ru
 gaross333.wixsite.com
 garpeli.shop
@@ -257422,6 +257423,7 @@ gd.directlinks.workers.dev
 gd.elitoras.ru
 gd.geobytes.com
 gd.hustorla.ru
+gd.ozzhlb.net
 gd1.mookie1.com
 gd2.mookie1.com
 gd7v96az8uhfc03.pages.dev
@@ -263814,6 +263816,7 @@ gobiernoygestion.com.mx
 gobikehike.com
 gobinbbc404.azurewebsites.net
 gobio.ulitron.ru
+gobiotechpestcontrol.com
 gobjudicial.royalwebhosting.net
 goblesdd.elementor.cloud
 goblog166.blogspot.com
@@ -265918,6 +265921,7 @@ gowsi2.earthflora.net
 gox.ulitron.ru
 goxboom.com
 goxdluyvfenfkkzvoesiiadjri-dot-gleowayel400503.uc.r.appspot.com
+goxlr.io
 goxlrutility.net
 goxrczcnklgjmpyc-dot-millinium.ey.r.appspot.com
 goxscarpa.shop
@@ -287359,7 +287363,6 @@ htcelasnc.webcindario.com
 htcsupport.webhop.me
 htd.com.np
 htd5.vip
-htdentshop.com
 htdf-id.xyz
 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 htdocs-bn2.pages.dev
@@ -319942,6 +319945,7 @@ killlemes.com
 killmortality.net
 killozi.github.io
 killsitemovie.com
+killurself1337-cdn.doxbin.mom
 killwall.dbsjacky.workers.dev
 killy.ulitron.ru
 kilmvd.000webhostapp.com
@@ -365370,6 +365374,7 @@ metrics.gcimetrics.com
 metrics.getrockerbox.com
 metrics.gfycat.com
 metrics.gnc.com
+metrics.gocloudmaps.com
 metrics.govexec.com
 metrics.hackerrank.com.edgekey.net
 metrics.harley-davidson.com
@@ -468197,6 +468202,7 @@ smartfusionapp.pages.dev
 smartgdi.ro
 smartgiveaway.com
 smartguardnational.autos
+smarthomy.cl
 smarthost.elitoras.ru
 smartiapps.ir
 smartibitle.com
@@ -468645,6 +468651,7 @@ sms.mob.com
 sms.oewabox.at
 sms22.com
 smscentro.com
+smsechodata.cc
 smser.net
 smsiak.pl
 smsiaki.eu
@@ -469086,6 +469093,7 @@ soft-heart-2ed8.ma878696d.workers.dev
 soft-sawine-4598cd.netlify.app
 soft-side-946015.framer.app
 soft-storage.com
+soft-update.dev
 soft-voice-a1b9.hothanhthuygzt829azam.workers.dev
 soft.110route.com
 soft.dedspac.ru
@@ -478045,6 +478053,7 @@ telemetry.sdk.inmobi.cn
 telemetry.sdk.inmobi.com
 telemetry.servers.getgo.com
 telemetry.v.dropbox.com
+telemetryloop.net
 telemiracl.work
 telemoment.help
 telemoment.shop
@@ -502001,6 +502010,7 @@ www.electrobell.com
 www.electroenchufe.com
 www.electroline.pl
 www.eledoshoep.cyou
+www.eleganceclub.xyz
 www.elegantliving.shop
 www.elegrina.pl
 www.elektro24h.pl

@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-28 18:34:18
-# Entries: 523527
+# Generated: 2026-08-29 00:33:50
+# Entries: 523537
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -54929,6 +54929,7 @@
 0.0.0.0 adcrops.net
 0.0.0.0 adcropswnet.ru
 0.0.0.0 adcs.rqmob.com
+0.0.0.0 adctanzania.co.tz
 0.0.0.0 adctsgakcjkjwchn-dot-millinium.ey.r.appspot.com
 0.0.0.0 adcuratorstechtrail.vercel.app
 0.0.0.0 adcv.jp
@@ -68636,6 +68637,7 @@
 0.0.0.0 alaheakbar.temp.swtest.ru
 0.0.0.0 alaheofd.com
 0.0.0.0 alahiu.pages.net.br
+0.0.0.0 alahlam.sa
 0.0.0.0 alahliword.wpengine.com
 0.0.0.0 alahlyef.ru.com
 0.0.0.0 alahmed.com.sa
@@ -152288,6 +152290,7 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
+0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
 0.0.0.0 booking.com-31t.prop5253145.homes
@@ -169099,7 +169102,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -171554,7 +171556,6 @@
 0.0.0.0 chameleongroupnj.com
 0.0.0.0 chamikipolisdd.vercel.app
 0.0.0.0 chamindu-janith.github.io
-0.0.0.0 chamjs.com
 0.0.0.0 chammkoulugerspe.com
 0.0.0.0 chammy.dedspac.ru
 0.0.0.0 chammy.virosat.ru
@@ -235934,6 +235935,7 @@
 0.0.0.0 faceibooock250.blogspot.md
 0.0.0.0 faceit-accountverify.com
 0.0.0.0 faceit-authclub.com
+0.0.0.0 faceit-cdn.org
 0.0.0.0 faceit-discordseasonscs.ru
 0.0.0.0 faceit-events.com
 0.0.0.0 faceit-userstatus.com
@@ -256559,7 +256561,6 @@
 0.0.0.0 garnolabar.tk
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
-0.0.0.0 garogradba.mk
 0.0.0.0 garoo.ulitron.ru
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garpeli.shop
@@ -257429,6 +257430,7 @@
 0.0.0.0 gd.elitoras.ru
 0.0.0.0 gd.geobytes.com
 0.0.0.0 gd.hustorla.ru
+0.0.0.0 gd.ozzhlb.net
 0.0.0.0 gd1.mookie1.com
 0.0.0.0 gd2.mookie1.com
 0.0.0.0 gd7v96az8uhfc03.pages.dev
@@ -263821,6 +263823,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -265925,6 +265928,7 @@
 0.0.0.0 gox.ulitron.ru
 0.0.0.0 goxboom.com
 0.0.0.0 goxdluyvfenfkkzvoesiiadjri-dot-gleowayel400503.uc.r.appspot.com
+0.0.0.0 goxlr.io
 0.0.0.0 goxlrutility.net
 0.0.0.0 goxrczcnklgjmpyc-dot-millinium.ey.r.appspot.com
 0.0.0.0 goxscarpa.shop
@@ -287366,7 +287370,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -319949,6 +319952,7 @@
 0.0.0.0 killmortality.net
 0.0.0.0 killozi.github.io
 0.0.0.0 killsitemovie.com
+0.0.0.0 killurself1337-cdn.doxbin.mom
 0.0.0.0 killwall.dbsjacky.workers.dev
 0.0.0.0 killy.ulitron.ru
 0.0.0.0 kilmvd.000webhostapp.com
@@ -365377,6 +365381,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -468204,6 +468209,7 @@
 0.0.0.0 smartgdi.ro
 0.0.0.0 smartgiveaway.com
 0.0.0.0 smartguardnational.autos
+0.0.0.0 smarthomy.cl
 0.0.0.0 smarthost.elitoras.ru
 0.0.0.0 smartiapps.ir
 0.0.0.0 smartibitle.com
@@ -468652,6 +468658,7 @@
 0.0.0.0 sms.oewabox.at
 0.0.0.0 sms22.com
 0.0.0.0 smscentro.com
+0.0.0.0 smsechodata.cc
 0.0.0.0 smser.net
 0.0.0.0 smsiak.pl
 0.0.0.0 smsiaki.eu
@@ -469093,6 +469100,7 @@
 0.0.0.0 soft-sawine-4598cd.netlify.app
 0.0.0.0 soft-side-946015.framer.app
 0.0.0.0 soft-storage.com
+0.0.0.0 soft-update.dev
 0.0.0.0 soft-voice-a1b9.hothanhthuygzt829azam.workers.dev
 0.0.0.0 soft.110route.com
 0.0.0.0 soft.dedspac.ru
@@ -478052,6 +478060,7 @@
 0.0.0.0 telemetry.sdk.inmobi.com
 0.0.0.0 telemetry.servers.getgo.com
 0.0.0.0 telemetry.v.dropbox.com
+0.0.0.0 telemetryloop.net
 0.0.0.0 telemiracl.work
 0.0.0.0 telemoment.help
 0.0.0.0 telemoment.shop
@@ -502008,6 +502017,7 @@
 0.0.0.0 www.electroenchufe.com
 0.0.0.0 www.electroline.pl
 0.0.0.0 www.eledoshoep.cyou
+0.0.0.0 www.eleganceclub.xyz
 0.0.0.0 www.elegantliving.shop
 0.0.0.0 www.elegrina.pl
 0.0.0.0 www.elektro24h.pl
