@@ -2106,6 +2106,7 @@
 0fisialll.web-bantuandna.biz.id
 0fj3.icu
 0foj2vhy.square.site
+0following.com
 0fon55s.pics
 0freebrowsing.000webhostapp.com
 0ft365-dri3vwa.chime.com.de
@@ -152277,6 +152278,7 @@ booking.autodelivered.xyz
 booking.autoordered.xyz
 booking.autoorders.xyz
 booking.bookingverif2421.com
+booking.captcha-message-extranet.com
 booking.chlc3.com
 booking.clickers-safetidetaliz.info
 booking.com-31t.prop5253145.homes
@@ -169088,7 +169090,6 @@ cdn.exactag.com
 cdn.exelator.com
 cdn.ezca.asia
 cdn.fastclick.net
-cdn.file6.goodid.com
 cdn.firstimpression.io
 cdn.firstlook.com
 cdn.fivecdm.com
@@ -254334,7 +254335,6 @@ fyyafbryrd.temp.swtest.ru
 fyynpcrnkgvvqqvlseuwgxahmnkttujvsgvs-dot-solar-vertex-285913.rj.r.appspot.com
 fyyuiihko.weebly.com
 fz.elitoras.ru
-fz.tiansys.cn
 fz1r9wu.laicommferhobackmica.ru
 fz34rim2.union-label.com
 fz6y0wk19.duckdns.org
@@ -365361,6 +365361,7 @@ metrics.gcimetrics.com
 metrics.getrockerbox.com
 metrics.gfycat.com
 metrics.gnc.com
+metrics.gocloudmaps.com
 metrics.govexec.com
 metrics.hackerrank.com.edgekey.net
 metrics.harley-davidson.com
@@ -428282,7 +428283,6 @@ protexa.site
 protezionecivile.comune.cassola.vi.it
 protezioneprofilo.com
 prothepito.shop
-protherapycenter.com
 protibimbo.org
 protikgroup.com
 protimas.ru
@@ -484148,6 +484148,7 @@ twirk.dedspac.ru
 twirl.dedspac.ru
 twist.virosat.ru
 twit.dedspac.ru
+twitch.tj
 twitchguru.us.intellitxt.com
 twitchindoor.best
 twiterservices.org

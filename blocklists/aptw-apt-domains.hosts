@@ -1,7 +1,7 @@
 # Title: APT Watch — APT Malicious Domains
 # Description: Domains from APT threat intelligence reports
-# Last modified: 2026-08-30 00:33:26
-# Entries: 55
+# Last modified: 2026-08-30 06:04:13
+# Entries: 56
 # Homepage: https://aptwatch.org
 # License: TLP:AMBER — do not share publicly
 #
@@ -24,6 +24,7 @@
 0.0.0.0 backoffice.ptbaconsulting.com
 0.0.0.0 booking.fijivacations.com
 0.0.0.0 buildtoolsrvcore.com
+0.0.0.0 cdn14.quran.edu.eu.org
 0.0.0.0 codeforprofessionalusers.com
 0.0.0.0 cpanel.sbkollel.org
 0.0.0.0 cpanel.siefertfamilydentistry.com

@@ -15,6 +15,7 @@ b2b.genethairsalon.com
 backoffice.ptbaconsulting.com
 booking.fijivacations.com
 buildtoolsrvcore.com
+cdn14.quran.edu.eu.org
 codeforprofessionalusers.com
 cpanel.sbkollel.org
 cpanel.siefertfamilydentistry.com
