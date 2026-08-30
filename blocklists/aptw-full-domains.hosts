@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-30 06:04:16
-# Entries: 523522
+# Generated: 2026-08-30 06:34:59
+# Entries: 523523
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -441275,6 +441275,7 @@
 0.0.0.0 rabbi780.github.io
 0.0.0.0 rabbiinvestments.com
 0.0.0.0 rabbit231.github.io
+0.0.0.0 rabbitfuns.su
 0.0.0.0 rabbitrifle.com
 0.0.0.0 rabbitstewlady.com
 0.0.0.0 rabbitx.pro
