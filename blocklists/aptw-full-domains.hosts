@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-29 18:34:02
-# Entries: 523537
+# Generated: 2026-08-30 00:33:27
+# Entries: 523521
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -2574,7 +2574,6 @@
 0.0.0.0 0www-roblox.com
 0.0.0.0 0wzyp3.5q5e5o.cn
 0.0.0.0 0x.dgssp.striveinstyle.com
-0.0.0.0 0x1x2x3.top
 0.0.0.0 0x2023.pages.dev
 0.0.0.0 0x2i7nbojeywnm64gfp5.jolotras.ru
 0.0.0.0 0x3208e11fca4e-jdf874e-login-screen-103876.weeblysite.com
@@ -81377,7 +81376,6 @@
 0.0.0.0 ampafrica.com
 0.0.0.0 amparo30hrsita.com
 0.0.0.0 amparobe.com
-0.0.0.0 amparolarsonpw.com
 0.0.0.0 ampbls.com
 0.0.0.0 ampe-wrk.github.io
 0.0.0.0 amped.virosat.ru
@@ -122792,7 +122790,6 @@
 0.0.0.0 azhmo.cn
 0.0.0.0 azhmxvhuwzpcrldnrcdrmhimhz-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 azhrec.000webhostapp.com
-0.0.0.0 azhu.cakkaao.com
 0.0.0.0 azhydugigfzevdyi-dot-millinium.ey.r.appspot.com
 0.0.0.0 azi4hkbvfe.firebaseapp.com
 0.0.0.0 azianazamimi.unimap.edu.my
@@ -134651,7 +134648,6 @@
 0.0.0.0 baolmeca.org
 0.0.0.0 baoma.whatsa144shop.cyou
 0.0.0.0 baomatfbhihi.000webhostapp.com
-0.0.0.0 baomma.kmmiiaaa.com
 0.0.0.0 baomoi24h-facebook.htw.vn
 0.0.0.0 baomuaban.vn
 0.0.0.0 baooa0-jxv9l0o0bn.edgeone.app
@@ -152288,7 +152284,6 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
-0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
 0.0.0.0 booking.com-31t.prop5253145.homes
@@ -169100,6 +169095,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -215838,7 +215834,6 @@
 0.0.0.0 dxzcbnjhgsa.co.vu
 0.0.0.0 dxzvx.github.io
 0.0.0.0 dy.admerize.be
-0.0.0.0 dy.dpwqwaapp.xyz
 0.0.0.0 dy.elitoras.ru
 0.0.0.0 dy3ezpkuzmsgmwjcj66cm2dhxm8vrwgp.shop
 0.0.0.0 dy4.cum.transagua.cl
@@ -221519,7 +221514,6 @@
 0.0.0.0 elderly-excellent-server.glitch.me
 0.0.0.0 elderly-sq-sake-colors.trycloudflare.com
 0.0.0.0 elderlytown.com
-0.0.0.0 eldertechsupport.com
 0.0.0.0 eldesernauta.com.chainversiones.com
 0.0.0.0 eldesquite.com
 0.0.0.0 eldestxsyn.shop
@@ -244128,6 +244122,7 @@
 0.0.0.0 fileprotecthtmls.com
 0.0.0.0 fileprotectloader.com
 0.0.0.0 fileprotocoljhgvds6787238y.pages.dev
+0.0.0.0 filequanticore.com
 0.0.0.0 filer.dedspac.ru
 0.0.0.0 fileramp-login.herokuapp.com
 0.0.0.0 fileremito.cyou
@@ -261492,7 +261487,6 @@
 0.0.0.0 githb.co
 0.0.0.0 githoalonebiggsimalls.weebly.com
 0.0.0.0 github-anushree.github.io
-0.0.0.0 github-software.su
 0.0.0.0 github.090227.xyz
 0.0.0.0 github.accountlogin.contact
 0.0.0.0 github.com.cnpmjs.org
@@ -264721,7 +264715,6 @@
 0.0.0.0 google-landing-page.pages.dev
 0.0.0.0 google-login.ml
 0.0.0.0 google-login.shift4-payments.com
-0.0.0.0 google-meet-verification.icu
 0.0.0.0 google-newsletters.blogspot.com
 0.0.0.0 google-passwd.com
 0.0.0.0 google-password.com
@@ -289401,7 +289394,6 @@
 0.0.0.0 hyper-tangy-court.glitch.me
 0.0.0.0 hyperads.gotrackier.com
 0.0.0.0 hyperbanner.net
-0.0.0.0 hypercorevector4.lol
 0.0.0.0 hypereutectic-equiv.000webhostapp.com
 0.0.0.0 hyperfuturosemanal.com
 0.0.0.0 hypergolically.bibliota.ru
@@ -321592,7 +321584,6 @@
 0.0.0.0 kmm.countri60uc.duckdns.org
 0.0.0.0 kmmgrezhiq.duckdns.org
 0.0.0.0 kmmgroup.com.ua
-0.0.0.0 kmmiiaaa.com
 0.0.0.0 kmmnz.com
 0.0.0.0 kmmrfm.com
 0.0.0.0 kmo.pages.dev
@@ -332857,7 +332848,6 @@
 0.0.0.0 lilo.dedspac.ru
 0.0.0.0 lilo.ulitron.ru
 0.0.0.0 liloabencoado.com.br
-0.0.0.0 lilong.kmmiiaaa.com
 0.0.0.0 lilongwemw.com
 0.0.0.0 liloyacezo-6425.vercel.app
 0.0.0.0 lilplay.com
@@ -334115,7 +334105,6 @@
 0.0.0.0 lion-originals.nl
 0.0.0.0 lion.boletuso.ru
 0.0.0.0 lion.dedspac.ru
-0.0.0.0 lion.kmmiiaaa.com
 0.0.0.0 lion.ulitron.ru
 0.0.0.0 lionart.fr
 0.0.0.0 lionbanques.com
@@ -365271,7 +365260,6 @@
 0.0.0.0 metric.worldcat.org
 0.0.0.0 metric.yellowpages.com
 0.0.0.0 metrically.leonardis.ru
-0.0.0.0 metricgw.com
 0.0.0.0 metricreceiver.cellrebel.com
 0.0.0.0 metrics-a.wbx2.com
 0.0.0.0 metrics-api.librato.com
@@ -372666,6 +372654,7 @@
 0.0.0.0 mon-site-dhl.com
 0.0.0.0 mon-va.byteoversea.com
 0.0.0.0 mon-va.tiktokv.com
+0.0.0.0 mon-xxx-02.cfd
 0.0.0.0 mon-yalt.onmore.top
 0.0.0.0 mon.adx.vn
 0.0.0.0 mon.byteoversea.com
@@ -398193,7 +398182,6 @@
 0.0.0.0 oilymedication.cn
 0.0.0.0 oilzero.nl
 0.0.0.0 oilzero.org
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -428301,6 +428289,7 @@
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
 0.0.0.0 prothepito.shop
+0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -437056,7 +437045,6 @@
 0.0.0.0 pusatt-bantuans.dana-ids.my.id
 0.0.0.0 pusatt-bantuans.danaids.my.id
 0.0.0.0 pusatvan.onbds.my.id
-0.0.0.0 puschl.langhaar-schaeferhunde.com
 0.0.0.0 puserving.com
 0.0.0.0 puses.ulitron.ru
 0.0.0.0 pusgionsers.net
@@ -448048,6 +448036,7 @@
 0.0.0.0 rendanyamande.github.io
 0.0.0.0 rendaorganica.com.br
 0.0.0.0 rendel.shop
+0.0.0.0 render-6.com
 0.0.0.0 render.zyntexa.digital
 0.0.0.0 renderer.apester.com
 0.0.0.0 renderingstudio.com.br
@@ -482281,6 +482270,7 @@
 0.0.0.0 trekmedia.net
 0.0.0.0 trekplsdfsdfsdfdsfdsfeister-nl.sbs
 0.0.0.0 trekweb.us.intellitxt.com
+0.0.0.0 trekworkshop3.com
 0.0.0.0 trelav.click
 0.0.0.0 trelial.xyz
 0.0.0.0 trelku.shop
@@ -483005,7 +482995,6 @@
 0.0.0.0 trezzrsuite.framer.ai
 0.0.0.0 trezzuorwaalt.webflow.io
 0.0.0.0 trezzurhardwereewalet.webflow.io
-0.0.0.0 trf.kookapp.pro
 0.0.0.0 trfbnturkeyd.click
 0.0.0.0 trfhnmcvds.vercel.app
 0.0.0.0 trfsffg.com
@@ -484672,7 +484661,6 @@
 0.0.0.0 udm.scorecardresearch.com
 0.0.0.0 udmserve.net
 0.0.0.0 udmurt-news.net
-0.0.0.0 udn.jp
 0.0.0.0 udncoeln.com
 0.0.0.0 udoblechu.github.io
 0.0.0.0 udos.dedspac.ru
@@ -492951,7 +492939,6 @@
 0.0.0.0 wexlani.shop
 0.0.0.0 wexmar.shop
 0.0.0.0 wexunibupe.com
-0.0.0.0 weybli.com
 0.0.0.0 weynuoligzare.pro
 0.0.0.0 wez-bon.24.eu
 0.0.0.0 wf.basebanner.com
@@ -494185,7 +494172,6 @@
 0.0.0.0 windowsdrivepack.com
 0.0.0.0 windowsi.ru
 0.0.0.0 windowsitpro.us.intellitxt.com
-0.0.0.0 windowskernel.lol
 0.0.0.0 windowsofficeupdate.com
 0.0.0.0 windowsxupdate.com
 0.0.0.0 windoww.top
@@ -507349,7 +507335,6 @@
 0.0.0.0 www.kmetrbuzz.site
 0.0.0.0 www.kmf.kurierp0lska.click
 0.0.0.0 www.kmfotograf.mom
-0.0.0.0 www.kmmiiaaa.com
 0.0.0.0 www.kn.d2qlig.cfd
 0.0.0.0 www.knacads.com
 0.0.0.0 www.kndjmehq.shop
@@ -508853,7 +508838,6 @@
 0.0.0.0 www.medical4u.eu
 0.0.0.0 www.medicals4.com
 0.0.0.0 www.medicinebo.shop
-0.0.0.0 www.mediocasavolponi.com
 0.0.0.0 www.medipms.com
 0.0.0.0 www.medises.co.kr
 0.0.0.0 www.mediterrianbest.com
