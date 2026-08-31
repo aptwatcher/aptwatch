@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-31 12:34:22
-# Entries: 523522
+# Generated: 2026-08-31 18:33:34
+# Entries: 523524
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -11483,6 +11483,7 @@
 0.0.0.0 19831-2802.s2.webspace.re
 0.0.0.0 198329434.corolain.ru
 0.0.0.0 1983410649.retarus.ru
+0.0.0.0 198348.gl
 0.0.0.0 1984-medicinal.com
 0.0.0.0 19840-2807.s2.webspace.re
 0.0.0.0 198400100543610.uel-geq-ndk.xyxn.net
@@ -17879,6 +17880,7 @@
 0.0.0.0 3.vxswe.solutions
 0.0.0.0 3.vzxwq.life
 0.0.0.0 3.zhzy999.net
+0.0.0.0 3.zhzy999.net3.zhzy999.net
 0.0.0.0 30-09-vjer09tg-ej5rg-9jker-gk0e-trgjk-r90jg-0rejg-9rr.obs.ap-southeast-3.myhuaweicloud.com
 0.0.0.0 30-2ki.pages.dev
 0.0.0.0 30-day-change.com
@@ -54930,7 +54932,6 @@
 0.0.0.0 adcrops.net
 0.0.0.0 adcropswnet.ru
 0.0.0.0 adcs.rqmob.com
-0.0.0.0 adctanzania.co.tz
 0.0.0.0 adctsgakcjkjwchn-dot-millinium.ey.r.appspot.com
 0.0.0.0 adcuratorstechtrail.vercel.app
 0.0.0.0 adcv.jp
@@ -152287,6 +152288,7 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
+0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
 0.0.0.0 booking.com-31t.prop5253145.homes
@@ -223405,7 +223407,6 @@
 0.0.0.0 en.service-paypal.net
 0.0.0.0 en.smartappweb.org
 0.0.0.0 en.super-cleaning.be
-0.0.0.0 en.taichuan.com
 0.0.0.0 en.timerto.ru
 0.0.0.0 en.timoutupdate.in
 0.0.0.0 en.ucbi-groups.com
@@ -276393,6 +276394,7 @@
 0.0.0.0 harm45ari.ru
 0.0.0.0 harmansingh06.github.io
 0.0.0.0 harmanveer2546.github.io
+0.0.0.0 harmeetmotors.com
 0.0.0.0 harmenolge.info
 0.0.0.0 harmenolgr.info
 0.0.0.0 harmfulfinance.com
@@ -282326,6 +282328,7 @@
 0.0.0.0 hindu.virosat.ru
 0.0.0.0 hindufuneral.in
 0.0.0.0 hindustanage.com
+0.0.0.0 hindustancargologistic.com
 0.0.0.0 hindustandefirishtaay.org
 0.0.0.0 hindustaniherbals.com
 0.0.0.0 hindusthan.com
@@ -365368,6 +365371,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -468196,7 +468200,6 @@
 0.0.0.0 smartgdi.ro
 0.0.0.0 smartgiveaway.com
 0.0.0.0 smartguardnational.autos
-0.0.0.0 smarthomy.cl
 0.0.0.0 smarthost.elitoras.ru
 0.0.0.0 smartiapps.ir
 0.0.0.0 smartibitle.com
@@ -476611,7 +476614,6 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
-0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -496665,7 +496667,6 @@
 0.0.0.0 www.agathfluor.cyou
 0.0.0.0 www.agathotel.mom
 0.0.0.0 www.agbie.shop
-0.0.0.0 www.agcestksa.com
 0.0.0.0 www.agdsmart.shop
 0.0.0.0 www.agencyy-partner-program.netlify.app
 0.0.0.0 www.agenticpm.net
@@ -511140,6 +511141,7 @@
 0.0.0.0 www.pakaz-id32849.eu.cc
 0.0.0.0 www.paket.info.158-158-1-61.cpanel.site
 0.0.0.0 www.paketshop.9-160-165-249.cpanel.site
+0.0.0.0 www.pakstones.com
 0.0.0.0 www.pakuten.live
 0.0.0.0 www.palaceskateboard.com
 0.0.0.0 www.palaeperit.cyou
