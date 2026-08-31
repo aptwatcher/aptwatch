@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-31 06:34:50
-# Entries: 523517
+# Generated: 2026-08-31 12:34:22
+# Entries: 523522
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -54930,6 +54930,7 @@
 0.0.0.0 adcrops.net
 0.0.0.0 adcropswnet.ru
 0.0.0.0 adcs.rqmob.com
+0.0.0.0 adctanzania.co.tz
 0.0.0.0 adctsgakcjkjwchn-dot-millinium.ey.r.appspot.com
 0.0.0.0 adcuratorstechtrail.vercel.app
 0.0.0.0 adcv.jp
@@ -152286,7 +152287,6 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
-0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
 0.0.0.0 booking.com-31t.prop5253145.homes
@@ -212486,6 +212486,7 @@
 0.0.0.0 download-resourses.info
 0.0.0.0 download-shares.com
 0.0.0.0 download-signed-documents-and-contracts-git-main-growthomar.vercel.app
+0.0.0.0 download-sougou.com.cn
 0.0.0.0 download-standoff2.ru
 0.0.0.0 download-telegram.ru
 0.0.0.0 download-trustwallet.com
@@ -263816,6 +263817,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -272660,7 +272662,6 @@
 0.0.0.0 gsx.heato.ru
 0.0.0.0 gsx.idsslapple.com
 0.0.0.0 gsx.it.apple.internal-corp.com.login.manage.help.index.hrml.grskn.com
-0.0.0.0 gsx.life
 0.0.0.0 gsx2-crm-apple-portal.com
 0.0.0.0 gsx2-portal-aasp-manager.com
 0.0.0.0 gsx2-portal.carrier-ui.com
@@ -465037,6 +465038,7 @@
 0.0.0.0 september.cityads.com
 0.0.0.0 septicidally.timanar.ru
 0.0.0.0 sepume-xokaxu.com
+0.0.0.0 seputartuban.com
 0.0.0.0 seq.ulitron.ru
 0.0.0.0 ser-tribune-require-bodies.trycloudflare.com
 0.0.0.0 ser.adledge.com
@@ -470344,6 +470346,7 @@
 0.0.0.0 sportsinteraction.com
 0.0.0.0 sportsofyasir.github.io
 0.0.0.0 sportssaint.net
+0.0.0.0 sportssurgeon.org.pk
 0.0.0.0 sportszone71.com
 0.0.0.0 sportupdates.info
 0.0.0.0 sportydesktops.com
@@ -476608,6 +476611,7 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
+0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -496661,6 +496665,7 @@
 0.0.0.0 www.agathfluor.cyou
 0.0.0.0 www.agathotel.mom
 0.0.0.0 www.agbie.shop
+0.0.0.0 www.agcestksa.com
 0.0.0.0 www.agdsmart.shop
 0.0.0.0 www.agencyy-partner-program.netlify.app
 0.0.0.0 www.agenticpm.net
@@ -504755,7 +504760,6 @@
 0.0.0.0 www.gerniopsodkeriosdpods.site
 0.0.0.0 www.gershop.com
 0.0.0.0 www.gerteuzonim-sg.live
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com
@@ -513850,6 +513854,7 @@
 0.0.0.0 www.rytminwestek.net
 0.0.0.0 www.ryudanceacademy.live
 0.0.0.0 www.ryxariotrade.com
+0.0.0.0 www.ryzhe.com
 0.0.0.0 www.ryzimajetarna.com
 0.0.0.0 www.rzetelny-zyskatnik.com
 0.0.0.0 www.rzezak.pl
