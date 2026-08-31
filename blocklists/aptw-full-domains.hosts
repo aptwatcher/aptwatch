@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-08-30 18:33:41
-# Entries: 523526
+# Generated: 2026-08-31 00:33:36
+# Entries: 523516
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -2113,6 +2113,7 @@
 0.0.0.0 0fisialll.web-bantuandna.biz.id
 0.0.0.0 0fj3.icu
 0.0.0.0 0foj2vhy.square.site
+0.0.0.0 0following.com
 0.0.0.0 0fon55s.pics
 0.0.0.0 0freebrowsing.000webhostapp.com
 0.0.0.0 0ft365-dri3vwa.chime.com.de
@@ -197629,6 +197630,7 @@
 0.0.0.0 dasder.doinscale.com
 0.0.0.0 dase.massimocaravita.com
 0.0.0.0 dasfinhas.com
+0.0.0.0 dasgems.com
 0.0.0.0 dash-demo.jimpike.com.au
 0.0.0.0 dash-dev.cddental.com.au
 0.0.0.0 dash-ourtime.ouath-confirmation.workers.dev
@@ -207982,7 +207984,6 @@
 0.0.0.0 dipolecryptchain.online
 0.0.0.0 dippy.dedspac.ru
 0.0.0.0 dippy.ulitron.ru
-0.0.0.0 dipre.com.tr
 0.0.0.0 diprocar.com.py
 0.0.0.0 diproelec.com.sv
 0.0.0.0 diprolia.com
@@ -217540,7 +217541,6 @@
 0.0.0.0 easyantrim.pages.dev
 0.0.0.0 easyappauthenticator.com
 0.0.0.0 easyappt.com
-0.0.0.0 easyaround.st
 0.0.0.0 easybank-com.vercel.app
 0.0.0.0 easybank-frontendmentor-two.vercel.app
 0.0.0.0 easybank-landing-bage-six.vercel.app
@@ -235928,7 +235928,6 @@
 0.0.0.0 faceibooock250.blogspot.md
 0.0.0.0 faceit-accountverify.com
 0.0.0.0 faceit-authclub.com
-0.0.0.0 faceit-cdn.org
 0.0.0.0 faceit-discordseasonscs.ru
 0.0.0.0 faceit-events.com
 0.0.0.0 faceit-userstatus.com
@@ -249625,7 +249624,6 @@
 0.0.0.0 forrealoh.blogspot.com
 0.0.0.0 forrestgamache.info
 0.0.0.0 forrodokomeketo.agenciainnova.com.br
-0.0.0.0 forsalenear.me
 0.0.0.0 forsan.nusratelsunnah.com
 0.0.0.0 forscript.midaschange.my.id
 0.0.0.0 forsdesign.net
@@ -263818,7 +263816,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -265922,8 +265919,6 @@
 0.0.0.0 gox.ulitron.ru
 0.0.0.0 goxboom.com
 0.0.0.0 goxdluyvfenfkkzvoesiiadjri-dot-gleowayel400503.uc.r.appspot.com
-0.0.0.0 goxlr.io
-0.0.0.0 goxlrutility.net
 0.0.0.0 goxrczcnklgjmpyc-dot-millinium.ey.r.appspot.com
 0.0.0.0 goxscarpa.shop
 0.0.0.0 goxtrade.com
@@ -319947,7 +319942,6 @@
 0.0.0.0 killmortality.net
 0.0.0.0 killozi.github.io
 0.0.0.0 killsitemovie.com
-0.0.0.0 killurself1337-cdn.doxbin.mom
 0.0.0.0 killwall.dbsjacky.workers.dev
 0.0.0.0 killy.ulitron.ru
 0.0.0.0 kilmvd.000webhostapp.com
@@ -342272,6 +342266,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumarvexakiz.com
@@ -365371,6 +365366,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -374775,7 +374771,6 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
-0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -406842,7 +406837,6 @@
 0.0.0.0 packinstall.kozow.com
 0.0.0.0 packisaurelagrandz.000webhostapp.com
 0.0.0.0 packlevovd.byethost32.com
-0.0.0.0 packmate.in
 0.0.0.0 packndpackage.com
 0.0.0.0 packprivconsultline.online
 0.0.0.0 packrile.com
@@ -463424,7 +463418,6 @@
 0.0.0.0 screechingstove.com
 0.0.0.0 screen-cup-extended-alfred.trycloudflare.com
 0.0.0.0 screen-mates.com
-0.0.0.0 screen.lixiiimunchiihamzzz.live
 0.0.0.0 screen.thougai.beer
 0.0.0.0 screenaddict.thewhizproducts.com
 0.0.0.0 screencaptue-cdn.kampyle.com
@@ -469091,7 +469084,6 @@
 0.0.0.0 soft-sawine-4598cd.netlify.app
 0.0.0.0 soft-side-946015.framer.app
 0.0.0.0 soft-storage.com
-0.0.0.0 soft-update.dev
 0.0.0.0 soft-voice-a1b9.hothanhthuygzt829azam.workers.dev
 0.0.0.0 soft.110route.com
 0.0.0.0 soft.dedspac.ru
@@ -478051,7 +478043,6 @@
 0.0.0.0 telemetry.sdk.inmobi.com
 0.0.0.0 telemetry.servers.getgo.com
 0.0.0.0 telemetry.v.dropbox.com
-0.0.0.0 telemetryloop.net
 0.0.0.0 telemiracl.work
 0.0.0.0 telemoment.help
 0.0.0.0 telemoment.shop
@@ -480548,7 +480539,6 @@
 0.0.0.0 tokibasvuru.click
 0.0.0.0 tokibasvurulariniz.com
 0.0.0.0 tokidenbasvur.live
-0.0.0.0 tokidsa.com
 0.0.0.0 tokietap.com
 0.0.0.0 tokievbasvurusu.com
 0.0.0.0 tokievkonut.net
@@ -481140,6 +481130,7 @@
 0.0.0.0 tr.topdevvn.com
 0.0.0.0 tr.webantenna.info
 0.0.0.0 tr.wl.webads.nl
+0.0.0.0 tr.zhzy999.net
 0.0.0.0 tr1.frosmo.com
 0.0.0.0 tr1.myroitracking.com
 0.0.0.0 tr2.smarterhq.io
@@ -502006,7 +501997,6 @@
 0.0.0.0 www.electroenchufe.com
 0.0.0.0 www.electroline.pl
 0.0.0.0 www.eledoshoep.cyou
-0.0.0.0 www.eleganceclub.xyz
 0.0.0.0 www.elegantliving.shop
 0.0.0.0 www.elegrina.pl
 0.0.0.0 www.elektro24h.pl
