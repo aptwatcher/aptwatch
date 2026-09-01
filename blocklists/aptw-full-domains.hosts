@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-01 06:35:35
-# Entries: 522332
+# Generated: 2026-09-01 12:34:00
+# Entries: 522343
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -18123,6 +18123,7 @@
 0.0.0.0 30ywc.codesandbox.io
 0.0.0.0 30z98b6q.duckdns.org
 0.0.0.0 31-192-237-130.cprapid.com
+0.0.0.0 31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net
 0.0.0.0 31.14.161.74
 0.0.0.0 31.170.100.210
 0.0.0.0 31.170.106.44
@@ -48500,6 +48501,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -121111,6 +121113,7 @@
 0.0.0.0 awareness.pln.co.id
 0.0.0.0 awareness28.wixsite.com
 0.0.0.0 awarenesscovert.com
+0.0.0.0 awarenessexhibition.com
 0.0.0.0 awarenesstech.122.2o7.net
 0.0.0.0 awareofthat.za.com
 0.0.0.0 awarialaptopa.pl
@@ -161613,6 +161616,7 @@
 0.0.0.0 bv.hilotras.ru
 0.0.0.0 bv.horoton.ru
 0.0.0.0 bv3.impact11.xyz
+0.0.0.0 bvaco.com
 0.0.0.0 bvanehanctnrawuf-dot-millinium.ey.r.appspot.com
 0.0.0.0 bvargus.atozgroup.ir
 0.0.0.0 bvasecka.inshapeinforma.it
@@ -258841,6 +258845,7 @@
 0.0.0.0 geoworker.ayads.co
 0.0.0.0 geoworkerz.lionbridge.com
 0.0.0.0 geoxip.net
+0.0.0.0 geoxsecurity.ro
 0.0.0.0 geozduqgfqitdesh-dot-millinium.ey.r.appspot.com
 0.0.0.0 gep9yqa5gq4.easy.co
 0.0.0.0 gepa-shop.mom
@@ -295773,6 +295778,7 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
+0.0.0.0 indeanapolice.cc
 0.0.0.0 indeboarde.site
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
@@ -328927,7 +328933,6 @@
 0.0.0.0 leandrohenriq.github.io
 0.0.0.0 leandroserain.com.br
 0.0.0.0 leanldedyjerlogh-dot-millinium.ey.r.appspot.com
-0.0.0.0 leanmaestro.com
 0.0.0.0 leanmanagement.ro
 0.0.0.0 leanmobi.fusetracking.com
 0.0.0.0 leannethdam.buzz
@@ -374018,6 +374023,7 @@
 0.0.0.0 mrstiffanyip.com
 0.0.0.0 mrstuzzichini.com.au
 0.0.0.0 mrsumii.github.io
+0.0.0.0 mrsweaterltd.com
 0.0.0.0 mrt-dvstpp.twswst.top
 0.0.0.0 mrt-soft.net
 0.0.0.0 mrt.org
@@ -374302,6 +374308,7 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
+0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -414585,6 +414592,7 @@
 0.0.0.0 pfaqezewnwnokdmb-dot-millinium.ey.r.appspot.com
 0.0.0.0 pfarmania.com
 0.0.0.0 pfastelinho.groks-the.info
+0.0.0.0 pfatrivandrum.org
 0.0.0.0 pfaxsydzmcosfsgb-dot-millinium.ey.r.appspot.com
 0.0.0.0 pfbfinancialassts.com
 0.0.0.0 pfbid0hecxzdghajjktlqyypwbuurpgynu6n7ojnelemoqtlnotifid.my.id
@@ -466260,6 +466268,7 @@
 0.0.0.0 si.team-stt.com
 0.0.0.0 si.ulitron.ru
 0.0.0.0 sia.bortogat.ru
+0.0.0.0 siaasesoria.com.mx
 0.0.0.0 siacastomp.online
 0.0.0.0 siadam.live
 0.0.0.0 siads.sv.publicus.com
@@ -490421,6 +490430,7 @@
 0.0.0.0 w.visualdna.com
 0.0.0.0 w.yieldmo.com
 0.0.0.0 w.zenback.jp
+0.0.0.0 w.zhzy999.net
 0.0.0.0 w0.extreme-dm.com
 0.0.0.0 w00tpublishers.wootmedia.net
 0.0.0.0 w02f.xyz
@@ -508152,6 +508162,7 @@
 0.0.0.0 www.moviestarplanethacks.pl
 0.0.0.0 www.movimhotch.online
 0.0.0.0 www.movitanieciruch.mom
+0.0.0.0 www.movy.bz
 0.0.0.0 www.mowmihache.pl
 0.0.0.0 www.moyazi-kayizi.info
 0.0.0.0 www.mozebyctwoje.com
