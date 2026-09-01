@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-01 12:34:00
-# Entries: 522343
+# Generated: 2026-09-01 18:33:41
+# Entries: 522342
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48501,7 +48501,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -168791,7 +168790,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -201067,6 +201065,7 @@
 0.0.0.0 delightful93.lotorgas.ru
 0.0.0.0 delightingod.org
 0.0.0.0 delightskateboards.de
+0.0.0.0 delii.icu
 0.0.0.0 deliitalia.se
 0.0.0.0 delikrejosari.com
 0.0.0.0 delile.space
@@ -259067,7 +259066,6 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -261579,7 +261577,6 @@
 0.0.0.0 gl44393333333.rj.r.appspot.com
 0.0.0.0 gl5j8bfj3.top
 0.0.0.0 gl7ajrnobij.moolin.ru
-0.0.0.0 gla.ge
 0.0.0.0 gla.ita.mybluehost.me
 0.0.0.0 glabella.mirtopa.ru
 0.0.0.0 glabra.space
@@ -295778,7 +295775,6 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
-0.0.0.0 indeanapolice.cc
 0.0.0.0 indeboarde.site
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
@@ -374308,7 +374304,6 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
-0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -416371,6 +416366,8 @@
 0.0.0.0 pingsafe.sa.com
 0.0.0.0 pingtcss.qq.com
 0.0.0.0 pingtl1310.blogspot.com
+0.0.0.0 pingu.business
+0.0.0.0 pingu.ltd
 0.0.0.0 pinhol.com
 0.0.0.0 pinic.ulitron.ru
 0.0.0.0 pinic.virosat.ru
@@ -480163,6 +480160,7 @@
 0.0.0.0 toplista.mw.hu
 0.0.0.0 toplistcity.com
 0.0.0.0 toplukonutevleri.com
+0.0.0.0 topmark-tuitioncentre.co.uk
 0.0.0.0 topmarketfotovideo.mom
 0.0.0.0 topmedihealth.com
 0.0.0.0 topmeds10.com
@@ -491680,6 +491678,7 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -508162,7 +508161,6 @@
 0.0.0.0 www.moviestarplanethacks.pl
 0.0.0.0 www.movimhotch.online
 0.0.0.0 www.movitanieciruch.mom
-0.0.0.0 www.movy.bz
 0.0.0.0 www.mowmihache.pl
 0.0.0.0 www.moyazi-kayizi.info
 0.0.0.0 www.mozebyctwoje.com
@@ -510492,6 +510490,7 @@
 0.0.0.0 www.pinetech.vn
 0.0.0.0 www.pinfimetra.site
 0.0.0.0 www.ping.ublock.org
+0.0.0.0 www.pingu.surf
 0.0.0.0 www.pinkies.pl
 0.0.0.0 www.pinkpine.ie
 0.0.0.0 www.pinkstar.pl
