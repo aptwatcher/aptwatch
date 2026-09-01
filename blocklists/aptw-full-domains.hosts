@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-01 00:33:30
-# Entries: 522325
+# Generated: 2026-09-01 06:06:16
+# Entries: 522332
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -65647,6 +65647,7 @@
 0.0.0.0 aidiscord.jiayiapi.cn
 0.0.0.0 aidiscord.whalespet.com
 0.0.0.0 aidjekibawa9jv7.53244ds.xyz
+0.0.0.0 aidlifempowerment.com
 0.0.0.0 aidman.vadilops.ru
 0.0.0.0 aidman.virosat.ru
 0.0.0.0 aidmen.bluestacko.ru
@@ -168786,6 +168787,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -259060,6 +259062,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -328924,6 +328927,7 @@
 0.0.0.0 leandrohenriq.github.io
 0.0.0.0 leandroserain.com.br
 0.0.0.0 leanldedyjerlogh-dot-millinium.ey.r.appspot.com
+0.0.0.0 leanmaestro.com
 0.0.0.0 leanmanagement.ro
 0.0.0.0 leanmobi.fusetracking.com
 0.0.0.0 leannethdam.buzz
@@ -376237,6 +376241,7 @@
 0.0.0.0 murflek.shop
 0.0.0.0 murga.ulitron.ru
 0.0.0.0 murge.io
+0.0.0.0 muriaspetin.es
 0.0.0.0 muriatic-speed.000webhostapp.com
 0.0.0.0 murid.ulitron.ru
 0.0.0.0 murikon.ru
@@ -468531,6 +468536,7 @@
 0.0.0.0 soft-side-946015.framer.app
 0.0.0.0 soft-storage.com
 0.0.0.0 soft-voice-a1b9.hothanhthuygzt829azam.workers.dev
+0.0.0.0 soft.110route.com
 0.0.0.0 soft.dedspac.ru
 0.0.0.0 soft.softchecker.org
 0.0.0.0 soft.timanar.ru
@@ -521675,6 +521681,7 @@
 0.0.0.0 zhelp-supports.business-minagne.com
 0.0.0.0 zhfkofko.shop
 0.0.0.0 zhh08b3.wixsite.com
+0.0.0.0 zhigao5191.com
 0.0.0.0 zhihu-web-analytics.zhihu.com
 0.0.0.0 zhilan.ru
 0.0.0.0 zhirok.com
