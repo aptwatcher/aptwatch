@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-02 00:34:09
-# Entries: 522344
+# Generated: 2026-09-02 06:04:29
+# Entries: 522347
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -243649,7 +243649,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -350600,6 +350599,7 @@
 0.0.0.0 mailibex0b.weeblysite.com
 0.0.0.0 mailidorange.weebly.com
 0.0.0.0 mailifo-105600.square.site
+0.0.0.0 mailify.cc
 0.0.0.0 mailii.ga
 0.0.0.0 mailin.attollo.com.au
 0.0.0.0 mailin.caq.com.au
@@ -388519,6 +388519,7 @@
 0.0.0.0 ngyfqgdjumyftnzb-dot-millinium.ey.r.appspot.com
 0.0.0.0 ngygduk.lol
 0.0.0.0 ngyjy.blogspot.is
+0.0.0.0 ngyusa.com
 0.0.0.0 ngzlkqbpeyyotnse-dot-millinium.ey.r.appspot.com
 0.0.0.0 ngzugkdcznrhsvqkztyouozqeu-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 ngzxwmont.wcnv20.cn
@@ -468545,6 +468546,7 @@
 0.0.0.0 soft-side-946015.framer.app
 0.0.0.0 soft-storage.com
 0.0.0.0 soft-voice-a1b9.hothanhthuygzt829azam.workers.dev
+0.0.0.0 soft.110route.com
 0.0.0.0 soft.dedspac.ru
 0.0.0.0 soft.softchecker.org
 0.0.0.0 soft.timanar.ru
@@ -481264,6 +481266,7 @@
 0.0.0.0 tradepromentor.org
 0.0.0.0 trader-indonesia.site
 0.0.0.0 traderaiappplatform.com
+0.0.0.0 traderhype.com
 0.0.0.0 traderia-app.shop
 0.0.0.0 traderjoexyz.bylfg.org
 0.0.0.0 traderlidex-8-com.worldsoffinance.com
