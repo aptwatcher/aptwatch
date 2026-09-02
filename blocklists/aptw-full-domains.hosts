@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-02 12:33:51
-# Entries: 522352
+# Generated: 2026-09-02 18:33:33
+# Entries: 522357
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -155517,6 +155517,7 @@
 0.0.0.0 brightriftfa.vercel.app
 0.0.0.0 brightroll-partners.tremorhub.com
 0.0.0.0 brightroll.com
+0.0.0.0 brightroseax.blog
 0.0.0.0 brightroute.in
 0.0.0.0 brightsapling.vercel.app
 0.0.0.0 brightscan.digital
@@ -168791,7 +168792,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -192273,7 +192273,6 @@
 0.0.0.0 cts.w55c.net
 0.0.0.0 ctsempresa.com
 0.0.0.0 ctservices.fr
-0.0.0.0 ctsfactory.com
 0.0.0.0 ctsinteractive.com
 0.0.0.0 ctsp-arequipa.org.pe
 0.0.0.0 ctsprojectsolutions.com
@@ -213071,6 +213070,7 @@
 0.0.0.0 drecentreshu.info
 0.0.0.0 drecloud-1fce.eteispafntejrntan.workers.dev
 0.0.0.0 dredls.weebly.com
+0.0.0.0 dreemix.com
 0.0.0.0 dreep.ulitron.ru
 0.0.0.0 dreex-fc.github.io
 0.0.0.0 dref-meta-murf-biz.pages.dev
@@ -222283,6 +222283,7 @@
 0.0.0.0 emerald-reflective-icecream.glitch.me
 0.0.0.0 emeraldjourney.com
 0.0.0.0 emeraldshop.uk
+0.0.0.0 emeraldstonegc.blog
 0.0.0.0 emeraldsuites.gd
 0.0.0.0 emeraldtiger.com
 0.0.0.0 emerencianno.com.br
@@ -240714,6 +240715,7 @@
 0.0.0.0 fdsfsewfdsf.cf
 0.0.0.0 fdsgdsgs.easy.co
 0.0.0.0 fdshrtgds.yourtrap.com
+0.0.0.0 fdstat.vip
 0.0.0.0 fdsxaz2cds.pages.dev
 0.0.0.0 fdsxc.cckqatx.cn
 0.0.0.0 fdsyfmtfoa.duckdns.org
@@ -259070,7 +259072,6 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -295780,6 +295781,7 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
+0.0.0.0 indeanapolice.cc
 0.0.0.0 indeboarde.site
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
@@ -319889,6 +319891,7 @@
 0.0.0.0 kiryanaoffers.com
 0.0.0.0 kis.dedspac.ru
 0.0.0.0 kis.hosteurope.de.rechnungcheck.live
+0.0.0.0 kis.marketing
 0.0.0.0 kis.ulitron.ru
 0.0.0.0 kish.dedspac.ru
 0.0.0.0 kish.io
@@ -346652,6 +346655,7 @@
 0.0.0.0 mail.breg.com
 0.0.0.0 mail.brennercom.net
 0.0.0.0 mail.bretontv.cu.ma
+0.0.0.0 mail.brightroseax.blog
 0.0.0.0 mail.bristoldojogym.com
 0.0.0.0 mail.brokillsmiles.com
 0.0.0.0 mail.btic.com.cn
@@ -347158,6 +347162,7 @@
 0.0.0.0 mail.elsodko.c505.net
 0.0.0.0 mail.emailsds.com
 0.0.0.0 mail.embastara.online
+0.0.0.0 mail.emeraldstonegc.blog
 0.0.0.0 mail.emga.co.uk
 0.0.0.0 mail.emgtz.com
 0.0.0.0 mail.emhi.c505.net
@@ -395543,6 +395548,7 @@
 0.0.0.0 odin-facebook.rubynor.com
 0.0.0.0 odin.boletuso.ru
 0.0.0.0 odin.dedspac.ru
+0.0.0.0 odinclient.dev
 0.0.0.0 odinondrive.odiner.workers.dev
 0.0.0.0 odishafresh.com
 0.0.0.0 odishapharmacyboard.org
@@ -468804,7 +468810,6 @@
 0.0.0.0 soma.ulitron.ru
 0.0.0.0 somas.dedspac.ru
 0.0.0.0 somascom.com
-0.0.0.0 somautomotivorj.com.br
 0.0.0.0 sombersea.com
 0.0.0.0 sombersquirrel.com
 0.0.0.0 sombersurprise.com
@@ -476825,6 +476830,7 @@
 0.0.0.0 tasinsa.com.gt
 0.0.0.0 task-done-webhook.vercel.app
 0.0.0.0 taskaorder.xyz
+0.0.0.0 taskerempresascol.co
 0.0.0.0 taskforce-31.pages.dev
 0.0.0.0 tasknode-syncpoint.pages.dev
 0.0.0.0 taskslide.shop
@@ -503881,7 +503887,6 @@
 0.0.0.0 www.germirrestasps.info
 0.0.0.0 www.gernad.click
 0.0.0.0 www.gershop.com
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com

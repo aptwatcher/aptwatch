@@ -155510,6 +155510,7 @@ brightrenditange.net
 brightriftfa.vercel.app
 brightroll-partners.tremorhub.com
 brightroll.com
+brightroseax.blog
 brightroute.in
 brightsapling.vercel.app
 brightscan.digital
@@ -168784,7 +168785,6 @@ cdn.exactag.com
 cdn.exelator.com
 cdn.ezca.asia
 cdn.fastclick.net
-cdn.file6.goodid.com
 cdn.firstimpression.io
 cdn.firstlook.com
 cdn.fivecdm.com
@@ -192266,7 +192266,6 @@ cts.projectdevelopment.co
 cts.w55c.net
 ctsempresa.com
 ctservices.fr
-ctsfactory.com
 ctsinteractive.com
 ctsp-arequipa.org.pe
 ctsprojectsolutions.com
@@ -213064,6 +213063,7 @@ drebremesere.web.app
 drecentreshu.info
 drecloud-1fce.eteispafntejrntan.workers.dev
 dredls.weebly.com
+dreemix.com
 dreep.ulitron.ru
 dreex-fc.github.io
 dref-meta-murf-biz.pages.dev
@@ -222276,6 +222276,7 @@ emerald-military-quart.glitch.me
 emerald-reflective-icecream.glitch.me
 emeraldjourney.com
 emeraldshop.uk
+emeraldstonegc.blog
 emeraldsuites.gd
 emeraldtiger.com
 emerencianno.com.br
@@ -240707,6 +240708,7 @@ fdsfsdfsfd-dfdsf.pages.dev
 fdsfsewfdsf.cf
 fdsgdsgs.easy.co
 fdshrtgds.yourtrap.com
+fdstat.vip
 fdsxaz2cds.pages.dev
 fdsxc.cckqatx.cn
 fdsyfmtfoa.duckdns.org
@@ -259063,7 +259065,6 @@ gestmsmions.firebaseapp.com
 gestordepartes.com
 gestoriacampalans.com
 gestoriaenparaguay.com.py
-gestroom.it
 gests.virosat.ru
 gesundheit-zu-hause.com
 gesx.top
@@ -295773,6 +295774,7 @@ indar.live
 indbiz.com.au
 inddoor.ca
 inde.boletuso.ru
+indeanapolice.cc
 indeboarde.site
 indecisive-bitter-reason.glitch.me
 indecisive-flax-turn.glitch.me
@@ -319882,6 +319884,7 @@ kirwqnowa.shop
 kiryanaoffers.com
 kis.dedspac.ru
 kis.hosteurope.de.rechnungcheck.live
+kis.marketing
 kis.ulitron.ru
 kish.dedspac.ru
 kish.io
@@ -346645,6 +346648,7 @@ mail.breakingwap.thats.im
 mail.breg.com
 mail.brennercom.net
 mail.bretontv.cu.ma
+mail.brightroseax.blog
 mail.bristoldojogym.com
 mail.brokillsmiles.com
 mail.btic.com.cn
@@ -347151,6 +347155,7 @@ mail.elnuevochevroletdelta.com
 mail.elsodko.c505.net
 mail.emailsds.com
 mail.embastara.online
+mail.emeraldstonegc.blog
 mail.emga.co.uk
 mail.emgtz.com
 mail.emhi.c505.net
@@ -395536,6 +395541,7 @@ odilo.ulitron.ru
 odin-facebook.rubynor.com
 odin.boletuso.ru
 odin.dedspac.ru
+odinclient.dev
 odinondrive.odiner.workers.dev
 odishafresh.com
 odishapharmacyboard.org
@@ -468797,7 +468803,6 @@ soma.smaato.net
 soma.ulitron.ru
 somas.dedspac.ru
 somascom.com
-somautomotivorj.com.br
 sombersea.com
 sombersquirrel.com
 sombersurprise.com
@@ -476818,6 +476823,7 @@ tashkatech.com
 tasinsa.com.gt
 task-done-webhook.vercel.app
 taskaorder.xyz
+taskerempresascol.co
 taskforce-31.pages.dev
 tasknode-syncpoint.pages.dev
 taskslide.shop
@@ -503874,7 +503880,6 @@ www.germanparkeasy.com
 www.germirrestasps.info
 www.gernad.click
 www.gershop.com
-www.gestroom.it
 www.get-avast.com
 www.get-derila.com
 www.get-express-vpn.com
