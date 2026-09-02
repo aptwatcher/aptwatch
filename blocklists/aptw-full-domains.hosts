@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-02 06:35:35
-# Entries: 522349
+# Generated: 2026-09-02 12:33:51
+# Entries: 522352
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -168791,6 +168791,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -192272,6 +192273,7 @@
 0.0.0.0 cts.w55c.net
 0.0.0.0 ctsempresa.com
 0.0.0.0 ctservices.fr
+0.0.0.0 ctsfactory.com
 0.0.0.0 ctsinteractive.com
 0.0.0.0 ctsp-arequipa.org.pe
 0.0.0.0 ctsprojectsolutions.com
@@ -259068,6 +259070,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -263512,7 +263515,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -468802,6 +468804,7 @@
 0.0.0.0 soma.ulitron.ru
 0.0.0.0 somas.dedspac.ru
 0.0.0.0 somascom.com
+0.0.0.0 somautomotivorj.com.br
 0.0.0.0 sombersea.com
 0.0.0.0 sombersquirrel.com
 0.0.0.0 sombersurprise.com
@@ -478605,6 +478608,7 @@
 0.0.0.0 thescoopbakersfield.com
 0.0.0.0 thesearchagency.net
 0.0.0.0 thesearchster.com
+0.0.0.0 theservice4u.com
 0.0.0.0 theshadowozz.github.io
 0.0.0.0 theshemalesurvey.com
 0.0.0.0 thesilbermarktgpt.com
@@ -481268,7 +481272,6 @@
 0.0.0.0 tradepromentor.org
 0.0.0.0 trader-indonesia.site
 0.0.0.0 traderaiappplatform.com
-0.0.0.0 traderhype.com
 0.0.0.0 traderia-app.shop
 0.0.0.0 traderjoexyz.bylfg.org
 0.0.0.0 traderlidex-8-com.worldsoffinance.com
