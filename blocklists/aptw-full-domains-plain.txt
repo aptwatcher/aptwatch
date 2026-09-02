@@ -137751,6 +137751,7 @@ beacon.hookedmediagroup.com
 beacon.krxd.net
 beacon.lijit.com
 beacon.livefyre.com
+beacon.ltdglobal.co.uk
 beacon.lynx.cognitivlabs.com
 beacon.my.salesforce.com
 beacon.netflix.com
@@ -247484,6 +247485,7 @@ fling.ulitron.ru
 fling.virosat.ru
 flingswipes.com
 flinkcourierservices.com
+flint-32.com
 flint-culture-dot-yamm-track.pip-6657-request-support.appspot.com
 flint-daily-busby.glitch.me
 flint-rentmere.digital
@@ -461786,6 +461788,7 @@ satin-dot-yarn.glitch.me
 satin-ms-pool-england.trycloudflare.com
 satin.ulitron.ru
 satine.uk
+satinmaple4.com
 satinnaaoabbs.weebly.com
 satiny-development.000webhostapp.com
 satiranews.com
@@ -468535,7 +468538,6 @@ soft-sawine-4598cd.netlify.app
 soft-side-946015.framer.app
 soft-storage.com
 soft-voice-a1b9.hothanhthuygzt829azam.workers.dev
-soft.110route.com
 soft.dedspac.ru
 soft.softchecker.org
 soft.timanar.ru
@@ -491671,7 +491673,6 @@ webcounter.cz
 webcounter.goweb.de
 webcounter.together.net
 webcryptoinfo.com
-webcstore.pw
 webctkkpn-3gla.vercel.app
 webdata.vidz.com
 webdatadata.pages.dev
@@ -508154,6 +508155,7 @@ www.moviesearchcenter.com
 www.moviestarplanethacks.pl
 www.movimhotch.online
 www.movitanieciruch.mom
+www.movy.bz
 www.mowmihache.pl
 www.moyazi-kayizi.info
 www.mozebyctwoje.com
