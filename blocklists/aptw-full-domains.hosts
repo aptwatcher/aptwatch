@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-03 12:33:57
-# Entries: 522360
+# Generated: 2026-09-03 18:34:04
+# Entries: 522355
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -86014,7 +86014,6 @@
 0.0.0.0 anyeleventura.github.io
 0.0.0.0 anyesha-biswas.github.io
 0.0.0.0 anyhealthtips.com
-0.0.0.0 anyhoo.testeaza.eu
 0.0.0.0 anyillustrations.com
 0.0.0.0 anyimage.top
 0.0.0.0 anylist.c.appier.net
@@ -168361,6 +168360,7 @@
 0.0.0.0 cdaevntnewss.duckdns.org
 0.0.0.0 cdaflix.pl
 0.0.0.0 cdagoiania.com.br
+0.0.0.0 cdaonline.com.ar
 0.0.0.0 cdaseprologixba.gitbook.io
 0.0.0.0 cdash0p.duckdns.org
 0.0.0.0 cdashop-evrnt-real.duckdns.org
@@ -187914,7 +187914,6 @@
 0.0.0.0 coreneutlab.site
 0.0.0.0 corenlp.admicro.vn
 0.0.0.0 corenomics.com
-0.0.0.0 corepilatesnicaragua.com
 0.0.0.0 coreplesk-cake-7dbf.leacshlenmmdgza.workers.dev
 0.0.0.0 corepoweryogaco.org
 0.0.0.0 corer.dedspac.ru
@@ -228388,6 +228387,7 @@
 0.0.0.0 eventosconciertosbailes.mx
 0.0.0.0 eventosefeiras.com
 0.0.0.0 eventosyfiestasinfantiles.com
+0.0.0.0 eventourarte.cl
 0.0.0.0 eventpartys18.com
 0.0.0.0 eventpaypal2019.onedumb.com
 0.0.0.0 eventpestadiamond.duckdns.org
@@ -243657,7 +243657,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -249651,7 +249650,6 @@
 0.0.0.0 fotoprimo.mom
 0.0.0.0 fotoproductinsta.com
 0.0.0.0 fotoschuppen.net
-0.0.0.0 fotosdepuebla.org
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
 0.0.0.0 fotoshop-instagram.b0tnet.com
@@ -259077,6 +259075,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -350608,7 +350607,6 @@
 0.0.0.0 mailibex0b.weeblysite.com
 0.0.0.0 mailidorange.weebly.com
 0.0.0.0 mailifo-105600.square.site
-0.0.0.0 mailify.cc
 0.0.0.0 mailii.ga
 0.0.0.0 mailin.attollo.com.au
 0.0.0.0 mailin.caq.com.au
@@ -376255,7 +376253,6 @@
 0.0.0.0 murflek.shop
 0.0.0.0 murga.ulitron.ru
 0.0.0.0 murge.io
-0.0.0.0 muriaspetin.es
 0.0.0.0 muriatic-speed.000webhostapp.com
 0.0.0.0 murid.ulitron.ru
 0.0.0.0 murikon.ru
@@ -399144,6 +399141,7 @@
 0.0.0.0 one-drrv.mnbjasd.repl.co
 0.0.0.0 one-drv-file.ey.r.appspot.com
 0.0.0.0 one-golos2019.zzz.com.ua
+0.0.0.0 one-graup.com
 0.0.0.0 one-keys.com
 0.0.0.0 one-night-sex-service.pages.dev
 0.0.0.0 one-note-document.proxymob542.workers.dev
@@ -479829,7 +479827,6 @@
 0.0.0.0 tog.bortogat.ru
 0.0.0.0 toga.dedspac.ru
 0.0.0.0 toga.ulitron.ru
-0.0.0.0 togethers.tv
 0.0.0.0 toggletools.com
 0.0.0.0 togo-studio.com
 0.0.0.0 togo.dedspac.ru
@@ -491696,7 +491693,6 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
-0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -503889,7 +503885,6 @@
 0.0.0.0 www.germirrestasps.info
 0.0.0.0 www.gernad.click
 0.0.0.0 www.gershop.com
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com
