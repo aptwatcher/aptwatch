@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-02 18:33:33
-# Entries: 522357
+# Generated: 2026-09-03 00:33:34
+# Entries: 522349
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -140148,6 +140148,7 @@
 0.0.0.0 benoquin.net
 0.0.0.0 benorynfamiliekerk.co.za
 0.0.0.0 benote.dedspac.ru
+0.0.0.0 benotrobot.online
 0.0.0.0 benpsikoloji.com
 0.0.0.0 benrards.com
 0.0.0.0 benrefamdksi.blogspot.com
@@ -240715,7 +240716,6 @@
 0.0.0.0 fdsfsewfdsf.cf
 0.0.0.0 fdsgdsgs.easy.co
 0.0.0.0 fdshrtgds.yourtrap.com
-0.0.0.0 fdstat.vip
 0.0.0.0 fdsxaz2cds.pages.dev
 0.0.0.0 fdsxc.cckqatx.cn
 0.0.0.0 fdsyfmtfoa.duckdns.org
@@ -243653,7 +243653,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -259072,6 +259071,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -264292,7 +264292,6 @@
 0.0.0.0 goodnewsu.vercel.app
 0.0.0.0 goodnighthotelnyc.com
 0.0.0.0 goodnowfarms.mom
-0.0.0.0 goododeqvip.com
 0.0.0.0 goodomains.co.zw
 0.0.0.0 goodomensplus.com
 0.0.0.0 goodpayment.000webhostapp.com
@@ -285581,7 +285580,6 @@
 0.0.0.0 hotellemonarque.cm
 0.0.0.0 hotelleschanze.com
 0.0.0.0 hotelmahabaleshwar.com
-0.0.0.0 hotelmate.asia
 0.0.0.0 hotelmehrsa.com
 0.0.0.0 hotelmeneger.github.io
 0.0.0.0 hotelmetro.it
@@ -295781,7 +295779,6 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
-0.0.0.0 indeanapolice.cc
 0.0.0.0 indeboarde.site
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
@@ -303978,6 +303975,7 @@
 0.0.0.0 it6aucoindexfi.c1.biz
 0.0.0.0 it8txi5.ml
 0.0.0.0 ita-acesso-promo.tk
+0.0.0.0 ita-airwaysva.com
 0.0.0.0 ita-areia.com.br
 0.0.0.0 ita-pontos-combr.ezpz.work
 0.0.0.0 ita-u-com.umbler.net
@@ -319891,7 +319889,6 @@
 0.0.0.0 kiryanaoffers.com
 0.0.0.0 kis.dedspac.ru
 0.0.0.0 kis.hosteurope.de.rechnungcheck.live
-0.0.0.0 kis.marketing
 0.0.0.0 kis.ulitron.ru
 0.0.0.0 kish.dedspac.ru
 0.0.0.0 kish.io
@@ -340559,7 +340556,6 @@
 0.0.0.0 lp-rewards.app
 0.0.0.0 lp-wip.pl
 0.0.0.0 lp.aakarshlogistics.com
-0.0.0.0 lp.afonsonobreadv.com.br
 0.0.0.0 lp.bealpha.com.br
 0.0.0.0 lp.bp06-service-support.com
 0.0.0.0 lp.bringtheallow.com
@@ -388528,7 +388524,6 @@
 0.0.0.0 ngyfqgdjumyftnzb-dot-millinium.ey.r.appspot.com
 0.0.0.0 ngygduk.lol
 0.0.0.0 ngyjy.blogspot.is
-0.0.0.0 ngyusa.com
 0.0.0.0 ngzlkqbpeyyotnse-dot-millinium.ey.r.appspot.com
 0.0.0.0 ngzugkdcznrhsvqkztyouozqeu-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 ngzxwmont.wcnv20.cn
@@ -421121,7 +421116,6 @@
 0.0.0.0 portelo.fanlink.to
 0.0.0.0 portentconsulting.com
 0.0.0.0 porterhouseinc.com
-0.0.0.0 porterneuman.mx
 0.0.0.0 porterstatesbank.cf
 0.0.0.0 portersugarhouse.com
 0.0.0.0 portfolio-aedvutd.format.com
@@ -427120,7 +427114,6 @@
 0.0.0.0 prommaterial.com
 0.0.0.0 prommehauyoimmi-9243.vercel.app
 0.0.0.0 promms.solutionze.com
-0.0.0.0 promnet.jp
 0.0.0.0 promo-bonus.web.id
 0.0.0.0 promo-braslet.ru
 0.0.0.0 promo-hsbc-card.allowy01.biz.id
@@ -485937,7 +485930,6 @@
 0.0.0.0 userstats.shopee.vn
 0.0.0.0 usersync.datatrics.com
 0.0.0.0 usertrackhst.top
-0.0.0.0 usertunelaccount1.royalbnkmail.com
 0.0.0.0 userverificationaccountportal.com
 0.0.0.0 userxxxnormal0000.online
 0.0.0.0 useryttnbtntt.weebly.com
@@ -488438,6 +488430,7 @@
 0.0.0.0 verification-commbank.com
 0.0.0.0 verification-email2025.iceiy.com
 0.0.0.0 verification-info-mise-a-jour.surge.sh
+0.0.0.0 verification-process.com
 0.0.0.0 verification.healthyemployee.me
 0.0.0.0 verification.idapp1e.com
 0.0.0.0 verification.jiguang.cn
@@ -496013,7 +496006,6 @@
 0.0.0.0 www.agalarovfund.digital
 0.0.0.0 www.agathotel.mom
 0.0.0.0 www.agbie.shop
-0.0.0.0 www.agcestksa.com
 0.0.0.0 www.agdsmart.shop
 0.0.0.0 www.agencyy-partner-program.netlify.app
 0.0.0.0 www.agenticpm.net
