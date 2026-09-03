@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-03 06:34:50
-# Entries: 522351
+# Generated: 2026-09-03 12:33:57
+# Entries: 522360
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -61877,6 +61877,7 @@
 0.0.0.0 aetherinstalls.com
 0.0.0.0 aetherisia.com
 0.0.0.0 aetherkid.com
+0.0.0.0 aetherone.su
 0.0.0.0 aetherrumllble.info
 0.0.0.0 aethersms.com
 0.0.0.0 aethhjerglow.shop
@@ -86013,6 +86014,7 @@
 0.0.0.0 anyeleventura.github.io
 0.0.0.0 anyesha-biswas.github.io
 0.0.0.0 anyhealthtips.com
+0.0.0.0 anyhoo.testeaza.eu
 0.0.0.0 anyillustrations.com
 0.0.0.0 anyimage.top
 0.0.0.0 anylist.c.appier.net
@@ -161619,6 +161621,7 @@
 0.0.0.0 bv.hilotras.ru
 0.0.0.0 bv.horoton.ru
 0.0.0.0 bv3.impact11.xyz
+0.0.0.0 bvaco.com
 0.0.0.0 bvanehanctnrawuf-dot-millinium.ey.r.appspot.com
 0.0.0.0 bvargus.atozgroup.ir
 0.0.0.0 bvasecka.inshapeinforma.it
@@ -187911,6 +187914,7 @@
 0.0.0.0 coreneutlab.site
 0.0.0.0 corenlp.admicro.vn
 0.0.0.0 corenomics.com
+0.0.0.0 corepilatesnicaragua.com
 0.0.0.0 coreplesk-cake-7dbf.leacshlenmmdgza.workers.dev
 0.0.0.0 corepoweryogaco.org
 0.0.0.0 corer.dedspac.ru
@@ -249647,6 +249651,7 @@
 0.0.0.0 fotoprimo.mom
 0.0.0.0 fotoproductinsta.com
 0.0.0.0 fotoschuppen.net
+0.0.0.0 fotosdepuebla.org
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
 0.0.0.0 fotoshop-instagram.b0tnet.com
@@ -259072,7 +259077,6 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -292860,7 +292864,6 @@
 0.0.0.0 ijamjamsec.com
 0.0.0.0 ijandihapusppk.co.vu
 0.0.0.0 ijausiajsornanuscamus.cf84718.tmweb.ru
-0.0.0.0 ijbfi.pk
 0.0.0.0 ijblixfyptalgbel-dot-millinium.ey.r.appspot.com
 0.0.0.0 ijbxitvophhykebigadkrllcjq-dot-gl2021off.uk.r.appspot.com
 0.0.0.0 ijcltd.befalcone.com
@@ -350605,6 +350608,7 @@
 0.0.0.0 mailibex0b.weeblysite.com
 0.0.0.0 mailidorange.weebly.com
 0.0.0.0 mailifo-105600.square.site
+0.0.0.0 mailify.cc
 0.0.0.0 mailii.ga
 0.0.0.0 mailin.attollo.com.au
 0.0.0.0 mailin.caq.com.au
@@ -369338,6 +369342,7 @@
 0.0.0.0 mkbixhnvc.dermals.org
 0.0.0.0 mkchowdhury.com
 0.0.0.0 mkcommunications.net
+0.0.0.0 mkconstructions.net
 0.0.0.0 mkcthehomemarketplace.112.2o7.net
 0.0.0.0 mkdbeauty.com
 0.0.0.0 mkdhawan.net
@@ -383857,7 +383862,6 @@
 0.0.0.0 neil033-design.github.io
 0.0.0.0 neilblack.co.uk.usrfiles.com
 0.0.0.0 neilmacqueen.com
-0.0.0.0 neilshairdressers.co.uk
 0.0.0.0 neilweller11.wixsite.com
 0.0.0.0 neim.strametyapi.com
 0.0.0.0 neimali.ga
@@ -397656,7 +397660,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -462901,6 +462904,7 @@
 0.0.0.0 screencaptue-cdn.kampyle.com
 0.0.0.0 screencapture.kampyle.com
 0.0.0.0 screencast-o-matic.fr
+0.0.0.0 screenconnect.pro
 0.0.0.0 screensavers.us.intellitxt.com
 0.0.0.0 screnshi.com
 0.0.0.0 scresinc.com
@@ -479825,6 +479829,7 @@
 0.0.0.0 tog.bortogat.ru
 0.0.0.0 toga.dedspac.ru
 0.0.0.0 toga.ulitron.ru
+0.0.0.0 togethers.tv
 0.0.0.0 toggletools.com
 0.0.0.0 togo-studio.com
 0.0.0.0 togo.dedspac.ru
@@ -483235,6 +483240,7 @@
 0.0.0.0 tui.ulitron.ru
 0.0.0.0 tuik.ulitron.ru
 0.0.0.0 tuis.ulitron.ru
+0.0.0.0 tuiskr.com
 0.0.0.0 tuism.virosat.ru
 0.0.0.0 tuj8r61isbns3i6.duckdns.org
 0.0.0.0 tukaarpoiints-danaax4.resmi-cxhh.my.id
@@ -489162,6 +489168,7 @@
 0.0.0.0 vintacom.112.2o7.net
 0.0.0.0 vintadream.112.2o7.net
 0.0.0.0 vintagebroadcasts.com
+0.0.0.0 vintageeventos.com.mx
 0.0.0.0 vintagevista.xyz
 0.0.0.0 vinted.01149.rest
 0.0.0.0 vinted.058127.click
@@ -491689,6 +491696,7 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -503881,6 +503889,7 @@
 0.0.0.0 www.germirrestasps.info
 0.0.0.0 www.gernad.click
 0.0.0.0 www.gershop.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com
