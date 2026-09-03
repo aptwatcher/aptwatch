@@ -1,7 +1,7 @@
 # Title: APT Watch — APT Combined Blocklist
 # Description: All validated APT IPs + malicious domains
-# Last modified: 2026-09-03 00:33:32
-# Entries: 12546
+# Last modified: 2026-09-03 06:04:21
+# Entries: 12547
 # Homepage: https://aptwatch.org
 # License: TLP:AMBER — do not share publicly
 #
@@ -410,6 +410,7 @@
 0.0.0.0 109.72.93.55
 0.0.0.0 109.73.207.115
 0.0.0.0 109.73.207.39
+0.0.0.0 11.109.11.87
 0.0.0.0 110.10.98.18
 0.0.0.0 110.172.104.95
 0.0.0.0 110.40.132.172
