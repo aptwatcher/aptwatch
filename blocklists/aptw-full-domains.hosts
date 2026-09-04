@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-03 18:34:04
-# Entries: 522355
+# Generated: 2026-09-04 00:33:28
+# Entries: 522360
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -39710,6 +39710,7 @@
 0.0.0.0 999-cwg.pages.dev
 0.0.0.0 999-kenyon-wrath-abroad.com
 0.0.0.0 999-sb.com
+0.0.0.0 999.34c9f78b4ef541baac4a6e84d4f832a7.lol
 0.0.0.0 999.360-insurance.com
 0.0.0.0 99900.icu
 0.0.0.0 99900000002.cloud
@@ -123737,6 +123738,7 @@
 0.0.0.0 b2b.ellabrador.es
 0.0.0.0 b2b.food123.de
 0.0.0.0 b2b.iplanetstore.in
+0.0.0.0 b2b.jewmailer.net
 0.0.0.0 b2b.turm.sls.ch
 0.0.0.0 b2b.ultimate-dev2.com
 0.0.0.0 b2b6d102cb7a4898bc54a3b73e31b759.safeframe.googlesyndication.com
@@ -137760,7 +137762,6 @@
 0.0.0.0 beacon.krxd.net
 0.0.0.0 beacon.lijit.com
 0.0.0.0 beacon.livefyre.com
-0.0.0.0 beacon.ltdglobal.co.uk
 0.0.0.0 beacon.lynx.cognitivlabs.com
 0.0.0.0 beacon.my.salesforce.com
 0.0.0.0 beacon.netflix.com
@@ -168796,6 +168797,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -184325,6 +184327,7 @@
 0.0.0.0 communication-act.ddns.net
 0.0.0.0 communication-diary-thwart.vercel.app
 0.0.0.0 communication-ergo-additional-their.vercel.app
+0.0.0.0 communication-hub.vg
 0.0.0.0 communication-journal-stop.vercel.app
 0.0.0.0 communication-register-check.vercel.app
 0.0.0.0 communicationcenrale-ba5b01.ingress-daribow.ewp.live
@@ -194340,6 +194343,7 @@
 0.0.0.0 cyclinghere.com
 0.0.0.0 cyclobenzaprine.1.p2l.info
 0.0.0.0 cyclobenzaprine.ourtablets.com
+0.0.0.0 cyclograph.xyz
 0.0.0.0 cyclopean-margins.000webhostapp.com
 0.0.0.0 cyclopedical-periodontosis-settima.s3.us-south.cloud-object-storage.appdomain.cloud
 0.0.0.0 cyclops.prod.untd.com
@@ -201071,7 +201075,6 @@
 0.0.0.0 delightful93.lotorgas.ru
 0.0.0.0 delightingod.org
 0.0.0.0 delightskateboards.de
-0.0.0.0 delii.icu
 0.0.0.0 deliitalia.se
 0.0.0.0 delikrejosari.com
 0.0.0.0 delile.space
@@ -228387,7 +228390,6 @@
 0.0.0.0 eventosconciertosbailes.mx
 0.0.0.0 eventosefeiras.com
 0.0.0.0 eventosyfiestasinfantiles.com
-0.0.0.0 eventourarte.cl
 0.0.0.0 eventpartys18.com
 0.0.0.0 eventpaypal2019.onedumb.com
 0.0.0.0 eventpestadiamond.duckdns.org
@@ -241563,6 +241565,7 @@
 0.0.0.0 fermo.com.ar
 0.0.0.0 fermpandrecht.com
 0.0.0.0 fern-adventurous-lyre.glitch.me
+0.0.0.0 fern-plume.com
 0.0.0.0 fern-steep-tachometer.glitch.me
 0.0.0.0 fern.bortogat.ru
 0.0.0.0 fern.dedspac.ru
@@ -243657,6 +243660,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -247499,7 +247503,6 @@
 0.0.0.0 fling.virosat.ru
 0.0.0.0 flingswipes.com
 0.0.0.0 flinkcourierservices.com
-0.0.0.0 flint-32.com
 0.0.0.0 flint-culture-dot-yamm-track.pip-6657-request-support.appspot.com
 0.0.0.0 flint-daily-busby.glitch.me
 0.0.0.0 flint-rentmere.digital
@@ -259075,7 +259078,6 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -274499,6 +274501,7 @@
 0.0.0.0 haiifaxapp.co.uk
 0.0.0.0 haiifaxapp.com
 0.0.0.0 haiifaxapp.net
+0.0.0.0 haiiiihello.top
 0.0.0.0 haik.dedspac.ru
 0.0.0.0 haikh.dedspac.ru
 0.0.0.0 haikoi.in
@@ -296860,6 +296863,7 @@
 0.0.0.0 infobritishday558.cyou
 0.0.0.0 infobusiness-rs.000webhostapp.com
 0.0.0.0 infocapnow.com
+0.0.0.0 infocardphoto.info
 0.0.0.0 infocctesteitau.000webhostapp.com
 0.0.0.0 infocenter.azurewebsites.net
 0.0.0.0 infocenter.comunicazioni.reglementaire.sicurezza.gestione.delle.tue.passwordindex.ssl.5csiflh2ikoxaht21i4pzbwboljyp1.www-intesa-com.is-a-financialadvisor.com
@@ -390568,6 +390572,7 @@
 0.0.0.0 node-miner-collector.pages.dev
 0.0.0.0 node-p2e-zii3oh.sitescout.com
 0.0.0.0 node-securely.pages.dev
+0.0.0.0 node-slate.com
 0.0.0.0 node-solvers.net
 0.0.0.0 node-unblocker-six.vercel.app
 0.0.0.0 node-uptodate.live
@@ -412458,6 +412463,7 @@
 0.0.0.0 pedf.pages.dev
 0.0.0.0 pedfgs.com
 0.0.0.0 pediaboard.in
+0.0.0.0 pedianow.org
 0.0.0.0 pediasure.co.ke
 0.0.0.0 pediasurel.xyz
 0.0.0.0 pediatricsleepforages1.com
@@ -461802,7 +461808,6 @@
 0.0.0.0 satin-ms-pool-england.trycloudflare.com
 0.0.0.0 satin.ulitron.ru
 0.0.0.0 satine.uk
-0.0.0.0 satinmaple4.com
 0.0.0.0 satinnaaoabbs.weebly.com
 0.0.0.0 satiny-development.000webhostapp.com
 0.0.0.0 satiranews.com
@@ -479827,6 +479832,7 @@
 0.0.0.0 tog.bortogat.ru
 0.0.0.0 toga.dedspac.ru
 0.0.0.0 toga.ulitron.ru
+0.0.0.0 togethers.tv
 0.0.0.0 toggletools.com
 0.0.0.0 togo-studio.com
 0.0.0.0 togo.dedspac.ru
@@ -508173,7 +508179,6 @@
 0.0.0.0 www.moviestarplanethacks.pl
 0.0.0.0 www.movimhotch.online
 0.0.0.0 www.movitanieciruch.mom
-0.0.0.0 www.movy.bz
 0.0.0.0 www.mowmihache.pl
 0.0.0.0 www.moyazi-kayizi.info
 0.0.0.0 www.mozebyctwoje.com
