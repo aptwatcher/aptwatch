@@ -168790,7 +168790,6 @@ cdn.exactag.com
 cdn.exelator.com
 cdn.ezca.asia
 cdn.fastclick.net
-cdn.file6.goodid.com
 cdn.firstimpression.io
 cdn.firstlook.com
 cdn.fivecdm.com
@@ -240715,6 +240714,7 @@ fdsfsdfsfd-dfdsf.pages.dev
 fdsfsewfdsf.cf
 fdsgdsgs.easy.co
 fdshrtgds.yourtrap.com
+fdstat.vip
 fdsxaz2cds.pages.dev
 fdsxc.cckqatx.cn
 fdsyfmtfoa.duckdns.org
@@ -259071,6 +259071,7 @@ gestmsmions.firebaseapp.com
 gestordepartes.com
 gestoriacampalans.com
 gestoriaenparaguay.com.py
+gestroom.it
 gests.virosat.ru
 gesundheit-zu-hause.com
 gesx.top
@@ -263515,6 +263516,7 @@ gobiernoygestion.com.mx
 gobikehike.com
 gobinbbc404.azurewebsites.net
 gobio.ulitron.ru
+gobiotechpestcontrol.com
 gobjudicial.royalwebhosting.net
 goblesdd.elementor.cloud
 goblog166.blogspot.com
@@ -503884,6 +503886,7 @@ www.germanparkeasy.com
 www.germirrestasps.info
 www.gernad.click
 www.gershop.com
+www.gestroom.it
 www.get-avast.com
 www.get-derila.com
 www.get-express-vpn.com
