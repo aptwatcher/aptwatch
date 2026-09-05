@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-05 12:33:58
-# Entries: 523712
+# Generated: 2026-09-05 18:33:55
+# Entries: 523713
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48504,6 +48504,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -168223,6 +168224,7 @@
 0.0.0.0 cclaquila.it
 0.0.0.0 ccleaner.fr
 0.0.0.0 ccleaner.gholam.ru
+0.0.0.0 ccleaner.gl
 0.0.0.0 cclnjcyzkhpwtyxbfsnolkpnpd.polished-shore-301017.uk.r.appspot.com
 0.0.0.0 cclose.com
 0.0.0.0 ccltdtt.com
@@ -243786,7 +243788,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -374554,7 +374555,6 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
-0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -398016,7 +398016,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -458969,6 +458968,7 @@
 0.0.0.0 safeguardtrackerdigitalleads.vercel.app
 0.0.0.0 safeguardtrackerimpactjourney.vercel.app
 0.0.0.0 safegurd001.pages.dev
+0.0.0.0 safeifm.com
 0.0.0.0 safeincgroup.com
 0.0.0.0 safeintelchannel.pages.dev
 0.0.0.0 safelink-unapproved-attempt.com
@@ -475527,6 +475527,7 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
 0.0.0.0 swiftflaremedia.com
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftlogicd.pro
 0.0.0.0 swiftlogicty.info
 0.0.0.0 swiftnodeaccessrefix.pages.dev
