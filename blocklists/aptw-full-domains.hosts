@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-05 00:33:47
-# Entries: 523715
+# Generated: 2026-09-05 06:05:46
+# Entries: 523716
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32791,6 +32791,7 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
+0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -54885,7 +54886,6 @@
 0.0.0.0 adcrops.net
 0.0.0.0 adcropswnet.ru
 0.0.0.0 adcs.rqmob.com
-0.0.0.0 adctanzania.co.tz
 0.0.0.0 adctsgakcjkjwchn-dot-millinium.ey.r.appspot.com
 0.0.0.0 adcuratorstechtrail.vercel.app
 0.0.0.0 adcv.jp
@@ -249872,7 +249872,6 @@
 0.0.0.0 fotoprimo.mom
 0.0.0.0 fotoproductinsta.com
 0.0.0.0 fotoschuppen.net
-0.0.0.0 fotosdepuebla.org
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
 0.0.0.0 fotoshop-instagram.b0tnet.com
@@ -263744,7 +263743,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -289632,6 +289630,7 @@
 0.0.0.0 i-learnenglish2day.com
 0.0.0.0 i-locate.xyz
 0.0.0.0 i-love-bitches.lol
+0.0.0.0 i-love-git.com
 0.0.0.0 i-m-vijay-deshmukh.github.io
 0.0.0.0 i-m.mx
 0.0.0.0 i-mac-lcloud.underworld-onlin3.us
@@ -320164,6 +320163,7 @@
 0.0.0.0 kiryanaoffers.com
 0.0.0.0 kis.dedspac.ru
 0.0.0.0 kis.hosteurope.de.rechnungcheck.live
+0.0.0.0 kis.marketing
 0.0.0.0 kis.ulitron.ru
 0.0.0.0 kish.dedspac.ru
 0.0.0.0 kish.io
@@ -332990,6 +332990,7 @@
 0.0.0.0 lindhaprofit.com
 0.0.0.0 lindinasedred.serveminecraft.net
 0.0.0.0 lindleylabs.com
+0.0.0.0 lindnerelektroanlagen.de
 0.0.0.0 lindo.virosat.ru
 0.0.0.0 lindojon.com.br
 0.0.0.0 lindprofitt.com
@@ -350935,6 +350936,7 @@
 0.0.0.0 mailibex0b.weeblysite.com
 0.0.0.0 mailidorange.weebly.com
 0.0.0.0 mailifo-105600.square.site
+0.0.0.0 mailify.cc
 0.0.0.0 mailii.ga
 0.0.0.0 mailin.attollo.com.au
 0.0.0.0 mailin.caq.com.au
@@ -351982,6 +351984,7 @@
 0.0.0.0 malumnonre.rest
 0.0.0.0 malunkii.peyzazh-zmahannya.mom
 0.0.0.0 maluonlinedig.com
+0.0.0.0 malupieng.com.br
 0.0.0.0 malva.virosat.ru
 0.0.0.0 malvim.net
 0.0.0.0 malvisood.github.io
@@ -373522,7 +373525,6 @@
 0.0.0.0 mothermoonfathersun.org
 0.0.0.0 motherofpearlproductions.com
 0.0.0.0 mothersoftware.in
-0.0.0.0 mothertouch.ac.zw
 0.0.0.0 mothertouchgroup.org
 0.0.0.0 mothiaccag.online
 0.0.0.0 mothopogamelodge.co.za
@@ -475530,7 +475532,6 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
 0.0.0.0 swiftflaremedia.com
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftlogicd.pro
 0.0.0.0 swiftlogicty.info
 0.0.0.0 swiftnodeaccessrefix.pages.dev
