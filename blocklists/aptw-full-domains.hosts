@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-04 18:33:35
-# Entries: 523706
+# Generated: 2026-09-05 00:33:47
+# Entries: 523715
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -54885,6 +54885,7 @@
 0.0.0.0 adcrops.net
 0.0.0.0 adcropswnet.ru
 0.0.0.0 adcs.rqmob.com
+0.0.0.0 adctanzania.co.tz
 0.0.0.0 adctsgakcjkjwchn-dot-millinium.ey.r.appspot.com
 0.0.0.0 adcuratorstechtrail.vercel.app
 0.0.0.0 adcv.jp
@@ -152135,7 +152136,6 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
-0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.cheksupdguest-parthers.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
@@ -168243,6 +168243,7 @@
 0.0.0.0 ccny.matsuro.ru
 0.0.0.0 ccnz.pl
 0.0.0.0 ccoac0tij2wpl9cqqvgq.yuexiarts.com
+0.0.0.0 ccoffice.site
 0.0.0.0 ccoinbaselogin.blogspot.cl
 0.0.0.0 ccoinbaselogin.blogspot.sn
 0.0.0.0 ccoinbasewalletexxtension.webflow.io
@@ -168876,6 +168877,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -178644,6 +178646,7 @@
 0.0.0.0 cloude-15e5.karsonjacobsen.workers.dev
 0.0.0.0 cloude-dd47.aeancsesekhi.workers.dev
 0.0.0.0 cloudeadmin.com
+0.0.0.0 cloudeliveryenterprise.com
 0.0.0.0 clouders.cf
 0.0.0.0 cloudfarecreative.pages.dev
 0.0.0.0 cloudfares.000webhostapp.com
@@ -202127,6 +202130,7 @@
 0.0.0.0 deoliwin.com
 0.0.0.0 deookbmdlqhssjfm-dot-millinium.ey.r.appspot.com
 0.0.0.0 deorbrimar.cyou
+0.0.0.0 deoriatimes.com
 0.0.0.0 deostr.com
 0.0.0.0 deot.finance
 0.0.0.0 deouospiero09.click
@@ -249868,6 +249872,7 @@
 0.0.0.0 fotoprimo.mom
 0.0.0.0 fotoproductinsta.com
 0.0.0.0 fotoschuppen.net
+0.0.0.0 fotosdepuebla.org
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
 0.0.0.0 fotoshop-instagram.b0tnet.com
@@ -263739,6 +263744,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -332984,7 +332990,6 @@
 0.0.0.0 lindhaprofit.com
 0.0.0.0 lindinasedred.serveminecraft.net
 0.0.0.0 lindleylabs.com
-0.0.0.0 lindnerelektroanlagen.de
 0.0.0.0 lindo.virosat.ru
 0.0.0.0 lindojon.com.br
 0.0.0.0 lindprofitt.com
@@ -373517,6 +373522,7 @@
 0.0.0.0 mothermoonfathersun.org
 0.0.0.0 motherofpearlproductions.com
 0.0.0.0 mothersoftware.in
+0.0.0.0 mothertouch.ac.zw
 0.0.0.0 mothertouchgroup.org
 0.0.0.0 mothiaccag.online
 0.0.0.0 mothopogamelodge.co.za
@@ -464984,6 +464990,7 @@
 0.0.0.0 seo-storm.pl
 0.0.0.0 seo.cloud.edu.vn
 0.0.0.0 seo.mediaz.vn
+0.0.0.0 seobandung.site
 0.0.0.0 seobionic.info
 0.0.0.0 seoholding.com
 0.0.0.0 seohostpanelplmyapp.com
@@ -475523,6 +475530,7 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
 0.0.0.0 swiftflaremedia.com
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftlogicd.pro
 0.0.0.0 swiftlogicty.info
 0.0.0.0 swiftnodeaccessrefix.pages.dev
@@ -494144,6 +494152,7 @@
 0.0.0.0 wincleaner.com
 0.0.0.0 wincraftnepal.com
 0.0.0.0 wincreator.ddns.net
+0.0.0.0 wind.ntlsmartfull.com
 0.0.0.0 wind.ulitron.ru
 0.0.0.0 wind.windmilldrops.com
 0.0.0.0 wind0ws.kz
