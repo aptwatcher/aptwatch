@@ -168869,7 +168869,6 @@ cdn.exactag.com
 cdn.exelator.com
 cdn.ezca.asia
 cdn.fastclick.net
-cdn.file6.goodid.com
 cdn.firstimpression.io
 cdn.firstlook.com
 cdn.fivecdm.com
@@ -192954,7 +192953,6 @@ curl.ulitron.ru
 curlew.virosat.ru
 curls.duckdns.org
 curls.vadilops.ru
-curlservice.com
 curly-augmentations.000webhostapp.com
 curly-band-5557.on.fleek.co
 curly-cell-0628.on.fleek.co
@@ -212139,7 +212137,6 @@ down.fwqlt.com
 down.irntoken-zf.biz
 down.metamask-us.cc
 down.pcclear.com
-down.qqfarmer.com.cn
 down.rmsitexzweb.cc
 down.sqlnetcat.com
 down.t0kanpoaket.biz
@@ -224526,6 +224523,7 @@ envoipayboncoin.000webhostapp.com
 envoy-partnerleadsharing.standardseoservices.com
 envoyserials.cf
 envqkmavjrmt.xxoht18.cn
+envs.sh
 envsuport-cliente-n84.jcloud.kz
 envwebcliente-uol.clicketcloud.com
 envy.ulitron.ru
@@ -342087,7 +342085,6 @@ lum22-8cfp.vercel.app
 lum22.vercel.app
 lum4.com
 luma.dedspac.ru
-lumacrea.com
 lumanfountiose.com
 lumaqest.vercel.app
 lumarvexakiz.com
@@ -344115,6 +344112,7 @@ m.jima101.com
 m.jinlonghaoyang.com
 m.jiomnbv.xyz
 m.jk96053.com
+m.jkoa.co.kr
 m.jljiefeng.com
 m.joyeng.net
 m.js-lean.com
@@ -352388,7 +352386,6 @@ mandanu-iz1k.vercel.app
 mandapsoflondon.co.uk
 mandar123454.github.io
 mandarin.lasalsamilonga.info
-mandarin.net.au
 mandarin20828374.brizy.site
 mandarin6946768.brizy.site
 mandarria5daleeeee.000webhostapp.com
@@ -458962,7 +458959,6 @@ safeguardtrackerconversionhub.vercel.app
 safeguardtrackerdigitalleads.vercel.app
 safeguardtrackerimpactjourney.vercel.app
 safegurd001.pages.dev
-safeifm.com
 safeincgroup.com
 safeintelchannel.pages.dev
 safelink-unapproved-attempt.com
