@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-06 12:33:36
-# Entries: 523710
+# Generated: 2026-09-06 18:33:46
+# Entries: 523718
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -2426,6 +2426,7 @@
 0.0.0.0 0rangefr-6672-attache-fichier.weebly.com
 0.0.0.0 0rangesec.ovh
 0.0.0.0 0rd3r-transout.com
+0.0.0.0 0rder-ver1f2345.com
 0.0.0.0 0rg.ink
 0.0.0.0 0rg4n1z3r-c0mf1rmc3nt3r.000webhostapp.com
 0.0.0.0 0rlh7e8edno.qwo231sdx.club
@@ -152135,6 +152136,7 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
+0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.cheksupdguest-parthers.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
@@ -168234,6 +168236,7 @@
 0.0.0.0 ccmptpacvpvtavhdbxppvbwfqtaqxatvudhhjazq.pingyiao88.cn
 0.0.0.0 ccmxarfkpeqhsokd-dot-millinium.ey.r.appspot.com
 0.0.0.0 ccn-ims.cc
+0.0.0.0 ccn.fdstat.vip
 0.0.0.0 ccn2.vn
 0.0.0.0 ccnetworksllc.com
 0.0.0.0 ccnfh.blogspot.tw
@@ -168876,6 +168879,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -212144,6 +212148,7 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
+0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -342092,6 +342097,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumarvexakiz.com
@@ -350929,6 +350935,7 @@
 0.0.0.0 mailibex0b.weeblysite.com
 0.0.0.0 mailidorange.weebly.com
 0.0.0.0 mailifo-105600.square.site
+0.0.0.0 mailify.cc
 0.0.0.0 mailii.ga
 0.0.0.0 mailin.attollo.com.au
 0.0.0.0 mailin.caq.com.au
@@ -491752,6 +491759,7 @@
 0.0.0.0 wavejscope.site
 0.0.0.0 wavemark.amaniwa.ru
 0.0.0.0 waveonwave.mom
+0.0.0.0 waveplus.mediabyte.be
 0.0.0.0 wavera.space
 0.0.0.0 waves.dedspac.ru
 0.0.0.0 waves.retentionscience.com
