@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-06 06:04:21
-# Entries: 523712
+# Generated: 2026-09-06 06:34:49
+# Entries: 523714
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -192961,6 +192961,7 @@
 0.0.0.0 curlew.virosat.ru
 0.0.0.0 curls.duckdns.org
 0.0.0.0 curls.vadilops.ru
+0.0.0.0 curlservice.com
 0.0.0.0 curly-augmentations.000webhostapp.com
 0.0.0.0 curly-band-5557.on.fleek.co
 0.0.0.0 curly-cell-0628.on.fleek.co
@@ -344121,7 +344122,6 @@
 0.0.0.0 m.jinlonghaoyang.com
 0.0.0.0 m.jiomnbv.xyz
 0.0.0.0 m.jk96053.com
-0.0.0.0 m.jkoa.co.kr
 0.0.0.0 m.jljiefeng.com
 0.0.0.0 m.joyeng.net
 0.0.0.0 m.js-lean.com
@@ -352395,6 +352395,7 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
+0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarria5daleeeee.000webhostapp.com
@@ -376338,6 +376339,7 @@
 0.0.0.0 multiordinalauths.pages.dev
 0.0.0.0 multipage-responsive-facebook-clone.vercel.app
 0.0.0.0 multiplanitesdesk.pages.dev
+0.0.0.0 multiplay.at
 0.0.0.0 multiplebhd2025.imi.lat
 0.0.0.0 multiplecurrencies.com
 0.0.0.0 multipledapps.com
