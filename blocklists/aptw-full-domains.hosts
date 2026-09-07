@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-07 06:35:08
-# Entries: 523718
+# Generated: 2026-09-07 12:33:56
+# Entries: 523712
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32792,7 +32792,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -48506,7 +48505,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -192429,6 +192427,7 @@
 0.0.0.0 cu-cn-north00002.gala.convection.cn
 0.0.0.0 cu-iccucom.com
 0.0.0.0 cu.hustorla.ru
+0.0.0.0 cu.srijanajha.com.np
 0.0.0.0 cu01991.tw1.ru
 0.0.0.0 cu03604.tmweb.ru
 0.0.0.0 cu04350.tmweb.ru
@@ -212148,7 +212147,6 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
-0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -212208,7 +212206,6 @@
 0.0.0.0 download.allegro-market.com
 0.0.0.0 download.arundelschool.net
 0.0.0.0 download.browseraccelerator.com
-0.0.0.0 download.caihong.com
 0.0.0.0 download.cdn.sharelive.net
 0.0.0.0 download.cdn.torchbrowser.com
 0.0.0.0 download.doumaibiji.cn
@@ -243790,7 +243787,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -254282,7 +254278,6 @@
 0.0.0.0 fyynpcrnkgvvqqvlseuwgxahmnkttujvsgvs-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 fyyuiihko.weebly.com
 0.0.0.0 fz.elitoras.ru
-0.0.0.0 fz.tiansys.cn
 0.0.0.0 fz1r9wu.laicommferhobackmica.ru
 0.0.0.0 fz34rim2.union-label.com
 0.0.0.0 fz6y0wk19.duckdns.org
@@ -296026,7 +296021,6 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
-0.0.0.0 indeanapolice.cc
 0.0.0.0 indeboarde.site
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
@@ -332990,7 +332984,6 @@
 0.0.0.0 lindhaprofit.com
 0.0.0.0 lindinasedred.serveminecraft.net
 0.0.0.0 lindleylabs.com
-0.0.0.0 lindnerelektroanlagen.de
 0.0.0.0 lindo.virosat.ru
 0.0.0.0 lindojon.com.br
 0.0.0.0 lindprofitt.com
@@ -342098,7 +342091,6 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
-0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumarvexakiz.com
@@ -344126,6 +344118,7 @@
 0.0.0.0 m.jinlonghaoyang.com
 0.0.0.0 m.jiomnbv.xyz
 0.0.0.0 m.jk96053.com
+0.0.0.0 m.jkoa.co.kr
 0.0.0.0 m.jljiefeng.com
 0.0.0.0 m.joyeng.net
 0.0.0.0 m.js-lean.com
@@ -350935,6 +350928,7 @@
 0.0.0.0 mailibex0b.weeblysite.com
 0.0.0.0 mailidorange.weebly.com
 0.0.0.0 mailifo-105600.square.site
+0.0.0.0 mailify.cc
 0.0.0.0 mailii.ga
 0.0.0.0 mailin.attollo.com.au
 0.0.0.0 mailin.caq.com.au
@@ -412508,7 +412502,6 @@
 0.0.0.0 pdf-docs.online
 0.0.0.0 pdf-document.ga
 0.0.0.0 pdf-dropbox-dokumenthochladen.weebly.com
-0.0.0.0 pdf-editore.com
 0.0.0.0 pdf-flav024.b-cdn.net
 0.0.0.0 pdf-forwarding.online
 0.0.0.0 pdf-online-6c05c8-9d66522.webflow.io
@@ -412550,7 +412543,6 @@
 0.0.0.0 pdflauncher.000webhostapp.com
 0.0.0.0 pdfmdmfrbnzvrulk-dot-millinium.ey.r.appspot.com
 0.0.0.0 pdfmeabd.hmcgruop247.com
-0.0.0.0 pdfmun.software
 0.0.0.0 pdfonlineviews.com
 0.0.0.0 pdfpros.net
 0.0.0.0 pdfsecxcloudroute.com
@@ -463719,6 +463711,7 @@
 0.0.0.0 sdsglis.cfd
 0.0.0.0 sdshoptx.icu
 0.0.0.0 sdshoptx9.icu
+0.0.0.0 sdufkghdfshds.cfd
 0.0.0.0 sdvfbgre.blogspot.com
 0.0.0.0 sdvfdews.blogspot.com
 0.0.0.0 sdvfdews.blogspot.kr
@@ -480998,6 +480991,7 @@
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
 0.0.0.0 tpobop.icu
+0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -481818,6 +481812,7 @@
 0.0.0.0 tradepromentor.org
 0.0.0.0 trader-indonesia.site
 0.0.0.0 traderaiappplatform.com
+0.0.0.0 traderhype.com
 0.0.0.0 traderia-app.shop
 0.0.0.0 traderjoexyz.bylfg.org
 0.0.0.0 traderlidex-8-com.worldsoffinance.com
@@ -510833,7 +510828,6 @@
 0.0.0.0 www.orgogvagin.online
 0.0.0.0 www.orientana.mom
 0.0.0.0 www.originalicons.com
-0.0.0.0 www.oringosmod.com
 0.0.0.0 www.oriobofuel.site
 0.0.0.0 www.oriodockfeed.site
 0.0.0.0 www.oriofire.site
