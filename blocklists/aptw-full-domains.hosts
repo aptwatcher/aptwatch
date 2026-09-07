@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-06 18:33:46
-# Entries: 523718
+# Generated: 2026-09-07 00:33:43
+# Entries: 523721
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -57606,6 +57606,7 @@
 0.0.0.0 adprovider.adlure.net
 0.0.0.0 adprovider.maru.jp
 0.0.0.0 adps.bortogat.ru
+0.0.0.0 adps.pro
 0.0.0.0 adps.ulitron.ru
 0.0.0.0 adpsechosussa.webredirect.org
 0.0.0.0 adpsecruer.otzo.com
@@ -74066,6 +74067,7 @@
 0.0.0.0 altamira.bluestacko.ru
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
+0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanyucetas.com
 0.0.0.0 altapeculianza.net
@@ -118611,6 +118613,7 @@
 0.0.0.0 authflow-webterms.yj.fr
 0.0.0.0 authg.rustrelay.net
 0.0.0.0 authgame.shop
+0.0.0.0 authgen.deals
 0.0.0.0 authgripass.t.justns.ru
 0.0.0.0 authh---coinbasepro---cdn-s-sso.webflow.io
 0.0.0.0 authh--crypto-cdn--sso.webflow.io
@@ -168236,7 +168239,6 @@
 0.0.0.0 ccmptpacvpvtavhdbxppvbwfqtaqxatvudhhjazq.pingyiao88.cn
 0.0.0.0 ccmxarfkpeqhsokd-dot-millinium.ey.r.appspot.com
 0.0.0.0 ccn-ims.cc
-0.0.0.0 ccn.fdstat.vip
 0.0.0.0 ccn2.vn
 0.0.0.0 ccnetworksllc.com
 0.0.0.0 ccnfh.blogspot.tw
@@ -168245,7 +168247,6 @@
 0.0.0.0 ccny.matsuro.ru
 0.0.0.0 ccnz.pl
 0.0.0.0 ccoac0tij2wpl9cqqvgq.yuexiarts.com
-0.0.0.0 ccoffice.site
 0.0.0.0 ccoinbaselogin.blogspot.cl
 0.0.0.0 ccoinbaselogin.blogspot.sn
 0.0.0.0 ccoinbasewalletexxtension.webflow.io
@@ -168879,7 +168880,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -178648,7 +178648,6 @@
 0.0.0.0 cloude-15e5.karsonjacobsen.workers.dev
 0.0.0.0 cloude-dd47.aeancsesekhi.workers.dev
 0.0.0.0 cloudeadmin.com
-0.0.0.0 cloudeliveryenterprise.com
 0.0.0.0 clouders.cf
 0.0.0.0 cloudfarecreative.pages.dev
 0.0.0.0 cloudfares.000webhostapp.com
@@ -192964,6 +192963,7 @@
 0.0.0.0 curlew.virosat.ru
 0.0.0.0 curls.duckdns.org
 0.0.0.0 curls.vadilops.ru
+0.0.0.0 curlservice.com
 0.0.0.0 curly-augmentations.000webhostapp.com
 0.0.0.0 curly-band-5557.on.fleek.co
 0.0.0.0 curly-cell-0628.on.fleek.co
@@ -209309,6 +209309,7 @@
 0.0.0.0 dl.skyled.it
 0.0.0.0 dl.t39uvk5.top
 0.0.0.0 dl.tevipshoo.shop
+0.0.0.0 dl1.claudflare-gateway.net
 0.0.0.0 dl1d2m8ri9v3j.cloudfront.net
 0.0.0.0 dl2cu.localto.net
 0.0.0.0 dl3bx-yqaaa-aaaad-qc7xa-cai.raw.ic0.app
@@ -332989,7 +332990,6 @@
 0.0.0.0 lindhaprofit.com
 0.0.0.0 lindinasedred.serveminecraft.net
 0.0.0.0 lindleylabs.com
-0.0.0.0 lindnerelektroanlagen.de
 0.0.0.0 lindo.virosat.ru
 0.0.0.0 lindojon.com.br
 0.0.0.0 lindprofitt.com
@@ -342097,7 +342097,6 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
-0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumarvexakiz.com
@@ -374559,6 +374558,7 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
+0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -412509,6 +412509,7 @@
 0.0.0.0 pdf-docs.online
 0.0.0.0 pdf-document.ga
 0.0.0.0 pdf-dropbox-dokumenthochladen.weebly.com
+0.0.0.0 pdf-editore.com
 0.0.0.0 pdf-flav024.b-cdn.net
 0.0.0.0 pdf-forwarding.online
 0.0.0.0 pdf-online-6c05c8-9d66522.webflow.io
@@ -412550,6 +412551,7 @@
 0.0.0.0 pdflauncher.000webhostapp.com
 0.0.0.0 pdfmdmfrbnzvrulk-dot-millinium.ey.r.appspot.com
 0.0.0.0 pdfmeabd.hmcgruop247.com
+0.0.0.0 pdfmun.software
 0.0.0.0 pdfonlineviews.com
 0.0.0.0 pdfpros.net
 0.0.0.0 pdfsecxcloudroute.com
@@ -458543,6 +458545,7 @@
 0.0.0.0 sabio.us
 0.0.0.0 sabir.dedspac.ru
 0.0.0.0 sabir.ulitron.ru
+0.0.0.0 sablayan.seasonshotelmindoro.com
 0.0.0.0 sable-different-custard.glitch.me
 0.0.0.0 sable-difficult-cartwheel.glitch.me
 0.0.0.0 sable-interesting-bait.glitch.me
@@ -463717,6 +463720,7 @@
 0.0.0.0 sdsglis.cfd
 0.0.0.0 sdshoptx.icu
 0.0.0.0 sdshoptx9.icu
+0.0.0.0 sdufkghdfshds.cfd
 0.0.0.0 sdvfbgre.blogspot.com
 0.0.0.0 sdvfdews.blogspot.com
 0.0.0.0 sdvfdews.blogspot.kr
@@ -464991,7 +464995,6 @@
 0.0.0.0 seo-storm.pl
 0.0.0.0 seo.cloud.edu.vn
 0.0.0.0 seo.mediaz.vn
-0.0.0.0 seobandung.site
 0.0.0.0 seobionic.info
 0.0.0.0 seoholding.com
 0.0.0.0 seohostpanelplmyapp.com
@@ -466911,6 +466914,7 @@
 0.0.0.0 signallidexhexia.com
 0.0.0.0 signallispro2u.net
 0.0.0.0 signalszone.com
+0.0.0.0 signaturenib.rest
 0.0.0.0 signaturesite-wt3n8kps.brizodata.sbs
 0.0.0.0 signbelt.digital
 0.0.0.0 signe-114a88d.ingress-florina.ewp.live
@@ -475531,7 +475535,6 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
 0.0.0.0 swiftflaremedia.com
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftlogicd.pro
 0.0.0.0 swiftlogicty.info
 0.0.0.0 swiftnodeaccessrefix.pages.dev
@@ -476561,6 +476564,7 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
+0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -494155,7 +494159,6 @@
 0.0.0.0 wincleaner.com
 0.0.0.0 wincraftnepal.com
 0.0.0.0 wincreator.ddns.net
-0.0.0.0 wind.ntlsmartfull.com
 0.0.0.0 wind.ulitron.ru
 0.0.0.0 wind.windmilldrops.com
 0.0.0.0 wind0ws.kz
