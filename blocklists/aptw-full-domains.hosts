@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-07 06:04:43
-# Entries: 523719
+# Generated: 2026-09-07 06:35:08
+# Entries: 523718
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -466912,7 +466912,6 @@
 0.0.0.0 signallidexhexia.com
 0.0.0.0 signallispro2u.net
 0.0.0.0 signalszone.com
-0.0.0.0 signaturenib.rest
 0.0.0.0 signaturesite-wt3n8kps.brizodata.sbs
 0.0.0.0 signbelt.digital
 0.0.0.0 signe-114a88d.ingress-florina.ewp.live
