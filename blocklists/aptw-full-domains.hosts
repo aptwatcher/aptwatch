@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-07 18:33:46
-# Entries: 523260
+# Generated: 2026-09-08 00:33:44
+# Entries: 523277
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -17842,6 +17842,8 @@
 0.0.0.0 3.vxssy.live
 0.0.0.0 3.vxswe.solutions
 0.0.0.0 3.vzxwq.life
+0.0.0.0 3.zhzy999.net
+0.0.0.0 3.zhzy999.net3.zhzy999.net
 0.0.0.0 30-09-vjer09tg-ej5rg-9jker-gk0e-trgjk-r90jg-0rejg-9rr.obs.ap-southeast-3.myhuaweicloud.com
 0.0.0.0 30-2ki.pages.dev
 0.0.0.0 30-day-change.com
@@ -18103,6 +18105,7 @@
 0.0.0.0 30ywc.codesandbox.io
 0.0.0.0 30z98b6q.duckdns.org
 0.0.0.0 31-192-237-130.cprapid.com
+0.0.0.0 31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net
 0.0.0.0 31.14.161.74
 0.0.0.0 31.170.100.210
 0.0.0.0 31.170.106.44
@@ -57613,6 +57616,7 @@
 0.0.0.0 adprovider.adlure.net
 0.0.0.0 adprovider.maru.jp
 0.0.0.0 adps.bortogat.ru
+0.0.0.0 adps.pro
 0.0.0.0 adps.ulitron.ru
 0.0.0.0 adpsechosussa.webredirect.org
 0.0.0.0 adpsecruer.otzo.com
@@ -88594,6 +88598,7 @@
 0.0.0.0 api.c.avazunativeads.com
 0.0.0.0 api.cargomanager.io
 0.0.0.0 api.cav-visas.com
+0.0.0.0 api.cdn22.net
 0.0.0.0 api.cestasbebe.store
 0.0.0.0 api.chaboshi.cc
 0.0.0.0 api.chartbeat.com
@@ -118669,6 +118674,7 @@
 0.0.0.0 authflow-webterms.yj.fr
 0.0.0.0 authg.rustrelay.net
 0.0.0.0 authgame.shop
+0.0.0.0 authgen.deals
 0.0.0.0 authgripass.t.justns.ru
 0.0.0.0 authh---coinbasepro---cdn-s-sso.webflow.io
 0.0.0.0 authh--crypto-cdn--sso.webflow.io
@@ -205307,6 +205313,7 @@
 0.0.0.0 dfcvnxyx.skin
 0.0.0.0 dfcxvh.000webhostapp.com
 0.0.0.0 dfczxc.weebly.com
+0.0.0.0 dfd.zhzy999.net
 0.0.0.0 dfd55.1yaz7ec5.cardiopedbrasil.com.br
 0.0.0.0 dfdavsfwfkmkvshecodrevwsge-dot-gle39404049.rj.r.appspot.com
 0.0.0.0 dfdcvip.com
@@ -212175,6 +212182,7 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
+0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -240849,7 +240857,6 @@
 0.0.0.0 fdsfsewfdsf.cf
 0.0.0.0 fdsgdsgs.easy.co
 0.0.0.0 fdshrtgds.yourtrap.com
-0.0.0.0 fdstat.vip
 0.0.0.0 fdsxaz2cds.pages.dev
 0.0.0.0 fdsxc.cckqatx.cn
 0.0.0.0 fdsyfmtfoa.duckdns.org
@@ -244022,6 +244029,7 @@
 0.0.0.0 filmbest.video.blog
 0.0.0.0 filmbimcxll.com
 0.0.0.0 filmblue-69.duckdns.org
+0.0.0.0 filmchill.net
 0.0.0.0 filmdopobraniacbd92.ek1.pl
 0.0.0.0 filmdrunk.us.intellitxt.com
 0.0.0.0 filmedy.com
@@ -293509,6 +293517,7 @@
 0.0.0.0 ilot.dedspac.ru
 0.0.0.0 ilove-herbs.uighurmedicine.org
 0.0.0.0 iloveamericatour.com.kiaraashanti.com
+0.0.0.0 iloveboats.st
 0.0.0.0 ilovebug10.com
 0.0.0.0 ilovecheating.com
 0.0.0.0 ilovedmt.com
@@ -306555,7 +306564,6 @@
 0.0.0.0 jalalsalomy.000webhostapp.com
 0.0.0.0 jalandharpolice.com
 0.0.0.0 jalanmania.com
-0.0.0.0 jalebel7abeb.com
 0.0.0.0 jalfre.com
 0.0.0.0 jalgaonkaraakansha78-crypto.github.io
 0.0.0.0 jalintor.net
@@ -307269,6 +307277,7 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
+0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -349441,6 +349450,7 @@
 0.0.0.0 mail.quazzars.com
 0.0.0.0 mail.quermessedesaofrancisco.com.br
 0.0.0.0 mail.queroquarto.com
+0.0.0.0 mail.quietsurfwi.help
 0.0.0.0 mail.quququ.ru
 0.0.0.0 mail.r0ger-lnterac.com
 0.0.0.0 mail.rabo-betaalpas-aanvragen.info
@@ -397884,6 +397894,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -412359,6 +412370,7 @@
 0.0.0.0 pdf-docs.online
 0.0.0.0 pdf-document.ga
 0.0.0.0 pdf-dropbox-dokumenthochladen.weebly.com
+0.0.0.0 pdf-editore.com
 0.0.0.0 pdf-flav024.b-cdn.net
 0.0.0.0 pdf-forwarding.online
 0.0.0.0 pdf-online-6c05c8-9d66522.webflow.io
@@ -412400,6 +412412,7 @@
 0.0.0.0 pdflauncher.000webhostapp.com
 0.0.0.0 pdfmdmfrbnzvrulk-dot-millinium.ey.r.appspot.com
 0.0.0.0 pdfmeabd.hmcgruop247.com
+0.0.0.0 pdfmun.software
 0.0.0.0 pdfonlineviews.com
 0.0.0.0 pdfpros.net
 0.0.0.0 pdfsecxcloudroute.com
@@ -423308,6 +423321,7 @@
 0.0.0.0 powerprecinct.com.au
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
+0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -439867,6 +439881,7 @@
 0.0.0.0 quietdoorhardware.com
 0.0.0.0 quietknowledge.com
 0.0.0.0 quietpine.vercel.app
+0.0.0.0 quietsurfwi.help
 0.0.0.0 quietunripegreenware--five-nine.repl.co
 0.0.0.0 quik-serv.com
 0.0.0.0 quik2link.com
@@ -466651,6 +466666,7 @@
 0.0.0.0 signallidexhexia.com
 0.0.0.0 signallispro2u.net
 0.0.0.0 signalszone.com
+0.0.0.0 signaturenib.rest
 0.0.0.0 signaturesite-wt3n8kps.brizodata.sbs
 0.0.0.0 signe-114a88d.ingress-florina.ewp.live
 0.0.0.0 signgemin-e-log7.godaddysites.com
@@ -479301,7 +479317,6 @@
 0.0.0.0 ticm.sap0508x9v.vip
 0.0.0.0 ticm.tap0297p8b.top
 0.0.0.0 ticolatonisan.pages.dev
-0.0.0.0 ticpc8a.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 tics.ulitron.ru
 0.0.0.0 ticskwsythree.icu
@@ -490854,6 +490869,7 @@
 0.0.0.0 w.visualdna.com
 0.0.0.0 w.yieldmo.com
 0.0.0.0 w.zenback.jp
+0.0.0.0 w.zhzy999.net
 0.0.0.0 w0.extreme-dm.com
 0.0.0.0 w00tpublishers.wootmedia.net
 0.0.0.0 w02f.xyz
@@ -492101,7 +492117,6 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
-0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -505710,6 +505725,7 @@
 0.0.0.0 www.ilkineboard.site
 0.0.0.0 www.illepspazz.autos
 0.0.0.0 www.ilnora.shop
+0.0.0.0 www.iloveboats.st
 0.0.0.0 www.ilovecheating.com
 0.0.0.0 www.iloveholbox.com
 0.0.0.0 www.ilovemobi.com
@@ -510522,6 +510538,7 @@
 0.0.0.0 www.orgogvagin.online
 0.0.0.0 www.orientana.mom
 0.0.0.0 www.originalicons.com
+0.0.0.0 www.oringosmod.com
 0.0.0.0 www.oriobofuel.site
 0.0.0.0 www.oriodockfeed.site
 0.0.0.0 www.oriofire.site
