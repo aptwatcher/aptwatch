@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-08 06:35:17
-# Entries: 523282
+# Generated: 2026-09-08 12:34:41
+# Entries: 523285
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -97892,6 +97892,7 @@
 0.0.0.0 archtoninc.com
 0.0.0.0 archtwits.com
 0.0.0.0 archvrs.000webhostapp.com
+0.0.0.0 archway.cozyvistany.com
 0.0.0.0 archwayproductions.net
 0.0.0.0 archwood.gq
 0.0.0.0 archy.dedspac.ru
@@ -162903,7 +162904,6 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -240860,6 +240860,7 @@
 0.0.0.0 fdsfsewfdsf.cf
 0.0.0.0 fdsgdsgs.easy.co
 0.0.0.0 fdshrtgds.yourtrap.com
+0.0.0.0 fdstat.vip
 0.0.0.0 fdsxaz2cds.pages.dev
 0.0.0.0 fdsxc.cckqatx.cn
 0.0.0.0 fdsyfmtfoa.duckdns.org
@@ -332894,6 +332895,7 @@
 0.0.0.0 lindhaprofit.com
 0.0.0.0 lindinasedred.serveminecraft.net
 0.0.0.0 lindleylabs.com
+0.0.0.0 lindnerelektroanlagen.de
 0.0.0.0 lindo.virosat.ru
 0.0.0.0 lindojon.com.br
 0.0.0.0 lindprofitt.com
@@ -397897,7 +397899,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -463073,6 +463074,7 @@
 0.0.0.0 scoop.ulitron.ru
 0.0.0.0 scoot.dedspac.ru
 0.0.0.0 scoot.molotap.ru
+0.0.0.0 scooter.cozyvistany.com
 0.0.0.0 scopa.dedspac.ru
 0.0.0.0 scoparius.xyz
 0.0.0.0 scope-consent-purger.vercel.app
@@ -465458,6 +465460,7 @@
 0.0.0.0 sex-and-flirt.com
 0.0.0.0 sex-toy-shop.org
 0.0.0.0 sex.dedspac.ru
+0.0.0.0 sex.gemlogin.space
 0.0.0.0 sex.ulitron.ru
 0.0.0.0 sexcounter.com
 0.0.0.0 sexennially.amaniwa.ru
@@ -468639,7 +468642,6 @@
 0.0.0.0 snowpeaksafety.com
 0.0.0.0 snowplow.ownlocal.com
 0.0.0.0 snowplowcollector.talkspace.com
-0.0.0.0 snowproject.lol
 0.0.0.0 snowspikes-mist-drab.vercel.app
 0.0.0.0 snowstormx.vercel.app
 0.0.0.0 snowstormy.vercel.app
@@ -468928,6 +468930,7 @@
 0.0.0.0 solar-core.site
 0.0.0.0 solar-metal-snickerdoodle.glitch.me
 0.0.0.0 solar-sale.shop
+0.0.0.0 solar-sanat.net
 0.0.0.0 solar.dedspac.ru
 0.0.0.0 solar.virosat.ru
 0.0.0.0 solarfacic.store
