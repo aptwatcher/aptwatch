@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-08 00:33:44
-# Entries: 523277
+# Generated: 2026-09-08 06:05:16
+# Entries: 523283
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -12055,6 +12055,7 @@
 0.0.0.0 1gym-kilkis.kil.sch.gr
 0.0.0.0 1h-usghdfy98oiehjs7iyushjg.vercel.app
 0.0.0.0 1h.vuregyy1.ru
+0.0.0.0 1h.xeteloi4.ru
 0.0.0.0 1h16.com
 0.0.0.0 1h1x7.com
 0.0.0.0 1h3jr.app.link
@@ -162902,6 +162903,7 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -168941,6 +168943,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -306564,6 +306567,7 @@
 0.0.0.0 jalalsalomy.000webhostapp.com
 0.0.0.0 jalandharpolice.com
 0.0.0.0 jalanmania.com
+0.0.0.0 jalebel7abeb.com
 0.0.0.0 jalfre.com
 0.0.0.0 jalgaonkaraakansha78-crypto.github.io
 0.0.0.0 jalintor.net
@@ -401339,6 +401343,7 @@
 0.0.0.0 opakowaniaprzyszlosci.pl
 0.0.0.0 opakpaypal.my03.com
 0.0.0.0 opal.ulitron.ru
+0.0.0.0 opalcraftsmp.com
 0.0.0.0 opalekogroszek.pl
 0.0.0.0 opalescent-abalone-billboard.glitch.me
 0.0.0.0 opalescent-blood.000webhostapp.com
@@ -423321,7 +423326,6 @@
 0.0.0.0 powerprecinct.com.au
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
-0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -468636,6 +468640,7 @@
 0.0.0.0 snowpeaksafety.com
 0.0.0.0 snowplow.ownlocal.com
 0.0.0.0 snowplowcollector.talkspace.com
+0.0.0.0 snowproject.lol
 0.0.0.0 snowspikes-mist-drab.vercel.app
 0.0.0.0 snowstormx.vercel.app
 0.0.0.0 snowstormy.vercel.app
@@ -485219,6 +485224,7 @@
 0.0.0.0 universalmobility.pro
 0.0.0.0 universalmsg.com
 0.0.0.0 universalmusic.mom
+0.0.0.0 universami.ge
 0.0.0.0 universe.send.microad.jp
 0.0.0.0 universeaccountvalidation.weebly.com
 0.0.0.0 universeactivecircleprofile.weebly.com
