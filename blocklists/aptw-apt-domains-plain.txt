@@ -1,4 +1,5 @@
 advanceslibrary.com
+agents.md
 api-app.uppercrafteroom.com
 api-ext.bixbitemarketing.com
 api.ioteromixes.com
@@ -17,6 +18,7 @@ booking.fijivacations.com
 buildtoolsrvcore.com
 cdn14.quran.edu.eu.org
 codeforprofessionalusers.com
+config.yaml
 cpanel.sbkollel.org
 cpanel.siefertfamilydentistry.com
 cybersavvynetwork.com
@@ -26,6 +28,7 @@ editions.seattlemysterylovers.com
 fb-api.raydianpainting.com
 images.weightlosstonight.net
 joinnow.diasporamedia.net
+knowledge.md
 lucidamiproductions.com
 mail-cross3.acilkredi.ch
 medium.exathomeswebuytexas.com
@@ -41,7 +44,9 @@ remiumholdings.com
 resumebuilders.us
 roadmap.lifeinsurancemasters.net
 schedule.eznosdrivingschool.com
+secrets.json
 secure.seketafrica.org
+setup.mjs
 snap.promantree.com
 socgholish.ariaaglass.com
 socgholish.artmonkees.io
@@ -49,6 +54,7 @@ speed-optimizer.com
 stake.libertariancounterpoint.com
 storehouse.beautysupplysalonllc.com
 support.grovecityelectrician.com
+temp.hex
 thresumebuilder.com
 us-west.israel-finance.com
 virtualtelemetryassistant.com

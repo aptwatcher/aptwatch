@@ -1,7 +1,7 @@
 # Title: APT Watch — APT Combined Blocklist
 # Description: All validated APT IPs + malicious domains
-# Last modified: 2026-09-08 12:34:40
-# Entries: 12548
+# Last modified: 2026-09-08 18:33:56
+# Entries: 12554
 # Homepage: https://aptwatch.org
 # License: TLP:AMBER — do not share publicly
 #
@@ -12503,6 +12503,7 @@
 
 # === MALICIOUS DOMAINS ===
 0.0.0.0 advanceslibrary.com
+0.0.0.0 agents.md
 0.0.0.0 api-app.uppercrafteroom.com
 0.0.0.0 api-ext.bixbitemarketing.com
 0.0.0.0 api.ioteromixes.com
@@ -12521,6 +12522,7 @@
 0.0.0.0 buildtoolsrvcore.com
 0.0.0.0 cdn14.quran.edu.eu.org
 0.0.0.0 codeforprofessionalusers.com
+0.0.0.0 config.yaml
 0.0.0.0 cpanel.sbkollel.org
 0.0.0.0 cpanel.siefertfamilydentistry.com
 0.0.0.0 cybersavvynetwork.com
@@ -12530,6 +12532,7 @@
 0.0.0.0 fb-api.raydianpainting.com
 0.0.0.0 images.weightlosstonight.net
 0.0.0.0 joinnow.diasporamedia.net
+0.0.0.0 knowledge.md
 0.0.0.0 lucidamiproductions.com
 0.0.0.0 mail-cross3.acilkredi.ch
 0.0.0.0 medium.exathomeswebuytexas.com
@@ -12545,7 +12548,9 @@
 0.0.0.0 resumebuilders.us
 0.0.0.0 roadmap.lifeinsurancemasters.net
 0.0.0.0 schedule.eznosdrivingschool.com
+0.0.0.0 secrets.json
 0.0.0.0 secure.seketafrica.org
+0.0.0.0 setup.mjs
 0.0.0.0 snap.promantree.com
 0.0.0.0 socgholish.ariaaglass.com
 0.0.0.0 socgholish.artmonkees.io
@@ -12553,6 +12558,7 @@
 0.0.0.0 stake.libertariancounterpoint.com
 0.0.0.0 storehouse.beautysupplysalonllc.com
 0.0.0.0 support.grovecityelectrician.com
+0.0.0.0 temp.hex
 0.0.0.0 thresumebuilder.com
 0.0.0.0 us-west.israel-finance.com
 0.0.0.0 virtualtelemetryassistant.com
