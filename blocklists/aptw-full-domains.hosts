@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-09 00:33:29
-# Entries: 523288
+# Generated: 2026-09-09 06:05:28
+# Entries: 523283
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -17843,8 +17843,6 @@
 0.0.0.0 3.vxssy.live
 0.0.0.0 3.vxswe.solutions
 0.0.0.0 3.vzxwq.life
-0.0.0.0 3.zhzy999.net
-0.0.0.0 3.zhzy999.net3.zhzy999.net
 0.0.0.0 30-09-vjer09tg-ej5rg-9jker-gk0e-trgjk-r90jg-0rejg-9rr.obs.ap-southeast-3.myhuaweicloud.com
 0.0.0.0 30-2ki.pages.dev
 0.0.0.0 30-day-change.com
@@ -18106,7 +18104,6 @@
 0.0.0.0 30ywc.codesandbox.io
 0.0.0.0 30z98b6q.duckdns.org
 0.0.0.0 31-192-237-130.cprapid.com
-0.0.0.0 31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net
 0.0.0.0 31.14.161.74
 0.0.0.0 31.170.100.210
 0.0.0.0 31.170.106.44
@@ -168290,6 +168287,7 @@
 0.0.0.0 cclaquila.it
 0.0.0.0 ccleaner.fr
 0.0.0.0 ccleaner.gholam.ru
+0.0.0.0 ccleaner.gl
 0.0.0.0 cclnjcyzkhpwtyxbfsnolkpnpd.polished-shore-301017.uk.r.appspot.com
 0.0.0.0 cclose.com
 0.0.0.0 ccltdtt.com
@@ -168943,7 +168941,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -205316,7 +205313,6 @@
 0.0.0.0 dfcvnxyx.skin
 0.0.0.0 dfcxvh.000webhostapp.com
 0.0.0.0 dfczxc.weebly.com
-0.0.0.0 dfd.zhzy999.net
 0.0.0.0 dfd55.1yaz7ec5.cardiopedbrasil.com.br
 0.0.0.0 dfdavsfwfkmkvshecodrevwsge-dot-gle39404049.rj.r.appspot.com
 0.0.0.0 dfdcvip.com
@@ -398153,6 +398149,7 @@
 0.0.0.0 okgets.25u.com
 0.0.0.0 okgvvvvvvvv.000webhostapp.com
 0.0.0.0 okgynbbhxnqabwtokvtvsthdrv-dot-gl9393jan.uk.r.appspot.com
+0.0.0.0 okhan.net
 0.0.0.0 okhdpzepaqmehmqw-dot-millinium.ey.r.appspot.com
 0.0.0.0 okhygiene.com
 0.0.0.0 oki.bortogat.ru
@@ -485228,7 +485225,6 @@
 0.0.0.0 universalmobility.pro
 0.0.0.0 universalmsg.com
 0.0.0.0 universalmusic.mom
-0.0.0.0 universami.ge
 0.0.0.0 universe.send.microad.jp
 0.0.0.0 universeaccountvalidation.weebly.com
 0.0.0.0 universeactivecircleprofile.weebly.com
@@ -490879,7 +490875,6 @@
 0.0.0.0 w.visualdna.com
 0.0.0.0 w.yieldmo.com
 0.0.0.0 w.zenback.jp
-0.0.0.0 w.zhzy999.net
 0.0.0.0 w0.extreme-dm.com
 0.0.0.0 w00tpublishers.wootmedia.net
 0.0.0.0 w02f.xyz
@@ -507455,7 +507450,6 @@
 0.0.0.0 www.leperixfinai-app.com
 0.0.0.0 www.leranmerasdampl.shop
 0.0.0.0 www.lermoxgentapp-digital.pages.dev
-0.0.0.0 www.les51pratiquesfondamentalesdesleaders.com
 0.0.0.0 www.lesantivirus.net
 0.0.0.0 www.lesben-pornos.cxa.de
 0.0.0.0 www.lesnyzhodnova.org
@@ -510091,6 +510085,7 @@
 0.0.0.0 www.okawsazje.shop
 0.0.0.0 www.okazjonalny.shop
 0.0.0.0 www.okfrj.com
+0.0.0.0 www.okhan.net
 0.0.0.0 www.okiemjoasi.mom
 0.0.0.0 www.okiniphototour.live
 0.0.0.0 www.okitsuto.com
