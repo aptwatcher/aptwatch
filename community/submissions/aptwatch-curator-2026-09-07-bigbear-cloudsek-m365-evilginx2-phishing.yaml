@@ -1,0 +1,172 @@
+author: APTWatch Curator
+source: https://www.cloudsek.com/blog/tracking-bigbear-2-0-evilginx2-phishing-campaign
+
+source_name: "CloudSEK TRIAD - Tracking BigBear 2.0 Evilginx2 Phishing Campaign (Microsoft 365 AiTM phishing-as-a-service)"
+
+apt_groups:
+  - BigBear 2.0
+  - BigBear
+  - General Boss
+  - offy phishlet
+
+description: >
+  CloudSEK TRIAD primary report of September 7, 2026 documents BigBear 2.0, a
+  rebranded Evilginx2-based Adversary-in-the-Middle (AiTM) phishing-as-a-service
+  (PhaaS) framework targeting Microsoft 365 exclusively via the "offy" phishlet.
+  Researchers gained admin access to the threat actor panel. Attribution: the
+  operator uses the alias "General Boss" and exhibits a financially motivated
+  cybercriminal profile, NOT state-sponsored - CloudSEK found no overlap with
+  known APT groups in OSINT and assesses monetization via initial access
+  brokerage (session cookies enabling BEC, data extortion and ransomware
+  deployment). This actor is not on the APT Watch tracked list of Russian state
+  and named ransomware actors; the submission is an operator-approved addition
+  to the public blocklist on the strength of its atomic infrastructure IOCs and
+  its direct relevance to Microsoft 365 tenants.
+  Scale: 5,137 exfiltrated credential records - 474 complete MFA-bypassed
+  authentications (9.2%), 1,032 plaintext passwords, 4,148 session cookies -
+  across 461 organizations and 3,331 unique victim IPs in 40+ countries, still
+  active at time of writing. Victimology: India leads with 658 records (12.8%),
+  then France (463, 9.0%) and Saudi Arabia (353, ~6%), with New Zealand and
+  Germany also prominent; 438 unique victim domains. Dominant target sector is
+  IT Services/MSP (151 organizations), then SaaS/Technology (38), Oil and Gas
+  (22), Pharmaceuticals (20) and Consulting (16) - IT providers prized for
+  downstream supply chain access and privileged Azure AD / on-prem AD / RMM /
+  password manager reach. Panel metrics: 80% of password entries resulted in
+  session cookie capture. Infrastructure: 42 VPS nodes over the campaign
+  lifecycle, primarily The Constant Company LLC (Vultr), only 1 active at
+  analysis time; 26 of 42 nodes deleted since late July 2026 as counter-forensic
+  activity. First panel export showed 1,442 records, expanding to 5,137 with new
+  nodes (29.06 KALA, Kingkong) - evidence of active expansion. Multi-user panel
+  leased to at least 5 affiliate operators.
+  TTPs and candidate MITRE ATT&CK in prose: spearphishing link (T1566.002);
+  Evilginx2 reverse-proxy AiTM relay against login.microsoftonline.com with
+  Let's Encrypt HTTP-01 auto-provisioned SSL per subdomain and wildcard DNS
+  pointing to the VPS (T1557.001); targeting of the Microsoft 365 OAuth 2.0
+  authorization flow, effective against any Azure AD / Entra ID tenant; web
+  session cookie theft and replay of the ESTSAUTH Azure AD token and
+  AppSessionId Outlook Web Access cookie, captured from the Set-Cookie response
+  after the victim completes MFA, so TOTP, push, SMS and voice-call MFA are all
+  equally bypassed while FIDO2/WebAuthn resists through origin binding
+  (T1550.004, T1539); web portal credential capture (T1056.003); account
+  takeover with valid stolen auth (T1078); post-theft mail rule creation
+  (T1098); HTTPS-based encrypted C2 (T1573.001); Telegram API for exfiltration
+  (T1102); VPS acquisition (T1583.003) and phishing domain registration
+  (T1583.001); Evilginx2 tooling (T1588.002).
+  Three proprietary JavaScript injections absent from stock Evilginx2 were
+  captured on the live page at management.daengrentacar.com/meetings: (1)
+  FIDO2/WebAuthn disable, setting window.__bb_fido_down, redefining
+  window.PublicKeyCredential as undefined and monkey-patching
+  navigator.credentials get/create to reject publicKey options, forcing hardware
+  key users onto phishable MFA; (2) Microsoft anti-phishing telemetry blocking
+  of canarytokens, events.data.microsoft.com and OneCollector via patched
+  window.fetch and XMLHttpRequest plus a MutationObserver stripping matching img
+  tags; (3) auto-KMSI that checks the KmsiCheckboxField element and clicks
+  idSIButton9 after an 800 ms delay to maximize session cookie lifetime.
+  Evasion and persistence: 69-country geo-matched residential proxy pool
+  auto-matching victim geolocation to defeat Microsoft geo-anomaly detection and
+  location-based Conditional Access, with ipapi.is used by the actor for
+  anti-bot filtering that blocks datacenter, VPN and proxy source IPs (panel
+  only reachable from residential IPs); TLS terminated at the phishing domain so
+  corporate SSL inspection and Entra ID sign-in logs never see the victim IP,
+  only the proxy IP; keepalive refresh-token reuse and a REST /api/jobs Cookie
+  API for bulk automated session replay; Microsoft refresh tokens valid up to 90
+  days with sliding window; real-time SSE streaming of Evilginx2 engine logs in
+  the operator browser.
+  Application indicators (not atomic network IOCs, recorded here for detection
+  engineering): HTTP headers x-evg-token, x-evg-server, x-evg-session and any
+  x-evg- prefix; cookies evginx_session, evginx_token, evginx_admin,
+  bigbear_session, bigbear_token. CloudSEK published five SIGMA rules covering
+  these - ids 0b8d50f4-fc0f-4ef5-9001 (Evilginx/BigBear session cookies),
+  9002 (network connections to known nodes), 9003 (x-evg- headers), 9004
+  (Telegram credential exfiltration) and 9005 (combined cookie plus header).
+  Telegram C2 (the curator schema has no table for bot tokens or chat ids, and
+  api.telegram.org is deliberately NOT submitted as a domain or URL IOC since it
+  is shared legitimate infrastructure - full values listed here so nothing from
+  the source is lost): primary admin bot @comeandget_bot, token
+  8629902848:AAGEFRukqwu9QaMSDNNuVRYF3juTcg4ehO4, now revoked; affiliate bot
+  @botterxyz_bot, token 8625043408:AAH6G8X0aW0QhoLEB1uJiYQ5-2aLSJzg8VE, chat id
+  8275831287, operator @app_ham "Syed Hasham", nodes SAN, italia aura, iX;
+  @PackingitonG_bot, token 8783369414:AAGENRhb7By-0-cQFgrnOw1AW4NbOeUutVE, chat
+  id 6351262445, operator @Sunagashison "Mrit Sunagashison", nodes
+  208.85.20.79-p, jkj-p, 208.85.18.18-p, dronalms-p; @donplayer_bot, token
+  8807072847:AAEYbUaFcbeAgxTZ2Zl8pFbpjRPM9jXvvzE, chat id 7992255008, operator
+  @donplayer00 "Donplayer", node DP; @bolywan_bot, token
+  8462028468:AAEQt7oq0c3nTHzApQtHk3RdZ7ifnkYd1XM, chat id 8577758752, operator
+  @workin_161 "Nnnnnaaaaana Laban", node FATHOM; @rdsxtdytguyg75d_bot, token
+  8794520788:AAERSVBlWMpzHc21CCP_-9tL_pjqH9-WuFI, chat id 7689964778, operator
+  @Mazal100 "Mazal", node ABB. Panel structure: user_id 5 is a reseller tier
+  with two downstream operators, user_id 6 hosts two operators, user_id 3
+  (node Kingkong) is the primary admin bot, user_id 2 (FATHOM) an individual
+  affiliate.
+  Note on the domains table: entries are a mix of attacker-registered and
+  likely-compromised legitimate small-business sites hosting the phishlet
+  subdomain. CloudSEK labels all of them "Phishing Domain" without
+  distinguishing, so none were promoted to compromised_domains rather than guess
+  - several such as hotelmidtownsurat.com, annastudios-paros.com,
+  daengrentacar.com, michaelmarcotte.com, soil-management.com and kgsscans.com
+  read as compromised-legitimate rather than purpose-registered. Mitigations
+  recommended by the source: reset affected passwords, revoke session and
+  refresh tokens, force re-authentication, enforce phishing-resistant FIDO2 or
+  WebAuthn MFA, enforce Conditional Access and require compliant devices.
+  Originally surfaced by the analyse-veille-securite-rss skill v0.4 from a The
+  Register article of September 8, 2026 (run 2026-09-08, brief
+  veille-securite-rss-20260908-0948.md); enriched September 9, 2026 by tracing
+  back to the CloudSEK TRIAD primary report and extracting its IOC, MITRE,
+  application-indicator and SIGMA tables in full.
+
+ipv4:
+  - 38.60.250.157
+  - 95.179.233.79
+  - 80.240.27.55
+  - 65.20.103.58
+  - 38.54.124.88
+  - 208.85.20.79
+  - 95.179.169.154
+  - 107.191.46.14
+  - 130.94.82.180
+  - 38.54.124.58
+  - 208.85.18.18
+  - 45.32.147.239
+  - 208.76.222.214
+  - 130.94.82.230
+  - 65.20.102.80
+  - 70.34.208.46
+  - 130.94.113.184
+  - 78.141.193.59
+  - 64.176.72.180
+  - 136.244.114.85
+  - 70.34.244.122
+  - 199.247.10.14
+  - 152.39.137.60
+  - 91.245.235.208
+  - 45.32.64.165
+
+domains:
+  - konceptenterprises.com
+  - login.konceptenterprises.com
+  - ccpipharma.com
+  - annastudios-paros.com
+  - dnsforward.com
+  - hotelmidtownsurat.com
+  - dataclust.com
+  - cifutura.com
+  - hoaivt.com
+  - dronalms.com
+  - virextec.com
+  - offtic.com
+  - rootreseller.com
+  - management.michaelmarcotte.com
+  - kgsscans.com
+  - soil-management.com
+  - daengrentacar.com
+  - management.daengrentacar.com
+  - arrmmy.com
+  - captelind.com
+  - planisteradmin.com
+  - hnospascualfadon.com
+  - haliotisbar.com
+  - knowncontractor.com
+  - valtteri.net
+
+urls:
+  - https://management.daengrentacar.com/meetings
