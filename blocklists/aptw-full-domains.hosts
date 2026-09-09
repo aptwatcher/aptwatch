@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-09 06:05:28
-# Entries: 523283
+# Generated: 2026-09-09 06:34:45
+# Entries: 523284
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -147700,6 +147700,7 @@
 0.0.0.0 blisspoint.us-west-2.stinger-ad.bidr.io
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
+0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blitexa.site
