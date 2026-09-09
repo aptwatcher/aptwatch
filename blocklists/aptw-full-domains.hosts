@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-09 12:33:36
-# Entries: 523282
+# Generated: 2026-09-09 18:33:55
+# Entries: 523312
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -84706,6 +84706,7 @@
 0.0.0.0 annaslove.hyperphp.com
 0.0.0.0 annasophia-robb.com
 0.0.0.0 annasorrentinostudiodanza.mom
+0.0.0.0 annastudios-paros.com
 0.0.0.0 annatsir.web.id
 0.0.0.0 annatto.bluestacko.ru
 0.0.0.0 annatyle.com
@@ -99683,6 +99684,7 @@
 0.0.0.0 arrivetq.top
 0.0.0.0 arriveu.top
 0.0.0.0 arrivewithbooking.homes
+0.0.0.0 arrmmy.com
 0.0.0.0 arrmnzscva.000webhostapp.com
 0.0.0.0 arrnaazan-co-jiopan.xyz
 0.0.0.0 arrnazon.ccgame.xyz
@@ -149006,6 +149008,7 @@
 0.0.0.0 blueoakretreat.com
 0.0.0.0 blueocean-plus.com
 0.0.0.0 blueocean.cl
+0.0.0.0 blueoceanealtd.co.ke
 0.0.0.0 blueoceanindustries.com
 0.0.0.0 blueoceanlean.com
 0.0.0.0 blueoceanoutdoors.co
@@ -165522,6 +165525,7 @@
 0.0.0.0 captcha.pay.pai.umleiten.ch.theredmillbakehouse.com.au
 0.0.0.0 captchaguild.com
 0.0.0.0 captchanom.top
+0.0.0.0 captelind.com
 0.0.0.0 captialloeinlslog.azurewebsites.net
 0.0.0.0 captivamanagers.com
 0.0.0.0 captivatingandintresting.000webhostapp.com
@@ -168333,6 +168337,7 @@
 0.0.0.0 ccpa.psg.nexstardigital.net
 0.0.0.0 ccpaia.com
 0.0.0.0 ccpcaresh.ml
+0.0.0.0 ccpipharma.com
 0.0.0.0 ccplclvoscompteccpclientssl.com
 0.0.0.0 ccpmarc.com
 0.0.0.0 ccpmo.com
@@ -168941,7 +168946,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -174877,6 +174881,7 @@
 0.0.0.0 cif.emc100.com
 0.0.0.0 cif.su
 0.0.0.0 cifbuilders.co.uk
+0.0.0.0 cifutura.com
 0.0.0.0 cifvmabecwcproto-dot-millinium.ey.r.appspot.com
 0.0.0.0 cifw.fr
 0.0.0.0 cig-arrete.com
@@ -195863,6 +195868,7 @@
 0.0.0.0 daehdog.org
 0.0.0.0 daelis-node.pages.dev
 0.0.0.0 daemon.virosat.ru
+0.0.0.0 daengrentacar.com
 0.0.0.0 daer.amaniwa.ru
 0.0.0.0 daergtad.dynv6.net
 0.0.0.0 daetuoh.eu.cc
@@ -197956,6 +197962,7 @@
 0.0.0.0 datacloud-us-east-1.tealiumiq.com
 0.0.0.0 datacloud.aeronsystems.com
 0.0.0.0 datacloud.tealiumiq.com
+0.0.0.0 dataclust.com
 0.0.0.0 datacollect3.abtasty.com
 0.0.0.0 datacollect6.abtasty.com
 0.0.0.0 datacollector-dra.dt.dbankcloud.cn
@@ -209999,6 +210006,7 @@
 0.0.0.0 dnsdelegation.io
 0.0.0.0 dnsdzohckh.duckdns.org
 0.0.0.0 dnsflarenetx.sa.com
+0.0.0.0 dnsforward.com
 0.0.0.0 dnsgenerate.dynamic-dns.net
 0.0.0.0 dnslogs.net
 0.0.0.0 dnsmachinefork.com
@@ -212182,6 +212190,7 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
+0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -212241,7 +212250,6 @@
 0.0.0.0 download.allegro-market.com
 0.0.0.0 download.arundelschool.net
 0.0.0.0 download.browseraccelerator.com
-0.0.0.0 download.caihong.com
 0.0.0.0 download.cdn.sharelive.net
 0.0.0.0 download.cdn.torchbrowser.com
 0.0.0.0 download.doumaibiji.cn
@@ -213602,6 +213610,7 @@
 0.0.0.0 drona.org.in
 0.0.0.0 drona.ulitron.ru
 0.0.0.0 drona.virosat.ru
+0.0.0.0 dronalms.com
 0.0.0.0 dronalyse.com
 0.0.0.0 dronboost.site
 0.0.0.0 drone.ulitron.ru
@@ -224981,6 +224990,7 @@
 0.0.0.0 epsilane.site
 0.0.0.0 epsilonix.xyz
 0.0.0.0 epsilonpureis.com
+0.0.0.0 epsinf.com
 0.0.0.0 epsinifuel.site
 0.0.0.0 epsitutap.site
 0.0.0.0 epsixperboost.site
@@ -275578,6 +275588,7 @@
 0.0.0.0 haliikairental.com
 0.0.0.0 halimaabdalghani.com
 0.0.0.0 halimanagepayee.com
+0.0.0.0 haliotisbar.com
 0.0.0.0 halisdurum.com
 0.0.0.0 halisecure-iverify-proceed.com
 0.0.0.0 halisecure-online-login.com
@@ -283537,6 +283548,7 @@
 0.0.0.0 hnn-fico-hsa.go.yj.fr
 0.0.0.0 hnnpnqiakmwnexopjsiirgkvub-dot-gl9393jan.uk.r.appspot.com
 0.0.0.0 hnorc.cn
+0.0.0.0 hnospascualfadon.com
 0.0.0.0 hnosratti2024.mh84-alaei.workers.dev
 0.0.0.0 hnpffmcw.top
 0.0.0.0 hnpooiihpfgyksfweretjbhhtt-dot-gleowayel400503.uc.r.appspot.com
@@ -283640,6 +283652,7 @@
 0.0.0.0 hoagdihtusikvc-8poy.vercel.app
 0.0.0.0 hoagy.dedspac.ru
 0.0.0.0 hoaigsp.000webhostapp.com
+0.0.0.0 hoaivt.com
 0.0.0.0 hoalgf.ga
 0.0.0.0 hoan551995.github.io
 0.0.0.0 hoancauauto.com
@@ -285787,6 +285800,7 @@
 0.0.0.0 hotelmehrsa.com
 0.0.0.0 hotelmeneger.github.io
 0.0.0.0 hotelmetro.it
+0.0.0.0 hotelmidtownsurat.com
 0.0.0.0 hotelmohini.com
 0.0.0.0 hotelmonasterosantandrea.live
 0.0.0.0 hotelnatali.ru
@@ -319134,6 +319148,7 @@
 0.0.0.0 kgsclsd.com
 0.0.0.0 kgsinsuranceagency.top
 0.0.0.0 kgsinsuranceagencys.buzz
+0.0.0.0 kgsscans.com
 0.0.0.0 kgstwkcbbq.duckdns.org
 0.0.0.0 kgsufwlnwr.duckdns.org
 0.0.0.0 kgtgxlmrobbpvciemvcilgmdjcaxtgaulbjf-dot-offgl8876899977678.uk.r.appspot.com
@@ -321555,6 +321570,7 @@
 0.0.0.0 known-v11.cf
 0.0.0.0 known.dedspac.ru
 0.0.0.0 known.ulitron.ru
+0.0.0.0 knowncontractor.com
 0.0.0.0 knows-commentary-goat-collection.trycloudflare.com
 0.0.0.0 knows.ulitron.ru
 0.0.0.0 knowseminar.com
@@ -322021,6 +322037,7 @@
 0.0.0.0 konax.kontera.com
 0.0.0.0 konay.pages.dev
 0.0.0.0 konazard.com
+0.0.0.0 konceptenterprises.com
 0.0.0.0 koncionlogin.webflow.io
 0.0.0.0 koncol.my.id
 0.0.0.0 konconlogin.webflow.io
@@ -332890,6 +332907,7 @@
 0.0.0.0 lindhaprofit.com
 0.0.0.0 lindinasedred.serveminecraft.net
 0.0.0.0 lindleylabs.com
+0.0.0.0 lindnerelektroanlagen.de
 0.0.0.0 lindo.virosat.ru
 0.0.0.0 lindojon.com.br
 0.0.0.0 lindprofitt.com
@@ -338086,6 +338104,7 @@
 0.0.0.0 login.jayyyyz.click
 0.0.0.0 login.kifales.ru
 0.0.0.0 login.knkwekenk.click
+0.0.0.0 login.konceptenterprises.com
 0.0.0.0 login.kundeservice.54-164-127-121.cprapid.com
 0.0.0.0 login.kyivstar.online
 0.0.0.0 login.lifemitra.in
@@ -351880,6 +351899,7 @@
 0.0.0.0 malumnonre.rest
 0.0.0.0 malunkii.peyzazh-zmahannya.mom
 0.0.0.0 maluonlinedig.com
+0.0.0.0 malupieng.com.br
 0.0.0.0 malva.virosat.ru
 0.0.0.0 malvim.net
 0.0.0.0 malvisood.github.io
@@ -352163,6 +352183,8 @@
 0.0.0.0 management-ledgercom.teachable.com
 0.0.0.0 management-payee-verify-request.com
 0.0.0.0 management-trezzor-cdn.webflow.io
+0.0.0.0 management.daengrentacar.com
+0.0.0.0 management.michaelmarcotte.com
 0.0.0.0 management1settingpgebusiness221.co.vu
 0.0.0.0 managementbusinessrequiredaza.weebly.com
 0.0.0.0 managementcenteruserupdate-reviewalertacces.vercel.app
@@ -384070,6 +384092,7 @@
 0.0.0.0 neil033-design.github.io
 0.0.0.0 neilblack.co.uk.usrfiles.com
 0.0.0.0 neilmacqueen.com
+0.0.0.0 neilshairdressers.co.uk
 0.0.0.0 neilweller11.wixsite.com
 0.0.0.0 neim.strametyapi.com
 0.0.0.0 neimali.ga
@@ -397421,6 +397444,7 @@
 0.0.0.0 offtheclock.it
 0.0.0.0 offthentic.com
 0.0.0.0 offthewallgraffiti.org
+0.0.0.0 offtic.com
 0.0.0.0 offtothepoconos.com
 0.0.0.0 offun.ir
 0.0.0.0 offwego.ml
@@ -408516,6 +408540,7 @@
 0.0.0.0 panel.hiddify.top
 0.0.0.0 panel.home.pl.muna.it
 0.0.0.0 panel.kaprila.com
+0.0.0.0 panel.mkk9991999912.observer
 0.0.0.0 panel.moat.com
 0.0.0.0 panel.ogspy.net
 0.0.0.0 panel.openbenchvehicle.org
@@ -417827,6 +417852,7 @@
 0.0.0.0 planetwavesweekly.com
 0.0.0.0 planetwebmailservices.moonfruit.com
 0.0.0.0 planetx.com.tr
+0.0.0.0 planisteradmin.com
 0.0.0.0 planitusa.com
 0.0.0.0 plank.virosat.ru
 0.0.0.0 plankownerconsulting.com
@@ -428029,7 +428055,6 @@
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
 0.0.0.0 prothepito.shop
-0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -454147,6 +454172,7 @@
 0.0.0.0 rootinformationgateway.com
 0.0.0.0 rootluxerisq.org
 0.0.0.0 rootraid.in
+0.0.0.0 rootreseller.com
 0.0.0.0 rootsandwingsindia.com
 0.0.0.0 rootscamiseteria.com
 0.0.0.0 rootscomm-com.bhartiyaservices.com
@@ -468880,6 +468906,7 @@
 0.0.0.0 soidog.fr
 0.0.0.0 soiflare.fi-v2.to
 0.0.0.0 soikot-shahriaar.github.io
+0.0.0.0 soil-management.com
 0.0.0.0 soil.amaniwa.ru
 0.0.0.0 soil.ulitron.ru
 0.0.0.0 soildly.xyz
@@ -488205,6 +488232,7 @@
 0.0.0.0 valtrex.4.p2l.info
 0.0.0.0 valtrex.7h.com
 0.0.0.0 valtrixnexusaitrade.com
+0.0.0.0 valtteri.net
 0.0.0.0 valuable-professionals-893123.framer.app
 0.0.0.0 value-spike-detect.vercel.app
 0.0.0.0 value.virosat.ru
@@ -489807,6 +489835,7 @@
 0.0.0.0 viren-node.pages.dev
 0.0.0.0 virendrasuryawanshi09.github.io
 0.0.0.0 virewin.com
+0.0.0.0 virextec.com
 0.0.0.0 virgigiudi.cyou
 0.0.0.0 virgin-ai.click
 0.0.0.0 virginai.click
@@ -492121,6 +492150,7 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
