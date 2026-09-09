@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-08 18:33:58
-# Entries: 523277
+# Generated: 2026-09-09 00:33:29
+# Entries: 523288
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -97892,6 +97892,7 @@
 0.0.0.0 archtoninc.com
 0.0.0.0 archtwits.com
 0.0.0.0 archvrs.000webhostapp.com
+0.0.0.0 archway.cozyvistany.com
 0.0.0.0 archwayproductions.net
 0.0.0.0 archwood.gq
 0.0.0.0 archy.dedspac.ru
@@ -168942,6 +168943,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -287255,6 +287257,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -332411,6 +332414,7 @@
 0.0.0.0 lihoradit.ru
 0.0.0.0 liihat-selengkapnyaa4.resmi-idz4.my.id
 0.0.0.0 liihat-selengkapnyaa4.siteresmi3.my.id
+0.0.0.0 liikepalvelu.com
 0.0.0.0 liimonada.com
 0.0.0.0 liin.ulitron.ru
 0.0.0.0 liink-dana.updateebaru.com
@@ -332891,6 +332895,7 @@
 0.0.0.0 lindhaprofit.com
 0.0.0.0 lindinasedred.serveminecraft.net
 0.0.0.0 lindleylabs.com
+0.0.0.0 lindnerelektroanlagen.de
 0.0.0.0 lindo.virosat.ru
 0.0.0.0 lindojon.com.br
 0.0.0.0 lindprofitt.com
@@ -401338,6 +401343,7 @@
 0.0.0.0 opakowaniaprzyszlosci.pl
 0.0.0.0 opakpaypal.my03.com
 0.0.0.0 opal.ulitron.ru
+0.0.0.0 opalcraftsmp.com
 0.0.0.0 opalekogroszek.pl
 0.0.0.0 opalescent-abalone-billboard.glitch.me
 0.0.0.0 opalescent-blood.000webhostapp.com
@@ -456132,6 +456138,7 @@
 0.0.0.0 rubblpatti.online
 0.0.0.0 rubbly-bud.000webhostapp.com
 0.0.0.0 rubbly-diagram.000webhostapp.com
+0.0.0.0 rubburizee.es
 0.0.0.0 rubbyhaddock.com
 0.0.0.0 rubcare.com
 0.0.0.0 rubdxzpdpwyregog-dot-millinium.ey.r.appspot.com
@@ -463068,6 +463075,7 @@
 0.0.0.0 scoop.ulitron.ru
 0.0.0.0 scoot.dedspac.ru
 0.0.0.0 scoot.molotap.ru
+0.0.0.0 scooter.cozyvistany.com
 0.0.0.0 scopa.dedspac.ru
 0.0.0.0 scoparius.xyz
 0.0.0.0 scope-consent-purger.vercel.app
@@ -468635,6 +468643,7 @@
 0.0.0.0 snowpeaksafety.com
 0.0.0.0 snowplow.ownlocal.com
 0.0.0.0 snowplowcollector.talkspace.com
+0.0.0.0 snowproject.lol
 0.0.0.0 snowspikes-mist-drab.vercel.app
 0.0.0.0 snowstormx.vercel.app
 0.0.0.0 snowstormy.vercel.app
@@ -469569,6 +469578,7 @@
 0.0.0.0 sp863481.sitebeat.crazydomains.com
 0.0.0.0 sp88097.sitebeat.crazydomains.com
 0.0.0.0 sp944457.sitebeat.crazydomains.com
+0.0.0.0 spa-com.com
 0.0.0.0 spa.bortogat.ru
 0.0.0.0 spa.ulitron.ru
 0.0.0.0 spacash.com
@@ -472218,6 +472228,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -477522,7 +477533,6 @@
 0.0.0.0 techberlinquary-ai.com
 0.0.0.0 techberlinquarytrade.com
 0.0.0.0 techbrief.es
-0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techcruncln.com
@@ -507445,6 +507455,7 @@
 0.0.0.0 www.leperixfinai-app.com
 0.0.0.0 www.leranmerasdampl.shop
 0.0.0.0 www.lermoxgentapp-digital.pages.dev
+0.0.0.0 www.les51pratiquesfondamentalesdesleaders.com
 0.0.0.0 www.lesantivirus.net
 0.0.0.0 www.lesben-pornos.cxa.de
 0.0.0.0 www.lesnyzhodnova.org
