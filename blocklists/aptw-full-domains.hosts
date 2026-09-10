@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-10 00:33:27
-# Entries: 523699
+# Generated: 2026-09-10 06:04:46
+# Entries: 523706
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -89015,6 +89015,7 @@
 0.0.0.0 api.verify.mob.com
 0.0.0.0 api.verticalscope.com
 0.0.0.0 api.verynewsy.com
+0.0.0.0 api.vexxuhq.site
 0.0.0.0 api.vfibra.com.br
 0.0.0.0 api.videometrics.ted.com
 0.0.0.0 api.vidora.com
@@ -152274,6 +152275,7 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
+0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.cheksupdguest-parthers.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
@@ -203554,6 +203556,7 @@
 0.0.0.0 detflix-96f2de.ingress-baronn.easywp.com
 0.0.0.0 dethecture.com
 0.0.0.0 dethex.pages.dev
+0.0.0.0 detierra.cl
 0.0.0.0 detik.serving-sys.com
 0.0.0.0 detiktotocakep.com
 0.0.0.0 detin.dedspac.ru
@@ -391568,6 +391571,7 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
+0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northeus.digital
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
@@ -478242,6 +478246,7 @@
 0.0.0.0 tendertest.com
 0.0.0.0 tendidanna.store
 0.0.0.0 tends.dedspac.ru
+0.0.0.0 tengfeidn.cn
 0.0.0.0 tengo.popunder.ru
 0.0.0.0 tenhazirnasiparislerinde.cloud
 0.0.0.0 tenia.dedspac.ru
@@ -492329,6 +492334,7 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -510288,6 +510294,7 @@
 0.0.0.0 www.oix-ops-ne74.ax7tjc.cfd
 0.0.0.0 www.oix.com
 0.0.0.0 www.oixops-jbm3.p9bckp.sbs
+0.0.0.0 www.ojang.pe.kr
 0.0.0.0 www.ojdigibot.site
 0.0.0.0 www.ojolink.fr
 0.0.0.0 www.ojrq.net
