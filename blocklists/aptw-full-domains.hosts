@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-10 12:33:46
-# Entries: 523711
+# Generated: 2026-09-10 18:33:51
+# Entries: 523712
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -21501,6 +21501,7 @@
 0.0.0.0 3bnwebbpichincha.webcindario.com
 0.0.0.0 3bood89.standardseoservices.com
 0.0.0.0 3boredguys.com
+0.0.0.0 3brosstore.com
 0.0.0.0 3bscafe.com
 0.0.0.0 3btgzfk74gxejzr.qwo231sdx.club
 0.0.0.0 3btvalruqoxo.wusps.xyz
@@ -115770,6 +115771,7 @@
 0.0.0.0 aurasway.com
 0.0.0.0 auratus.xyz
 0.0.0.0 aurauae.ae
+0.0.0.0 auravibes04ko.shop
 0.0.0.0 aurawave-fh4inkence.tezeku.za.com
 0.0.0.0 auraxcore92.org
 0.0.0.0 aurban.thats-so-hip.com
@@ -152277,7 +152279,6 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
-0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.cheksupdguest-parthers.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
@@ -184531,7 +184532,6 @@
 0.0.0.0 communication-act.ddns.net
 0.0.0.0 communication-diary-thwart.vercel.app
 0.0.0.0 communication-ergo-additional-their.vercel.app
-0.0.0.0 communication-hub.vg
 0.0.0.0 communication-journal-stop.vercel.app
 0.0.0.0 communication-register-check.vercel.app
 0.0.0.0 communicationcenrale-ba5b01.ingress-daribow.ewp.live
@@ -259347,6 +259347,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -292800,6 +292801,7 @@
 0.0.0.0 ignationspin.com
 0.0.0.0 ignc1.com
 0.0.0.0 igneousnirvana.com
+0.0.0.0 ignetwork.us
 0.0.0.0 igneus.xyz
 0.0.0.0 igniabdapt.site
 0.0.0.0 igniapp.com
@@ -428109,7 +428111,6 @@
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
 0.0.0.0 prothepito.shop
-0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -428994,7 +428995,6 @@
 0.0.0.0 ptosexwpndhpzzuawnkotrbvby-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 ptovesindo.com
 0.0.0.0 ptownpooch.com
-0.0.0.0 ptpilatesstudio.com
 0.0.0.0 ptplayground.com
 0.0.0.0 ptppp.cn
 0.0.0.0 ptpsc-dpd.cfd
@@ -474456,6 +474456,7 @@
 0.0.0.0 summitfinancehub.com
 0.0.0.0 summitsicredidegovernanca.com.br
 0.0.0.0 summitwertgrove.org
+0.0.0.0 sumnitasinvestment.com
 0.0.0.0 sumo.ad
 0.0.0.0 sumo.com
 0.0.0.0 sumo.ulitron.ru
@@ -483070,6 +483071,7 @@
 0.0.0.0 tripe.dedspac.ru
 0.0.0.0 tripe.virosat.ru
 0.0.0.0 tripersonally.bibliota.ru
+0.0.0.0 tripfarely.com
 0.0.0.0 triphasil.1.p2l.info
 0.0.0.0 triphasil.3.p2l.info
 0.0.0.0 triphasil.4.p2l.info
@@ -492338,7 +492340,6 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
-0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
