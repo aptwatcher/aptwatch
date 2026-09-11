@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-10 18:33:51
-# Entries: 523712
+# Generated: 2026-09-11 00:33:33
+# Entries: 523718
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -21501,7 +21501,6 @@
 0.0.0.0 3bnwebbpichincha.webcindario.com
 0.0.0.0 3bood89.standardseoservices.com
 0.0.0.0 3boredguys.com
-0.0.0.0 3brosstore.com
 0.0.0.0 3bscafe.com
 0.0.0.0 3btgzfk74gxejzr.qwo231sdx.club
 0.0.0.0 3btvalruqoxo.wusps.xyz
@@ -89017,6 +89016,7 @@
 0.0.0.0 api.verify.mob.com
 0.0.0.0 api.verticalscope.com
 0.0.0.0 api.verynewsy.com
+0.0.0.0 api.vexxuhq.site
 0.0.0.0 api.vfibra.com.br
 0.0.0.0 api.videometrics.ted.com
 0.0.0.0 api.vidora.com
@@ -147777,7 +147777,6 @@
 0.0.0.0 blisspoint.us-west-2.stinger-ad.bidr.io
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
-0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blitexa.site
@@ -212336,6 +212335,7 @@
 0.0.0.0 download.mclick.mobi
 0.0.0.0 download.pdf00.cn
 0.0.0.0 download.pdf00.com
+0.0.0.0 download.pocketbitcoindesktop.com
 0.0.0.0 download.realtimegaming.com
 0.0.0.0 download.sada-group.com
 0.0.0.0 download.securetnet.com
@@ -214696,6 +214696,7 @@
 0.0.0.0 dugal.dedspac.ru
 0.0.0.0 dugal.ulitron.ru
 0.0.0.0 dugan.virosat.ru
+0.0.0.0 dugovicova.sk
 0.0.0.0 dugqouxrljrgwkbjihjsqlxmyz-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 dugraal.com
 0.0.0.0 dugs.dedspac.ru
@@ -227481,6 +227482,7 @@
 0.0.0.0 eurodelinks.com
 0.0.0.0 eurodesignhomes.com
 0.0.0.0 euroenvases.com.ar
+0.0.0.0 eurofarm.ge
 0.0.0.0 eurohangar.net
 0.0.0.0 eurohomes.org
 0.0.0.0 euroincome.capital
@@ -243897,6 +243899,7 @@
 0.0.0.0 fileee.s3.us-south.cloud-object-storage.appdomain.cloud
 0.0.0.0 filefilegogyuiuytyuy.gleeze.com
 0.0.0.0 filefortune.com
+0.0.0.0 fileget.plumbco.co.nz
 0.0.0.0 filehosting.infinityfreeapp.com
 0.0.0.0 filehubs.com
 0.0.0.0 fileinc.github.io
@@ -256540,6 +256543,7 @@
 0.0.0.0 garnolabar.tk
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
+0.0.0.0 garogradba.mk
 0.0.0.0 garoo.ulitron.ru
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garpeli.shop
@@ -463583,6 +463587,7 @@
 0.0.0.0 sdsglis.cfd
 0.0.0.0 sdshoptx.icu
 0.0.0.0 sdshoptx9.icu
+0.0.0.0 sdufkghdfshds.cfd
 0.0.0.0 sdvfbgre.blogspot.com
 0.0.0.0 sdvfdews.blogspot.com
 0.0.0.0 sdvfdews.blogspot.kr
@@ -495320,6 +495325,7 @@
 0.0.0.0 ww965.smartadserver.com
 0.0.0.0 wwa.ero-advertising.com
 0.0.0.0 wwa.hitbox.com
+0.0.0.0 wwalucircle.com
 0.0.0.0 wwaol.com
 0.0.0.0 wwatchcomusa.112.2o7.net
 0.0.0.0 wwb.hitbox.com
