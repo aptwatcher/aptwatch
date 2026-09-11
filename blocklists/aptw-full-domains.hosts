@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-11 06:04:24
-# Entries: 523718
+# Generated: 2026-09-11 06:35:00
+# Entries: 523719
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -500615,6 +500615,7 @@
 0.0.0.0 www.craftdcecor.shop
 0.0.0.0 www.craftoutlet.mom
 0.0.0.0 www.craftsmanshipmuseum.mom
+0.0.0.0 www.craftsparkdimensions.com
 0.0.0.0 www.craftsportswearpolska.pl
 0.0.0.0 www.crakmedia.com
 0.0.0.0 www.cranirumor.store
