@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-11 06:35:00
-# Entries: 523719
+# Generated: 2026-09-11 12:33:52
+# Entries: 523720
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -188024,7 +188024,6 @@
 0.0.0.0 coraliax.vercel.app
 0.0.0.0 corallz.com
 0.0.0.0 coralon.com
-0.0.0.0 coralpac.com
 0.0.0.0 coralvaulhaven.net
 0.0.0.0 coram.dedspac.ru
 0.0.0.0 coramoon.com
@@ -188654,7 +188653,6 @@
 0.0.0.0 cotaspremiadas.com.br
 0.0.0.0 cote.vadilops.ru
 0.0.0.0 coteaqui.planosparavc.com.br
-0.0.0.0 cotecsecuritygroup.com
 0.0.0.0 coted.vadilops.ru
 0.0.0.0 cotem-add.web.app
 0.0.0.0 cotes.vadilops.ru
@@ -259352,6 +259350,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -329245,7 +329244,6 @@
 0.0.0.0 leandrohenriq.github.io
 0.0.0.0 leandroserain.com.br
 0.0.0.0 leanldedyjerlogh-dot-millinium.ey.r.appspot.com
-0.0.0.0 leanmaestro.com
 0.0.0.0 leanmanagement.ro
 0.0.0.0 leanmobi.fusetracking.com
 0.0.0.0 leannethdam.buzz
@@ -393765,6 +393763,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -397923,6 +397922,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -510307,6 +510307,7 @@
 0.0.0.0 www.oix-ops-ne74.ax7tjc.cfd
 0.0.0.0 www.oix.com
 0.0.0.0 www.oixops-jbm3.p9bckp.sbs
+0.0.0.0 www.ojang.pe.kr
 0.0.0.0 www.ojdigibot.site
 0.0.0.0 www.ojolink.fr
 0.0.0.0 www.ojrq.net
