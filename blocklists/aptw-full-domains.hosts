@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-11 18:33:31
-# Entries: 523719
+# Generated: 2026-09-12 00:33:28
+# Entries: 523718
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -731,7 +731,6 @@
 0.0.0.0 02sales.redtrimnare.online
 0.0.0.0 02secure-billing.com
 0.0.0.0 02servaccnt04.ddns.net
-0.0.0.0 02teste.cc
 0.0.0.0 02yah001e0-y0mai11i-winver121-ios19.netlify.app
 0.0.0.0 02yhsds.pages.dev
 0.0.0.0 03-04-03-59t-93y5tt-1324992141.cos.ap-bangkok.myqcloud.com
@@ -121355,6 +121354,7 @@
 0.0.0.0 awareness.pln.co.id
 0.0.0.0 awareness28.wixsite.com
 0.0.0.0 awarenesscovert.com
+0.0.0.0 awarenessexhibition.com
 0.0.0.0 awarenesstech.122.2o7.net
 0.0.0.0 awareofthat.za.com
 0.0.0.0 awarialaptopa.pl
@@ -152278,7 +152278,6 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
-0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.cheksupdguest-parthers.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
@@ -259351,6 +259350,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -262010,6 +262010,7 @@
 0.0.0.0 glballogistics.com
 0.0.0.0 glbbaserv.ml
 0.0.0.0 glbe.co
+0.0.0.0 glbeletronica.com.br
 0.0.0.0 glbgcl.logsss.com
 0.0.0.0 glbhmjzsovkywfvhjqknuwiurkedfevhqbnm-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 glbticket.bio
@@ -282343,7 +282344,6 @@
 0.0.0.0 hip-cake-mink.glitch.me
 0.0.0.0 hip-concise-booklet.glitch.me
 0.0.0.0 hip-cottony-mountain.glitch.me
-0.0.0.0 hip-hop-comms.com
 0.0.0.0 hip-tangible-heaven.glitch.me
 0.0.0.0 hip.boletuso.ru
 0.0.0.0 hip.ulitron.ru
@@ -373441,6 +373441,7 @@
 0.0.0.0 mothermoonfathersun.org
 0.0.0.0 motherofpearlproductions.com
 0.0.0.0 mothersoftware.in
+0.0.0.0 mothertouch.ac.zw
 0.0.0.0 mothertouchgroup.org
 0.0.0.0 mothiaccag.online
 0.0.0.0 mothopogamelodge.co.za
@@ -373513,7 +373514,6 @@
 0.0.0.0 motoresrc.com
 0.0.0.0 motorfame.com
 0.0.0.0 motorfixx.digital
-0.0.0.0 motorhomecinema.com
 0.0.0.0 motoristas-shopee.com
 0.0.0.0 motoristo.ru
 0.0.0.0 motorl.oewabox.at
@@ -393764,6 +393764,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -408575,7 +408576,6 @@
 0.0.0.0 panel.hiddify.top
 0.0.0.0 panel.home.pl.muna.it
 0.0.0.0 panel.kaprila.com
-0.0.0.0 panel.mkk9991999912.observer
 0.0.0.0 panel.moat.com
 0.0.0.0 panel.ogspy.net
 0.0.0.0 panel.openbenchvehicle.org
@@ -523006,7 +523006,6 @@
 0.0.0.0 zetatrixu.site
 0.0.0.0 zetaunit.site
 0.0.0.0 zetauscope.site
-0.0.0.0 zetaval.metcalfphoto.com
 0.0.0.0 zetreview.com
 0.0.0.0 zettapetta.com
 0.0.0.0 zetyazilim.com
