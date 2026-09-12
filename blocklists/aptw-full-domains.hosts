@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-12 06:35:20
-# Entries: 523721
+# Generated: 2026-09-12 12:33:30
+# Entries: 523719
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -259352,7 +259352,6 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -463589,7 +463588,6 @@
 0.0.0.0 sdsglis.cfd
 0.0.0.0 sdshoptx.icu
 0.0.0.0 sdshoptx9.icu
-0.0.0.0 sdufkghdfshds.cfd
 0.0.0.0 sdvfbgre.blogspot.com
 0.0.0.0 sdvfdews.blogspot.com
 0.0.0.0 sdvfdews.blogspot.kr
@@ -469062,7 +469060,6 @@
 0.0.0.0 solar-core.site
 0.0.0.0 solar-metal-snickerdoodle.glitch.me
 0.0.0.0 solar-sale.shop
-0.0.0.0 solar-sanat.net
 0.0.0.0 solar.dedspac.ru
 0.0.0.0 solar.virosat.ru
 0.0.0.0 solarfacic.store
@@ -477679,6 +477676,7 @@
 0.0.0.0 techberlinquary-ai.com
 0.0.0.0 techberlinquarytrade.com
 0.0.0.0 techbrief.es
+0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techcruncln.com
