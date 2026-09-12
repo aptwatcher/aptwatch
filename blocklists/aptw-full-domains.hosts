@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-12 00:33:28
-# Entries: 523718
+# Generated: 2026-09-12 06:05:38
+# Entries: 523721
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -245248,6 +245248,7 @@
 0.0.0.0 firn.bortogat.ru
 0.0.0.0 firn.dedspac.ru
 0.0.0.0 firo-blockbook.twnodes.com
+0.0.0.0 firojkhan.com.np
 0.0.0.0 firqi.sbs
 0.0.0.0 firran.xyz
 0.0.0.0 firrectly.top
@@ -249938,6 +249939,7 @@
 0.0.0.0 fotoprimo.mom
 0.0.0.0 fotoproductinsta.com
 0.0.0.0 fotoschuppen.net
+0.0.0.0 fotosdepuebla.org
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
 0.0.0.0 fotoshop-instagram.b0tnet.com
@@ -296387,6 +296389,7 @@
 0.0.0.0 indonesiabantuandana.fjfu.my.id
 0.0.0.0 indonesiabasahviral2020.000webhostapp.com
 0.0.0.0 indonesiaorganik.id
+0.0.0.0 indonesias.me
 0.0.0.0 indongrupswadewasa.jdtfz.tk
 0.0.0.0 indoon14.tk
 0.0.0.0 indoplexxi.vin
@@ -373441,7 +373444,6 @@
 0.0.0.0 mothermoonfathersun.org
 0.0.0.0 motherofpearlproductions.com
 0.0.0.0 mothersoftware.in
-0.0.0.0 mothertouch.ac.zw
 0.0.0.0 mothertouchgroup.org
 0.0.0.0 mothiaccag.online
 0.0.0.0 mothopogamelodge.co.za
@@ -510307,6 +510309,7 @@
 0.0.0.0 www.oix-ops-ne74.ax7tjc.cfd
 0.0.0.0 www.oix.com
 0.0.0.0 www.oixops-jbm3.p9bckp.sbs
+0.0.0.0 www.ojang.pe.kr
 0.0.0.0 www.ojdigibot.site
 0.0.0.0 www.ojolink.fr
 0.0.0.0 www.ojrq.net
