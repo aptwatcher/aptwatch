@@ -152271,6 +152271,7 @@ booking.autodelivered.xyz
 booking.autoordered.xyz
 booking.autoorders.xyz
 booking.bookingverif2421.com
+booking.captcha-message-extranet.com
 booking.cheksupdguest-parthers.com
 booking.chlc3.com
 booking.clickers-safetidetaliz.info
@@ -249932,7 +249933,6 @@ fotoporcelanapanama.com
 fotoprimo.mom
 fotoproductinsta.com
 fotoschuppen.net
-fotosdepuebla.org
 fotoseiten.heimat.eu
 fotosface.info
 fotoshop-instagram.b0tnet.com
@@ -262004,7 +262004,6 @@ glb.adtechus.com
 glballogistics.com
 glbbaserv.ml
 glbe.co
-glbeletronica.com.br
 glbgcl.logsss.com
 glbhmjzsovkywfvhjqknuwiurkedfevhqbnm-dot-cryptic-now-290917.ey.r.appspot.com
 glbticket.bio
@@ -477669,7 +477668,6 @@ techbargins.com
 techberlinquary-ai.com
 techberlinquarytrade.com
 techbrief.es
-techbud.ro
 techbyalfaiz.github.io
 techbytegr.vercel.app
 techcruncln.com
@@ -478249,7 +478247,6 @@ tender-employees-375499.framer.app
 tendertest.com
 tendidanna.store
 tends.dedspac.ru
-tengfeidn.cn
 tengo.popunder.ru
 tenhazirnasiparislerinde.cloud
 tenia.dedspac.ru
@@ -510300,7 +510297,6 @@ www.oiudert.weebly.com
 www.oix-ops-ne74.ax7tjc.cfd
 www.oix.com
 www.oixops-jbm3.p9bckp.sbs
-www.ojang.pe.kr
 www.ojdigibot.site
 www.ojolink.fr
 www.ojrq.net

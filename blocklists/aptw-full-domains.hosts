@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-12 12:33:30
-# Entries: 523719
+# Generated: 2026-09-12 18:33:37
+# Entries: 523715
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -152278,6 +152278,7 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
+0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.cheksupdguest-parthers.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
@@ -249939,7 +249940,6 @@
 0.0.0.0 fotoprimo.mom
 0.0.0.0 fotoproductinsta.com
 0.0.0.0 fotoschuppen.net
-0.0.0.0 fotosdepuebla.org
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
 0.0.0.0 fotoshop-instagram.b0tnet.com
@@ -262011,7 +262011,6 @@
 0.0.0.0 glballogistics.com
 0.0.0.0 glbbaserv.ml
 0.0.0.0 glbe.co
-0.0.0.0 glbeletronica.com.br
 0.0.0.0 glbgcl.logsss.com
 0.0.0.0 glbhmjzsovkywfvhjqknuwiurkedfevhqbnm-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 glbticket.bio
@@ -477676,7 +477675,6 @@
 0.0.0.0 techberlinquary-ai.com
 0.0.0.0 techberlinquarytrade.com
 0.0.0.0 techbrief.es
-0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techcruncln.com
@@ -478256,7 +478254,6 @@
 0.0.0.0 tendertest.com
 0.0.0.0 tendidanna.store
 0.0.0.0 tends.dedspac.ru
-0.0.0.0 tengfeidn.cn
 0.0.0.0 tengo.popunder.ru
 0.0.0.0 tenhazirnasiparislerinde.cloud
 0.0.0.0 tenia.dedspac.ru
@@ -510307,7 +510304,6 @@
 0.0.0.0 www.oix-ops-ne74.ax7tjc.cfd
 0.0.0.0 www.oix.com
 0.0.0.0 www.oixops-jbm3.p9bckp.sbs
-0.0.0.0 www.ojang.pe.kr
 0.0.0.0 www.ojdigibot.site
 0.0.0.0 www.ojolink.fr
 0.0.0.0 www.ojrq.net
