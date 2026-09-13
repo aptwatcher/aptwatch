@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-13 06:35:08
+# Generated: 2026-09-13 12:36:41
 # Entries: 523713
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -48542,6 +48542,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -101936,6 +101937,7 @@
 0.0.0.0 asiacross.jp
 0.0.0.0 asiadiscoversolutions.azureedge.net
 0.0.0.0 asiaecobiz.com
+0.0.0.0 asiaengrs.com
 0.0.0.0 asiafoodco.com
 0.0.0.0 asiahost.eu.org
 0.0.0.0 asiainspection.122.2o7.net
@@ -119146,6 +119148,7 @@
 0.0.0.0 authservices.zeabur.app
 0.0.0.0 authsgconnect-b5dc3e.ingress-erytho.ewp.live
 0.0.0.0 authsgwebansinauth-af5153.ingress-daribow.easywp.com
+0.0.0.0 authshipup.net
 0.0.0.0 authsignonstaffdiuwtdjgnfekfisytmfgsjlewis27359.softr.app
 0.0.0.0 authsmsbofa78542.5gbfree.com
 0.0.0.0 authsmtp.ds-okovi.com
@@ -245242,7 +245245,6 @@
 0.0.0.0 firn.bortogat.ru
 0.0.0.0 firn.dedspac.ru
 0.0.0.0 firo-blockbook.twnodes.com
-0.0.0.0 firojkhan.com.np
 0.0.0.0 firqi.sbs
 0.0.0.0 firran.xyz
 0.0.0.0 firrectly.top
@@ -249638,6 +249640,7 @@
 0.0.0.0 forrestgamache.info
 0.0.0.0 forrodokomeketo.agenciainnova.com.br
 0.0.0.0 forsagegpt.com
+0.0.0.0 forsalenear.me
 0.0.0.0 forsan.nusratelsunnah.com
 0.0.0.0 forsaosseq.store
 0.0.0.0 forscript.midaschange.my.id
@@ -252304,7 +252307,6 @@
 0.0.0.0 friendsoflifechoices.org
 0.0.0.0 friendsofmelvinchigh.com
 0.0.0.0 friendsofryetownhall.org
-0.0.0.0 friendsofsclarc.org
 0.0.0.0 friendssteakhouse.com
 0.0.0.0 friendtest.us.intellitxt.com
 0.0.0.0 friendvote.xyz
@@ -259346,7 +259348,6 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -397919,6 +397920,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -469055,6 +469057,7 @@
 0.0.0.0 solar-core.site
 0.0.0.0 solar-metal-snickerdoodle.glitch.me
 0.0.0.0 solar-sale.shop
+0.0.0.0 solar-sanat.net
 0.0.0.0 solar.dedspac.ru
 0.0.0.0 solar.virosat.ru
 0.0.0.0 solarfacic.store
@@ -478249,7 +478252,6 @@
 0.0.0.0 tendertest.com
 0.0.0.0 tendidanna.store
 0.0.0.0 tends.dedspac.ru
-0.0.0.0 tengfeidn.cn
 0.0.0.0 tengo.popunder.ru
 0.0.0.0 tenhazirnasiparislerinde.cloud
 0.0.0.0 tenia.dedspac.ru
@@ -492340,7 +492342,6 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
-0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -510302,7 +510303,6 @@
 0.0.0.0 www.oix-ops-ne74.ax7tjc.cfd
 0.0.0.0 www.oix.com
 0.0.0.0 www.oixops-jbm3.p9bckp.sbs
-0.0.0.0 www.ojang.pe.kr
 0.0.0.0 www.ojdigibot.site
 0.0.0.0 www.ojolink.fr
 0.0.0.0 www.ojrq.net
