@@ -152268,7 +152268,6 @@ booking.autodelivered.xyz
 booking.autoordered.xyz
 booking.autoorders.xyz
 booking.bookingverif2421.com
-booking.captcha-message-extranet.com
 booking.cheksupdguest-parthers.com
 booking.chlc3.com
 booking.clickers-safetidetaliz.info
@@ -252298,6 +252297,7 @@ friendslawassociate.com
 friendsoflifechoices.org
 friendsofmelvinchigh.com
 friendsofryetownhall.org
+friendsofsclarc.org
 friendssteakhouse.com
 friendtest.us.intellitxt.com
 friendvote.xyz
@@ -259339,6 +259339,7 @@ gestmsmions.firebaseapp.com
 gestordepartes.com
 gestoriacampalans.com
 gestoriaenparaguay.com.py
+gestroom.it
 gests.virosat.ru
 gesundheit-zu-hause.com
 gesx.top
@@ -397911,7 +397912,6 @@ oilwykvrnr.duckdns.org
 oily.boletuso.ru
 oily.dedspac.ru
 oilymedication.cn
-oim.doganltd.com.tr
 oim.qjk.mybluehost.me
 oimg.nbcuni.com
 oimos.com.mx
@@ -459064,7 +459064,6 @@ safeurl-amazon-us.com
 safeurl-sharepoint-account-hvlaw.sohaibislamjoy.top
 safeurl.maxthon.cn
 safewalletconnect.net
-safewatertech.com
 safeway96e7e.weebly.com
 safewaysecurityscreens.com.au
 safewebgrowthnation.vercel.app
@@ -492334,6 +492333,7 @@ webcounter.cz
 webcounter.goweb.de
 webcounter.together.net
 webcryptoinfo.com
+webcstore.pw
 webctkkpn-3gla.vercel.app
 webdata.vidz.com
 webdatadata.pages.dev
@@ -510295,6 +510295,7 @@ www.oiudert.weebly.com
 www.oix-ops-ne74.ax7tjc.cfd
 www.oix.com
 www.oixops-jbm3.p9bckp.sbs
+www.ojang.pe.kr
 www.ojdigibot.site
 www.ojolink.fr
 www.ojrq.net
