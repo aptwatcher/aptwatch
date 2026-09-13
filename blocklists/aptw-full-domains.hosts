@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-12 18:33:37
-# Entries: 523715
+# Generated: 2026-09-13 00:33:33
+# Entries: 523712
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -57450,7 +57450,6 @@
 0.0.0.0 adoor.com.cy
 0.0.0.0 adop.asia
 0.0.0.0 adop.cc
-0.0.0.0 adopdf.shop
 0.0.0.0 adopen.az
 0.0.0.0 adophusltd.net62927453-uspoint3279.caribeltd.com
 0.0.0.0 adopsboost.com
@@ -89015,7 +89014,6 @@
 0.0.0.0 api.verify.mob.com
 0.0.0.0 api.verticalscope.com
 0.0.0.0 api.verynewsy.com
-0.0.0.0 api.vexxuhq.site
 0.0.0.0 api.vfibra.com.br
 0.0.0.0 api.videometrics.ted.com
 0.0.0.0 api.vidora.com
@@ -115770,7 +115768,6 @@
 0.0.0.0 aurasway.com
 0.0.0.0 auratus.xyz
 0.0.0.0 aurauae.ae
-0.0.0.0 auravibes04ko.shop
 0.0.0.0 aurawave-fh4inkence.tezeku.za.com
 0.0.0.0 auraxcore92.org
 0.0.0.0 aurban.thats-so-hip.com
@@ -212337,7 +212334,6 @@
 0.0.0.0 download.mclick.mobi
 0.0.0.0 download.pdf00.cn
 0.0.0.0 download.pdf00.com
-0.0.0.0 download.pocketbitcoindesktop.com
 0.0.0.0 download.realtimegaming.com
 0.0.0.0 download.sada-group.com
 0.0.0.0 download.securetnet.com
@@ -214698,7 +214694,6 @@
 0.0.0.0 dugal.dedspac.ru
 0.0.0.0 dugal.ulitron.ru
 0.0.0.0 dugan.virosat.ru
-0.0.0.0 dugovicova.sk
 0.0.0.0 dugqouxrljrgwkbjihjsqlxmyz-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 dugraal.com
 0.0.0.0 dugs.dedspac.ru
@@ -243900,7 +243895,6 @@
 0.0.0.0 fileee.s3.us-south.cloud-object-storage.appdomain.cloud
 0.0.0.0 filefilegogyuiuytyuy.gleeze.com
 0.0.0.0 filefortune.com
-0.0.0.0 fileget.plumbco.co.nz
 0.0.0.0 filehosting.infinityfreeapp.com
 0.0.0.0 filehubs.com
 0.0.0.0 fileinc.github.io
@@ -354536,6 +354530,7 @@
 0.0.0.0 massengernic-support.tk
 0.0.0.0 massextreme.pl
 0.0.0.0 massgrave.link
+0.0.0.0 massgravel.dev
 0.0.0.0 masshir.ru
 0.0.0.0 massiamimeite03.wixsite.com
 0.0.0.0 massibale.cu.ma
@@ -397923,6 +397918,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -403976,6 +403972,7 @@
 0.0.0.0 osrsvotedd-001-site1.atempurl.com
 0.0.0.0 osrzmefjyr.pqnsatfas.net
 0.0.0.0 oss-content.securestudies.com
+0.0.0.0 oss.cop.lat
 0.0.0.0 oss.sanwe.workers.dev
 0.0.0.0 ossadiva.com
 0.0.0.0 ossamazaidi.github.io
@@ -426571,7 +426568,6 @@
 0.0.0.0 productosdini.com.ar
 0.0.0.0 productosenlineaactivate.focodistribuidora.com.br
 0.0.0.0 productosenlineaactivatee.focodistribuidora.com.br
-0.0.0.0 productoslili.cl
 0.0.0.0 productosnano.com
 0.0.0.0 productphotodesigns.com
 0.0.0.0 productphotos.my.id
@@ -459075,6 +459071,7 @@
 0.0.0.0 safeurl-sharepoint-account-hvlaw.sohaibislamjoy.top
 0.0.0.0 safeurl.maxthon.cn
 0.0.0.0 safewalletconnect.net
+0.0.0.0 safewatertech.com
 0.0.0.0 safeway96e7e.weebly.com
 0.0.0.0 safewaysecurityscreens.com.au
 0.0.0.0 safewebgrowthnation.vercel.app
@@ -474459,7 +474456,6 @@
 0.0.0.0 summitfinancehub.com
 0.0.0.0 summitsicredidegovernanca.com.br
 0.0.0.0 summitwertgrove.org
-0.0.0.0 sumnitasinvestment.com
 0.0.0.0 sumo.ad
 0.0.0.0 sumo.com
 0.0.0.0 sumo.ulitron.ru
@@ -478254,6 +478250,7 @@
 0.0.0.0 tendertest.com
 0.0.0.0 tendidanna.store
 0.0.0.0 tends.dedspac.ru
+0.0.0.0 tengfeidn.cn
 0.0.0.0 tengo.popunder.ru
 0.0.0.0 tenhazirnasiparislerinde.cloud
 0.0.0.0 tenia.dedspac.ru
@@ -479882,6 +479879,7 @@
 0.0.0.0 tinylineq.vercel.app
 0.0.0.0 tinylink.eu
 0.0.0.0 tinytendency.com
+0.0.0.0 tinyurls.in
 0.0.0.0 tioga.dedspac.ru
 0.0.0.0 tiok.duckdns.org
 0.0.0.0 tiokmallshop.info
@@ -483073,7 +483071,6 @@
 0.0.0.0 tripe.dedspac.ru
 0.0.0.0 tripe.virosat.ru
 0.0.0.0 tripersonally.bibliota.ru
-0.0.0.0 tripfarely.com
 0.0.0.0 triphasil.1.p2l.info
 0.0.0.0 triphasil.3.p2l.info
 0.0.0.0 triphasil.4.p2l.info
@@ -483315,6 +483312,7 @@
 0.0.0.0 true-center-527250.framer.app
 0.0.0.0 true-counter.com
 0.0.0.0 true-date.eu
+0.0.0.0 true-soft.su
 0.0.0.0 true.ulitron.ru
 0.0.0.0 trueawsclicknetappread.hosted.phplist.com
 0.0.0.0 truebellcapital.com.au
@@ -488167,6 +488165,7 @@
 0.0.0.0 v7.cdn.onthe.io
 0.0.0.0 v7.viayonetici.com
 0.0.0.0 v7br2k.cfd
+0.0.0.0 v7yp4wts.fourstarcampground.com
 0.0.0.0 v8.365f05.com
 0.0.0.0 v8.analytics.pinsightmedia.com
 0.0.0.0 v82g2a.pzwoen.es
@@ -495322,7 +495321,6 @@
 0.0.0.0 ww965.smartadserver.com
 0.0.0.0 wwa.ero-advertising.com
 0.0.0.0 wwa.hitbox.com
-0.0.0.0 wwalucircle.com
 0.0.0.0 wwaol.com
 0.0.0.0 wwatchcomusa.112.2o7.net
 0.0.0.0 wwb.hitbox.com
@@ -523558,7 +523556,6 @@
 0.0.0.0 zumbarekcore.net
 0.0.0.0 zumerprosc.store
 0.0.0.0 zumodi.com
-0.0.0.0 zunimar.cl
 0.0.0.0 zunis.dedspac.ru
 0.0.0.0 zunis.virosat.ru
 0.0.0.0 zuntar.world
