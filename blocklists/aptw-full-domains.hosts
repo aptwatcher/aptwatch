@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-14 06:39:35
-# Entries: 522109
+# Generated: 2026-09-14 12:37:03
+# Entries: 522097
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -24660,6 +24660,7 @@
 0.0.0.0 4ebd0208-8328-5d69-8c44-ec50939c0967.slaxy.net
 0.0.0.0 4eblzrt1rhql0bsprc.53244ds.xyz
 0.0.0.0 4ecd2.z6.web.core.windows.net
+0.0.0.0 4eclient.com
 0.0.0.0 4ed0c23b.huaxinsbm.com
 0.0.0.0 4ed51712.cnhls.com.cn
 0.0.0.0 4ed760a1.adorn-insight.co.uk
@@ -48509,7 +48510,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -168944,6 +168944,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -207150,6 +207151,7 @@
 0.0.0.0 digitalinfocle.firebaseapp.com
 0.0.0.0 digitalink.hu
 0.0.0.0 digitalinsight.com.102.122.2o7.net
+0.0.0.0 digitalisonesapps.com
 0.0.0.0 digitalkarachi.pk
 0.0.0.0 digitallightingdesigners.com
 0.0.0.0 digitallog-security.com
@@ -259303,25 +259305,13 @@
 0.0.0.0 get-your-file.tiewbrothers.repl.co
 0.0.0.0 get-your-free-badge0.vercel.app
 0.0.0.0 get-your-free-verified-badge-nine.vercel.app
-0.0.0.0 get.acitvated.win
 0.0.0.0 get.acivated.win
-0.0.0.0 get.acrivated.win
-0.0.0.0 get.actiated.win
-0.0.0.0 get.activaed.win
 0.0.0.0 get.activatd.win
-0.0.0.0 get.activatedd.win
-0.0.0.0 get.activates.win
-0.0.0.0 get.activtaed.win
-0.0.0.0 get.activted.win
 0.0.0.0 get.acttivated.win
-0.0.0.0 get.actvated.win
 0.0.0.0 get.adolf.tv
 0.0.0.0 get.amaniwa.ru
 0.0.0.0 get.aquariuso.ru
-0.0.0.0 get.ativated.win
-0.0.0.0 get.cativated.win
 0.0.0.0 get.civicscience.com
-0.0.0.0 get.ctivated.win
 0.0.0.0 get.eventmidasbuys.com
 0.0.0.0 get.exchange-midasbuy.com
 0.0.0.0 get.fishado.ru
@@ -259339,7 +259329,6 @@
 0.0.0.0 get.pubgmobile.us
 0.0.0.0 get.s-onetag.com
 0.0.0.0 get.s11pubg.com
-0.0.0.0 get.sctivated.win
 0.0.0.0 get.successpath.ai
 0.0.0.0 get.tutoads.tv
 0.0.0.0 get.ulitron.ru
@@ -263544,7 +263533,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -287010,7 +286998,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -463008,6 +462995,7 @@
 0.0.0.0 sdsglis.cfd
 0.0.0.0 sdshoptx.icu
 0.0.0.0 sdshoptx9.icu
+0.0.0.0 sdufkghdfshds.cfd
 0.0.0.0 sdvfbgre.blogspot.com
 0.0.0.0 sdvfdews.blogspot.com
 0.0.0.0 sdvfdews.blogspot.kr
@@ -471629,6 +471617,7 @@
 0.0.0.0 stately-dolphin-ea950a.netlify.app
 0.0.0.0 statement-login-update-info.ga
 0.0.0.0 statement.amazingholidaycoupons.com
+0.0.0.0 statementreaderdownload.com
 0.0.0.0 statgw.devtodev.com
 0.0.0.0 static-addtoany-com.cdn.ampproject.org
 0.0.0.0 static-ads.zaloapp.com
@@ -494092,7 +494081,6 @@
 0.0.0.0 workers-income25-encrypserver38782821-agreement.scanlonchiro.com
 0.0.0.0 workers-playground-cold-violet-5b28.jusang425.workers.dev
 0.0.0.0 workers-playground-wandering-dew-9153.jusang425.workers.dev
-0.0.0.0 workerstats.net
 0.0.0.0 workflix.myfunnelish.com
 0.0.0.0 workflow-hotfix.jimpike.com.au
 0.0.0.0 workflow.alpha.jimpike.com.au
