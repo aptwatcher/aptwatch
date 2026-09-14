@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-14 00:36:18
-# Entries: 522084
+# Generated: 2026-09-14 06:08:52
+# Entries: 522109
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48509,6 +48509,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -259302,11 +259303,25 @@
 0.0.0.0 get-your-file.tiewbrothers.repl.co
 0.0.0.0 get-your-free-badge0.vercel.app
 0.0.0.0 get-your-free-verified-badge-nine.vercel.app
+0.0.0.0 get.acitvated.win
+0.0.0.0 get.acivated.win
+0.0.0.0 get.acrivated.win
+0.0.0.0 get.actiated.win
+0.0.0.0 get.activaed.win
+0.0.0.0 get.activatd.win
+0.0.0.0 get.activatedd.win
+0.0.0.0 get.activates.win
+0.0.0.0 get.activtaed.win
+0.0.0.0 get.activted.win
 0.0.0.0 get.acttivated.win
+0.0.0.0 get.actvated.win
 0.0.0.0 get.adolf.tv
 0.0.0.0 get.amaniwa.ru
 0.0.0.0 get.aquariuso.ru
+0.0.0.0 get.ativated.win
+0.0.0.0 get.cativated.win
 0.0.0.0 get.civicscience.com
+0.0.0.0 get.ctivated.win
 0.0.0.0 get.eventmidasbuys.com
 0.0.0.0 get.exchange-midasbuy.com
 0.0.0.0 get.fishado.ru
@@ -259324,6 +259339,7 @@
 0.0.0.0 get.pubgmobile.us
 0.0.0.0 get.s-onetag.com
 0.0.0.0 get.s11pubg.com
+0.0.0.0 get.sctivated.win
 0.0.0.0 get.successpath.ai
 0.0.0.0 get.tutoads.tv
 0.0.0.0 get.ulitron.ru
@@ -263528,6 +263544,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -286993,6 +287010,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -364124,6 +364142,7 @@
 0.0.0.0 meteor-meadow-petunia.glitch.me
 0.0.0.0 meteorologia.florianopolis.ifsc.edu.br
 0.0.0.0 meteorplyp.live
+0.0.0.0 meteorrejects.net
 0.0.0.0 meteost.com
 0.0.0.0 meter-svc.nytimes.com
 0.0.0.0 meter.virosat.ru
@@ -364631,6 +364650,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -397483,6 +397503,7 @@
 0.0.0.0 ojahdur-wellsfarg0verifi.vercel.app
 0.0.0.0 ojandcigs.com
 0.0.0.0 ojandmarc.com
+0.0.0.0 ojang.pe.kr
 0.0.0.0 ojasm777.github.io
 0.0.0.0 ojassinh.github.io
 0.0.0.0 ojavnlipnzxwzaix-dot-millinium.ey.r.appspot.com
@@ -477087,6 +477108,7 @@
 0.0.0.0 tectaconstrata.ru
 0.0.0.0 tectonic.net.in
 0.0.0.0 tecumcontr.store
+0.0.0.0 tecunonline.com
 0.0.0.0 ted.ulitron.ru
 0.0.0.0 teddygirls.cc
 0.0.0.0 teddyni.com
@@ -482581,6 +482603,7 @@
 0.0.0.0 troublesome-site.vercel.app
 0.0.0.0 troublesromeeaines.info
 0.0.0.0 trourted.pro
+0.0.0.0 trouserstreak.net
 0.0.0.0 trouta.site
 0.0.0.0 trouveunfilm.fr
 0.0.0.0 trov-meta-vink-biz.pages.dev
@@ -494069,6 +494092,7 @@
 0.0.0.0 workers-income25-encrypserver38782821-agreement.scanlonchiro.com
 0.0.0.0 workers-playground-cold-violet-5b28.jusang425.workers.dev
 0.0.0.0 workers-playground-wandering-dew-9153.jusang425.workers.dev
+0.0.0.0 workerstats.net
 0.0.0.0 workflix.myfunnelish.com
 0.0.0.0 workflow-hotfix.jimpike.com.au
 0.0.0.0 workflow.alpha.jimpike.com.au
@@ -503849,6 +503873,7 @@
 0.0.0.0 www.germirrestasps.info
 0.0.0.0 www.gernad.click
 0.0.0.0 www.gershop.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com
