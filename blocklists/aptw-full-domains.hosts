@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-14 12:37:03
-# Entries: 522097
+# Generated: 2026-09-14 18:36:36
+# Entries: 522128
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52192,6 +52192,7 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
+0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -53623,6 +53624,7 @@
 0.0.0.0 ad-feeds.com
 0.0.0.0 ad-flow.com
 0.0.0.0 ad-g.doubleclick.net
+0.0.0.0 ad-g.org
 0.0.0.0 ad-gbn.com
 0.0.0.0 ad-generator.net
 0.0.0.0 ad-hatena.com
@@ -83886,6 +83888,7 @@
 0.0.0.0 angebote.educadavinci.org
 0.0.0.0 angebotsendegesendet.de
 0.0.0.0 anged.pages.dev
+0.0.0.0 angefundsu.sbs
 0.0.0.0 angel.ulitron.ru
 0.0.0.0 angel.virosat.ru
 0.0.0.0 angel2101ang.000webhostapp.com
@@ -88989,6 +88992,7 @@
 0.0.0.0 api.stathat.com
 0.0.0.0 api.stats.appa.pe
 0.0.0.0 api.strugaservices.com
+0.0.0.0 api.stuseamandesilt.org
 0.0.0.0 api.subiz.com.vn
 0.0.0.0 api.subiz.net
 0.0.0.0 api.subiz.xyz
@@ -102667,7 +102671,6 @@
 0.0.0.0 aspprescfd.000webhostapp.com
 0.0.0.0 aspqfdmlvv.duckdns.org
 0.0.0.0 aspring.bluestacko.ru
-0.0.0.0 asprosport.es
 0.0.0.0 asps.dedspac.ru
 0.0.0.0 asps.receivepost.com
 0.0.0.0 asps.ulitron.ru
@@ -152249,6 +152252,7 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
+0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.cheksupdguest-parthers.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
@@ -153129,6 +153133,7 @@
 0.0.0.0 botboun-b5e400.ingress-erytho.ewp.live
 0.0.0.0 botbxvgdwf.duckdns.org
 0.0.0.0 botch.ulitron.ru
+0.0.0.0 botcheck-cf.top
 0.0.0.0 botcheckuser.auth-telegrams.ru
 0.0.0.0 botchy-analyst.000webhostapp.com
 0.0.0.0 botchy.dedspac.ru
@@ -169148,6 +169153,7 @@
 0.0.0.0 cdn.steepto.com
 0.0.0.0 cdn.stickyadstv.com
 0.0.0.0 cdn.stickyadstv.com.akadns.net
+0.0.0.0 cdn.stuseamandesilt.org
 0.0.0.0 cdn.sumry.me
 0.0.0.0 cdn.surfcountor.com
 0.0.0.0 cdn.syn.verticalacuity.com
@@ -169276,6 +169282,7 @@
 0.0.0.0 cdnauthsoft.com
 0.0.0.0 cdnaws.mobidea.com
 0.0.0.0 cdncodeuser10399.web.app
+0.0.0.0 cdncounter.net
 0.0.0.0 cdndownload.liehu.ijinshan.com
 0.0.0.0 cdne.cpmstar.com
 0.0.0.0 cdnegc.trafficfactory.biz
@@ -172577,6 +172584,7 @@
 0.0.0.0 chatgrupwhatsappviralnew.duckdns.org
 0.0.0.0 chatgrupwhattsapp12.000webhostapp.com
 0.0.0.0 chatgrupys1.duckdns.org
+0.0.0.0 chathamhouse.eu
 0.0.0.0 chathampto.org.usrfiles.com
 0.0.0.0 chathot-sex.duckdns.org
 0.0.0.0 chathot-wa.duckdns.org
@@ -207151,7 +207159,6 @@
 0.0.0.0 digitalinfocle.firebaseapp.com
 0.0.0.0 digitalink.hu
 0.0.0.0 digitalinsight.com.102.122.2o7.net
-0.0.0.0 digitalisonesapps.com
 0.0.0.0 digitalkarachi.pk
 0.0.0.0 digitallightingdesigners.com
 0.0.0.0 digitallog-security.com
@@ -210527,6 +210534,7 @@
 0.0.0.0 docs-upholld-wallet.pages.dev
 0.0.0.0 docs-view.online
 0.0.0.0 docs-viewer.online
+0.0.0.0 docs-viewer.org
 0.0.0.0 docs-waletconnectt.gitbook.io
 0.0.0.0 docs-web.online
 0.0.0.0 docs-wllets--ledger-cdn.webflow.io
@@ -259305,8 +259313,6 @@
 0.0.0.0 get-your-file.tiewbrothers.repl.co
 0.0.0.0 get-your-free-badge0.vercel.app
 0.0.0.0 get-your-free-verified-badge-nine.vercel.app
-0.0.0.0 get.acivated.win
-0.0.0.0 get.activatd.win
 0.0.0.0 get.acttivated.win
 0.0.0.0 get.adolf.tv
 0.0.0.0 get.amaniwa.ru
@@ -261743,6 +261749,7 @@
 0.0.0.0 glballogistics.com
 0.0.0.0 glbbaserv.ml
 0.0.0.0 glbe.co
+0.0.0.0 glbeletronica.com.br
 0.0.0.0 glbgcl.logsss.com
 0.0.0.0 glbhmjzsovkywfvhjqknuwiurkedfevhqbnm-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 glbticket.bio
@@ -286998,6 +287005,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -293664,6 +293672,7 @@
 0.0.0.0 images.e-mailcom.co.uk
 0.0.0.0 images.edgeads.org
 0.0.0.0 images.emb-api.com
+0.0.0.0 images.fishing-tools.cyou
 0.0.0.0 images.flygame.io
 0.0.0.0 images.hitwise.co.uk
 0.0.0.0 images.host.bannerflow.com
@@ -304250,6 +304259,7 @@
 0.0.0.0 iteam.com.ar
 0.0.0.0 itechgalaxysolutions.com
 0.0.0.0 itechsarl.com
+0.0.0.0 itechx.tel
 0.0.0.0 iteicloud.top
 0.0.0.0 itekconstruction.firstsightlovers.com
 0.0.0.0 itekimaging.ca
@@ -341655,6 +341665,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumarvexakiz.com
@@ -358148,7 +358159,9 @@
 0.0.0.0 meridia.3.p2l.info
 0.0.0.0 meridia.4.p2l.info
 0.0.0.0 meridiameridia.3xforum.ro
+0.0.0.0 meridian-protocol.org
 0.0.0.0 meridianbrandy.com
+0.0.0.0 meridiangroup-corp.com
 0.0.0.0 meridican.net
 0.0.0.0 merigift.com
 0.0.0.0 merihex.me
@@ -364776,6 +364789,7 @@
 0.0.0.0 metrics1.citi.com
 0.0.0.0 metrics1.citibankonline.com
 0.0.0.0 metricscollector.lp.xcal.tv
+0.0.0.0 metricwave.org
 0.0.0.0 metrika.site
 0.0.0.0 metrilo.com
 0.0.0.0 metrinf.rytinro.com
@@ -365703,6 +365717,7 @@
 0.0.0.0 mgqmklwmsmovzlne-dot-millinium.ey.r.appspot.com
 0.0.0.0 mgrbcvzspqsehwlq-dot-millinium.ey.r.appspot.com
 0.0.0.0 mgrjq.blogspot.li
+0.0.0.0 mgsend.org
 0.0.0.0 mgseugadkglfmdgl-dot-millinium.ey.r.appspot.com
 0.0.0.0 mgshouston.com
 0.0.0.0 mgsoftdist.com
@@ -374136,6 +374151,7 @@
 0.0.0.0 mslfgl434.pages.dev
 0.0.0.0 mslinks-downloads.com
 0.0.0.0 mslive008877.bankcajarural.com
+0.0.0.0 mslivetest.duckdns.org
 0.0.0.0 mslogin.online
 0.0.0.0 mslookupmicrosoft-44492902.hubspotpagebuilder.com
 0.0.0.0 msm-oweb-0-01516.grwebsite.eu
@@ -378778,6 +378794,8 @@
 0.0.0.0 mygpstrip.net
 0.0.0.0 mygracia.com
 0.0.0.0 mygreatessentials.shop
+0.0.0.0 mygreatmarket.com
+0.0.0.0 mygreatmarket.org
 0.0.0.0 mygreatrewards.com
 0.0.0.0 mygreenremedy.com
 0.0.0.0 mygrefutaxgocv.pages.dev
@@ -411980,6 +411998,7 @@
 0.0.0.0 pdfshare001.bitbucket.io
 0.0.0.0 pdfsorter-78c8a.web.app
 0.0.0.0 pdfverifysbgs.com
+0.0.0.0 pdfviewer2024.b-cdn.net
 0.0.0.0 pdfweb.net
 0.0.0.0 pdfyykuchg.duckdns.org
 0.0.0.0 pdgqanpyho.duckdns.org
@@ -420742,6 +420761,7 @@
 0.0.0.0 portal.myonlineservicesnow.co
 0.0.0.0 portal.nci.cu.edu.eg
 0.0.0.0 portal.negociebra.com.br
+0.0.0.0 portal.onepansol.site
 0.0.0.0 portal.openledgerhq.click
 0.0.0.0 portal.organiseit.workers.dev
 0.0.0.0 portal.outlookonlineportals.top
@@ -426735,6 +426755,7 @@
 0.0.0.0 projectnft-o.vercel.app
 0.0.0.0 projectnftclaim.firebaseapp.com
 0.0.0.0 projectnftpool.web.app
+0.0.0.0 projectnightcrawler.dev
 0.0.0.0 projectoffice1-9c63f.web.app
 0.0.0.0 projectorcentral.co.za
 0.0.0.0 projectorpeople.112.2o7.net
@@ -456368,6 +456389,8 @@
 0.0.0.0 russiamagazine.net
 0.0.0.0 russian-sex.com
 0.0.0.0 russianamericanballet.com
+0.0.0.0 russianearabroad.com
+0.0.0.0 russianearabroad.org
 0.0.0.0 russianlinesman.co.uk
 0.0.0.0 russiaparlament.click
 0.0.0.0 russic.website
@@ -469467,6 +469490,7 @@
 0.0.0.0 spnet5.i-mobile.co.jp
 0.0.0.0 spoasmascaasro.shop
 0.0.0.0 spoasmascaassk.shop
+0.0.0.0 spoasmascsalero.com
 0.0.0.0 spoasmotasa.com
 0.0.0.0 spoasmotasro.shop
 0.0.0.0 spoasmotsdro.shop
@@ -469899,6 +469923,7 @@
 0.0.0.0 srv.buysellads.com
 0.0.0.0 srv.carbonads.net
 0.0.0.0 srv.clickfuse.com
+0.0.0.0 srv.conti.pk
 0.0.0.0 srv.dc-1.net
 0.0.0.0 srv.imonomy.com
 0.0.0.0 srv.juiceadv.com
@@ -471630,6 +471655,7 @@
 0.0.0.0 static-downloads.com
 0.0.0.0 static-google-analtyic.com
 0.0.0.0 static-html-website--presidentoff97.replit.app
+0.0.0.0 static-ms.live
 0.0.0.0 static-promote.weebly.com
 0.0.0.0 static-rtb.adkernel.com
 0.0.0.0 static-ssl.mediav.com
@@ -471690,6 +471716,7 @@
 0.0.0.0 static.canalstat.com
 0.0.0.0 static.cdn.adblade.com
 0.0.0.0 static.cdn.responsys.net
+0.0.0.0 static.cdncounter.net
 0.0.0.0 static.cdnstoremedia.com
 0.0.0.0 static.chartbeat.com
 0.0.0.0 static.cleverpush.com
@@ -473385,6 +473412,7 @@
 0.0.0.0 sturgischasetheace.com
 0.0.0.0 sturk.dedspac.ru
 0.0.0.0 sturm.dedspac.ru
+0.0.0.0 stuseamandesilt.org
 0.0.0.0 stussypolska.com.pl
 0.0.0.0 stut.ulitron.ru
 0.0.0.0 stuti1116.github.io
@@ -475873,6 +475901,7 @@
 0.0.0.0 talk872363947.wixsite.com
 0.0.0.0 talk99.cn
 0.0.0.0 talkactive.mom
+0.0.0.0 talkandtypeapp.com
 0.0.0.0 talkatalkwizzy.weebly.com
 0.0.0.0 talkaxis.com
 0.0.0.0 talkbdjhbifqfo.weebly.com
@@ -476976,6 +477005,7 @@
 0.0.0.0 teams-vexarena.com
 0.0.0.0 teams-victoryhub.com
 0.0.0.0 teams.microsoft-en.live
+0.0.0.0 teams.ms365-live.com
 0.0.0.0 teamsc.org
 0.0.0.0 teamserv.jdevcloud.com
 0.0.0.0 teamsport-philipp.fr
@@ -482420,6 +482450,7 @@
 0.0.0.0 tripe.dedspac.ru
 0.0.0.0 tripe.virosat.ru
 0.0.0.0 tripersonally.bibliota.ru
+0.0.0.0 tripfarely.com
 0.0.0.0 triphasil.1.p2l.info
 0.0.0.0 triphasil.3.p2l.info
 0.0.0.0 triphasil.4.p2l.info
@@ -482592,7 +482623,6 @@
 0.0.0.0 troublesome-site.vercel.app
 0.0.0.0 troublesromeeaines.info
 0.0.0.0 trourted.pro
-0.0.0.0 trouserstreak.net
 0.0.0.0 trouta.site
 0.0.0.0 trouveunfilm.fr
 0.0.0.0 trov-meta-vink-biz.pages.dev
@@ -484233,6 +484263,7 @@
 0.0.0.0 ukrashulya.ru
 0.0.0.0 ukrbanner.net
 0.0.0.0 ukrguard.org
+0.0.0.0 ukrinform-share.net
 0.0.0.0 ukrlocalsystems.net
 0.0.0.0 ukrmailpost.net
 0.0.0.0 ukrnet.serveftp.com
@@ -485037,6 +485068,7 @@
 0.0.0.0 update.sdkbox.com
 0.0.0.0 update.stickyadstv.com
 0.0.0.0 update.studiokaspersky.com
+0.0.0.0 update.stuseamandesilt.org
 0.0.0.0 update.tas.yieldmo.com
 0.0.0.0 update.update-fall.com
 0.0.0.0 update.wo.gumgum.com
@@ -503861,7 +503893,6 @@
 0.0.0.0 www.germirrestasps.info
 0.0.0.0 www.gernad.click
 0.0.0.0 www.gershop.com
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com
