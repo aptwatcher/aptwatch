@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-15 12:37:24
-# Entries: 522153
+# Generated: 2026-09-15 18:37:14
+# Entries: 522152
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -168947,7 +168947,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -242990,6 +242989,7 @@
 0.0.0.0 fictionally.yazibo.ru
 0.0.0.0 fictionfate.com
 0.0.0.0 ficultol.com
+0.0.0.0 ficus.in
 0.0.0.0 ficus.ulitron.ru
 0.0.0.0 fid-eiity.qpon
 0.0.0.0 fid-elitpmcik.shop
@@ -287024,7 +287024,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -364669,6 +364668,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -477126,7 +477126,6 @@
 0.0.0.0 techspotcom.skimlinks.com
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
-0.0.0.0 techtattva.in
 0.0.0.0 techthinklab.net
 0.0.0.0 techvibeg.vercel.app
 0.0.0.0 techwald.serv00.net
@@ -495055,6 +495054,7 @@
 0.0.0.0 www.290826-site.newsingermany.com
 0.0.0.0 www.29p6pc9.pics
 0.0.0.0 www.2baners.ero-advertising.com
+0.0.0.0 www.2bxvrc1.com
 0.0.0.0 www.2c.jk8jie.casa
 0.0.0.0 www.2d68.kuriierpl.lol
 0.0.0.0 www.2d9p.ofsets.lat
@@ -503916,7 +503916,6 @@
 0.0.0.0 www.germirrestasps.info
 0.0.0.0 www.gernad.click
 0.0.0.0 www.gershop.com
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com
