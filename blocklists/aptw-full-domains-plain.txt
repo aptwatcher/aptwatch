@@ -52203,6 +52203,7 @@ acrobat-cloud-services.azurewebsites.net
 acrobat-cloud-storage.us-south.cf.appdomain.cloud
 acrobat-f9a9f.web.app
 acrobat-online-services.azurewebsites.net
+acrobat.proposal.name.ng
 acrobat.z13.web.core.windows.net
 acrobat00990-98888.000webhostapp.com
 acrobatportable.com
@@ -168942,7 +168943,6 @@ cdn.exactag.com
 cdn.exelator.com
 cdn.ezca.asia
 cdn.fastclick.net
-cdn.file6.goodid.com
 cdn.firstimpression.io
 cdn.firstlook.com
 cdn.fivecdm.com
@@ -187732,6 +187732,7 @@ copikew0f47c6c77b3f0bae87fcfd3effc235.dnsabr.com
 copilot-eal.pages.dev
 copimegatron.com
 copinyasociados.com.mx
+copiose.org
 copiran.space
 copis.ulitron.ru
 copis.vadilops.ru
@@ -207152,6 +207153,7 @@ digitalimages.tk
 digitalinfocle.firebaseapp.com
 digitalink.hu
 digitalinsight.com.102.122.2o7.net
+digitalisonesapps.com
 digitalkarachi.pk
 digitallightingdesigners.com
 digitallog-security.com
@@ -259306,11 +259308,25 @@ get-your-blue-badge.vercel.app
 get-your-file.tiewbrothers.repl.co
 get-your-free-badge0.vercel.app
 get-your-free-verified-badge-nine.vercel.app
+get.acitvated.win
+get.acivated.win
+get.acrivated.win
+get.actiated.win
+get.activaed.win
+get.activatd.win
+get.activatedd.win
+get.activates.win
+get.activtaed.win
+get.activted.win
 get.acttivated.win
+get.actvated.win
 get.adolf.tv
 get.amaniwa.ru
 get.aquariuso.ru
+get.ativated.win
+get.cativated.win
 get.civicscience.com
+get.ctivated.win
 get.eventmidasbuys.com
 get.exchange-midasbuy.com
 get.fishado.ru
@@ -259328,6 +259344,7 @@ get.optad360.io
 get.pubgmobile.us
 get.s-onetag.com
 get.s11pubg.com
+get.sctivated.win
 get.successpath.ai
 get.tutoads.tv
 get.ulitron.ru
@@ -276273,6 +276290,7 @@ hash.amaniwa.ru
 hash.boletuso.ru
 hash.dedspac.ru
 hashbind.tech
+hashedsolver.icu
 hashemitesadaats.com
 hashimova.com
 hashing.win
@@ -312750,6 +312768,7 @@ joke.joining.torvaldu.ru
 joke.torvaldu.ru
 joke.ulitron.ru
 joked.dedspac.ru
+jokely.icu
 joker-43l.pages.dev
 joker-amaz0n.onedumb.com
 joker-auto.pl
@@ -367928,6 +367947,7 @@ minosadarika.vercel.app
 minosfera.mom
 minpaid.space
 minpdf.xyz
+minpop.com
 minr.pw
 mins.eu5.net
 minshuwang.com
@@ -391121,6 +391141,7 @@ northernnevadapestcontrol.dcsgfddgdgauthreview.com
 northernrepairsables.com
 northernriverspestcontrol.com.au
 northernsafety-dot-exceldownloads.uk.r.appspot.com
+northernvirginiaeyeassociates.com
 northeus.digital
 northfacepolska.pl
 northfacewyprzedaz.org
@@ -397424,6 +397445,7 @@ oilwykvrnr.duckdns.org
 oily.boletuso.ru
 oily.dedspac.ru
 oilymedication.cn
+oim.doganltd.com.tr
 oim.qjk.mybluehost.me
 oimg.nbcuni.com
 oimos.com.mx
@@ -465973,6 +465995,7 @@ shrcnfgcfa.pages.dev
 shredform.com
 shredova.ru
 shreenath1696.github.io
+shreesaiseva.org
 shreeyadhawal.com
 shreeyash1204.github.io
 shrek.6.cn
@@ -482616,6 +482639,7 @@ troublesome-favsa.vercel.app
 troublesome-site.vercel.app
 troublesromeeaines.info
 trourted.pro
+trouserstreak.net
 trouta.site
 trouveunfilm.fr
 trov-meta-vink-biz.pages.dev
@@ -493732,6 +493756,7 @@ wiped.dedspac.ru
 wiper.dedspac.ru
 wipica-zibicu.info
 wir.amaniwa.ru
+wir.consultingics.com
 wir.ulitron.ru
 wiranilaiwan.net
 wird.ulitron.ru
@@ -494106,6 +494131,7 @@ worker73.advertnative.com
 workers-income25-encrypserver38782821-agreement.scanlonchiro.com
 workers-playground-cold-violet-5b28.jusang425.workers.dev
 workers-playground-wandering-dew-9153.jusang425.workers.dev
+workerstats.net
 workflix.myfunnelish.com
 workflow-hotfix.jimpike.com.au
 workflow.alpha.jimpike.com.au
@@ -505882,6 +505908,7 @@ www.kalyrox-ai.net
 www.kamabork.live
 www.kamatbrig.net
 www.kamienicawlesie.mom
+www.kammwv.cc
 www.kamotpromtiko24.today
 www.kamovextrade.com
 www.kancelariakufieta.pl

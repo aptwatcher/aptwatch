@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-14 18:36:36
-# Entries: 522128
+# Generated: 2026-09-15 00:36:35
+# Entries: 522155
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52210,6 +52210,7 @@
 0.0.0.0 acrobat-cloud-storage.us-south.cf.appdomain.cloud
 0.0.0.0 acrobat-f9a9f.web.app
 0.0.0.0 acrobat-online-services.azurewebsites.net
+0.0.0.0 acrobat.proposal.name.ng
 0.0.0.0 acrobat.z13.web.core.windows.net
 0.0.0.0 acrobat00990-98888.000webhostapp.com
 0.0.0.0 acrobatportable.com
@@ -168949,7 +168950,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -187739,6 +187739,7 @@
 0.0.0.0 copilot-eal.pages.dev
 0.0.0.0 copimegatron.com
 0.0.0.0 copinyasociados.com.mx
+0.0.0.0 copiose.org
 0.0.0.0 copiran.space
 0.0.0.0 copis.ulitron.ru
 0.0.0.0 copis.vadilops.ru
@@ -207159,6 +207160,7 @@
 0.0.0.0 digitalinfocle.firebaseapp.com
 0.0.0.0 digitalink.hu
 0.0.0.0 digitalinsight.com.102.122.2o7.net
+0.0.0.0 digitalisonesapps.com
 0.0.0.0 digitalkarachi.pk
 0.0.0.0 digitallightingdesigners.com
 0.0.0.0 digitallog-security.com
@@ -259313,11 +259315,25 @@
 0.0.0.0 get-your-file.tiewbrothers.repl.co
 0.0.0.0 get-your-free-badge0.vercel.app
 0.0.0.0 get-your-free-verified-badge-nine.vercel.app
+0.0.0.0 get.acitvated.win
+0.0.0.0 get.acivated.win
+0.0.0.0 get.acrivated.win
+0.0.0.0 get.actiated.win
+0.0.0.0 get.activaed.win
+0.0.0.0 get.activatd.win
+0.0.0.0 get.activatedd.win
+0.0.0.0 get.activates.win
+0.0.0.0 get.activtaed.win
+0.0.0.0 get.activted.win
 0.0.0.0 get.acttivated.win
+0.0.0.0 get.actvated.win
 0.0.0.0 get.adolf.tv
 0.0.0.0 get.amaniwa.ru
 0.0.0.0 get.aquariuso.ru
+0.0.0.0 get.ativated.win
+0.0.0.0 get.cativated.win
 0.0.0.0 get.civicscience.com
+0.0.0.0 get.ctivated.win
 0.0.0.0 get.eventmidasbuys.com
 0.0.0.0 get.exchange-midasbuy.com
 0.0.0.0 get.fishado.ru
@@ -259335,6 +259351,7 @@
 0.0.0.0 get.pubgmobile.us
 0.0.0.0 get.s-onetag.com
 0.0.0.0 get.s11pubg.com
+0.0.0.0 get.sctivated.win
 0.0.0.0 get.successpath.ai
 0.0.0.0 get.tutoads.tv
 0.0.0.0 get.ulitron.ru
@@ -276280,6 +276297,7 @@
 0.0.0.0 hash.boletuso.ru
 0.0.0.0 hash.dedspac.ru
 0.0.0.0 hashbind.tech
+0.0.0.0 hashedsolver.icu
 0.0.0.0 hashemitesadaats.com
 0.0.0.0 hashimova.com
 0.0.0.0 hashing.win
@@ -312757,6 +312775,7 @@
 0.0.0.0 joke.torvaldu.ru
 0.0.0.0 joke.ulitron.ru
 0.0.0.0 joked.dedspac.ru
+0.0.0.0 jokely.icu
 0.0.0.0 joker-43l.pages.dev
 0.0.0.0 joker-amaz0n.onedumb.com
 0.0.0.0 joker-auto.pl
@@ -367935,6 +367954,7 @@
 0.0.0.0 minosfera.mom
 0.0.0.0 minpaid.space
 0.0.0.0 minpdf.xyz
+0.0.0.0 minpop.com
 0.0.0.0 minr.pw
 0.0.0.0 mins.eu5.net
 0.0.0.0 minshuwang.com
@@ -391128,6 +391148,7 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
+0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northeus.digital
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
@@ -397431,6 +397452,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -465980,6 +466002,7 @@
 0.0.0.0 shredform.com
 0.0.0.0 shredova.ru
 0.0.0.0 shreenath1696.github.io
+0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
@@ -482623,6 +482646,7 @@
 0.0.0.0 troublesome-site.vercel.app
 0.0.0.0 troublesromeeaines.info
 0.0.0.0 trourted.pro
+0.0.0.0 trouserstreak.net
 0.0.0.0 trouta.site
 0.0.0.0 trouveunfilm.fr
 0.0.0.0 trov-meta-vink-biz.pages.dev
@@ -493739,6 +493763,7 @@
 0.0.0.0 wiper.dedspac.ru
 0.0.0.0 wipica-zibicu.info
 0.0.0.0 wir.amaniwa.ru
+0.0.0.0 wir.consultingics.com
 0.0.0.0 wir.ulitron.ru
 0.0.0.0 wiranilaiwan.net
 0.0.0.0 wird.ulitron.ru
@@ -494113,6 +494138,7 @@
 0.0.0.0 workers-income25-encrypserver38782821-agreement.scanlonchiro.com
 0.0.0.0 workers-playground-cold-violet-5b28.jusang425.workers.dev
 0.0.0.0 workers-playground-wandering-dew-9153.jusang425.workers.dev
+0.0.0.0 workerstats.net
 0.0.0.0 workflix.myfunnelish.com
 0.0.0.0 workflow-hotfix.jimpike.com.au
 0.0.0.0 workflow.alpha.jimpike.com.au
@@ -505889,6 +505915,7 @@
 0.0.0.0 www.kamabork.live
 0.0.0.0 www.kamatbrig.net
 0.0.0.0 www.kamienicawlesie.mom
+0.0.0.0 www.kammwv.cc
 0.0.0.0 www.kamotpromtiko24.today
 0.0.0.0 www.kamovextrade.com
 0.0.0.0 www.kancelariakufieta.pl
