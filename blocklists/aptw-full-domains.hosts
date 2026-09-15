@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-15 00:36:35
-# Entries: 522155
+# Generated: 2026-09-15 06:08:44
+# Entries: 522152
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -24660,7 +24660,6 @@
 0.0.0.0 4ebd0208-8328-5d69-8c44-ec50939c0967.slaxy.net
 0.0.0.0 4eblzrt1rhql0bsprc.53244ds.xyz
 0.0.0.0 4ecd2.z6.web.core.windows.net
-0.0.0.0 4eclient.com
 0.0.0.0 4ed0c23b.huaxinsbm.com
 0.0.0.0 4ed51712.cnhls.com.cn
 0.0.0.0 4ed760a1.adorn-insight.co.uk
@@ -168950,6 +168949,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -261766,7 +261766,6 @@
 0.0.0.0 glballogistics.com
 0.0.0.0 glbbaserv.ml
 0.0.0.0 glbe.co
-0.0.0.0 glbeletronica.com.br
 0.0.0.0 glbgcl.logsss.com
 0.0.0.0 glbhmjzsovkywfvhjqknuwiurkedfevhqbnm-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 glbticket.bio
@@ -351939,6 +351938,7 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
+0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarria5daleeeee.000webhostapp.com
@@ -391148,7 +391148,6 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
-0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northeus.digital
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
@@ -397452,7 +397451,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -427639,6 +427637,7 @@
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
 0.0.0.0 prothepito.shop
+0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -463040,7 +463039,6 @@
 0.0.0.0 sdsglis.cfd
 0.0.0.0 sdshoptx.icu
 0.0.0.0 sdshoptx9.icu
-0.0.0.0 sdufkghdfshds.cfd
 0.0.0.0 sdvfbgre.blogspot.com
 0.0.0.0 sdvfdews.blogspot.com
 0.0.0.0 sdvfdews.blogspot.kr
@@ -466002,7 +466000,6 @@
 0.0.0.0 shredform.com
 0.0.0.0 shredova.ru
 0.0.0.0 shreenath1696.github.io
-0.0.0.0 shreesaiseva.org
 0.0.0.0 shreeyadhawal.com
 0.0.0.0 shreeyash1204.github.io
 0.0.0.0 shrek.6.cn
