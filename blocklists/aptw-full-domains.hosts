@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-15 06:39:22
-# Entries: 522158
+# Generated: 2026-09-15 12:37:24
+# Entries: 522153
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52191,7 +52191,6 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
-0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -152252,7 +152251,6 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
-0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.cheksupdguest-parthers.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
@@ -209963,6 +209961,7 @@
 0.0.0.0 dnsskills.com
 0.0.0.0 dnstb-backend.herokuapp.com
 0.0.0.0 dnsutg6e8u.3571.gencmert.com
+0.0.0.0 dnswwt.club
 0.0.0.0 dntacademy.org
 0.0.0.0 dntdc.blogspot.am
 0.0.0.0 dnthclakcghfdoqjoeytdvbner-dot-gleowayel400503.uc.r.appspot.com
@@ -259320,13 +259319,10 @@
 0.0.0.0 get.acivated.win
 0.0.0.0 get.acrivated.win
 0.0.0.0 get.actiated.win
-0.0.0.0 get.actiavted.win
 0.0.0.0 get.activaed.win
 0.0.0.0 get.activatd.win
-0.0.0.0 get.activatde.win
 0.0.0.0 get.activatedd.win
 0.0.0.0 get.activates.win
-0.0.0.0 get.activeted.win
 0.0.0.0 get.activtaed.win
 0.0.0.0 get.activted.win
 0.0.0.0 get.actrivated.win
@@ -259335,7 +259331,6 @@
 0.0.0.0 get.adolf.tv
 0.0.0.0 get.amaniwa.ru
 0.0.0.0 get.aquariuso.ru
-0.0.0.0 get.atcivated.win
 0.0.0.0 get.ativated.win
 0.0.0.0 get.cativated.win
 0.0.0.0 get.civicscience.com
@@ -261772,6 +261767,7 @@
 0.0.0.0 glballogistics.com
 0.0.0.0 glbbaserv.ml
 0.0.0.0 glbe.co
+0.0.0.0 glbeletronica.com.br
 0.0.0.0 glbgcl.logsss.com
 0.0.0.0 glbhmjzsovkywfvhjqknuwiurkedfevhqbnm-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 glbticket.bio
@@ -341689,7 +341685,6 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
-0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumarvexakiz.com
@@ -351944,7 +351939,6 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
-0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarria5daleeeee.000webhostapp.com
@@ -364675,7 +364669,6 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
-0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -427643,7 +427636,6 @@
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
 0.0.0.0 prothepito.shop
-0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -463045,6 +463037,7 @@
 0.0.0.0 sdsglis.cfd
 0.0.0.0 sdshoptx.icu
 0.0.0.0 sdshoptx9.icu
+0.0.0.0 sdufkghdfshds.cfd
 0.0.0.0 sdvfbgre.blogspot.com
 0.0.0.0 sdvfdews.blogspot.com
 0.0.0.0 sdvfdews.blogspot.kr
@@ -477133,6 +477126,7 @@
 0.0.0.0 techspotcom.skimlinks.com
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
+0.0.0.0 techtattva.in
 0.0.0.0 techthinklab.net
 0.0.0.0 techvibeg.vercel.app
 0.0.0.0 techwald.serv00.net
@@ -503922,6 +503916,7 @@
 0.0.0.0 www.germirrestasps.info
 0.0.0.0 www.gernad.click
 0.0.0.0 www.gershop.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com
