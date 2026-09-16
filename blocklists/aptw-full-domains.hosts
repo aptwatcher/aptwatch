@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-16 06:40:27
-# Entries: 522195
+# Generated: 2026-09-16 12:37:41
+# Entries: 522181
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -11376,7 +11376,6 @@
 0.0.0.0 198-254-589-1-2.shop
 0.0.0.0 198-48-61-87.static.as40244.net
 0.0.0.0 198-83serve.com
-0.0.0.0 198-macros.com
 0.0.0.0 198.12.120.207
 0.0.0.0 198.12.121.85
 0.0.0.0 198.12.159.62
@@ -65110,7 +65109,6 @@
 0.0.0.0 ahshsjsnsbs.duckdns.org
 0.0.0.0 ahsje.000webhostapp.com
 0.0.0.0 ahsmocks.com
-0.0.0.0 ahsniper.com
 0.0.0.0 ahsop.com
 0.0.0.0 ahsptwsrvfbruxxhusopcscatn-dot-gle39404049.rj.r.appspot.com
 0.0.0.0 ahsschool.com
@@ -147752,6 +147750,7 @@
 0.0.0.0 blisspoint.us-west-2.stinger-ad.bidr.io
 0.0.0.0 blisstree.us.intellitxt.com
 0.0.0.0 blister.matsuro.ru
+0.0.0.0 blit.co.za
 0.0.0.0 blitarcab.dindik.jatimprov.go.id
 0.0.0.0 blites.matsuro.ru
 0.0.0.0 blitexa.site
@@ -155120,7 +155119,6 @@
 0.0.0.0 breeze-worker-dark-ca9c.c1-oudost-orage.workers.dev
 0.0.0.0 breeze.virosat.ru
 0.0.0.0 breezeartcreatives.com
-0.0.0.0 breezeclient.com
 0.0.0.0 breezeline-100662.weeblysite.com
 0.0.0.0 breezeline-103237.weeblysite.com
 0.0.0.0 breezenvironmental.com
@@ -173405,7 +173403,6 @@
 0.0.0.0 cheesitra.ru
 0.0.0.0 cheesy.dedspac.ru
 0.0.0.0 cheesy.virosat.ru
-0.0.0.0 cheetoclient.com
 0.0.0.0 cheetoo.com
 0.0.0.0 cheezyhead.cf
 0.0.0.0 chef.bortogat.ru
@@ -199556,7 +199553,6 @@
 0.0.0.0 debug.virosat.ru
 0.0.0.0 debug1.rohrle-com.workers.dev
 0.0.0.0 debugchain.pages.dev
-0.0.0.0 debugify.net
 0.0.0.0 debugsyncs.pages.dev
 0.0.0.0 debugticket.vercel.app
 0.0.0.0 debugxchain.pages.dev
@@ -211704,7 +211700,6 @@
 0.0.0.0 dontworry52.000webhostapp.com
 0.0.0.0 donum.ulitron.ru
 0.0.0.0 donut.dedspac.ru
-0.0.0.0 donutclients.net
 0.0.0.0 donutecocolate.com
 0.0.0.0 donval.112.2o7.net
 0.0.0.0 donweeseinc.com
@@ -214651,7 +214646,6 @@
 0.0.0.0 dulich.goasiatravel.com
 0.0.0.0 dulichduchung.vn
 0.0.0.0 dulichthangloi.com
-0.0.0.0 dulkir-mod.com
 0.0.0.0 dull-brazen-busby.glitch.me
 0.0.0.0 dull-communicate.gq
 0.0.0.0 dull.amaniwa.ru
@@ -236482,7 +236476,6 @@
 0.0.0.0 family76.perfect.saturapa.ru
 0.0.0.0 family87.masshir.ru
 0.0.0.0 familyabroad.net
-0.0.0.0 familyaddons.com
 0.0.0.0 familyfamily.co
 0.0.0.0 familyfirstfinancial.top
 0.0.0.0 familyfirstkentucky.com
@@ -247752,7 +247745,6 @@
 0.0.0.0 flop.ulitron.ru
 0.0.0.0 floperwev.net
 0.0.0.0 flophaus.wixsite.com.usrfiles.com
-0.0.0.0 floppaclient.com
 0.0.0.0 floppier-bends.000webhostapp.com
 0.0.0.0 floppyvitreous.com
 0.0.0.0 flopseptum.com
@@ -248815,6 +248807,7 @@
 0.0.0.0 fongretreat.live
 0.0.0.0 fonhnzlvatkkullucbbvljvxei-dot-gleow2021ja.ue.r.appspot.com
 0.0.0.0 foniart.live
+0.0.0.0 fonij.cm
 0.0.0.0 fonitel.com.br
 0.0.0.0 fonixpizza.no
 0.0.0.0 fonohouse.com.br
@@ -253376,7 +253369,6 @@
 0.0.0.0 funnydoggifts.com
 0.0.0.0 funnyfikrers.icu
 0.0.0.0 funnyguy3.github.io
-0.0.0.0 funnymap.net
 0.0.0.0 funnymemersz.000webhostapp.com
 0.0.0.0 funnymems.com
 0.0.0.0 funnymoments43454.000webhostapp.com
@@ -256900,6 +256892,7 @@
 0.0.0.0 gbomeptrwlroyfvo-dot-millinium.ey.r.appspot.com
 0.0.0.0 gbon.it
 0.0.0.0 gboqsjortfonwtqj-dot-millinium.ey.r.appspot.com
+0.0.0.0 gboutros.howto.rocks
 0.0.0.0 gbp.ebayadvertising.triadretail.net
 0.0.0.0 gbp.pages.dev
 0.0.0.0 gbpostage-tracknow.com
@@ -260451,7 +260444,6 @@
 0.0.0.0 ghoshdivyanshu.github.io
 0.0.0.0 ghost-hunter742.github.io
 0.0.0.0 ghost.virosat.ru
-0.0.0.0 ghostclient.net
 0.0.0.0 ghostclown.000webhostapp.com
 0.0.0.0 ghostcrtv.com
 0.0.0.0 ghostcustomz.life
@@ -261787,6 +261779,7 @@
 0.0.0.0 glballogistics.com
 0.0.0.0 glbbaserv.ml
 0.0.0.0 glbe.co
+0.0.0.0 glbeletronica.com.br
 0.0.0.0 glbgcl.logsss.com
 0.0.0.0 glbhmjzsovkywfvhjqknuwiurkedfevhqbnm-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 glbticket.bio
@@ -287043,6 +287036,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -301837,7 +301831,6 @@
 0.0.0.0 invitwa-2021.duckdns.org
 0.0.0.0 invixp.me
 0.0.0.0 invk-cace.elovngeeignlnyn.workers.dev
-0.0.0.0 invmove.com
 0.0.0.0 invoca.net
 0.0.0.0 invocacdn.com
 0.0.0.0 invodi12.com
@@ -323308,7 +323301,6 @@
 0.0.0.0 kryptocom-logon.gitbook.io
 0.0.0.0 kryptoconnect-support.com
 0.0.0.0 kryptomoney.000webhostapp.com
-0.0.0.0 kryptonclient-cracked.com
 0.0.0.0 kryptonmedia.click
 0.0.0.0 kryptono.exchange
 0.0.0.0 kryptonos.ru
@@ -341786,7 +341778,6 @@
 0.0.0.0 luminae.fr
 0.0.0.0 luminarte24.pl
 0.0.0.0 luminatti.com
-0.0.0.0 luminexclient.com
 0.0.0.0 lumingsijlbeachresort.com
 0.0.0.0 luminiferous-ticks.000webhostapp.com
 0.0.0.0 luminimap.site
@@ -353570,7 +353561,6 @@
 0.0.0.0 marlosalvador.adv.br
 0.0.0.0 marlots.com
 0.0.0.0 marlow.bluestaging.com
-0.0.0.0 marlowclient.com
 0.0.0.0 marlowehouse.com
 0.0.0.0 marlowpillow.sjv.io
 0.0.0.0 marls.dedspac.ru
@@ -371460,7 +371450,6 @@
 0.0.0.0 modesuites.com
 0.0.0.0 modflix.xyz
 0.0.0.0 modhbrahmasamaj.org
-0.0.0.0 modhider.com
 0.0.0.0 modificationsdesappels.weebly.com
 0.0.0.0 modified-argon-286212.ey.r.appspot.com
 0.0.0.0 modified-daniel-complaint-copper.trycloudflare.com
@@ -425074,7 +425063,6 @@
 0.0.0.0 prince98.pistonso.ru
 0.0.0.0 prince99.pistonso.ru
 0.0.0.0 princebyte.github.io
-0.0.0.0 princegenesis.com
 0.0.0.0 princehallgear.com
 0.0.0.0 princehotelhaiti.com
 0.0.0.0 princemalvi01.github.io
@@ -451450,7 +451438,6 @@
 0.0.0.0 riversportokc-dot-t6yq5rw.rj.r.appspot.com
 0.0.0.0 rivertownadvisors.com
 0.0.0.0 rivertownrealty.top
-0.0.0.0 rivertree.church
 0.0.0.0 rivervievvschools.duckdns.org
 0.0.0.0 riverwestmeetings.com
 0.0.0.0 riverwool.ru
@@ -466599,6 +466586,7 @@
 0.0.0.0 sirdexs.com
 0.0.0.0 sire.ulitron.ru
 0.0.0.0 siree.dedspac.ru
+0.0.0.0 sirenasultana.com
 0.0.0.0 siri008.github.io
 0.0.0.0 sirinagunoori.github.io
 0.0.0.0 siriopatrimivo.net
@@ -484890,7 +484878,6 @@
 0.0.0.0 unneutrally.amaniwa.ru
 0.0.0.0 unneutrally.timanar.ru
 0.0.0.0 uno-play.online
-0.0.0.0 uno-play.xyz
 0.0.0.0 unode.dedspac.ru
 0.0.0.0 unodieuxconnard.fr
 0.0.0.0 unona.dedspac.ru
@@ -491785,7 +491772,6 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
-0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -498447,6 +498433,7 @@
 0.0.0.0 www.bluecollarparanormal.com
 0.0.0.0 www.bluecrabhosting.co.uk
 0.0.0.0 www.bluediamondoffers.com
+0.0.0.0 www.bluehorizons.travel
 0.0.0.0 www.bluemountain1.com
 0.0.0.0 www.bluemountain2.com
 0.0.0.0 www.bluenesqqses.info
@@ -503956,7 +503943,6 @@
 0.0.0.0 www.germirrestasps.info
 0.0.0.0 www.gernad.click
 0.0.0.0 www.gershop.com
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com
