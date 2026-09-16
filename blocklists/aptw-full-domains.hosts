@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-16 12:37:41
-# Entries: 522181
+# Generated: 2026-09-16 18:37:00
+# Entries: 522183
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -74969,6 +74969,7 @@
 0.0.0.0 amaaamzzon.xyz
 0.0.0.0 amaaazonms.temp.swtest.ru
 0.0.0.0 amaabrokwah.atozgroup.ir
+0.0.0.0 amaamn.com
 0.0.0.0 amaamxsnsnsmmaamnsmanssnasssnansmansmamanssnn.ubpages.com
 0.0.0.0 amaankhanak.github.io
 0.0.0.0 amaanlaghari1.github.io
@@ -178602,6 +178603,7 @@
 0.0.0.0 cloud-share-d646.iiflsaippnneo.workers.dev
 0.0.0.0 cloud-shared-preview.pre-signen.workers.dev
 0.0.0.0 cloud-sharepolnt.com
+0.0.0.0 cloud-sharing.com
 0.0.0.0 cloud-space-auth-service.web.app
 0.0.0.0 cloud-sso-trezr-web.typedream.app
 0.0.0.0 cloud-storage.files-recruitments.workers.dev
@@ -230041,6 +230043,7 @@
 0.0.0.0 explorepro.org
 0.0.0.0 explorer.btgofficial.org
 0.0.0.0 explorer.production.qldvvmc.com.au
+0.0.0.0 explorer.vg
 0.0.0.0 explorersholidays.com
 0.0.0.0 explorertechnembe.cu.ma
 0.0.0.0 explorethenationnowbb.pages.dev
@@ -248807,7 +248810,6 @@
 0.0.0.0 fongretreat.live
 0.0.0.0 fonhnzlvatkkullucbbvljvxei-dot-gleow2021ja.ue.r.appspot.com
 0.0.0.0 foniart.live
-0.0.0.0 fonij.cm
 0.0.0.0 fonitel.com.br
 0.0.0.0 fonixpizza.no
 0.0.0.0 fonohouse.com.br
@@ -265825,6 +265827,7 @@
 0.0.0.0 gpsbuscar.com
 0.0.0.0 gpsdronepro.com
 0.0.0.0 gpsllc.net
+0.0.0.0 gpsmarocpro.com
 0.0.0.0 gpsvotobyt.com
 0.0.0.0 gpswami.org
 0.0.0.0 gpszntvzvuefwurz-dot-millinium.ey.r.appspot.com
@@ -364686,7 +364689,6 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
-0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -397545,7 +397547,6 @@
 0.0.0.0 ojahdur-wellsfarg0verifi.vercel.app
 0.0.0.0 ojandcigs.com
 0.0.0.0 ojandmarc.com
-0.0.0.0 ojang.pe.kr
 0.0.0.0 ojasm777.github.io
 0.0.0.0 ojassinh.github.io
 0.0.0.0 ojavnlipnzxwzaix-dot-millinium.ey.r.appspot.com
@@ -463056,7 +463057,6 @@
 0.0.0.0 sdsglis.cfd
 0.0.0.0 sdshoptx.icu
 0.0.0.0 sdshoptx9.icu
-0.0.0.0 sdufkghdfshds.cfd
 0.0.0.0 sdvfbgre.blogspot.com
 0.0.0.0 sdvfdews.blogspot.com
 0.0.0.0 sdvfdews.blogspot.kr
@@ -477149,6 +477149,7 @@
 0.0.0.0 techspotcom.skimlinks.com
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
+0.0.0.0 techtattva.in
 0.0.0.0 techthinklab.net
 0.0.0.0 techvibeg.vercel.app
 0.0.0.0 techwald.serv00.net
@@ -503943,6 +503944,7 @@
 0.0.0.0 www.germirrestasps.info
 0.0.0.0 www.gernad.click
 0.0.0.0 www.gershop.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com
