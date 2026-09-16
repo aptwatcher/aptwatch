@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-15 18:37:14
-# Entries: 522152
+# Generated: 2026-09-16 00:36:28
+# Entries: 522181
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -24660,6 +24660,7 @@
 0.0.0.0 4ebd0208-8328-5d69-8c44-ec50939c0967.slaxy.net
 0.0.0.0 4eblzrt1rhql0bsprc.53244ds.xyz
 0.0.0.0 4ecd2.z6.web.core.windows.net
+0.0.0.0 4eclient.com
 0.0.0.0 4ed0c23b.huaxinsbm.com
 0.0.0.0 4ed51712.cnhls.com.cn
 0.0.0.0 4ed760a1.adorn-insight.co.uk
@@ -168947,6 +168948,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -195977,6 +195979,7 @@
 0.0.0.0 dailytech.us.intellitxt.com
 0.0.0.0 dailythings.me
 0.0.0.0 dailytimes-ng.azurewebsites.net
+0.0.0.0 dailyushistory.com
 0.0.0.0 dailyvalueoffers.shop
 0.0.0.0 dailyvents.com
 0.0.0.0 dailywebstats.com
@@ -199503,6 +199506,7 @@
 0.0.0.0 debix-user-dashboard-lovelink18132952.codeanyapp.com
 0.0.0.0 debix-user-six-group-vlogin-id-wivjd.goplacesliving.com
 0.0.0.0 debixup.wpenginepowered.com
+0.0.0.0 debloatex.com
 0.0.0.0 deblocage-sg-centre.fr
 0.0.0.0 debmedia-demo-amex.netlify.app
 0.0.0.0 debnllvnrqgomtbllbwnpzscgtxmnwtprpgz-dot-cryptic-now-290917.ey.r.appspot.com
@@ -210239,6 +210243,7 @@
 0.0.0.0 docloud1.000webhostapp.com
 0.0.0.0 doclshtvlntusyym-dot-owaonk399399393.uk.r.appspot.com
 0.0.0.0 docmerlin.com
+0.0.0.0 docmntageant.com
 0.0.0.0 docoles.moonfruit.com
 0.0.0.0 docomo-co-jp.91gep2.cn
 0.0.0.0 docomo-gsf.tokyo
@@ -259319,10 +259324,13 @@
 0.0.0.0 get.acivated.win
 0.0.0.0 get.acrivated.win
 0.0.0.0 get.actiated.win
+0.0.0.0 get.actiavted.win
 0.0.0.0 get.activaed.win
 0.0.0.0 get.activatd.win
+0.0.0.0 get.activatde.win
 0.0.0.0 get.activatedd.win
 0.0.0.0 get.activates.win
+0.0.0.0 get.activeted.win
 0.0.0.0 get.activtaed.win
 0.0.0.0 get.activted.win
 0.0.0.0 get.actrivated.win
@@ -259331,6 +259339,7 @@
 0.0.0.0 get.adolf.tv
 0.0.0.0 get.amaniwa.ru
 0.0.0.0 get.aquariuso.ru
+0.0.0.0 get.atcivated.win
 0.0.0.0 get.ativated.win
 0.0.0.0 get.cativated.win
 0.0.0.0 get.civicscience.com
@@ -287024,6 +287033,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -305440,6 +305450,7 @@
 0.0.0.0 iylktphocsweghgg-dot-millinium.ey.r.appspot.com
 0.0.0.0 iylqle7wfe.ipnp.ir
 0.0.0.0 iymr.ptic.ir
+0.0.0.0 iyn4ce9o.casero.store
 0.0.0.0 iynfjkaoasf.com
 0.0.0.0 iynfjkauyagsf.com
 0.0.0.0 iyniunitsign.site
@@ -316067,6 +316078,7 @@
 0.0.0.0 k3khhj.csb.app
 0.0.0.0 k3nk28.shop
 0.0.0.0 k3nzww.icu
+0.0.0.0 k3p8wz1n.bvcbx.store
 0.0.0.0 k3pyn.stuff4.baby
 0.0.0.0 k3rhkweqhd.ga
 0.0.0.0 k3upd.956137.vip
@@ -341684,6 +341696,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
 0.0.0.0 lumarvexakiz.com
@@ -351938,6 +351951,7 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
+0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarria5daleeeee.000webhostapp.com
@@ -364158,6 +364172,7 @@
 0.0.0.0 meteor-chill-reward.glitch.me
 0.0.0.0 meteor-enthusiastic-wine.glitch.me
 0.0.0.0 meteor-meadow-petunia.glitch.me
+0.0.0.0 meteorclientplus.com
 0.0.0.0 meteorologia.florianopolis.ifsc.edu.br
 0.0.0.0 meteorplyp.live
 0.0.0.0 meteorrejects.net
@@ -391147,6 +391162,7 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
+0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northeus.digital
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
@@ -400552,6 +400568,7 @@
 0.0.0.0 onlne-invtebowl.myvnc.com
 0.0.0.0 onlnebsvruaidtmrkezitr.com.tr
 0.0.0.0 onlnenfcc2.temp.swtest.ru
+0.0.0.0 onlocity.com
 0.0.0.0 onloneuaol.temp.swtest.ru
 0.0.0.0 onlrjyyqxkwcffrw-dot-millinium.ey.r.appspot.com
 0.0.0.0 onlwshop.eu
@@ -437203,6 +437220,7 @@
 0.0.0.0 q75zwu9u66.mncdn.com
 0.0.0.0 q76bh.top
 0.0.0.0 q7bw2n.cfd
+0.0.0.0 q7k2m9xb.us-theeloncode.com
 0.0.0.0 q7scgypoke.temp.swtest.ru
 0.0.0.0 q7v8mf.lat
 0.0.0.0 q81xlzyfmf.55998tk.com
@@ -469291,6 +469309,7 @@
 0.0.0.0 spectrum-green-brow.glitch.me
 0.0.0.0 spectrum-shellwork-fusion.com
 0.0.0.0 spectrum247active.weebly.com
+0.0.0.0 speddebug.com
 0.0.0.0 speead.jp
 0.0.0.0 speechpad.fr
 0.0.0.0 speed.pointroll.com
@@ -474550,6 +474569,7 @@
 0.0.0.0 surprising-local-manage-business-id.vercel.app
 0.0.0.0 surra.dedspac.ru
 0.0.0.0 surrounded-fine-advise-tiger.trycloudflare.com
+0.0.0.0 surun.info
 0.0.0.0 surutu.ru
 0.0.0.0 survarium.fr
 0.0.0.0 survata.com
@@ -475860,6 +475880,7 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
+0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -476690,6 +476711,7 @@
 0.0.0.0 tauflot.ru
 0.0.0.0 taula.dedspac.ru
 0.0.0.0 taun.dedspac.ru
+0.0.0.0 taunahi.st
 0.0.0.0 taunt.virosat.ru
 0.0.0.0 tauon.virosat.ru
 0.0.0.0 taupe-bag.shop
@@ -484854,6 +484876,7 @@
 0.0.0.0 unmodincan.store
 0.0.0.0 unneutrally.amaniwa.ru
 0.0.0.0 unneutrally.timanar.ru
+0.0.0.0 uno-play.online
 0.0.0.0 unode.dedspac.ru
 0.0.0.0 unodieuxconnard.fr
 0.0.0.0 unona.dedspac.ru
@@ -491748,6 +491771,7 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -493835,6 +493859,7 @@
 0.0.0.0 wizjaproduktu.mom
 0.0.0.0 wiztube.xyz
 0.0.0.0 wizzshop.trade
+0.0.0.0 wizzyaddon.com
 0.0.0.0 wja.suvkofvgfhvr.ru
 0.0.0.0 wjct.zg7wnt.casa
 0.0.0.0 wjgachoy4.jsejaxxsget.es
@@ -494009,6 +494034,7 @@
 0.0.0.0 wood-clover-hummingbird.glitch.me
 0.0.0.0 wood-hungry-wish.glitch.me
 0.0.0.0 wood-pol.mom
+0.0.0.0 woodenships-wholesale.com
 0.0.0.0 woodland.net.gr
 0.0.0.0 woodmark.pk
 0.0.0.0 woodpecker.uc.cn
@@ -503916,6 +503942,7 @@
 0.0.0.0 www.germirrestasps.info
 0.0.0.0 www.gernad.click
 0.0.0.0 www.gershop.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com
@@ -518918,6 +518945,7 @@
 0.0.0.0 x9.shinobi.jp
 0.0.0.0 x90m-casefb549633.vercel.app
 0.0.0.0 x9f3.ofsets.lat
+0.0.0.0 x9v2mq4t.bossbey.store
 0.0.0.0 xa.shinobi.jp
 0.0.0.0 xacshop.com
 0.0.0.0 xacthuc.autoads.asia
@@ -521319,6 +521347,7 @@
 0.0.0.0 zenithaitrade.net
 0.0.0.0 zenithblockify.com
 0.0.0.0 zenithcapitange.click
+0.0.0.0 zenithclient.com
 0.0.0.0 zenithhostllc.com
 0.0.0.0 zenithpekty.info
 0.0.0.0 zenithsa4.com
