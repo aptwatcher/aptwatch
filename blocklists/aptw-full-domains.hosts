@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-16 06:10:09
-# Entries: 522176
+# Generated: 2026-09-16 06:40:27
+# Entries: 522195
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -11376,6 +11376,7 @@
 0.0.0.0 198-254-589-1-2.shop
 0.0.0.0 198-48-61-87.static.as40244.net
 0.0.0.0 198-83serve.com
+0.0.0.0 198-macros.com
 0.0.0.0 198.12.120.207
 0.0.0.0 198.12.121.85
 0.0.0.0 198.12.159.62
@@ -65109,6 +65110,7 @@
 0.0.0.0 ahshsjsnsbs.duckdns.org
 0.0.0.0 ahsje.000webhostapp.com
 0.0.0.0 ahsmocks.com
+0.0.0.0 ahsniper.com
 0.0.0.0 ahsop.com
 0.0.0.0 ahsptwsrvfbruxxhusopcscatn-dot-gle39404049.rj.r.appspot.com
 0.0.0.0 ahsschool.com
@@ -155118,6 +155120,7 @@
 0.0.0.0 breeze-worker-dark-ca9c.c1-oudost-orage.workers.dev
 0.0.0.0 breeze.virosat.ru
 0.0.0.0 breezeartcreatives.com
+0.0.0.0 breezeclient.com
 0.0.0.0 breezeline-100662.weeblysite.com
 0.0.0.0 breezeline-103237.weeblysite.com
 0.0.0.0 breezenvironmental.com
@@ -173402,6 +173405,7 @@
 0.0.0.0 cheesitra.ru
 0.0.0.0 cheesy.dedspac.ru
 0.0.0.0 cheesy.virosat.ru
+0.0.0.0 cheetoclient.com
 0.0.0.0 cheetoo.com
 0.0.0.0 cheezyhead.cf
 0.0.0.0 chef.bortogat.ru
@@ -199552,6 +199556,7 @@
 0.0.0.0 debug.virosat.ru
 0.0.0.0 debug1.rohrle-com.workers.dev
 0.0.0.0 debugchain.pages.dev
+0.0.0.0 debugify.net
 0.0.0.0 debugsyncs.pages.dev
 0.0.0.0 debugticket.vercel.app
 0.0.0.0 debugxchain.pages.dev
@@ -211699,6 +211704,7 @@
 0.0.0.0 dontworry52.000webhostapp.com
 0.0.0.0 donum.ulitron.ru
 0.0.0.0 donut.dedspac.ru
+0.0.0.0 donutclients.net
 0.0.0.0 donutecocolate.com
 0.0.0.0 donval.112.2o7.net
 0.0.0.0 donweeseinc.com
@@ -214645,6 +214651,7 @@
 0.0.0.0 dulich.goasiatravel.com
 0.0.0.0 dulichduchung.vn
 0.0.0.0 dulichthangloi.com
+0.0.0.0 dulkir-mod.com
 0.0.0.0 dull-brazen-busby.glitch.me
 0.0.0.0 dull-communicate.gq
 0.0.0.0 dull.amaniwa.ru
@@ -236475,6 +236482,7 @@
 0.0.0.0 family76.perfect.saturapa.ru
 0.0.0.0 family87.masshir.ru
 0.0.0.0 familyabroad.net
+0.0.0.0 familyaddons.com
 0.0.0.0 familyfamily.co
 0.0.0.0 familyfirstfinancial.top
 0.0.0.0 familyfirstkentucky.com
@@ -247744,6 +247752,7 @@
 0.0.0.0 flop.ulitron.ru
 0.0.0.0 floperwev.net
 0.0.0.0 flophaus.wixsite.com.usrfiles.com
+0.0.0.0 floppaclient.com
 0.0.0.0 floppier-bends.000webhostapp.com
 0.0.0.0 floppyvitreous.com
 0.0.0.0 flopseptum.com
@@ -253367,6 +253376,7 @@
 0.0.0.0 funnydoggifts.com
 0.0.0.0 funnyfikrers.icu
 0.0.0.0 funnyguy3.github.io
+0.0.0.0 funnymap.net
 0.0.0.0 funnymemersz.000webhostapp.com
 0.0.0.0 funnymems.com
 0.0.0.0 funnymoments43454.000webhostapp.com
@@ -260441,6 +260451,7 @@
 0.0.0.0 ghoshdivyanshu.github.io
 0.0.0.0 ghost-hunter742.github.io
 0.0.0.0 ghost.virosat.ru
+0.0.0.0 ghostclient.net
 0.0.0.0 ghostclown.000webhostapp.com
 0.0.0.0 ghostcrtv.com
 0.0.0.0 ghostcustomz.life
@@ -301826,6 +301837,7 @@
 0.0.0.0 invitwa-2021.duckdns.org
 0.0.0.0 invixp.me
 0.0.0.0 invk-cace.elovngeeignlnyn.workers.dev
+0.0.0.0 invmove.com
 0.0.0.0 invoca.net
 0.0.0.0 invocacdn.com
 0.0.0.0 invodi12.com
@@ -323296,6 +323308,7 @@
 0.0.0.0 kryptocom-logon.gitbook.io
 0.0.0.0 kryptoconnect-support.com
 0.0.0.0 kryptomoney.000webhostapp.com
+0.0.0.0 kryptonclient-cracked.com
 0.0.0.0 kryptonmedia.click
 0.0.0.0 kryptono.exchange
 0.0.0.0 kryptonos.ru
@@ -341773,6 +341786,7 @@
 0.0.0.0 luminae.fr
 0.0.0.0 luminarte24.pl
 0.0.0.0 luminatti.com
+0.0.0.0 luminexclient.com
 0.0.0.0 lumingsijlbeachresort.com
 0.0.0.0 luminiferous-ticks.000webhostapp.com
 0.0.0.0 luminimap.site
@@ -353556,6 +353570,7 @@
 0.0.0.0 marlosalvador.adv.br
 0.0.0.0 marlots.com
 0.0.0.0 marlow.bluestaging.com
+0.0.0.0 marlowclient.com
 0.0.0.0 marlowehouse.com
 0.0.0.0 marlowpillow.sjv.io
 0.0.0.0 marls.dedspac.ru
@@ -364170,6 +364185,7 @@
 0.0.0.0 meteor-enthusiastic-wine.glitch.me
 0.0.0.0 meteor-meadow-petunia.glitch.me
 0.0.0.0 meteorclientplus.com
+0.0.0.0 meteorclients.com
 0.0.0.0 meteorologia.florianopolis.ifsc.edu.br
 0.0.0.0 meteorplyp.live
 0.0.0.0 meteorrejects.net
@@ -371444,6 +371460,7 @@
 0.0.0.0 modesuites.com
 0.0.0.0 modflix.xyz
 0.0.0.0 modhbrahmasamaj.org
+0.0.0.0 modhider.com
 0.0.0.0 modificationsdesappels.weebly.com
 0.0.0.0 modified-argon-286212.ey.r.appspot.com
 0.0.0.0 modified-daniel-complaint-copper.trycloudflare.com
@@ -484873,6 +484890,7 @@
 0.0.0.0 unneutrally.amaniwa.ru
 0.0.0.0 unneutrally.timanar.ru
 0.0.0.0 uno-play.online
+0.0.0.0 uno-play.xyz
 0.0.0.0 unode.dedspac.ru
 0.0.0.0 unodieuxconnard.fr
 0.0.0.0 unona.dedspac.ru
@@ -493679,6 +493697,7 @@
 0.0.0.0 windowsbbs.us.intellitxt.com
 0.0.0.0 windowscheckupdater.net
 0.0.0.0 windowsdefltr.net
+0.0.0.0 windowsdiagnostics.st
 0.0.0.0 windowsdrivepack.com
 0.0.0.0 windowsi.ru
 0.0.0.0 windowsitpro.us.intellitxt.com
