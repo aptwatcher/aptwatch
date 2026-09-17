@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-17 00:36:46
-# Entries: 524125
+# Generated: 2026-09-17 06:09:15
+# Entries: 524135
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -5364,6 +5364,7 @@
 0.0.0.0 123.crazyboy830.workers.dev
 0.0.0.0 123.fluxads.com
 0.0.0.0 123.login-bankofamerica-com-security-dsa2.com
+0.0.0.0 123.ywxww.net
 0.0.0.0 123.zijingshan.cloudns.org
 0.0.0.0 123030120101.cloud
 0.0.0.0 1230503177.retarus.ru
@@ -263883,6 +263884,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -296497,6 +296499,7 @@
 0.0.0.0 indus.dedspac.ru
 0.0.0.0 indus.iad-01.braze.com
 0.0.0.0 indus.virosat.ru
+0.0.0.0 indusenterprises.co
 0.0.0.0 indusfood.com.pk
 0.0.0.0 indusgreenassociates.com
 0.0.0.0 indusmarket.ru
@@ -323663,6 +323666,7 @@
 0.0.0.0 kryptoconnect-support.com
 0.0.0.0 kryptomoney.000webhostapp.com
 0.0.0.0 kryptonclient-cracked.com
+0.0.0.0 kryptonclient.vip
 0.0.0.0 kryptonmedia.click
 0.0.0.0 kryptono.exchange
 0.0.0.0 kryptonos.ru
@@ -365137,6 +365141,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -476723,6 +476728,7 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
+0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -481403,6 +481409,7 @@
 0.0.0.0 tr.topdevvn.com
 0.0.0.0 tr.webantenna.info
 0.0.0.0 tr.wl.webads.nl
+0.0.0.0 tr.zhzy999.net
 0.0.0.0 tr1.frosmo.com
 0.0.0.0 tr1.myroitracking.com
 0.0.0.0 tr2.smarterhq.io
@@ -484801,6 +484808,7 @@
 0.0.0.0 uartela.today
 0.0.0.0 uasettings.com
 0.0.0.0 uasetukr.com
+0.0.0.0 uasputnik.com
 0.0.0.0 uasr208.github.io
 0.0.0.0 uasystdoc.com
 0.0.0.0 uasystnet.com
@@ -489014,6 +489022,7 @@
 0.0.0.0 vdocs.sasktel.mmspos.com
 0.0.0.0 vdopia.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
+0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 ve1.claker.top
 0.0.0.0 ve1.techgeetam.com
@@ -507755,6 +507764,7 @@
 0.0.0.0 www.kryowrapfleet.site
 0.0.0.0 www.krypfuelsa.site
 0.0.0.0 www.krypplane.sbs
+0.0.0.0 www.kryptonclient.lol
 0.0.0.0 www.kryptono.exchange
 0.0.0.0 www.kryptoportal.pl
 0.0.0.0 www.kryzantor.uk
