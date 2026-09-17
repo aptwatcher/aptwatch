@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-17 12:37:00
-# Entries: 524132
+# Generated: 2026-09-17 18:36:20
+# Entries: 524135
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -5364,7 +5364,6 @@
 0.0.0.0 123.crazyboy830.workers.dev
 0.0.0.0 123.fluxads.com
 0.0.0.0 123.login-bankofamerica-com-security-dsa2.com
-0.0.0.0 123.ywxww.net
 0.0.0.0 123.zijingshan.cloudns.org
 0.0.0.0 123030120101.cloud
 0.0.0.0 1230503177.retarus.ru
@@ -199028,6 +199027,7 @@
 0.0.0.0 dcfdbgfnjdcvfcfb.blogspot.tw
 0.0.0.0 dcfeed.datedeskads.com
 0.0.0.0 dcfffg.vrl2023.com
+0.0.0.0 dcfpp.com
 0.0.0.0 dcfsabtldlhpxukh-dot-owaonk399399393.uk.r.appspot.com
 0.0.0.0 dcfvdsdf.blogspot.be
 0.0.0.0 dcfvre11.blogspot.com
@@ -225008,6 +225008,7 @@
 0.0.0.0 ephotostudio.sg
 0.0.0.0 epi-genetica.com
 0.0.0.0 epi-k.com.mx
+0.0.0.0 epibenie.dz
 0.0.0.0 epic-agnesi-be0ff4.netlify.app
 0.0.0.0 epic-albattani-ae03e7.netlify.app
 0.0.0.0 epic-banach-e4261c.netlify.app
@@ -228722,6 +228723,7 @@
 0.0.0.0 eventosconciertosbailes.mx
 0.0.0.0 eventosefeiras.com
 0.0.0.0 eventosyfiestasinfantiles.com
+0.0.0.0 eventourarte.cl
 0.0.0.0 eventpartys18.com
 0.0.0.0 eventpaypal2019.onedumb.com
 0.0.0.0 eventpestadiamond.duckdns.org
@@ -250094,7 +250096,6 @@
 0.0.0.0 foundersclick.com
 0.0.0.0 foundmydevice.000webhostapp.com
 0.0.0.0 foundrylaunch.site
-0.0.0.0 foundrysourcings.co.uk
 0.0.0.0 fount.ulitron.ru
 0.0.0.0 fountainbob.com
 0.0.0.0 fountainmediaandcommunicationsgroup.com
@@ -472066,6 +472067,7 @@
 0.0.0.0 star.inh.workers.dev
 0.0.0.0 star.pulseonclick.com
 0.0.0.0 star.ulitron.ru
+0.0.0.0 star.zcnet.net
 0.0.0.0 starat-en-trezorr.pages.dev
 0.0.0.0 starbarylwdager.webflow.io
 0.0.0.0 starbuckssurvey.life
@@ -475727,6 +475729,7 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
 0.0.0.0 swiftflaremedia.com
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftlogicd.pro
 0.0.0.0 swiftlogicty.info
 0.0.0.0 swiftnodeaccessrefix.pages.dev

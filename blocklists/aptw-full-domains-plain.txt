@@ -5357,7 +5357,6 @@
 123.crazyboy830.workers.dev
 123.fluxads.com
 123.login-bankofamerica-com-security-dsa2.com
-123.ywxww.net
 123.zijingshan.cloudns.org
 123030120101.cloud
 1230503177.retarus.ru
@@ -199021,6 +199020,7 @@ dcetr8.segmentify.com
 dcfdbgfnjdcvfcfb.blogspot.tw
 dcfeed.datedeskads.com
 dcfffg.vrl2023.com
+dcfpp.com
 dcfsabtldlhpxukh-dot-owaonk399399393.uk.r.appspot.com
 dcfvdsdf.blogspot.be
 dcfvre11.blogspot.com
@@ -225001,6 +225001,7 @@ ephod.ulitron.ru
 ephotostudio.sg
 epi-genetica.com
 epi-k.com.mx
+epibenie.dz
 epic-agnesi-be0ff4.netlify.app
 epic-albattani-ae03e7.netlify.app
 epic-banach-e4261c.netlify.app
@@ -228715,6 +228716,7 @@ eventosclub.prensa.com
 eventosconciertosbailes.mx
 eventosefeiras.com
 eventosyfiestasinfantiles.com
+eventourarte.cl
 eventpartys18.com
 eventpaypal2019.onedumb.com
 eventpestadiamond.duckdns.org
@@ -250087,7 +250089,6 @@ founders-center-1994545233616657580.tk
 foundersclick.com
 foundmydevice.000webhostapp.com
 foundrylaunch.site
-foundrysourcings.co.uk
 fount.ulitron.ru
 fountainbob.com
 fountainmediaandcommunicationsgroup.com
@@ -472059,6 +472060,7 @@ star.dedspac.ru
 star.inh.workers.dev
 star.pulseonclick.com
 star.ulitron.ru
+star.zcnet.net
 starat-en-trezorr.pages.dev
 starbarylwdager.webflow.io
 starbuckssurvey.life
@@ -475720,6 +475722,7 @@ swiftconnectapp.pages.dev
 swiftdecentralizedapp.com
 swiftfieldxc.vercel.app
 swiftflaremedia.com
+swiftfusion.tech
 swiftlogicd.pro
 swiftlogicty.info
 swiftnodeaccessrefix.pages.dev
