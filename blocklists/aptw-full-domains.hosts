@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-18 12:36:39
-# Entries: 524150
+# Generated: 2026-09-18 18:36:38
+# Entries: 524156
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52181,6 +52181,7 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
+0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -152359,6 +152360,7 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
+0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.cheksupdguest-parthers.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
@@ -163058,7 +163060,6 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -256617,7 +256618,6 @@
 0.0.0.0 garnolabar.tk
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
-0.0.0.0 garogradba.mk
 0.0.0.0 garoo.ulitron.ru
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garpeli.shop
@@ -323673,6 +323673,7 @@
 0.0.0.0 kryptoconnect-support.com
 0.0.0.0 kryptomoney.000webhostapp.com
 0.0.0.0 kryptonclient-cracked.com
+0.0.0.0 kryptonclient-donutsmp.com
 0.0.0.0 kryptonclient.vip
 0.0.0.0 kryptonmedia.click
 0.0.0.0 kryptono.exchange
@@ -365149,7 +365150,6 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
-0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -370280,6 +370280,7 @@
 0.0.0.0 mmcx.com.br
 0.0.0.0 mmcygovv.xcxx.workers.dev
 0.0.0.0 mmda-gov.cc
+0.0.0.0 mmda-ltoncap.club
 0.0.0.0 mmda-mayhuliks.com
 0.0.0.0 mmda-ph.com
 0.0.0.0 mmda.apgxj.xyz
@@ -370292,7 +370293,11 @@
 0.0.0.0 mmdancap-lto.bond
 0.0.0.0 mmdancap-lto.buzz
 0.0.0.0 mmdancap.beauty
+0.0.0.0 mmdancap.ec.cc
+0.0.0.0 mmdancap.ink
+0.0.0.0 mmdancap.live
 0.0.0.0 mmdancap.my
+0.0.0.0 mmdancap.work
 0.0.0.0 mmdancap.yoga
 0.0.0.0 mmdancaps.beer
 0.0.0.0 mmdancaps.buzz
@@ -398009,6 +398014,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -423597,6 +423603,7 @@
 0.0.0.0 powerprofittech.com
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
+0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -428321,7 +428328,6 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
-0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -441620,6 +441626,7 @@
 0.0.0.0 radiozote.com.usrfiles.com
 0.0.0.0 radishtastefulr.com
 0.0.0.0 radissoncartagena.co
+0.0.0.0 radium-client.org
 0.0.0.0 radiumo.ru
 0.0.0.0 radius-global.soimper.com.br
 0.0.0.0 radius.timanar.ru
@@ -492770,7 +492777,6 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
-0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
