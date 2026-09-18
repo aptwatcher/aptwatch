@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-17 18:36:20
-# Entries: 524135
+# Generated: 2026-09-18 00:36:15
+# Entries: 524151
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -5364,6 +5364,7 @@
 0.0.0.0 123.crazyboy830.workers.dev
 0.0.0.0 123.fluxads.com
 0.0.0.0 123.login-bankofamerica-com-security-dsa2.com
+0.0.0.0 123.ywxww.net
 0.0.0.0 123.zijingshan.cloudns.org
 0.0.0.0 123030120101.cloud
 0.0.0.0 1230503177.retarus.ru
@@ -48496,6 +48497,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -52180,6 +52182,7 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
+0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -152358,6 +152361,7 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
+0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.cheksupdguest-parthers.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
@@ -168454,6 +168458,7 @@
 0.0.0.0 cclaquila.it
 0.0.0.0 ccleaner.fr
 0.0.0.0 ccleaner.gholam.ru
+0.0.0.0 ccleaner.gl
 0.0.0.0 cclnjcyzkhpwtyxbfsnolkpnpd.polished-shore-301017.uk.r.appspot.com
 0.0.0.0 cclose.com
 0.0.0.0 ccltdtt.com
@@ -249096,6 +249101,7 @@
 0.0.0.0 fongretreat.live
 0.0.0.0 fonhnzlvatkkullucbbvljvxei-dot-gleow2021ja.ue.r.appspot.com
 0.0.0.0 foniart.live
+0.0.0.0 fonij.cm
 0.0.0.0 fonitel.com.br
 0.0.0.0 fonixpizza.no
 0.0.0.0 fonohouse.com.br
@@ -250096,6 +250102,7 @@
 0.0.0.0 foundersclick.com
 0.0.0.0 foundmydevice.000webhostapp.com
 0.0.0.0 foundrylaunch.site
+0.0.0.0 foundrysourcings.co.uk
 0.0.0.0 fount.ulitron.ru
 0.0.0.0 fountainbob.com
 0.0.0.0 fountainmediaandcommunicationsgroup.com
@@ -264560,6 +264567,7 @@
 0.0.0.0 gonzalezlawnandlandscaping.com
 0.0.0.0 gonzaloperezburillo.com
 0.0.0.0 gonzalopides.github.io
+0.0.0.0 gonzaskid-1.paiza-user-free.cloud
 0.0.0.0 gonzo.dedspac.ru
 0.0.0.0 gonzo.ulitron.ru
 0.0.0.0 gonzo.virosat.ru
@@ -286530,6 +286538,7 @@
 0.0.0.0 hper.in
 0.0.0.0 hperkins4809.myportfolio.com
 0.0.0.0 hpfhnpztmvvhxmcv-dot-millinium.ey.r.appspot.com
+0.0.0.0 hpfile.cyou
 0.0.0.0 hpfzqjmdmfazukhu-dot-millinium.ey.r.appspot.com
 0.0.0.0 hpg.depy.pro
 0.0.0.0 hpglobal.112.2o7.net
@@ -294191,6 +294200,7 @@
 0.0.0.0 imap.royal-eng.ps
 0.0.0.0 imap.sspl.com.au
 0.0.0.0 imap.updateantivir.us
+0.0.0.0 imap.usslimsounds.com
 0.0.0.0 imap1.attollo.com.au
 0.0.0.0 imap1.blackwatch71.com
 0.0.0.0 imap1.lectec.com.au
@@ -296500,7 +296510,6 @@
 0.0.0.0 indus.dedspac.ru
 0.0.0.0 indus.iad-01.braze.com
 0.0.0.0 indus.virosat.ru
-0.0.0.0 indusenterprises.co
 0.0.0.0 indusfood.com.pk
 0.0.0.0 indusgreenassociates.com
 0.0.0.0 indusmarket.ru
@@ -391680,6 +391689,7 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
+0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northeus.digital
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
@@ -428313,6 +428323,7 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -454480,6 +454491,7 @@
 0.0.0.0 roplixa.vercel.app
 0.0.0.0 ropones.net
 0.0.0.0 roproabiasetermanufacture.live
+0.0.0.0 roptik.com
 0.0.0.0 ropxoeos.aero.tt
 0.0.0.0 ropy.dedspac.ru
 0.0.0.0 roq3rs1.hyperphp.com
@@ -470357,6 +470369,7 @@
 0.0.0.0 spoasmotsdro.shop
 0.0.0.0 spoasmotssxro.shop
 0.0.0.0 spoasmowscsalero.com
+0.0.0.0 spoasmowsonlyro.shop
 0.0.0.0 spode.virosat.ru
 0.0.0.0 spodnice.shop
 0.0.0.0 spoil.virosat.ru
@@ -475729,7 +475742,6 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
 0.0.0.0 swiftflaremedia.com
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftlogicd.pro
 0.0.0.0 swiftlogicty.info
 0.0.0.0 swiftnodeaccessrefix.pages.dev
@@ -476744,6 +476756,7 @@
 0.0.0.0 takaecdwu.xyz
 0.0.0.0 takak.ru
 0.0.0.0 takcmbwo.cn
+0.0.0.0 take-care.africa
 0.0.0.0 take-coinbase.webflow.io
 0.0.0.0 take-satoshivm.pages.dev
 0.0.0.0 take.amaniwa.ru
@@ -479615,6 +479628,7 @@
 0.0.0.0 this.content.served.by.addshuffle.com
 0.0.0.0 this.content.served.by.adshuffle.com
 0.0.0.0 this.dedspac.ru
+0.0.0.0 thisisafalsepositive.st
 0.0.0.0 thisisclicksecured.page.link
 0.0.0.0 thisisharshsingh.github.io
 0.0.0.0 thisisyuviii.github.io
@@ -484810,6 +484824,7 @@
 0.0.0.0 uartela.today
 0.0.0.0 uasettings.com
 0.0.0.0 uasetukr.com
+0.0.0.0 uasputnik.com
 0.0.0.0 uasr208.github.io
 0.0.0.0 uasystdoc.com
 0.0.0.0 uasystnet.com
@@ -489166,6 +489181,7 @@
 0.0.0.0 veluntra-technology-productivity-boost-odd-wood-f26b.ellenplum9.workers.dev
 0.0.0.0 velvet-haven-dfk.pages.dev
 0.0.0.0 velvet-vault.pages.dev
+0.0.0.0 velvetcanyonline.xyz
 0.0.0.0 velvetce.vip
 0.0.0.0 velvetcrown.club
 0.0.0.0 velvetresidence.it
