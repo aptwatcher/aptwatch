@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-18 06:38:54
-# Entries: 524153
+# Generated: 2026-09-18 12:36:39
+# Entries: 524150
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32765,7 +32765,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -52182,7 +52181,6 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
-0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -88648,7 +88646,6 @@
 0.0.0.0 api-proxy.bee7.com
 0.0.0.0 api-public.addthis.com
 0.0.0.0 api-rectifynode.pages.dev
-0.0.0.0 api-relay.cc
 0.0.0.0 api-resource.youzicheng.net
 0.0.0.0 api-rewarded-video.fyber.com
 0.0.0.0 api-rssocks.youzicheng.net
@@ -163061,6 +163058,7 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -256619,6 +256617,7 @@
 0.0.0.0 garnolabar.tk
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
+0.0.0.0 garogradba.mk
 0.0.0.0 garoo.ulitron.ru
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garpeli.shop
@@ -263890,7 +263889,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -304362,7 +304360,6 @@
 0.0.0.0 it6aucoindexfi.c1.biz
 0.0.0.0 it8txi5.ml
 0.0.0.0 ita-acesso-promo.tk
-0.0.0.0 ita-airwaysva.com
 0.0.0.0 ita-areia.com.br
 0.0.0.0 ita-pontos-combr.ezpz.work
 0.0.0.0 ita-u-com.umbler.net
@@ -428324,6 +428321,7 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -489038,7 +489036,6 @@
 0.0.0.0 vdocs.sasktel.mmspos.com
 0.0.0.0 vdopia.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
-0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 ve1.claker.top
 0.0.0.0 ve1.techgeetam.com
