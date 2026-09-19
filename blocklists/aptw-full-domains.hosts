@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-19 12:36:31
-# Entries: 524159
+# Generated: 2026-09-19 18:36:20
+# Entries: 524164
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32765,6 +32765,7 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
+0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -365153,6 +365154,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -374563,6 +374565,7 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
+0.0.0.0 msedge.vg
 0.0.0.0 msell.site
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
@@ -476750,6 +476753,7 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
+0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -476810,6 +476814,7 @@
 0.0.0.0 talk872363947.wixsite.com
 0.0.0.0 talk99.cn
 0.0.0.0 talkactive.mom
+0.0.0.0 talkandtypeapp.com
 0.0.0.0 talkatalkwizzy.weebly.com
 0.0.0.0 talkaxis.com
 0.0.0.0 talkbdjhbifqfo.weebly.com
