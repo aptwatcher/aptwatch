@@ -166,6 +166,7 @@ IN_SCOPE_ACTORS = [
     "sangria tempest", "akira",
     "warlock", "water manaul", "storm-2603",                         # Warlock
     "pistachio tempest", "storm-0844", "storm-1567", "vect",
+    "gunra", "golden community",                                     # Gunra RaaS, Conti-derived (backfill 2026-09-05, AA26-222A)
     # --- Project-tracked adjacent campaign ---
     "fortibleed",
 ]

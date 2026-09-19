@@ -1,0 +1,141 @@
+# GTG-20006 — Russian state-nexus espionage actor (Anthropic threat
+# intelligence report "Detecting and countering misuse of AI",
+# published 2026-09-10; PDF Anthropic-Detecting-and-countering-091026).
+# Anthropic's attribution is "consistent with public reporting linking
+# the actor to Midnight Blizzard"; operator handle "JackPoterz".
+#
+# ATTRIBUTION: apt_groups[0] = existing campaign "APT29 / Cozy Bear"
+# (broad SVR bucket) rather than the sub-campaign "Midnight Blizzard
+# CaptiveCrunch (Storm-2945)": GTG-20006 activity spans CaptiveCrunch
+# AND the broader device-code-phishing ("Embassy Kit"), WhatsApp
+# takeover, and North-Africa VPN intrusion operations, and the report's
+# flat IOC block does not segment IOCs per operation. 9 domains + 4 IPs
+# below are already curator 1.0 in the DB split across "APT29" and the
+# CaptiveCrunch sub-campaign — re-listed per context-anchor /
+# self-sufficiency discipline (loader is INSERT OR IGNORE; duplicates
+# are validator warnings only). Dominic may re-route individual IOCs to
+# campaign 121 on import if finer segmentation is wanted.
+# Alias discipline: "Midnight Blizzard" deliberately OMITTED from
+# apt_groups (ambiguous alias of both "APT29 / Cozy Bear" and
+# "Earth Koshchei"). "GTG-20006" added as a new, non-colliding alias.
+#
+# Shared-platform apex exclusions (per policy): duckdns.org and
+# b-cdn.net apexes NOT listed — only the attacker-specific hosts
+# mslivetest.duckdns.org and pdfviewer2024.b-cdn.net.
+#
+# Curator addition: russianearabroad.net is not in Anthropic's domain
+# list but is the apex of the listed sender email
+# anna.manager@russianearabroad.net, and siblings .com/.org are listed
+# as actor infrastructure -> included as email context anchor.
+# embassy-protocol.int NOT ingested as a domain (.int is restricted to
+# treaty orgs; assessed as a spoofed sender domain) — email kept.
+#
+# Digest-only exclusions (flat-IOC schema has no hash/filename table):
+# SHA256 be99857449d2856dd5a84e21c8a3d5e0e01456adb44062ddec5a6b4970d8d42c,
+# SHA256 918fa52ae45ed60ba7cc8bdc99c3cbe9ab92e0375ec31fc05d0d4513be11c593,
+# filenames msedgeupdate_v3.exe, msedgeupdate.exe, version.dll,
+# WUEngine.exe, DiagHost.exe, client_20260507093021_4286d211_x64.exe,
+# fix_network.apk.
+# No CIDRs (none claimed), no URLs, no CVEs in the report's IOC block.
+#
+# Manual domain triage (vendor-curated actor-owned list; offline
+# heuristic not applicable): CSV at
+# APT_Analytics/reports/triage/anthropic-gtg20006-2026-09-13.csv.
+# All ingested domains verdict=malicious (report-stated actor
+# registration/control); no compromised_domains (the three compromised
+# hospitality Wi-Fi vendors are not named in the report).
+
+author: APTWatch Curator
+source: "https://www.anthropic.com/threat-intelligence-report-september-2026"
+source_name: "Anthropic — Detecting and countering misuse of AI: September 2026 (GTG-20006 case study)"
+
+apt_groups:
+  - APT29 / Cozy Bear
+  - GTG-20006
+
+description: >
+  GTG-20006 is a Russian state-nexus espionage actor (attribution
+  consistent with public Midnight Blizzard reporting; operator handle
+  JackPoterz) documented by Anthropic on 2026-09-10 after disruption of
+  its Claude abuse. The actor ran AI-orchestrated workflows across the
+  full kill chain: domain registration and phishing-infrastructure
+  setup, device code phishing against cloud email (framework "Embassy
+  Kit", M365 token theft from 8+ orgs incl. a national prosecutor
+  office), automated malware rebuild/redeploy on detection (~130-day
+  loop), DNS hijacking via 3 compromised hotel guest-Wi-Fi vendors with
+  ClickFix delivery of Windows (PowerChrome, WUEngine, Shadow C2,
+  MiniPlasma, CloudSyncSvc), Android (GiftDrop, rebranded GiftsExpress
+  RAT) and iOS (DarkSword) malware — overlapping Microsoft's
+  CaptiveCrunch (Storm-2945) reporting of 2026-07-31 — plus WhatsApp
+  account takeover via WPPConnect headless browsers, camera-streaming
+  token harvesting, and a North African government VPN/identity-store
+  intrusion (300k+ national ID records). Targets: 20+ orgs — Ukrainian
+  and European government/military/diplomatic entities, drone supply
+  chain, think tanks; extends to Middle East and Asian maritime
+  agencies. IOCs are the report's GTG-20006 indicators block: M365/OWA
+  device-code phishing lookalikes, WhatsApp-themed lures, staging/C2
+  hosts and delivery IPs. 9 domains + 4 IPs already curator 1.0
+  (APT29 / CaptiveCrunch) re-listed as context anchors;
+  static.cdncounter.net was in DB unattributed (auto 0.0) and gains
+  attribution here. Discovery vector: The Hacker News 2026-09-11
+  (search fallback; feedburner RSS unfetchable from sandbox). Sister
+  coverage (SiliconANGLE, AegisAI, Unite.AI) derivative — no finer IOC
+  granularity than the Anthropic primary. MITRE: T1583.001, T1566,
+  T1528, T1078.004, T1098.005, T1584.002, T1204.004, T1555.003,
+  T1114.003, T1027 (AI-driven re-obfuscation), T1176.
+
+domains:
+  - ms365-live.com
+  - teams.ms365-live.com
+  - m365-owa.com
+  - owa-ms365.com
+  - ms365-device.com
+  - mslivetest.duckdns.org
+  - my-invite.org
+  - chamber-ua.org
+  - chathamhouse.eu
+  - ukrinform-share.net
+  - statistic-ms.live
+  - static-ms.live
+  - ad-g.org
+  - docs-viewer.org
+  - wa-connect.eu
+  - mygreatmarket.org
+  - mygreatmarket.com
+  - cdncounter.net
+  - static.cdncounter.net
+  - stuseamandesilt.org
+  - api.stuseamandesilt.org
+  - cdn.stuseamandesilt.org
+  - update.stuseamandesilt.org
+  - itechx.tel
+  - pdfviewer2024.b-cdn.net
+  - meridian-protocol.org
+  - meridiangroup-corp.com
+  - projectnightcrawler.dev
+  - metricwave.org
+  - mgsend.org
+  - wa-meeting.com
+  - russianearabroad.com
+  - russianearabroad.org
+  - russianearabroad.net
+
+ipv4:
+  - 104.145.210.184
+  - 31.57.243.154
+  - 104.194.151.133
+  - 104.194.159.55
+  - 144.172.114.192
+  - 213.145.86.112
+  - 2.26.53.194
+  - 148.135.195.111
+  - 185.198.234.26
+  - 185.198.234.101
+  - 149.54.42.106
+  - 104.194.149.228
+  - 38.146.28.132
+  - 38.146.28.75
+
+emails:
+  - anna.manager@russianearabroad.net
+  - events@embassy-protocol.int
