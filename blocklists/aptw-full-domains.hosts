@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-18 18:36:38
-# Entries: 524156
+# Generated: 2026-09-19 00:36:16
+# Entries: 524158
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52181,7 +52181,6 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
-0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -88647,6 +88646,7 @@
 0.0.0.0 api-proxy.bee7.com
 0.0.0.0 api-public.addthis.com
 0.0.0.0 api-rectifynode.pages.dev
+0.0.0.0 api-relay.cc
 0.0.0.0 api-resource.youzicheng.net
 0.0.0.0 api-rewarded-video.fyber.com
 0.0.0.0 api-rssocks.youzicheng.net
@@ -152360,7 +152360,6 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
-0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.cheksupdguest-parthers.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
@@ -162942,6 +162941,7 @@
 0.0.0.0 c1.amazingcounters.com
 0.0.0.0 c1.atdmt.com
 0.0.0.0 c1.cembuyukhanli.com
+0.0.0.0 c1.dstatbots.win
 0.0.0.0 c1.elitoras.ru
 0.0.0.0 c1.gostats.com
 0.0.0.0 c1.gostats.vn
@@ -258911,6 +258911,7 @@
 0.0.0.0 genomoline.webflow.io
 0.0.0.0 genos.dedspac.ru
 0.0.0.0 genoudm.wixsite.com
+0.0.0.0 genovaw.com
 0.0.0.0 genovawalutentrade.com
 0.0.0.0 genph.bubbleapps.io
 0.0.0.0 genralreviewcekpoint.github.io
@@ -294825,6 +294826,7 @@
 0.0.0.0 implant-inga.builderallwppro.com
 0.0.0.0 implantadoresdeusbyableadosporsistema.tk
 0.0.0.0 implantatpreise.de
+0.0.0.0 implantdentistrytx.com
 0.0.0.0 implantseminars.monster
 0.0.0.0 implanttik.com
 0.0.0.0 implanum.shop
@@ -365150,6 +365152,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -398014,7 +398017,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -423603,7 +423605,6 @@
 0.0.0.0 powerprofittech.com
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
-0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -452690,6 +452691,7 @@
 0.0.0.0 rmkblsmyvadmeijv-dot-millinium.ey.r.appspot.com
 0.0.0.0 rmkpatashaala.ac.in
 0.0.0.0 rmlgvozdkb.duckdns.org
+0.0.0.0 rmm.smartscreen.lifestyle
 0.0.0.0 rmm1u.checkm8.com
 0.0.0.0 rmmedia.net
 0.0.0.0 rmmh-casefb959231.vercel.app
@@ -475747,7 +475749,6 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
 0.0.0.0 swiftflaremedia.com
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftlogicd.pro
 0.0.0.0 swiftlogicty.info
 0.0.0.0 swiftnodeaccessrefix.pages.dev
@@ -486014,6 +486015,7 @@
 0.0.0.0 update.adsrvr.org
 0.0.0.0 update.appwrite.network
 0.0.0.0 update.cg100iii.com
+0.0.0.0 update.googlecert.help
 0.0.0.0 update.hiconversion.com
 0.0.0.0 update.ib.adnxs.com
 0.0.0.0 update.indexww.com
