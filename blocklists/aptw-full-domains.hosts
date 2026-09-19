@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-19 00:36:16
-# Entries: 524158
+# Generated: 2026-09-19 06:09:27
+# Entries: 524163
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -21479,6 +21479,7 @@
 0.0.0.0 3bnwebbpichincha.webcindario.com
 0.0.0.0 3bood89.standardseoservices.com
 0.0.0.0 3boredguys.com
+0.0.0.0 3brosstore.com
 0.0.0.0 3bscafe.com
 0.0.0.0 3btgzfk74gxejzr.qwo231sdx.club
 0.0.0.0 3btvalruqoxo.wusps.xyz
@@ -475749,6 +475750,7 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
 0.0.0.0 swiftflaremedia.com
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftlogicd.pro
 0.0.0.0 swiftlogicty.info
 0.0.0.0 swiftnodeaccessrefix.pages.dev
@@ -476750,6 +476752,7 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
+0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -492779,6 +492782,7 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -509220,6 +509224,7 @@
 0.0.0.0 www.milosnerozmowy.pl
 0.0.0.0 www.milpasoskatowice.mom
 0.0.0.0 www.mindaromaskin.mom
+0.0.0.0 www.minecraft-cheats.com
 0.0.0.0 www.minervcorvesse.com
 0.0.0.0 www.ministerstwokawy.mom
 0.0.0.0 www.minosfera.mom
