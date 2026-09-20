@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-19 18:36:20
-# Entries: 524164
+# Generated: 2026-09-20 00:36:21
+# Entries: 524161
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32765,7 +32765,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -138567,6 +138566,7 @@
 0.0.0.0 beclouded.matsuro.ru
 0.0.0.0 becmj-aiaaa-aaaad-qd26q-cai.raw.ic0.app
 0.0.0.0 becnb.blogspot.com
+0.0.0.0 becof.org
 0.0.0.0 become-hypesquad.com
 0.0.0.0 become.dedspac.ru
 0.0.0.0 become.virosat.ru
@@ -149191,6 +149191,7 @@
 0.0.0.0 bluepointtech.weebly.com
 0.0.0.0 bluepoppy.co.uk
 0.0.0.0 blueprime.eu
+0.0.0.0 blueprint-71.com
 0.0.0.0 blueprint.3azeb.info
 0.0.0.0 blueprint.sd
 0.0.0.0 blueprintgame.net
@@ -152362,6 +152363,7 @@
 0.0.0.0 booking.autoordered.xyz
 0.0.0.0 booking.autoorders.xyz
 0.0.0.0 booking.bookingverif2421.com
+0.0.0.0 booking.captcha-message-extranet.com
 0.0.0.0 booking.cheksupdguest-parthers.com
 0.0.0.0 booking.chlc3.com
 0.0.0.0 booking.clickers-safetidetaliz.info
@@ -181184,6 +181186,7 @@
 0.0.0.0 codeads.com
 0.0.0.0 codeakio.github.io
 0.0.0.0 codeandwork.pl
+0.0.0.0 codeassociates.co.ke
 0.0.0.0 codebiogblog.com
 0.0.0.0 codebox.jabont.com
 0.0.0.0 codebrainf.vercel.app
@@ -198162,6 +198165,7 @@
 0.0.0.0 dataprotection-verify-panel.vercel.app
 0.0.0.0 dataprotectionafrica.org
 0.0.0.0 dataprotectionzone.vercel.app
+0.0.0.0 datapub.news
 0.0.0.0 dataquantum.vercel.app
 0.0.0.0 dataracepoint-app.pages.dev
 0.0.0.0 datarecovery-centre.live
@@ -199032,7 +199036,6 @@
 0.0.0.0 dcfdbgfnjdcvfcfb.blogspot.tw
 0.0.0.0 dcfeed.datedeskads.com
 0.0.0.0 dcfffg.vrl2023.com
-0.0.0.0 dcfpp.com
 0.0.0.0 dcfsabtldlhpxukh-dot-owaonk399399393.uk.r.appspot.com
 0.0.0.0 dcfvdsdf.blogspot.be
 0.0.0.0 dcfvre11.blogspot.com
@@ -225013,7 +225016,6 @@
 0.0.0.0 ephotostudio.sg
 0.0.0.0 epi-genetica.com
 0.0.0.0 epi-k.com.mx
-0.0.0.0 epibenie.dz
 0.0.0.0 epic-agnesi-be0ff4.netlify.app
 0.0.0.0 epic-albattani-ae03e7.netlify.app
 0.0.0.0 epic-banach-e4261c.netlify.app
@@ -250029,6 +250031,7 @@
 0.0.0.0 fotoprimo.mom
 0.0.0.0 fotoproductinsta.com
 0.0.0.0 fotoschuppen.net
+0.0.0.0 fotosdepuebla.org
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
 0.0.0.0 fotoshop-instagram.b0tnet.com
@@ -250100,7 +250103,6 @@
 0.0.0.0 foundersclick.com
 0.0.0.0 foundmydevice.000webhostapp.com
 0.0.0.0 foundrylaunch.site
-0.0.0.0 foundrysourcings.co.uk
 0.0.0.0 fount.ulitron.ru
 0.0.0.0 fountainbob.com
 0.0.0.0 fountainmediaandcommunicationsgroup.com
@@ -264566,7 +264568,6 @@
 0.0.0.0 gonzalezlawnandlandscaping.com
 0.0.0.0 gonzaloperezburillo.com
 0.0.0.0 gonzalopides.github.io
-0.0.0.0 gonzaskid-1.paiza-user-free.cloud
 0.0.0.0 gonzo.dedspac.ru
 0.0.0.0 gonzo.ulitron.ru
 0.0.0.0 gonzo.virosat.ru
@@ -286537,7 +286538,6 @@
 0.0.0.0 hper.in
 0.0.0.0 hperkins4809.myportfolio.com
 0.0.0.0 hpfhnpztmvvhxmcv-dot-millinium.ey.r.appspot.com
-0.0.0.0 hpfile.cyou
 0.0.0.0 hpfzqjmdmfazukhu-dot-millinium.ey.r.appspot.com
 0.0.0.0 hpg.depy.pro
 0.0.0.0 hpglobal.112.2o7.net
@@ -294199,7 +294199,6 @@
 0.0.0.0 imap.royal-eng.ps
 0.0.0.0 imap.sspl.com.au
 0.0.0.0 imap.updateantivir.us
-0.0.0.0 imap.usslimsounds.com
 0.0.0.0 imap1.attollo.com.au
 0.0.0.0 imap1.blackwatch71.com
 0.0.0.0 imap1.lectec.com.au
@@ -323678,7 +323677,6 @@
 0.0.0.0 kryptomoney.000webhostapp.com
 0.0.0.0 kryptonclient-cracked.com
 0.0.0.0 kryptonclient-donutsmp.com
-0.0.0.0 kryptonclient.vip
 0.0.0.0 kryptonmedia.click
 0.0.0.0 kryptono.exchange
 0.0.0.0 kryptonos.ru
@@ -352401,6 +352399,7 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
+0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarria5daleeeee.000webhostapp.com
@@ -374565,7 +374564,6 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
-0.0.0.0 msedge.vg
 0.0.0.0 msell.site
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
@@ -428332,6 +428330,7 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -454501,7 +454500,6 @@
 0.0.0.0 roplixa.vercel.app
 0.0.0.0 ropones.net
 0.0.0.0 roproabiasetermanufacture.live
-0.0.0.0 roptik.com
 0.0.0.0 ropxoeos.aero.tt
 0.0.0.0 ropy.dedspac.ru
 0.0.0.0 roq3rs1.hyperphp.com
@@ -457178,6 +457176,7 @@
 0.0.0.0 russian-sex.com
 0.0.0.0 russianamericanballet.com
 0.0.0.0 russianearabroad.com
+0.0.0.0 russianearabroad.net
 0.0.0.0 russianearabroad.org
 0.0.0.0 russianlinesman.co.uk
 0.0.0.0 russiaparlament.click
@@ -460845,6 +460844,7 @@
 0.0.0.0 sandbox.tinypass.com
 0.0.0.0 sandbox.trinket-shell.com
 0.0.0.0 sandbox.winschool.jp
+0.0.0.0 sandboxle.com.cn
 0.0.0.0 sandboxww.top
 0.0.0.0 sandburg.xfinityhelp.com
 0.0.0.0 sandeep-yallamilli.github.io
@@ -475752,6 +475752,7 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
 0.0.0.0 swiftflaremedia.com
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftlogicd.pro
 0.0.0.0 swiftlogicty.info
 0.0.0.0 swiftnodeaccessrefix.pages.dev
@@ -476753,7 +476754,6 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
-0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -484835,7 +484835,6 @@
 0.0.0.0 uartela.today
 0.0.0.0 uasettings.com
 0.0.0.0 uasetukr.com
-0.0.0.0 uasputnik.com
 0.0.0.0 uasr208.github.io
 0.0.0.0 uasystdoc.com
 0.0.0.0 uasystnet.com
@@ -489193,7 +489192,6 @@
 0.0.0.0 veluntra-technology-productivity-boost-odd-wood-f26b.ellenplum9.workers.dev
 0.0.0.0 velvet-haven-dfk.pages.dev
 0.0.0.0 velvet-vault.pages.dev
-0.0.0.0 velvetcanyonline.xyz
 0.0.0.0 velvetce.vip
 0.0.0.0 velvetcrown.club
 0.0.0.0 velvetresidence.it
@@ -507792,7 +507790,6 @@
 0.0.0.0 www.kryowrapfleet.site
 0.0.0.0 www.krypfuelsa.site
 0.0.0.0 www.krypplane.sbs
-0.0.0.0 www.kryptonclient.lol
 0.0.0.0 www.kryptono.exchange
 0.0.0.0 www.kryptoportal.pl
 0.0.0.0 www.kryzantor.uk
