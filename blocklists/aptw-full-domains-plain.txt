@@ -152356,7 +152356,6 @@ booking.autodelivered.xyz
 booking.autoordered.xyz
 booking.autoorders.xyz
 booking.bookingverif2421.com
-booking.captcha-message-extranet.com
 booking.cheksupdguest-parthers.com
 booking.chlc3.com
 booking.clickers-safetidetaliz.info
@@ -181179,7 +181178,6 @@ codeadnetwork.com
 codeads.com
 codeakio.github.io
 codeandwork.pl
-codeassociates.co.ke
 codebiogblog.com
 codebox.jabont.com
 codebrainf.vercel.app
@@ -250024,7 +250022,6 @@ fotoporcelanapanama.com
 fotoprimo.mom
 fotoproductinsta.com
 fotoschuppen.net
-fotosdepuebla.org
 fotoseiten.heimat.eu
 fotosface.info
 fotoshop-instagram.b0tnet.com
@@ -365146,7 +365143,6 @@ metrics.gcimetrics.com
 metrics.getrockerbox.com
 metrics.gfycat.com
 metrics.gnc.com
-metrics.gocloudmaps.com
 metrics.govexec.com
 metrics.hackerrank.com.edgekey.net
 metrics.harley-davidson.com
@@ -428323,7 +428319,6 @@ proteug.ru
 proteusa.ru
 protezionecivile.comune.cassola.vi.it
 protezioneprofilo.com
-protherapycenter.com
 protibimbo.org
 protikgroup.com
 protimas.ru
@@ -466427,6 +466422,7 @@ ship01-training.shippalmbw.com
 shipgratis.eu
 shipment234.vercel.app
 shipment324.vercel.app
+shipminttracking.net
 shiporama.com
 shipping-arch-support-sura.vercel.app
 shipping-local-ads-manage-idd153248.vercel.app
@@ -485733,6 +485729,7 @@ universalmarkets.org
 universalmobility.pro
 universalmsg.com
 universalmusic.mom
+universami.ge
 universe.send.microad.jp
 universeaccountvalidation.weebly.com
 universeactivecircleprofile.weebly.com
