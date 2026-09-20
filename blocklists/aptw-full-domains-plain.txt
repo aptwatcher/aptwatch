@@ -48490,6 +48490,7 @@ accesssoftek.accesssofstek.us
 accesssynch.ukit.me
 accesstcunet.com
 accessteam.iceiy.com
+accesstelematics.com
 accessthecurrentlyattweb.square.site
 accesstrials.store
 accessunfidet.servequake.com
@@ -52174,7 +52175,6 @@ acrididae.ru
 acridoxena.online
 acridoxena.ru
 acridtwist.com
-acrilicoporto.pt
 acrimony.bluestacko.ru
 acrindoline.vadilops.ru
 acris.dedspac.ru
@@ -263884,6 +263884,7 @@ gobiernoygestion.com.mx
 gobikehike.com
 gobinbbc404.azurewebsites.net
 gobio.ulitron.ru
+gobiotechpestcontrol.com
 gobjudicial.royalwebhosting.net
 goblesdd.elementor.cloud
 goblog166.blogspot.com
@@ -328065,7 +328066,6 @@ lavozdepucon.cl
 lavs.amaniwa.ru
 lavyh8.github.io
 law-aspekt.ru
-law-daej-osaimi.com
 law-firm.uk
 law.boletuso.ru
 law.cleancarenh.com.br
@@ -365143,6 +365143,7 @@ metrics.gcimetrics.com
 metrics.getrockerbox.com
 metrics.gfycat.com
 metrics.gnc.com
+metrics.gocloudmaps.com
 metrics.govexec.com
 metrics.hackerrank.com.edgekey.net
 metrics.harley-davidson.com
@@ -466422,7 +466423,6 @@ ship01-training.shippalmbw.com
 shipgratis.eu
 shipment234.vercel.app
 shipment324.vercel.app
-shipminttracking.net
 shiporama.com
 shipping-arch-support-sura.vercel.app
 shipping-local-ads-manage-idd153248.vercel.app
@@ -475741,7 +475741,6 @@ swiftconnectapp.pages.dev
 swiftdecentralizedapp.com
 swiftfieldxc.vercel.app
 swiftflaremedia.com
-swiftfusion.tech
 swiftlogicd.pro
 swiftlogicty.info
 swiftnodeaccessrefix.pages.dev
@@ -489039,6 +489038,7 @@ vdna.exelator.com
 vdocs.sasktel.mmspos.com
 vdopia.com
 vdrgvrtgrstgvr.weebly.com
+vdsina.vg
 vdterms.samsungcloudsolution.com
 ve1.claker.top
 ve1.techgeetam.com
