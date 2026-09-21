@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-21 00:36:36
+# Generated: 2026-09-21 06:09:07
 # Entries: 520173
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -86202,7 +86202,6 @@
 0.0.0.0 anyeleventura.github.io
 0.0.0.0 anyesha-biswas.github.io
 0.0.0.0 anyhealthtips.com
-0.0.0.0 anyhoo.testeaza.eu
 0.0.0.0 anyillustrations.com
 0.0.0.0 anyimage.top
 0.0.0.0 anyingzhitong.com
@@ -192266,7 +192265,6 @@
 0.0.0.0 cts.w55c.net
 0.0.0.0 ctsempresa.com
 0.0.0.0 ctservices.fr
-0.0.0.0 ctsfactory.com
 0.0.0.0 ctsinteractive.com
 0.0.0.0 ctsp-arequipa.org.pe
 0.0.0.0 ctsprojectsolutions.com
@@ -251590,7 +251588,6 @@
 0.0.0.0 friendsoflifechoices.org
 0.0.0.0 friendsofmelvinchigh.com
 0.0.0.0 friendsofryetownhall.org
-0.0.0.0 friendsofsclarc.org
 0.0.0.0 friendssteakhouse.com
 0.0.0.0 friendtest.us.intellitxt.com
 0.0.0.0 friendvote.xyz
@@ -263038,6 +263035,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -297444,7 +297442,6 @@
 0.0.0.0 innova-tech.com.mx
 0.0.0.0 innovaespublicidad.com
 0.0.0.0 innovamosbanrural.0hi.me
-0.0.0.0 innovantksa.com
 0.0.0.0 innovaperutourscom.ipage.com
 0.0.0.0 innovarextrade.com
 0.0.0.0 innovatemanhattan.org
@@ -351170,7 +351167,6 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
-0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarria5daleeeee.000webhostapp.com
@@ -406694,6 +406690,7 @@
 0.0.0.0 palet.dedspac.ru
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
+0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palingviralsxx.duckdns.org
 0.0.0.0 paliodasti.com.usrfiles.com
@@ -461534,6 +461531,7 @@
 0.0.0.0 scag.ulitron.ru
 0.0.0.0 scags.virosat.ru
 0.0.0.0 scaia.cc
+0.0.0.0 scainseto.com.br
 0.0.0.0 scala.ulitron.ru
 0.0.0.0 scala.virosat.ru
 0.0.0.0 scalablecapitalapp.net
@@ -474924,6 +474922,7 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
+0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -490861,6 +490860,7 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
