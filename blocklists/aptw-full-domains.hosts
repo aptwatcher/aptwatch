@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-21 06:39:33
-# Entries: 520173
+# Generated: 2026-09-21 12:36:31
+# Entries: 520194
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -46132,6 +46132,7 @@
 0.0.0.0 abitareainmo.com
 0.0.0.0 abitareeagency.com
 0.0.0.0 abitaremx.com
+0.0.0.0 abitcoinbull.com
 0.0.0.0 abitinoble.ru
 0.0.0.0 abitoincommunity.it
 0.0.0.0 abitrativeapp.pages.dev
@@ -52692,6 +52693,7 @@
 0.0.0.0 activatedmailservi.wixsite.com
 0.0.0.0 activatedmainnet.com
 0.0.0.0 activatedrepair.com
+0.0.0.0 activatef.win
 0.0.0.0 activatelearningonline.instructure.com
 0.0.0.0 activatelinkedin1.weebly.com
 0.0.0.0 activatem4ilsaccount.hstn.me
@@ -119460,6 +119462,7 @@
 0.0.0.0 autochthonous-tapes.000webhostapp.com
 0.0.0.0 autocitycuracao.com
 0.0.0.0 autoclaiming.pages.dev
+0.0.0.0 autoclinic.autos
 0.0.0.0 autocmb.ro
 0.0.0.0 autocoatingking.com
 0.0.0.0 autocomp.net
@@ -124618,6 +124621,7 @@
 0.0.0.0 babas.ulitron.ru
 0.0.0.0 babasio.com
 0.0.0.0 babaskan.ru
+0.0.0.0 babaszepsegverseny.hu
 0.0.0.0 babawa3213.liveblog365.com
 0.0.0.0 babawebdesign.com
 0.0.0.0 babawest12.weeblysite.com
@@ -140396,6 +140400,7 @@
 0.0.0.0 benzophen.com
 0.0.0.0 benztechsolutions.com
 0.0.0.0 benzyl.virosat.ru
+0.0.0.0 beoauto.alexion.rs
 0.0.0.0 beobnk.net
 0.0.0.0 beode.bortogat.ru
 0.0.0.0 beode.matsuro.ru
@@ -160341,6 +160346,7 @@
 0.0.0.0 buruncha.ru
 0.0.0.0 burushaski.matsuro.ru
 0.0.0.0 burut.ulitron.ru
+0.0.0.0 buruujtech.com
 0.0.0.0 burwod.ru
 0.0.0.0 burwoodrsl-sharedocument.on.fleek.co
 0.0.0.0 bury.0fees.us
@@ -217170,6 +217176,7 @@
 0.0.0.0 easyport.in
 0.0.0.0 easyprofithunters.com
 0.0.0.0 easyqapark.vu
+0.0.0.0 easyrentbyowner.com
 0.0.0.0 easyresearchsolutions.com
 0.0.0.0 easyrideug.com
 0.0.0.0 easys.duckdns.org
@@ -218109,6 +218116,7 @@
 0.0.0.0 ebubxsbsqh.duckdns.org
 0.0.0.0 ebuddynews.com
 0.0.0.0 ebullienceinabundance.com
+0.0.0.0 ebullientlife.in
 0.0.0.0 eburdwanmuktodhara.org.in
 0.0.0.0 eburkhardt.techvalleyabbottabad.pk
 0.0.0.0 ebusiness-bofamerica.online
@@ -232214,6 +232222,7 @@
 0.0.0.0 fabricofurnitures.com
 0.0.0.0 fabricpaintings.com
 0.0.0.0 fabrics.chiripalgroup.com
+0.0.0.0 fabrics.lahoreshoes.com
 0.0.0.0 fabricsewingh.com
 0.0.0.0 fabrikaistanbul.com
 0.0.0.0 fabrikala.com
@@ -247557,6 +247566,7 @@
 0.0.0.0 fluidcontitech.com
 0.0.0.0 fluiddeliverymanagement.com
 0.0.0.0 fluidesclimat.com
+0.0.0.0 fluidfilm.bg
 0.0.0.0 fluidou-71.ml
 0.0.0.0 fluiptvserver.com
 0.0.0.0 flujocapital.org
@@ -249283,6 +249293,7 @@
 0.0.0.0 foundation.con-wallet.network
 0.0.0.0 foundational-rating.000webhostapp.com
 0.0.0.0 foundationally.timanar.ru
+0.0.0.0 foundationforwomenshealth.com
 0.0.0.0 foundationmetarecover.com
 0.0.0.0 foundationnational.net
 0.0.0.0 foundations-admin-10000005546884950.ml
@@ -261267,6 +261278,7 @@
 0.0.0.0 glballogistics.com
 0.0.0.0 glbbaserv.ml
 0.0.0.0 glbe.co
+0.0.0.0 glbeletronica.com.br
 0.0.0.0 glbgcl.logsss.com
 0.0.0.0 glbhmjzsovkywfvhjqknuwiurkedfevhqbnm-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 glbticket.bio
@@ -263035,7 +263047,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -266138,6 +266149,7 @@
 0.0.0.0 greenelytesolutions.com
 0.0.0.0 greeneryinfinite.in
 0.0.0.0 greenestsaremco.jp
+0.0.0.0 greenf.alexion.rs
 0.0.0.0 greenfeldrr.cyou
 0.0.0.0 greenfieldc.vercel.app
 0.0.0.0 greenfieldsmanpower.com
@@ -280188,6 +280200,7 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
+0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -297166,6 +297179,7 @@
 0.0.0.0 inic-suc-si.dianacorre.repl.co
 0.0.0.0 inicial-instagram.vercel.app
 0.0.0.0 iniciamossegu.webcindario.com
+0.0.0.0 iniciaonline.com
 0.0.0.0 iniciar-id98230.zya.me
 0.0.0.0 iniciar-sesion-pers0nas.redwebhost.com
 0.0.0.0 iniciar-sesion12.webcindario.com
@@ -325680,6 +325694,7 @@
 0.0.0.0 lahore.shanitravels.org
 0.0.0.0 lahorecallgirlsescorts.com
 0.0.0.0 lahorepropertygroup.com
+0.0.0.0 lahoreshoes.com
 0.0.0.0 lahoreviphotels.com
 0.0.0.0 lahoyws2.com
 0.0.0.0 lahstudios.com
@@ -349359,6 +349374,7 @@
 0.0.0.0 mail1.goggle.workers.dev
 0.0.0.0 mail1.googlle.workers.dev
 0.0.0.0 mail1.lectec.com.au
+0.0.0.0 mail1.mycollege.com.my
 0.0.0.0 mail1.netjets.com
 0.0.0.0 mail1.sspl.com.au
 0.0.0.0 mail1.systemone.com
@@ -396615,6 +396631,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -399951,6 +399968,7 @@
 0.0.0.0 onyukvpbnbkarjnx-dot-millinium.ey.r.appspot.com
 0.0.0.0 onywatch.pro
 0.0.0.0 onyx-attractive-oak.glitch.me
+0.0.0.0 onyx-medical.com
 0.0.0.0 onyx-motley-postbox.glitch.me
 0.0.0.0 onyx-stores.com
 0.0.0.0 onyx.ulitron.ru
@@ -406690,7 +406708,6 @@
 0.0.0.0 palet.dedspac.ru
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
-0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palingviralsxx.duckdns.org
 0.0.0.0 paliodasti.com.usrfiles.com
@@ -441432,6 +441449,7 @@
 0.0.0.0 raqamtasdiqlash.com
 0.0.0.0 raqi-gamer.github.io
 0.0.0.0 raqito.world
+0.0.0.0 raqmnh.com
 0.0.0.0 raqnor.com
 0.0.0.0 raquelbarros.com.br
 0.0.0.0 raquelnash.autos
@@ -466178,6 +466196,7 @@
 0.0.0.0 skmahaboob7865.github.io
 0.0.0.0 skocz.pl
 0.0.0.0 skoet.com.cn
+0.0.0.0 skolazasisanjepasa.com
 0.0.0.0 skonhed.pro
 0.0.0.0 skorgg.gxaeasz.es
 0.0.0.0 skort.dedspac.ru
@@ -469058,6 +469077,7 @@
 0.0.0.0 sroy2002.github.io
 0.0.0.0 srpaymxscrtu.loportar.ru
 0.0.0.0 srpska.news-pravda.com
+0.0.0.0 srrealestate.techzonecam.com
 0.0.0.0 srryrvrdcwi.tauzetaomega.org
 0.0.0.0 srs.targetpoint.com
 0.0.0.0 srsorvete.com.br
@@ -474922,7 +474942,6 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
-0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -478885,6 +478904,7 @@
 0.0.0.0 tog.bortogat.ru
 0.0.0.0 toga.dedspac.ru
 0.0.0.0 toga.ulitron.ru
+0.0.0.0 togethers.tv
 0.0.0.0 toggletools.com
 0.0.0.0 toglimanom.store
 0.0.0.0 togo-studio.com
@@ -487190,6 +487210,7 @@
 0.0.0.0 vekb.kmxuengka.sbs
 0.0.0.0 vekqodovanfxiugmicjypf-svfe9-h10sau.vercel.app
 0.0.0.0 vekstdynamikai.net
+0.0.0.0 vektorex.com
 0.0.0.0 vela.iad-01.braze.com
 0.0.0.0 velacrecianza.net
 0.0.0.0 velal.dedspac.ru
