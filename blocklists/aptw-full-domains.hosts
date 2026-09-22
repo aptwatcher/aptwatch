@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-22 00:36:55
-# Entries: 520201
+# Generated: 2026-09-22 06:08:23
+# Entries: 520197
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -119462,6 +119462,7 @@
 0.0.0.0 autochthonous-tapes.000webhostapp.com
 0.0.0.0 autocitycuracao.com
 0.0.0.0 autoclaiming.pages.dev
+0.0.0.0 autoclinic.autos
 0.0.0.0 autocmb.ro
 0.0.0.0 autocoatingking.com
 0.0.0.0 autocomp.net
@@ -144103,7 +144104,6 @@
 0.0.0.0 bigreal.org
 0.0.0.0 bigrecess.com
 0.0.0.0 bigrigrvadventures.com
-0.0.0.0 bigs.bikershop.biz
 0.0.0.0 bigs.bortogat.ru
 0.0.0.0 bigs.dedspac.ru
 0.0.0.0 bigs.ulitron.ru
@@ -211995,6 +211995,7 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
+0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -217174,7 +217175,6 @@
 0.0.0.0 easyport.in
 0.0.0.0 easyprofithunters.com
 0.0.0.0 easyqapark.vu
-0.0.0.0 easyrentbyowner.com
 0.0.0.0 easyresearchsolutions.com
 0.0.0.0 easyrideug.com
 0.0.0.0 easys.duckdns.org
@@ -225088,7 +225088,6 @@
 0.0.0.0 ergot.virosat.ru
 0.0.0.0 ergoterapeutene.broke-it.net
 0.0.0.0 ergoterapiacaribu.ch
-0.0.0.0 ergotherapeia-kalamata.gr
 0.0.0.0 ergqzszqmvsdcfyu-dot-millinium.ey.r.appspot.com
 0.0.0.0 ergrq.blogspot.fi
 0.0.0.0 ergrq.blogspot.hr
@@ -249290,7 +249289,6 @@
 0.0.0.0 foundation.con-wallet.network
 0.0.0.0 foundational-rating.000webhostapp.com
 0.0.0.0 foundationally.timanar.ru
-0.0.0.0 foundationforwomenshealth.com
 0.0.0.0 foundationmetarecover.com
 0.0.0.0 foundationnational.net
 0.0.0.0 foundations-admin-10000005546884950.ml
@@ -280198,7 +280196,6 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
-0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -287549,7 +287546,6 @@
 0.0.0.0 humanverify.net
 0.0.0.0 humanwarelacers.com
 0.0.0.0 humanwarnings.com
-0.0.0.0 humasjatim.id
 0.0.0.0 humayunsaghir.github.io
 0.0.0.0 humbaur.hr
 0.0.0.0 humbertocarpio.com
@@ -295191,6 +295187,7 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
+0.0.0.0 indeanapolice.cc
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
 0.0.0.0 indecisive-pentagonal-carnation.glitch.me
@@ -325695,7 +325692,6 @@
 0.0.0.0 lahore.shanitravels.org
 0.0.0.0 lahorecallgirlsescorts.com
 0.0.0.0 lahorepropertygroup.com
-0.0.0.0 lahoreshoes.com
 0.0.0.0 lahoreviphotels.com
 0.0.0.0 lahoyws2.com
 0.0.0.0 lahstudios.com
@@ -328116,7 +328112,6 @@
 0.0.0.0 leandroserain.com.br
 0.0.0.0 leanldedyjerlogh-dot-millinium.ey.r.appspot.com
 0.0.0.0 leanlogix.shop
-0.0.0.0 leanmaestro.com
 0.0.0.0 leanmanagement.ro
 0.0.0.0 leanmobi.fusetracking.com
 0.0.0.0 leannethdam.buzz
@@ -355801,6 +355796,7 @@
 0.0.0.0 medibaad.com
 0.0.0.0 medic.ulitron.ru
 0.0.0.0 medica-lab.com
+0.0.0.0 medica-me.com
 0.0.0.0 medical-devices-purchase-quotation.vercel.app
 0.0.0.0 medical-equipments.vercel.app
 0.0.0.0 medical-jets.com
@@ -363872,7 +363868,6 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
-0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -399968,7 +399963,6 @@
 0.0.0.0 onyukvpbnbkarjnx-dot-millinium.ey.r.appspot.com
 0.0.0.0 onywatch.pro
 0.0.0.0 onyx-attractive-oak.glitch.me
-0.0.0.0 onyx-medical.com
 0.0.0.0 onyx-motley-postbox.glitch.me
 0.0.0.0 onyx-stores.com
 0.0.0.0 onyx.ulitron.ru
@@ -414771,6 +414765,7 @@
 0.0.0.0 physics.uctm.edu
 0.0.0.0 physicsashok.com
 0.0.0.0 physicsbeckons.com
+0.0.0.0 physicsbyfiziks.org
 0.0.0.0 physimath.com
 0.0.0.0 physio-roesch.de
 0.0.0.0 physiology-anatomy.seo-florida.com
@@ -441452,7 +441447,6 @@
 0.0.0.0 raqamtasdiqlash.com
 0.0.0.0 raqi-gamer.github.io
 0.0.0.0 raqito.world
-0.0.0.0 raqmnh.com
 0.0.0.0 raqnor.com
 0.0.0.0 raquelbarros.com.br
 0.0.0.0 raquelnash.autos
@@ -466200,6 +466194,7 @@
 0.0.0.0 skmahaboob7865.github.io
 0.0.0.0 skocz.pl
 0.0.0.0 skoet.com.cn
+0.0.0.0 skolazasisanjepasa.com
 0.0.0.0 skonhed.pro
 0.0.0.0 skorgg.gxaeasz.es
 0.0.0.0 skort.dedspac.ru
@@ -472777,7 +472772,6 @@
 0.0.0.0 sudahosting.com
 0.0.0.0 sudais73.github.io
 0.0.0.0 sudan.news-pravda.com
-0.0.0.0 sudariocontabilidade.com.br
 0.0.0.0 sudarshanabpatil.github.io
 0.0.0.0 sudd.ulitron.ru
 0.0.0.0 suddenplot.com
@@ -472957,6 +472951,7 @@
 0.0.0.0 sullbjectivity.info
 0.0.0.0 sulphotannic.yazibo.ru
 0.0.0.0 sultan-raza.github.io
+0.0.0.0 sultanaexecutive.com
 0.0.0.0 sultanajshjdjsd.vercel.app
 0.0.0.0 sultano25.blogspot.be
 0.0.0.0 sultano25.blogspot.co.nz
@@ -474738,6 +474733,7 @@
 0.0.0.0 tab.dedspac.ru
 0.0.0.0 tab.dellrescue.com
 0.0.0.0 tab.myreserp.com
+0.0.0.0 tabak.hr
 0.0.0.0 tabby.dedspac.ru
 0.0.0.0 tabby.virosat.ru
 0.0.0.0 tabegroup.nl
@@ -474945,7 +474941,6 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
-0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -478909,6 +478904,7 @@
 0.0.0.0 tog.bortogat.ru
 0.0.0.0 toga.dedspac.ru
 0.0.0.0 toga.ulitron.ru
+0.0.0.0 togethers.tv
 0.0.0.0 toggletools.com
 0.0.0.0 toglimanom.store
 0.0.0.0 togo-studio.com
