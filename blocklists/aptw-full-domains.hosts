@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-21 18:36:53
-# Entries: 520193
+# Generated: 2026-09-22 00:36:55
+# Entries: 520201
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -835,6 +835,7 @@
 0.0.0.0 03rtth5k.fat-fly.com
 0.0.0.0 03servierchaseelisst.duckdns.org
 0.0.0.0 03t.top
+0.0.0.0 03teste.com
 0.0.0.0 03tlt9cyhyid0wyfwy2gk.qwo231sdx.club
 0.0.0.0 03u0et.operational.dpdns.org
 0.0.0.0 03us9uls9ps.us
@@ -32756,7 +32757,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -97328,7 +97328,6 @@
 0.0.0.0 aquaticowl.com
 0.0.0.0 aquatictestinglabs.com
 0.0.0.0 aquatippnters.info
-0.0.0.0 aquatitewaterproofing.com
 0.0.0.0 aquawaterpurifiers.com
 0.0.0.0 aquazoneamqui.com
 0.0.0.0 aquecedoreskbs.com.br
@@ -119463,7 +119462,6 @@
 0.0.0.0 autochthonous-tapes.000webhostapp.com
 0.0.0.0 autocitycuracao.com
 0.0.0.0 autoclaiming.pages.dev
-0.0.0.0 autoclinic.autos
 0.0.0.0 autocmb.ro
 0.0.0.0 autocoatingking.com
 0.0.0.0 autocomp.net
@@ -144105,6 +144103,7 @@
 0.0.0.0 bigreal.org
 0.0.0.0 bigrecess.com
 0.0.0.0 bigrigrvadventures.com
+0.0.0.0 bigs.bikershop.biz
 0.0.0.0 bigs.bortogat.ru
 0.0.0.0 bigs.dedspac.ru
 0.0.0.0 bigs.ulitron.ru
@@ -211996,7 +211995,6 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
-0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -217176,6 +217174,7 @@
 0.0.0.0 easyport.in
 0.0.0.0 easyprofithunters.com
 0.0.0.0 easyqapark.vu
+0.0.0.0 easyrentbyowner.com
 0.0.0.0 easyresearchsolutions.com
 0.0.0.0 easyrideug.com
 0.0.0.0 easys.duckdns.org
@@ -224214,6 +224213,7 @@
 0.0.0.0 entry-biglobes-auth1-mail-cgibin-6433752c21f7e.ehuaya.net
 0.0.0.0 entry-biglobes-auth1-mail-cgibin-6433bf94b1b07.ehuaya.net
 0.0.0.0 entry-biglobes-auth1-mail-cgibin-6433c7c45440b.ehuaya.net
+0.0.0.0 entry-code-cdn.codes
 0.0.0.0 entry-survey-biglobe-auth-mail-sso-09412751781248157.trackarmory.shop
 0.0.0.0 entry.virosat.ru
 0.0.0.0 entrygatebreak.com
@@ -249290,6 +249290,7 @@
 0.0.0.0 foundation.con-wallet.network
 0.0.0.0 foundational-rating.000webhostapp.com
 0.0.0.0 foundationally.timanar.ru
+0.0.0.0 foundationforwomenshealth.com
 0.0.0.0 foundationmetarecover.com
 0.0.0.0 foundationnational.net
 0.0.0.0 foundations-admin-10000005546884950.ml
@@ -287548,6 +287549,7 @@
 0.0.0.0 humanverify.net
 0.0.0.0 humanwarelacers.com
 0.0.0.0 humanwarnings.com
+0.0.0.0 humasjatim.id
 0.0.0.0 humayunsaghir.github.io
 0.0.0.0 humbaur.hr
 0.0.0.0 humbertocarpio.com
@@ -295189,7 +295191,6 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
-0.0.0.0 indeanapolice.cc
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
 0.0.0.0 indecisive-pentagonal-carnation.glitch.me
@@ -297454,6 +297455,7 @@
 0.0.0.0 innova-tech.com.mx
 0.0.0.0 innovaespublicidad.com
 0.0.0.0 innovamosbanrural.0hi.me
+0.0.0.0 innovantksa.com
 0.0.0.0 innovaperutourscom.ipage.com
 0.0.0.0 innovarextrade.com
 0.0.0.0 innovatemanhattan.org
@@ -318913,6 +318915,7 @@
 0.0.0.0 kinetcabra.store
 0.0.0.0 kineticblu.cfd
 0.0.0.0 kineticboy.co.za
+0.0.0.0 kineticlenz.com
 0.0.0.0 kineticwindstreams.pages.dev
 0.0.0.0 kinetiq.com.au
 0.0.0.0 kinetrace99.site
@@ -325692,6 +325695,7 @@
 0.0.0.0 lahore.shanitravels.org
 0.0.0.0 lahorecallgirlsescorts.com
 0.0.0.0 lahorepropertygroup.com
+0.0.0.0 lahoreshoes.com
 0.0.0.0 lahoreviphotels.com
 0.0.0.0 lahoyws2.com
 0.0.0.0 lahstudios.com
@@ -328112,6 +328116,7 @@
 0.0.0.0 leandroserain.com.br
 0.0.0.0 leanldedyjerlogh-dot-millinium.ey.r.appspot.com
 0.0.0.0 leanlogix.shop
+0.0.0.0 leanmaestro.com
 0.0.0.0 leanmanagement.ro
 0.0.0.0 leanmobi.fusetracking.com
 0.0.0.0 leannethdam.buzz
@@ -350098,7 +350103,6 @@
 0.0.0.0 main.exoclick.com
 0.0.0.0 main.exosrv.com
 0.0.0.0 main.fbmmnsnnsm-6061949153.1oxjkps3ah-yjr3oxzrm31m.p.runcloud.link
-0.0.0.0 main.lahoreshoes.com
 0.0.0.0 main.lancefiber.net
 0.0.0.0 main.museumofwesternco.live
 0.0.0.0 main.paylessautoz.de
@@ -350777,7 +350781,6 @@
 0.0.0.0 mama.pipi.ne.jp
 0.0.0.0 mama.ulitron.ru
 0.0.0.0 mamaandmimi.com
-0.0.0.0 mamabearcoffee.com
 0.0.0.0 mamabearhikes.com.au
 0.0.0.0 mamacehin.com
 0.0.0.0 mamachumbas.com
@@ -363869,6 +363872,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -399964,6 +399968,7 @@
 0.0.0.0 onyukvpbnbkarjnx-dot-millinium.ey.r.appspot.com
 0.0.0.0 onywatch.pro
 0.0.0.0 onyx-attractive-oak.glitch.me
+0.0.0.0 onyx-medical.com
 0.0.0.0 onyx-motley-postbox.glitch.me
 0.0.0.0 onyx-stores.com
 0.0.0.0 onyx.ulitron.ru
@@ -406703,6 +406708,7 @@
 0.0.0.0 palet.dedspac.ru
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
+0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palingviralsxx.duckdns.org
 0.0.0.0 paliodasti.com.usrfiles.com
@@ -408581,6 +408587,7 @@
 0.0.0.0 paste.ee
 0.0.0.0 pastebin.biz.id.turnkeyperformance.net
 0.0.0.0 pastebin.com
+0.0.0.0 pastee.dev
 0.0.0.0 pasteeshirt.biz
 0.0.0.0 pastehtml.com
 0.0.0.0 pastel-dawns.000webhostapp.com
@@ -414764,7 +414771,6 @@
 0.0.0.0 physics.uctm.edu
 0.0.0.0 physicsashok.com
 0.0.0.0 physicsbeckons.com
-0.0.0.0 physicsbyfiziks.org
 0.0.0.0 physimath.com
 0.0.0.0 physio-roesch.de
 0.0.0.0 physiology-anatomy.seo-florida.com
@@ -417228,7 +417234,6 @@
 0.0.0.0 plenerowy.shop
 0.0.0.0 plenet.in
 0.0.0.0 plenge-druck.de
-0.0.0.0 plenia.pt
 0.0.0.0 plenipotent-screens.000webhostapp.com
 0.0.0.0 plenisxentartech.com
 0.0.0.0 plenisxentartechhub.com
@@ -420248,7 +420253,6 @@
 0.0.0.0 pos.drivrr.com
 0.0.0.0 pos.healthrxbd.com
 0.0.0.0 pos.miebp.com
-0.0.0.0 pos.nittosupport.ca
 0.0.0.0 pos.vfixit.com.au
 0.0.0.0 pos2.usahawan.cc
 0.0.0.0 posadalalucia.com.ar
@@ -424935,6 +424939,7 @@
 0.0.0.0 proadscdn.com
 0.0.0.0 proaffordablemovers.com
 0.0.0.0 proahmad069.000webhostapp.com
+0.0.0.0 proalamir.dz
 0.0.0.0 proapg.com
 0.0.0.0 proappliance.co.tz
 0.0.0.0 proasphaltsealandstripe.net
@@ -474733,7 +474738,6 @@
 0.0.0.0 tab.dedspac.ru
 0.0.0.0 tab.dellrescue.com
 0.0.0.0 tab.myreserp.com
-0.0.0.0 tabak.hr
 0.0.0.0 tabby.dedspac.ru
 0.0.0.0 tabby.virosat.ru
 0.0.0.0 tabegroup.nl
@@ -474941,6 +474945,7 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
+0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -482492,6 +482497,7 @@
 0.0.0.0 tvip.pdurg.cn
 0.0.0.0 tvip.ysbkz.com
 0.0.0.0 tvk.tpx.mybluehost.me
+0.0.0.0 tvkladovo.com
 0.0.0.0 tvmds.tvpassport.com
 0.0.0.0 tvmoviespoilers.com
 0.0.0.0 tvn.adocean.pl
@@ -493278,6 +493284,7 @@
 0.0.0.0 workers-income25-encrypserver38782821-agreement.scanlonchiro.com
 0.0.0.0 workers-playground-cold-violet-5b28.jusang425.workers.dev
 0.0.0.0 workers-playground-wandering-dew-9153.jusang425.workers.dev
+0.0.0.0 workerstats.net
 0.0.0.0 workflix.myfunnelish.com
 0.0.0.0 workflow-hotfix.jimpike.com.au
 0.0.0.0 workflow.alpha.jimpike.com.au
@@ -511500,6 +511507,7 @@
 0.0.0.0 www.sitioattic.store
 0.0.0.0 www.sitononraggiungibile.it
 0.0.0.0 www.siuuvamoess.vercel.app
+0.0.0.0 www.sivritepeinsaat.com
 0.0.0.0 www.sixsigmatraffic.com
 0.0.0.0 www.sizecart.com
 0.0.0.0 www.sizeer.actionone.sbs
