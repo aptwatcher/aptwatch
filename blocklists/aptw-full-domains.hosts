@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-22 06:38:59
-# Entries: 520198
+# Generated: 2026-09-22 12:37:15
+# Entries: 520185
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -119462,7 +119462,6 @@
 0.0.0.0 autochthonous-tapes.000webhostapp.com
 0.0.0.0 autocitycuracao.com
 0.0.0.0 autoclaiming.pages.dev
-0.0.0.0 autoclinic.autos
 0.0.0.0 autocmb.ro
 0.0.0.0 autocoatingking.com
 0.0.0.0 autocomp.net
@@ -190916,7 +190915,6 @@
 0.0.0.0 crestvaulmore.sbs
 0.0.0.0 crestvaultshire.live
 0.0.0.0 crestvaultshire.online
-0.0.0.0 cresvin.com
 0.0.0.0 cret.pages.dev
 0.0.0.0 cretan.virosat.ru
 0.0.0.0 crete.cloudns.ph
@@ -263042,7 +263040,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -295187,7 +295184,6 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
-0.0.0.0 indeanapolice.cc
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
 0.0.0.0 indecisive-pentagonal-carnation.glitch.me
@@ -297452,7 +297448,6 @@
 0.0.0.0 innova-tech.com.mx
 0.0.0.0 innovaespublicidad.com
 0.0.0.0 innovamosbanrural.0hi.me
-0.0.0.0 innovantksa.com
 0.0.0.0 innovaperutourscom.ipage.com
 0.0.0.0 innovarextrade.com
 0.0.0.0 innovatemanhattan.org
@@ -355796,7 +355791,6 @@
 0.0.0.0 medibaad.com
 0.0.0.0 medic.ulitron.ru
 0.0.0.0 medica-lab.com
-0.0.0.0 medica-me.com
 0.0.0.0 medical-devices-purchase-quotation.vercel.app
 0.0.0.0 medical-equipments.vercel.app
 0.0.0.0 medical-jets.com
@@ -363868,6 +363862,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -396627,6 +396622,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -414536,7 +414532,6 @@
 0.0.0.0 photolease.agencyprojects.com
 0.0.0.0 photolikerfb.xyz
 0.0.0.0 photoline-test.kht.ru
-0.0.0.0 photolivebook.pro
 0.0.0.0 photomilan.com.np
 0.0.0.0 photonasty.ru
 0.0.0.0 photonemissionn.xyz
@@ -414766,7 +414761,6 @@
 0.0.0.0 physics.uctm.edu
 0.0.0.0 physicsashok.com
 0.0.0.0 physicsbeckons.com
-0.0.0.0 physicsbyfiziks.org
 0.0.0.0 physimath.com
 0.0.0.0 physio-roesch.de
 0.0.0.0 physiology-anatomy.seo-florida.com
@@ -426841,6 +426835,7 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -466195,7 +466190,6 @@
 0.0.0.0 skmahaboob7865.github.io
 0.0.0.0 skocz.pl
 0.0.0.0 skoet.com.cn
-0.0.0.0 skolazasisanjepasa.com
 0.0.0.0 skonhed.pro
 0.0.0.0 skorgg.gxaeasz.es
 0.0.0.0 skort.dedspac.ru
@@ -472952,7 +472946,6 @@
 0.0.0.0 sullbjectivity.info
 0.0.0.0 sulphotannic.yazibo.ru
 0.0.0.0 sultan-raza.github.io
-0.0.0.0 sultanaexecutive.com
 0.0.0.0 sultanajshjdjsd.vercel.app
 0.0.0.0 sultano25.blogspot.be
 0.0.0.0 sultano25.blogspot.co.nz
@@ -474734,7 +474727,6 @@
 0.0.0.0 tab.dedspac.ru
 0.0.0.0 tab.dellrescue.com
 0.0.0.0 tab.myreserp.com
-0.0.0.0 tabak.hr
 0.0.0.0 tabby.dedspac.ru
 0.0.0.0 tabby.virosat.ru
 0.0.0.0 tabegroup.nl
@@ -476313,7 +476305,6 @@
 0.0.0.0 telecisxsu.work
 0.0.0.0 telecom-info.com
 0.0.0.0 telecom.taskfido.com
-0.0.0.0 teleconcepts.net
 0.0.0.0 teleconicp.club
 0.0.0.0 teleconicp.shop
 0.0.0.0 teledarkwt.cyou
@@ -478905,7 +478896,6 @@
 0.0.0.0 tog.bortogat.ru
 0.0.0.0 toga.dedspac.ru
 0.0.0.0 toga.ulitron.ru
-0.0.0.0 togethers.tv
 0.0.0.0 toggletools.com
 0.0.0.0 toglimanom.store
 0.0.0.0 togo-studio.com
@@ -482494,7 +482484,6 @@
 0.0.0.0 tvip.pdurg.cn
 0.0.0.0 tvip.ysbkz.com
 0.0.0.0 tvk.tpx.mybluehost.me
-0.0.0.0 tvkladovo.com
 0.0.0.0 tvmds.tvpassport.com
 0.0.0.0 tvmoviespoilers.com
 0.0.0.0 tvn.adocean.pl
@@ -487212,7 +487201,6 @@
 0.0.0.0 vekb.kmxuengka.sbs
 0.0.0.0 vekqodovanfxiugmicjypf-svfe9-h10sau.vercel.app
 0.0.0.0 vekstdynamikai.net
-0.0.0.0 vektorex.com
 0.0.0.0 vela.iad-01.braze.com
 0.0.0.0 velacrecianza.net
 0.0.0.0 velal.dedspac.ru
@@ -511504,7 +511492,6 @@
 0.0.0.0 www.sitioattic.store
 0.0.0.0 www.sitononraggiungibile.it
 0.0.0.0 www.siuuvamoess.vercel.app
-0.0.0.0 www.sivritepeinsaat.com
 0.0.0.0 www.sixsigmatraffic.com
 0.0.0.0 www.sizecart.com
 0.0.0.0 www.sizeer.actionone.sbs
