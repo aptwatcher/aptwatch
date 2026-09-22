@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-22 12:37:15
-# Entries: 520185
+# Generated: 2026-09-22 18:36:39
+# Entries: 520194
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -54805,6 +54805,7 @@
 0.0.0.0 adcel.vrvm.com
 0.0.0.0 adcell.de
 0.0.0.0 adcenter.net
+0.0.0.0 adcentral.com.mx
 0.0.0.0 adcentre.it-advanced.com
 0.0.0.0 adcentric.randomseed.com
 0.0.0.0 adcentriconline.com
@@ -79442,6 +79443,7 @@
 0.0.0.0 amc-chse.com
 0.0.0.0 amc-con.net
 0.0.0.0 amc-destaques.com
+0.0.0.0 amc-us.mprevive.com
 0.0.0.0 amc.kprint.us
 0.0.0.0 amc0.com
 0.0.0.0 amcalterraglobalprod.112.2o7.net
@@ -190353,6 +190355,7 @@
 0.0.0.0 crazyindiandeals.com
 0.0.0.0 crazyjeeps.com
 0.0.0.0 crazyjellyfish.com
+0.0.0.0 crazypianoswebshop.nl
 0.0.0.0 crazypopups.com
 0.0.0.0 crazyprotocol.com
 0.0.0.0 crazyspicyangels.000webhostapp.com
@@ -279312,6 +279315,7 @@
 0.0.0.0 helpdesk.itupdates.support
 0.0.0.0 helpdesk.paladinsecurity.com
 0.0.0.0 helpdesk.randevupanzio.ro
+0.0.0.0 helpdesk09-26.com
 0.0.0.0 helpdeskbrhr.weebly.com
 0.0.0.0 helpdeskbtwebmail.weebly.com
 0.0.0.0 helpdeskconnecting.com
@@ -280797,6 +280801,7 @@
 0.0.0.0 hht.nfp.mybluehost.me
 0.0.0.0 hht07.gq
 0.0.0.0 hhtds.blogspot.com
+0.0.0.0 hhtdyj.com
 0.0.0.0 hhtfx.blogspot.com
 0.0.0.0 hhtfx.blogspot.lu
 0.0.0.0 hhtfx.blogspot.ug
@@ -353398,6 +353403,7 @@
 0.0.0.0 masterofdev.com
 0.0.0.0 masterofdigital.org
 0.0.0.0 masterpcec.com
+0.0.0.0 masterplasticpack.com
 0.0.0.0 masterplasticsurgeon.com
 0.0.0.0 masterpo.uber.space
 0.0.0.0 masterresalerights.com
@@ -363862,7 +363868,6 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
-0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -365204,6 +365209,7 @@
 0.0.0.0 miaungcqbf.duckdns.org
 0.0.0.0 miawb.top
 0.0.0.0 mib.dedspac.ru
+0.0.0.0 mibd.org
 0.0.0.0 mibell.vercel.app
 0.0.0.0 mibii1t.com
 0.0.0.0 mibowi-sayifi.info
@@ -393843,6 +393849,7 @@
 0.0.0.0 obe.dedspac.ru
 0.0.0.0 obeah.dedspac.ru
 0.0.0.0 obeah.ulitron.ru
+0.0.0.0 obearo.com
 0.0.0.0 obecimso.net
 0.0.0.0 obedient-kitten.static.domains
 0.0.0.0 obedientially.bortogat.ru
@@ -396622,7 +396629,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -414532,6 +414538,7 @@
 0.0.0.0 photolease.agencyprojects.com
 0.0.0.0 photolikerfb.xyz
 0.0.0.0 photoline-test.kht.ru
+0.0.0.0 photolivebook.pro
 0.0.0.0 photomilan.com.np
 0.0.0.0 photonasty.ru
 0.0.0.0 photonemissionn.xyz
@@ -426835,7 +426842,6 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
-0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -473668,6 +473674,7 @@
 0.0.0.0 surprising-local-manage-business-id.vercel.app
 0.0.0.0 surra.dedspac.ru
 0.0.0.0 surrounded-fine-advise-tiger.trycloudflare.com
+0.0.0.0 surun.info
 0.0.0.0 surutu.ru
 0.0.0.0 survarium.fr
 0.0.0.0 survata.com
@@ -479595,6 +479602,7 @@
 0.0.0.0 traazjirio-stiart.webflow.io
 0.0.0.0 trabalhistadigital.com.br
 0.0.0.0 trablino.vercel.app
+0.0.0.0 trabzonmegareklamllc.shop
 0.0.0.0 traccattri.cyou
 0.0.0.0 trace.690.co
 0.0.0.0 trace.qq.com
@@ -488839,6 +488847,7 @@
 0.0.0.0 vivanarcha.store
 0.0.0.0 vivantis.1day-sk.shop
 0.0.0.0 vivantis.cosibellapl-co.com
+0.0.0.0 vivantis.cosmetica-sale.com
 0.0.0.0 vivantis.cupio.it.com
 0.0.0.0 vivantis.edeka24salede24.top
 0.0.0.0 vivantis.ejnl.shop
