@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-23 06:38:27
-# Entries: 520202
+# Generated: 2026-09-23 12:36:57
+# Entries: 520206
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -154633,6 +154633,7 @@
 0.0.0.0 brassy-violet-subway-adsfghnmj.glitch.me
 0.0.0.0 brat.com.br
 0.0.0.0 brat.dedspac.ru
+0.0.0.0 bratarfood.com
 0.0.0.0 bratseg.com.br
 0.0.0.0 bratseth.ru
 0.0.0.0 brattcepha.store
@@ -162830,6 +162831,7 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -180900,6 +180902,7 @@
 0.0.0.0 codeads.com
 0.0.0.0 codeakio.github.io
 0.0.0.0 codeandwork.pl
+0.0.0.0 codeassociates.co.ke
 0.0.0.0 codebiogblog.com
 0.0.0.0 codebox.jabont.com
 0.0.0.0 codebrainf.vercel.app
@@ -201295,6 +201298,7 @@
 0.0.0.0 delt.ulitron.ru
 0.0.0.0 delta-auth-ndax-nav.webflow.io
 0.0.0.0 delta-bravo36db.de
+0.0.0.0 delta-canvas.com
 0.0.0.0 delta-control.es
 0.0.0.0 delta-haven.pages.dev
 0.0.0.0 delta-hydraulic.com
@@ -211998,7 +212002,6 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
-0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -242815,6 +242818,7 @@
 0.0.0.0 fictionally.yazibo.ru
 0.0.0.0 fictionfate.com
 0.0.0.0 ficultol.com
+0.0.0.0 ficus.in
 0.0.0.0 ficus.ulitron.ru
 0.0.0.0 fid-eiity.qpon
 0.0.0.0 fid-elitpmcik.shop
@@ -258195,7 +258199,6 @@
 0.0.0.0 geny83h92.atwebpages.com
 0.0.0.0 genys.dedspac.ru
 0.0.0.0 genys.virosat.ru
-0.0.0.0 geo-foundation.vg
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 geo.adobe.com
@@ -263046,7 +263049,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -297181,7 +297183,6 @@
 0.0.0.0 inic-suc-si.dianacorre.repl.co
 0.0.0.0 inicial-instagram.vercel.app
 0.0.0.0 iniciamossegu.webcindario.com
-0.0.0.0 iniciaonline.com
 0.0.0.0 iniciar-id98230.zya.me
 0.0.0.0 iniciar-sesion-pers0nas.redwebhost.com
 0.0.0.0 iniciar-sesion12.webcindario.com
@@ -321353,6 +321354,7 @@
 0.0.0.0 korelanos.za.com
 0.0.0.0 koremarka.ru
 0.0.0.0 koretherwallet.com
+0.0.0.0 korexnode.xyz
 0.0.0.0 korfezbirlik.com
 0.0.0.0 korfezhali.com
 0.0.0.0 korfo.org
@@ -350389,6 +350391,7 @@
 0.0.0.0 makemathfun.us
 0.0.0.0 makemeheal.us.intellitxt.com
 0.0.0.0 makemelogs.ga
+0.0.0.0 makemewin.club
 0.0.0.0 makemeyourradio.com
 0.0.0.0 makemillion.website.ytwwrntym.com
 0.0.0.0 makemillions.pw.ytwwrntym.com
@@ -363873,6 +363876,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -382886,7 +382890,6 @@
 0.0.0.0 neil033-design.github.io
 0.0.0.0 neilblack.co.uk.usrfiles.com
 0.0.0.0 neilmacqueen.com
-0.0.0.0 neilshairdressers.co.uk
 0.0.0.0 neilweller11.wixsite.com
 0.0.0.0 neim.strametyapi.com
 0.0.0.0 neimali.ga
@@ -392488,7 +392491,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -396636,6 +396638,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -472396,6 +472399,7 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamoptcelexa.net
 0.0.0.0 streamsyseprex.net
