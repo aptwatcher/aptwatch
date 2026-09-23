@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-23 06:07:59
-# Entries: 520201
+# Generated: 2026-09-23 06:38:27
+# Entries: 520202
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -297181,6 +297181,7 @@
 0.0.0.0 inic-suc-si.dianacorre.repl.co
 0.0.0.0 inicial-instagram.vercel.app
 0.0.0.0 iniciamossegu.webcindario.com
+0.0.0.0 iniciaonline.com
 0.0.0.0 iniciar-id98230.zya.me
 0.0.0.0 iniciar-sesion-pers0nas.redwebhost.com
 0.0.0.0 iniciar-sesion12.webcindario.com
@@ -363872,7 +363873,6 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
-0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -464803,6 +464803,7 @@
 0.0.0.0 shipgratis.eu
 0.0.0.0 shipment234.vercel.app
 0.0.0.0 shipment324.vercel.app
+0.0.0.0 shipminttracking.net
 0.0.0.0 shiporama.com
 0.0.0.0 shipping-arch-support-sura.vercel.app
 0.0.0.0 shipping-local-ads-manage-idd153248.vercel.app
