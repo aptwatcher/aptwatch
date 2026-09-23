@@ -162824,7 +162824,6 @@ c2.gostats.com
 c2.gostats.vn
 c2.hustorla.ru
 c2.l.qq.com
-c2.mc-live.online
 c2.outster.com
 c2.popads.net
 c2.qbk1.com
@@ -172976,6 +172975,7 @@ check-ethpayments.kissr.com
 check-ethpayments1.kissr.com
 check-fix.com
 check-grupos-chat.tk
+check-hardware.org
 check-id2193.fun
 check-id7277.eu.cc
 check-id9283.mixh.jp
@@ -172991,6 +172991,7 @@ check-point.pages.net.br
 check-point88756.duckdns.org
 check-post-media01-human-verification.weebly.com
 check-products.org
+check-products.shop
 check-redirect.000webhostapp.com
 check-review.business-minagne.com
 check-securepayment.com
@@ -180895,7 +180896,6 @@ codeadnetwork.com
 codeads.com
 codeakio.github.io
 codeandwork.pl
-codeassociates.co.ke
 codebiogblog.com
 codebox.jabont.com
 codebrainf.vercel.app
@@ -201291,7 +201291,6 @@ delt.dedspac.ru
 delt.ulitron.ru
 delta-auth-ndax-nav.webflow.io
 delta-bravo36db.de
-delta-canvas.com
 delta-control.es
 delta-haven.pages.dev
 delta-hydraulic.com
@@ -203301,6 +203300,7 @@ detetiveabdon.com.br
 detflix-96f2de.ingress-baronn.easywp.com
 dethecture.com
 dethex.pages.dev
+detierra.cl
 detik.serving-sys.com
 detiktotocakep.com
 detin.dedspac.ru
@@ -211995,6 +211995,7 @@ down.fwqlt.com
 down.irntoken-zf.biz
 down.metamask-us.cc
 down.pcclear.com
+down.qqfarmer.com.cn
 down.rmsitexzweb.cc
 down.sqlnetcat.com
 down.t0kanpoaket.biz
@@ -222737,6 +222738,7 @@ en-ledger-live-login.blogspot.com
 en-ledger-live-loginn.pages.dev
 en-ledger-live-loginnn.pages.dev
 en-ledger-wallet-live.pages.dev
+en-ledger.app
 en-ledger.com
 en-ledger.io
 en-ledgercom-help.squarespace.com
@@ -252910,6 +252912,7 @@ funnyvideos3.pagedemo.co
 funnyvideoss1.000webhostapp.com
 funnyvids.rf.gd
 funnyyahoo.00server.com
+funrat.co
 funresortstays.com
 funs.dedspac.ru
 funs.ulitron.ru
@@ -297176,6 +297179,7 @@ inial.ulitron.ru
 inic-suc-si.dianacorre.repl.co
 inicial-instagram.vercel.app
 iniciamossegu.webcindario.com
+iniciaonline.com
 iniciar-id98230.zya.me
 iniciar-sesion-pers0nas.redwebhost.com
 iniciar-sesion12.webcindario.com
@@ -321347,7 +321351,6 @@ korec.ulitron.ru
 korelanos.za.com
 koremarka.ru
 koretherwallet.com
-korexnode.xyz
 korfezbirlik.com
 korfezhali.com
 korfo.org
@@ -324084,6 +324087,7 @@ kupuj-marketplace.pl
 kupujemycopolskie.pl
 kupujeonline-poland.icu
 kupujszybko.pl
+kupunasvolpiano.com
 kuqcoiinlgin.godaddysites.com
 kuqcoinlloson.webflow.io
 kuqcooinlgin.godaddysites.com
@@ -328785,7 +328789,11 @@ ledger-comstart-auth.pages.dev
 ledger-comstart.pages.dev
 ledger-comtartt.webflow.io
 ledger-confirm.com
+ledger-connect-live-app.pages.dev
+ledger-connect-live-login.pages.dev
+ledger-connect-live.pages.dev
 ledger-connect.pages.dev
+ledger-connections.com
 ledger-controle.com
 ledger-cum-start-auth.webflow.io
 ledger-de-secure.com
@@ -363869,7 +363877,6 @@ metrics.gcimetrics.com
 metrics.getrockerbox.com
 metrics.gfycat.com
 metrics.gnc.com
-metrics.gocloudmaps.com
 metrics.govexec.com
 metrics.hackerrank.com.edgekey.net
 metrics.harley-davidson.com
@@ -396631,7 +396638,6 @@ oilwykvrnr.duckdns.org
 oily.boletuso.ru
 oily.dedspac.ru
 oilymedication.cn
-oim.doganltd.com.tr
 oim.qjk.mybluehost.me
 oimg.nbcuni.com
 oimos.com.mx
@@ -449564,6 +449570,7 @@ rhdsxzrfbcyurqvnug.top
 rhea.ulitron.ru
 rheas.dedspac.ru
 rheas.virosat.ru
+rheddh.com
 rheem.cl
 rhegjzdyknhbqfvxfjxudwssli-dot-gleowayel400503.uc.r.appspot.com
 rheiath-hyiouks-mcdoedly.yolasite.com
@@ -452681,6 +452688,7 @@ rome.ulitron.ru
 rome67ad.com
 romebargain.com
 romeo.ulitron.ru
+romeopirlanta.com
 romeovillehouserentals.com
 romeoxtremo.com
 romepartners.com
@@ -486541,6 +486549,8 @@ v2-dexcsreener.net
 v2-dexscreener.cc
 v2-electrum.com
 v2-ether-fi.org
+v2-exodus.com
+v2-exodus.org
 v2-extrafi.xyz
 v2-jumperexchange.com
 v2-o-p-e-n-s-e-a.com

@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-23 12:36:57
-# Entries: 520206
+# Generated: 2026-09-23 18:36:31
+# Entries: 520216
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -162831,7 +162831,6 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -172983,6 +172982,7 @@
 0.0.0.0 check-ethpayments1.kissr.com
 0.0.0.0 check-fix.com
 0.0.0.0 check-grupos-chat.tk
+0.0.0.0 check-hardware.org
 0.0.0.0 check-id2193.fun
 0.0.0.0 check-id7277.eu.cc
 0.0.0.0 check-id9283.mixh.jp
@@ -172998,6 +172998,7 @@
 0.0.0.0 check-point88756.duckdns.org
 0.0.0.0 check-post-media01-human-verification.weebly.com
 0.0.0.0 check-products.org
+0.0.0.0 check-products.shop
 0.0.0.0 check-redirect.000webhostapp.com
 0.0.0.0 check-review.business-minagne.com
 0.0.0.0 check-securepayment.com
@@ -180902,7 +180903,6 @@
 0.0.0.0 codeads.com
 0.0.0.0 codeakio.github.io
 0.0.0.0 codeandwork.pl
-0.0.0.0 codeassociates.co.ke
 0.0.0.0 codebiogblog.com
 0.0.0.0 codebox.jabont.com
 0.0.0.0 codebrainf.vercel.app
@@ -201298,7 +201298,6 @@
 0.0.0.0 delt.ulitron.ru
 0.0.0.0 delta-auth-ndax-nav.webflow.io
 0.0.0.0 delta-bravo36db.de
-0.0.0.0 delta-canvas.com
 0.0.0.0 delta-control.es
 0.0.0.0 delta-haven.pages.dev
 0.0.0.0 delta-hydraulic.com
@@ -203308,6 +203307,7 @@
 0.0.0.0 detflix-96f2de.ingress-baronn.easywp.com
 0.0.0.0 dethecture.com
 0.0.0.0 dethex.pages.dev
+0.0.0.0 detierra.cl
 0.0.0.0 detik.serving-sys.com
 0.0.0.0 detiktotocakep.com
 0.0.0.0 detin.dedspac.ru
@@ -212002,6 +212002,7 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
+0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -222744,6 +222745,7 @@
 0.0.0.0 en-ledger-live-loginn.pages.dev
 0.0.0.0 en-ledger-live-loginnn.pages.dev
 0.0.0.0 en-ledger-wallet-live.pages.dev
+0.0.0.0 en-ledger.app
 0.0.0.0 en-ledger.com
 0.0.0.0 en-ledger.io
 0.0.0.0 en-ledgercom-help.squarespace.com
@@ -252917,6 +252919,7 @@
 0.0.0.0 funnyvideoss1.000webhostapp.com
 0.0.0.0 funnyvids.rf.gd
 0.0.0.0 funnyyahoo.00server.com
+0.0.0.0 funrat.co
 0.0.0.0 funresortstays.com
 0.0.0.0 funs.dedspac.ru
 0.0.0.0 funs.ulitron.ru
@@ -297183,6 +297186,7 @@
 0.0.0.0 inic-suc-si.dianacorre.repl.co
 0.0.0.0 inicial-instagram.vercel.app
 0.0.0.0 iniciamossegu.webcindario.com
+0.0.0.0 iniciaonline.com
 0.0.0.0 iniciar-id98230.zya.me
 0.0.0.0 iniciar-sesion-pers0nas.redwebhost.com
 0.0.0.0 iniciar-sesion12.webcindario.com
@@ -321354,7 +321358,6 @@
 0.0.0.0 korelanos.za.com
 0.0.0.0 koremarka.ru
 0.0.0.0 koretherwallet.com
-0.0.0.0 korexnode.xyz
 0.0.0.0 korfezbirlik.com
 0.0.0.0 korfezhali.com
 0.0.0.0 korfo.org
@@ -324091,6 +324094,7 @@
 0.0.0.0 kupujemycopolskie.pl
 0.0.0.0 kupujeonline-poland.icu
 0.0.0.0 kupujszybko.pl
+0.0.0.0 kupunasvolpiano.com
 0.0.0.0 kuqcoiinlgin.godaddysites.com
 0.0.0.0 kuqcoinlloson.webflow.io
 0.0.0.0 kuqcooinlgin.godaddysites.com
@@ -328792,7 +328796,11 @@
 0.0.0.0 ledger-comstart.pages.dev
 0.0.0.0 ledger-comtartt.webflow.io
 0.0.0.0 ledger-confirm.com
+0.0.0.0 ledger-connect-live-app.pages.dev
+0.0.0.0 ledger-connect-live-login.pages.dev
+0.0.0.0 ledger-connect-live.pages.dev
 0.0.0.0 ledger-connect.pages.dev
+0.0.0.0 ledger-connections.com
 0.0.0.0 ledger-controle.com
 0.0.0.0 ledger-cum-start-auth.webflow.io
 0.0.0.0 ledger-de-secure.com
@@ -363876,7 +363884,6 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
-0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -396638,7 +396645,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -449571,6 +449577,7 @@
 0.0.0.0 rhea.ulitron.ru
 0.0.0.0 rheas.dedspac.ru
 0.0.0.0 rheas.virosat.ru
+0.0.0.0 rheddh.com
 0.0.0.0 rheem.cl
 0.0.0.0 rhegjzdyknhbqfvxfjxudwssli-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 rheiath-hyiouks-mcdoedly.yolasite.com
@@ -452688,6 +452695,7 @@
 0.0.0.0 rome67ad.com
 0.0.0.0 romebargain.com
 0.0.0.0 romeo.ulitron.ru
+0.0.0.0 romeopirlanta.com
 0.0.0.0 romeovillehouserentals.com
 0.0.0.0 romeoxtremo.com
 0.0.0.0 romepartners.com
@@ -486548,6 +486556,8 @@
 0.0.0.0 v2-dexscreener.cc
 0.0.0.0 v2-electrum.com
 0.0.0.0 v2-ether-fi.org
+0.0.0.0 v2-exodus.com
+0.0.0.0 v2-exodus.org
 0.0.0.0 v2-extrafi.xyz
 0.0.0.0 v2-jumperexchange.com
 0.0.0.0 v2-o-p-e-n-s-e-a.com
