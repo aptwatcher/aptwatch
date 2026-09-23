@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-22 18:36:39
-# Entries: 520194
+# Generated: 2026-09-23 00:36:46
+# Entries: 520202
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -103513,6 +103513,7 @@
 0.0.0.0 astragold.org
 0.0.0.0 astragoldshop.com
 0.0.0.0 astragroup-info.azurewebsites.net
+0.0.0.0 astraia.co.za
 0.0.0.0 astrakanastrakanastrakan-fad218.ingress-alpha.ewp.live
 0.0.0.0 astrakhan-news.net
 0.0.0.0 astral-core.pages.dev
@@ -135497,6 +135498,7 @@
 0.0.0.0 baseprocoinlogen.gitbook.io
 0.0.0.0 baseprocoins.gitbook.io
 0.0.0.0 baseprouloegin.gitbook.io
+0.0.0.0 basequill9.com
 0.0.0.0 baser.virosat.ru
 0.0.0.0 baserestore-pageweb.live
 0.0.0.0 bases-concurso.ucv.edu.pe
@@ -168866,7 +168868,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -179317,7 +179318,6 @@
 0.0.0.0 cn.bemxpq.com
 0.0.0.0 cn.bomxpw.com
 0.0.0.0 cn.clickable.net
-0.0.0.0 cn.devglobal.biz
 0.0.0.0 cn.ecritel.bench.cedexis.com
 0.0.0.0 cn.edu688.com
 0.0.0.0 cn.elitoras.ru
@@ -191211,6 +191211,7 @@
 0.0.0.0 crocious.ru
 0.0.0.0 crock.virosat.ru
 0.0.0.0 crockerykart.in
+0.0.0.0 croco.cx
 0.0.0.0 crocodilefg.top
 0.0.0.0 crocodilepaintbooth.com
 0.0.0.0 crocodilus.xyz
@@ -248703,7 +248704,6 @@
 0.0.0.0 forgetful-districts.000webhostapp.com
 0.0.0.0 forgetis-001-site1.gtempurl.com
 0.0.0.0 forgetskinny.xyz
-0.0.0.0 forgewillow.com
 0.0.0.0 forggbgvyc.duckdns.org
 0.0.0.0 forgivemeforwhoiam.pages.dev
 0.0.0.0 forgiving-star-868716.framer.app
@@ -280288,6 +280288,7 @@
 0.0.0.0 hezpeknpvjlyblrqmhmifvjjre-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 hezuddettace-3240.vercel.app
 0.0.0.0 hezxcsa.blogspot.com
+0.0.0.0 hf-offshores.cc
 0.0.0.0 hf.gvdax.serenalebbolo.it
 0.0.0.0 hf.hustorla.ru
 0.0.0.0 hf1o9gdj4.top
@@ -351179,6 +351180,7 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
+0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarria5daleeeee.000webhostapp.com
@@ -363868,6 +363870,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -365048,6 +365051,7 @@
 0.0.0.0 mhlzvwxzmcawuqqvjzlrrezlmu-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 mhmarkets.click
 0.0.0.0 mhmedicalinstitute.in
+0.0.0.0 mhmehadi.top
 0.0.0.0 mhminnovations.com-q2afvh5aoosizsnha9xs.q2afvh5aoosizsnha9xs.manxttrider.com
 0.0.0.0 mhmrntddrnnzuqtizixmyxbirz-dot-gle39404049.rj.r.appspot.com
 0.0.0.0 mhmwypnighdwotsj-dot-millinium.ey.r.appspot.com
@@ -382880,6 +382884,7 @@
 0.0.0.0 neil033-design.github.io
 0.0.0.0 neilblack.co.uk.usrfiles.com
 0.0.0.0 neilmacqueen.com
+0.0.0.0 neilshairdressers.co.uk
 0.0.0.0 neilweller11.wixsite.com
 0.0.0.0 neim.strametyapi.com
 0.0.0.0 neimali.ga
@@ -474941,6 +474946,7 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
+0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -475750,7 +475756,6 @@
 0.0.0.0 tauflot.ru
 0.0.0.0 taula.dedspac.ru
 0.0.0.0 taun.dedspac.ru
-0.0.0.0 taunahi.client.farm
 0.0.0.0 taunahi.st
 0.0.0.0 taunt.virosat.ru
 0.0.0.0 tauon.virosat.ru
@@ -490880,6 +490885,7 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -518443,6 +518449,7 @@
 0.0.0.0 yo.bortogat.ru
 0.0.0.0 yo.iilaycc.com
 0.0.0.0 yoads.net
+0.0.0.0 yoauction.com
 0.0.0.0 yob.amaniwa.ru
 0.0.0.0 yob.ulitron.ru
 0.0.0.0 yobbo.virosat.ru
@@ -519112,6 +519119,7 @@
 0.0.0.0 zalukajfilmy.pl
 0.0.0.0 zaluknij-tv.pl
 0.0.0.0 zaluknij.pl
+0.0.0.0 zaluposs.com
 0.0.0.0 zaluvon-nexiroq.pages.dev
 0.0.0.0 zamaniwa.ru
 0.0.0.0 zamaniwa.zanulor.ru
@@ -519156,6 +519164,7 @@
 0.0.0.0 zan.bortogat.ru
 0.0.0.0 zan.dedspac.ru
 0.0.0.0 zanaflex.1.p2l.info
+0.0.0.0 zanderrealestate.com
 0.0.0.0 zandona.com.au
 0.0.0.0 zaneklumetrixonhub.com
 0.0.0.0 zaneklumetrixonspace.pro
@@ -519572,7 +519581,6 @@
 0.0.0.0 zhongchuangzhuli.com
 0.0.0.0 zhongning.pilot45.com
 0.0.0.0 zhongshan.pilot45.com
-0.0.0.0 zhostz.com
 0.0.0.0 zhoukangstone.com
 0.0.0.0 zhovrantek-italy.com
 0.0.0.0 zhovrantek-netherlands.com
