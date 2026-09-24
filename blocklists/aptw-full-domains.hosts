@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-24 06:08:10
-# Entries: 520467
+# Generated: 2026-09-24 06:38:38
+# Entries: 520468
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -168329,6 +168329,7 @@
 0.0.0.0 ccmnllnss.com
 0.0.0.0 ccmptpacvpvtavhdbxppvbwfqtaqxatvudhhjazq.pingyiao88.cn
 0.0.0.0 ccmxarfkpeqhsokd-dot-millinium.ey.r.appspot.com
+0.0.0.0 ccn.fdstat.vip
 0.0.0.0 ccn2.vn
 0.0.0.0 ccnetworksllc.com
 0.0.0.0 ccnfh.blogspot.tw
@@ -187927,7 +187928,6 @@
 0.0.0.0 coralinvertia.net
 0.0.0.0 corallz.com
 0.0.0.0 coralon.com
-0.0.0.0 coralpac.com
 0.0.0.0 coralpatrimivo.net
 0.0.0.0 coraltradix.net
 0.0.0.0 coralvaulhaven.net
@@ -188544,7 +188544,6 @@
 0.0.0.0 cote.vadilops.ru
 0.0.0.0 coteaqui.planosparavc.com.br
 0.0.0.0 coteassetage.net
-0.0.0.0 cotecsecuritygroup.com
 0.0.0.0 coted.vadilops.ru
 0.0.0.0 cotem-add.web.app
 0.0.0.0 cotes.vadilops.ru
@@ -252661,6 +252660,7 @@
 0.0.0.0 fullgrown.zapto.org
 0.0.0.0 fullindianxxdx-pro.azurewebsites.net
 0.0.0.0 fullindopepe1.duckdns.org
+0.0.0.0 fullinstall.sbs
 0.0.0.0 fulljhuri.com
 0.0.0.0 fulljpnmovie.duckdns.org
 0.0.0.0 fulllengthmirrors.net
@@ -426904,6 +426904,7 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
