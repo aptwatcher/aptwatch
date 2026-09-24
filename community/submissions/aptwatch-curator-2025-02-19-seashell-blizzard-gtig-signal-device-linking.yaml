@@ -1,0 +1,97 @@
+author: APTWatch Curator
+source: https://cloud.google.com/blog/topics/threat-intelligence/russia-targeting-signal-messenger/
+
+source_name: "GTIG + CERT-UA + FBI/IC3 - Russian intelligence services targeting Signal messenger"
+
+apt_groups:
+  - Seashell Blizzard
+  - Sandworm
+  - APT44
+  - Secret Blizzard
+  - Turla
+  - Star Blizzard
+  - Storm-0257
+  - UNC1151
+  - UNC5792
+  - UNC4221
+  - UAC-0200
+
+description: >
+  Google Threat Intelligence Group report "Signals of Trouble" of February
+  19, 2025 documents a cluster of Russia state-aligned threat actors
+  targeting Signal Messenger accounts of individuals of interest to
+  Russia's intelligence services, primarily Ukrainian military personnel,
+  government officials, journalists and activists. Core technique is abuse
+  of Signal's legitimate "Linked Devices" feature via malicious QR codes -
+  fake group invites, fake security alerts and fake device-pairing pages
+  whose JavaScript replaces the normal group redirect with the
+  device-linking URI scheme sgnl slash slash linkdevice, silently pairing
+  the victim account to an actor-controlled Signal instance for persistent
+  real-time message interception. Candidate MITRE ATT and CK in prose -
+  T1566 phishing, T1204.002 user execution of malicious file, T1071.001
+  web protocols C2, T1005 slash T1041 local data collection and
+  exfiltration of Signal Desktop databases. Actors and attribution per
+  GTIG - APT44 aka Sandworm slash Seashell Blizzard, attributed by
+  multiple governments to GRU GTsST, conducts close-access device-linking
+  of Signal accounts on battlefield-captured devices to a dynamically
+  generated QR provisioning endpoint at 150.107.31.194 on port 18000, and
+  operates the WAVESIGN Windows batch script exfiltrating Signal databases
+  via Rclone, plus the Infamous Chisel Android malware. Suspected Russian
+  cluster UNC5792, partially overlapping CERT-UA UAC-0195, hosts modified
+  Signal group invites on the signal-themed phishing domains in the
+  domains table. UNC4221, tracked by CERT-UA as UAC-0185, runs a phishing
+  kit mimicking the Ukrainian military Kropyva artillery-guidance
+  application, including the teneta and kropyva themed domains, and
+  deploys the PINPOINT JavaScript geolocation profiler. Turla, attributed
+  by the US and UK to FSB Center 16, uses a post-compromise PowerShell
+  script to stage Signal Desktop messages, and Belarus-linked UNC1151 aka
+  Storm-0257 slash Ghostwriter uses Robocopy to stage Signal Desktop
+  directories. GTIG also points to the related COLDRIVER slash Star
+  Blizzard campaign abusing WhatsApp linked devices. Companion sources -
+  FBI slash CISA PSA I-062626 of June 26, 2026, an update to PSA
+  I-032026, confirms ongoing Russian Intelligence Services phishing
+  against commercial messaging application accounts publicly tracked as
+  UNC5792 and UNC4221, with evolved elicitation of victims' Backup
+  Recovery Keys, verification codes and PINs by actors masquerading as
+  automated Signal support; and CERT-UA alert 14045 of March 18, 2025
+  covering UAC-0200 delivering the DarkTortilla loader and Dark Crystal
+  RAT DCRAT through Signal messages themed around UAVs and electronic
+  warfare, activity ongoing since June 2024, also covered by
+  BleepingComputer and SOC Prime. Atomic indicators below are exclusively
+  from the GTIG report - CERT-UA 14045 raw IOCs could not be retrieved,
+  the page is client-side rendered and the fallback sources publish no
+  atomic indicators, so no UAC-0200 IOCs are included. Hashes published by
+  GTIG, recorded in prose as the schema has no hash table - MD5
+  e078778b62796bab2d7ab2b04d6b01bf, an example altered group invite HTML,
+  and three MD5s for WAVESIGN batch scripts, a97a28276e4f88134561d938f60db495,
+  b379d8f583112cad3cf60f95ab3a67fd and b27ff24870d93d651ee1d8e06276fa98.
+  Flagged by STTR Defender watch skill, 2026-07-03 slash 2026-07-06 runs.
+
+ipv4:
+  - 150.107.31.194
+
+domains:
+  - add-signal-group.com
+  - add-signal-groups.com
+  - group-signal.com
+  - groups-signal.site
+  - signal-device-off.online
+  - signal-group-add.com
+  - signal-group.site
+  - signal-group.tech
+  - signal-groups-add.com
+  - signal-groups.site
+  - signal-groups.tech
+  - signal-security.online
+  - signal-security.site
+  - signalgroup.site
+  - signals-group.com
+  - signal-confirm.site
+  - confirm-signal.site
+  - signal-protect.host
+  - teneta.join-group.online
+  - teneta.add-group.site
+  - group-teneta.online
+  - helperanalytics.ru
+  - teneta.group
+  - group.kropyva.site

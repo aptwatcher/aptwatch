@@ -1,0 +1,277 @@
+author: APTWatch Curator
+source: https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/
+
+source_name: "Microsoft MSTIC + DCU - EvilTokens device-code phishing service takedown (Storm-2992)"
+
+apt_groups:
+  - Storm-2372
+  - Storm-2992
+  - device-code phishing
+
+description: >
+  On September 22, 2026, Microsoft's Digital Crimes Unit, Health-ISAC and the
+  London Metropolitan Police Service announced the coordinated disruption of
+  EvilTokens, a phishing-as-a-service platform specialized in Microsoft device-code
+  phishing (MITRE ATT&CK candidate T1528 steal application access token via
+  device code authentication flow, T1566 phishing). Microsoft Threat Intelligence
+  attributes the development and support of the EvilTokens kit to the actor it
+  tracks as Storm-2992; the campaign continues the device-code phishing tradecraft
+  tracked in this repository under Storm-2372 (EvilTokens was previously ingested
+  under that actor from the April 2026 Microsoft reporting). Active since February
+  2026, EvilTokens was linked to more than 12,000 compromised email inboxes across
+  over 10,000 organizations worldwide, with highest victim concentrations in the
+  United States, Canada, the United Kingdom, Australia, India and France, across
+  wholesale distribution, construction, financial services, real estate, higher
+  education and healthcare. Victims were tricked into entering an attacker-supplied
+  device code on Microsoft's legitimate sign-in page, silently granting the criminals
+  MFA-bypassing session tokens that could persist after password reset if sessions
+  and tokens were not revoked (T1550.001 candidate, use of stolen tokens). The
+  service embedded an AI chatbot that analyzed compromised inboxes to select fraud
+  targets, trusted contacts to impersonate, and fraud strategies - Microsoft DCU's
+  first court-authorized action (its 40th overall) against an end-to-end AI-enabled
+  cybercrime service. Microsoft observed 10 to 15 distinct campaigns launched every
+  24 hours since March 15, 2026. Disruption: 50 control-panel websites seized and
+  more than 150 additional supporting domains disabled under a TRO from the US
+  District Court, Eastern District of Virginia (civil action 1:26-cv-3047, defendants
+  Felix Utomi and Waidi Segun Adams, both arrested September 18, 2026 by the Met);
+  partners included Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver
+  Foundation and TRM Labs. The domains table below merges Appendix A (50 EvilTokens
+  control-panel domains) and Appendix B (176 phishing domains) of the public
+  complaint. Companion sources: Microsoft On the Issues DCU announcement
+  (https://blogs.microsoft.com/on-the-issues/2026/09/22/disrupting-eviltokens-the-ai-chatbot-built-for-cybercrime/),
+  notice of pleadings and complaint PDF with domain appendices
+  (https://www.microsoft.com/en-us/corporate-responsibility/customer-security-trust/digital-crimes-unit/notice-of-pleadings/eviltokens/),
+  The Register coverage
+  (https://www.theregister.com/security/2026/09/22/uk-cops-arrest-2-eviltokens-suspects-microsoft-seizes-50-phishing-kit-websites/5298317),
+  Huntress "Riding the Rails" report on Railway.com PaaS abuse as Microsoft 365
+  token attack infrastructure referenced by MSTIC. No IPs, hashes or attacker
+  email addresses were published in the consulted sources. Flag originated from
+  the analyse-veille-securite-rss skill run of 2026-09-23 (The Register Security feed).
+
+domains:
+  - 13monkeys.org
+  - 5mowarriorsllc.org
+  - 6likesthiefllc.work
+  - abovethesnowline.org
+  - adaliabigllc.com
+  - adventureseekeroutfitters.org
+  - aiapexsynthetica.com
+  - aieditlabmade.com
+  - aiinnovatehub.net
+  - aldemowellc.com
+  - almagestshop.com
+  - almagestshop.org
+  - alphabetalley.net
+  - altmora.com
+  - ambianceseatingboutique.com
+  - andreashe.org
+  - aspentrekgoods.org
+  - aurorahomellc.com
+  - austinshan.com
+  - automatelabmade.org
+  - bamboovesselbrasshold.com
+  - bayloramuse.com
+  - bearfilmsstudio.org
+  - beautifulfootprints.com
+  - bestforkitchenuse.com
+  - bitesafe.net
+  - blairestretch.com
+  - blossomcraft.net
+  - braveadventuring.org
+  - brennenkaisa.com
+  - brighttears.com
+  - brinsteadmarketplacepartners.com
+  - bronzewispreedvault.com
+  - campfold.org
+  - campscapellc.com
+  - carvibesolutions.com
+  - charmwomensunderwear.com
+  - chicthreadsboutiquellc.com
+  - chiffonweftfabricward.com
+  - chipvisionoptics.com
+  - clevion.org
+  - comfortablehomesofa.com
+  - cordswift.com
+  - corvynsupplycollective.com
+  - cottonweftthreadcrest.com
+  - cozylivingessentials.me
+  - cozynookfurnishings.com
+  - crystalbrow.com
+  - dariengeneraltradealliance.com
+  - destinyce.com
+  - distraction.cc
+  - dreamylifestyle.org
+  - driftspiregoodsllc.com
+  - duskstreetwear.net
+  - e-commercecomer.org
+  - elarachainjewelry.com
+  - elegancedecor.org
+  - elegancedepartmentstore.com
+  - esunprotectionco.com
+  - evobothub.org
+  - extraordinarytents.net
+  - fancondo.com
+  - fauxmanepalace.org
+  - fergusonren.org
+  - firedimension.com
+  - foursgentlemenllc.org
+  - fragranthome.net
+  - freestylefolding.com
+  - geniusaitechnologies.com
+  - glamourstrandsplace.com
+  - glitzyclothing.com
+  - habitatclothing.net
+  - happinessnook.com
+  - hatchelnook.org
+  - headgearhaven.com
+  - hempspireclayhollow.com
+  - highlandforgecookware.com
+  - himalayaoutdoor.org
+  - hollowshaftsupplyllc.com
+  - homeblissessentials.org
+  - homeblisss.org
+  - householdevents.com
+  - innovatewebdesign.net
+  - investigatornyc.org
+  - ironpanelite.com
+  - ironpeaksupply.cc
+  - jeffersomacket.com
+  - johnnystars.org
+  - joyfulworkshop.org
+  - just-ellie.com
+  - kaironpeak.com
+  - kalibaitu.org
+  - kaoqumini.com
+  - katiethread.uk
+  - kaychicgear.work
+  - khpkansascity.com
+  - knightbymyside.org
+  - legendaryoutdoorhikingshoes.com
+  - linenspirestonecove.com
+  - linorallc.org
+  - liorametailfoundry.com
+  - logicnestaisolutions.org
+  - lumakkitchenware.com
+  - lumidwellingllc.com
+  - luminwellmerchandisegroup.com
+  - lumoshome.org
+  - luxeladieswardrobe.net
+  - luxeloft.net
+  - luxurywildwood.com
+  - marenhomeessentials.com
+  - mariswellgeneralmerchandise.com
+  - markelasoft.com
+  - meiyazhiclothingpavilion.com
+  - mengchongbaotoys.com
+  - mindmutt.net
+  - mindmutt.org
+  - minemasterequipment.org
+  - minimalistinsulated.com
+  - mirewoodgoodsjunction.com
+  - modastylehub.org
+  - moderncomfortpillow.org
+  - modernmuseclothing.net
+  - modernvogueapparel.com
+  - monothreads.org
+  - morgangentleman.com
+  - neatshift.org
+  - nebulagoods.org
+  - nevorohomellc.com
+  - noahenlightentech.org
+  - norlume.org
+  - novabladellc.com
+  - optichiplabs.com
+  - opulentthrea.com
+  - orselaretailapex.com
+  - papaleogen.org
+  - pawglidefurmailshop.com
+  - pawsprint.cc
+  - peakprooutdoorgear.com
+  - petjoyboutique.com
+  - pineveileveryday.com
+  - pinkpawgo.com
+  - pinkpawgo.org
+  - pinkrrchocolatellc.org
+  - plushseat.org
+  - poplinloomfibercove.com
+  - princessisabe.com
+  - puredwelling.org
+  - purelyclassic.net
+  - purelyelegant.org
+  - purelyfemmefashion.com
+  - purelyuniquely.com
+  - rapiddryness.com
+  - rapiddryness.net
+  - rayonqiu.org
+  - redcockscomb.org
+  - redsteel.cc
+  - reedapparel.net
+  - returntothemountainsandseas.com
+  - ridgevial.org
+  - roam-case.org
+  - roamcase.org
+  - ruikasneakersllc.com
+  - rushforgefernhold.com
+  - rustygentleman.com
+  - salinalipstickbeautyllc.com
+  - salonijieson.org
+  - scantechinnovations.com
+  - selvynmarketworks.com
+  - shadestyles.com
+  - silksleephavenhome.com
+  - silkystrandswigs.com
+  - silthreadclayspire.com
+  - smartbulls.org
+  - smarterlabel.net
+  - smartframetechnologies.com
+  - smartlensinnovate.com
+  - smartviewdevices.com
+  - soarbox.net
+  - sorenclothing.net
+  - speedyautosupplies.com
+  - stitchvibe.org
+  - strongleap.org
+  - suctionsweepco.com
+  - summittrailsupply.net
+  - summitwholesalers.com
+  - sunnysprouthome.cc
+  - swiftdryblowdryers.org
+  - sycamoreforgefernward.com
+  - tabithabackpack.com
+  - teatimetreasures.org
+  - theurbanperch.com
+  - theurbanrelaxation.com
+  - timelesstendance.com
+  - timeshellselection.com
+  - timihrtfeng.org
+  - toetales.net
+  - trailcrownllc.com
+  - trailtailsllc.com
+  - trendyclosetboutique.com
+  - urbanchicapparel.me
+  - urbanchicdesk.org
+  - urbaneessence.com
+  - vastshorestylecollective.com
+  - ventureforthclothing.com
+  - veyraapparel.net
+  - veyraapparel.org
+  - veyramarketcollective.com
+  - victorchargellc.uk
+  - virtualhomemakeover.org
+  - vistaframe.org
+  - vorengoodsascend.com
+  - warmerjacket.com
+  - weightedplush.net
+  - westridgeculinary.com
+  - whimsyextensionsshop.net
+  - wildwoodoutfitters.org
+  - windcswordsllc.work
+  - wovendaily.org
+  - xuenoerlingeriellc.net
+  - yipinfurnitureshop.com
+  - yishanhuiwomensclothing.com
+  - ykshark.com
+  - yuedongmouse.com
+  - yuntuoutdoorbackpack.cc
+  - zenithartistry.org
+  - zorvefashionapparel.com

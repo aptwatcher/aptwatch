@@ -1,0 +1,84 @@
+author: APTWatch Curator
+source: https://cert.pl/en/posts/2026/06/UNC1151-gmail-campaign/
+
+source_name: "CERT Polska - UNC1151/Ghostwriter phishing campaign targeting Gmail accounts"
+
+apt_groups:
+  - Storm-0257
+  - UNC1151
+  - Ghostwriter
+  - UAC-0057
+
+description: >
+  CERT Polska report of June 12, 2026 documents a high-intensity credential
+  phishing campaign by UNC1151/Ghostwriter (tracked by Microsoft as
+  Storm-0257, by CERT-UA as UAC-0057; publicly attributed by Mandiant and
+  Google TAG to the Belarusian government, with links to Belarusian and
+  Russian interests - attribution confidence is high on the CERT Polska
+  side, which has tracked the group's mailbox-takeover operations against
+  Polish citizens for years). Since March 2026 the group pivoted from Polish
+  email providers (Onet, Wirtualna Polska, Interia) to Gmail accounts,
+  running campaigns mainly on weekdays with new phishing domains observed
+  almost daily at the time of the report. Targeting is broad but deliberate:
+  politicians and people in public life, researchers, journalists, public
+  administration and law enforcement employees, plus family/social contacts,
+  with waves against specific professional groups such as translators and
+  court experts - overwhelmingly in Poland. Objective is espionage-driven
+  mailbox takeover: harvesting contact lists for further targeting,
+  sensitive documents, and linked accounts (e.g. social media) for follow-on
+  takeover. TTPs in prose (candidate MITRE ATT&CK): spearphishing links
+  impersonating official Gmail administrator alerts in fluent Polish
+  (T1566.002), sent from purpose-created Gmail accounts (T1585.002 establish
+  email accounts) or occasionally compromised third-party accounts with
+  modified display names (T1586.002), often delivered via BCC; fake Gmail
+  login panels harvesting email address and password (T1056.003 web portal
+  capture / T1539 candidate), followed by automated real-time login attempts
+  and an additional form that captures two-factor authentication codes -
+  both SMS and app-generated (Google Authenticator) - i.e. MFA interception
+  (T1111) in a relay/AiTM-style flow. Repeated re-targeting of the same
+  accounts with escalating urgency (48h/24h account-block deadlines);
+  phishing links are not unique per recipient and messages carry no tracking
+  elements. Infrastructure: dedicated phishing domains registered under TLDs
+  such as .icu, .digital and .top; abuse of free web-hosting subdomains
+  (most commonly *.netlify.app - the netlify.app parent service is
+  legitimate and only the attacker-created subdomains are submitted here);
+  and fake login panels planted on compromised websites of Polish
+  organizations without defacing the main page (T1584.004 candidate) - no
+  specific compromised domains were named by the source, so no
+  compromised_domains table. No file hashes, IP addresses, URLs or CVEs were
+  published for this campaign. The seven sender addresses in the emails
+  table are consumer Gmail accounts created by the actor (sender display
+  names: Mail Secure, Mailer Notification, Support Security, monitoring
+  konta, Zespol Poczty) - treat as sender-address indicators for mail
+  telemetry, not as infrastructure. Companion coverage: Cyber Security News
+  "Ghostwriter Hackers Abuse Gmail Admin-Themed Emails to Steal Credentials
+  and 2FA Codes" (June 17, 2026 - note it mistranscribes one Netlify
+  subdomain as konta-weryfikacja.netlify.app; the primary source value
+  konta-24weryfikacja.netlify.app is used here), RESIDENT.NGO Threat Lab
+  case study on a May 2026 "suspicious account activity" Gmail lure against
+  a Belarusian pro-democracy politician, and reform.news reporting on the
+  Polish Gmail targeting. Related but distinct: GTIG "Signals of Trouble"
+  (Russia-aligned targeting of Signal Messenger, including UNC1151 use of
+  Robocopy) is covered by a separate APT Watch entry and its IOCs are
+  intentionally not duplicated here. Flagged by STTR RSS/Defender watch
+  skills, 2026-06-25/2026-07-06 runs (Microsoft Defender TA article "OSINT
+  Profile: UNC1151/Ghostwriter phishing campaign targeting Gmail accounts";
+  Defender portal copy was inaccessible, enrichment traced to the CERT
+  Polska primary report).
+
+domains:
+  - mailverify.digital
+  - check-mail-verify.biz
+  - verify-check.digital
+  - monitoring-google-konta.netlify.app
+  - konta-24weryfikacja.netlify.app
+  - service-auth.netlify.app
+
+emails:
+  - mailnotify24@gmail.com
+  - mailersupport24@gmail.com
+  - support.security.inf@gmail.com
+  - monitoring.konta@gmail.com
+  - walidacjagrupapocztowa@gmail.com
+  - naruszen.detekcja@gmail.com
+  - serwis.pomoc.techniczna@gmail.com

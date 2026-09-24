@@ -1,0 +1,92 @@
+author: APTWatch Curator
+
+source: https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations
+
+source_name: "CISA + Microsoft - Warlock ransomware via SharePoint ToolShell exploitation"
+
+apt_groups:
+  - Warlock
+  - Storm-2603
+  - GOLD SALEM
+  - Water Manaul
+
+description: >
+  CISA alert of July 14, 2026 ("CISA Urges SharePoint Hardening After New
+  Exploitations") warns that three on-premises SharePoint Server
+  vulnerabilities are under active exploitation - CVE-2026-32201 (spoofing,
+  6.5, KEV April 14, 2026), CVE-2026-45659 (RCE, 8.8, KEV July 1, 2026) and
+  CVE-2026-56164 (privilege escalation, 5.3, KEV July 14, 2026) - across all
+  supported on-prem versions (Subscription Edition, 2019, 2016). CISA
+  associates the exploited flaws with post-exploitation activity including
+  theft of IIS ASP.NET machine keys and deserialization techniques used to
+  gain persistence and deploy malware (candidate MITRE ATT&CK in prose:
+  T1190 exploit public-facing application, T1552 unsecured credentials /
+  machine-key theft, T1505.003 web shell, T1053.005 scheduled task,
+  T1484.001 GPO modification for ransomware distribution, T1486 data
+  encrypted for impact). Two further critical CVEs, CVE-2026-55040 (9.1)
+  and CVE-2026-58644 (9.8), were rated "Exploitation More Likely" by
+  Microsoft but were NOT confirmed exploited at publication time and are
+  therefore recorded in prose only (press reporting indicates later KEV
+  additions; re-verify before promoting them to the cves table).
+  CISA explicitly ties this alert back to the 2025 "ToolShell" campaign, in
+  which attackers chained CVE-2025-49706 and CVE-2025-49704 (and the related
+  bypass pair CVE-2025-53770 / CVE-2025-53771) to compromise SharePoint
+  Servers and, in some cases, deploy Warlock ransomware. The companion
+  primary source, Microsoft Security Blog "Disrupting active exploitation of
+  on-premises SharePoint vulnerabilities" (July 22, 2025), documents
+  exploitation as early as July 7, 2025 and attributes Warlock deployment to
+  Storm-2603, a China-based actor (also tracked publicly as GOLD SALEM /
+  Water Manaul), which uploads the spinstall0.aspx web shell (variants
+  spinstall.aspx, spinstall1.aspx, spinstall2.aspx) to steal MachineKey
+  material, persists via scheduled tasks and a malicious IIS module
+  (IIS_Server_dll.dll), uses the xd.exe fast reverse proxy for C2, harvests
+  credentials with Mimikatz, moves laterally with PsExec/Impacket, and
+  modifies Group Policy Objects to distribute Warlock ransomware. Microsoft
+  also observed Chinese state actors Linen Typhoon and Violet Typhoon
+  exploiting ToolShell for espionage access, but attributes Warlock
+  deployment specifically to Storm-2603; CISA's 2026 alert attributes the
+  new activity to no group or country. Attribution caution: Storm-2603 is
+  assessed as China-based but Microsoft has not confirmed a state nexus for
+  its ransomware operations - this entry is scoped to the Warlock ransomware
+  family and its deployment chain.
+  All atomic network indicators below come from the Microsoft Security Blog
+  IOC table: exploitation source IPs 134.199.202.205, 104.238.159.149 and
+  188.130.206.168; post-exploitation C2 131.226.2.6; Storm-2603
+  post-exploitation C2 65.38.121.198 (reached via xd.exe); and Storm-2603 C2
+  domains update.updatemicfosoft.com and msupdate.updatemicfosoft.com
+  (typosquat of Microsoft update infrastructure). Key SHA-256 hashes
+  published by Microsoft (curator schema has no hash table, recorded here so
+  nothing is lost): spinstall0.aspx
+  92bb4ddb98eeaf11fc15bb32e71d0a63256a0ed826a03ba293ce3a8bf057a514; web
+  shell tasked from update.updatemicfosoft.com
+  24480dbe306597da1ba393b6e30d542673066f98826cc07ac4b9033137f37dbf; twelve
+  further IIS_Server_dll.dll backdoor hashes are listed in the Microsoft
+  post. Deduplication note: distinct from the existing "Warlock Ransomware
+  Infrastructure" campaign (alias Water Manaul, C2 198.13.158.193, imported
+  May 2026) - no indicator overlap. Companion sources: The Register, "CISA
+  sounds alarm over trio of exploited SharePoint flaws" (July 15, 2026);
+  CISA alert "UPDATE: Microsoft Releases Guidance on Exploitation of
+  SharePoint Vulnerabilities" (2025). The CISA 2026 alert page could not be
+  fetched directly (returned empty to automated retrieval); its content was
+  corroborated via The Register and independent advisories. Flagged by STTR
+  RSS watch skill, 2026-07-16 run.
+
+ipv4:
+  - 131.226.2.6
+  - 134.199.202.205
+  - 104.238.159.149
+  - 188.130.206.168
+  - 65.38.121.198
+
+domains:
+  - update.updatemicfosoft.com
+  - msupdate.updatemicfosoft.com
+
+cves:
+  - CVE-2026-32201
+  - CVE-2026-45659
+  - CVE-2026-56164
+  - CVE-2025-49706
+  - CVE-2025-49704
+  - CVE-2025-53770
+  - CVE-2025-53771

@@ -1,0 +1,187 @@
+author: APTWatch Curator
+source: https://www.withsecure.com/en/resources-hub/w-labs/greyvibe/
+
+source_name: "WithSecure Labs - GREYVIBE Russia-nexus AI-enabled operations (IOC delta)"
+
+apt_groups:
+  - GREYVIBE
+  - PhantomRelay
+  - LegionRelay
+  - FallSpy
+  - PrincessClub
+  - PhantomMail
+  - DroneLink
+
+description: >
+  IOC delta complementing the initial GREYVIBE submission of 2026-05-30
+  (curator-2026-05-30-greyvibe-withsecure-ukraine.yaml); only indicators not
+  previously submitted are included. Flagged by STTR Defender watch skill,
+  2026-06-04/2026-07-06 runs. Primary source is the WithSecure Labs report
+  "GREYVIBE: A Russia-nexus group leveraging AI across state-aligned
+  operations" (blog May 28, 2026; full PDF WithSecure_GREYVIBE.pdf; machine
+  readable IOC list and 12 YARA rules at github.com/WithSecureLabs/iocs
+  under GREYVIBE), enriched with a Microsoft Defender Threat Intelligence
+  export from the STTR tenant covering newer infrastructure.
+  Attribution per WithSecure: GREYVIBE is a Russia-nexus cluster active
+  against Ukraine and Ukraine-related entities since at least August 2025,
+  occupying a grey zone between cybercrime and state-aligned activity.
+  Operators and developers are Russian-speaking, work Moscow-hours in
+  UTC+3, and run Russian-language admin panels; activity aligns with
+  Russian state intelligence-gathering interests in the Russia-Ukraine war.
+  No definitive link to any previously tracked group; a low-likelihood
+  overlap with UAC-0098 and the TrickBot ecosystem via a shared unique ISO
+  builder is under watch. WithSecure found strong evidence of systematic
+  generative AI and LLM use (Ideogram AI, ChatGPT, Google Gemini) across
+  lure development, obfuscator and loader development, LegionRelay
+  full-stack development, backend setup and post-compromise tooling.
+  Campaigns covered by this delta: PhantomMail (spear-phishing with ZIP/RAR
+  archives hosted on file-sharing services, PyInstaller or JavaScript
+  loaders launching decoys, lures impersonating Kyiv City Council, a
+  Ukrainian energy company, the State Emergency Service and the State
+  Service of Special Communications; the six Gmail sender addresses in the
+  emails table and the payload download links in the urls table come from
+  this campaign; parent services Google Drive, 4sync and Telegram are
+  legitimate, only the specific attacker URLs are submitted, including the
+  Telegram dead-drop resolver t.me/s/sdgsersergser used by LegionRelay);
+  PhantomClick (ClickFix-style fake CAPTCHA pages masquerading as Zoom
+  conference and LAPAS, Ukrainian-language Cloudflare-themed instructions);
+  PrincessClub (fake Ukrainian adult-club sites delivering FallSpy on
+  Android and PhantomRelayV1 or LegionRelay on Windows, fake female
+  Telegram personas, WebRTC live-call HUMINT capability, victims including
+  Ukrainian combatants around Kharkiv; strip-mens.tilda.ws is an
+  attacker-controlled subdomain on the legitimate Tilda service);
+  DroneLink (fake FPV-drone charity foundation sites, shared C2 and
+  tooling with PrincessClub such as WireGuard and ZAPiXDESK; the
+  edbo/dsszzi/declaration staging hosts are attacker-controlled subdomains
+  on legitimate dynamic-DNS services linkpc.net, publicvm.com and work.gd);
+  and Nebo (Russian-language SPO NEBO fake military terminal lure, FallSpy
+  sample; served from 89.37.185.60 and 74.112.102.120 on port 14000).
+  Malware and tooling: PhantomRelay, a PowerShell RAT with WebSocket C2 in
+  three variants - PhantomRelayLite (base variant also seen in seemingly
+  unrelated cybercrime clusters), PhantomRelayV1 and PhantomRelayV2
+  (GREYVIBE-weaponised, watchdog persistence via scheduled tasks);
+  LegionRelay, a PowerShell RAT with REST API C2 on port 8000
+  (194.87.128.243, 194.87.108.110, 89.125.189.118, 89.125.189.85,
+  91.149.221.124) used for file, browser, Telegram and WhatsApp data
+  exfiltration and RDP setup; FallSpy Android spyware collecting contacts,
+  call logs, SIM numbers, Wi-Fi SSID, location and media; custom
+  obfuscators DAYLIGHT and LOOKVALPS (PowerShell) and TEASOUP and LOOKVALJS
+  (JavaScript); an XMRig miner deployed on some LegionRelay hosts as a
+  cybercrime indicator. Candidate MITRE ATT&CK techniques in prose:
+  T1566.001/.002 spearphishing attachment and link, T1204.002 user
+  execution and ClickFix-style T1204.004, T1059.001 PowerShell,
+  T1027 obfuscated payloads, T1053.005 scheduled task persistence,
+  T1583.001 acquired infrastructure, T1585.001 fake social media personas,
+  T1071.001 web protocols and WebSocket C2, T1102 Telegram dead-drop
+  resolver, T1005 local data collection, T1113 screen capture, T1041
+  exfiltration over C2, T1496 resource hijacking (XMRig).
+  Cluster overlaps preserved as pivots: thirdmetrics.com (PhantomRelayLite
+  C2 tied by WithSecure to a Microsoft Teams voice-phishing cluster),
+  obmlink.com (PhantomRelayLite C2 tied to a KongTuke ClickFix chain, named
+  in the full PDF report), saidozdemir.com and seahorsemethod.com
+  (PhantomRelayLite C2 attributed by WithSecure to the Teams-vishing and
+  KongTuke overlap clusters respectively, both surfaced as GREYVIBE-linked
+  in the Defender TI export) - these four are submitted with the overlap
+  caveat, since WithSecure publishes them in the GREYVIBE IOC list while
+  assessing the parent cybercrime clusters as seemingly unrelated. Pivot
+  server 193.233.23.81 hosted both PhantomClick zoomconference domains and
+  PrincessClub princess-mens.click, technically linking the two campaigns;
+  its 193.233.23.0/24 range (EDIS Global / KVMka hosting) is noted in prose
+  only, no CIDR is submitted. Domains bithill.com (same EDIS Global plus
+  compromised-domain pattern but distinct activity per WithSecure) and
+  resutato.com (Teams-vishing NetSupport staging, not GREYVIBE-attributed)
+  were deliberately excluded. Several Defender TI domains submitted here
+  (chiselworksenterprise.com, heltaskeltahenterprise.com,
+  newequipmentsolutions.com, nycpartnersenterprise.com and the
+  zoomconference/princessclub sets) also appear in the WithSecure IOC list
+  as PhantomRelayV2 C2 or lure infrastructure; Defender TI validity windows
+  extend into 2026-2027, consistent with infrastructure still active after
+  the May 2026 report. File hashes in prose only, as the curator schema has
+  no hash table: WithSecure publishes roughly 45 SHA-256 hashes with family
+  mapping in its GitHub IOC list (loaders, PhantomRelay and LegionRelay
+  scripts, FallSpy APKs, development samples), of which 33 also appeared in
+  the STTR Defender TI export. Notable exemplars include the unobfuscated
+  PhantomRelayLite client
+  b0c07b265c9d9046038ffa48d5b8e17b8ba0791503beba85196cdbe0ac2fcb27, the
+  PhantomClick lure document
+  e8d0943042e34a37ae8d79aeb4f9a2fa07b4a37955af2b0cc0e232b79c2e72f3, and
+  PrincessClub FallSpy APKs
+  cbaf6cdb2acbd293d7e58cabe41449027a28b84223ba88f19e4463ec4176dad0 and
+  bcb9e99021f88b9720a667d737a3ddd7d5b9f963ac3cae6d26e74701e406dcdc; see
+  the WithSecure GitHub greyvibe_iocs.csv for the full mapped list.
+
+ipv4:
+  - 193.233.23.81
+  - 188.124.59.120
+  - 89.37.185.60
+  - 74.112.102.120
+  - 194.87.128.243
+  - 194.87.108.110
+  - 89.125.189.118
+  - 89.125.189.85
+  - 91.149.221.124
+
+domains:
+  - lapas.live
+  - zoomconference.click
+  - zoomconference.app
+  - princessclub.click
+  - princessclub.best
+  - princessclub.online
+  - princessclub.cyou
+  - clubprincess.click
+  - princess-mens.click
+  - princess-mens-club.com
+  - princess-mens.fun
+  - strip-mens.tilda.ws
+  - frontforce.org
+  - ukrguard.org
+  - ukrvarta.online
+  - ukrbezpeka.online
+  - ironbrave.online
+  - edbo.linkpc.net
+  - edbo.publicvm.com
+  - edbo.work.gd
+  - dsszzi.linkpc.net
+  - declaration.linkpc.net
+  - goodhillsenterprise.com
+  - ny-car-dealership.it.com
+  - doct0rsim.com
+  - routinesyscheckup.com
+  - serotoninenterprise.com
+  - newstarcommunity.com
+  - jackscommunications.com
+  - fasterscommunications.com
+  - bsnowcommunications.com
+  - highfleetenterprise.com
+  - flyskyenterprise.com
+  - newsolutionsxsenterprise.icu
+  - neuromancersolutionsenterprise.icu
+  - nycpartnersenterprise.com
+  - chiselworksenterprise.com
+  - newrentalsenterprise.com
+  - bluelagoonaenterprise.com
+  - heltaskeltahenterprise.com
+  - newequipmentsolutions.com
+  - thirdmetrics.com
+  - obmlink.com
+  - saidozdemir.com
+  - seahorsemethod.com
+
+urls:
+  - https://storage.vlasiuk.kiev.ua/SW90D0qhta/матеріали_конференції.zip
+  - https://share.secureinfo.eu/get/ypMXMG58xH/Матеріали_конференції_доп.zip
+  - https://www.4sync.com/web/directDownload/tcqtmocL/MyE7HPqt.11b47e3a02edac898638b1906774210d
+  - https://drive.google.com/file/d/1RDXHPZtCzOXn6GN7UidXPo4qqZOA_UGd
+  - https://drive.google.com/file/d/12ffiBTWHm6GW8chJNIXuOeALPI82VnNs
+  - https://drive.google.com/file/d/1wkgvtTw_g5CvK84rWiHCr6HPZZb_OeKd
+  - https://drive.google.com/file/d/1aSIXJgZUT7AQEp5B_D7gyHRq74EFUxoz
+  - https://t.me/s/sdgsersergser
+
+emails:
+  - centrenergo.ukr@gmail.com
+  - centrenergo.ua@gmail.com
+  - office.dsns.dp@gmail.com
+  - kanc.kh.dsns@gmail.com
+  - office.cip.ua.gov@gmail.com
+  - office.gov.cips@gmail.com
