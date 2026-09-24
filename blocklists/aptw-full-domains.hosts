@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-24 00:36:01
-# Entries: 520466
+# Generated: 2026-09-24 06:08:10
+# Entries: 520467
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -162934,7 +162934,6 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -174466,6 +174465,7 @@
 0.0.0.0 chrome-spangled-bell.glitch.me
 0.0.0.0 chrome-support-metamskin.gitbook.io
 0.0.0.0 chrome-update.ddns.net
+0.0.0.0 chrome.windows-browser.net
 0.0.0.0 chromecust.org
 0.0.0.0 chromemetmsk.webflow.io
 0.0.0.0 chrometamusk-extns.gitbook.io
@@ -187927,6 +187927,7 @@
 0.0.0.0 coralinvertia.net
 0.0.0.0 corallz.com
 0.0.0.0 coralon.com
+0.0.0.0 coralpac.com
 0.0.0.0 coralpatrimivo.net
 0.0.0.0 coraltradix.net
 0.0.0.0 coralvaulhaven.net
@@ -188543,6 +188544,7 @@
 0.0.0.0 cote.vadilops.ru
 0.0.0.0 coteaqui.planosparavc.com.br
 0.0.0.0 coteassetage.net
+0.0.0.0 cotecsecuritygroup.com
 0.0.0.0 coted.vadilops.ru
 0.0.0.0 cotem-add.web.app
 0.0.0.0 cotes.vadilops.ru
@@ -237222,6 +237224,7 @@
 0.0.0.0 fasts-downloads.com
 0.0.0.0 fastsaver.co.uk
 0.0.0.0 fastsms.com.ng
+0.0.0.0 fastsrunners.com
 0.0.0.0 faststoragefiles.org
 0.0.0.0 fasttecksupport.com
 0.0.0.0 fasttecksupport.net
@@ -240682,7 +240685,6 @@
 0.0.0.0 fdsfsewfdsf.cf
 0.0.0.0 fdsgdsgs.easy.co
 0.0.0.0 fdshrtgds.yourtrap.com
-0.0.0.0 fdstat.vip
 0.0.0.0 fdsxaz2cds.pages.dev
 0.0.0.0 fdsxc.cckqatx.cn
 0.0.0.0 fdsyfmtfoa.duckdns.org
@@ -255814,7 +255816,6 @@
 0.0.0.0 garnolabar.tk
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
-0.0.0.0 garogradba.mk
 0.0.0.0 garoo.ulitron.ru
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garpeli.shop
@@ -259425,6 +259426,7 @@
 0.0.0.0 gfgmai13.beget.tech
 0.0.0.0 gfgrtgghrhtggr.000webhostapp.com
 0.0.0.0 gfgvxzi.tokyo
+0.0.0.0 gfgxcx.com
 0.0.0.0 gfhdfgn4.beget.tech
 0.0.0.0 gfhfds3.ml
 0.0.0.0 gfhfgrygf.fyfyvfytvghv.workers.dev
@@ -286461,7 +286463,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -390362,6 +390363,7 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
+0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northeus.digital
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
@@ -411250,7 +411252,6 @@
 0.0.0.0 pdnpr.j6iwuq.sbs
 0.0.0.0 pdns.nudt.edu.cn
 0.0.0.0 pdnwnk.nlqww.xyz
-0.0.0.0 pdoctor.co.jp
 0.0.0.0 pdodirfrxokqkziy-dot-millinium.ey.r.appspot.com
 0.0.0.0 pdosbsjwafzevuaf-dot-millinium.ey.r.appspot.com
 0.0.0.0 pdotuqp.associatedshipbroking-mc.com
@@ -462295,7 +462296,6 @@
 0.0.0.0 sdsglis.cfd
 0.0.0.0 sdshoptx.icu
 0.0.0.0 sdshoptx9.icu
-0.0.0.0 sdufkghdfshds.cfd
 0.0.0.0 sdvfbgre.blogspot.com
 0.0.0.0 sdvfdews.blogspot.com
 0.0.0.0 sdvfdews.blogspot.kr
@@ -475004,6 +475004,7 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
+0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl

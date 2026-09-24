@@ -1,7 +1,7 @@
 # Title: APT Watch — APT Combined Blocklist
 # Description: All validated APT IPs + malicious domains
-# Last modified: 2026-09-24 00:35:57
-# Entries: 12611
+# Last modified: 2026-09-24 06:07:53
+# Entries: 12612
 # Homepage: https://aptwatch.org
 # License: TLP:AMBER — do not share publicly
 #
@@ -12612,6 +12612,7 @@
 0.0.0.0 socgholish.ariaaglass.com
 0.0.0.0 socgholish.artmonkees.io
 0.0.0.0 speed-optimizer.com
+0.0.0.0 sso.ebeenj.com
 0.0.0.0 stake.libertariancounterpoint.com
 0.0.0.0 storehouse.beautysupplysalonllc.com
 0.0.0.0 support.grovecityelectrician.com
