@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-09-24 06:38:38
-# Entries: 520468
+# Generated: 2026-09-24 12:37:22
+# Entries: 520471
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48508,6 +48508,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -52915,6 +52916,7 @@
 0.0.0.0 activefootspa.com
 0.0.0.0 activegirlstoys.com
 0.0.0.0 activegreeting.icu
+0.0.0.0 activegrp.co.za
 0.0.0.0 activeh2.tokyo
 0.0.0.0 activehtmail.hstn.me
 0.0.0.0 activeideas.net
@@ -168329,7 +168331,6 @@
 0.0.0.0 ccmnllnss.com
 0.0.0.0 ccmptpacvpvtavhdbxppvbwfqtaqxatvudhhjazq.pingyiao88.cn
 0.0.0.0 ccmxarfkpeqhsokd-dot-millinium.ey.r.appspot.com
-0.0.0.0 ccn.fdstat.vip
 0.0.0.0 ccn2.vn
 0.0.0.0 ccnetworksllc.com
 0.0.0.0 ccnfh.blogspot.tw
@@ -252660,7 +252661,6 @@
 0.0.0.0 fullgrown.zapto.org
 0.0.0.0 fullindianxxdx-pro.azurewebsites.net
 0.0.0.0 fullindopepe1.duckdns.org
-0.0.0.0 fullinstall.sbs
 0.0.0.0 fulljhuri.com
 0.0.0.0 fulljpnmovie.duckdns.org
 0.0.0.0 fulllengthmirrors.net
@@ -259426,7 +259426,6 @@
 0.0.0.0 gfgmai13.beget.tech
 0.0.0.0 gfgrtgghrhtggr.000webhostapp.com
 0.0.0.0 gfgvxzi.tokyo
-0.0.0.0 gfgxcx.com
 0.0.0.0 gfhdfgn4.beget.tech
 0.0.0.0 gfhfds3.ml
 0.0.0.0 gfhfgrygf.fyfyvfytvghv.workers.dev
@@ -263056,6 +263055,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 goblog166.blogspot.com
@@ -286463,6 +286463,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -305744,6 +305745,7 @@
 0.0.0.0 jalalsalomy.000webhostapp.com
 0.0.0.0 jalandharpolice.com
 0.0.0.0 jalanmania.com
+0.0.0.0 jalebel7abeb.com
 0.0.0.0 jalfre.com
 0.0.0.0 jalgaonkaraakansha78-crypto.github.io
 0.0.0.0 jalintor.net
@@ -319170,6 +319172,7 @@
 0.0.0.0 kiryanaoffers.com
 0.0.0.0 kis.dedspac.ru
 0.0.0.0 kis.hosteurope.de.rechnungcheck.live
+0.0.0.0 kis.marketing
 0.0.0.0 kis.ulitron.ru
 0.0.0.0 kish.dedspac.ru
 0.0.0.0 kish.io
@@ -363903,7 +363906,6 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
-0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -390363,7 +390365,6 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
-0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northeus.digital
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
@@ -422188,6 +422189,7 @@
 0.0.0.0 powerprofittech.com
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
+0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -426904,7 +426906,6 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
-0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -427038,6 +427039,7 @@
 0.0.0.0 prove.ulitron.ru
 0.0.0.0 prove.virosat.ru
 0.0.0.0 proveacmo.store
+0.0.0.0 proveedoradeproyectosysoluciones.com
 0.0.0.0 proveedores.nef.com.mx
 0.0.0.0 proveedores.savant.com.ar
 0.0.0.0 proveedorsites.000webhostapp.com
@@ -462297,6 +462299,7 @@
 0.0.0.0 sdsglis.cfd
 0.0.0.0 sdshoptx.icu
 0.0.0.0 sdshoptx9.icu
+0.0.0.0 sdufkghdfshds.cfd
 0.0.0.0 sdvfbgre.blogspot.com
 0.0.0.0 sdvfdews.blogspot.com
 0.0.0.0 sdvfdews.blogspot.kr
@@ -474033,6 +474036,7 @@
 0.0.0.0 swiftconnectapp.pages.dev
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftpathav.vercel.app
@@ -475005,7 +475009,6 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
-0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
