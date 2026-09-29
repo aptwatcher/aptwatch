@@ -1,0 +1,69 @@
+author: APTWatch Curator
+source: https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/
+
+source_name: "Microsoft Threat Intelligence + Sysdig TRT - Storm-3168 (JadePuffer) Azure service principal cloud destruction"
+
+apt_groups:
+  - Storm-3168
+  - JadePuffer
+
+description: >
+  Microsoft Threat Intelligence (Yossi Weizman, Tushar Mudi, September 25, 2026)
+  attributes to Storm-3168 - the actor behind JADEPUFFER, the first documented
+  agentic (LLM-driven) ransomware operation, uncovered by the Sysdig Threat
+  Research Team in July 2026 - an 18-hour intrusion in early June 2026 in which
+  two compromised Azure service principals belonging to the same tenant were
+  used for extensive cloud reconnaissance and destructive operations. The first
+  machine identity performed about 15.5 hours of discovery (300+ successful read
+  operations over Azure Virtual Machines, subscriptions, resource groups and
+  resources; MITRE ATT&CK candidates T1078.004 cloud accounts, T1580 cloud
+  infrastructure discovery); the second enumerated VMs and resource groups
+  across two subscriptions in five seconds, harvested Azure App Service
+  configuration stores for exposed credentials (T1552 candidates), attempted a
+  ListKey operation, then carried out extensive Azure-focused resource
+  destruction, including targeting Site Recovery disk locks and an Azure Backup
+  protection lock for deletion (T1485 data destruction, T1490 inhibit system
+  recovery candidates). Initial hijack vector of the service principals is
+  unconfirmed; an employee of the victim organization had previously exposed
+  client IDs, client secrets and tenant IDs in plaintext in a public GitHub
+  issue. Both service principals used Storm-3168-linked infrastructure, the
+  same network fingerprint and the user agent python-requests/2.34.2; Microsoft
+  also observed repeated probing from Storm-3168 infrastructure against Azure
+  App Services of multiple customers since the beginning of 2026. Companion
+  source: Sysdig TRT JADEPUFFER report
+  (https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion),
+  documenting the July campaign in which an autonomous LLM agent drove the full
+  extortion chain: initial access through CVE-2025-3248 (Langflow unauthenticated
+  RCE, T1190 exploit public-facing application), abuse of the Nacos default JWT
+  token.secret.key (CVE-2021-29441) for lateral movement, MinIO enumeration and
+  cloud credential harvesting, crontab persistence beaconing every 30 minutes to
+  the C2 on port 4444 (T1053.003 cron), and MySQL database destruction and
+  extortion via a README_RANSOM table (T1486/T1657 candidates). Ransom note
+  demanded Bitcoin to address 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy (a well-known
+  documentation example address, one of several artifacts Sysdig flags as
+  suggesting LLM-generated content rather than real operator infrastructure) with
+  contact e78393397[at]proton[dot]me. Exfiltration/staging server hosted at
+  InterServer (AS19318). The IP 45.131.66.106 appears in both reports (Sysdig:
+  initial access, post-exploitation and C2 beacon; Microsoft: App Service probing
+  and malicious ARM requests), tying the two campaigns to the same cluster. The
+  Register coverage
+  (https://www.theregister.com/security/2026/09/28/jadepuffer-crims-hijacked-azure-identities-and-used-them-to-blow-up-cloud-resources/5299591).
+  No hashes or malicious domains were published in the consulted sources. Flag
+  originated from the analyse-veille-securite-rss skill run of 2026-09-29
+  (The Register Security feed); Storm-3168 was added to the APT Watch actor list
+  the same day by operator decision.
+
+ipv4:
+  - 45.131.66.106
+  - 34.153.223.102
+  - 64.20.53.230
+
+urls:
+  - http://45.131.66.106:4444/beacon
+
+emails:
+  - e78393397@proton.me
+
+cves:
+  - CVE-2025-3248
+  - CVE-2021-29441
