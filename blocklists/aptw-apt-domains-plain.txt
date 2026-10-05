@@ -14,6 +14,7 @@ app-front.anmaradigital.com
 assistant.praiselimollc.com
 b2b.genethairsalon.com
 backoffice.ptbaconsulting.com
+beacon.kraynov.org
 booking.fijivacations.com
 buildtoolsrvcore.com
 cdn14.quran.edu.eu.org
@@ -28,7 +29,9 @@ editions.seattlemysterylovers.com
 fb-api.raydianpainting.com
 images.weightlosstonight.net
 joinnow.diasporamedia.net
+js-stable.pupplements.com
 knowledge.md
+libraryadvances.com
 lucidamiproductions.com
 mail-cross3.acilkredi.ch
 medium.exathomeswebuytexas.com
@@ -36,10 +39,13 @@ myfoodxrxcrccrcxs.com
 newresumebuilder.com
 newresumebuilders.us
 nickbush24.com
+ow-api.behzad.eu.org
 parish.menberetsebaotholytrinityeotc.org
 php-panel.letsgoautomotive.com
 platform.isystemservices.com
 promo.summat10n.org
+px-img.leewhitman-raymond.com
+ref-api.homefulia.com
 remiumholdings.com
 resumebuilders.us
 roadmap.lifeinsurancemasters.net
@@ -53,11 +59,13 @@ socgholish.artmonkees.io
 speed-optimizer.com
 sso.ebeenj.com
 stake.libertariancounterpoint.com
+stcdn.yuriykraynov.com
 storehouse.beautysupplysalonllc.com
 support.grovecityelectrician.com
 temp.hex
 thresumebuilder.com
 us-west.israel-finance.com
+us-west.oceandentalcare.com
 virtualtelemetryassistant.com
 webmail.mentalpainandtrauma.com
 www.newresumebuilder.com

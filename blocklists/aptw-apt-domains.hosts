@@ -1,7 +1,7 @@
 # Title: APT Watch — APT Malicious Domains
 # Description: Domains from APT threat intelligence reports
-# Last modified: 2026-09-24 12:37:17
-# Entries: 63
+# Last modified: 2026-10-05 23:15:26
+# Entries: 71
 # Homepage: https://aptwatch.org
 # License: TLP:AMBER — do not share publicly
 #
@@ -23,6 +23,7 @@
 0.0.0.0 assistant.praiselimollc.com
 0.0.0.0 b2b.genethairsalon.com
 0.0.0.0 backoffice.ptbaconsulting.com
+0.0.0.0 beacon.kraynov.org
 0.0.0.0 booking.fijivacations.com
 0.0.0.0 buildtoolsrvcore.com
 0.0.0.0 cdn14.quran.edu.eu.org
@@ -37,7 +38,9 @@
 0.0.0.0 fb-api.raydianpainting.com
 0.0.0.0 images.weightlosstonight.net
 0.0.0.0 joinnow.diasporamedia.net
+0.0.0.0 js-stable.pupplements.com
 0.0.0.0 knowledge.md
+0.0.0.0 libraryadvances.com
 0.0.0.0 lucidamiproductions.com
 0.0.0.0 mail-cross3.acilkredi.ch
 0.0.0.0 medium.exathomeswebuytexas.com
@@ -45,10 +48,13 @@
 0.0.0.0 newresumebuilder.com
 0.0.0.0 newresumebuilders.us
 0.0.0.0 nickbush24.com
+0.0.0.0 ow-api.behzad.eu.org
 0.0.0.0 parish.menberetsebaotholytrinityeotc.org
 0.0.0.0 php-panel.letsgoautomotive.com
 0.0.0.0 platform.isystemservices.com
 0.0.0.0 promo.summat10n.org
+0.0.0.0 px-img.leewhitman-raymond.com
+0.0.0.0 ref-api.homefulia.com
 0.0.0.0 remiumholdings.com
 0.0.0.0 resumebuilders.us
 0.0.0.0 roadmap.lifeinsurancemasters.net
@@ -62,11 +68,13 @@
 0.0.0.0 speed-optimizer.com
 0.0.0.0 sso.ebeenj.com
 0.0.0.0 stake.libertariancounterpoint.com
+0.0.0.0 stcdn.yuriykraynov.com
 0.0.0.0 storehouse.beautysupplysalonllc.com
 0.0.0.0 support.grovecityelectrician.com
 0.0.0.0 temp.hex
 0.0.0.0 thresumebuilder.com
 0.0.0.0 us-west.israel-finance.com
+0.0.0.0 us-west.oceandentalcare.com
 0.0.0.0 virtualtelemetryassistant.com
 0.0.0.0 webmail.mentalpainandtrauma.com
 0.0.0.0 www.newresumebuilder.com
