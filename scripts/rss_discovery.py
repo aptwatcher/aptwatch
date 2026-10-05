@@ -164,11 +164,12 @@ IN_SCOPE_ACTORS = [
     "alphv", "blackcat", "noberus",                                  # ALPHV
     "lockbit", "conti", "wizard spider",                             # LockBit / Conti
     "sangria tempest", "akira",
-    "warlock", "water manaul", "storm-2603",                         # Warlock
+    "warlock", "water manaul", "storm-2603", "longlegs",             # Warlock (longlegs = Symantec name, backfill 2026-10-05)
     "pistachio tempest", "storm-0844", "storm-1567", "vect",
     "gunra", "golden community",                                     # Gunra RaaS, Conti-derived (backfill 2026-09-05, AA26-222A)
     # --- Project-tracked adjacent campaign ---
     "fortibleed",
+    "uac-0277", "lunexstealer", "lunaraxe",                          # CERT-UA ClickFix cluster (backfill 2026-10-05)
 ]
 
 # Keywords that flag likely Russian-linked / relevant ops even without a named

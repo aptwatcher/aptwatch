@@ -4,6 +4,7 @@ source: https://cert.pl/en/posts/2026/06/UNC1151-gmail-campaign/
 source_name: "CERT Polska - UNC1151/Ghostwriter phishing campaign targeting Gmail accounts"
 
 apt_groups:
+  - UAC-0057 / GhostWriter / UNC1151
   - Storm-0257
   - UNC1151
   - Ghostwriter

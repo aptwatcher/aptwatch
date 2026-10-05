@@ -4,10 +4,10 @@ source: https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-r
 source_name: "Microsoft Threat Intelligence - Star Blizzard refines phishing and malware delivery with the RedFlick technique"
 
 apt_groups:
+  - Callisto
   - Star Blizzard
   - COLDRIVER
   - SEABORGIUM
-  - Callisto
 
 description: >
   Microsoft Threat Intelligence (September 29, 2026) documents the 2026 evolution
