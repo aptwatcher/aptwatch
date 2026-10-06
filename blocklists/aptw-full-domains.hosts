@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-06 01:37:20
+# Generated: 2026-10-06 06:03:57
 # Entries: 516852
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -189925,7 +189925,6 @@
 0.0.0.0 cpo.adflex.vn
 0.0.0.0 cpo.co.jp
 0.0.0.0 cpocommerceinc.112.2o7.net
-0.0.0.0 cpofficial.com
 0.0.0.0 cpoohcodmfkucglhzjmmkkeyquhrnxjkzglo-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 cpopgiptzd.duckdns.org
 0.0.0.0 cporiente.cl
@@ -350531,6 +350530,7 @@
 0.0.0.0 manly.dedspac.ru
 0.0.0.0 manly.ulitron.ru
 0.0.0.0 manmcub.com
+0.0.0.0 manmenduster.online
 0.0.0.0 manmohan4142.github.io
 0.0.0.0 manmountainoutdoors.com
 0.0.0.0 mann-hummel.liflic.in
@@ -374186,6 +374186,7 @@
 0.0.0.0 multiordinalauths.pages.dev
 0.0.0.0 multipage-responsive-facebook-clone.vercel.app
 0.0.0.0 multiplanitesdesk.pages.dev
+0.0.0.0 multiplay.at
 0.0.0.0 multiplebhd2025.imi.lat
 0.0.0.0 multiplecurrencies.com
 0.0.0.0 multipledapps.com
@@ -476736,7 +476737,6 @@
 0.0.0.0 ticm.sap0508x9v.vip
 0.0.0.0 ticm.tap0297p8b.top
 0.0.0.0 ticolatonisan.pages.dev
-0.0.0.0 ticpc8a.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 tics.ulitron.ru
 0.0.0.0 ticskwsythree.icu

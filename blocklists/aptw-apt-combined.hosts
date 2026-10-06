@@ -1,7 +1,7 @@
 # Title: APT Watch — APT Combined Blocklist
 # Description: All validated APT IPs + malicious domains
-# Last modified: 2026-10-06 01:37:17
-# Entries: 12655
+# Last modified: 2026-10-06 06:03:54
+# Entries: 12656
 # Homepage: https://aptwatch.org
 # License: TLP:AMBER — do not share publicly
 #
@@ -12614,6 +12614,7 @@
 0.0.0.0 booking.fijivacations.com
 0.0.0.0 buildtoolsrvcore.com
 0.0.0.0 cdn14.quran.edu.eu.org
+0.0.0.0 cf-cdn.viktorkraynov.com
 0.0.0.0 codeforprofessionalusers.com
 0.0.0.0 config.yaml
 0.0.0.0 cpanel.sbkollel.org

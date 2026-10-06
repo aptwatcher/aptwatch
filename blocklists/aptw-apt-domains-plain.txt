@@ -18,6 +18,7 @@ beacon.kraynov.org
 booking.fijivacations.com
 buildtoolsrvcore.com
 cdn14.quran.edu.eu.org
+cf-cdn.viktorkraynov.com
 codeforprofessionalusers.com
 config.yaml
 cpanel.sbkollel.org
