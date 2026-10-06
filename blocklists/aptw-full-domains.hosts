@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-06 12:33:38
-# Entries: 516857
+# Generated: 2026-10-06 18:33:40
+# Entries: 516868
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -46645,6 +46645,7 @@
 0.0.0.0 abitare.com.mx
 0.0.0.0 abitareainmo.com
 0.0.0.0 abitaremx.com
+0.0.0.0 abitcoinbull.com
 0.0.0.0 abitinoble.ru
 0.0.0.0 abitoincommunity.it
 0.0.0.0 abitrativeapp.pages.dev
@@ -48999,6 +49000,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -74077,6 +74079,7 @@
 0.0.0.0 alospdm.blogspot.com
 0.0.0.0 alossgroup.com
 0.0.0.0 alothmancontracting.com
+0.0.0.0 alotic.net
 0.0.0.0 alouatan24.com
 0.0.0.0 aloud.bortogat.ru
 0.0.0.0 aloud.koltorist.ru
@@ -87747,7 +87750,6 @@
 0.0.0.0 aolfv.movimento-comunita.org
 0.0.0.0 aolgam.122.2o7.net
 0.0.0.0 aolgamedaily.122.2o7.net
-0.0.0.0 aolgepacklng.com
 0.0.0.0 aolgloballink1900.weeblysite.com
 0.0.0.0 aolgloballink707.weeblysite.com
 0.0.0.0 aolglobeme.weebly.com
@@ -97669,6 +97671,7 @@
 0.0.0.0 aquaticowl.com
 0.0.0.0 aquatictestinglabs.com
 0.0.0.0 aquatippnters.info
+0.0.0.0 aquatitewaterproofing.com
 0.0.0.0 aquawaterpurifiers.com
 0.0.0.0 aquazoneamqui.com
 0.0.0.0 aquecedoreskbs.com.br
@@ -124177,7 +124180,6 @@
 0.0.0.0 b2b.ellabrador.es
 0.0.0.0 b2b.food123.de
 0.0.0.0 b2b.iplanetstore.in
-0.0.0.0 b2b.jewmailer.net
 0.0.0.0 b2b.turm.sls.ch
 0.0.0.0 b2b.ultimate-dev2.com
 0.0.0.0 b2b6d102cb7a4898bc54a3b73e31b759.safeframe.googlesyndication.com
@@ -217152,6 +217154,7 @@
 0.0.0.0 easycommerce.plus
 0.0.0.0 easyconnectionwallet.com
 0.0.0.0 easycontainer.co.th
+0.0.0.0 easycryptos.org
 0.0.0.0 easydappsfix.com
 0.0.0.0 easydec.iinkedin.li
 0.0.0.0 easydosensenken.de
@@ -218126,6 +218129,7 @@
 0.0.0.0 ebubxsbsqh.duckdns.org
 0.0.0.0 ebuddynews.com
 0.0.0.0 ebullienceinabundance.com
+0.0.0.0 ebullientlife.in
 0.0.0.0 eburdwanmuktodhara.org.in
 0.0.0.0 eburkhardt.techvalleyabbottabad.pk
 0.0.0.0 ebusiness-bofamerica.online
@@ -248661,6 +248665,7 @@
 0.0.0.0 foundation.con-wallet.network
 0.0.0.0 foundational-rating.000webhostapp.com
 0.0.0.0 foundationally.timanar.ru
+0.0.0.0 foundationforwomenshealth.com
 0.0.0.0 foundations-admin-10000005546884950.ml
 0.0.0.0 foundations-admin-10000005546884951.ml
 0.0.0.0 foundations-admin-10000005546884952.ml
@@ -279523,6 +279528,7 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
+0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -291786,6 +291792,7 @@
 0.0.0.0 ikosnnjds.com
 0.0.0.0 ikosnopas.com
 0.0.0.0 ikosnpouas.com
+0.0.0.0 ikovrsps.com
 0.0.0.0 ikprinters.com
 0.0.0.0 ikqkpqycczzwctrf-dot-millinium.ey.r.appspot.com
 0.0.0.0 ikra.amaniwa.ru
@@ -294796,7 +294803,6 @@
 0.0.0.0 indonesiabantuandana.fjfu.my.id
 0.0.0.0 indonesiabasahviral2020.000webhostapp.com
 0.0.0.0 indonesiaorganik.id
-0.0.0.0 indonesias.me
 0.0.0.0 indongrupswadewasa.jdtfz.tk
 0.0.0.0 indoon14.tk
 0.0.0.0 indoplexxi.vin
@@ -349240,6 +349246,7 @@
 0.0.0.0 main.exoclick.com
 0.0.0.0 main.exosrv.com
 0.0.0.0 main.fbmmnsnnsm-6061949153.1oxjkps3ah-yjr3oxzrm31m.p.runcloud.link
+0.0.0.0 main.lahoreshoes.com
 0.0.0.0 main.lancefiber.net
 0.0.0.0 main.museumofwesternco.live
 0.0.0.0 main.paylessautoz.de
@@ -389378,6 +389385,7 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
+0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northeus.digital
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
@@ -395692,7 +395700,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -397171,6 +397178,7 @@
 0.0.0.0 omshjijgxtlsesgn-dot-millinium.ey.r.appspot.com
 0.0.0.0 omsje.duckdns.org
 0.0.0.0 omsk-news.net
+0.0.0.0 omskin.org
 0.0.0.0 omskpets.ru
 0.0.0.0 omsmexico.com
 0.0.0.0 omsnne-d6c24d.ingress-earth.ewp.live
@@ -413776,6 +413784,7 @@
 0.0.0.0 physics.uctm.edu
 0.0.0.0 physicsashok.com
 0.0.0.0 physicsbeckons.com
+0.0.0.0 physicsbyfiziks.org
 0.0.0.0 physimath.com
 0.0.0.0 physio-roesch.de
 0.0.0.0 physiology-anatomy.seo-florida.com
@@ -463610,6 +463619,7 @@
 0.0.0.0 shiviislive.github.io
 0.0.0.0 shivmundhe7.github.io
 0.0.0.0 shivshreetravelworld.com
+0.0.0.0 shivsoftwaresolutions.com
 0.0.0.0 shivuu2803.github.io
 0.0.0.0 shizhong.pilot45.com
 0.0.0.0 shjyzxzx.com
@@ -473400,6 +473410,7 @@
 0.0.0.0 tab.dedspac.ru
 0.0.0.0 tab.dellrescue.com
 0.0.0.0 tab.myreserp.com
+0.0.0.0 tabak.hr
 0.0.0.0 tabby.dedspac.ru
 0.0.0.0 tabby.virosat.ru
 0.0.0.0 tabegroup.nl
@@ -480829,7 +480840,6 @@
 0.0.0.0 tts7324.webmo.fr
 0.0.0.0 ttshop1.myfunnelish.com
 0.0.0.0 ttthiknielsx.shop
-0.0.0.0 tttkkkssww.com
 0.0.0.0 ttttelstrrawebmail.weebly.com
 0.0.0.0 ttttttttttrekpleister-nlvvo.sbs
 0.0.0.0 ttus.tructiepbongda.me
@@ -502591,6 +502601,7 @@
 0.0.0.0 www.labersa.com
 0.0.0.0 www.lablzzzag.shop
 0.0.0.0 www.labmedica.pl
+0.0.0.0 www.laborpartyjo.com
 0.0.0.0 www.lacasadialicedesenzano.it
 0.0.0.0 www.lacmp.net
 0.0.0.0 www.lacocinany.com
