@@ -1,0 +1,79 @@
+author: APTWatch Curator
+source: https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/
+
+source_name: "Microsoft Threat Intelligence - CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft (October 5, 2026 update)"
+
+apt_groups:
+  - APT29
+  - Midnight Blizzard
+  - Cozy Bear
+  - NOBELIUM
+  - Storm-2945
+
+description: >
+  October 5, 2026 update to the Microsoft Threat Intelligence CaptiveCrunch
+  report (originally published July 31, 2026): on September 29, 2026,
+  Storm-2945 - a sub-cluster of Midnight Blizzard, attributed by Microsoft
+  on technical and operational overlaps with Storm-2372's device code
+  phishing operations, Microsoft Graph-based email exfiltration and shared
+  victimology - resumed its traffic-manipulation campaign against hospitality
+  sector networks served by captive portals worldwide. The renewed activity
+  is consistent with Black Lotus Labs reporting that multiple hospitality
+  managed service providers are implicated; continued access to these
+  upstream providers likely enabled the rapid re-deployment. Victims on
+  compromised hotel and conference Wi-Fi are redirected through
+  actor-controlled infrastructure via DNS and HTTP manipulation (T1557
+  adversary-in-the-middle, T1584 compromise infrastructure) toward fake
+  Microsoft sign-in pages and fake browser / Windows component / driver
+  update prompts (T1036, T1204.002). Follow-on operations include AitM
+  phishing on doppelganger Microsoft domains abusing the Entra ID device
+  code authentication flow (T1528 / device code phishing, consistent with
+  Midnight Blizzard practice since August 2024) and delivery of two malware
+  families: CornFlake, a full-featured Go RAT (keylogging, screen/audio/video
+  capture, credential and session token theft, remote shell; persistence as
+  fake svchost32 "Cloud Sync Service" service, Run keys, scheduled tasks and
+  a persistence watchdog - T1543.003, T1547.001, T1053.005; ECDH P-256
+  encrypted custom JSON C2), now also observed in a Rust variant consistent
+  with AI-enabled malware development; and ChocoShell, an in-memory
+  PowerShell infostealer (AMSI bypass T1562.001, three silent UAC bypasses
+  T1548.002, Chrome ABE defeat via SYSTEM token impersonation T1134.001 and
+  CDP remote-debugging cookie dump T1539, .tbres Microsoft 365 / Entra token
+  broker cache theft T1528, Wi-Fi credentials via netsh T1555) beaconing to
+  213.145.86.112 with tracking-pixel-style URIs. Infrastructure roles per
+  the Microsoft IOC table: cdn-gstat.com, sslcdnhost.com, network-privacy.com
+  are CaptiveCrunch redirects first seen 2026-09-30/10-01; 154.29.75.245
+  campaign infrastructure first seen 2026-09-29; 149.3.170.186 device-code-flow
+  infrastructure first seen 2026-10-01; ms365-device.com and ms365-live.com
+  DCF redirects; m365-owa.com and owa-ms365.com AitM infrastructure. Only
+  indicators new to APTWatch are submitted below; six IPv4 from the same
+  report are already attributed to APT29 in the database and should have
+  last_seen refreshed to 2026-10-05: 107.189.26.194 ChocoShell C2 and DNS
+  resolver, 104.194.159.150, 31.57.243.154, 38.146.28.75 AitM infrastructure,
+  38.146.28.132 DNS resolver, 213.145.86.112 ChocoShell C2. SHA-256 file
+  indicators published by Microsoft, no hash field in this schema, recorded
+  here for the curator:
+  918fa52ae45ed60ba7cc8bdc99c3cbe9ab92e0375ec31fc05d0d4513be11c593 CornFlake,
+  first seen 2026-07-03;
+  be99857449d2856dd5a84e21c8a3d5e0e01456adb44062ddec5a6b4970d8d42c ChocoShell,
+  first seen 2026-07-10. Companion sources: ReliaQuest threat spotlight on DNS
+  poisoning in hospitality
+  https://reliaquest.com/blog/threat-spotlight-dns-poisoning-tactics-expand-to-hospitality/
+  and Black Lotus Labs CaptiveCrunch part II. Related Defender TA report:
+  Activity Profile CaptiveCrunch, GUID 41b99e55-bf2d-4f4e-a4cb-ac1fba4f0983,
+  updated 2026-10-05. APTWatch batch lookup qry_01M49D1PB3SAKN5TNAS3P5FP6C
+  of 2026-10-06 confirmed the nine indicators below are new to the database.
+  Flag originated from the analyse-ms-threat-analytics skill run of
+  2026-10-06, Midnight Blizzard watchlist match, category russia_state_apt.
+
+ipv4:
+  - 154.29.75.245
+  - 149.3.170.186
+
+domains:
+  - network-privacy.com
+  - cdn-gstat.com
+  - owa-ms365.com
+  - ms365-live.com
+  - ms365-device.com
+  - sslcdnhost.com
+  - m365-owa.com
