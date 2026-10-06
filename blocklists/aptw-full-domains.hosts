@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-06 06:35:18
-# Entries: 516852
+# Generated: 2026-10-06 12:33:38
+# Entries: 516857
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -87747,6 +87747,7 @@
 0.0.0.0 aolfv.movimento-comunita.org
 0.0.0.0 aolgam.122.2o7.net
 0.0.0.0 aolgamedaily.122.2o7.net
+0.0.0.0 aolgepacklng.com
 0.0.0.0 aolgloballink1900.weeblysite.com
 0.0.0.0 aolgloballink707.weeblysite.com
 0.0.0.0 aolglobeme.weebly.com
@@ -167318,7 +167319,6 @@
 0.0.0.0 castrolprofessionalacademy.pl
 0.0.0.0 castromonitoramento.com.br
 0.0.0.0 castromunicipio.cl
-0.0.0.0 castroycontadores.com
 0.0.0.0 casts.ulitron.ru
 0.0.0.0 casts.virosat.ru
 0.0.0.0 castuning.com
@@ -189925,6 +189925,7 @@
 0.0.0.0 cpo.adflex.vn
 0.0.0.0 cpo.co.jp
 0.0.0.0 cpocommerceinc.112.2o7.net
+0.0.0.0 cpofficial.com
 0.0.0.0 cpoohcodmfkucglhzjmmkkeyquhrnxjkzglo-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 cpopgiptzd.duckdns.org
 0.0.0.0 cporiente.cl
@@ -395691,6 +395692,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -436648,6 +436650,7 @@
 0.0.0.0 qpuz.veritas.nossosupermercado.com
 0.0.0.0 qpvbgzoczg.duckdns.org
 0.0.0.0 qpvnfvg.omco.co.in
+0.0.0.0 qpwot.cfd
 0.0.0.0 qpwskpruoaqjqgtw-dot-millinium.ey.r.appspot.com
 0.0.0.0 qpxkstybzg.duckdns.org
 0.0.0.0 qpxlfvbiaqhhhoug-dot-millinium.ey.r.appspot.com
@@ -458130,6 +458133,7 @@
 0.0.0.0 sandy.ulitron.ru
 0.0.0.0 sandyandkristin.com
 0.0.0.0 sandybaytours.com
+0.0.0.0 sandybeachesandsunsets.com
 0.0.0.0 sandybrown-wolverine-124843.hostingersite.com
 0.0.0.0 sandykrohlas.com
 0.0.0.0 sandymaddox.com
@@ -480825,6 +480829,7 @@
 0.0.0.0 tts7324.webmo.fr
 0.0.0.0 ttshop1.myfunnelish.com
 0.0.0.0 ttthiknielsx.shop
+0.0.0.0 tttkkkssww.com
 0.0.0.0 ttttelstrrawebmail.weebly.com
 0.0.0.0 ttttttttttrekpleister-nlvvo.sbs
 0.0.0.0 ttus.tructiepbongda.me
