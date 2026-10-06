@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-06 00:35:42
-# Entries: 516859
+# Generated: 2026-10-06 01:37:20
+# Entries: 516852
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -279523,7 +279523,6 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
-0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -283855,7 +283854,6 @@
 0.0.0.0 hornetso.ru
 0.0.0.0 hornhost.xyz
 0.0.0.0 hornitosdellayllay.cl
-0.0.0.0 horno-rafelet.es
 0.0.0.0 horns.virosat.ru
 0.0.0.0 hornusycia.com.ar.ca6.toservers.com
 0.0.0.0 horny.ulitron.ru
@@ -349921,7 +349919,6 @@
 0.0.0.0 mama.pipi.ne.jp
 0.0.0.0 mama.ulitron.ru
 0.0.0.0 mamaandmimi.com
-0.0.0.0 mamabearcoffee.com
 0.0.0.0 mamabearhikes.com.au
 0.0.0.0 mamacehin.com
 0.0.0.0 mamachumbas.com
@@ -440360,7 +440357,6 @@
 0.0.0.0 raqamtasdiqlash.com
 0.0.0.0 raqi-gamer.github.io
 0.0.0.0 raqito.world
-0.0.0.0 raqmnh.com
 0.0.0.0 raqnor.com
 0.0.0.0 raquelbarros.com.br
 0.0.0.0 raquelnash.autos
@@ -471468,7 +471464,6 @@
 0.0.0.0 sudahosting.com
 0.0.0.0 sudais73.github.io
 0.0.0.0 sudan.news-pravda.com
-0.0.0.0 sudariocontabilidade.com.br
 0.0.0.0 sudarshanabpatil.github.io
 0.0.0.0 sudd.ulitron.ru
 0.0.0.0 suddenplot.com
@@ -476411,7 +476406,6 @@
 0.0.0.0 therozgaar.in
 0.0.0.0 therwwd-teratghtdt-btaeittrearjecdhetalitnoudnttr-nrea-eachhee.lon1.cdn.digitaloceanspaces.com
 0.0.0.0 thesafarigarden.com
-0.0.0.0 thesalons.in
 0.0.0.0 theschwarzapex.org
 0.0.0.0 thesciencequest.info
 0.0.0.0 thescoopbakersfield.com
@@ -501362,7 +501356,6 @@
 0.0.0.0 www.icloud.fairbox.pl
 0.0.0.0 www.iclsas.com
 0.0.0.0 www.ico.re
-0.0.0.0 www.icomsa.com.mx
 0.0.0.0 www.iconatsbs.com
 0.0.0.0 www.iconic.jonwai-tw.com
 0.0.0.0 www.icoocash.com
