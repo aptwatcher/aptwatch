@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-05 23:18:30
-# Entries: 516868
+# Generated: 2026-10-06 00:35:42
+# Entries: 516859
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -73360,7 +73360,6 @@
 0.0.0.0 allowances.000webhostapp.com
 0.0.0.0 allowanceteft.ga
 0.0.0.0 allowcopy.com
-0.0.0.0 allowcsxan2.site
 0.0.0.0 allowed-checking-business.firebaseapp.com
 0.0.0.0 allowed-checking-business.web.app
 0.0.0.0 allowing.anainat.ru
@@ -89040,6 +89039,7 @@
 0.0.0.0 api.dable.io
 0.0.0.0 api.danielstrunk.me
 0.0.0.0 api.dappdata.cc
+0.0.0.0 api.darkside.cy
 0.0.0.0 api.datatrics.com
 0.0.0.0 api.decibelinsight.net
 0.0.0.0 api.decrypt.company
@@ -119912,7 +119912,6 @@
 0.0.0.0 autofix-ssl.pages.dev
 0.0.0.0 autofixindappsync.pages.dev
 0.0.0.0 autoflex59.ru
-0.0.0.0 autoflotte-vergabe.de
 0.0.0.0 autoforum-businessday.pl
 0.0.0.0 autoforums.us.intellitxt.com
 0.0.0.0 autofreio.com.br
@@ -124816,7 +124815,6 @@
 0.0.0.0 baage.dk
 0.0.0.0 baahiye.so
 0.0.0.0 baaiinr.web.app
-0.0.0.0 baainbw-vergabe.de
 0.0.0.0 baaing.virosat.ru
 0.0.0.0 baal.boletuso.ru
 0.0.0.0 baal.dedspac.ru
@@ -167320,6 +167318,7 @@
 0.0.0.0 castrolprofessionalacademy.pl
 0.0.0.0 castromonitoramento.com.br
 0.0.0.0 castromunicipio.cl
+0.0.0.0 castroycontadores.com
 0.0.0.0 casts.ulitron.ru
 0.0.0.0 casts.virosat.ru
 0.0.0.0 castuning.com
@@ -173450,7 +173449,6 @@
 0.0.0.0 cheir.ulitron.ru
 0.0.0.0 chekalefa.co.za
 0.0.0.0 chekan.dedspac.ru
-0.0.0.0 chekcms432.cc
 0.0.0.0 cheke.dedspac.ru
 0.0.0.0 cheke.ulitron.ru
 0.0.0.0 cheki.ulitron.ru
@@ -173712,7 +173710,6 @@
 0.0.0.0 chiaus.virosat.ru
 0.0.0.0 chiazmargi.store
 0.0.0.0 chibauni.com
-0.0.0.0 chibomaydan.devs.surf
 0.0.0.0 chibutzorjokuy2k.weebly.com
 0.0.0.0 chic-pothos-10e942.netlify.app
 0.0.0.0 chic-travesseiro-3a8a8c.netlify.app
@@ -178868,7 +178865,6 @@
 0.0.0.0 clown.ulitron.ru
 0.0.0.0 clownfish-app-c23cl.ondigitalocean.app
 0.0.0.0 clownfishfreddy.co.kr
-0.0.0.0 clownguard.us
 0.0.0.0 clowns.virosat.ru
 0.0.0.0 clownsong.com
 0.0.0.0 clowrverse.duckdns.org
@@ -184477,7 +184473,6 @@
 0.0.0.0 community.fb-pages-87311170493185500542.qf4owyef2n-xoy4w7wpr6pw.p.runcloud.link
 0.0.0.0 community.fb-pages-99558416152942940161.qf4owyef2n-xoy4w7wpr6pw.p.runcloud.link
 0.0.0.0 community.films43.me
-0.0.0.0 community.firm.in
 0.0.0.0 community.manage-app-uuid32899926009389349564.q8pwzeiv8n-ewx3lwn7l4zq.p.runcloud.link
 0.0.0.0 community.manage-app-uuid72329026450911547548.q8pwzeiv8n-ewx3lwn7l4zq.p.runcloud.link
 0.0.0.0 community.microsoftbusinessapps.com
@@ -189930,6 +189925,7 @@
 0.0.0.0 cpo.adflex.vn
 0.0.0.0 cpo.co.jp
 0.0.0.0 cpocommerceinc.112.2o7.net
+0.0.0.0 cpofficial.com
 0.0.0.0 cpoohcodmfkucglhzjmmkkeyquhrnxjkzglo-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 cpopgiptzd.duckdns.org
 0.0.0.0 cporiente.cl
@@ -190984,7 +190980,6 @@
 0.0.0.0 crestvaulmore.digital
 0.0.0.0 crestvaulmore.online
 0.0.0.0 crestvaultshire.live
-0.0.0.0 cresvin.com
 0.0.0.0 cret.pages.dev
 0.0.0.0 cretan.virosat.ru
 0.0.0.0 crete.cloudns.ph
@@ -204922,6 +204917,7 @@
 0.0.0.0 devrahababamanch.org
 0.0.0.0 devraj-s63.github.io
 0.0.0.0 devrryizgxssytzrnaeszbcnyf-dot-gloff849483.uk.r.appspot.com
+0.0.0.0 devruntime.cy
 0.0.0.0 devs.data.mob.com
 0.0.0.0 devs.dedspac.ru
 0.0.0.0 devs.ulitron.ru
@@ -211597,7 +211593,6 @@
 0.0.0.0 dontworry52.000webhostapp.com
 0.0.0.0 donum.ulitron.ru
 0.0.0.0 donut.dedspac.ru
-0.0.0.0 donutclients.org
 0.0.0.0 donutecocolate.com
 0.0.0.0 donutsmpcheats.org
 0.0.0.0 donutsmpclient.com
@@ -217194,7 +217189,6 @@
 0.0.0.0 easyport.in
 0.0.0.0 easyprofithunters.com
 0.0.0.0 easyqapark.vu
-0.0.0.0 easyrentbyowner.com
 0.0.0.0 easyresearchsolutions.com
 0.0.0.0 easyrideug.com
 0.0.0.0 easys.duckdns.org
@@ -219082,7 +219076,6 @@
 0.0.0.0 educ.rec.br
 0.0.0.0 educacao.barretos.sp.gov.br
 0.0.0.0 educacioncolaborativa.cl
-0.0.0.0 educacom.com.br
 0.0.0.0 educafacso.facso.cl
 0.0.0.0 educalera.com
 0.0.0.0 educareweb.com.br
@@ -221572,7 +221565,6 @@
 0.0.0.0 elmarvi.com
 0.0.0.0 elmasyedekparca.com
 0.0.0.0 elmejoragenteinmobiliario.es
-0.0.0.0 elmejorlocal.com.co
 0.0.0.0 elmensajerotours.com
 0.0.0.0 elmerfortreasurer.org
 0.0.0.0 elmes.de
@@ -229472,6 +229464,7 @@
 0.0.0.0 exmgcyyjos.duckdns.org
 0.0.0.0 exmykjb.tk
 0.0.0.0 exnessbroker.review
+0.0.0.0 exo-api.tf
 0.0.0.0 exo-confirm.com
 0.0.0.0 exo-fwb-at.40net.org
 0.0.0.0 exo-red.com
@@ -229816,7 +229809,6 @@
 0.0.0.0 expired-antiviruses.com
 0.0.0.0 expired-targeted.com
 0.0.0.0 expiredsession.com
-0.0.0.0 expirience.icu
 0.0.0.0 explain-exodus-cdn.teachable.com
 0.0.0.0 explain-exodusweb.teachable.com
 0.0.0.0 explains-minneapolis-tree-estates.trycloudflare.com
@@ -232255,7 +232247,6 @@
 0.0.0.0 facaer.buyshouses.net
 0.0.0.0 facagall.com
 0.0.0.0 facai.icolorbiotech.cn
-0.0.0.0 facai.makaaop.cc
 0.0.0.0 facai.y82lj7e.cn
 0.0.0.0 facai2024.xn--bvs11es3ujti.com
 0.0.0.0 facai524.icu
@@ -235737,7 +235728,6 @@
 0.0.0.0 fahrzeuge-mein.de
 0.0.0.0 fahrzeuge-mobile.de
 0.0.0.0 fahrzeuge1-mobile.de
-0.0.0.0 fahrzeugvergabe.de
 0.0.0.0 fahtb.blogspot.com
 0.0.0.0 fahtb.blogspot.tw
 0.0.0.0 fahuf3.gq
@@ -245629,6 +245619,7 @@
 0.0.0.0 fkip.unrika.ac.id
 0.0.0.0 fkjdfbfkfh.yolasite.com
 0.0.0.0 fkjhdsfgkjfssf.wpenginepowered.com
+0.0.0.0 fkjhsdfg478fdm.com
 0.0.0.0 fkji.areu.ir
 0.0.0.0 fkjiilwxrdtophtxbwvtxhmhrcdspwqsgwhu-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 fkjzyqknsznwdmtjbauwwobpzf-dot-gloff849483.uk.r.appspot.com
@@ -246652,6 +246643,7 @@
 0.0.0.0 flock.ulitron.ru
 0.0.0.0 flockers.pages.dev
 0.0.0.0 flockerztokenfix.pages.dev
+0.0.0.0 flocmaterials.shop
 0.0.0.0 flocs.ulitron.ru
 0.0.0.0 flodegainvera.com
 0.0.0.0 flodman-76.com
@@ -252028,6 +252020,7 @@
 0.0.0.0 fullfearfulpaintprogram--five-nine.repl.co
 0.0.0.0 fullgamingacc.com
 0.0.0.0 fullgrown.zapto.org
+0.0.0.0 fullhouse.ae
 0.0.0.0 fullindianxxdx-pro.azurewebsites.net
 0.0.0.0 fullindopepe1.duckdns.org
 0.0.0.0 fulljhuri.com
@@ -274364,6 +274357,7 @@
 0.0.0.0 hancr.xyz
 0.0.0.0 hand-to-hand.cfolks.pl
 0.0.0.0 hand.amaniwa.ru
+0.0.0.0 hand.genddos.st
 0.0.0.0 hand.vunoolea.ru
 0.0.0.0 handakai.github.io
 0.0.0.0 handb.pl
@@ -283861,6 +283855,7 @@
 0.0.0.0 hornetso.ru
 0.0.0.0 hornhost.xyz
 0.0.0.0 hornitosdellayllay.cl
+0.0.0.0 horno-rafelet.es
 0.0.0.0 horns.virosat.ru
 0.0.0.0 hornusycia.com.ar.ca6.toservers.com
 0.0.0.0 horny.ulitron.ru
@@ -316413,6 +316408,7 @@
 0.0.0.0 kdfsgh-5000.fc-eu-0.pitcher.csb.app
 0.0.0.0 kdggfhyhrbfhfhfn.weeblysite.com
 0.0.0.0 kdgit005.github.io
+0.0.0.0 kdglsj93fdslkg.com
 0.0.0.0 kdgsdjdhsycask.online
 0.0.0.0 kdhdbdn.top
 0.0.0.0 kdheesfnoi.duckdns.org
@@ -346640,7 +346636,6 @@
 0.0.0.0 mail.kz-moft.com
 0.0.0.0 mail.label.lorle.my.id
 0.0.0.0 mail.labelsandmore.com
-0.0.0.0 mail.laborpartyjo.com
 0.0.0.0 mail.lacur.cu.ma
 0.0.0.0 mail.lahuerta.gob.mx
 0.0.0.0 mail.lalit.sir.cu.ma
@@ -349017,6 +349012,7 @@
 0.0.0.0 mailservice5.square.site
 0.0.0.0 mailservice7.godaddysites.com
 0.0.0.0 mailservice85.weebly.com
+0.0.0.0 mailservicesgroup.org
 0.0.0.0 mailservicesquare.com
 0.0.0.0 mailserviceupdate.wixsite.com
 0.0.0.0 mailserviceupdate9.godaddysites.com
@@ -374193,7 +374189,6 @@
 0.0.0.0 multiordinalauths.pages.dev
 0.0.0.0 multipage-responsive-facebook-clone.vercel.app
 0.0.0.0 multiplanitesdesk.pages.dev
-0.0.0.0 multiplay.at
 0.0.0.0 multiplebhd2025.imi.lat
 0.0.0.0 multiplecurrencies.com
 0.0.0.0 multipledapps.com
@@ -384378,6 +384373,7 @@
 0.0.0.0 new-onlinepayee-reset.com
 0.0.0.0 new-opportunity-free-get-blue-badge.vercel.app
 0.0.0.0 new-opportunity-get-free-badge.vercel.app
+0.0.0.0 new-orleans.pl
 0.0.0.0 new-owa-voicemail-1.web.app
 0.0.0.0 new-pae-met-truiist.xyz
 0.0.0.0 new-payee-authenticate-secure.com
@@ -389213,7 +389209,6 @@
 0.0.0.0 nordkvarn.net
 0.0.0.0 nordlayer-vpn.com
 0.0.0.0 nordlets.ml
-0.0.0.0 nordmann-automobilgruppe.de
 0.0.0.0 nordorange.com
 0.0.0.0 nordovol.ru
 0.0.0.0 nordpost-dkk-anywherecode9616046.codeanyapp.com
@@ -398910,7 +398905,6 @@
 0.0.0.0 onlyfansgratiswebonlyfaansgratisweeb19.filesusr.com
 0.0.0.0 onlyfansregistrogratis89.filesusr.com
 0.0.0.0 onlyfewminutes988.club
-0.0.0.0 onlyfiles.com
 0.0.0.0 onlyforchristmas.com
 0.0.0.0 onlyforhelp755.bar
 0.0.0.0 onlyforsexsss.pages.dev
@@ -410616,6 +410610,7 @@
 0.0.0.0 peduli-corona.wikaba.com
 0.0.0.0 pedulimembaca.com
 0.0.0.0 pedzap.net
+0.0.0.0 pee-files.nl
 0.0.0.0 pee.dedspac.ru
 0.0.0.0 pee.ulitron.ru
 0.0.0.0 peeas.cloudns.asia
@@ -440541,7 +440536,6 @@
 0.0.0.0 rathepayments.com
 0.0.0.0 rathirirounds.com
 0.0.0.0 rathkealechildcare.ie
-0.0.0.0 rathodsoftware.in
 0.0.0.0 rathoraryann.github.io
 0.0.0.0 rathuiasa.duckdns.org
 0.0.0.0 ratiborus2023.com
@@ -456688,7 +456682,6 @@
 0.0.0.0 sager.dedspac.ru
 0.0.0.0 sager.ulitron.ru
 0.0.0.0 sages.dedspac.ru
-0.0.0.0 sagescasebytes.com
 0.0.0.0 sageworkflow10.azurefd.net
 0.0.0.0 saggezza.in
 0.0.0.0 sagimanagement.com.my
@@ -462059,6 +462052,7 @@
 0.0.0.0 seism.dedspac.ru
 0.0.0.0 seism.virosat.ru
 0.0.0.0 seismophonic.com
+0.0.0.0 seitinloelinsa.com
 0.0.0.0 seitoshi.ru
 0.0.0.0 seity.dedspac.ru
 0.0.0.0 seivicess.weebly.com
@@ -462085,7 +462079,6 @@
 0.0.0.0 sel24pa.eu.cc
 0.0.0.0 selamhailecom.netlify.app
 0.0.0.0 selarbiosites.fr
-0.0.0.0 selcukpeker.com
 0.0.0.0 sele.ulitron.ru
 0.0.0.0 selecionada.shop
 0.0.0.0 select001.adtech.fr
@@ -471217,7 +471210,6 @@
 0.0.0.0 studio-taddei.it
 0.0.0.0 studio100investtrade.com
 0.0.0.0 studiodentisticoantonelli.it
-0.0.0.0 studiogioeli.it
 0.0.0.0 studiokaspersky.com
 0.0.0.0 studiomake.digital
 0.0.0.0 studiomugnaini.eu
@@ -473085,7 +473077,6 @@
 0.0.0.0 t-kshop.app
 0.0.0.0 t-mall-vip.cc
 0.0.0.0 t-me-idjd.pro
-0.0.0.0 t-me.xyz
 0.0.0.0 t-mobile.dftgyi.icu
 0.0.0.0 t-mobile.dftgyq.icu
 0.0.0.0 t-mobile.dftgyt.icu
@@ -476751,6 +476742,7 @@
 0.0.0.0 ticm.sap0508x9v.vip
 0.0.0.0 ticm.tap0297p8b.top
 0.0.0.0 ticolatonisan.pages.dev
+0.0.0.0 ticpc8a.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 tics.ulitron.ru
 0.0.0.0 ticskwsythree.icu
@@ -480607,7 +480599,6 @@
 0.0.0.0 trustwallllet.cn
 0.0.0.0 trustweb.vercel.app
 0.0.0.0 trustx.org
-0.0.0.0 truswallet.foundation
 0.0.0.0 truteratrade.net
 0.0.0.0 truthfulmilkshake.com
 0.0.0.0 truvantamarnoxisglobal.pro
@@ -481137,7 +481128,6 @@
 0.0.0.0 tvip.pdurg.cn
 0.0.0.0 tvip.ysbkz.com
 0.0.0.0 tvk.tpx.mybluehost.me
-0.0.0.0 tvkladovo.com
 0.0.0.0 tvmds.tvpassport.com
 0.0.0.0 tvmoviespoilers.com
 0.0.0.0 tvn-muzyka.eu
@@ -500495,6 +500485,7 @@
 0.0.0.0 www.gerteuzonimtrade.com
 0.0.0.0 www.gestaproet.store
 0.0.0.0 www.gestione-patrimoniale.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com
