@@ -1,0 +1,457 @@
+author: APTWatch Curator
+source: https://www.ic3.gov/CSA/2026/261006.pdf
+source_name: "FBI + USSS joint advisory JCSA-20261006-01 + SOCRadar STRU (Dismantling FortiBleed / FortiBleed Unmasked) + CloudSEK + Arctic Wolf - FortiBleed FortiGate credential-compromise and initial-access operation (INC/Lynx)"
+
+apt_groups:
+  - Vanilla Tempest
+  - INC Ransom
+  - Vice Society
+  - Lynx
+
+description: >
+  Joint FBI / U.S. Secret Service cybersecurity advisory JCSA-20261006-01
+  (TLP:CLEAR, October 6, 2026) on FortiBleed, an active global
+  credential-compromise and initial-access-broker operation against
+  internet-facing Fortinet FortiGate firewalls and SSL VPN gateways, with
+  SOCRadar verifying more than 86,644 compromised devices across 194
+  countries. Enriched with the two SOCRadar STRU whitepapers (Vol. I
+  "Dismantling FortiBleed", June 2026, and Vol. II "FortiBleed Unmasked - A
+  Joint Operation by Lynx and INC Ransomware Groups", July 2026), CloudSEK's
+  open-directory analysis, Arctic Wolf Labs' reverse engineering of the
+  CyberStrike Harvester, Kevin Beaumont (DoublePulsar, June 19, 2026),
+  Recorded Future Insikt (June 24, 2026) and SpyCloud Labs (June 19, 2026).
+  No CVE is involved: every primary source (Fortinet PSIRT, FBI/USSS, Trend
+  Micro, Bitdefender, SOCRadar) states the chain is credential-based,
+  relying on reused or leaked credentials, infostealer logs, SSH brute force
+  with FortiGate-specific wordlists, credential stuffing on /logincheck and
+  /remote/logincheck, and legacy salted-SHA-256 administrator password
+  storage in FortiOS (PBKDF2 only applies after an admin re-authenticates).
+  CVE-2026-24858 / CVE-2025-59718 / CVE-2025-59719 are cited by some vendors
+  only as prior FortiCloud SSO weaknesses that may have seeded data, not as
+  the mechanism, and the FortiGate CVE list found in the actor's CyberStrike
+  tasking is a research checklist, so no CVE is submitted. Attribution:
+  SOCRadar STRU assesses with high confidence that FortiBleed is operated by
+  TOXMAN (aliases TOXFOX, Greenprawn100; Exploit.in profile), an affiliate
+  of both the INC Ransom and Lynx ransomware programs, inside a hierarchy of
+  more than 20 members (core operators SCROOGE, suspected team lead, MET and
+  SHARK; Telegram handles @clarksome and @prosto100; SSH key comment
+  cyberstrike@pentestlab on 85.11.187.8). Russian-language tooling
+  artifacts and a sniffer that only runs 07:00-18:00 Moscow time support a
+  Russian-speaking operator, although CloudSEK notes origin is not fully
+  resolved from the open directory alone. The FBI/USSS advisory states that
+  initial access brokers using the FortiBleed chain currently supply access
+  to INC/Lynx ransomware and Payload ransomware affiliates; SOCRadar tied at
+  least 12 confirmed ransomware attacks, 409 confirmed admin accesses and
+  354 full intrusion chains to FortiBleed by July 2026, and found a second
+  open directory (217.144.189.136:8080) holding INC Ransom binaries for
+  Linux, ESXi and Windows with victims overlapping FortiBleed. INC Ransom
+  maps to Microsoft's Vanilla Tempest (formerly Vice Society); Lynx and
+  Payload are listed for context. Recorded Future assesses the Exploit forum
+  seller SantaAd (auction of June 12, 2026, 34,000 lines) as credible and the
+  ShinyHunters-branded "shinymontanna" Telegram claims as re-extortion.
+  Timeline: Sophos portal enumeration February 28, 2026, RDWeb March 3,
+  MSSQL May 12, Citrix May 18, first fg_capture May 19, 2026, Kerberos
+  cracking and DFS exfiltration from a NATO-aligned defense contractor June
+  15, 2026, scanning observed by victims June 18 to July 23, 2026 (advisory
+  Table 1), confirmed ongoing in October 2026 with victims now locked out of
+  their own firewalls. Attack chain: internet scanning for exposed FortiGate
+  SSL VPN portals (T1595, T1190) by forticheck / fortiprobe-fast / fg_sniffer
+  ("FortiGate Sniffer (Go Edition)", "CyberStrike Harvester v1.5");
+  credential stuffing and password spraying (T1110.004, T1110.003);
+  extraction of the FortiOS user database (T1003) and exfiltration (T1041)
+  to a rented GPU cluster (T1583, vast.ai, about 36-45 GPUs) running Hashcat
+  orchestrated by Hashtopolis 0.14.3 for offline cracking (T1110.002), with
+  live telemetry through a Telegram bot; honeypot filtering and
+  revenue-ranked target enrichment; automated FortiGate config export
+  seconds after login, creation of new administrator accounts (T1136.001),
+  new firewall rules allowing SSH/RDP to NATed hosts, IPsec tunnel logins,
+  and deletion or password change of legitimate accounts (T1531); valid
+  accounts (T1078) to pivot, Active Directory enumeration (T1087, ad_enum.py
+  / ad_full_audit.py / find_uno.py), spraying for privileged accounts
+  (spray_da.py), DFS backup exfiltration (backup_dfs.py); packaging of
+  working VPN configurations and target lists for sale. SSH abused when the
+  port was exposed; beaconing on ports 4332 and 4432 but mostly HTTPS;
+  fg_sniffer C2 dashboard on HTTP 8080; Hashtopolis API on 85.11.187.8:8443;
+  open directory on 85.11.187.8:9999; mssql_checker metrics API on port 777.
+  Infrastructure (SOCRadar Vol. I): four core /24 blocks explicitly owned by
+  the actor - 85.11.187.0/24 (AS211486, primary C2 layer anchored by
+  aggregator 85.11.187.8, sniffers, scanners, Docker host 85.11.187.12 of
+  TOXMAN's AI "PENTEST LAB"), 193.8.187.0/24 (AS206378, pentest-lab host
+  193.8.187.2 and credential-validation node 193.8.187.42), 194.113.39.0/24
+  (AS206378, sniffer capacity) and 77.91.122.0/24 (AS201814 MEVSPACE,
+  scanning and sniffer layer) - submitted as cidrs. Advisory roles:
+  45.154.12.132 C2 server; 154.202.59.169 and 103.27.186.156 proxy nodes;
+  45.155.250.158 beacon relay; 193.8.187.2, 193.8.187.42 and 85.11.187.8
+  facilitate the chain. Vol. II: 149.50.108.150 master node of the
+  CyberStrike cluster; 62.60.131.246 and 91.214.78.252 C2 "Fortigate Harvest
+  Grid"; 193.221.200.2 and 195.10.205.233 C2; 188.127.246.183 TOXMAN Windows
+  workstation and sniffer (Bitvise SSH into 85.11.187.8); 213.171.17.74
+  Windows sniffer; operator IPs via RDP 91.148.237.63 (PrivadoVPN exit),
+  109.205.211.139 and 213.21.239.65. CloudSEK: 85.11.187.28 credential
+  harvesting node, 193.8.187.2 jump box, Hashtopolis workers 185.229.26.83,
+  213.169.49.142, 38.117.87.37, 198.53.64.194, 175.155.64.221. Beaumont:
+  193.8.186.7, 213.21.239.65, 208.94.246.58, 69.195.129.144 and 80.75.212.113
+  seen exporting FortiGate configs at victim organizations. The ipv4 list
+  below merges, in confidence order, the FBI/USSS Table 1 brute-force and
+  successful-authentication addresses, the SOCRadar Vol. I "Fortigate
+  Sniffer" and "Fortigate Sniffer & Scanner" hosts, Vol. II C2 and operator
+  addresses, CloudSEK and Beaumont, then the 199 SOCRadar Vol. I "Proxy
+  Rotation" traffic-relay nodes, which are abused VPS and residential
+  proxies spread over 29 ASNs (SmartApe, Datacamp/CDN77, Private Layer,
+  31173, M247, Cable One) with lower blocking value and expected churn.
+  Caveats: 104.28.155.27 (advisory Table 1) sits in Cloudflare-announced
+  space, likely a WARP egress, and the agencies warn that Table 1 addresses
+  may be reassigned to benign services; 96.45.42.173, reported by Beaumont
+  exporting configs, belongs to Fortinet's own ASN (FortiSASE egress) and
+  is deliberately NOT submitted; eight addresses listed only in the F5 Labs
+  weekly bulletin of July 8, 2026 (167.179.76.111, 199.247.7.82,
+  38.54.88.203, 38.54.95.226, 38.60.212.97, 45.32.153.218, 45.61.136.7,
+  83.138.53.110) could not be traced to a primary source and are NOT
+  submitted. Ransomware infrastructure from Vol. II: Lynx management panel
+  and INC management panel .onion addresses submitted as domains; operator
+  TOX ID (MET) D0C12DAC4797FFBD31A0BB57E227E141A39FA1F5A3A3FD4C3F15C02D7801DC5ED8C1BF08ACFD
+  and BTC address 3A2THXCdqeeuBeDZEKTcwqykYABZsVoJxq recorded here only.
+  Attacker-created administrator account names listed by the advisory, not
+  representable in this schema, recorded for hunting: adminin, fortiAdmin,
+  forticloud-sync, admin, fgtsecure, pakedge, forticloud-tech,
+  districtadmin, system_config, gttadmin, roadmin, itadmin,
+  Technical_support, adminsslvpn, IT_Manager, my_admin, support_fortinet,
+  fgtsec, forti_support2. SHA-256 file indicators (no hash field in this
+  schema), limited to those verifiable in text form, from Arctic Wolf Labs:
+  harvest_orig (CyberStrike Harvester v1.5)
+  2758f4d71a2a2dfdefab81737c2d776b2a3dafe5844fdd2157e089a28447ca98,
+  bot.py 479ae5fd7274439ddfa27bc03298ebfdfc5ff17f6412acccf74d4dbd90d94218,
+  backup_dfs.py 4253dd1a4c0867b0be7732f75b2f630cebfb7fed94270e15fb3b12ae40546d01.
+  SOCRadar Vol. I and Vol. II publish about 50 further SHA-256 hashes
+  (fg_sniffer builds, forticheck, fortiprobe-fast, mssql_checker,
+  forti-panel.exe, the Python tooling, INC Ransom binaries), but their IoC
+  tables are embedded as images and could not be transcribed reliably;
+  consult the whitepapers directly for EDR blocking.
+  Targeting is indiscriminate and worldwide (top countries India, United
+  States, Taiwan, Mexico, Turkey; later shift to LatAm/APAC manufacturing
+  and technology); the advisory addresses all 16 U.S. critical
+  infrastructure sectors including transportation systems and government
+  facilities. Mitigations: remove management interfaces from the internet
+  or restrict them via trusted hosts and local-in policies, terminate all
+  admin and VPN sessions, reset all FortiGate admin and VPN credentials,
+  enforce PBKDF2 admin hashing (FortiOS 7.2.11+), review all local accounts
+  and REST API keys, enable phishing-resistant MFA. Companion URLs:
+  https://socradar.io/wp-content/uploads/2026/06/Dismantling-FortiBleed.pdf,
+  https://cdn.socradar.io/wp-content/uploads/2026/07/FortiBleed-Unmasked_-A-Joint-Operation-by-Lynx-and-INC-Ransomware-Groups-.pdf,
+  https://www.cloudsek.com/blog/inside-the-fortibleed-open-directory-a-technical-analysis-of-what-the-attacker-left-behind,
+  https://arcticwolf.com/resources/blog/inside-fortibleed-reverse-engineering-the-cyberstrike-harvester-behind-a-global-fortigate-credential-factory/,
+  https://doublepulsar.com/an-update-on-fortibleed-whats-happening-with-victim-orgs-c0671a50e7f4,
+  https://www.recordedfuture.com/blog/critical-fortibleed-campaign,
+  https://spycloud.com/blog/what-spycloud-found-inside-the-fortibleed-threat-actor-infrastructure/,
+  https://socradar.io/blog/fortibleed-fortinet-firewalls-compromised/.
+  Submitted by the STTR analyse-veille-securite-rss skill, run 2026-10-07
+  (brief veille-securite-rss-20261007-0946.md), enriched manually the same
+  day; 85.11.187.8 is already present in the APTWatch database and is
+  expected to be skipped as a duplicate.
+
+cidrs:
+  - 85.11.187.0/24
+  - 193.8.187.0/24
+  - 194.113.39.0/24
+  - 77.91.122.0/24
+
+ipv4:
+  - 38.117.87.37
+  - 45.154.12.132
+  - 45.155.250.158
+  - 45.227.254.210
+  - 62.60.131.246
+  - 66.175.220.111
+  - 69.195.129.144
+  - 77.91.118.10
+  - 77.91.122.5
+  - 77.91.122.7
+  - 77.91.122.9
+  - 77.91.122.11
+  - 77.91.122.13
+  - 77.91.122.17
+  - 77.91.122.31
+  - 77.91.122.33
+  - 77.91.122.35
+  - 77.91.122.39
+  - 80.75.212.113
+  - 85.11.187.8
+  - 85.11.187.12
+  - 85.11.187.28
+  - 85.11.187.64
+  - 85.11.187.66
+  - 85.11.187.68
+  - 85.11.187.72
+  - 85.11.187.90
+  - 85.11.187.92
+  - 85.11.187.94
+  - 85.11.187.98
+  - 85.11.187.100
+  - 85.11.187.101
+  - 85.11.187.103
+  - 85.11.187.105
+  - 85.11.187.107
+  - 85.11.187.108
+  - 85.11.187.109
+  - 85.11.187.111
+  - 85.11.187.112
+  - 85.11.187.113
+  - 85.11.187.114
+  - 85.11.187.115
+  - 85.11.187.116
+  - 85.11.187.117
+  - 85.11.187.118
+  - 85.11.187.119
+  - 85.11.187.120
+  - 85.11.187.121
+  - 87.251.64.13
+  - 87.251.64.16
+  - 87.251.64.17
+  - 87.251.64.44
+  - 91.148.237.63
+  - 91.214.78.252
+  - 103.27.186.156
+  - 104.28.155.27
+  - 109.205.211.139
+  - 149.50.108.150
+  - 154.202.59.169
+  - 175.155.64.221
+  - 179.43.166.170
+  - 185.136.15.43
+  - 185.136.15.66
+  - 185.199.199.56
+  - 185.229.26.83
+  - 188.127.246.183
+  - 193.8.186.7
+  - 193.8.186.33
+  - 193.8.187.2
+  - 193.8.187.6
+  - 193.8.187.10
+  - 193.8.187.14
+  - 193.8.187.22
+  - 193.8.187.26
+  - 193.8.187.42
+  - 193.221.200.2
+  - 194.113.39.45
+  - 194.113.39.47
+  - 194.113.39.49
+  - 194.113.39.53
+  - 194.113.39.71
+  - 194.113.39.73
+  - 194.113.39.75
+  - 194.113.39.79
+  - 195.10.205.233
+  - 198.53.64.194
+  - 208.94.246.58
+  - 213.21.239.65
+  - 213.169.49.142
+  - 213.171.17.74
+  - 217.144.189.136
+  - 62.197.149.124
+  - 77.91.96.136
+  - 77.91.122.43
+  - 80.246.31.105
+  - 83.48.92.67
+  - 85.11.187.16
+  - 85.11.187.20
+  - 85.11.187.36
+  - 85.11.187.40
+  - 85.11.187.44
+  - 85.11.187.74
+  - 85.11.187.76
+  - 85.11.187.102
+  - 85.11.187.123
+  - 85.11.187.124
+  - 85.11.187.127
+  - 85.11.187.132
+  - 85.11.187.133
+  - 85.11.187.134
+  - 85.11.187.135
+  - 85.11.187.136
+  - 85.11.187.137
+  - 85.11.187.138
+  - 85.11.187.139
+  - 85.11.187.141
+  - 85.11.187.143
+  - 85.11.187.144
+  - 85.11.187.145
+  - 85.11.187.146
+  - 85.11.187.147
+  - 85.11.187.148
+  - 85.11.187.149
+  - 85.11.187.150
+  - 85.11.187.151
+  - 85.11.187.152
+  - 85.11.187.153
+  - 85.11.187.154
+  - 85.11.187.155
+  - 85.11.187.156
+  - 85.11.187.157
+  - 85.11.187.158
+  - 85.11.187.159
+  - 85.11.187.160
+  - 85.11.187.161
+  - 85.11.187.162
+  - 85.11.187.163
+  - 85.11.187.164
+  - 85.11.187.165
+  - 85.11.187.166
+  - 85.11.187.167
+  - 85.11.187.168
+  - 85.11.187.169
+  - 85.11.187.170
+  - 85.11.187.171
+  - 85.11.187.172
+  - 85.11.187.173
+  - 85.11.187.174
+  - 85.11.187.175
+  - 85.11.187.176
+  - 85.11.187.177
+  - 85.11.187.178
+  - 85.11.187.179
+  - 85.11.187.180
+  - 85.11.187.181
+  - 85.11.187.182
+  - 85.11.187.183
+  - 85.11.187.184
+  - 85.11.187.185
+  - 85.11.187.186
+  - 85.11.187.187
+  - 85.11.187.190
+  - 85.11.187.192
+  - 85.11.187.194
+  - 85.11.187.195
+  - 85.11.187.196
+  - 85.11.187.197
+  - 85.11.187.200
+  - 85.11.187.203
+  - 85.11.187.206
+  - 85.11.187.215
+  - 85.11.187.216
+  - 85.11.187.217
+  - 85.11.187.218
+  - 85.11.187.219
+  - 85.11.187.220
+  - 85.11.187.221
+  - 85.11.187.222
+  - 85.11.187.223
+  - 85.11.187.227
+  - 85.11.187.232
+  - 85.11.187.233
+  - 85.11.187.234
+  - 85.11.187.235
+  - 85.11.187.236
+  - 85.11.187.237
+  - 85.11.187.238
+  - 85.11.187.239
+  - 85.11.187.240
+  - 85.11.187.241
+  - 85.11.187.242
+  - 85.11.187.248
+  - 85.11.187.252
+  - 85.11.187.254
+  - 87.249.133.20
+  - 87.249.133.79
+  - 89.187.163.211
+  - 91.214.78.143
+  - 95.214.217.25
+  - 96.18.56.78
+  - 96.18.57.90
+  - 96.43.51.7
+  - 99.9.111.82
+  - 102.50.247.12
+  - 103.21.149.215
+  - 103.50.219.186
+  - 103.80.60.70
+  - 103.88.80.163
+  - 103.124.165.105
+  - 103.154.55.145
+  - 103.194.242.134
+  - 104.160.114.124
+  - 107.0.184.92
+  - 146.70.224.23
+  - 146.70.231.15
+  - 147.45.45.202
+  - 152.89.216.207
+  - 179.43.166.138
+  - 185.65.133.22
+  - 185.65.133.193
+  - 188.127.226.252
+  - 192.253.248.42
+  - 193.8.187.30
+  - 193.8.187.34
+  - 193.8.187.38
+  - 193.8.187.46
+  - 193.138.7.164
+  - 194.113.39.26
+  - 194.113.39.104
+  - 194.113.39.105
+  - 194.113.39.107
+  - 194.113.39.108
+  - 194.113.39.109
+  - 194.113.39.110
+  - 194.113.39.122
+  - 194.113.39.123
+  - 194.113.39.125
+  - 194.113.39.126
+  - 194.113.39.127
+  - 194.113.39.131
+  - 194.113.39.135
+  - 194.113.39.141
+  - 194.113.39.142
+  - 194.113.39.143
+  - 194.113.39.144
+  - 194.113.39.145
+  - 194.113.39.146
+  - 194.113.39.151
+  - 194.113.39.158
+  - 194.113.39.159
+  - 194.113.39.160
+  - 194.113.39.161
+  - 194.113.39.162
+  - 194.113.39.174
+  - 194.113.39.176
+  - 194.113.39.177
+  - 194.113.39.178
+  - 194.113.39.179
+  - 194.113.39.180
+  - 194.113.39.181
+  - 194.113.39.183
+  - 194.113.39.192
+  - 194.113.39.193
+  - 194.113.39.194
+  - 194.113.39.195
+  - 194.113.39.196
+  - 194.113.39.198
+  - 194.113.39.200
+  - 194.113.39.206
+  - 194.113.39.210
+  - 194.113.39.211
+  - 194.113.39.212
+  - 194.113.39.213
+  - 194.113.39.214
+  - 194.113.39.219
+  - 194.113.39.225
+  - 194.113.39.226
+  - 194.113.39.227
+  - 194.113.39.228
+  - 194.113.39.229
+  - 194.113.39.230
+  - 194.113.39.231
+  - 194.113.39.238
+  - 194.113.39.243
+  - 194.113.39.244
+  - 194.113.39.245
+  - 194.113.39.246
+  - 194.113.39.247
+  - 194.113.39.248
+  - 194.127.167.114
+
+domains:
+  - lynxad2seqpyu52lr5v7il4idasv23535a46s4bj65b3v7t5y6u5daqd.onion
+  - incbacg6bfwtrlzwdbqc55gsfl763s3twdtwhp27dzuik6s6rwdcityd.onion
+
+urls:
+  - http://85.11.187.8:9999/
+  - https://85.11.187.8:8443/
+  - http://217.144.189.136:8080/
