@@ -1,0 +1,60 @@
+# Curator submission — CaptiveCrunch resurgence (October 5, 2026 update)
+#
+# Microsoft Threat Intelligence updated their CaptiveCrunch blog on 2026-10-05:
+# Storm-2945 (Midnight Blizzard / APT29-SVR sub-cluster) resumed the campaign on
+# 2026-09-29 against hospitality captive-portal networks, deploying a Rust
+# variant of the CornFlake infostealer. Five net-new network IOCs (first seen
+# 2026-09-29 to 2026-10-01). All July-wave IOCs from the original 2026-07-31
+# report are already in the DB at curator 1.0 and are skipped per the
+# pure-duplicate rule (no new attribution added by this update).
+#
+# Triage note: triage_domain_ownership.py returned needs_review/
+# compromised_legitimate (offline heuristic default) for all three domains.
+# Curator OVERRIDE to malicious: Microsoft explicitly lists them as
+# "CaptiveCrunch redirect" actor infrastructure, and the naming is doppelganger
+# style (cdn-gstat mimicking Google gstatic; sslcdnhost generic CDN lure;
+# network-privacy captive-portal lure). Raw CSV kept unedited at
+# APT_Analytics/reports/triage/microsoft-captivecrunch-update-2026-10-06.csv.
+#
+# Hashes (no hash table in flat-IOC schema — logged for reference only):
+#   CornFlake  918fa52ae45ed60ba7cc8bdc99c3cbe9ab92e0375ec31fc05d0d4513be11c593 (July wave, unchanged)
+#   ChocoShell be99857449d2856dd5a84e21c8a3d5e0e01456adb44062ddec5a6b4970d8d42c (July wave, unchanged)
+#
+# Victim telemetry (Black Lotus Labs "CaptiveCrunch Part II": ~70 victim IPs,
+# 3 North American hospitality MSPs) deliberately NOT ingested — victim-side.
+#
+# Alias note: "Midnight Blizzard" deliberately NOT added as alias (ambiguous —
+# belongs to both APT29 / Cozy Bear and Earth Koshchei campaign entries).
+
+author: aptwatch-curator
+source: https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/
+source_name: Microsoft Threat Intelligence — CaptiveCrunch (October 5, 2026 update)
+
+apt_groups:
+  - Midnight Blizzard CaptiveCrunch (Storm-2945)
+
+description: >
+  October 5, 2026 update to Microsoft's CaptiveCrunch report: Storm-2945
+  (sub-cluster of Midnight Blizzard, SVR-attributed) resumed captive-portal
+  traffic manipulation against hospitality networks on September 29, 2026,
+  consistent with Black Lotus Labs reporting that upstream hospitality managed
+  service providers remain compromised. New activity includes a Rust variant of
+  the CornFlake RAT/infostealer (AI-assisted development assessed by Microsoft).
+  Net-new network infrastructure first seen 2026-09-29 to 2026-10-01:
+  CaptiveCrunch redirect domains cdn-gstat.com, sslcdnhost.com,
+  network-privacy.com (attacker-registered doppelgangers; curator override of
+  offline triage heuristic based on Microsoft's explicit attribution), plus
+  CaptiveCrunch infrastructure 154.29.75.245 and device-code-flow (DCF)
+  infrastructure 149.3.170.186. GTIG collaborated on tracking the reemergence.
+  Sister coverage: Black Lotus Labs (Lumen) "CaptiveCrunch Part II" (victim
+  telemetry only, not ingested); Zscaler ThreatLabz August 11 blog carries no
+  October-wave IOCs. July-wave IOCs already at curator 1.0 — skipped.
+
+domains:
+  - cdn-gstat.com
+  - sslcdnhost.com
+  - network-privacy.com
+
+ipv4:
+  - 154.29.75.245
+  - 149.3.170.186
