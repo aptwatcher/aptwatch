@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-07 12:33:53
-# Entries: 516876
+# Generated: 2026-10-07 18:33:15
+# Entries: 516877
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -17874,6 +17874,7 @@
 0.0.0.0 3.vxssy.live
 0.0.0.0 3.vxswe.solutions
 0.0.0.0 3.vzxwq.life
+0.0.0.0 3.zhzy999.net3.zhzy999.net
 0.0.0.0 30-09-vjer09tg-ej5rg-9jker-gk0e-trgjk-r90jg-0rejg-9rr.obs.ap-southeast-3.myhuaweicloud.com
 0.0.0.0 30-2ki.pages.dev
 0.0.0.0 30-day-change.com
@@ -18136,6 +18137,7 @@
 0.0.0.0 30ywc.codesandbox.io
 0.0.0.0 30z98b6q.duckdns.org
 0.0.0.0 31-192-237-130.cprapid.com
+0.0.0.0 31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net
 0.0.0.0 31.14.161.74
 0.0.0.0 31.170.100.210
 0.0.0.0 31.170.106.44
@@ -48999,7 +49001,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -74250,7 +74251,6 @@
 0.0.0.0 alpharddiving.com
 0.0.0.0 alphardgolf.fr
 0.0.0.0 alpharealmx.com
-0.0.0.0 alpharettaagency.com
 0.0.0.0 alphas.dedspac.ru
 0.0.0.0 alphasan.in
 0.0.0.0 alphasaurabh.github.io
@@ -83797,6 +83797,7 @@
 0.0.0.0 andavolux.com
 0.0.0.0 andavopro.com
 0.0.0.0 andavotravel.co
+0.0.0.0 andbake.cam
 0.0.0.0 andbank.me.ma
 0.0.0.0 andbien.ru
 0.0.0.0 andbondewer.zzux.com
@@ -144311,7 +144312,6 @@
 0.0.0.0 bigreal.org
 0.0.0.0 bigrecess.com
 0.0.0.0 bigrigrvadventures.com
-0.0.0.0 bigs.bikershop.biz
 0.0.0.0 bigs.bortogat.ru
 0.0.0.0 bigs.dedspac.ru
 0.0.0.0 bigs.ulitron.ru
@@ -184479,7 +184479,6 @@
 0.0.0.0 community.fb-pages-87311170493185500542.qf4owyef2n-xoy4w7wpr6pw.p.runcloud.link
 0.0.0.0 community.fb-pages-99558416152942940161.qf4owyef2n-xoy4w7wpr6pw.p.runcloud.link
 0.0.0.0 community.films43.me
-0.0.0.0 community.firm.in
 0.0.0.0 community.manage-app-uuid32899926009389349564.q8pwzeiv8n-ewx3lwn7l4zq.p.runcloud.link
 0.0.0.0 community.manage-app-uuid72329026450911547548.q8pwzeiv8n-ewx3lwn7l4zq.p.runcloud.link
 0.0.0.0 community.microsoftbusinessapps.com
@@ -205152,6 +205151,7 @@
 0.0.0.0 dfcvnxyx.skin
 0.0.0.0 dfcxvh.000webhostapp.com
 0.0.0.0 dfczxc.weebly.com
+0.0.0.0 dfd.zhzy999.net
 0.0.0.0 dfd55.1yaz7ec5.cardiopedbrasil.com.br
 0.0.0.0 dfdavsfwfkmkvshecodrevwsge-dot-gle39404049.rj.r.appspot.com
 0.0.0.0 dfdcvip.com
@@ -210430,7 +210430,6 @@
 0.0.0.0 docs.booneservicse.com
 0.0.0.0 docs.bpfi.digital
 0.0.0.0 docs.codethemes.co
-0.0.0.0 docs.cs-supplements.de
 0.0.0.0 docs.econeurqa.com
 0.0.0.0 docs.edoctransfer.com
 0.0.0.0 docs.envytheme.com
@@ -211607,7 +211606,6 @@
 0.0.0.0 donutecocolate.com
 0.0.0.0 donutsmpcheats.org
 0.0.0.0 donutsmpclient.com
-0.0.0.0 donutsmpdupe.com
 0.0.0.0 donval.112.2o7.net
 0.0.0.0 donweeseinc.com
 0.0.0.0 donyaiajor.com
@@ -225104,7 +225102,6 @@
 0.0.0.0 ergot.virosat.ru
 0.0.0.0 ergoterapeutene.broke-it.net
 0.0.0.0 ergoterapiacaribu.ch
-0.0.0.0 ergotherapeia-kalamata.gr
 0.0.0.0 ergqzszqmvsdcfyu-dot-millinium.ey.r.appspot.com
 0.0.0.0 ergrq.blogspot.fi
 0.0.0.0 ergrq.blogspot.hr
@@ -242711,6 +242708,7 @@
 0.0.0.0 fiberfusioninc.com
 0.0.0.0 fiberglassrestorations.com
 0.0.0.0 fiberinternetoptions.com
+0.0.0.0 fibernetperu.pe
 0.0.0.0 fibertech.ro
 0.0.0.0 fibertectelecom.com.br
 0.0.0.0 fibill.com
@@ -248674,7 +248672,6 @@
 0.0.0.0 foundation.con-wallet.network
 0.0.0.0 foundational-rating.000webhostapp.com
 0.0.0.0 foundationally.timanar.ru
-0.0.0.0 foundationforwomenshealth.com
 0.0.0.0 foundations-admin-10000005546884950.ml
 0.0.0.0 foundations-admin-10000005546884951.ml
 0.0.0.0 foundations-admin-10000005546884952.ml
@@ -266721,6 +266718,7 @@
 0.0.0.0 growels101.com
 0.0.0.0 growena.in
 0.0.0.0 growforwardz-tau.vercel.app
+0.0.0.0 growgreenhorizons.com
 0.0.0.0 growgreenindia.in
 0.0.0.0 growhairs.shop
 0.0.0.0 growhealthandfitness.com.au
@@ -283869,6 +283867,7 @@
 0.0.0.0 hornetso.ru
 0.0.0.0 hornhost.xyz
 0.0.0.0 hornitosdellayllay.cl
+0.0.0.0 horno-rafelet.es
 0.0.0.0 horns.virosat.ru
 0.0.0.0 hornusycia.com.ar.ca6.toservers.com
 0.0.0.0 horny.ulitron.ru
@@ -334658,7 +334657,6 @@
 0.0.0.0 loanemicalculators.com
 0.0.0.0 loanme.pl
 0.0.0.0 loanmone23.com
-0.0.0.0 loanoffer.co.in
 0.0.0.0 loanserver.mayocoo.com
 0.0.0.0 loanservice.vip
 0.0.0.0 loanthali.com
@@ -348525,7 +348523,6 @@
 0.0.0.0 mail1.goggle.workers.dev
 0.0.0.0 mail1.googlle.workers.dev
 0.0.0.0 mail1.lectec.com.au
-0.0.0.0 mail1.mycollege.com.my
 0.0.0.0 mail1.netjets.com
 0.0.0.0 mail1.sspl.com.au
 0.0.0.0 mail1.systemone.com
@@ -349257,7 +349254,6 @@
 0.0.0.0 main.exoclick.com
 0.0.0.0 main.exosrv.com
 0.0.0.0 main.fbmmnsnnsm-6061949153.1oxjkps3ah-yjr3oxzrm31m.p.runcloud.link
-0.0.0.0 main.lahoreshoes.com
 0.0.0.0 main.lancefiber.net
 0.0.0.0 main.museumofwesternco.live
 0.0.0.0 main.paylessautoz.de
@@ -381240,6 +381236,7 @@
 0.0.0.0 nczzmdrutzwesirv-dot-millinium.ey.r.appspot.com
 0.0.0.0 nd-ex-login.pages.dev
 0.0.0.0 nd.5.p2l.info
+0.0.0.0 nd.tdpqnf.com
 0.0.0.0 nd2d.pages.dev
 0.0.0.0 nd3zaz.top
 0.0.0.0 nd66.vip
@@ -405792,6 +405789,7 @@
 0.0.0.0 palet.dedspac.ru
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
+0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palingviralsxx.duckdns.org
 0.0.0.0 paliodasti.com.usrfiles.com
@@ -462985,6 +462983,7 @@
 0.0.0.0 severalheroes.com
 0.0.0.0 severally.amaniwa.ru
 0.0.0.0 severcacum.store
+0.0.0.0 severidades.cfd
 0.0.0.0 severodoneck.site
 0.0.0.0 severozapadonlineparts.ru
 0.0.0.0 sevquz.weebly.com
@@ -471486,7 +471485,6 @@
 0.0.0.0 sudahosting.com
 0.0.0.0 sudais73.github.io
 0.0.0.0 sudan.news-pravda.com
-0.0.0.0 sudariocontabilidade.com.br
 0.0.0.0 sudarshanabpatil.github.io
 0.0.0.0 sudd.ulitron.ru
 0.0.0.0 suddenplot.com
@@ -471536,6 +471534,7 @@
 0.0.0.0 sugarcapital.net
 0.0.0.0 sugarcoatedbinacle.vercel.app
 0.0.0.0 sugarcrm.bibliota.ru
+0.0.0.0 sugarfreedcup.co.za
 0.0.0.0 sugh.dedspac.ru
 0.0.0.0 sughiswap.github.io
 0.0.0.0 sugoicounter.com
@@ -488425,6 +488424,7 @@
 0.0.0.0 w.visualdna.com
 0.0.0.0 w.yieldmo.com
 0.0.0.0 w.zenback.jp
+0.0.0.0 w.zhzy999.net
 0.0.0.0 w0.extreme-dm.com
 0.0.0.0 w00tpublishers.wootmedia.net
 0.0.0.0 w02f.xyz
@@ -489638,6 +489638,7 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webdata.vidz.com
 0.0.0.0 webdatadata.pages.dev
@@ -508595,7 +508596,6 @@
 0.0.0.0 www.sitetracker.com
 0.0.0.0 www.sitioattic.store
 0.0.0.0 www.sitononraggiungibile.it
-0.0.0.0 www.sivritepeinsaat.com
 0.0.0.0 www.sixsigmatraffic.com
 0.0.0.0 www.sizecart.com
 0.0.0.0 www.sizeer.actionone.sbs
@@ -516271,6 +516271,7 @@
 0.0.0.0 zhblz.com
 0.0.0.0 zhelp-supports.business-minagne.com
 0.0.0.0 zhh08b3.wixsite.com
+0.0.0.0 zhigao5191.com
 0.0.0.0 zhihu-web-analytics.zhihu.com
 0.0.0.0 zhilan.ru
 0.0.0.0 zhirok.com
