@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-07 00:33:44
-# Entries: 516867
+# Generated: 2026-10-07 06:05:06
+# Entries: 516871
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -46645,7 +46645,6 @@
 0.0.0.0 abitare.com.mx
 0.0.0.0 abitareainmo.com
 0.0.0.0 abitaremx.com
-0.0.0.0 abitcoinbull.com
 0.0.0.0 abitinoble.ru
 0.0.0.0 abitoincommunity.it
 0.0.0.0 abitrativeapp.pages.dev
@@ -125449,6 +125448,7 @@
 0.0.0.0 bafaro.virosat.ru
 0.0.0.0 bafcdeg.pilot45.com
 0.0.0.0 bafd7a50.gfwisd-235.shop
+0.0.0.0 bafdili.com
 0.0.0.0 baffc.org.dragonflydowser.com
 0.0.0.0 baffe-level.web.app
 0.0.0.0 baffed.virosat.ru
@@ -210425,6 +210425,7 @@
 0.0.0.0 docs.booneservicse.com
 0.0.0.0 docs.bpfi.digital
 0.0.0.0 docs.codethemes.co
+0.0.0.0 docs.cs-supplements.de
 0.0.0.0 docs.econeurqa.com
 0.0.0.0 docs.edoctransfer.com
 0.0.0.0 docs.envytheme.com
@@ -211596,6 +211597,8 @@
 0.0.0.0 dontworry52.000webhostapp.com
 0.0.0.0 donum.ulitron.ru
 0.0.0.0 donut.dedspac.ru
+0.0.0.0 donutclients.st
+0.0.0.0 donutdupe.com
 0.0.0.0 donutecocolate.com
 0.0.0.0 donutsmpcheats.org
 0.0.0.0 donutsmpclient.com
@@ -220490,6 +220493,7 @@
 0.0.0.0 eidoloni.ru
 0.0.0.0 eidos.dedspac.ru
 0.0.0.0 eidos.virosat.ru
+0.0.0.0 eidoss.mx
 0.0.0.0 eieggim.life
 0.0.0.0 eiei2222.pages.dev
 0.0.0.0 eiepl.com
@@ -463619,7 +463623,6 @@
 0.0.0.0 shiviislive.github.io
 0.0.0.0 shivmundhe7.github.io
 0.0.0.0 shivshreetravelworld.com
-0.0.0.0 shivsoftwaresolutions.com
 0.0.0.0 shivuu2803.github.io
 0.0.0.0 shizhong.pilot45.com
 0.0.0.0 shjyzxzx.com
@@ -470419,6 +470422,7 @@
 0.0.0.0 stellarisa.online
 0.0.0.0 stellarisa.ru
 0.0.0.0 stellarium.fr
+0.0.0.0 stellaspicy.org
 0.0.0.0 stelmio.pl
 0.0.0.0 steloriaki.com
 0.0.0.0 stemboastfulrattle.com
