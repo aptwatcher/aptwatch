@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-06 18:33:40
-# Entries: 516868
+# Generated: 2026-10-07 00:33:44
+# Entries: 516867
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -87750,6 +87750,7 @@
 0.0.0.0 aolfv.movimento-comunita.org
 0.0.0.0 aolgam.122.2o7.net
 0.0.0.0 aolgamedaily.122.2o7.net
+0.0.0.0 aolgepacklng.com
 0.0.0.0 aolgloballink1900.weeblysite.com
 0.0.0.0 aolgloballink707.weeblysite.com
 0.0.0.0 aolglobeme.weebly.com
@@ -97671,7 +97672,6 @@
 0.0.0.0 aquaticowl.com
 0.0.0.0 aquatictestinglabs.com
 0.0.0.0 aquatippnters.info
-0.0.0.0 aquatitewaterproofing.com
 0.0.0.0 aquawaterpurifiers.com
 0.0.0.0 aquazoneamqui.com
 0.0.0.0 aquecedoreskbs.com.br
@@ -168723,6 +168723,7 @@
 0.0.0.0 cdn-gl.imrworldwide.com
 0.0.0.0 cdn-googel.com
 0.0.0.0 cdn-google-slides-img.in-cloud.workers.dev
+0.0.0.0 cdn-gstat.com
 0.0.0.0 cdn-guile.akamaized.net
 0.0.0.0 cdn-health-service.com
 0.0.0.0 cdn-help-hub-trezor-io.webflow.io
@@ -330641,7 +330642,6 @@
 0.0.0.0 liked.ulitron.ru
 0.0.0.0 likedater.com
 0.0.0.0 likedinmastmwndfhztcxnziyzf-sqa3h.kinsta.page
-0.0.0.0 likedrink.beer
 0.0.0.0 likeek.ru
 0.0.0.0 likeez.xyz
 0.0.0.0 likeezz.pp.ru
@@ -334649,6 +334649,7 @@
 0.0.0.0 loanemicalculators.com
 0.0.0.0 loanme.pl
 0.0.0.0 loanmone23.com
+0.0.0.0 loanoffer.co.in
 0.0.0.0 loanserver.mayocoo.com
 0.0.0.0 loanservice.vip
 0.0.0.0 loanthali.com
@@ -353360,7 +353361,6 @@
 0.0.0.0 maven-media.com
 0.0.0.0 maven.blueconic.net
 0.0.0.0 maven.ulitron.ru
-0.0.0.0 maverick174.org
 0.0.0.0 maverickcod.github.io
 0.0.0.0 maverifmonmobmobile.com
 0.0.0.0 mavetamskxlogin.webflow.io
@@ -353555,7 +353555,6 @@
 0.0.0.0 maxwinelec.com
 0.0.0.0 maxwize.co.uk
 0.0.0.0 maxxisproduct.com
-0.0.0.0 maxxlavalink.cyou
 0.0.0.0 maxxworld.co.th
 0.0.0.0 maxxy.life
 0.0.0.0 maxycnav.cf
@@ -369597,6 +369596,7 @@
 0.0.0.0 mocktestlab.com
 0.0.0.0 mockup-instagram-dio.vercel.app
 0.0.0.0 mockup.metradigitalmedia.com
+0.0.0.0 mockupcorporation.com
 0.0.0.0 mockz.com
 0.0.0.0 mocleran.com
 0.0.0.0 mocloudmacs.ch46650.tmweb.ru
@@ -383930,6 +383930,7 @@
 0.0.0.0 network-dynamic.com
 0.0.0.0 network-policy4.line.pm
 0.0.0.0 network-policy7.line.pm
+0.0.0.0 network-privacy.com
 0.0.0.0 network-resource-zone.com
 0.0.0.0 network-security-alert-a-app-a4d9a.ondigitalocean.app
 0.0.0.0 network-solution-2025-ehuc9qvr.4everland.app
@@ -386057,7 +386058,6 @@
 0.0.0.0 nf6szpb2l1.2301.gencmert.com
 0.0.0.0 nf722.github.io
 0.0.0.0 nf7mnemv85qc7k3.duckdns.org
-0.0.0.0 nfadealer.top
 0.0.0.0 nfanoefwep.tekot88473.workers.dev
 0.0.0.0 nfaruebezjvcshuy-dot-millinium.ey.r.appspot.com
 0.0.0.0 nfbe.jkub.com
@@ -389385,7 +389385,6 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
-0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northeus.digital
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
@@ -395539,6 +395538,7 @@
 0.0.0.0 ohgfjxukenkgriff-dot-millinium.ey.r.appspot.com
 0.0.0.0 ohgnhwbpkqsscwqq-dot-millinium.ey.r.appspot.com
 0.0.0.0 ohguhvgushgijfs.duckdns.org
+0.0.0.0 ohhhhhmoney.com
 0.0.0.0 ohi.tqgqnobicky.ru
 0.0.0.0 ohi134t.duckdns.org
 0.0.0.0 ohia.dedspac.ru
@@ -424837,7 +424837,6 @@
 0.0.0.0 project.livesharedoffice.com
 0.0.0.0 project.samhayir.com
 0.0.0.0 project.shared-remit-auth.workers.dev
-0.0.0.0 project0.cc
 0.0.0.0 project003.2023djmar.workers.dev
 0.0.0.0 project1-39642.firebaseapp.com
 0.0.0.0 project1-39642.web.app
@@ -425826,6 +425825,7 @@
 0.0.0.0 proteusa.ru
 0.0.0.0 protezionecivile.comune.cassola.vi.it
 0.0.0.0 protezioneprofilo.com
+0.0.0.0 protherapycenter.com
 0.0.0.0 protibimbo.org
 0.0.0.0 protikgroup.com
 0.0.0.0 protimas.ru
@@ -467969,6 +467969,7 @@
 0.0.0.0 ssl.widgets.webengage.com
 0.0.0.0 ssl.zoomanalytics.co
 0.0.0.0 sslbind.com
+0.0.0.0 sslcdnhost.com
 0.0.0.0 sslkeycert.com
 0.0.0.0 sslogistics.com.mx
 0.0.0.0 ssloq.mqzbrjwaeea.es
@@ -471095,7 +471096,6 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
-0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamoptcelexa.net
 0.0.0.0 streamseek.net
@@ -480840,6 +480840,7 @@
 0.0.0.0 tts7324.webmo.fr
 0.0.0.0 ttshop1.myfunnelish.com
 0.0.0.0 ttthiknielsx.shop
+0.0.0.0 tttkkkssww.com
 0.0.0.0 ttttelstrrawebmail.weebly.com
 0.0.0.0 ttttttttttrekpleister-nlvvo.sbs
 0.0.0.0 ttus.tructiepbongda.me
@@ -482995,7 +482996,6 @@
 0.0.0.0 upload-lk.hopto.org
 0.0.0.0 upload.adtech.fr
 0.0.0.0 upload.adtech.us
-0.0.0.0 upload.filehost.lol
 0.0.0.0 upload.heato.ru
 0.0.0.0 upload.luckyorange.net
 0.0.0.0 upload.mobpowertech.com
@@ -502601,7 +502601,6 @@
 0.0.0.0 www.labersa.com
 0.0.0.0 www.lablzzzag.shop
 0.0.0.0 www.labmedica.pl
-0.0.0.0 www.laborpartyjo.com
 0.0.0.0 www.lacasadialicedesenzano.it
 0.0.0.0 www.lacmp.net
 0.0.0.0 www.lacocinany.com
