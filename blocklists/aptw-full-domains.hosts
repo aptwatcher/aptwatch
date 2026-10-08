@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-08 00:33:26
-# Entries: 517125
+# Generated: 2026-10-08 06:05:23
+# Entries: 517128
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -140736,6 +140736,7 @@
 0.0.0.0 bergkuppeportiasoftware.pro
 0.0.0.0 bergl.no
 0.0.0.0 berglundcoo.com
+0.0.0.0 bergmann-automobile.de
 0.0.0.0 bergmann-core.de
 0.0.0.0 bergs-presentysmintlds.com
 0.0.0.0 bergs.matsuro.ru
@@ -141002,6 +141003,7 @@
 0.0.0.0 besancon-self-defense.fr
 0.0.0.0 besaumesame-fc45fc.ingress-alpha.ewp.live
 0.0.0.0 besavebd.com
+0.0.0.0 beschaffung-portal.de
 0.0.0.0 beschermenvermijnlng.noez.me
 0.0.0.0 bescorched.matsuro.ru
 0.0.0.0 bese5110.odns.fr
@@ -228559,6 +228561,7 @@
 0.0.0.0 everetthuntbooks.com
 0.0.0.0 everexedgefoundationes.com
 0.0.0.0 everflint.in
+0.0.0.0 evergabe-bund.de
 0.0.0.0 evergage.com
 0.0.0.0 everglo.com.au
 0.0.0.0 evergreen-cloth.shop
@@ -257367,7 +257370,6 @@
 0.0.0.0 geny83h92.atwebpages.com
 0.0.0.0 genys.dedspac.ru
 0.0.0.0 genys.virosat.ru
-0.0.0.0 geo-foundation.vg
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 geo.adobe.com
@@ -351871,6 +351873,7 @@
 0.0.0.0 marlosalvador.adv.br
 0.0.0.0 marlots.com
 0.0.0.0 marlow.bluestaging.com
+0.0.0.0 marlowclient.com
 0.0.0.0 marlowehouse.com
 0.0.0.0 marlowpillow.sjv.io
 0.0.0.0 marls.dedspac.ru
@@ -389320,7 +389323,6 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
-0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
 0.0.0.0 northflowaitrading.com
@@ -469159,6 +469161,7 @@
 0.0.0.0 stan-stana.site
 0.0.0.0 stan-stana.space
 0.0.0.0 stan-stana.website
+0.0.0.0 stanarcservice.com
 0.0.0.0 stanbicassets.web.app
 0.0.0.0 stanbridgeestate.com
 0.0.0.0 stand.virosat.ru
