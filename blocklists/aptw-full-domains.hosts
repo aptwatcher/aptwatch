@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-08 12:37:57
+# Generated: 2026-10-08 18:35:32
 # Entries: 517128
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -211594,6 +211594,7 @@
 0.0.0.0 donum.ulitron.ru
 0.0.0.0 donut.dedspac.ru
 0.0.0.0 donutclients.st
+0.0.0.0 donutclientsmods.xyz
 0.0.0.0 donutdupe.com
 0.0.0.0 donutecocolate.com
 0.0.0.0 donutsmpclient.com
@@ -374132,7 +374133,6 @@
 0.0.0.0 multiordinalauths.pages.dev
 0.0.0.0 multipage-responsive-facebook-clone.vercel.app
 0.0.0.0 multiplanitesdesk.pages.dev
-0.0.0.0 multiplay.at
 0.0.0.0 multiplebhd2025.imi.lat
 0.0.0.0 multiplecurrencies.com
 0.0.0.0 multipledapps.com
@@ -426017,7 +426017,6 @@
 0.0.0.0 prove.virosat.ru
 0.0.0.0 proveacmo.store
 0.0.0.0 provechfirme.net
-0.0.0.0 proveedoradeproyectosysoluciones.com
 0.0.0.0 proveedores.nef.com.mx
 0.0.0.0 proveedores.savant.com.ar
 0.0.0.0 proveedorsites.000webhostapp.com
@@ -474425,6 +474424,7 @@
 0.0.0.0 tarsan.g2afse.com
 0.0.0.0 tarsan.media-412.com
 0.0.0.0 tart-ledger-m--aurth.webflow.io
+0.0.0.0 tartaklegnica.pl
 0.0.0.0 tartapedia.it
 0.0.0.0 tarty.dedspac.ru
 0.0.0.0 tarun841.github.io
