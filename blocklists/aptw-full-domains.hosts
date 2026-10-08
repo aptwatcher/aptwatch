@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-08 06:34:34
+# Generated: 2026-10-08 12:37:57
 # Entries: 517128
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -17870,7 +17870,6 @@
 0.0.0.0 3.vxssy.live
 0.0.0.0 3.vxswe.solutions
 0.0.0.0 3.vzxwq.life
-0.0.0.0 3.zhzy999.net
 0.0.0.0 3.zhzy999.net3.zhzy999.net
 0.0.0.0 30-09-vjer09tg-ej5rg-9jker-gk0e-trgjk-r90jg-0rejg-9rr.obs.ap-southeast-3.myhuaweicloud.com
 0.0.0.0 30-2ki.pages.dev
@@ -101376,6 +101375,7 @@
 0.0.0.0 ascoma.dedspac.ru
 0.0.0.0 ascoma.virosat.ru
 0.0.0.0 ascommacae.com.br
+0.0.0.0 ascomsecurity.com.au
 0.0.0.0 ascon.co
 0.0.0.0 ascon.matsuro.ru
 0.0.0.0 ascon.ulitron.ru
@@ -298815,7 +298815,6 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
-0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -426018,6 +426017,7 @@
 0.0.0.0 prove.virosat.ru
 0.0.0.0 proveacmo.store
 0.0.0.0 provechfirme.net
+0.0.0.0 proveedoradeproyectosysoluciones.com
 0.0.0.0 proveedores.nef.com.mx
 0.0.0.0 proveedores.savant.com.ar
 0.0.0.0 proveedorsites.000webhostapp.com
@@ -469162,7 +469162,6 @@
 0.0.0.0 stan-stana.site
 0.0.0.0 stan-stana.space
 0.0.0.0 stan-stana.website
-0.0.0.0 stanarcservice.com
 0.0.0.0 stanbicassets.web.app
 0.0.0.0 stanbridgeestate.com
 0.0.0.0 stand.virosat.ru
@@ -498986,6 +498985,7 @@
 0.0.0.0 www.epargniture.net
 0.0.0.0 www.epayenergy.net
 0.0.0.0 www.epibbcurisms.info
+0.0.0.0 www.epibenie.dz
 0.0.0.0 www.epic500maxalttrade.com
 0.0.0.0 www.epicgameads.com
 0.0.0.0 www.epiclexiprolab-platform.com
