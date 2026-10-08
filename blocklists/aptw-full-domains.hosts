@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-08 06:05:23
+# Generated: 2026-10-08 06:34:34
 # Entries: 517128
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -170067,6 +170067,7 @@
 0.0.0.0 cepa.gob.sv
 0.0.0.0 cepa.ulitron.ru
 0.0.0.0 cepam.med.br
+0.0.0.0 cepde.org
 0.0.0.0 cepe.ulitron.ru
 0.0.0.0 cepedirne.com
 0.0.0.0 cepemaikm.ga
@@ -478327,7 +478328,6 @@
 0.0.0.0 tr.topdevvn.com
 0.0.0.0 tr.webantenna.info
 0.0.0.0 tr.wl.webads.nl
-0.0.0.0 tr.zhzy999.net
 0.0.0.0 tr1.frosmo.com
 0.0.0.0 tr1.myroitracking.com
 0.0.0.0 tr2.smarterhq.io
