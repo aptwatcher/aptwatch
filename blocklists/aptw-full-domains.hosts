@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-09 00:33:37
-# Entries: 517132
+# Generated: 2026-10-09 06:04:06
+# Entries: 517137
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -21518,6 +21518,7 @@
 0.0.0.0 3bnwebbpichincha.webcindario.com
 0.0.0.0 3bood89.standardseoservices.com
 0.0.0.0 3boredguys.com
+0.0.0.0 3brosstore.com
 0.0.0.0 3bscafe.com
 0.0.0.0 3btgzfk74gxejzr.qwo231sdx.club
 0.0.0.0 3btvalruqoxo.wusps.xyz
@@ -162858,7 +162859,6 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
-0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -178816,6 +178816,7 @@
 0.0.0.0 clown.ulitron.ru
 0.0.0.0 clownfish-app-c23cl.ondigitalocean.app
 0.0.0.0 clownfishfreddy.co.kr
+0.0.0.0 clownguard.us
 0.0.0.0 clowns.virosat.ru
 0.0.0.0 clownsong.com
 0.0.0.0 clowrverse.duckdns.org
@@ -212030,6 +212031,7 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
+0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -298817,6 +298819,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -302497,6 +302500,7 @@
 0.0.0.0 it6j9-vhg-n07n-rni9q-23-09-2026-hh.pages.dev
 0.0.0.0 it8txi5.ml
 0.0.0.0 ita-acesso-promo.tk
+0.0.0.0 ita-airwaysva.com
 0.0.0.0 ita-areia.com.br
 0.0.0.0 ita-pontos-combr.ezpz.work
 0.0.0.0 ita-u-com.umbler.net
@@ -374134,6 +374138,7 @@
 0.0.0.0 multiordinalauths.pages.dev
 0.0.0.0 multipage-responsive-facebook-clone.vercel.app
 0.0.0.0 multiplanitesdesk.pages.dev
+0.0.0.0 multiplay.at
 0.0.0.0 multiplebhd2025.imi.lat
 0.0.0.0 multiplecurrencies.com
 0.0.0.0 multipledapps.com
@@ -478330,6 +478335,7 @@
 0.0.0.0 tr.topdevvn.com
 0.0.0.0 tr.webantenna.info
 0.0.0.0 tr.wl.webads.nl
+0.0.0.0 tr.zhzy999.net
 0.0.0.0 tr1.frosmo.com
 0.0.0.0 tr1.myroitracking.com
 0.0.0.0 tr2.smarterhq.io
@@ -502781,7 +502787,6 @@
 0.0.0.0 www.larkfundmere.com
 0.0.0.0 www.larkspur-fondvik.com
 0.0.0.0 www.larkspurhome.eu
-0.0.0.0 www.lasmelosas.cl
 0.0.0.0 www.lasportivaspolska.com
 0.0.0.0 www.latittrans.store
 0.0.0.0 www.latwogang.shop
