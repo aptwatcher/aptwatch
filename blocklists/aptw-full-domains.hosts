@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-09 06:34:40
-# Entries: 517139
+# Generated: 2026-10-09 12:34:05
+# Entries: 517136
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -21518,7 +21518,6 @@
 0.0.0.0 3bnwebbpichincha.webcindario.com
 0.0.0.0 3bood89.standardseoservices.com
 0.0.0.0 3boredguys.com
-0.0.0.0 3brosstore.com
 0.0.0.0 3bscafe.com
 0.0.0.0 3btgzfk74gxejzr.qwo231sdx.club
 0.0.0.0 3btvalruqoxo.wusps.xyz
@@ -33022,7 +33021,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -162867,6 +162865,7 @@
 0.0.0.0 c2.somalisounds.com
 0.0.0.0 c2.statcounter.com
 0.0.0.0 c2.taboola.com
+0.0.0.0 c2.teamzeroday.net
 0.0.0.0 c2.tentaculos.net
 0.0.0.0 c2.thecounter.de
 0.0.0.0 c2.tralalarkefe.com
@@ -170070,7 +170069,6 @@
 0.0.0.0 cepa.gob.sv
 0.0.0.0 cepa.ulitron.ru
 0.0.0.0 cepam.med.br
-0.0.0.0 cepde.org
 0.0.0.0 cepe.ulitron.ru
 0.0.0.0 cepedirne.com
 0.0.0.0 cepemaikm.ga
@@ -298820,7 +298818,6 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
-0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -302501,7 +302498,6 @@
 0.0.0.0 it6j9-vhg-n07n-rni9q-23-09-2026-hh.pages.dev
 0.0.0.0 it8txi5.ml
 0.0.0.0 ita-acesso-promo.tk
-0.0.0.0 ita-airwaysva.com
 0.0.0.0 ita-areia.com.br
 0.0.0.0 ita-pontos-combr.ezpz.work
 0.0.0.0 ita-u-com.umbler.net
@@ -366833,6 +366829,7 @@
 0.0.0.0 misionhome-agric.hostkda.com
 0.0.0.0 misionweb.net
 0.0.0.0 misjonarzetrzciel.pl
+0.0.0.0 miskolc-dugulaselharitas.hu
 0.0.0.0 misky.dedspac.ru
 0.0.0.0 mismaaiauuipymfhlepjgurpjulmtyqxlmrv-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 mismanaaages.info
@@ -438229,7 +438226,6 @@
 0.0.0.0 qwferiat.ngyatngjihuremanitreta.link
 0.0.0.0 qwfezxz.duckdns.org
 0.0.0.0 qwfrh.blogspot.li
-0.0.0.0 qwfwhg4.lol
 0.0.0.0 qwg00000yttqg000qtu.bystridhiking.com
 0.0.0.0 qwgbqwc.com
 0.0.0.0 qwgqwed.duckdns.org
@@ -476801,6 +476797,7 @@
 0.0.0.0 ticm.sap0508x9v.vip
 0.0.0.0 ticm.tap0297p8b.top
 0.0.0.0 ticolatonisan.pages.dev
+0.0.0.0 ticpc8a.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 tics.ulitron.ru
 0.0.0.0 ticskwsythree.icu
