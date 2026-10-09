@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-08 18:35:32
-# Entries: 517128
+# Generated: 2026-10-09 00:33:37
+# Entries: 517132
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -11492,7 +11492,6 @@
 0.0.0.0 19831-2802.s2.webspace.re
 0.0.0.0 198329434.corolain.ru
 0.0.0.0 1983410649.retarus.ru
-0.0.0.0 198348.gl
 0.0.0.0 1984-medicinal.com
 0.0.0.0 19840-2807.s2.webspace.re
 0.0.0.0 198400100543610.uel-geq-ndk.xyxn.net
@@ -17870,6 +17869,7 @@
 0.0.0.0 3.vxssy.live
 0.0.0.0 3.vxswe.solutions
 0.0.0.0 3.vzxwq.life
+0.0.0.0 3.zhzy999.net
 0.0.0.0 3.zhzy999.net3.zhzy999.net
 0.0.0.0 30-09-vjer09tg-ej5rg-9jker-gk0e-trgjk-r90jg-0rejg-9rr.obs.ap-southeast-3.myhuaweicloud.com
 0.0.0.0 30-2ki.pages.dev
@@ -162858,6 +162858,7 @@
 0.0.0.0 c2.gostats.vn
 0.0.0.0 c2.hustorla.ru
 0.0.0.0 c2.l.qq.com
+0.0.0.0 c2.mc-live.online
 0.0.0.0 c2.outster.com
 0.0.0.0 c2.popads.net
 0.0.0.0 c2.qbk1.com
@@ -162892,6 +162893,7 @@
 0.0.0.0 c2356069e9d1e79ca924378153cfbbfb4d4416b1f99d41a2940bfdb66c.pages.dev
 0.0.0.0 c2366475.c.youradexchange.com
 0.0.0.0 c23811bc8d067cdb4f00f6af2c918f3d.safeframe.googlesyndication.com
+0.0.0.0 c23c1b-fa77-48e0-8272-692b579a574c.gorsefield.cc
 0.0.0.0 c24.statcounter.com
 0.0.0.0 c2401189.ferozo.com
 0.0.0.0 c2450245.ferozo.com
@@ -212028,7 +212030,6 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
-0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -460108,6 +460109,7 @@
 0.0.0.0 saymonn-wixsite-com.filesusr.com
 0.0.0.0 saynotostance.com
 0.0.0.0 sayom.duckdns.org
+0.0.0.0 sayosay.cc
 0.0.0.0 says-celebrity-one-theta.trycloudflare.com
 0.0.0.0 says.amaniwa.ru
 0.0.0.0 says.ulitron.ru
@@ -469161,6 +469163,7 @@
 0.0.0.0 stan-stana.site
 0.0.0.0 stan-stana.space
 0.0.0.0 stan-stana.website
+0.0.0.0 stanarcservice.com
 0.0.0.0 stanbicassets.web.app
 0.0.0.0 stanbridgeestate.com
 0.0.0.0 stand.virosat.ru
@@ -502778,6 +502781,7 @@
 0.0.0.0 www.larkfundmere.com
 0.0.0.0 www.larkspur-fondvik.com
 0.0.0.0 www.larkspurhome.eu
+0.0.0.0 www.lasmelosas.cl
 0.0.0.0 www.lasportivaspolska.com
 0.0.0.0 www.latittrans.store
 0.0.0.0 www.latwogang.shop
