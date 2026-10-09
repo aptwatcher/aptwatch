@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-09 06:04:06
-# Entries: 517137
+# Generated: 2026-10-09 06:34:40
+# Entries: 517139
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -33022,6 +33022,7 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
+0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -374138,7 +374139,6 @@
 0.0.0.0 multiordinalauths.pages.dev
 0.0.0.0 multipage-responsive-facebook-clone.vercel.app
 0.0.0.0 multiplanitesdesk.pages.dev
-0.0.0.0 multiplay.at
 0.0.0.0 multiplebhd2025.imi.lat
 0.0.0.0 multiplecurrencies.com
 0.0.0.0 multipledapps.com
@@ -438229,6 +438229,7 @@
 0.0.0.0 qwferiat.ngyatngjihuremanitreta.link
 0.0.0.0 qwfezxz.duckdns.org
 0.0.0.0 qwfrh.blogspot.li
+0.0.0.0 qwfwhg4.lol
 0.0.0.0 qwg00000yttqg000qtu.bystridhiking.com
 0.0.0.0 qwgbqwc.com
 0.0.0.0 qwgqwed.duckdns.org
@@ -488701,6 +488702,7 @@
 0.0.0.0 w55c.net
 0.0.0.0 w5hni7cpkmpj.id.wasmer.app
 0.0.0.0 w5n7rl.ezbuyfast.com
+0.0.0.0 w5q.eu
 0.0.0.0 w5r8gj2.pics
 0.0.0.0 w5tm9z4am4.onrocket.site
 0.0.0.0 w6.hitbox.com
