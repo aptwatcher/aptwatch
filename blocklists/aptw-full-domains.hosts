@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-09 12:34:05
-# Entries: 517136
+# Generated: 2026-10-09 18:33:49
+# Entries: 517137
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -155326,6 +155326,7 @@
 0.0.0.0 brianmadho.nl
 0.0.0.0 brianmsoto.com
 0.0.0.0 brianna.carlisle.youdeh.co.za
+0.0.0.0 briannacorporation.com
 0.0.0.0 briannalopezphotography.com
 0.0.0.0 briannao50.hk-parcel.com
 0.0.0.0 brianoliviawedding.com
@@ -366829,7 +366830,6 @@
 0.0.0.0 misionhome-agric.hostkda.com
 0.0.0.0 misionweb.net
 0.0.0.0 misjonarzetrzciel.pl
-0.0.0.0 miskolc-dugulaselharitas.hu
 0.0.0.0 misky.dedspac.ru
 0.0.0.0 mismaaiauuipymfhlepjgurpjulmtyqxlmrv-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 mismanaaages.info
@@ -401680,6 +401680,7 @@
 0.0.0.0 osbdaluyskvh.top
 0.0.0.0 osbglmoail.com
 0.0.0.0 osbnrfmc.dogestocks.com
+0.0.0.0 osbot.net
 0.0.0.0 osbzalbhmd.duckdns.org
 0.0.0.0 oscalewest.com
 0.0.0.0 oscan.dedspac.ru
@@ -476797,7 +476798,6 @@
 0.0.0.0 ticm.sap0508x9v.vip
 0.0.0.0 ticm.tap0297p8b.top
 0.0.0.0 ticolatonisan.pages.dev
-0.0.0.0 ticpc8a.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 tics.ulitron.ru
 0.0.0.0 ticskwsythree.icu
@@ -505630,6 +505630,7 @@
 0.0.0.0 www.osciachip.site
 0.0.0.0 www.osciynmesh.site
 0.0.0.0 www.osge.org
+0.0.0.0 www.osmb.net
 0.0.0.0 www.osn10ovad.eu.cc
 0.0.0.0 www.osn11ovat.eu.cc
 0.0.0.0 www.osn15ovaad.eu.cc
