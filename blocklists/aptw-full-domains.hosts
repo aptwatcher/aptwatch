@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-10 00:33:36
-# Entries: 517145
+# Generated: 2026-10-10 06:04:51
+# Entries: 517168
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -53179,6 +53179,7 @@
 0.0.0.0 activation-pages-invitation-sites-1027531174772015.tk
 0.0.0.0 activation-pages-statistic-02454562233myid.cf
 0.0.0.0 activation-pass-secur.com
+0.0.0.0 activation-planner.pro
 0.0.0.0 activation-promoteddesignmethod.jiseth-1995.repl.co
 0.0.0.0 activation-secu-webagri.myori.my
 0.0.0.0 activation-secure.justns.ru
@@ -66492,6 +66493,7 @@
 0.0.0.0 airampo.matsuro.ru
 0.0.0.0 airande.global
 0.0.0.0 airaroundyou.com
+0.0.0.0 airarticlegenerate.com
 0.0.0.0 airasiaexpress.icu
 0.0.0.0 airault.cl
 0.0.0.0 airavatagrotech.com
@@ -88761,6 +88763,7 @@
 0.0.0.0 api-app.ants.vn
 0.0.0.0 api-arch.com
 0.0.0.0 api-authrepair.pages.dev
+0.0.0.0 api-available-checker.com
 0.0.0.0 api-beta.com
 0.0.0.0 api-blockrectify.pages.dev
 0.0.0.0 api-bot.khipu.edu.pe
@@ -88811,6 +88814,7 @@
 0.0.0.0 api-run-cloud.gatevvay365.workers.dev
 0.0.0.0 api-s2s.taboola.com
 0.0.0.0 api-sdk.datadome.co
+0.0.0.0 api-servername-lookup.com
 0.0.0.0 api-smartdappsfix.pages.dev
 0.0.0.0 api-smbc-card.julongze.com
 0.0.0.0 api-telemetry.servers.getgo.com
@@ -178783,7 +178787,6 @@
 0.0.0.0 cloudy-lateral-kosmoceratops.glitch.me
 0.0.0.0 cloudy-ludicrous-freon.glitch.me
 0.0.0.0 cloudy.virosat.ru
-0.0.0.0 cloudzsoft.com
 0.0.0.0 cloue.link
 0.0.0.0 clour.virosat.ru
 0.0.0.0 clous-lab-662a.tlavaeonryersvs.workers.dev
@@ -190368,6 +190371,7 @@
 0.0.0.0 craze.dedspac.ru
 0.0.0.0 craze.vadilops.ru
 0.0.0.0 crazy-darwin.172-245-8-49.plesk.page
+0.0.0.0 crazy-love.app
 0.0.0.0 crazy-pare.34-125-197-109.plesk.page
 0.0.0.0 crazy-shirley.34-65-0-160.plesk.page
 0.0.0.0 crazy-swirles.192-3-164-100.plesk.page
@@ -194279,6 +194283,7 @@
 0.0.0.0 cyberduck.fr
 0.0.0.0 cybereducation.in
 0.0.0.0 cyberfaery.com
+0.0.0.0 cyberflysystems.com
 0.0.0.0 cyberfortte.com
 0.0.0.0 cyberguard-academy.com
 0.0.0.0 cyberleague-auth.com
@@ -220205,6 +220210,7 @@
 0.0.0.0 egypt.far7na.com
 0.0.0.0 egypt.news-pravda.com
 0.0.0.0 egypt.virosat.ru
+0.0.0.0 egyptanimals.com
 0.0.0.0 egyptanode.com
 0.0.0.0 egyptian-agent.com
 0.0.0.0 egyptian-stone.com
@@ -246867,6 +246873,7 @@
 0.0.0.0 flybox-orangepro.duckdns.org
 0.0.0.0 flyboyfurnishings.net
 0.0.0.0 flycast.com
+0.0.0.0 flycloud-service.com
 0.0.0.0 flydigital.biz
 0.0.0.0 flyer-oe-jeff-victor.trycloudflare.com
 0.0.0.0 flyerblaster.com
@@ -257552,6 +257559,7 @@
 0.0.0.0 geosigma.cl
 0.0.0.0 geosign.112.2o7.net
 0.0.0.0 geosistem.me
+0.0.0.0 geostat.lat
 0.0.0.0 geostrophically.bibliota.ru
 0.0.0.0 geosuksrsoon03.co.vu
 0.0.0.0 geosuksrsoon04.co.vu
@@ -296028,6 +296036,7 @@
 0.0.0.0 infotex-promet.hr
 0.0.0.0 infotop.jp
 0.0.0.0 infotr-dashberlin.com
+0.0.0.0 infotrackerstatistic.live
 0.0.0.0 infotreegroup.com
 0.0.0.0 infoturismzavoi.ro
 0.0.0.0 infouhotel.com
@@ -298821,7 +298830,6 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
-0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -315954,6 +315962,7 @@
 0.0.0.0 kaudalinwersoria.com
 0.0.0.0 kaudecto.net
 0.0.0.0 kauf4.de
+0.0.0.0 kaufen-qpon.icu
 0.0.0.0 kauffmann.nu
 0.0.0.0 kaufupi.com
 0.0.0.0 kaujyx5ogon2bux.duckdns.org
@@ -320826,6 +320835,7 @@
 0.0.0.0 kpuid-sterlingpartners.hkcorrect.com
 0.0.0.0 kpuluymfzrjwstbedvaocveebd-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 kpulwklzolpbholierzdvitgfszqbhvnikbv-dot-glegen303939423233.ue.r.appspot.com
+0.0.0.0 kpuszkiev.com
 0.0.0.0 kpvtiafwygwycbzzshamxxygwv-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 kpvtmgehkf.duckdns.org
 0.0.0.0 kpxkbpt6q1di.ooioihjnknji.duckdns.org
@@ -375086,6 +375096,7 @@
 0.0.0.0 mx74.prueba.site
 0.0.0.0 mx7w33.shop
 0.0.0.0 mx888.vip
+0.0.0.0 mx9x.com
 0.0.0.0 mxapp46.com
 0.0.0.0 mxaps.appsempresa.ga
 0.0.0.0 mxardxisqmsl.top
@@ -401105,6 +401116,7 @@
 0.0.0.0 order.arnoazn.6cb6.com
 0.0.0.0 order.arnoazn.rl25.com
 0.0.0.0 order.creaauthenticitalian.com.au
+0.0.0.0 order.cyberflysystems.com
 0.0.0.0 order.daishintc.com
 0.0.0.0 order.dedspac.ru
 0.0.0.0 order.eugeneperma.be
@@ -454590,6 +454602,7 @@
 0.0.0.0 rutbtvmyljueiinx-dot-millinium.ey.r.appspot.com
 0.0.0.0 rutch.dedspac.ru
 0.0.0.0 rutch.ulitron.ru
+0.0.0.0 rutech.tech
 0.0.0.0 ruten.observer
 0.0.0.0 ruterproxverig.mypressonline.com
 0.0.0.0 rutgers-swe-project.vercel.app
@@ -461266,6 +461279,7 @@
 0.0.0.0 seccdn-gl.imrworldwide.com
 0.0.0.0 seccureenhhhh.pages.dev
 0.0.0.0 secdesk.xyz
+0.0.0.0 secfileshare.com
 0.0.0.0 secimage.adtech.fr
 0.0.0.0 secimage.adtech.us
 0.0.0.0 secinsturifytrade.com
@@ -463405,6 +463419,7 @@
 0.0.0.0 sharefiles-eu.com
 0.0.0.0 sharefiles.gq
 0.0.0.0 shareitbyaudrey.com
+0.0.0.0 shareitsimple.com
 0.0.0.0 sharelink.fr
 0.0.0.0 sharep-3254424235342353453.pages.dev
 0.0.0.0 sharep0lnt-3289462387563487.pages.dev
@@ -469534,6 +469549,7 @@
 0.0.0.0 startapp.icu
 0.0.0.0 startappservice.com
 0.0.0.0 startbidterzosi.webflow.io
+0.0.0.0 startdeeplearning.com
 0.0.0.0 startdtrezori.webflow.io
 0.0.0.0 starte-ledgerdocs.webflow.io
 0.0.0.0 started--ledge.webflow.io
@@ -474871,6 +474887,7 @@
 0.0.0.0 tech.dedspac.ru
 0.0.0.0 tech.zapps.me
 0.0.0.0 techbargins.com
+0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techcruncln.com
@@ -475180,6 +475197,7 @@
 0.0.0.0 telemetries.jeeng.com
 0.0.0.0 telemetriya.hopto.org
 0.0.0.0 telemetry-cii.api.playstation.com
+0.0.0.0 telemetry-conf.com
 0.0.0.0 telemetry-network.com
 0.0.0.0 telemetry.acronis.com
 0.0.0.0 telemetry.api.swiftkey.com
@@ -485106,6 +485124,7 @@
 0.0.0.0 uzj.cuf.temporary.site
 0.0.0.0 uzjcruxv.aero.tt
 0.0.0.0 uzo.com.pl
+0.0.0.0 uztickets.com
 0.0.0.0 uzumoreru.ru
 0.0.0.0 uzuolaidas.weebly.com
 0.0.0.0 uzupelniaj-dane.ml
@@ -485845,6 +485864,7 @@
 0.0.0.0 veereshainapur.github.io
 0.0.0.0 vees.dedspac.ru
 0.0.0.0 vees.virosat.ru
+0.0.0.0 veetransfer.com
 0.0.0.0 vefogy.cf
 0.0.0.0 vegagainlux-tech-com.pages.dev
 0.0.0.0 vegagainlux-tech.com
@@ -487618,12 +487638,14 @@
 0.0.0.0 virtualbanrural-gt000.web.app
 0.0.0.0 virtualbanruralenlinea.web.app
 0.0.0.0 virtualcasino.pl
+0.0.0.0 virtualdailyplanner.pro
 0.0.0.0 virtualhomemakeover.org
 0.0.0.0 virtuallaughing.com
 0.0.0.0 virtually.timanar.ru
 0.0.0.0 virtualmachine.id
 0.0.0.0 virtualpersonasbgota.vercel.app
 0.0.0.0 virtualstaffingpartners.com
+0.0.0.0 virtualtelemetryassistant.com
 0.0.0.0 virtualvincent.com
 0.0.0.0 virtuosoes.co.za
 0.0.0.0 virtuosomercovia.pro
@@ -491340,6 +491362,7 @@
 0.0.0.0 whisperingsummit.com
 0.0.0.0 whist.dedspac.ru
 0.0.0.0 whit.ulitron.ru
+0.0.0.0 white-check-security.tools
 0.0.0.0 white-disk-da27.fedeferegu2250.workers.dev
 0.0.0.0 white.sexer.com
 0.0.0.0 whitebullsbbq.com
