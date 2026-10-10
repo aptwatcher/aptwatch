@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-09 18:33:49
-# Entries: 517137
+# Generated: 2026-10-10 00:33:36
+# Entries: 517145
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -12415,6 +12415,7 @@
 0.0.0.0 1rtspht.duckdns.org
 0.0.0.0 1rulebecool.com
 0.0.0.0 1rvhaszukvfmnqr.qwo231sdx.club
+0.0.0.0 1rvrental.com
 0.0.0.0 1rx.io
 0.0.0.0 1rx5ix.qwo231sdx.club
 0.0.0.0 1rzqbiafsypv.qwo231sdx.club
@@ -62298,7 +62299,6 @@
 0.0.0.0 aether.dedspac.ru
 0.0.0.0 aether.matsuro.ru
 0.0.0.0 aetherinstalls.com
-0.0.0.0 aetherius.live
 0.0.0.0 aetherkid.com
 0.0.0.0 aethersms.com
 0.0.0.0 aethionemaso.ru
@@ -123586,7 +123586,6 @@
 0.0.0.0 b.canalas.ru
 0.0.0.0 b.casalemedia.com
 0.0.0.0 b.close-the.my.id
-0.0.0.0 b.clu-e.eu
 0.0.0.0 b.codeonclick.com
 0.0.0.0 b.coffiti.ru
 0.0.0.0 b.criteo.com
@@ -170070,6 +170069,7 @@
 0.0.0.0 cepa.gob.sv
 0.0.0.0 cepa.ulitron.ru
 0.0.0.0 cepam.med.br
+0.0.0.0 cepde.org
 0.0.0.0 cepe.ulitron.ru
 0.0.0.0 cepedirne.com
 0.0.0.0 cepemaikm.ga
@@ -178783,6 +178783,7 @@
 0.0.0.0 cloudy-lateral-kosmoceratops.glitch.me
 0.0.0.0 cloudy-ludicrous-freon.glitch.me
 0.0.0.0 cloudy.virosat.ru
+0.0.0.0 cloudzsoft.com
 0.0.0.0 cloue.link
 0.0.0.0 clour.virosat.ru
 0.0.0.0 clous-lab-662a.tlavaeonryersvs.workers.dev
@@ -199320,6 +199321,7 @@
 0.0.0.0 death-beforedecaf.com
 0.0.0.0 death.dedspac.ru
 0.0.0.0 death.virosat.ru
+0.0.0.0 deathboundcraft.com
 0.0.0.0 deathreturns.my
 0.0.0.0 deaths-fin-choice-reseller.trycloudflare.com
 0.0.0.0 deathvenom.com
@@ -200454,7 +200456,6 @@
 0.0.0.0 defeokounabgeouja.freewebhostmost.com
 0.0.0.0 defer.dedspac.ru
 0.0.0.0 deferenggtially.info
-0.0.0.0 deffnelreports.bramblequarz.ru
 0.0.0.0 defgbh.dlvry.repl.co
 0.0.0.0 defghjjmsks.work.gd
 0.0.0.0 defi-connector.firebaseapp.com
@@ -210416,7 +210417,6 @@
 0.0.0.0 docs.booneservicse.com
 0.0.0.0 docs.bpfi.digital
 0.0.0.0 docs.codethemes.co
-0.0.0.0 docs.cs-supplements.de
 0.0.0.0 docs.econeurqa.com
 0.0.0.0 docs.edoctransfer.com
 0.0.0.0 docs.envytheme.com
@@ -212164,6 +212164,7 @@
 0.0.0.0 downloadplayer.xyz
 0.0.0.0 downloads.email-attachments.ru
 0.0.0.0 downloads.file-attachments.ru
+0.0.0.0 downloads.go-xlr.com
 0.0.0.0 downloads.larivieracasino.com
 0.0.0.0 downloads.mytvandmovies.com
 0.0.0.0 downloads.pcsecurityshield.com
@@ -242802,6 +242803,7 @@
 0.0.0.0 fictionally.yazibo.ru
 0.0.0.0 fictionfate.com
 0.0.0.0 ficultol.com
+0.0.0.0 ficus.in
 0.0.0.0 ficus.ulitron.ru
 0.0.0.0 fid-eiity.qpon
 0.0.0.0 fid-elitpmcik.shop
@@ -298819,6 +298821,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -365117,6 +365120,7 @@
 0.0.0.0 micservapp.ey.r.appspot.com
 0.0.0.0 micshhdhgdhhhh.weebly.com
 0.0.0.0 micssta.weebly.com
+0.0.0.0 micstndasap.world
 0.0.0.0 micuenta-teach.github.io
 0.0.0.0 micuenta.sailinginversiones.com
 0.0.0.0 micuentapple-desbloqueartc.vdn3-eu-nord1.net
@@ -374136,6 +374140,7 @@
 0.0.0.0 multiordinalauths.pages.dev
 0.0.0.0 multipage-responsive-facebook-clone.vercel.app
 0.0.0.0 multiplanitesdesk.pages.dev
+0.0.0.0 multiplay.at
 0.0.0.0 multiplebhd2025.imi.lat
 0.0.0.0 multiplecurrencies.com
 0.0.0.0 multipledapps.com
@@ -380014,6 +380019,7 @@
 0.0.0.0 natant-stripes.000webhostapp.com
 0.0.0.0 natasa-arts.com
 0.0.0.0 natashagomez.ibx.lat
+0.0.0.0 natashamohan.com
 0.0.0.0 natashyabaydesign.com
 0.0.0.0 nataticcoarts.com
 0.0.0.0 natatt.weebly.com
@@ -416418,7 +416424,6 @@
 0.0.0.0 plf5.951hd129.xyz
 0.0.0.0 plf6.915vip18.xyz
 0.0.0.0 plf6.915vip19.xyz
-0.0.0.0 plf7x.valci.store
 0.0.0.0 plfa1.vercel.app
 0.0.0.0 plfptrtkmdldadmy-dot-millinium.ey.r.appspot.com
 0.0.0.0 plfuhjdrtltafacepjrdgcibttoiokhqfcnn-dot-cryptic-now-290917.ey.r.appspot.com
@@ -436738,6 +436743,7 @@
 0.0.0.0 qpzgviukwjutjtae-dot-millinium.ey.r.appspot.com
 0.0.0.0 qq-8fbe.vercel.app
 0.0.0.0 qq-liveregister.com
+0.0.0.0 qq.kipsharijan.cfd
 0.0.0.0 qq1.999818.xyz
 0.0.0.0 qq1q.biz
 0.0.0.0 qq522455.w103.xunnet.wang
@@ -438227,6 +438233,7 @@
 0.0.0.0 qwferiat.ngyatngjihuremanitreta.link
 0.0.0.0 qwfezxz.duckdns.org
 0.0.0.0 qwfrh.blogspot.li
+0.0.0.0 qwfwhg4.lol
 0.0.0.0 qwg00000yttqg000qtu.bystridhiking.com
 0.0.0.0 qwgbqwc.com
 0.0.0.0 qwgqwed.duckdns.org
@@ -480395,6 +480402,7 @@
 0.0.0.0 tronskan.com
 0.0.0.0 tronskan.info
 0.0.0.0 tronssan.github.io
+0.0.0.0 tronzadorasnng.com
 0.0.0.0 troop.dedspac.ru
 0.0.0.0 troot.dedspac.ru
 0.0.0.0 trop.starbearingcentre.com
