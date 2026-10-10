@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-10 12:33:28
-# Entries: 517166
+# Generated: 2026-10-10 18:33:28
+# Entries: 517172
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -33022,7 +33022,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -184364,7 +184363,6 @@
 0.0.0.0 communication-act.ddns.net
 0.0.0.0 communication-diary-thwart.vercel.app
 0.0.0.0 communication-ergo-additional-their.vercel.app
-0.0.0.0 communication-hub.vg
 0.0.0.0 communication-journal-stop.vercel.app
 0.0.0.0 communication-register-check.vercel.app
 0.0.0.0 communicationcenrale-ba5b01.ingress-daribow.ewp.live
@@ -187940,6 +187938,7 @@
 0.0.0.0 coreplesk-cake-7dbf.leacshlenmmdgza.workers.dev
 0.0.0.0 corepost13.com
 0.0.0.0 corepoweryogaco.org
+0.0.0.0 coreprotector.org
 0.0.0.0 corer.dedspac.ru
 0.0.0.0 corer.ulitron.ru
 0.0.0.0 cores.ulitron.ru
@@ -229378,6 +229377,7 @@
 0.0.0.0 exe.bid
 0.0.0.0 exeat.ulitron.ru
 0.0.0.0 exeat.virosat.ru
+0.0.0.0 exec-roblox.com
 0.0.0.0 exec.ulitron.ru
 0.0.0.0 execorespectrum.com
 0.0.0.0 execpts-nxieffulgent-cranachan-tansbm.netlify.app
@@ -262912,6 +262912,7 @@
 0.0.0.0 goo.gs
 0.0.0.0 goo2l.in
 0.0.0.0 gooannzlbg.duckdns.org
+0.0.0.0 goobaaclient.com
 0.0.0.0 goobbe.com
 0.0.0.0 goocruxainsificansion.com
 0.0.0.0 good-8u6.pages.dev
@@ -350273,6 +350274,7 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
+0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarria5daleeeee.000webhostapp.com
@@ -369433,6 +369435,7 @@
 0.0.0.0 mobilesys.bdoupdate.workers.dev
 0.0.0.0 mobilesystemsupdate.ddns.net
 0.0.0.0 mobileteslatencent.com
+0.0.0.0 mobiletoolapp.com
 0.0.0.0 mobilev12.freexfire.top
 0.0.0.0 mobilevetcare.ca
 0.0.0.0 mobileview.teamplast.co
@@ -387122,6 +387125,7 @@
 0.0.0.0 nigeriavoguejournalism.org
 0.0.0.0 nigerlife.com
 0.0.0.0 nigertechnologie.com
+0.0.0.0 niggersmp.net
 0.0.0.0 nigh.dedspac.ru
 0.0.0.0 nigh.ulitron.ru
 0.0.0.0 nighs.ulitron.ru
@@ -417555,6 +417559,7 @@
 0.0.0.0 polar-wertane.org
 0.0.0.0 polar-zinsmere.co
 0.0.0.0 polar.dedspac.ru
+0.0.0.0 polar.moe
 0.0.0.0 polarbearpropertiesflorida.com
 0.0.0.0 polarcapridge.live
 0.0.0.0 polarcapridge.site
@@ -454887,6 +454892,7 @@
 0.0.0.0 rxappsx.hvyaaos.presse.ci
 0.0.0.0 rxaxckbfbb.duckdns.org
 0.0.0.0 rxazag.inyourtravelingshoes.com
+0.0.0.0 rxb.immortales.fun
 0.0.0.0 rxcmpd.com
 0.0.0.0 rxcovid.com
 0.0.0.0 rxcxsolution.pages.dev
@@ -472743,6 +472749,7 @@
 0.0.0.0 swell.dedspac.ru
 0.0.0.0 swelp.dedspac.ru
 0.0.0.0 swept.dedspac.ru
+0.0.0.0 swervimgbackj.top
 0.0.0.0 swettttwdtryuio.weebly.com
 0.0.0.0 swfhostltd.com
 0.0.0.0 swflightinfo.bond
@@ -514435,7 +514442,6 @@
 0.0.0.0 xiaomi-mipdx.cn.miaozhen.com
 0.0.0.0 xiaozbcg.akuanakmamah.de
 0.0.0.0 xiashan.pilot45.com
-0.0.0.0 xiazailianjie.com
 0.0.0.0 xibloxreborn.serv00.net
 0.0.0.0 xicak.dedspac.ru
 0.0.0.0 xicix.sa.com
