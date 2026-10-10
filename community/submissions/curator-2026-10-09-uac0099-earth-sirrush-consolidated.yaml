@@ -1,0 +1,136 @@
+# Curator submission — UAC-0099 / Earth Sirrush consolidated infrastructure
+#
+# Primary: TrendAI Research technical brief "Earth Sirrush: A Russia-Aligned
+# Intrusion Set With 4 Years of Evolving Espionage Tooling" (blog 2026-10-05,
+# surfaced via The Hacker News 2026-10-08; full IOC list published at
+# cdn.sanity.io .../earth-sirrush-ioc-list.txt, accessed 2026-10-09).
+# Sister primary (same 24h window): ESET WeLiveSecurity "MATCHBOIL: New
+# tricks, same old evil intentions" (2026-10-08, Fernando Tavella) — all 4
+# ESET network domains and both ESET IPs are contained in the TrendAI set;
+# ESET adds SHA-1 file hashes and first-seen dates (hashes logged in digest
+# only; flat-IOC schema has no hash table).
+#
+# Attribution: apt_groups[0] matches existing campaign_name exactly
+# (campaign id 103). New aliases Earth Sirrush / SHADOW-EARTH-065 / ASHVEIN /
+# TelemetryBrowser / CINDERBLOT verified collision-free in campaigns.aliases.
+#
+# Triage (reports/triage/trendai-earth-sirrush-2026-10-09.csv): the offline
+# heuristic defaulted 18/25 domains to compromised_legitimate. Curator
+# override to malicious applied to the C&C / hosting / phishing domains on
+# report-stated evidence: ESET MITRE mapping T1583.001 "UAC-0099 registers
+# domains that are used for MATCHBOIL C&C communication"; TrendAI: confirmed
+# C&C domains procured through a single registrar (Regery.com), Cloudflare
+# fronting, backend IPs clustered in AS399629 (BL Networks).
+# cyberflysystems.com + order.cyberflysystems.com are an attacker-built fake
+# UAV-parts company site (TrendAI Fig. 1) -> malicious. veetransfer.com is a
+# WeTransfer-lookalike delivery domain -> malicious (override documented).
+# Kept conservative (compromised_domains): cyberathleticshealth.com (payload
+# hosting, possible hijacked legitimate site), easysend.co (possible
+# legitimate file-sharing service abused for delivery — verify before any
+# blocklisting).
+# Shared-platform exclusion: ukr.net apex NOT listed (legitimate Ukrainian
+# mail platform); only the attacker-specific sender accounts are ingested.
+#
+# Duplicates expected at import (context/linkage keeps, not errors):
+# virtualtelemetryassistant.com + 5 IPs (156.38.245.115, 179.48.251.182,
+# 217.12.218.107, 45.148.121.6, 147.78.46.40) already in DB — re-listed
+# because this report adds Earth Sirrush cross-campaign linkage.
+# No CIDRs claimed by either report — none fabricated. AS399629 (BL Networks)
+# concentration is context only.
+
+author: aptwatch-curator
+source: https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/earth-sirrush-russia-aligned-intrusion-set-4-years-evolving-espionage-tooling
+source_name: TrendAI Research — Earth Sirrush (UAC-0099) 4-year tooling and infrastructure consolidation
+
+apt_groups:
+  - UAC-0099 MATCHBOIL Family (Gamaredon-coop)
+  - Earth Sirrush
+  - SHADOW-EARTH-065
+  - ASHVEIN
+  - TelemetryBrowser
+  - CINDERBLOT
+
+description: >
+  Consolidated UAC-0099 (TrendAI: Earth Sirrush, prev. SHADOW-EARTH-065)
+  infrastructure covering 2022-2026 operations against Ukrainian government,
+  defense, border guard, logistics, transport, manufacturing and energy
+  targets. New tooling documented this window: ASHVEIN (internally
+  "TelemetryBrowser"), a .NET infostealer/RAT with DPAPI credential theft,
+  GDI screenshots, PowerShell remote shell, WMI fingerprinting, tasking
+  hidden in invisible HTML elements and a GitHub dead-drop fallback; plus the
+  evolution of the MATCHBOIL C# downloader (ESET, 2026-10-08): .NET Reactor
+  obfuscation, sandbox checks via EventID 6013 uptime (with Russian-language
+  regex), two-minute C&C polling timer, MATCHBOIL.V2 DLL variant. Delivery
+  via spear-phishing (ukr.net sender accounts impersonating police/courts/
+  border service), VHD containers, DLL sideloading (FORGECLAMP), PNG
+  steganography, fake UAV-parts storefront (order.cyberflysystems.com), and
+  a malicious Notepad++ plugin chain (LUNCHPOKE/BURNYBEAR). C&C domains
+  registered via Regery.com, Cloudflare-fronted, backends in AS399629
+  (BL Networks); VPS via BitLaunch; Let's Encrypt TLS, certs not reused.
+  ESET assesses UAC-0099 can act as initial access broker for Sandworm
+  (APT44). Historical CVE-2023-38831 (WinRAR) exploitation retained for
+  linkage. Discovery vector: The Hacker News (2026-10-08). SHA-256/SHA-1
+  file hashes logged in the run digest.
+
+ipv4:
+  - 156.38.245.115
+  - 179.48.251.182
+  - 217.12.218.107
+  - 45.148.121.6
+  - 62.210.204.94
+  - 2.59.222.98
+  - 147.78.46.40
+  - 64.95.10.117
+  - 64.95.11.80
+  - 64.94.85.15
+  - 64.95.13.203
+  - 64.95.13.210
+  - 64.94.84.99
+  - 64.95.13.21
+  - 64.95.13.208
+  - 64.95.10.223
+  - 64.95.12.130
+  - 95.111.249.30
+  - 185.53.46.190
+  - 85.209.195.161
+  - 64.94.84.204
+
+domains:
+  - egyptanimals.com
+  - geostat.lat
+  - airarticlegenerate.com
+  - kpuszkiev.com
+  - secfileshare.com
+  - startdeeplearning.com
+  - rutech.tech
+  - uztickets.com
+  - virtualtelemetryassistant.com
+  - crazy-love.app
+  - shareitsimple.com
+  - virtualdailyplanner.pro
+  - infotrackerstatistic.live
+  - white-check-security.tools
+  - activation-planner.pro
+  - api-available-checker.com
+  - telemetry-conf.com
+  - api-servername-lookup.com
+  - flycloud-service.com
+  - cyberflysystems.com
+  - order.cyberflysystems.com
+  - veetransfer.com
+  - kaufen-qpon.icu
+
+compromised_domains:
+  - cyberathleticshealth.com
+  - easysend.co
+
+emails:
+  - court.ics3312@ukr.net
+  - spd10381@ukr.net
+  - spd1401@ukr.net
+  - lviv_zagin_dpsu@ukr.net
+  - info@cyberflysystems.com
+  - donloda@ukr.net
+
+cves:
+  - CVE-2023-38831
