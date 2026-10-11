@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-10 18:33:28
+# Generated: 2026-10-11 00:33:44
 # Entries: 517172
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -778,6 +778,7 @@
 0.0.0.0 035508045747058.kitlanchesisa.com.br
 0.0.0.0 0356.service-helvetia.com
 0.0.0.0 0359.pages.net.br
+0.0.0.0 035bc-ff4b-4cab-bca6-2b633b15def0.gorsefield.cc
 0.0.0.0 0365-update.s3.br-sao.cloud-object-storage.appdomain.cloud
 0.0.0.0 0365.microsoftonedrive.workers.dev
 0.0.0.0 03650bet.com
@@ -1418,6 +1419,7 @@
 0.0.0.0 0802bet.com
 0.0.0.0 0804a093e70141c1b9281762478989408.0410236.misitiohostgator.com
 0.0.0.0 0804pages.pages.dev
+0.0.0.0 0807.st
 0.0.0.0 080718e9-56f3-4037-a951-75585fa24433.usrfiles.com
 0.0.0.0 08075345324dfew454546.000webhostapp.com
 0.0.0.0 080b0d00.proj-ct-drive.pages.dev
@@ -55315,6 +55317,7 @@
 0.0.0.0 adcrops.net
 0.0.0.0 adcropswnet.ru
 0.0.0.0 adcs.rqmob.com
+0.0.0.0 adctanzania.co.tz
 0.0.0.0 adctsgakcjkjwchn-dot-millinium.ey.r.appspot.com
 0.0.0.0 adcuratorstechtrail.vercel.app
 0.0.0.0 adcv.jp
@@ -101379,7 +101382,6 @@
 0.0.0.0 ascoma.dedspac.ru
 0.0.0.0 ascoma.virosat.ru
 0.0.0.0 ascommacae.com.br
-0.0.0.0 ascomsecurity.com.au
 0.0.0.0 ascon.co
 0.0.0.0 ascon.matsuro.ru
 0.0.0.0 ascon.ulitron.ru
@@ -140739,7 +140741,6 @@
 0.0.0.0 bergkuppeportiasoftware.pro
 0.0.0.0 bergl.no
 0.0.0.0 berglundcoo.com
-0.0.0.0 bergmann-automobile.de
 0.0.0.0 bergmann-core.de
 0.0.0.0 bergs-presentysmintlds.com
 0.0.0.0 bergs.matsuro.ru
@@ -141006,7 +141007,6 @@
 0.0.0.0 besancon-self-defense.fr
 0.0.0.0 besaumesame-fc45fc.ingress-alpha.ewp.live
 0.0.0.0 besavebd.com
-0.0.0.0 beschaffung-portal.de
 0.0.0.0 beschermenvermijnlng.noez.me
 0.0.0.0 bescorched.matsuro.ru
 0.0.0.0 bese5110.odns.fr
@@ -156522,6 +156522,7 @@
 0.0.0.0 brownunit.com
 0.0.0.0 brownvelocity.org
 0.0.0.0 browryshoes.duckdns.org
+0.0.0.0 brows-check.codes
 0.0.0.0 brows-man.ru
 0.0.0.0 brows.virosat.ru
 0.0.0.0 browse-member-ltd-aeeda7.ingress-florina.ewp.live
@@ -162897,7 +162898,6 @@
 0.0.0.0 c2356069e9d1e79ca924378153cfbbfb4d4416b1f99d41a2940bfdb66c.pages.dev
 0.0.0.0 c2366475.c.youradexchange.com
 0.0.0.0 c23811bc8d067cdb4f00f6af2c918f3d.safeframe.googlesyndication.com
-0.0.0.0 c23c1b-fa77-48e0-8272-692b579a574c.gorsefield.cc
 0.0.0.0 c24.statcounter.com
 0.0.0.0 c2401189.ferozo.com
 0.0.0.0 c2450245.ferozo.com
@@ -170073,6 +170073,7 @@
 0.0.0.0 cepa.gob.sv
 0.0.0.0 cepa.ulitron.ru
 0.0.0.0 cepam.med.br
+0.0.0.0 cepde.org
 0.0.0.0 cepe.ulitron.ru
 0.0.0.0 cepedirne.com
 0.0.0.0 cepemaikm.ga
@@ -208276,6 +208277,7 @@
 0.0.0.0 disjungere.ru
 0.0.0.0 disk-4fb5.pre-ooauth.workers.dev
 0.0.0.0 disk-previewer.com
+0.0.0.0 disk.accord1key.cn
 0.0.0.0 disk.dedspac.ru
 0.0.0.0 disk.vwwv.workers.dev
 0.0.0.0 diskbae.com
@@ -211601,7 +211603,6 @@
 0.0.0.0 donum.ulitron.ru
 0.0.0.0 donut.dedspac.ru
 0.0.0.0 donutclients.st
-0.0.0.0 donutclientsmods.xyz
 0.0.0.0 donutdupe.com
 0.0.0.0 donutecocolate.com
 0.0.0.0 donutsmpclient.com
@@ -228572,7 +228573,6 @@
 0.0.0.0 everetthuntbooks.com
 0.0.0.0 everexedgefoundationes.com
 0.0.0.0 everflint.in
-0.0.0.0 evergabe-bund.de
 0.0.0.0 evergage.com
 0.0.0.0 everglo.com.au
 0.0.0.0 evergreen-cloth.shop
@@ -350274,7 +350274,6 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
-0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarria5daleeeee.000webhostapp.com
@@ -401816,6 +401815,7 @@
 0.0.0.0 osmancanfearless.click
 0.0.0.0 osmantraining.com
 0.0.0.0 osmanylmz.online
+0.0.0.0 osmb.net
 0.0.0.0 osmelhordasemana.com
 0.0.0.0 osmhfirwqs.duckdns.org
 0.0.0.0 osmiumo.ru
@@ -460137,7 +460137,6 @@
 0.0.0.0 saymonn-wixsite-com.filesusr.com
 0.0.0.0 saynotostance.com
 0.0.0.0 sayom.duckdns.org
-0.0.0.0 sayosay.cc
 0.0.0.0 says-celebrity-one-theta.trycloudflare.com
 0.0.0.0 says.amaniwa.ru
 0.0.0.0 says.ulitron.ru
@@ -485830,6 +485829,7 @@
 0.0.0.0 vdocs.sasktel.mmspos.com
 0.0.0.0 vdopia.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
+0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 ve1.claker.top
 0.0.0.0 ve1.techgeetam.com
@@ -499029,7 +499029,6 @@
 0.0.0.0 www.epargniture.net
 0.0.0.0 www.epayenergy.net
 0.0.0.0 www.epibbcurisms.info
-0.0.0.0 www.epibenie.dz
 0.0.0.0 www.epic500maxalttrade.com
 0.0.0.0 www.epicgameads.com
 0.0.0.0 www.epiclexiprolab-platform.com
@@ -514339,6 +514338,7 @@
 0.0.0.0 xenical.3.p2l.info
 0.0.0.0 xenical.4.p2l.info
 0.0.0.0 xenkrupom.de
+0.0.0.0 xeno-cheats.xyz
 0.0.0.0 xenodochial-liskov.34-125-197-109.plesk.page
 0.0.0.0 xenogear.blog
 0.0.0.0 xenon.studio
