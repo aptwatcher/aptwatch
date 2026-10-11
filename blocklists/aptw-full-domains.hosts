@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-11 06:34:37
-# Entries: 517175
+# Generated: 2026-10-11 12:34:05
+# Entries: 517182
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -155097,6 +155097,7 @@
 0.0.0.0 breeze-worker-dark-ca9c.c1-oudost-orage.workers.dev
 0.0.0.0 breeze.virosat.ru
 0.0.0.0 breezeartcreatives.com
+0.0.0.0 breezeclient.com
 0.0.0.0 breezeline-100662.weeblysite.com
 0.0.0.0 breezeline-103237.weeblysite.com
 0.0.0.0 breezenvironmental.com
@@ -178787,6 +178788,7 @@
 0.0.0.0 cloudy-lateral-kosmoceratops.glitch.me
 0.0.0.0 cloudy-ludicrous-freon.glitch.me
 0.0.0.0 cloudy.virosat.ru
+0.0.0.0 cloudzsoft.com
 0.0.0.0 cloue.link
 0.0.0.0 clour.virosat.ru
 0.0.0.0 clous-lab-662a.tlavaeonryersvs.workers.dev
@@ -232207,6 +232209,7 @@
 0.0.0.0 fabien.dumont.hangar2lheli.com
 0.0.0.0 fabilousonline.com
 0.0.0.0 fablabaltominho.pt
+0.0.0.0 fable-shine.com
 0.0.0.0 fable.dedspac.ru
 0.0.0.0 fableticsusnew.top
 0.0.0.0 faboat.in
@@ -236307,6 +236310,7 @@
 0.0.0.0 family76.perfect.saturapa.ru
 0.0.0.0 family87.masshir.ru
 0.0.0.0 familyabroad.net
+0.0.0.0 familyaddons.com
 0.0.0.0 familyfamily.co
 0.0.0.0 familyfirstfinancial.top
 0.0.0.0 familyfirstkentucky.com
@@ -321746,6 +321750,7 @@
 0.0.0.0 kryptocom-logon.gitbook.io
 0.0.0.0 kryptoconnect-support.com
 0.0.0.0 kryptomoney.000webhostapp.com
+0.0.0.0 kryptonclient-cracked.com
 0.0.0.0 kryptonmedia.click
 0.0.0.0 kryptono.exchange
 0.0.0.0 kryptonos.ru
@@ -340117,6 +340122,7 @@
 0.0.0.0 luminarte24.pl
 0.0.0.0 luminatti.com
 0.0.0.0 lumineuxinvexustrade.com
+0.0.0.0 luminexclient.com
 0.0.0.0 luminexclient.net
 0.0.0.0 lumingsijlbeachresort.com
 0.0.0.0 luminiferous-ticks.000webhostapp.com
@@ -371357,6 +371363,7 @@
 0.0.0.0 mothermoonfathersun.org
 0.0.0.0 motherofpearlproductions.com
 0.0.0.0 mothersoftware.in
+0.0.0.0 mothertouch.ac.zw
 0.0.0.0 mothertouchgroup.org
 0.0.0.0 mothopogamelodge.co.za
 0.0.0.0 mothrash.vercel.app
@@ -390079,6 +390086,7 @@
 0.0.0.0 nov-coveraa-suponaci.pages.dev
 0.0.0.0 nov.bortogat.ru
 0.0.0.0 nov.dedspac.ru
+0.0.0.0 nova-client.com
 0.0.0.0 nova-itacard.azurewebsites.net
 0.0.0.0 nova-office.pl
 0.0.0.0 nova-purrfect-cork.glitch.me
@@ -451988,7 +451996,6 @@
 0.0.0.0 rosieteapot.com
 0.0.0.0 rosiho.detmir.top
 0.0.0.0 rosin.dedspac.ru
-0.0.0.0 rosirs-edu.com
 0.0.0.0 roskoierser15.co.vu
 0.0.0.0 roskoierser16.co.vu
 0.0.0.0 roskoierser17.co.vu
