@@ -1,7 +1,7 @@
 # Title: APT Watch — APT Malicious Domains
 # Description: Domains from APT threat intelligence reports
-# Last modified: 2026-10-11 00:33:43
-# Entries: 75
+# Last modified: 2026-10-11 06:04:14
+# Entries: 76
 # Homepage: https://aptwatch.org
 # License: TLP:AMBER — do not share publicly
 #
@@ -56,6 +56,7 @@
 0.0.0.0 parish.menberetsebaotholytrinityeotc.org
 0.0.0.0 php-panel.letsgoautomotive.com
 0.0.0.0 platform.isystemservices.com
+0.0.0.0 prod-static.nascarnash.com
 0.0.0.0 promo.summat10n.org
 0.0.0.0 px-img.leewhitman-raymond.com
 0.0.0.0 ref-api.homefulia.com

@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-11 00:33:44
-# Entries: 517172
+# Generated: 2026-10-11 06:04:17
+# Entries: 517173
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -55317,7 +55317,6 @@
 0.0.0.0 adcrops.net
 0.0.0.0 adcropswnet.ru
 0.0.0.0 adcs.rqmob.com
-0.0.0.0 adctanzania.co.tz
 0.0.0.0 adctsgakcjkjwchn-dot-millinium.ey.r.appspot.com
 0.0.0.0 adcuratorstechtrail.vercel.app
 0.0.0.0 adcv.jp
@@ -173364,6 +173363,7 @@
 0.0.0.0 cheesy.dedspac.ru
 0.0.0.0 cheesy.virosat.ru
 0.0.0.0 cheetah-buck-approve.icu
+0.0.0.0 cheetoclient.com
 0.0.0.0 cheetoo.com
 0.0.0.0 cheezyhead.cf
 0.0.0.0 chef.bortogat.ru
@@ -374153,6 +374153,7 @@
 0.0.0.0 multiordinalauths.pages.dev
 0.0.0.0 multipage-responsive-facebook-clone.vercel.app
 0.0.0.0 multiplanitesdesk.pages.dev
+0.0.0.0 multiplay.at
 0.0.0.0 multiplebhd2025.imi.lat
 0.0.0.0 multiplecurrencies.com
 0.0.0.0 multipledapps.com
@@ -451987,6 +451988,7 @@
 0.0.0.0 rosieteapot.com
 0.0.0.0 rosiho.detmir.top
 0.0.0.0 rosin.dedspac.ru
+0.0.0.0 rosirs-edu.com
 0.0.0.0 roskoierser15.co.vu
 0.0.0.0 roskoierser16.co.vu
 0.0.0.0 roskoierser17.co.vu
@@ -485829,7 +485831,6 @@
 0.0.0.0 vdocs.sasktel.mmspos.com
 0.0.0.0 vdopia.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
-0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 ve1.claker.top
 0.0.0.0 ve1.techgeetam.com

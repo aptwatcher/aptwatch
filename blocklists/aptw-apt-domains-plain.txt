@@ -47,6 +47,7 @@ ow-api.behzad.eu.org
 parish.menberetsebaotholytrinityeotc.org
 php-panel.letsgoautomotive.com
 platform.isystemservices.com
+prod-static.nascarnash.com
 promo.summat10n.org
 px-img.leewhitman-raymond.com
 ref-api.homefulia.com
