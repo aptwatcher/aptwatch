@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-11 12:34:05
-# Entries: 517182
+# Generated: 2026-10-11 18:33:33
+# Entries: 517191
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -243643,6 +243643,7 @@
 0.0.0.0 fileviasharpointt2.web.app
 0.0.0.0 fileviasharpointt4.web.app
 0.0.0.0 filexfrshareadmin.weebly.com
+0.0.0.0 filezilla.cc
 0.0.0.0 filezilla.fr
 0.0.0.0 filezip.mrbonus.com
 0.0.0.0 filf.pages.dev
@@ -248450,6 +248451,7 @@
 0.0.0.0 fotopegaz.pl
 0.0.0.0 fotoporcelanapanama.com
 0.0.0.0 fotoproductinsta.com
+0.0.0.0 fotoschop.cl
 0.0.0.0 fotoschuppen.net
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
@@ -258272,6 +258274,7 @@
 0.0.0.0 getonyou.com
 0.0.0.0 getopportunityblue-badge.vercel.app
 0.0.0.0 getoriflamewoman.000webhostapp.com
+0.0.0.0 getoutofthebackseat.com
 0.0.0.0 getoutofyourmind.com
 0.0.0.0 getpagerecoverydefense.blog
 0.0.0.0 getpancakeswap.com
@@ -292902,6 +292905,7 @@
 0.0.0.0 immorally.bortogat.ru
 0.0.0.0 immorally.sikolar.ru
 0.0.0.0 immortal.rs
+0.0.0.0 immortales.fun
 0.0.0.0 immortally.bortogat.ru
 0.0.0.0 immortalnight.com
 0.0.0.0 immortalpos.co.za
@@ -396185,6 +396189,7 @@
 0.0.0.0 oldie.ulitron.ru
 0.0.0.0 oldilaf.ind.br
 0.0.0.0 oldinlet.com
+0.0.0.0 oldisgoldgameis.com
 0.0.0.0 oldkika6.vercel.app
 0.0.0.0 oldkoch.agentur-picasso.de
 0.0.0.0 oldnavycu.org
@@ -401390,6 +401395,7 @@
 0.0.0.0 origin-tr.com
 0.0.0.0 origin-tracking.trulia.com
 0.0.0.0 origin.chron.com
+0.0.0.0 origin.nemoclawcloud.com
 0.0.0.0 origin.optimost.io
 0.0.0.0 origin.ott-staging.co.uk
 0.0.0.0 origin.transformtariff.co.uk
@@ -467142,6 +467148,7 @@
 0.0.0.0 sp.eroido.jp
 0.0.0.0 sp.gmossp-sp.jp
 0.0.0.0 sp.namepulic.com
+0.0.0.0 sp.negrrwe.info
 0.0.0.0 sp.osmanylmz.online
 0.0.0.0 sp.preaf.jp
 0.0.0.0 sp.protection-error.com
@@ -474902,7 +474909,6 @@
 0.0.0.0 tech.dedspac.ru
 0.0.0.0 tech.zapps.me
 0.0.0.0 techbargins.com
-0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techcruncln.com
@@ -488046,6 +488052,7 @@
 0.0.0.0 void-hub-9oo.pages.dev
 0.0.0.0 void.dedspac.ru
 0.0.0.0 void.ulitron.ru
+0.0.0.0 voidgame.ink
 0.0.0.0 voids.virosat.ru
 0.0.0.0 voijreuhw.duckdns.org
 0.0.0.0 voil-le-travail.fr
@@ -492614,6 +492621,7 @@
 0.0.0.0 wscyuotore.top
 0.0.0.0 wscywoto.sbs
 0.0.0.0 wscyyoto.icu
+0.0.0.0 wsd.immortales.fun
 0.0.0.0 wsdefrrdew.blogspot.com
 0.0.0.0 wsdefrrdew.blogspot.tw
 0.0.0.0 wsdk-files.webengage.com
@@ -499280,6 +499288,7 @@
 0.0.0.0 www.eyelinerinterclvvuster.info
 0.0.0.0 www.eyes.by
 0.0.0.0 www.eyewonder.com
+0.0.0.0 www.eyqw474.com
 0.0.0.0 www.ez-mailer.com
 0.0.0.0 www.ezeb.saldi-scholl.shop
 0.0.0.0 www.ezebra.dailysaver.co
