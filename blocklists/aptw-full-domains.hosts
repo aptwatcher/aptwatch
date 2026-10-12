@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-12 12:33:36
-# Entries: 517195
+# Generated: 2026-10-12 18:33:31
+# Entries: 517193
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48946,7 +48946,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -321355,6 +321354,7 @@
 0.0.0.0 kraukenlgnxu6.godaddysites.com
 0.0.0.0 kraukunologin.gitbook.io
 0.0.0.0 kraumetikcosmetic.com
+0.0.0.0 krause-fahrzeuge.de
 0.0.0.0 kraustech.back4app.io
 0.0.0.0 kraut.ulitron.ru
 0.0.0.0 kravento.vercel.app
@@ -401717,7 +401717,6 @@
 0.0.0.0 osbdaluyskvh.top
 0.0.0.0 osbglmoail.com
 0.0.0.0 osbnrfmc.dogestocks.com
-0.0.0.0 osbot.net
 0.0.0.0 osbzalbhmd.duckdns.org
 0.0.0.0 oscalewest.com
 0.0.0.0 oscan.dedspac.ru
@@ -481291,7 +481290,6 @@
 0.0.0.0 tweetdeck.fr
 0.0.0.0 tweets.timanar.ru
 0.0.0.0 tweetsoup.us.intellitxt.com
-0.0.0.0 twejamaica.org
 0.0.0.0 twelvedawn.com
 0.0.0.0 twerp.dedspac.ru
 0.0.0.0 twglobeshopping3.top
