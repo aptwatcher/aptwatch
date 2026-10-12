@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-12 00:34:10
-# Entries: 517188
+# Generated: 2026-10-12 06:04:38
+# Entries: 517187
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -212037,7 +212037,6 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
-0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -242812,7 +242811,6 @@
 0.0.0.0 fictionally.yazibo.ru
 0.0.0.0 fictionfate.com
 0.0.0.0 ficultol.com
-0.0.0.0 ficus.in
 0.0.0.0 ficus.ulitron.ru
 0.0.0.0 fid-eiity.qpon
 0.0.0.0 fid-elitpmcik.shop
@@ -298840,7 +298838,6 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
-0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -350285,6 +350282,7 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
+0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarria5daleeeee.000webhostapp.com
@@ -395690,6 +395688,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -434898,6 +434897,7 @@
 0.0.0.0 pvnvbqvwpouegyzfjxurwocjtf-dot-gl909989876787.uk.r.appspot.com
 0.0.0.0 pvokrvrulwdubxra-dot-millinium.ey.r.appspot.com
 0.0.0.0 pvp.siteregitsl.top
+0.0.0.0 pvphood.cc
 0.0.0.0 pvpmp4oloh1nk.liusanjie.cc
 0.0.0.0 pvpn.qius.eu.org
 0.0.0.0 pvppphpodkeipndncukxwvisym-dot-goff039302032323.rj.r.appspot.com
@@ -469206,7 +469206,6 @@
 0.0.0.0 stan-stana.site
 0.0.0.0 stan-stana.space
 0.0.0.0 stan-stana.website
-0.0.0.0 stanarcservice.com
 0.0.0.0 stanbicassets.web.app
 0.0.0.0 stanbridgeestate.com
 0.0.0.0 stand.virosat.ru
