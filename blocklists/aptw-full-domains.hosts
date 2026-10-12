@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-12 06:34:43
-# Entries: 517189
+# Generated: 2026-10-12 12:33:36
+# Entries: 517195
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48946,6 +48946,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -53348,6 +53349,7 @@
 0.0.0.0 activefootspa.com
 0.0.0.0 activegirlstoys.com
 0.0.0.0 activegreeting.icu
+0.0.0.0 activegrp.co.za
 0.0.0.0 activeh2.tokyo
 0.0.0.0 activehtmail.hstn.me
 0.0.0.0 activeideas.net
@@ -212037,6 +212039,7 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
+0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -245093,7 +245096,6 @@
 0.0.0.0 fitfloppl.com
 0.0.0.0 fitfloppolskaoutlet.com
 0.0.0.0 fitflopspolskaoutlet.com
-0.0.0.0 fitforevercavan.ie
 0.0.0.0 fitful-manners.000webhostapp.com
 0.0.0.0 fitg.net
 0.0.0.0 fitges.oewabox.at
@@ -288694,6 +288696,7 @@
 0.0.0.0 ibid.boletuso.ru
 0.0.0.0 ibid.dedspac.ru
 0.0.0.0 ibid.ulitron.ru
+0.0.0.0 ibidasjohnnraplc.com
 0.0.0.0 ibigao.ru
 0.0.0.0 ibihlxwweqnmrkfiqwzdfkfwvlbvgwrlsphi-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 ibijbdtajblkrwhlzxrttmsmwxxikhjudpty-dot-cryptic-now-290917.ey.r.appspot.com
@@ -296661,7 +296664,6 @@
 0.0.0.0 innovacapital.org
 0.0.0.0 innovaespublicidad.com
 0.0.0.0 innovamosbanrural.0hi.me
-0.0.0.0 innovantksa.com
 0.0.0.0 innovaperutourscom.ipage.com
 0.0.0.0 innovarazvitie.online
 0.0.0.0 innovarextrade.com
@@ -298839,6 +298841,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -333034,6 +333037,7 @@
 0.0.0.0 livingemeraldjayne.com
 0.0.0.0 livingfreeintl.com
 0.0.0.0 livinginjupfl.com
+0.0.0.0 livinginpurpose.co.za
 0.0.0.0 livinglawsociety.org
 0.0.0.0 livinglocal.homes
 0.0.0.0 livingmybosslifeacademy.com
@@ -395689,7 +395693,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -458030,6 +458033,7 @@
 0.0.0.0 samueq.ga
 0.0.0.0 samufoodproducts.com
 0.0.0.0 samukasouza.github.io
+0.0.0.0 samul.elblag.pl
 0.0.0.0 samurai-taxi.com
 0.0.0.0 samurai99.delivery
 0.0.0.0 samurai99.plus
@@ -471848,6 +471852,7 @@
 0.0.0.0 summitalarm.com
 0.0.0.0 summitbusinessmedia.112.2o7.net
 0.0.0.0 summitcapitalpatners.info
+0.0.0.0 summitcapitalpatners.ink
 0.0.0.0 summitluxuria.net
 0.0.0.0 summitsicredidegovernanca.com.br
 0.0.0.0 summittrailsupply.net
@@ -481286,6 +481291,7 @@
 0.0.0.0 tweetdeck.fr
 0.0.0.0 tweets.timanar.ru
 0.0.0.0 tweetsoup.us.intellitxt.com
+0.0.0.0 twejamaica.org
 0.0.0.0 twelvedawn.com
 0.0.0.0 twerp.dedspac.ru
 0.0.0.0 twglobeshopping3.top
