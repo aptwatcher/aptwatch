@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-12 06:04:38
-# Entries: 517187
+# Generated: 2026-10-12 06:34:43
+# Entries: 517189
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -296661,6 +296661,7 @@
 0.0.0.0 innovacapital.org
 0.0.0.0 innovaespublicidad.com
 0.0.0.0 innovamosbanrural.0hi.me
+0.0.0.0 innovantksa.com
 0.0.0.0 innovaperutourscom.ipage.com
 0.0.0.0 innovarazvitie.online
 0.0.0.0 innovarextrade.com
@@ -469206,6 +469207,7 @@
 0.0.0.0 stan-stana.site
 0.0.0.0 stan-stana.space
 0.0.0.0 stan-stana.website
+0.0.0.0 stanarcservice.com
 0.0.0.0 stanbicassets.web.app
 0.0.0.0 stanbridgeestate.com
 0.0.0.0 stand.virosat.ru
