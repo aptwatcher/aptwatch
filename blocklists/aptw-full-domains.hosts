@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-11 18:33:33
-# Entries: 517191
+# Generated: 2026-10-12 00:34:10
+# Entries: 517188
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -12417,7 +12417,6 @@
 0.0.0.0 1rtspht.duckdns.org
 0.0.0.0 1rulebecool.com
 0.0.0.0 1rvhaszukvfmnqr.qwo231sdx.club
-0.0.0.0 1rvrental.com
 0.0.0.0 1rx.io
 0.0.0.0 1rx5ix.qwo231sdx.club
 0.0.0.0 1rzqbiafsypv.qwo231sdx.club
@@ -24954,6 +24953,7 @@
 0.0.0.0 4k-magazineluiza.servehttp.com
 0.0.0.0 4k-magazineluiza.serveirc.com
 0.0.0.0 4k-magazineluiza.zapto.org
+0.0.0.0 4k4iard.tupek.store
 0.0.0.0 4k6i9sun.we9ixzz.co
 0.0.0.0 4ka-login.crabdance.com
 0.0.0.0 4kbikinis.highdefmovies.com
@@ -147414,6 +147414,7 @@
 0.0.0.0 blaykeinteriors.com.au
 0.0.0.0 blazberg.cz
 0.0.0.0 blazberg.cz.dax.lv
+0.0.0.0 blaze-x.com
 0.0.0.0 blaze.bortogat.ru
 0.0.0.0 blaze.ulitron.ru
 0.0.0.0 blaze.virosat.ru
@@ -170073,7 +170074,6 @@
 0.0.0.0 cepa.gob.sv
 0.0.0.0 cepa.ulitron.ru
 0.0.0.0 cepam.med.br
-0.0.0.0 cepde.org
 0.0.0.0 cepe.ulitron.ru
 0.0.0.0 cepedirne.com
 0.0.0.0 cepemaikm.ga
@@ -178788,7 +178788,6 @@
 0.0.0.0 cloudy-lateral-kosmoceratops.glitch.me
 0.0.0.0 cloudy-ludicrous-freon.glitch.me
 0.0.0.0 cloudy.virosat.ru
-0.0.0.0 cloudzsoft.com
 0.0.0.0 cloue.link
 0.0.0.0 clour.virosat.ru
 0.0.0.0 clous-lab-662a.tlavaeonryersvs.workers.dev
@@ -199329,7 +199328,6 @@
 0.0.0.0 death-beforedecaf.com
 0.0.0.0 death.dedspac.ru
 0.0.0.0 death.virosat.ru
-0.0.0.0 deathboundcraft.com
 0.0.0.0 deathreturns.my
 0.0.0.0 deaths-fin-choice-reseller.trycloudflare.com
 0.0.0.0 deathvenom.com
@@ -211606,6 +211604,7 @@
 0.0.0.0 donut.dedspac.ru
 0.0.0.0 donutclients.st
 0.0.0.0 donutdupe.com
+0.0.0.0 donutdupe.skyblock-qol.com
 0.0.0.0 donutecocolate.com
 0.0.0.0 donutsmpclient.com
 0.0.0.0 donval.112.2o7.net
@@ -212171,7 +212170,6 @@
 0.0.0.0 downloadplayer.xyz
 0.0.0.0 downloads.email-attachments.ru
 0.0.0.0 downloads.file-attachments.ru
-0.0.0.0 downloads.go-xlr.com
 0.0.0.0 downloads.larivieracasino.com
 0.0.0.0 downloads.mytvandmovies.com
 0.0.0.0 downloads.pcsecurityshield.com
@@ -240891,6 +240889,7 @@
 0.0.0.0 feecause.za.com
 0.0.0.0 feecfe.milotrad.ru
 0.0.0.0 feed--supportingmedia.com
+0.0.0.0 feed-delta.com
 0.0.0.0 feed-supportsmediia.com
 0.0.0.0 feed.4wnet.com
 0.0.0.0 feed.amaniwa.ru
@@ -243434,6 +243433,7 @@
 0.0.0.0 fiksu.com
 0.0.0.0 fil-luge.com
 0.0.0.0 fil-records.tiiny.site
+0.0.0.0 fil.immortales.life
 0.0.0.0 fila.ulitron.ru
 0.0.0.0 filago.timanar.ru
 0.0.0.0 filagusta.com
@@ -245095,6 +245095,7 @@
 0.0.0.0 fitfloppl.com
 0.0.0.0 fitfloppolskaoutlet.com
 0.0.0.0 fitflopspolskaoutlet.com
+0.0.0.0 fitforevercavan.ie
 0.0.0.0 fitful-manners.000webhostapp.com
 0.0.0.0 fitg.net
 0.0.0.0 fitges.oewabox.at
@@ -365142,7 +365143,6 @@
 0.0.0.0 micservapp.ey.r.appspot.com
 0.0.0.0 micshhdhgdhhhh.weebly.com
 0.0.0.0 micssta.weebly.com
-0.0.0.0 micstndasap.world
 0.0.0.0 micuenta-teach.github.io
 0.0.0.0 micuenta.sailinginversiones.com
 0.0.0.0 micuentapple-desbloqueartc.vdn3-eu-nord1.net
@@ -371367,7 +371367,6 @@
 0.0.0.0 mothermoonfathersun.org
 0.0.0.0 motherofpearlproductions.com
 0.0.0.0 mothersoftware.in
-0.0.0.0 mothertouch.ac.zw
 0.0.0.0 mothertouchgroup.org
 0.0.0.0 mothopogamelodge.co.za
 0.0.0.0 mothrash.vercel.app
@@ -380043,7 +380042,6 @@
 0.0.0.0 natant-stripes.000webhostapp.com
 0.0.0.0 natasa-arts.com
 0.0.0.0 natashagomez.ibx.lat
-0.0.0.0 natashamohan.com
 0.0.0.0 natashyabaydesign.com
 0.0.0.0 nataticcoarts.com
 0.0.0.0 natatt.weebly.com
@@ -398917,6 +398915,7 @@
 0.0.0.0 onlne-invtebowl.myvnc.com
 0.0.0.0 onlnebsvruaidtmrkezitr.com.tr
 0.0.0.0 onlnenfcc2.temp.swtest.ru
+0.0.0.0 onlocity.com
 0.0.0.0 onloneuaol.temp.swtest.ru
 0.0.0.0 onlrjyyqxkwcffrw-dot-millinium.ey.r.appspot.com
 0.0.0.0 onlwshop.eu
@@ -436774,7 +436773,6 @@
 0.0.0.0 qpzgviukwjutjtae-dot-millinium.ey.r.appspot.com
 0.0.0.0 qq-8fbe.vercel.app
 0.0.0.0 qq-liveregister.com
-0.0.0.0 qq.kipsharijan.cfd
 0.0.0.0 qq1.999818.xyz
 0.0.0.0 qq1q.biz
 0.0.0.0 qq522455.w103.xunnet.wang
@@ -438264,7 +438262,6 @@
 0.0.0.0 qwferiat.ngyatngjihuremanitreta.link
 0.0.0.0 qwfezxz.duckdns.org
 0.0.0.0 qwfrh.blogspot.li
-0.0.0.0 qwfwhg4.lol
 0.0.0.0 qwg00000yttqg000qtu.bystridhiking.com
 0.0.0.0 qwgbqwc.com
 0.0.0.0 qwgqwed.duckdns.org
@@ -474543,6 +474540,7 @@
 0.0.0.0 tauflot.ru
 0.0.0.0 taula.dedspac.ru
 0.0.0.0 taun.dedspac.ru
+0.0.0.0 taunahi.skyblock-qol.com
 0.0.0.0 taunahi.st
 0.0.0.0 taunt.virosat.ru
 0.0.0.0 tauon.virosat.ru
@@ -480441,7 +480439,6 @@
 0.0.0.0 tronskan.com
 0.0.0.0 tronskan.info
 0.0.0.0 tronssan.github.io
-0.0.0.0 tronzadorasnng.com
 0.0.0.0 troop.dedspac.ru
 0.0.0.0 troot.dedspac.ru
 0.0.0.0 trop.starbearingcentre.com
@@ -491377,6 +491374,7 @@
 0.0.0.0 whiskeywealthclub.com
 0.0.0.0 whiskyqueue.com
 0.0.0.0 whiskyswiat.shop
+0.0.0.0 whisone.cc
 0.0.0.0 whisp.dedspac.ru
 0.0.0.0 whispering-table-fast.on-fleek.app
 0.0.0.0 whisperingcascade.com
@@ -505684,7 +505682,6 @@
 0.0.0.0 www.osciachip.site
 0.0.0.0 www.osciynmesh.site
 0.0.0.0 www.osge.org
-0.0.0.0 www.osmb.net
 0.0.0.0 www.osn10ovad.eu.cc
 0.0.0.0 www.osn11ovat.eu.cc
 0.0.0.0 www.osn15ovaad.eu.cc
