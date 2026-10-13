@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-12 18:33:31
-# Entries: 517193
+# Generated: 2026-10-13 00:34:05
+# Entries: 517198
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -778,7 +778,6 @@
 0.0.0.0 035508045747058.kitlanchesisa.com.br
 0.0.0.0 0356.service-helvetia.com
 0.0.0.0 0359.pages.net.br
-0.0.0.0 035bc-ff4b-4cab-bca6-2b633b15def0.gorsefield.cc
 0.0.0.0 0365-update.s3.br-sao.cloud-object-storage.appdomain.cloud
 0.0.0.0 0365.microsoftonedrive.workers.dev
 0.0.0.0 03650bet.com
@@ -1419,7 +1418,6 @@
 0.0.0.0 0802bet.com
 0.0.0.0 0804a093e70141c1b9281762478989408.0410236.misitiohostgator.com
 0.0.0.0 0804pages.pages.dev
-0.0.0.0 0807.st
 0.0.0.0 080718e9-56f3-4037-a951-75585fa24433.usrfiles.com
 0.0.0.0 08075345324dfew454546.000webhostapp.com
 0.0.0.0 080b0d00.proj-ct-drive.pages.dev
@@ -31823,6 +31821,7 @@
 0.0.0.0 654x5-yaaaa-aaaad-qc2pq-cai.raw.ic0.app
 0.0.0.0 655007265.retarus.ru
 0.0.0.0 655023360.tutarama.ru
+0.0.0.0 65512.cfd
 0.0.0.0 655130394.retarus.ru
 0.0.0.0 6551641545744.hyperphp.com
 0.0.0.0 6551794246-prawnicy.storage.googleapis.com
@@ -74507,6 +74506,7 @@
 0.0.0.0 altamira.bluestacko.ru
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
+0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanyucetas.com
 0.0.0.0 altaplateria.com
@@ -156524,7 +156524,6 @@
 0.0.0.0 brownunit.com
 0.0.0.0 brownvelocity.org
 0.0.0.0 browryshoes.duckdns.org
-0.0.0.0 brows-check.codes
 0.0.0.0 brows-man.ru
 0.0.0.0 brows.virosat.ru
 0.0.0.0 browse-member-ltd-aeeda7.ingress-florina.ewp.live
@@ -162369,6 +162368,7 @@
 0.0.0.0 bzzgcwnfioxwzqgw-dot-millinium.ey.r.appspot.com
 0.0.0.0 bzzwyegltp.duckdns.org
 0.0.0.0 bzzxzzzzzzzxczzzzzz.000webhostapp.com
+0.0.0.0 c--617b5f35-a107-4800-9047-a429934c0483-prod.lovable.cloud
 0.0.0.0 c--secured.duckdns.org
 0.0.0.0 c-123milhas.shop
 0.0.0.0 c-agricole-a36ba3.ingress-daribow.easywp.com
@@ -180133,6 +180133,7 @@
 0.0.0.0 cocovip.net
 0.0.0.0 cocrehab.com
 0.0.0.0 coctilshaker.com
+0.0.0.0 cocuktekstil.com
 0.0.0.0 cocuyo.dedspac.ru
 0.0.0.0 cod.bortogat.ru
 0.0.0.0 cod.dedspac.ru
@@ -187844,6 +187845,7 @@
 0.0.0.0 coralinvertia.net
 0.0.0.0 corallz.com
 0.0.0.0 coralon.com
+0.0.0.0 coralpac.com
 0.0.0.0 coralpatrimivo.net
 0.0.0.0 coraltradix.net
 0.0.0.0 coralzinsholt.net
@@ -214394,6 +214396,7 @@
 0.0.0.0 dudgital.com
 0.0.0.0 dudiosfexpress.tk
 0.0.0.0 dudki.co
+0.0.0.0 dudn.xyz
 0.0.0.0 dudocilo.ru
 0.0.0.0 dudoinvoice.tk
 0.0.0.0 dudou.serv00.net
@@ -229378,7 +229381,6 @@
 0.0.0.0 exe.bid
 0.0.0.0 exeat.ulitron.ru
 0.0.0.0 exeat.virosat.ru
-0.0.0.0 exec-roblox.com
 0.0.0.0 exec.ulitron.ru
 0.0.0.0 execorespectrum.com
 0.0.0.0 execpts-nxieffulgent-cranachan-tansbm.netlify.app
@@ -262919,7 +262921,6 @@
 0.0.0.0 goo.gs
 0.0.0.0 goo2l.in
 0.0.0.0 gooannzlbg.duckdns.org
-0.0.0.0 goobaaclient.com
 0.0.0.0 goobbe.com
 0.0.0.0 goocruxainsificansion.com
 0.0.0.0 good-8u6.pages.dev
@@ -299770,6 +299771,7 @@
 0.0.0.0 internetinisdarbas.lt
 0.0.0.0 internetissue.autos
 0.0.0.0 internetlint.info
+0.0.0.0 internetlouisiana.com
 0.0.0.0 internetmillionaires.com
 0.0.0.0 internetmoskva.ru
 0.0.0.0 internetnc2-router-app.onlinewebshop.net
@@ -387137,7 +387139,6 @@
 0.0.0.0 nigeriavoguejournalism.org
 0.0.0.0 nigerlife.com
 0.0.0.0 nigertechnologie.com
-0.0.0.0 niggersmp.net
 0.0.0.0 nigh.dedspac.ru
 0.0.0.0 nigh.ulitron.ru
 0.0.0.0 nighs.ulitron.ru
@@ -401831,7 +401832,6 @@
 0.0.0.0 osmancanfearless.click
 0.0.0.0 osmantraining.com
 0.0.0.0 osmanylmz.online
-0.0.0.0 osmb.net
 0.0.0.0 osmelhordasemana.com
 0.0.0.0 osmhfirwqs.duckdns.org
 0.0.0.0 osmiumo.ru
@@ -417575,7 +417575,6 @@
 0.0.0.0 polar-wertane.org
 0.0.0.0 polar-zinsmere.co
 0.0.0.0 polar.dedspac.ru
-0.0.0.0 polar.moe
 0.0.0.0 polarbearpropertiesflorida.com
 0.0.0.0 polarcapridge.live
 0.0.0.0 polarcapridge.site
@@ -453356,6 +453355,7 @@
 0.0.0.0 rs6.net
 0.0.0.0 rs6129.craftum.io
 0.0.0.0 rs6nj7n494.tik58777.com
+0.0.0.0 rs74ed.s.gy
 0.0.0.0 rsa.pub
 0.0.0.0 rsabz.ir
 0.0.0.0 rsaindia.in
@@ -454907,7 +454907,6 @@
 0.0.0.0 rxappsx.hvyaaos.presse.ci
 0.0.0.0 rxaxckbfbb.duckdns.org
 0.0.0.0 rxazag.inyourtravelingshoes.com
-0.0.0.0 rxb.immortales.fun
 0.0.0.0 rxcmpd.com
 0.0.0.0 rxcovid.com
 0.0.0.0 rxcxsolution.pages.dev
@@ -455570,6 +455569,7 @@
 0.0.0.0 s1plumbing.com
 0.0.0.0 s1qak7ijdlbh.munty.co
 0.0.0.0 s1staffing.com
+0.0.0.0 s1w21.comen.store
 0.0.0.0 s2-citi.com
 0.0.0.0 s2.adform.net
 0.0.0.0 s2.bl-1.com
@@ -462074,6 +462074,7 @@
 0.0.0.0 sedoparking.com
 0.0.0.0 sedosexu.wixsite.com
 0.0.0.0 sedotracker.com
+0.0.0.0 sedrezltd.best
 0.0.0.0 seductivegirls.cyou
 0.0.0.0 sedulousnessescolueembary.info
 0.0.0.0 sedyes.com
@@ -465161,6 +465162,7 @@
 0.0.0.0 skymailsurport.weebly.com
 0.0.0.0 skymiro.ru
 0.0.0.0 skymoney.net
+0.0.0.0 skynetwork.lat
 0.0.0.0 skype-online0345.web.app
 0.0.0.0 skype.dw.land.to
 0.0.0.0 skype.elitoras.ru
@@ -472767,7 +472769,6 @@
 0.0.0.0 swell.dedspac.ru
 0.0.0.0 swelp.dedspac.ru
 0.0.0.0 swept.dedspac.ru
-0.0.0.0 swervimgbackj.top
 0.0.0.0 swettttwdtryuio.weebly.com
 0.0.0.0 swfhostltd.com
 0.0.0.0 swflightinfo.bond
@@ -476711,6 +476712,7 @@
 0.0.0.0 threatdetect.org
 0.0.0.0 three-yummy-voyage.glitch.me
 0.0.0.0 three.dedspac.ru
+0.0.0.0 threejrev.com
 0.0.0.0 threestarcrm.com
 0.0.0.0 threw.dedspac.ru
 0.0.0.0 thrice.amaniwa.ru
@@ -477576,6 +477578,7 @@
 0.0.0.0 tmp.adflex.vn
 0.0.0.0 tmpoverapprehensively.vercel.app
 0.0.0.0 tmprotectprotect.com
+0.0.0.0 tms.hazentransferllc.com
 0.0.0.0 tmscdn.coremetrics.com
 0.0.0.0 tmserver-1.com
 0.0.0.0 tmslexus.112.2o7.net
@@ -481290,6 +481293,7 @@
 0.0.0.0 tweetdeck.fr
 0.0.0.0 tweets.timanar.ru
 0.0.0.0 tweetsoup.us.intellitxt.com
+0.0.0.0 twejamaica.org
 0.0.0.0 twelvedawn.com
 0.0.0.0 twerp.dedspac.ru
 0.0.0.0 twglobeshopping3.top
@@ -485872,6 +485876,7 @@
 0.0.0.0 veda.dedspac.ru
 0.0.0.0 veda.ulitron.ru
 0.0.0.0 vedant364.github.io
+0.0.0.0 vedantawisdom.org
 0.0.0.0 vedaprathikgattu.github.io
 0.0.0.0 vederhet.net
 0.0.0.0 vedhasssss.github.io
@@ -488902,6 +488907,7 @@
 0.0.0.0 walks.virosat.ru
 0.0.0.0 walkthedinosaur.com
 0.0.0.0 wall.adgaterewards.com
+0.0.0.0 wall.casajuanchos.com
 0.0.0.0 wallattrezura.webflow.io
 0.0.0.0 wallcon.token-ddns.sbs
 0.0.0.0 wallcutexobdusus.godaddysites.com
@@ -514359,7 +514365,6 @@
 0.0.0.0 xenical.3.p2l.info
 0.0.0.0 xenical.4.p2l.info
 0.0.0.0 xenkrupom.de
-0.0.0.0 xeno-cheats.xyz
 0.0.0.0 xenodochial-liskov.34-125-197-109.plesk.page
 0.0.0.0 xenogear.blog
 0.0.0.0 xenon.studio
