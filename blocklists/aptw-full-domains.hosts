@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-13 06:35:07
-# Entries: 517204
+# Generated: 2026-10-13 12:33:53
+# Entries: 517206
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -74507,7 +74507,6 @@
 0.0.0.0 altamira.bluestacko.ru
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
-0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanyucetas.com
 0.0.0.0 altaplateria.com
@@ -251587,6 +251586,7 @@
 0.0.0.0 ftp.trezor-wallet-trezor.net
 0.0.0.0 ftp.ulitron.ru
 0.0.0.0 ftp.vaastushreerealestate.com
+0.0.0.0 ftp.vietnam852.com
 0.0.0.0 ftp.viralchikaterbary.youdontcare.com
 0.0.0.0 ftp.weblogin.pics
 0.0.0.0 ftp.webtologin.top
@@ -375118,6 +375118,7 @@
 0.0.0.0 mx74.prueba.site
 0.0.0.0 mx7w33.shop
 0.0.0.0 mx888.vip
+0.0.0.0 mx9x.com
 0.0.0.0 mxapp46.com
 0.0.0.0 mxaps.appsempresa.ga
 0.0.0.0 mxardxisqmsl.top
@@ -401836,6 +401837,7 @@
 0.0.0.0 osmancanfearless.click
 0.0.0.0 osmantraining.com
 0.0.0.0 osmanylmz.online
+0.0.0.0 osmb.net
 0.0.0.0 osmelhordasemana.com
 0.0.0.0 osmhfirwqs.duckdns.org
 0.0.0.0 osmiumo.ru
@@ -461993,7 +461995,6 @@
 0.0.0.0 securipass-app.surge.sh
 0.0.0.0 securisurf.com
 0.0.0.0 securite.01net.com
-0.0.0.0 security-analyze.ltd
 0.0.0.0 security-app.cfd
 0.0.0.0 security-apple-id.com
 0.0.0.0 security-base-pro.daftpage.com
@@ -466491,7 +466492,6 @@
 0.0.0.0 software-phile.com
 0.0.0.0 software-updates.co
 0.0.0.0 software-wenc.co.cc
-0.0.0.0 software.security-analyze.ltd
 0.0.0.0 softwaresupportsv.com
 0.0.0.0 softwaresupportsv.name
 0.0.0.0 softwaresystemsplus.net
@@ -505699,6 +505699,7 @@
 0.0.0.0 www.osciachip.site
 0.0.0.0 www.osciynmesh.site
 0.0.0.0 www.osge.org
+0.0.0.0 www.osmb.net
 0.0.0.0 www.osn10ovad.eu.cc
 0.0.0.0 www.osn11ovat.eu.cc
 0.0.0.0 www.osn15ovaad.eu.cc
@@ -510950,6 +510951,7 @@
 0.0.0.0 www.trevxa.com
 0.0.0.0 www.trezorephuntatec.shop
 0.0.0.0 www.tribalfusion.com
+0.0.0.0 www.tribot.co.uk
 0.0.0.0 www.tributumtrade.com
 0.0.0.0 www.trickunrem.store
 0.0.0.0 www.trienstrade.com
