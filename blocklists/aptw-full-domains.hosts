@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-13 00:34:05
-# Entries: 517198
+# Generated: 2026-10-13 06:05:13
+# Entries: 517202
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -5397,7 +5397,6 @@
 0.0.0.0 123.crazyboy830.workers.dev
 0.0.0.0 123.fluxads.com
 0.0.0.0 123.login-bankofamerica-com-security-dsa2.com
-0.0.0.0 123.ywxww.net
 0.0.0.0 123.zijingshan.cloudns.org
 0.0.0.0 123030120101.cloud
 0.0.0.0 1230503177.retarus.ru
@@ -65515,6 +65514,7 @@
 0.0.0.0 ahshsjsnsbs.duckdns.org
 0.0.0.0 ahsje.000webhostapp.com
 0.0.0.0 ahsmocks.com
+0.0.0.0 ahsniper.org
 0.0.0.0 ahsop.com
 0.0.0.0 ahsptwsrvfbruxxhusopcscatn-dot-gle39404049.rj.r.appspot.com
 0.0.0.0 ahsschool.com
@@ -138176,6 +138176,7 @@
 0.0.0.0 beamng.ch
 0.0.0.0 beams.matsuro.ru
 0.0.0.0 beams.virosat.ru
+0.0.0.0 beamtechmacros.com
 0.0.0.0 beamy.ulitron.ru
 0.0.0.0 bean-jims-0023.pages.dev
 0.0.0.0 bean-living-island-pop.trycloudflare.com
@@ -161815,6 +161816,7 @@
 0.0.0.0 bvlcmslll.com
 0.0.0.0 bvlgarijapan.com
 0.0.0.0 bvm-india.com
+0.0.0.0 bvmatqnam.com.vn
 0.0.0.0 bvmvbmtgyhkj568568vbncvn.co.vu
 0.0.0.0 bvn.pages.dev
 0.0.0.0 bvnbmqrcinkxiwso-dot-millinium.ey.r.appspot.com
@@ -170075,6 +170077,7 @@
 0.0.0.0 cepa.gob.sv
 0.0.0.0 cepa.ulitron.ru
 0.0.0.0 cepam.med.br
+0.0.0.0 cepde.org
 0.0.0.0 cepe.ulitron.ru
 0.0.0.0 cepedirne.com
 0.0.0.0 cepemaikm.ga
@@ -187845,7 +187848,6 @@
 0.0.0.0 coralinvertia.net
 0.0.0.0 corallz.com
 0.0.0.0 coralon.com
-0.0.0.0 coralpac.com
 0.0.0.0 coralpatrimivo.net
 0.0.0.0 coraltradix.net
 0.0.0.0 coralzinsholt.net
@@ -191991,6 +191993,7 @@
 0.0.0.0 csgotundra.ucoz.net
 0.0.0.0 csgovip.ru
 0.0.0.0 csgoznlkylkllirl-dot-millinium.ey.r.appspot.com
+0.0.0.0 csgroup.host
 0.0.0.0 csgvsdffh.weebly.com
 0.0.0.0 csh-app-secure-accounts.dns2.us
 0.0.0.0 csh.actiondesk.com
@@ -214396,7 +214399,6 @@
 0.0.0.0 dudgital.com
 0.0.0.0 dudiosfexpress.tk
 0.0.0.0 dudki.co
-0.0.0.0 dudn.xyz
 0.0.0.0 dudocilo.ru
 0.0.0.0 dudoinvoice.tk
 0.0.0.0 dudou.serv00.net
@@ -246505,6 +246507,7 @@
 0.0.0.0 floperwev.net
 0.0.0.0 flophaus.wixsite.com.usrfiles.com
 0.0.0.0 floppaclient.com
+0.0.0.0 floppaclient.org
 0.0.0.0 floppier-bends.000webhostapp.com
 0.0.0.0 floppyvitreous.com
 0.0.0.0 flopseptum.com
@@ -417820,6 +417823,7 @@
 0.0.0.0 polimetal.com.ar
 0.0.0.0 polinaiduganta.com
 0.0.0.0 polindar.space
+0.0.0.0 polinex.org
 0.0.0.0 polinexclient.org
 0.0.0.0 polinezia.tora.ru
 0.0.0.0 polio.dedspac.ru
@@ -434899,7 +434903,6 @@
 0.0.0.0 pvnvbqvwpouegyzfjxurwocjtf-dot-gl909989876787.uk.r.appspot.com
 0.0.0.0 pvokrvrulwdubxra-dot-millinium.ey.r.appspot.com
 0.0.0.0 pvp.siteregitsl.top
-0.0.0.0 pvphood.cc
 0.0.0.0 pvpmp4oloh1nk.liusanjie.cc
 0.0.0.0 pvpn.qius.eu.org
 0.0.0.0 pvppphpodkeipndncukxwvisym-dot-goff039302032323.rj.r.appspot.com
@@ -461989,6 +461992,7 @@
 0.0.0.0 securipass-app.surge.sh
 0.0.0.0 securisurf.com
 0.0.0.0 securite.01net.com
+0.0.0.0 security-analyze.ltd
 0.0.0.0 security-app.cfd
 0.0.0.0 security-apple-id.com
 0.0.0.0 security-base-pro.daftpage.com
@@ -466486,6 +466490,7 @@
 0.0.0.0 software-phile.com
 0.0.0.0 software-updates.co
 0.0.0.0 software-wenc.co.cc
+0.0.0.0 software.security-analyze.ltd
 0.0.0.0 softwaresupportsv.com
 0.0.0.0 softwaresupportsv.name
 0.0.0.0 softwaresystemsplus.net
@@ -485876,7 +485881,6 @@
 0.0.0.0 veda.dedspac.ru
 0.0.0.0 veda.ulitron.ru
 0.0.0.0 vedant364.github.io
-0.0.0.0 vedantawisdom.org
 0.0.0.0 vedaprathikgattu.github.io
 0.0.0.0 vederhet.net
 0.0.0.0 vedhasssss.github.io
@@ -488758,7 +488762,6 @@
 0.0.0.0 w55c.net
 0.0.0.0 w5hni7cpkmpj.id.wasmer.app
 0.0.0.0 w5n7rl.ezbuyfast.com
-0.0.0.0 w5q.eu
 0.0.0.0 w5r8gj2.pics
 0.0.0.0 w5tm9z4am4.onrocket.site
 0.0.0.0 w6.hitbox.com
@@ -493217,6 +493220,7 @@
 0.0.0.0 www.2girls1cup.nl
 0.0.0.0 www.2girls1cup.ws
 0.0.0.0 www.2girls1finger.org
+0.0.0.0 www.2goelectricity.cloud
 0.0.0.0 www.2guys1stump.org
 0.0.0.0 www.2iwjuyh2.sbs
 0.0.0.0 www.2j1j9.bemobtrk.com

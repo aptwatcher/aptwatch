@@ -5390,7 +5390,6 @@
 123.crazyboy830.workers.dev
 123.fluxads.com
 123.login-bankofamerica-com-security-dsa2.com
-123.ywxww.net
 123.zijingshan.cloudns.org
 123030120101.cloud
 1230503177.retarus.ru
@@ -65508,6 +65507,7 @@ ahshsadaltun.net
 ahshsjsnsbs.duckdns.org
 ahsje.000webhostapp.com
 ahsmocks.com
+ahsniper.org
 ahsop.com
 ahsptwsrvfbruxxhusopcscatn-dot-gle39404049.rj.r.appspot.com
 ahsschool.com
@@ -138169,6 +138169,7 @@ beammarketing.eu
 beamng.ch
 beams.matsuro.ru
 beams.virosat.ru
+beamtechmacros.com
 beamy.ulitron.ru
 bean-jims-0023.pages.dev
 bean-living-island-pop.trycloudflare.com
@@ -161808,6 +161809,7 @@ bvkwfntsifzsubqg-dot-owaonk399399393.uk.r.appspot.com
 bvlcmslll.com
 bvlgarijapan.com
 bvm-india.com
+bvmatqnam.com.vn
 bvmvbmtgyhkj568568vbncvn.co.vu
 bvn.pages.dev
 bvnbmqrcinkxiwso-dot-millinium.ey.r.appspot.com
@@ -170068,6 +170070,7 @@ ceowqpeola342.ga
 cepa.gob.sv
 cepa.ulitron.ru
 cepam.med.br
+cepde.org
 cepe.ulitron.ru
 cepedirne.com
 cepemaikm.ga
@@ -187838,7 +187841,6 @@ coraliax.vercel.app
 coralinvertia.net
 corallz.com
 coralon.com
-coralpac.com
 coralpatrimivo.net
 coraltradix.net
 coralzinsholt.net
@@ -191984,6 +191986,7 @@ csgotradeoffers.uno
 csgotundra.ucoz.net
 csgovip.ru
 csgoznlkylkllirl-dot-millinium.ey.r.appspot.com
+csgroup.host
 csgvsdffh.weebly.com
 csh-app-secure-accounts.dns2.us
 csh.actiondesk.com
@@ -214389,7 +214392,6 @@ dudeswithtrucks.com
 dudgital.com
 dudiosfexpress.tk
 dudki.co
-dudn.xyz
 dudocilo.ru
 dudoinvoice.tk
 dudou.serv00.net
@@ -246498,6 +246500,7 @@ flop.ulitron.ru
 floperwev.net
 flophaus.wixsite.com.usrfiles.com
 floppaclient.com
+floppaclient.org
 floppier-bends.000webhostapp.com
 floppyvitreous.com
 flopseptum.com
@@ -417813,6 +417816,7 @@ polilgone-technology.org
 polimetal.com.ar
 polinaiduganta.com
 polindar.space
+polinex.org
 polinexclient.org
 polinezia.tora.ru
 polio.dedspac.ru
@@ -434892,7 +434896,6 @@ pvniketan.in
 pvnvbqvwpouegyzfjxurwocjtf-dot-gl909989876787.uk.r.appspot.com
 pvokrvrulwdubxra-dot-millinium.ey.r.appspot.com
 pvp.siteregitsl.top
-pvphood.cc
 pvpmp4oloh1nk.liusanjie.cc
 pvpn.qius.eu.org
 pvppphpodkeipndncukxwvisym-dot-goff039302032323.rj.r.appspot.com
@@ -461982,6 +461985,7 @@ securinginfobackground.pages.dev
 securipass-app.surge.sh
 securisurf.com
 securite.01net.com
+security-analyze.ltd
 security-app.cfd
 security-apple-id.com
 security-base-pro.daftpage.com
@@ -466479,6 +466483,7 @@ software-manage-git-main-id43651289.vercel.app
 software-phile.com
 software-updates.co
 software-wenc.co.cc
+software.security-analyze.ltd
 softwaresupportsv.com
 softwaresupportsv.name
 softwaresystemsplus.net
@@ -485869,7 +485874,6 @@ vectrabank.112.2o7.net
 veda.dedspac.ru
 veda.ulitron.ru
 vedant364.github.io
-vedantawisdom.org
 vedaprathikgattu.github.io
 vederhet.net
 vedhasssss.github.io
@@ -488751,7 +488755,6 @@ w55115.com
 w55c.net
 w5hni7cpkmpj.id.wasmer.app
 w5n7rl.ezbuyfast.com
-w5q.eu
 w5r8gj2.pics
 w5tm9z4am4.onrocket.site
 w6.hitbox.com
@@ -493210,6 +493213,7 @@ www.2girls1cup.cc
 www.2girls1cup.nl
 www.2girls1cup.ws
 www.2girls1finger.org
+www.2goelectricity.cloud
 www.2guys1stump.org
 www.2iwjuyh2.sbs
 www.2j1j9.bemobtrk.com

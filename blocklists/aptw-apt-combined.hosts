@@ -1,7 +1,7 @@
 # Title: APT Watch — APT Combined Blocklist
 # Description: All validated APT IPs + malicious domains
-# Last modified: 2026-10-13 00:34:04
-# Entries: 12968
+# Last modified: 2026-10-13 06:05:10
+# Entries: 12969
 # Homepage: https://aptwatch.org
 # License: TLP:AMBER — do not share publicly
 #
@@ -12973,6 +12973,7 @@
 0.0.0.0 support.grovecityelectrician.com
 0.0.0.0 temp.hex
 0.0.0.0 thresumebuilder.com
+0.0.0.0 tools.studerandson.com
 0.0.0.0 us-west.israel-finance.com
 0.0.0.0 us-west.oceandentalcare.com
 0.0.0.0 virtualtelemetryassistant.com
