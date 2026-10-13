@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-13 06:05:13
-# Entries: 517202
+# Generated: 2026-10-13 06:35:07
+# Entries: 517204
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52629,6 +52629,7 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
+0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -469658,6 +469659,7 @@
 0.0.0.0 stat.amaniwa.ru
 0.0.0.0 stat.aport.ru
 0.0.0.0 stat.appsgeyser.com
+0.0.0.0 stat.bestcompliance.net
 0.0.0.0 stat.blogads.com
 0.0.0.0 stat.cliche.se
 0.0.0.0 stat.clickfrog.ru
