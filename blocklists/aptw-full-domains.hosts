@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-14 12:34:09
-# Entries: 517208
+# Generated: 2026-10-14 18:34:02
+# Entries: 517209
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -168502,7 +168502,6 @@
 0.0.0.0 cdcloudeowsrv.nw.r.appspot.com
 0.0.0.0 cdconline.info
 0.0.0.0 cdd.gqj.mybluehost.me
-0.0.0.0 cdd.omsules.life
 0.0.0.0 cdd60a88b40f3bde40337a8f2a2bf35a-dot-gle9392420309493993.rj.r.appspot.com
 0.0.0.0 cdddfia.hornylocals24.com
 0.0.0.0 cddental.com.au
@@ -235846,7 +235845,6 @@
 0.0.0.0 fairpumps.site
 0.0.0.0 fairpumps.website
 0.0.0.0 fairs.royalfootprintsafaris.com
-0.0.0.0 fairsexsecutor.xyz
 0.0.0.0 fairsuretendance.net
 0.0.0.0 fairtom.azurewebsites.net
 0.0.0.0 fairtransfer-euler-e68520.netlify.app
@@ -305577,6 +305575,7 @@
 0.0.0.0 javarockingland.com
 0.0.0.0 javas.virosat.ru
 0.0.0.0 javascriptobfuscator.com
+0.0.0.0 javb.omsules.life
 0.0.0.0 javcuy1733whatsapp.forumz.info
 0.0.0.0 javdjavxdwa.s13usa.org
 0.0.0.0 javed-tech-creator.github.io
@@ -381579,6 +381578,7 @@
 0.0.0.0 nebu-lis.web.app
 0.0.0.0 nebuh.cn
 0.0.0.0 nebula-cdn.kampyle.com
+0.0.0.0 nebula-client.com
 0.0.0.0 nebula-cyber-vision.glitch.me
 0.0.0.0 nebula-deluxe-cosmos.glitch.me
 0.0.0.0 nebula-glow-thunder.glitch.me
@@ -467199,6 +467199,7 @@
 0.0.0.0 spaces.ero-advertising.com
 0.0.0.0 spaces.slimspots.com
 0.0.0.0 spacesolved.aayom.com
+0.0.0.0 spaceware.cc
 0.0.0.0 spacexlaunch.pages.dev
 0.0.0.0 spacmn0.weebly.com
 0.0.0.0 spacs.cooshaira.email
