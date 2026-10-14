@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-13 18:34:07
-# Entries: 517203
+# Generated: 2026-10-14 00:33:30
+# Entries: 517201
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -24951,7 +24951,6 @@
 0.0.0.0 4k-magazineluiza.servehttp.com
 0.0.0.0 4k-magazineluiza.serveirc.com
 0.0.0.0 4k-magazineluiza.zapto.org
-0.0.0.0 4k4iard.tupek.store
 0.0.0.0 4k6i9sun.we9ixzz.co
 0.0.0.0 4ka-login.crabdance.com
 0.0.0.0 4kbikinis.highdefmovies.com
@@ -44123,6 +44122,7 @@
 0.0.0.0 aafcu3.firebaseapp.com
 0.0.0.0 aafcu3.web.app
 0.0.0.0 aafdsrtrgd.weebly.com
+0.0.0.0 aafesorder.com
 0.0.0.0 aaffttaple.com
 0.0.0.0 aafinc.com
 0.0.0.0 aaflaw.com
@@ -104792,7 +104792,6 @@
 0.0.0.0 athur518rokyttdbmm0820.top
 0.0.0.0 athur518rukstbkokp22.top
 0.0.0.0 athur518rwkrtdtvxp0820.top
-0.0.0.0 athuselevadores.com.br
 0.0.0.0 athvan2611.github.io
 0.0.0.0 athwartwhoafat.com
 0.0.0.0 athyrid.bluestacko.ru
@@ -138176,6 +138175,7 @@
 0.0.0.0 beamng.ch
 0.0.0.0 beams.matsuro.ru
 0.0.0.0 beams.virosat.ru
+0.0.0.0 beamtechmacros.com
 0.0.0.0 beamy.ulitron.ru
 0.0.0.0 bean-jims-0023.pages.dev
 0.0.0.0 bean-living-island-pop.trycloudflare.com
@@ -140484,6 +140484,7 @@
 0.0.0.0 benzin.dedspac.ru
 0.0.0.0 benzin.matsuro.ru
 0.0.0.0 benzin.virosat.ru
+0.0.0.0 benzinclick.live
 0.0.0.0 benzkartel.duckdns.org
 0.0.0.0 benzo.virosat.ru
 0.0.0.0 benzodiazepinecrisis.com
@@ -147415,7 +147416,6 @@
 0.0.0.0 blaykeinteriors.com.au
 0.0.0.0 blazberg.cz
 0.0.0.0 blazberg.cz.dax.lv
-0.0.0.0 blaze-x.com
 0.0.0.0 blaze.bortogat.ru
 0.0.0.0 blaze.ulitron.ru
 0.0.0.0 blaze.virosat.ru
@@ -173438,6 +173438,7 @@
 0.0.0.0 chemikatz.com
 0.0.0.0 chemilube.com
 0.0.0.0 chemin.virosat.ru
+0.0.0.0 cheminees-philippe45.com
 0.0.0.0 cheminfundriasoftware.shop
 0.0.0.0 chemios.ml
 0.0.0.0 chemistry.lynsdien.com
@@ -191993,6 +191994,7 @@
 0.0.0.0 csgotundra.ucoz.net
 0.0.0.0 csgovip.ru
 0.0.0.0 csgoznlkylkllirl-dot-millinium.ey.r.appspot.com
+0.0.0.0 csgroup.host
 0.0.0.0 csgvsdffh.weebly.com
 0.0.0.0 csh-app-secure-accounts.dns2.us
 0.0.0.0 csh.actiondesk.com
@@ -204905,6 +204907,7 @@
 0.0.0.0 devruntime.cy
 0.0.0.0 devs.data.mob.com
 0.0.0.0 devs.dedspac.ru
+0.0.0.0 devs.kantales.life
 0.0.0.0 devs.ulitron.ru
 0.0.0.0 devscr.com
 0.0.0.0 devsglacier.com
@@ -211609,7 +211612,6 @@
 0.0.0.0 donut.dedspac.ru
 0.0.0.0 donutclients.st
 0.0.0.0 donutdupe.com
-0.0.0.0 donutdupe.skyblock-qol.com
 0.0.0.0 donutecocolate.com
 0.0.0.0 donutsmpclient.com
 0.0.0.0 donval.112.2o7.net
@@ -240893,7 +240895,6 @@
 0.0.0.0 feecause.za.com
 0.0.0.0 feecfe.milotrad.ru
 0.0.0.0 feed--supportingmedia.com
-0.0.0.0 feed-delta.com
 0.0.0.0 feed-supportsmediia.com
 0.0.0.0 feed.4wnet.com
 0.0.0.0 feed.amaniwa.ru
@@ -243436,7 +243437,6 @@
 0.0.0.0 fiksu.com
 0.0.0.0 fil-luge.com
 0.0.0.0 fil-records.tiiny.site
-0.0.0.0 fil.immortales.life
 0.0.0.0 fila.ulitron.ru
 0.0.0.0 filago.timanar.ru
 0.0.0.0 filagusta.com
@@ -248455,7 +248455,6 @@
 0.0.0.0 fotopegaz.pl
 0.0.0.0 fotoporcelanapanama.com
 0.0.0.0 fotoproductinsta.com
-0.0.0.0 fotoschop.cl
 0.0.0.0 fotoschuppen.net
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 fotosface.info
@@ -292909,7 +292908,6 @@
 0.0.0.0 immorally.bortogat.ru
 0.0.0.0 immorally.sikolar.ru
 0.0.0.0 immortal.rs
-0.0.0.0 immortales.fun
 0.0.0.0 immortally.bortogat.ru
 0.0.0.0 immortalnight.com
 0.0.0.0 immortalpos.co.za
@@ -298843,6 +298841,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -396193,7 +396192,6 @@
 0.0.0.0 oldie.ulitron.ru
 0.0.0.0 oldilaf.ind.br
 0.0.0.0 oldinlet.com
-0.0.0.0 oldisgoldgameis.com
 0.0.0.0 oldkika6.vercel.app
 0.0.0.0 oldkoch.agentur-picasso.de
 0.0.0.0 oldnavycu.org
@@ -398921,7 +398919,6 @@
 0.0.0.0 onlne-invtebowl.myvnc.com
 0.0.0.0 onlnebsvruaidtmrkezitr.com.tr
 0.0.0.0 onlnenfcc2.temp.swtest.ru
-0.0.0.0 onlocity.com
 0.0.0.0 onloneuaol.temp.swtest.ru
 0.0.0.0 onlrjyyqxkwcffrw-dot-millinium.ey.r.appspot.com
 0.0.0.0 onlwshop.eu
@@ -401400,7 +401397,6 @@
 0.0.0.0 origin-tr.com
 0.0.0.0 origin-tracking.trulia.com
 0.0.0.0 origin.chron.com
-0.0.0.0 origin.nemoclawcloud.com
 0.0.0.0 origin.optimost.io
 0.0.0.0 origin.ott-staging.co.uk
 0.0.0.0 origin.transformtariff.co.uk
@@ -417823,6 +417819,7 @@
 0.0.0.0 polimetal.com.ar
 0.0.0.0 polinaiduganta.com
 0.0.0.0 polindar.space
+0.0.0.0 polinex.org
 0.0.0.0 polinexclient.org
 0.0.0.0 polinezia.tora.ru
 0.0.0.0 polio.dedspac.ru
@@ -421251,6 +421248,7 @@
 0.0.0.0 powerprofittech.com
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
+0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -461991,6 +461989,7 @@
 0.0.0.0 securipass-app.surge.sh
 0.0.0.0 securisurf.com
 0.0.0.0 securite.01net.com
+0.0.0.0 security-analyze.ltd
 0.0.0.0 security-app.cfd
 0.0.0.0 security-apple-id.com
 0.0.0.0 security-base-pro.daftpage.com
@@ -462377,6 +462376,7 @@
 0.0.0.0 sendhtml.net
 0.0.0.0 sendingurl.com
 0.0.0.0 sendingurl.net
+0.0.0.0 sendit.sh
 0.0.0.0 sendmail.website
 0.0.0.0 sendmepixel.com
 0.0.0.0 sendmessage.mooo.com
@@ -466489,6 +466489,7 @@
 0.0.0.0 software-phile.com
 0.0.0.0 software-updates.co
 0.0.0.0 software-wenc.co.cc
+0.0.0.0 software.security-analyze.ltd
 0.0.0.0 softwaresupportsv.com
 0.0.0.0 softwaresupportsv.name
 0.0.0.0 softwaresystemsplus.net
@@ -466690,7 +466691,6 @@
 0.0.0.0 soma.ulitron.ru
 0.0.0.0 somas.dedspac.ru
 0.0.0.0 somascom.com
-0.0.0.0 somautomotivorj.com.br
 0.0.0.0 sombersea.com
 0.0.0.0 sombersquirrel.com
 0.0.0.0 sombersurprise.com
@@ -469657,6 +469657,7 @@
 0.0.0.0 stat.amaniwa.ru
 0.0.0.0 stat.aport.ru
 0.0.0.0 stat.appsgeyser.com
+0.0.0.0 stat.bestcompliance.net
 0.0.0.0 stat.blogads.com
 0.0.0.0 stat.cliche.se
 0.0.0.0 stat.clickfrog.ru
@@ -474550,7 +474551,6 @@
 0.0.0.0 tauflot.ru
 0.0.0.0 taula.dedspac.ru
 0.0.0.0 taun.dedspac.ru
-0.0.0.0 taunahi.skyblock-qol.com
 0.0.0.0 taunahi.st
 0.0.0.0 taunt.virosat.ru
 0.0.0.0 tauon.virosat.ru
@@ -488062,7 +488062,6 @@
 0.0.0.0 void-hub-9oo.pages.dev
 0.0.0.0 void.dedspac.ru
 0.0.0.0 void.ulitron.ru
-0.0.0.0 voidgame.ink
 0.0.0.0 voids.virosat.ru
 0.0.0.0 voijreuhw.duckdns.org
 0.0.0.0 voil-le-travail.fr
@@ -491387,7 +491386,6 @@
 0.0.0.0 whiskeywealthclub.com
 0.0.0.0 whiskyqueue.com
 0.0.0.0 whiskyswiat.shop
-0.0.0.0 whisone.cc
 0.0.0.0 whisp.dedspac.ru
 0.0.0.0 whispering-table-fast.on-fleek.app
 0.0.0.0 whisperingcascade.com
@@ -491683,6 +491681,7 @@
 0.0.0.0 willkommenzumdownloaddropboxpdf.weebly.com
 0.0.0.0 willmar-dental.us-iad-10.linodeobjects.com
 0.0.0.0 willmatrix.com
+0.0.0.0 willow-13.com
 0.0.0.0 willowivyoak.com
 0.0.0.0 willowy-puppy-372220.netlify.app
 0.0.0.0 willowy-tartufo-ba5660.netlify.app
@@ -492632,7 +492631,6 @@
 0.0.0.0 wscyuotore.top
 0.0.0.0 wscywoto.sbs
 0.0.0.0 wscyyoto.icu
-0.0.0.0 wsd.immortales.fun
 0.0.0.0 wsdefrrdew.blogspot.com
 0.0.0.0 wsdefrrdew.blogspot.tw
 0.0.0.0 wsdk-files.webengage.com
