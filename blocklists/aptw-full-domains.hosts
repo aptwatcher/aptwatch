@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-14 00:33:30
-# Entries: 517201
+# Generated: 2026-10-14 06:05:48
+# Entries: 517205
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -33583,6 +33583,7 @@
 0.0.0.0 6server.com
 0.0.0.0 6sgts7fgxkbh2oqdlzcqf2l.liusanjie.cc
 0.0.0.0 6sibd.ktt55.my.id
+0.0.0.0 6sim.vip
 0.0.0.0 6sjqd.hp.peraichi.com
 0.0.0.0 6sjx6vz6uaznkb.qwo231sdx.club
 0.0.0.0 6sk5s.school
@@ -170076,7 +170077,6 @@
 0.0.0.0 cepa.gob.sv
 0.0.0.0 cepa.ulitron.ru
 0.0.0.0 cepam.med.br
-0.0.0.0 cepde.org
 0.0.0.0 cepe.ulitron.ru
 0.0.0.0 cepedirne.com
 0.0.0.0 cepemaikm.ga
@@ -171523,6 +171523,7 @@
 0.0.0.0 chantalb.creer.ai
 0.0.0.0 chantale.e-monsite.com
 0.0.0.0 chantavedissian.com
+0.0.0.0 chantcompass9.com
 0.0.0.0 chanthiran.com
 0.0.0.0 chantikachika.duckdns.org
 0.0.0.0 chantonesx-lasvivis.vercel.app
@@ -197237,6 +197238,7 @@
 0.0.0.0 dascoin.com
 0.0.0.0 dascoin.prowly.com
 0.0.0.0 dascombyt.xyz
+0.0.0.0 dasdase13.icu
 0.0.0.0 dasdasnba.click
 0.0.0.0 dasder.doinscale.com
 0.0.0.0 dase.massimocaravita.com
@@ -257811,6 +257813,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -262243,6 +262246,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 gobli.world
@@ -421248,7 +421252,6 @@
 0.0.0.0 powerprofittech.com
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
-0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -506917,6 +506920,7 @@
 0.0.0.0 www.portlanfleathergoods.com
 0.0.0.0 www.portrei12.shop
 0.0.0.0 www.portutopcas.com
+0.0.0.0 www.porvootransitioncare.com
 0.0.0.0 www.pos24pl.eu.cc
 0.0.0.0 www.posatacqui.store
 0.0.0.0 www.posciel24.com
