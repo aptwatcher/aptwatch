@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-14 06:34:42
-# Entries: 517205
+# Generated: 2026-10-14 12:34:09
+# Entries: 517208
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -168502,6 +168502,7 @@
 0.0.0.0 cdcloudeowsrv.nw.r.appspot.com
 0.0.0.0 cdconline.info
 0.0.0.0 cdd.gqj.mybluehost.me
+0.0.0.0 cdd.omsules.life
 0.0.0.0 cdd60a88b40f3bde40337a8f2a2bf35a-dot-gle9392420309493993.rj.r.appspot.com
 0.0.0.0 cdddfia.hornylocals24.com
 0.0.0.0 cddental.com.au
@@ -170077,6 +170078,7 @@
 0.0.0.0 cepa.gob.sv
 0.0.0.0 cepa.ulitron.ru
 0.0.0.0 cepam.med.br
+0.0.0.0 cepde.org
 0.0.0.0 cepe.ulitron.ru
 0.0.0.0 cepedirne.com
 0.0.0.0 cepemaikm.ga
@@ -197238,7 +197240,6 @@
 0.0.0.0 dascoin.com
 0.0.0.0 dascoin.prowly.com
 0.0.0.0 dascombyt.xyz
-0.0.0.0 dasdase13.icu
 0.0.0.0 dasdasnba.click
 0.0.0.0 dasder.doinscale.com
 0.0.0.0 dase.massimocaravita.com
@@ -229890,6 +229891,7 @@
 0.0.0.0 explorepro.org
 0.0.0.0 explorer.btgofficial.org
 0.0.0.0 explorer.production.qldvvmc.com.au
+0.0.0.0 explorer.vg
 0.0.0.0 explorersholidays.com
 0.0.0.0 explorertechnembe.cu.ma
 0.0.0.0 explorethenationnowbb.pages.dev
@@ -235844,6 +235846,7 @@
 0.0.0.0 fairpumps.site
 0.0.0.0 fairpumps.website
 0.0.0.0 fairs.royalfootprintsafaris.com
+0.0.0.0 fairsexsecutor.xyz
 0.0.0.0 fairsuretendance.net
 0.0.0.0 fairtom.azurewebsites.net
 0.0.0.0 fairtransfer-euler-e68520.netlify.app
@@ -259143,6 +259146,7 @@
 0.0.0.0 ghorerkoros.com
 0.0.0.0 ghoshdivyanshu.github.io
 0.0.0.0 ghost-hunter742.github.io
+0.0.0.0 ghost-new-live.ink
 0.0.0.0 ghost.virosat.ru
 0.0.0.0 ghostclown.000webhostapp.com
 0.0.0.0 ghostcrtv.com
@@ -262246,7 +262250,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 gobli.world
@@ -350293,7 +350296,6 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
-0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarria5daleeeee.000webhostapp.com
@@ -498960,6 +498962,7 @@
 0.0.0.0 www.elite-market-ai.com
 0.0.0.0 www.elite-marketai.com
 0.0.0.0 www.elite-marketai.org
+0.0.0.0 www.elitecheatsx.live
 0.0.0.0 www.eliteconcepts.com
 0.0.0.0 www.elitegadgetinsider.com
 0.0.0.0 www.elitegoldfx.net
@@ -499301,7 +499304,6 @@
 0.0.0.0 www.eyelinerinterclvvuster.info
 0.0.0.0 www.eyes.by
 0.0.0.0 www.eyewonder.com
-0.0.0.0 www.eyqw474.com
 0.0.0.0 www.ez-mailer.com
 0.0.0.0 www.ezeb.saldi-scholl.shop
 0.0.0.0 www.ezebra.dailysaver.co
@@ -515491,6 +515493,7 @@
 0.0.0.0 yildun.iad-03.braze.com
 0.0.0.0 yill.dedspac.ru
 0.0.0.0 yilt.ulitron.ru
+0.0.0.0 yimmenu.live
 0.0.0.0 yin.ulitron.ru
 0.0.0.0 ying-th.github.io
 0.0.0.0 ying.hitbox.com
