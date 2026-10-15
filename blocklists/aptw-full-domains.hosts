@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-15 06:35:12
-# Entries: 518246
+# Generated: 2026-10-15 12:33:37
+# Entries: 518248
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52619,7 +52619,6 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
-0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -258006,6 +258005,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -283988,7 +283988,6 @@
 0.0.0.0 hornetso.ru
 0.0.0.0 hornhost.xyz
 0.0.0.0 hornitosdellayllay.cl
-0.0.0.0 horno-rafelet.es
 0.0.0.0 horns.virosat.ru
 0.0.0.0 hornusycia.com.ar.ca6.toservers.com
 0.0.0.0 horny.ulitron.ru
@@ -372495,6 +372494,7 @@
 0.0.0.0 mrstiffanyip.com
 0.0.0.0 mrstuzzichini.com.au
 0.0.0.0 mrsumii.github.io
+0.0.0.0 mrsweaterltd.com
 0.0.0.0 mrt-dvstpp.twswst.top
 0.0.0.0 mrt-soft.net
 0.0.0.0 mrt.org
@@ -384818,6 +384818,7 @@
 0.0.0.0 new.newitventure.com
 0.0.0.0 new.nlbreview.nz.llkhk.abrdns.com
 0.0.0.0 new.oldpeterrteam.world
+0.0.0.0 new.omsules.life
 0.0.0.0 new.page.sacramento.gq
 0.0.0.0 new.prize.asia
 0.0.0.0 new.r-private.net
@@ -406270,7 +406271,6 @@
 0.0.0.0 palet.dedspac.ru
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
-0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palingviralsxx.duckdns.org
 0.0.0.0 paliodasti.com.usrfiles.com
@@ -490346,6 +490346,7 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webcustomdesign.store
 0.0.0.0 webdata.vidz.com
@@ -514625,6 +514626,7 @@
 0.0.0.0 www.zhalikerdurtrx.net
 0.0.0.0 www.zhbirfa.shop
 0.0.0.0 www.zhibruntur.org
+0.0.0.0 www.zhikey.com
 0.0.0.0 www.zhokvarit-digital.pages.dev
 0.0.0.0 www.zhondamuloai.nl
 0.0.0.0 www.zhondaruve.shop
