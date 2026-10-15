@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-14 18:34:02
+# Generated: 2026-10-15 00:33:35
 # Entries: 517209
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -31820,7 +31820,6 @@
 0.0.0.0 654x5-yaaaa-aaaad-qc2pq-cai.raw.ic0.app
 0.0.0.0 655007265.retarus.ru
 0.0.0.0 655023360.tutarama.ru
-0.0.0.0 65512.cfd
 0.0.0.0 655130394.retarus.ru
 0.0.0.0 6551641545744.hyperphp.com
 0.0.0.0 6551794246-prawnicy.storage.googleapis.com
@@ -53348,7 +53347,6 @@
 0.0.0.0 activefootspa.com
 0.0.0.0 activegirlstoys.com
 0.0.0.0 activegreeting.icu
-0.0.0.0 activegrp.co.za
 0.0.0.0 activeh2.tokyo
 0.0.0.0 activehtmail.hstn.me
 0.0.0.0 activeideas.net
@@ -115391,6 +115389,7 @@
 0.0.0.0 audiblesobs.com
 0.0.0.0 audicat.net
 0.0.0.0 audicomsrl.com
+0.0.0.0 audicontadores.com
 0.0.0.0 audid-api.taobao.com
 0.0.0.0 audience-crouch.dvrlists.com
 0.0.0.0 audience-local-ads-main-418507293.vercel.app
@@ -162370,7 +162369,6 @@
 0.0.0.0 bzzgcwnfioxwzqgw-dot-millinium.ey.r.appspot.com
 0.0.0.0 bzzwyegltp.duckdns.org
 0.0.0.0 bzzxzzzzzzzxczzzzzz.000webhostapp.com
-0.0.0.0 c--617b5f35-a107-4800-9047-a429934c0483-prod.lovable.cloud
 0.0.0.0 c--secured.duckdns.org
 0.0.0.0 c-123milhas.shop
 0.0.0.0 c-agricole-a36ba3.ingress-daribow.easywp.com
@@ -168464,6 +168462,7 @@
 0.0.0.0 cda-zalukaj.prv.pl
 0.0.0.0 cda-zalukaj.refy.pl
 0.0.0.0 cda-zobacz.pl
+0.0.0.0 cda.omsules.life
 0.0.0.0 cda360.pl
 0.0.0.0 cdaarchitects.in
 0.0.0.0 cdaemail.com
@@ -168502,6 +168501,7 @@
 0.0.0.0 cdcloudeowsrv.nw.r.appspot.com
 0.0.0.0 cdconline.info
 0.0.0.0 cdd.gqj.mybluehost.me
+0.0.0.0 cdd.omsules.life
 0.0.0.0 cdd60a88b40f3bde40337a8f2a2bf35a-dot-gle9392420309493993.rj.r.appspot.com
 0.0.0.0 cdddfia.hornylocals24.com
 0.0.0.0 cddental.com.au
@@ -168511,6 +168511,7 @@
 0.0.0.0 cddsolution.com
 0.0.0.0 cddsr.monster
 0.0.0.0 cddwcjcifa.duckdns.org
+0.0.0.0 cde.omsules.life
 0.0.0.0 cde3647b649b682bab9dc90793cd041b-dot-gle9392420309493993.rj.r.appspot.com
 0.0.0.0 cdebdbb82115fdf32ed706ea0805c482db.pages.dev
 0.0.0.0 cdec4fe6-c6c0-4d9f-9e2b-55979012c8e1.id.repl.co
@@ -180138,7 +180139,6 @@
 0.0.0.0 cocovip.net
 0.0.0.0 cocrehab.com
 0.0.0.0 coctilshaker.com
-0.0.0.0 cocuktekstil.com
 0.0.0.0 cocuyo.dedspac.ru
 0.0.0.0 cod.bortogat.ru
 0.0.0.0 cod.dedspac.ru
@@ -188397,6 +188397,7 @@
 0.0.0.0 cosmic-cannoli-6804ab.netlify.app
 0.0.0.0 cosmic-lokum-f095ac.netlify.app
 0.0.0.0 cosmic-meteor-condition.glitch.me
+0.0.0.0 cosmical2049.com
 0.0.0.0 cosmicclash9.com
 0.0.0.0 cosmicenergy.in
 0.0.0.0 cosmicmediausa.com
@@ -197239,6 +197240,7 @@
 0.0.0.0 dascoin.com
 0.0.0.0 dascoin.prowly.com
 0.0.0.0 dascombyt.xyz
+0.0.0.0 dasdase13.icu
 0.0.0.0 dasdasnba.click
 0.0.0.0 dasder.doinscale.com
 0.0.0.0 dase.massimocaravita.com
@@ -229890,7 +229892,6 @@
 0.0.0.0 explorepro.org
 0.0.0.0 explorer.btgofficial.org
 0.0.0.0 explorer.production.qldvvmc.com.au
-0.0.0.0 explorer.vg
 0.0.0.0 explorersholidays.com
 0.0.0.0 explorertechnembe.cu.ma
 0.0.0.0 explorethenationnowbb.pages.dev
@@ -235845,6 +235846,7 @@
 0.0.0.0 fairpumps.site
 0.0.0.0 fairpumps.website
 0.0.0.0 fairs.royalfootprintsafaris.com
+0.0.0.0 fairsexsecutor.xyz
 0.0.0.0 fairsuretendance.net
 0.0.0.0 fairtom.azurewebsites.net
 0.0.0.0 fairtransfer-euler-e68520.netlify.app
@@ -247890,6 +247892,7 @@
 0.0.0.0 forge-capmoor.cyou
 0.0.0.0 forge-capmoor.sbs
 0.0.0.0 forge-nior-client.surge.sh
+0.0.0.0 forge-ridge.com
 0.0.0.0 forge.ulitron.ru
 0.0.0.0 forge.virosat.ru
 0.0.0.0 forgebyte.ai
@@ -299776,7 +299779,6 @@
 0.0.0.0 internetinisdarbas.lt
 0.0.0.0 internetissue.autos
 0.0.0.0 internetlint.info
-0.0.0.0 internetlouisiana.com
 0.0.0.0 internetmillionaires.com
 0.0.0.0 internetmoskva.ru
 0.0.0.0 internetnc2-router-app.onlinewebshop.net
@@ -305563,6 +305565,7 @@
 0.0.0.0 jav.ee
 0.0.0.0 jav.jave.xyz
 0.0.0.0 java-accelerator.kong.uk.datahubnow.com
+0.0.0.0 java.omsules.life
 0.0.0.0 java.ulitron.ru
 0.0.0.0 javacenter.pl
 0.0.0.0 javadi.com.au
@@ -350295,6 +350298,7 @@
 0.0.0.0 mandapsoflondon.co.uk
 0.0.0.0 mandar123454.github.io
 0.0.0.0 mandarin.lasalsamilonga.info
+0.0.0.0 mandarin.net.au
 0.0.0.0 mandarin20828374.brizy.site
 0.0.0.0 mandarin6946768.brizy.site
 0.0.0.0 mandarria5daleeeee.000webhostapp.com
@@ -398925,6 +398929,7 @@
 0.0.0.0 onlne-invtebowl.myvnc.com
 0.0.0.0 onlnebsvruaidtmrkezitr.com.tr
 0.0.0.0 onlnenfcc2.temp.swtest.ru
+0.0.0.0 onlocity.com
 0.0.0.0 onloneuaol.temp.swtest.ru
 0.0.0.0 onlrjyyqxkwcffrw-dot-millinium.ey.r.appspot.com
 0.0.0.0 onlwshop.eu
@@ -453360,7 +453365,6 @@
 0.0.0.0 rs6.net
 0.0.0.0 rs6129.craftum.io
 0.0.0.0 rs6nj7n494.tik58777.com
-0.0.0.0 rs74ed.s.gy
 0.0.0.0 rsa.pub
 0.0.0.0 rsabz.ir
 0.0.0.0 rsaindia.in
@@ -454912,6 +454916,7 @@
 0.0.0.0 rxappsx.hvyaaos.presse.ci
 0.0.0.0 rxaxckbfbb.duckdns.org
 0.0.0.0 rxazag.inyourtravelingshoes.com
+0.0.0.0 rxb.immortales.fun
 0.0.0.0 rxcmpd.com
 0.0.0.0 rxcovid.com
 0.0.0.0 rxcxsolution.pages.dev
@@ -455574,7 +455579,6 @@
 0.0.0.0 s1plumbing.com
 0.0.0.0 s1qak7ijdlbh.munty.co
 0.0.0.0 s1staffing.com
-0.0.0.0 s1w21.comen.store
 0.0.0.0 s2-citi.com
 0.0.0.0 s2.adform.net
 0.0.0.0 s2.bl-1.com
@@ -462080,7 +462084,6 @@
 0.0.0.0 sedoparking.com
 0.0.0.0 sedosexu.wixsite.com
 0.0.0.0 sedotracker.com
-0.0.0.0 sedrezltd.best
 0.0.0.0 seductivegirls.cyou
 0.0.0.0 sedulousnessescolueembary.info
 0.0.0.0 sedyes.com
@@ -465170,7 +465173,6 @@
 0.0.0.0 skymailsurport.weebly.com
 0.0.0.0 skymiro.ru
 0.0.0.0 skymoney.net
-0.0.0.0 skynetwork.lat
 0.0.0.0 skype-online0345.web.app
 0.0.0.0 skype.dw.land.to
 0.0.0.0 skype.elitoras.ru
@@ -466696,6 +466698,7 @@
 0.0.0.0 soma.ulitron.ru
 0.0.0.0 somas.dedspac.ru
 0.0.0.0 somascom.com
+0.0.0.0 somautomotivorj.com.br
 0.0.0.0 sombersea.com
 0.0.0.0 sombersquirrel.com
 0.0.0.0 sombersurprise.com
@@ -471864,7 +471867,6 @@
 0.0.0.0 summitalarm.com
 0.0.0.0 summitbusinessmedia.112.2o7.net
 0.0.0.0 summitcapitalpatners.info
-0.0.0.0 summitcapitalpatners.ink
 0.0.0.0 summitluxuria.net
 0.0.0.0 summitsicredidegovernanca.com.br
 0.0.0.0 summittrailsupply.net
@@ -476722,7 +476724,6 @@
 0.0.0.0 threatdetect.org
 0.0.0.0 three-yummy-voyage.glitch.me
 0.0.0.0 three.dedspac.ru
-0.0.0.0 threejrev.com
 0.0.0.0 threestarcrm.com
 0.0.0.0 threw.dedspac.ru
 0.0.0.0 thrice.amaniwa.ru
@@ -477588,7 +477589,6 @@
 0.0.0.0 tmp.adflex.vn
 0.0.0.0 tmpoverapprehensively.vercel.app
 0.0.0.0 tmprotectprotect.com
-0.0.0.0 tms.hazentransferllc.com
 0.0.0.0 tmscdn.coremetrics.com
 0.0.0.0 tmserver-1.com
 0.0.0.0 tmslexus.112.2o7.net
@@ -481303,7 +481303,6 @@
 0.0.0.0 tweetdeck.fr
 0.0.0.0 tweets.timanar.ru
 0.0.0.0 tweetsoup.us.intellitxt.com
-0.0.0.0 twejamaica.org
 0.0.0.0 twelvedawn.com
 0.0.0.0 twerp.dedspac.ru
 0.0.0.0 twglobeshopping3.top
@@ -482760,6 +482759,7 @@
 0.0.0.0 up.amaniwa.ru
 0.0.0.0 up.maschinen.ba
 0.0.0.0 up.nytimes.com
+0.0.0.0 up.sb
 0.0.0.0 upadhyayabhi9173.github.io
 0.0.0.0 upaicdn.xinmei365.com
 0.0.0.0 upalytics.com
@@ -485862,6 +485862,7 @@
 0.0.0.0 vdocs.sasktel.mmspos.com
 0.0.0.0 vdopia.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
+0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 ve1.claker.top
 0.0.0.0 ve1.techgeetam.com
@@ -488914,7 +488915,6 @@
 0.0.0.0 walks.virosat.ru
 0.0.0.0 walkthedinosaur.com
 0.0.0.0 wall.adgaterewards.com
-0.0.0.0 wall.casajuanchos.com
 0.0.0.0 wallattrezura.webflow.io
 0.0.0.0 wallcon.token-ddns.sbs
 0.0.0.0 wallcutexobdusus.godaddysites.com
