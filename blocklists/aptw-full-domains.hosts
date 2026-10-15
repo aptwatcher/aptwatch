@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-15 12:33:37
-# Entries: 518248
+# Generated: 2026-10-15 18:33:59
+# Entries: 518269
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -138022,7 +138022,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.shop
@@ -144117,6 +144116,7 @@
 0.0.0.0 bigreal.org
 0.0.0.0 bigrecess.com
 0.0.0.0 bigrigrvadventures.com
+0.0.0.0 bigs.bikershop.biz
 0.0.0.0 bigs.bortogat.ru
 0.0.0.0 bigs.dedspac.ru
 0.0.0.0 bigs.ulitron.ru
@@ -162297,6 +162297,7 @@
 0.0.0.0 c-chase-xm.duckdns.org
 0.0.0.0 c-e-f-validardispo.cf
 0.0.0.0 c-eus.w.inmobi.com
+0.0.0.0 c-f-u.com
 0.0.0.0 c-h-a-s-e-customer-secure07be1-info-vrfy-updt.000webhostapp.com
 0.0.0.0 c-hear.co.uk
 0.0.0.0 c-ibc01.com
@@ -169440,6 +169441,7 @@
 0.0.0.0 cedges.com
 0.0.0.0 cediarmailin.000webhostapp.com
 0.0.0.0 cedifarma.com
+0.0.0.0 cedih.com
 0.0.0.0 ceding.dedspac.ru
 0.0.0.0 cedis.ulitron.ru
 0.0.0.0 cedis.virosat.ru
@@ -184312,6 +184314,7 @@
 0.0.0.0 communication-act.ddns.net
 0.0.0.0 communication-diary-thwart.vercel.app
 0.0.0.0 communication-ergo-additional-their.vercel.app
+0.0.0.0 communication-hub.vg
 0.0.0.0 communication-journal-stop.vercel.app
 0.0.0.0 communication-register-check.vercel.app
 0.0.0.0 communicationcenrale-ba5b01.ingress-daribow.ewp.live
@@ -194692,6 +194695,7 @@
 0.0.0.0 d-getweb.dnsme.eu.org
 0.0.0.0 d-groov.com
 0.0.0.0 d-invisible.github.io
+0.0.0.0 d-j-d.com
 0.0.0.0 d-jackets.net
 0.0.0.0 d-kb-ssl-800232.login-de.info
 0.0.0.0 d-koresolar.com
@@ -199417,6 +199421,7 @@
 0.0.0.0 debug.virosat.ru
 0.0.0.0 debug1.rohrle-com.workers.dev
 0.0.0.0 debugchain.pages.dev
+0.0.0.0 debugify.net
 0.0.0.0 debugsyncs.pages.dev
 0.0.0.0 debugticket.vercel.app
 0.0.0.0 debugxchain.pages.dev
@@ -217173,6 +217178,7 @@
 0.0.0.0 easycommerce.plus
 0.0.0.0 easyconnectionwallet.com
 0.0.0.0 easycontainer.co.th
+0.0.0.0 easycryptos.org
 0.0.0.0 easydappsfix.com
 0.0.0.0 easydec.iinkedin.li
 0.0.0.0 easydosensenken.de
@@ -224682,6 +224688,7 @@
 0.0.0.0 epic-wescoff-ced422.netlify.app
 0.0.0.0 epic-williams-ce412e.netlify.app
 0.0.0.0 epic.bortogat.ru
+0.0.0.0 epic.edu.gt
 0.0.0.0 epic.ulitron.ru
 0.0.0.0 epic500maxalttrade.com
 0.0.0.0 epically.sikolar.ru
@@ -236364,6 +236371,7 @@
 0.0.0.0 family76.perfect.saturapa.ru
 0.0.0.0 family87.masshir.ru
 0.0.0.0 familyabroad.net
+0.0.0.0 familyaddons.com
 0.0.0.0 familyfamily.co
 0.0.0.0 familyfirstfinancial.top
 0.0.0.0 familyfirstkentucky.com
@@ -257589,6 +257597,7 @@
 0.0.0.0 geny83h92.atwebpages.com
 0.0.0.0 genys.dedspac.ru
 0.0.0.0 genys.virosat.ru
+0.0.0.0 geo-foundation.vg
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 geo.adobe.com
@@ -279630,6 +279639,7 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
+0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -285925,7 +285935,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -299036,6 +299045,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -321988,6 +321998,7 @@
 0.0.0.0 kryptocom-logon.gitbook.io
 0.0.0.0 kryptoconnect-support.com
 0.0.0.0 kryptomoney.000webhostapp.com
+0.0.0.0 kryptonclient-cracked.com
 0.0.0.0 kryptonmedia.click
 0.0.0.0 kryptono.exchange
 0.0.0.0 kryptonos.ru
@@ -340302,6 +340313,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -350156,6 +350168,7 @@
 0.0.0.0 mama.pipi.ne.jp
 0.0.0.0 mama.ulitron.ru
 0.0.0.0 mamaandmimi.com
+0.0.0.0 mamabearcoffee.com
 0.0.0.0 mamabearhikes.com.au
 0.0.0.0 mamacehin.com
 0.0.0.0 mamachumbas.com
@@ -384818,7 +384831,6 @@
 0.0.0.0 new.newitventure.com
 0.0.0.0 new.nlbreview.nz.llkhk.abrdns.com
 0.0.0.0 new.oldpeterrteam.world
-0.0.0.0 new.omsules.life
 0.0.0.0 new.page.sacramento.gq
 0.0.0.0 new.prize.asia
 0.0.0.0 new.r-private.net
@@ -405997,6 +406009,7 @@
 0.0.0.0 paidacct.000webhostapp.com
 0.0.0.0 paidbigjgbnzxygl-dot-millinium.ey.r.appspot.com
 0.0.0.0 paideng.sbs
+0.0.0.0 paidinsunshine.com
 0.0.0.0 paidleboncoinnfr.000webhostapp.com
 0.0.0.0 paidonbillstoday.com
 0.0.0.0 paidpromotionin.blogspot.com.es
@@ -440937,6 +440950,7 @@
 0.0.0.0 raq.programtts.top
 0.0.0.0 raqamtasdiqlash.com
 0.0.0.0 raqi-gamer.github.io
+0.0.0.0 raqmnh.com
 0.0.0.0 raqnor.com
 0.0.0.0 raquelbarros.com.br
 0.0.0.0 raquelnash.autos
@@ -464774,6 +464788,7 @@
 0.0.0.0 sigla.virosat.ru
 0.0.0.0 sigma-oi.freedynamicdns.net
 0.0.0.0 sigma-statistics-push.proxima.nie.easebar.com
+0.0.0.0 sigmaclient.net
 0.0.0.0 sign-coinbase-com-learn.pages.dev
 0.0.0.0 sign-contract.vercel.app
 0.0.0.0 sign-eng-crypto-com.webflow.io
@@ -468443,6 +468458,7 @@
 0.0.0.0 srpaymxscrtu.loportar.ru
 0.0.0.0 srpoint.store
 0.0.0.0 srpska.news-pravda.com
+0.0.0.0 srrealestate.techzonecam.com
 0.0.0.0 srryrvrdcwi.tauzetaomega.org
 0.0.0.0 srs.targetpoint.com
 0.0.0.0 srsorvete.com.br
@@ -471858,6 +471874,7 @@
 0.0.0.0 studio-t.teads.tv
 0.0.0.0 studio-taddei.it
 0.0.0.0 studiodentisticoantonelli.it
+0.0.0.0 studiogioeli.it
 0.0.0.0 studiokaspersky.com
 0.0.0.0 studiomugnaini.eu
 0.0.0.0 studiomusicaleserafini.com
@@ -474090,6 +474107,7 @@
 0.0.0.0 tab.dedspac.ru
 0.0.0.0 tab.dellrescue.com
 0.0.0.0 tab.myreserp.com
+0.0.0.0 tabak.hr
 0.0.0.0 tabby.dedspac.ru
 0.0.0.0 tabby.virosat.ru
 0.0.0.0 tabegroup.nl
@@ -477018,6 +477036,7 @@
 0.0.0.0 therozgaar.in
 0.0.0.0 therwwd-teratghtdt-btaeittrearjecdhetalitnoudnttr-nrea-eachhee.lon1.cdn.digitaloceanspaces.com
 0.0.0.0 thesafarigarden.com
+0.0.0.0 thesalons.in
 0.0.0.0 thesciencequest.info
 0.0.0.0 thescoopbakersfield.com
 0.0.0.0 thesearchagency.net
@@ -485721,6 +485740,7 @@
 0.0.0.0 v-vpass-jp.zcbank-vip.com
 0.0.0.0 v-vpass-jp.zhaoshengzz.com
 0.0.0.0 v-vpass-jp.zydzpk.com
+0.0.0.0 v-w-v.com
 0.0.0.0 v-wrd.com
 0.0.0.0 v.187000.xyz
 0.0.0.0 v.admaster.com.cn
@@ -492058,6 +492078,7 @@
 0.0.0.0 widu.ulitron.ru
 0.0.0.0 wiecejnizflirt.com
 0.0.0.0 wielixclient.com
+0.0.0.0 wielixclient.net
 0.0.0.0 wielkanagroda.com
 0.0.0.0 wielkaniespodzianka.pl
 0.0.0.0 wielunkapitektron-click.pages.dev
