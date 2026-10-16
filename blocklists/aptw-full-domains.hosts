@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-15 18:33:59
-# Entries: 518269
+# Generated: 2026-10-16 00:33:48
+# Entries: 518299
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -85865,6 +85865,7 @@
 0.0.0.0 anthonyscottwalls.com
 0.0.0.0 anthonysiconolfi.com
 0.0.0.0 anthonysiow.com
+0.0.0.0 anthonyspizzeriainc.com
 0.0.0.0 anthonystores.com
 0.0.0.0 anthonysullivanjr.com
 0.0.0.0 anthonytalks.com
@@ -138022,6 +138023,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.shop
@@ -156379,6 +156381,7 @@
 0.0.0.0 brotherskeeperinc.com
 0.0.0.0 brothersoft.us.intellitxt.com
 0.0.0.0 brothersonwheels.com
+0.0.0.0 brotherspizzapeoria.com
 0.0.0.0 broths.virosat.ru
 0.0.0.0 brotli.chioloodro.live
 0.0.0.0 brotrust.com
@@ -169245,6 +169248,7 @@
 0.0.0.0 cdssshopcqwenuk.vwk.my.id
 0.0.0.0 cdsusa.veinteractive.com
 0.0.0.0 cdt-suisspost-verif.u1388972.cp.regruhosting.ru
+0.0.0.0 cdt.omsules.life
 0.0.0.0 cdt.rgy.mybluehost.me
 0.0.0.0 cdtaedcfzi.duckdns.org
 0.0.0.0 cdtagricoleassis.useruno.com
@@ -169258,6 +169262,7 @@
 0.0.0.0 cduwvyoqtnpezxsk-dot-millinium.ey.r.appspot.com
 0.0.0.0 cdv.pages.dev
 0.0.0.0 cdvlxugzafwhhmac-dot-millinium.ey.r.appspot.com
+0.0.0.0 cdw.omsules.life
 0.0.0.0 cdwhwg.com
 0.0.0.0 cdwyer.jpmorgan-bh.com
 0.0.0.0 cdxjvyrxjkrntnzousenwtkfij-dot-gloff849483.uk.r.appspot.com
@@ -169441,7 +169446,6 @@
 0.0.0.0 cedges.com
 0.0.0.0 cediarmailin.000webhostapp.com
 0.0.0.0 cedifarma.com
-0.0.0.0 cedih.com
 0.0.0.0 ceding.dedspac.ru
 0.0.0.0 cedis.ulitron.ru
 0.0.0.0 cedis.virosat.ru
@@ -184388,6 +184392,7 @@
 0.0.0.0 community.fb-pages-87311170493185500542.qf4owyef2n-xoy4w7wpr6pw.p.runcloud.link
 0.0.0.0 community.fb-pages-99558416152942940161.qf4owyef2n-xoy4w7wpr6pw.p.runcloud.link
 0.0.0.0 community.films43.me
+0.0.0.0 community.firm.in
 0.0.0.0 community.manage-app-uuid32899926009389349564.q8pwzeiv8n-ewx3lwn7l4zq.p.runcloud.link
 0.0.0.0 community.manage-app-uuid72329026450911547548.q8pwzeiv8n-ewx3lwn7l4zq.p.runcloud.link
 0.0.0.0 community.microsoftbusinessapps.com
@@ -190911,6 +190916,7 @@
 0.0.0.0 crestvaulmore.digital
 0.0.0.0 crestvaulmore.online
 0.0.0.0 crestvaultshire.live
+0.0.0.0 cresvin.com
 0.0.0.0 cret.pages.dev
 0.0.0.0 cretan.virosat.ru
 0.0.0.0 crete.cloudns.ph
@@ -198280,6 +198286,7 @@
 0.0.0.0 db.atozgroup.ir
 0.0.0.0 db.clickexperts.net
 0.0.0.0 db.elitoras.ru
+0.0.0.0 db.foodbook.pk
 0.0.0.0 db.mailtrackpro.com
 0.0.0.0 db.riskwaters.com
 0.0.0.0 db.safemessaging.org
@@ -207549,6 +207556,7 @@
 0.0.0.0 dir-business-reappeal-case-9845.surge.sh
 0.0.0.0 dir.direct
 0.0.0.0 dir.opank.com
+0.0.0.0 dir.sonikjp.org
 0.0.0.0 diractclicker.com
 0.0.0.0 diram.dedspac.ru
 0.0.0.0 dirdiga.ru
@@ -209067,6 +209075,7 @@
 0.0.0.0 dkkwmansehduf.weebly.com
 0.0.0.0 dkl.bortogat.ru
 0.0.0.0 dkl.teiegream.fit
+0.0.0.0 dklak.cam
 0.0.0.0 dkldasl.000webhostapp.com
 0.0.0.0 dkligenu.dk
 0.0.0.0 dkljhfkdfasdfjgdsf.tk
@@ -224688,7 +224697,6 @@
 0.0.0.0 epic-wescoff-ced422.netlify.app
 0.0.0.0 epic-williams-ce412e.netlify.app
 0.0.0.0 epic.bortogat.ru
-0.0.0.0 epic.edu.gt
 0.0.0.0 epic.ulitron.ru
 0.0.0.0 epic500maxalttrade.com
 0.0.0.0 epically.sikolar.ru
@@ -246935,6 +246943,7 @@
 0.0.0.0 fluidcontitech.com
 0.0.0.0 fluiddeliverymanagement.com
 0.0.0.0 fluidesclimat.com
+0.0.0.0 fluidfilm.bg
 0.0.0.0 fluidou-71.ml
 0.0.0.0 fluiptvserver.com
 0.0.0.0 fluke.dedspac.ru
@@ -248668,6 +248677,7 @@
 0.0.0.0 foundation.con-wallet.network
 0.0.0.0 foundational-rating.000webhostapp.com
 0.0.0.0 foundationally.timanar.ru
+0.0.0.0 foundationforwomenshealth.com
 0.0.0.0 foundationofintegrity.org
 0.0.0.0 foundations-admin-10000005546884950.ml
 0.0.0.0 foundations-admin-10000005546884951.ml
@@ -259038,6 +259048,7 @@
 0.0.0.0 gghhhyyeyeyeyeeu.weeblysite.com
 0.0.0.0 gghmvfd.blogspot.com
 0.0.0.0 gghxhtaxsxzitslx-dot-millinium.ey.r.appspot.com
+0.0.0.0 ggi.dietondemand.com
 0.0.0.0 ggi.fyn.mybluehost.me
 0.0.0.0 ggibmebn.wcnv20.cn
 0.0.0.0 ggieche.r.af.d.sendibt2.com
@@ -265799,6 +265810,7 @@
 0.0.0.0 gridwebfasx.vercel.app
 0.0.0.0 grietgo252580.github.io
 0.0.0.0 grievance.gpshyampur.org.in
+0.0.0.0 griffcar.com.br
 0.0.0.0 griffin.whizti.com
 0.0.0.0 griffinparkfil.mom
 0.0.0.0 griffithdds.com
@@ -299977,6 +299989,7 @@
 0.0.0.0 internetissue.autos
 0.0.0.0 internetlint.info
 0.0.0.0 internetmillionaires.com
+0.0.0.0 internetmissouri.com
 0.0.0.0 internetmoskva.ru
 0.0.0.0 internetnc2-router-app.onlinewebshop.net
 0.0.0.0 internetnc2programasemprepresente.com
@@ -327134,6 +327147,7 @@
 0.0.0.0 ld-app-supports.com
 0.0.0.0 ld-apple-com.zw1.es
 0.0.0.0 ld-apps-supports.com
+0.0.0.0 ld-cf.com
 0.0.0.0 ld-eu.shop
 0.0.0.0 ld-fmi-report.us
 0.0.0.0 ld-icloud.com
@@ -334864,6 +334878,7 @@
 0.0.0.0 loanemicalculators.com
 0.0.0.0 loanme.pl
 0.0.0.0 loanmone23.com
+0.0.0.0 loanoffer.co.in
 0.0.0.0 loanserver.mayocoo.com
 0.0.0.0 loanservice.vip
 0.0.0.0 loanthali.com
@@ -346876,6 +346891,7 @@
 0.0.0.0 mail.kz-moft.com
 0.0.0.0 mail.label.lorle.my.id
 0.0.0.0 mail.labelsandmore.com
+0.0.0.0 mail.laborpartyjo.com
 0.0.0.0 mail.lacur.cu.ma
 0.0.0.0 mail.lahuerta.gob.mx
 0.0.0.0 mail.lalit.sir.cu.ma
@@ -356087,6 +356103,7 @@
 0.0.0.0 melon.ulitron.ru
 0.0.0.0 melon15096491.brizy.site
 0.0.0.0 melon7736057.brizy.site
+0.0.0.0 melonandworld.top
 0.0.0.0 melos.myftp.biz
 0.0.0.0 melos.ulitron.ru
 0.0.0.0 melot-ravalement.com
@@ -369899,6 +369916,7 @@
 0.0.0.0 mocktestlab.com
 0.0.0.0 mockup-instagram-dio.vercel.app
 0.0.0.0 mockup.metradigitalmedia.com
+0.0.0.0 mockupcorporation.com
 0.0.0.0 mockz.com
 0.0.0.0 mocleran.com
 0.0.0.0 mocloudmacs.ch46650.tmweb.ru
@@ -371691,6 +371709,7 @@
 0.0.0.0 mothermoonfathersun.org
 0.0.0.0 motherofpearlproductions.com
 0.0.0.0 mothersoftware.in
+0.0.0.0 mothertouch.ac.zw
 0.0.0.0 mothertouchgroup.org
 0.0.0.0 mothopogamelodge.co.za
 0.0.0.0 mothrash.vercel.app
@@ -384831,6 +384850,7 @@
 0.0.0.0 new.newitventure.com
 0.0.0.0 new.nlbreview.nz.llkhk.abrdns.com
 0.0.0.0 new.oldpeterrteam.world
+0.0.0.0 new.omsules.life
 0.0.0.0 new.page.sacramento.gq
 0.0.0.0 new.prize.asia
 0.0.0.0 new.r-private.net
@@ -390456,6 +390476,7 @@
 0.0.0.0 nov-coveraa-suponaci.pages.dev
 0.0.0.0 nov.bortogat.ru
 0.0.0.0 nov.dedspac.ru
+0.0.0.0 nova-client.com
 0.0.0.0 nova-itacard.azurewebsites.net
 0.0.0.0 nova-office.pl
 0.0.0.0 nova-purrfect-cork.glitch.me
@@ -406009,7 +406030,6 @@
 0.0.0.0 paidacct.000webhostapp.com
 0.0.0.0 paidbigjgbnzxygl-dot-millinium.ey.r.appspot.com
 0.0.0.0 paideng.sbs
-0.0.0.0 paidinsunshine.com
 0.0.0.0 paidleboncoinnfr.000webhostapp.com
 0.0.0.0 paidonbillstoday.com
 0.0.0.0 paidpromotionin.blogspot.com.es
@@ -408580,6 +408600,7 @@
 0.0.0.0 pawl.dedspac.ru
 0.0.0.0 pawlowski-dot-firm-structure-344407.uk.r.appspot.com
 0.0.0.0 pawls.ulitron.ru
+0.0.0.0 pawn-shop.trustzonecam.com
 0.0.0.0 pawn.dedspac.ru
 0.0.0.0 pawns.ulitron.ru
 0.0.0.0 pawnwatchnyc.com
@@ -414318,6 +414339,7 @@
 0.0.0.0 physics.uctm.edu
 0.0.0.0 physicsashok.com
 0.0.0.0 physicsbeckons.com
+0.0.0.0 physicsbyfiziks.org
 0.0.0.0 physimath.com
 0.0.0.0 physio-roesch.de
 0.0.0.0 physiology-anatomy.seo-florida.com
@@ -416992,6 +417014,7 @@
 0.0.0.0 plobberly.vercel.app
 0.0.0.0 ploce.dedspac.ru
 0.0.0.0 ploce.ulitron.ru
+0.0.0.0 plochcarsportsball.top
 0.0.0.0 plod.ulitron.ru
 0.0.0.0 plodjjks.com
 0.0.0.0 ploferta-93742993.shop
@@ -419836,6 +419859,7 @@
 0.0.0.0 pos.drivrr.com
 0.0.0.0 pos.healthrxbd.com
 0.0.0.0 pos.miebp.com
+0.0.0.0 pos.nittosupport.ca
 0.0.0.0 pos.vfixit.com.au
 0.0.0.0 pos2.usahawan.cc
 0.0.0.0 pos24pl.eu.cc
@@ -461362,6 +461386,7 @@
 0.0.0.0 screwscape.com
 0.0.0.0 scrhotpoljk.lovable.app
 0.0.0.0 scribbens.fr
+0.0.0.0 scribblebubblebibi.top
 0.0.0.0 scribe.logs.roku.com
 0.0.0.0 scribe.ttwitter.com
 0.0.0.0 scribe.twitter.com
@@ -462966,6 +462991,7 @@
 0.0.0.0 seomaniya.com
 0.0.0.0 seonetwizard.com
 0.0.0.0 seosoftware.onlinedownloads.org
+0.0.0.0 sep.dailytechinsight.com
 0.0.0.0 sep.ulitron.ru
 0.0.0.0 sepanta.irexon.com
 0.0.0.0 sepaxenty.shop
@@ -465592,6 +465618,7 @@
 0.0.0.0 skmahaboob7865.github.io
 0.0.0.0 skocz.pl
 0.0.0.0 skoet.com.cn
+0.0.0.0 skolazasisanjepasa.com
 0.0.0.0 skorgg.gxaeasz.es
 0.0.0.0 skort.dedspac.ru
 0.0.0.0 skovello.com
@@ -471039,6 +471066,7 @@
 0.0.0.0 steelhouse.com
 0.0.0.0 steelhousemedia.com
 0.0.0.0 steelpocket.vercel.app
+0.0.0.0 steelstanleystaystrong.top
 0.0.0.0 steemcommunty.com
 0.0.0.0 steemcomnmunity.com
 0.0.0.0 steemcomrnuinty.com
@@ -472147,6 +472175,7 @@
 0.0.0.0 sudahosting.com
 0.0.0.0 sudais73.github.io
 0.0.0.0 sudan.news-pravda.com
+0.0.0.0 sudariocontabilidade.com.br
 0.0.0.0 sudarshanabpatil.github.io
 0.0.0.0 sudd.ulitron.ru
 0.0.0.0 suddenplot.com
@@ -477012,6 +477041,7 @@
 0.0.0.0 therajdeepmallick.github.io
 0.0.0.0 theransone.pages.dev
 0.0.0.0 therapistla.com
+0.0.0.0 therapygeorgia.com
 0.0.0.0 therealesxaath.top
 0.0.0.0 therealmyrn.github.io
 0.0.0.0 theredeemer.pages.dev
@@ -490366,7 +490396,6 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
-0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webcustomdesign.store
 0.0.0.0 webdata.vidz.com
@@ -493281,6 +493310,7 @@
 0.0.0.0 ww-leder-cm-staerrt.webflow.io
 0.0.0.0 ww-ledgrerstarted.webflow.io
 0.0.0.0 ww-wellsfargo.pages.dev
+0.0.0.0 ww.menara5d.net
 0.0.0.0 ww01.34qf42y.eu.org
 0.0.0.0 ww0javip.shop
 0.0.0.0 ww1.e-kino.tv
