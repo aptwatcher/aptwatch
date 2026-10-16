@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-16 06:06:11
-# Entries: 518302
+# Generated: 2026-10-16 06:35:05
+# Entries: 518305
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -21519,6 +21519,7 @@
 0.0.0.0 3bnwebbpichincha.webcindario.com
 0.0.0.0 3bood89.standardseoservices.com
 0.0.0.0 3boredguys.com
+0.0.0.0 3brosstore.com
 0.0.0.0 3bscafe.com
 0.0.0.0 3btgzfk74gxejzr.qwo231sdx.club
 0.0.0.0 3btvalruqoxo.wusps.xyz
@@ -46578,7 +46579,6 @@
 0.0.0.0 abitare.com.mx
 0.0.0.0 abitareainmo.com
 0.0.0.0 abitaremx.com
-0.0.0.0 abitcoinbull.com
 0.0.0.0 abitinoble.ru
 0.0.0.0 abitoincommunity.it
 0.0.0.0 abitrativeapp.pages.dev
@@ -169449,6 +169449,7 @@
 0.0.0.0 cedges.com
 0.0.0.0 cediarmailin.000webhostapp.com
 0.0.0.0 cedifarma.com
+0.0.0.0 cedih.com
 0.0.0.0 ceding.dedspac.ru
 0.0.0.0 cedis.ulitron.ru
 0.0.0.0 cedis.virosat.ru
@@ -213024,6 +213025,7 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
+0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -218172,6 +218174,7 @@
 0.0.0.0 ebubxsbsqh.duckdns.org
 0.0.0.0 ebuddynews.com
 0.0.0.0 ebullienceinabundance.com
+0.0.0.0 ebullientlife.in
 0.0.0.0 eburdwanmuktodhara.org.in
 0.0.0.0 eburkhardt.techvalleyabbottabad.pk
 0.0.0.0 ebusiness-bofamerica.online
@@ -219128,7 +219131,6 @@
 0.0.0.0 educ.rec.br
 0.0.0.0 educacao.barretos.sp.gov.br
 0.0.0.0 educacioncolaborativa.cl
-0.0.0.0 educacom.com.br
 0.0.0.0 educafacso.facso.cl
 0.0.0.0 educalera.com
 0.0.0.0 educareweb.com.br
@@ -232299,6 +232301,7 @@
 0.0.0.0 fabricofurnitures.com
 0.0.0.0 fabricpaintings.com
 0.0.0.0 fabrics.chiripalgroup.com
+0.0.0.0 fabrics.lahoreshoes.com
 0.0.0.0 fabrikaistanbul.com
 0.0.0.0 fabrikala.com
 0.0.0.0 fabrisubsea.co.uk
@@ -441152,7 +441155,6 @@
 0.0.0.0 rathepayments.com
 0.0.0.0 rathirirounds.com
 0.0.0.0 rathkealechildcare.ie
-0.0.0.0 rathodsoftware.in
 0.0.0.0 rathoraryann.github.io
 0.0.0.0 rathuiasa.duckdns.org
 0.0.0.0 ratiborus2023.com
@@ -454879,6 +454881,7 @@
 0.0.0.0 runecpower.com
 0.0.0.0 runed.dedspac.ru
 0.0.0.0 runelie.net
+0.0.0.0 runelite.cc
 0.0.0.0 runequantholm.net
 0.0.0.0 runerank.org
 0.0.0.0 runescape-doublexps.com
