@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-16 12:33:47
-# Entries: 518298
+# Generated: 2026-10-16 18:33:29
+# Entries: 518296
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -21519,7 +21519,6 @@
 0.0.0.0 3bnwebbpichincha.webcindario.com
 0.0.0.0 3bood89.standardseoservices.com
 0.0.0.0 3boredguys.com
-0.0.0.0 3brosstore.com
 0.0.0.0 3bscafe.com
 0.0.0.0 3btgzfk74gxejzr.qwo231sdx.club
 0.0.0.0 3btvalruqoxo.wusps.xyz
@@ -74068,6 +74067,7 @@
 0.0.0.0 alpharddiving.com
 0.0.0.0 alphardgolf.fr
 0.0.0.0 alpharealmx.com
+0.0.0.0 alpharettaagency.com
 0.0.0.0 alphas.dedspac.ru
 0.0.0.0 alphasan.in
 0.0.0.0 alphasaurabh.github.io
@@ -144119,7 +144119,6 @@
 0.0.0.0 bigreal.org
 0.0.0.0 bigrecess.com
 0.0.0.0 bigrigrvadventures.com
-0.0.0.0 bigs.bikershop.biz
 0.0.0.0 bigs.bortogat.ru
 0.0.0.0 bigs.dedspac.ru
 0.0.0.0 bigs.ulitron.ru
@@ -184393,7 +184392,6 @@
 0.0.0.0 community.fb-pages-87311170493185500542.qf4owyef2n-xoy4w7wpr6pw.p.runcloud.link
 0.0.0.0 community.fb-pages-99558416152942940161.qf4owyef2n-xoy4w7wpr6pw.p.runcloud.link
 0.0.0.0 community.films43.me
-0.0.0.0 community.firm.in
 0.0.0.0 community.manage-app-uuid32899926009389349564.q8pwzeiv8n-ewx3lwn7l4zq.p.runcloud.link
 0.0.0.0 community.manage-app-uuid72329026450911547548.q8pwzeiv8n-ewx3lwn7l4zq.p.runcloud.link
 0.0.0.0 community.microsoftbusinessapps.com
@@ -212968,6 +212966,7 @@
 0.0.0.0 dreamartdesigns.com
 0.0.0.0 dreambasetechnologies.net
 0.0.0.0 dreamboostzu.vercel.app
+0.0.0.0 dreambot.info
 0.0.0.0 dreambuolt.rebuildfiqure.site
 0.0.0.0 dreamcastersearth.com
 0.0.0.0 dreamcatcher-soulmate-4983.free-template.sbs
@@ -213020,7 +213019,6 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
-0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -221632,6 +221630,7 @@
 0.0.0.0 elmasyedekparca.com
 0.0.0.0 elmbriqon.com
 0.0.0.0 elmejoragenteinmobiliario.es
+0.0.0.0 elmejorlocal.com.co
 0.0.0.0 elmensajerotours.com
 0.0.0.0 elmerfortreasurer.org
 0.0.0.0 elmes.de
@@ -229439,6 +229438,7 @@
 0.0.0.0 exe.bid
 0.0.0.0 exeat.ulitron.ru
 0.0.0.0 exeat.virosat.ru
+0.0.0.0 exec-roblox.info
 0.0.0.0 exec.ulitron.ru
 0.0.0.0 execorespectrum.com
 0.0.0.0 execpts-nxieffulgent-cranachan-tansbm.netlify.app
@@ -246944,7 +246944,6 @@
 0.0.0.0 fluidcontitech.com
 0.0.0.0 fluiddeliverymanagement.com
 0.0.0.0 fluidesclimat.com
-0.0.0.0 fluidfilm.bg
 0.0.0.0 fluidou-71.ml
 0.0.0.0 fluiptvserver.com
 0.0.0.0 fluke.dedspac.ru
@@ -325133,7 +325132,6 @@
 0.0.0.0 lahore.shanitravels.org
 0.0.0.0 lahorecallgirlsescorts.com
 0.0.0.0 lahorepropertygroup.com
-0.0.0.0 lahoreshoes.com
 0.0.0.0 lahoreviphotels.com
 0.0.0.0 lahoyws2.com
 0.0.0.0 lahstudios.com
@@ -355354,6 +355352,7 @@
 0.0.0.0 medleyads.com
 0.0.0.0 medli090.000webhostapp.com
 0.0.0.0 medline-shape-pts-inspector.trycloudflare.com
+0.0.0.0 medlinelab.com
 0.0.0.0 medlinks.ca
 0.0.0.0 medmaskaxtensaion.webflow.io
 0.0.0.0 medmopharma.com
@@ -367112,6 +367111,7 @@
 0.0.0.0 misaki4552.github.io
 0.0.0.0 misaky.ae
 0.0.0.0 misally.bortogat.ru
+0.0.0.0 misano.gestroom.it
 0.0.0.0 misanoassicurazioni.it
 0.0.0.0 misanthology.com
 0.0.0.0 misanthropically.bortogat.ru
@@ -396094,6 +396094,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -406301,6 +406302,7 @@
 0.0.0.0 palet.dedspac.ru
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
+0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palingviralsxx.duckdns.org
 0.0.0.0 paliodasti.com.usrfiles.com
@@ -440969,6 +440971,7 @@
 0.0.0.0 raq.programtts.top
 0.0.0.0 raqamtasdiqlash.com
 0.0.0.0 raqi-gamer.github.io
+0.0.0.0 raqmnh.com
 0.0.0.0 raqnor.com
 0.0.0.0 raquelbarros.com.br
 0.0.0.0 raquelnash.autos
@@ -468479,7 +468482,6 @@
 0.0.0.0 srpaymxscrtu.loportar.ru
 0.0.0.0 srpoint.store
 0.0.0.0 srpska.news-pravda.com
-0.0.0.0 srrealestate.techzonecam.com
 0.0.0.0 srryrvrdcwi.tauzetaomega.org
 0.0.0.0 srs.targetpoint.com
 0.0.0.0 srsorvete.com.br
@@ -471896,7 +471898,6 @@
 0.0.0.0 studio-t.teads.tv
 0.0.0.0 studio-taddei.it
 0.0.0.0 studiodentisticoantonelli.it
-0.0.0.0 studiogioeli.it
 0.0.0.0 studiokaspersky.com
 0.0.0.0 studiomugnaini.eu
 0.0.0.0 studiomusicaleserafini.com
@@ -481793,7 +481794,6 @@
 0.0.0.0 tvip.pdurg.cn
 0.0.0.0 tvip.ysbkz.com
 0.0.0.0 tvk.tpx.mybluehost.me
-0.0.0.0 tvkladovo.com
 0.0.0.0 tvmds.tvpassport.com
 0.0.0.0 tvmoviespoilers.com
 0.0.0.0 tvn-muzyka.eu
@@ -488939,7 +488939,6 @@
 0.0.0.0 vte.nexteramedia.com
 0.0.0.0 vtelf.cfd
 0.0.0.0 vtiger.silferacademic.com
-0.0.0.0 vtivision-fi.com
 0.0.0.0 vtomanofficialshop.id
 0.0.0.0 vtomanofficialshop.vip
 0.0.0.0 vtoras.top
@@ -490394,6 +490393,7 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
+0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webcustomdesign.store
 0.0.0.0 webdata.vidz.com
@@ -501281,7 +501281,6 @@
 0.0.0.0 www.geldronaisolution.digital
 0.0.0.0 www.geldronaitrade.com
 0.0.0.0 www.geldvoroki.net
-0.0.0.0 www.gemrazorback.com
 0.0.0.0 www.gemverify.com
 0.0.0.0 www.gen2server.com
 0.0.0.0 www.general-guidance-overview-ac52.s236063.workers.dev
@@ -501307,7 +501306,6 @@
 0.0.0.0 www.gerteuzonimtrade.com
 0.0.0.0 www.gestaproet.store
 0.0.0.0 www.gestione-patrimoniale.com
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com
