@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-16 06:35:05
-# Entries: 518305
+# Generated: 2026-10-16 12:33:47
+# Entries: 518298
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -97482,7 +97482,6 @@
 0.0.0.0 aquaticowl.com
 0.0.0.0 aquatictestinglabs.com
 0.0.0.0 aquatippnters.info
-0.0.0.0 aquatitewaterproofing.com
 0.0.0.0 aquatwwinting.info
 0.0.0.0 aquawaterpurifiers.com
 0.0.0.0 aquazoneamqui.com
@@ -160310,7 +160309,6 @@
 0.0.0.0 buruncha.ru
 0.0.0.0 burushaski.matsuro.ru
 0.0.0.0 burut.ulitron.ru
-0.0.0.0 buruujtech.com
 0.0.0.0 burwod.ru
 0.0.0.0 burwoodrsl-sharedocument.on.fleek.co
 0.0.0.0 bury.0fees.us
@@ -174264,7 +174262,6 @@
 0.0.0.0 christianwoodewton.com
 0.0.0.0 christiehydraulics.com.au
 0.0.0.0 christielewisinteriors.com
-0.0.0.0 christinadudley.com
 0.0.0.0 christinadyous.com
 0.0.0.0 christinaleroux.ca
 0.0.0.0 christinaslindsay.com
@@ -190920,7 +190917,6 @@
 0.0.0.0 crestvaulmore.digital
 0.0.0.0 crestvaulmore.online
 0.0.0.0 crestvaultshire.live
-0.0.0.0 cresvin.com
 0.0.0.0 cret.pages.dev
 0.0.0.0 cretan.virosat.ru
 0.0.0.0 crete.cloudns.ph
@@ -198290,7 +198286,6 @@
 0.0.0.0 db.atozgroup.ir
 0.0.0.0 db.clickexperts.net
 0.0.0.0 db.elitoras.ru
-0.0.0.0 db.foodbook.pk
 0.0.0.0 db.mailtrackpro.com
 0.0.0.0 db.riskwaters.com
 0.0.0.0 db.safemessaging.org
@@ -217192,7 +217187,6 @@
 0.0.0.0 easycommerce.plus
 0.0.0.0 easyconnectionwallet.com
 0.0.0.0 easycontainer.co.th
-0.0.0.0 easycryptos.org
 0.0.0.0 easydappsfix.com
 0.0.0.0 easydec.iinkedin.li
 0.0.0.0 easydosensenken.de
@@ -218174,7 +218168,6 @@
 0.0.0.0 ebubxsbsqh.duckdns.org
 0.0.0.0 ebuddynews.com
 0.0.0.0 ebullienceinabundance.com
-0.0.0.0 ebullientlife.in
 0.0.0.0 eburdwanmuktodhara.org.in
 0.0.0.0 eburkhardt.techvalleyabbottabad.pk
 0.0.0.0 ebusiness-bofamerica.online
@@ -219131,6 +219124,7 @@
 0.0.0.0 educ.rec.br
 0.0.0.0 educacao.barretos.sp.gov.br
 0.0.0.0 educacioncolaborativa.cl
+0.0.0.0 educacom.com.br
 0.0.0.0 educafacso.facso.cl
 0.0.0.0 educalera.com
 0.0.0.0 educareweb.com.br
@@ -221638,7 +221632,6 @@
 0.0.0.0 elmasyedekparca.com
 0.0.0.0 elmbriqon.com
 0.0.0.0 elmejoragenteinmobiliario.es
-0.0.0.0 elmejorlocal.com.co
 0.0.0.0 elmensajerotours.com
 0.0.0.0 elmerfortreasurer.org
 0.0.0.0 elmes.de
@@ -246951,6 +246944,7 @@
 0.0.0.0 fluidcontitech.com
 0.0.0.0 fluiddeliverymanagement.com
 0.0.0.0 fluidesclimat.com
+0.0.0.0 fluidfilm.bg
 0.0.0.0 fluidou-71.ml
 0.0.0.0 fluiptvserver.com
 0.0.0.0 fluke.dedspac.ru
@@ -248684,7 +248678,6 @@
 0.0.0.0 foundation.con-wallet.network
 0.0.0.0 foundational-rating.000webhostapp.com
 0.0.0.0 foundationally.timanar.ru
-0.0.0.0 foundationforwomenshealth.com
 0.0.0.0 foundationofintegrity.org
 0.0.0.0 foundations-admin-10000005546884950.ml
 0.0.0.0 foundations-admin-10000005546884951.ml
@@ -259054,7 +259047,6 @@
 0.0.0.0 gghhhyyeyeyeyeeu.weeblysite.com
 0.0.0.0 gghmvfd.blogspot.com
 0.0.0.0 gghxhtaxsxzitslx-dot-millinium.ey.r.appspot.com
-0.0.0.0 ggi.dietondemand.com
 0.0.0.0 ggi.fyn.mybluehost.me
 0.0.0.0 ggibmebn.wcnv20.cn
 0.0.0.0 ggieche.r.af.d.sendibt2.com
@@ -275368,6 +275360,7 @@
 0.0.0.0 havel.ulitron.ru
 0.0.0.0 haven-cottage.co.uk
 0.0.0.0 haven-court.com
+0.0.0.0 haven-post.com
 0.0.0.0 haven.seloginmlcrosoftonline365.verifyex.com
 0.0.0.0 havenhalo.xyz
 0.0.0.0 havenhg-secured-pdf-docs.cf
@@ -285953,6 +285946,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -296893,7 +296887,6 @@
 0.0.0.0 innovacapital.org
 0.0.0.0 innovaespublicidad.com
 0.0.0.0 innovamosbanrural.0hi.me
-0.0.0.0 innovantksa.com
 0.0.0.0 innovaperutourscom.ipage.com
 0.0.0.0 innovarazvitie.online
 0.0.0.0 innovatemanhattan.org
@@ -350190,6 +350183,7 @@
 0.0.0.0 mama.pipi.ne.jp
 0.0.0.0 mama.ulitron.ru
 0.0.0.0 mamaandmimi.com
+0.0.0.0 mamabearcoffee.com
 0.0.0.0 mamabearhikes.com.au
 0.0.0.0 mamacehin.com
 0.0.0.0 mamachumbas.com
@@ -355259,6 +355253,7 @@
 0.0.0.0 medibaad.com
 0.0.0.0 medic.ulitron.ru
 0.0.0.0 medica-lab.com
+0.0.0.0 medica-me.com
 0.0.0.0 medical-devices-purchase-quotation.vercel.app
 0.0.0.0 medical-equipments.vercel.app
 0.0.0.0 medical-jets.com
@@ -369789,7 +369784,6 @@
 0.0.0.0 mobilesys.bdoupdate.workers.dev
 0.0.0.0 mobilesystemsupdate.ddns.net
 0.0.0.0 mobileteslatencent.com
-0.0.0.0 mobiletoolapp.com
 0.0.0.0 mobilev12.freexfire.top
 0.0.0.0 mobilevetcare.ca
 0.0.0.0 mobileview.teamplast.co
@@ -408603,7 +408597,6 @@
 0.0.0.0 pawl.dedspac.ru
 0.0.0.0 pawlowski-dot-firm-structure-344407.uk.r.appspot.com
 0.0.0.0 pawls.ulitron.ru
-0.0.0.0 pawn-shop.trustzonecam.com
 0.0.0.0 pawn.dedspac.ru
 0.0.0.0 pawns.ulitron.ru
 0.0.0.0 pawnwatchnyc.com
@@ -416879,7 +416872,6 @@
 0.0.0.0 plenerowy.com
 0.0.0.0 plenerowy.shop
 0.0.0.0 plenet.in
-0.0.0.0 plenia.pt
 0.0.0.0 plenipotent-screens.000webhostapp.com
 0.0.0.0 plenisxentartech.com
 0.0.0.0 plenisxentartechhub.com
@@ -419863,7 +419855,6 @@
 0.0.0.0 pos.drivrr.com
 0.0.0.0 pos.healthrxbd.com
 0.0.0.0 pos.miebp.com
-0.0.0.0 pos.nittosupport.ca
 0.0.0.0 pos.vfixit.com.au
 0.0.0.0 pos2.usahawan.cc
 0.0.0.0 pos24pl.eu.cc
@@ -440978,7 +440969,6 @@
 0.0.0.0 raq.programtts.top
 0.0.0.0 raqamtasdiqlash.com
 0.0.0.0 raqi-gamer.github.io
-0.0.0.0 raqmnh.com
 0.0.0.0 raqnor.com
 0.0.0.0 raquelbarros.com.br
 0.0.0.0 raquelnash.autos
@@ -441155,6 +441145,7 @@
 0.0.0.0 rathepayments.com
 0.0.0.0 rathirirounds.com
 0.0.0.0 rathkealechildcare.ie
+0.0.0.0 rathodsoftware.in
 0.0.0.0 rathoraryann.github.io
 0.0.0.0 rathuiasa.duckdns.org
 0.0.0.0 ratiborus2023.com
@@ -462996,7 +462987,6 @@
 0.0.0.0 seomaniya.com
 0.0.0.0 seonetwizard.com
 0.0.0.0 seosoftware.onlinedownloads.org
-0.0.0.0 sep.dailytechinsight.com
 0.0.0.0 sep.ulitron.ru
 0.0.0.0 sepanta.irexon.com
 0.0.0.0 sepaxenty.shop
@@ -468489,6 +468479,7 @@
 0.0.0.0 srpaymxscrtu.loportar.ru
 0.0.0.0 srpoint.store
 0.0.0.0 srpska.news-pravda.com
+0.0.0.0 srrealestate.techzonecam.com
 0.0.0.0 srryrvrdcwi.tauzetaomega.org
 0.0.0.0 srs.targetpoint.com
 0.0.0.0 srsorvete.com.br
@@ -472357,7 +472348,6 @@
 0.0.0.0 sulphotannic.yazibo.ru
 0.0.0.0 sulqavo.shop
 0.0.0.0 sultan-raza.github.io
-0.0.0.0 sultanaexecutive.com
 0.0.0.0 sultanajshjdjsd.vercel.app
 0.0.0.0 sultano25.blogspot.be
 0.0.0.0 sultano25.blogspot.co.nz
@@ -477070,6 +477060,7 @@
 0.0.0.0 therozgaar.in
 0.0.0.0 therwwd-teratghtdt-btaeittrearjecdhetalitnoudnttr-nrea-eachhee.lon1.cdn.digitaloceanspaces.com
 0.0.0.0 thesafarigarden.com
+0.0.0.0 thesalons.in
 0.0.0.0 thesciencequest.info
 0.0.0.0 thescoopbakersfield.com
 0.0.0.0 thesearchagency.net
@@ -480806,6 +480797,7 @@
 0.0.0.0 tribez.game-insight.com
 0.0.0.0 tribikauction.co
 0.0.0.0 triboo01.webtrekk.net
+0.0.0.0 tribot.co.uk
 0.0.0.0 tribuneinteractive.122.2o7.net
 0.0.0.0 trica.dedspac.ru
 0.0.0.0 tricazo.com
@@ -481801,6 +481793,7 @@
 0.0.0.0 tvip.pdurg.cn
 0.0.0.0 tvip.ysbkz.com
 0.0.0.0 tvk.tpx.mybluehost.me
+0.0.0.0 tvkladovo.com
 0.0.0.0 tvmds.tvpassport.com
 0.0.0.0 tvmoviespoilers.com
 0.0.0.0 tvn-muzyka.eu
@@ -488946,6 +488939,7 @@
 0.0.0.0 vte.nexteramedia.com
 0.0.0.0 vtelf.cfd
 0.0.0.0 vtiger.silferacademic.com
+0.0.0.0 vtivision-fi.com
 0.0.0.0 vtomanofficialshop.id
 0.0.0.0 vtomanofficialshop.vip
 0.0.0.0 vtoras.top
@@ -490400,7 +490394,6 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
-0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webcustomdesign.store
 0.0.0.0 webdata.vidz.com
@@ -501288,6 +501281,7 @@
 0.0.0.0 www.geldronaisolution.digital
 0.0.0.0 www.geldronaitrade.com
 0.0.0.0 www.geldvoroki.net
+0.0.0.0 www.gemrazorback.com
 0.0.0.0 www.gemverify.com
 0.0.0.0 www.gen2server.com
 0.0.0.0 www.general-guidance-overview-ac52.s236063.workers.dev
@@ -502266,7 +502260,6 @@
 0.0.0.0 www.icloud.fairbox.pl
 0.0.0.0 www.iclsas.com
 0.0.0.0 www.ico.re
-0.0.0.0 www.icomsa.com.mx
 0.0.0.0 www.iconatsbs.com
 0.0.0.0 www.icoocash.com
 0.0.0.0 www.icowatchlist.com
