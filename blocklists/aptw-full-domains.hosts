@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-17 00:33:17
-# Entries: 518285
+# Generated: 2026-10-17 06:06:08
+# Entries: 518291
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -168433,6 +168433,7 @@
 0.0.0.0 cddsolution.com
 0.0.0.0 cddsr.monster
 0.0.0.0 cddwcjcifa.duckdns.org
+0.0.0.0 cde.monther.life
 0.0.0.0 cde.omsules.life
 0.0.0.0 cde3647b649b682bab9dc90793cd041b-dot-gle9392420309493993.rj.r.appspot.com
 0.0.0.0 cdebdbb82115fdf32ed706ea0805c482db.pages.dev
@@ -178358,6 +178359,7 @@
 0.0.0.0 clots.vadilops.ru
 0.0.0.0 clotty.dedspac.ru
 0.0.0.0 clou-btt1.ws
+0.0.0.0 cloubflare.net
 0.0.0.0 cloud--binance--login.typedream.app
 0.0.0.0 cloud-5g9.pages.dev
 0.0.0.0 cloud-api-office2.duckdns.org
@@ -258021,7 +258023,6 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesundheit-zu-hause.com
 0.0.0.0 gesx.top
@@ -284007,6 +284008,7 @@
 0.0.0.0 hornetso.ru
 0.0.0.0 hornhost.xyz
 0.0.0.0 hornitosdellayllay.cl
+0.0.0.0 horno-rafelet.es
 0.0.0.0 horns.virosat.ru
 0.0.0.0 hornusycia.com.ar.ca6.toservers.com
 0.0.0.0 horny.ulitron.ru
@@ -299054,6 +299056,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -372803,6 +372806,7 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
+0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -464804,6 +464808,7 @@
 0.0.0.0 sigla.virosat.ru
 0.0.0.0 sigma-oi.freedynamicdns.net
 0.0.0.0 sigma-statistics-push.proxima.nie.easebar.com
+0.0.0.0 sigmaclient.net
 0.0.0.0 sign-coinbase-com-learn.pages.dev
 0.0.0.0 sign-contract.vercel.app
 0.0.0.0 sign-eng-crypto-com.webflow.io
@@ -483123,7 +483128,6 @@
 0.0.0.0 universalfxmm.com
 0.0.0.0 universalmarkets.org
 0.0.0.0 universalmsg.com
-0.0.0.0 universami.ge
 0.0.0.0 universe.send.microad.jp
 0.0.0.0 universeaccountvalidation.weebly.com
 0.0.0.0 universeactivecircleprofile.weebly.com
@@ -492094,6 +492098,7 @@
 0.0.0.0 widu.ulitron.ru
 0.0.0.0 wiecejnizflirt.com
 0.0.0.0 wielixclient.com
+0.0.0.0 wielixclient.net
 0.0.0.0 wielkanagroda.com
 0.0.0.0 wielkaniespodzianka.pl
 0.0.0.0 wielunkapitektron-click.pages.dev
@@ -501294,6 +501299,7 @@
 0.0.0.0 www.gerteuzonimtrade.com
 0.0.0.0 www.gestaproet.store
 0.0.0.0 www.gestione-patrimoniale.com
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
 0.0.0.0 www.get-express-vpn.com
