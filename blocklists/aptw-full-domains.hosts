@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-17 06:34:48
-# Entries: 518292
+# Generated: 2026-10-17 12:33:28
+# Entries: 518291
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -168433,7 +168433,6 @@
 0.0.0.0 cddsolution.com
 0.0.0.0 cddsr.monster
 0.0.0.0 cddwcjcifa.duckdns.org
-0.0.0.0 cde.monther.life
 0.0.0.0 cde.omsules.life
 0.0.0.0 cde3647b649b682bab9dc90793cd041b-dot-gle9392420309493993.rj.r.appspot.com
 0.0.0.0 cdebdbb82115fdf32ed706ea0805c482db.pages.dev
@@ -184321,6 +184320,7 @@
 0.0.0.0 communication-act.ddns.net
 0.0.0.0 communication-diary-thwart.vercel.app
 0.0.0.0 communication-ergo-additional-their.vercel.app
+0.0.0.0 communication-hub.vg
 0.0.0.0 communication-journal-stop.vercel.app
 0.0.0.0 communication-register-check.vercel.app
 0.0.0.0 communicationcenrale-ba5b01.ingress-daribow.ewp.live
@@ -249198,6 +249198,7 @@
 0.0.0.0 fram.dedspac.ru
 0.0.0.0 framabouphusete.com
 0.0.0.0 frame-6i5.pages.dev
+0.0.0.0 frame-kite.com
 0.0.0.0 frame.amx788.cn
 0.0.0.0 frame.virosat.ru
 0.0.0.0 frame2uavaprosystem.digital
@@ -284009,7 +284010,6 @@
 0.0.0.0 hornetso.ru
 0.0.0.0 hornhost.xyz
 0.0.0.0 hornitosdellayllay.cl
-0.0.0.0 horno-rafelet.es
 0.0.0.0 horns.virosat.ru
 0.0.0.0 hornusycia.com.ar.ca6.toservers.com
 0.0.0.0 horny.ulitron.ru
@@ -285947,6 +285947,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -299057,7 +299058,6 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
-0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -302992,6 +302992,7 @@
 0.0.0.0 itaylsuoi4.co.vu
 0.0.0.0 itb2015.itb.ac.id
 0.0.0.0 itb6dg9fsldwz0iw1ea5.pages.dev
+0.0.0.0 itbakersfield.com
 0.0.0.0 itbcreate.com
 0.0.0.0 itbeginner.fr
 0.0.0.0 itbgiso.keltron.in
@@ -340328,7 +340329,6 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
-0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -372521,7 +372521,6 @@
 0.0.0.0 mrstiffanyip.com
 0.0.0.0 mrstuzzichini.com.au
 0.0.0.0 mrsumii.github.io
-0.0.0.0 mrsweaterltd.com
 0.0.0.0 mrt-dvstpp.twswst.top
 0.0.0.0 mrt-soft.net
 0.0.0.0 mrt.org
@@ -372807,7 +372806,6 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
-0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -474345,6 +474343,7 @@
 0.0.0.0 takanecapital.net
 0.0.0.0 takaraflowdex-sbs.pages.dev
 0.0.0.0 takcmbwo.cn
+0.0.0.0 take-care.africa
 0.0.0.0 take-coinbase.webflow.io
 0.0.0.0 take-satoshivm.pages.dev
 0.0.0.0 take.amaniwa.ru
