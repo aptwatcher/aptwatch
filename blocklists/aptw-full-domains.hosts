@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-17 12:33:28
+# Generated: 2026-10-17 18:33:52
 # Entries: 518291
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -119810,6 +119810,7 @@
 0.0.0.0 autohandelwwa.pl
 0.0.0.0 autohaus-baechle.de
 0.0.0.0 autohaus-beilfuss.net
+0.0.0.0 autohaus-bender.de
 0.0.0.0 autohaus-mroczek.pl
 0.0.0.0 autohaus.com.sv
 0.0.0.0 autohauscorp.com
@@ -184320,7 +184321,6 @@
 0.0.0.0 communication-act.ddns.net
 0.0.0.0 communication-diary-thwart.vercel.app
 0.0.0.0 communication-ergo-additional-their.vercel.app
-0.0.0.0 communication-hub.vg
 0.0.0.0 communication-journal-stop.vercel.app
 0.0.0.0 communication-register-check.vercel.app
 0.0.0.0 communicationcenrale-ba5b01.ingress-daribow.ewp.live
@@ -302992,7 +302992,6 @@
 0.0.0.0 itaylsuoi4.co.vu
 0.0.0.0 itb2015.itb.ac.id
 0.0.0.0 itb6dg9fsldwz0iw1ea5.pages.dev
-0.0.0.0 itbakersfield.com
 0.0.0.0 itbcreate.com
 0.0.0.0 itbeginner.fr
 0.0.0.0 itbgiso.keltron.in
@@ -338086,6 +338085,7 @@
 0.0.0.0 londamiachels.tk
 0.0.0.0 london-delight.ga
 0.0.0.0 london-healthcare.com
+0.0.0.0 londonairportstransfer.co.uk
 0.0.0.0 londoncamerahireservices.co.uk
 0.0.0.0 londondanceschool.com
 0.0.0.0 londonfreweb.website.cv
@@ -340329,6 +340329,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -442135,6 +442136,7 @@
 0.0.0.0 re-form-data.ga
 0.0.0.0 re-hi-review-issue-check.surge.sh
 0.0.0.0 re-hi-review-issue-check1.surge.sh
+0.0.0.0 re-id-v3.com
 0.0.0.0 re-login.urshopup.com
 0.0.0.0 re-oplata.org.ru
 0.0.0.0 re-post-ale.blogspot.com
@@ -474343,7 +474345,6 @@
 0.0.0.0 takanecapital.net
 0.0.0.0 takaraflowdex-sbs.pages.dev
 0.0.0.0 takcmbwo.cn
-0.0.0.0 take-care.africa
 0.0.0.0 take-coinbase.webflow.io
 0.0.0.0 take-satoshivm.pages.dev
 0.0.0.0 take.amaniwa.ru
@@ -490386,7 +490387,6 @@
 0.0.0.0 webcounter.goweb.de
 0.0.0.0 webcounter.together.net
 0.0.0.0 webcryptoinfo.com
-0.0.0.0 webcstore.pw
 0.0.0.0 webctkkpn-3gla.vercel.app
 0.0.0.0 webcustomdesign.store
 0.0.0.0 webdata.vidz.com
