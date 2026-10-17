@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-16 18:33:29
-# Entries: 518296
+# Generated: 2026-10-17 00:33:17
+# Entries: 518285
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -74067,7 +74067,6 @@
 0.0.0.0 alpharddiving.com
 0.0.0.0 alphardgolf.fr
 0.0.0.0 alpharealmx.com
-0.0.0.0 alpharettaagency.com
 0.0.0.0 alphas.dedspac.ru
 0.0.0.0 alphasan.in
 0.0.0.0 alphasaurabh.github.io
@@ -168931,6 +168930,7 @@
 0.0.0.0 cdn.mobify.com
 0.0.0.0 cdn.mobsocmedia.com
 0.0.0.0 cdn.moengage.com
+0.0.0.0 cdn.monther.life
 0.0.0.0 cdn.mookie1.com
 0.0.0.0 cdn.mouseflow.com
 0.0.0.0 cdn.mplxtms.com
@@ -169446,7 +169446,6 @@
 0.0.0.0 cedges.com
 0.0.0.0 cediarmailin.000webhostapp.com
 0.0.0.0 cedifarma.com
-0.0.0.0 cedih.com
 0.0.0.0 ceding.dedspac.ru
 0.0.0.0 cedis.ulitron.ru
 0.0.0.0 cedis.virosat.ru
@@ -179174,6 +179173,7 @@
 0.0.0.0 cmp.quantcast.com
 0.0.0.0 cmp.uniconsent.com
 0.0.0.0 cmp.us.intellitxt.com
+0.0.0.0 cmp4.top
 0.0.0.0 cmpdotnetjunkiescom.112.2o7.net
 0.0.0.0 cmpglobalvista.112.2o7.net
 0.0.0.0 cmplay.did.ijinshan.com
@@ -198284,6 +198284,7 @@
 0.0.0.0 db.atozgroup.ir
 0.0.0.0 db.clickexperts.net
 0.0.0.0 db.elitoras.ru
+0.0.0.0 db.foodbook.pk
 0.0.0.0 db.mailtrackpro.com
 0.0.0.0 db.riskwaters.com
 0.0.0.0 db.safemessaging.org
@@ -219122,7 +219123,6 @@
 0.0.0.0 educ.rec.br
 0.0.0.0 educacao.barretos.sp.gov.br
 0.0.0.0 educacioncolaborativa.cl
-0.0.0.0 educacom.com.br
 0.0.0.0 educafacso.facso.cl
 0.0.0.0 educalera.com
 0.0.0.0 educareweb.com.br
@@ -221630,7 +221630,6 @@
 0.0.0.0 elmasyedekparca.com
 0.0.0.0 elmbriqon.com
 0.0.0.0 elmejoragenteinmobiliario.es
-0.0.0.0 elmejorlocal.com.co
 0.0.0.0 elmensajerotours.com
 0.0.0.0 elmerfortreasurer.org
 0.0.0.0 elmes.de
@@ -224845,6 +224844,7 @@
 0.0.0.0 epsilonix.xyz
 0.0.0.0 epsilonpureis.com
 0.0.0.0 epsksjs.c505.net
+0.0.0.0 epstexsecutor.com
 0.0.0.0 epsygdgdgnkhjrbk-dot-owaonk399399393.uk.r.appspot.com
 0.0.0.0 epte.com.br
 0.0.0.0 eptfzlrrwleodkgh-dot-millinium.ey.r.appspot.com
@@ -232294,7 +232294,6 @@
 0.0.0.0 fabricofurnitures.com
 0.0.0.0 fabricpaintings.com
 0.0.0.0 fabrics.chiripalgroup.com
-0.0.0.0 fabrics.lahoreshoes.com
 0.0.0.0 fabrikaistanbul.com
 0.0.0.0 fabrikala.com
 0.0.0.0 fabrisubsea.co.uk
@@ -259046,6 +259045,7 @@
 0.0.0.0 gghhhyyeyeyeyeeu.weeblysite.com
 0.0.0.0 gghmvfd.blogspot.com
 0.0.0.0 gghxhtaxsxzitslx-dot-millinium.ey.r.appspot.com
+0.0.0.0 ggi.dietondemand.com
 0.0.0.0 ggi.fyn.mybluehost.me
 0.0.0.0 ggibmebn.wcnv20.cn
 0.0.0.0 ggieche.r.af.d.sendibt2.com
@@ -279649,7 +279649,6 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
-0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -285945,7 +285944,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -322166,6 +322164,7 @@
 0.0.0.0 kssucnlogin.gitbook.io
 0.0.0.0 kssyandqdsabvlzj-dot-millinium.ey.r.appspot.com
 0.0.0.0 kst-grp.com
+0.0.0.0 kst.omsules.life
 0.0.0.0 kstl.co.kr
 0.0.0.0 kstxzxqgso.co.vu
 0.0.0.0 kstyledesigns.com
@@ -349497,7 +349496,6 @@
 0.0.0.0 main.exoclick.com
 0.0.0.0 main.exosrv.com
 0.0.0.0 main.fbmmnsnnsm-6061949153.1oxjkps3ah-yjr3oxzrm31m.p.runcloud.link
-0.0.0.0 main.lahoreshoes.com
 0.0.0.0 main.lancefiber.net
 0.0.0.0 main.museumofwesternco.live
 0.0.0.0 main.paylessautoz.de
@@ -350181,7 +350179,6 @@
 0.0.0.0 mama.pipi.ne.jp
 0.0.0.0 mama.ulitron.ru
 0.0.0.0 mamaandmimi.com
-0.0.0.0 mamabearcoffee.com
 0.0.0.0 mamabearhikes.com.au
 0.0.0.0 mamacehin.com
 0.0.0.0 mamachumbas.com
@@ -355251,7 +355248,6 @@
 0.0.0.0 medibaad.com
 0.0.0.0 medic.ulitron.ru
 0.0.0.0 medica-lab.com
-0.0.0.0 medica-me.com
 0.0.0.0 medical-devices-purchase-quotation.vercel.app
 0.0.0.0 medical-equipments.vercel.app
 0.0.0.0 medical-jets.com
@@ -355352,7 +355348,6 @@
 0.0.0.0 medleyads.com
 0.0.0.0 medli090.000webhostapp.com
 0.0.0.0 medline-shape-pts-inspector.trycloudflare.com
-0.0.0.0 medlinelab.com
 0.0.0.0 medlinks.ca
 0.0.0.0 medmaskaxtensaion.webflow.io
 0.0.0.0 medmopharma.com
@@ -367111,7 +367106,6 @@
 0.0.0.0 misaki4552.github.io
 0.0.0.0 misaky.ae
 0.0.0.0 misally.bortogat.ru
-0.0.0.0 misano.gestroom.it
 0.0.0.0 misanoassicurazioni.it
 0.0.0.0 misanthology.com
 0.0.0.0 misanthropically.bortogat.ru
@@ -390473,6 +390467,7 @@
 0.0.0.0 nov-coveraa-suponaci.pages.dev
 0.0.0.0 nov.bortogat.ru
 0.0.0.0 nov.dedspac.ru
+0.0.0.0 nova-75.com
 0.0.0.0 nova-client.com
 0.0.0.0 nova-itacard.azurewebsites.net
 0.0.0.0 nova-office.pl
@@ -396094,7 +396089,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -406302,7 +406296,6 @@
 0.0.0.0 palet.dedspac.ru
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
-0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palingviralsxx.duckdns.org
 0.0.0.0 paliodasti.com.usrfiles.com
@@ -414337,7 +414330,6 @@
 0.0.0.0 physics.uctm.edu
 0.0.0.0 physicsashok.com
 0.0.0.0 physicsbeckons.com
-0.0.0.0 physicsbyfiziks.org
 0.0.0.0 physimath.com
 0.0.0.0 physio-roesch.de
 0.0.0.0 physiology-anatomy.seo-florida.com
@@ -440971,7 +440963,6 @@
 0.0.0.0 raq.programtts.top
 0.0.0.0 raqamtasdiqlash.com
 0.0.0.0 raqi-gamer.github.io
-0.0.0.0 raqmnh.com
 0.0.0.0 raqnor.com
 0.0.0.0 raquelbarros.com.br
 0.0.0.0 raquelnash.autos
@@ -441148,7 +441139,6 @@
 0.0.0.0 rathepayments.com
 0.0.0.0 rathirirounds.com
 0.0.0.0 rathkealechildcare.ie
-0.0.0.0 rathodsoftware.in
 0.0.0.0 rathoraryann.github.io
 0.0.0.0 rathuiasa.duckdns.org
 0.0.0.0 ratiborus2023.com
@@ -444090,6 +444080,7 @@
 0.0.0.0 redwingspolska.com
 0.0.0.0 redwolvesfans.shop
 0.0.0.0 redwx.ga
+0.0.0.0 redxcvfsdgth.info
 0.0.0.0 redye.virosat.ru
 0.0.0.0 redzaredaba.blogspot.com
 0.0.0.0 redzatedas.blogspot.com
@@ -462990,6 +462981,7 @@
 0.0.0.0 seomaniya.com
 0.0.0.0 seonetwizard.com
 0.0.0.0 seosoftware.onlinedownloads.org
+0.0.0.0 sep.dailytechinsight.com
 0.0.0.0 sep.ulitron.ru
 0.0.0.0 sepanta.irexon.com
 0.0.0.0 sepaxenty.shop
@@ -464812,7 +464804,6 @@
 0.0.0.0 sigla.virosat.ru
 0.0.0.0 sigma-oi.freedynamicdns.net
 0.0.0.0 sigma-statistics-push.proxima.nie.easebar.com
-0.0.0.0 sigmaclient.net
 0.0.0.0 sign-coinbase-com-learn.pages.dev
 0.0.0.0 sign-contract.vercel.app
 0.0.0.0 sign-eng-crypto-com.webflow.io
@@ -472170,7 +472161,6 @@
 0.0.0.0 sudahosting.com
 0.0.0.0 sudais73.github.io
 0.0.0.0 sudan.news-pravda.com
-0.0.0.0 sudariocontabilidade.com.br
 0.0.0.0 sudarshanabpatil.github.io
 0.0.0.0 sudd.ulitron.ru
 0.0.0.0 suddenplot.com
@@ -474131,7 +474121,6 @@
 0.0.0.0 tab.dedspac.ru
 0.0.0.0 tab.dellrescue.com
 0.0.0.0 tab.myreserp.com
-0.0.0.0 tabak.hr
 0.0.0.0 tabby.dedspac.ru
 0.0.0.0 tabby.virosat.ru
 0.0.0.0 tabegroup.nl
@@ -477061,7 +477050,6 @@
 0.0.0.0 therozgaar.in
 0.0.0.0 therwwd-teratghtdt-btaeittrearjecdhetalitnoudnttr-nrea-eachhee.lon1.cdn.digitaloceanspaces.com
 0.0.0.0 thesafarigarden.com
-0.0.0.0 thesalons.in
 0.0.0.0 thesciencequest.info
 0.0.0.0 thescoopbakersfield.com
 0.0.0.0 thesearchagency.net
@@ -488939,6 +488927,7 @@
 0.0.0.0 vte.nexteramedia.com
 0.0.0.0 vtelf.cfd
 0.0.0.0 vtiger.silferacademic.com
+0.0.0.0 vtivision-fi.com
 0.0.0.0 vtomanofficialshop.id
 0.0.0.0 vtomanofficialshop.vip
 0.0.0.0 vtoras.top
@@ -492105,7 +492094,6 @@
 0.0.0.0 widu.ulitron.ru
 0.0.0.0 wiecejnizflirt.com
 0.0.0.0 wielixclient.com
-0.0.0.0 wielixclient.net
 0.0.0.0 wielkanagroda.com
 0.0.0.0 wielkaniespodzianka.pl
 0.0.0.0 wielunkapitektron-click.pages.dev
@@ -504948,6 +504936,7 @@
 0.0.0.0 www.msmpokergamer.com
 0.0.0.0 www.msnsports.com
 0.0.0.0 www.mso-eu0881-liveportal-document.b-cdn.net
+0.0.0.0 www.msud148.com
 0.0.0.0 www.msxzff.com
 0.0.0.0 www.mtree.com
 0.0.0.0 www.mtwohome.com
