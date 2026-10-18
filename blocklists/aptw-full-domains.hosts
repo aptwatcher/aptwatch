@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-18 12:34:19
-# Entries: 518302
+# Generated: 2026-10-18 18:33:28
+# Entries: 518305
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -21520,6 +21520,7 @@
 0.0.0.0 3bnwebbpichincha.webcindario.com
 0.0.0.0 3bood89.standardseoservices.com
 0.0.0.0 3boredguys.com
+0.0.0.0 3brosstore.com
 0.0.0.0 3bscafe.com
 0.0.0.0 3btgzfk74gxejzr.qwo231sdx.club
 0.0.0.0 3btvalruqoxo.wusps.xyz
@@ -406311,6 +406312,7 @@
 0.0.0.0 palet.dedspac.ru
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
+0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palingviralsxx.duckdns.org
 0.0.0.0 paliodasti.com.usrfiles.com
@@ -517323,6 +517325,7 @@
 0.0.0.0 zamaniwa.ru
 0.0.0.0 zamaniwa.zanulor.ru
 0.0.0.0 zamanto.ru
+0.0.0.0 zamatours.net
 0.0.0.0 zamekpotstejn.cz
 0.0.0.0 zamia.dedspac.ru
 0.0.0.0 zamia.virosat.ru
