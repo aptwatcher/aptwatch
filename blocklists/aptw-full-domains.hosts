@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-18 06:06:22
-# Entries: 518294
+# Generated: 2026-10-18 06:34:42
+# Entries: 518299
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -89041,6 +89041,7 @@
 0.0.0.0 api.radar.io
 0.0.0.0 api.ranking.rakuten.co.jp
 0.0.0.0 api.rbc.design
+0.0.0.0 api.recapcha.fun
 0.0.0.0 api.receptivity.io
 0.0.0.0 api.redirect-bentobot199.com
 0.0.0.0 api.redirect-human-validation.com
@@ -169088,6 +169089,7 @@
 0.0.0.0 cdn.wataads.com
 0.0.0.0 cdn.watchingthat.net
 0.0.0.0 cdn.wg.uproxx.com
+0.0.0.0 cdn.wovplaying.help
 0.0.0.0 cdn.wwwpromoter.com
 0.0.0.0 cdn.x-lift.jp
 0.0.0.0 cdn.yb0t.com
@@ -211618,6 +211620,7 @@
 0.0.0.0 dontworry52.000webhostapp.com
 0.0.0.0 donum.ulitron.ru
 0.0.0.0 donut.dedspac.ru
+0.0.0.0 donutbasefinder.com
 0.0.0.0 donutclients.st
 0.0.0.0 donutdupe.com
 0.0.0.0 donutecocolate.com
@@ -252285,6 +252288,7 @@
 0.0.0.0 funnydoggifts.com
 0.0.0.0 funnyfikrers.icu
 0.0.0.0 funnyguy3.github.io
+0.0.0.0 funnymap.net
 0.0.0.0 funnymemersz.000webhostapp.com
 0.0.0.0 funnymems.com
 0.0.0.0 funnymoments43454.000webhostapp.com
@@ -284014,6 +284018,7 @@
 0.0.0.0 hornetso.ru
 0.0.0.0 hornhost.xyz
 0.0.0.0 hornitosdellayllay.cl
+0.0.0.0 horno-rafelet.es
 0.0.0.0 horns.virosat.ru
 0.0.0.0 hornusycia.com.ar.ca6.toservers.com
 0.0.0.0 horny.ulitron.ru

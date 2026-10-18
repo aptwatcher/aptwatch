@@ -89034,6 +89034,7 @@ api.quantumgraph.com
 api.radar.io
 api.ranking.rakuten.co.jp
 api.rbc.design
+api.recapcha.fun
 api.receptivity.io
 api.redirect-bentobot199.com
 api.redirect-human-validation.com
@@ -169081,6 +169082,7 @@ cdn.vt.open8.com
 cdn.wataads.com
 cdn.watchingthat.net
 cdn.wg.uproxx.com
+cdn.wovplaying.help
 cdn.wwwpromoter.com
 cdn.x-lift.jp
 cdn.yb0t.com
@@ -211611,6 +211613,7 @@ dontwatch.us
 dontworry52.000webhostapp.com
 donum.ulitron.ru
 donut.dedspac.ru
+donutbasefinder.com
 donutclients.st
 donutdupe.com
 donutecocolate.com
@@ -252278,6 +252281,7 @@ funnybunny-food.ru
 funnydoggifts.com
 funnyfikrers.icu
 funnyguy3.github.io
+funnymap.net
 funnymemersz.000webhostapp.com
 funnymems.com
 funnymoments43454.000webhostapp.com
@@ -284007,6 +284011,7 @@ hornelink.cn
 hornetso.ru
 hornhost.xyz
 hornitosdellayllay.cl
+horno-rafelet.es
 horns.virosat.ru
 hornusycia.com.ar.ca6.toservers.com
 horny.ulitron.ru
