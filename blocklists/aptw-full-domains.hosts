@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-17 18:33:52
-# Entries: 518291
+# Generated: 2026-10-18 00:33:43
+# Entries: 518289
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -11519,6 +11519,7 @@
 0.0.0.0 198971184023675.gq
 0.0.0.0 198981.000webhostapp.com
 0.0.0.0 198c6fb9.ilekdfjcxm.shop
+0.0.0.0 198macros.org
 0.0.0.0 198sr.top
 0.0.0.0 199.167.138.131
 0.0.0.0 199.182.62.50.host.secureserver.net
@@ -36242,6 +36243,7 @@
 0.0.0.0 8094-56492.el-alt.com
 0.0.0.0 809967834.coridas.ru
 0.0.0.0 80a0ebbe.voag.cn
+0.0.0.0 80a6jnaz.basickantoor1.nl
 0.0.0.0 80afd514-98c5-40ae-bd49-d7600d765273.usrfiles.com
 0.0.0.0 80b5-2a01-cb1e-6f-fec6-4835-79a4-169d-f934.ngrok.io
 0.0.0.0 80b8f18c-78e6-40f1-bcd2-f39334570784.id.repl.co
@@ -85865,7 +85867,6 @@
 0.0.0.0 anthonyscottwalls.com
 0.0.0.0 anthonysiconolfi.com
 0.0.0.0 anthonysiow.com
-0.0.0.0 anthonyspizzeriainc.com
 0.0.0.0 anthonystores.com
 0.0.0.0 anthonysullivanjr.com
 0.0.0.0 anthonytalks.com
@@ -138024,7 +138025,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.shop
@@ -155010,6 +155010,7 @@
 0.0.0.0 breeze.virosat.ru
 0.0.0.0 breezeartcreatives.com
 0.0.0.0 breezeclient.com
+0.0.0.0 breezeclient.org
 0.0.0.0 breezeline-100662.weeblysite.com
 0.0.0.0 breezeline-103237.weeblysite.com
 0.0.0.0 breezenvironmental.com
@@ -156381,7 +156382,6 @@
 0.0.0.0 brotherskeeperinc.com
 0.0.0.0 brothersoft.us.intellitxt.com
 0.0.0.0 brothersonwheels.com
-0.0.0.0 brotherspizzapeoria.com
 0.0.0.0 broths.virosat.ru
 0.0.0.0 brotli.chioloodro.live
 0.0.0.0 brotrust.com
@@ -162300,7 +162300,6 @@
 0.0.0.0 c-chase-xm.duckdns.org
 0.0.0.0 c-e-f-validardispo.cf
 0.0.0.0 c-eus.w.inmobi.com
-0.0.0.0 c-f-u.com
 0.0.0.0 c-h-a-s-e-customer-secure07be1-info-vrfy-updt.000webhostapp.com
 0.0.0.0 c-hear.co.uk
 0.0.0.0 c-ibc01.com
@@ -168434,6 +168433,7 @@
 0.0.0.0 cddsolution.com
 0.0.0.0 cddsr.monster
 0.0.0.0 cddwcjcifa.duckdns.org
+0.0.0.0 cde.monther.life
 0.0.0.0 cde.omsules.life
 0.0.0.0 cde3647b649b682bab9dc90793cd041b-dot-gle9392420309493993.rj.r.appspot.com
 0.0.0.0 cdebdbb82115fdf32ed706ea0805c482db.pages.dev
@@ -169249,7 +169249,6 @@
 0.0.0.0 cdssshopcqwenuk.vwk.my.id
 0.0.0.0 cdsusa.veinteractive.com
 0.0.0.0 cdt-suisspost-verif.u1388972.cp.regruhosting.ru
-0.0.0.0 cdt.omsules.life
 0.0.0.0 cdt.rgy.mybluehost.me
 0.0.0.0 cdtaedcfzi.duckdns.org
 0.0.0.0 cdtagricoleassis.useruno.com
@@ -169263,7 +169262,6 @@
 0.0.0.0 cduwvyoqtnpezxsk-dot-millinium.ey.r.appspot.com
 0.0.0.0 cdv.pages.dev
 0.0.0.0 cdvlxugzafwhhmac-dot-millinium.ey.r.appspot.com
-0.0.0.0 cdw.omsules.life
 0.0.0.0 cdwhwg.com
 0.0.0.0 cdwyer.jpmorgan-bh.com
 0.0.0.0 cdxjvyrxjkrntnzousenwtkfij-dot-gloff849483.uk.r.appspot.com
@@ -194701,7 +194699,6 @@
 0.0.0.0 d-getweb.dnsme.eu.org
 0.0.0.0 d-groov.com
 0.0.0.0 d-invisible.github.io
-0.0.0.0 d-j-d.com
 0.0.0.0 d-jackets.net
 0.0.0.0 d-kb-ssl-800232.login-de.info
 0.0.0.0 d-koresolar.com
@@ -209075,7 +209072,6 @@
 0.0.0.0 dkkwmansehduf.weebly.com
 0.0.0.0 dkl.bortogat.ru
 0.0.0.0 dkl.teiegream.fit
-0.0.0.0 dklak.cam
 0.0.0.0 dkldasl.000webhostapp.com
 0.0.0.0 dkligenu.dk
 0.0.0.0 dkljhfkdfasdfjgdsf.tk
@@ -211625,6 +211621,7 @@
 0.0.0.0 donutdupe.com
 0.0.0.0 donutecocolate.com
 0.0.0.0 donutsmpclient.com
+0.0.0.0 donutsmpdupes.lol
 0.0.0.0 donval.112.2o7.net
 0.0.0.0 donweeseinc.com
 0.0.0.0 donyaiajor.com
@@ -229563,6 +229560,7 @@
 0.0.0.0 exmgcyyjos.duckdns.org
 0.0.0.0 exmykjb.tk
 0.0.0.0 exnessbroker.review
+0.0.0.0 exo-api.tf
 0.0.0.0 exo-confirm.com
 0.0.0.0 exo-fwb-at.40net.org
 0.0.0.0 exo-red.com
@@ -236382,6 +236380,7 @@
 0.0.0.0 family87.masshir.ru
 0.0.0.0 familyabroad.net
 0.0.0.0 familyaddons.com
+0.0.0.0 familyaddons.org
 0.0.0.0 familyfamily.co
 0.0.0.0 familyfirstfinancial.top
 0.0.0.0 familyfirstkentucky.com
@@ -260179,12 +260178,15 @@
 0.0.0.0 gitoba1216.temp.swtest.ru
 0.0.0.0 gitorfa.ru
 0.0.0.0 gitpaxful.com
+0.0.0.0 gitrm.sbs
 0.0.0.0 gitrostan.ru
 0.0.0.0 gits.freemevent.com
+0.0.0.0 gitsl.xyz
 0.0.0.0 gitsubhranshu.github.io
 0.0.0.0 gittodowvhpgoatt-dot-millinium.ey.r.appspot.com
 0.0.0.0 gitujoo5.life
 0.0.0.0 gitvbqypma.7913.cuandotehacesmayor.com
+0.0.0.0 gitview.sbs
 0.0.0.0 gityb-4aaaa-aaaad-qcyxq-cai.raw.ic0.app
 0.0.0.0 gitzandbitz.com.au
 0.0.0.0 giudeviaggio.com
@@ -285947,7 +285949,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -299058,6 +299059,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -299989,7 +299991,6 @@
 0.0.0.0 internetissue.autos
 0.0.0.0 internetlint.info
 0.0.0.0 internetmillionaires.com
-0.0.0.0 internetmissouri.com
 0.0.0.0 internetmoskva.ru
 0.0.0.0 internetnc2-router-app.onlinewebshop.net
 0.0.0.0 internetnc2programasemprepresente.com
@@ -302992,6 +302993,7 @@
 0.0.0.0 itaylsuoi4.co.vu
 0.0.0.0 itb2015.itb.ac.id
 0.0.0.0 itb6dg9fsldwz0iw1ea5.pages.dev
+0.0.0.0 itbakersfield.com
 0.0.0.0 itbcreate.com
 0.0.0.0 itbeginner.fr
 0.0.0.0 itbgiso.keltron.in
@@ -327148,7 +327150,6 @@
 0.0.0.0 ld-app-supports.com
 0.0.0.0 ld-apple-com.zw1.es
 0.0.0.0 ld-apps-supports.com
-0.0.0.0 ld-cf.com
 0.0.0.0 ld-eu.shop
 0.0.0.0 ld-fmi-report.us
 0.0.0.0 ld-icloud.com
@@ -340329,7 +340330,6 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
-0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -356102,7 +356102,6 @@
 0.0.0.0 melon.ulitron.ru
 0.0.0.0 melon15096491.brizy.site
 0.0.0.0 melon7736057.brizy.site
-0.0.0.0 melonandworld.top
 0.0.0.0 melos.myftp.biz
 0.0.0.0 melos.ulitron.ru
 0.0.0.0 melot-ravalement.com
@@ -366457,6 +366456,7 @@
 0.0.0.0 mineduc.gurucontact.com
 0.0.0.0 minefieald.fr
 0.0.0.0 minefieldsoftheheart.com
+0.0.0.0 minefox.lol
 0.0.0.0 minegocioenlinea.cu.ma
 0.0.0.0 minegrazemagazines.com
 0.0.0.0 mineinvoice.com
@@ -384845,7 +384845,6 @@
 0.0.0.0 new.newitventure.com
 0.0.0.0 new.nlbreview.nz.llkhk.abrdns.com
 0.0.0.0 new.oldpeterrteam.world
-0.0.0.0 new.omsules.life
 0.0.0.0 new.page.sacramento.gq
 0.0.0.0 new.prize.asia
 0.0.0.0 new.r-private.net
@@ -399668,6 +399667,7 @@
 0.0.0.0 oopswear.com
 0.0.0.0 oopt.fr
 0.0.0.0 oopvzboywgtrjfbc-dot-millinium.ey.r.appspot.com
+0.0.0.0 oopz.app
 0.0.0.0 ooqmcywirlbzgiwq-dot-millinium.ey.r.appspot.com
 0.0.0.0 oor.4buyuklergazete.com
 0.0.0.0 oor.lu
@@ -411168,6 +411168,7 @@
 0.0.0.0 peduli-corona.wikaba.com
 0.0.0.0 pedulimembaca.com
 0.0.0.0 pedzap.net
+0.0.0.0 pee-files.nl
 0.0.0.0 pee.dedspac.ru
 0.0.0.0 pee.ulitron.ru
 0.0.0.0 peeas.cloudns.asia
@@ -417008,7 +417009,6 @@
 0.0.0.0 plobberly.vercel.app
 0.0.0.0 ploce.dedspac.ru
 0.0.0.0 ploce.ulitron.ru
-0.0.0.0 plochcarsportsball.top
 0.0.0.0 plod.ulitron.ru
 0.0.0.0 plodjjks.com
 0.0.0.0 ploferta-93742993.shop
@@ -461381,7 +461381,6 @@
 0.0.0.0 screwscape.com
 0.0.0.0 scrhotpoljk.lovable.app
 0.0.0.0 scribbens.fr
-0.0.0.0 scribblebubblebibi.top
 0.0.0.0 scribe.logs.roku.com
 0.0.0.0 scribe.ttwitter.com
 0.0.0.0 scribe.twitter.com
@@ -464810,6 +464809,7 @@
 0.0.0.0 sigma-oi.freedynamicdns.net
 0.0.0.0 sigma-statistics-push.proxima.nie.easebar.com
 0.0.0.0 sigmaclient.net
+0.0.0.0 sigmaclient.org
 0.0.0.0 sign-coinbase-com-learn.pages.dev
 0.0.0.0 sign-contract.vercel.app
 0.0.0.0 sign-eng-crypto-com.webflow.io
@@ -471059,7 +471059,6 @@
 0.0.0.0 steelhouse.com
 0.0.0.0 steelhousemedia.com
 0.0.0.0 steelpocket.vercel.app
-0.0.0.0 steelstanleystaystrong.top
 0.0.0.0 steemcommunty.com
 0.0.0.0 steemcomnmunity.com
 0.0.0.0 steemcomrnuinty.com
@@ -477031,7 +477030,6 @@
 0.0.0.0 therajdeepmallick.github.io
 0.0.0.0 theransone.pages.dev
 0.0.0.0 therapistla.com
-0.0.0.0 therapygeorgia.com
 0.0.0.0 therealesxaath.top
 0.0.0.0 therealmyrn.github.io
 0.0.0.0 theredeemer.pages.dev
@@ -485760,7 +485758,6 @@
 0.0.0.0 v-vpass-jp.zcbank-vip.com
 0.0.0.0 v-vpass-jp.zhaoshengzz.com
 0.0.0.0 v-vpass-jp.zydzpk.com
-0.0.0.0 v-w-v.com
 0.0.0.0 v-wrd.com
 0.0.0.0 v.187000.xyz
 0.0.0.0 v.admaster.com.cn
@@ -487312,6 +487309,7 @@
 0.0.0.0 view953.davefolts.com
 0.0.0.0 viewerdoconline.com
 0.0.0.0 viewfile.b-cdn.net
+0.0.0.0 viewgit.sbs
 0.0.0.0 viewnetportaluk.shop
 0.0.0.0 views-auth-cryptoapp.webflow.io
 0.0.0.0 views-helps.business-minagne.com
