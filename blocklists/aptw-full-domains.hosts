@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-18 06:34:42
-# Entries: 518299
+# Generated: 2026-10-18 12:34:19
+# Entries: 518302
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -138026,6 +138026,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.shop
@@ -168476,6 +168477,7 @@
 0.0.0.0 cdjc3qq3ddcq3c.ts.r.appspot.com
 0.0.0.0 cdjd.azurewebsites.net
 0.0.0.0 cdjvpapcundoegnnuxilbjjrlm-dot-gleowayel400503.uc.r.appspot.com
+0.0.0.0 cdk.monther.life
 0.0.0.0 cdkgroup.net
 0.0.0.0 cdkjnsulfy.duckdns.org
 0.0.0.0 cdkl.azurewebsites.net
@@ -169089,7 +169091,6 @@
 0.0.0.0 cdn.wataads.com
 0.0.0.0 cdn.watchingthat.net
 0.0.0.0 cdn.wg.uproxx.com
-0.0.0.0 cdn.wovplaying.help
 0.0.0.0 cdn.wwwpromoter.com
 0.0.0.0 cdn.x-lift.jp
 0.0.0.0 cdn.yb0t.com
@@ -240659,7 +240660,6 @@
 0.0.0.0 fdsfsewfdsf.cf
 0.0.0.0 fdsgdsgs.easy.co
 0.0.0.0 fdshrtgds.yourtrap.com
-0.0.0.0 fdstat.vip
 0.0.0.0 fdsxaz2cds.pages.dev
 0.0.0.0 fdsxc.cckqatx.cn
 0.0.0.0 fdsyfmtfoa.duckdns.org
@@ -249206,6 +249206,7 @@
 0.0.0.0 frame.amx788.cn
 0.0.0.0 frame.virosat.ru
 0.0.0.0 frame2uavaprosystem.digital
+0.0.0.0 frame97.com
 0.0.0.0 framebound.cloud
 0.0.0.0 framecapturestudio.com
 0.0.0.0 framecom.pages.dev
@@ -299067,6 +299068,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -318607,7 +318609,6 @@
 0.0.0.0 kirykoy.com
 0.0.0.0 kis.dedspac.ru
 0.0.0.0 kis.hosteurope.de.rechnungcheck.live
-0.0.0.0 kis.marketing
 0.0.0.0 kis.ulitron.ru
 0.0.0.0 kish.dedspac.ru
 0.0.0.0 kish.io
@@ -340338,6 +340339,7 @@
 0.0.0.0 lum22.vercel.app
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
+0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -371714,7 +371716,6 @@
 0.0.0.0 mothermoonfathersun.org
 0.0.0.0 motherofpearlproductions.com
 0.0.0.0 mothersoftware.in
-0.0.0.0 mothertouch.ac.zw
 0.0.0.0 mothertouchgroup.org
 0.0.0.0 mothopogamelodge.co.za
 0.0.0.0 mothrash.vercel.app
@@ -510048,6 +510049,7 @@
 0.0.0.0 www.skleppremium.com
 0.0.0.0 www.sklepygucci.pl
 0.0.0.0 www.sklurenibra.digital
+0.0.0.0 www.skmac811.com
 0.0.0.0 www.skovello.com
 0.0.0.0 www.skovenahome.com
 0.0.0.0 www.skucristvaltreo-software.com
@@ -516723,6 +516725,7 @@
 0.0.0.0 yokel.dedspac.ru
 0.0.0.0 yoker.dedspac.ru
 0.0.0.0 yokesh1828.github.io
+0.0.0.0 yokobd.com
 0.0.0.0 yokohamah.booksvala.in
 0.0.0.0 yoks.dedspac.ru
 0.0.0.0 yoky.dedspac.ru
