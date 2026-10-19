@@ -1,0 +1,98 @@
+author: APTWatch Curator
+
+source: https://www.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models
+source_name: Sysdig TRT - JADEPUFFER evolves (ENCFORGE), with Sysdig part I and Microsoft Storm-3168 companion reports
+
+apt_groups:
+  - Storm-3168
+  - JADEPUFFER
+  - JadePuffer
+
+description: >
+  JADEPUFFER (tracked by Microsoft as Storm-3168) is an agentic threat actor
+  whose intrusions are driven end-to-end by an LLM agent rather than a human
+  operator; Sysdig TRT assesses it as the first documented agentic ransomware
+  operation. Attribution between the three public reports rests on shared
+  infrastructure (45.131.66.106 and 34.153.223.102 appear in both the Sysdig
+  and Microsoft reporting) and on the unchanged extortion contact
+  e78393397@proton.me embedded in both the July 2026 MySQL ransom table and
+  the ENCFORGE binary. Category: ransomware_crime_ops, financially motivated,
+  destruction-first (single extortion, no leak site, no exfiltration confirmed).
+  Victimology: internet-exposed Langflow instances (AI orchestration), a
+  downstream MySQL + Alibaba Nacos production server, Azure tenants reached
+  through compromised service principals, and AI/ML model artifacts on hosts
+  adjacent to Langflow. Credential sweeps explicitly cover Chinese cloud
+  providers (ALIBABA_, ALIYUN_, TENCENT_, HUAWEI_) alongside AWS/GCP/Azure.
+  TTPs: initial access via Langflow unauthenticated RCE CVE-2025-3248 on
+  /api/v1/validate/code (T1190), Base64-encoded Python payloads (T1059.006,
+  T1027), credential harvesting from environment and Langflow Postgres
+  (T1552.001, T1555), MinIO enumeration with default minioadmin credentials
+  (T1078.001), crontab beacon every 30 min to the C2 (T1053.003), Nacos auth
+  bypass CVE-2021-29441 and backdoor admin insertion (T1136), database-native
+  encryption with MySQL AES_ENCRYPT and table drops (T1486, T1485), Docker
+  socket abuse and privileged nsenter escape container (T1611, T1610), ENCFORGE
+  Go locker with AES-256-CTR + RSA-2048 KEM and .locked suffix (T1486), shadow
+  copy / bcdedit anti-recovery (T1490). In Azure (Microsoft, 2026-09-25):
+  compromised service principals (T1078.004), 300+ enumeration calls (T1526),
+  100+ storage account deletions plus Key Vault / Function App / App Service
+  plan deletions in 7 minutes (T1485), attempts against Site Recovery and
+  Backup locks (T1490), 30+ ListKeys storage key retrievals (T1552.005);
+  user agent python-requests/2.34.2.
+  Infrastructure roles: 45.131.66.106 (AS49453, NL) - initial access, cron
+  beacon hxxp://45.131.66.106:4444/beacon, App Service probing and malicious
+  ARM requests, first seen by Sysdig late June 2026 and by Microsoft since early
+  2026; 34.153.223.102 (GCP) - C2 on port 9191 serving ENCFORGE at /.lockd
+  (leading dot, /lockd returns 404) and a staged CPython 3.14 tree at
+  /pv/bin/{python,python3,pi-thon}, App Service probing per Microsoft, first
+  seen 2026-07 by Sysdig; 64.20.53.230 (InterServer, AS19318) - self-narrated
+  "backup" / staging server in the agent's own payload comments and App Service
+  probing per Microsoft, no evidence anything was actually exfiltrated to it.
+  These three IPv4 are ALREADY in the APTWatch base (iocs/ipv4.txt, ingested
+  by the 2026-10-05 feed update, no actor attribution) and are therefore
+  excluded from the ipv4 list below: curator, please refresh last_seen to
+  2026-09-25 and attach them to the Storm-3168 / JADEPUFFER actor. The
+  pi-thon URL (U+1D70B homoglyph prefix) is omitted from the urls list to
+  avoid non-ASCII in IOC values; it is byte-identical to the two listed
+  python paths.
+  SHA-256 file indicators published by Sysdig, no hash field in this schema,
+  recorded here for the curator: lockd packed UPX 5.20
+  8cb0c223b018cecef1d990ec81c67b826eb3c30d54f06193cf69969e9a8baea2 (1,501,888 B);
+  lockd unpacked Go 1.22.12
+  ea7822eac6cecef7746c606b862b4d3034856caf754c4cf69533662637905328 (4,767,896 B);
+  staged CPython 3.14 (benign interpreter, homoglyph evasion)
+  ab9824b61587c77a8d8649545cdbdc63ed2c384e45c9aba534e3f457f96efa7a;
+  embedded RSA-2048 DER SHA-256
+  2378bf45bb54fb2defc460063c9b43e09870741b62692b7f6acbc3cd7898bb3 (as printed
+  by Sysdig, 63 hex chars, likely a transcription truncation in the source,
+  recorded verbatim). Build-stable strings: project encfile, keygen keyforge,
+  ransom notes README / HOW_TO_DECRYPT / README_DECRYPT, campaign task IDs
+  gcp_h1 / gcp_test, MySQL ransom table README_RANSOM. Bitcoin address
+  3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy is the canonical P2SH documentation
+  example and may be an LLM hallucination; not submitted as an IOC, noted for
+  context only. Companion sources: Sysdig part I (2026-07-01)
+  https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion ;
+  Microsoft Security Research (2026-09-25)
+  https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/ ;
+  Sysdig YARA rule ENCFORGE_Ransomware_Unpacked (TLP:WHITE) in the source.
+  APTWatch batch lookup query_id qry_01M5AC4A4BQQMM3PEPPEEQBAJ9 (2026-10-19):
+  result_count 0 for all six IOCs tested (3 IPv4, email, 2 URLs), confirming
+  no existing actor attribution. Related Defender TA reports: Actor Profile:
+  Storm-3168, GUID 772db302-0cf6-4d56-8f53-96297bfc6640, published and updated
+  2026-10-14; Activity Profile: Storm-3168: Agentic-driven cloud attacks using
+  compromised service principals, GUID c2c9de63-5c79-4b14-bdae-b8537f3fbc51,
+  updated 2026-09-25. Flag originated from the analyse-ms-threat-analytics
+  skill run of 2026-10-15, Storm-3168 watchlist match (alias JadePuffer),
+  category ransomware_crime_ops.
+
+urls:
+  - http://45.131.66.106:4444/beacon
+  - http://34.153.223.102:9191/.lockd
+  - http://34.153.223.102:9191/pv/bin/python
+  - http://34.153.223.102:9191/pv/bin/python3
+
+emails:
+  - e78393397@proton.me
+
+cves:
+  - CVE-2025-3248
+  - CVE-2021-29441
