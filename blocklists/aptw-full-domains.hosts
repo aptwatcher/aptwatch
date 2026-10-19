@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-19 12:34:08
-# Entries: 516150
+# Generated: 2026-10-19 15:57:23
+# Entries: 516153
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -184086,6 +184086,7 @@
 0.0.0.0 communication-act.ddns.net
 0.0.0.0 communication-diary-thwart.vercel.app
 0.0.0.0 communication-ergo-additional-their.vercel.app
+0.0.0.0 communication-hub.vg
 0.0.0.0 communication-journal-stop.vercel.app
 0.0.0.0 communication-register-check.vercel.app
 0.0.0.0 communicationcenrale-ba5b01.ingress-daribow.ewp.live
@@ -202129,6 +202130,7 @@
 0.0.0.0 derlebenscode.com
 0.0.0.0 derlipapelaria.com.br
 0.0.0.0 derma.shop
+0.0.0.0 dermaclinicmd.com
 0.0.0.0 dermainfo.aedv.es
 0.0.0.0 dermaksger.com
 0.0.0.0 dermalentesog.pro
@@ -266555,6 +266557,7 @@
 0.0.0.0 grovechicboutique.com
 0.0.0.0 grovehue.shop
 0.0.0.0 grovelocksmith.com
+0.0.0.0 groverudder12.com
 0.0.0.0 grovesquarejc.com
 0.0.0.0 grovy.ulitron.ru
 0.0.0.0 grovy.virosat.ru

@@ -1,0 +1,67 @@
+# APT Watch IOC Collector — 2026-10-19
+# Mode: local
+300ms.origin.top  # Sandworm
+a0662337.xsph.ru  # Gamaredon
+a0671808.xsph.ru  # Gamaredon
+a0693131.xsph.ru  # Gamaredon
+a0695487.xsph.ru  # Gamaredon
+a0698262.xsph.ru  # Gamaredon
+a0698649.xsph.ru  # Gamaredon
+a0700343.xsph.ru  # Gamaredon
+a0700424.xsph.ru  # Gamaredon
+a0700461.xsph.ru  # Gamaredon
+a0700462.xsph.ru  # Gamaredon
+a0701919.xsph.ru  # Gamaredon
+a0704093.xsph.ru  # Gamaredon
+a0705076.xsph.ru  # Gamaredon
+a0705269.xsph.ru  # Gamaredon
+a0705581.xsph.ru  # Gamaredon
+a0705880.xsph.ru  # Gamaredon
+a0706248.xsph.ru  # Gamaredon
+a0707763.xsph.ru  # Gamaredon
+a0707869.xsph.ru  # Gamaredon
+a0708743.xsph.ru  # Gamaredon
+a0711854.xsph.ru  # Gamaredon
+a0713099.xsph.ru  # Gamaredon
+a0714424.xsph.ru  # Gamaredon
+a0714714.xsph.ru  # Gamaredon
+a0715242.xsph.ru  # Gamaredon
+a0716247.xsph.ru  # Gamaredon
+a0716572.xsph.ru  # Gamaredon
+a0716943.xsph.ru  # Gamaredon
+a0717288.xsph.ru  # Gamaredon
+a0718624.xsph.ru  # Gamaredon
+aerofluidthermo.org  # Callisto
+celticso.ru  # Gamaredon
+childrights.in.ua  # Gamaredon
+civilstructgeo.org  # Callisto
+dank.hazari.ru  # Gamaredon
+dbca10b5-63e0-42ec-ad10-de13be96dc42.dnshook.site  # Pawn Storm
+downloads.email-attachments.ru  # Gamaredon
+downloads.file-attachments.ru  # Gamaredon
+e.muravej.ua  # Gamaredon
+esetremover.com  # Sandworm
+esetsmart.com  # Sandworm
+filen.io  # Pawn Storm
+frantov.com.ua  # Gamaredon
+freefoodaid.com  # Pawn Storm
+heato.ru  # Gamaredon
+hostapp.be  # Sandworm
+indicator.style.top  # Pawn Storm
+kuckuduk.ru  # Gamaredon
+longsauce.com  # Pawn Storm
+mail.file-attachments.ru  # Gamaredon
+mikelab.kiev.ua  # Gamaredon
+motoristo.ru  # Gamaredon
+pasamart.ru  # Gamaredon
+rms.admin-ru.ru  # Gamaredon
+samotsvety.com.ua  # Gamaredon
+t.style.top  # Pawn Storm
+tainfo.com.ua  # Gamaredon
+temp.swtest.ru  # Gamaredon
+ukrway.galaktion.ru  # Gamaredon
+wellnesscaremed.com  # Pawn Storm
+wellnessmedcare.org  # Pawn Storm
+www.file-attachments.ru  # Gamaredon
+www.win-restore.ru  # Gamaredon
+x-transition.origin.top  # Sandworm
