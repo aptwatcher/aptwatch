@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-19 06:34:58
-# Entries: 516141
+# Generated: 2026-10-19 12:34:08
+# Entries: 516150
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -141789,6 +141789,7 @@
 0.0.0.0 betise.virosat.ru
 0.0.0.0 betitatl.com
 0.0.0.0 betitonpartners.com
+0.0.0.0 betmagik.com
 0.0.0.0 betmaster.site
 0.0.0.0 betmen-id.com
 0.0.0.0 betmgm-support.com
@@ -211855,6 +211856,7 @@
 0.0.0.0 download.tiktok906.com
 0.0.0.0 download.tiktoks971.com
 0.0.0.0 download.tkk-mall.icu
+0.0.0.0 download.vertex-software.digital
 0.0.0.0 download.weatherblink.com
 0.0.0.0 download.wildcard.applovin.com.edgekey.net
 0.0.0.0 download.windowsmicrosoft.ml
@@ -253745,6 +253747,7 @@
 0.0.0.0 gabuuung-gerupp-888.duckdns.org
 0.0.0.0 gabuying.com
 0.0.0.0 gaby.amaniwa.ru
+0.0.0.0 gabyagozetim.com
 0.0.0.0 gabygaubwyw-watsp.duckdns.org
 0.0.0.0 gabyt.net
 0.0.0.0 gacca.gachamntoon.my.id
@@ -313350,6 +313353,7 @@
 0.0.0.0 julyneeds.com
 0.0.0.0 jum7590-o.weebly.com
 0.0.0.0 jumabijuterias.com.br
+0.0.0.0 jumalputty.com
 0.0.0.0 jumangserspk.com
 0.0.0.0 jumanji222.xyz
 0.0.0.0 jumba.virosat.ru
@@ -327182,6 +327186,7 @@
 0.0.0.0 leaf.boletuso.ru
 0.0.0.0 leafapppmoz.giraffe500.workers.dev
 0.0.0.0 leafcup.ruhodo.ru
+0.0.0.0 leafdraft18.com
 0.0.0.0 leaffi.jp
 0.0.0.0 leaflandscapesupplyonlinesecureinvoicingservice.on.fleek.co
 0.0.0.0 leafless-employees.000webhostapp.com
@@ -389281,6 +389286,7 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
+0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
 0.0.0.0 northga.rocks
@@ -421109,6 +421115,7 @@
 0.0.0.0 power-contacts.000webhostapp.com
 0.0.0.0 power-leveling-fast.com
 0.0.0.0 power-quirky-wave.glitch.me
+0.0.0.0 power-shell.cc
 0.0.0.0 power-tree.com
 0.0.0.0 power.dedspac.ru
 0.0.0.0 power.myuminlwinhtangtc.workers.dev
@@ -454190,6 +454197,7 @@
 0.0.0.0 runecpower.com
 0.0.0.0 runed.dedspac.ru
 0.0.0.0 runelie.net
+0.0.0.0 runelight.net
 0.0.0.0 runelite.cc
 0.0.0.0 runerank.org
 0.0.0.0 runescape-doublexps.com
@@ -515638,6 +515646,7 @@
 0.0.0.0 zimbraverificationb.vercel.app
 0.0.0.0 zimmernroofingservices.com
 0.0.0.0 zimmi.virosat.ru
+0.0.0.0 zimzar.site
 0.0.0.0 zin-n.shop
 0.0.0.0 zinamax.pl
 0.0.0.0 zinc-bird-gigantoraptor.glitch.me
