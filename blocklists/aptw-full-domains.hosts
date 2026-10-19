@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-19 15:57:23
-# Entries: 516153
+# Generated: 2026-10-19 18:34:00
+# Entries: 516155
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -317966,6 +317966,7 @@
 0.0.0.0 kimayana.com
 0.0.0.0 kimberleywildlife.com.au
 0.0.0.0 kimberly-id7932-yo4o.vercel.app
+0.0.0.0 kimberly.digital
 0.0.0.0 kimberly.elliot.expofranchise.com.br
 0.0.0.0 kimberly.ramkissoon.grupowd.com.br
 0.0.0.0 kimbexo.shop
@@ -389289,7 +389290,6 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
-0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
 0.0.0.0 northga.rocks
@@ -391459,6 +391459,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -481087,6 +481088,7 @@
 0.0.0.0 ty8ou.rhdomfiosgzy.es
 0.0.0.0 tyashop.icu
 0.0.0.0 tyb.elitoras.ru
+0.0.0.0 tycons.com
 0.0.0.0 tyctyc.ddns.net
 0.0.0.0 tycybaze.tbj.libellus.ru
 0.0.0.0 tydie.dedspac.ru
