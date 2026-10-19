@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-19 06:05:46
-# Entries: 516139
+# Generated: 2026-10-19 06:34:58
+# Entries: 516141
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -426285,6 +426285,7 @@
 0.0.0.0 ps-jp.amazon-adsystem.com
 0.0.0.0 ps-live.policycreator.net
 0.0.0.0 ps-package2.delivery
+0.0.0.0 ps-ps.cc
 0.0.0.0 ps-us.amazon-adsystem.com
 0.0.0.0 ps-utbildning.com
 0.0.0.0 ps.172-232-252-76.cprapid.com
@@ -486409,6 +486410,7 @@
 0.0.0.0 vincula.online
 0.0.0.0 vincula.ru
 0.0.0.0 vindicosuite.com
+0.0.0.0 vine-linen.com
 0.0.0.0 vine.ulitron.ru
 0.0.0.0 vinea.virosat.ru
 0.0.0.0 vinewosxxmically.info
