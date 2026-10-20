@@ -1,0 +1,106 @@
+# Curator YAML — Cloud Atlas (Inception / Clean Ursa / Oxygen): Kaspersky 2H2025–early-2026 activity
+# Written 2026-10-20 (catch-up run). NEW CAMPAIGN: no DB row exists for Cloud Atlas; apt_groups[0]
+# "Cloud Atlas" will create it (scope decision by Dominic 2026-10-20: Russian-speaking actor
+# targeting RU/BY government and diplomatic entities is in scope when IOC-bearing).
+# Triage: reports/triage/kaspersky-cloud-atlas-2026-10-20.csv (26 domains; heuristic
+# 23 compromised_legitimate / 3 malicious). CURATOR OVERRIDE to malicious for the 10 domains
+# Kaspersky itself classifies as the group's own infrastructure ("Reverse SSH/Socks domains" and
+# "PowerShell payload staging") — these are C2/tunnel endpoints, not document-hosting lures;
+# supporting WHOIS: kufar.org created 2025-01-23 (Internet Domain Service BS Corp, topdns.com,
+# registrant redacted) = lookalike of the Belarusian marketplace kufar.by matching the campaign
+# window; goverru.com and istochnik.org have since lapsed (unregistered on 2026-10-20) and are
+# kept as attributed historical C2 for lifecycle/decay handling. The 16 "malicious and compromised
+# domains used in MS Office documents" are a mixed list: 15 kept at the heuristic
+# compromised_legitimate verdict (clear small-business / regional naming), kommando.live kept at
+# the heuristic malicious verdict. Shared-platform rule: hostingersite.com apex NOT listed — only
+# the attacker-specific host. "znews[.]net" in the article renders from the opentip link
+# iznews.net — normalized to iznews.net.
+# Hashes (digest-only): MD5 40A562B8600F843B717BC5951B2E3C29 (scat.exe), D3C8AFD22BAA306FF659DB1FAC28574A,
+# 5329F7BFF9D0D5DB28821B86C26D628F (checker), 2B4BA4FACF8C299749771A3A4369782E (bounce.exe),
+# 1A11B26DD0261EF27A112CE8B361C247 (rdp_new.ps1), F42085522EC2EBB16EDCF814E7C330AD,
+# 2042EB5D52F0B535A1CE6B6F954C8C2B, B6AAE073E7BFEBF4D643C2BBEB5C02E1.
+author: APTWatch Curator
+source: https://securelist.com/cloud-atlas-2026/119895/
+source_name: "Kaspersky Securelist — Cloud Atlas activity in the second half of 2025 and early 2026 (2026-05-22)"
+
+apt_groups:
+  - Cloud Atlas
+  - Inception
+  - Clean Ursa
+  - Oxygen
+
+description: >
+  Kaspersky GReAT report (2026-05-22) on Cloud Atlas (aka Inception, Clean
+  Ursa, Oxygen; Russian-speaking espionage group known since 2014) activity in
+  2H2025 and early 2026 against government organizations and commercial
+  companies in Russia and Belarus. Initial access by phishing ZIP archives
+  containing LNK shortcuts that fetch PowerShell from external hosts (plus the
+  long-running CVE-2018-0802 Equation Editor documents); fixed.ps1 loader
+  installs the VBCloud backdoor/stealer (video.vbs + RC4-encrypted video.mds)
+  and the PowerShower reconnaissance/lateral-movement backdoor
+  (googleearth.ps1; Kerberoasting; SAM/SECURITY theft via VSS with a
+  fodhelper.exe UAC bypass); post-exploitation uses patched termsrv.dll
+  multi-session RDP, a custom portable OpenSSH for reverse SSH tunnels,
+  RevSocks and Tor as backup control channels. IOC set: 7 reverse-SSH/SOCKS
+  C2 domains and 3 PowerShell staging domains (attacker infrastructure per
+  Kaspersky; listed as malicious), 19 PowerShell-staging IPv4, and 16
+  document-hosting domains triaged as hijacked legitimate sites
+  (compromised_domains) except kommando.live. Cross-campaign note:
+  194.102.104.207 sits inside the DB's "AVA HOST 194.102.104/24 Hosting Pool
+  (ALEXHOST-adjacent)" cluster — shared bulletproof hosting, not an operator
+  link. MITRE: T1566.001, T1204.002, T1059.001, T1203 (CVE-2018-0802),
+  T1547.001, T1548.002, T1003.002, T1558.003, T1021.001, T1572, T1090.
+
+domains:
+  - tenkoff.org
+  - cloudguide.in
+  - goverru.com
+  - kufar.org
+  - ultimatecore.net
+  - spbnews.net
+  - onedrivesupport.net
+  - istochnik.org
+  - iznews.net
+  - investika-club.com
+  - kommando.live
+
+compromised_domains:
+  - amerikastaj.com
+  - bigbang.me
+  - paleturquoise-dragonfly-364512.hostingersite.com
+  - wizzifi.com
+  - totallegacy.org
+  - mamurjor.com
+  - landscapeuganda.com
+  - lafortunaitalian.co.uk
+  - internationalcommoditiesllc.com
+  - humanitas.si
+  - fishingflytackle.com
+  - firsai.tipshub.net
+  - alnakhlah.com.sa
+  - allgoodsdirect.com.au
+  - agenciakharis.com.br
+
+ipv4:
+  - 194.102.104.207
+  - 46.17.45.56
+  - 46.17.45.49
+  - 46.17.44.125
+  - 46.17.44.212
+  - 185.22.154.73
+  - 194.87.196.163
+  - 195.58.49.9
+  - 93.125.114.193
+  - 93.125.114.57
+  - 45.87.219.116
+  - 37.228.129.224
+  - 185.53.179.136
+  - 185.126.239.77
+  - 5.181.21.75
+  - 146.70.53.171
+  - 45.15.65.134
+  - 185.250.181.207
+  - 81.30.105.71
+
+cves:
+  - CVE-2018-0802

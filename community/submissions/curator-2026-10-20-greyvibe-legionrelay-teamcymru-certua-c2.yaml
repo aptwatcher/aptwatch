@@ -1,0 +1,45 @@
+# Curator YAML — GREYVIBE / LegionRelay C2 servers: Team Cymru pivot + CERT-UA UAC-0247 overlap
+# Written 2026-10-20 (catch-up run). Primary: Team Cymru, 2026-10-14. Sister: CERT-UA #6288271
+# (UAC-0247), WithSecure GREYVIBE report (already ingested 2026-05-30 and 2026-07-06).
+# apt_groups[0] matches the existing DB campaign_name EXACTLY (id 108). "UAC-0247" is CERT-UA's
+# designation for the same cluster — added as an alias (not present on any other campaign).
+# Dedup: 5 of the 12 IPs are already in DB at curator 1.0 (WithSecure set); they are re-listed
+# because this report adds the CERT-UA UAC-0247 linkage and the shared-fingerprint evidence
+# (AS26383, port 8000, "France Education" banner, Uvicorn). 7 IPs are net-new.
+author: APTWatch Curator
+source: https://www.team-cymru.com/post/threat-hunting-legionrelay-c2-servers-ukraine
+source_name: "Team Cymru — LegionRelay: Ukraine Targeted by Five Previously Unidentified C2 Servers (2026-10-14)"
+
+apt_groups:
+  - GREYVIBE
+  - UAC-0247
+
+description: >
+  Team Cymru (Will Thomas, 2026-10-14) consolidated the LegionRelay C2 set of
+  the Russia-aligned GREYVIBE intrusion set (WithSecure) with CERT-UA's UAC-0247
+  advisory (https://cert.gov.ua/article/6288271, March-April 2026 campaign
+  against Ukrainian local government and municipal healthcare under a
+  humanitarian-aid lure) and pivoted on the shared infrastructure fingerprint
+  (AS26383, TCP/8000, "France Education" open-port banner, Uvicorn ASGI server,
+  identical LegionRelay C2 login page) to surface five previously unreported C2
+  servers. LegionRelay is a PowerShell RAT (REST API C2, likely LLM-assisted
+  development) with file enumeration/exfiltration, screenshot capture, browser
+  data theft, Telegram/WhatsApp data exfiltration and RDP setup. IOC set: 12
+  C2 IPv4 (first/last seen 2026-02-07 to 2026-06-15) — 5 from WithSecure, 2
+  additional from CERT-UA, 5 net-new from the Team Cymru pivot; all on port
+  8000. Discovery vector: The Hacker News, 2026-10-20. MITRE: T1059.001,
+  T1071.001, T1113, T1555.003, T1021.001, T1041.
+
+ipv4:
+  - 194.87.128.243
+  - 89.125.189.118
+  - 194.87.108.110
+  - 89.125.189.85
+  - 91.149.253.100
+  - 91.149.221.124
+  - 194.87.108.12
+  - 91.149.221.118
+  - 91.149.221.9
+  - 166.88.239.54
+  - 91.149.221.123
+  - 194.87.108.217

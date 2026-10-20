@@ -1,0 +1,36 @@
+# Curator YAML — UAC-0099 MATCHBOIL: ESET October 2026 C2 delta
+# Written 2026-10-20 (catch-up run). Primary: ESET Research, 2026-10-08. Delta vs the DB: all 4
+# domains and both IPs are net-new (the 2026-10-09 TrendAI "Earth Sirrush" consolidation and the
+# 2026-07-25 CERT-UA Notepad++ YAML did not carry this ESET set).
+# apt_groups[0] matches the DB campaign_name EXACTLY (id 103).
+# Hashes (digest-only): 7 SHA-1 (MATCHBOIL downloaders/DLLs: PlannerLibrary.dll, AnimalUpdater.exe,
+# bootloader.exe, PlannerAssistantManager.exe x2, RegularExpressionExplorer.exe, HelpersLibraries.dll).
+author: APTWatch Curator
+source: https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/
+source_name: "ESET Research — MATCHBOIL: New tricks, same old evil intentions (2026-10-08)"
+
+apt_groups:
+  - UAC-0099 MATCHBOIL Family (Gamaredon-coop)
+
+description: >
+  ESET Research report of 2026-10-08 on the evolution of MATCHBOIL, the .NET
+  downloader family of UAC-0099 (TrendAI: Earth Sirrush; Russia-aligned,
+  Ukraine-focused, Gamaredon-cooperating cluster), covering new downloader and
+  DLL variants with C2 and payload-persistence logic. Network IOCs: two
+  MATCHBOIL C2 domains fronted by Cloudflare (virtualdailyplanner.pro first seen
+  2025-11-10, telemetry-conf.com first seen 2025-08-12) and two C2 domains
+  resolving to BL Networks VPS IPs (flycloud-service.com -> 64.95.10.223, first
+  seen 2026-03-03; airarticlegenerate.com -> 64.95.13.210, first seen
+  2025-05-07). All four domains are attacker-registered C2 (not hijacked
+  sites) per ESET. Discovery vector: ESET WeLiveSecurity origin RSS (feed
+  restored 2026-10-20). MITRE: T1059.001, T1105, T1071.001, T1547.001.
+
+domains:
+  - virtualdailyplanner.pro
+  - telemetry-conf.com
+  - flycloud-service.com
+  - airarticlegenerate.com
+
+ipv4:
+  - 64.95.10.223
+  - 64.95.13.210

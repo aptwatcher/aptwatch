@@ -1,0 +1,46 @@
+# Curator YAML — FrostyNeighbor / GhostWriter (UNC1151, Belarus-aligned): ESET 2026 Ukraine campaign
+# Written 2026-10-20 (catch-up run — actor was tracked in the DB but had no YAML for this report).
+# Primary: ESET Research "FrostyNeighbor: Fresh mischief and digital shenanigans" (spring 2026;
+# IoC first-seen 2026-03-10 to 2026-04-14). apt_groups[0] matches the DB campaign_name EXACTLY.
+# Context-anchor rule: the six registrable apexes (.icu / .buzz throwaway TLDs, attacker-registered
+# C2 infrastructure per ESET) are listed alongside the attributed FQDNs.
+# Hashes (digest-only): 13 SHA-1 in the ESET IoC table (lure RAR/PDF/JS, PicassoLoader JS,
+# Cobalt Strike beacons ViberPC.dll / EdgeSystemConfig.dll).
+author: APTWatch Curator
+source: https://www.welivesecurity.com/en/eset-research/frostyneighbor-fresh-mischief-digital-shenanigans/
+source_name: "ESET Research — FrostyNeighbor: Fresh mischief and digital shenanigans (2026)"
+
+apt_groups:
+  - UAC-0057 / GhostWriter / UNC1151
+
+description: >
+  ESET Research report (2026) on a FrostyNeighbor (aka GhostWriter, UNC1151,
+  UAC-0057; Belarus-aligned) cyberespionage campaign against Ukrainian (and,
+  per sister coverage, Polish) government organizations active since at least
+  March 2026. Spear-phishing PDFs impersonating Ukrtelecom (lure
+  53_7.03.2026_R.pdf) and certificate-themed lures lead to RAR archives
+  containing a JavaScript dropper; a JavaScript PicassoLoader variant beacons
+  system information to the C2 every ten minutes and, after server-side
+  validation (user-agent + Ukrainian IP geofence, then manual operator
+  selection), stages a scheduled-task template disguised as a JPEG for
+  persistence and delivers a Cobalt Strike beacon to high-value hosts. IOC set:
+  8 attributed C2 FQDNs (6 PicassoLoader, 2 Cobalt Strike) plus their 6
+  attacker-registered apexes. Sister coverage: Dark Reading, SC World, ESET
+  press releases (DE/FR). MITRE: T1566.001, T1204.002, T1059.007, T1053.005,
+  T1027, T1071.001, T1105.
+
+domains:
+  - attachment-storage-asset-static.needbinding.icu
+  - book-happy.needbinding.icu
+  - needbinding.icu
+  - nama-belakang.nebao.icu
+  - nebao.icu
+  - easiestnewsfromourpointofview.algsat.icu
+  - algsat.icu
+  - mickeymousegamesdealer.alexavegas.icu
+  - alexavegas.icu
+  - hinesafar.sardk.icu
+  - shinesafar.sardk.icu
+  - sardk.icu
+  - best-seller.lavanille.buzz
+  - lavanille.buzz

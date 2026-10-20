@@ -43,6 +43,7 @@ from __future__ import annotations
 import argparse
 import csv
 import gzip
+import html
 import io
 import json
 import re
@@ -138,8 +139,17 @@ DEFAULT_FEEDS = [
 # =============================================================
 # Actor names + aliases. Reconciled 2026-07-06 against the live Intel API
 # (intel_list_actors) so the canonical names AND their tracked aliases both
-# match. Kept strictly to the hunt-job SKILL in-scope list (no scope creep to
-# other DB actors like Saint Bear / Dragonfly / Qilin, which are out of scope).
+# match.
+# SCOPE WIDENING 2026-10-20 (curator decision): the filter now covers EVERY
+# RU/BY-origin campaign tracked in the DB (campaigns + actor_aliases), the
+# vendor aliases that were missing for already-covered actors (e.g. BlueDelta,
+# UAC-0001, SEABORGIUM), newly in-scope Russia-aligned actors (RomCom,
+# UNC4221/UAC-0185, UNC5792/UAC-0195, UAC-0050/0006/0020, Cloud Atlas) and
+# pro-Russian hacktivist crews as an "adjacent" category. A drift audit on
+# 2026-10-20 found ~15 DB-tracked actors and ~20 aliases absent from this list.
+# Matching: terms <= 5 chars are matched as whole words (avoids "conti" in
+# "continue", "gru" in "grumpy"); longer terms match as word-prefixes so
+# inflections/plurals still hit (e.g. "engineligh" -> ENGINELIGHT).
 IN_SCOPE_ACTORS = [
     # --- Russian state APTs (canonical + aliases) ---
     "gamaredon", "aqua blizzard", "primitive bear", "armageddon", "shuckworm",
@@ -170,6 +180,42 @@ IN_SCOPE_ACTORS = [
     # --- Project-tracked adjacent campaign ---
     "fortibleed",
     "uac-0277", "lunexstealer", "lunaraxe",                          # CERT-UA ClickFix cluster (backfill 2026-10-05)
+    # --- 2026-10-20 widening: missing aliases of already-covered actors ---
+    "bluedelta", "frozenlake", "iron twilight", "uac-0001", "uac-0028",   # APT28 (BlueDelta = Recorded Future)
+    "headlace", "masepie", "oceanmap", "gooseegg", "hookedge", "macromaze",  # APT28 tooling
+    "uac-0002", "uac-0145", "frozenbarents", "electrum", "iron viking",  # Sandworm
+    "infamous chisel", "wavesign", "dynowiper", "pathwiper", "zerolot",   # Sandworm tooling
+    "uac-0010", "actinium", "iron tilden", "blue otso",                  # Gamaredon
+    "gammasteel", "gammaload", "gammadrop", "pterolnk", "pterograph",    # Gamaredon tooling
+    "uac-0056", "whispergate", "bleeding bear", "frozenvista",           # Cadet Blizzard
+    "seaborgium", "ta446", "blue charlie", "tag-53", "dancing salome",   # Callisto / Star Blizzard
+    "lostkeys", "spica", "redflick",                                     # Callisto tooling (RedFlick = MSFT 2026-09)
+    "uac-0003", "waterbug", "krypton", "pensive ursa", "apolloshadow", "tinyturla",  # Turla
+    "bluebravo", "unc2452", "cloaked ursa", "solarstorm",                # APT29
+    "ta473", "uac-0114",                                                 # Winter Vivern
+    "gold ulrick", "ryuk", "trickbot",                                   # Conti lineage
+    # --- 2026-10-20 widening: DB-tracked RU/BY campaigns absent from the filter ---
+    "berserk bear", "ghost blizzard", "static tundra", "dragonfly", "energetic bear", "crouching yeti",
+    "uac-0057", "ghostwriter", "unc1151", "frostyneighbor", "storm-0257",  # Belarus GhostWriter
+    "storm-2754", "frostarmada",                                         # APT28 SOHO DNS hijack subgroup
+    "curly comrades", "curlycomrades",
+    "greyvibe", "legionrelay", "uac-0247", "eviltokens",                 # UAC-0247 = CERT-UA name for GREYVIBE (2026-10-20)
+    "uac-0063", "tag-110",
+    "uac-0099", "matchboil",
+    "storm-1516", "copycop", "portal kombat", "pravda network",          # influence ops
+    "vanilla tempest", "vice society", "rhysida", "inc ransom",
+    "silent ransom", "luna moth", "chatty spider", "unc3753",
+    "ta458", "roundpress", "spypress",
+    "storm-3168", "jadepuffer", "frontier blizzard",
+    "glassworm", "patriot bait", "bigbear",
+    # --- 2026-10-20 widening: newly in-scope Russia-aligned actors (no DB row yet — see
+    #     APT_Analytics/reports/NEXT-PROMPT-scope-expansion-2026-10-20.md) ---
+    "romcom", "storm-0978", "void rabisu", "unc2596", "tropical scorpius", "nebulous mantis",
+    "unc4221", "uac-0185", "unc5792", "uac-0195",                        # Signal linked-device clusters
+    "uac-0050", "uac-0006", "uac-0020", "vermin",
+    "cloud atlas",
+    # --- 2026-10-20 widening: pro-Russian hacktivists (adjacent category) ---
+    "noname057", "ddosia", "killnet", "cyber army of russia", "z-pentest", "sector16",
 ]
 
 # Keywords that flag likely Russian-linked / relevant ops even without a named
@@ -189,11 +235,84 @@ TRIGGER_KEYWORDS = [
     # actor alias). Phrase forms only, to avoid bare-"russia" noise.
     "russian snoops", "russian spies", "russian state-sponsored",
     "russian state hackers", "russian cyber",
+    # 2026-10-20 widening: common outlet/vendor phrasings that carried no match
+    # before. Still phrase forms only — never a bare "russia".
+    "kremlin-linked", "kremlin-backed", "kremlin-aligned",
+    "moscow-backed", "moscow-linked",
+    "russia-aligned", "russia-linked", "russia-nexus", "russia-backed",
+    "russian-aligned", "russian-linked", "russian-backed", "russian-speaking",
+    "russian intelligence", "russian military intelligence",
+    "pro-russian", "pro-russia",
+    "center 16", "centre 16", "center 18", "centre 18", "unit 54777",
 ]
 
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,7}", re.IGNORECASE)
 
+# 2026-10-20: numbered cluster designators (CERT-UA UAC-xxxx, GTIG UNCxxxx,
+# Microsoft Storm-xxxx / DEV-xxxx, Unit 42 CL-STA-xxxx, Insikt TAG-xx). Any
+# such designator flags the entry for full-article triage, so a brand-new
+# cluster is never silently dropped because its number isn't listed above.
+DESIGNATOR_RE = re.compile(
+    r"\b(?:UAC-\d{4}|UNC\d{4}|Storm-\d{4}|DEV-\d{4}|CL-STA-\d{4}|TAG-\d{2,3})\b",
+    re.IGNORECASE,
+)
+
+
+def _term_regex(term: str) -> "re.Pattern[str]":
+    """Whole-word match for short terms, word-prefix match for longer ones."""
+    esc = re.escape(term)
+    return re.compile(rf"\b{esc}\b" if len(term) <= 5 else rf"\b{esc}", re.IGNORECASE)
+
+
+_ACTOR_RES = [(t, _term_regex(t)) for t in IN_SCOPE_ACTORS]
+_KW_RES = [(k, _term_regex(k)) for k in TRIGGER_KEYWORDS]
+
 ATOM_NS = "{http://www.w3.org/2005/Atom}"
+SITEMAP_NS = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+NEWS_NS = "{http://www.google.com/schemas/sitemap-news/0.9}"
+
+# HTML index mode (added 2026-10-20): for blogs with no reachable feed (Google
+# Cloud / GTIG renders its RSS endpoint as a JS shell and its FeedBurner mirror
+# is DNS-blocked from the sandbox). The listing page embeds the article URLs;
+# each article's <meta property="article:published_time"> (or og:title /
+# <title>) supplies the date and title. Costs one fetch per article (~10).
+HTML_META_RE = {
+    "published": re.compile(r'(?:property|name)="(?:article:published_time|published_time|publish_date|date)"\s+content="([^"]+)"', re.I),
+    "published_alt": re.compile(r'content="([^"]+)"\s+(?:property|name)="(?:article:published_time|published_time)"', re.I),
+    "published_gcp": re.compile(r'name="track-metadata-page_first_published"\s+content="([^"]+)"', re.I),
+    "title": re.compile(r'(?:property|name)="og:title"\s+content="([^"]+)"', re.I),
+    "title_alt": re.compile(r"<title[^>]*>([^<]+)</title>", re.I),
+    "desc": re.compile(r'(?:property|name)="(?:og:description|description)"\s+content="([^"]+)"', re.I),
+}
+
+
+def parse_html_index(body: str, url_pattern: str, user_agent: str, max_articles: int = 12,
+                     fetch_fn=None) -> list[dict]:
+    """Harvest article URLs matching `url_pattern` from a listing page, then fetch
+    each article's HTML head for title/date/description."""
+    fetch_fn = fetch_fn or fetch
+    urls: list[str] = []
+    for m in re.findall(url_pattern, body):
+        if m not in urls:
+            urls.append(m)
+    entries: list[dict] = []
+    for u in urls[:max_articles]:
+        art, err = fetch_fn(u, timeout=20, user_agent=user_agent)
+        if err or not art:
+            continue
+        head = art[:600000]  # Google Cloud pages carry ~500 KB of inline script before the metas
+        title = (HTML_META_RE["title"].search(head) or HTML_META_RE["title_alt"].search(head))
+        pub = (HTML_META_RE["published"].search(head) or HTML_META_RE["published_alt"].search(head)
+               or HTML_META_RE["published_gcp"].search(head))
+        desc = HTML_META_RE["desc"].search(head)
+        entries.append({
+            "title": html.unescape(title.group(1).strip()) if title else u,
+            "url": u,
+            "summary": html.unescape(desc.group(1).strip()) if desc else "",
+            "published": _parse_dt(pub.group(1)) if pub else None,
+        })
+    entries.sort(key=lambda e: e["published"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
+    return entries
 
 # =============================================================
 # FETCH (direct-to-origin — this is what fixes the Register)
@@ -250,6 +369,7 @@ def _parse_dt(s: str):
     # Atom / ISO 8601 — handle trailing Z and normalize fractional seconds to
     # 6 digits (fromisoformat on <3.11 rejects 1/2-digit fractions like ".00").
     iso = s.replace("Z", "+00:00").replace("z", "+00:00")
+    iso = re.sub(r"([+-]\d{2})(\d{2})$", r"\1:\2", iso)  # "-0400" -> "-04:00" (Google Cloud metas)
     m = re.search(r"\.(\d+)", iso)
     if m:
         frac = (m.group(1) + "000000")[:6]
@@ -284,6 +404,21 @@ def parse_feed(body: str) -> list[dict]:
             return entries
 
     tag = root.tag.lower()
+    # ---- Google News sitemap (added 2026-10-20) ----
+    # The Hacker News only publishes its feed through FeedBurner, whose DNS is
+    # unreachable from the hunt sandbox; its news-sitemap.xml carries the same
+    # title + URL + publication_date and is served from the origin host.
+    if tag.endswith("urlset"):
+        for u in root.findall(f"{SITEMAP_NS}url"):
+            url = _text(u.find(f"{SITEMAP_NS}loc"))
+            news = u.find(f"{NEWS_NS}news")
+            title = _text(news.find(f"{NEWS_NS}title")) if news is not None else ""
+            pub = _text(news.find(f"{NEWS_NS}publication_date")) if news is not None else _text(u.find(f"{SITEMAP_NS}lastmod"))
+            entries.append({"title": title, "url": url, "summary": "",
+                            "published": _parse_dt(pub)})
+        entries.sort(key=lambda e: e["published"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
+        return entries
+
     # ---- Atom ----
     if tag.endswith("feed"):
         for e in root.findall(f"{ATOM_NS}entry"):
@@ -321,15 +456,17 @@ def parse_feed(body: str) -> list[dict]:
 # =============================================================
 def scope_match(title: str, summary: str) -> list[str]:
     """Return list of matched scope terms (empty == out of scope)."""
-    hay = f"{title}\n{summary}".lower()
+    hay = f"{title}\n{summary}"
     matched: list[str] = []
-    for actor in IN_SCOPE_ACTORS:
-        if actor in hay:
+    for actor, rx in _ACTOR_RES:
+        if rx.search(hay):
             matched.append(f"actor:{actor}")
-    for kw in TRIGGER_KEYWORDS:
-        if kw in hay:
+    for kw, rx in _KW_RES:
+        if rx.search(hay):
             matched.append(f"kw:{kw}")
-    for cve in sorted(set(m.upper() for m in CVE_RE.findall(f"{title} {summary}"))):
+    for d in sorted(set(m.upper() for m in DESIGNATOR_RE.findall(hay))):
+        matched.append(f"designator:{d}")
+    for cve in sorted(set(m.upper() for m in CVE_RE.findall(hay))):
         matched.append(f"cve:{cve}")
     # de-dup, preserve order
     seen = set()
@@ -364,7 +501,11 @@ def run(feeds, window_hours, max_entries, include_all, user_agent, now=None):
 
     for feed in feeds:
         body, error = fetch(feed["url"], user_agent=user_agent)
-        entries = parse_feed(body)[:max_entries]
+        if feed.get("kind") == "html-index" and not error:
+            entries = parse_html_index(body, feed["url_pattern"], user_agent,
+                                       max_articles=feed.get("max_articles", 12))[:max_entries]
+        else:
+            entries = parse_feed(body)[:max_entries]
         verdict, age_h = freshness_verdict(entries, error, now)
 
         hits = []
@@ -504,6 +645,8 @@ def main():
     feeds = DEFAULT_FEEDS
     if args.feeds:
         feeds = json.load(open(args.feeds, encoding="utf-8"))
+        if isinstance(feeds, dict):  # {"_comment": ..., "feeds": [...]} form (2026-10-20)
+            feeds = feeds["feeds"]
 
     report = run(feeds, args.window_hours, args.max_entries, args.all, args.user_agent)
     write_output(report, args.output, args.out)

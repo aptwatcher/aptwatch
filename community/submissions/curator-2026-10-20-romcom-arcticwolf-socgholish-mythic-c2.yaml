@@ -1,0 +1,64 @@
+# Curator YAML — RomCom (Storm-0978 / Void Rabisu / UNC2596): Arctic Wolf Mythic C2 cluster
+# Written 2026-10-20 (catch-up run). NEW CAMPAIGN: no DB row exists for RomCom; apt_groups[0]
+# "RomCom / Void Rabisu" will create it (scope widening 2026-10-20 — see
+# APT_Analytics/reports/NEXT-PROMPT-scope-expansion-2026-10-20.md).
+# Primary: Arctic Wolf Labs, 2025-11-25 (most recent IOC-bearing RomCom primary found; ~11 months
+# old — ingested as a coverage catch-up, not as fresh activity).
+# MaaS discipline: the SocGholish FAKEUPDATE C2 smashingboss.com belongs to TA569 (commodity
+# initial-access broker, not Russian) and is deliberately NOT ingested; mentioned in the digest only.
+# Context-anchor rule: each C2 domain's hosting IPv4 is listed as the report gives them.
+# Confidence note: Arctic Wolf rates the 2 Mythic C2s confirmed by test check-in (imprimerie-agp.com,
+# plus ESET's) high, and the remaining five (same WHOIS pattern, same 2025-07-09 registration day,
+# same nginx header mismatch, positive Mythic check-in) medium-to-high.
+# Hashes (digest-only): SocGholish JS f7605fc8a1ee5f21aec55da04dbaa95a05db95b5e7851b172a5d30c7fb1da885
+# (MD5 9912bb2d82218ba504c28e96816315b3); RomCom loader msedge.dll (hash not printed in the article).
+author: APTWatch Curator
+source: https://arcticwolf.com/resources/blog/romcom-utilizing-socgholish-to-deliver-mythic-agent-to-usa-companies-supporting-ukraine/
+source_name: "Arctic Wolf Labs — Russian RomCom Utilizing SocGholish to Deliver Mythic Agent to U.S. Companies Supporting Ukraine (2025-11-25)"
+
+apt_groups:
+  - RomCom / Void Rabisu
+  - Storm-0978
+  - UNC2596
+  - Tropical Scorpius
+  - Nebulous Mantis
+  - UAT-5647
+
+description: >
+  Arctic Wolf Labs report (2025-11-25) on RomCom (aka Storm-0978, Void Rabisu,
+  Tropical Scorpius, UNC2596, Nebulous Mantis, UAT-5647; Russia-aligned,
+  espionage + ecrime hybrid active since 2022) buying SocGholish (TA569)
+  FAKEUPDATE initial access to deliver its shellcode loader msedge.dll
+  (domain-gated AES-decrypted Mythic "dynamichttp" agent, CLSID hijack to run
+  under msedge.exe) to a U.S. engineering firm supporting Ukraine; the loader
+  matches the sample ESET documented in the same period. Arctic Wolf pivoted
+  on the Mythic C2 fingerprint (Namecheap/withheldforprivacy registration, HTTP
+  403 + nginx/1.24.0 header with nginx/1.18.0 body, positive Mythic check-in)
+  and identified seven C2 domains, six registered on 2025-07-09. IOC set: 7
+  Mythic C2 domains with their hosting IPv4 (7 distinct ASNs) and the observed
+  C2 URL https://imprimerie-agp.com/s/0.7.8/clarity.js. The SocGholish C2
+  (smashingboss.com) is TA569 commodity infrastructure and is not attributed
+  here. Sister coverage: The Hacker News (2025-11), ESET. MITRE: T1189,
+  T1204.002, T1059.001, T1546.015 (CLSID/COM hijack), T1620, T1071.001,
+  T1053.005.
+
+domains:
+  - orlandoscreenenclosure.net
+  - basilic.info
+  - ozivoice.com
+  - solarrayes.com
+  - imprimerie-agp.com
+  - srlaptop.com
+  - carnesmemdesa.com
+
+urls:
+  - https://imprimerie-agp.com/s/0.7.8/clarity.js
+
+ipv4:
+  - 135.125.255.39
+  - 88.119.174.128
+  - 193.233.205.14
+  - 162.248.227.182
+  - 104.238.61.141
+  - 194.36.209.127
+  - 38.114.101.139
