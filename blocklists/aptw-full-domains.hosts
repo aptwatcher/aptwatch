@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-20 00:34:03
-# Entries: 516163
+# Generated: 2026-10-20 06:06:20
+# Entries: 516169
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32999,7 +32999,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -86063,6 +86062,7 @@
 0.0.0.0 anubhavbhardwaj2004-sketch.github.io
 0.0.0.0 anubhutitewari.github.io
 0.0.0.0 anubis.matsuro.ru
+0.0.0.0 anubisclient.co.uk
 0.0.0.0 anuevadelpa.com
 0.0.0.0 anugerahbestari.com
 0.0.0.0 anugerahmakmur.com
@@ -89086,6 +89086,7 @@
 0.0.0.0 api.xm-serv.com
 0.0.0.0 api.xmtk01.xyz
 0.0.0.0 api.xsms.ng
+0.0.0.0 api.xyz-code.biz
 0.0.0.0 api.yangsany.cn
 0.0.0.0 api.yieldlove-ad-serving.net
 0.0.0.0 api.yu3.io
@@ -91398,6 +91399,7 @@
 0.0.0.0 app.anchorappweb.com
 0.0.0.0 app.ants.vn
 0.0.0.0 app.apexfix.xyz
+0.0.0.0 app.app-river.icu
 0.0.0.0 app.appleadwords.net
 0.0.0.0 app.appsflyer.com
 0.0.0.0 app.appsmartfixup.com
@@ -172779,6 +172781,7 @@
 0.0.0.0 check.intico.cl
 0.0.0.0 check.listmanger.com
 0.0.0.0 check.nalitoras.ru
+0.0.0.0 check.okx3.io
 0.0.0.0 check.protimas.ru
 0.0.0.0 check.rayjump.com
 0.0.0.0 check.ulitron.ru
@@ -189632,6 +189635,7 @@
 0.0.0.0 cpo.adflex.vn
 0.0.0.0 cpo.co.jp
 0.0.0.0 cpocommerceinc.112.2o7.net
+0.0.0.0 cpofficial.com
 0.0.0.0 cpoohcodmfkucglhzjmmkkeyquhrnxjkzglo-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 cpopgiptzd.duckdns.org
 0.0.0.0 cporiente.cl
@@ -209607,6 +209611,7 @@
 0.0.0.0 do.elitoras.ru
 0.0.0.0 do.heato.ru
 0.0.0.0 do.hustorla.ru
+0.0.0.0 do.opinionvip.club
 0.0.0.0 do.pendingshipremoval.com
 0.0.0.0 do.rhchp.ru
 0.0.0.0 do2-claimxx-dnnax-kgetxx.fetz.biz.id
@@ -211840,6 +211845,7 @@
 0.0.0.0 download.ebnays.shop
 0.0.0.0 download.ebnays.xyz
 0.0.0.0 download.filmfanatic.com
+0.0.0.0 download.foden.site
 0.0.0.0 download.freeshare.link
 0.0.0.0 download.fyxm.net
 0.0.0.0 download.grandcloud.cn
@@ -372349,7 +372355,6 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
-0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -391464,7 +391469,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -395619,7 +395623,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -414123,6 +414126,7 @@
 0.0.0.0 picturesque-maroon-conkerberry.glitch.me
 0.0.0.0 picturesque-tartan-whippet.glitch.me
 0.0.0.0 picturetrus.duckdns.org
+0.0.0.0 pictureurl.com
 0.0.0.0 picturez.vercel.app
 0.0.0.0 picue.net
 0.0.0.0 picugolos.tk
@@ -460284,6 +460288,7 @@
 0.0.0.0 sbmc.card.co.v.cchao.buzz
 0.0.0.0 sbme.tk
 0.0.0.0 sbmfboxixqgcbxfw-dot-millinium.ey.r.appspot.com
+0.0.0.0 sbmods.top
 0.0.0.0 sbmu.orueictrecim.info
 0.0.0.0 sbn-main-dnrx.vercel.app
 0.0.0.0 sbn-main-igh3.vercel.app
@@ -464979,6 +464984,7 @@
 0.0.0.0 skys.com.br
 0.0.0.0 skysport.oewabox.at
 0.0.0.0 skyupgrade2020.weebly.com
+0.0.0.0 skyvault.help
 0.0.0.0 skyway.capital
 0.0.0.0 skywebmailsertbcv.wixstudio.com
 0.0.0.0 skywin77slot.com
