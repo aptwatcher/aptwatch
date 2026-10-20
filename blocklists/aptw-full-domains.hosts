@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-20 12:34:13
-# Entries: 516166
+# Generated: 2026-10-20 18:34:18
+# Entries: 516202
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -60548,7 +60548,6 @@
 0.0.0.0 adturtle.biz
 0.0.0.0 adty.cc
 0.0.0.0 aduanas-mexico.org
-0.0.0.0 adubuildersco.com
 0.0.0.0 adubuildersorangecounty.com
 0.0.0.0 aduda.ru
 0.0.0.0 adudev.digital
@@ -70654,6 +70653,7 @@
 0.0.0.0 alexandriafinch.com
 0.0.0.0 alexaonlineshop.com
 0.0.0.0 alexas.dedspac.ru
+0.0.0.0 alexavegas.icu
 0.0.0.0 alexbarrio.org
 0.0.0.0 alexbonniard.com
 0.0.0.0 alexbusinessforall.com
@@ -71010,6 +71010,7 @@
 0.0.0.0 algramo.prosaestudio.com
 0.0.0.0 algraphy.bluestacko.ru
 0.0.0.0 algreenwood.com
+0.0.0.0 algsat.icu
 0.0.0.0 alguazil.bluestacko.ru
 0.0.0.0 algum.matsuro.ru
 0.0.0.0 algum.ulitron.ru
@@ -74295,6 +74296,7 @@
 0.0.0.0 altamira.bluestacko.ru
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
+0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanyucetas.com
 0.0.0.0 altaplateria.com
@@ -110952,6 +110954,7 @@
 0.0.0.0 attachedfile.myportfolio.com
 0.0.0.0 attachednotefile-log.myportfolio.com
 0.0.0.0 attachme.z13.web.core.windows.net
+0.0.0.0 attachment-storage-asset-static.needbinding.icu
 0.0.0.0 attachment1111111111111111-111.ofice-365.co
 0.0.0.0 attachmentatt.netlify.app
 0.0.0.0 attachmentattt.netlify.app
@@ -135478,6 +135481,7 @@
 0.0.0.0 basil.matsuro.ru
 0.0.0.0 basil.ulitron.ru
 0.0.0.0 basilgroup.co.in
+0.0.0.0 basilic.info
 0.0.0.0 basilrhqu7ysgkfqb00.qwo231sdx.club
 0.0.0.0 basilsullivan.com
 0.0.0.0 basin.ulitron.ru
@@ -140885,6 +140889,7 @@
 0.0.0.0 best-relic-principle.glitch.me
 0.0.0.0 best-search.cc
 0.0.0.0 best-seedify.com
+0.0.0.0 best-seller.lavanille.buzz
 0.0.0.0 best-server.gq
 0.0.0.0 best-sign.ellospneus.com.br
 0.0.0.0 best-signe.builderallwppro.com
@@ -151890,6 +151895,7 @@
 0.0.0.0 book-airbnb.app
 0.0.0.0 book-and-bag-4321.shopingcenter3.workers.dev
 0.0.0.0 book-delta-sooty.vercel.app
+0.0.0.0 book-happy.needbinding.icu
 0.0.0.0 book-notags-cd354lxmsn.your-guide.net
 0.0.0.0 book-reserve.com
 0.0.0.0 book.com-h3v9t9zycu.isiolo.go.ke
@@ -165646,6 +165652,7 @@
 0.0.0.0 carnelian-wandering-fan.glitch.me
 0.0.0.0 carnelo.shop
 0.0.0.0 carnesboinobre.com.br
+0.0.0.0 carnesmemdesa.com
 0.0.0.0 carnesselectasali.com.mx
 0.0.0.0 carnetalimentos-online.info
 0.0.0.0 carney.dedspac.ru
@@ -178382,6 +178389,7 @@
 0.0.0.0 cloudgradualhashfare.pages.dev
 0.0.0.0 cloudgraphite.com
 0.0.0.0 cloudgridq.pro
+0.0.0.0 cloudguide.in
 0.0.0.0 cloudguppy.com
 0.0.0.0 cloudhost-75870.us-west-1.nxcli.net
 0.0.0.0 cloudhost.ct.ws
@@ -211333,6 +211341,7 @@
 0.0.0.0 donut.dedspac.ru
 0.0.0.0 donutbasefinder.com
 0.0.0.0 donutclients.st
+0.0.0.0 donutclients.top
 0.0.0.0 donutdupe.com
 0.0.0.0 donutecocolate.com
 0.0.0.0 donutsmpclient.com
@@ -216640,6 +216649,7 @@
 0.0.0.0 easewave.digital
 0.0.0.0 eashop.co.uk
 0.0.0.0 easiest-way-make-money-online.com
+0.0.0.0 easiestnewsfromourpointofview.algsat.icu
 0.0.0.0 easites.com.br
 0.0.0.0 easl.qa.paypal-merchant.ru
 0.0.0.0 easonfilm.club
@@ -235184,6 +235194,7 @@
 0.0.0.0 faceit.org-vertexclubgg.com
 0.0.0.0 faceit.party-invite.pro
 0.0.0.0 faceit.stm-auth.com
+0.0.0.0 faceit.syncacc.pro
 0.0.0.0 faceit.teams-gglegendscup.com
 0.0.0.0 faceit.teams-legendscup.com
 0.0.0.0 faceit.teams-vertexclub.com
@@ -264227,6 +264238,7 @@
 0.0.0.0 governmentrelief.info
 0.0.0.0 governmentstimulusbonus.net
 0.0.0.0 governorsschools.com
+0.0.0.0 goverru.com
 0.0.0.0 govgov1.000webhostapp.com
 0.0.0.0 govgovcom.temp.swtest.ru
 0.0.0.0 govhm.ukclaim-taxes.com
@@ -280680,6 +280692,7 @@
 0.0.0.0 hindustaniherbals.com
 0.0.0.0 hindusthan.com
 0.0.0.0 hines.dedspac.ru
+0.0.0.0 hinesafar.sardk.icu
 0.0.0.0 hinetauth.pages.dev
 0.0.0.0 hinetingprocessintros.vercel.app
 0.0.0.0 hing.amaniwa.ru
@@ -282153,6 +282166,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -293242,6 +293256,7 @@
 0.0.0.0 impressum.tk
 0.0.0.0 imprhkmp.taboola.com
 0.0.0.0 imprilar.com.ar
+0.0.0.0 imprimerie-agp.com
 0.0.0.0 imprimerieexpress.com
 0.0.0.0 imprintauthority.com
 0.0.0.0 imprintcontent.ibrali-foundation.org
@@ -296688,6 +296703,7 @@
 0.0.0.0 innovid.com.akadns.net
 0.0.0.0 innovid.com.edgekey.net
 0.0.0.0 innovixxa.vercel.app
+0.0.0.0 innovspora.co.zw
 0.0.0.0 innovvationswiss.com
 0.0.0.0 innowacyjnefirmy.pl
 0.0.0.0 innsstagraam.000webhostapp.com
@@ -300162,6 +300178,7 @@
 0.0.0.0 investigative-battl.000webhostapp.com
 0.0.0.0 investigatornyc.org
 0.0.0.0 investiginfo.com
+0.0.0.0 investika-club.com
 0.0.0.0 investimentoemdiamantes.com
 0.0.0.0 investination.in
 0.0.0.0 investing-login.robinhoodapp.magicqueenalive.com
@@ -302314,6 +302331,7 @@
 0.0.0.0 istle.virosat.ru
 0.0.0.0 istlrtevcnbsxrtx-dot-millinium.ey.r.appspot.com
 0.0.0.0 istnclkrtbky.net
+0.0.0.0 istochnik.org
 0.0.0.0 istockbargains.com
 0.0.0.0 istonline.org.in
 0.0.0.0 istore-alert-device.com
@@ -304044,6 +304062,7 @@
 0.0.0.0 izmirenerji.org
 0.0.0.0 izmsj.co.jp
 0.0.0.0 izn.geg.mybluehost.me
+0.0.0.0 iznews.net
 0.0.0.0 iznimhfe.cn
 0.0.0.0 iznyngwjzn.duckdns.org
 0.0.0.0 izolda.info
@@ -320197,6 +320216,7 @@
 0.0.0.0 komis-warszawa.pl
 0.0.0.0 komm-ent.at
 0.0.0.0 kommana.com
+0.0.0.0 kommando.live
 0.0.0.0 kommipoojitha.github.io
 0.0.0.0 komodia.com
 0.0.0.0 komodonutritionings.icu
@@ -322756,6 +322776,7 @@
 0.0.0.0 kuf9ax6bbmj.jimdofree.com
 0.0.0.0 kufact.com
 0.0.0.0 kufar.beldelivery.com
+0.0.0.0 kufar.org
 0.0.0.0 kufeifrasomou-5536.vercel.app
 0.0.0.0 kuferxuls.freesite.host
 0.0.0.0 kufi.ulitron.ru
@@ -326033,6 +326054,7 @@
 0.0.0.0 lavanderialavamax.com
 0.0.0.0 lavanderiaysecadoparatodotipoderopas.gq
 0.0.0.0 lavanetwork.net
+0.0.0.0 lavanille.buzz
 0.0.0.0 lavantabali.net
 0.0.0.0 lavanyaamehrotra.github.io
 0.0.0.0 lavanyalahari445.github.io
@@ -364449,6 +364471,7 @@
 0.0.0.0 mickelo1.github.io
 0.0.0.0 mickeycar.com
 0.0.0.0 mickeymotors.net
+0.0.0.0 mickeymousegamesdealer.alexavegas.icu
 0.0.0.0 mickeymovers.com
 0.0.0.0 mickhicksphotographer.com
 0.0.0.0 micklewhitee-changing.duckdns.org
@@ -379506,6 +379529,7 @@
 0.0.0.0 nalysi.duckdns.org
 0.0.0.0 nam-serv-ule.dispacorto.workers.dev
 0.0.0.0 nam02-hn1d.vercel.app
+0.0.0.0 nama-belakang.nebao.icu
 0.0.0.0 nama.dedspac.ru
 0.0.0.0 nama83.3dfine.com
 0.0.0.0 nama83.com
@@ -381504,6 +381528,7 @@
 0.0.0.0 neawrddyufkfmnbrganpvknnhw-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 neazwqs.istmein.de
 0.0.0.0 nebaapplereplica.netlify.app
+0.0.0.0 nebao.icu
 0.0.0.0 nebar-cus-lagi.duckdns.org
 0.0.0.0 nebarmob.com
 0.0.0.0 nebateibrouxe-5929-git-main-pham-thai-thinhs-projects-4ef6f654.vercel.app
@@ -381709,6 +381734,7 @@
 0.0.0.0 need47.family.anainat.ru
 0.0.0.0 need4bd.xyz
 0.0.0.0 needadvertising.com
+0.0.0.0 needbinding.icu
 0.0.0.0 needed-pork-rica-lane.trycloudflare.com
 0.0.0.0 needle26.cavalierso.ru
 0.0.0.0 needle57.cavalierso.ru
@@ -397634,6 +397660,7 @@
 0.0.0.0 onedrivesharedfile.pages.dev
 0.0.0.0 onedrivestandaloneupdater.com
 0.0.0.0 onedrivestoragedata231.dns-cloud.net
+0.0.0.0 onedrivesupport.net
 0.0.0.0 onedriveview.vercel.app
 0.0.0.0 onedrivework.zapto.org
 0.0.0.0 onedrivlink.com
@@ -401437,6 +401464,7 @@
 0.0.0.0 orlandoflproperties.com
 0.0.0.0 orlandofuntrek.com
 0.0.0.0 orlandoinfocom.112.2o7.net
+0.0.0.0 orlandoscreenenclosure.net
 0.0.0.0 orlandotreasures.com
 0.0.0.0 orlani.xyz
 0.0.0.0 orlavencirexa.com
@@ -403753,6 +403781,7 @@
 0.0.0.0 ozila.net
 0.0.0.0 ozipo.000webhostapp.com
 0.0.0.0 ozite-1317634057.cos.ap-tokyo.myqcloud.com
+0.0.0.0 ozivoice.com
 0.0.0.0 ozja1654szdyj-onhr10-141909.surge.sh
 0.0.0.0 ozjdgsumfp.duckdns.org
 0.0.0.0 ozkaltd.com
@@ -459413,6 +459442,7 @@
 0.0.0.0 sardineroabogados.com
 0.0.0.0 sardinescrocodile.com
 0.0.0.0 sardinian-analyzers.000webhostapp.com
+0.0.0.0 sardk.icu
 0.0.0.0 sardor-best.com
 0.0.0.0 sards.dedspac.ru
 0.0.0.0 sards.ulitron.ru
@@ -463503,6 +463533,7 @@
 0.0.0.0 shinedns.net
 0.0.0.0 shineousx.vercel.app
 0.0.0.0 shiners-uae.com
+0.0.0.0 shinesafar.sardk.icu
 0.0.0.0 shinog.org
 0.0.0.0 shintik.com
 0.0.0.0 shiny-abiding-dollar.glitch.me
@@ -466370,6 +466401,7 @@
 0.0.0.0 solariavionex-cfd.pages.dev
 0.0.0.0 solaris-vault-9g6.pages.dev
 0.0.0.0 solaris.timanar.ru
+0.0.0.0 solarrayes.com
 0.0.0.0 solarstore.top
 0.0.0.0 solarswitch4all.com
 0.0.0.0 solartemplar.com
@@ -467090,6 +467122,7 @@
 0.0.0.0 spay.ulitron.ru
 0.0.0.0 spaz.ulitron.ru
 0.0.0.0 spb-schoenfelder-planen-beraten.de
+0.0.0.0 spbnews.net
 0.0.0.0 spbpool.ddns.net
 0.0.0.0 spbvdxt.cn
 0.0.0.0 spcdnsp.i-mobile.co.jp
@@ -467726,6 +467759,7 @@
 0.0.0.0 srivardhan1107.github.io
 0.0.0.0 srjm941.github.io
 0.0.0.0 srl-318af.firebaseapp.com
+0.0.0.0 srlaptop.com
 0.0.0.0 sroa2-mtechg.qkipikpp.es
 0.0.0.0 sroomafp.allyes.com
 0.0.0.0 srothuynguyen.com
@@ -475338,6 +475372,7 @@
 0.0.0.0 tenia.dedspac.ru
 0.0.0.0 tenis-team-km.com
 0.0.0.0 tenispro.fr
+0.0.0.0 tenkoff.org
 0.0.0.0 tenlw.cyou
 0.0.0.0 tenmagazines.us.intellitxt.com
 0.0.0.0 tennis-support.com
@@ -481834,6 +481869,7 @@
 0.0.0.0 ultimasemanadofeirao.vercel.app
 0.0.0.0 ultimasofertasparati.com
 0.0.0.0 ultimateclixx.com
+0.0.0.0 ultimatecore.net
 0.0.0.0 ultimatecounter.com
 0.0.0.0 ultimolimpanome.vercel.app
 0.0.0.0 ultimosdescuentosparati.com
