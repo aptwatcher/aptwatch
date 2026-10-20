@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-20 06:35:01
-# Entries: 516168
+# Generated: 2026-10-20 12:34:13
+# Entries: 516166
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -60548,6 +60548,7 @@
 0.0.0.0 adturtle.biz
 0.0.0.0 adty.cc
 0.0.0.0 aduanas-mexico.org
+0.0.0.0 adubuildersco.com
 0.0.0.0 adubuildersorangecounty.com
 0.0.0.0 aduda.ru
 0.0.0.0 adudev.digital
@@ -89086,7 +89087,6 @@
 0.0.0.0 api.xm-serv.com
 0.0.0.0 api.xmtk01.xyz
 0.0.0.0 api.xsms.ng
-0.0.0.0 api.xyz-code.biz
 0.0.0.0 api.yangsany.cn
 0.0.0.0 api.yieldlove-ad-serving.net
 0.0.0.0 api.yu3.io
@@ -91399,7 +91399,6 @@
 0.0.0.0 app.anchorappweb.com
 0.0.0.0 app.ants.vn
 0.0.0.0 app.apexfix.xyz
-0.0.0.0 app.app-river.icu
 0.0.0.0 app.appleadwords.net
 0.0.0.0 app.appsflyer.com
 0.0.0.0 app.appsmartfixup.com
@@ -172781,7 +172780,6 @@
 0.0.0.0 check.intico.cl
 0.0.0.0 check.listmanger.com
 0.0.0.0 check.nalitoras.ru
-0.0.0.0 check.okx3.io
 0.0.0.0 check.protimas.ru
 0.0.0.0 check.rayjump.com
 0.0.0.0 check.ulitron.ru
@@ -209610,7 +209608,6 @@
 0.0.0.0 do.elitoras.ru
 0.0.0.0 do.heato.ru
 0.0.0.0 do.hustorla.ru
-0.0.0.0 do.opinionvip.club
 0.0.0.0 do.pendingshipremoval.com
 0.0.0.0 do.rhchp.ru
 0.0.0.0 do2-claimxx-dnnax-kgetxx.fetz.biz.id
@@ -211844,7 +211841,6 @@
 0.0.0.0 download.ebnays.shop
 0.0.0.0 download.ebnays.xyz
 0.0.0.0 download.filmfanatic.com
-0.0.0.0 download.foden.site
 0.0.0.0 download.freeshare.link
 0.0.0.0 download.fyxm.net
 0.0.0.0 download.grandcloud.cn
@@ -391468,6 +391464,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -514759,6 +514756,7 @@
 0.0.0.0 yourdepplyydebittlik20jtt.pages.dev
 0.0.0.0 yourdirectinfospace.com
 0.0.0.0 youremplregroup.com
+0.0.0.0 youreonlymassive.com
 0.0.0.0 yourfireplaceguy.net
 0.0.0.0 yourfitway.com
 0.0.0.0 yourfocus.ru
