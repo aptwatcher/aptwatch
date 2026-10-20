@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-19 18:34:00
-# Entries: 516155
+# Generated: 2026-10-20 00:34:03
+# Entries: 516163
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32999,6 +32999,7 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
+0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -133821,6 +133822,7 @@
 0.0.0.0 bankruptcy-form-fn-int-ods.insolvency-development.co.uk
 0.0.0.0 bankruptcy-form-fn-prod-ods.insolvency-development.co.uk
 0.0.0.0 bankruptcy.ruhodo.ru
+0.0.0.0 bankruptcyrhodeisland.com
 0.0.0.0 bankrupting.ruhodo.ru
 0.0.0.0 bankrupting.timanar.ru
 0.0.0.0 bankrupting.yazibo.ru
@@ -145498,6 +145500,7 @@
 0.0.0.0 bisl.z13.web.core.windows.net
 0.0.0.0 bismanelectric.net
 0.0.0.0 bismarck.cz
+0.0.0.0 bismarckchiropractor.com
 0.0.0.0 bismarcktransportationservice.com
 0.0.0.0 bismark.matsuro.ru
 0.0.0.0 bismillah1.co.vu
@@ -178126,6 +178129,7 @@
 0.0.0.0 clotty.dedspac.ru
 0.0.0.0 clou-btt1.ws
 0.0.0.0 cloubflare.net
+0.0.0.0 cloubflare.top
 0.0.0.0 cloud--binance--login.typedream.app
 0.0.0.0 cloud-5g9.pages.dev
 0.0.0.0 cloud-api-office2.duckdns.org
@@ -184086,7 +184090,6 @@
 0.0.0.0 communication-act.ddns.net
 0.0.0.0 communication-diary-thwart.vercel.app
 0.0.0.0 communication-ergo-additional-their.vercel.app
-0.0.0.0 communication-hub.vg
 0.0.0.0 communication-journal-stop.vercel.app
 0.0.0.0 communication-register-check.vercel.app
 0.0.0.0 communicationcenrale-ba5b01.ingress-daribow.ewp.live
@@ -210934,6 +210937,7 @@
 0.0.0.0 domainkey.lectec.com.au
 0.0.0.0 domainkey.mdcomp.com.au
 0.0.0.0 domainloading.net
+0.0.0.0 domainmob.com
 0.0.0.0 domainnames.guru
 0.0.0.0 domainon.factsconsulting.com
 0.0.0.0 domainpark.sitelutions.com
@@ -372345,6 +372349,7 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
+0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -395614,6 +395619,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -472627,6 +472633,7 @@
 0.0.0.0 swqczz2vqs4ha.moolin.ru
 0.0.0.0 swrap.tradedoubler.com
 0.0.0.0 swrve.com
+0.0.0.0 swscripts.com
 0.0.0.0 swsoft.122.2o7.net
 0.0.0.0 swsss.my.id
 0.0.0.0 swsupporttools.com
@@ -485766,6 +485773,7 @@
 0.0.0.0 verifier683858.click
 0.0.0.0 verifikasiaktifasicalimsaldoterpending001.pages.dev
 0.0.0.0 verifikationjetzt.alwaysdata.net
+0.0.0.0 verifing-server.codes
 0.0.0.0 verifique2025check.shop
 0.0.0.0 verifizieren.americanxpress.de.com
 0.0.0.0 veriflcati0n-center-100023265912.page-suspension.net
