@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-21 06:04:29
-# Entries: 516236
+# Generated: 2026-10-21 06:34:25
+# Entries: 516235
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -246799,6 +246799,7 @@
 0.0.0.0 fluidcontitech.com
 0.0.0.0 fluiddeliverymanagement.com
 0.0.0.0 fluidesclimat.com
+0.0.0.0 fluidfilm.bg
 0.0.0.0 fluidou-71.ml
 0.0.0.0 fluiptvserver.com
 0.0.0.0 fluke.dedspac.ru
@@ -279471,7 +279472,6 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
-0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -399112,7 +399112,6 @@
 0.0.0.0 onyukvpbnbkarjnx-dot-millinium.ey.r.appspot.com
 0.0.0.0 onywatch.pro
 0.0.0.0 onyx-attractive-oak.glitch.me
-0.0.0.0 onyx-medical.com
 0.0.0.0 onyx-motley-postbox.glitch.me
 0.0.0.0 onyx-stores.com
 0.0.0.0 onyx.ulitron.ru
