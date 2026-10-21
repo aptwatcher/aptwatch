@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-21 00:33:38
-# Entries: 516213
+# Generated: 2026-10-21 06:04:29
+# Entries: 516236
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52603,7 +52603,6 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
-0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -125094,6 +125093,7 @@
 0.0.0.0 bafaro.virosat.ru
 0.0.0.0 bafcdeg.pilot45.com
 0.0.0.0 bafd7a50.gfwisd-235.shop
+0.0.0.0 bafdili.com
 0.0.0.0 baffc.org.dragonflydowser.com
 0.0.0.0 baffe-level.web.app
 0.0.0.0 baffed.virosat.ru
@@ -160138,6 +160138,7 @@
 0.0.0.0 buruncha.ru
 0.0.0.0 burushaski.matsuro.ru
 0.0.0.0 burut.ulitron.ru
+0.0.0.0 buruujtech.com
 0.0.0.0 burwod.ru
 0.0.0.0 burwoodrsl-sharedocument.on.fleek.co
 0.0.0.0 bury.0fees.us
@@ -184177,6 +184178,7 @@
 0.0.0.0 community.fb-pages-87311170493185500542.qf4owyef2n-xoy4w7wpr6pw.p.runcloud.link
 0.0.0.0 community.fb-pages-99558416152942940161.qf4owyef2n-xoy4w7wpr6pw.p.runcloud.link
 0.0.0.0 community.films43.me
+0.0.0.0 community.firm.in
 0.0.0.0 community.manage-app-uuid32899926009389349564.q8pwzeiv8n-ewx3lwn7l4zq.p.runcloud.link
 0.0.0.0 community.manage-app-uuid72329026450911547548.q8pwzeiv8n-ewx3lwn7l4zq.p.runcloud.link
 0.0.0.0 community.microsoftbusinessapps.com
@@ -192015,6 +192017,7 @@
 0.0.0.0 cts.w55c.net
 0.0.0.0 ctsempresa.com
 0.0.0.0 ctservices.fr
+0.0.0.0 ctsfactory.com
 0.0.0.0 ctsinteractive.com
 0.0.0.0 ctsp-arequipa.org.pe
 0.0.0.0 ctsprojectsolutions.com
@@ -212910,6 +212913,7 @@
 0.0.0.0 drgrossu.md
 0.0.0.0 drhankdelivered.com
 0.0.0.0 drharisinghjachak.com
+0.0.0.0 drhenrylopez.com
 0.0.0.0 drhhfddbwy.duckdns.org
 0.0.0.0 drias.dedspac.ru
 0.0.0.0 drias.ulitron.ru
@@ -216902,6 +216906,7 @@
 0.0.0.0 easycommerce.plus
 0.0.0.0 easyconnectionwallet.com
 0.0.0.0 easycontainer.co.th
+0.0.0.0 easycryptos.org
 0.0.0.0 easydappsfix.com
 0.0.0.0 easydec.iinkedin.li
 0.0.0.0 easydosensenken.de
@@ -220263,6 +220268,7 @@
 0.0.0.0 eidoloni.ru
 0.0.0.0 eidos.dedspac.ru
 0.0.0.0 eidos.virosat.ru
+0.0.0.0 eidoss.mx
 0.0.0.0 eieggim.life
 0.0.0.0 eiei2222.pages.dev
 0.0.0.0 eiepl.com
@@ -231991,6 +231997,7 @@
 0.0.0.0 fabricofurnitures.com
 0.0.0.0 fabricpaintings.com
 0.0.0.0 fabrics.chiripalgroup.com
+0.0.0.0 fabrics.lahoreshoes.com
 0.0.0.0 fabrikaistanbul.com
 0.0.0.0 fabrikala.com
 0.0.0.0 fabrisubsea.co.uk
@@ -262267,7 +262274,6 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
-0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 gobli.world
@@ -279465,6 +279471,7 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
+0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -282175,7 +282182,6 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
-0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -349911,6 +349917,7 @@
 0.0.0.0 mama.pipi.ne.jp
 0.0.0.0 mama.ulitron.ru
 0.0.0.0 mamaandmimi.com
+0.0.0.0 mamabearcoffee.com
 0.0.0.0 mamabearhikes.com.au
 0.0.0.0 mamacehin.com
 0.0.0.0 mamachumbas.com
@@ -366791,6 +366798,7 @@
 0.0.0.0 misaki4552.github.io
 0.0.0.0 misaky.ae
 0.0.0.0 misally.bortogat.ru
+0.0.0.0 misano.gestroom.it
 0.0.0.0 misanoassicurazioni.it
 0.0.0.0 misanthology.com
 0.0.0.0 misanthropically.bortogat.ru
@@ -372381,7 +372389,6 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
-0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -391499,7 +391506,6 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
-0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -395654,7 +395660,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -399107,6 +399112,7 @@
 0.0.0.0 onyukvpbnbkarjnx-dot-millinium.ey.r.appspot.com
 0.0.0.0 onywatch.pro
 0.0.0.0 onyx-attractive-oak.glitch.me
+0.0.0.0 onyx-medical.com
 0.0.0.0 onyx-motley-postbox.glitch.me
 0.0.0.0 onyx-stores.com
 0.0.0.0 onyx.ulitron.ru
@@ -405582,6 +405588,7 @@
 0.0.0.0 paidacct.000webhostapp.com
 0.0.0.0 paidbigjgbnzxygl-dot-millinium.ey.r.appspot.com
 0.0.0.0 paideng.sbs
+0.0.0.0 paidinsunshine.com
 0.0.0.0 paidleboncoinnfr.000webhostapp.com
 0.0.0.0 paidonbillstoday.com
 0.0.0.0 paidpromotionin.blogspot.com.es
@@ -419353,6 +419360,7 @@
 0.0.0.0 pos.drivrr.com
 0.0.0.0 pos.healthrxbd.com
 0.0.0.0 pos.miebp.com
+0.0.0.0 pos.nittosupport.ca
 0.0.0.0 pos.vfixit.com.au
 0.0.0.0 pos2.usahawan.cc
 0.0.0.0 pos24pl.eu.cc
@@ -440562,6 +440570,7 @@
 0.0.0.0 rathepayments.com
 0.0.0.0 rathirirounds.com
 0.0.0.0 rathkealechildcare.ie
+0.0.0.0 rathodsoftware.in
 0.0.0.0 rathoraryann.github.io
 0.0.0.0 rathuiasa.duckdns.org
 0.0.0.0 ratiborus2023.com
@@ -456713,6 +456722,7 @@
 0.0.0.0 sager.dedspac.ru
 0.0.0.0 sager.ulitron.ru
 0.0.0.0 sages.dedspac.ru
+0.0.0.0 sagescasebytes.com
 0.0.0.0 sageworkflow10.azurefd.net
 0.0.0.0 saggezza.in
 0.0.0.0 sagimanagement.com.my
@@ -463611,6 +463621,7 @@
 0.0.0.0 shivmundhe7.github.io
 0.0.0.0 shivshaktienterprisesinternational.com
 0.0.0.0 shivshreetravelworld.com
+0.0.0.0 shivsoftwaresolutions.com
 0.0.0.0 shivuu2803.github.io
 0.0.0.0 shizhong.pilot45.com
 0.0.0.0 shjyzxzx.com
@@ -465007,6 +465018,7 @@
 0.0.0.0 skymailre-validate.weebly.com
 0.0.0.0 skymailsurport.weebly.com
 0.0.0.0 skymiro.ru
+0.0.0.0 skymods.top
 0.0.0.0 skype-online0345.web.app
 0.0.0.0 skype.dw.land.to
 0.0.0.0 skype.elitoras.ru
@@ -470403,6 +470415,7 @@
 0.0.0.0 steps.dedspac.ru
 0.0.0.0 stepstone.112.2o7.net
 0.0.0.0 stepstreams.com
+0.0.0.0 stepupnetworks.com
 0.0.0.0 stereo-bit.fun
 0.0.0.0 stereo-bit.site
 0.0.0.0 stereo-bit.space
@@ -471169,6 +471182,7 @@
 0.0.0.0 studio-t.teads.tv
 0.0.0.0 studio-taddei.it
 0.0.0.0 studiodentisticoantonelli.it
+0.0.0.0 studiogioeli.it
 0.0.0.0 studiokaspersky.com
 0.0.0.0 studiomugnaini.eu
 0.0.0.0 studiomusicaleserafini.com
@@ -471619,6 +471633,7 @@
 0.0.0.0 sulphotannic.yazibo.ru
 0.0.0.0 sulqavo.shop
 0.0.0.0 sultan-raza.github.io
+0.0.0.0 sultanaexecutive.com
 0.0.0.0 sultanajshjdjsd.vercel.app
 0.0.0.0 sultano25.blogspot.be
 0.0.0.0 sultano25.blogspot.co.nz
@@ -472596,6 +472611,7 @@
 0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
+0.0.0.0 swiftonyx16.com
 0.0.0.0 swiftpathav.vercel.app
 0.0.0.0 swiftpay0.github.io
 0.0.0.0 swifts-fynn-webs.deno.dev
@@ -473398,6 +473414,7 @@
 0.0.0.0 tab.dedspac.ru
 0.0.0.0 tab.dellrescue.com
 0.0.0.0 tab.myreserp.com
+0.0.0.0 tabak.hr
 0.0.0.0 tabby.dedspac.ru
 0.0.0.0 tabby.virosat.ru
 0.0.0.0 tabegroup.nl
@@ -476227,6 +476244,7 @@
 0.0.0.0 therozgaar.in
 0.0.0.0 therwwd-teratghtdt-btaeittrearjecdhetalitnoudnttr-nrea-eachhee.lon1.cdn.digitaloceanspaces.com
 0.0.0.0 thesafarigarden.com
+0.0.0.0 thesalons.in
 0.0.0.0 thesciencequest.info
 0.0.0.0 thescoopbakersfield.com
 0.0.0.0 thesearchagency.net
@@ -476240,6 +476258,7 @@
 0.0.0.0 thesimplestairs.com
 0.0.0.0 thesimsresource.fr
 0.0.0.0 thesmartgoods.com
+0.0.0.0 thesnapchatmodapk.com
 0.0.0.0 thesocialstrategies.com
 0.0.0.0 thesoln.pages.dev
 0.0.0.0 thesootmaster.net
@@ -491068,6 +491087,7 @@
 0.0.0.0 wicks.hustorla.ru
 0.0.0.0 wicksl.ru
 0.0.0.0 wickup.wowagis.ru
+0.0.0.0 wicreset.online
 0.0.0.0 wid.ulitron.ru
 0.0.0.0 wide-dinner-shrilling.on-fleek.app
 0.0.0.0 wide.ulitron.ru
@@ -491339,6 +491359,7 @@
 0.0.0.0 winds.dedspac.ru
 0.0.0.0 windstreamupgradeservice.pages.dev
 0.0.0.0 windstreamupgradeservicess.pages.dev
+0.0.0.0 windsurfingthailand.org
 0.0.0.0 windycitycrier.com
 0.0.0.0 windycitymirror.com
 0.0.0.0 windycitytimes.news
@@ -503098,6 +503119,7 @@
 0.0.0.0 www.map-location.info
 0.0.0.0 www.mapqueat.com
 0.0.0.0 www.mapquestt.com
+0.0.0.0 www.maquinasisensee.com.br
 0.0.0.0 www.maradinrassla.online
 0.0.0.0 www.maralgel.pro
 0.0.0.0 www.maraslioglu.net
@@ -508296,6 +508318,7 @@
 0.0.0.0 www.sitononraggiungibile.it
 0.0.0.0 www.situarecup.store
 0.0.0.0 www.sivdorgalrenai.net
+0.0.0.0 www.sivritepeinsaat.com
 0.0.0.0 www.sixsigmatraffic.com
 0.0.0.0 www.sixtelilangooeni.info
 0.0.0.0 www.sizeablynysddtagmus.info
