@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-21 06:34:25
-# Entries: 516235
+# Generated: 2026-10-21 12:34:16
+# Entries: 516248
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -73978,6 +73978,7 @@
 0.0.0.0 alpharddiving.com
 0.0.0.0 alphardgolf.fr
 0.0.0.0 alpharealmx.com
+0.0.0.0 alpharettaagency.com
 0.0.0.0 alphas.dedspac.ru
 0.0.0.0 alphasan.in
 0.0.0.0 alphasaurabh.github.io
@@ -140774,6 +140775,7 @@
 0.0.0.0 besancon-self-defense.fr
 0.0.0.0 besaumesame-fc45fc.ingress-alpha.ewp.live
 0.0.0.0 besavebd.com
+0.0.0.0 beschaffungszentrale.de
 0.0.0.0 beschermenvermijnlng.noez.me
 0.0.0.0 bescorched.matsuro.ru
 0.0.0.0 bese5110.odns.fr
@@ -160138,7 +160140,6 @@
 0.0.0.0 buruncha.ru
 0.0.0.0 burushaski.matsuro.ru
 0.0.0.0 burut.ulitron.ru
-0.0.0.0 buruujtech.com
 0.0.0.0 burwod.ru
 0.0.0.0 burwoodrsl-sharedocument.on.fleek.co
 0.0.0.0 bury.0fees.us
@@ -172910,6 +172911,7 @@
 0.0.0.0 checkout-diepost.ddnss.eu
 0.0.0.0 checkout-enchanced.ddns.net
 0.0.0.0 checkout-ui-lrvcom-prod.azureedge.net
+0.0.0.0 checkout.bloamnu.shop
 0.0.0.0 checkout.magniflex.ro
 0.0.0.0 checkout.sparrow.science
 0.0.0.0 checkout.swisseposte.com
@@ -184178,7 +184180,6 @@
 0.0.0.0 community.fb-pages-87311170493185500542.qf4owyef2n-xoy4w7wpr6pw.p.runcloud.link
 0.0.0.0 community.fb-pages-99558416152942940161.qf4owyef2n-xoy4w7wpr6pw.p.runcloud.link
 0.0.0.0 community.films43.me
-0.0.0.0 community.firm.in
 0.0.0.0 community.manage-app-uuid32899926009389349564.q8pwzeiv8n-ewx3lwn7l4zq.p.runcloud.link
 0.0.0.0 community.manage-app-uuid72329026450911547548.q8pwzeiv8n-ewx3lwn7l4zq.p.runcloud.link
 0.0.0.0 community.microsoftbusinessapps.com
@@ -189648,6 +189649,7 @@
 0.0.0.0 cpo.adflex.vn
 0.0.0.0 cpo.co.jp
 0.0.0.0 cpocommerceinc.112.2o7.net
+0.0.0.0 cpofficial.com
 0.0.0.0 cpoohcodmfkucglhzjmmkkeyquhrnxjkzglo-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 cpopgiptzd.duckdns.org
 0.0.0.0 cporiente.cl
@@ -190345,6 +190347,7 @@
 0.0.0.0 creativewastepartners.com
 0.0.0.0 creativeweb.co.zw
 0.0.0.0 creativewebsiteconcepts.com
+0.0.0.0 creativit.fr
 0.0.0.0 creativityblocksnodesoasz.pages.dev
 0.0.0.0 creativityblocksnodle.pages.dev
 0.0.0.0 creativitybsnodes.pages.dev
@@ -190684,6 +190687,7 @@
 0.0.0.0 crestpart.com
 0.0.0.0 crestrendamere-digital.pages.dev
 0.0.0.0 crestvaluetronapp-solution-icu.pages.dev
+0.0.0.0 cresvin.com
 0.0.0.0 cret.pages.dev
 0.0.0.0 cretan.virosat.ru
 0.0.0.0 crete.cloudns.ph
@@ -192017,7 +192021,6 @@
 0.0.0.0 cts.w55c.net
 0.0.0.0 ctsempresa.com
 0.0.0.0 ctservices.fr
-0.0.0.0 ctsfactory.com
 0.0.0.0 ctsinteractive.com
 0.0.0.0 ctsp-arequipa.org.pe
 0.0.0.0 ctsprojectsolutions.com
@@ -209215,6 +209218,7 @@
 0.0.0.0 dmobrirwflwkhzdy-dot-millinium.ey.r.appspot.com
 0.0.0.0 dmocoz.com
 0.0.0.0 dmokvcilmnxhkokrspctmmzbfp-dot-gle39404049.rj.r.appspot.com
+0.0.0.0 dmoneii.com
 0.0.0.0 dmotewlccpss.tk
 0.0.0.0 dmow.advslisboa.com.br
 0.0.0.0 dmp-log.yomedia.vn
@@ -212695,6 +212699,7 @@
 0.0.0.0 dreamartdesigns.com
 0.0.0.0 dreambasetechnologies.net
 0.0.0.0 dreamboostzu.vercel.app
+0.0.0.0 dreambot.cc
 0.0.0.0 dreambot.info
 0.0.0.0 dreambuolt.rebuildfiqure.site
 0.0.0.0 dreamcastersearth.com
@@ -212913,7 +212918,6 @@
 0.0.0.0 drgrossu.md
 0.0.0.0 drhankdelivered.com
 0.0.0.0 drharisinghjachak.com
-0.0.0.0 drhenrylopez.com
 0.0.0.0 drhhfddbwy.duckdns.org
 0.0.0.0 drias.dedspac.ru
 0.0.0.0 drias.ulitron.ru
@@ -216948,6 +216952,7 @@
 0.0.0.0 easyport.in
 0.0.0.0 easyprofithunters.com
 0.0.0.0 easyqapark.vu
+0.0.0.0 easyrentbyowner.com
 0.0.0.0 easyresearchsolutions.com
 0.0.0.0 easyrideug.com
 0.0.0.0 easys.duckdns.org
@@ -217890,6 +217895,7 @@
 0.0.0.0 ebubxsbsqh.duckdns.org
 0.0.0.0 ebuddynews.com
 0.0.0.0 ebullienceinabundance.com
+0.0.0.0 ebullientlife.in
 0.0.0.0 eburdwanmuktodhara.org.in
 0.0.0.0 eburkhardt.techvalleyabbottabad.pk
 0.0.0.0 ebusiness-bofamerica.online
@@ -218845,6 +218851,7 @@
 0.0.0.0 educ.rec.br
 0.0.0.0 educacao.barretos.sp.gov.br
 0.0.0.0 educacioncolaborativa.cl
+0.0.0.0 educacom.com.br
 0.0.0.0 educafacso.facso.cl
 0.0.0.0 educalera.com
 0.0.0.0 educareweb.com.br
@@ -224415,6 +224422,7 @@
 0.0.0.0 epic-wescoff-ced422.netlify.app
 0.0.0.0 epic-williams-ce412e.netlify.app
 0.0.0.0 epic.bortogat.ru
+0.0.0.0 epic.edu.gt
 0.0.0.0 epic.ulitron.ru
 0.0.0.0 epically.sikolar.ru
 0.0.0.0 epicardmatericdc.com
@@ -231997,7 +232005,6 @@
 0.0.0.0 fabricofurnitures.com
 0.0.0.0 fabricpaintings.com
 0.0.0.0 fabrics.chiripalgroup.com
-0.0.0.0 fabrics.lahoreshoes.com
 0.0.0.0 fabrikaistanbul.com
 0.0.0.0 fabrikala.com
 0.0.0.0 fabrisubsea.co.uk
@@ -240352,6 +240359,7 @@
 0.0.0.0 fdsfsewfdsf.cf
 0.0.0.0 fdsgdsgs.easy.co
 0.0.0.0 fdshrtgds.yourtrap.com
+0.0.0.0 fdstat.vip
 0.0.0.0 fdsxaz2cds.pages.dev
 0.0.0.0 fdsxc.cckqatx.cn
 0.0.0.0 fdsyfmtfoa.duckdns.org
@@ -279472,6 +279480,7 @@
 0.0.0.0 hevpvfaawrxasyqwspvdlkwrmg-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 hew.amaniwa.ru
 0.0.0.0 hew.ulitron.ru
+0.0.0.0 hewadexchange.com
 0.0.0.0 hewaniana.online
 0.0.0.0 hewaniana.ru
 0.0.0.0 hewasukis.hopto.org
@@ -304683,6 +304692,7 @@
 0.0.0.0 jagencnt4.duckdns.org
 0.0.0.0 jagex-reward.club
 0.0.0.0 jagex-rewards.online
+0.0.0.0 jagexlauncher.net
 0.0.0.0 jagexmembership.20m.com
 0.0.0.0 jagg.amaniwa.ru
 0.0.0.0 jagg.ulitron.ru
@@ -318486,6 +318496,7 @@
 0.0.0.0 kitprodutos.com.br
 0.0.0.0 kits-anna.com
 0.0.0.0 kits.dedspac.ru
+0.0.0.0 kits.frog.tw
 0.0.0.0 kits.gratis
 0.0.0.0 kits.ulitron.ru
 0.0.0.0 kitsadat.net
@@ -324911,6 +324922,7 @@
 0.0.0.0 lahore.shanitravels.org
 0.0.0.0 lahorecallgirlsescorts.com
 0.0.0.0 lahorepropertygroup.com
+0.0.0.0 lahoreshoes.com
 0.0.0.0 lahoreviphotels.com
 0.0.0.0 lahoyws2.com
 0.0.0.0 lahstudios.com
@@ -349917,7 +349929,6 @@
 0.0.0.0 mama.pipi.ne.jp
 0.0.0.0 mama.ulitron.ru
 0.0.0.0 mamaandmimi.com
-0.0.0.0 mamabearcoffee.com
 0.0.0.0 mamabearhikes.com.au
 0.0.0.0 mamacehin.com
 0.0.0.0 mamachumbas.com
@@ -366798,7 +366809,6 @@
 0.0.0.0 misaki4552.github.io
 0.0.0.0 misaky.ae
 0.0.0.0 misally.bortogat.ru
-0.0.0.0 misano.gestroom.it
 0.0.0.0 misanoassicurazioni.it
 0.0.0.0 misanthology.com
 0.0.0.0 misanthropically.bortogat.ru
@@ -372389,6 +372399,7 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
+0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -389337,6 +389348,7 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
+0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
 0.0.0.0 northga.rocks
@@ -391506,6 +391518,7 @@
 0.0.0.0 nusantarajayakonveksi.com
 0.0.0.0 nusapintar.masuk.id
 0.0.0.0 nusaspin.co-ud.com
+0.0.0.0 nusatoyota.co.id
 0.0.0.0 nusbpvjhbhhdkqsu-dot-millinium.ey.r.appspot.com
 0.0.0.0 nusciwgtmrxrsdwbhjqoyomizz-dot-glmar9393293232323.uk.r.appspot.com
 0.0.0.0 nuseek.com
@@ -401382,6 +401395,7 @@
 0.0.0.0 orient-water.com
 0.0.0.0 orientationpour-tous.fr
 0.0.0.0 orientedargument.com
+0.0.0.0 orientedworld.com
 0.0.0.0 orientgrammarschools.edu.pk
 0.0.0.0 orierd.shop
 0.0.0.0 orifl21ame01.000webhostapp.com
@@ -402457,6 +402471,7 @@
 0.0.0.0 outerring-bonus.online
 0.0.0.0 outerring-giveaway.online
 0.0.0.0 outerwords.com
+0.0.0.0 outexfashion.com
 0.0.0.0 outfenffcing.info
 0.0.0.0 outfichga.c1.biz
 0.0.0.0 outfish.bounceme.net
@@ -405587,7 +405602,6 @@
 0.0.0.0 paidacct.000webhostapp.com
 0.0.0.0 paidbigjgbnzxygl-dot-millinium.ey.r.appspot.com
 0.0.0.0 paideng.sbs
-0.0.0.0 paidinsunshine.com
 0.0.0.0 paidleboncoinnfr.000webhostapp.com
 0.0.0.0 paidonbillstoday.com
 0.0.0.0 paidpromotionin.blogspot.com.es
@@ -413871,6 +413885,7 @@
 0.0.0.0 physics.uctm.edu
 0.0.0.0 physicsashok.com
 0.0.0.0 physicsbeckons.com
+0.0.0.0 physicsbyfiziks.org
 0.0.0.0 physimath.com
 0.0.0.0 physio-roesch.de
 0.0.0.0 physiology-anatomy.seo-florida.com
@@ -419359,7 +419374,6 @@
 0.0.0.0 pos.drivrr.com
 0.0.0.0 pos.healthrxbd.com
 0.0.0.0 pos.miebp.com
-0.0.0.0 pos.nittosupport.ca
 0.0.0.0 pos.vfixit.com.au
 0.0.0.0 pos2.usahawan.cc
 0.0.0.0 pos24pl.eu.cc
@@ -440391,6 +440405,7 @@
 0.0.0.0 raq.programtts.top
 0.0.0.0 raqamtasdiqlash.com
 0.0.0.0 raqi-gamer.github.io
+0.0.0.0 raqmnh.com
 0.0.0.0 raqnor.com
 0.0.0.0 raquelbarros.com.br
 0.0.0.0 raquelnash.autos
@@ -440569,7 +440584,6 @@
 0.0.0.0 rathepayments.com
 0.0.0.0 rathirirounds.com
 0.0.0.0 rathkealechildcare.ie
-0.0.0.0 rathodsoftware.in
 0.0.0.0 rathoraryann.github.io
 0.0.0.0 rathuiasa.duckdns.org
 0.0.0.0 ratiborus2023.com
@@ -456721,7 +456735,6 @@
 0.0.0.0 sager.dedspac.ru
 0.0.0.0 sager.ulitron.ru
 0.0.0.0 sages.dedspac.ru
-0.0.0.0 sagescasebytes.com
 0.0.0.0 sageworkflow10.azurefd.net
 0.0.0.0 saggezza.in
 0.0.0.0 sagimanagement.com.my
@@ -463620,7 +463633,6 @@
 0.0.0.0 shivmundhe7.github.io
 0.0.0.0 shivshaktienterprisesinternational.com
 0.0.0.0 shivshreetravelworld.com
-0.0.0.0 shivsoftwaresolutions.com
 0.0.0.0 shivuu2803.github.io
 0.0.0.0 shizhong.pilot45.com
 0.0.0.0 shjyzxzx.com
@@ -465017,7 +465029,6 @@
 0.0.0.0 skymailre-validate.weebly.com
 0.0.0.0 skymailsurport.weebly.com
 0.0.0.0 skymiro.ru
-0.0.0.0 skymods.top
 0.0.0.0 skype-online0345.web.app
 0.0.0.0 skype.dw.land.to
 0.0.0.0 skype.elitoras.ru
@@ -466939,6 +466950,7 @@
 0.0.0.0 southprovesolutions.com
 0.0.0.0 southwest.dogvilla.ru
 0.0.0.0 southwestairlines.tt.omtrdc.net
+0.0.0.0 southwindsfineart.com
 0.0.0.0 soutiensupport2025.site
 0.0.0.0 souvik28232105.github.io
 0.0.0.0 souwzb.sbs
@@ -467788,6 +467800,7 @@
 0.0.0.0 srpaymxscrtu.loportar.ru
 0.0.0.0 srpoint.store
 0.0.0.0 srpska.news-pravda.com
+0.0.0.0 srrealestate.techzonecam.com
 0.0.0.0 srryrvrdcwi.tauzetaomega.org
 0.0.0.0 srs.targetpoint.com
 0.0.0.0 srsorvete.com.br
@@ -470414,7 +470427,6 @@
 0.0.0.0 steps.dedspac.ru
 0.0.0.0 stepstone.112.2o7.net
 0.0.0.0 stepstreams.com
-0.0.0.0 stepupnetworks.com
 0.0.0.0 stereo-bit.fun
 0.0.0.0 stereo-bit.site
 0.0.0.0 stereo-bit.space
@@ -470586,6 +470598,7 @@
 0.0.0.0 stonechatcocsshairperson.info
 0.0.0.0 stonecredholmengine-com.pages.dev
 0.0.0.0 stonecsshats.info
+0.0.0.0 stonemart.pk
 0.0.0.0 stoneowle.vercel.app
 0.0.0.0 stoneskirts.pl
 0.0.0.0 stonewa.space
@@ -471632,7 +471645,6 @@
 0.0.0.0 sulphotannic.yazibo.ru
 0.0.0.0 sulqavo.shop
 0.0.0.0 sultan-raza.github.io
-0.0.0.0 sultanaexecutive.com
 0.0.0.0 sultanajshjdjsd.vercel.app
 0.0.0.0 sultano25.blogspot.be
 0.0.0.0 sultano25.blogspot.co.nz
@@ -473618,6 +473630,7 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
+0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -476257,7 +476270,6 @@
 0.0.0.0 thesimplestairs.com
 0.0.0.0 thesimsresource.fr
 0.0.0.0 thesmartgoods.com
-0.0.0.0 thesnapchatmodapk.com
 0.0.0.0 thesocialstrategies.com
 0.0.0.0 thesoln.pages.dev
 0.0.0.0 thesootmaster.net
@@ -485771,6 +485783,7 @@
 0.0.0.0 verfedg.duckdns.org
 0.0.0.0 verfication-compte.com
 0.0.0.0 verfics-tarjepcredencials.me
+0.0.0.0 vergabe-zentrale.de
 0.0.0.0 vergadol.ru
 0.0.0.0 vergerplacencia.com
 0.0.0.0 vergisorgu.org
@@ -501095,6 +501108,7 @@
 0.0.0.0 www.icloud.fairbox.pl
 0.0.0.0 www.iclsas.com
 0.0.0.0 www.ico.re
+0.0.0.0 www.icomsa.com.mx
 0.0.0.0 www.iconatsbs.com
 0.0.0.0 www.icoocash.com
 0.0.0.0 www.icowatchlist.com
@@ -503118,7 +503132,6 @@
 0.0.0.0 www.map-location.info
 0.0.0.0 www.mapqueat.com
 0.0.0.0 www.mapquestt.com
-0.0.0.0 www.maquinasisensee.com.br
 0.0.0.0 www.maradinrassla.online
 0.0.0.0 www.maralgel.pro
 0.0.0.0 www.maraslioglu.net
