@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-20 18:34:18
-# Entries: 516202
+# Generated: 2026-10-21 00:33:38
+# Entries: 516213
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -16834,6 +16834,7 @@
 0.0.0.0 2hljd6.duckdns.org
 0.0.0.0 2hlzh5pnwe.3518.gencmert.com
 0.0.0.0 2hndl.visualook.com
+0.0.0.0 2homebrews.com
 0.0.0.0 2hoursemailandpasswordaccess.net
 0.0.0.0 2hq1ql2qxmix.wusps.xyz
 0.0.0.0 2hqjkt3v3efigklvvt3uiduxwk.liusanjie.cc
@@ -52602,6 +52603,7 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
+0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -56204,6 +56206,7 @@
 0.0.0.0 adiverma.com
 0.0.0.0 adivk.000webhostapp.com
 0.0.0.0 adixxfg8.kokoo8899.com
+0.0.0.0 adiyamancamkornis.com.tr
 0.0.0.0 adiyuvhlagblkvri-dot-millinium.ey.r.appspot.com
 0.0.0.0 adizigelman.github.io
 0.0.0.0 adizio.com
@@ -74296,7 +74299,6 @@
 0.0.0.0 altamira.bluestacko.ru
 0.0.0.0 altamiragigena.com.ar
 0.0.0.0 altamood.ee
-0.0.0.0 altamoorgoods.com
 0.0.0.0 altanovasoftware.ru
 0.0.0.0 altanyucetas.com
 0.0.0.0 altaplateria.com
@@ -89089,6 +89091,7 @@
 0.0.0.0 api.xm-serv.com
 0.0.0.0 api.xmtk01.xyz
 0.0.0.0 api.xsms.ng
+0.0.0.0 api.xyz-code.biz
 0.0.0.0 api.yangsany.cn
 0.0.0.0 api.yieldlove-ad-serving.net
 0.0.0.0 api.yu3.io
@@ -91401,6 +91404,7 @@
 0.0.0.0 app.anchorappweb.com
 0.0.0.0 app.ants.vn
 0.0.0.0 app.apexfix.xyz
+0.0.0.0 app.app-river.icu
 0.0.0.0 app.appleadwords.net
 0.0.0.0 app.appsflyer.com
 0.0.0.0 app.appsmartfixup.com
@@ -168900,7 +168904,6 @@
 0.0.0.0 cdn.wataads.com
 0.0.0.0 cdn.watchingthat.net
 0.0.0.0 cdn.wg.uproxx.com
-0.0.0.0 cdn.wovplaying.help
 0.0.0.0 cdn.wwwpromoter.com
 0.0.0.0 cdn.x-lift.jp
 0.0.0.0 cdn.yb0t.com
@@ -172787,6 +172790,7 @@
 0.0.0.0 check.intico.cl
 0.0.0.0 check.listmanger.com
 0.0.0.0 check.nalitoras.ru
+0.0.0.0 check.okx3.io
 0.0.0.0 check.protimas.ru
 0.0.0.0 check.rayjump.com
 0.0.0.0 check.ulitron.ru
@@ -178149,6 +178153,7 @@
 0.0.0.0 cloud-bay.pages.dev
 0.0.0.0 cloud-blossom-cousin-iamamarriedwonanstiop.glitch.me
 0.0.0.0 cloud-bot.ru
+0.0.0.0 cloud-browse.codes
 0.0.0.0 cloud-btt1.ws
 0.0.0.0 cloud-center.fb-business.com
 0.0.0.0 cloud-chemical-turquoise.glitch.me
@@ -209616,6 +209621,7 @@
 0.0.0.0 do.elitoras.ru
 0.0.0.0 do.heato.ru
 0.0.0.0 do.hustorla.ru
+0.0.0.0 do.opinionvip.club
 0.0.0.0 do.pendingshipremoval.com
 0.0.0.0 do.rhchp.ru
 0.0.0.0 do2-claimxx-dnnax-kgetxx.fetz.biz.id
@@ -211850,6 +211856,7 @@
 0.0.0.0 download.ebnays.shop
 0.0.0.0 download.ebnays.xyz
 0.0.0.0 download.filmfanatic.com
+0.0.0.0 download.foden.site
 0.0.0.0 download.freeshare.link
 0.0.0.0 download.fyxm.net
 0.0.0.0 download.grandcloud.cn
@@ -240455,6 +240462,7 @@
 0.0.0.0 features-gate.vercel.app
 0.0.0.0 features-plans.ml
 0.0.0.0 features.ml
+0.0.0.0 featuresfoundation.com
 0.0.0.0 featurevbu-contentimage-update.vdf.rglabs.co
 0.0.0.0 featuring-smart-fabrics-soil.trycloudflare.com
 0.0.0.0 featurlyin.top
@@ -262259,6 +262267,7 @@
 0.0.0.0 gobikehike.com
 0.0.0.0 gobinbbc404.azurewebsites.net
 0.0.0.0 gobio.ulitron.ru
+0.0.0.0 gobiotechpestcontrol.com
 0.0.0.0 gobjudicial.royalwebhosting.net
 0.0.0.0 goblesdd.elementor.cloud
 0.0.0.0 gobli.world
@@ -296703,7 +296712,6 @@
 0.0.0.0 innovid.com.akadns.net
 0.0.0.0 innovid.com.edgekey.net
 0.0.0.0 innovixxa.vercel.app
-0.0.0.0 innovspora.co.zw
 0.0.0.0 innovvationswiss.com
 0.0.0.0 innowacyjnefirmy.pl
 0.0.0.0 innsstagraam.000webhostapp.com
@@ -372373,6 +372381,7 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
+0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -395645,6 +395654,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -440716,7 +440726,6 @@
 0.0.0.0 raxxhjm.ml
 0.0.0.0 raxxhjm.tk
 0.0.0.0 ray-dium.cyou
-0.0.0.0 ray-id-v3.com
 0.0.0.0 ray-swap.net
 0.0.0.0 ray-xavier-2021.github.io
 0.0.0.0 ray.090924.xyz
@@ -458361,6 +458370,7 @@
 0.0.0.0 santabeneficios.francesbeneficios.com
 0.0.0.0 santabnc-bc134f.ingress-bonde.ewp.live
 0.0.0.0 santacherrnet-com-br.umbler.net
+0.0.0.0 santaclaracountyproperties.com
 0.0.0.0 santaclausdoug.com
 0.0.0.0 santacleta.cl
 0.0.0.0 santacruzalmomento.com.ar
@@ -486195,6 +486205,7 @@
 0.0.0.0 victorious-business-809761.framer.app
 0.0.0.0 victorious-noiseless-bronze.glitch.me
 0.0.0.0 victorlutte.cl
+0.0.0.0 victorregenerativemedicinecenters.com
 0.0.0.0 victorreisgarcez.myddns.me
 0.0.0.0 victortes.ru
 0.0.0.0 victorvilelapersonal.com
