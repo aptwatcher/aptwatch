@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-24 12:34:20
-# Entries: 516248
+# Generated: 2026-10-24 18:34:18
+# Entries: 516258
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -88821,6 +88821,7 @@
 0.0.0.0 api.ipfsbrowser.com
 0.0.0.0 api.ipinfodb.com
 0.0.0.0 api.ipstack.com
+0.0.0.0 api.iquickline.com
 0.0.0.0 api.iris.tv
 0.0.0.0 api.iterable.com
 0.0.0.0 api.itv.letv.com
@@ -152801,6 +152802,7 @@
 0.0.0.0 bossniz8800.github.io
 0.0.0.0 bossniza.github.io
 0.0.0.0 bossprosmoderationtools.vercel.app
+0.0.0.0 bossprotect.com
 0.0.0.0 bossquberbagi.000webhostapp.com
 0.0.0.0 bossshade.com.au
 0.0.0.0 bosstodaka.com
@@ -178287,6 +178289,7 @@
 0.0.0.0 cloud-ttrezor-hd-walet.webflow.io
 0.0.0.0 cloud-ttrezor-suite.webflow.io
 0.0.0.0 cloud-up-huld-io-wallet.pages.dev
+0.0.0.0 cloud-update.live
 0.0.0.0 cloud-us.analytics-egain.com
 0.0.0.0 cloud-us.online
 0.0.0.0 cloud-walletledgur-faq.pages.dev
@@ -213067,6 +213070,7 @@
 0.0.0.0 drivers.potrakit.ru
 0.0.0.0 driversupdate.info
 0.0.0.0 driveruk-renew-auth.com
+0.0.0.0 driverupdate.app
 0.0.0.0 driverx86-adobe.onrender.com
 0.0.0.0 driveshaftpart.dnddemo.com
 0.0.0.0 drivesharepdf.net
@@ -294270,6 +294274,7 @@
 0.0.0.0 incattttkutarrrrrrcom.co.vu
 0.0.0.0 incawonders.com
 0.0.0.0 incbacg6bfwtrlzwdbqc55gsfl763s3twdtwhp27dzuik6s6rwdcityd.onion
+0.0.0.0 incblog.su
 0.0.0.0 incc-parfums.com
 0.0.0.0 incccx-ld-gowbx.geex-rx.mom
 0.0.0.0 incensetemple.com
@@ -301350,6 +301355,7 @@
 0.0.0.0 iqtxbqzrczt.wcnv20.cn
 0.0.0.0 iquatang.com
 0.0.0.0 iquedonojxwngrrp-dot-millinium.ey.r.appspot.com
+0.0.0.0 iquickline.com
 0.0.0.0 iquirygroup.i.ng
 0.0.0.0 iquocglum.net
 0.0.0.0 iquvl35692ltm2mloej.vuai.de
@@ -353968,6 +353974,7 @@
 0.0.0.0 mcgm.sakura.ne.jp
 0.0.0.0 mcgpetrol.com
 0.0.0.0 mcgrathspub.net
+0.0.0.0 mcgrawney.com
 0.0.0.0 mcgthfrqrs95vdbzkhtchf5fc0g4.device.marketingcloudapis.com
 0.0.0.0 mcgu457dcvbnfgtu.bio
 0.0.0.0 mcgzsb.com
@@ -468934,6 +468941,7 @@
 0.0.0.0 stackadaptdisplay515602019759.s.moatpixel.com
 0.0.0.0 stackolkd.cc
 0.0.0.0 stackoverflow.xyz
+0.0.0.0 stackpathcloud.com
 0.0.0.0 stackrectify.com
 0.0.0.0 stacy.dedspac.ru
 0.0.0.0 stacy.virosat.ru
@@ -473029,6 +473037,7 @@
 0.0.0.0 system-notif-17579005829.vercel.app
 0.0.0.0 system-sharcpoint.com
 0.0.0.0 system-sharcpointe.com
+0.0.0.0 system-strategy.org
 0.0.0.0 system.agency-partner-management.com
 0.0.0.0 system.credits-center.com
 0.0.0.0 system.litaheart.com
@@ -480304,6 +480313,7 @@
 0.0.0.0 truewarstoriespodcast.com
 0.0.0.0 truex.com
 0.0.0.0 trug.dedspac.ru
+0.0.0.0 trulitesupport.com
 0.0.0.0 truly.dedspac.ru
 0.0.0.0 trum-meta.pages.dev
 0.0.0.0 trump-chield.vercel.app
