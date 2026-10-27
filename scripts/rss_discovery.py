@@ -204,7 +204,7 @@ IN_SCOPE_ACTORS = [
     "uac-0099", "matchboil",
     "storm-1516", "copycop", "portal kombat", "pravda network",          # influence ops
     "vanilla tempest", "vice society", "rhysida", "inc ransom",
-    "silent ransom", "luna moth", "chatty spider", "unc3753",
+    "silent ransom", "luna moth", "chatty spider", "unc3753", "sleepless threat",  # SRG rebrand Sep 2026 (2026-10-27)
     "ta458", "roundpress", "spypress",
     "storm-3168", "jadepuffer", "frontier blizzard",
     "glassworm", "patriot bait", "bigbear",
@@ -216,6 +216,12 @@ IN_SCOPE_ACTORS = [
     "cloud atlas",
     # --- 2026-10-20 widening: pro-Russian hacktivists (adjacent category) ---
     "noname057", "ddosia", "killnet", "cyber army of russia", "z-pentest", "sector16",
+    # --- 2026-10-25 filter-gap backfill: THN "Hackers Breach Enterprise Firewalls and VPNs,
+    #     Exposing Over 70,000 Credentials" (Group-IB/NyxLab k0t / FortiBleed-adjacent / The
+    #     Gentlemen overlap) was parsed but not matched — the news-sitemap carries no summary
+    #     and the title named no actor. "the gentlemen" = RaaS brand tracked via the 2026-10-24
+    #     Phantom AI affiliate campaign; "k0t" = Group-IB handle (3 chars -> whole-word match).
+    "the gentlemen", "k0t",
 ]
 
 # Keywords that flag likely Russian-linked / relevant ops even without a named
