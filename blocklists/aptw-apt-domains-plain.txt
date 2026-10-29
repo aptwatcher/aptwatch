@@ -30,6 +30,7 @@ editions.seattlemysterylovers.com
 embed-api.joelbaueronline.com
 fast-api.thelist2win.org
 fb-api.raydianpainting.com
+firebase.emeraldpineventuresllc.com
 fw-static.nashbashracing.org
 images.weightlosstonight.net
 joinnow.diasporamedia.net
