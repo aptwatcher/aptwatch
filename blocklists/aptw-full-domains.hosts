@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-30 00:34:05
-# Entries: 521895
+# Generated: 2026-10-30 06:05:00
+# Entries: 521901
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -44836,6 +44836,10 @@
 0.0.0.0 ab36.ar17.my.id
 0.0.0.0 ab36.qokdn.my.id
 0.0.0.0 ab38dd08.54vf69.shop
+0.0.0.0 ab3army.com
+0.0.0.0 ab3army.in
+0.0.0.0 ab3army.info
+0.0.0.0 ab3army.org
 0.0.0.0 ab3g7-biaaa-aaaad-qefia-cai.raw.ic0.app
 0.0.0.0 ab3q.short.gy
 0.0.0.0 ab4277.com
@@ -124873,6 +124877,7 @@
 0.0.0.0 backwoods-coffee.com
 0.0.0.0 backyard-productions.ch
 0.0.0.0 backyard.caq.com.au
+0.0.0.0 backyardchickens.top
 0.0.0.0 backyardhoneycompany.com
 0.0.0.0 backyardthrowdown.com
 0.0.0.0 baclin.dedspac.ru
@@ -252015,6 +252020,7 @@
 0.0.0.0 fridaypatiententer.com
 0.0.0.0 fridaysforfuture.nl
 0.0.0.0 fridgesrepair.com.au
+0.0.0.0 fried.backyardchickens.top
 0.0.0.0 fried.virosat.ru
 0.0.0.0 frieddersfr.ml
 0.0.0.0 friend123321.000webhostapp.com
