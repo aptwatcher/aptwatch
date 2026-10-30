@@ -1,0 +1,71 @@
+# Curator YAML — GREYVIBE / PhantomCaptcha: PrincessSpy C2/exfiltration server + APK download URL
+# (SUPPLEMENT to curator-2026-10-29-greyvibe-phantomcaptcha-eset-princessspy-ab3army.yaml; import
+# together or after it — same campaign row "GREYVIBE", already present on the server).
+# Written 2026-10-29 (manual enrichment pass requested by Dominic). Evidence chain:
+#  - ESET APT Activity Report Q2–Q3 2026 (2026-10-28) names ab3army.{in,com,info,org} as the fake
+#    sites distributing PrincessSpy.
+#  - VirusTotal (GUI, 2026-10-29): APK 464cac4a93c43a36c83499efe349a0971372bd9a0d90ef5786943277cc864bb3
+#    (names "ab3test.apk"; ESET-NOD32 Android/Spy.PrincessSpy.A; Lionic Trojan.AndroidOS.PrincessSpy.C;
+#    24/70 detections; first seen ITW 2026-05-24) is a referrer/communicating file of ab3army.info.
+#    Its sandbox run POSTs JPG/PDF files to http://103.112.68.246:5000/upload (Snort/Suricata alerts:
+#    "OS-MOBILE Android User-Agent", "HTTP request by IPv4 address", FILESTORE jpg/pdf) and queries
+#    api.ipify.org (benign, not listed). VT URL verdict for the /upload URL: ESET = malware.
+#  - A second PrincessSpy APK dea19e593473c603c3fb1673596d0f8c41218ef96c6183b1db9d99bc626d5716
+#    (package com.ua.map, Android debug cert thumbprint 911dd4bd649a59effa22b633230cccbe0c43e0d2,
+#    ESET Android/Spy.PrincessSpy.A, first seen ITW 2026-05-08) references ab3army.com; no sandbox
+#    network data available.
+#  - urlscan.io 2026-10-18 (two public scans): http://ab3army.com/wp-content/uploads/ab3test.apk was
+#    the submitted download URL (host already suspended by HyperHost at scan time → suspendedpage.cgi).
+#    The filename matches the VT sample name, so the path is corroborated by two independent sources.
+#  - 103.112.68.246: Shodan ports 22 + 5000 with Uvicorn (Python ASGI) on Debian — the same
+#    Uvicorn-on-a-high-port fingerprint Team Cymru used for the GREYVIBE/LegionRelay C2 set
+#    (curator-2026-10-20-greyvibe-*, TCP/8000 there). RDAP: inetnum 103.112.68.0/23 "Retzor, Inc."
+#    (geo NL), route origin AS215305 (Mastersoft S.R.L.), block re-registered 2026-04-14 — one week
+#    before ab3army.com — with admin/abuse contact "Alex Beloff, Moscow, info@datacheap.ru"
+#    (Russian hoster DataCheap). Dedicated VPS (2 open ports, no shared-hosting signal; OTX pDNS
+#    entries are pre-reallocation Chinese domains, stale). AbuseIPDB 0 reports, VT 0/92 — the IP is
+#    clean on reputation feeds precisely because nobody has published it yet.
+# Context-anchor rule: ab3army.com is re-listed (duplicate of the primary YAML, expected) because
+# the APK URL lives on it. The bare-IP URL's host is listed in ipv4:. No CIDR listed (no report
+# claims one; the /23 is a hoster allocation, not attacker-owned).
+# Shared-hosting IPs of the four domains (HyperHost 185.174.173.22, Namecheap 68.65.122.118,
+# Hostinger 187.77.69.224, Cloudflare 104.26.12/13.42, 172.67.68.204) are deliberately NOT listed.
+# URL scheme: both URLs are http:// as observed (sandbox traffic / urlscan task), no normalisation.
+# Hashes (digest-only; no hash table in the schema): SHA-256 464cac4a…64bb3, dea19e59…d5716;
+# SHA-1 b7edc21891e025288cfd7e79e73a65950a97bada (dea19e59…).
+# Dedup 2026-10-29 (live API 1.0.1): 103.112.68.246, both URLs → result_count 0 (net-new).
+author: APTWatch Curator
+source: https://www.virustotal.com/gui/file/464cac4a93c43a36c83499efe349a0971372bd9a0d90ef5786943277cc864bb3/relations
+source_name: "VirusTotal pivot on ESET APT Activity Report Q2–Q3 2026 PrincessSpy domains (2026-10-29) + urlscan.io"
+
+apt_groups:
+  - GREYVIBE
+
+description: >
+  Supplement to the 2026-10-29 GREYVIBE / PhantomCaptcha PrincessSpy YAML. Pivoting
+  the four ESET-published ab3army lookalike domains through VirusTotal surfaced two
+  PrincessSpy Android samples (ESET Android/Spy.PrincessSpy.A) tied to them, and the
+  sandbox run of 464cac4a…64bb3 ("ab3test.apk", distributed from ab3army.info /
+  ab3army.com) exfiltrates victim images and documents by HTTP POST to
+  http://103.112.68.246:5000/upload. The server is a dedicated Debian VPS running a
+  Python Uvicorn service on TCP/5000 (plus SSH) in the Retzor, Inc. block
+  103.112.68.0/23 (AS215305 Mastersoft S.R.L., registered 2026-04-14, admin contact
+  in Moscow via the Russian hoster DataCheap) — the same Uvicorn-on-a-nonstandard-
+  port C2 pattern Team Cymru fingerprinted for GREYVIBE's LegionRelay C2s. The APK
+  download URL http://ab3army.com/wp-content/uploads/ab3test.apk is corroborated by
+  two public urlscan.io tasks (2026-10-18) and by the VT sample name. Discovery
+  vector: manual VT/urlscan enrichment of the ESET primary; no vendor has yet
+  published the C2. IOC set: 1 C2/exfil IPv4, 1 path-precise exfil URL, 1 APK
+  download URL, 1 context-anchor apex (ab3army.com, already in the primary YAML).
+  MITRE: T1437.001 (Application Layer Protocol: Web), T1646 (Exfiltration Over C2
+  Channel), T1533, T1430, T1583.004 (Acquire Infrastructure: Server).
+
+ipv4:
+  - 103.112.68.246
+
+urls:
+  - http://103.112.68.246:5000/upload
+  - http://ab3army.com/wp-content/uploads/ab3test.apk
+
+domains:
+  - ab3army.com

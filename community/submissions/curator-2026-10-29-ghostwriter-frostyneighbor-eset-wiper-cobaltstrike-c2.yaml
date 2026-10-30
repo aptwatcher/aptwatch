@@ -1,0 +1,44 @@
+# Curator YAML — FrostyNeighbor / GhostWriter (UNC1151, UAC-0057, Belarus-aligned): Cobalt Strike
+# C2 used in the first documented Belarus-aligned destructive (wiper) attack in Ukraine.
+# Written 2026-10-29. Primary: ESET APT Activity Report Q2 2026–Q3 2026, published 2026-10-28
+# (PDF p. 26, footnote 1: "CobaltStrike C&C server: fried.backyardchickens[.]top").
+# apt_groups[0] matches the DB campaign_name EXACTLY ("UAC-0057 / GhostWriter / UNC1151") —
+# confirmed on the live API 2026-10-29 via needbinding.icu (curator-2026-10-20-ghostwriter-*).
+# "FrostyNeighbor" and "Storm-0257" are already aliases on that row; ESET's new alias "PUSHCHA"
+# and Proofpoint's "TA445" are NOT added here (DB proposal in the digest) to keep the alias
+# list change explicit for review.
+# Context-anchor rule: the registrable apex backyardchickens.top is listed with the attributed
+# FQDN. Ownership triage: reports/triage/eset-apt-activity-report-q2q3-2026-10-29.csv (heuristic:
+# likely_attacker / malicious for both). Live WHOIS 2026-10-29: backyardchickens.top created
+# 2025-03-03 (PDR Ltd, registrant redacted, Cloudflare NS) — throwaway .top lookalike of the
+# legitimate backyardchickens.com forum, consistent with the actor's .icu/.buzz throwaway-TLD
+# pattern from the 2026-10-20 YAML → attacker-registered, listed under domains: (malicious).
+# Dedup: both net-new on the live API (API 1.0.1). Hashes: none published.
+author: APTWatch Curator
+source: https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q2-2026-q3-2026/
+source_name: "ESET Research — APT Activity Report Q2 2026–Q3 2026 (2026-10-28), FrostyNeighbor wiper attack"
+
+apt_groups:
+  - UAC-0057 / GhostWriter / UNC1151
+
+description: >
+  ESET APT Activity Report Q2 2026–Q3 2026 (published 2026-10-28; full PDF
+  https://web-assets.esetstatic.com/wls/en/papers/threat-reports/eset-apt-activity-report-q2-2026-q3-2026.pdf)
+  reports that in late May 2026 FrostyNeighbor (aka UNC1151, PUSHCHA, GhostWriter,
+  Storm-0257, TA445, UAC-0057; Belarus-aligned) deployed Chisel, UltraVNC and
+  Cobalt Strike, then pushed a VBScript wiper via Group Policy against a Ukrainian
+  manufacturing company with a significant role in the country's transportation
+  sector — to ESET's knowledge the first documented destructive cyberattack by a
+  Belarus-aligned threat actor in the European theater. ESET reads the targeting
+  as closer to Moscow's strategic priorities than Minsk's and assesses that
+  Belarus-aligned groups are converging toward proxy status for Russia's
+  security apparatus. IOC set: 1 Cobalt Strike C2 FQDN plus its attacker-
+  registered apex (context anchor). Sister coverage (no additional IOCs):
+  ESET press releases, Mallory/Brinztech/ITReseller summaries. Related: ESET
+  "FrostyNeighbor: Fresh mischief and digital shenanigans" (spring 2026,
+  ingested as curator-2026-10-20-ghostwriter-frostyneighbor-eset-picassoloader-cs).
+  MITRE: T1484.001, T1485, T1059.005, T1572, T1021.005, T1071.001, T1583.001.
+
+domains:
+  - fried.backyardchickens.top
+  - backyardchickens.top

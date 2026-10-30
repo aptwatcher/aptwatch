@@ -1,0 +1,57 @@
+# Curator YAML — GREYVIBE / PhantomCaptcha (CERT-UA UAC-0247 → UAC-0244): PrincessSpy Android
+# spyware distribution domains impersonating ab3.army (ESET APT Activity Report Q2 2026–Q3 2026).
+# Written 2026-10-29. Primary: ESET Research, published 2026-10-28 (PDF p. 23, "PhantomCaptcha").
+# apt_groups[0] matches the DB campaign_name EXACTLY ("GREYVIBE", id 108) — confirmed on the live
+# API 2026-10-29: SentinelLabs' PhantomCaptcha domain princess-mens.click and the LegionRelay C2
+# 194.87.128.243 both resolve to campaign "GREYVIBE" at curator 1.0. ESET states the activity
+# "initially tracked as UAC-0247 [was] later consolidated under UAC-0244" and "overlaps with
+# PhantomCaptcha" (SentinelOne, Oct 2025) — "PhantomCaptcha" and "UAC-0244" are added as aliases
+# (neither exists on any other campaign row; "UAC-0247" was added by curator-2026-10-20-greyvibe-*).
+# Ownership triage: reports/triage/eset-apt-activity-report-q2q3-2026-10-29.csv (offline heuristic
+# defaulted ab3army.in/.com/.org to needs_review). CURATOR OVERRIDE → malicious for all four:
+# ESET explicitly describes them as "fake websites that impersonate the legitimate ab3.army website"
+# used to distribute PrincessSpy; live WHOIS 2026-10-29: ab3army.com created 2026-04-21 (UKRNAMES,
+# privacy, hyperhost.ua NS), ab3army.info created 2026-05-07 (Gname, redacted) — both inside the
+# ESET reporting window; ab3army.in is currently UNREGISTERED (lapsed) and ab3army.org returned no
+# WHOIS record — both are still listed because the report itself attributes them as the actor's
+# distribution infrastructure (DB lifecycle/decay handles the lapse). The legitimate apex ab3.army
+# is the IMPERSONATED site and is deliberately NOT listed.
+# Hashes: none published in the report. Dedup: all 4 domains net-new on the live API (API 1.0.1).
+author: APTWatch Curator
+source: https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q2-2026-q3-2026/
+source_name: "ESET Research — APT Activity Report Q2 2026–Q3 2026 (2026-10-28), PhantomCaptcha / PrincessSpy"
+
+apt_groups:
+  - GREYVIBE
+  - PhantomCaptcha
+  - UAC-0244
+
+description: >
+  ESET APT Activity Report Q2 2026–Q3 2026 (published 2026-10-28; full PDF
+  https://web-assets.esetstatic.com/wls/en/papers/threat-reports/eset-apt-activity-report-q2-2026-q3-2026.pdf)
+  documents additional defense-related activity by the Russia-aligned
+  PhantomCaptcha cluster — the activity CERT-UA tracked as UAC-0247 and later
+  consolidated under UAC-0244 (CERT-UA article 6288271, 2026-04-15), which this
+  project tracks as GREYVIBE (WithSecure) / LegionRelay. During April–September
+  2026 the group distributed new samples of its PrincessSpy Android spyware via
+  social engineering, hosting the APKs on fake websites impersonating the
+  legitimate ab3.army site. PrincessSpy requests extensive permissions, mirrors
+  the site it was downloaded from as a decoy, polls for updates delivered as a
+  separate APK, and exfiltrates contacts, call logs, device/network information,
+  location data and all stored images to its C&C. The same reporting period
+  also saw UAC-0244 target Ukrainian municipalities and healthcare institutions
+  with humanitarian-aid lures delivering LNK/HTA/JS chains (AGINGFLY WebSocket
+  RAT, SILENTLOOP, CHROMELEVATOR, ZAPiXDESK, Ligolo-ng/Chisel tunnelling) and a
+  trojanized FPV-operator tool spread via Signal with DLL side-loading. IOC set:
+  4 attacker-registered lookalike distribution domains (ESET figure 7). The
+  impersonated legitimate apex ab3.army is intentionally excluded. Sister
+  context: SentinelLabs "PhantomCaptcha" (Oct 2025, princess-mens.click already
+  in DB under GREYVIBE), CERT-UA UAC-0247/UAC-0244 advisory, Team Cymru
+  LegionRelay pivot (curator-2026-10-20). MITRE: T1566.002, T1204.002,
+  T1583.001, T1636.003, T1636.002, T1430, T1533, T1437.001.
+
+domains:
+  - ab3army.in
+  - ab3army.com
+  - ab3army.info
+  - ab3army.org
