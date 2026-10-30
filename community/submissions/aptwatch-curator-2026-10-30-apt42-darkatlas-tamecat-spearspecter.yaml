@@ -1,0 +1,55 @@
+author: APTWatch-Curator
+source: https://darkatlas.io/blog/apt42-ai-assisted-phishing-tamecat-analysis
+source_name: "DarkAtlas - APT42: AI-Assisted Phishing and the Resilient TAMECAT Backdoor"
+apt_groups:
+  - "APT42"
+  - "TA453"
+  - "Mint Sandstorm"
+  - "Charming Kitten"
+  - "Phosphorus"
+  - "SpearSpecter"
+description: >
+  APT42 (Mandiant name; Proofpoint TA453; Microsoft Mint Sandstorm, formerly Phosphorus; Charming Kitten; IRGC
+  Intelligence Organization) AI-assisted spear-phishing and TAMECAT backdoor activity, September 2025 to July 2026,
+  documented in the DarkAtlas threat profile "APT42: AI-Assisted Phishing and the Resilient TAMECAT Backdoor"
+  (2026-07-19), which consolidates the Proofpoint TA453 reporting (Henry Jackson Society impersonation, July 2026) and
+  the Israel National Digital Agency / Check Point "SpearSpecter" research (November 2025); mirrored in the Trend
+  Threat Intelligence Feed as "APT42 Leverages Generative AI for Spearphishing and Malware Delivery" (report published
+  2026-07-24, labels location:United States of America, United Kingdom, Ukraine, Sweden, industry:Energy, Defence,
+  Government/Public Services). Attribution: Iranian state actor with high confidence across Mandiant, Proofpoint and
+  INDA; the campaign name SpearSpecter is used for the search-ms/WebDAV + TAMECAT chain. Victimology: senior defence
+  and government officials, think-tank researchers and their family members in the US, UK, Sweden and Ukraine, approached
+  over email and WhatsApp with conference and roundtable invitations. TTPs in prose: generative AI used for target
+  research, persona creation, translation and lure writing (T1589, T1585); rapport-building with a benign PDF on genuine
+  OneDrive before the malicious link (T1566.002); attacker-controlled redirector transfergocompany.com leading to a
+  OneDrive-themed credential harvesting page on fileportalshare.netlify.app pre-filled with the target address
+  (T1056.003, T1583.006); search-ms: protocol handler opening a WebDAV share so Explorer fetches document.pdf.lnk from
+  port 8050 (/file_bgeu/) on cloudfilenow.online, synctimenow.org or 107.189.25.18 (T1218, T1204.002); the LNK rebuilds
+  curl through environment-variable expansion and runs a .cmd from %TEMP% (T1027.010); TAMECAT, a modular in-memory
+  PowerShell backdoor with Telegram/Discord/web C2 channels, AES-256 traffic, Edge/Chrome credential theft and
+  persistence that survives password resets via RunOnce-decoded registry payloads and %LOCALAPPDATA%\Microsoft\Windows\AutoUpdate
+  text files (T1059.001, T1547.001, T1555.003, T1102.002); hsta.xyz serves set.txt for the macro-based variant and
+  1thebstack1.xyz/Api/Session is a PowerShell controller endpoint. Infrastructure roles: transfergocompany.com (TA453
+  redirector), fileportalshare.netlify.app (credential page, actor-created Netlify subdomain - only the subdomain is
+  submitted, netlify.app itself is a legitimate platform), cloudfilenow.online and synctimenow.org (LNK staging on
+  port 8050, deployed on or before 2025-04-25), hsta.xyz (macro second stage), 1thebstack1.xyz (controller endpoint, from
+  the DarkAtlas analysis, absent from the Trend feed), mcmanus.michael@hotmail.com (attacker-owned freemail persona
+  impersonating a real researcher). Already in the database and excluded from the lists: 107.189.25.18 (LNK staging
+  host, inside existing CIDR 107.189.25.0/24 - refresh last_seen to 2026-07-24 and consider an explicit IPv4 entry).
+  SHA-256 file indicators published by the sources, no hash field in this schema, recorded here for the curator:
+  16db04b632668dae081359fc07c97e5a9b79dad61713642e48b494aa6b7828be (benign lure PDF, context only, not a block
+  indicator); the Trend feed adds 17 SHA-256 TAMECAT/LNK hashes handed to the private pipeline (03_file_hashes_edr.csv).
+  Companion sources: The Hacker News 2025-11 "Iranian Hackers Launch SpearSpecter Spy Operation"; Proofpoint TA453
+  figures reproduced by DarkAtlas. APT Watch batch lookup query_ids qry_01M66X1J5VA8210TABQ6FF3P3K, qry_01M66X1JZSMM6EE4QP5V2FEBQ6, qry_01M66X1KSJYSE7G29H4TR4HP60, qry_01M66X1MC2KW8Y6PQTZQ6JWHAM: the five domains were unknown to the database on
+  2026-10-30. Flag originated from the Trend Threat Intelligence Feed pull of 2026-10-30 (location eq 'Ukraine');
+  included on Dominic's instruction to cover partner-state actors targeting the same victims; APT42 is absent from the
+  watchlist (the "Sandstorm" taxonomy is currently listed as out of scope) - proposed new curated actor, category iran_state_apt.
+domains:
+  - transfergocompany.com
+  - fileportalshare.netlify.app
+  - cloudfilenow.online
+  - synctimenow.org
+  - hsta.xyz
+  - 1thebstack1.xyz
+emails:
+  - mcmanus.michael@hotmail.com

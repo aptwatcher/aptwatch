@@ -1,0 +1,49 @@
+author: APTWatch-Curator
+source: https://cert.gov.ua/article/6282737
+source_name: "CERT-UA#14045 - Targeted UAC-0200 attacks against the defence-industrial complex and Defence Forces using DarkCrystal RAT"
+apt_groups:
+  - "UAC-0200"
+  - "Water Pinading"
+  - "DarkCrystal RAT operators"
+description: >
+  UAC-0200 (CERT-UA designation; Trend Threat Intelligence Feed intrusion-set "Water Pinading"; watchlist entry
+  UAC-0200 with DarkCrystal RAT / DCRAT / DarkTortilla aliases) cyber-espionage campaign against employees of
+  Ukrainian defence-industrial enterprises and individual members of the Defence Forces of Ukraine, March 2025,
+  documented by CERT-UA in advisory CERT-UA#14045 (published 2025-03-18) and mirrored in the Trend feed as
+  "Dark Crystal RAT Targets Ukrainian Defense via Signal Messenger" (report published 2025-03-21, labels
+  location:Ukraine). Attribution: CERT-UA tracks the cluster as UAC-0200, active since at least summer 2024
+  (see CERT-UA#9918, June 2024); Trend names it Water Pinading; Russia-aligned per watchlist category. Victimology:
+  defence-industrial complex companies and service members, approached over Signal, sometimes from already
+  compromised Signal accounts of contacts. TTPs in prose: archives sent through Signal (T1566.003) containing a decoy
+  PDF ("meeting minutes", orders) and an executable packed with the .NET crypter DarkTortilla (T1027.002), which
+  decrypts and injects DCRat (T1055); DCRat provides command execution, information theft and remote control
+  (T1059, T1005, T1219); second-stage loader fetched from imgurl.ir, a legitimate Iranian image host used as a
+  dead drop (T1102). Infrastructure roles, first seen per CERT-UA 2025-03: 45.130.214.237, 62.60.235.190,
+  87.249.50.64 and 217.25.91.61 are DCRat C2 servers reached over HTTP with long randomized PHP paths (listed as URLs
+  below); 83.147.253.138 serves hostdata.txt (C2 configuration). Legitimate platform URL recorded here only and not
+  submitted: hxxps://imgurl[.]ir/download.php?file=q68235_labodtarinog.txt. SHA-256 file indicators published by
+  CERT-UA, no hash field in this schema, recorded here for the curator: ccfc8e6c0ffddd29786a7a15e8da549cdf2a062002de336c6d0480893d3c5a1b
+  (Zvit 10.03.25.rar), dc15fe10ff5e7ede1b5e69c6f09e9a7cc0857bab9829f5537b3d0d073a81a53f (Nakaz 17.02.2025.pdf decoy),
+  0403fabcc93887f2aa44194c5e6a68f71647ca18ad4b0f9033b0e704d27ab578 (Pochatkovyi material.exe), 586c6e65fcf391d6ee8d1270aa3cb902e79372b73f3a9be340785cd8620197a1,
+  51c17b08fc181798d500e253f2831883ca928076713eb251f826ce1c336f7944 (Fine Reader.exe), de41f1076ce46dd36ccf6b5d7975c070d0c5fe2e6556cedfad2dd0cd37653b06 (pdfDecod.exe),
+  cefa8cb6c1e7641ed22c250de4c9f7663c66e7fd18f93b69e1ff45401af855f7 (narada.rar), 25a6a3a84fd0c070fbf3dfc9da4a3e2e1186d9165ec59c3aae2a82a6506d62d3 (PDF-Office2025version46-v.exe),
+  1ea7ecce3b51f8c0f5329bc79cf7c035e47c962ca0241d040548f2fd55e3f1c8, 788fd5a229d4776cca93f8628102cbaed704675eebe7cc8c92d1a731532dea3a, ce41636e0733724c6531a9738b035e9743aee8c39fc7358410000a9706b14231,
+  eebc24a4f94b02f1fde7674887f20fe6029dc525ed9ad2256d3f79ab6579483a (Razporyadzhennya.zip), 21b37fa1eca20402431ca88dd77db2ddd258b4bb69ea7a74dfeae54aeb7d7e14 (DecodPDF.exe),
+  81889343fd40c56f5d5440518b7969cde1f33d0eb263f3bed206bbe4a09e5619, a8f5537a63fee5da18f64a0fe6108916a740fdda3ba961d425ec5a8a9419e409 (DecofPDF.exe),
+  d37f3441d3c74b2d36e38299f1c6df94063d40adfc551dc3ef34aa1efd493ff6 (q68235_labodtarinog.txt), e6a7bdbbf05a76a68e1d5e1de15c63eeea1607245b5604ee5ac835aefec57d6d (q68235_labodtarinog.dll).
+  Companion sources: The Hacker News 2025-03-20 "CERT-UA Warns: Dark Crystal RAT Targets Ukrainian Defense via
+  Malicious Signal Messages". APT Watch batch lookup query_ids qry_01M66X1J5VA8210TABQ6FF3P3K, qry_01M66X1JZSMM6EE4QP5V2FEBQ6, qry_01M66X1KSJYSE7G29H4TR4HP60, qry_01M66X1MC2KW8Y6PQTZQ6JWHAM: the five IPs were unknown to the database on
+  2026-10-30. Flag originated from the Trend Threat Intelligence Feed pull of 2026-10-30 (location eq 'Ukraine'),
+  UAC-0200 watchlist match, category russia_aligned; proposed watchlist alias to add: Water Pinading.
+ipv4:
+  - 45.130.214.237
+  - 62.60.235.190
+  - 87.249.50.64
+  - 217.25.91.61
+  - 83.147.253.138
+urls:
+  - http://45.130.214.237/cdn/7Temp/updateexternalprotonAsync/multiImagepythoncdn/Sqlwp/ProtectTo/AsyncTempjavascript/Image4/Base7trafficCentral/2LinuxJavascriptProcessor/trafficwordpressLine/defaultwp7/Multi/VmrequestPacketSqlPublicdownloads.php
+  - http://62.60.235.190/mariadb9Php/videogameApiserver.php
+  - http://87.249.50.64/Php05default/localGeowordpress/track/eternalWindows4Image/Linux/Proton/Flowerto4Js/windowsTrack/Trafficsecure94/41/LowLinux/Serverserver81/phpauthdump/HttpprocessCdn/74geoPoll/pythonbaseGeneratorlocal.php
+  - http://217.25.91.61/Wp9local/JavascriptlongpollproviderTemporary/91pipeexternal/Bigloadpoll9/Pythondump/Image/dbCpu/cpugame/ExternalDlewp/sqlflowerprivateUploads.php
+  - http://83.147.253.138/hostdata.txt

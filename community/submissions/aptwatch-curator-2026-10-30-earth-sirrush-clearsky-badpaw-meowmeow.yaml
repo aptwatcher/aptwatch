@@ -1,0 +1,55 @@
+author: APTWatch-Curator
+source: https://www.clearskysec.com/wp-content/uploads/2026/03/BadPaw_and_MeowMeow.pdf
+source_name: "ClearSky - Exposing a Russian Campaign Targeting Ukraine Using New Malware Duo: BadPaw and MeowMeow"
+apt_groups:
+  - "UAC-0099"
+  - "Earth Sirrush"
+  - "SHADOW-EARTH-065"
+  - "APT28 (low confidence, ClearSky)"
+description: >
+  BadPaw (TrendAI name CINDERBLOT) and MeowMeow multi-stage espionage toolchain against Ukrainian government and
+  defence entities, October 2025 to February 2026, first reported publicly by ClearSky Security (March 2026, PDF
+  "Exposing a Russian Campaign Targeting Ukraine Using New Malware Duo: BadPaw and MeowMeow") and mirrored in the Trend
+  Threat Intelligence Feed as "BadPaw, MeowMeow, and TelemetryBrowser: Multi-Stage Espionage Toolchain Targeting
+  Ukrainian Entities" (report published 2026-04-23, labels location:Ukraine, industry:Government/Public Services,
+  Defence). Attribution: ClearSky attributes the campaign with high confidence to a Russian state-aligned actor and with
+  low confidence to APT28; TrendAI (blog of 2026-10-05) attributes CINDERBLOT/BadPaw to Earth Sirrush (SHADOW-EARTH-065,
+  overlapping CERT-UA UAC-0099) with high confidence based on identical WMI fingerprinting queries shared with ASHVEIN
+  ("TelemetryBrowser"), shared "TelemetryUP" branding, registrar (Regery.com) and Cloudflare-fronted backend IP
+  clustering in AS399629; the Trend feed description names the cluster SHADOW-EARTH-061 (likely a typo for 065).
+  This submission therefore files the IOCs under UAC-0099 / Earth Sirrush with APT28 as the alternative label.
+  Victimology: Ukrainian government personnel, border guard units and defence organizations; the lure impersonates the
+  State Border Guard Service of Ukraine (sender lviv_zagin_dpsu@ukr.net, "Zvernennya_156" appeal about border crossing).
+  TTPs in prose: phishing email with a link that fires a tracking pixel on infotrackerstatistic.live (token
+  2c5ef1a0fed545aaaf803964bb4da2e3) and redirects through the cutt.ly shortener to a ZIP (T1566.002, T1598);
+  HTA masquerading as .html drops a decoy and checks the OS InstallDate registry value to evade fresh sandboxes
+  (T1218.005, T1497.001); a VBS run by scheduled task extracts a PE appended after a <STEGO_START> marker inside a
+  cat-themed PNG (T1027.003, T1053.005); BadPaw, a .NET Reactor-protected loader that only arms with the "-renew"
+  argument, beacons to virtualdailyplanner.pro (/getcalendar, /eventmanager "Telemetry UP!", /planneractivate) and
+  decodes an ASCII block between ContactFormGroup markers into MeowMeowProgram.exe (T1140, T1105); MeowMeow, armed
+  with "-v", checks for Wireshark/Procmon/OllyDbg/Fiddler and VMs, then offers a PowerShell remote shell and file
+  operations (T1497, T1059.001). Infrastructure roles: infotrackerstatistic.live (tracking pixel, actor-registered),
+  virtualdailyplanner.pro (BadPaw C2) and virtualtelemetryassistant.com, shareitsimple.com, crazy-love.app (related
+  Earth Sirrush C2/staging per Trend) are already in the database under "UAC-0099 MATCHBOIL Family (Gamaredon-coop)"
+  since 2026-03-04 / 2026-10-10 and are excluded from the domain list (refresh last_seen to 2026-04-27). The URLs below
+  are the exact ClearSky-published paths; cutt.ly is a public shortener and only the actor-created short link is
+  submitted, with a note that the platform itself is legitimate. The sender mailbox is on the legitimate Ukrainian
+  provider ukr.net and is submitted as an email indicator only. Trend-feed-only indicators without a public source
+  (second tracking token, 196.251.84.13 /rass/*.zip payload URLs, tinyurl and additional cutt.ly links, GitHub dead-drop
+  repository) are deliberately not included here and were handed to the private pipeline. SHA-256 file indicators
+  published by ClearSky, no hash field in this schema, recorded here for the curator:
+  160e40a763dfb518dc6929c2d7838d3f9eafab09eab1e8d0b00c69f6b73d681b (phishing .eml), 6cad470e10c09151b5d337a082a088cfe25d697ef295e02759e1e68e8b3bbbcb (BadPaw loader).
+  Companion sources: TrendAI blog "Earth Sirrush: A Russia-Aligned Intrusion Set With 4 Years of Evolving Espionage
+  Tooling" (2026-10-05); The Hacker News 2026-10 "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT".
+  APT Watch batch lookup query_ids qry_01M66X1J5VA8210TABQ6FF3P3K, qry_01M66X1JZSMM6EE4QP5V2FEBQ6, qry_01M66X1KSJYSE7G29H4TR4HP60, qry_01M66X1MC2KW8Y6PQTZQ6JWHAM: domain matches returned actor "UAC-0099 MATCHBOIL Family (Gamaredon-coop)"
+  confidence high; 196.251.84.13 falls inside the existing CIDR 196.251.84.0/24. Flag originated from the Trend Threat
+  Intelligence Feed pull of 2026-10-30 (location eq 'Ukraine'); UAC-0099 is absent from the watchlist (see the
+  companion CERT-UA#6710 submission for the proposed actor entry).
+urls:
+  - https://infotrackerstatistic.live/open?token=2c5ef1a0fed545aaaf803964bb4da2e3
+  - https://cutt.ly/0tnHM0nh
+  - https://virtualdailyplanner.pro/getcalendar
+  - https://virtualdailyplanner.pro/eventmanager
+  - https://virtualdailyplanner.pro/planneractivate
+emails:
+  - lviv_zagin_dpsu@ukr.net

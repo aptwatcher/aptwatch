@@ -1,0 +1,95 @@
+author: APTWatch-Curator
+source: https://cert.gov.ua/article/6286942
+source_name: "CERT-UA#19092 - Targeted UAC-0190 cyberattacks against the Defence Forces of Ukraine using PLUGGYAPE"
+apt_groups:
+  - "Void Blizzard"
+  - "LAUNDRY BEAR"
+  - "Laundry Bear"
+  - "UAC-0190"
+description: >
+  Void Blizzard (Microsoft name; also LAUNDRY BEAR per Dutch AIVD/MIVD, tracked by CERT-UA as UAC-0190)
+  spear-phishing campaign against the Defence Forces of Ukraine (SOU), October 2025 to January 2026, documented by
+  CERT-UA in advisory CERT-UA#19092 (published 2026-01-12) and mirrored in the Trend Threat Intelligence Feed as
+  "Void Blizzard: Advanced Python-Based Campaign" (report--028119cb-3420-428f-917b-5db52cc7aa07, labels
+  location:Ukraine, industry:Defence). CERT-UA attributes the activity to UAC-0190 with medium confidence; the Trend
+  feed names Void Blizzard without an intrusion-set object. Victimology: individual service members and units of the
+  Ukrainian Defence Forces, plus Polish and Moldovan logistics contacts referenced in the lures (Suceava, Chisinau,
+  Lodz warehouse lists). Delivery is social engineering over Signal and WhatsApp (T1566.003), impersonating charity
+  foundations ("Hart Hulp UA", "Solidarity Help", "Saint Daniel", "Razem UA", "Frontline Help") whose look-alike websites
+  host RAR/ZIP archives or direct downloads of PyInstaller-packed executables with double extensions (.pdf.exe,
+  .docx.pif, .rtf.pif) (T1204.002, T1036.007). The executables unpack a Python backdoor CERT-UA calls PLUGGYAPE and
+  PLUGGYAPE.V2 (T1059.006), which fetches tasking over MQTT (tcp/1883 and tcp/8765) from the C2 servers listed below
+  (T1071, T1571) and retrieves follow-on code from paste services (pastebin, ghostbin.axel.org, rentry.co) used as
+  dead-drop resolvers (T1102.001). Persistence is a Registry Run key named "RealtekDevice" (T1547.001). Loader
+  components Diloader and PLUGGYAPE are the malware objects of the Trend report; PDB path MolineRebuild.pdb is a
+  build artifact. Infrastructure roles, all first seen per CERT-UA between 2025-10-25 and 2026-01-15:
+  193.23.216.39, 108.165.164.155 and 176.9.23.216 are MQTT C2 servers; 144.31.25.203, 144.31.106.23 and
+  144.31.25.222 are download/staging hosts (144.31.25.222 served Docs.rar directly over HTTP); 185.107.74.13 (historical),
+  83.217.208.184, 144.31.106.31 and 193.23.199.14 are the hosting addresses CERT-UA recorded for the actor-registered
+  charity look-alike domains. Domains: saint-daniel.com/.org/.world, hart-hulp-ua.com, harthulp-ua.com,
+  solidarity-help.com/.org, razem-ua.com and frontline-help.com are actor-registered phishing/distribution sites; the
+  URLs below are the exact payload paths from the advisory. Omitted pending confirmation: dsns.kiev.ua appears in
+  the Trend feed indicator list but not in the CERT-UA advisory and overlaps the naming of the State Emergency Service
+  of Ukraine, so it is deliberately excluded from the lists. The paste-service and rentry URLs are legitimate shared
+  platforms and are recorded here only: hxxps://pastebin[.]com/raw/5qLz9wAK, hxxps://pastebin[.]com/raw/qAKhdTLq,
+  hxxps://ghostbin.axel[.]org/paste/xy359/raw, hxxps://rentry.co/MicrosoftAdvertisingEndpoint. SHA-256 file
+  indicators published by CERT-UA, no hash field in this schema, recorded here for the curator (flag for EDR custom
+  indicators): 6d54a09e689f20ecd051bd06f7fdd4229d5f955261fb113e2a4a7fb791bb0a62 (Drone positions in warehouse 1
+  (Suceava).pdf.exe, 2025-10-25), 18523cc2ff47556993312c90462935543ed3266d5243fa7482abcd60938fedca,
+  b82b81edbabef420b3b66d276098e51867e9f1d8594d75c7d7290a981b9dfb5c, a9a8aea2d8a673d108a5b1125f98156febffcbfdd2ea36ba08749a97bf3d3b60
+  (rdvd.exe), 620c9cb0c0d6ad404d8580ea2f6b02d8508f3b3bd091115fc5f3fbcbd17e01c0 (qAKhdTLq.py PLUGGYAPE),
+  a70d4f0e58f77c7df518ec6e6a43a8cc77d4dd6855f33989c12cdc98f6af1b92 (Docs.rar), 5fa48a4f9d576ea2968db929d943a1b51dd62ca2d37796e0b47e944672487eff
+  (Zverninya.docx.exe, 2025-11-18), 5fc660b031889f9d929769aa4c8aea3e24fae1e29d389762ab13543bbf95edf5 (main.py PLUGGYAPE),
+  8ada352ee5935dcb597dad87c244ce29c4b3498df2fff0546bfaad1fe0be5fbd (Inventory_list.docx.pif, 2025-12-08),
+  1246d4b00dd3c69d4414be5ab5f1b776281283986a5b18a64d2870de3f2dcafe, 8e0ccf969ab55e862f6406ed4ce3891145e66b627017c56c6f26c8e4526ea19c,
+  66651d70bf8211fd43b1e8d8efce05ddb6be80d9987ceb1d4027b6b35857c97c, d614b1e495de93e84f61252a3cf1b57ae01bcac0fea7ddd9443b200532cdcd1f
+  (xy359.py PLUGGYAPE.V2), d84868e33bdade768d93bd7ab9782eb8c22722ce045ff51bcb09d8b0aa349dc4 (list.rar),
+  34214cebc0d03d3c2d5bdab7e5461f034dbc28850fd19938cee7beca27dbc265, d8f02c3a71485648ef184f59f8cae40758416e84ac23dfc6320c037e198794ec,
+  04cc6719fc55f3ce9ca658bc0cbf975d485077b815cbd0817aeb451bc6554385 (PLUGGYAPE.V2), 9b3c154931a2066c40fa76bd614305f9aad9f0be86474eb1f538dc154b590618
+  (2026-01-08), bea2cdb2562f3c46a83c5ed03e9b899281588fc95b94b2ee5223f8b60a66f451 (code.py), 353118c77de5b04d0820c97ceeaf85926cae8fe1e97d304ea83c5ac3138ff5a1
+  (2026-01-14), 2e5a59ae7871ec46192c9de1b8e22f988823308c5d95f9f5d745c41d7fe1c8de, 70d7c3087b32c760cbe3145c23f9c093b45d63101d5de136e4e9e7e358f9ad0a,
+  f11fbfd6821c62d48fae6c1f7d6cb7889aeee49bb4aeaf0957ccbc37e7f00efc, 31e658a41ad448d0b38611c6d74cf2ae352dc2efad6c4de29bf775f6621ee99e
+  (Inventory_list_sw.docm.pif, 2026-01-15), 4b19a25b2a0741eb673415b1e008c371e4766793b8fbc0d3651287b709fac4f0 (is.py).
+  Companion sources: Trend Threat Intelligence Feed report "Void Blizzard: Advanced Python-Based Campaign" (tenant feed,
+  not public), The Hacker News 2026-01 "PLUGGYAPE Malware Uses Signal and WhatsApp to Target Ukrainian Defense Forces".
+  APT Watch batch lookup query_ids qry_01M66X1J5VA8210TABQ6FF3P3K, qry_01M66X1JZSMM6EE4QP5V2FEBQ6, qry_01M66X1KSJYSE7G29H4TR4HP60, qry_01M66X1MC2KW8Y6PQTZQ6JWHAM: none of the domains or IPs below were known to the database (lifecycle unknown,
+  no actor match) as of 2026-10-30. Flag originated from the Trend Threat Intelligence Feed pull of 2026-10-30
+  (contextual filter location eq 'Ukraine'), Void Blizzard / UAC-0190 - actor absent from the APT Watch watchlist and
+  from the threat_actors table, category russia_state_apt proposed (Microsoft: Russian state actor; Dutch AIVD: LAUNDRY BEAR).
+ipv4:
+  - 193.23.216.39
+  - 108.165.164.155
+  - 176.9.23.216
+  - 144.31.25.203
+  - 144.31.106.23
+  - 144.31.25.222
+  - 185.107.74.13
+  - 83.217.208.184
+  - 144.31.106.31
+  - 193.23.199.14
+domains:
+  - saint-daniel.com
+  - saint-daniel.org
+  - saint-daniel.world
+  - hart-hulp-ua.com
+  - harthulp-ua.com
+  - solidarity-help.com
+  - solidarity-help.org
+  - razem-ua.com
+  - frontline-help.com
+urls:
+  - https://hart-hulp-ua.com/uploads/win64/Docs.rar
+  - https://hart-hulp-ua.com/uploads/win64/Inventory_list.docx
+  - http://144.31.25.222/uploads/win/Docs.rar
+  - https://solidarity-help.org/uploads/win/Inventory_list_new.docx
+  - https://solidarity-help.org/uploads/win/Inventory_list_new.docx.pif
+  - https://solidarity-help.org/uploads/win/blank_zvernenya.docx
+  - https://solidarity-help.org/uploads/win/blank_zvernenya.docx.pif
+  - https://saint-daniel.com/download/list.zip
+  - https://saint-daniel.org/download.php
+  - https://saint-daniel.world/download.php
+  - https://razem-ua.com/uploads/Inventory_List_pl.rtf.pif
+  - https://razem-ua.com/uploads/win/Inventory_list_pl.docx
+  - https://razem-ua.com/uploads/win/blank_zvernenya_pl.docx
+  - https://razem-ua.com/uploads/win/blank_zvernenya_pl.rtf.pif
+  - https://frontline-help.com/uploads/win/Inventory_list_sw.docx
