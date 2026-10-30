@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-10-30 12:33:44
-# Entries: 521901
+# Generated: 2026-10-30 18:33:42
+# Entries: 521935
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -11936,6 +11936,7 @@
 0.0.0.0 1drv-storage.com
 0.0.0.0 1drv.1137056013.workers.dev
 0.0.0.0 1drv.caynet.xyz
+0.0.0.0 1drv.fileshare.direct
 0.0.0.0 1drvcloud.dnsabr.com
 0.0.0.0 1drvh7dv.app.link
 0.0.0.0 1dscssu.qwo231sdx.club
@@ -12503,6 +12504,7 @@
 0.0.0.0 1telus-mobility.com
 0.0.0.0 1tg.us
 0.0.0.0 1th.cqcounter.com
+0.0.0.0 1thebstack1.xyz
 0.0.0.0 1thenameisshivam.github.io
 0.0.0.0 1tivqjhejsthtkc.fastperdolam.com
 0.0.0.0 1tiwucfn.qwo231sdx.club
@@ -57518,6 +57520,7 @@
 0.0.0.0 adobe.authorised-support.com
 0.0.0.0 adobe.ce1.com
 0.0.0.0 adobe.cloud.file2.shirnesa.ir
+0.0.0.0 adobe.cloudcreative.digital
 0.0.0.0 adobe.com.102.112.2o7.net
 0.0.0.0 adobe.com.adobedocumentcloud.gq
 0.0.0.0 adobe.com.invcs.gq
@@ -170200,6 +170203,7 @@
 0.0.0.0 certifyonlinever33.lovestoblog.com
 0.0.0.0 certifyrequestprompt.pages.dev
 0.0.0.0 certifyrestoration.vercel.app
+0.0.0.0 certifysop.com
 0.0.0.0 certilogo.site
 0.0.0.0 certinew.temp.swtest.ru
 0.0.0.0 certipost.temp.swtest.ru
@@ -170310,6 +170314,7 @@
 0.0.0.0 cetera.dedspac.ru
 0.0.0.0 cetera.matsuro.ru
 0.0.0.0 cetes.ulitron.ru
+0.0.0.0 cethernet.com
 0.0.0.0 ceti.ulitron.ru
 0.0.0.0 cetin.virosat.ru
 0.0.0.0 cetiradentes.com.br
@@ -178584,6 +178589,7 @@
 0.0.0.0 cloudfarecreative.pages.dev
 0.0.0.0 cloudfares.000webhostapp.com
 0.0.0.0 cloudfile.serveirc.com
+0.0.0.0 cloudfilenow.online
 0.0.0.0 cloudflar-02.wdsrer.eu.org
 0.0.0.0 cloudflare-1o2.pages.dev
 0.0.0.0 cloudflare-2023-09-28.86017838.workers.dev
@@ -209908,6 +209914,7 @@
 0.0.0.0 dns-challenge.com
 0.0.0.0 dns-cookie.com
 0.0.0.0 dns-info.dyndns.pro
+0.0.0.0 dns-msn.com
 0.0.0.0 dns-mvd.ru
 0.0.0.0 dns-ofice-55eea4.netlify.app
 0.0.0.0 dns-promo.shop
@@ -210623,6 +210630,7 @@
 0.0.0.0 docssa.online
 0.0.0.0 docsseecure365.docsseecure365.workers.dev
 0.0.0.0 docssharepoints.highlandsthreads.com
+0.0.0.0 docstorage.link
 0.0.0.0 docstrezorlogin.pages.dev
 0.0.0.0 docsupportsystem.us-east-1.linodeobjects.com
 0.0.0.0 docswetransetude.com
@@ -213477,6 +213485,7 @@
 0.0.0.0 drivers.erunanikan.ru
 0.0.0.0 drivers.mujakini.ru
 0.0.0.0 drivers.potrakit.ru
+0.0.0.0 driverservices.store
 0.0.0.0 driversupdate.info
 0.0.0.0 driveruk-renew-auth.com
 0.0.0.0 driverupdate.app
@@ -213895,6 +213904,8 @@
 0.0.0.0 druweal.xyz
 0.0.0.0 drux-meta-blan-biz.pages.dev
 0.0.0.0 druxy.dedspac.ru
+0.0.0.0 drv.docstorage.link
+0.0.0.0 drv2ms.com
 0.0.0.0 drvebx.xyz
 0.0.0.0 drveit.com.br
 0.0.0.0 drvenom-user112.vibata8157.workers.dev
@@ -213903,6 +213914,7 @@
 0.0.0.0 drvictorgedda.com.br
 0.0.0.0 drvliojlufwbjtecspbtihxpfvjqwkocmlxs-dot-offgl8876899977678.uk.r.appspot.com
 0.0.0.0 drvliojlufwbjtecspbtihxpfvjqwkocmlxs.offgl8876899977678.uk.r.appspot.com
+0.0.0.0 drvmcprotect.com
 0.0.0.0 drvninsurance.com
 0.0.0.0 drvoyprduuuwamldpoizwvvkxy-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 drvvkd.creforge.xyz
@@ -237460,6 +237472,7 @@
 0.0.0.0 fastrig.top
 0.0.0.0 fasts-downloads.com
 0.0.0.0 fastsaver.co.uk
+0.0.0.0 fastshare.click
 0.0.0.0 fastsky.digital
 0.0.0.0 fastsms.com.ng
 0.0.0.0 faststoragefiles.org
@@ -243904,6 +243917,7 @@
 0.0.0.0 fileonlined.ddns.net
 0.0.0.0 fileoutloook.netlify.app
 0.0.0.0 fileoutloook.netlify.com
+0.0.0.0 fileportalshare.netlify.app
 0.0.0.0 filepreview.auth.userarea.click
 0.0.0.0 fileprotecthtmls.com
 0.0.0.0 fileprotectloader.com
@@ -252294,6 +252308,7 @@
 0.0.0.0 frontierrlogss.weebly.com
 0.0.0.0 frontiertitlegroup.com.myfax0948248089securedmortgagedocumentviewer.palletsliquidations.store
 0.0.0.0 frontishotel.com
+0.0.0.0 frontline-help.com
 0.0.0.0 frontlineexports.in
 0.0.0.0 frontlineinternetservices.com
 0.0.0.0 frontllineed.com
@@ -276299,12 +276314,14 @@
 0.0.0.0 harssue.github.io
 0.0.0.0 harstetment119981.duckdns.org
 0.0.0.0 hart-bemiddeling.nl
+0.0.0.0 hart-hulp-ua.com
 0.0.0.0 hart.amaniwa.ru
 0.0.0.0 hart.dedspac.ru
 0.0.0.0 hartamann.fr
 0.0.0.0 hartaproti.store
 0.0.0.0 hartchiropractic.com.au
 0.0.0.0 harteasociados.com.ar
+0.0.0.0 harthulp-ua.com
 0.0.0.0 hartim.com
 0.0.0.0 hartleytest.com
 0.0.0.0 hartondelvalle.com
@@ -287086,6 +287103,7 @@
 0.0.0.0 hssl.jil.in
 0.0.0.0 hst.cra.ac.th
 0.0.0.0 hst.tradedoubler.com
+0.0.0.0 hsta.xyz
 0.0.0.0 hstaagwjfbslhnzruwefqnbhin-dot-gle39404049.rj.r.appspot.com
 0.0.0.0 hstaitvjna.duckdns.org
 0.0.0.0 hstde.tradedoubler.com
@@ -293394,6 +293412,7 @@
 0.0.0.0 ilocharities.com
 0.0.0.0 ilog-requestchecking.com
 0.0.0.0 ilogbpool.pages.dev
+0.0.0.0 ilogicflow.com
 0.0.0.0 ilogix.cl
 0.0.0.0 iloko.ulitron.ru
 0.0.0.0 iloko.virosat.ru
@@ -332770,6 +332789,7 @@
 0.0.0.0 linect.ztyrg.xyz
 0.0.0.0 linecuts.sikolar.ru
 0.0.0.0 lined.ulitron.ru
+0.0.0.0 linedrv.com
 0.0.0.0 lineend.info
 0.0.0.0 lineicmimarlik.com
 0.0.0.0 linejunk.jacket.akunir.ru
@@ -355756,6 +355776,7 @@
 0.0.0.0 mcpin.com.ar
 0.0.0.0 mcplanfpvfcf0pf0vf0vvpp0vf00f0.fra1.cdn.digitaloceanspaces.com
 0.0.0.0 mcprod.americanexpressseguros.com
+0.0.0.0 mcprotect.cloud
 0.0.0.0 mcqsbunch.com
 0.0.0.0 mcqwins.com
 0.0.0.0 mcr-0sft3-iugui.ondigitalocean.app
@@ -380720,6 +380741,7 @@
 0.0.0.0 n3.nskfyl.com
 0.0.0.0 n31.com.au
 0.0.0.0 n339.asp-cc.com
+0.0.0.0 n34kr3z26f3jzp4ckmwuv5ipqyatumdxhgjgsmucc65jac56khdy5zqd.onion
 0.0.0.0 n37bd.com
 0.0.0.0 n3dcj-maaaa-aaaad-qal3q-cai.raw.ic0.app
 0.0.0.0 n3fflixxwb.dns05.com
@@ -398209,6 +398231,7 @@
 0.0.0.0 ollxolixdostawa.shop
 0.0.0.0 olm.ulitron.ru
 0.0.0.0 olmate.ga
+0.0.0.0 olminx.com
 0.0.0.0 olmn1.tk
 0.0.0.0 olmospropiedades.com
 0.0.0.0 olmsteadhomes.com
@@ -435861,6 +435884,7 @@
 0.0.0.0 publics--ledgerlive-cdn-s.webflow.io
 0.0.0.0 publics-home-coinbase--x---cdn.webflow.io
 0.0.0.0 publicservicess.com
+0.0.0.0 publicshare.link
 0.0.0.0 publicsofa.com
 0.0.0.0 publicspeakingcoursesinsingapore.com
 0.0.0.0 publictalkofindia.com
@@ -442817,6 +442841,7 @@
 0.0.0.0 raze.ulitron.ru
 0.0.0.0 razed.dedspac.ru
 0.0.0.0 razeklve.cloudaccess.host
+0.0.0.0 razem-ua.com
 0.0.0.0 razera.ru
 0.0.0.0 razergold-nu.vercel.app
 0.0.0.0 razes.dedspac.ru
@@ -459094,6 +459119,9 @@
 0.0.0.0 sains.ulitron.ru
 0.0.0.0 sainsa.net
 0.0.0.0 sainsjv.life
+0.0.0.0 saint-daniel.com
+0.0.0.0 saint-daniel.org
+0.0.0.0 saint-daniel.world
 0.0.0.0 saint-gobaine.com
 0.0.0.0 saint.ulitron.ru
 0.0.0.0 saintagnesparish.net
@@ -467135,6 +467163,7 @@
 0.0.0.0 sitenasuikeda.heteml.net
 0.0.0.0 siteonline.stream
 0.0.0.0 siteowner0.wpenginepowered.com
+0.0.0.0 sitepanel.top
 0.0.0.0 sitepolska.turbo.site
 0.0.0.0 sitereal.digital
 0.0.0.0 siterecruit.comscore.com
@@ -468984,6 +469013,8 @@
 0.0.0.0 solid-fishstick-pearl.vercel.app
 0.0.0.0 solid-octo-lamp-one.vercel.app
 0.0.0.0 solid-potato-gamma.vercel.app
+0.0.0.0 solidarity-help.com
+0.0.0.0 solidarity-help.org
 0.0.0.0 solidbau.oewabox.at
 0.0.0.0 solidenegocerine.net
 0.0.0.0 solidereafrigroei.com
@@ -475582,6 +475613,7 @@
 0.0.0.0 syncryptic.timanar.ru
 0.0.0.0 syncs.dedspac.ru
 0.0.0.0 syncstring.pages.dev
+0.0.0.0 synctimenow.org
 0.0.0.0 syncwebs.pages.dev
 0.0.0.0 syndetically.timanar.ru
 0.0.0.0 syndicated.mondominishows.com
@@ -481752,6 +481784,7 @@
 0.0.0.0 transfer-local-ads-manage-idd957318.vercel.app
 0.0.0.0 transfer-rate.com
 0.0.0.0 transfer-record.com
+0.0.0.0 transfergocompany.com
 0.0.0.0 transferkeep.com
 0.0.0.0 transferlights.com
 0.0.0.0 transferlinkdata.com
@@ -519072,6 +519105,7 @@
 0.0.0.0 xenra-studio.pages.dev
 0.0.0.0 xenvarisdulteron.net
 0.0.0.0 xenyl.virosat.ru
+0.0.0.0 xeontime.com
 0.0.0.0 xepcobdpxc.duckdns.org
 0.0.0.0 xeqoris.net
 0.0.0.0 xerically.amaniwa.ru

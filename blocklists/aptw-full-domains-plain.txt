@@ -11929,6 +11929,7 @@
 1drv-storage.com
 1drv.1137056013.workers.dev
 1drv.caynet.xyz
+1drv.fileshare.direct
 1drvcloud.dnsabr.com
 1drvh7dv.app.link
 1dscssu.qwo231sdx.club
@@ -12496,6 +12497,7 @@
 1telus-mobility.com
 1tg.us
 1th.cqcounter.com
+1thebstack1.xyz
 1thenameisshivam.github.io
 1tivqjhejsthtkc.fastperdolam.com
 1tiwucfn.qwo231sdx.club
@@ -57511,6 +57513,7 @@ adobe.appwrite.network
 adobe.authorised-support.com
 adobe.ce1.com
 adobe.cloud.file2.shirnesa.ir
+adobe.cloudcreative.digital
 adobe.com.102.112.2o7.net
 adobe.com.adobedocumentcloud.gq
 adobe.com.invcs.gq
@@ -170193,6 +170196,7 @@ certifynow.pages.dev
 certifyonlinever33.lovestoblog.com
 certifyrequestprompt.pages.dev
 certifyrestoration.vercel.app
+certifysop.com
 certilogo.site
 certinew.temp.swtest.ru
 certipost.temp.swtest.ru
@@ -170303,6 +170307,7 @@ cetene.virosat.ru
 cetera.dedspac.ru
 cetera.matsuro.ru
 cetes.ulitron.ru
+cethernet.com
 ceti.ulitron.ru
 cetin.virosat.ru
 cetiradentes.com.br
@@ -178577,6 +178582,7 @@ clouders.cf
 cloudfarecreative.pages.dev
 cloudfares.000webhostapp.com
 cloudfile.serveirc.com
+cloudfilenow.online
 cloudflar-02.wdsrer.eu.org
 cloudflare-1o2.pages.dev
 cloudflare-2023-09-28.86017838.workers.dev
@@ -209901,6 +209907,7 @@ dns-cache.online
 dns-challenge.com
 dns-cookie.com
 dns-info.dyndns.pro
+dns-msn.com
 dns-mvd.ru
 dns-ofice-55eea4.netlify.app
 dns-promo.shop
@@ -210616,6 +210623,7 @@ docss-sutes-trezr.webflow.io
 docssa.online
 docsseecure365.docsseecure365.workers.dev
 docssharepoints.highlandsthreads.com
+docstorage.link
 docstrezorlogin.pages.dev
 docsupportsystem.us-east-1.linodeobjects.com
 docswetransetude.com
@@ -213470,6 +213478,7 @@ drivers-update.info
 drivers.erunanikan.ru
 drivers.mujakini.ru
 drivers.potrakit.ru
+driverservices.store
 driversupdate.info
 driveruk-renew-auth.com
 driverupdate.app
@@ -213888,6 +213897,8 @@ druvtpg.github.io
 druweal.xyz
 drux-meta-blan-biz.pages.dev
 druxy.dedspac.ru
+drv.docstorage.link
+drv2ms.com
 drvebx.xyz
 drveit.com.br
 drvenom-user112.vibata8157.workers.dev
@@ -213896,6 +213907,7 @@ drvhvz.fayteks.com
 drvictorgedda.com.br
 drvliojlufwbjtecspbtihxpfvjqwkocmlxs-dot-offgl8876899977678.uk.r.appspot.com
 drvliojlufwbjtecspbtihxpfvjqwkocmlxs.offgl8876899977678.uk.r.appspot.com
+drvmcprotect.com
 drvninsurance.com
 drvoyprduuuwamldpoizwvvkxy-dot-gleowayel400503.uc.r.appspot.com
 drvvkd.creforge.xyz
@@ -237453,6 +237465,7 @@ fastrectifier.vercel.app
 fastrig.top
 fasts-downloads.com
 fastsaver.co.uk
+fastshare.click
 fastsky.digital
 fastsms.com.ng
 faststoragefiles.org
@@ -243897,6 +243910,7 @@ fileobmen.stealthhub.ru
 fileonlined.ddns.net
 fileoutloook.netlify.app
 fileoutloook.netlify.com
+fileportalshare.netlify.app
 filepreview.auth.userarea.click
 fileprotecthtmls.com
 fileprotectloader.com
@@ -252287,6 +252301,7 @@ frontierlogin.weebly.com
 frontierrlogss.weebly.com
 frontiertitlegroup.com.myfax0948248089securedmortgagedocumentviewer.palletsliquidations.store
 frontishotel.com
+frontline-help.com
 frontlineexports.in
 frontlineinternetservices.com
 frontllineed.com
@@ -276292,12 +276307,14 @@ harshyadav-7.github.io
 harssue.github.io
 harstetment119981.duckdns.org
 hart-bemiddeling.nl
+hart-hulp-ua.com
 hart.amaniwa.ru
 hart.dedspac.ru
 hartamann.fr
 hartaproti.store
 hartchiropractic.com.au
 harteasociados.com.ar
+harthulp-ua.com
 hartim.com
 hartleytest.com
 hartondelvalle.com
@@ -287079,6 +287096,7 @@ hssecurity-online.com
 hssl.jil.in
 hst.cra.ac.th
 hst.tradedoubler.com
+hsta.xyz
 hstaagwjfbslhnzruwefqnbhin-dot-gle39404049.rj.r.appspot.com
 hstaitvjna.duckdns.org
 hstde.tradedoubler.com
@@ -293387,6 +293405,7 @@ ilocationcloud.ru.com
 ilocharities.com
 ilog-requestchecking.com
 ilogbpool.pages.dev
+ilogicflow.com
 ilogix.cl
 iloko.ulitron.ru
 iloko.virosat.ru
@@ -332763,6 +332782,7 @@ linecasters.sikolar.ru
 linect.ztyrg.xyz
 linecuts.sikolar.ru
 lined.ulitron.ru
+linedrv.com
 lineend.info
 lineicmimarlik.com
 linejunk.jacket.akunir.ru
@@ -355749,6 +355769,7 @@ mcphail1519.activehosted.com
 mcpin.com.ar
 mcplanfpvfcf0pf0vf0vvpp0vf00f0.fra1.cdn.digitaloceanspaces.com
 mcprod.americanexpressseguros.com
+mcprotect.cloud
 mcqsbunch.com
 mcqwins.com
 mcr-0sft3-iugui.ondigitalocean.app
@@ -380713,6 +380734,7 @@ n2zznomat3jbj5dxobw6zlni7xiul3fgtrj2xac6bxm55pmfm2sq.arweave.net
 n3.nskfyl.com
 n31.com.au
 n339.asp-cc.com
+n34kr3z26f3jzp4ckmwuv5ipqyatumdxhgjgsmucc65jac56khdy5zqd.onion
 n37bd.com
 n3dcj-maaaa-aaaad-qal3q-cai.raw.ic0.app
 n3fflixxwb.dns05.com
@@ -398202,6 +398224,7 @@ ollxeer.ga
 ollxolixdostawa.shop
 olm.ulitron.ru
 olmate.ga
+olminx.com
 olmn1.tk
 olmospropiedades.com
 olmsteadhomes.com
@@ -435854,6 +435877,7 @@ publicphotos.gearhostpreview.com
 publics--ledgerlive-cdn-s.webflow.io
 publics-home-coinbase--x---cdn.webflow.io
 publicservicess.com
+publicshare.link
 publicsofa.com
 publicspeakingcoursesinsingapore.com
 publictalkofindia.com
@@ -442810,6 +442834,7 @@ raze-x-leaggue.com
 raze.ulitron.ru
 razed.dedspac.ru
 razeklve.cloudaccess.host
+razem-ua.com
 razera.ru
 razergold-nu.vercel.app
 razes.dedspac.ru
@@ -459087,6 +459112,9 @@ sains.dedspac.ru
 sains.ulitron.ru
 sainsa.net
 sainsjv.life
+saint-daniel.com
+saint-daniel.org
+saint-daniel.world
 saint-gobaine.com
 saint.ulitron.ru
 saintagnesparish.net
@@ -467128,6 +467156,7 @@ sitemeter.com
 sitenasuikeda.heteml.net
 siteonline.stream
 siteowner0.wpenginepowered.com
+sitepanel.top
 sitepolska.turbo.site
 sitereal.digital
 siterecruit.comscore.com
@@ -468977,6 +469006,8 @@ solicitud-virtual.site
 solid-fishstick-pearl.vercel.app
 solid-octo-lamp-one.vercel.app
 solid-potato-gamma.vercel.app
+solidarity-help.com
+solidarity-help.org
 solidbau.oewabox.at
 solidenegocerine.net
 solidereafrigroei.com
@@ -475575,6 +475606,7 @@ syncronizationprojectswork.vercel.app
 syncryptic.timanar.ru
 syncs.dedspac.ru
 syncstring.pages.dev
+synctimenow.org
 syncwebs.pages.dev
 syndetically.timanar.ru
 syndicated.mondominishows.com
@@ -481745,6 +481777,7 @@ transfer-dns.com
 transfer-local-ads-manage-idd957318.vercel.app
 transfer-rate.com
 transfer-record.com
+transfergocompany.com
 transferkeep.com
 transferlights.com
 transferlinkdata.com
@@ -519065,6 +519098,7 @@ xenpcparicha.braincert.com
 xenra-studio.pages.dev
 xenvarisdulteron.net
 xenyl.virosat.ru
+xeontime.com
 xepcobdpxc.duckdns.org
 xeqoris.net
 xerically.amaniwa.ru
