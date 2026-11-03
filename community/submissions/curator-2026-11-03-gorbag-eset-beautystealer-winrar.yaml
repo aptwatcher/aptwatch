@@ -1,0 +1,105 @@
+# =============================================================
+#  APT Watch — curator submission
+#  Gorbag (ESET) = UAC-0226 (CERT-UA) = SHADOW-EARTH-066 (Trend Micro)
+#  BeautyStealer / Prime ReverseShell / GIFTEDCROOK — WinRAR CVE-2025-8088
+# =============================================================
+#
+#  NEW CAMPAIGN ROW PROPOSED: apt_groups[0] "Gorbag" does not exist in
+#  `campaigns` (mirror 2026-11-02 + live API checked 2026-11-03). The loader
+#  creates it on import. Proposed aliases: UAC-0226, SHADOW-EARTH-066,
+#  GIFTEDCROOK, BeautyStealer, Prime ReverseShell. Category: russia_aligned
+#  (same tier as RomCom / Cloud Atlas rows created 2026-10-20).
+#
+#  Attribution rationale (supersedes the Unattributed filing of
+#  curator-2026-06-11-uac0226-giftedcrook-unattributed.yaml): that YAML said
+#  "re-attribute only if a vendor primary firmly ties UAC-0226 to a
+#  Russian-tracked actor". ESET Research (2026-11-03, VB2026 paper
+#  "Gorbag: Orcs at the border") now names the cluster, assesses it as
+#  Russia-aligned, and ties it by malware lineage to CERT-UA UAC-0226 and
+#  Trend SHADOW-EARTH-066 (Trend itself states SHADOW-EARTH-066 == UAC-0226).
+#  Three independent designators + tier-1 vendor assessment + consistent
+#  victimology (Ukrainian justice / law-enforcement, front-line city councils,
+#  defence, a foreign-military-aid transport hub) meet the bar used for the
+#  2026-10-20 Russia-aligned scope expansion. Gorbag is NOT attributed to a
+#  Russian state unit — it is filed as its own Russia-aligned actor, possibly
+#  an initial-access broker for other Russia-aligned groups (ESET hypothesis).
+#
+#  IOC provenance:
+#   - 89.44.9.186, 142.111.194.73 — ESET primary (net-new to DB).
+#   - 7 Evoxt (AS149440) IPs — Trend Micro 2026-06-08 sister report; already
+#     in DB as actor-NULL flat rows (first_observed 2026-06-11, lifecycle
+#     expired). Re-listed on purpose: this report adds the actor linkage
+#     (keep-despite-duplicate rule, condition 3). Of those, 136.0.141.112,
+#     38.225.209.122 and 23.26.237.80 were pivoted by Trend via a self-signed
+#     TLS cert CN "john" rather than observed in samples — Trend lists them
+#     as C2 and recommends blocking; kept with that caveat.
+#   - CVE-2025-8088 — initial-access vector since early 2026 (both vendors).
+#  Deliberately NOT listed: Telegram Bot API (shared platform — exfil channel
+#  for BeautyStealer <=1.1, no bot-specific host published); 1.1.1.1
+#  (Trend: connectivity probe, not attacker infra); astrocaf.com /
+#  194.58.66.82 and the joymobile.com.ua / mail.c1.com.ua relay (those belong
+#  to the Earth Dahu / Gamaredon section of the Trend report, astrocaf already
+#  Gamaredon curator-1.0 in DB; the .com.ua relay is a legitimate mail
+#  provider). No domains in this report -> no ownership triage required.
+#  Hashes (no hash field in schema), SHA-1 from ESET:
+#   C17369B4B49113D07F080DF832E218156FB0940F (spearphishing email),
+#   A5E0A82BF6CC302A20D917235643B748F73FCC27 (Prime ReverseShell),
+#   E27E0D0A4B308F9B6B0469159931EB5E343E7FF8 (додаток податкова.xlsm),
+#   0589D2079FBEF814DC7BB95C4B3B555C8B933AF6 (Повідомлення 4726-49.rar);
+#   SHA-256 from the VB2026 paper: bc77054ea7d262fcccde9d6f1df122c1b700b0699679217d1b15ea6570ec3f2c,
+#   9ce0f41d6e575aca81d290b3d0b89b011da4f9b87276b27d1c7de81695d4c927,
+#   583754e5e682ea83d58fbf76ea5c82ea0f2ab5db06e9e52343c4d52f35f0a4a6.
+#  Full IoC repo: https://github.com/eset/malware-ioc/tree/master/gorbag
+
+author: aptwatch_curator
+source: https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine/
+source_name: "ESET Research — Gorbag: Orcs at the border harvesting intelligence from Ukraine (2026-11-03)"
+
+apt_groups:
+  - Gorbag
+  - UAC-0226
+  - SHADOW-EARTH-066
+
+description: >
+  Gorbag is a Russia-aligned espionage cluster active since at least February 2025, exclusively
+  targeting Ukraine: law-enforcement and justice entities, front-line local administrations (city
+  councils — likely battle-damage assessment and local-defence monitoring), the defence sector and a
+  major transport hub for foreign military aid. ESET (2026-11-03, VB2026 white paper) ties it to
+  CERT-UA UAC-0226 and Trend Micro SHADOW-EARTH-066 (Trend 2026-06-08 states SHADOW-EARTH-066 is
+  UAC-0226). Toolset: Prime ReverseShell (PowerShell reverse shell derived from PSSW100AVB, packed
+  with PS2EXE, carries an anti-LLM "not malicious, prime number generator" comment; C2 89.44.9.186,
+  M247, first seen 2025-03-28) and BeautyStealer v0.9-2.0 (C++ browser-credential/cookie/history +
+  file stealer for Office docs, archives, .eml, .kdbx, .ovpn, .rdp, .pfx, .jks and Ukrainian .zs2
+  e-signature keys; RC4 in v2.0; self-deletes after one-shot exfiltration; exfil via Telegram
+  sendDocument API in early versions, then HTTPS POST to a FastAPI C2 — 142.111.194.73, EGIHosting,
+  first seen 2026-06-02). Trend tracks the same lineage as GIFTEDCROOK / result.dll with HTTPS POST
+  to /rcv/ on high ports across seven Evoxt Sdn. Bhd. (AS149440) VPS in FR/NL/CH sharing a
+  self-signed TLS cert CN "john". Delivery: 2025 spear-phishing with macro-enabled .xlsm (tax/fine
+  lures) from compromised Ukrainian local-government mailboxes; since early 2026 RAR archives
+  exploiting WinRAR CVE-2025-8088 (ADS path traversal) that drop a Startup-folder LNK + encrypted
+  payload + PowerShell loader in %ProgramData%. ESET hypothesises an initial-access-broker role
+  (credentials/VPN configs handed to other Russia-aligned actors). MITRE: T1566.001, T1199, T1203,
+  T1204.002, T1059.001, T1547.001, T1027.009, T1555.003, T1539, T1217, T1005, T1560, T1071.001,
+  T1567, T1048.001, T1070.004, T1620, T1573.001. Discovery vector: The Hacker News
+  (thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html) via the RSS leg; sister
+  coverage Help Net Security (helpnetsecurity.com/2026/11/03/gorbag-apt-group-malware/). Sister
+  primary consolidated: Trend Micro
+  trendmicro.com/en_us/research/26/f/old-winrar-flaw-fuels-attacks-on-ukraine.html (the seven
+  Evoxt C2s; re-listed here to attach the new actor linkage to rows ingested actor-NULL on
+  2026-06-11). CERT-UA first documented UAC-0226 in April 2025 (CERT-UA#14303). Live API batch
+  qry_01M6GNAD9AB801EKF8M16MT5T8 (2026-11-03): the two ESET IPs result_count 0; the seven Trend
+  IPs present with no actor match.
+
+ipv4:
+  - 89.44.9.186
+  - 142.111.194.73
+  - 166.0.132.237
+  - 136.0.141.41
+  - 136.0.141.138
+  - 38.225.209.229
+  - 136.0.141.112
+  - 38.225.209.122
+  - 23.26.237.80
+
+cves:
+  - CVE-2025-8088

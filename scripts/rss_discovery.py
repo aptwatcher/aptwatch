@@ -222,6 +222,11 @@ IN_SCOPE_ACTORS = [
     #     and the title named no actor. "the gentlemen" = RaaS brand tracked via the 2026-10-24
     #     Phantom AI affiliate campaign; "k0t" = Group-IB handle (3 chars -> whole-word match).
     "the gentlemen", "k0t",
+    # --- 2026-11-03 backfill: ESET named the UAC-0226 / SHADOW-EARTH-066 GIFTEDCROOK
+    #     cluster "Gorbag" (Russia-aligned, Ukraine justice/local-gov/defence). THN's
+    #     headline only matched on "russia-aligned"; the actor/tool names were absent.
+    "gorbag", "uac-0226", "shadow-earth-066", "giftedcrook", "beautystealer",
+    "prime reverseshell",
 ]
 
 # Keywords that flag likely Russian-linked / relevant ops even without a named
