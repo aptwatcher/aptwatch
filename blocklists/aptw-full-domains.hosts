@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-02 18:33:58
-# Entries: 522957
+# Generated: 2026-11-03 01:50:35
+# Entries: 523008
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48368,6 +48368,7 @@
 0.0.0.0 accessibility-git-ads-local-96355.vercel.app
 0.0.0.0 accessibiltyorgligne.weebly.com
 0.0.0.0 accessible-cedar-larkspur.glitch.me
+0.0.0.0 accessible-greek-commander-people.trycloudflare.com
 0.0.0.0 accessible-interesting-skate.glitch.me
 0.0.0.0 accessible-mahogany-ash.glitch.me
 0.0.0.0 accessible-messy-lamprey.glitch.me
@@ -82991,6 +82992,7 @@
 0.0.0.0 anchorwheelmotel.com.au
 0.0.0.0 anchos.dedspac.ru
 0.0.0.0 anchusa.bluestacko.ru
+0.0.0.0 ancie68.rio-y.workers.dev
 0.0.0.0 anciela.info
 0.0.0.0 ancien.bluestacko.ru
 0.0.0.0 ancien.matsuro.ru
@@ -85013,6 +85015,7 @@
 0.0.0.0 another-costume-for-you387941.io.vn
 0.0.0.0 another.bluestacko.ru
 0.0.0.0 another122r.com
+0.0.0.0 anotherclose.pro
 0.0.0.0 anotherdeficienthardware.kimbuchanan.repl.co
 0.0.0.0 anotheridealisticmosaic.bancolfree.repl.co
 0.0.0.0 anotherlandscape.com
@@ -88870,6 +88873,7 @@
 0.0.0.0 apish.dedspac.ru
 0.0.0.0 apish.matsuro.ru
 0.0.0.0 apish.ulitron.ru
+0.0.0.0 apisinfo.qzz.io
 0.0.0.0 apism.dedspac.ru
 0.0.0.0 apism.matsuro.ru
 0.0.0.0 apism.ulitron.ru
@@ -96602,6 +96606,7 @@
 0.0.0.0 apsverficaationpgase.ydns.eu
 0.0.0.0 apsystemsexpert.com
 0.0.0.0 apszres.000webhostapp.com
+0.0.0.0 apt-behold-beating-bedding.trycloudflare.com
 0.0.0.0 apt-cubist-295116.ey.r.appspot.com
 0.0.0.0 apt-ibex-adequate.ngrok-free.app
 0.0.0.0 apt-main.get-update.chikodaidrinkchicho.com
@@ -104749,6 +104754,7 @@
 0.0.0.0 atrack-a.anthill.vn
 0.0.0.0 atracking-auto.appflood.com
 0.0.0.0 atracklines.tumblr.com
+0.0.0.0 atracthi.qzz.io
 0.0.0.0 atraini.cl
 0.0.0.0 atralooofretnoon51021-ba2210.ingress-earth.ewp.live
 0.0.0.0 atraltpsobltneud-dot-millinium.ey.r.appspot.com
@@ -111434,6 +111440,7 @@
 0.0.0.0 attention-02.25u.com
 0.0.0.0 attention-657115675432640057.ml
 0.0.0.0 attention-coupon.biz
+0.0.0.0 attention.dpdns.org
 0.0.0.0 attentionrequired-immediately.co.uk
 0.0.0.0 attentiovernmentbodieshroughusiness.weebly.com
 0.0.0.0 attentiveaccounting.com.au
@@ -145743,6 +145750,7 @@
 0.0.0.0 bitt.bortogat.ru
 0.0.0.0 bitt.matsuro.ru
 0.0.0.0 bitt.ulitron.ru
+0.0.0.0 bitt502.robing-a2b.workers.dev
 0.0.0.0 bittagemvalidate.pages.dev
 0.0.0.0 bitte.modimyk.workers.dev
 0.0.0.0 bitte.virosat.ru
@@ -162681,6 +162689,7 @@
 0.0.0.0 c4customs.com
 0.0.0.0 c4d-cdn.adcolony.com
 0.0.0.0 c4d3a529-6823-4939-8cf6-223207ceff30.usrfiles.com
+0.0.0.0 c4d4.dmlyp74042-d8d.workers.dev
 0.0.0.0 c4d559717b0406d7c20500e6de30364c5b3833ffdb221014c090ad6d8d.pages.dev
 0.0.0.0 c4d8178d.adorn-insight.co.uk
 0.0.0.0 c4d91903f4ba484aa02778783e7c9a5e.testing-url.ws
@@ -186980,6 +186989,7 @@
 0.0.0.0 contrack.link
 0.0.0.0 contracsupport.click
 0.0.0.0 contract-busines-proposal.weebly.com
+0.0.0.0 contract-losing-loud-according.trycloudflare.com
 0.0.0.0 contract-object-storage-yk-cos-static-web-hosting-43h.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 contract-payment.com
 0.0.0.0 contract-prenotation.com
@@ -191215,6 +191225,7 @@
 0.0.0.0 crownsculpture.com
 0.0.0.0 crownsys.com
 0.0.0.0 crownvia-gpt.online
+0.0.0.0 crowwell.pro
 0.0.0.0 croxfilesyhhf.github.io
 0.0.0.0 croy.vadilops.ru
 0.0.0.0 crp-11acc.serveirc.com
@@ -195916,6 +195927,7 @@
 0.0.0.0 damasfusel.store
 0.0.0.0 damasglobal.com
 0.0.0.0 damastaving.sk
+0.0.0.0 damb98.harper6.workers.dev
 0.0.0.0 dambart.ru
 0.0.0.0 dambos.com
 0.0.0.0 damdev80.github.io
@@ -200491,6 +200503,7 @@
 0.0.0.0 definitely.maizuko.ru
 0.0.0.0 definitely.mersado.ru
 0.0.0.0 definitemail.com
+0.0.0.0 definition-integration-pages-pork.trycloudflare.com
 0.0.0.0 definition.coffiti.ru
 0.0.0.0 definition.demonstrate.coffiti.ru
 0.0.0.0 definition.gitrostan.ru
@@ -207696,6 +207709,7 @@
 0.0.0.0 disable-92946009.tehran123.ir
 0.0.0.0 disable-assistance-i7bbne.vercel.app
 0.0.0.0 disable-binance.com
+0.0.0.0 disable-deep-neglect-impatience.trycloudflare.com
 0.0.0.0 disable-fb-1437648799.gekoma.hr
 0.0.0.0 disable-fb-1711794454.gekoma.hr
 0.0.0.0 disable-fb-1822113976.gekoma.hr
@@ -215356,6 +215370,7 @@
 0.0.0.0 dwvwq.blogspot.fi
 0.0.0.0 dwvwq.cwfc.workers.dev
 0.0.0.0 dww.libellus.ru
+0.0.0.0 dwwlg.com
 0.0.0.0 dwwmgyrwhpnh.top
 0.0.0.0 dwwq.krafton-news.com
 0.0.0.0 dwyer.dedspac.ru
@@ -216792,6 +216807,7 @@
 0.0.0.0 eager-swirles-c301c3.netlify.app
 0.0.0.0 eager-vaughan.67-23-166-125.plesk.page
 0.0.0.0 eager.dedspac.ru
+0.0.0.0 eagerness-hose-disappeared-above.trycloudflare.com
 0.0.0.0 eagfdbc.pilot45.com
 0.0.0.0 eagle-ageprotection.co.za
 0.0.0.0 eagle-wyoallteaccessedandpat-app-64zdp.ondigitalocean.app
@@ -219231,6 +219247,8 @@
 0.0.0.0 edvgr.top
 0.0.0.0 edvlt.arabayorumlarim.com
 0.0.0.0 edvqouyuktw.gdkc9q.cn
+0.0.0.0 edvsh.indevs.in
+0.0.0.0 edvsh.sryze.cc
 0.0.0.0 edwardgraphics.eu
 0.0.0.0 edwardian.bortogat.ru
 0.0.0.0 edwardjallen.bravusmentores.com
@@ -230310,6 +230328,7 @@
 0.0.0.0 exteriterance.pages.dev
 0.0.0.0 exteritesol.pages.dev
 0.0.0.0 exterminable-grid.000webhostapp.com
+0.0.0.0 extern.dpdns.org
 0.0.0.0 external.dmtracker.com
 0.0.0.0 externalmetamask.com
 0.0.0.0 externalnode.top
@@ -243811,7 +243830,6 @@
 0.0.0.0 filekeeper.topupload.ru
 0.0.0.0 fileman.pl
 0.0.0.0 filemaxview.serveirc.com
-0.0.0.0 filen.io
 0.0.0.0 filenadocusign.alfangroup.cyou
 0.0.0.0 filenlyjaked.top
 0.0.0.0 filentt.weebly.com
@@ -253409,6 +253427,7 @@
 0.0.0.0 furil.ulitron.ru
 0.0.0.0 furion.space
 0.0.0.0 furioso-fists.000webhostapp.com
+0.0.0.0 furiouse.qzz.io
 0.0.0.0 furioustsports.com
 0.0.0.0 furl.boletuso.ru
 0.0.0.0 furl.ulitron.ru
@@ -259431,6 +259450,7 @@
 0.0.0.0 getcryptous.xyz
 0.0.0.0 getcsoev.co.uk
 0.0.0.0 getdanaid.vip-nxn.com
+0.0.0.0 getdata.dpdns.org
 0.0.0.0 getdataback.pl
 0.0.0.0 getdaupdate.blogspot.co.at
 0.0.0.0 getdaupdate.blogspot.com
@@ -259770,6 +259790,7 @@
 0.0.0.0 getyuawer.myftp.biz
 0.0.0.0 getyunggfty.work
 0.0.0.0 getzmaterial.com
+0.0.0.0 getzone.qzz.io
 0.0.0.0 getzs.duckdns.org
 0.0.0.0 getzskinvalecc2.co.vu
 0.0.0.0 geuddesaxigre-1006.vercel.app
@@ -285472,6 +285493,7 @@
 0.0.0.0 hoster-test.ru
 0.0.0.0 hosterclick.com
 0.0.0.0 hosterhosterhost.weebly.com
+0.0.0.0 hostess-instruction-abbey-contest.trycloudflare.com
 0.0.0.0 hostfast.hostfree.pw
 0.0.0.0 hostfleek.com
 0.0.0.0 hostfree.site
@@ -298184,6 +298206,7 @@
 0.0.0.0 innnnner.wixsite.com
 0.0.0.0 inno.bisrv.com
 0.0.0.0 innoaura.com
+0.0.0.0 innocence-prickly-negligence-mourning.trycloudflare.com
 0.0.0.0 innocent321.github.io
 0.0.0.0 innocentmundanenotifications.brokenshx777.repl.co
 0.0.0.0 innocherche.com
@@ -300061,6 +300084,7 @@
 0.0.0.0 instawords.000webhostapp.com
 0.0.0.0 instawpinsta.byethost7.com
 0.0.0.0 instduzzz.000webhostapp.com
+0.0.0.0 instead-formation-beef-orchard.trycloudflare.com
 0.0.0.0 insteaph.com
 0.0.0.0 instec-gt.com
 0.0.0.0 instegramtakip20.byethost24.com
@@ -309085,6 +309109,7 @@
 0.0.0.0 jilt.ulitron.ru
 0.0.0.0 jiluoapp.top
 0.0.0.0 jilveta.store
+0.0.0.0 jily.indevs.in
 0.0.0.0 jilzrlpzzxhkagni-dot-millinium.ey.r.appspot.com
 0.0.0.0 jim-store.top
 0.0.0.0 jim.amaniwa.ru
@@ -314863,6 +314888,7 @@
 0.0.0.0 juicyads.com
 0.0.0.0 juicyads.me
 0.0.0.0 juicyceleb.us.intellitxt.com
+0.0.0.0 juicyjey.dpdns.org
 0.0.0.0 juid.tk
 0.0.0.0 juie.tk
 0.0.0.0 juienxurmjezafimrzepkkwhmwxwrq-noreplyservicesformore.vercel.app
@@ -331423,6 +331449,7 @@
 0.0.0.0 lexcotiles.com
 0.0.0.0 lexdaltreden.com
 0.0.0.0 lexe2-pengate.ghjigclbopy.es
+0.0.0.0 lexerot.pro
 0.0.0.0 lexes.virosat.ru
 0.0.0.0 lexevcerz.co
 0.0.0.0 lexew97591vreaa.pages.dev
@@ -334661,6 +334688,7 @@
 0.0.0.0 lively-credit.wordsowd.workers.dev
 0.0.0.0 lively-darkness-bd73.kalau8294446.workers.dev
 0.0.0.0 lively-dew-5de5.e1syhnpq.workers.dev
+0.0.0.0 lively-disk-b5d5.tiffany88-140.workers.dev
 0.0.0.0 lively-evergreen-candytuft.glitch.me
 0.0.0.0 lively-grass-921e.kexerax563.workers.dev
 0.0.0.0 lively-half-scorpion.glitch.me
@@ -375752,6 +375780,7 @@
 0.0.0.0 mufnipsknlqzueuhquuipapeecevslakiiex-dot-offgl8876899977678.uk.r.appspot.com
 0.0.0.0 muftizainulabideen.com
 0.0.0.0 mufty.dedspac.ru
+0.0.0.0 mug-holmes-oklahoma-exception.trycloudflare.com
 0.0.0.0 mug.criteo.com
 0.0.0.0 mug.da1.vip.prod.criteo.com
 0.0.0.0 mug.hk5.vip.prod.criteo.com
@@ -376235,6 +376264,7 @@
 0.0.0.0 munja.dedspac.ru
 0.0.0.0 munjanattukudumbayogam.com
 0.0.0.0 munjlnderhomes.ca
+0.0.0.0 munmicror.dpdns.org
 0.0.0.0 munmzmqc.green
 0.0.0.0 munnakumar22.github.io
 0.0.0.0 munnanur.blogspot.ug
@@ -389566,6 +389596,7 @@
 0.0.0.0 nine-brindle-hippopotamus.glitch.me
 0.0.0.0 nine-fanatical-mortarboard.glitch.me
 0.0.0.0 nine-gusty-riddle.glitch.me
+0.0.0.0 nine-intentional-daytime-buyer.trycloudflare.com
 0.0.0.0 nine-letterpress.com
 0.0.0.0 nine-rhetorical-fontina.glitch.me
 0.0.0.0 nine-ventures.com
@@ -394643,6 +394674,7 @@
 0.0.0.0 o98310pg.beget.tech
 0.0.0.0 o9987.000webhostapp.com
 0.0.0.0 o99ff.livewireremote.com
+0.0.0.0 o9f.addison8.workers.dev
 0.0.0.0 o9ietmf2a0.s3.us-south.objectstorage.softlayer.net
 0.0.0.0 o9u7c77hzxa4.jmpaccountants.co.za
 0.0.0.0 o9w2v7c.pics
@@ -403303,6 +403335,7 @@
 0.0.0.0 ore.dedspac.ru
 0.0.0.0 ore.ulitron.ru
 0.0.0.0 oreas.dedspac.ru
+0.0.0.0 oreb1.qxjmxpd8dfr.workers.dev
 0.0.0.0 orebu-cloud-3bde.lwvemrlaensi.workers.dev
 0.0.0.0 oreg-start-leadger.webflow.io
 0.0.0.0 oregeryshop01.top
@@ -409979,6 +410012,7 @@
 0.0.0.0 pathwaycapital.corporacionfrm.org
 0.0.0.0 pathwaystoorganization.com
 0.0.0.0 pathy.dedspac.ru
+0.0.0.0 patieff.remy-4.workers.dev
 0.0.0.0 patience-ils-poussent.fr
 0.0.0.0 patient-brook-6658.avroham651.workers.dev
 0.0.0.0 patient-cloud-9191.on.fleek.co
@@ -418043,6 +418077,7 @@
 0.0.0.0 planearconsultoria.com.br
 0.0.0.0 planen.neue.lieferung.4-232-160-133.cprapid.com
 0.0.0.0 planesvodafone.es
+0.0.0.0 planet-additional-east-offensive.trycloudflare.com
 0.0.0.0 planet-cedar-quality.glitch.me
 0.0.0.0 planet-leaf-screen.glitch.me
 0.0.0.0 planet-media.fr
@@ -418241,6 +418276,7 @@
 0.0.0.0 platformamirsa.intelidev.ro
 0.0.0.0 platformcoop.net
 0.0.0.0 platforme-souscription.x10.mx
+0.0.0.0 platforms-airborne-disabled-behold.trycloudflare.com
 0.0.0.0 platforms-helpcenter.ml.bluebadgehelpcenterforms.ga
 0.0.0.0 platformsclick.pages.dev
 0.0.0.0 platformthing.one
@@ -420019,6 +420055,7 @@
 0.0.0.0 policyresponseappealnotice.vercel.app
 0.0.0.0 policyresponsemediainsight.vercel.app
 0.0.0.0 policyresponsetrendengine.vercel.app
+0.0.0.0 policyterms.dpdns.org
 0.0.0.0 policytoolseohub.vercel.app
 0.0.0.0 policytooltrendboosters.vercel.app
 0.0.0.0 policyupdate-review-panel.vercel.app
@@ -427413,6 +427450,7 @@
 0.0.0.0 prole.ulitron.ru
 0.0.0.0 proleafstabl.top
 0.0.0.0 proleaguesports.my.id
+0.0.0.0 prolegiot.pro
 0.0.0.0 proletarian-printou.000webhostapp.com
 0.0.0.0 proletarssiats.info
 0.0.0.0 prolificpad-digital.pages.dev
@@ -444253,6 +444291,7 @@
 0.0.0.0 readable-imagine-238651.framer.app
 0.0.0.0 readable-pages-006152.framer.app
 0.0.0.0 readablewire.com
+0.0.0.0 readagreement.dpdns.org
 0.0.0.0 readairreview.com
 0.0.0.0 readbook-dev.ejoyjump.com
 0.0.0.0 readd-setup.com
@@ -444882,6 +444921,7 @@
 0.0.0.0 recoco.it
 0.0.0.0 recofeyphagesprivacyexplanations.co.vu
 0.0.0.0 recoff.net
+0.0.0.0 recognazi.pro
 0.0.0.0 recognized-gas.000webhostapp.com
 0.0.0.0 recoinbase.com
 0.0.0.0 recollected-runways.000webhostapp.com
@@ -448582,6 +448622,7 @@
 0.0.0.0 required-service-violation-info.netlify.app
 0.0.0.0 required42.vipertos.ru
 0.0.0.0 requiredfeedmain.cfd
+0.0.0.0 requiredpolicy.dpdns.org
 0.0.0.0 requires-watts-football-swim.trycloudflare.com
 0.0.0.0 requiring.live
 0.0.0.0 requited-volume.000webhostapp.com
@@ -454510,6 +454551,7 @@
 0.0.0.0 rotudya.pro
 0.0.0.0 rotumal.com
 0.0.0.0 rotv24.com
+0.0.0.0 rou13b.nicov.workers.dev
 0.0.0.0 roubg3.gq
 0.0.0.0 roud.dedspac.ru
 0.0.0.0 roudaonsa.blogspot.com
@@ -462591,6 +462633,7 @@
 0.0.0.0 sayhello.popunder.ru
 0.0.0.0 sayherbal.com
 0.0.0.0 sayicontractors.co.za
+0.0.0.0 sayitgirl.pro
 0.0.0.0 sayitinkso.com
 0.0.0.0 saylemsmaodv.co.uk
 0.0.0.0 sayler.at
@@ -466527,6 +466570,7 @@
 0.0.0.0 shoes97.ihsana.ru
 0.0.0.0 shoes98.ihsana.ru
 0.0.0.0 shoestyle.pl
+0.0.0.0 shoetie.qzz.io
 0.0.0.0 shogla.com
 0.0.0.0 shoguni.ru
 0.0.0.0 shoibaksar.github.io
@@ -470708,6 +470752,7 @@
 0.0.0.0 square-metamask.square.site
 0.0.0.0 square-smoke-4c62.4tjwj7mx.workers.dev
 0.0.0.0 square-sunset-09ba.zip-confirm.workers.dev
+0.0.0.0 squaredey.dpdns.org
 0.0.0.0 squarefootball.uk.intellitxt.com
 0.0.0.0 squareonee-sa.store
 0.0.0.0 squarosa.ru
@@ -478669,6 +478714,7 @@
 0.0.0.0 termsaccounnt-ass-op1211-systemborderzg.pages.dev
 0.0.0.0 termsaccounnt-ass-op1211-trufstmatrixz.pages.dev
 0.0.0.0 termsbellsouthmail.wixsite.com
+0.0.0.0 termsdokjr.dpdns.org
 0.0.0.0 termserviceupdate.wixsite.com
 0.0.0.0 termstrackersecurity.vercel.app
 0.0.0.0 termsupdate.wixsite.com
@@ -479363,6 +479409,7 @@
 0.0.0.0 thepinnaclesignal-gpt.com
 0.0.0.0 thepiratecinemaclub.org
 0.0.0.0 thepiratetrader.com
+0.0.0.0 thepolicies.dpdns.org
 0.0.0.0 thepounder.com
 0.0.0.0 theprimehealer.org
 0.0.0.0 theproblems.space
@@ -479496,6 +479543,7 @@
 0.0.0.0 thick.dedspac.ru
 0.0.0.0 thickporter.sa.com
 0.0.0.0 thiepn.com
+0.0.0.0 thiffigpcbd0mb.dpdns.org
 0.0.0.0 thig.ulitron.ru
 0.0.0.0 thigh.dedspac.ru
 0.0.0.0 thilak1-8.github.io
@@ -480119,6 +480167,7 @@
 0.0.0.0 tiny-sprout.shop
 0.0.0.0 tiny.centralacp.com
 0.0.0.0 tiny.dedspac.ru
+0.0.0.0 tiny4a.rio-y.workers.dev
 0.0.0.0 tinyaccess-produline-batbenefit.netlify.app
 0.0.0.0 tinybar.com
 0.0.0.0 tinyblocka.vercel.app
@@ -483493,6 +483542,7 @@
 0.0.0.0 trueendowmandshipplatform.com
 0.0.0.0 truefact.news
 0.0.0.0 truefashionnews.com
+0.0.0.0 trueher.dpdns.org
 0.0.0.0 truehits.net
 0.0.0.0 truehits1.gits.net.th
 0.0.0.0 truehits2.gits.net.th
@@ -492848,6 +492898,7 @@
 0.0.0.0 webpage-kucoin-io-cdn-auth.webflow.io
 0.0.0.0 webpage-ledger-live.teachable.com
 0.0.0.0 webpage-ndax-cdn-web.webflow.io
+0.0.0.0 webpage-perfect-terrorism-puts.trycloudflare.com
 0.0.0.0 webpagetest.net
 0.0.0.0 webpageupdate.co
 0.0.0.0 webpartdata.com
