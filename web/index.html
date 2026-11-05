@@ -298,31 +298,10 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
     <div class="section-title">Subnet Tier Distribution</div>
     <div class="cards" id="tier-cards"></div>
 
-    <!-- Active Campaign Intelligence -->
-    <div class="section-title">Active Campaign Intelligence</div>
-    <div id="campaign-intel-cards" style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px">
-
-      <div class="card" style="border-left:3px solid var(--orange);padding:12px">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
-          <div style="font-weight:600;font-size:12px;color:var(--text)">TLS-Camouflage Operator <span style="color:var(--text2)">#110</span></div>
-          <span class="badge LOW" style="opacity:.75">retracted 2026-11-04</span>
-        </div>
-        <div style="font-size:11px;color:var(--text2);line-height:1.6">
-          <b>Correction.</b> The &ldquo;fabricated CA&rdquo; evidence behind this cluster was wrong: the certificate authorities are the real Let&rsquo;s Encrypt Gen-Y hierarchy (Root YE / YR, intermediates YE1-YE2 / YR1-YR2) and Microsoft&rsquo;s public TLS PKI, and the brand certificates are real certificates mirrored by TLS-forwarding proxies. No operator attribution remains; the related IOCs have been retracted from the feeds. We apologise to the hosting providers and site owners concerned.
-        </div>
-      </div>
-
-      <div class="card" style="border-left:3px solid var(--border);padding:12px">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
-          <div style="font-weight:600;font-size:12px;color:var(--text)">What the re-check found</div>
-          <span class="badge MEDIUM" style="opacity:.75">2026-11-04</span>
-        </div>
-        <div style="font-size:11px;color:var(--text2);line-height:1.6">
-          Re-probe of 500 fleet hosts: every &ldquo;fabricated&rdquo; chain verifies cryptographically to ISRG Root X1/X2 or DigiCert roots, and the brand-cert hosts complete a valid handshake and return the real origin&rsquo;s page. Lesson recorded in the methodology: a shared public-CA certificate is never an operator signal.
-        </div>
-      </div>
-
-    </div>
+    <!-- Active Campaign Intelligence -- cards removed 2026-11-05 (the #110 / TLS-camouflage cluster was retracted,
+         see reports/resight-2026-11-04-fabca-falsified.md in the private workspace); keep the grid as the insertion
+         point for future campaign-intel snippets -->
+    <div id="campaign-intel-cards" style="display:none;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px"></div>
 
     <!-- DB Info Banner (web export notice) -->
     <div id="db-info-banner" style="display:none;background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--orange);border-radius:6px;padding:14px 18px;margin:20px 0 12px">
