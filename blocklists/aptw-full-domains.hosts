@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-05 18:34:06
-# Entries: 523022
+# Generated: 2026-11-05 23:57:13
+# Entries: 523024
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -117830,6 +117830,7 @@
 0.0.0.0 auth.profile.manage.humansofcrypto.xyz
 0.0.0.0 auth.properties
 0.0.0.0 auth.pwqkropwqkr.shop
+0.0.0.0 auth.qgtxtebl.workers.dev
 0.0.0.0 auth.registrationmanagement.onlineaccounts.outbound.web.runbox.net
 0.0.0.0 auth.release-id.workers.dev
 0.0.0.0 auth.rustnova.net
@@ -488895,6 +488896,7 @@
 0.0.0.0 vdbdvfvf987654.weebly.com
 0.0.0.0 vdbjpmeaqqjzpwxfflbjfmeykyxvcfgmhjbad.blogspot.com
 0.0.0.0 vdbunt.net
+0.0.0.0 vdfccjpnedujhrzscjtq.supabase.co
 0.0.0.0 vdfrg432.blogspot.com
 0.0.0.0 vdfrg432.blogspot.tw
 0.0.0.0 vdhu.com
