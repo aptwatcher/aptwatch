@@ -305,20 +305,20 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
       <div class="card" style="border-left:3px solid var(--orange);padding:12px">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
           <div style="font-weight:600;font-size:12px;color:var(--text)">TLS-Camouflage Operator <span style="color:var(--text2)">#110</span></div>
-          <span class="badge HIGH" style="opacity:.75">tracked</span>
+          <span class="badge LOW" style="opacity:.75">retracted 2026-11-04</span>
         </div>
         <div style="font-size:11px;color:var(--text2);line-height:1.6">
-          Russian-speaking ecrime operator serving fabricated-CA TLS forgeries (fake Microsoft / Let&rsquo;s Encrypt / VK authorities) from reverse proxies across several bulletproof ASNs. Per-brand campaigns tracked as facets; attribution rests on byte-identical CA-cert SHA-1 reuse.
+          <b>Correction.</b> The &ldquo;fabricated CA&rdquo; evidence behind this cluster was wrong: the certificate authorities are the real Let&rsquo;s Encrypt Gen-Y hierarchy (Root YE / YR, intermediates YE1-YE2 / YR1-YR2) and Microsoft&rsquo;s public TLS PKI, and the brand certificates are real certificates mirrored by TLS-forwarding proxies. No operator attribution remains; the related IOCs have been retracted from the feeds. We apologise to the hosting providers and site owners concerned.
         </div>
       </div>
 
       <div class="card" style="border-left:3px solid var(--border);padding:12px">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
-          <div style="font-weight:600;font-size:12px;color:var(--text)">Latest confirmation</div>
-          <span class="badge MEDIUM" style="opacity:.75">2026-07-14</span>
+          <div style="font-weight:600;font-size:12px;color:var(--text)">What the re-check found</div>
+          <span class="badge MEDIUM" style="opacity:.75">2026-11-04</span>
         </div>
         <div style="font-size:11px;color:var(--text2);line-height:1.6">
-          Round-2 CA sweep confirmed <b>1,615 hosts</b> chaining to the operator&rsquo;s fabricated minting authority. Authentic-issuer clones held as leads pending re-scan.
+          Re-probe of 500 fleet hosts: every &ldquo;fabricated&rdquo; chain verifies cryptographically to ISRG Root X1/X2 or DigiCert roots, and the brand-cert hosts complete a valid handshake and return the real origin&rsquo;s page. Lesson recorded in the methodology: a shared public-CA certificate is never an operator signal.
         </div>
       </div>
 

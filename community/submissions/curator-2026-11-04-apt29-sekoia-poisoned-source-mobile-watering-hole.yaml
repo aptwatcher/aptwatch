@@ -1,0 +1,160 @@
+# =============================================================
+#  APT Watch — curator submission
+#  APT29 "Poisoned Source" — mobile watering-hole campaign with n-day
+#  exploit chains (DarkSword iOS kit, Android Chrome chain, AndroSnitch)
+#  Primary: Sekoia TDR, 2026-11-04. Discovery vector: BleepingComputer RSS
+#  (filter-gap miss — title named no actor; backfilled in rss_discovery.py).
+# =============================================================
+#
+#  NEW SUB-CAMPAIGN ROW PROPOSED: apt_groups[0] "APT29 Poisoned Source Mobile
+#  Watering Hole" does not exist in `campaigns` (mirror 2026-11-03 + live API
+#  checked 2026-11-04). The loader creates it on import. Proposed
+#  parent_campaign_id: 7 ("APT29 / Cozy Bear"), actor_id 8. Deliberately NOT
+#  filed under "APT29 / Cozy Bear" directly and NOT carrying any APT29 alias
+#  in apt_groups[1:]: "APT29", "Midnight Blizzard", "Cozy Bear", "The Dukes",
+#  "NOBELIUM", "UNC2452" are each owned by BOTH #7 and the merged shell #21
+#  "Earth Koshchei" (ambiguous-alias trap — loader fails closed on alias
+#  resolution). apt_groups[1:] lists only names unique to this operation.
+#  Same pattern as #121 CaptiveCrunch and #123 UNC6293 (children of #7).
+#
+#  Attribution: Sekoia assesses APT29 (SVR) with MODERATE-TO-HIGH confidence —
+#  (1) a partner CERT found leftover artifacts of a 2025 APT29-attributed
+#  watering hole in the backend of one directly-compromised site; (2) Google
+#  TAG confirmed the delivery framework matches APT29's 2024 Mongolian-
+#  government watering holes (same cookie-theft goal, CSV-sourced exploits);
+#  (3) multi-hoster infrastructure spread consistent with past APT29 /
+#  Cs2modrewrite practice; (4) victimology (Ukraine, US, CZ, BG; a Czech
+#  far-right party site) consistent with SVR collection. Sekoia itself notes
+#  "APT29, or at least one of its subgroups". Related: Google tracks the
+#  DarkSword distributor as UNC6353 (cside, 2026-03) — recorded as a lateral
+#  hypothesis in the digest, not added as an alias here.
+#
+#  IOC provenance (all net-new to the DB — live API result_count 0 for every
+#  item, 2026-11-04):
+#   - Delivery: static.flux-telemetry.com (109.104.106.107, Shock Hosting
+#     AS395092, reg. 2026-04-02), edge-ord.clouds-stacks.com (95.133.231.28,
+#     servinga AS219399, reg. 2026-08-26; load-balancer redirecting to
+#     ads-it-assets.com, cdn.adv-static.com, wpvortex-mod.com, assets-int.com).
+#   - Exfiltration: ad.starx-net.com (195.58.140.105, AS395092, reg.
+#     2026-04-03) — POST :8881/telemetry/v12 shared by all three exploit
+#     classes; stages fetched from /api/<NONCE>/v1..v3 (nonce — not listed).
+#   - AiTM reverse-proxy lookalikes: america250.holiday (192.121.46.25, EDIS
+#     AS9009, reg. 2026-05-19, delivery via adsprism-stat.com) and theowo.club
+#     (188.190.17.232, EDIS AS57169, reg. 2026-06-18, delivery via
+#     static.flux-telemetry.com).
+#   - Supply chain: a.plerdy.com (legitimate Ukrainian analytics tracker,
+#     main.js tampered 2026-08-27..09-03) -> compromised_domains, with apex
+#     plerdy.com as context anchor. The tampered URL is NOT listed (clean
+#     legitimate file today; listing it would blocklist a legitimate service).
+#   - CVEs: the 8 actually used in the three chains. CVE-2025-31277,
+#     CVE-2025-24201, CVE-2024-27808, CVE-2024-27833 are present in the kit
+#     as alternate/unreachable paths and are deliberately omitted.
+#  Ownership triage: reports/triage/sekoia-apt29-poisoned-source-2026-11-04.csv
+#  (offline heuristic defaulted 14/16 to needs_review). Curator OVERRIDE to
+#  malicious for the 14 attacker domains on report attribution ("attacker-
+#  controlled", "registered by the intrusion set", delivery/exfil table) plus
+#  live WHOIS: adsprism-stat.com and wpvortex-mod.com created 2026-04-02 (same
+#  day as flux-telemetry.com, ENOM, privacy-redacted), adv-static.com
+#  2026-08-26 and assets-int.com 2026-08-27 (same window as clouds-stacks.com,
+#  privacy / unverified-NS registrars). ads-it-assets.com: WHOIS empty —
+#  kept on the report's explicit delivery-server attribution.
+#  Victim sites (Ukrainian gas producer, US chemical trade association,
+#  Bulgarian military site, Czech party, Australian clinic) are NOT named by
+#  Sekoia and would never be listed anyway (victim-IOC rule).
+#  Hashes (no hash field in schema), SHA-256 from Sekoia:
+#   a7d2493df00565c21587b0cad2a9fe7ca1e5590acf796da6e499be0ffde44cc3 Class-A-Stage1
+#   bee3e014e3df87ddce0250b0985b87f6868a427a7b650a74b7ffedb9d57f3088 Class-A-Stage2
+#   c170fda024183645c0aa681149304e50506509c3498bb6b9a5f5ced6aa73e5fa Class-B-Stage1
+#   2ffb35e3f9e55286a930fb887e73764a913166648135fe0ca7551736d97d7bfa Class-B-Stage2
+#   69b6cb327a4d5da99399718f6a66f84de69f89425b0a31f2dcee0682f811596f Class-B-Stage3
+#   29d283ebd08d0cd3b2e6f4a67718d3d6e7a6be01d0613d716bce218dba57a928 Class-C-Stage1-JS
+#   06c17b31d36838f3d29044784aa047d5c2d9174d3356c1211cf25f9df677445f Class-C-Stage2-JS
+#   183d62d682aea8018491c8559544e8d6a9ab0e1abd05ecbb6c97daa4f438d2b8 Class-C-Stage2-CVE-2025-27038
+#   387a7fb768db1350a9788d9704e7a72abe07152734e0ff026af72b417e36268c AndroSnitch
+#   35c0cd19a7334b544c193e392bcd9a8f1d1f43cf6b61be5bf1d9e35537aff2ef /v1
+#   621112712ec515e8791129c62feda8fff6654a0116882401609503cacc08054a /v2
+#   ae3241d96cc2d99538c7aff60f382cc8dac13859bcbea3ee84992d24d22a8108 Class-C v139-v144
+#   41e6fd33a30d36dabff9ea408d9766a6583edcc107968f6dc1499f2586381967 Class-C v145
+
+author: aptwatch_curator
+source: https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits
+source_name: "Sekoia TDR — Poisoned Source: APT29 watering holes target mobile devices with n-day exploits (2026-11-04)"
+
+apt_groups:
+  - APT29 Poisoned Source Mobile Watering Hole
+  - Poisoned Source
+  - UltimateFingerprinter
+  - AndroSnitch
+
+description: >
+  Large-scale watering-hole campaign uncovered by Sekoia TDR in mid-October 2026 and attributed with
+  moderate-to-high confidence to APT29 (SVR; Midnight Blizzard / Cozy Bear / The Dukes). Proposed as a
+  sub-campaign of "APT29 / Cozy Bear" (parent_campaign_id 7). Three infection vectors deliver the same
+  injected JavaScript: (1) direct template/library injection on compromised legitimate sites in the US,
+  Ukraine, Czech Republic and Bulgaria (a Ukrainian gas producer, a US chemical-industry trade
+  association, a Bulgarian military-related site, a Czech far-right party); (2) Adversary-in-the-Middle
+  reverse-proxy lookalikes america250.holiday (clone of america250.org, the US 250th-anniversary site)
+  and theowo.club (clone of Raffles London at The OWO, next to the UK MoD / Downing Street) that patch
+  HTML on the fly; (3) a one-week supply-chain compromise (2026-08-27 to 09-03) of the Ukrainian
+  web-analytics tracker a.plerdy.com, whose main.js is loaded by thousands of mostly Ukrainian sites
+  including army, special-forces and UAV/ballistics vendors. The loader fetches the
+  "UltimateFingerprinter" profiling script (394 fields / 61 checks) from static.flux-telemetry.com or,
+  via the edge-ord.clouds-stacks.com load balancer, from ads-it-assets.com / cdn.adv-static.com /
+  wpvortex-mod.com / assets-int.com; the delivery host then serves a platform-specific n-day chain
+  with no user interaction and no persistence. Class A (iOS 16.7): DarkSword CVE-2025-43529 +
+  CVE-2024-27834 PAC bypass, Safari cookie theft. Class B (iOS 18.5): CVE-2025-43529, CVE-2026-20700,
+  CVE-2025-14174, CVE-2025-43510, CVE-2025-43520 - full device exfiltration (WhatsApp/Telegram DBs,
+  Keychain, location, Health, photos, iCloud Drive). Class C (Chrome for Android 139-145 except 143):
+  CVE-2026-3910 + CVE-2025-27038, then the native "AndroSnitch" harvester for Chrome cookies, login
+  data, history and WifiConfigStore.xml Wi-Fi passwords. All classes exfiltrate by HTTPS POST to
+  ad.starx-net.com:8881/telemetry/v12. DarkSword is a suspected commercial-surveillance-vendor iOS
+  kit (Google tracks its watering-hole distributor as UNC6353); Google TAG confirmed to Sekoia the
+  framework matches APT29's 2024 Mongolian-government watering holes. Sister coverage:
+  BleepingComputer 2026-11-04 (discovery vector, no additional IOCs); cside 2026-03 and Lookout
+  2026-03 DarkSword kit analyses (older, no overlapping infrastructure). Ownership triage with
+  curator overrides documented in the YAML header; plerdy.com / a.plerdy.com filed as
+  compromised_legitimate. MITRE: T1189 Drive-by Compromise, T1195.002 Supply Chain Compromise,
+  T1557 Adversary-in-the-Middle, T1203 Exploitation for Client Execution, T1539 Steal Web Session
+  Cookie, T1555 Credentials from Password Stores, T1041 Exfiltration Over C2 Channel.
+
+ipv4:
+  - 109.104.106.107
+  - 95.133.231.28
+  - 195.58.140.105
+  - 192.121.46.25
+  - 188.190.17.232
+
+domains:
+  - static.flux-telemetry.com
+  - flux-telemetry.com
+  - edge-ord.clouds-stacks.com
+  - clouds-stacks.com
+  - ad.starx-net.com
+  - starx-net.com
+  - america250.holiday
+  - theowo.club
+  - adsprism-stat.com
+  - ads-it-assets.com
+  - cdn.adv-static.com
+  - adv-static.com
+  - wpvortex-mod.com
+  - assets-int.com
+
+compromised_domains:
+  - a.plerdy.com
+  - plerdy.com
+
+urls:
+  - https://static.flux-telemetry.com/module/5b4c8fea5cbcee273e8d830f52-temfp.js
+  - https://edge-ord.clouds-stacks.com/module/5b4c8fea5cbcee273e8d830f52-temfp.js
+  - https://ad.starx-net.com:8881/telemetry/v12
+
+cves:
+  - CVE-2025-43529
+  - CVE-2024-27834
+  - CVE-2026-20700
+  - CVE-2025-14174
+  - CVE-2025-43510
+  - CVE-2025-43520
+  - CVE-2026-3910
+  - CVE-2025-27038

@@ -227,6 +227,12 @@ IN_SCOPE_ACTORS = [
     #     headline only matched on "russia-aligned"; the actor/tool names were absent.
     "gorbag", "uac-0226", "shadow-earth-066", "giftedcrook", "beautystealer",
     "prime reverseshell",
+    # --- 2026-11-04 backfill: BleepingComputer "Hackers use n-day exploits in zero-click
+    #     attacks on iOS, Android devices" (sister coverage of Sekoia's APT29 "Poisoned
+    #     Source" watering-hole primary) was parsed but not matched — the summary said
+    #     "Russian hackers" and the title named no actor. Tool/kit names from the primary,
+    #     plus GTIG's cluster for the DarkSword distributor.
+    "darksword", "androsnitch", "ultimatefingerprinter", "poisoned source", "unc6353",
 ]
 
 # Keywords that flag likely Russian-linked / relevant ops even without a named
@@ -255,6 +261,10 @@ TRIGGER_KEYWORDS = [
     "russian intelligence", "russian military intelligence",
     "pro-russian", "pro-russia",
     "center 16", "centre 16", "center 18", "centre 18", "unit 54777",
+    # 2026-11-04 backfill (see IN_SCOPE_ACTORS note of the same date): outlet phrasing
+    # "Russian hackers" was absent — only "russian state hackers" was listed. Phrase
+    # forms only; "watering hole" is a CTI-precise TTP term worth a triage look.
+    "russian hackers", "russian hacking", "watering hole",
 ]
 
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,7}", re.IGNORECASE)
