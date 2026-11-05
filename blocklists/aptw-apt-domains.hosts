@@ -1,7 +1,7 @@
 # Title: APT Watch — APT Malicious Domains
 # Description: Domains from APT threat intelligence reports
-# Last modified: 2026-11-05 00:36:17
-# Entries: 86
+# Last modified: 2026-11-05 06:04:32
+# Entries: 87
 # Homepage: https://aptwatch.org
 # License: TLP:AMBER — do not share publicly
 #
@@ -43,6 +43,7 @@
 0.0.0.0 firebase.emeraldpineventuresllc.com
 0.0.0.0 fw-static.nashbashracing.org
 0.0.0.0 images.weightlosstonight.net
+0.0.0.0 img3.centovinipolska.com
 0.0.0.0 joinnow.diasporamedia.net
 0.0.0.0 js-stable.pupplements.com
 0.0.0.0 knowledge.md

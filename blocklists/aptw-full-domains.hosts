@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-05 00:36:18
-# Entries: 523008
+# Generated: 2026-11-05 06:04:33
+# Entries: 523022
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -54072,6 +54072,7 @@
 0.0.0.0 ad.smv.to
 0.0.0.0 ad.sp.mbga.jp
 0.0.0.0 ad.ssp.d2c.ne.jp
+0.0.0.0 ad.starx-net.com
 0.0.0.0 ad.style
 0.0.0.0 ad.sunflower.vn
 0.0.0.0 ad.sxp.smartclip.net
@@ -57842,6 +57843,7 @@
 0.0.0.0 ads-immediate-attention.firebaseapp.com
 0.0.0.0 ads-immediate-attention.web.app
 0.0.0.0 ads-iogin.coapaner.app
+0.0.0.0 ads-it-assets.com
 0.0.0.0 ads-kingled.com
 0.0.0.0 ads-lfi3olnec7fr.stackpathdns.com
 0.0.0.0 ads-manage-business.yachts.jaran-goyang.my.id
@@ -59911,6 +59913,7 @@
 0.0.0.0 adspot.online
 0.0.0.0 adspot.tfgapps.com
 0.0.0.0 adspredictiv.com
+0.0.0.0 adsprism-stat.com
 0.0.0.0 adspruce.com
 0.0.0.0 adspserving.com
 0.0.0.0 adspsp.com
@@ -60224,6 +60227,7 @@
 0.0.0.0 adv-op2.joygames.me
 0.0.0.0 adv-pagespolicis-fb.com
 0.0.0.0 adv-pagesupport-fb.com
+0.0.0.0 adv-static.com
 0.0.0.0 adv-suportpagesagency-fb.com
 0.0.0.0 adv-supportpages-fb.com
 0.0.0.0 adv-trezor-login.webflow.io
@@ -79563,6 +79567,7 @@
 0.0.0.0 america1istcu.myftp.biz
 0.0.0.0 america1steom.myftp.biz
 0.0.0.0 america2.b4nk.xyz
+0.0.0.0 america250.holiday
 0.0.0.0 americaafirst.duckdns.org
 0.0.0.0 americaamask.com
 0.0.0.0 americaamerica.webcindario.com
@@ -102493,6 +102498,7 @@
 0.0.0.0 assetprotectioncorp.com
 0.0.0.0 assetrecoveryclaim.com
 0.0.0.0 assets-clo-inv-8be7.etashkhnime.workers.dev
+0.0.0.0 assets-int.com
 0.0.0.0 assets-itrustcapital-auth.webflow.io
 0.0.0.0 assets-jpcust.jwpsrv.com
 0.0.0.0 assets-kucoin.webflow.io
@@ -168491,6 +168497,7 @@
 0.0.0.0 cdn.adtradr.com
 0.0.0.0 cdn.adtrue.com
 0.0.0.0 cdn.adual.net
+0.0.0.0 cdn.adv-static.com
 0.0.0.0 cdn.advanseads.com
 0.0.0.0 cdn.advertserve.com
 0.0.0.0 cdn.adviad.com
@@ -178502,6 +178509,7 @@
 0.0.0.0 clouds-scene-ed7a.emiliafalk.workers.dev
 0.0.0.0 clouds-shadow-4d4d.kondharwasa.workers.dev
 0.0.0.0 clouds-share-e005.eumechillmahlkra.workers.dev
+0.0.0.0 clouds-stacks.com
 0.0.0.0 clouds-tain-fce5.cmcayeyuhnaess.workers.dev
 0.0.0.0 clouds-tree-bbeb.lexiegamboa.workers.dev
 0.0.0.0 clouds-verr-162f.oinrsactsfanyif.workers.dev
@@ -218934,6 +218942,7 @@
 0.0.0.0 edge-342-web.update-assistant.com
 0.0.0.0 edge-71x.pages.dev
 0.0.0.0 edge-ig-mqtt-p4-shv-sin6.facebook.com.edt.2359.us.kg
+0.0.0.0 edge-ord.clouds-stacks.com
 0.0.0.0 edge-website-juragan-v1.alphagg9.cyou
 0.0.0.0 edge-west.customer.io
 0.0.0.0 edge.addthis.com
@@ -248056,6 +248065,7 @@
 0.0.0.0 fluweah.cn
 0.0.0.0 fluwxtdypmilqojrvohioryjhwltejecyprs.offgl8876899977678.uk.r.appspot.com
 0.0.0.0 flux-ridge.pages.dev
+0.0.0.0 flux-telemetry.com
 0.0.0.0 flux.boletuso.ru
 0.0.0.0 flux.messageleboncoin.fr
 0.0.0.0 flux.ulitron.ru
@@ -472566,6 +472576,7 @@
 0.0.0.0 startxctreezo.webflow.io
 0.0.0.0 starviewab.vercel.app
 0.0.0.0 starviewmainetpro.pages.dev
+0.0.0.0 starx-net.com
 0.0.0.0 stary.dedspac.ru
 0.0.0.0 starz.122.2o7.net
 0.0.0.0 stas.outbrain.com
@@ -472735,6 +472746,7 @@
 0.0.0.0 static.exosrv.com
 0.0.0.0 static.f-acebo0k.com
 0.0.0.0 static.fleshlight.com
+0.0.0.0 static.flux-telemetry.com
 0.0.0.0 static.fmpub.net
 0.0.0.0 static.foresee.com
 0.0.0.0 static.freenet.de
@@ -479398,6 +479410,7 @@
 0.0.0.0 theopda.pages.dev
 0.0.0.0 theoremreach.com
 0.0.0.0 theotime.net
+0.0.0.0 theowo.club
 0.0.0.0 thepacificagroup.com
 0.0.0.0 thepaparazzis.us.intellitxt.com
 0.0.0.0 thepapesuitophlepcemter-cominutinowpolicvy.com
@@ -495394,6 +495407,7 @@
 0.0.0.0 wpthemesgallery.net
 0.0.0.0 wpunkcie.pl
 0.0.0.0 wpv.lop.mybluehost.me
+0.0.0.0 wpvortex-mod.com
 0.0.0.0 wpxn.com
 0.0.0.0 wpxqa.ink
 0.0.0.0 wpykkk7f.meta-confirm.us
