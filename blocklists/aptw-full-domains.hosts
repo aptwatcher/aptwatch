@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-07 00:34:02
-# Entries: 523020
+# Generated: 2026-11-07 06:06:14
+# Entries: 523019
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -212129,7 +212129,6 @@
 0.0.0.0 download.56.com
 0.0.0.0 download.allegro-market.com
 0.0.0.0 download.arundelschool.net
-0.0.0.0 download.bitbrowser-cn.cyou
 0.0.0.0 download.browseraccelerator.com
 0.0.0.0 download.caihong.com
 0.0.0.0 download.cdn.sharelive.net
@@ -287068,7 +287067,6 @@
 0.0.0.0 hsecurity-accountprotection.000webhostapp.com
 0.0.0.0 hsecuritypayees.com
 0.0.0.0 hsecuritystoprequest.com
-0.0.0.0 hseda.com
 0.0.0.0 hsegbpscrbnatxeufgqjkpvzqz-dot-goff039302032323.rj.r.appspot.com
 0.0.0.0 hsegeeqjqx.duckdns.org
 0.0.0.0 hsehome.ga
@@ -295962,6 +295960,7 @@
 0.0.0.0 indcoach.com
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
+0.0.0.0 indeanapolice.cc
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
 0.0.0.0 indecisive-pentagonal-carnation.glitch.me
@@ -373290,6 +373289,7 @@
 0.0.0.0 mothermoonfathersun.org
 0.0.0.0 motherofpearlproductions.com
 0.0.0.0 mothersoftware.in
+0.0.0.0 mothertouch.ac.zw
 0.0.0.0 mothertouchgroup.org
 0.0.0.0 mothopogamelodge.co.za
 0.0.0.0 mothrash.vercel.app
@@ -381313,6 +381313,7 @@
 0.0.0.0 nagiefoteczki.cleverapps.io
 0.0.0.0 nagite.ml
 0.0.0.0 nagivfcoixdxdaavyonvxpcfuh-dot-gleowayel400503.uc.r.appspot.com
+0.0.0.0 nagl.com.pg
 0.0.0.0 nagndikbexzrjior-dot-millinium.ey.r.appspot.com
 0.0.0.0 nagore.me
 0.0.0.0 nagoya-central.com
@@ -469602,7 +469603,6 @@
 0.0.0.0 songs.dedspac.ru
 0.0.0.0 songsar.com
 0.0.0.0 soniaborges.com.br
-0.0.0.0 soniamart.com
 0.0.0.0 sonic-0101.github.io
 0.0.0.0 sonic-us.supersonicads.com
 0.0.0.0 sonicwall-netextender.nl
@@ -476869,7 +476869,6 @@
 0.0.0.0 talk.igexin.com
 0.0.0.0 talk872363947.wixsite.com
 0.0.0.0 talk99.cn
-0.0.0.0 talkandtypeapp.com
 0.0.0.0 talkatalkwizzy.weebly.com
 0.0.0.0 talkaxis.com
 0.0.0.0 talkbdjhbifqfo.weebly.com
