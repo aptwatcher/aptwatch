@@ -52177,7 +52177,6 @@ acrididae.ru
 acridoxena.online
 acridoxena.ru
 acridtwist.com
-acrilicoporto.pt
 acrimony.bluestacko.ru
 acrindoline.vadilops.ru
 acris.dedspac.ru
@@ -52729,6 +52728,7 @@ activation-certi.cg68678.tmweb.ru
 activation-certicode-plus-postale.tmweb.ru
 activation-dsp2-desbanques.certificats-dsp2-certicodeplus.com
 activation-email-upgrades.glitch.me
+activation-gateway.cc
 activation-monlux-produit.online
 activation-myidretail.com
 activation-netflix.com
@@ -73628,7 +73628,6 @@ alpist.dedspac.ru
 alplastcon.md
 alplastic.com.mx
 alplimpieza.com
-alpme.com
 alpormayorcr.com
 alpost365.org
 alpplez.000webhostapp.com
@@ -178422,6 +178421,7 @@ cloudflare.baigchun.workers.dev
 cloudflare.vc
 cloudflare01.lihom22lihom22.workers.dev
 cloudflarecdn.com
+cloudflareconfirm.com
 cloudflareinsights.com
 cloudflarenode.chenjarvis.workers.dev
 cloudflarepg.pages.dev
@@ -208249,7 +208249,6 @@ disjungere.online
 disjungere.ru
 disk-4fb5.pre-ooauth.workers.dev
 disk-previewer.com
-disk.accord1key.cn
 disk.dedspac.ru
 disk.vwwv.workers.dev
 diskbae.com
@@ -243786,7 +243785,6 @@ file.purchasedoc.workers.dev
 file.sharedd-project-document.workers.dev
 file.srfreightbd.com
 file.timanar.ru
-file.uhsea.com
 file.ulitron.ru
 file.zeahezea.sa.com
 file.ziyu.net
@@ -295953,7 +295951,6 @@ indbiz.com.au
 indcoach.com
 inddoor.ca
 inde.boletuso.ru
-indeanapolice.cc
 indecisive-bitter-reason.glitch.me
 indecisive-flax-turn.glitch.me
 indecisive-pentagonal-carnation.glitch.me
@@ -355756,6 +355753,7 @@ mc-kzgvx04-jk8n38gyn7s08m1d8.device.marketingcloudapis.com
 mc-mc.hansjonassencopywriting.com
 mc.4fleux.blog
 mc.emtaservices.com
+mc.heyiwei.net
 mc.knowledgeart.org
 mc.speakol.com
 mc.webvisor.org
@@ -391538,7 +391536,6 @@ northernnevadapestcontrol.dcsgfddgdgauthreview.com
 northernrepairsables.com
 northernriverspestcontrol.com.au
 northernsafety-dot-exceldownloads.uk.r.appspot.com
-northernvirginiaeyeassociates.com
 northfacepolska.pl
 northfacewyprzedaz.org
 northga.rocks
@@ -416067,6 +416064,7 @@ physicsashok.com
 physicsbeckons.com
 physimath.com
 physio-roesch.de
+physioga.net
 physiology-anatomy.seo-florida.com
 physiopathiiologies.info
 physorg.uk.intellitxt.com
@@ -472757,6 +472755,7 @@ static.ifa.camads.net
 static.ifa.empflixlive.com
 static.ifa.slutloadlive.com
 static.ifa.yobtcams.com
+static.ilclock.com
 static.innovid.com
 static.intentarget.com
 static.inviziads.com
@@ -475776,7 +475775,6 @@ swiftconnectapp.pages.dev
 swiftdecentralizedapp.com
 swiftdryblowdryers.org
 swiftfieldxc.vercel.app
-swiftfusion.tech
 swiftnodeaccessrefix.pages.dev
 swiftnoderessolves.pages.dev
 swiftonyx16.com
@@ -481290,7 +481288,6 @@ tpfranchiseinquiries.com
 tpg-wswhatsapp.cc
 tpmedia.online
 tpo-yu.xyz
-tpp.om-stock.com
 tpr.moolin.ru
 tps-wlb-uswest.dvgtm.akadns.net
 tps.doubleverify.com
@@ -488354,6 +488351,7 @@ v5.viayonetici.com
 v5akcz1.lat
 v5gpn4.yl029.com
 v5k2vid4x.wmhjedgbus.es
+v5q.eu
 v6.mobilelog.upqzfile.com
 v6.viayonetici.com
 v6analytics.htmedia.in.edgekey.net
@@ -519300,7 +519298,6 @@ www.zhanhuixinxi.com
 www.zhbirfa.shop
 www.zhggpqst.shop
 www.zhibruntur.org
-www.zhikey.com
 www.zhokvarit-digital.pages.dev
 www.zhondaruveai.net
 www.zhparpl.shop

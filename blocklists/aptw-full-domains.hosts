@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-07 06:34:39
-# Entries: 523019
+# Generated: 2026-11-07 12:34:25
+# Entries: 523016
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52184,7 +52184,6 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
-0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -52736,6 +52735,7 @@
 0.0.0.0 activation-certicode-plus-postale.tmweb.ru
 0.0.0.0 activation-dsp2-desbanques.certificats-dsp2-certicodeplus.com
 0.0.0.0 activation-email-upgrades.glitch.me
+0.0.0.0 activation-gateway.cc
 0.0.0.0 activation-monlux-produit.online
 0.0.0.0 activation-myidretail.com
 0.0.0.0 activation-netflix.com
@@ -73635,7 +73635,6 @@
 0.0.0.0 alplastcon.md
 0.0.0.0 alplastic.com.mx
 0.0.0.0 alplimpieza.com
-0.0.0.0 alpme.com
 0.0.0.0 alpormayorcr.com
 0.0.0.0 alpost365.org
 0.0.0.0 alpplez.000webhostapp.com
@@ -178429,6 +178428,7 @@
 0.0.0.0 cloudflare.vc
 0.0.0.0 cloudflare01.lihom22lihom22.workers.dev
 0.0.0.0 cloudflarecdn.com
+0.0.0.0 cloudflareconfirm.com
 0.0.0.0 cloudflareinsights.com
 0.0.0.0 cloudflarenode.chenjarvis.workers.dev
 0.0.0.0 cloudflarepg.pages.dev
@@ -208256,7 +208256,6 @@
 0.0.0.0 disjungere.ru
 0.0.0.0 disk-4fb5.pre-ooauth.workers.dev
 0.0.0.0 disk-previewer.com
-0.0.0.0 disk.accord1key.cn
 0.0.0.0 disk.dedspac.ru
 0.0.0.0 disk.vwwv.workers.dev
 0.0.0.0 diskbae.com
@@ -243793,7 +243792,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -295960,7 +295958,6 @@
 0.0.0.0 indcoach.com
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
-0.0.0.0 indeanapolice.cc
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
 0.0.0.0 indecisive-pentagonal-carnation.glitch.me
@@ -355763,6 +355760,7 @@
 0.0.0.0 mc-mc.hansjonassencopywriting.com
 0.0.0.0 mc.4fleux.blog
 0.0.0.0 mc.emtaservices.com
+0.0.0.0 mc.heyiwei.net
 0.0.0.0 mc.knowledgeart.org
 0.0.0.0 mc.speakol.com
 0.0.0.0 mc.webvisor.org
@@ -391545,7 +391543,6 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
-0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
 0.0.0.0 northga.rocks
@@ -416074,6 +416071,7 @@
 0.0.0.0 physicsbeckons.com
 0.0.0.0 physimath.com
 0.0.0.0 physio-roesch.de
+0.0.0.0 physioga.net
 0.0.0.0 physiology-anatomy.seo-florida.com
 0.0.0.0 physiopathiiologies.info
 0.0.0.0 physorg.uk.intellitxt.com
@@ -472764,6 +472762,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -475783,7 +475782,6 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftdryblowdryers.org
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftonyx16.com
@@ -481297,7 +481295,6 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
-0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -488361,6 +488358,7 @@
 0.0.0.0 v5akcz1.lat
 0.0.0.0 v5gpn4.yl029.com
 0.0.0.0 v5k2vid4x.wmhjedgbus.es
+0.0.0.0 v5q.eu
 0.0.0.0 v6.mobilelog.upqzfile.com
 0.0.0.0 v6.viayonetici.com
 0.0.0.0 v6analytics.htmedia.in.edgekey.net
@@ -519307,7 +519305,6 @@
 0.0.0.0 www.zhbirfa.shop
 0.0.0.0 www.zhggpqst.shop
 0.0.0.0 www.zhibruntur.org
-0.0.0.0 www.zhikey.com
 0.0.0.0 www.zhokvarit-digital.pages.dev
 0.0.0.0 www.zhondaruveai.net
 0.0.0.0 www.zhparpl.shop
