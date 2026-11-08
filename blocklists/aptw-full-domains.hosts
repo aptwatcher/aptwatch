@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-08 06:05:05
-# Entries: 523473
+# Generated: 2026-11-08 06:34:38
+# Entries: 523471
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -194646,7 +194646,6 @@
 0.0.0.0 d-voyager.com
 0.0.0.0 d-zoneid-2696726-request.web.app
 0.0.0.0 d.101m3.com
-0.0.0.0 d.14yaa.com
 0.0.0.0 d.3656240125.top
 0.0.0.0 d.3656240128.xyz
 0.0.0.0 d.365k240125.top
@@ -259214,7 +259213,6 @@
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
 0.0.0.0 gestrauss.shop
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
