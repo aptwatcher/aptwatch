@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-08 12:33:58
-# Entries: 523475
+# Generated: 2026-11-08 18:34:28
+# Entries: 523464
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52196,7 +52196,6 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
-0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -120443,7 +120442,6 @@
 0.0.0.0 avid.ulitron.ru
 0.0.0.0 avidadossantos.com.br
 0.0.0.0 avidalocal.com
-0.0.0.0 avidhosting.uk
 0.0.0.0 avidin.matsuro.ru
 0.0.0.0 avidnewssource.com
 0.0.0.0 avidpauly.com
@@ -137693,7 +137691,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -168633,7 +168630,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -169803,7 +169799,6 @@
 0.0.0.0 cepa.gob.sv
 0.0.0.0 cepa.ulitron.ru
 0.0.0.0 cepam.med.br
-0.0.0.0 cepde.org
 0.0.0.0 cepe.ulitron.ru
 0.0.0.0 cepedirne.com
 0.0.0.0 cepemaikm.ga
@@ -179236,6 +179231,7 @@
 0.0.0.0 cn.rkzmx.com
 0.0.0.0 cn.sekmx.com
 0.0.0.0 cn.sqhuabang.com
+0.0.0.0 cn.unionlever.com
 0.0.0.0 cn.vcbjmx.com
 0.0.0.0 cn.voranfi.ru
 0.0.0.0 cn.wanbo18.pro
@@ -198722,7 +198718,6 @@
 0.0.0.0 dcv.pages.dev
 0.0.0.0 dcv111fbgfds.blogspot.tw
 0.0.0.0 dcvg.square.site
-0.0.0.0 dcwblida.dz
 0.0.0.0 dcwdfwefefef.weebly.com
 0.0.0.0 dcwhosaybbtnwbvp-dot-millinium.ey.r.appspot.com
 0.0.0.0 dcwzr.wqvec.workers.dev
@@ -209171,7 +209166,6 @@
 0.0.0.0 dl.logging.admicro.vn
 0.0.0.0 dl.mod30t.ir
 0.0.0.0 dl.myindustry.ir
-0.0.0.0 dl.natgo.cn
 0.0.0.0 dl.payforme.top
 0.0.0.0 dl.pejmanbarakati.ir
 0.0.0.0 dl.plusmaster.pro
@@ -214646,7 +214640,6 @@
 0.0.0.0 dulich.goasiatravel.com
 0.0.0.0 dulichduchung.vn
 0.0.0.0 dulichthangloi.com
-0.0.0.0 dulivo.vu
 0.0.0.0 dull-brazen-busby.glitch.me
 0.0.0.0 dull-communicate.gq
 0.0.0.0 dull.amaniwa.ru
@@ -221619,7 +221612,6 @@
 0.0.0.0 eliquidexperience.com
 0.0.0.0 elisabethnicole.com
 0.0.0.0 elisabungalov.com
-0.0.0.0 elisans.novayonetim.com
 0.0.0.0 elisashopping.gq
 0.0.0.0 elisasmail.pages.dev
 0.0.0.0 elisemetzger.com
@@ -255209,6 +255201,7 @@
 0.0.0.0 gaemiinilogiz.godaddysites.com
 0.0.0.0 gaeminillogini.webflow.io
 0.0.0.0 gaeminlogii.godaddysites.com
+0.0.0.0 gaenterprises.in
 0.0.0.0 gaer.pages.dev
 0.0.0.0 gaf-company.clean.to
 0.0.0.0 gafaaola.duckdns.org
@@ -287341,7 +287334,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -341981,7 +341973,6 @@
 0.0.0.0 luizavaidepexres.com
 0.0.0.0 luizcosmo.com.br
 0.0.0.0 luizhenrique001.github.io
-0.0.0.0 luizmatoso.com.br
 0.0.0.0 lujboadzkh.jwydtcd.presse.ci
 0.0.0.0 lujnpwn-euler-de7309.netlify.app
 0.0.0.0 lujoleasing.com
@@ -342042,7 +342033,6 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
-0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -373243,7 +373233,6 @@
 0.0.0.0 mortumakaab.ru
 0.0.0.0 mortuzaahmed014.github.io
 0.0.0.0 moru55.com
-0.0.0.0 moruk.xyz
 0.0.0.0 moruqhwdvicx.servieventos.com.ec
 0.0.0.0 morus.dedspac.ru
 0.0.0.0 morus.ulitron.ru
@@ -380965,6 +380954,7 @@
 0.0.0.0 n.systemlog.me
 0.0.0.0 n.targetctracker.com
 0.0.0.0 n.timerto.ru
+0.0.0.0 n.vs108.com
 0.0.0.0 n.yj.fr
 0.0.0.0 n.z7mard.yhfnxn4yif.yyg.44f4bm8jj.tjgs.a7fwx4s.y4sk4f.fs.2ejmf.jjxp.scyrz6q.3k4y.cn2gbzw.epjnheai6.ndsye.6b8scztpm.rbfkhx.de.w.2qkwnw.hmtr.5ntsprmyy.awejw.jphz.iyxw3qjcn.ens3c.pay.paypalcancel.cc
 0.0.0.0 n01d05.cumulus-cloud.com
@@ -444830,7 +444820,6 @@
 0.0.0.0 reauth-process.pages.dev
 0.0.0.0 reauth2fa.duckdns.org
 0.0.0.0 reauthafcusms.web.app
-0.0.0.0 reauthenticator.com
 0.0.0.0 reavescomenow.com
 0.0.0.0 reawwfforestation.info
 0.0.0.0 reaxti9034com.hostfree.pw
@@ -460042,7 +460031,6 @@
 0.0.0.0 sales.expofranchise.com.br
 0.0.0.0 sales.healthrxbd.com
 0.0.0.0 sales.idio.co
-0.0.0.0 sales.ifree.page
 0.0.0.0 sales.pilonce.co.uk
 0.0.0.0 sales.sales.theperfectpocketbook.com
 0.0.0.0 sales.sales.utdllc.com
@@ -473027,6 +473015,7 @@
 0.0.0.0 static.target2sell.com
 0.0.0.0 static.tebrand.asia
 0.0.0.0 static.tebrand.vn
+0.0.0.0 static.topxgun.com
 0.0.0.0 static.track.omguk.com
 0.0.0.0 static.trackedweb.net
 0.0.0.0 static.tracking202.com
@@ -473361,6 +473350,7 @@
 0.0.0.0 stcharlesmotors.com
 0.0.0.0 std.o.webmd.com
 0.0.0.0 std112.github.io
+0.0.0.0 stdown.dinju.com
 0.0.0.0 steacncomnuniry.ru
 0.0.0.0 stead.dedspac.ru
 0.0.0.0 steadfast-seemly-cobalt.glitch.me
@@ -481482,6 +481472,7 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
+0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -484641,7 +484632,6 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
-0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyn.com
@@ -488384,7 +488374,6 @@
 0.0.0.0 utuydnmq.top
 0.0.0.0 uu.domainforlite.com
 0.0.0.0 uu.edu.et
-0.0.0.0 uu.v2raynapps.com.cn
 0.0.0.0 uu1615.com
 0.0.0.0 uudaix10.xn--grena-v11b.vn
 0.0.0.0 uueroruuura-8mr1cub6vv.edgeone.app
@@ -490851,7 +490840,6 @@
 0.0.0.0 viz.dedspac.ru
 0.0.0.0 viz.sandbox.eips.com.au
 0.0.0.0 vizury.com
-0.0.0.0 vizyonuniversitesi.com.tr
 0.0.0.0 vizyonuniversitesi.web.tr
 0.0.0.0 vj.quanjingpay.com
 0.0.0.0 vjidxr.cn
@@ -519753,6 +519741,7 @@
 0.0.0.0 www.zhbirfa.shop
 0.0.0.0 www.zhermopultix-ai-gb.com
 0.0.0.0 www.zhggpqst.shop
+0.0.0.0 www.zhikey.com
 0.0.0.0 www.zhklnpa.shop
 0.0.0.0 www.zhodrumean-fr.online
 0.0.0.0 www.zhokvarit-digital.pages.dev
