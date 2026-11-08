@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-08 06:34:38
-# Entries: 523471
+# Generated: 2026-11-08 12:33:58
+# Entries: 523475
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -179236,7 +179236,6 @@
 0.0.0.0 cn.rkzmx.com
 0.0.0.0 cn.sekmx.com
 0.0.0.0 cn.sqhuabang.com
-0.0.0.0 cn.unionlever.com
 0.0.0.0 cn.vcbjmx.com
 0.0.0.0 cn.voranfi.ru
 0.0.0.0 cn.wanbo18.pro
@@ -194646,6 +194645,7 @@
 0.0.0.0 d-voyager.com
 0.0.0.0 d-zoneid-2696726-request.web.app
 0.0.0.0 d.101m3.com
+0.0.0.0 d.14yaa.com
 0.0.0.0 d.3656240125.top
 0.0.0.0 d.3656240128.xyz
 0.0.0.0 d.365k240125.top
@@ -205271,6 +205271,7 @@
 0.0.0.0 dfghuyjamu.duckdns.org
 0.0.0.0 dfgihjhgfdsdfghjjhdssmfdkjfdnnbveifindndinin.pages.dev
 0.0.0.0 dfgjhklhlfghjnk.weebly.com
+0.0.0.0 dfgjnisdjfgnisjdfng.online
 0.0.0.0 dfgretgg.blogspot.bg
 0.0.0.0 dfgretgg.blogspot.cl
 0.0.0.0 dfgretgg.blogspot.co.id
@@ -209499,7 +209500,6 @@
 0.0.0.0 dmobrirwflwkhzdy-dot-millinium.ey.r.appspot.com
 0.0.0.0 dmocoz.com
 0.0.0.0 dmokvcilmnxhkokrspctmmzbfp-dot-gle39404049.rj.r.appspot.com
-0.0.0.0 dmoneii.com
 0.0.0.0 dmotewlccpss.tk
 0.0.0.0 dmow.advslisboa.com.br
 0.0.0.0 dmp-log.yomedia.vn
@@ -243861,7 +243861,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -246215,6 +246214,7 @@
 0.0.0.0 first1tech.net
 0.0.0.0 firstadfin.co.in
 0.0.0.0 firstali.org.tr
+0.0.0.0 firstalwayshere.com
 0.0.0.0 firstamendmentallianceeducationalfund.com
 0.0.0.0 firstbanktrust1.vmpxsites.com
 0.0.0.0 firstbaptistcares.org
@@ -250347,7 +250347,6 @@
 0.0.0.0 frame-kite.com
 0.0.0.0 frame.amx788.cn
 0.0.0.0 frame.virosat.ru
-0.0.0.0 frame97.com
 0.0.0.0 framebound.cloud
 0.0.0.0 framecapturestudio.com
 0.0.0.0 framecom.pages.dev
@@ -259213,6 +259212,7 @@
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
 0.0.0.0 gestrauss.shop
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -300474,6 +300474,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -304491,7 +304492,6 @@
 0.0.0.0 itchyladybird.build067.wpsandbox.app
 0.0.0.0 itcicloud.cn
 0.0.0.0 itcitymm.com
-0.0.0.0 itco.pe
 0.0.0.0 itcom-cm.net
 0.0.0.0 itcomm.co.id
 0.0.0.0 itcommunication.co.za
@@ -373243,6 +373243,7 @@
 0.0.0.0 mortumakaab.ru
 0.0.0.0 mortuzaahmed014.github.io
 0.0.0.0 moru55.com
+0.0.0.0 moruk.xyz
 0.0.0.0 moruqhwdvicx.servieventos.com.ec
 0.0.0.0 morus.dedspac.ru
 0.0.0.0 morus.ulitron.ru
@@ -380964,7 +380965,6 @@
 0.0.0.0 n.systemlog.me
 0.0.0.0 n.targetctracker.com
 0.0.0.0 n.timerto.ru
-0.0.0.0 n.vs108.com
 0.0.0.0 n.yj.fr
 0.0.0.0 n.z7mard.yhfnxn4yif.yyg.44f4bm8jj.tjgs.a7fwx4s.y4sk4f.fs.2ejmf.jjxp.scyrz6q.3k4y.cn2gbzw.epjnheai6.ndsye.6b8scztpm.rbfkhx.de.w.2qkwnw.hmtr.5ntsprmyy.awejw.jphz.iyxw3qjcn.ens3c.pay.paypalcancel.cc
 0.0.0.0 n01d05.cumulus-cloud.com
@@ -392741,6 +392741,7 @@
 0.0.0.0 npnfwkqwti.duckdns.org
 0.0.0.0 npnjs.com
 0.0.0.0 npnjs.org
+0.0.0.0 npnl34ww.xyz
 0.0.0.0 npnoulggxxezdfeh-dot-millinium.ey.r.appspot.com
 0.0.0.0 npo-tech.ru
 0.0.0.0 npo.nichost.ru
@@ -472955,6 +472956,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -473359,7 +473361,6 @@
 0.0.0.0 stcharlesmotors.com
 0.0.0.0 std.o.webmd.com
 0.0.0.0 std112.github.io
-0.0.0.0 stdown.dinju.com
 0.0.0.0 steacncomnuniry.ru
 0.0.0.0 stead.dedspac.ru
 0.0.0.0 steadfast-seemly-cobalt.glitch.me
@@ -481481,7 +481482,6 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
-0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -485741,6 +485741,7 @@
 0.0.0.0 uni-dex.net
 0.0.0.0 uni-littoral.fr
 0.0.0.0 uni-swap-protocols.pages.dev
+0.0.0.0 uni.site.je
 0.0.0.0 unian-news.info
 0.0.0.0 unibanco.digital
 0.0.0.0 uniccrwap.cc
@@ -486074,6 +486075,7 @@
 0.0.0.0 up.maschinen.ba
 0.0.0.0 up.nytimes.com
 0.0.0.0 upadhyayabhi9173.github.io
+0.0.0.0 upaicdn.xinmei365.com
 0.0.0.0 upalytics.com
 0.0.0.0 upandshare.nocoshop.ru
 0.0.0.0 upandshare.uploadbox.world
@@ -500484,6 +500486,7 @@
 0.0.0.0 www.compitte.com
 0.0.0.0 www.complammin.store
 0.0.0.0 www.completestonemanagement.com
+0.0.0.0 www.complianceportals.com
 0.0.0.0 www.complicou.shop
 0.0.0.0 www.complien.com
 0.0.0.0 www.complimentaryd-ata.com
@@ -505384,6 +505387,7 @@
 0.0.0.0 www.greynomadsontheroad.com
 0.0.0.0 www.greyqioor9z1.fit
 0.0.0.0 www.greystoneswiftronsystem-com.pages.dev
+0.0.0.0 www.grg1n.com
 0.0.0.0 www.grgrlolozoom.shop
 0.0.0.0 www.gridglass32.co
 0.0.0.0 www.griege-baguette.shop
