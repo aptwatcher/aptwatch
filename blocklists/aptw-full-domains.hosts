@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-09 12:34:09
-# Entries: 523461
+# Generated: 2026-11-09 18:33:49
+# Entries: 523462
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -88165,6 +88165,7 @@
 0.0.0.0 api-cloudfix.pages.dev
 0.0.0.0 api-coinbase-auth.webflow.io
 0.0.0.0 api-connects.pages.dev
+0.0.0.0 api-dns.org
 0.0.0.0 api-docs.sepa-00980-force-drop.oa.r.appspot.com
 0.0.0.0 api-eu.targetx.com
 0.0.0.0 api-ext.bixbitemarketing.com
@@ -137690,6 +137691,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -169799,6 +169801,7 @@
 0.0.0.0 cepa.gob.sv
 0.0.0.0 cepa.ulitron.ru
 0.0.0.0 cepam.med.br
+0.0.0.0 cepde.org
 0.0.0.0 cepe.ulitron.ru
 0.0.0.0 cepedirne.com
 0.0.0.0 cepemaikm.ga
@@ -179231,7 +179234,6 @@
 0.0.0.0 cn.rkzmx.com
 0.0.0.0 cn.sekmx.com
 0.0.0.0 cn.sqhuabang.com
-0.0.0.0 cn.unionlever.com
 0.0.0.0 cn.vcbjmx.com
 0.0.0.0 cn.voranfi.ru
 0.0.0.0 cn.wanbo18.pro
@@ -211649,6 +211651,7 @@
 0.0.0.0 donum.ulitron.ru
 0.0.0.0 donut.dedspac.ru
 0.0.0.0 donutecocolate.com
+0.0.0.0 donutsmpclient.net
 0.0.0.0 donval.112.2o7.net
 0.0.0.0 donweeseinc.com
 0.0.0.0 donyaiajor.com
@@ -212188,6 +212191,7 @@
 0.0.0.0 download.sada-group.com
 0.0.0.0 download.securetnet.com
 0.0.0.0 download.televisionfanatic.com
+0.0.0.0 download.tg1101.com
 0.0.0.0 download.tiktok906.com
 0.0.0.0 download.tiktoks971.com
 0.0.0.0 download.tkk-mall.icu
@@ -319900,6 +319904,7 @@
 0.0.0.0 kingford.net
 0.0.0.0 kingfree247.onmypc.net
 0.0.0.0 kingfxlab23.wixstudio.io
+0.0.0.0 kingheavytransport.hu
 0.0.0.0 kinghk.000webhostapp.com
 0.0.0.0 kinghornsystems.com
 0.0.0.0 kingik.com
@@ -332230,6 +332235,7 @@
 0.0.0.0 lier.dedspac.ru
 0.0.0.0 lier.ulitron.ru
 0.0.0.0 liers.dedspac.ru
+0.0.0.0 liesetaler.de
 0.0.0.0 liessk.spectrattacksz.cf
 0.0.0.0 lieu.boletuso.ru
 0.0.0.0 lieu.ulitron.ru
@@ -366165,7 +366171,6 @@
 0.0.0.0 mhfiytqescjcybqh-dot-millinium.ey.r.appspot.com
 0.0.0.0 mhfmn.blogspot.sn
 0.0.0.0 mhfrshkmnt.net
-0.0.0.0 mhftee.my.id
 0.0.0.0 mhftjg.blogspot.fi
 0.0.0.0 mhgartjt.sovereignty2020.com
 0.0.0.0 mhgdq.blogspot.md
@@ -399950,6 +399955,7 @@
 0.0.0.0 oneyog.com
 0.0.0.0 onezamueac.com
 0.0.0.0 onf6sb82y.duckdns.org
+0.0.0.0 onfiltre.com.tr
 0.0.0.0 onfire11.mbamep.com
 0.0.0.0 onflix.us
 0.0.0.0 onfluencer.net
@@ -410528,7 +410534,6 @@
 0.0.0.0 pay.155blog.xyz
 0.0.0.0 pay.amazon.eu.usr-review.live
 0.0.0.0 pay.amazon.secure.checkouts.top
-0.0.0.0 pay.aqiu6.com
 0.0.0.0 pay.autenticacaosrs.fun
 0.0.0.0 pay.bharatvle.org
 0.0.0.0 pay.boletuso.ru
@@ -427474,7 +427479,6 @@
 0.0.0.0 project2c-f307c.firebaseapp.com
 0.0.0.0 project2e-64ba9.firebaseapp.com
 0.0.0.0 project2portable12.pages.dev
-0.0.0.0 project360.hr
 0.0.0.0 project3781608.tilda.ws
 0.0.0.0 project3b-1920f.web.app
 0.0.0.0 project3e-a21a9.firebaseapp.com
@@ -473011,7 +473015,6 @@
 0.0.0.0 static.target2sell.com
 0.0.0.0 static.tebrand.asia
 0.0.0.0 static.tebrand.vn
-0.0.0.0 static.topxgun.com
 0.0.0.0 static.track.omguk.com
 0.0.0.0 static.trackedweb.net
 0.0.0.0 static.tracking202.com
@@ -494559,7 +494562,6 @@
 0.0.0.0 wicksl.ru
 0.0.0.0 wickup.wowagis.ru
 0.0.0.0 wicreset.online
-0.0.0.0 wicresetconnect.com
 0.0.0.0 wid.ulitron.ru
 0.0.0.0 widaxl.pl
 0.0.0.0 wide-dinner-shrilling.on-fleek.app
@@ -504983,7 +504985,6 @@
 0.0.0.0 www.gerwaldkronberg.net
 0.0.0.0 www.gestioryct.store
 0.0.0.0 www.gestrauss.shop
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.gesuarivac.store
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
