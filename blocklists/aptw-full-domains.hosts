@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-09 06:34:38
-# Entries: 523448
+# Generated: 2026-11-09 12:34:09
+# Entries: 523461
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -85679,6 +85679,7 @@
 0.0.0.0 anubhavbhardwaj2004-sketch.github.io
 0.0.0.0 anubhutitewari.github.io
 0.0.0.0 anubis.matsuro.ru
+0.0.0.0 anubisclient.net
 0.0.0.0 anuevadelpa.com
 0.0.0.0 anugerahbestari.com
 0.0.0.0 anugerahmakmur.com
@@ -137689,7 +137690,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -149449,6 +149449,7 @@
 0.0.0.0 bnet.dinevenice.com
 0.0.0.0 bnet.donnaleejones.com
 0.0.0.0 bnet.growitgirlfriendsociety.com
+0.0.0.0 bnet.playm8ru.win
 0.0.0.0 bnet.sellstatemillenniumrealty.com
 0.0.0.0 bnet.unveilinghealth.me
 0.0.0.0 bneviugerl.wixsite.com
@@ -171248,6 +171249,7 @@
 0.0.0.0 chant.ulitron.ru
 0.0.0.0 chant.virosat.ru
 0.0.0.0 chant66.com
+0.0.0.0 chant98.com
 0.0.0.0 chantalb.creer.ai
 0.0.0.0 chantale.e-monsite.com
 0.0.0.0 chantavedissian.com
@@ -201314,6 +201316,7 @@
 0.0.0.0 deltanermo.site
 0.0.0.0 deltanzio-pro-760.com
 0.0.0.0 deltaorbitplateau.top
+0.0.0.0 deltaoutline8.com
 0.0.0.0 deltarviews.bond
 0.0.0.0 deltas45.ru
 0.0.0.0 deltathreads.com
@@ -208141,6 +208144,7 @@
 0.0.0.0 discordu.gift
 0.0.0.0 discordverify.pages.dev
 0.0.0.0 discordwithlocalstorage.netlify.app
+0.0.0.0 discordzapret.site
 0.0.0.0 discordzh.com
 0.0.0.0 discoriado.store
 0.0.0.0 discorl.com
@@ -276070,6 +276074,7 @@
 0.0.0.0 happylegssa.com
 0.0.0.0 happylizard.build067.wpsandbox.app
 0.0.0.0 happymoja.icu
+0.0.0.0 happynewyearhehe.com
 0.0.0.0 happypocket.com.co
 0.0.0.0 happypur.com
 0.0.0.0 happyreptiles.eu
@@ -300464,6 +300469,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -304480,6 +304486,7 @@
 0.0.0.0 itchyladybird.build067.wpsandbox.app
 0.0.0.0 itcicloud.cn
 0.0.0.0 itcitymm.com
+0.0.0.0 itco.pe
 0.0.0.0 itcom-cm.net
 0.0.0.0 itcomm.co.id
 0.0.0.0 itcommunication.co.za
@@ -307299,7 +307306,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -308190,6 +308196,7 @@
 0.0.0.0 jenniferfuller.com
 0.0.0.0 jennifergentile.com
 0.0.0.0 jenniferheuer.org
+0.0.0.0 jenniferloeffler.com
 0.0.0.0 jennifermacarthurrealty.com
 0.0.0.0 jenningsandmeser.net
 0.0.0.0 jennipricephotography.com
@@ -397969,6 +397976,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -436366,6 +436374,7 @@
 0.0.0.0 public.3.basecamp.com
 0.0.0.0 public.adgger.jp
 0.0.0.0 public.astrsk.net
+0.0.0.0 public.demo.securecloudsandbox.com
 0.0.0.0 public.fam-8.com
 0.0.0.0 public.gensparkspace.com
 0.0.0.0 public.nemachilus.xyz
@@ -438125,6 +438134,7 @@
 0.0.0.0 qbavpocsksuwckwq-dot-millinium.ey.r.appspot.com
 0.0.0.0 qbbbqsxijkaullwj-dot-millinium.ey.r.appspot.com
 0.0.0.0 qbco4.sa.com
+0.0.0.0 qbd.fillall.life
 0.0.0.0 qbdfx.blogspot.li
 0.0.0.0 qbe0932-v31312bv-32bv32v-v3312v.poiuytr.dyndns.dk
 0.0.0.0 qbeeyyikjq.gdkc9q.cn
@@ -469476,7 +469486,6 @@
 0.0.0.0 soft-side-946015.framer.app
 0.0.0.0 soft-storage.com
 0.0.0.0 soft-toddler.shop
-0.0.0.0 soft.110route.com
 0.0.0.0 soft.dedspac.ru
 0.0.0.0 soft.softchecker.org
 0.0.0.0 soft.timanar.ru
@@ -473002,6 +473011,7 @@
 0.0.0.0 static.target2sell.com
 0.0.0.0 static.tebrand.asia
 0.0.0.0 static.tebrand.vn
+0.0.0.0 static.topxgun.com
 0.0.0.0 static.track.omguk.com
 0.0.0.0 static.trackedweb.net
 0.0.0.0 static.tracking202.com
@@ -476575,6 +476585,7 @@
 0.0.0.0 t-suite.dapps-web3.com
 0.0.0.0 t-suite.web3cons.com
 0.0.0.0 t-support.net
+0.0.0.0 t-trustresnew.com
 0.0.0.0 t-ttrezor.webflow.io
 0.0.0.0 t.7087081.xyz
 0.0.0.0 t.82comb.net
@@ -494548,6 +494559,7 @@
 0.0.0.0 wicksl.ru
 0.0.0.0 wickup.wowagis.ru
 0.0.0.0 wicreset.online
+0.0.0.0 wicresetconnect.com
 0.0.0.0 wid.ulitron.ru
 0.0.0.0 widaxl.pl
 0.0.0.0 wide-dinner-shrilling.on-fleek.app
@@ -504971,6 +504983,7 @@
 0.0.0.0 www.gerwaldkronberg.net
 0.0.0.0 www.gestioryct.store
 0.0.0.0 www.gestrauss.shop
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.gesuarivac.store
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
