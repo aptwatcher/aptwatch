@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-08 18:34:28
-# Entries: 523464
+# Generated: 2026-11-09 00:33:37
+# Entries: 523447
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -9181,7 +9181,6 @@
 0.0.0.0 171645068.retarus.ru
 0.0.0.0 1716451753.retarus.ru
 0.0.0.0 1716834139.corolain.ru
-0.0.0.0 1717.1000uc.com
 0.0.0.0 1717135148.corolain.ru
 0.0.0.0 1717657867.corolain.ru
 0.0.0.0 1717802833.corolain.ru
@@ -47568,7 +47567,6 @@
 0.0.0.0 acc.gugeyxiang.top
 0.0.0.0 acc.inkneldi.co
 0.0.0.0 acc.jiangsujiaxue.com
-0.0.0.0 acc.munber.life
 0.0.0.0 acc.ount-ref08.com
 0.0.0.0 acc.poi.reskap.45-134-173-72.cprapid.com
 0.0.0.0 acc.poste.lt.35-180-127-233.cprapid.com
@@ -61385,7 +61383,6 @@
 0.0.0.0 aeghadirbitfaja.blogspot.com
 0.0.0.0 aeghadirbitfaja.blogspot.sn
 0.0.0.0 aegialiteso.ru
-0.0.0.0 aegic.top
 0.0.0.0 aegina.virosat.ru
 0.0.0.0 aegir.ulitron.ru
 0.0.0.0 aegirine.bluestacko.ru
@@ -120442,6 +120439,7 @@
 0.0.0.0 avid.ulitron.ru
 0.0.0.0 avidadossantos.com.br
 0.0.0.0 avidalocal.com
+0.0.0.0 avidhosting.uk
 0.0.0.0 avidin.matsuro.ru
 0.0.0.0 avidnewssource.com
 0.0.0.0 avidpauly.com
@@ -137691,6 +137689,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -149450,7 +149449,6 @@
 0.0.0.0 bnet.dinevenice.com
 0.0.0.0 bnet.donnaleejones.com
 0.0.0.0 bnet.growitgirlfriendsociety.com
-0.0.0.0 bnet.playm8ru.win
 0.0.0.0 bnet.sellstatemillenniumrealty.com
 0.0.0.0 bnet.unveilinghealth.me
 0.0.0.0 bneviugerl.wixsite.com
@@ -163660,7 +163658,6 @@
 0.0.0.0 caixasuppes-sup.com
 0.0.0.0 caixma-a7fd59.ingress-daribow.ewp.live
 0.0.0.0 caizenbdc.com
-0.0.0.0 caizom.eu.cc
 0.0.0.0 caj69dc2rmv3sr2osl5l.cybertruck.eu.com
 0.0.0.0 cajaahorroo.sbs
 0.0.0.0 cajaarequipaseguridadbank.netlify.app
@@ -168067,6 +168064,7 @@
 0.0.0.0 cctv4.pages.dev
 0.0.0.0 cctvdelnorte.com.mx
 0.0.0.0 cctvv.pythonanywhere.com
+0.0.0.0 ccu.to
 0.0.0.0 ccudl.com
 0.0.0.0 ccugkfg.shop
 0.0.0.0 ccuugnwhxbhyhgev-dot-millinium.ey.r.appspot.com
@@ -168630,6 +168628,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -171249,7 +171248,6 @@
 0.0.0.0 chant.ulitron.ru
 0.0.0.0 chant.virosat.ru
 0.0.0.0 chant66.com
-0.0.0.0 chant98.com
 0.0.0.0 chantalb.creer.ai
 0.0.0.0 chantale.e-monsite.com
 0.0.0.0 chantavedissian.com
@@ -184638,6 +184636,7 @@
 0.0.0.0 complianceguidelinesbrandvault.vercel.app
 0.0.0.0 complianceguidelinesconversioninsight.vercel.app
 0.0.0.0 compliancemediaamplify.vercel.app
+0.0.0.0 complianceportals.com
 0.0.0.0 compliancetraining360.com
 0.0.0.0 complianceviolationcontentblast.vercel.app
 0.0.0.0 complianceviolationconversionx.vercel.app
@@ -190841,7 +190840,6 @@
 0.0.0.0 crhawthorne1656763.weeblysite.com
 0.0.0.0 crhawthorne888.weeblysite.com
 0.0.0.0 crhgjaoxxkuoaonm-dot-millinium.ey.r.appspot.com
-0.0.0.0 crhhmd.top
 0.0.0.0 crhunters.shop
 0.0.0.0 crhxmgddymvglhdf-dot-millinium.ey.r.appspot.com
 0.0.0.0 crhxubspkbdgqzco-dot-millinium.ey.r.appspot.com
@@ -198094,7 +198092,6 @@
 0.0.0.0 dax-match.dotomi.com
 0.0.0.0 dax-meta.pages.dev
 0.0.0.0 daxelao.com
-0.0.0.0 daxogon.top
 0.0.0.0 daxspnjwur.duckdns.org
 0.0.0.0 daxugukixirujin.weebly.com
 0.0.0.0 day-telegarm.com
@@ -207317,7 +207314,6 @@
 0.0.0.0 dimokilu32.blogspot.co.ke
 0.0.0.0 dimokilu32.blogspot.com.es
 0.0.0.0 dimokilu32.blogspot.md
-0.0.0.0 dimonpert.com
 0.0.0.0 dimopouloslawfirm-1318439371.cos.ap-tokyo.myqcloud.com
 0.0.0.0 dimoradellapizzuta.it
 0.0.0.0 dimosaps.com
@@ -209166,6 +209162,7 @@
 0.0.0.0 dl.logging.admicro.vn
 0.0.0.0 dl.mod30t.ir
 0.0.0.0 dl.myindustry.ir
+0.0.0.0 dl.natgo.cn
 0.0.0.0 dl.payforme.top
 0.0.0.0 dl.pejmanbarakati.ir
 0.0.0.0 dl.plusmaster.pro
@@ -210845,6 +210842,7 @@
 0.0.0.0 docusognauth.azurewebsites.net
 0.0.0.0 docutickverify.tk
 0.0.0.0 docuvault.cc
+0.0.0.0 docuviewse.com
 0.0.0.0 docuware.duckdns.org
 0.0.0.0 docview.cloud
 0.0.0.0 docx-psjaisd-us.gq
@@ -211645,7 +211643,6 @@
 0.0.0.0 donum.ulitron.ru
 0.0.0.0 donut.dedspac.ru
 0.0.0.0 donutecocolate.com
-0.0.0.0 donutsmplarp.com
 0.0.0.0 donval.112.2o7.net
 0.0.0.0 donweeseinc.com
 0.0.0.0 donyaiajor.com
@@ -212094,7 +212091,6 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
-0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.stellarcedar.live
@@ -221612,6 +221608,7 @@
 0.0.0.0 eliquidexperience.com
 0.0.0.0 elisabethnicole.com
 0.0.0.0 elisabungalov.com
+0.0.0.0 elisans.novayonetim.com
 0.0.0.0 elisashopping.gq
 0.0.0.0 elisasmail.pages.dev
 0.0.0.0 elisemetzger.com
@@ -240532,7 +240529,6 @@
 0.0.0.0 fc.itmedia.co.jp
 0.0.0.0 fc.webmasterpro.de
 0.0.0.0 fc.yahoo.com.securemailbox.ga
-0.0.0.0 fc.yuo123.cc
 0.0.0.0 fc01f217-610d-4716-8a7a-4ffd1b43a584-00-31uay48podqep.kirk.replit.dev
 0.0.0.0 fc03bd7d-022c-4289-8df5-b59481c5af3e.usrfiles.com
 0.0.0.0 fc07efc07e.sheetalwatercooler.com
@@ -243853,6 +243849,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -250339,6 +250336,7 @@
 0.0.0.0 frame-kite.com
 0.0.0.0 frame.amx788.cn
 0.0.0.0 frame.virosat.ru
+0.0.0.0 frame97.com
 0.0.0.0 framebound.cloud
 0.0.0.0 framecapturestudio.com
 0.0.0.0 framecom.pages.dev
@@ -255201,7 +255199,6 @@
 0.0.0.0 gaemiinilogiz.godaddysites.com
 0.0.0.0 gaeminillogini.webflow.io
 0.0.0.0 gaeminlogii.godaddysites.com
-0.0.0.0 gaenterprises.in
 0.0.0.0 gaer.pages.dev
 0.0.0.0 gaf-company.clean.to
 0.0.0.0 gafaaola.duckdns.org
@@ -258784,6 +258781,7 @@
 0.0.0.0 geny83h92.atwebpages.com
 0.0.0.0 genys.dedspac.ru
 0.0.0.0 genys.virosat.ru
+0.0.0.0 geo-foundation.vg
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 geo.adobe.com
@@ -275848,7 +275846,6 @@
 0.0.0.0 handsomely-quixotic-language.glitch.me
 0.0.0.0 handsonbeautysalon.co.uk
 0.0.0.0 handsonintl.org
-0.0.0.0 handsorneindo.com
 0.0.0.0 handstddandspreinterview.info
 0.0.0.0 handwritingcompany.com
 0.0.0.0 handy-abalone-timbale.glitch.me
@@ -289702,7 +289699,6 @@
 0.0.0.0 i-swiss-post-1.blogspot.com
 0.0.0.0 i-tapravoceons.xyz
 0.0.0.0 i-tau-atendimento.online
-0.0.0.0 i-ticket-az.site
 0.0.0.0 i-to.cc
 0.0.0.0 i-trustcapitaloginus.webflow.io
 0.0.0.0 i-wydarzenia24.eu
@@ -293304,6 +293300,7 @@
 0.0.0.0 ikosnnjds.com
 0.0.0.0 ikosnopas.com
 0.0.0.0 ikosnpouas.com
+0.0.0.0 ikovrsps.com
 0.0.0.0 ikprinters.com
 0.0.0.0 ikqkpqycczzwctrf-dot-millinium.ey.r.appspot.com
 0.0.0.0 ikra.amaniwa.ru
@@ -293643,7 +293640,6 @@
 0.0.0.0 im-hk.fotitu.com
 0.0.0.0 im-imtoken.org
 0.0.0.0 im-ken.top
-0.0.0.0 im-quirky.com
 0.0.0.0 im-riteshrajput.github.io
 0.0.0.0 im-t0keni.info
 0.0.0.0 im-t0keny.info
@@ -303230,7 +303226,6 @@
 0.0.0.0 irlfyhgxruwolhcy-dot-millinium.ey.r.appspot.com
 0.0.0.0 irlivesupport.vercel.app
 0.0.0.0 irm-facebook-2221117818.maak.org.mk
-0.0.0.0 irm.st
 0.0.0.0 irma.amaniwa.ru
 0.0.0.0 irma.boletuso.ru
 0.0.0.0 irmaclothing.com
@@ -304484,6 +304479,7 @@
 0.0.0.0 itchyladybird.build067.wpsandbox.app
 0.0.0.0 itcicloud.cn
 0.0.0.0 itcitymm.com
+0.0.0.0 itco.pe
 0.0.0.0 itcom-cm.net
 0.0.0.0 itcomm.co.id
 0.0.0.0 itcommunication.co.za
@@ -317933,7 +317929,6 @@
 0.0.0.0 kcenterprisesassam.com
 0.0.0.0 kcfgvu67.pages.dev
 0.0.0.0 kcfletopmtmfsjdl-dot-millinium.ey.r.appspot.com
-0.0.0.0 kcfmfk.ltd
 0.0.0.0 kcfxt.top
 0.0.0.0 kcgetaltyqmwjyjjqvvpbeckjy-dot-gloff849483.uk.r.appspot.com
 0.0.0.0 kcgpvyuu.ytyukai.cn
@@ -341162,7 +341157,6 @@
 0.0.0.0 lslg-casefb572128.vercel.app
 0.0.0.0 lslogiholimnc.atwebpages.com
 0.0.0.0 lslskdmfnffnheudjf.weebly.com
-0.0.0.0 lsmdngnakjbgazxv.com
 0.0.0.0 lsmenwvdfdeyduf.weebly.com
 0.0.0.0 lsmoj.com.ng
 0.0.0.0 lsmtbaqvnqazawfr-dot-millinium.ey.r.appspot.com
@@ -341973,6 +341967,7 @@
 0.0.0.0 luizavaidepexres.com
 0.0.0.0 luizcosmo.com.br
 0.0.0.0 luizhenrique001.github.io
+0.0.0.0 luizmatoso.com.br
 0.0.0.0 lujboadzkh.jwydtcd.presse.ci
 0.0.0.0 lujnpwn-euler-de7309.netlify.app
 0.0.0.0 lujoleasing.com
@@ -351486,7 +351481,6 @@
 0.0.0.0 makemathfun.us
 0.0.0.0 makemeheal.us.intellitxt.com
 0.0.0.0 makemelogs.ga
-0.0.0.0 makemewin.club
 0.0.0.0 makemeyourradio.com
 0.0.0.0 makemillion.website.ytwwrntym.com
 0.0.0.0 makemillions.pw.ytwwrntym.com
@@ -395342,7 +395336,6 @@
 0.0.0.0 obnubilaeetion.info
 0.0.0.0 obo.moatads.com
 0.0.0.0 oboe.dedspac.ru
-0.0.0.0 obohands.com
 0.0.0.0 obol.boletuso.ru
 0.0.0.0 obol.dedspac.ru
 0.0.0.0 obole.ulitron.ru
@@ -409026,7 +409019,6 @@
 0.0.0.0 parallel-rustic-caboc.glitch.me
 0.0.0.0 parallel-sustaining-limit.glitch.me
 0.0.0.0 parallel5846.github.io
-0.0.0.0 parallelchain-labs.com
 0.0.0.0 param.lionmobi.com
 0.0.0.0 param1233.github.io
 0.0.0.0 paramaiores.tk
@@ -419087,8 +419079,6 @@
 0.0.0.0 plugdistant.com
 0.0.0.0 plugging0099.000webhostapp.com
 0.0.0.0 pluggy53.servehttp.com
-0.0.0.0 plugin-dex.cc
-0.0.0.0 plugin-dex.forum
 0.0.0.0 plugin.mediavoice.com
 0.0.0.0 plugingeorgia.com
 0.0.0.0 plugins.blueconic.net
@@ -427479,6 +427469,7 @@
 0.0.0.0 project2c-f307c.firebaseapp.com
 0.0.0.0 project2e-64ba9.firebaseapp.com
 0.0.0.0 project2portable12.pages.dev
+0.0.0.0 project360.hr
 0.0.0.0 project3781608.tilda.ws
 0.0.0.0 project3b-1920f.web.app
 0.0.0.0 project3e-a21a9.firebaseapp.com
@@ -436725,6 +436716,7 @@
 0.0.0.0 pump-one.com
 0.0.0.0 pump.jamessnewteam.world
 0.0.0.0 pumpace.com
+0.0.0.0 pumpadmin.fun
 0.0.0.0 pumpbuildefy.pages.dev
 0.0.0.0 pumped-billowy-velvet.glitch.me
 0.0.0.0 pumped-cream-cobalt.glitch.me
@@ -437150,7 +437142,6 @@
 0.0.0.0 purulenta.ru
 0.0.0.0 purusoze.weebly.com
 0.0.0.0 purva-gandhi.github.io
-0.0.0.0 purxiy.org
 0.0.0.0 pus.akragames.net
 0.0.0.0 pus.dedspac.ru
 0.0.0.0 pus.ulitron.ru
@@ -451095,7 +451086,6 @@
 0.0.0.0 rhea.ulitron.ru
 0.0.0.0 rheas.dedspac.ru
 0.0.0.0 rheas.virosat.ru
-0.0.0.0 rheddh.com
 0.0.0.0 rheem.cl
 0.0.0.0 rhegjzdyknhbqfvxfjxudwssli-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 rheiath-hyiouks-mcdoedly.yolasite.com
@@ -460031,6 +460021,7 @@
 0.0.0.0 sales.expofranchise.com.br
 0.0.0.0 sales.healthrxbd.com
 0.0.0.0 sales.idio.co
+0.0.0.0 sales.ifree.page
 0.0.0.0 sales.pilonce.co.uk
 0.0.0.0 sales.sales.theperfectpocketbook.com
 0.0.0.0 sales.sales.utdllc.com
@@ -465109,7 +465100,6 @@
 0.0.0.0 seo.mediaz.vn
 0.0.0.0 seobionic.info
 0.0.0.0 seoholding.com
-0.0.0.0 seohumanoid.com
 0.0.0.0 seomaniya.com
 0.0.0.0 seonetwizard.com
 0.0.0.0 seosoftware.onlinedownloads.org
@@ -473015,7 +473005,6 @@
 0.0.0.0 static.target2sell.com
 0.0.0.0 static.tebrand.asia
 0.0.0.0 static.tebrand.vn
-0.0.0.0 static.topxgun.com
 0.0.0.0 static.track.omguk.com
 0.0.0.0 static.trackedweb.net
 0.0.0.0 static.tracking202.com
@@ -473038,7 +473027,6 @@
 0.0.0.0 static.yieldmo.com
 0.0.0.0 static.yomedia.vn
 0.0.0.0 static.youappi.com
-0.0.0.0 static.youdm.cn
 0.0.0.0 static.youmi.net
 0.0.0.0 static.younetmedia.com
 0.0.0.0 static.zanox.com
@@ -475571,7 +475559,6 @@
 0.0.0.0 support.autopay-update.telstra.sellergyllc.com
 0.0.0.0 support.business.privacy-center.help
 0.0.0.0 support.clz.kr
-0.0.0.0 support.connectuser.store
 0.0.0.0 support.decursio.online
 0.0.0.0 support.flodman.ru
 0.0.0.0 support.gta-link.com
@@ -481104,7 +481091,6 @@
 0.0.0.0 tools.dedspac.ru
 0.0.0.0 tools.gikotena.net
 0.0.0.0 tools.hitbox.com
-0.0.0.0 tools.lumma.cy
 0.0.0.0 tools.naughtyamerica.com
 0.0.0.0 tools.pacinocash.com
 0.0.0.0 tools.ranker.com
@@ -481472,7 +481458,6 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
-0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -494561,7 +494546,6 @@
 0.0.0.0 wicksl.ru
 0.0.0.0 wickup.wowagis.ru
 0.0.0.0 wicreset.online
-0.0.0.0 wicresetconnect.com
 0.0.0.0 wid.ulitron.ru
 0.0.0.0 widaxl.pl
 0.0.0.0 wide-dinner-shrilling.on-fleek.app
@@ -504960,7 +504944,6 @@
 0.0.0.0 www.generaldocs.com
 0.0.0.0 www.generalio.site
 0.0.0.0 www.generatffional.info
-0.0.0.0 www.generationalwealthtraders.com
 0.0.0.0 www.generatorkodow.hpu.pl
 0.0.0.0 www.genforumgenealogy.com
 0.0.0.0 www.genlixpo.com
@@ -520561,7 +520544,6 @@
 0.0.0.0 xenical.4.p2l.info
 0.0.0.0 xenkrupom-digital.pages.dev
 0.0.0.0 xenkrupomia-click.pages.dev
-0.0.0.0 xeno.baby
 0.0.0.0 xenodochial-liskov.34-125-197-109.plesk.page
 0.0.0.0 xenon.studio
 0.0.0.0 xenonclient.com
@@ -520989,6 +520971,7 @@
 0.0.0.0 xshakkd-xuia.kpnx.mom
 0.0.0.0 xshop.com.tr
 0.0.0.0 xskcjzamlkxwo.gq
+0.0.0.0 xskx.artemida.live
 0.0.0.0 xsltweemat.org
 0.0.0.0 xsnsmsnsnscmc.weebly.com
 0.0.0.0 xso.to
