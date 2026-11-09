@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-09 00:33:37
-# Entries: 523447
+# Generated: 2026-11-09 06:05:22
+# Entries: 523450
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -9181,6 +9181,7 @@
 0.0.0.0 171645068.retarus.ru
 0.0.0.0 1716451753.retarus.ru
 0.0.0.0 1716834139.corolain.ru
+0.0.0.0 1717.1000uc.com
 0.0.0.0 1717135148.corolain.ru
 0.0.0.0 1717657867.corolain.ru
 0.0.0.0 1717802833.corolain.ru
@@ -33326,7 +33327,6 @@
 0.0.0.0 6server.com
 0.0.0.0 6sgts7fgxkbh2oqdlzcqf2l.liusanjie.cc
 0.0.0.0 6sibd.ktt55.my.id
-0.0.0.0 6sim.vip
 0.0.0.0 6sjqd.hp.peraichi.com
 0.0.0.0 6sjx6vz6uaznkb.qwo231sdx.club
 0.0.0.0 6sk5s.school
@@ -168628,7 +168628,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -169798,6 +169797,7 @@
 0.0.0.0 cepa.gob.sv
 0.0.0.0 cepa.ulitron.ru
 0.0.0.0 cepam.med.br
+0.0.0.0 cepde.org
 0.0.0.0 cepe.ulitron.ru
 0.0.0.0 cepedirne.com
 0.0.0.0 cepemaikm.ga
@@ -198715,6 +198715,7 @@
 0.0.0.0 dcv.pages.dev
 0.0.0.0 dcv111fbgfds.blogspot.tw
 0.0.0.0 dcvg.square.site
+0.0.0.0 dcwblida.dz
 0.0.0.0 dcwdfwefefef.weebly.com
 0.0.0.0 dcwhosaybbtnwbvp-dot-millinium.ey.r.appspot.com
 0.0.0.0 dcwzr.wqvec.workers.dev
@@ -209491,6 +209492,7 @@
 0.0.0.0 dmobrirwflwkhzdy-dot-millinium.ey.r.appspot.com
 0.0.0.0 dmocoz.com
 0.0.0.0 dmokvcilmnxhkokrspctmmzbfp-dot-gle39404049.rj.r.appspot.com
+0.0.0.0 dmoneii.com
 0.0.0.0 dmotewlccpss.tk
 0.0.0.0 dmow.advslisboa.com.br
 0.0.0.0 dmp-log.yomedia.vn
@@ -212182,7 +212184,6 @@
 0.0.0.0 download.sada-group.com
 0.0.0.0 download.securetnet.com
 0.0.0.0 download.televisionfanatic.com
-0.0.0.0 download.tg1101.com
 0.0.0.0 download.tiktok906.com
 0.0.0.0 download.tiktoks971.com
 0.0.0.0 download.tkk-mall.icu
@@ -214636,6 +214637,7 @@
 0.0.0.0 dulich.goasiatravel.com
 0.0.0.0 dulichduchung.vn
 0.0.0.0 dulichthangloi.com
+0.0.0.0 dulivo.vu
 0.0.0.0 dull-brazen-busby.glitch.me
 0.0.0.0 dull-communicate.gq
 0.0.0.0 dull.amaniwa.ru
@@ -255199,6 +255201,7 @@
 0.0.0.0 gaemiinilogiz.godaddysites.com
 0.0.0.0 gaeminillogini.webflow.io
 0.0.0.0 gaeminlogii.godaddysites.com
+0.0.0.0 gaenterprises.in
 0.0.0.0 gaer.pages.dev
 0.0.0.0 gaf-company.clean.to
 0.0.0.0 gafaaola.duckdns.org
@@ -258781,7 +258784,6 @@
 0.0.0.0 geny83h92.atwebpages.com
 0.0.0.0 genys.dedspac.ru
 0.0.0.0 genys.virosat.ru
-0.0.0.0 geo-foundation.vg
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 geo.adobe.com
@@ -283728,6 +283730,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -287331,6 +287334,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -300462,7 +300466,6 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
-0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -304479,7 +304482,6 @@
 0.0.0.0 itchyladybird.build067.wpsandbox.app
 0.0.0.0 itcicloud.cn
 0.0.0.0 itcitymm.com
-0.0.0.0 itco.pe
 0.0.0.0 itcom-cm.net
 0.0.0.0 itcomm.co.id
 0.0.0.0 itcommunication.co.za
@@ -308190,7 +308192,6 @@
 0.0.0.0 jenniferfuller.com
 0.0.0.0 jennifergentile.com
 0.0.0.0 jenniferheuer.org
-0.0.0.0 jenniferloeffler.com
 0.0.0.0 jennifermacarthurrealty.com
 0.0.0.0 jenningsandmeser.net
 0.0.0.0 jennipricephotography.com
@@ -315090,7 +315091,6 @@
 0.0.0.0 julyneeds.com
 0.0.0.0 jum7590-o.weebly.com
 0.0.0.0 jumabijuterias.com.br
-0.0.0.0 jumalputty.com
 0.0.0.0 jumangserspk.com
 0.0.0.0 jumanji222.xyz
 0.0.0.0 jumba.virosat.ru
@@ -351481,6 +351481,7 @@
 0.0.0.0 makemathfun.us
 0.0.0.0 makemeheal.us.intellitxt.com
 0.0.0.0 makemelogs.ga
+0.0.0.0 makemewin.club
 0.0.0.0 makemeyourradio.com
 0.0.0.0 makemillion.website.ytwwrntym.com
 0.0.0.0 makemillions.pw.ytwwrntym.com
@@ -399943,7 +399944,6 @@
 0.0.0.0 oneyog.com
 0.0.0.0 onezamueac.com
 0.0.0.0 onf6sb82y.duckdns.org
-0.0.0.0 onfiltre.com.tr
 0.0.0.0 onfire11.mbamep.com
 0.0.0.0 onflix.us
 0.0.0.0 onfluencer.net
@@ -408020,7 +408020,6 @@
 0.0.0.0 paletapeletow.shop
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
-0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palickaz24plll.eu.cc
 0.0.0.0 palingviralsxx.duckdns.org
@@ -436369,7 +436368,6 @@
 0.0.0.0 public.3.basecamp.com
 0.0.0.0 public.adgger.jp
 0.0.0.0 public.astrsk.net
-0.0.0.0 public.demo.securecloudsandbox.com
 0.0.0.0 public.fam-8.com
 0.0.0.0 public.gensparkspace.com
 0.0.0.0 public.nemachilus.xyz
@@ -451086,6 +451084,7 @@
 0.0.0.0 rhea.ulitron.ru
 0.0.0.0 rheas.dedspac.ru
 0.0.0.0 rheas.virosat.ru
+0.0.0.0 rheddh.com
 0.0.0.0 rheem.cl
 0.0.0.0 rhegjzdyknhbqfvxfjxudwssli-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 rheiath-hyiouks-mcdoedly.yolasite.com
@@ -481458,6 +481457,7 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
+0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -484617,6 +484617,7 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
+0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyn.com
@@ -488359,6 +488360,7 @@
 0.0.0.0 utuydnmq.top
 0.0.0.0 uu.domainforlite.com
 0.0.0.0 uu.edu.et
+0.0.0.0 uu.v2raynapps.com.cn
 0.0.0.0 uu1615.com
 0.0.0.0 uudaix10.xn--grena-v11b.vn
 0.0.0.0 uueroruuura-8mr1cub6vv.edgeone.app
@@ -490825,6 +490827,7 @@
 0.0.0.0 viz.dedspac.ru
 0.0.0.0 viz.sandbox.eips.com.au
 0.0.0.0 vizury.com
+0.0.0.0 vizyonuniversitesi.com.tr
 0.0.0.0 vizyonuniversitesi.web.tr
 0.0.0.0 vj.quanjingpay.com
 0.0.0.0 vjidxr.cn
@@ -495578,7 +495581,6 @@
 0.0.0.0 wpp.digithiks.com.br
 0.0.0.0 wpp.krxd.net
 0.0.0.0 wpphirlwinds.info
-0.0.0.0 wppluginindex.com
 0.0.0.0 wppluginspro.com
 0.0.0.0 wpr.hot-mob.com
 0.0.0.0 wpsconfig4svr.elasticbeanstalk.com
@@ -520544,6 +520546,7 @@
 0.0.0.0 xenical.4.p2l.info
 0.0.0.0 xenkrupom-digital.pages.dev
 0.0.0.0 xenkrupomia-click.pages.dev
+0.0.0.0 xeno.baby
 0.0.0.0 xenodochial-liskov.34-125-197-109.plesk.page
 0.0.0.0 xenon.studio
 0.0.0.0 xenonclient.com
