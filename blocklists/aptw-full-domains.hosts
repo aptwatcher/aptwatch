@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-09 18:33:49
-# Entries: 523462
+# Generated: 2026-11-10 00:34:01
+# Entries: 523464
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -26783,6 +26783,7 @@
 0.0.0.0 545645645region5.blob.core.windows.net
 0.0.0.0 54576-att-index.weebly.com
 0.0.0.0 545825732.corolain.ru
+0.0.0.0 5459-457c-fdff.tawnyfold.cc
 0.0.0.0 545meanmildred.com
 0.0.0.0 546.360-insurance.com
 0.0.0.0 546002927.marak.ru
@@ -52748,7 +52749,6 @@
 0.0.0.0 activation-certicode-plus-postale.tmweb.ru
 0.0.0.0 activation-dsp2-desbanques.certificats-dsp2-certicodeplus.com
 0.0.0.0 activation-email-upgrades.glitch.me
-0.0.0.0 activation-gateway.cc
 0.0.0.0 activation-monlux-produit.online
 0.0.0.0 activation-myidretail.com
 0.0.0.0 activation-netflix.com
@@ -52934,7 +52934,6 @@
 0.0.0.0 activelogisticsltd.com
 0.0.0.0 activelosproductos.com
 0.0.0.0 actively.matsuro.ru
-0.0.0.0 activelypartnering.com
 0.0.0.0 activemaharashtra.com
 0.0.0.0 activemalght7asinaqwin.tk
 0.0.0.0 activemanage-2.vercel.app
@@ -70954,7 +70953,6 @@
 0.0.0.0 alined.dedspac.ru
 0.0.0.0 alined.matsuro.ru
 0.0.0.0 alined.virosat.ru
-0.0.0.0 alineeleuterio.com.br
 0.0.0.0 aliner.dedspac.ru
 0.0.0.0 alines.vadilops.ru
 0.0.0.0 alinesvrce.weebly.com
@@ -114958,6 +114956,7 @@
 0.0.0.0 audreyeassad.com
 0.0.0.0 audreyyvonne.com
 0.0.0.0 audrinasherman.autos
+0.0.0.0 audtfnaurth.com.es
 0.0.0.0 audvideo.com
 0.0.0.0 aue8grmgtlbl71pi.liusanjie.cc
 0.0.0.0 auebg-8a9e.bosrmeadeklc.workers.dev
@@ -145083,7 +145082,6 @@
 0.0.0.0 bipeds.matsuro.ru
 0.0.0.0 bipersonasdeco.marycast12.repl.co
 0.0.0.0 bipersonasgl.dorixa91.repl.co
-0.0.0.0 bipfdjnk.com
 0.0.0.0 bipin3214.github.io
 0.0.0.0 biplasvegas.com
 0.0.0.0 bipmemphis.com
@@ -168069,6 +168067,7 @@
 0.0.0.0 cctvv.pythonanywhere.com
 0.0.0.0 ccu.to
 0.0.0.0 ccudl.com
+0.0.0.0 ccuffn.icu
 0.0.0.0 ccugkfg.shop
 0.0.0.0 ccuugnwhxbhyhgev-dot-millinium.ey.r.appspot.com
 0.0.0.0 ccviioiaaas.work.gd
@@ -168902,6 +168901,7 @@
 0.0.0.0 cdn01.pushtimize.com
 0.0.0.0 cdn010-whatsapp.69.ocry.com
 0.0.0.0 cdn03.week-ai.com
+0.0.0.0 cdn044us.xyz
 0.0.0.0 cdn1.ad-center.com
 0.0.0.0 cdn1.adadvisor.net
 0.0.0.0 cdn1.adcdnx.com
@@ -198096,6 +198096,7 @@
 0.0.0.0 dax-match.dotomi.com
 0.0.0.0 dax-meta.pages.dev
 0.0.0.0 daxelao.com
+0.0.0.0 daxiahealthcare.com
 0.0.0.0 daxspnjwur.duckdns.org
 0.0.0.0 daxugukixirujin.weebly.com
 0.0.0.0 day-telegarm.com
@@ -212100,6 +212101,7 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
+0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.stellarcedar.live
@@ -214645,7 +214647,6 @@
 0.0.0.0 dulich.goasiatravel.com
 0.0.0.0 dulichduchung.vn
 0.0.0.0 dulichthangloi.com
-0.0.0.0 dulivo.vu
 0.0.0.0 dull-brazen-busby.glitch.me
 0.0.0.0 dull-communicate.gq
 0.0.0.0 dull.amaniwa.ru
@@ -255209,7 +255210,6 @@
 0.0.0.0 gaemiinilogiz.godaddysites.com
 0.0.0.0 gaeminillogini.webflow.io
 0.0.0.0 gaeminlogii.godaddysites.com
-0.0.0.0 gaenterprises.in
 0.0.0.0 gaer.pages.dev
 0.0.0.0 gaf-company.clean.to
 0.0.0.0 gafaaola.duckdns.org
@@ -276545,7 +276545,6 @@
 0.0.0.0 hasid.dedspac.ru
 0.0.0.0 hasid.virosat.ru
 0.0.0.0 hasil-gov-my.shop
-0.0.0.0 hasilgov-my.shop
 0.0.0.0 hasilpd.azurewebsites.net
 0.0.0.0 hasilresultphising.duckdns.org
 0.0.0.0 hasini879.github.io
@@ -307776,7 +307775,6 @@
 0.0.0.0 jdagxl.gq
 0.0.0.0 jdantasengenharia.com.br
 0.0.0.0 jdaqkicvsaspqdsg-dot-millinium.ey.r.appspot.com
-0.0.0.0 jdaram.com
 0.0.0.0 jdarch07.github.io
 0.0.0.0 jdarfbtcpiynaqjs-dot-millinium.ey.r.appspot.com
 0.0.0.0 jdasxza.duckdns.org
@@ -319383,6 +319381,7 @@
 0.0.0.0 khrrmmalik.github.io
 0.0.0.0 khscale.com.cn
 0.0.0.0 khsdhncvia-feedbackassistance.pages.dev
+0.0.0.0 khsnec.icu
 0.0.0.0 khtgojnhaqcsvvmejxiglvnpvi-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 khtl.vn
 0.0.0.0 khtrhdrhrsse.firebaseapp.com
@@ -323773,7 +323772,6 @@
 0.0.0.0 ktr.028426.com
 0.0.0.0 ktr.freedynamicdns.org
 0.0.0.0 ktrackdata.com
-0.0.0.0 ktrced.top
 0.0.0.0 ktreiztixjbclyoesidzaxuusa-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 ktrk-bmmanager907697.vercel.app
 0.0.0.0 ktrrbqz.top
@@ -342039,6 +342037,7 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
+0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -345351,6 +345350,7 @@
 0.0.0.0 maeitamicklogins.gitbook.io
 0.0.0.0 maell.redirectme.net
 0.0.0.0 maemvuzhfpukgafqaoiqppfjir-dot-gl099898987fhkl.uk.r.appspot.com
+0.0.0.0 maenc.icu
 0.0.0.0 maendeleovicoba.co.tz
 0.0.0.0 maenionac.com
 0.0.0.0 maeno501.com
@@ -410534,6 +410534,7 @@
 0.0.0.0 pay.155blog.xyz
 0.0.0.0 pay.amazon.eu.usr-review.live
 0.0.0.0 pay.amazon.secure.checkouts.top
+0.0.0.0 pay.aqiu6.com
 0.0.0.0 pay.autenticacaosrs.fun
 0.0.0.0 pay.bharatvle.org
 0.0.0.0 pay.boletuso.ru
@@ -467976,6 +467977,7 @@
 0.0.0.0 skazki-olga-bogacheva.kz
 0.0.0.0 skbzfvi0u.localto.net
 0.0.0.0 skc.elitoras.ru
+0.0.0.0 skcrss.icu
 0.0.0.0 skdailynews.com
 0.0.0.0 skdijdo10.eu.cc
 0.0.0.0 skdjfbskjdbf.top
@@ -476767,6 +476769,7 @@
 0.0.0.0 t8s532.savourpec.com
 0.0.0.0 t8t7frium3.s.ad6media.fr
 0.0.0.0 t8ybu2bvlrdc.moolin.ru
+0.0.0.0 t9.systha.top
 0.0.0.0 t951b-touchdownpr.ghjigclbopy.es
 0.0.0.0 ta-collector.centurygame.com
 0.0.0.0 ta-milosc.pl
@@ -481470,7 +481473,6 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
-0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -489526,6 +489528,7 @@
 0.0.0.0 verivox01.webtrekk.net
 0.0.0.0 verizon.adhaven.com
 0.0.0.0 verizon.demdex.net
+0.0.0.0 verizon.systyu.top
 0.0.0.0 verizontelecom.tt.omtrdc.net
 0.0.0.0 verizonwireless.112.2o7.net
 0.0.0.0 verklarisinvest.com
@@ -494561,7 +494564,6 @@
 0.0.0.0 wicks.hustorla.ru
 0.0.0.0 wicksl.ru
 0.0.0.0 wickup.wowagis.ru
-0.0.0.0 wicreset.online
 0.0.0.0 wid.ulitron.ru
 0.0.0.0 widaxl.pl
 0.0.0.0 wide-dinner-shrilling.on-fleek.app
@@ -494814,6 +494816,7 @@
 0.0.0.0 windows-7vm.pages.dev
 0.0.0.0 windows-afx-update.com
 0.0.0.0 windows-cnd-update.com
+0.0.0.0 windows-defender.cc
 0.0.0.0 windows-en-us-update.com
 0.0.0.0 windows-fsd-update.com
 0.0.0.0 windows-msd-update.com
@@ -517707,7 +517710,6 @@
 0.0.0.0 www.vbttech.com
 0.0.0.0 www.vcapa.technobrains.co.in
 0.0.0.0 www.vcascc.eu
-0.0.0.0 www.vcc-data.bond
 0.0.0.0 www.vcsrenting.com
 0.0.0.0 www.vdhu.com
 0.0.0.0 www.ve5njy.top
