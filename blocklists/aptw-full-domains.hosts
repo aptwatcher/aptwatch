@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-10 00:34:01
-# Entries: 523464
+# Generated: 2026-11-10 02:04:04
+# Entries: 523467
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -70953,6 +70953,7 @@
 0.0.0.0 alined.dedspac.ru
 0.0.0.0 alined.matsuro.ru
 0.0.0.0 alined.virosat.ru
+0.0.0.0 alineeleuterio.com.br
 0.0.0.0 aliner.dedspac.ru
 0.0.0.0 alines.vadilops.ru
 0.0.0.0 alinesvrce.weebly.com
@@ -373238,6 +373239,7 @@
 0.0.0.0 mortumakaab.ru
 0.0.0.0 mortuzaahmed014.github.io
 0.0.0.0 moru55.com
+0.0.0.0 moruk.xyz
 0.0.0.0 moruqhwdvicx.servieventos.com.ec
 0.0.0.0 morus.dedspac.ru
 0.0.0.0 morus.ulitron.ru
@@ -374483,6 +374485,7 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
+0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
