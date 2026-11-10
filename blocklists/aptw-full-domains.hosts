@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-10 06:34:18
-# Entries: 523471
+# Generated: 2026-11-10 12:34:22
+# Entries: 523467
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45271,6 +45271,7 @@
 0.0.0.0 abc.elitoras.ru
 0.0.0.0 abc.embroidme.com.pl
 0.0.0.0 abc.esportregister.com
+0.0.0.0 abc.highpnk.life
 0.0.0.0 abc.huazhxd.top
 0.0.0.0 abc.k886fu.cloudns.biz
 0.0.0.0 abc.kravtion.biz.id
@@ -60163,6 +60164,7 @@
 0.0.0.0 adturtle.biz
 0.0.0.0 adty.cc
 0.0.0.0 aduanas-mexico.org
+0.0.0.0 adubuildersco.com
 0.0.0.0 adubuildersorangecounty.com
 0.0.0.0 aduda.ru
 0.0.0.0 adudev.digital
@@ -71814,7 +71816,6 @@
 0.0.0.0 allegro.support
 0.0.0.0 allegro.team
 0.0.0.0 allegro.tm.pl
-0.0.0.0 allegro.wicreset.pl
 0.0.0.0 allegro.x30y19p313.pl
 0.0.0.0 allegro.xshkj.cn
 0.0.0.0 allegro.zakup58390x.pl
@@ -88165,7 +88166,6 @@
 0.0.0.0 api-cloudfix.pages.dev
 0.0.0.0 api-coinbase-auth.webflow.io
 0.0.0.0 api-connects.pages.dev
-0.0.0.0 api-dns.org
 0.0.0.0 api-docs.sepa-00980-force-drop.oa.r.appspot.com
 0.0.0.0 api-eu.targetx.com
 0.0.0.0 api-ext.bixbitemarketing.com
@@ -149445,7 +149445,6 @@
 0.0.0.0 bnehomeimprovement.com
 0.0.0.0 bnert-106161.weeblysite.com
 0.0.0.0 bnes-andyanes.firebaseapp.com
-0.0.0.0 bnet-api.playm8ru.win
 0.0.0.0 bnet.aaplumb.org
 0.0.0.0 bnet.becomingmyownboss.biz
 0.0.0.0 bnet.dinevenice.com
@@ -154321,6 +154320,7 @@
 0.0.0.0 brava-avigate-f87887bd7884548-884548b47-7ce7fd051ece72f8.pages.dev
 0.0.0.0 brava.ulitron.ru
 0.0.0.0 brava.virosat.ru
+0.0.0.0 bravamktdigital.com.br
 0.0.0.0 bravappsuppwest.com
 0.0.0.0 bravas.matsuro.ru
 0.0.0.0 bravatindia.com
@@ -173676,6 +173676,7 @@
 0.0.0.0 chippy.virosat.ru
 0.0.0.0 chips.dedspac.ru
 0.0.0.0 chips.ulitron.ru
+0.0.0.0 chiptune.com
 0.0.0.0 chiptuning.lviv.ua
 0.0.0.0 chipvisionoptics.com
 0.0.0.0 chirag815.github.io
@@ -178436,7 +178437,6 @@
 0.0.0.0 cloudflare.vc
 0.0.0.0 cloudflare01.lihom22lihom22.workers.dev
 0.0.0.0 cloudflarecdn.com
-0.0.0.0 cloudflareconfirm.com
 0.0.0.0 cloudflareinsights.com
 0.0.0.0 cloudflarenode.chenjarvis.workers.dev
 0.0.0.0 cloudflarepg.pages.dev
@@ -181934,6 +181934,7 @@
 0.0.0.0 coinvestors.kukarat.ru
 0.0.0.0 coinvora93.net
 0.0.0.0 coinvoria95.com
+0.0.0.0 coinworknew.com
 0.0.0.0 coinxbase-pro-logien.gitbook.io
 0.0.0.0 coinxbaseprologen.gitbook.io
 0.0.0.0 coinxefsstensiond.webflow.io
@@ -198098,7 +198099,6 @@
 0.0.0.0 dax-match.dotomi.com
 0.0.0.0 dax-meta.pages.dev
 0.0.0.0 daxelao.com
-0.0.0.0 daxiahealthcare.com
 0.0.0.0 daxspnjwur.duckdns.org
 0.0.0.0 daxugukixirujin.weebly.com
 0.0.0.0 day-telegarm.com
@@ -201519,6 +201519,7 @@
 0.0.0.0 demo.dynamicsolutionit.com
 0.0.0.0 demo.edvantech.net
 0.0.0.0 demo.es
+0.0.0.0 demo.eugas8job.online
 0.0.0.0 demo.firstframework.net
 0.0.0.0 demo.flytheme.net
 0.0.0.0 demo.fuseplatform.net
@@ -211189,6 +211190,7 @@
 0.0.0.0 dolphinet.com.br
 0.0.0.0 dolphinprofessionalcentre.com
 0.0.0.0 dolphinsoft.in
+0.0.0.0 dolphsa.cloud
 0.0.0.0 dolt.boletuso.ru
 0.0.0.0 dolt.bortogat.ru
 0.0.0.0 dolt.ulitron.ru
@@ -222630,6 +222632,7 @@
 0.0.0.0 empathywatch.fr
 0.0.0.0 empbv.com
 0.0.0.0 empcme.com
+0.0.0.0 empergr.qpon
 0.0.0.0 emperor.emperor01.net
 0.0.0.0 emperors.bunkerhilltradingco.info
 0.0.0.0 empfang-meinpaket.com
@@ -230333,6 +230336,7 @@
 0.0.0.0 ext.royalcactus.com
 0.0.0.0 ext.tiktokmallnow.com
 0.0.0.0 ext.wallet-coinbasecom.addpotion.com
+0.0.0.0 ext.xweny.lol
 0.0.0.0 ext4357.com
 0.0.0.0 extad.info
 0.0.0.0 exteckxpressdiliviriez.ml
@@ -282563,7 +282567,6 @@
 0.0.0.0 hitlounge.com
 0.0.0.0 hitly.pl
 0.0.0.0 hitmailreview2.web.app
-0.0.0.0 hitman-pro.ru
 0.0.0.0 hitman71hd-wixsite-com.filesusr.com
 0.0.0.0 hitmanpro.tech
 0.0.0.0 hitmodel.net
@@ -283738,6 +283741,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -341978,7 +341982,6 @@
 0.0.0.0 luizavaidepexres.com
 0.0.0.0 luizcosmo.com.br
 0.0.0.0 luizhenrique001.github.io
-0.0.0.0 luizmatoso.com.br
 0.0.0.0 lujboadzkh.jwydtcd.presse.ci
 0.0.0.0 lujnpwn-euler-de7309.netlify.app
 0.0.0.0 lujoleasing.com
@@ -344153,7 +344156,6 @@
 0.0.0.0 m.marketplace.mahrouztr.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
-0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -373240,7 +373242,6 @@
 0.0.0.0 mortumakaab.ru
 0.0.0.0 mortuzaahmed014.github.io
 0.0.0.0 moru55.com
-0.0.0.0 moruk.xyz
 0.0.0.0 moruqhwdvicx.servieventos.com.ec
 0.0.0.0 morus.dedspac.ru
 0.0.0.0 morus.ulitron.ru
@@ -374486,7 +374487,6 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
-0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -395917,7 +395917,6 @@
 0.0.0.0 oecus.virosat.ru
 0.0.0.0 oed6j1brvuml.bellydancetulsa.com
 0.0.0.0 oedsal.pages.dev
-0.0.0.0 oedturk.com
 0.0.0.0 oeehhw.guru
 0.0.0.0 oefhnymxufpyyozg-dot-millinium.ey.r.appspot.com
 0.0.0.0 oefq-jon.com
@@ -408036,7 +408035,6 @@
 0.0.0.0 paletapeletow.shop
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
-0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palickaz24plll.eu.cc
 0.0.0.0 palingviralsxx.duckdns.org
@@ -459678,7 +459676,6 @@
 0.0.0.0 sail.dedspac.ru
 0.0.0.0 sail.timanar.ru
 0.0.0.0 sail.ulitron.ru
-0.0.0.0 sail91.com
 0.0.0.0 sailesh3000.github.io
 0.0.0.0 sailinghowto.com
 0.0.0.0 saillite.com
@@ -473022,6 +473019,7 @@
 0.0.0.0 static.target2sell.com
 0.0.0.0 static.tebrand.asia
 0.0.0.0 static.tebrand.vn
+0.0.0.0 static.topxgun.com
 0.0.0.0 static.track.omguk.com
 0.0.0.0 static.trackedweb.net
 0.0.0.0 static.tracking202.com
@@ -481012,6 +481010,7 @@
 0.0.0.0 tom.bortogat.ru
 0.0.0.0 tom.dedspac.ru
 0.0.0.0 tom.ulitron.ru
+0.0.0.0 tom2.mitechsystems.net
 0.0.0.0 toma.dedspac.ru
 0.0.0.0 toman.virosat.ru
 0.0.0.0 tomaszrabinski.pl
@@ -481478,6 +481477,7 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
+0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -488380,7 +488380,6 @@
 0.0.0.0 utuydnmq.top
 0.0.0.0 uu.domainforlite.com
 0.0.0.0 uu.edu.et
-0.0.0.0 uu.v2raynapps.com.cn
 0.0.0.0 uu1615.com
 0.0.0.0 uudaix10.xn--grena-v11b.vn
 0.0.0.0 uueroruuura-8mr1cub6vv.edgeone.app
@@ -488620,7 +488619,6 @@
 0.0.0.0 v5akcz1.lat
 0.0.0.0 v5gpn4.yl029.com
 0.0.0.0 v5k2vid4x.wmhjedgbus.es
-0.0.0.0 v5q.eu
 0.0.0.0 v6.mobilelog.upqzfile.com
 0.0.0.0 v6.viayonetici.com
 0.0.0.0 v6analytics.htmedia.in.edgekey.net
@@ -505982,7 +505980,6 @@
 0.0.0.0 www.host-it.co.uk
 0.0.0.0 www.hostedfiles.net
 0.0.0.0 www.hostfree.site
-0.0.0.0 www.hostingcloud.science
 0.0.0.0 www.hostingfreelife.com
 0.0.0.0 www.hostujmy.pl
 0.0.0.0 www.hot-bot.com
@@ -523425,7 +523422,6 @@
 0.0.0.0 zyakir.ru
 0.0.0.0 zyban-store.shengen.ru
 0.0.0.0 zyban.1.p2l.info
-0.0.0.0 zycdjz.com
 0.0.0.0 zydsmkifgi.duckdns.org
 0.0.0.0 zyga.virosat.ru
 0.0.0.0 zygal.virosat.ru
