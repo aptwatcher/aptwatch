@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-10 02:29:54
-# Entries: 523468
+# Generated: 2026-11-10 06:06:13
+# Entries: 523471
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -33328,6 +33328,7 @@
 0.0.0.0 6server.com
 0.0.0.0 6sgts7fgxkbh2oqdlzcqf2l.liusanjie.cc
 0.0.0.0 6sibd.ktt55.my.id
+0.0.0.0 6sim.vip
 0.0.0.0 6sjqd.hp.peraichi.com
 0.0.0.0 6sjx6vz6uaznkb.qwo231sdx.club
 0.0.0.0 6sk5s.school
@@ -276545,7 +276546,6 @@
 0.0.0.0 hasib.shop
 0.0.0.0 hasid.dedspac.ru
 0.0.0.0 hasid.virosat.ru
-0.0.0.0 hasil-gov-my.shop
 0.0.0.0 hasilpd.azurewebsites.net
 0.0.0.0 hasilresultphising.duckdns.org
 0.0.0.0 hasini879.github.io
@@ -307310,6 +307310,7 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
+0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -462427,7 +462428,6 @@
 0.0.0.0 satendrakumar9110.github.io
 0.0.0.0 satepal.org
 0.0.0.0 sates.ulitron.ru
-0.0.0.0 satgob-mx.shop
 0.0.0.0 satgroup.in
 0.0.0.0 satheeshkumar1912.github.io
 0.0.0.0 sathi.org
@@ -469496,6 +469496,7 @@
 0.0.0.0 soft-side-946015.framer.app
 0.0.0.0 soft-storage.com
 0.0.0.0 soft-toddler.shop
+0.0.0.0 soft.110route.com
 0.0.0.0 soft.dedspac.ru
 0.0.0.0 soft.softchecker.org
 0.0.0.0 soft.timanar.ru
@@ -504992,6 +504993,7 @@
 0.0.0.0 www.gerwaldkronberg.net
 0.0.0.0 www.gestioryct.store
 0.0.0.0 www.gestrauss.shop
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.gesuarivac.store
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
@@ -521135,6 +521137,7 @@
 0.0.0.0 xxxpornshares.xyz
 0.0.0.0 xxxreactor.com
 0.0.0.0 xy-mail.online
+0.0.0.0 xy.jzhh.pro
 0.0.0.0 xy.xyss38.cc
 0.0.0.0 xybdgapi.hantangcapital.com
 0.0.0.0 xydailijizhang.com
