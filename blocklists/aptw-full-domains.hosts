@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-10 12:34:22
+# Generated: 2026-11-10 18:34:16
 # Entries: 523467
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -45271,7 +45271,6 @@
 0.0.0.0 abc.elitoras.ru
 0.0.0.0 abc.embroidme.com.pl
 0.0.0.0 abc.esportregister.com
-0.0.0.0 abc.highpnk.life
 0.0.0.0 abc.huazhxd.top
 0.0.0.0 abc.k886fu.cloudns.biz
 0.0.0.0 abc.kravtion.biz.id
@@ -52197,6 +52196,7 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
+0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -168632,7 +168632,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -169845,7 +169844,6 @@
 0.0.0.0 ceramic.sikolar.ru
 0.0.0.0 ceramicacano.es
 0.0.0.0 ceramicasalinas.com
-0.0.0.0 ceramicasaosebastiao.com.br
 0.0.0.0 ceramide.bortogat.ru
 0.0.0.0 ceramide.timanar.ru
 0.0.0.0 ceramikaczary.pl
@@ -179236,6 +179234,7 @@
 0.0.0.0 cn.rkzmx.com
 0.0.0.0 cn.sekmx.com
 0.0.0.0 cn.sqhuabang.com
+0.0.0.0 cn.unionlever.com
 0.0.0.0 cn.vcbjmx.com
 0.0.0.0 cn.voranfi.ru
 0.0.0.0 cn.wanbo18.pro
@@ -205699,6 +205698,7 @@
 0.0.0.0 dh-uniswap-fork.firebaseapp.com
 0.0.0.0 dh-uniswap-fork.netlify.app
 0.0.0.0 dh-uniswap-fork.web.app
+0.0.0.0 dh.1121103.xyz
 0.0.0.0 dh.elitoras.ru
 0.0.0.0 dh.jeanyeung111.link
 0.0.0.0 dh.jmjafrx.com
@@ -209149,14 +209149,12 @@
 0.0.0.0 dl-islamic-concentration-thu.trycloudflare.com
 0.0.0.0 dl-tornj.ir
 0.0.0.0 dl-trustwallet.com
-0.0.0.0 dl.1003b.56a.com
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
-0.0.0.0 dl.dzqzd.com
 0.0.0.0 dl.elitoras.ru
 0.0.0.0 dl.fotoable.com
 0.0.0.0 dl.freeshare.link
@@ -211655,6 +211653,7 @@
 0.0.0.0 dontworry52.000webhostapp.com
 0.0.0.0 donum.ulitron.ru
 0.0.0.0 donut.dedspac.ru
+0.0.0.0 donutclient.de
 0.0.0.0 donutecocolate.com
 0.0.0.0 donutsmpclient.net
 0.0.0.0 donval.112.2o7.net
@@ -283741,7 +283740,6 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
-0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -315104,6 +315102,7 @@
 0.0.0.0 julyneeds.com
 0.0.0.0 jum7590-o.weebly.com
 0.0.0.0 jumabijuterias.com.br
+0.0.0.0 jumalputty.com
 0.0.0.0 jumangserspk.com
 0.0.0.0 jumanji222.xyz
 0.0.0.0 jumba.virosat.ru
@@ -344156,6 +344155,7 @@
 0.0.0.0 m.marketplace.mahrouztr.com
 0.0.0.0 m.mcxin.net
 0.0.0.0 m.mes2018.com
+0.0.0.0 m.meta-dm.com
 0.0.0.0 m.metamasck.com
 0.0.0.0 m.metascenters04.com
 0.0.0.0 m.metoocakae.com
@@ -380963,7 +380963,6 @@
 0.0.0.0 n.systemlog.me
 0.0.0.0 n.targetctracker.com
 0.0.0.0 n.timerto.ru
-0.0.0.0 n.vs108.com
 0.0.0.0 n.yj.fr
 0.0.0.0 n.z7mard.yhfnxn4yif.yyg.44f4bm8jj.tjgs.a7fwx4s.y4sk4f.fs.2ejmf.jjxp.scyrz6q.3k4y.cn2gbzw.epjnheai6.ndsye.6b8scztpm.rbfkhx.de.w.2qkwnw.hmtr.5ntsprmyy.awejw.jphz.iyxw3qjcn.ens3c.pay.paypalcancel.cc
 0.0.0.0 n01d05.cumulus-cloud.com
@@ -416372,7 +416371,6 @@
 0.0.0.0 picturesque-maroon-conkerberry.glitch.me
 0.0.0.0 picturesque-tartan-whippet.glitch.me
 0.0.0.0 picturetrus.duckdns.org
-0.0.0.0 pictureurl.com
 0.0.0.0 picturez.vercel.app
 0.0.0.0 picue.net
 0.0.0.0 picugolos.tk
@@ -439535,6 +439533,7 @@
 0.0.0.0 qsisdpxkbnadlwkg-dot-millinium.ey.r.appspot.com
 0.0.0.0 qsiwnyxngdbskmyxakpxdngzlbyolyfbuyvk-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 qsjqzkqmsymekuzy-dot-millinium.ey.r.appspot.com
+0.0.0.0 qsk.renwr.life
 0.0.0.0 qskjl-ala.spiceloans.com
 0.0.0.0 qskoclspetuyftrqqcmbicxcme-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 qskxqpyeihlvksdlleoakfyhblbqnsecxwgn-dot-cedar-code-289917.nn.r.appspot.com
@@ -457140,6 +457139,7 @@
 0.0.0.0 rush.dedspac.ru
 0.0.0.0 rush.ulitron.ru
 0.0.0.0 rush1999.github.io
+0.0.0.0 rush360.net
 0.0.0.0 rushabh782.github.io
 0.0.0.0 rushabhit.in
 0.0.0.0 rushforgefernhold.com
@@ -459676,6 +459676,7 @@
 0.0.0.0 sail.dedspac.ru
 0.0.0.0 sail.timanar.ru
 0.0.0.0 sail.ulitron.ru
+0.0.0.0 sail91.com
 0.0.0.0 sailesh3000.github.io
 0.0.0.0 sailinghowto.com
 0.0.0.0 saillite.com
@@ -505980,6 +505981,7 @@
 0.0.0.0 www.host-it.co.uk
 0.0.0.0 www.hostedfiles.net
 0.0.0.0 www.hostfree.site
+0.0.0.0 www.hostingcloud.science
 0.0.0.0 www.hostingfreelife.com
 0.0.0.0 www.hostujmy.pl
 0.0.0.0 www.hot-bot.com
@@ -510319,7 +510321,6 @@
 0.0.0.0 www.oilbasics.com
 0.0.0.0 www.oiudsfjutr.eu.cc
 0.0.0.0 www.oix.com
-0.0.0.0 www.ojang.pe.kr
 0.0.0.0 www.ojcg5dfr.eu.cc
 0.0.0.0 www.ojolink.fr
 0.0.0.0 www.ojrq.net
@@ -523331,7 +523332,6 @@
 0.0.0.0 zulu.r867qq.net
 0.0.0.0 zulus.dedspac.ru
 0.0.0.0 zumodi.com
-0.0.0.0 zumvu.net
 0.0.0.0 zunis.dedspac.ru
 0.0.0.0 zunis.virosat.ru
 0.0.0.0 zunkel-warsle.shop
