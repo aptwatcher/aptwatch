@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-11 12:33:54
+# Generated: 2026-11-11 18:34:21
 # Entries: 523469
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -169843,7 +169843,6 @@
 0.0.0.0 ceramic.sikolar.ru
 0.0.0.0 ceramicacano.es
 0.0.0.0 ceramicasalinas.com
-0.0.0.0 ceramicasaosebastiao.com.br
 0.0.0.0 ceramide.bortogat.ru
 0.0.0.0 ceramide.timanar.ru
 0.0.0.0 ceramikaczary.pl
@@ -194493,6 +194492,7 @@
 0.0.0.0 czar.ulitron.ru
 0.0.0.0 czaric.virosat.ru
 0.0.0.0 czarmilosci.pl
+0.0.0.0 czarnolandia.world
 0.0.0.0 czarownica-online-pl.5v.pl
 0.0.0.0 czars.vadilops.ru
 0.0.0.0 czasnakino.pl
@@ -212106,6 +212106,7 @@
 0.0.0.0 down.pcclear.com
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
+0.0.0.0 down.stellarcedar.live
 0.0.0.0 down.t0kanpoaket.biz
 0.0.0.0 down.t0kbnpobket.biz
 0.0.0.0 down.t0kdnpodket.biz
@@ -215450,7 +215451,6 @@
 0.0.0.0 dx8frulyz1.9402.agacanoglu.com
 0.0.0.0 dx9.84a.mytemp.website
 0.0.0.0 dx9580.com
-0.0.0.0 dxa.rewan.live
 0.0.0.0 dxanpjzuuugqvpbbsnepgjxjqzptnhnmmawu-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 dxatzrajud.duckdns.org
 0.0.0.0 dxb.rewan.live
@@ -226559,7 +226559,6 @@
 0.0.0.0 estuary.zorinn.com
 0.0.0.0 estudiantes-isa.uva.es
 0.0.0.0 estudiantupdatea.weebly.com
-0.0.0.0 estudio315.com.br
 0.0.0.0 estudio50.biz
 0.0.0.0 estudioballester.com
 0.0.0.0 estudiocabiche.com.ar
@@ -283741,6 +283740,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -287344,7 +287344,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -300476,6 +300475,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -303239,6 +303239,7 @@
 0.0.0.0 irlfyhgxruwolhcy-dot-millinium.ey.r.appspot.com
 0.0.0.0 irlivesupport.vercel.app
 0.0.0.0 irm-facebook-2221117818.maak.org.mk
+0.0.0.0 irm.st
 0.0.0.0 irma.amaniwa.ru
 0.0.0.0 irma.boletuso.ru
 0.0.0.0 irmaclothing.com
@@ -341482,6 +341483,7 @@
 0.0.0.0 lucas-7512673-moura.pages.dev
 0.0.0.0 lucas-79473-moura.pages.dev
 0.0.0.0 lucas-theisen.com
+0.0.0.0 lucas.cptz.wtf
 0.0.0.0 lucas.deolaran.myretirementradio.com
 0.0.0.0 lucas.ulitron.ru
 0.0.0.0 lucas9121.github.io
@@ -344054,7 +344056,6 @@
 0.0.0.0 m.jinlonghaoyang.com
 0.0.0.0 m.jiomnbv.xyz
 0.0.0.0 m.jk96053.com
-0.0.0.0 m.jkoa.co.kr
 0.0.0.0 m.jljiefeng.com
 0.0.0.0 m.joyeng.net
 0.0.0.0 m.js-lean.com
@@ -397987,7 +397988,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -404992,6 +404992,7 @@
 0.0.0.0 outook.lojaseofertas.com
 0.0.0.0 outplayed.com
 0.0.0.0 outplayed.it
+0.0.0.0 outpost.co.ke
 0.0.0.0 outpostoutdoor.com
 0.0.0.0 outpunvvched.info
 0.0.0.0 outputmediagroup.com
@@ -416373,7 +416374,6 @@
 0.0.0.0 picturesque-maroon-conkerberry.glitch.me
 0.0.0.0 picturesque-tartan-whippet.glitch.me
 0.0.0.0 picturetrus.duckdns.org
-0.0.0.0 pictureurl.com
 0.0.0.0 picturez.vercel.app
 0.0.0.0 picue.net
 0.0.0.0 picugolos.tk
@@ -463608,7 +463608,6 @@
 0.0.0.0 scrooge.wnbc.com
 0.0.0.0 scrossuppe.store
 0.0.0.0 scrow.dedspac.ru
-0.0.0.0 scrroeder.com
 0.0.0.0 scrubswim.com
 0.0.0.0 scruf.dedspac.ru
 0.0.0.0 scrum.dedspac.ru
@@ -468157,7 +468156,6 @@
 0.0.0.0 sky36.godaddysites.com
 0.0.0.0 skyauction.122.2o7.net
 0.0.0.0 skyblockaddons.org
-0.0.0.0 skyblockrpc.com
 0.0.0.0 skycithereforeit.com
 0.0.0.0 skydanceapparel.shop
 0.0.0.0 skydancefashion.shop
@@ -469591,7 +469589,6 @@
 0.0.0.0 soilvet.info
 0.0.0.0 soja.dedspac.ru
 0.0.0.0 sok.boletuso.ru
-0.0.0.0 sok.soclable8jas.top
 0.0.0.0 sok.ulitron.ru
 0.0.0.0 soka.ulitron.ru
 0.0.0.0 sokari.shop
@@ -474404,6 +474401,7 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamridgeclover.online
 0.0.0.0 streamseek.net
@@ -475980,6 +475978,7 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftdryblowdryers.org
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftpathav.vercel.app
@@ -481482,7 +481481,6 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
-0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -494799,6 +494797,7 @@
 0.0.0.0 win3656.cc
 0.0.0.0 winadiscount.com
 0.0.0.0 winaproduct.com
+0.0.0.0 winbitbrowser.com
 0.0.0.0 wince.dedspac.ru
 0.0.0.0 wincert.us.intellitxt.com
 0.0.0.0 wincleaner.com
@@ -498315,6 +498314,7 @@
 0.0.0.0 www.assormemor.store
 0.0.0.0 www.assorscons.store
 0.0.0.0 www.astalavista.us
+0.0.0.0 www.astenterprises.com.pk
 0.0.0.0 www.astorgatrade.com
 0.0.0.0 www.astroescre.store
 0.0.0.0 www.asvftry.bond
