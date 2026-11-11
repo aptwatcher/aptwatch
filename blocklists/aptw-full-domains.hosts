@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-11 06:34:23
-# Entries: 523466
+# Generated: 2026-11-11 12:33:54
+# Entries: 523469
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -137691,7 +137691,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -168631,6 +168630,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -173548,6 +173548,7 @@
 0.0.0.0 chillzone.nick.de
 0.0.0.0 chilp.it
 0.0.0.0 chilternexhibitions.co.uk
+0.0.0.0 chilymove.net
 0.0.0.0 chilyregistrycleaner.com
 0.0.0.0 chimachuck.ml
 0.0.0.0 chimaera.cc
@@ -212103,10 +212104,8 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
-0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
-0.0.0.0 down.stellarcedar.live
 0.0.0.0 down.t0kanpoaket.biz
 0.0.0.0 down.t0kbnpobket.biz
 0.0.0.0 down.t0kdnpodket.biz
@@ -212186,7 +212185,6 @@
 0.0.0.0 download.htsoft.vn
 0.0.0.0 download.imtokenpro.net
 0.0.0.0 download.inboxace.com
-0.0.0.0 download.kaobeitu.com
 0.0.0.0 download.logins.online
 0.0.0.0 download.mclick.mobi
 0.0.0.0 download.pdf00.cn
@@ -215452,8 +215450,10 @@
 0.0.0.0 dx8frulyz1.9402.agacanoglu.com
 0.0.0.0 dx9.84a.mytemp.website
 0.0.0.0 dx9580.com
+0.0.0.0 dxa.rewan.live
 0.0.0.0 dxanpjzuuugqvpbbsnepgjxjqzptnhnmmawu-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 dxatzrajud.duckdns.org
+0.0.0.0 dxb.rewan.live
 0.0.0.0 dxb09.myportfolio.com
 0.0.0.0 dxb3464834.000webhostapp.com
 0.0.0.0 dxbproductions.com
@@ -252941,6 +252941,7 @@
 0.0.0.0 ftp.trezor-wallet-trezor.net
 0.0.0.0 ftp.ulitron.ru
 0.0.0.0 ftp.vaastushreerealestate.com
+0.0.0.0 ftp.vietnam852.com
 0.0.0.0 ftp.viralchikaterbary.youdontcare.com
 0.0.0.0 ftp.weblogin.pics
 0.0.0.0 ftp.webtologin.top
@@ -256643,6 +256644,7 @@
 0.0.0.0 gatimoli.fun
 0.0.0.0 gativenamloopa.pages.dev
 0.0.0.0 gatjooking.com
+0.0.0.0 gatlex.com
 0.0.0.0 gatlinburgspace.com
 0.0.0.0 gatogris.org
 0.0.0.0 gator.com
@@ -259448,6 +259450,7 @@
 0.0.0.0 get-your-file.tiewbrothers.repl.co
 0.0.0.0 get-your-free-badge0.vercel.app
 0.0.0.0 get-your-free-verified-badge-nine.vercel.app
+0.0.0.0 get.activiated.win
 0.0.0.0 get.adolf.tv
 0.0.0.0 get.amaniwa.ru
 0.0.0.0 get.aquariuso.ru
@@ -300473,7 +300476,6 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
-0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -325736,6 +325738,7 @@
 0.0.0.0 kygzfnexvm.duckdns.org
 0.0.0.0 kyhlyinhqmzyydpjdmocefytzkjraarpifkg-dot-cedar-code-289917.nn.r.appspot.com
 0.0.0.0 kyiad.gq
+0.0.0.0 kyicadvisory.com
 0.0.0.0 kyictsaqlclfvcqhxbrteazoogcwkxoorenv-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 kyieb.ml
 0.0.0.0 kyiel.gq
@@ -341979,6 +341982,7 @@
 0.0.0.0 luizavaidepexres.com
 0.0.0.0 luizcosmo.com.br
 0.0.0.0 luizhenrique001.github.io
+0.0.0.0 luizmatoso.com.br
 0.0.0.0 lujboadzkh.jwydtcd.presse.ci
 0.0.0.0 lujnpwn-euler-de7309.netlify.app
 0.0.0.0 lujoleasing.com
@@ -355876,6 +355880,7 @@
 0.0.0.0 mccarthyhummer.com
 0.0.0.0 mcccibizdirectory.mw
 0.0.0.0 mccduppgekuprqzh-dot-millinium.ey.r.appspot.com
+0.0.0.0 mccl.com.vn
 0.0.0.0 mcclatchy.112.2o7.net
 0.0.0.0 mcclellanparksecuresharefileonline.on.fleek.co
 0.0.0.0 mcconcep.cluster005.ovh.net
@@ -397982,6 +397987,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -404986,7 +404992,6 @@
 0.0.0.0 outook.lojaseofertas.com
 0.0.0.0 outplayed.com
 0.0.0.0 outplayed.it
-0.0.0.0 outpost.co.ke
 0.0.0.0 outpostoutdoor.com
 0.0.0.0 outpunvvched.info
 0.0.0.0 outputmediagroup.com
@@ -408032,7 +408037,6 @@
 0.0.0.0 paletapeletow.shop
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
-0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palickaz24plll.eu.cc
 0.0.0.0 palingviralsxx.duckdns.org
@@ -439144,6 +439148,7 @@
 0.0.0.0 qoeuboayiiegxfnkvaoajlzdka-dot-gleow2021ja.ue.r.appspot.com
 0.0.0.0 qof.wawpp.icu
 0.0.0.0 qofjvkwvgylrhupu-dot-millinium.ey.r.appspot.com
+0.0.0.0 qofnend.bpbxter.com
 0.0.0.0 qofrmxzjkjwydcdmdjrzmdyvafzfzwtqkssr.solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 qog.duckdns.org
 0.0.0.0 qog5-casefb777741.vercel.app
@@ -469586,6 +469591,7 @@
 0.0.0.0 soilvet.info
 0.0.0.0 soja.dedspac.ru
 0.0.0.0 sok.boletuso.ru
+0.0.0.0 sok.soclable8jas.top
 0.0.0.0 sok.ulitron.ru
 0.0.0.0 soka.ulitron.ru
 0.0.0.0 sokari.shop
@@ -472951,7 +472957,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -473357,6 +473362,7 @@
 0.0.0.0 stcharlesmotors.com
 0.0.0.0 std.o.webmd.com
 0.0.0.0 std112.github.io
+0.0.0.0 stdown.dinju.com
 0.0.0.0 steacncomnuniry.ru
 0.0.0.0 stead.dedspac.ru
 0.0.0.0 steadfast-seemly-cobalt.glitch.me
@@ -475976,7 +475982,6 @@
 0.0.0.0 swiftfieldxc.vercel.app
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
-0.0.0.0 swiftonyx16.com
 0.0.0.0 swiftpathav.vercel.app
 0.0.0.0 swiftpay0.github.io
 0.0.0.0 swifts-fynn-webs.deno.dev
@@ -488620,6 +488625,7 @@
 0.0.0.0 v5akcz1.lat
 0.0.0.0 v5gpn4.yl029.com
 0.0.0.0 v5k2vid4x.wmhjedgbus.es
+0.0.0.0 v5q.eu
 0.0.0.0 v6.mobilelog.upqzfile.com
 0.0.0.0 v6.viayonetici.com
 0.0.0.0 v6analytics.htmedia.in.edgekey.net
@@ -494793,7 +494799,6 @@
 0.0.0.0 win3656.cc
 0.0.0.0 winadiscount.com
 0.0.0.0 winaproduct.com
-0.0.0.0 winbitbrowser.com
 0.0.0.0 wince.dedspac.ru
 0.0.0.0 wincert.us.intellitxt.com
 0.0.0.0 wincleaner.com
@@ -498310,7 +498315,6 @@
 0.0.0.0 www.assormemor.store
 0.0.0.0 www.assorscons.store
 0.0.0.0 www.astalavista.us
-0.0.0.0 www.astenterprises.com.pk
 0.0.0.0 www.astorgatrade.com
 0.0.0.0 www.astroescre.store
 0.0.0.0 www.asvftry.bond
@@ -510320,6 +510324,7 @@
 0.0.0.0 www.oilbasics.com
 0.0.0.0 www.oiudsfjutr.eu.cc
 0.0.0.0 www.oix.com
+0.0.0.0 www.ojang.pe.kr
 0.0.0.0 www.ojcg5dfr.eu.cc
 0.0.0.0 www.ojolink.fr
 0.0.0.0 www.ojrq.net
@@ -521134,7 +521139,6 @@
 0.0.0.0 xxxpornshares.xyz
 0.0.0.0 xxxreactor.com
 0.0.0.0 xy-mail.online
-0.0.0.0 xy.jzhh.pro
 0.0.0.0 xy.xyss38.cc
 0.0.0.0 xybdgapi.hantangcapital.com
 0.0.0.0 xydailijizhang.com
@@ -522861,7 +522865,6 @@
 0.0.0.0 zhermopultix-ai-gb.com
 0.0.0.0 zhggpqst.shop
 0.0.0.0 zhh08b3.wixsite.com
-0.0.0.0 zhigao5191.com
 0.0.0.0 zhihu-web-analytics.zhihu.com
 0.0.0.0 zhilan.ru
 0.0.0.0 zhirok.com
