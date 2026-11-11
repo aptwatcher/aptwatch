@@ -1,7 +1,7 @@
 # Title: APT Watch — APT Combined Blocklist
 # Description: All validated APT IPs + malicious domains
-# Last modified: 2026-11-11 00:34:14
-# Entries: 13564
+# Last modified: 2026-11-11 06:06:00
+# Entries: 13567
 # Homepage: https://aptwatch.org
 # License: TLP:AMBER — do not share publicly
 #
@@ -13526,12 +13526,14 @@
 0.0.0.0 img3.centovinipolska.com
 0.0.0.0 joinnow.diasporamedia.net
 0.0.0.0 js-stable.pupplements.com
+0.0.0.0 kerotilex.com
 0.0.0.0 knowledge.md
 0.0.0.0 libraryadvances.com
 0.0.0.0 lucidamiproductions.com
 0.0.0.0 mail-cross3.acilkredi.ch
 0.0.0.0 match.sitefulia.com
 0.0.0.0 medium.exathomeswebuytexas.com
+0.0.0.0 merra.grihemiaziarirubiav.com
 0.0.0.0 mini-kit.nashstuder.com
 0.0.0.0 myfoodxrxcrccrcxs.com
 0.0.0.0 newresumebuilder.com
@@ -13540,6 +13542,7 @@
 0.0.0.0 ow-api.behzad.eu.org
 0.0.0.0 parish.menberetsebaotholytrinityeotc.org
 0.0.0.0 php-panel.letsgoautomotive.com
+0.0.0.0 pic-st.championboerboel.com
 0.0.0.0 platform.isystemservices.com
 0.0.0.0 player-js.joelbauer.com
 0.0.0.0 prod-static.nascarnash.com

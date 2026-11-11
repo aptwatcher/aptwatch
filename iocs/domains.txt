@@ -1,5 +1,5 @@
 # APT Watch — Domain IOCs (cleaned)
-# Count: 1300946
+# Count: 1300948
 # Cleaned: mining pools, email providers, cloud/CDN, invalid entries removed
 # Mining pools extracted to: mining_domains.txt
 #
@@ -1300958,3 +1300958,5 @@ xmybnnews.gs.hantangcapital.com
 xybdgapi.hantangcapital.com
 indicator.style.top
 t.style.top
+q.prototype.ua
+x.prototype.ua

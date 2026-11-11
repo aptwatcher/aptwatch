@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-11 00:34:15
-# Entries: 523462
+# Generated: 2026-11-11 06:06:02
+# Entries: 523465
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -271293,7 +271293,6 @@
 0.0.0.0 grupollado.com
 0.0.0.0 grupolmi.com
 0.0.0.0 grupomapv.com.co
-0.0.0.0 grupomcperu.com
 0.0.0.0 grupomdt.com.br
 0.0.0.0 grupomedimagen.com
 0.0.0.0 grupomg.com.ar
@@ -282564,6 +282563,7 @@
 0.0.0.0 hitlounge.com
 0.0.0.0 hitly.pl
 0.0.0.0 hitmailreview2.web.app
+0.0.0.0 hitman-pro.ru
 0.0.0.0 hitman71hd-wixsite-com.filesusr.com
 0.0.0.0 hitmanpro.tech
 0.0.0.0 hitmodel.net
@@ -408032,6 +408032,7 @@
 0.0.0.0 paletapeletow.shop
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
+0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palickaz24plll.eu.cc
 0.0.0.0 palingviralsxx.duckdns.org
@@ -416368,6 +416369,7 @@
 0.0.0.0 picturesque-maroon-conkerberry.glitch.me
 0.0.0.0 picturesque-tartan-whippet.glitch.me
 0.0.0.0 picturetrus.duckdns.org
+0.0.0.0 pictureurl.com
 0.0.0.0 picturez.vercel.app
 0.0.0.0 picue.net
 0.0.0.0 picugolos.tk
@@ -437871,6 +437873,7 @@
 0.0.0.0 q.medicuso.ru
 0.0.0.0 q.mnswiv.biz.id
 0.0.0.0 q.myvisualiq.net
+0.0.0.0 q.prototype.ua
 0.0.0.0 q.wbhal.gq
 0.0.0.0 q.www365kvip.net
 0.0.0.0 q00g5dy7zs.projects.webpages.one
@@ -474395,7 +474398,6 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
-0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamridgeclover.online
 0.0.0.0 streamseek.net
@@ -481475,7 +481477,6 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
-0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -520350,6 +520351,7 @@
 0.0.0.0 x.imwx.com
 0.0.0.0 x.interia.pl
 0.0.0.0 x.mochiads.com
+0.0.0.0 x.prototype.ua
 0.0.0.0 x.ql21.biz.id
 0.0.0.0 x.skimresources.com
 0.0.0.0 x.ulitron.ru
@@ -520561,6 +520563,7 @@
 0.0.0.0 xenical.4.p2l.info
 0.0.0.0 xenkrupom-digital.pages.dev
 0.0.0.0 xenkrupomia-click.pages.dev
+0.0.0.0 xeno.baby
 0.0.0.0 xenodochial-liskov.34-125-197-109.plesk.page
 0.0.0.0 xenon.studio
 0.0.0.0 xenonclient.com
