@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-10 18:34:16
-# Entries: 523467
+# Generated: 2026-11-11 00:34:15
+# Entries: 523462
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -45271,6 +45271,7 @@
 0.0.0.0 abc.elitoras.ru
 0.0.0.0 abc.embroidme.com.pl
 0.0.0.0 abc.esportregister.com
+0.0.0.0 abc.highpnk.life
 0.0.0.0 abc.huazhxd.top
 0.0.0.0 abc.k886fu.cloudns.biz
 0.0.0.0 abc.kravtion.biz.id
@@ -52196,7 +52197,6 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
-0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -60164,7 +60164,6 @@
 0.0.0.0 adturtle.biz
 0.0.0.0 adty.cc
 0.0.0.0 aduanas-mexico.org
-0.0.0.0 adubuildersco.com
 0.0.0.0 adubuildersorangecounty.com
 0.0.0.0 aduda.ru
 0.0.0.0 adudev.digital
@@ -149445,6 +149444,7 @@
 0.0.0.0 bnehomeimprovement.com
 0.0.0.0 bnert-106161.weeblysite.com
 0.0.0.0 bnes-andyanes.firebaseapp.com
+0.0.0.0 bnet-api.playm8ru.win
 0.0.0.0 bnet.aaplumb.org
 0.0.0.0 bnet.becomingmyownboss.biz
 0.0.0.0 bnet.dinevenice.com
@@ -168067,7 +168067,6 @@
 0.0.0.0 cctv4.pages.dev
 0.0.0.0 cctvdelnorte.com.mx
 0.0.0.0 cctvv.pythonanywhere.com
-0.0.0.0 ccu.to
 0.0.0.0 ccudl.com
 0.0.0.0 ccuffn.icu
 0.0.0.0 ccugkfg.shop
@@ -169844,6 +169843,7 @@
 0.0.0.0 ceramic.sikolar.ru
 0.0.0.0 ceramicacano.es
 0.0.0.0 ceramicasalinas.com
+0.0.0.0 ceramicasaosebastiao.com.br
 0.0.0.0 ceramide.bortogat.ru
 0.0.0.0 ceramide.timanar.ru
 0.0.0.0 ceramikaczary.pl
@@ -184642,7 +184642,6 @@
 0.0.0.0 complianceguidelinesbrandvault.vercel.app
 0.0.0.0 complianceguidelinesconversioninsight.vercel.app
 0.0.0.0 compliancemediaamplify.vercel.app
-0.0.0.0 complianceportals.com
 0.0.0.0 compliancetraining360.com
 0.0.0.0 complianceviolationcontentblast.vercel.app
 0.0.0.0 complianceviolationconversionx.vercel.app
@@ -205272,7 +205271,6 @@
 0.0.0.0 dfghuyjamu.duckdns.org
 0.0.0.0 dfgihjhgfdsdfghjjhdssmfdkjfdnnbveifindndinin.pages.dev
 0.0.0.0 dfgjhklhlfghjnk.weebly.com
-0.0.0.0 dfgjnisdjfgnisjdfng.online
 0.0.0.0 dfgretgg.blogspot.bg
 0.0.0.0 dfgretgg.blogspot.cl
 0.0.0.0 dfgretgg.blogspot.co.id
@@ -209149,12 +209147,14 @@
 0.0.0.0 dl-islamic-concentration-thu.trycloudflare.com
 0.0.0.0 dl-tornj.ir
 0.0.0.0 dl-trustwallet.com
+0.0.0.0 dl.1003b.56a.com
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
+0.0.0.0 dl.dzqzd.com
 0.0.0.0 dl.elitoras.ru
 0.0.0.0 dl.fotoable.com
 0.0.0.0 dl.freeshare.link
@@ -210852,7 +210852,6 @@
 0.0.0.0 docusognauth.azurewebsites.net
 0.0.0.0 docutickverify.tk
 0.0.0.0 docuvault.cc
-0.0.0.0 docuviewse.com
 0.0.0.0 docuware.duckdns.org
 0.0.0.0 docview.cloud
 0.0.0.0 docx-psjaisd-us.gq
@@ -246219,7 +246218,6 @@
 0.0.0.0 first1tech.net
 0.0.0.0 firstadfin.co.in
 0.0.0.0 firstali.org.tr
-0.0.0.0 firstalwayshere.com
 0.0.0.0 firstamendmentallianceeducationalfund.com
 0.0.0.0 firstbanktrust1.vmpxsites.com
 0.0.0.0 firstbaptistcares.org
@@ -252943,7 +252941,6 @@
 0.0.0.0 ftp.trezor-wallet-trezor.net
 0.0.0.0 ftp.ulitron.ru
 0.0.0.0 ftp.vaastushreerealestate.com
-0.0.0.0 ftp.vietnam852.com
 0.0.0.0 ftp.viralchikaterbary.youdontcare.com
 0.0.0.0 ftp.weblogin.pics
 0.0.0.0 ftp.webtologin.top
@@ -255215,6 +255212,7 @@
 0.0.0.0 gaemiinilogiz.godaddysites.com
 0.0.0.0 gaeminillogini.webflow.io
 0.0.0.0 gaeminlogii.godaddysites.com
+0.0.0.0 gaenterprises.in
 0.0.0.0 gaer.pages.dev
 0.0.0.0 gaf-company.clean.to
 0.0.0.0 gafaaola.duckdns.org
@@ -380963,6 +380961,7 @@
 0.0.0.0 n.systemlog.me
 0.0.0.0 n.targetctracker.com
 0.0.0.0 n.timerto.ru
+0.0.0.0 n.vs108.com
 0.0.0.0 n.yj.fr
 0.0.0.0 n.z7mard.yhfnxn4yif.yyg.44f4bm8jj.tjgs.a7fwx4s.y4sk4f.fs.2ejmf.jjxp.scyrz6q.3k4y.cn2gbzw.epjnheai6.ndsye.6b8scztpm.rbfkhx.de.w.2qkwnw.hmtr.5ntsprmyy.awejw.jphz.iyxw3qjcn.ens3c.pay.paypalcancel.cc
 0.0.0.0 n01d05.cumulus-cloud.com
@@ -389718,6 +389717,7 @@
 0.0.0.0 nimblescarceadware--five-nine.repl.co
 0.0.0.0 nimbopio.com
 0.0.0.0 nimbopio.thyasd.com
+0.0.0.0 nimbus-90.com
 0.0.0.0 nimbusroot.org
 0.0.0.0 nimbustesting.info
 0.0.0.0 nimcash558.temp.swtest.ru
@@ -392739,7 +392739,6 @@
 0.0.0.0 npnfwkqwti.duckdns.org
 0.0.0.0 npnjs.com
 0.0.0.0 npnjs.org
-0.0.0.0 npnl34ww.xyz
 0.0.0.0 npnoulggxxezdfeh-dot-millinium.ey.r.appspot.com
 0.0.0.0 npo-tech.ru
 0.0.0.0 npo.nichost.ru
@@ -397983,7 +397982,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -416098,7 +416096,6 @@
 0.0.0.0 physicsbeckons.com
 0.0.0.0 physimath.com
 0.0.0.0 physio-roesch.de
-0.0.0.0 physioga.net
 0.0.0.0 physiology-anatomy.seo-florida.com
 0.0.0.0 physorg.uk.intellitxt.com
 0.0.0.0 physostigma.space
@@ -423718,6 +423715,7 @@
 0.0.0.0 powerprecinct.com.au
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
+0.0.0.0 powershell.lat
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -436727,7 +436725,6 @@
 0.0.0.0 pump-one.com
 0.0.0.0 pump.jamessnewteam.world
 0.0.0.0 pumpace.com
-0.0.0.0 pumpadmin.fun
 0.0.0.0 pumpbuildefy.pages.dev
 0.0.0.0 pumped-billowy-velvet.glitch.me
 0.0.0.0 pumped-cream-cobalt.glitch.me
@@ -439569,6 +439566,7 @@
 0.0.0.0 qsvegshuwxhgflsrkqfrflokbfqxuaifuueg.solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 qsvgr.blogspot.bg
 0.0.0.0 qsvgr.blogspot.lu
+0.0.0.0 qsx.renwr.life
 0.0.0.0 qsxbeecrlm.duckdns.org
 0.0.0.0 qsy1.wozcq.com
 0.0.0.0 qsyewzabfoijylgugrypsbmrox-dot-gl099898987fhkl.uk.r.appspot.com
@@ -469530,6 +469528,7 @@
 0.0.0.0 softsafe24.shop
 0.0.0.0 softsagetrace.life
 0.0.0.0 softsandtools.com
+0.0.0.0 softshare.eeriiootw.com
 0.0.0.0 softsmart.mobi
 0.0.0.0 softstablebrigh.digital
 0.0.0.0 softstream.strangled.net
@@ -473355,7 +473354,6 @@
 0.0.0.0 stcharlesmotors.com
 0.0.0.0 std.o.webmd.com
 0.0.0.0 std112.github.io
-0.0.0.0 stdown.dinju.com
 0.0.0.0 steacncomnuniry.ru
 0.0.0.0 stead.dedspac.ru
 0.0.0.0 steadfast-seemly-cobalt.glitch.me
@@ -475974,7 +475972,6 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftdryblowdryers.org
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftonyx16.com
@@ -488381,6 +488378,7 @@
 0.0.0.0 utuydnmq.top
 0.0.0.0 uu.domainforlite.com
 0.0.0.0 uu.edu.et
+0.0.0.0 uu.v2raynapps.com.cn
 0.0.0.0 uu1615.com
 0.0.0.0 uudaix10.xn--grena-v11b.vn
 0.0.0.0 uueroruuura-8mr1cub6vv.edgeone.app
@@ -505380,7 +505378,6 @@
 0.0.0.0 www.greynomadsontheroad.com
 0.0.0.0 www.greyqioor9z1.fit
 0.0.0.0 www.greystoneswiftronsystem-com.pages.dev
-0.0.0.0 www.grg1n.com
 0.0.0.0 www.grgrlolozoom.shop
 0.0.0.0 www.gridglass32.co
 0.0.0.0 www.griege-baguette.shop
@@ -520564,7 +520561,6 @@
 0.0.0.0 xenical.4.p2l.info
 0.0.0.0 xenkrupom-digital.pages.dev
 0.0.0.0 xenkrupomia-click.pages.dev
-0.0.0.0 xeno.baby
 0.0.0.0 xenodochial-liskov.34-125-197-109.plesk.page
 0.0.0.0 xenon.studio
 0.0.0.0 xenonclient.com
@@ -520992,7 +520988,6 @@
 0.0.0.0 xshakkd-xuia.kpnx.mom
 0.0.0.0 xshop.com.tr
 0.0.0.0 xskcjzamlkxwo.gq
-0.0.0.0 xskx.artemida.live
 0.0.0.0 xsltweemat.org
 0.0.0.0 xsnsmsnsnscmc.weebly.com
 0.0.0.0 xso.to
