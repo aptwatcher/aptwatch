@@ -233,6 +233,51 @@ shared infrastructure to annotate. Reviewers should not silently delete
 one of the attributions.
 </p>
 
+<h2>5c. Scope and entity categories</h2>
+
+<p>
+APT Watch tracks <strong>Russian state-sponsored actors</strong> first, with
+three declared extensions: Russian-speaking ransomware / crime crews and
+MaaS operators, <strong>Russian state-directed FIMI</strong> (information
+manipulation) infrastructure, and <strong>North Korean state crypto-theft</strong>.
+Every actor row carries a <code>category</code> so consumers can filter:
+</p>
+
+<table>
+  <thead>
+    <tr><th>category</th><th>What it is</th><th>Attributed IOCs?</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>state_sponsored</code> / <code>state_aligned</code></td>
+        <td>Nation-state APTs (RU, plus coop'd BY / IR / KP where documented).</td>
+        <td>Yes — C2, phishing, implants.</td></tr>
+    <tr><td><code>ransomware</code> / <code>ecrime</code></td>
+        <td>Named ransomware and crime operations with Russian-speaking ecosystem ties.</td>
+        <td>Yes.</td></tr>
+    <tr><td><code>state_directed_fimi</code></td>
+        <td>State-directed influence networks (CopyCop, Portal Kombat, Doppelganger / SDA):
+            cloned news sites, laundering domains. Seized domains are kept as
+            <em>historical</em> evidence and never reach the DNS feeds.</td>
+        <td>Yes — domains, hosting IPs.</td></tr>
+    <tr><td><code>infrastructure_provider</code> <span style="color:#888">(2026-11)</span></td>
+        <td><strong>Provider-layer</strong> entities: sanctioned bulletproof hosters
+            (Zservers, Aeza Group, Media Land). They carry the sanctions record
+            (CA / US / UK / EU / AU), their ASNs and the people designated with them.</td>
+        <td><strong>No.</strong> IOCs hosted on a provider keep their <em>tenant</em>
+            attribution (customer-on-provider rule). The provider link is exposed on
+            the ASN profile (<code>/intel/v1/asn/&lt;n&gt;</code>: <code>tracked_actors</code>,
+            <code>tags</code>, <code>provider</code>), not on the IOC.</td></tr>
+  </tbody>
+</table>
+
+<p>
+A sanctions listing alone never puts an IP or domain in a blocklist: the
+per-IP malicious signal and corroboration rules above still apply. Money-layer
+enablers (sanctioned exchanges, OTC desks) are recorded as
+<code>laundering_venue</code> links on the ransomware campaigns they served,
+again outside the published feeds.
+</p>
+
 <h2>5. Where to find the numbers</h2>
 
 <p>
@@ -249,7 +294,7 @@ an issue on the repo or email <code>aptwatch@pm.me</code>.
 </p>
 
 <p style="margin-top:3rem; color:#888; font-size:0.85rem;">
-Last revised: 2026-04-23. Step 2.E of the APT Watch rollout.
+Last revised: 2026-11-10 (section 5c: scope and entity categories, incl. <code>infrastructure_provider</code>). Section 1–5b: 2026-04-23, Step 2.E of the APT Watch rollout.
 </p>
 
 </body>

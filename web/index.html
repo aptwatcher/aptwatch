@@ -307,8 +307,8 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
     <div id="db-info-banner" style="display:none;background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--orange);border-radius:6px;padding:14px 18px;margin:20px 0 12px">
       <div style="font-size:13px;font-weight:600;color:var(--orange);margin-bottom:6px">Partial Export — Web Database</div>
       <div style="font-size:12px;color:var(--text2);line-height:1.6">
-        You are viewing the <b>web export</b>, a lightweight snapshot optimized for browser analysis. Some tables (domains, URLs, low-severity vulnerability findings) are excluded to keep the file small enough to load client-side.
-        For full coverage — including all domains, URLs, complete vulnerability data, and the validation queue — work with a local copy of the full database using the CLI tools.
+        You are viewing the <b>web export</b>, a lightweight snapshot optimized for browser analysis. Some tables (domains, URLs, vulnerability findings, campaign attribution) are excluded to keep the file small enough to load client-side.
+        For full coverage — including all domains, URLs, complete vulnerability data, and campaign attribution — work with a local copy of the full database using the CLI tools.
       </div>
     </div>
     <div id="db-info-full" style="display:none;background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--green);border-radius:6px;padding:14px 18px;margin:20px 0 12px">
@@ -476,7 +476,7 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
         <button class="btn" onclick="toolExport('CVEs','SELECT cve_id, first_seen FROM cves ORDER BY cve_id')">Export CVEs</button>
         <button class="btn" onclick="toolExport('C2 Indicators','SELECT DISTINCT ip, risk_score, c2_indicators, services FROM scan_results WHERE c2_indicators IS NOT NULL AND c2_indicators != \'\' ORDER BY risk_score DESC')">Export IPs with C2 Indicators</button>
         <button class="btn" onclick="toolExport('Campaigns','SELECT id, campaign_name, threat_actor_type, origin_country, first_seen, last_seen, confidence FROM campaigns ORDER BY last_seen DESC')">Export Campaigns</button>
-        <button class="btn" onclick="toolExport('Mining Domains','SELECT domain FROM mining_domains ORDER BY domain')">Export Mining Domains</button>
+        <button class="btn" onclick="window.open('iocs/mining_domains.txt','_blank')">Download Mining Domains</button>
         <button class="btn" onclick="window.open('blocklists/aptw-full-ips.netset','_blank')">Download aptw-full-ips</button>
         <button class="btn" onclick="window.open('blocklists/aptw-full-domains-plain.txt','_blank')">Download aptw-full-domains</button>
       </div>
@@ -667,9 +667,10 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
   <div id="attribution-content" style="display:none">
     <div class="section-title">Campaign Overview</div>
     <div class="cards" id="attribution-cards"></div>
-    <div class="section-title" style="margin-top:20px">Campaigns (13)</div>
+    <div id="attribution-empty" style="display:none;background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--orange);border-radius:6px;padding:14px 18px;margin:12px 0;font-size:12px;color:var(--text2);line-height:1.6">Campaign attribution tables (campaigns, sources, campaign IOCs, hosting providers, certificate patterns, takedown targets) are not included in the web export. Load the full database (<a href="https://api.aptwatch.org/api/download/full" style="color:var(--accent)">Full DB</a>) to browse them.</div>
+    <div class="section-title" style="margin-top:20px">Campaigns (<span id="campaigns-count">0</span>)</div>
     <div class="table-wrap"><table id="campaigns-table"></table></div>
-    <div class="section-title" style="margin-top:20px">Attribution Sources (53)</div>
+    <div class="section-title" style="margin-top:20px">Attribution Sources (<span id="attr-sources-count">0</span>)</div>
     <div class="controls">
       <select id="attr-campaign-filter" onchange="loadAttributionSources()">
         <option value="">All campaigns</option>
@@ -720,7 +721,8 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
       </div>
     </div>
 
-    <div class="section-title">Cross-Agency Correlations (26)</div>
+    <div class="section-title">Cross-Agency Correlations (<span id="corr-count">0</span>)</div>
+    <div id="corr-empty" style="display:none;background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--orange);border-radius:6px;padding:14px 18px;margin:12px 0;font-size:12px;color:var(--text2);line-height:1.6">Campaign-to-campaign correlations are not included in the web export. Load the full database (<a href="https://api.aptwatch.org/api/download/full" style="color:var(--accent)">Full DB</a>) to browse them.</div>
     <div class="controls">
       <select id="corr-confidence-filter" onchange="loadCorrelations()">
         <option value="">All confidence</option>
@@ -753,7 +755,7 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
         <div style="font-size:12px;color:var(--text2)">Mandiant APT44 report confirms APT28 (Unit 26165) and Sandworm (Unit 74455) cohabitate on shared infrastructure. Microsoft documents Cadet Blizzard (Unit 29155) as a Sandworm subgroup.</div>
       </div>
       <div class="card" style="border-left:3px solid var(--orange)">
-        <div style="font-weight:600;color:var(--orange);margin-bottom:6px">FSB Inter-Unit Collaboration (NEW)</div>
+        <div style="font-weight:600;color:var(--orange);margin-bottom:6px">FSB Inter-Unit Collaboration</div>
         <div style="font-size:12px;color:var(--text2)">ESET September 2025: First documented FSB collaboration. Gamaredon (Center 18) deploys Turla (Center 16) Kazuar v2 backdoor via PteroGraphin loader.</div>
       </div>
       <div class="card" style="border-left:3px solid var(--purple)">
@@ -793,13 +795,10 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
         <option value="active">Active</option>
         <option value="stale">Stale</option>
         <option value="expired">Expired</option>
+        <option value="archived">Archived</option>
       </select>
       <select id="v3-provider-filter">
-        <option value="">All provider risk</option>
-        <option value="critical">Critical</option>
-        <option value="medium">Medium</option>
-        <option value="low">Low</option>
-        <option value="neutral">Neutral</option>
+        <option value="">All provider classes</option>
       </select>
       <input type="number" id="v3-min-score" placeholder="Min score (0-1)" min="0" max="1" step="0.1">
       <input type="text" id="v3-ip-search" placeholder="Search IP...">
@@ -877,8 +876,8 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
       </select>
       <select id="bl-provider">
         <option value="">All providers</option>
-        <option value="critical">Critical (BPH) only</option>
-        <option value="critical,medium">Critical + Medium</option>
+        <option value="bulletproof_hosting,abuse_tolerant">Bulletproof / abuse-tolerant only</option>
+        <option value="bulletproof_hosting,abuse_tolerant,datacenter">Bulletproof / abuse-tolerant + datacenter</option>
       </select>
       <input type="number" id="bl-limit" placeholder="Limit" value="10000" min="1" max="50000">
       <button class="btn-primary" onclick="v3BuildBlocklist()">Build Blocklist</button>
@@ -899,7 +898,7 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
   <div class="loading" id="database-loading">Load a database to view its details.</div>
   <div id="database-content" style="display:none">
     <div class="section-title">Database Details</div>
-    <p style="font-size:12px;color:var(--text2);margin-bottom:12px">Schema, build history, data volumes, attribution activity, and the intelligence notes curated during research.</p>
+    <p style="font-size:12px;color:var(--text2);margin-bottom:12px">Schema, export freshness, live table counts, and dated research notes. Counts are computed from the loaded database.</p>
     <div id="meta-info" class="db-details"></div>
   </div>
 </div>
@@ -1153,17 +1152,10 @@ function loadOverview() {
 
   let cardsHtml = '';
   counts.forEach(c => {
-    let val;
-    try {
-      val = qVal(`SELECT COUNT(*) FROM ${c.table}`);
-    } catch(e) {
-      // Table missing (web export) — use metadata fallback
-      if (c.fallback) {
-        val = qVal(`SELECT value FROM metadata WHERE key='${c.fallback}'`);
-        val = parseInt(val) || 0;
-      } else {
-        val = 0;
-      }
+    // Table missing or emptied by the web export — use the metadata summary count
+    let val = tableExists(c.table) ? (qVal(`SELECT COUNT(*) FROM ${c.table}`) || 0) : 0;
+    if (!val && c.fallback) {
+      val = parseInt(qVal(`SELECT value FROM metadata WHERE key='${c.fallback}'`)) || 0;
     }
     const jumpAttrs = c.jump ? ` data-jump="${c.jump}"${c.subtype?` data-subtype="${c.subtype}"`:''} style="cursor:pointer" onclick="goToTab('${c.jump}'${c.subtype?`,'${c.subtype}'`:''})"` : '';
     cardsHtml += `<div class="card ${c.cls}"${jumpAttrs}><div class="label">${c.label}</div><div class="value">${val.toLocaleString()}</div></div>`;
@@ -1230,19 +1222,6 @@ function loadOverview() {
     }
   }
 
-  // Campaign Intelligence stats (dynamic from DB)
-  try {
-    const cIocs = qVal("SELECT COUNT(*) FROM campaign_iocs ci JOIN campaigns c ON ci.campaign_id=c.id WHERE c.campaign_name LIKE '%HOSTKEY%'") || 0;
-    const cDomains = qVal("SELECT COUNT(DISTINCT ioc_value) FROM campaign_iocs ci JOIN campaigns c ON ci.campaign_id=c.id WHERE c.campaign_name LIKE '%HOSTKEY%' AND ci.ioc_type='domain'") || 0;
-    const cIPs = qVal("SELECT COUNT(DISTINCT ioc_value) FROM campaign_iocs ci JOIN campaigns c ON ci.campaign_id=c.id WHERE c.campaign_name LIKE '%HOSTKEY%' AND ci.ioc_type='ipv4'") || 0;
-    const cStaging = qVal("SELECT COUNT(*) FROM staging_servers WHERE ip LIKE '194.85.251.%' OR ip LIKE '176.65.144.%'") || 0;
-    const cCerts = qVal("SELECT COUNT(*) FROM cert_patterns WHERE assessment LIKE '%HOSTKEY%' OR assessment LIKE '%DEDIK%' OR assessment LIKE '%176.65.144%' OR assessment LIKE '%194.85.25%'") || 0;
-    const el = document.getElementById('campaign-hostkey-stats');
-    if (el) {
-      el.innerHTML = `<span style="font-size:11px;color:var(--text2)">DB: <b style="color:var(--accent)">${cIocs}</b> campaign IOCs | <b style="color:var(--accent)">${cIPs}</b> IPs | <b style="color:var(--accent)">${cDomains}</b> domains | <b style="color:var(--accent)">${cStaging}</b> staging servers | <b style="color:var(--accent)">${cCerts}</b> cert patterns</span>`;
-    }
-  } catch(e) { /* campaign tables may not exist in web export */ }
-
   // DB info banner
   if (isWebExport) {
     document.getElementById('db-info-banner').style.display = 'block';
@@ -1253,6 +1232,7 @@ function loadOverview() {
   // IOC Feeds
   const feeds = [
     { label: 'IPv4 IOCs', file: 'iocs/ipv4.txt', table: 'ipv4_iocs', icon: '🔴' },
+    { label: 'IPv6 IOCs', file: 'iocs/ipv6.txt', table: 'ipv6_iocs', icon: '🟣' },
     { label: 'CIDR Ranges', file: 'iocs/cidr.txt', table: 'cidr_iocs', icon: '🔶' },
     { label: 'Domains', file: 'iocs/domains.txt', table: 'domains', fallback: 'web_domain_count', icon: '🌐' },
     { label: 'Mining Domains', file: 'iocs/mining_domains.txt', table: null, meta: 'mining_domain_count', icon: '⛏️' },
@@ -1278,20 +1258,12 @@ function loadOverview() {
   ];
   let feedsHtml = '';
   feeds.forEach(f => {
+    // Live count when the table is present; metadata summary when the web export dropped it
     let count = '—';
-    try {
-      if (f.table) {
-        count = qVal(`SELECT COUNT(*) FROM ${f.table}`);
-      } else if (f.meta) {
-        count = qVal(`SELECT value FROM metadata WHERE key='${f.meta}'`);
-      }
-      if (count === null || count === undefined) count = '—';
-      else count = parseInt(count).toLocaleString();
-    } catch(e) {
-      if (f.fallback) {
-        try { count = parseInt(qVal(`SELECT value FROM metadata WHERE key='${f.fallback}'`)).toLocaleString(); } catch(e2) {}
-      }
-    }
+    let n = null;
+    if (f.table && tableExists(f.table)) n = qVal(`SELECT COUNT(*) FROM ${f.table}`);
+    if (!n && (f.fallback || f.meta)) n = parseInt(qVal(`SELECT value FROM metadata WHERE key='${f.fallback || f.meta}'`));
+    if (n) count = Number(n).toLocaleString();
     feedsHtml += `<div style="background:var(--bg3);border-radius:6px;padding:10px 12px">
       <div style="font-size:10px;color:var(--text2);text-transform:uppercase;letter-spacing:0.5px">${f.icon} ${f.label}</div>
       <div style="font-size:18px;font-weight:600;margin-top:2px">${count}</div>
@@ -1311,10 +1283,13 @@ function loadOverview() {
   });
   document.getElementById('blocklist-feeds-list').innerHTML = blHtml;
 
-  // Metadata — categorized Database Details
-  const meta = q("SELECT key, value FROM metadata ORDER BY key");
-  const metaMap = {};
-  if (meta.length > 0) meta[0].values.forEach(([k, v]) => { metaMap[k] = v; });
+  // Metadata — categorized Database Details.
+  // Counts are computed live from the loaded tables: the *_count keys in the metadata table are
+  // only written at rebuild time and drift. Metadata is used only for tables the web export
+  // drops (domains, urls, vulnerability_findings).
+  const meta = q("SELECT key, value, updated_at FROM metadata ORDER BY key");
+  const metaMap = {}, metaDate = {};
+  if (meta.length > 0) meta[0].values.forEach(([k, v, u]) => { metaMap[k] = v; metaDate[k] = u; });
 
   const fmtDate = (v) => {
     if (!v || v === 'None') return 'n/a';
@@ -1326,6 +1301,16 @@ function loadOverview() {
     return isNaN(n) ? v : n.toLocaleString();
   };
   const fmtBool = (v) => (v === 'true' ? '<span class="dd-value ok">yes</span>' : v === 'false' ? '<span class="dd-value">no</span>' : v || '—');
+  const escHtml = (v) => String(v == null ? '' : v).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const NOT_EXPORTED = '<span style="color:var(--text2)">not in web export</span>';
+  // Live row count; metadata summary (web_* keys) when the table is missing/empty.
+  const liveCount = (table, metaKey) => {
+    const c = tableExists(table) ? (qVal(`SELECT COUNT(*) FROM ${table}`) || 0) : 0;
+    if (c) return c.toLocaleString();
+    if (metaKey && metaMap[metaKey]) return fmtNum(metaMap[metaKey]);
+    return isWebExport ? NOT_EXPORTED : '0';
+  };
+  const liveVal = (sql) => { try { const r = db.exec(sql); return r.length ? r[0].values[0][0] : null; } catch(e) { return null; } };
 
   const row = (label, val, cls) => `<div class="dd-row"><span class="dd-label">${label}</span><span class="dd-value${cls?' '+cls:''}">${val == null || val === '' ? '—' : val}</span></div>`;
 
@@ -1333,49 +1318,51 @@ function loadOverview() {
   let g1 = '<div class="dd-group"><h3>Schema &amp; Build</h3>';
   g1 += row('Schema version', metaMap['schema_version'] || '—');
   g1 += row('Database created', fmtDate(metaMap['created_date']));
-  g1 += row('Last rebuild', fmtDate(metaMap['last_rebuild']));
-  g1 += row('Last incremental', fmtDate(metaMap['last_incremental']));
   g1 += row('Web export', fmtBool(metaMap['web_export']));
-  if (metaMap['web_export_date']) g1 += row('Export date', fmtDate(metaMap['web_export_date']));
+  if (isWebExport) g1 += row('Export date (UTC)', fmtDate(metaMap['web_export_date'] || metaDate['web_export']));
+  g1 += row('Latest IOC sighting', fmtDate(liveVal("SELECT MAX(last_seen) FROM ipv4_iocs")));
+  g1 += row('Latest scan result', fmtDate(liveVal("SELECT MAX(scan_date) FROM scan_results")));
+  g1 += row('Latest validation', fmtDate(liveVal("SELECT MAX(queried_at) FROM enrichment_results")));
   g1 += '</div>';
 
   // Group 2: Data volumes
   let g2 = '<div class="dd-group"><h3>Data Volumes</h3>';
-  g2 += row('IPv4 IOCs', fmtNum(metaMap['ipv4_count']));
-  g2 += row('IPv6 IOCs', fmtNum(metaMap['ipv6_count']));
-  g2 += row('CIDRs', fmtNum(metaMap['cidr_count']));
-  g2 += row('Domains', fmtNum(metaMap['domain_count'] || metaMap['web_domain_count']));
-  g2 += row('URLs', fmtNum(metaMap['url_count'] || metaMap['web_url_count']));
-  g2 += row('CVEs', fmtNum(metaMap['cve_count']));
-  g2 += row('Emails', fmtNum(metaMap['email_count']));
-  g2 += row('Scan results', fmtNum(metaMap['scan_result_count']));
-  g2 += row('Vuln findings', fmtNum(metaMap['vulnerability_finding_count'] || metaMap['web_vuln_count']));
-  g2 += row('Vuln hosts', fmtNum(metaMap['vulnerability_host_count'] || metaMap['web_vuln_hosts']));
+  g2 += row('IPv4 IOCs', liveCount('ipv4_iocs'));
+  g2 += row('IPv6 IOCs', liveCount('ipv6_iocs'));
+  g2 += row('CIDRs', liveCount('cidr_iocs'));
+  g2 += row('Subnets', liveCount('subnets'));
+  g2 += row('Domains', liveCount('domains', 'web_domain_count'));
+  g2 += row('URLs', liveCount('urls', 'web_url_count'));
+  g2 += row('CVEs', liveCount('cves'));
+  g2 += row('Emails', liveCount('emails'));
+  g2 += row('Scan results', liveCount('scan_results'));
+  g2 += row('Vuln findings', liveCount('vulnerability_findings', 'web_vuln_count'));
+  g2 += row('Vuln hosts', (tableExists('vulnerability_findings') && qVal("SELECT COUNT(*) FROM vulnerability_findings"))
+    ? qVal("SELECT COUNT(DISTINCT host) FROM vulnerability_findings").toLocaleString()
+    : (metaMap['web_vuln_hosts'] ? fmtNum(metaMap['web_vuln_hosts']) : (isWebExport ? NOT_EXPORTED : '0')));
   g2 += '</div>';
 
   // Group 3: Attribution & Research
   let g3 = '<div class="dd-group"><h3>Attribution &amp; Research</h3>';
-  g3 += row('Campaigns tracked', fmtNum(metaMap['campaign_count']));
-  g3 += row('Attribution sources', fmtNum(metaMap['attribution_source_count']));
-  g3 += row('IP correlations', fmtNum(metaMap['correlation_count']));
-  g3 += row('Last attribution run', fmtDate(metaMap['last_attribution_research']));
-  g3 += row('Attribution update', fmtDate(metaMap['attribution_update']));
-  if (metaMap['intel_update_last']) {
-    // intel_update_last is a prose summary — show only first 80 chars here; full text in notes section
-    const short = String(metaMap['intel_update_last']).substring(0, 80);
-    g3 += row('Last intel update', short + (metaMap['intel_update_last'].length > 80 ? '…' : ''));
-  }
+  g3 += row('Campaigns tracked', liveCount('campaigns'));
+  g3 += row('Attribution sources', liveCount('attribution_sources'));
+  g3 += row('Campaign IOC links', liveCount('campaign_iocs'));
+  g3 += row('IP correlations', liveCount('ip_correlations'));
+  g3 += row('Staging / relay servers', liveCount('staging_servers'));
+  g3 += row('Source validations', liveCount('source_validations'));
+  g3 += row('MITRE ATT&amp;CK mappings', liveCount('mitre_mapping'));
   g3 += '</div>';
 
-  // Group 4: Intel notes (collapsible — full-width)
-  const intelKeys = Object.keys(metaMap).filter(k => k.startsWith('intel_note_') || k === 'merge_duplicate_campaigns' || k === 'intel_update_last');
+  // Group 4: Research notes (collapsible — full-width). Dated: these are point-in-time notes.
+  const intelKeys = Object.keys(metaMap).filter(k => k.startsWith('intel_note_'));
   let g4 = '';
   if (intelKeys.length) {
-    g4 = '<div class="dd-group full-row"><h3>Intelligence Notes (' + intelKeys.length + ')</h3>';
-    g4 += '<details><summary>Expand notes</summary>';
-    intelKeys.sort().forEach(k => {
+    g4 = '<div class="dd-group full-row"><h3>Research Notes (' + intelKeys.length + ')</h3>';
+    g4 += '<details><summary>Expand notes (point-in-time, see date on each note)</summary>';
+    intelKeys.sort((a, b) => String(metaDate[b] || '').localeCompare(String(metaDate[a] || ''))).forEach(k => {
       const title = k.replace(/^intel_note_/, '').replace(/_/g, ' ');
-      g4 += `<div class="dd-note"><div class="dd-note-title">${title}</div>${metaMap[k]}</div>`;
+      const d = metaDate[k] ? ' <span style="font-weight:400;color:var(--text2)">— ' + fmtDate(metaDate[k]).substring(0, 10) + '</span>' : '';
+      g4 += `<div class="dd-note"><div class="dd-note-title">${escHtml(title)}${d}</div>${escHtml(metaMap[k])}</div>`;
     });
     g4 += '</details></div>';
   }
@@ -1390,7 +1377,8 @@ function loadOverview() {
       let v = metaMap[k];
       // Pretty-print JSON if it parses
       try { v = JSON.stringify(JSON.parse(v), null, 2); } catch(e) {}
-      g5 += `<div class="dd-note"><div class="dd-note-title">${k.replace(/_/g, ' ')}</div><div class="dd-json">${v}</div></div>`;
+      const d = metaDate[k] ? ' <span style="font-weight:400;color:var(--text2)">— ' + fmtDate(metaDate[k]).substring(0, 10) + '</span>' : '';
+      g5 += `<div class="dd-note"><div class="dd-note-title">${escHtml(k.replace(/_/g, ' '))}${d}</div><div class="dd-json">${escHtml(v)}</div></div>`;
     });
     g5 += '</details></div>';
   }
@@ -1903,9 +1891,9 @@ function loadPatternTable() {
     { name: 'WIN-9QL4SDRB93L', type: 'Shared Windows Image', conf: 'HIGH', desc: 'Same VM template across 80.76.49.x + 194.59.31.x' },
     { name: 'C2 Port Cluster (6000-6767)', type: 'C2 Infrastructure', conf: 'HIGH', desc: '28-port cluster, clone of 194.85.251.81 (hypervisor.hv)' },
     { name: 'X-UI Proxy Panel', type: 'Proxy Infrastructure', conf: 'MEDIUM', desc: 'V2Ray/Xray panel on 195.211.191.x, 91.92.40.x' },
-    { name: 'dedik.io', type: 'Bulletproof Hosting', conf: 'HIGH', desc: 'Russian bulletproof hosting, cert CN = customer-ID + date' },
+    { name: 'dedik.io', type: 'Hosting Marketplace', conf: 'HIGH', desc: 'Russian dedicated-server marketplace, cert CN = customer-ID + date' },
     { name: 'Tor Exits (mcgc5...)', type: 'Anonymization', conf: 'MEDIUM', desc: '185.220.101.128-191, same cert serial, CalyxInstitute range' },
-    { name: 'Spoofed Certs', type: 'MITM Infrastructure', conf: 'INFO', desc: 'vk, microsoft, github, apple certs on proxy hosts' },
+    { name: 'Mirrored Brand Certs', type: 'TLS Camouflage (proxy)', conf: 'INFO', desc: 'Genuine vk / microsoft / github / apple certificates relayed by TLS-forwarding proxies (Xray REALITY-style). Not forgeries; not an attribution signal on their own' },
   ];
 
   let html = '<tr><th>Pattern</th><th>Type</th><th>Confidence</th><th>Assessment</th></tr>';
@@ -2003,7 +1991,7 @@ document.querySelectorAll('nav button').forEach(btn => {
 function toolExport(name, sql) {
   if (!db) return;
   const r = q(sql);
-  if (!r.length || !r[0].values.length) { alert('No results for: ' + name); return; }
+  if (!r.length || !r[0].values.length) { alert('No results for: ' + name + (isWebExport ? '\n\nThis table is not included in the web export. Load the full database to export it.' : '')); return; }
 
   let csv = [r[0].columns.map(c => `"${c}"`).join(',')];
   r[0].values.forEach(row => {
@@ -2036,9 +2024,13 @@ function runHealthCheck() {
   const ver = qVal("SELECT value FROM metadata WHERE key='schema_version'");
   out.push(`Schema version: ${ver || 'unknown'}`);
 
-  // Last rebuild
-  const rebuild = qVal("SELECT value FROM metadata WHERE key='last_rebuild'");
-  out.push(`Last rebuild:   ${rebuild || 'never'}`);
+  // Freshness
+  if (isWebExport) {
+    const exported = qVal("SELECT updated_at FROM metadata WHERE key='web_export'");
+    out.push(`Web export:     ${exported || 'unknown'} UTC`);
+  }
+  const lastSeen = qVal("SELECT MAX(last_seen) FROM ipv4_iocs");
+  out.push(`Latest IOC:     ${lastSeen || 'unknown'}`);
 
   // Table counts
   out.push('\n--- Table Counts ---');
@@ -2047,8 +2039,9 @@ function runHealthCheck() {
   tables.forEach(t => {
     try {
       const c = qVal(`SELECT COUNT(*) FROM ${t}`);
-      const status = c > 0 ? 'OK' : 'EMPTY';
-      if (c === 0) allOk = false;
+      const webDropped = isWebExport && c === 0 && t === 'vulnerability_findings';
+      const status = c > 0 ? 'OK' : webDropped ? 'excluded from web export (see metadata)' : 'EMPTY';
+      if (c === 0 && !webDropped) allOk = false;
       out.push(`  ${t.padEnd(20)} ${String(c).padStart(10)}  ${status}`);
     } catch(e) {
       out.push(`  ${t.padEnd(20)}    MISSING`);
@@ -2058,10 +2051,10 @@ function runHealthCheck() {
 
   // Domain/URL (may be in metadata only)
   ['domains','urls'].forEach(t => {
-    try {
+    if (tableExists(t)) {
       const c = qVal(`SELECT COUNT(*) FROM ${t}`);
-      out.push(`  ${t.padEnd(20)} ${String(c).padStart(10)}  ${c > 0 ? 'OK' : 'web export (see metadata)'}`);
-    } catch(e) {
+      out.push(`  ${t.padEnd(20)} ${String(c).padStart(10)}  ${c > 0 ? 'OK' : 'EMPTY'}`);
+    } else {
       const metaKey = `web_${t === 'domains' ? 'domain' : 'url'}_count`;
       const mc = qVal(`SELECT value FROM metadata WHERE key='${metaKey}'`);
       out.push(`  ${t.padEnd(20)} ${String(mc || 0).padStart(10)}  (from metadata, table excluded in web export)`);
@@ -2499,6 +2492,10 @@ function loadAttribution() {
     cardsHtml += `<div class="card ${c.cls}"><div class="label">${c.label}</div><div class="value">${val}</div></div>`;
   });
   document.getElementById('attribution-cards').innerHTML = cardsHtml;
+  const nCamp = qVal('SELECT COUNT(*) FROM campaigns') || 0;
+  document.getElementById('campaigns-count').textContent = nCamp.toLocaleString();
+  document.getElementById('attr-sources-count').textContent = (qVal('SELECT COUNT(*) FROM attribution_sources') || 0).toLocaleString();
+  document.getElementById('attribution-empty').style.display = nCamp ? 'none' : 'block';
 
   // Campaigns table
   const camps = q("SELECT campaign_name, aliases, threat_actor_type, origin_country, confidence FROM campaigns ORDER BY id");
@@ -2563,18 +2560,24 @@ function loadInterAgency() {
   document.getElementById('interagency-content').style.display = 'block';
 
   loadCorrelations();
+  const nCorr = qVal('SELECT COUNT(*) FROM campaign_correlations') || 0;
+  document.getElementById('corr-count').textContent = nCorr.toLocaleString();
+  document.getElementById('corr-empty').style.display = nCorr ? 'none' : 'block';
 
-  // Convergence points
+  // Convergence points — IOC counts are read live from asn_info (no hard-coded numbers)
   const convergence = [
-    { label: 'Hetzner AS24940', actors: 'GRU + SVR + Campaigns', iocs: 47, cls: 'critical' },
-    { label: 'AEZA AS210644', actors: 'State + Criminal', iocs: 888, cls: 'critical' },
-    { label: 'M247 AS9009', actors: 'APT28 + C2 Ops', iocs: 38, cls: 'high' },
-    { label: 'Vultr AS20473', actors: 'APT28 + General C2', iocs: 66, cls: 'high' },
-    { label: 'Private Layer AS51852', actors: 'Unit 29155', iocs: 3, cls: 'medium' },
+    { label: 'Hetzner', asn: 24940, actors: 'GRU + SVR + Campaigns', cls: 'critical' },
+    { label: 'AEZA', asn: 210644, actors: 'State + Criminal', cls: 'critical' },
+    { label: 'M247', asn: 9009, actors: 'APT28 + C2 Ops', cls: 'high' },
+    { label: 'Vultr', asn: 20473, actors: 'APT28 + General C2', cls: 'high' },
+    { label: 'Private Layer', asn: 51852, actors: 'Unit 29155', cls: 'medium' },
   ];
+  const hasAsnInfo = tableExists('asn_info');
   let convHtml = '';
   convergence.forEach(c => {
-    convHtml += `<div class="card ${c.cls}"><div class="label">${c.label}</div><div class="value">${c.iocs} IOCs</div><div style="font-size:11px;color:var(--text2)">${c.actors}</div></div>`;
+    const iocs = hasAsnInfo ? (qVal(`SELECT COALESCE(SUM(ioc_count),0) FROM asn_info WHERE asn = ${c.asn}`) || 0) : null;
+    const val = iocs === null ? '—' : iocs.toLocaleString() + ' IOCs';
+    convHtml += `<div class="card ${c.cls}"><div class="label">${c.label} AS${c.asn}</div><div class="value">${val}</div><div style="font-size:11px;color:var(--text2)">${c.actors}</div></div>`;
   });
   document.getElementById('convergence-cards').innerHTML = convHtml;
 }

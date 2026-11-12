@@ -45,12 +45,14 @@ function v3LoadScoring() {
   const active = qVal("SELECT COUNT(*) FROM ipv4_iocs WHERE lifecycle_state='active'");
   const stale = qVal("SELECT COUNT(*) FROM ipv4_iocs WHERE lifecycle_state='stale'");
   const expired = qVal("SELECT COUNT(*) FROM ipv4_iocs WHERE lifecycle_state='expired'");
+  const archived = qVal("SELECT COUNT(*) FROM ipv4_iocs WHERE lifecycle_state='archived'");
   const unassessed = qVal("SELECT COUNT(*) FROM ipv4_iocs WHERE lifecycle_state IS NULL OR lifecycle_state=''");
 
   document.getElementById('lifecycle-cards').innerHTML =
     `<div class="card critical"><div class="label">Active</div><div class="value">${active.toLocaleString()}</div></div>` +
     `<div class="card medium"><div class="label">Stale</div><div class="value">${stale.toLocaleString()}</div></div>` +
     `<div class="card low"><div class="label">Expired</div><div class="value">${expired.toLocaleString()}</div></div>` +
+    `<div class="card info"><div class="label">Archived</div><div class="value">${archived.toLocaleString()}</div></div>` +
     `<div class="card info"><div class="label">Unassessed</div><div class="value">${unassessed.toLocaleString()}</div></div>`;
 
   // Provider risk
@@ -60,11 +62,25 @@ function v3LoadScoring() {
     provR[0].values.forEach(r => {
       const prl = r[0] || 'unknown';
       const cnt = r[1];
-      const cls = prl === 'critical' ? 'critical' : prl === 'medium' ? 'medium' : prl === 'low' ? 'low' : 'info';
+      const cls = (prl === 'critical' || prl === 'bulletproof_hosting' || prl === 'abuse_tolerant') ? 'critical'
+        : (prl === 'medium' || prl === 'datacenter') ? 'medium'
+        : (prl === 'low' || prl === 'cloud_provider') ? 'low' : 'info';
       provHtml += `<div class="card ${cls}"><div class="label">${prl}</div><div class="value">${cnt.toLocaleString()}</div></div>`;
     });
   }
   document.getElementById('provider-cards').innerHTML = provHtml;
+
+  // Provider filter options come from the data (the class vocabulary has changed over time)
+  const provSel = document.getElementById('v3-provider-filter');
+  if (provSel && provSel.options.length <= 1 && provR.length > 0) {
+    provR[0].values.forEach(r => {
+      if (!r[0]) return;
+      const opt = document.createElement('option');
+      opt.value = r[0];
+      opt.textContent = String(r[0]).replace(/_/g, ' ');
+      provSel.appendChild(opt);
+    });
+  }
 }
 
 function v3QueryIOCs() {
