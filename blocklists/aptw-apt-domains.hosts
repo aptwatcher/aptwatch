@@ -1,7 +1,7 @@
 # Title: APT Watch — APT Malicious Domains
 # Description: Domains from APT threat intelligence reports
-# Last modified: 2026-11-12 00:33:40
-# Entries: 90
+# Last modified: 2026-11-12 06:05:28
+# Entries: 91
 # Homepage: https://aptwatch.org
 # License: TLP:AMBER — do not share publicly
 #
@@ -75,6 +75,7 @@
 0.0.0.0 schedule.eznosdrivingschool.com
 0.0.0.0 secrets.json
 0.0.0.0 secure.seketafrica.org
+0.0.0.0 sentinel.cryptodigitalsupport.com
 0.0.0.0 setup.mjs
 0.0.0.0 snap.promantree.com
 0.0.0.0 socgholish.ariaaglass.com

@@ -66,6 +66,7 @@ roadmap.lifeinsurancemasters.net
 schedule.eznosdrivingschool.com
 secrets.json
 secure.seketafrica.org
+sentinel.cryptodigitalsupport.com
 setup.mjs
 snap.promantree.com
 socgholish.ariaaglass.com
