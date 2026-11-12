@@ -352,7 +352,7 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
 <!-- IOC EXPLORER TAB -->
 <div class="tab" id="tab-iocs">
   <div class="controls">
-    <select id="ioc-type">
+    <select id="ioc-type" onchange="queryIOCs()">
       <option value="ipv4_iocs">IPv4</option>
       <option value="ipv6_iocs">IPv6</option>
       <option value="cves">CVEs</option>
@@ -371,6 +371,7 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
     <button onclick="queryIOCs()">Search</button>
     <button onclick="exportTableCSV('ioc-table')">Export CSV</button>
   </div>
+  <div id="ioc-notice" style="display:none;background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--orange);border-radius:6px;padding:14px 18px;margin:12px 0;font-size:12px;color:var(--text2);line-height:1.6"></div>
   <div class="results-info" id="ioc-info"></div>
   <div class="table-wrap"><table id="ioc-table"></table></div>
 </div>
@@ -515,10 +516,6 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
       <div class="controls">
         <select id="staging-role-filter" onchange="loadStagingTable()">
           <option value="">All roles</option>
-          <option value="staging">Staging</option>
-          <option value="c2_relay">C2 Relay</option>
-          <option value="proxy">Proxy</option>
-          <option value="redirector">Redirector</option>
         </select>
         <select id="staging-conf-filter" onchange="loadStagingTable()">
           <option value="0">All confidence</option>
@@ -679,7 +676,7 @@ th { font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weigh
     </div>
     <div class="results-info" id="attr-sources-info"></div>
     <div class="table-wrap"><table id="attr-sources-table"></table></div>
-    <div class="section-title" style="margin-top:20px">Campaign IOCs</div>
+    <div class="section-title" style="margin-top:20px">Campaign IOCs <span style="font-weight:400;color:var(--text2);font-size:11px">(first 2,000 — use Custom SQL for the full set)</span></div>
     <div class="table-wrap"><table id="campaign-iocs-table"></table></div>
     <div class="section-title" style="margin-top:20px">Hosting Providers</div>
     <div class="table-wrap"><table id="hosting-table"></table></div>
@@ -1062,7 +1059,7 @@ function renderTable(tableId, columns, rows, opts={}) {
         val = `<span class="ioc-link" onclick="showDomainProfile('${safe}')">${val}</span>`;
       }
       // ASN / hosting_provider drill-down
-      else if ((col === 'asn' || col === 'hosting_provider' || col === 'provider') && typeof val === 'string' && val) {
+      else if ((col === 'asn' || col === 'hosting_provider' || col === 'provider') && (typeof val === 'string' || typeof val === 'number') && val) {
         const safe = String(val).replace(/'/g, "\\'");
         val = `<span class="ioc-link" onclick="showASNProfile('${safe}')">${val}</span>`;
       }
@@ -1427,12 +1424,26 @@ function queryIOCs() {
   const type = document.getElementById('ioc-type').value;
   const search = document.getElementById('ioc-search').value.trim();
 
-  // Check if table exists
-  let tableExists = true;
-  try { q(`SELECT 1 FROM ${type} LIMIT 1`); } catch(e) { tableExists = false; }
-
-  if (!tableExists) {
-    document.getElementById('ioc-info').textContent = `Table "${type}" not available in this database export. Use the full apt_intel.db for domain/URL searches.`;
+  // Domains and URLs are too large for the web export: explain instead of showing "0 results"
+  const notice = document.getElementById('ioc-notice');
+  notice.style.display = 'none';
+  if (!tableExists(type)) {
+    const feeds = {
+      domains: { label: 'Domains', meta: 'web_domain_count', file: 'iocs/domains.txt' },
+      urls: { label: 'URLs', meta: 'web_url_count', file: 'iocs/urls.txt' },
+    };
+    const f = feeds[type];
+    if (f) {
+      const total = parseInt(qVal(`SELECT value FROM metadata WHERE key='${f.meta}'`)) || 0;
+      notice.innerHTML = `<b style="color:var(--orange)">${f.label} are not included in the web database.</b> `
+        + (total ? `The full dataset holds ${total.toLocaleString()} ${f.label.toLowerCase()}, too many to load in the browser. ` : '')
+        + `To search them, download the plain-text feed (<a href="${f.file}" style="color:var(--accent)">${f.file}</a>) `
+        + `or load the full database (<a href="https://api.aptwatch.org/api/download/full" style="color:var(--accent)">Full DB</a>).`;
+    } else {
+      notice.textContent = `Table "${type}" is not available in this database.`;
+    }
+    notice.style.display = 'block';
+    document.getElementById('ioc-info').textContent = '';
     renderTable('ioc-table', [], []);
     return;
   }
@@ -1473,8 +1484,12 @@ function queryIOCs() {
 // =============================================================
 
 function queryVulnScan() {
-  if (!tableExists('vulnerability_findings')) {
-    document.getElementById('vulnscan-info').textContent = 'Vulnerability findings not available in the web export (too large). Load the full apt_intel.db to access this tab.';
+  if (!tableExists('vulnerability_findings') || (isWebExport && !qVal('SELECT COUNT(*) FROM vulnerability_findings'))) {
+    const vTotal = parseInt(qVal("SELECT value FROM metadata WHERE key='web_vuln_count'")) || 0;
+    const vHosts = parseInt(qVal("SELECT value FROM metadata WHERE key='web_vuln_hosts'")) || 0;
+    document.getElementById('vulnscan-info').textContent = 'Vulnerability findings are not included in the web database (too large for the browser)'
+      + (vTotal ? `: ${vTotal.toLocaleString()} findings across ${vHosts.toLocaleString()} hosts in the full dataset` : '')
+      + '. Load the full database (Full DB link in the header) to use this tab.';
     renderTable('vulnscan-table', [], []);
     return;
   }
@@ -1728,7 +1743,7 @@ function showDomainProfile(domain) {
     });
     html += '</div>';
   } else {
-    html += '<div class="empty">Not in <code>domains</code> table (may be a web-export snapshot).</div>';
+    html += (isWebExport ? '<div class="empty">Domain records are not included in the web database. Search the plain-text feed (<a href="iocs/domains.txt" style="color:var(--accent)">iocs/domains.txt</a>) or load the full database.</div>' : '<div class="empty">Not in the <code>domains</code> table.</div>');
   }
 
   // URLs for this domain
@@ -1752,12 +1767,22 @@ function showASNProfile(asn) {
   let html = `<div style="font-family:'JetBrains Mono',monospace;color:var(--text2);font-size:12px;margin-bottom:8px">${asn}</div>`;
 
   // IPs on this ASN / provider
-  const ips = _safeQuery(`SELECT DISTINCT i.ip, i.infra_type, i.composite_score, i.lifecycle_state FROM ipv4_iocs i LEFT JOIN enrichment_results e ON e.indicator = i.ip WHERE e.hosting_provider LIKE '%${a}%' OR e.hosting_provider = '${a}' ORDER BY i.composite_score DESC LIMIT 200`);
+  // Accept an AS number (12345 / AS12345) or a provider / org name
+  const asnNum = /^(AS)?\d+$/i.test(String(asn).trim()) ? parseInt(String(asn).replace(/\D/g, ''), 10) : null;
+  const asnWhere = asnNum !== null ? `e.asn = ${asnNum}` : `e.hosting_provider LIKE '%${a}%' OR e.asn_org LIKE '%${a}%'`;
+  if (asnNum !== null) {
+    const info = _safeQuery(`SELECT org_name, country, ioc_count, subnet_count FROM asn_info WHERE asn = ${asnNum} LIMIT 1`);
+    if (info.length && info[0].values.length) {
+      const [org, cc, iocs, subs] = info[0].values[0];
+      html += `<div style="font-size:12px;margin-bottom:8px"><b>${org || ''}</b> (${cc || '?'}) — ${(iocs || 0).toLocaleString()} IOCs across ${(subs || 0).toLocaleString()} subnets</div>`;
+    }
+  }
+  const ips = _safeQuery(`SELECT DISTINCT i.ip, i.infra_type, i.composite_score, i.lifecycle_state FROM ipv4_iocs i JOIN enrichment_results e ON e.indicator = i.ip WHERE ${asnWhere} ORDER BY i.composite_score DESC LIMIT 200`);
   if (ips.length && ips[0].values.length) {
-    html += '<div style="font-size:12px;color:var(--text2);margin-bottom:8px">Found <b>' + ips[0].values.length + '</b> IPs attributed to this ASN/provider.</div>';
+    html += '<div style="font-size:12px;color:var(--text2);margin-bottom:8px">Showing <b>' + ips[0].values.length + '</b> IPs on this ASN/provider (top 200 by score).</div>';
     html += _renderMiniTable('IPs on this ASN', ips[0].columns, ips[0].values, {limit:100});
   } else {
-    html += '<div class="empty">No IPs indexed for this ASN (may require IP2Location enrichment).</div>';
+    html += '<div class="empty">No enriched IPs found for this ASN / provider in this database.</div>';
   }
   _openModal('ASN / Provider — ' + asn, html);
 }
@@ -1767,16 +1792,16 @@ function showCountryProfile(country) {
   const c = _esc(country);
   let html = `<div style="color:var(--text2);font-size:12px;margin-bottom:8px">Country filter: <b>${country}</b></div>`;
 
-  const ips = _safeQuery(`SELECT DISTINCT i.ip, i.infra_type, i.composite_score, i.lifecycle_state FROM ipv4_iocs i LEFT JOIN enrichment_results e ON e.indicator = i.ip LEFT JOIN asn_info a ON e.hosting_provider LIKE '%'||a.org_name||'%' WHERE a.country = '${c}' ORDER BY i.composite_score DESC LIMIT 200`);
+  const ips = _safeQuery(`SELECT DISTINCT i.ip, i.infra_type, i.composite_score, i.lifecycle_state FROM ipv4_iocs i JOIN enrichment_results e ON e.indicator = i.ip WHERE e.country = '${c}' ORDER BY i.composite_score DESC LIMIT 200`);
   if (ips.length && ips[0].values.length) {
-    html += _renderMiniTable('IPs in ' + country, ips[0].columns, ips[0].values, {limit:100});
+    html += _renderMiniTable('IPs geolocated in ' + country + ' (top 200 by score)', ips[0].columns, ips[0].values, {limit:100});
   }
   const camps = _safeQuery(`SELECT campaign_name, threat_actor_type, origin_country FROM campaigns WHERE origin_country = '${c}'`);
   if (camps.length && camps[0].values.length) {
     html += _renderMiniTable('Campaigns from ' + country, camps[0].columns, camps[0].values);
   }
   if ((!ips.length || !ips[0].values.length) && (!camps.length || !camps[0].values.length)) {
-    html += '<div class="empty">No geographic data indexed. This dashboard will be more useful once IP2Location enrichment is integrated (see Phase 4 TODO).</div>';
+    html += '<div class="empty">No IPs or campaigns found for this country in this database.</div>';
   }
   _openModal('Country — ' + country, html);
 }
@@ -1807,7 +1832,7 @@ function showCampaignProfile(name) {
       }
     }
   } else {
-    html += '<div class="empty">Campaign not found. The name may differ between <code>campaign_name</code> and <code>threat_actor_name</code>.</div>';
+    html += (isWebExport ? '<div class="empty">Campaign details are not included in the web database. Load the full database to browse campaigns.</div>' : '<div class="empty">Campaign not found. The name may differ between <code>campaign_name</code> and <code>threat_actor_name</code>.</div>');
   }
   _openModal('Campaign — ' + name, html);
 }
@@ -2145,6 +2170,20 @@ function loadRecon() {
   }
 
   cards.innerHTML = html;
+
+  // Role filter options come from the data
+  if (hasStagin) {
+    const roleSel = document.getElementById('staging-role-filter');
+    const roles = q("SELECT role, COUNT(*) FROM staging_servers WHERE role IS NOT NULL AND role != '' GROUP BY role ORDER BY COUNT(*) DESC");
+    if (roleSel.options.length <= 1 && roles.length > 0) {
+      roles[0].values.forEach(([role, cnt]) => {
+        const opt = document.createElement('option');
+        opt.value = role;
+        opt.textContent = String(role).replace(/_/g, ' ') + ' (' + cnt.toLocaleString() + ')';
+        roleSel.appendChild(opt);
+      });
+    }
+  }
 
   // Auto-load staging if available
   if (hasStagin) loadStagingTable();
@@ -2516,7 +2555,7 @@ function loadAttribution() {
   loadAttributionSources();
 
   // Campaign IOCs
-  const iocs = q("SELECT c.campaign_name, ci.ioc_type, ci.ioc_value, ci.role, ci.notes FROM campaign_iocs ci JOIN campaigns c ON ci.campaign_id=c.id ORDER BY c.id, ci.ioc_type");
+  const iocs = q("SELECT c.campaign_name, ci.ioc_type, ci.ioc_value, ci.role, ci.notes FROM campaign_iocs ci JOIN campaigns c ON ci.campaign_id=c.id ORDER BY c.id, ci.ioc_type LIMIT 2000");
   if (iocs.length > 0) renderTable('campaign-iocs-table', iocs[0].columns, iocs[0].values);
 
   // Hosting providers
@@ -2560,7 +2599,7 @@ function loadInterAgency() {
   document.getElementById('interagency-content').style.display = 'block';
 
   loadCorrelations();
-  const nCorr = qVal('SELECT COUNT(*) FROM campaign_correlations') || 0;
+  const nCorr = qVal('SELECT COUNT(*) FROM campaign_correlations cc JOIN campaigns c1 ON cc.campaign_a_id=c1.id JOIN campaigns c2 ON cc.campaign_b_id=c2.id') || 0;
   document.getElementById('corr-count').textContent = nCorr.toLocaleString();
   document.getElementById('corr-empty').style.display = nCorr ? 'none' : 'block';
 
