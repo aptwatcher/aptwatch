@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-12 12:34:21
-# Entries: 523471
+# Generated: 2026-11-12 18:33:53
+# Entries: 523475
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -146383,6 +146383,7 @@
 0.0.0.0 bkkcojiyocr.tauzetaomega.org
 0.0.0.0 bkkgks.com
 0.0.0.0 bkknr8rb.qwo231sdx.club
+0.0.0.0 bkktech-thai.com
 0.0.0.0 bkkuajndcuolzctd-dot-millinium.ey.r.appspot.com
 0.0.0.0 bkkumar.cu.ma
 0.0.0.0 bkkumhzklyogbkit-dot-millinium.ey.r.appspot.com
@@ -168629,6 +168630,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -193604,7 +193606,6 @@
 0.0.0.0 cuy3a-4qaaa-aaaag-abdyq-cai.raw.ic0.app
 0.0.0.0 cuya.vadilops.ru
 0.0.0.0 cuyagz87.duckdns.org
-0.0.0.0 cuyarts.com.pe
 0.0.0.0 cuycabdbvq.duckdns.org
 0.0.0.0 cuycoinloginn.webflow.io
 0.0.0.0 cuymghrzqukdzrxm-dot-millinium.ey.r.appspot.com
@@ -194642,7 +194643,6 @@
 0.0.0.0 d-voyager.com
 0.0.0.0 d-zoneid-2696726-request.web.app
 0.0.0.0 d.101m3.com
-0.0.0.0 d.14yaa.com
 0.0.0.0 d.3656240125.top
 0.0.0.0 d.3656240128.xyz
 0.0.0.0 d.365k240125.top
@@ -201290,7 +201290,6 @@
 0.0.0.0 delt.ulitron.ru
 0.0.0.0 delta-auth-ndax-nav.webflow.io
 0.0.0.0 delta-bravo36db.de
-0.0.0.0 delta-canvas.com
 0.0.0.0 delta-control.es
 0.0.0.0 delta-haven.pages.dev
 0.0.0.0 delta-hydraulic.com
@@ -212101,6 +212100,7 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
+0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.stellarcedar.live
@@ -237460,6 +237460,7 @@
 0.0.0.0 fastrig.top
 0.0.0.0 fasts-downloads.com
 0.0.0.0 fastsaver.co.uk
+0.0.0.0 fastsetup.lol
 0.0.0.0 fastshare.click
 0.0.0.0 fastsky.digital
 0.0.0.0 fastsms.com.ng
@@ -243863,6 +243864,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -283738,6 +283740,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -287340,7 +287343,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -300472,6 +300474,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -304488,7 +304491,6 @@
 0.0.0.0 itchyladybird.build067.wpsandbox.app
 0.0.0.0 itcicloud.cn
 0.0.0.0 itcitymm.com
-0.0.0.0 itco.pe
 0.0.0.0 itcom-cm.net
 0.0.0.0 itcomm.co.id
 0.0.0.0 itcommunication.co.za
@@ -342039,7 +342041,6 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
-0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -380961,6 +380962,7 @@
 0.0.0.0 n.systemlog.me
 0.0.0.0 n.targetctracker.com
 0.0.0.0 n.timerto.ru
+0.0.0.0 n.vs108.com
 0.0.0.0 n.yj.fr
 0.0.0.0 n.z7mard.yhfnxn4yif.yyg.44f4bm8jj.tjgs.a7fwx4s.y4sk4f.fs.2ejmf.jjxp.scyrz6q.3k4y.cn2gbzw.epjnheai6.ndsye.6b8scztpm.rbfkhx.de.w.2qkwnw.hmtr.5ntsprmyy.awejw.jphz.iyxw3qjcn.ens3c.pay.paypalcancel.cc
 0.0.0.0 n01d05.cumulus-cloud.com
@@ -388123,6 +388125,7 @@
 0.0.0.0 nexgencreditrepair.com
 0.0.0.0 nexgenpackersmovers.com
 0.0.0.0 nexgold.org
+0.0.0.0 nexguard.pro
 0.0.0.0 nexi-carta-online.me
 0.0.0.0 nexi-centro-di-rilevamento-delle-frodi.ilcavo.ro
 0.0.0.0 nexi.144-172-113-82.cprapid.com
@@ -397982,6 +397985,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -408033,6 +408037,7 @@
 0.0.0.0 paletapeletow.shop
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
+0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palickaz24plll.eu.cc
 0.0.0.0 palingviralsxx.duckdns.org
@@ -465134,6 +465139,7 @@
 0.0.0.0 septicidally.timanar.ru
 0.0.0.0 sepulincaz.store
 0.0.0.0 sepume-xokaxu.com
+0.0.0.0 seputartuban.com
 0.0.0.0 seq.ulitron.ru
 0.0.0.0 ser-tribune-require-bodies.trycloudflare.com
 0.0.0.0 ser.adledge.com
@@ -466181,6 +466187,7 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
+0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -472954,7 +472961,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -481482,7 +481488,6 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
-0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -484536,7 +484541,6 @@
 0.0.0.0 tw.answers.quantarchive.com
 0.0.0.0 tw.as.y.atwola.com
 0.0.0.0 tw.c.appier.net
-0.0.0.0 tw.mcgrorys.top
 0.0.0.0 tw2.adserver.yahoo.com
 0.0.0.0 twa.ulitron.ru
 0.0.0.0 twain.dedspac.ru
@@ -494799,6 +494803,7 @@
 0.0.0.0 win3656.cc
 0.0.0.0 winadiscount.com
 0.0.0.0 winaproduct.com
+0.0.0.0 winbitbrowser.com
 0.0.0.0 wince.dedspac.ru
 0.0.0.0 wincert.us.intellitxt.com
 0.0.0.0 wincleaner.com
@@ -520363,7 +520368,6 @@
 0.0.0.0 x.ql21.biz.id
 0.0.0.0 x.skimresources.com
 0.0.0.0 x.ulitron.ru
-0.0.0.0 x0.at
 0.0.0.0 x03n.xyz
 0.0.0.0 x0ziqz.ayurbhojan.com
 0.0.0.0 x17online.us.intellitxt.com
