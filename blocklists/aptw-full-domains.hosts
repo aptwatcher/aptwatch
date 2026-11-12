@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-11 18:34:21
-# Entries: 523469
+# Generated: 2026-11-12 00:33:41
+# Entries: 523474
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -26783,7 +26783,6 @@
 0.0.0.0 545645645region5.blob.core.windows.net
 0.0.0.0 54576-att-index.weebly.com
 0.0.0.0 545825732.corolain.ru
-0.0.0.0 5459-457c-fdff.tawnyfold.cc
 0.0.0.0 545meanmildred.com
 0.0.0.0 546.360-insurance.com
 0.0.0.0 546002927.marak.ru
@@ -52760,6 +52759,7 @@
 0.0.0.0 activation-pages-statistic-02454562233myid.cf
 0.0.0.0 activation-pass-secur.com
 0.0.0.0 activation-planner.pro
+0.0.0.0 activation-pro.cc
 0.0.0.0 activation-promoteddesignmethod.jiseth-1995.repl.co
 0.0.0.0 activation-secu-webagri.myori.my
 0.0.0.0 activation-secure.justns.ru
@@ -114957,7 +114957,6 @@
 0.0.0.0 audreyeassad.com
 0.0.0.0 audreyyvonne.com
 0.0.0.0 audrinasherman.autos
-0.0.0.0 audtfnaurth.com.es
 0.0.0.0 audvideo.com
 0.0.0.0 aue8grmgtlbl71pi.liusanjie.cc
 0.0.0.0 auebg-8a9e.bosrmeadeklc.workers.dev
@@ -120441,7 +120440,6 @@
 0.0.0.0 avid.ulitron.ru
 0.0.0.0 avidadossantos.com.br
 0.0.0.0 avidalocal.com
-0.0.0.0 avidhosting.uk
 0.0.0.0 avidin.matsuro.ru
 0.0.0.0 avidnewssource.com
 0.0.0.0 avidpauly.com
@@ -122179,6 +122177,7 @@
 0.0.0.0 ayu-147.github.io
 0.0.0.0 ayu.ip-asia.com
 0.0.0.0 ayu.vadilops.ru
+0.0.0.0 ayub.cptz.wtf
 0.0.0.0 ayubians.edu.pk
 0.0.0.0 ayubrugs.com
 0.0.0.0 ayuda--verificacionco9.repl.co
@@ -137691,6 +137690,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -167977,6 +167977,7 @@
 0.0.0.0 cclaquila.it
 0.0.0.0 ccleaner.fr
 0.0.0.0 ccleaner.gholam.ru
+0.0.0.0 ccleaner.gl
 0.0.0.0 cclnjcyzkhpwtyxbfsnolkpnpd.polished-shore-301017.uk.r.appspot.com
 0.0.0.0 cclose.com
 0.0.0.0 ccltdtt.com
@@ -168067,7 +168068,6 @@
 0.0.0.0 cctvdelnorte.com.mx
 0.0.0.0 cctvv.pythonanywhere.com
 0.0.0.0 ccudl.com
-0.0.0.0 ccuffn.icu
 0.0.0.0 ccugkfg.shop
 0.0.0.0 ccuugnwhxbhyhgev-dot-millinium.ey.r.appspot.com
 0.0.0.0 ccviioiaaas.work.gd
@@ -168901,7 +168901,6 @@
 0.0.0.0 cdn01.pushtimize.com
 0.0.0.0 cdn010-whatsapp.69.ocry.com
 0.0.0.0 cdn03.week-ai.com
-0.0.0.0 cdn044us.xyz
 0.0.0.0 cdn1.ad-center.com
 0.0.0.0 cdn1.adadvisor.net
 0.0.0.0 cdn1.adcdnx.com
@@ -177238,6 +177237,7 @@
 0.0.0.0 clhulcbslefelnak-dot-millinium.ey.r.appspot.com
 0.0.0.0 clhzkltfafwolykndtauopcpeq-dot-gle39404049.rj.r.appspot.com
 0.0.0.0 cli.ambient-platform.com
+0.0.0.0 cli.clipdghhs.top
 0.0.0.0 cli.dedspac.ru
 0.0.0.0 cli.linksynergy.com
 0.0.0.0 cli.m.ambient-platform.com
@@ -208149,7 +208149,6 @@
 0.0.0.0 discordu.gift
 0.0.0.0 discordverify.pages.dev
 0.0.0.0 discordwithlocalstorage.netlify.app
-0.0.0.0 discordzapret.site
 0.0.0.0 discordzh.com
 0.0.0.0 discoriado.store
 0.0.0.0 discorl.com
@@ -208502,6 +208501,7 @@
 0.0.0.0 distinguishedsongtragedy.tumblr.com
 0.0.0.0 distinyction.shop
 0.0.0.0 distitetra.store
+0.0.0.0 distnode.biz
 0.0.0.0 distobarca.store
 0.0.0.0 distohaw.com
 0.0.0.0 distoquart.store
@@ -212186,6 +212186,7 @@
 0.0.0.0 download.htsoft.vn
 0.0.0.0 download.imtokenpro.net
 0.0.0.0 download.inboxace.com
+0.0.0.0 download.kaobeitu.com
 0.0.0.0 download.logins.online
 0.0.0.0 download.mclick.mobi
 0.0.0.0 download.pdf00.cn
@@ -215451,6 +215452,7 @@
 0.0.0.0 dx8frulyz1.9402.agacanoglu.com
 0.0.0.0 dx9.84a.mytemp.website
 0.0.0.0 dx9580.com
+0.0.0.0 dxa.rewan.live
 0.0.0.0 dxanpjzuuugqvpbbsnepgjxjqzptnhnmmawu-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 dxatzrajud.duckdns.org
 0.0.0.0 dxb.rewan.live
@@ -215687,7 +215689,6 @@
 0.0.0.0 dyndownload.serveirc.com
 0.0.0.0 dyne.dedspac.ru
 0.0.0.0 dynel.ulitron.ru
-0.0.0.0 dynga.pl
 0.0.0.0 dynid.com
 0.0.0.0 dynip.org
 0.0.0.0 dynis-hold.pages.dev
@@ -246417,6 +246418,7 @@
 0.0.0.0 fitfloppl.com
 0.0.0.0 fitfloppolskaoutlet.com
 0.0.0.0 fitflopspolskaoutlet.com
+0.0.0.0 fitforevercavan.ie
 0.0.0.0 fitful-manners.000webhostapp.com
 0.0.0.0 fitg.net
 0.0.0.0 fitges.oewabox.at
@@ -318740,6 +318742,7 @@
 0.0.0.0 kermitthesapo.github.io
 0.0.0.0 kermjeztsn.duckdns.org
 0.0.0.0 kerne.ulitron.ru
+0.0.0.0 kernelapi.cfd
 0.0.0.0 kernelbrightstudio.bond
 0.0.0.0 kernelnodepark.top
 0.0.0.0 kerneur-huissiers.fr
@@ -319387,7 +319390,6 @@
 0.0.0.0 khrrmmalik.github.io
 0.0.0.0 khscale.com.cn
 0.0.0.0 khsdhncvia-feedbackassistance.pages.dev
-0.0.0.0 khsnec.icu
 0.0.0.0 khtgojnhaqcsvvmejxiglvnpvi-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 khtl.vn
 0.0.0.0 khtrhdrhrsse.firebaseapp.com
@@ -319909,7 +319911,6 @@
 0.0.0.0 kingford.net
 0.0.0.0 kingfree247.onmypc.net
 0.0.0.0 kingfxlab23.wixstudio.io
-0.0.0.0 kingheavytransport.hu
 0.0.0.0 kinghk.000webhostapp.com
 0.0.0.0 kinghornsystems.com
 0.0.0.0 kingik.com
@@ -320501,6 +320502,7 @@
 0.0.0.0 kk60.cc
 0.0.0.0 kk7003.com
 0.0.0.0 kk8899.csb.app
+0.0.0.0 kk88cc.com
 0.0.0.0 kkachi.co.kr
 0.0.0.0 kkakrkwkeen.azurewebsites.net
 0.0.0.0 kkaofemi.com
@@ -323409,7 +323411,6 @@
 0.0.0.0 krone.nuggad.net
 0.0.0.0 krone.oewabox.at
 0.0.0.0 kronehit.oewabox.at
-0.0.0.0 kronemedia.de
 0.0.0.0 kronen-trader-gpt.com
 0.0.0.0 kroneruk.web.app
 0.0.0.0 kronioptika.al
@@ -332240,7 +332241,6 @@
 0.0.0.0 lier.dedspac.ru
 0.0.0.0 lier.ulitron.ru
 0.0.0.0 liers.dedspac.ru
-0.0.0.0 liesetaler.de
 0.0.0.0 liessk.spectrattacksz.cf
 0.0.0.0 lieu.boletuso.ru
 0.0.0.0 lieu.ulitron.ru
@@ -345357,7 +345357,6 @@
 0.0.0.0 maeitamicklogins.gitbook.io
 0.0.0.0 maell.redirectme.net
 0.0.0.0 maemvuzhfpukgafqaoiqppfjir-dot-gl099898987fhkl.uk.r.appspot.com
-0.0.0.0 maenc.icu
 0.0.0.0 maendeleovicoba.co.tz
 0.0.0.0 maenionac.com
 0.0.0.0 maeno501.com
@@ -388154,6 +388153,7 @@
 0.0.0.0 nexomyacwv.weebly.com
 0.0.0.0 nexopia.yolasite.com
 0.0.0.0 nexoraaicapital.com
+0.0.0.0 nexorafoundry.com
 0.0.0.0 nexoria-wealth.net
 0.0.0.0 nexostakingdao.pro
 0.0.0.0 nexostakingdapps.pro.livecopytrade.org
@@ -388429,6 +388429,7 @@
 0.0.0.0 nfsc-br3.pages.dev
 0.0.0.0 nfservices.duckdns.org
 0.0.0.0 nfsglobalsolution.com
+0.0.0.0 nfshgu.top
 0.0.0.0 nft-150mints.firebaseapp.com
 0.0.0.0 nft-airdrop.networksapp.eu.org
 0.0.0.0 nft-airdropclaim.web.app
@@ -438144,7 +438145,6 @@
 0.0.0.0 qbavpocsksuwckwq-dot-millinium.ey.r.appspot.com
 0.0.0.0 qbbbqsxijkaullwj-dot-millinium.ey.r.appspot.com
 0.0.0.0 qbco4.sa.com
-0.0.0.0 qbd.fillall.life
 0.0.0.0 qbdfx.blogspot.li
 0.0.0.0 qbe0932-v31312bv-32bv32v-v3312v.poiuytr.dyndns.dk
 0.0.0.0 qbeeyyikjq.gdkc9q.cn
@@ -440857,6 +440857,7 @@
 0.0.0.0 qxa2th.vampagram.com
 0.0.0.0 qxausvner.com
 0.0.0.0 qxaxoanwcfubqynt-dot-millinium.ey.r.appspot.com
+0.0.0.0 qxb.renwr.life
 0.0.0.0 qxb0832.webmo.site
 0.0.0.0 qxbroker.com
 0.0.0.0 qxcx.cn
@@ -458365,6 +458366,7 @@
 0.0.0.0 s3zv8.shop
 0.0.0.0 s4.histats.com
 0.0.0.0 s4.hit.stat24.com
+0.0.0.0 s4.ncreuh.icu
 0.0.0.0 s4.orln.us
 0.0.0.0 s4.shinystat.com
 0.0.0.0 s400.mxcdn.net
@@ -463608,6 +463610,7 @@
 0.0.0.0 scrooge.wnbc.com
 0.0.0.0 scrossuppe.store
 0.0.0.0 scrow.dedspac.ru
+0.0.0.0 scrroeder.com
 0.0.0.0 scrubswim.com
 0.0.0.0 scruf.dedspac.ru
 0.0.0.0 scrum.dedspac.ru
@@ -467984,7 +467987,6 @@
 0.0.0.0 skazki-olga-bogacheva.kz
 0.0.0.0 skbzfvi0u.localto.net
 0.0.0.0 skc.elitoras.ru
-0.0.0.0 skcrss.icu
 0.0.0.0 skdailynews.com
 0.0.0.0 skdijdo10.eu.cc
 0.0.0.0 skdjfbskjdbf.top
@@ -468156,6 +468158,7 @@
 0.0.0.0 sky36.godaddysites.com
 0.0.0.0 skyauction.122.2o7.net
 0.0.0.0 skyblockaddons.org
+0.0.0.0 skyblockrpc.com
 0.0.0.0 skycithereforeit.com
 0.0.0.0 skydanceapparel.shop
 0.0.0.0 skydancefashion.shop
@@ -469589,6 +469592,7 @@
 0.0.0.0 soilvet.info
 0.0.0.0 soja.dedspac.ru
 0.0.0.0 sok.boletuso.ru
+0.0.0.0 sok.soclable8jas.top
 0.0.0.0 sok.ulitron.ru
 0.0.0.0 soka.ulitron.ru
 0.0.0.0 sokari.shop
@@ -472954,6 +472958,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -475981,6 +475986,7 @@
 0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
+0.0.0.0 swiftonyx16.com
 0.0.0.0 swiftpathav.vercel.app
 0.0.0.0 swiftpay0.github.io
 0.0.0.0 swifts-fynn-webs.deno.dev
@@ -476776,7 +476782,6 @@
 0.0.0.0 t8s532.savourpec.com
 0.0.0.0 t8t7frium3.s.ad6media.fr
 0.0.0.0 t8ybu2bvlrdc.moolin.ru
-0.0.0.0 t9.systha.top
 0.0.0.0 t951b-touchdownpr.ghjigclbopy.es
 0.0.0.0 ta-collector.centurygame.com
 0.0.0.0 ta-milosc.pl
@@ -489536,7 +489541,6 @@
 0.0.0.0 verivox01.webtrekk.net
 0.0.0.0 verizon.adhaven.com
 0.0.0.0 verizon.demdex.net
-0.0.0.0 verizon.systyu.top
 0.0.0.0 verizontelecom.tt.omtrdc.net
 0.0.0.0 verizonwireless.112.2o7.net
 0.0.0.0 verklarisinvest.com
@@ -494824,7 +494828,6 @@
 0.0.0.0 windows-7vm.pages.dev
 0.0.0.0 windows-afx-update.com
 0.0.0.0 windows-cnd-update.com
-0.0.0.0 windows-defender.cc
 0.0.0.0 windows-en-us-update.com
 0.0.0.0 windows-fsd-update.com
 0.0.0.0 windows-msd-update.com
@@ -494937,6 +494940,7 @@
 0.0.0.0 winwhtsp.top
 0.0.0.0 winwinpay.cc
 0.0.0.0 winy.ulitron.ru
+0.0.0.0 wios.tron3.vip
 0.0.0.0 wiosna.shop
 0.0.0.0 wipe.ulitron.ru
 0.0.0.0 wipe.virosat.ru
@@ -513915,6 +513919,7 @@
 0.0.0.0 www.saccuconta.store
 0.0.0.0 www.sacredphoenix.com
 0.0.0.0 www.sadostic.pl
+0.0.0.0 www.saf-oil.ru
 0.0.0.0 www.safak-birikimli.sbs
 0.0.0.0 www.safakbirikac-ai.net
 0.0.0.0 www.safaricom-fuliza.com
