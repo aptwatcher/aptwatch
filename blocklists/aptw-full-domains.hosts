@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-13 12:33:25
-# Entries: 523486
+# Generated: 2026-11-13 18:34:00
+# Entries: 523491
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -16574,6 +16574,7 @@
 0.0.0.0 2dt20a.duckdns.org
 0.0.0.0 2dtb9cnaklie5ob.qwo231sdx.club
 0.0.0.0 2dugibxapcfk3wpgszqy.richardl.xyz
+0.0.0.0 2duo.com.br
 0.0.0.0 2dvxt8rtkoo.qwo231sdx.club
 0.0.0.0 2dww2.xyz
 0.0.0.0 2dykxwyp.043.libellus.ru
@@ -48509,7 +48510,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -72310,7 +72310,6 @@
 0.0.0.0 allfundsbank-com-securedportal-dot-solidstar-improts.uk.r.appspot.com
 0.0.0.0 allgamegratis-codashop.zzux.com
 0.0.0.0 allgamer.free2claim.com
-0.0.0.0 allgamerunengine.com
 0.0.0.0 allgamingoffer.xyz
 0.0.0.0 allgeprak-f3b76e.ingress-daribow.ewp.live
 0.0.0.0 allgetaways.us.intellitxt.com
@@ -137695,6 +137694,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -203309,6 +203309,7 @@
 0.0.0.0 dethecture.com
 0.0.0.0 dethex.pages.dev
 0.0.0.0 dethrouunersfalconine.info
+0.0.0.0 detierra.cl
 0.0.0.0 detik.serving-sys.com
 0.0.0.0 detiktotocakep.com
 0.0.0.0 detin.dedspac.ru
@@ -211189,6 +211190,7 @@
 0.0.0.0 dolphinet.com.br
 0.0.0.0 dolphinprofessionalcentre.com
 0.0.0.0 dolphinsoft.in
+0.0.0.0 dolphsa.cloud
 0.0.0.0 dolt.boletuso.ru
 0.0.0.0 dolt.bortogat.ru
 0.0.0.0 dolt.ulitron.ru
@@ -212104,7 +212106,6 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
-0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.stellarcedar.live
@@ -255215,7 +255216,6 @@
 0.0.0.0 gaemiinilogiz.godaddysites.com
 0.0.0.0 gaeminillogini.webflow.io
 0.0.0.0 gaeminlogii.godaddysites.com
-0.0.0.0 gaenterprises.in
 0.0.0.0 gaer.pages.dev
 0.0.0.0 gaf-company.clean.to
 0.0.0.0 gafaaola.duckdns.org
@@ -255402,7 +255402,6 @@
 0.0.0.0 galerieantenna.com
 0.0.0.0 galeriehermine.com
 0.0.0.0 galerikonveksi.com
-0.0.0.0 galerisenimutiara.com
 0.0.0.0 galerry64.nhely.hu
 0.0.0.0 galerry67.nhely.hu
 0.0.0.0 galeryabgviral.duckdns.org
@@ -259696,7 +259695,6 @@
 0.0.0.0 getpassenger.com
 0.0.0.0 getpaylah.life
 0.0.0.0 getpixlss.com
-0.0.0.0 getpkg0.tools
 0.0.0.0 getpkxdgems.com
 0.0.0.0 getplexified.com
 0.0.0.0 getplus-newgrup18e.duckdns.org
@@ -283745,7 +283743,6 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
-0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -287219,6 +287216,7 @@
 0.0.0.0 hsklaioo.weebly.com
 0.0.0.0 hskmhctqylakdgxf-dot-millinium.ey.r.appspot.com
 0.0.0.0 hsksoysnsiis.tulisku.my.id
+0.0.0.0 hskstrading.com
 0.0.0.0 hsl.pages.dev
 0.0.0.0 hslbcmx.work
 0.0.0.0 hsleadflows.net
@@ -287348,7 +287346,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -300480,6 +300477,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -334993,6 +334991,7 @@
 0.0.0.0 livingemeraldjayne.com
 0.0.0.0 livingfreeintl.com
 0.0.0.0 livinginjupfl.com
+0.0.0.0 livinginpurpose.co.za
 0.0.0.0 livinglawsociety.org
 0.0.0.0 livinglocal.homes
 0.0.0.0 livingmybosslifeacademy.com
@@ -342048,6 +342047,7 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
+0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -371901,6 +371901,7 @@
 0.0.0.0 moetamsklogin.gitbook.io
 0.0.0.0 moetmasktllogin.gitbook.io
 0.0.0.0 moeuare.weebly.com
+0.0.0.0 mofa-gov-np.donwloaad-file.org
 0.0.0.0 mofa.farele.co
 0.0.0.0 mofajiang.cn
 0.0.0.0 mofanue.com
@@ -397992,7 +397993,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -423728,6 +423728,7 @@
 0.0.0.0 powerprecinct.com.au
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
+0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -457003,7 +457004,6 @@
 0.0.0.0 runelie.net
 0.0.0.0 runelight.net
 0.0.0.0 runelite.cc
-0.0.0.0 runelite.ch
 0.0.0.0 runelitepluginhub.net
 0.0.0.0 runerank.org
 0.0.0.0 runescape-doublexps.com
@@ -474417,6 +474417,7 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamridgeclover.online
 0.0.0.0 streamseek.net
@@ -475993,7 +475994,6 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftdryblowdryers.org
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftonyx16.com
@@ -478218,6 +478218,7 @@
 0.0.0.0 tech.dedspac.ru
 0.0.0.0 tech.zapps.me
 0.0.0.0 techbargins.com
+0.0.0.0 techbud.ro
 0.0.0.0 techbyalfaiz.github.io
 0.0.0.0 techbytegr.vercel.app
 0.0.0.0 techcruncln.com
@@ -484846,6 +484847,7 @@
 0.0.0.0 u.extreme-dm.com
 0.0.0.0 u.openx.net
 0.0.0.0 u.pilot45.com
+0.0.0.0 u.pone.rs
 0.0.0.0 u.startup.mobile.webvisor.com
 0.0.0.0 u.superadbox.com
 0.0.0.0 u.videoamp.com
@@ -488607,6 +488609,7 @@
 0.0.0.0 v2lt.199377.xyz
 0.0.0.0 v2profit.com
 0.0.0.0 v2r.wwwzls.pp.ua
+0.0.0.0 v2raynapps.com.cn
 0.0.0.0 v2rh8n.oceanplining.com
 0.0.0.0 v2st.shinobi.jp
 0.0.0.0 v2v-ceck2.request-problematic.com
@@ -496048,6 +496051,7 @@
 0.0.0.0 www-cakev3pool.com
 0.0.0.0 www-checkpoints-pages-contacts.ubpages.com
 0.0.0.0 www-checkpoints-pages-platform.ubpages.com
+0.0.0.0 www-connect-secure-wellcfargo.sekolahkejarpaket.com
 0.0.0.0 www-convergapay.top
 0.0.0.0 www-convergapoy.top
 0.0.0.0 www-cow.com
@@ -505012,7 +505016,6 @@
 0.0.0.0 www.gerwaldkronberg.net
 0.0.0.0 www.gestioryct.store
 0.0.0.0 www.gestrauss.shop
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.gesuarivac.store
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
@@ -507403,6 +507406,7 @@
 0.0.0.0 www.koofxtrades.net
 0.0.0.0 www.koopon.pl
 0.0.0.0 www.koosal.com
+0.0.0.0 www.kop4r.com
 0.0.0.0 www.kopka24pl.eu.cc
 0.0.0.0 www.kopora2.dkonto.pl
 0.0.0.0 www.koravex.shop
@@ -519156,6 +519160,7 @@
 0.0.0.0 www.wuetoquel.com
 0.0.0.0 www.wumurhapli.digital
 0.0.0.0 www.wupwh-h19h.vercel.app
+0.0.0.0 www.wurstclient.org
 0.0.0.0 www.wuruzuu.com
 0.0.0.0 www.wuzanjo.online
 0.0.0.0 www.wvkdx.shop
