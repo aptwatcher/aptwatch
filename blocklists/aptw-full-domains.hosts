@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-13 00:33:42
-# Entries: 523477
+# Generated: 2026-11-13 06:06:13
+# Entries: 523480
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -88621,6 +88621,7 @@
 0.0.0.0 api.sspl.com.au
 0.0.0.0 api.stathat.com
 0.0.0.0 api.stats.appa.pe
+0.0.0.0 api.stellarcedar.live
 0.0.0.0 api.strugaservices.com
 0.0.0.0 api.stuseamandesilt.org
 0.0.0.0 api.subiz.com.vn
@@ -168631,6 +168632,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -169800,6 +169802,7 @@
 0.0.0.0 cepa.gob.sv
 0.0.0.0 cepa.ulitron.ru
 0.0.0.0 cepam.med.br
+0.0.0.0 cepde.org
 0.0.0.0 cepe.ulitron.ru
 0.0.0.0 cepedirne.com
 0.0.0.0 cepemaikm.ga
@@ -179233,7 +179236,6 @@
 0.0.0.0 cn.rkzmx.com
 0.0.0.0 cn.sekmx.com
 0.0.0.0 cn.sqhuabang.com
-0.0.0.0 cn.unionlever.com
 0.0.0.0 cn.vcbjmx.com
 0.0.0.0 cn.voranfi.ru
 0.0.0.0 cn.wanbo18.pro
@@ -186953,6 +186955,7 @@
 0.0.0.0 continentaldayline.live
 0.0.0.0 continentaldeals.shop
 0.0.0.0 continentalgoods.shop
+0.0.0.0 continentalgroup.net.in
 0.0.0.0 continentalnewsdesk.live
 0.0.0.0 continentalpacifictextile.com
 0.0.0.0 continentalselect.shop
@@ -207370,7 +207373,6 @@
 0.0.0.0 dinamicaenlineatusucursal.com
 0.0.0.0 dinamicas.sucursalpersonalonline.com
 0.0.0.0 dinamiccrt.shop
-0.0.0.0 dinamikakargo.com
 0.0.0.0 dinamiqueconnects.myddns.me
 0.0.0.0 dinamyc.owaa-360.workers.dev
 0.0.0.0 dinanshu2006.github.io
@@ -243860,6 +243862,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -287342,7 +287345,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -304490,6 +304492,7 @@
 0.0.0.0 itchyladybird.build067.wpsandbox.app
 0.0.0.0 itcicloud.cn
 0.0.0.0 itcitymm.com
+0.0.0.0 itco.pe
 0.0.0.0 itcom-cm.net
 0.0.0.0 itcomm.co.id
 0.0.0.0 itcommunication.co.za
@@ -342041,6 +342044,7 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
+0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -397986,7 +397990,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -474409,6 +474412,7 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamridgeclover.online
 0.0.0.0 streamseek.net
@@ -475985,7 +475989,6 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftdryblowdryers.org
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftonyx16.com
@@ -481488,7 +481491,6 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
-0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -505004,6 +505006,7 @@
 0.0.0.0 www.gerwaldkronberg.net
 0.0.0.0 www.gestioryct.store
 0.0.0.0 www.gestrauss.shop
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.gesuarivac.store
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
