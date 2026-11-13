@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-13 06:34:52
-# Entries: 523480
+# Generated: 2026-11-13 12:33:25
+# Entries: 523486
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -48509,6 +48509,7 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
+0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -72309,6 +72310,7 @@
 0.0.0.0 allfundsbank-com-securedportal-dot-solidstar-improts.uk.r.appspot.com
 0.0.0.0 allgamegratis-codashop.zzux.com
 0.0.0.0 allgamer.free2claim.com
+0.0.0.0 allgamerunengine.com
 0.0.0.0 allgamingoffer.xyz
 0.0.0.0 allgeprak-f3b76e.ingress-daribow.ewp.live
 0.0.0.0 allgetaways.us.intellitxt.com
@@ -90947,6 +90949,7 @@
 0.0.0.0 app-xpr-whatshktw.com
 0.0.0.0 app-xvf-whatshktw.com
 0.0.0.0 app-yaledger-help.webflow.io
+0.0.0.0 app-yifanyi.com
 0.0.0.0 app-yiq-whatsappcc.com
 0.0.0.0 app-yllnghrv.hotel-mashhad.ir
 0.0.0.0 app-yundt16740277492356.mgywxhtzb7-wg96g99xd3oy.p.temp-site.link
@@ -137692,7 +137695,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -148177,6 +148179,7 @@
 0.0.0.0 bloodbath.matsuro.ru
 0.0.0.0 bloodbaths.matsuro.ru
 0.0.0.0 bloodc.tk
+0.0.0.0 bloodcheat.com
 0.0.0.0 blooddath2021.com
 0.0.0.0 blooded.matsuro.ru
 0.0.0.0 bloodfirebrimstone.org
@@ -148718,6 +148721,7 @@
 0.0.0.0 blueskky.in
 0.0.0.0 blueskyautismcenter.com
 0.0.0.0 blueskycablenetwork.com
+0.0.0.0 blueskycheat.com
 0.0.0.0 blueskyedits.websohamhost.com
 0.0.0.0 blueskyint.com.np
 0.0.0.0 blueskynetwork-drive.com
@@ -168632,7 +168636,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -169802,7 +169805,6 @@
 0.0.0.0 cepa.gob.sv
 0.0.0.0 cepa.ulitron.ru
 0.0.0.0 cepam.med.br
-0.0.0.0 cepde.org
 0.0.0.0 cepe.ulitron.ru
 0.0.0.0 cepedirne.com
 0.0.0.0 cepemaikm.ga
@@ -207373,6 +207375,7 @@
 0.0.0.0 dinamicaenlineatusucursal.com
 0.0.0.0 dinamicas.sucursalpersonalonline.com
 0.0.0.0 dinamiccrt.shop
+0.0.0.0 dinamikakargo.com
 0.0.0.0 dinamiqueconnects.myddns.me
 0.0.0.0 dinamyc.owaa-360.workers.dev
 0.0.0.0 dinanshu2006.github.io
@@ -259217,7 +259220,6 @@
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
 0.0.0.0 gestrauss.shop
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -259694,6 +259696,7 @@
 0.0.0.0 getpassenger.com
 0.0.0.0 getpaylah.life
 0.0.0.0 getpixlss.com
+0.0.0.0 getpkg0.tools
 0.0.0.0 getpkxdgems.com
 0.0.0.0 getplexified.com
 0.0.0.0 getplus-newgrup18e.duckdns.org
@@ -287345,6 +287348,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -316601,6 +316605,7 @@
 0.0.0.0 kafato.digital
 0.0.0.0 kafelah.com
 0.0.0.0 kafen33591.wixsite.com
+0.0.0.0 kafeprog7.com
 0.0.0.0 kaffnet.com
 0.0.0.0 kafhksahk.ga
 0.0.0.0 kafichanta.doublepaws.org
@@ -334988,7 +334993,6 @@
 0.0.0.0 livingemeraldjayne.com
 0.0.0.0 livingfreeintl.com
 0.0.0.0 livinginjupfl.com
-0.0.0.0 livinginpurpose.co.za
 0.0.0.0 livinglawsociety.org
 0.0.0.0 livinglocal.homes
 0.0.0.0 livingmybosslifeacademy.com
@@ -342044,7 +342048,6 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
-0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -381410,7 +381413,6 @@
 0.0.0.0 nagiefoteczki.cleverapps.io
 0.0.0.0 nagite.ml
 0.0.0.0 nagivfcoixdxdaavyonvxpcfuh-dot-gleowayel400503.uc.r.appspot.com
-0.0.0.0 nagl.com.pg
 0.0.0.0 nagndikbexzrjior-dot-millinium.ey.r.appspot.com
 0.0.0.0 nagore.me
 0.0.0.0 nagoya-central.com
@@ -397990,6 +397992,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -421734,7 +421737,6 @@
 0.0.0.0 portelo.fanlink.to
 0.0.0.0 portentconsulting.com
 0.0.0.0 porterhouseinc.com
-0.0.0.0 porterneuman.mx
 0.0.0.0 porterstatesbank.cf
 0.0.0.0 portersugarhouse.com
 0.0.0.0 portfolio-aedvutd.format.com
@@ -449082,6 +449084,7 @@
 0.0.0.0 reshma-17.github.io
 0.0.0.0 reshmi557.github.io
 0.0.0.0 reshotelinaprovies-visitorconferma.com
+0.0.0.0 reshow35.com
 0.0.0.0 reshssowninference.info
 0.0.0.0 reshu22.github.io
 0.0.0.0 reside-etudes1.pilote-message.com
@@ -457000,6 +457003,7 @@
 0.0.0.0 runelie.net
 0.0.0.0 runelight.net
 0.0.0.0 runelite.cc
+0.0.0.0 runelite.ch
 0.0.0.0 runelitepluginhub.net
 0.0.0.0 runerank.org
 0.0.0.0 runescape-doublexps.com
@@ -469872,6 +469876,7 @@
 0.0.0.0 sooty.dedspac.ru
 0.0.0.0 sooty.virosat.ru
 0.0.0.0 sooubh.github.io
+0.0.0.0 sooyun-yun.com.cn
 0.0.0.0 soozidann.wixstudio.com
 0.0.0.0 soozidann.wixstudio.io
 0.0.0.0 sop.boletuso.ru
@@ -474412,7 +474417,6 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
-0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamridgeclover.online
 0.0.0.0 streamseek.net
@@ -475989,6 +475993,7 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftdryblowdryers.org
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftonyx16.com
@@ -481491,6 +481496,7 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
+0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -493154,6 +493160,7 @@
 0.0.0.0 websbayrntilarimizino7.xyz
 0.0.0.0 websdk.appsflyer.com
 0.0.0.0 websdk.moengage.com
+0.0.0.0 websenorllc.com
 0.0.0.0 webseoanalytics.com
 0.0.0.0 webserv.heato.ru
 0.0.0.0 webserv.mos.ru
@@ -496041,7 +496048,6 @@
 0.0.0.0 www-cakev3pool.com
 0.0.0.0 www-checkpoints-pages-contacts.ubpages.com
 0.0.0.0 www-checkpoints-pages-platform.ubpages.com
-0.0.0.0 www-connect-secure-wellcfargo.sekolahkejarpaket.com
 0.0.0.0 www-convergapay.top
 0.0.0.0 www-convergapoy.top
 0.0.0.0 www-cow.com
