@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-14 06:34:48
-# Entries: 522594
+# Generated: 2026-11-14 12:34:07
+# Entries: 522589
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -12191,7 +12191,6 @@
 0.0.0.0 1mf0rm4t10nc3nt3r-1d3nt1ty.000webhostapp.com
 0.0.0.0 1mfgagzp.square.site
 0.0.0.0 1mfhhhlxmvifxo32fc6z57.qwo231sdx.club
-0.0.0.0 1minecraft.net
 0.0.0.0 1mj3pf.obihiro-mensesthe.com
 0.0.0.0 1mluhoqyfhjlstwl.richardl.xyz
 0.0.0.0 1monday.icu
@@ -48540,7 +48539,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -54855,7 +54853,6 @@
 0.0.0.0 adcel.vrvm.com
 0.0.0.0 adcell.de
 0.0.0.0 adcenter.net
-0.0.0.0 adcentral.com.mx
 0.0.0.0 adcentre.it-advanced.com
 0.0.0.0 adcentric.randomseed.com
 0.0.0.0 adcentriconline.com
@@ -66750,6 +66747,7 @@
 0.0.0.0 airvisioninfinity.com
 0.0.0.0 airwards.matsuro.ru
 0.0.0.0 airwave.bluestacko.ru
+0.0.0.0 airwayhost.com
 0.0.0.0 airwe.in
 0.0.0.0 airwind.eu
 0.0.0.0 airwomen.bluestacko.ru
@@ -137691,7 +137689,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -146260,6 +146257,7 @@
 0.0.0.0 bjydismvkjycfjxx-dot-millinium.ey.r.appspot.com
 0.0.0.0 bjyfzc.com
 0.0.0.0 bjym7.weblium.site
+0.0.0.0 bjyunte.com
 0.0.0.0 bjyynsryxmipvngg-dot-millinium.ey.r.appspot.com
 0.0.0.0 bjzijin.com.cn
 0.0.0.0 bjziywguihufkjsitjmsrhitrb-dot-gl9393jan.uk.r.appspot.com
@@ -211099,6 +211097,7 @@
 0.0.0.0 dolphinet.com.br
 0.0.0.0 dolphinprofessionalcentre.com
 0.0.0.0 dolphinsoft.in
+0.0.0.0 dolphlinksan.online
 0.0.0.0 dolphsa.cloud
 0.0.0.0 dolt.boletuso.ru
 0.0.0.0 dolt.bortogat.ru
@@ -229591,6 +229590,7 @@
 0.0.0.0 executivemarc.com
 0.0.0.0 executivetavel.com
 0.0.0.0 executivetnavel.com
+0.0.0.0 executorhub.pro
 0.0.0.0 executorial-path.000webhostapp.com
 0.0.0.0 executorsbankerspma.com
 0.0.0.0 executorsortan.ro
@@ -258824,7 +258824,6 @@
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
 0.0.0.0 gestrauss.shop
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -283319,7 +283318,6 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
-0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -295635,7 +295633,6 @@
 0.0.0.0 indbiz.com.au
 0.0.0.0 inddoor.ca
 0.0.0.0 inde.boletuso.ru
-0.0.0.0 indeanapolice.cc
 0.0.0.0 indecisive-bitter-reason.glitch.me
 0.0.0.0 indecisive-flax-turn.glitch.me
 0.0.0.0 indecisive-pentagonal-carnation.glitch.me
@@ -300069,7 +300066,6 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
-0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -380461,6 +380457,7 @@
 0.0.0.0 n.systemlog.me
 0.0.0.0 n.targetctracker.com
 0.0.0.0 n.timerto.ru
+0.0.0.0 n.vs108.com
 0.0.0.0 n.yj.fr
 0.0.0.0 n.z7mard.yhfnxn4yif.yyg.44f4bm8jj.tjgs.a7fwx4s.y4sk4f.fs.2ejmf.jjxp.scyrz6q.3k4y.cn2gbzw.epjnheai6.ndsye.6b8scztpm.rbfkhx.de.w.2qkwnw.hmtr.5ntsprmyy.awejw.jphz.iyxw3qjcn.ens3c.pay.paypalcancel.cc
 0.0.0.0 n01d05.cumulus-cloud.com
@@ -380903,7 +380900,6 @@
 0.0.0.0 nagiefoteczki.cleverapps.io
 0.0.0.0 nagite.ml
 0.0.0.0 nagivfcoixdxdaavyonvxpcfuh-dot-gleowayel400503.uc.r.appspot.com
-0.0.0.0 nagl.com.pg
 0.0.0.0 nagndikbexzrjior-dot-millinium.ey.r.appspot.com
 0.0.0.0 nagore.me
 0.0.0.0 nagoya-central.com
@@ -465731,7 +465727,6 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
-0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -472469,7 +472464,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -480482,6 +480476,7 @@
 0.0.0.0 tools.dedspac.ru
 0.0.0.0 tools.gikotena.net
 0.0.0.0 tools.hitbox.com
+0.0.0.0 tools.lumma.cy
 0.0.0.0 tools.naughtyamerica.com
 0.0.0.0 tools.pacinocash.com
 0.0.0.0 tools.ranker.com
@@ -484104,7 +484099,6 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
-0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyn.com
@@ -521643,6 +521637,7 @@
 0.0.0.0 zamekpotstejn.cz
 0.0.0.0 zamia.dedspac.ru
 0.0.0.0 zamia.virosat.ru
+0.0.0.0 zamilgroups.com
 0.0.0.0 zamistiumai.com
 0.0.0.0 zamithcoffee.pt
 0.0.0.0 zamora.axiatraders.com
