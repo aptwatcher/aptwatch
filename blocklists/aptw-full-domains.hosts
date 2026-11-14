@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-14 12:34:07
-# Entries: 522589
+# Generated: 2026-11-14 18:34:00
+# Entries: 522593
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -12191,6 +12191,7 @@
 0.0.0.0 1mf0rm4t10nc3nt3r-1d3nt1ty.000webhostapp.com
 0.0.0.0 1mfgagzp.square.site
 0.0.0.0 1mfhhhlxmvifxo32fc6z57.qwo231sdx.club
+0.0.0.0 1minecraft.net
 0.0.0.0 1mj3pf.obihiro-mensesthe.com
 0.0.0.0 1mluhoqyfhjlstwl.richardl.xyz
 0.0.0.0 1monday.icu
@@ -52224,6 +52225,7 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
+0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -90982,7 +90984,6 @@
 0.0.0.0 app-xpr-whatshktw.com
 0.0.0.0 app-xvf-whatshktw.com
 0.0.0.0 app-yaledger-help.webflow.io
-0.0.0.0 app-yifanyi.com
 0.0.0.0 app-yiq-whatsappcc.com
 0.0.0.0 app-yllnghrv.hotel-mashhad.ir
 0.0.0.0 app-yundt16740277492356.mgywxhtzb7-wg96g99xd3oy.p.temp-site.link
@@ -137689,6 +137690,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -179162,7 +179164,6 @@
 0.0.0.0 cn.rkzmx.com
 0.0.0.0 cn.sekmx.com
 0.0.0.0 cn.sqhuabang.com
-0.0.0.0 cn.unionlever.com
 0.0.0.0 cn.vcbjmx.com
 0.0.0.0 cn.voranfi.ru
 0.0.0.0 cn.wanbo18.pro
@@ -209062,7 +209063,6 @@
 0.0.0.0 dl-trustwallet.com
 0.0.0.0 dl-zamowienie7369.cyou
 0.0.0.0 dl-zamowienie912803.cyou
-0.0.0.0 dl.1003b.56a.com
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
@@ -211098,7 +211098,6 @@
 0.0.0.0 dolphinprofessionalcentre.com
 0.0.0.0 dolphinsoft.in
 0.0.0.0 dolphlinksan.online
-0.0.0.0 dolphsa.cloud
 0.0.0.0 dolt.boletuso.ru
 0.0.0.0 dolt.bortogat.ru
 0.0.0.0 dolt.ulitron.ru
@@ -229590,7 +229589,6 @@
 0.0.0.0 executivemarc.com
 0.0.0.0 executivetavel.com
 0.0.0.0 executivetnavel.com
-0.0.0.0 executorhub.pro
 0.0.0.0 executorial-path.000webhostapp.com
 0.0.0.0 executorsbankerspma.com
 0.0.0.0 executorsortan.ro
@@ -247808,6 +247806,7 @@
 0.0.0.0 flybox-orangepro.duckdns.org
 0.0.0.0 flyboyfurnishings.net
 0.0.0.0 flycast.com
+0.0.0.0 flycheats.xyz
 0.0.0.0 flycloud-service.com
 0.0.0.0 flydigital.biz
 0.0.0.0 flyer-oe-jeff-victor.trycloudflare.com
@@ -258824,6 +258823,7 @@
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
 0.0.0.0 gestrauss.shop
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -300066,6 +300066,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -317958,6 +317959,7 @@
 0.0.0.0 keka-cold.ru
 0.0.0.0 kekejb.dew4.my.id
 0.0.0.0 kekhxfwcxoxhmtun-dot-millinium.ey.r.appspot.com
+0.0.0.0 kekman.space
 0.0.0.0 kekomundo.epizy.com
 0.0.0.0 keksonline.ru
 0.0.0.0 kektive.net
@@ -351392,7 +351394,6 @@
 0.0.0.0 maluenda.org
 0.0.0.0 malunkii.peyzazh-zmahannya.mom
 0.0.0.0 maluonlinedig.com
-0.0.0.0 malupieng.com.br
 0.0.0.0 malurea.shop
 0.0.0.0 maluve.shop
 0.0.0.0 malva.virosat.ru
@@ -373234,6 +373235,7 @@
 0.0.0.0 mowalah.ru.com
 0.0.0.0 mowapii.top
 0.0.0.0 mowarmly.cn
+0.0.0.0 mowcangler.co.uk
 0.0.0.0 mowch.virosat.ru
 0.0.0.0 moweaquail.xyz
 0.0.0.0 mowed.dedspac.ru
@@ -380900,6 +380902,7 @@
 0.0.0.0 nagiefoteczki.cleverapps.io
 0.0.0.0 nagite.ml
 0.0.0.0 nagivfcoixdxdaavyonvxpcfuh-dot-gleowayel400503.uc.r.appspot.com
+0.0.0.0 nagl.com.pg
 0.0.0.0 nagndikbexzrjior-dot-millinium.ey.r.appspot.com
 0.0.0.0 nagore.me
 0.0.0.0 nagoya-central.com
@@ -407510,6 +407513,7 @@
 0.0.0.0 pakallin.com
 0.0.0.0 pakatanbentengmaya.my
 0.0.0.0 pakatandn.ml
+0.0.0.0 pakdigital.org
 0.0.0.0 pakeepostenen.wpengine.com
 0.0.0.0 pakekdknejkdkrmtkmnodknenrodksudjd.ttrbru.eu.org
 0.0.0.0 paket-dhl.free-h.net
@@ -465727,6 +465731,7 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
+0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -469376,7 +469381,6 @@
 0.0.0.0 sooty.dedspac.ru
 0.0.0.0 sooty.virosat.ru
 0.0.0.0 sooubh.github.io
-0.0.0.0 sooyun-yun.com.cn
 0.0.0.0 soozidann.wixstudio.com
 0.0.0.0 soozidann.wixstudio.io
 0.0.0.0 sop.boletuso.ru
@@ -469996,7 +470000,6 @@
 0.0.0.0 spew.ulitron.ru
 0.0.0.0 spewy.dedspac.ru
 0.0.0.0 spezialreporte.de
-0.0.0.0 spgint.com
 0.0.0.0 sphaerion.online
 0.0.0.0 sphaerion.ru
 0.0.0.0 spharm.care-sale.com
@@ -472464,6 +472467,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -480844,7 +480848,6 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
-0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -484099,6 +484102,7 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
+0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyn.com
@@ -488065,7 +488069,6 @@
 0.0.0.0 v2lt.199377.xyz
 0.0.0.0 v2profit.com
 0.0.0.0 v2r.wwwzls.pp.ua
-0.0.0.0 v2raynapps.com.cn
 0.0.0.0 v2rh8n.oceanplining.com
 0.0.0.0 v2st.shinobi.jp
 0.0.0.0 v2v-ceck2.request-problematic.com
@@ -504177,6 +504180,7 @@
 0.0.0.0 www.gerwaldkronberg.net
 0.0.0.0 www.gestioryct.store
 0.0.0.0 www.gestrauss.shop
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.gesuarivac.store
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
