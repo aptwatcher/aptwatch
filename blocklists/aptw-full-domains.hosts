@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-15 06:35:08
-# Entries: 522590
+# Generated: 2026-11-15 12:34:08
+# Entries: 522595
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -137688,7 +137688,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -152160,6 +152159,7 @@
 0.0.0.0 boose.dedspac.ru
 0.0.0.0 boosiun3.com
 0.0.0.0 boosoegrplofo.cf
+0.0.0.0 boost-19.com
 0.0.0.0 boost-pro.net
 0.0.0.0 boost.dedspac.ru
 0.0.0.0 boost.mobileposse.com
@@ -207282,7 +207282,6 @@
 0.0.0.0 dinamicaenlineatusucursal.com
 0.0.0.0 dinamicas.sucursalpersonalonline.com
 0.0.0.0 dinamiccrt.shop
-0.0.0.0 dinamikakargo.com
 0.0.0.0 dinamiqueconnects.myddns.me
 0.0.0.0 dinamyc.owaa-360.workers.dev
 0.0.0.0 dinanshu2006.github.io
@@ -209061,7 +209060,6 @@
 0.0.0.0 dl-trustwallet.com
 0.0.0.0 dl-zamowienie7369.cyou
 0.0.0.0 dl-zamowienie912803.cyou
-0.0.0.0 dl.1003b.56a.com
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
@@ -229694,6 +229692,7 @@
 0.0.0.0 exmgcyyjos.duckdns.org
 0.0.0.0 exmykjb.tk
 0.0.0.0 exnessbroker.review
+0.0.0.0 exo-api.tf
 0.0.0.0 exo-confirm.com
 0.0.0.0 exo-fwb-at.40net.org
 0.0.0.0 exo-red.com
@@ -243748,7 +243747,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -251753,6 +251751,7 @@
 0.0.0.0 friendsoflifechoices.org
 0.0.0.0 friendsofmelvinchigh.com
 0.0.0.0 friendsofryetownhall.org
+0.0.0.0 friendsofsclarc.org
 0.0.0.0 friendssteakhouse.com
 0.0.0.0 friendtest.us.intellitxt.com
 0.0.0.0 friendvote.xyz
@@ -254822,7 +254821,6 @@
 0.0.0.0 gaemiinilogiz.godaddysites.com
 0.0.0.0 gaeminillogini.webflow.io
 0.0.0.0 gaeminlogii.godaddysites.com
-0.0.0.0 gaenterprises.in
 0.0.0.0 gaer.pages.dev
 0.0.0.0 gaf-company.clean.to
 0.0.0.0 gafaaola.duckdns.org
@@ -258820,6 +258818,7 @@
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
 0.0.0.0 gestrauss.shop
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -294248,6 +294247,7 @@
 0.0.0.0 imperdiveltudoproseunatal664brilhar.com
 0.0.0.0 imperench.com
 0.0.0.0 imperfect-person-perfectly.duckdns.org
+0.0.0.0 imperia243.com
 0.0.0.0 imperiadedetizacao.com
 0.0.0.0 imperial-escapes.000webhostapp.com
 0.0.0.0 imperialbank.net
@@ -300060,6 +300060,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -306888,6 +306889,7 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
+0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -341569,6 +341571,7 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
+0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -377974,6 +377977,7 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
+0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -397484,7 +397488,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -423333,6 +423336,7 @@
 0.0.0.0 powerprecinct.com.au
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
+0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -462983,7 +462987,6 @@
 0.0.0.0 scnet.tv
 0.0.0.0 sco-verify7492.netlify.app
 0.0.0.0 scoad.ulitron.ru
-0.0.0.0 scoala1gherla.ro
 0.0.0.0 scoaladejoaca.ro
 0.0.0.0 scob.ulitron.ru
 0.0.0.0 scobs.dedspac.ru
@@ -465723,7 +465726,6 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
-0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -469305,6 +469307,7 @@
 0.0.0.0 songs.dedspac.ru
 0.0.0.0 songsar.com
 0.0.0.0 soniaborges.com.br
+0.0.0.0 soniamart.com
 0.0.0.0 sonic-0101.github.io
 0.0.0.0 sonic-us.supersonicads.com
 0.0.0.0 sonicwall-netextender.nl
@@ -469764,6 +469767,7 @@
 0.0.0.0 spaces.slimspots.com
 0.0.0.0 spacesaverbox.shop
 0.0.0.0 spacesolved.aayom.com
+0.0.0.0 spaceware.to
 0.0.0.0 spacexai-ai.com
 0.0.0.0 spacexlaunch.pages.dev
 0.0.0.0 spacmn0.weebly.com
@@ -472459,7 +472463,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -473899,6 +473902,7 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamridgeclover.online
 0.0.0.0 streamseek.net
@@ -479088,6 +479092,7 @@
 0.0.0.0 thewpm.com
 0.0.0.0 thexabhax.com
 0.0.0.0 thexdexva.pages.dev
+0.0.0.0 thexfil.fit
 0.0.0.0 they.dedspac.ru
 0.0.0.0 they.ulitron.ru
 0.0.0.0 theybf.us.intellitxt.com
@@ -480844,6 +480849,7 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
+0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -504176,7 +504182,6 @@
 0.0.0.0 www.gerwaldkronberg.net
 0.0.0.0 www.gestioryct.store
 0.0.0.0 www.gestrauss.shop
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.gesuarivac.store
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
