@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-14 18:34:00
-# Entries: 522593
+# Generated: 2026-11-15 00:33:31
+# Entries: 522590
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -16090,7 +16090,6 @@
 0.0.0.0 2899fa90.cnhls.com.cn
 0.0.0.0 289db41d3353.ngrok.io
 0.0.0.0 28a66169-cb49-4987-a76c-989280803a60.id.repl.co
-0.0.0.0 28ac1a-47fe-97aa9fa-081953438-583a20e8.brackendell.cc
 0.0.0.0 28ac4ca3-60b1-49c0-98c0-c5fe5859e009.id.repl.co
 0.0.0.0 28acd.com
 0.0.0.0 28agn6tturvt.allcleanbydee2.com
@@ -52225,7 +52224,6 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
-0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -159606,6 +159604,7 @@
 0.0.0.0 bullyrook.matsuro.ru
 0.0.0.0 bullz-eye.us.intellitxt.com
 0.0.0.0 bulmaki.shop
+0.0.0.0 buloru.com
 0.0.0.0 bulrhxbdedckcssr-dot-millinium.ey.r.appspot.com
 0.0.0.0 bulrikwyqk.duckdns.org
 0.0.0.0 bulse.dedspac.ru
@@ -168402,7 +168401,6 @@
 0.0.0.0 cdn.3lift.com
 0.0.0.0 cdn.567greetings.com
 0.0.0.0 cdn.7starjavanan.shop
-0.0.0.0 cdn.876553.xyz
 0.0.0.0 cdn.877955.xyz
 0.0.0.0 cdn.88-f.net
 0.0.0.0 cdn.8digits.com
@@ -177171,7 +177169,6 @@
 0.0.0.0 clhulcbslefelnak-dot-millinium.ey.r.appspot.com
 0.0.0.0 clhzkltfafwolykndtauopcpeq-dot-gle39404049.rj.r.appspot.com
 0.0.0.0 cli.ambient-platform.com
-0.0.0.0 cli.clipdghhs.top
 0.0.0.0 cli.dedspac.ru
 0.0.0.0 cli.linksynergy.com
 0.0.0.0 cli.m.ambient-platform.com
@@ -177968,6 +177965,7 @@
 0.0.0.0 clockskew.alphonso.tv
 0.0.0.0 clockurl.com
 0.0.0.0 clod.bortogat.ru
+0.0.0.0 clod.lippasswer.top
 0.0.0.0 clod.ulitron.ru
 0.0.0.0 clodayco.dhvsqo.cn
 0.0.0.0 clodbrdfkcixkzqbgpoyddxrmuycyoxjguhp-dot-cedar-code-289917.nn.r.appspot.com
@@ -193519,7 +193517,6 @@
 0.0.0.0 cuy3a-4qaaa-aaaag-abdyq-cai.raw.ic0.app
 0.0.0.0 cuya.vadilops.ru
 0.0.0.0 cuyagz87.duckdns.org
-0.0.0.0 cuyarts.com.pe
 0.0.0.0 cuycabdbvq.duckdns.org
 0.0.0.0 cuycoinloginn.webflow.io
 0.0.0.0 cuymghrzqukdzrxm-dot-millinium.ey.r.appspot.com
@@ -209063,6 +209060,7 @@
 0.0.0.0 dl-trustwallet.com
 0.0.0.0 dl-zamowienie7369.cyou
 0.0.0.0 dl-zamowienie912803.cyou
+0.0.0.0 dl.1003b.56a.com
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
@@ -212134,6 +212132,7 @@
 0.0.0.0 downloadplayer.xyz
 0.0.0.0 downloads.email-attachments.ru
 0.0.0.0 downloads.file-attachments.ru
+0.0.0.0 downloads.goxlr.studio
 0.0.0.0 downloads.larivieracasino.com
 0.0.0.0 downloads.mytvandmovies.com
 0.0.0.0 downloads.pcsecurityshield.com
@@ -243749,7 +243748,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -249844,7 +249842,6 @@
 0.0.0.0 fr.hide-me.org
 0.0.0.0 fr.horoton.ru
 0.0.0.0 fr.imsly.com
-0.0.0.0 fr.mcgrorys.top
 0.0.0.0 fr.mediaplayercodecpack.com
 0.0.0.0 fr.movieproxy.com
 0.0.0.0 fr.news-pravda.com
@@ -256250,7 +256247,6 @@
 0.0.0.0 gatimoli.fun
 0.0.0.0 gativenamloopa.pages.dev
 0.0.0.0 gatjooking.com
-0.0.0.0 gatlex.com
 0.0.0.0 gatlinburgspace.com
 0.0.0.0 gatogris.org
 0.0.0.0 gator.com
@@ -258823,7 +258819,6 @@
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
 0.0.0.0 gestrauss.shop
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -260271,7 +260266,6 @@
 0.0.0.0 giacongcokhi.tpsofts.vn
 0.0.0.0 giacosdila.net
 0.0.0.0 giadw.shoesmogul.com
-0.0.0.0 giafroge.biz
 0.0.0.0 giafsas.com
 0.0.0.0 giaidaulmht.vn
 0.0.0.0 giaidauonline.vn
@@ -280761,7 +280755,6 @@
 0.0.0.0 hflec6vqvhtsfms9vcvub.53244ds.xyz
 0.0.0.0 hflibzvyphsmvsravfuojnczmn-dot-gloff203049993.ue.r.appspot.com
 0.0.0.0 hflppyordxcj.np9q2f3.sbs
-0.0.0.0 hfm-qnyxrf78xc1i0k.cfd
 0.0.0.0 hfmtjy.blogspot.sn
 0.0.0.0 hfn.pages.dev
 0.0.0.0 hfndfntdjp.buzz
@@ -300066,7 +300059,6 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
-0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -302002,6 +301994,7 @@
 0.0.0.0 iojpsqeskdexrubk-dot-millinium.ey.r.appspot.com
 0.0.0.0 iok.brunnen-service-huber.de
 0.0.0.0 iokd9.top
+0.0.0.0 ioknet.kehma.online
 0.0.0.0 iokoigf.xyz
 0.0.0.0 iokuya.cf
 0.0.0.0 iol.ie
@@ -306894,7 +306887,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -316956,7 +316948,6 @@
 0.0.0.0 kartavisa.pl
 0.0.0.0 kartavya324.github.io
 0.0.0.0 karte.wo2g.de
-0.0.0.0 kartesr.com
 0.0.0.0 karthick3800.github.io
 0.0.0.0 karthiga-g.github.io
 0.0.0.0 karthigaganapathi.github.io
@@ -326999,6 +326990,7 @@
 0.0.0.0 laroque.co.za
 0.0.0.0 larossola.it
 0.0.0.0 laroverejbs.wixsite.com
+0.0.0.0 larpaddon.net
 0.0.0.0 larpia.pl
 0.0.0.0 larquiropraxia.com.br
 0.0.0.0 larrie42culiman.000webhostapp.com
@@ -336044,7 +336036,6 @@
 0.0.0.0 load-facebookus-53920297.the222.ca
 0.0.0.0 load-facebookus-81644800.the222.ca
 0.0.0.0 load-paxful.pro
-0.0.0.0 load-reservationerror8247.com
 0.0.0.0 load.boletuso.ru
 0.0.0.0 load.cofry.com
 0.0.0.0 load.collegesmooch.com
@@ -341413,6 +341404,7 @@
 0.0.0.0 ludrilusps.gq
 0.0.0.0 lue.bortogat.ru
 0.0.0.0 lueedaadzx.duckdns.org
+0.0.0.0 luegner.top
 0.0.0.0 luenaofficial.com
 0.0.0.0 luersecuretoksreward.pages.dev
 0.0.0.0 lues.boletuso.ru
@@ -390043,7 +390035,6 @@
 0.0.0.0 nn-news.net
 0.0.0.0 nn-update.freaze.eu
 0.0.0.0 nn.cdn-health-service.com
-0.0.0.0 nn.mcgrorys.top
 0.0.0.0 nn.metashepl-en.click
 0.0.0.0 nn1s.c3b8w2n.pics
 0.0.0.0 nn356h.xyz
@@ -399063,10 +399054,10 @@
 0.0.0.0 on-trzr-login.pages.dev
 0.0.0.0 on-water.net
 0.0.0.0 on.5.p2l.info
+0.0.0.0 on.fixlow.shop
 0.0.0.0 on.globalcurrency.life
 0.0.0.0 on.kiqmsjn2.sa.com
 0.0.0.0 on.marcukesh.top
-0.0.0.0 on.mcgrorys.top
 0.0.0.0 on.microonlineauth.com
 0.0.0.0 on.nimp.org
 0.0.0.0 on.zbch-en.com
@@ -416347,6 +416338,7 @@
 0.0.0.0 pingic.com
 0.0.0.0 pingjia.gq
 0.0.0.0 pingjs.qq.com
+0.0.0.0 pingl.vip
 0.0.0.0 pinglady.org
 0.0.0.0 pingma.qq.com
 0.0.0.0 pingomatic.com
@@ -425387,6 +425379,7 @@
 0.0.0.0 primesuretance.net
 0.0.0.0 primetec.pt
 0.0.0.0 primetech.nz
+0.0.0.0 primetextechnologies.com
 0.0.0.0 primetime.ad.primetime.net
 0.0.0.0 primetime.net
 0.0.0.0 primetvrwanda.com
@@ -439439,7 +439432,6 @@
 0.0.0.0 quartierdesignroyalmount.com
 0.0.0.0 quartz-bone-0173.typedream.app
 0.0.0.0 quartz-merciful-rosehip.glitch.me
-0.0.0.0 quartz-pearl.com
 0.0.0.0 quartz-wiry-windshield.glitch.me
 0.0.0.0 quartzvivid.top
 0.0.0.0 quarvenford.net
@@ -446886,6 +446878,7 @@
 0.0.0.0 relay.ingenova.com.au
 0.0.0.0 relay.jimpike.com.au
 0.0.0.0 relay.jungara.com.au
+0.0.0.0 relay.lecoindudiabetique.com
 0.0.0.0 relay.livejasmin.com
 0.0.0.0 relay.mobile.toboads.com
 0.0.0.0 relay.needle26.cavalierso.ru
@@ -447299,7 +447292,6 @@
 0.0.0.0 remote-access-warning.vercel.app
 0.0.0.0 remote-data.asnapieu.com
 0.0.0.0 remote-data.urbanairship.com
-0.0.0.0 remote-helpdesk.com
 0.0.0.0 remote-project-9mapx.cloud.serverless.com
 0.0.0.0 remote-rectifier.pages.dev
 0.0.0.0 remote.facebook.freeaccheck.com
@@ -450243,7 +450235,6 @@
 0.0.0.0 rewardff25tag.duckdns.org
 0.0.0.0 rewardffcode.com
 0.0.0.0 rewardgame.my.id
-0.0.0.0 rewardgoldshop.com
 0.0.0.0 rewardhshs-5o5.pages.dev
 0.0.0.0 rewarditembug.dnset.com
 0.0.0.0 rewarditempubg.dnset.com
@@ -462199,6 +462190,7 @@
 0.0.0.0 save-xk.com
 0.0.0.0 save.dedspac.ru
 0.0.0.0 save.dovvnload-app.com
+0.0.0.0 save.nosehhankjh.top
 0.0.0.0 save.profaalbalopes.info
 0.0.0.0 save.ulitron.ru
 0.0.0.0 saveall.app
@@ -464672,7 +464664,6 @@
 0.0.0.0 seo.mediaz.vn
 0.0.0.0 seobionic.info
 0.0.0.0 seoholding.com
-0.0.0.0 seohumanoid.com
 0.0.0.0 seomaniya.com
 0.0.0.0 seonetwizard.com
 0.0.0.0 seosoftware.onlinedownloads.org
@@ -465606,6 +465597,7 @@
 0.0.0.0 severnledger.info
 0.0.0.0 severodoneck.site
 0.0.0.0 severozapadonlineparts.ru
+0.0.0.0 sevt.mcgrorys.top
 0.0.0.0 sevvviicess.weebly.com
 0.0.0.0 sew.dedspac.ru
 0.0.0.0 seward.net
@@ -465731,7 +465723,6 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
-0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -469112,7 +469103,6 @@
 0.0.0.0 soilvet.info
 0.0.0.0 soja.dedspac.ru
 0.0.0.0 sok.boletuso.ru
-0.0.0.0 sok.soclable8jas.top
 0.0.0.0 sok.ulitron.ru
 0.0.0.0 soka.ulitron.ru
 0.0.0.0 soke.dedspac.ru
@@ -470000,6 +469990,7 @@
 0.0.0.0 spew.ulitron.ru
 0.0.0.0 spewy.dedspac.ru
 0.0.0.0 spezialreporte.de
+0.0.0.0 spgint.com
 0.0.0.0 sphaerion.online
 0.0.0.0 sphaerion.ru
 0.0.0.0 spharm.care-sale.com
@@ -473563,6 +473554,11 @@
 0.0.0.0 storage.softure.com
 0.0.0.0 storage.trafic.ro
 0.0.0.0 storage.yandexcloud.net
+0.0.0.0 storage2.hyperfx.info
+0.0.0.0 storage5.hyperfx.info
+0.0.0.0 storage6.hyperfx.info
+0.0.0.0 storage7.hyperfx.info
+0.0.0.0 storage8.hyperfx.info
 0.0.0.0 storageapi.fleek.co
 0.0.0.0 storagebasket.shop
 0.0.0.0 storagecryptogate.com
@@ -475561,7 +475557,6 @@
 0.0.0.0 sww.lv
 0.0.0.0 swwiisscomch.alwaysdata.net
 0.0.0.0 swyuiu.weebly.com
-0.0.0.0 sx.mcgrorys.top
 0.0.0.0 sx.nazari.org
 0.0.0.0 sx.z0rz.com
 0.0.0.0 sx1i-casefb556796.vercel.app
@@ -478988,6 +478983,7 @@
 0.0.0.0 therajdeepmallick.github.io
 0.0.0.0 theransone.pages.dev
 0.0.0.0 therapistla.com
+0.0.0.0 therb.fixlow.shop
 0.0.0.0 therealesxaath.top
 0.0.0.0 therealmyrn.github.io
 0.0.0.0 theredeemer.pages.dev
@@ -480381,6 +480377,7 @@
 0.0.0.0 tom.allyes.com
 0.0.0.0 tom.bortogat.ru
 0.0.0.0 tom.dedspac.ru
+0.0.0.0 tom.eqraa.org.sa
 0.0.0.0 tom.ulitron.ru
 0.0.0.0 toma.dedspac.ru
 0.0.0.0 toman.virosat.ru
@@ -480716,7 +480713,6 @@
 0.0.0.0 tortoiseshell-calico-bamboo.glitch.me
 0.0.0.0 tortunas.ru
 0.0.0.0 toru.ulitron.ru
-0.0.0.0 torurr.click
 0.0.0.0 torvaldu.ru
 0.0.0.0 torvaniqai.net
 0.0.0.0 torve.dedspac.ru
@@ -483996,7 +483992,7 @@
 0.0.0.0 tw.answers.quantarchive.com
 0.0.0.0 tw.as.y.atwola.com
 0.0.0.0 tw.c.appier.net
-0.0.0.0 tw.mcgrorys.top
+0.0.0.0 tw.fixlow.shop
 0.0.0.0 tw2.adserver.yahoo.com
 0.0.0.0 twa.ulitron.ru
 0.0.0.0 twain.dedspac.ru
@@ -514815,6 +514811,7 @@
 0.0.0.0 www.structures-made-easy.co.uk
 0.0.0.0 www.stsoftware.biz
 0.0.0.0 www.sttvisa.com
+0.0.0.0 www.studio-cf.com
 0.0.0.0 www.studioharborlane.bond
 0.0.0.0 www.studioharvestport.bond
 0.0.0.0 www.studiomugnaini.eu
@@ -516895,6 +516892,7 @@
 0.0.0.0 www.versatile-hegyryi.base44.app
 0.0.0.0 www.verschatdom.net
 0.0.0.0 www.versoamalg.store
+0.0.0.0 www.vertansoft.com
 0.0.0.0 www.vertaugena.com
 0.0.0.0 www.vertexcoinio.com
 0.0.0.0 www.vertexmcp.com
@@ -519507,7 +519505,6 @@
 0.0.0.0 x.ql21.biz.id
 0.0.0.0 x.skimresources.com
 0.0.0.0 x.ulitron.ru
-0.0.0.0 x0.at
 0.0.0.0 x03n.xyz
 0.0.0.0 x0av50.trakeycamp.pl
 0.0.0.0 x0ziqz.ayurbhojan.com
