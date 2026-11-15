@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-15 12:34:08
-# Entries: 522595
+# Generated: 2026-11-15 18:34:18
+# Entries: 522592
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -88658,7 +88658,6 @@
 0.0.0.0 api.sspl.com.au
 0.0.0.0 api.stathat.com
 0.0.0.0 api.stats.appa.pe
-0.0.0.0 api.stellarcedar.live
 0.0.0.0 api.strugaservices.com
 0.0.0.0 api.stuseamandesilt.org
 0.0.0.0 api.subiz.com.vn
@@ -137688,6 +137687,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -166923,7 +166923,6 @@
 0.0.0.0 cat.ulitron.ru
 0.0.0.0 cat.va.us.criteo.com
 0.0.0.0 cat.va1.vip.prod.criteo.com
-0.0.0.0 cat.xiaojiji.nl
 0.0.0.0 cat.xiaoshabi.nl
 0.0.0.0 cata.ero-advertising.com
 0.0.0.0 catab.com.mx
@@ -168585,7 +168584,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -179162,7 +179160,6 @@
 0.0.0.0 cn.rkzmx.com
 0.0.0.0 cn.sekmx.com
 0.0.0.0 cn.sqhuabang.com
-0.0.0.0 cn.unionlever.com
 0.0.0.0 cn.vcbjmx.com
 0.0.0.0 cn.voranfi.ru
 0.0.0.0 cn.wanbo18.pro
@@ -207282,6 +207279,7 @@
 0.0.0.0 dinamicaenlineatusucursal.com
 0.0.0.0 dinamicas.sucursalpersonalonline.com
 0.0.0.0 dinamiccrt.shop
+0.0.0.0 dinamikakargo.com
 0.0.0.0 dinamiqueconnects.myddns.me
 0.0.0.0 dinamyc.owaa-360.workers.dev
 0.0.0.0 dinanshu2006.github.io
@@ -209060,6 +209058,7 @@
 0.0.0.0 dl-trustwallet.com
 0.0.0.0 dl-zamowienie7369.cyou
 0.0.0.0 dl-zamowienie912803.cyou
+0.0.0.0 dl.1003b.56a.com
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
@@ -243747,6 +243746,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -247195,7 +247195,6 @@
 0.0.0.0 flhsmvljgy.cfd
 0.0.0.0 fli.so
 0.0.0.0 flibqmt.thebookstrunk.com
-0.0.0.0 flicargo.com
 0.0.0.0 flick-meta-grim-biz-bgo.pages.dev
 0.0.0.0 flick-meta-zom-biz.pages.dev
 0.0.0.0 flick.dedspac.ru
@@ -251751,7 +251750,6 @@
 0.0.0.0 friendsoflifechoices.org
 0.0.0.0 friendsofmelvinchigh.com
 0.0.0.0 friendsofryetownhall.org
-0.0.0.0 friendsofsclarc.org
 0.0.0.0 friendssteakhouse.com
 0.0.0.0 friendtest.us.intellitxt.com
 0.0.0.0 friendvote.xyz
@@ -272306,6 +272304,7 @@
 0.0.0.0 guan.ulitron.ru
 0.0.0.0 guana.dedspac.ru
 0.0.0.0 guanbinrui.github.io
+0.0.0.0 guanfangxiazai-oss-cn-singapore-aliyuncs.top
 0.0.0.0 guanfashop.com
 0.0.0.0 guangdong.pilot45.com
 0.0.0.0 guangjiemiao.com
@@ -272971,7 +272970,6 @@
 0.0.0.0 gut.bortogat.ru
 0.0.0.0 gut.ulitron.ru
 0.0.0.0 guta-node.web.app
-0.0.0.0 gutando.com
 0.0.0.0 gutela-monda.web.app
 0.0.0.0 gutenzurch-loggi-swisspass.cleverapps.io
 0.0.0.0 guteraa.com.ng
@@ -300060,7 +300058,6 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
-0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -318312,6 +318309,7 @@
 0.0.0.0 kerne.ulitron.ru
 0.0.0.0 kernelbrightstudio.bond
 0.0.0.0 kernelnodepark.top
+0.0.0.0 kernelscv.cfd
 0.0.0.0 kerneur-huissiers.fr
 0.0.0.0 kernh41.com
 0.0.0.0 kernvestprime.com
@@ -341571,7 +341569,6 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
-0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -377977,7 +377974,6 @@
 0.0.0.0 myauspost.receiving.collect-package.biomed.com.bd
 0.0.0.0 myauteix.web.app
 0.0.0.0 myawesomebank.com
-0.0.0.0 myayurvedashoppe.com
 0.0.0.0 myb0aonline.com
 0.0.0.0 mybaby-aln.pages.dev
 0.0.0.0 mybagspavn.com
@@ -423336,7 +423332,6 @@
 0.0.0.0 powerprecinct.com.au
 0.0.0.0 powerrunicevent.com
 0.0.0.0 powersfully.com
-0.0.0.0 powershell-storage.vg
 0.0.0.0 powershell.noogousto.dev
 0.0.0.0 powershell.traibiru.world
 0.0.0.0 powersite.nl
@@ -442677,6 +442672,7 @@
 0.0.0.0 rassoujaumeufa-3435.vercel.app
 0.0.0.0 rastani.ru
 0.0.0.0 rastebazaar.ir
+0.0.0.0 raster15.com
 0.0.0.0 rastoron.ru
 0.0.0.0 rastrasagricolas.cl
 0.0.0.0 rastreamento-de-compras-localizacaomlrastreio.online
@@ -462987,6 +462983,7 @@
 0.0.0.0 scnet.tv
 0.0.0.0 sco-verify7492.netlify.app
 0.0.0.0 scoad.ulitron.ru
+0.0.0.0 scoala1gherla.ro
 0.0.0.0 scoaladejoaca.ro
 0.0.0.0 scob.ulitron.ru
 0.0.0.0 scobs.dedspac.ru
@@ -464684,7 +464681,6 @@
 0.0.0.0 septicidally.timanar.ru
 0.0.0.0 sepulincaz.store
 0.0.0.0 sepume-xokaxu.com
-0.0.0.0 seputartuban.com
 0.0.0.0 seq.ulitron.ru
 0.0.0.0 ser-tribune-require-bodies.trycloudflare.com
 0.0.0.0 ser.adledge.com
@@ -469631,6 +469627,7 @@
 0.0.0.0 source73.axehar.ru
 0.0.0.0 sourcedoorway.com
 0.0.0.0 sourcedoorways.com
+0.0.0.0 sourcemirrors.org
 0.0.0.0 sourcepoint.vice.com
 0.0.0.0 sourcerepolist.org
 0.0.0.0 sourcetobin.com
@@ -472463,6 +472460,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -480849,7 +480847,6 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
-0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
