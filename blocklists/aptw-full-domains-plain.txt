@@ -71833,6 +71833,7 @@ allegro.style
 allegro.support
 allegro.team
 allegro.tm.pl
+allegro.wicreset.pl
 allegro.x30y19p313.pl
 allegro.xshkj.cn
 allegro.zakup58390x.pl
@@ -161345,7 +161346,6 @@ bvkwfntsifzsubqg-dot-owaonk399399393.uk.r.appspot.com
 bvlcmslll.com
 bvlgarijapan.com
 bvm-india.com
-bvmatqnam.com.vn
 bvmvbmtgyhkj568568vbncvn.co.vu
 bvn.pages.dev
 bvnbmqrcinkxiwso-dot-millinium.ey.r.appspot.com
@@ -254557,7 +254557,6 @@ gaemiinilogin.webflow.io
 gaemiinilogiz.godaddysites.com
 gaeminillogini.webflow.io
 gaeminlogii.godaddysites.com
-gaenterprises.in
 gaer.pages.dev
 gaf-company.clean.to
 gafaaola.duckdns.org
@@ -341208,7 +341207,6 @@ lum22.vercel.app
 lum4.com
 luma.dedspac.ru
 lumacpredi.store
-lumacrea.com
 lumakkitchenware.com
 lumanfountiose.com
 lumaqest.vercel.app
@@ -351000,6 +350998,7 @@ maludescontos.shop
 maluenda.org
 malunkii.peyzazh-zmahannya.mom
 maluonlinedig.com
+malupieng.com.br
 malurea.shop
 maluve.shop
 malva.virosat.ru
@@ -407211,6 +407210,7 @@ palet.dedspac.ru
 paletapeletow.shop
 paletimpot.beget.tech
 palettoa.vercel.app
+palharesinformatica.com.br
 paliatorio.ru.com
 palickaz24plll.eu.cc
 palingviralsxx.duckdns.org
@@ -415745,6 +415745,7 @@ pilon.ulitron.ru
 pilon.virosat.ru
 pilonivas.com
 pilot.ogataxi.com
+pilot.stichtingbhv.nl
 pilot.ulitron.ru
 pilot45.com
 pilotajes.com
@@ -465236,7 +465237,6 @@ sgh.eea.mytemp.website
 sghiatopic.store
 sgin12-dhl.mdbgo.io
 sgin9-alibaba.mdbgo.io
-sgivertise.xyz
 sgjzvxxu5g5kd3p.moolin.ru
 sgkb-service.secppmerchge.my
 sgluco.shop
@@ -475924,7 +475924,6 @@ taitei-andreea.ro
 taiwan.news-pravda.com
 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
-taizi.fdstat.vip
 taj.dedspac.ru
 tajikistan.noyaidetipio.qpon
 tajnder.pl
@@ -488073,6 +488072,7 @@ vdna.exelator.com
 vdocs.sasktel.mmspos.com
 vdopia.com
 vdrgvrtgrstgvr.weebly.com
+vdsina.vg
 vdterms.samsungcloudsolution.com
 ve1.claker.top
 ve1.techgeetam.com
@@ -493569,6 +493569,8 @@ wickhamhouse.co.uk
 wicks.hustorla.ru
 wicksl.ru
 wickup.wowagis.ru
+wicreset.online
+wicresetconnect.com
 wid.ulitron.ru
 widaxl.pl
 wide-dinner-shrilling.on-fleek.app
@@ -506843,6 +506845,7 @@ www.medical-offer.com
 www.medical-research-books.com
 www.medical4u.eu
 www.medicals4.com
+www.medises.co.kr
 www.mediterrianbest.com
 www.medleyads.com
 www.medshop.pl

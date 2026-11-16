@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-16 12:34:02
-# Entries: 521392
+# Generated: 2026-11-16 18:33:48
+# Entries: 521395
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -71840,6 +71840,7 @@
 0.0.0.0 allegro.support
 0.0.0.0 allegro.team
 0.0.0.0 allegro.tm.pl
+0.0.0.0 allegro.wicreset.pl
 0.0.0.0 allegro.x30y19p313.pl
 0.0.0.0 allegro.xshkj.cn
 0.0.0.0 allegro.zakup58390x.pl
@@ -161352,7 +161353,6 @@
 0.0.0.0 bvlcmslll.com
 0.0.0.0 bvlgarijapan.com
 0.0.0.0 bvm-india.com
-0.0.0.0 bvmatqnam.com.vn
 0.0.0.0 bvmvbmtgyhkj568568vbncvn.co.vu
 0.0.0.0 bvn.pages.dev
 0.0.0.0 bvnbmqrcinkxiwso-dot-millinium.ey.r.appspot.com
@@ -254564,7 +254564,6 @@
 0.0.0.0 gaemiinilogiz.godaddysites.com
 0.0.0.0 gaeminillogini.webflow.io
 0.0.0.0 gaeminlogii.godaddysites.com
-0.0.0.0 gaenterprises.in
 0.0.0.0 gaer.pages.dev
 0.0.0.0 gaf-company.clean.to
 0.0.0.0 gafaaola.duckdns.org
@@ -341215,7 +341214,6 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
-0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -351007,6 +351005,7 @@
 0.0.0.0 maluenda.org
 0.0.0.0 malunkii.peyzazh-zmahannya.mom
 0.0.0.0 maluonlinedig.com
+0.0.0.0 malupieng.com.br
 0.0.0.0 malurea.shop
 0.0.0.0 maluve.shop
 0.0.0.0 malva.virosat.ru
@@ -407218,6 +407217,7 @@
 0.0.0.0 paletapeletow.shop
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
+0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palickaz24plll.eu.cc
 0.0.0.0 palingviralsxx.duckdns.org
@@ -415752,6 +415752,7 @@
 0.0.0.0 pilon.virosat.ru
 0.0.0.0 pilonivas.com
 0.0.0.0 pilot.ogataxi.com
+0.0.0.0 pilot.stichtingbhv.nl
 0.0.0.0 pilot.ulitron.ru
 0.0.0.0 pilot45.com
 0.0.0.0 pilotajes.com
@@ -465243,7 +465244,6 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
-0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -475931,7 +475931,6 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
-0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -488080,6 +488079,7 @@
 0.0.0.0 vdocs.sasktel.mmspos.com
 0.0.0.0 vdopia.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
+0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 ve1.claker.top
 0.0.0.0 ve1.techgeetam.com
@@ -493576,6 +493576,8 @@
 0.0.0.0 wicks.hustorla.ru
 0.0.0.0 wicksl.ru
 0.0.0.0 wickup.wowagis.ru
+0.0.0.0 wicreset.online
+0.0.0.0 wicresetconnect.com
 0.0.0.0 wid.ulitron.ru
 0.0.0.0 widaxl.pl
 0.0.0.0 wide-dinner-shrilling.on-fleek.app
@@ -506850,6 +506852,7 @@
 0.0.0.0 www.medical-research-books.com
 0.0.0.0 www.medical4u.eu
 0.0.0.0 www.medicals4.com
+0.0.0.0 www.medises.co.kr
 0.0.0.0 www.mediterrianbest.com
 0.0.0.0 www.medleyads.com
 0.0.0.0 www.medshop.pl
