@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-16 06:04:48
-# Entries: 521390
+# Generated: 2026-11-16 06:34:41
+# Entries: 521389
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -499339,7 +499339,6 @@
 0.0.0.0 www.compieider.store
 0.0.0.0 www.compitte.com
 0.0.0.0 www.complammin.store
-0.0.0.0 www.complianceportals.com
 0.0.0.0 www.complien.com
 0.0.0.0 www.complimentaryd-ata.com
 0.0.0.0 www.compositefarming.com
