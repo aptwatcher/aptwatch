@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-16 06:34:41
-# Entries: 521389
+# Generated: 2026-11-16 12:34:02
+# Entries: 521392
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -104650,6 +104650,7 @@
 0.0.0.0 atomicfeed.facebbook47.appspot.com
 0.0.0.0 atomicicecream.xyz
 0.0.0.0 atomiciwallet.com
+0.0.0.0 atomicplanets.cc
 0.0.0.0 atomicsox.com
 0.0.0.0 atomicwalle--auth.webflow.io
 0.0.0.0 atomicwallet-cdn-auths.teachable.com
@@ -179077,6 +179078,7 @@
 0.0.0.0 cn.rkzmx.com
 0.0.0.0 cn.sekmx.com
 0.0.0.0 cn.sqhuabang.com
+0.0.0.0 cn.unionlever.com
 0.0.0.0 cn.vcbjmx.com
 0.0.0.0 cn.voranfi.ru
 0.0.0.0 cn.wanbo18.pro
@@ -251507,7 +251509,6 @@
 0.0.0.0 friendsoflifechoices.org
 0.0.0.0 friendsofmelvinchigh.com
 0.0.0.0 friendsofryetownhall.org
-0.0.0.0 friendsofsclarc.org
 0.0.0.0 friendssteakhouse.com
 0.0.0.0 friendtest.us.intellitxt.com
 0.0.0.0 friendvote.xyz
@@ -284655,6 +284656,7 @@
 0.0.0.0 horizon.sailthru.com
 0.0.0.0 horizonforest.pages.dev
 0.0.0.0 horizonharmony.life
+0.0.0.0 horizonlauncher.net
 0.0.0.0 horizonmetaverse.live
 0.0.0.0 horizononeroyalty.com
 0.0.0.0 horizonpaa2.org
@@ -306557,6 +306559,7 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
+0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -366658,6 +366661,7 @@
 0.0.0.0 miil45.betohacker.com
 0.0.0.0 miilledi.online
 0.0.0.0 miilledi.ru
+0.0.0.0 miip.live
 0.0.0.0 miiptv.com.co
 0.0.0.0 miiqatchem.com
 0.0.0.0 miitamask-loggius.godaddysites.com
@@ -373572,7 +373576,6 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
-0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -407215,7 +407218,6 @@
 0.0.0.0 paletapeletow.shop
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
-0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palickaz24plll.eu.cc
 0.0.0.0 palingviralsxx.duckdns.org
@@ -465241,6 +465243,7 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
+0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -475928,6 +475931,7 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
+0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -477174,7 +477178,6 @@
 0.0.0.0 techspotcom.skimlinks.com
 0.0.0.0 techstats.net
 0.0.0.0 techsupportforum.us.intellitxt.com
-0.0.0.0 techtattva.in
 0.0.0.0 techvantae.com
 0.0.0.0 techvaron.com
 0.0.0.0 techvexaq.com
@@ -499339,6 +499342,7 @@
 0.0.0.0 www.compieider.store
 0.0.0.0 www.compitte.com
 0.0.0.0 www.complammin.store
+0.0.0.0 www.complianceportals.com
 0.0.0.0 www.complien.com
 0.0.0.0 www.complimentaryd-ata.com
 0.0.0.0 www.compositefarming.com
@@ -506846,7 +506850,6 @@
 0.0.0.0 www.medical-research-books.com
 0.0.0.0 www.medical4u.eu
 0.0.0.0 www.medicals4.com
-0.0.0.0 www.medises.co.kr
 0.0.0.0 www.mediterrianbest.com
 0.0.0.0 www.medleyads.com
 0.0.0.0 www.medshop.pl
