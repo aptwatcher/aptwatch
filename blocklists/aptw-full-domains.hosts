@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-17 12:34:23
-# Entries: 521384
+# Generated: 2026-11-17 18:34:44
+# Entries: 521355
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -33352,6 +33352,7 @@
 0.0.0.0 6server.com
 0.0.0.0 6sgts7fgxkbh2oqdlzcqf2l.liusanjie.cc
 0.0.0.0 6sibd.ktt55.my.id
+0.0.0.0 6sim.vip
 0.0.0.0 6sjqd.hp.peraichi.com
 0.0.0.0 6sjx6vz6uaznkb.qwo231sdx.club
 0.0.0.0 6sk5s.school
@@ -51006,7 +51007,6 @@
 0.0.0.0 accyour.inc.ref.benef.2019.hmrc.bingobabe.co.uk
 0.0.0.0 accytoun6tmanage64.gb.net
 0.0.0.0 acd.ilyaromanchuk.com
-0.0.0.0 acd.munber.life
 0.0.0.0 acd80aae5512e2626cf7e3d6bf763236-dot-gle9392420309493993.rj.r.appspot.com
 0.0.0.0 acda.org.br
 0.0.0.0 acdfdrassw6w.allcleanbydee2.com
@@ -54845,6 +54845,7 @@
 0.0.0.0 adcel.vrvm.com
 0.0.0.0 adcell.de
 0.0.0.0 adcenter.net
+0.0.0.0 adcentral.com.mx
 0.0.0.0 adcentre.it-advanced.com
 0.0.0.0 adcentric.randomseed.com
 0.0.0.0 adcentriconline.com
@@ -66726,7 +66727,6 @@
 0.0.0.0 airvisioninfinity.com
 0.0.0.0 airwards.matsuro.ru
 0.0.0.0 airwave.bluestacko.ru
-0.0.0.0 airwayhost.com
 0.0.0.0 airwe.in
 0.0.0.0 airwind.eu
 0.0.0.0 airwomen.bluestacko.ru
@@ -88632,7 +88632,6 @@
 0.0.0.0 api.sspl.com.au
 0.0.0.0 api.stathat.com
 0.0.0.0 api.stats.appa.pe
-0.0.0.0 api.stellarcedar.live
 0.0.0.0 api.strugaservices.com
 0.0.0.0 api.stuseamandesilt.org
 0.0.0.0 api.subiz.com.vn
@@ -91033,7 +91032,6 @@
 0.0.0.0 app.appleadwords.net
 0.0.0.0 app.appsflyer.com
 0.0.0.0 app.appsmartfixup.com
-0.0.0.0 app.appzcvb.com
 0.0.0.0 app.aproba2libreinver.cloud
 0.0.0.0 app.aspirehealthspan.ai
 0.0.0.0 app.assetrestored.com
@@ -103771,7 +103769,6 @@
 0.0.0.0 atarh.com
 0.0.0.0 ataridemocrats.com
 0.0.0.0 atarpostqb.com
-0.0.0.0 atasapka.com.tr
 0.0.0.0 atasareru.ru
 0.0.0.0 atasci.com.au
 0.0.0.0 atasehirtoner.com
@@ -146200,7 +146197,6 @@
 0.0.0.0 bjydismvkjycfjxx-dot-millinium.ey.r.appspot.com
 0.0.0.0 bjyfzc.com
 0.0.0.0 bjym7.weblium.site
-0.0.0.0 bjyunte.com
 0.0.0.0 bjyynsryxmipvngg-dot-millinium.ey.r.appspot.com
 0.0.0.0 bjzijin.com.cn
 0.0.0.0 bjziywguihufkjsitjmsrhitrb-dot-gl9393jan.uk.r.appspot.com
@@ -156468,7 +156464,6 @@
 0.0.0.0 bselomyxzc.duckdns.org
 0.0.0.0 bsemep.com
 0.0.0.0 bsentrep.qsu.edu.ph
-0.0.0.0 bserail.com
 0.0.0.0 bservd.hondalapuente.com
 0.0.0.0 bsesol.com
 0.0.0.0 bseuxpyfgbxygclw-dot-millinium.ey.r.appspot.com
@@ -169718,7 +169713,6 @@
 0.0.0.0 ceramic.sikolar.ru
 0.0.0.0 ceramicacano.es
 0.0.0.0 ceramicasalinas.com
-0.0.0.0 ceramicasaosebastiao.com.br
 0.0.0.0 ceramide.bortogat.ru
 0.0.0.0 ceramide.timanar.ru
 0.0.0.0 ceramikaczary.pl
@@ -192116,7 +192110,6 @@
 0.0.0.0 cubby.dedspac.ru
 0.0.0.0 cubby.ulitron.ru
 0.0.0.0 cubdom.virosat.ru
-0.0.0.0 cube-60.com
 0.0.0.0 cube.boletuso.ru
 0.0.0.0 cube.dedspac.ru
 0.0.0.0 cube.ign.us.intellitxt.com
@@ -195793,7 +195786,6 @@
 0.0.0.0 dametting.blogspot.mx
 0.0.0.0 dami1080.github.io
 0.0.0.0 damia.ulitron.ru
-0.0.0.0 damiancollier.com
 0.0.0.0 damianemile.com
 0.0.0.0 damianwampler.com
 0.0.0.0 damidamine.com
@@ -208957,14 +208949,12 @@
 0.0.0.0 dl-trustwallet.com
 0.0.0.0 dl-zamowienie7369.cyou
 0.0.0.0 dl-zamowienie912803.cyou
-0.0.0.0 dl.1003b.56a.com
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
 0.0.0.0 dl.atradingroup.com
 0.0.0.0 dl.dir.freefiremobile.com.sg2.putrivpn.biz.id
 0.0.0.0 dl.dir.freefiremobile.com.sg5.putrivpn.biz.id
-0.0.0.0 dl.dzqzd.com
 0.0.0.0 dl.elitoras.ru
 0.0.0.0 dl.fotoable.com
 0.0.0.0 dl.freeshare.link
@@ -211872,10 +211862,9 @@
 0.0.0.0 down.bybitpro.construction
 0.0.0.0 down.dedspac.ru
 0.0.0.0 down.feiyang163.com
-0.0.0.0 down.fwqlt.com
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
-0.0.0.0 down.pcclear.com
+0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.stellarcedar.live
@@ -222929,7 +222918,6 @@
 0.0.0.0 en.service-paypal.net
 0.0.0.0 en.smartappweb.org
 0.0.0.0 en.super-cleaning.be
-0.0.0.0 en.taichuan.com
 0.0.0.0 en.timerto.ru
 0.0.0.0 en.timoutupdate.in
 0.0.0.0 en.ucbi-groups.com
@@ -224529,7 +224517,6 @@
 0.0.0.0 epaleccs.info
 0.0.0.0 epanadiplosis.life
 0.0.0.0 epancakeswap.com
-0.0.0.0 epanpano.com
 0.0.0.0 epansoftware.com
 0.0.0.0 epargiance.pro
 0.0.0.0 epargne.temp.swtest.ru
@@ -243601,6 +243588,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -258549,7 +258537,6 @@
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
 0.0.0.0 gestrauss.shop
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -299741,7 +299728,6 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
-0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -303741,6 +303727,7 @@
 0.0.0.0 itchyladybird.build067.wpsandbox.app
 0.0.0.0 itcicloud.cn
 0.0.0.0 itcitymm.com
+0.0.0.0 itco.pe
 0.0.0.0 itcom-cm.net
 0.0.0.0 itcomm.co.id
 0.0.0.0 itcommunication.co.za
@@ -306554,6 +306541,7 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
+0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -334158,7 +334146,6 @@
 0.0.0.0 livingemeraldjayne.com
 0.0.0.0 livingfreeintl.com
 0.0.0.0 livinginjupfl.com
-0.0.0.0 livinginpurpose.co.za
 0.0.0.0 livinglawsociety.org
 0.0.0.0 livinglocal.homes
 0.0.0.0 livingmybosslifeacademy.com
@@ -368252,7 +368239,6 @@
 0.0.0.0 mitre.ulitron.ru
 0.0.0.0 mitre.virosat.ru
 0.0.0.0 mitre10.officeupdate.co.nz
-0.0.0.0 mitreart.com
 0.0.0.0 mitreclub.in
 0.0.0.0 mitrograd.ru
 0.0.0.0 mitsecure1.com
@@ -373495,7 +373481,6 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
-0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -373568,7 +373553,6 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
-0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -380046,7 +380030,6 @@
 0.0.0.0 n.systemlog.me
 0.0.0.0 n.targetctracker.com
 0.0.0.0 n.timerto.ru
-0.0.0.0 n.vs108.com
 0.0.0.0 n.yj.fr
 0.0.0.0 n.z7mard.yhfnxn4yif.yyg.44f4bm8jj.tjgs.a7fwx4s.y4sk4f.fs.2ejmf.jjxp.scyrz6q.3k4y.cn2gbzw.epjnheai6.ndsye.6b8scztpm.rbfkhx.de.w.2qkwnw.hmtr.5ntsprmyy.awejw.jphz.iyxw3qjcn.ens3c.pay.paypalcancel.cc
 0.0.0.0 n01d05.cumulus-cloud.com
@@ -390722,6 +390705,7 @@
 0.0.0.0 northernrepairsables.com
 0.0.0.0 northernriverspestcontrol.com.au
 0.0.0.0 northernsafety-dot-exceldownloads.uk.r.appspot.com
+0.0.0.0 northernvirginiaeyeassociates.com
 0.0.0.0 northfacepolska.pl
 0.0.0.0 northfacewyprzedaz.org
 0.0.0.0 northga.rocks
@@ -407209,7 +407193,6 @@
 0.0.0.0 paletapeletow.shop
 0.0.0.0 paletimpot.beget.tech
 0.0.0.0 palettoa.vercel.app
-0.0.0.0 palharesinformatica.com.br
 0.0.0.0 paliatorio.ru.com
 0.0.0.0 palickaz24plll.eu.cc
 0.0.0.0 palingviralsxx.duckdns.org
@@ -425947,7 +425930,6 @@
 0.0.0.0 prodigyfashion.es
 0.0.0.0 prodigynetlogss.weebly.com
 0.0.0.0 prodigysigninattsm.weebly.com
-0.0.0.0 prodimetal.com
 0.0.0.0 prodjs.wpenginepowered.com
 0.0.0.0 prodoctransfs.com
 0.0.0.0 prodromatically.bibliota.ru
@@ -458201,7 +458183,6 @@
 0.0.0.0 safeguardtrackerconversionhub.vercel.app
 0.0.0.0 safeguardtrackerdigitalleads.vercel.app
 0.0.0.0 safeguardtrackerimpactjourney.vercel.app
-0.0.0.0 safeifm.com
 0.0.0.0 safeincgroup.com
 0.0.0.0 safeintelchannel.pages.dev
 0.0.0.0 safekai.club
@@ -472355,7 +472336,6 @@
 0.0.0.0 stcamconnmumnlty.com
 0.0.0.0 std.o.webmd.com
 0.0.0.0 std112.github.io
-0.0.0.0 stdown.dinju.com
 0.0.0.0 steacncomnuniry.ru
 0.0.0.0 stead.dedspac.ru
 0.0.0.0 steadfast-seemly-cobalt.glitch.me
@@ -472830,9 +472810,7 @@
 0.0.0.0 stiyyngingstowage.info
 0.0.0.0 stj7uppm.metanat.ru
 0.0.0.0 stjc2zjjnff46qng.cddental.com.au
-0.0.0.0 stkc4.hyperfxs.icu
 0.0.0.0 stkk.pl
-0.0.0.0 stkk3.hyperfxs.icu
 0.0.0.0 stkkrangulated.info
 0.0.0.0 stkp1.hyperfxs.icu
 0.0.0.0 stl-investment.ltd
@@ -473393,7 +473371,6 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
-0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamridgeclover.online
 0.0.0.0 streamseek.net
@@ -474943,6 +474920,7 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftdryblowdryers.org
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftonyx16.com
@@ -475922,7 +475900,6 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
-0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -477903,7 +477880,6 @@
 0.0.0.0 test.oeqxpsi0p.com
 0.0.0.0 test.osmanylmz.online
 0.0.0.0 test.paparoacho.ru
-0.0.0.0 test.peperoncinochepassione.it
 0.0.0.0 test.pittlergear.com
 0.0.0.0 test.report.jimpike.com.au
 0.0.0.0 test.rhchp.ru
@@ -484650,7 +484626,6 @@
 0.0.0.0 uni-elster.com
 0.0.0.0 uni-littoral.fr
 0.0.0.0 uni-swap-protocols.pages.dev
-0.0.0.0 uni.site.je
 0.0.0.0 unian-news.info
 0.0.0.0 unibanco.digital
 0.0.0.0 uniccrwap.cc
@@ -499417,7 +499392,6 @@
 0.0.0.0 www.continuedlincoln.bond
 0.0.0.0 www.contrack.link
 0.0.0.0 www.contractpreviewhub.com
-0.0.0.0 www.controliumbt.com
 0.0.0.0 www.controlpop.com
 0.0.0.0 www.controlsecurity.net
 0.0.0.0 www.contrphosp.store
@@ -512024,7 +511998,6 @@
 0.0.0.0 www.saccuconta.store
 0.0.0.0 www.sacredphoenix.com
 0.0.0.0 www.sadostic.pl
-0.0.0.0 www.saf-oil.ru
 0.0.0.0 www.safak-birikimli.sbs
 0.0.0.0 www.safakbirikac-ai.net
 0.0.0.0 www.safaricom-fuliza.com
@@ -517138,7 +517111,6 @@
 0.0.0.0 www.wumurhapli.digital
 0.0.0.0 www.wupwh-h19h.vercel.app
 0.0.0.0 www.wurbato.click
-0.0.0.0 www.wurstclient.org
 0.0.0.0 www.wurtzimpia.store
 0.0.0.0 www.wusere.com
 0.0.0.0 www.wvkdx.shop
@@ -519941,7 +519913,6 @@
 0.0.0.0 yourdepplyydebittlik20jtt.pages.dev
 0.0.0.0 yourdirectinfospace.com
 0.0.0.0 youremplregroup.com
-0.0.0.0 youreonlymassive.com
 0.0.0.0 yourfitway.com
 0.0.0.0 yourfocus.ru
 0.0.0.0 yourgascards.com
