@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-17 00:34:13
+# Generated: 2026-11-17 06:05:04
 # Entries: 521380
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -254563,7 +254563,6 @@
 0.0.0.0 gaemiinilogiz.godaddysites.com
 0.0.0.0 gaeminillogini.webflow.io
 0.0.0.0 gaeminlogii.godaddysites.com
-0.0.0.0 gaenterprises.in
 0.0.0.0 gaer.pages.dev
 0.0.0.0 gaf-company.clean.to
 0.0.0.0 gafaaola.duckdns.org
@@ -283007,7 +283006,6 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
-0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -286609,6 +286607,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -324247,6 +324246,7 @@
 0.0.0.0 kupatur.000webhostapp.com
 0.0.0.0 kupello.top
 0.0.0.0 kupgrade.com
+0.0.0.0 kuphela.com.mx
 0.0.0.0 kupie-oddam.pl
 0.0.0.0 kupikomputer.ru
 0.0.0.0 kupnuc.by
@@ -354997,7 +354997,6 @@
 0.0.0.0 mccarthyhummer.com
 0.0.0.0 mcccibizdirectory.mw
 0.0.0.0 mccduppgekuprqzh-dot-millinium.ey.r.appspot.com
-0.0.0.0 mccl.com.vn
 0.0.0.0 mcclatchy.112.2o7.net
 0.0.0.0 mcclellanparksecuresharefileonline.on.fleek.co
 0.0.0.0 mcconcep.cluster005.ovh.net
@@ -397064,6 +397063,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -465234,6 +465234,7 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
+0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -471327,7 +471328,6 @@
 0.0.0.0 stan-stana.site
 0.0.0.0 stan-stana.space
 0.0.0.0 stan-stana.website
-0.0.0.0 stanarcservice.com
 0.0.0.0 stanbicassets.web.app
 0.0.0.0 stanbridgeestate.com
 0.0.0.0 stand.virosat.ru
@@ -480300,6 +480300,7 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
+0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -488065,7 +488066,6 @@
 0.0.0.0 vdocs.sasktel.mmspos.com
 0.0.0.0 vdopia.com
 0.0.0.0 vdrgvrtgrstgvr.weebly.com
-0.0.0.0 vdsina.vg
 0.0.0.0 vdterms.samsungcloudsolution.com
 0.0.0.0 ve1.claker.top
 0.0.0.0 ve1.techgeetam.com
