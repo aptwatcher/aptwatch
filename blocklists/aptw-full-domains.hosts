@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-16 18:33:48
-# Entries: 521395
+# Generated: 2026-11-17 00:34:13
+# Entries: 521380
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -102105,6 +102105,7 @@
 0.0.0.0 asnedyfgh.weebly.com
 0.0.0.0 asnetmultimedia.it
 0.0.0.0 asniooamovnvjbnypfrwkyldaf-dot-gl099898987fhkl.uk.r.appspot.com
+0.0.0.0 asniqdkw.com
 0.0.0.0 asnkjasnfjnkj.shortcm.li
 0.0.0.0 asnovidadesdomesdejunho.com
 0.0.0.0 asnp74l.haveplentymusic.com
@@ -156398,6 +156399,7 @@
 0.0.0.0 bs5nxy1yyysdh1hem7ai5nuxk49pn.qwo231sdx.club
 0.0.0.0 bsachittagong.gov.bd
 0.0.0.0 bsaconsulting.co.za
+0.0.0.0 bsadbnqwic.com
 0.0.0.0 bsam-lab.github.io
 0.0.0.0 bsandersshop.com
 0.0.0.0 bsantosh0610.github.io
@@ -159540,7 +159542,6 @@
 0.0.0.0 bullyheadfishing.com
 0.0.0.0 bullyrook.matsuro.ru
 0.0.0.0 bullz-eye.us.intellitxt.com
-0.0.0.0 buloru.com
 0.0.0.0 bulrhxbdedckcssr-dot-millinium.ey.r.appspot.com
 0.0.0.0 bulrikwyqk.duckdns.org
 0.0.0.0 bulse.dedspac.ru
@@ -168326,6 +168327,7 @@
 0.0.0.0 cdn.3lift.com
 0.0.0.0 cdn.567greetings.com
 0.0.0.0 cdn.7starjavanan.shop
+0.0.0.0 cdn.876553.xyz
 0.0.0.0 cdn.877955.xyz
 0.0.0.0 cdn.88-f.net
 0.0.0.0 cdn.8digits.com
@@ -177881,7 +177883,6 @@
 0.0.0.0 clockskew.alphonso.tv
 0.0.0.0 clockurl.com
 0.0.0.0 clod.bortogat.ru
-0.0.0.0 clod.lippasswer.top
 0.0.0.0 clod.ulitron.ru
 0.0.0.0 clodayco.dhvsqo.cn
 0.0.0.0 clodbrdfkcixkzqbgpoyddxrmuycyoxjguhp-dot-cedar-code-289917.nn.r.appspot.com
@@ -208956,7 +208957,6 @@
 0.0.0.0 dl-trustwallet.com
 0.0.0.0 dl-zamowienie7369.cyou
 0.0.0.0 dl-zamowienie912803.cyou
-0.0.0.0 dl.1003b.56a.com
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
@@ -210986,7 +210986,6 @@
 0.0.0.0 dolphinet.com.br
 0.0.0.0 dolphinprofessionalcentre.com
 0.0.0.0 dolphinsoft.in
-0.0.0.0 dolphlinksan.online
 0.0.0.0 dolt.boletuso.ru
 0.0.0.0 dolt.bortogat.ru
 0.0.0.0 dolt.ulitron.ru
@@ -211444,6 +211443,7 @@
 0.0.0.0 donut.dedspac.ru
 0.0.0.0 donutclient.de
 0.0.0.0 donutecocolate.com
+0.0.0.0 donutsmpclient.net
 0.0.0.0 donval.112.2o7.net
 0.0.0.0 donweeseinc.com
 0.0.0.0 donyaiajor.com
@@ -212010,7 +212010,6 @@
 0.0.0.0 downloadplayer.xyz
 0.0.0.0 downloads.email-attachments.ru
 0.0.0.0 downloads.file-attachments.ru
-0.0.0.0 downloads.goxlr.studio
 0.0.0.0 downloads.larivieracasino.com
 0.0.0.0 downloads.mytvandmovies.com
 0.0.0.0 downloads.pcsecurityshield.com
@@ -254564,6 +254563,7 @@
 0.0.0.0 gaemiinilogiz.godaddysites.com
 0.0.0.0 gaeminillogini.webflow.io
 0.0.0.0 gaeminlogii.godaddysites.com
+0.0.0.0 gaenterprises.in
 0.0.0.0 gaer.pages.dev
 0.0.0.0 gaf-company.clean.to
 0.0.0.0 gafaaola.duckdns.org
@@ -276581,7 +276581,6 @@
 0.0.0.0 hdshawyhw3eayuheyh.blogspot.lt
 0.0.0.0 hdshawyhw3eayuheyh.blogspot.my
 0.0.0.0 hdshfds123562.co.vu
-0.0.0.0 hdsoftware.org
 0.0.0.0 hdtff.blogspot.md
 0.0.0.0 hdtfyvklwumjvzmz-dot-millinium.ey.r.appspot.com
 0.0.0.0 hdttfgfff.xyz
@@ -286610,7 +286609,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -301674,7 +301672,6 @@
 0.0.0.0 iojpsqeskdexrubk-dot-millinium.ey.r.appspot.com
 0.0.0.0 iok.brunnen-service-huber.de
 0.0.0.0 iokd9.top
-0.0.0.0 ioknet.kehma.online
 0.0.0.0 iokoigf.xyz
 0.0.0.0 iokuya.cf
 0.0.0.0 iol.ie
@@ -317605,7 +317602,6 @@
 0.0.0.0 keka-cold.ru
 0.0.0.0 kekejb.dew4.my.id
 0.0.0.0 kekhxfwcxoxhmtun-dot-millinium.ey.r.appspot.com
-0.0.0.0 kekman.space
 0.0.0.0 kekomundo.epizy.com
 0.0.0.0 keksonline.ru
 0.0.0.0 kektive.net
@@ -326634,7 +326630,6 @@
 0.0.0.0 laroque.co.za
 0.0.0.0 larossola.it
 0.0.0.0 laroverejbs.wixsite.com
-0.0.0.0 larpaddon.net
 0.0.0.0 larpia.pl
 0.0.0.0 larquiropraxia.com.br
 0.0.0.0 larrie42culiman.000webhostapp.com
@@ -341050,7 +341045,6 @@
 0.0.0.0 ludrilusps.gq
 0.0.0.0 lue.bortogat.ru
 0.0.0.0 lueedaadzx.duckdns.org
-0.0.0.0 luegner.top
 0.0.0.0 luenaofficial.com
 0.0.0.0 luersecuretoksreward.pages.dev
 0.0.0.0 lues.boletuso.ru
@@ -341214,6 +341208,7 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
+0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -382327,7 +382322,6 @@
 0.0.0.0 ncvnaleidoscopichashmaps.stacychun5.repl.co
 0.0.0.0 ncwqcdzhby.duckdns.org
 0.0.0.0 ncwqvsckedvrtlwucwnlwycqmj-dot-gleowayel400503.uc.r.appspot.com
-0.0.0.0 ncxps.com
 0.0.0.0 ncxrpjezyx.duckdns.org
 0.0.0.0 ncxzjn.we9ixzz.co
 0.0.0.0 ncybedfg.weebly.com
@@ -383234,6 +383228,7 @@
 0.0.0.0 nenta.ulitron.ru
 0.0.0.0 nenta.virosat.ru
 0.0.0.0 nenter.fixlow.shop
+0.0.0.0 nenters.fixlow.shop
 0.0.0.0 nenzgrhxmo.duckdns.org
 0.0.0.0 neo-glow.lol
 0.0.0.0 neo-joy.lol
@@ -398636,7 +398631,6 @@
 0.0.0.0 on-trzr-login.pages.dev
 0.0.0.0 on-water.net
 0.0.0.0 on.5.p2l.info
-0.0.0.0 on.fixlow.shop
 0.0.0.0 on.globalcurrency.life
 0.0.0.0 on.kiqmsjn2.sa.com
 0.0.0.0 on.marcukesh.top
@@ -407085,7 +407079,6 @@
 0.0.0.0 pakallin.com
 0.0.0.0 pakatanbentengmaya.my
 0.0.0.0 pakatandn.ml
-0.0.0.0 pakdigital.org
 0.0.0.0 pakeepostenen.wpengine.com
 0.0.0.0 pakekdknejkdkrmtkmnodknenrodksudjd.ttrbru.eu.org
 0.0.0.0 paket-dhl.free-h.net
@@ -414111,6 +414104,7 @@
 0.0.0.0 peypalgoservice.000webhostapp.com
 0.0.0.0 peypalll.blogspot.sn
 0.0.0.0 peypals.in.ua
+0.0.0.0 peyser.online
 0.0.0.0 peyseys.net
 0.0.0.0 peyyypalxss.xyz
 0.0.0.0 pezcolombia.com
@@ -424940,7 +424934,6 @@
 0.0.0.0 primesuretance.net
 0.0.0.0 primetec.pt
 0.0.0.0 primetech.nz
-0.0.0.0 primetextechnologies.com
 0.0.0.0 primetime.ad.primetime.net
 0.0.0.0 primetime.net
 0.0.0.0 primetvrwanda.com
@@ -439297,6 +439290,7 @@
 0.0.0.0 quickrewind.com
 0.0.0.0 quickridecabs.com
 0.0.0.0 quickrockgranite.com
+0.0.0.0 quickrun31.cc
 0.0.0.0 quicksaledeal.su
 0.0.0.0 quicksaleezine.com
 0.0.0.0 quicksecure-case.x24hr.com
@@ -446424,7 +446418,6 @@
 0.0.0.0 relay.ingenova.com.au
 0.0.0.0 relay.jimpike.com.au
 0.0.0.0 relay.jungara.com.au
-0.0.0.0 relay.lecoindudiabetique.com
 0.0.0.0 relay.livejasmin.com
 0.0.0.0 relay.mobile.toboads.com
 0.0.0.0 relay.needle26.cavalierso.ru
@@ -450250,7 +450243,6 @@
 0.0.0.0 rhea.ulitron.ru
 0.0.0.0 rheas.dedspac.ru
 0.0.0.0 rheas.virosat.ru
-0.0.0.0 rheddh.com
 0.0.0.0 rheem.cl
 0.0.0.0 rhegjzdyknhbqfvxfjxudwssli-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 rheiath-hyiouks-mcdoedly.yolasite.com
@@ -461710,7 +461702,6 @@
 0.0.0.0 save-xk.com
 0.0.0.0 save.dedspac.ru
 0.0.0.0 save.dovvnload-app.com
-0.0.0.0 save.nosehhankjh.top
 0.0.0.0 save.profaalbalopes.info
 0.0.0.0 save.ulitron.ru
 0.0.0.0 saveall.app
@@ -465120,7 +465111,6 @@
 0.0.0.0 severodoneck.site
 0.0.0.0 severozapadonlineparts.ru
 0.0.0.0 sevinete.fixlow.shop
-0.0.0.0 sevt.mcgrorys.top
 0.0.0.0 sevvviicess.weebly.com
 0.0.0.0 sew.dedspac.ru
 0.0.0.0 seward.net
@@ -472774,6 +472764,7 @@
 0.0.0.0 stg.airec.ij9h9w.com
 0.0.0.0 stg.anymind360.com
 0.0.0.0 stg1l.hyperfx.info
+0.0.0.0 stg3h.hyperfx.info
 0.0.0.0 stg6-amx-getinspired-e2.amxaz.com
 0.0.0.0 stgeorge.122.2o7.net
 0.0.0.0 sthjj.caq.com.au
@@ -472839,6 +472830,7 @@
 0.0.0.0 stjc2zjjnff46qng.cddental.com.au
 0.0.0.0 stkk.pl
 0.0.0.0 stkkrangulated.info
+0.0.0.0 stkp1.hyperfxs.icu
 0.0.0.0 stl-investment.ltd
 0.0.0.0 stl.p.a1.traceworks.com
 0.0.0.0 stl1lb.moargaems.com
@@ -473056,11 +473048,6 @@
 0.0.0.0 storage.trafic.ro
 0.0.0.0 storage.yandexcloud.net
 0.0.0.0 storage10.hyperfx.info
-0.0.0.0 storage2.hyperfx.info
-0.0.0.0 storage5.hyperfx.info
-0.0.0.0 storage6.hyperfx.info
-0.0.0.0 storage7.hyperfx.info
-0.0.0.0 storage8.hyperfx.info
 0.0.0.0 storageapi.fleek.co
 0.0.0.0 storagecryptogate.com
 0.0.0.0 storagecryptoweb.com
@@ -474709,6 +474696,7 @@
 0.0.0.0 surveys.insightexpressai.com
 0.0.0.0 surveysroarinnnc.flazio.com
 0.0.0.0 survive-japan.co.jp
+0.0.0.0 survivomatic.com
 0.0.0.0 survivor-2.github.io
 0.0.0.0 survymonkey.xyz
 0.0.0.0 surweyadnf.weebly.com
@@ -478467,7 +478455,6 @@
 0.0.0.0 therajdeepmallick.github.io
 0.0.0.0 theransone.pages.dev
 0.0.0.0 therapistla.com
-0.0.0.0 therb.fixlow.shop
 0.0.0.0 therealesxaath.top
 0.0.0.0 therealmyrn.github.io
 0.0.0.0 theredeemer.pages.dev
@@ -479857,7 +479844,6 @@
 0.0.0.0 tom.allyes.com
 0.0.0.0 tom.bortogat.ru
 0.0.0.0 tom.dedspac.ru
-0.0.0.0 tom.eqraa.org.sa
 0.0.0.0 tom.ulitron.ru
 0.0.0.0 toma.dedspac.ru
 0.0.0.0 toman.virosat.ru
@@ -479955,7 +479941,6 @@
 0.0.0.0 tools.dedspac.ru
 0.0.0.0 tools.gikotena.net
 0.0.0.0 tools.hitbox.com
-0.0.0.0 tools.lumma.cy
 0.0.0.0 tools.naughtyamerica.com
 0.0.0.0 tools.pacinocash.com
 0.0.0.0 tools.ranker.com
@@ -483455,7 +483440,6 @@
 0.0.0.0 tw.answers.quantarchive.com
 0.0.0.0 tw.as.y.atwola.com
 0.0.0.0 tw.c.appier.net
-0.0.0.0 tw.fixlow.shop
 0.0.0.0 tw2.adserver.yahoo.com
 0.0.0.0 twa.ulitron.ru
 0.0.0.0 twain.dedspac.ru
@@ -483480,6 +483464,7 @@
 0.0.0.0 tweets.timanar.ru
 0.0.0.0 tweetsoup.us.intellitxt.com
 0.0.0.0 twelvedawn.com
+0.0.0.0 twenlesx.fixlow.shop
 0.0.0.0 twerp.dedspac.ru
 0.0.0.0 twglobeshopping3.top
 0.0.0.0 twich-faceit.com
@@ -487698,6 +487683,7 @@
 0.0.0.0 valen-hold.pages.dev
 0.0.0.0 valensnex.digital
 0.0.0.0 valensvault.digital
+0.0.0.0 valentimadvocacia.com.br
 0.0.0.0 valeregrid.digital
 0.0.0.0 valerelink.digital
 0.0.0.0 valeriana.space
@@ -488167,6 +488153,7 @@
 0.0.0.0 vella.dedspac.ru
 0.0.0.0 velleitiiies.info
 0.0.0.0 vellireucebi.vercel.app
+0.0.0.0 velmontriq.net
 0.0.0.0 velmoraacrossstructure.xyz
 0.0.0.0 velmoraq.net
 0.0.0.0 velmorino-ai.com
@@ -513728,7 +513715,6 @@
 0.0.0.0 www.structures-made-easy.co.uk
 0.0.0.0 www.stsoftware.biz
 0.0.0.0 www.sttvisa.com
-0.0.0.0 www.studio-cf.com
 0.0.0.0 www.studioharborlane.bond
 0.0.0.0 www.studioharvestport.bond
 0.0.0.0 www.studiomugnaini.eu
@@ -515748,7 +515734,6 @@
 0.0.0.0 www.versatile-hegyryi.base44.app
 0.0.0.0 www.verschatdom.net
 0.0.0.0 www.versoamalg.store
-0.0.0.0 www.vertansoft.com
 0.0.0.0 www.vertaugena.com
 0.0.0.0 www.vertexcoinio.com
 0.0.0.0 www.vertexmcp.com
