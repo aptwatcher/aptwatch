@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-17 06:34:30
-# Entries: 521378
+# Generated: 2026-11-17 12:34:23
+# Entries: 521384
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -33352,7 +33352,6 @@
 0.0.0.0 6server.com
 0.0.0.0 6sgts7fgxkbh2oqdlzcqf2l.liusanjie.cc
 0.0.0.0 6sibd.ktt55.my.id
-0.0.0.0 6sim.vip
 0.0.0.0 6sjqd.hp.peraichi.com
 0.0.0.0 6sjx6vz6uaznkb.qwo231sdx.club
 0.0.0.0 6sk5s.school
@@ -48533,7 +48532,6 @@
 0.0.0.0 accesssynch.ukit.me
 0.0.0.0 accesstcunet.com
 0.0.0.0 accessteam.iceiy.com
-0.0.0.0 accesstelematics.com
 0.0.0.0 accessthecurrentlyattweb.square.site
 0.0.0.0 accesstrials.store
 0.0.0.0 accessunfidet.servequake.com
@@ -146298,6 +146296,7 @@
 0.0.0.0 bkkcojiyocr.tauzetaomega.org
 0.0.0.0 bkkgks.com
 0.0.0.0 bkknr8rb.qwo231sdx.club
+0.0.0.0 bkktech-thai.com
 0.0.0.0 bkkuajndcuolzctd-dot-millinium.ey.r.appspot.com
 0.0.0.0 bkkumar.cu.ma
 0.0.0.0 bkkumhzklyogbkit-dot-millinium.ey.r.appspot.com
@@ -152207,6 +152206,7 @@
 0.0.0.0 borak.ulitron.ru
 0.0.0.0 boral.matsuro.ru
 0.0.0.0 boralmedi.com
+0.0.0.0 boramar.es
 0.0.0.0 boran.dedspac.ru
 0.0.0.0 boran.live
 0.0.0.0 boran.ulitron.ru
@@ -208957,6 +208957,7 @@
 0.0.0.0 dl-trustwallet.com
 0.0.0.0 dl-zamowienie7369.cyou
 0.0.0.0 dl-zamowienie912803.cyou
+0.0.0.0 dl.1003b.56a.com
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
@@ -211875,7 +211876,6 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
-0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.stellarcedar.live
@@ -254562,6 +254562,7 @@
 0.0.0.0 gaemiinilogiz.godaddysites.com
 0.0.0.0 gaeminillogini.webflow.io
 0.0.0.0 gaeminlogii.godaddysites.com
+0.0.0.0 gaenterprises.in
 0.0.0.0 gaer.pages.dev
 0.0.0.0 gaf-company.clean.to
 0.0.0.0 gafaaola.duckdns.org
@@ -283005,6 +283006,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -303739,7 +303741,6 @@
 0.0.0.0 itchyladybird.build067.wpsandbox.app
 0.0.0.0 itcicloud.cn
 0.0.0.0 itcitymm.com
-0.0.0.0 itco.pe
 0.0.0.0 itcom-cm.net
 0.0.0.0 itcomm.co.id
 0.0.0.0 itcommunication.co.za
@@ -306553,7 +306554,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -315836,6 +315836,7 @@
 0.0.0.0 kafato.digital
 0.0.0.0 kafelah.com
 0.0.0.0 kafen33591.wixsite.com
+0.0.0.0 kafeprog7.com
 0.0.0.0 kaffnet.com
 0.0.0.0 kafhksahk.ga
 0.0.0.0 kafichanta.doublepaws.org
@@ -372823,7 +372824,6 @@
 0.0.0.0 mowalah.ru.com
 0.0.0.0 mowapii.top
 0.0.0.0 mowarmly.cn
-0.0.0.0 mowcangler.co.uk
 0.0.0.0 mowch.virosat.ru
 0.0.0.0 moweaquail.xyz
 0.0.0.0 mowed.dedspac.ru
@@ -373280,7 +373280,6 @@
 0.0.0.0 mrstiffanyip.com
 0.0.0.0 mrstuzzichini.com.au
 0.0.0.0 mrsumii.github.io
-0.0.0.0 mrsweaterltd.com
 0.0.0.0 mrt-dvstpp.twswst.top
 0.0.0.0 mrt-soft.net
 0.0.0.0 mrt.org
@@ -373496,6 +373495,7 @@
 0.0.0.0 mse.com.pk
 0.0.0.0 msealinomae.ordnfhiumnsetelivhorthu.link
 0.0.0.0 msec.dedspac.ru
+0.0.0.0 msedge.vg
 0.0.0.0 msend.microad.jp
 0.0.0.0 msenterprisesignonline.com
 0.0.0.0 msenterpriseverifysecure.glitch.me
@@ -373568,6 +373568,7 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
+0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -397062,7 +397063,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -425947,6 +425947,7 @@
 0.0.0.0 prodigyfashion.es
 0.0.0.0 prodigynetlogss.weebly.com
 0.0.0.0 prodigysigninattsm.weebly.com
+0.0.0.0 prodimetal.com
 0.0.0.0 prodjs.wpenginepowered.com
 0.0.0.0 prodoctransfs.com
 0.0.0.0 prodromatically.bibliota.ru
@@ -448215,6 +448216,7 @@
 0.0.0.0 reshma-17.github.io
 0.0.0.0 reshmi557.github.io
 0.0.0.0 reshotelinaprovies-visitorconferma.com
+0.0.0.0 reshow35.com
 0.0.0.0 reshu22.github.io
 0.0.0.0 reside-etudes1.pilote-message.com
 0.0.0.0 residence-la-medina.com
@@ -465233,6 +465235,7 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
+0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -465711,6 +465714,7 @@
 0.0.0.0 shipgratis.eu
 0.0.0.0 shipment234.vercel.app
 0.0.0.0 shipment324.vercel.app
+0.0.0.0 shipminttracking.net
 0.0.0.0 shiporama.com
 0.0.0.0 shipping-arch-support-sura.vercel.app
 0.0.0.0 shipping-local-ads-manage-idd153248.vercel.app
@@ -472826,7 +472830,9 @@
 0.0.0.0 stiyyngingstowage.info
 0.0.0.0 stj7uppm.metanat.ru
 0.0.0.0 stjc2zjjnff46qng.cddental.com.au
+0.0.0.0 stkc4.hyperfxs.icu
 0.0.0.0 stkk.pl
+0.0.0.0 stkk3.hyperfxs.icu
 0.0.0.0 stkkrangulated.info
 0.0.0.0 stkp1.hyperfxs.icu
 0.0.0.0 stl-investment.ltd
@@ -474937,7 +474943,6 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftdryblowdryers.org
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftonyx16.com
@@ -475917,6 +475922,7 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
+0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -480298,7 +480304,6 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
-0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -483599,6 +483604,7 @@
 0.0.0.0 txpo.fxjkd.es
 0.0.0.0 txqyvtlih9vx2mz9wz.metanat.ru
 0.0.0.0 txsyg.com
+0.0.0.0 txt.fixlow.shop
 0.0.0.0 txtmvq.cn
 0.0.0.0 txus.pmrhk.es
 0.0.0.0 txvdjnu.cn
