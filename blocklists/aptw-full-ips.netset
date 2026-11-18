@@ -2,8 +2,8 @@
 # aptw-full-ips
 # All threat IPs — APT Watch + external feeds (RFC1918 filtered)
 #
-# Generated: 2026-11-18 00:33:50
-# Entries: 598944
+# Generated: 2026-11-18 06:05:45
+# Entries: 598946
 # Sources: APT Watch + FireHOL L1/L2/webclient + ET compromised + Feodo Tracker
 #
 1.0.1.1
@@ -57335,6 +57335,7 @@
 87.189.65.80
 87.196.72.90
 87.196.128.162
+87.199.201.161
 87.200.170.30
 87.202.101.164
 87.204.44.83
@@ -65544,6 +65545,7 @@
 89.117.208.218
 89.121.255.194
 89.124.66.19
+89.124.67.27
 89.124.74.246
 89.124.88.123
 89.124.94.23
