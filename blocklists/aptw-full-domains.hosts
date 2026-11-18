@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-18 12:34:32
-# Entries: 521456
+# Generated: 2026-11-18 18:33:40
+# Entries: 521459
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -120432,7 +120432,6 @@
 0.0.0.0 avid.ulitron.ru
 0.0.0.0 avidadossantos.com.br
 0.0.0.0 avidalocal.com
-0.0.0.0 avidhosting.uk
 0.0.0.0 avidin.matsuro.ru
 0.0.0.0 avidnewssource.com
 0.0.0.0 avidpauly.com
@@ -151416,6 +151415,7 @@
 0.0.0.0 bonbernec.com
 0.0.0.0 bonbo.dedspac.ru
 0.0.0.0 bonbon.virosat.ru
+0.0.0.0 bonboncraft.com
 0.0.0.0 bonbonhomede.com
 0.0.0.0 bonbonplayhard.my.id
 0.0.0.0 bonbonsguideservice.com
@@ -154230,7 +154230,6 @@
 0.0.0.0 brava-avigate-f87887bd7884548-884548b47-7ce7fd051ece72f8.pages.dev
 0.0.0.0 brava.ulitron.ru
 0.0.0.0 brava.virosat.ru
-0.0.0.0 bravamktdigital.com.br
 0.0.0.0 bravappsuppwest.com
 0.0.0.0 bravas.matsuro.ru
 0.0.0.0 bravatindia.com
@@ -203100,7 +203099,6 @@
 0.0.0.0 detectorstructure.com
 0.0.0.0 detects.business-minagne.com
 0.0.0.0 detegro.ru
-0.0.0.0 detek.com.mx
 0.0.0.0 detektivek.hu
 0.0.0.0 detener-compra-virtuall.iceiy.com
 0.0.0.0 determinant-mother.000webhostapp.com
@@ -208975,7 +208973,6 @@
 0.0.0.0 dl-trustwallet.com
 0.0.0.0 dl-zamowienie7369.cyou
 0.0.0.0 dl-zamowienie912803.cyou
-0.0.0.0 dl.1003b.56a.com
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
@@ -211894,6 +211891,7 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
+0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
 0.0.0.0 down.t0kanpoaket.biz
@@ -215305,7 +215303,6 @@
 0.0.0.0 dxvrh.blogspot.li
 0.0.0.0 dxvrh.blogspot.sn
 0.0.0.0 dxw3.xyz
-0.0.0.0 dxx5g.fixlow.shop
 0.0.0.0 dxxs.fixlow.shop
 0.0.0.0 dxxysvbm.wcnv20.cn
 0.0.0.0 dxz-52p.pages.dev
@@ -247590,7 +247587,6 @@
 0.0.0.0 flybox-orangepro.duckdns.org
 0.0.0.0 flyboyfurnishings.net
 0.0.0.0 flycast.com
-0.0.0.0 flycheats.xyz
 0.0.0.0 flycloud-service.com
 0.0.0.0 flydigital.biz
 0.0.0.0 flyer-oe-jeff-victor.trycloudflare.com
@@ -248615,6 +248611,7 @@
 0.0.0.0 forfileshareongdrive.000webhostapp.com
 0.0.0.0 forflyviagens.com.br
 0.0.0.0 forge-capmoor.cfd
+0.0.0.0 forge-copper.com
 0.0.0.0 forge-nior-client.surge.sh
 0.0.0.0 forge.ulitron.ru
 0.0.0.0 forge.virosat.ru
@@ -254589,6 +254586,7 @@
 0.0.0.0 gaemiinilogiz.godaddysites.com
 0.0.0.0 gaeminillogini.webflow.io
 0.0.0.0 gaeminlogii.godaddysites.com
+0.0.0.0 gaenterprises.in
 0.0.0.0 gaer.pages.dev
 0.0.0.0 gaf-company.clean.to
 0.0.0.0 gafaaola.duckdns.org
@@ -286637,6 +286635,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -292945,7 +292944,6 @@
 0.0.0.0 im-hk.fotitu.com
 0.0.0.0 im-imtoken.org
 0.0.0.0 im-ken.top
-0.0.0.0 im-quirky.com
 0.0.0.0 im-riteshrajput.github.io
 0.0.0.0 im-t0keni.info
 0.0.0.0 im-t0keny.info
@@ -306586,6 +306584,7 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
+0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -315872,7 +315871,6 @@
 0.0.0.0 kafato.digital
 0.0.0.0 kafelah.com
 0.0.0.0 kafen33591.wixsite.com
-0.0.0.0 kafeprog7.com
 0.0.0.0 kaffnet.com
 0.0.0.0 kafhksahk.ga
 0.0.0.0 kafichanta.doublepaws.org
@@ -319741,6 +319739,7 @@
 0.0.0.0 kk8899.csb.app
 0.0.0.0 kkachi.co.kr
 0.0.0.0 kkakrkwkeen.azurewebsites.net
+0.0.0.0 kkam.download
 0.0.0.0 kkaofemi.com
 0.0.0.0 kkarskeanlog.azurewebsites.net
 0.0.0.0 kkbdsvhc69orni5.e8273.pro
@@ -327992,6 +327991,7 @@
 0.0.0.0 ldbdesign.com.usrfiles.com
 0.0.0.0 ldbguf1lztjhza.moolin.ru
 0.0.0.0 ldbiutsbpughxweorudeccutvr-dot-gleow23456788988878.ts.r.appspot.com
+0.0.0.0 ldbnaldjfajggfa.xxe1211.xyz
 0.0.0.0 ldbwgnnhkeipotmscntfvaxdul-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 ldcloud.com.tr
 0.0.0.0 ldcorn.com
@@ -341248,6 +341248,7 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
+0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -355037,6 +355038,7 @@
 0.0.0.0 mccarthyhummer.com
 0.0.0.0 mcccibizdirectory.mw
 0.0.0.0 mccduppgekuprqzh-dot-millinium.ey.r.appspot.com
+0.0.0.0 mccl.com.vn
 0.0.0.0 mcclatchy.112.2o7.net
 0.0.0.0 mcclellanparksecuresharefileonline.on.fleek.co
 0.0.0.0 mcconcep.cluster005.ovh.net
@@ -412116,7 +412118,6 @@
 0.0.0.0 peduli-corona.wikaba.com
 0.0.0.0 pedulimembaca.com
 0.0.0.0 pedzap.net
-0.0.0.0 pee-files.nl
 0.0.0.0 pee.dedspac.ru
 0.0.0.0 pee.ulitron.ru
 0.0.0.0 peeas.cloudns.asia
@@ -456140,6 +456141,7 @@
 0.0.0.0 runelie.net
 0.0.0.0 runelight.net
 0.0.0.0 runelite.cc
+0.0.0.0 runelite.ch
 0.0.0.0 runelitepluginhub.net
 0.0.0.0 runescape-doublexps.com
 0.0.0.0 runescape-game.me
@@ -465283,7 +465285,6 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
-0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -472094,6 +472095,7 @@
 0.0.0.0 static.yieldmo.com
 0.0.0.0 static.yomedia.vn
 0.0.0.0 static.youappi.com
+0.0.0.0 static.youdm.cn
 0.0.0.0 static.youmi.net
 0.0.0.0 static.younetmedia.com
 0.0.0.0 static.zanox.com
@@ -474991,6 +474993,7 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftdryblowdryers.org
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftonyx16.com
@@ -499400,7 +499403,6 @@
 0.0.0.0 www.compieider.store
 0.0.0.0 www.compitte.com
 0.0.0.0 www.complammin.store
-0.0.0.0 www.complianceportals.com
 0.0.0.0 www.complien.com
 0.0.0.0 www.complimentaryd-ata.com
 0.0.0.0 www.compositefarming.com
@@ -518460,6 +518462,7 @@
 0.0.0.0 xads.codon.vn
 0.0.0.0 xads.joboko.com
 0.0.0.0 xads.zedo.com
+0.0.0.0 xaerosminimap.com
 0.0.0.0 xakep.fun
 0.0.0.0 xakep.site
 0.0.0.0 xakep.website
