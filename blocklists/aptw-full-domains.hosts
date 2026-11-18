@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-18 06:34:37
-# Entries: 521463
+# Generated: 2026-11-18 12:34:32
+# Entries: 521456
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -88637,7 +88637,6 @@
 0.0.0.0 api.sspl.com.au
 0.0.0.0 api.stathat.com
 0.0.0.0 api.stats.appa.pe
-0.0.0.0 api.stellarcedar.live
 0.0.0.0 api.strugaservices.com
 0.0.0.0 api.stuseamandesilt.org
 0.0.0.0 api.subiz.com.vn
@@ -168520,6 +168519,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -184031,7 +184031,6 @@
 0.0.0.0 communication-act.ddns.net
 0.0.0.0 communication-diary-thwart.vercel.app
 0.0.0.0 communication-ergo-additional-their.vercel.app
-0.0.0.0 communication-hub.vg
 0.0.0.0 communication-journal-stop.vercel.app
 0.0.0.0 communication-register-check.vercel.app
 0.0.0.0 communicationcenrale-ba5b01.ingress-daribow.ewp.live
@@ -208976,6 +208975,7 @@
 0.0.0.0 dl-trustwallet.com
 0.0.0.0 dl-zamowienie7369.cyou
 0.0.0.0 dl-zamowienie912803.cyou
+0.0.0.0 dl.1003b.56a.com
 0.0.0.0 dl.310939468.workers.dev
 0.0.0.0 dl.4ooi.net
 0.0.0.0 dl.apppash.com
@@ -211894,10 +211894,8 @@
 0.0.0.0 down.irntoken-zf.biz
 0.0.0.0 down.metamask-us.cc
 0.0.0.0 down.pcclear.com
-0.0.0.0 down.qqfarmer.com.cn
 0.0.0.0 down.rmsitexzweb.cc
 0.0.0.0 down.sqlnetcat.com
-0.0.0.0 down.stellarcedar.live
 0.0.0.0 down.t0kanpoaket.biz
 0.0.0.0 down.t0kbnpobket.biz
 0.0.0.0 down.t0kdnpodket.biz
@@ -215307,6 +215305,7 @@
 0.0.0.0 dxvrh.blogspot.li
 0.0.0.0 dxvrh.blogspot.sn
 0.0.0.0 dxw3.xyz
+0.0.0.0 dxx5g.fixlow.shop
 0.0.0.0 dxxs.fixlow.shop
 0.0.0.0 dxxysvbm.wcnv20.cn
 0.0.0.0 dxz-52p.pages.dev
@@ -229567,7 +229566,6 @@
 0.0.0.0 exmgcyyjos.duckdns.org
 0.0.0.0 exmykjb.tk
 0.0.0.0 exnessbroker.review
-0.0.0.0 exo-api.tf
 0.0.0.0 exo-confirm.com
 0.0.0.0 exo-fwb-at.40net.org
 0.0.0.0 exo-red.com
@@ -248617,7 +248615,6 @@
 0.0.0.0 forfileshareongdrive.000webhostapp.com
 0.0.0.0 forflyviagens.com.br
 0.0.0.0 forge-capmoor.cfd
-0.0.0.0 forge-copper.com
 0.0.0.0 forge-nior-client.surge.sh
 0.0.0.0 forge.ulitron.ru
 0.0.0.0 forge.virosat.ru
@@ -258578,7 +258575,6 @@
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
 0.0.0.0 gestrauss.shop
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -283039,6 +283035,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -292948,6 +292945,7 @@
 0.0.0.0 im-hk.fotitu.com
 0.0.0.0 im-imtoken.org
 0.0.0.0 im-ken.top
+0.0.0.0 im-quirky.com
 0.0.0.0 im-riteshrajput.github.io
 0.0.0.0 im-t0keni.info
 0.0.0.0 im-t0keny.info
@@ -303774,6 +303772,7 @@
 0.0.0.0 itchyladybird.build067.wpsandbox.app
 0.0.0.0 itcicloud.cn
 0.0.0.0 itcitymm.com
+0.0.0.0 itco.pe
 0.0.0.0 itcom-cm.net
 0.0.0.0 itcomm.co.id
 0.0.0.0 itcommunication.co.za
@@ -306587,7 +306586,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -341250,7 +341248,6 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
-0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -374850,7 +374847,6 @@
 0.0.0.0 muadumthuoc.com
 0.0.0.0 muahidmd.github.io
 0.0.0.0 muaightk.com
-0.0.0.0 muaklekcoop.com
 0.0.0.0 muang.dedspac.ru
 0.0.0.0 muang.ulitron.ru
 0.0.0.0 muangmailocal.go.th
@@ -472098,7 +472094,6 @@
 0.0.0.0 static.yieldmo.com
 0.0.0.0 static.yomedia.vn
 0.0.0.0 static.youappi.com
-0.0.0.0 static.youdm.cn
 0.0.0.0 static.youmi.net
 0.0.0.0 static.younetmedia.com
 0.0.0.0 static.zanox.com
@@ -474996,7 +474991,6 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftdryblowdryers.org
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftonyx16.com
@@ -480361,7 +480355,6 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
-0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
