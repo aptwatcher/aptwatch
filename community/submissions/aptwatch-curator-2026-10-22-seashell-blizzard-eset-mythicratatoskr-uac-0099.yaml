@@ -1,0 +1,40 @@
+author: APTWatch Curator
+source: https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration/
+source_name: ESET Research - MythicRatatoskr - Yggdrasil-enabled backdoor in a UAC-0099 / Sandworm collaboration
+
+apt_groups:
+  - Sandworm
+  - Seashell Blizzard
+  - APT44
+  - UAC-0099
+  - Earth Sirrush
+
+description: >
+  ESET Research documents a joint operation against a Ukrainian grain logistics
+  company. UAC-0099 (Russia-aligned, tracked as Earth Sirrush by Trend Micro)
+  gained initial access on 2025-07-16 by spearphishing attachment, deploying
+  the MATCHBOIL downloader, which fetched the MATCHWOK backdoor from
+  egyptanimals.com/animals/photoalbum (MATCHWOK C&C: uztickets.com). The next
+  day the previously unknown Go backdoor MythicRatatoskr was deployed; its C&C
+  server is hidden inside the Yggdrasil mesh network (overlay address published
+  by ESET as 201:b479:2771:8df4:b5eb:d007:63b0, port 2838 - not routable on the
+  public Internet, therefore not listed as an IOC). Sandworm (GRU Unit 74455)
+  then carried out a data-wiping attack with SDelete on 2025-09-17. ESET has
+  high confidence in the UAC-0099 initial access, the Sandworm wiping and the
+  handoff between the two groups, but could not determine which group operated
+  MythicRatatoskr. The two network indicators below belong to the UAC-0099
+  access stage of the operation. The MythicRatatoskr configuration embeds a
+  list of public Yggdrasil peers (tls:// endpoints); these are shared community
+  infrastructure and are deliberately NOT listed. MITRE ATT&CK candidates:
+  T1566.001 Spearphishing Attachment, T1059.001 PowerShell, T1105 Ingress Tool
+  Transfer, T1090 Proxy / T1572 Protocol Tunneling (Yggdrasil overlay), T1485
+  Data Destruction. Twelve SHA-1 file hashes are published in the blog post and
+  in the ESET malware-ioc GitHub repository (folder mythicratatoskr) for EDR
+  blocking; hashes are out of scope for this schema. Hunting idea: outbound
+  Yggdrasil peering (TLS to unusual ports) from corporate hosts.
+
+domains:
+  - uztickets.com
+
+urls:
+  - https://egyptanimals.com/animals/photoalbum

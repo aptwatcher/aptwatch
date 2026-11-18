@@ -1,0 +1,76 @@
+author: APTWatch Curator
+source: https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits
+source_name: Sekoia TDR - Poisoned Source - APT29 watering holes targeting mobile devices with n-day exploits
+
+apt_groups:
+  - APT29
+  - Midnight Blizzard
+  - Cozy Bear
+  - The Dukes
+  - Earth Koshchei
+
+description: >
+  Sekoia TDR attributes with moderate to high confidence the "Poisoned Source"
+  campaign to APT29 (Midnight Blizzard / Cozy Bear / The Dukes, Russian SVR),
+  or at least one of its subgroups. Discovered mid-October 2026. Three web
+  delivery vectors: (1) compromise of legitimate websites with injected
+  JavaScript (a US chemical industry trade association, a European far-right
+  party, a Bulgarian military-related site), (2) lookalike sites
+  (america250.holiday, theowo.club), (3) supply-chain compromise of the
+  Ukrainian web analytics service Plerdy SEO Tracker between 2026-08-27 and
+  2026-09-03 (malicious code injected into a.plerdy.com/public/js/click/main.js;
+  the legitimate plerdy.com domain is deliberately NOT listed as an IOC).
+  The injected loader runs the "UltimateFingerprinter" profiling script (hidden
+  in a copy of AngularJS, served as /module/5b4c8fea5cbcee273e8d830f52-temfp.js),
+  then delivers a platform-specific n-day exploit chain: iOS 16.7 (CVE-2025-43529,
+  CVE-2024-27834; cookie theft), iOS 18.5 (DarkSword chain: CVE-2025-43529,
+  CVE-2026-20700, CVE-2025-14174, CVE-2025-43510, CVE-2025-43520; full device
+  data exfiltration), and Chrome 139-145 on Android (CVE-2026-3910,
+  CVE-2025-27038; AndroSnitch payload stealing Chrome cookies, saved passwords,
+  history and Wi-Fi settings; no persistence). edge-ord.clouds-stacks.com acts
+  as a load balancer redirecting to delivery servers (ads-it-assets.com,
+  cdn.adv-static.com, wpvortex-mod.com, assets-int.com). Exfiltration endpoint:
+  ad.starx-net.com:8881/telemetry/v12. MITRE ATT&CK candidates: T1189 Drive-by
+  Compromise, T1195.002 Supply Chain Compromise, T1203 Exploitation for Client
+  Execution, T1539 Steal Web Session Cookie, T1555 Credentials from Password
+  Stores, T1041 Exfiltration Over C2 Channel. AndroSnitch resembles ANDROSNATCH,
+  documented by Google TAG in August 2024 in an earlier suspected APT29 watering
+  hole. Targeting: Bulgaria, Ukraine, United States, Czech Republic; visitors of
+  military, defence and government-related websites. Companion coverage: The
+  Hacker News (2026-11-04). Sekoia shares further IOCs and samples under
+  TLP:AMBER on request; only indicators printed in the public blog post are
+  listed here. Mitigation: iOS 18.7.3 / 26.3 or later, Chrome 146 or later.
+
+ipv4:
+  - 109.104.106.107
+  - 95.133.231.28
+  - 195.58.140.105
+  - 192.121.46.25
+  - 188.190.17.232
+
+domains:
+  - static.flux-telemetry.com
+  - edge-ord.clouds-stacks.com
+  - ad.starx-net.com
+  - adsprism-stat.com
+  - ads-it-assets.com
+  - cdn.adv-static.com
+  - wpvortex-mod.com
+  - assets-int.com
+  - america250.holiday
+  - theowo.club
+
+urls:
+  - https://static.flux-telemetry.com/module/5b4c8fea5cbcee273e8d830f52-temfp.js
+  - https://edge-ord.clouds-stacks.com/module/5b4c8fea5cbcee273e8d830f52-temfp.js
+  - https://ad.starx-net.com:8881/telemetry/v12
+
+cves:
+  - CVE-2024-27834
+  - CVE-2025-43529
+  - CVE-2026-20700
+  - CVE-2025-14174
+  - CVE-2025-43510
+  - CVE-2025-43520
+  - CVE-2026-3910
+  - CVE-2025-27038
