@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-19 00:34:23
-# Entries: 521464
+# Generated: 2026-11-19 06:04:53
+# Entries: 521465
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -32790,7 +32790,6 @@
 0.0.0.0 6afe7890.lv163.com.cn
 0.0.0.0 6agidu9ij5mhxku18doz2up.qwo231sdx.club
 0.0.0.0 6ahdbuiabda.vercel.app
-0.0.0.0 6ak-tehnik.si
 0.0.0.0 6am8rid67tw.typeform.com
 0.0.0.0 6amateure.net
 0.0.0.0 6amn.com
@@ -137655,7 +137654,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -168520,6 +168518,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -173004,6 +173003,7 @@
 0.0.0.0 chegre.virosat.ru
 0.0.0.0 chehalo.ru
 0.0.0.0 chehalo.ruiruto.rudeer-lick.chehalo.ru
+0.0.0.0 chehuan.com.br
 0.0.0.0 cheimiscta.store
 0.0.0.0 cheir.ulitron.ru
 0.0.0.0 chekalefa.co.za
@@ -189613,6 +189613,7 @@
 0.0.0.0 cpo.adflex.vn
 0.0.0.0 cpo.co.jp
 0.0.0.0 cpocommerceinc.112.2o7.net
+0.0.0.0 cpofficial.com
 0.0.0.0 cpoohcodmfkucglhzjmmkkeyquhrnxjkzglo-dot-solar-vertex-285913.rj.r.appspot.com
 0.0.0.0 cpopgiptzd.duckdns.org
 0.0.0.0 cporiente.cl
@@ -201128,7 +201129,6 @@
 0.0.0.0 delt.ulitron.ru
 0.0.0.0 delta-auth-ndax-nav.webflow.io
 0.0.0.0 delta-bravo36db.de
-0.0.0.0 delta-canvas.com
 0.0.0.0 delta-control.es
 0.0.0.0 delta-haven.pages.dev
 0.0.0.0 delta-hydraulic.com
@@ -245812,7 +245812,6 @@
 0.0.0.0 fitfloppl.com
 0.0.0.0 fitfloppolskaoutlet.com
 0.0.0.0 fitflopspolskaoutlet.com
-0.0.0.0 fitforevercavan.ie
 0.0.0.0 fitful-manners.000webhostapp.com
 0.0.0.0 fitg.net
 0.0.0.0 fitges.oewabox.at
@@ -254595,6 +254594,7 @@
 0.0.0.0 gaemiinilogiz.godaddysites.com
 0.0.0.0 gaeminillogini.webflow.io
 0.0.0.0 gaeminlogii.godaddysites.com
+0.0.0.0 gaenterprises.in
 0.0.0.0 gaer.pages.dev
 0.0.0.0 gaf-company.clean.to
 0.0.0.0 gafaaola.duckdns.org
@@ -258581,7 +258581,6 @@
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
 0.0.0.0 gestrauss.shop
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -272057,6 +272056,7 @@
 0.0.0.0 guan.ulitron.ru
 0.0.0.0 guana.dedspac.ru
 0.0.0.0 guanbinrui.github.io
+0.0.0.0 guanfangxiazai-oss-cn-singapore-aliyuncs.top
 0.0.0.0 guanfashop.com
 0.0.0.0 guangdong.pilot45.com
 0.0.0.0 guangjiemiao.com
@@ -299778,7 +299778,6 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
-0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -303778,7 +303777,6 @@
 0.0.0.0 itchyladybird.build067.wpsandbox.app
 0.0.0.0 itcicloud.cn
 0.0.0.0 itcitymm.com
-0.0.0.0 itco.pe
 0.0.0.0 itcom-cm.net
 0.0.0.0 itcomm.co.id
 0.0.0.0 itcommunication.co.za
@@ -341341,6 +341339,7 @@
 0.0.0.0 luminous-overjoyed-water.glitch.me
 0.0.0.0 luminous-sulfuric-diagram.glitch.me
 0.0.0.0 luminous-twilight-b0e05a.netlify.app
+0.0.0.0 luminouspower.com.pk
 0.0.0.0 luminoussilkydatabase--alfakhan.repl.co
 0.0.0.0 luminta.ru
 0.0.0.0 luminwellmerchandisegroup.com
@@ -391558,7 +391557,6 @@
 0.0.0.0 novashield.us
 0.0.0.0 novasignalsblue.shop
 0.0.0.0 novaskarbex.com
-0.0.0.0 novasms.com.mx
 0.0.0.0 novasoa.tech
 0.0.0.0 novasofertsluiza.com
 0.0.0.0 novastargarment.cyou
@@ -397109,7 +397107,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -412125,6 +412122,7 @@
 0.0.0.0 peduli-corona.wikaba.com
 0.0.0.0 pedulimembaca.com
 0.0.0.0 pedzap.net
+0.0.0.0 pee-files.nl
 0.0.0.0 pee.dedspac.ru
 0.0.0.0 pee.ulitron.ru
 0.0.0.0 peeas.cloudns.asia
@@ -456146,6 +456144,7 @@
 0.0.0.0 runed.dedspac.ru
 0.0.0.0 runelie.net
 0.0.0.0 runelight.net
+0.0.0.0 runelite.cc
 0.0.0.0 runelite.ch
 0.0.0.0 runelitepluginhub.net
 0.0.0.0 runescape-doublexps.com
@@ -465292,7 +465291,6 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
-0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -475979,7 +475977,6 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
-0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -480012,6 +480009,7 @@
 0.0.0.0 tools.ztod.com
 0.0.0.0 tools2.hitbox.com
 0.0.0.0 toolsa.hitbox.com
+0.0.0.0 toolshare.com.tr
 0.0.0.0 toolsthem.xp3.biz
 0.0.0.0 toolszt.top
 0.0.0.0 toon-families.com
@@ -483613,6 +483611,7 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
+0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyn.com
@@ -495099,6 +495098,7 @@
 0.0.0.0 www-cakev3pool.com
 0.0.0.0 www-checkpoints-pages-contacts.ubpages.com
 0.0.0.0 www-checkpoints-pages-platform.ubpages.com
+0.0.0.0 www-connect-secure-wellcfargo.sekolahkejarpaket.com
 0.0.0.0 www-convergapay.top
 0.0.0.0 www-convergapoy.top
 0.0.0.0 www-cow.com
@@ -519346,6 +519346,7 @@
 0.0.0.0 yaka.ulitron.ru
 0.0.0.0 yakocx-vnmk.vercel.app
 0.0.0.0 yaks.dedspac.ru
+0.0.0.0 yakult-hk.com
 0.0.0.0 yakut.virosat.ru
 0.0.0.0 yakutsk-news.net
 0.0.0.0 yale.filitrus.ru
