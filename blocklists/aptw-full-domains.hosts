@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-19 12:34:20
-# Entries: 521479
+# Generated: 2026-11-19 18:34:08
+# Entries: 521476
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52221,7 +52221,6 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
-0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -68727,7 +68726,6 @@
 0.0.0.0 alas.bortogat.ru
 0.0.0.0 alas.edu.ar
 0.0.0.0 alasakaaa.duckdns.org
-0.0.0.0 alaseeldates.com
 0.0.0.0 alashmtalwork.github.io
 0.0.0.0 alashramaudit.com
 0.0.0.0 alasiafranco.com
@@ -137655,7 +137653,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -168520,6 +168517,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -173004,6 +173002,7 @@
 0.0.0.0 chegre.virosat.ru
 0.0.0.0 chehalo.ru
 0.0.0.0 chehalo.ruiruto.rudeer-lick.chehalo.ru
+0.0.0.0 chehuan.com.br
 0.0.0.0 cheimiscta.store
 0.0.0.0 cheir.ulitron.ru
 0.0.0.0 chekalefa.co.za
@@ -184031,7 +184030,6 @@
 0.0.0.0 communication-act.ddns.net
 0.0.0.0 communication-diary-thwart.vercel.app
 0.0.0.0 communication-ergo-additional-their.vercel.app
-0.0.0.0 communication-hub.vg
 0.0.0.0 communication-journal-stop.vercel.app
 0.0.0.0 communication-register-check.vercel.app
 0.0.0.0 communicationcenrale-ba5b01.ingress-daribow.ewp.live
@@ -208135,6 +208133,7 @@
 0.0.0.0 disjungere.ru
 0.0.0.0 disk-4fb5.pre-ooauth.workers.dev
 0.0.0.0 disk-previewer.com
+0.0.0.0 disk.accord1key.cn
 0.0.0.0 disk.dedspac.ru
 0.0.0.0 disk.vwwv.workers.dev
 0.0.0.0 diskbae.com
@@ -222954,6 +222953,7 @@
 0.0.0.0 en.service-paypal.net
 0.0.0.0 en.smartappweb.org
 0.0.0.0 en.super-cleaning.be
+0.0.0.0 en.taichuan.com
 0.0.0.0 en.timerto.ru
 0.0.0.0 en.timoutupdate.in
 0.0.0.0 en.ucbi-groups.com
@@ -243631,7 +243631,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -248621,7 +248620,6 @@
 0.0.0.0 forfileshareongdrive.000webhostapp.com
 0.0.0.0 forflyviagens.com.br
 0.0.0.0 forge-capmoor.cfd
-0.0.0.0 forge-copper.com
 0.0.0.0 forge-nior-client.surge.sh
 0.0.0.0 forge.ulitron.ru
 0.0.0.0 forge.virosat.ru
@@ -283044,7 +283042,6 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
-0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -291970,6 +291967,7 @@
 0.0.0.0 igara.ulitron.ru
 0.0.0.0 igara.virosat.ru
 0.0.0.0 igarapeseguros.com.br
+0.0.0.0 igat.sn
 0.0.0.0 igatme.000webhostapp.com
 0.0.0.0 igauthenticationtoken.000webhostapp.com
 0.0.0.0 igbluebadgemedia.com
@@ -292955,6 +292953,7 @@
 0.0.0.0 im-hk.fotitu.com
 0.0.0.0 im-imtoken.org
 0.0.0.0 im-ken.top
+0.0.0.0 im-quirky.com
 0.0.0.0 im-riteshrajput.github.io
 0.0.0.0 im-t0keni.info
 0.0.0.0 im-t0keny.info
@@ -315882,6 +315881,7 @@
 0.0.0.0 kafato.digital
 0.0.0.0 kafelah.com
 0.0.0.0 kafen33591.wixsite.com
+0.0.0.0 kafeprog7.com
 0.0.0.0 kaffnet.com
 0.0.0.0 kafhksahk.ga
 0.0.0.0 kafichanta.doublepaws.org
@@ -373263,6 +373263,7 @@
 0.0.0.0 mrjyt.blogspot.am
 0.0.0.0 mrjyt.blogspot.bg
 0.0.0.0 mrk.tslprofai.top
+0.0.0.0 mrkhalednasr.com
 0.0.0.0 mrkhan11100.github.io
 0.0.0.0 mrkingleo.duckdns.org
 0.0.0.0 mrkk1008.github.io
@@ -411663,7 +411664,6 @@
 0.0.0.0 pcryrkayhn.duckdns.org
 0.0.0.0 pcs-behavior-mathematical-wx.trycloudflare.com
 0.0.0.0 pcs.nhancv.com
-0.0.0.0 pcsa.nu
 0.0.0.0 pcsbeiton.com
 0.0.0.0 pcscollabland.org
 0.0.0.0 pcsecurityshield.com
@@ -450303,6 +450303,7 @@
 0.0.0.0 rhea.ulitron.ru
 0.0.0.0 rheas.dedspac.ru
 0.0.0.0 rheas.virosat.ru
+0.0.0.0 rheddh.com
 0.0.0.0 rheem.cl
 0.0.0.0 rhegjzdyknhbqfvxfjxudwssli-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 rheiath-hyiouks-mcdoedly.yolasite.com
@@ -456435,7 +456436,6 @@
 0.0.0.0 rutgers-swe-project.vercel.app
 0.0.0.0 rutgonlink.mobi
 0.0.0.0 ruthah9.wixsite.com
-0.0.0.0 ruthaiv.com
 0.0.0.0 ruthandboaz.org
 0.0.0.0 ruthboyer.com
 0.0.0.0 ruthchisom.github.io
@@ -473457,7 +473457,6 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
-0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamridgeclover.online
 0.0.0.0 streamseek.net
@@ -477256,7 +477255,6 @@
 0.0.0.0 tecnoyciencia.com
 0.0.0.0 teco.dedspac.ru
 0.0.0.0 tecorportas.com
-0.0.0.0 tecpasco.com
 0.0.0.0 tectaconstrata.online
 0.0.0.0 tectaconstrata.ru
 0.0.0.0 tectonic.net.in
@@ -499421,7 +499419,6 @@
 0.0.0.0 www.compieider.store
 0.0.0.0 www.compitte.com
 0.0.0.0 www.complammin.store
-0.0.0.0 www.complianceportals.com
 0.0.0.0 www.complien.com
 0.0.0.0 www.complimentaryd-ata.com
 0.0.0.0 www.compositefarming.com
