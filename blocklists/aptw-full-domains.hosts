@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-19 06:04:53
-# Entries: 521465
+# Generated: 2026-11-19 06:34:58
+# Entries: 521466
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -191527,6 +191527,7 @@
 0.0.0.0 cs.emxdgt.com
 0.0.0.0 cs.esportsvotes.com
 0.0.0.0 cs.exitmonitor.com
+0.0.0.0 cs.go.kg
 0.0.0.0 cs.hustorla.ru
 0.0.0.0 cs.jungara.com.au
 0.0.0.0 cs.lkqd.net
@@ -405127,6 +405128,7 @@
 0.0.0.0 oyzlleidmgfismropzrtwytmswabopoupnkq-dot-gl494903049.wl.r.appspot.com
 0.0.0.0 oyzlzfgojakdkvhg-dot-millinium.ey.r.appspot.com
 0.0.0.0 oyzomdazkwoiqsgk-dot-millinium.ey.r.appspot.com
+0.0.0.0 oz-courses.com
 0.0.0.0 oz.sikolar.ru
 0.0.0.0 oz.valueclick.com
 0.0.0.0 oz.valueclick.ne.jp
@@ -480363,7 +480365,6 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
-0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
