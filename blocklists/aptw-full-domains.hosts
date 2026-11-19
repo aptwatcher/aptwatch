@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-19 06:34:58
-# Entries: 521466
+# Generated: 2026-11-19 12:34:20
+# Entries: 521479
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52221,6 +52221,7 @@
 0.0.0.0 acridoxena.online
 0.0.0.0 acridoxena.ru
 0.0.0.0 acridtwist.com
+0.0.0.0 acrilicoporto.pt
 0.0.0.0 acrimony.bluestacko.ru
 0.0.0.0 acrindoline.vadilops.ru
 0.0.0.0 acris.dedspac.ru
@@ -137654,6 +137655,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -168518,7 +168520,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -173003,7 +173004,6 @@
 0.0.0.0 chegre.virosat.ru
 0.0.0.0 chehalo.ru
 0.0.0.0 chehalo.ruiruto.rudeer-lick.chehalo.ru
-0.0.0.0 chehuan.com.br
 0.0.0.0 cheimiscta.store
 0.0.0.0 cheir.ulitron.ru
 0.0.0.0 chekalefa.co.za
@@ -184031,6 +184031,7 @@
 0.0.0.0 communication-act.ddns.net
 0.0.0.0 communication-diary-thwart.vercel.app
 0.0.0.0 communication-ergo-additional-their.vercel.app
+0.0.0.0 communication-hub.vg
 0.0.0.0 communication-journal-stop.vercel.app
 0.0.0.0 communication-register-check.vercel.app
 0.0.0.0 communicationcenrale-ba5b01.ingress-daribow.ewp.live
@@ -201130,6 +201131,7 @@
 0.0.0.0 delt.ulitron.ru
 0.0.0.0 delta-auth-ndax-nav.webflow.io
 0.0.0.0 delta-bravo36db.de
+0.0.0.0 delta-canvas.com
 0.0.0.0 delta-control.es
 0.0.0.0 delta-haven.pages.dev
 0.0.0.0 delta-hydraulic.com
@@ -208133,7 +208135,6 @@
 0.0.0.0 disjungere.ru
 0.0.0.0 disk-4fb5.pre-ooauth.workers.dev
 0.0.0.0 disk-previewer.com
-0.0.0.0 disk.accord1key.cn
 0.0.0.0 disk.dedspac.ru
 0.0.0.0 disk.vwwv.workers.dev
 0.0.0.0 diskbae.com
@@ -222953,7 +222954,6 @@
 0.0.0.0 en.service-paypal.net
 0.0.0.0 en.smartappweb.org
 0.0.0.0 en.super-cleaning.be
-0.0.0.0 en.taichuan.com
 0.0.0.0 en.timerto.ru
 0.0.0.0 en.timoutupdate.in
 0.0.0.0 en.ucbi-groups.com
@@ -229570,6 +229570,7 @@
 0.0.0.0 exmgcyyjos.duckdns.org
 0.0.0.0 exmykjb.tk
 0.0.0.0 exnessbroker.review
+0.0.0.0 exo-api.tf
 0.0.0.0 exo-confirm.com
 0.0.0.0 exo-fwb-at.40net.org
 0.0.0.0 exo-red.com
@@ -258582,6 +258583,7 @@
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
 0.0.0.0 gestrauss.shop
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -272057,7 +272059,6 @@
 0.0.0.0 guan.ulitron.ru
 0.0.0.0 guana.dedspac.ru
 0.0.0.0 guanbinrui.github.io
-0.0.0.0 guanfangxiazai-oss-cn-singapore-aliyuncs.top
 0.0.0.0 guanfashop.com
 0.0.0.0 guangdong.pilot45.com
 0.0.0.0 guangjiemiao.com
@@ -283043,6 +283044,7 @@
 0.0.0.0 hobo.dedspac.ru
 0.0.0.0 hobo.ulitron.ru
 0.0.0.0 hoboauvitrznpoer-dot-millinium.ey.r.appspot.com
+0.0.0.0 hobobot.net
 0.0.0.0 hobokenpetz.com
 0.0.0.0 hobos.ulitron.ru
 0.0.0.0 hobs.amaniwa.ru
@@ -299779,6 +299781,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -303778,6 +303781,7 @@
 0.0.0.0 itchyladybird.build067.wpsandbox.app
 0.0.0.0 itcicloud.cn
 0.0.0.0 itcitymm.com
+0.0.0.0 itco.pe
 0.0.0.0 itcom-cm.net
 0.0.0.0 itcomm.co.id
 0.0.0.0 itcommunication.co.za
@@ -315878,7 +315882,6 @@
 0.0.0.0 kafato.digital
 0.0.0.0 kafelah.com
 0.0.0.0 kafen33591.wixsite.com
-0.0.0.0 kafeprog7.com
 0.0.0.0 kaffnet.com
 0.0.0.0 kafhksahk.ga
 0.0.0.0 kafichanta.doublepaws.org
@@ -341169,6 +341172,7 @@
 0.0.0.0 luismajul.com
 0.0.0.0 luisrey.ndtilda.co.uk
 0.0.0.0 luisrivalta.github.io
+0.0.0.0 luisrivera.com
 0.0.0.0 luisrodrigueze.com
 0.0.0.0 luissainz.com
 0.0.0.0 luite.dedspac.ru
@@ -355534,6 +355538,7 @@
 0.0.0.0 meadeshost.ga
 0.0.0.0 meadow-alkaline-contraption.glitch.me
 0.0.0.0 meadow-bedecked-kite.glitch.me
+0.0.0.0 meadow-facet.com
 0.0.0.0 meadow-helix-skink.glitch.me
 0.0.0.0 meadow-nonstop-hole.glitch.me
 0.0.0.0 meadow-surf-dawn.glitch.me
@@ -411658,6 +411663,7 @@
 0.0.0.0 pcryrkayhn.duckdns.org
 0.0.0.0 pcs-behavior-mathematical-wx.trycloudflare.com
 0.0.0.0 pcs.nhancv.com
+0.0.0.0 pcsa.nu
 0.0.0.0 pcsbeiton.com
 0.0.0.0 pcscollabland.org
 0.0.0.0 pcsecurityshield.com
@@ -414932,6 +414938,7 @@
 0.0.0.0 phonepahub.shop
 0.0.0.0 phonepay.pk
 0.0.0.0 phonepe-cashgift.com
+0.0.0.0 phoneqwert.cc
 0.0.0.0 phones.mtpdev3.com
 0.0.0.0 phones4you.be
 0.0.0.0 phonesecure.mobi
@@ -465293,6 +465300,7 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
+0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -472133,6 +472141,7 @@
 0.0.0.0 stationery-local-manage-71352846.vercel.app
 0.0.0.0 stationpack.de
 0.0.0.0 statis.dsp.vn
+0.0.0.0 statist.site
 0.0.0.0 statistic-blog-v2.sapoapps.vn
 0.0.0.0 statistic-ms.live
 0.0.0.0 statistic.ads24h.net
@@ -474165,6 +474174,7 @@
 0.0.0.0 sunsetdrift.live
 0.0.0.0 sunsetgrovepath.site
 0.0.0.0 sunsgpsl.com
+0.0.0.0 sunsundown.com
 0.0.0.0 sunt.ulitron.ru
 0.0.0.0 suntago24info.eu
 0.0.0.0 suntrailaq.vercel.app
@@ -477246,6 +477256,7 @@
 0.0.0.0 tecnoyciencia.com
 0.0.0.0 teco.dedspac.ru
 0.0.0.0 tecorportas.com
+0.0.0.0 tecpasco.com
 0.0.0.0 tectaconstrata.online
 0.0.0.0 tectaconstrata.ru
 0.0.0.0 tectonic.net.in
@@ -480365,6 +480376,7 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
+0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -485132,6 +485144,7 @@
 0.0.0.0 update.kmpmedia.net
 0.0.0.0 update.microsoftonlines.net
 0.0.0.0 update.morgdog.springserve.com
+0.0.0.0 update.neewsoo.com
 0.0.0.0 update.openx.com
 0.0.0.0 update.postimp-ofw.fyber.com
 0.0.0.0 update.privdog.com
@@ -499408,6 +499421,7 @@
 0.0.0.0 www.compieider.store
 0.0.0.0 www.compitte.com
 0.0.0.0 www.complammin.store
+0.0.0.0 www.complianceportals.com
 0.0.0.0 www.complien.com
 0.0.0.0 www.complimentaryd-ata.com
 0.0.0.0 www.compositefarming.com
@@ -510634,7 +510648,6 @@
 0.0.0.0 www.portlanfleathergoods.com
 0.0.0.0 www.portocaminhoes-am.com.br
 0.0.0.0 www.portutopcas.com
-0.0.0.0 www.porvootransitioncare.com
 0.0.0.0 www.poscenter.net
 0.0.0.0 www.poshmark.dlhpmy.com
 0.0.0.0 www.positive-future.base44.app
