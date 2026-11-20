@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-20 00:33:28
-# Entries: 521470
+# Generated: 2026-11-20 06:04:17
+# Entries: 521467
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -137653,7 +137653,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -161362,6 +161361,7 @@
 0.0.0.0 bvlcmslll.com
 0.0.0.0 bvlgarijapan.com
 0.0.0.0 bvm-india.com
+0.0.0.0 bvmatqnam.com.vn
 0.0.0.0 bvmvbmtgyhkj568568vbncvn.co.vu
 0.0.0.0 bvn.pages.dev
 0.0.0.0 bvnbmqrcinkxiwso-dot-millinium.ey.r.appspot.com
@@ -165137,7 +165137,6 @@
 0.0.0.0 carbs.dedspac.ru
 0.0.0.0 carbs.virosat.ru
 0.0.0.0 carbunculus.ru
-0.0.0.0 carcaran.com
 0.0.0.0 carcaves.com.au
 0.0.0.0 carcorrespond.shop
 0.0.0.0 card-au.info
@@ -248626,6 +248625,7 @@
 0.0.0.0 forfileshareongdrive.000webhostapp.com
 0.0.0.0 forflyviagens.com.br
 0.0.0.0 forge-capmoor.cfd
+0.0.0.0 forge-copper.com
 0.0.0.0 forge-nior-client.surge.sh
 0.0.0.0 forge.ulitron.ru
 0.0.0.0 forge.virosat.ru
@@ -306269,6 +306269,7 @@
 0.0.0.0 japanse-indo-hot.duckdns.org
 0.0.0.0 japanse2.duckdns.org
 0.0.0.0 japantravely.weebly.com
+0.0.0.0 japantripninja.com
 0.0.0.0 japanvideo2full.viip69.com
 0.0.0.0 japaxiv835.wixsite.com
 0.0.0.0 jape.amaniwa.ru
@@ -380107,7 +380108,6 @@
 0.0.0.0 n.systemlog.me
 0.0.0.0 n.targetctracker.com
 0.0.0.0 n.timerto.ru
-0.0.0.0 n.vs108.com
 0.0.0.0 n.yj.fr
 0.0.0.0 n.z7mard.yhfnxn4yif.yyg.44f4bm8jj.tjgs.a7fwx4s.y4sk4f.fs.2ejmf.jjxp.scyrz6q.3k4y.cn2gbzw.epjnheai6.ndsye.6b8scztpm.rbfkhx.de.w.2qkwnw.hmtr.5ntsprmyy.awejw.jphz.iyxw3qjcn.ens3c.pay.paypalcancel.cc
 0.0.0.0 n01d05.cumulus-cloud.com
@@ -409752,7 +409752,6 @@
 0.0.0.0 pay.155blog.xyz
 0.0.0.0 pay.amazon.eu.usr-review.live
 0.0.0.0 pay.amazon.secure.checkouts.top
-0.0.0.0 pay.aqiu6.com
 0.0.0.0 pay.autenticacaosrs.fun
 0.0.0.0 pay.bharatvle.org
 0.0.0.0 pay.boletuso.ru
@@ -426697,7 +426696,6 @@
 0.0.0.0 project2c-f307c.firebaseapp.com
 0.0.0.0 project2e-64ba9.firebaseapp.com
 0.0.0.0 project2portable12.pages.dev
-0.0.0.0 project360.hr
 0.0.0.0 project3781608.tilda.ws
 0.0.0.0 project3b-1920f.web.app
 0.0.0.0 project3e-a21a9.firebaseapp.com
@@ -459195,6 +459193,7 @@
 0.0.0.0 sales.expofranchise.com.br
 0.0.0.0 sales.healthrxbd.com
 0.0.0.0 sales.idio.co
+0.0.0.0 sales.ifree.page
 0.0.0.0 sales.pilonce.co.uk
 0.0.0.0 sales.sales.theperfectpocketbook.com
 0.0.0.0 sales.sales.utdllc.com
@@ -465303,7 +465302,6 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
-0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -472090,7 +472088,6 @@
 0.0.0.0 static.target2sell.com
 0.0.0.0 static.tebrand.asia
 0.0.0.0 static.tebrand.vn
-0.0.0.0 static.topxgun.com
 0.0.0.0 static.track.omguk.com
 0.0.0.0 static.trackedweb.net
 0.0.0.0 static.tracking202.com
@@ -475007,6 +475004,7 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftdryblowdryers.org
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftonyx16.com
@@ -475997,6 +475995,7 @@
 0.0.0.0 takaecdwu.xyz
 0.0.0.0 takak.ru
 0.0.0.0 takcmbwo.cn
+0.0.0.0 take-care.africa
 0.0.0.0 take-coinbase.webflow.io
 0.0.0.0 take-satoshivm.pages.dev
 0.0.0.0 take.amaniwa.ru
@@ -480373,7 +480372,6 @@
 0.0.0.0 tpg-wswhatsapp.cc
 0.0.0.0 tpmedia.online
 0.0.0.0 tpo-yu.xyz
-0.0.0.0 tpp.om-stock.com
 0.0.0.0 tpr.moolin.ru
 0.0.0.0 tps-wlb-uswest.dvgtm.akadns.net
 0.0.0.0 tps.doubleverify.com
@@ -503417,7 +503415,6 @@
 0.0.0.0 www.gervan.shop
 0.0.0.0 www.gerwaldkronberg.net
 0.0.0.0 www.gestrauss.shop
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.gesuarivac.store
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
