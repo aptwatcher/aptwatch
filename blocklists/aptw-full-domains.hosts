@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-19 18:34:08
-# Entries: 521476
+# Generated: 2026-11-20 00:33:28
+# Entries: 521470
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -9004,7 +9004,6 @@
 0.0.0.0 1688-kf.vip
 0.0.0.0 1688.spring.pp.ua
 0.0.0.0 168819959.corolain.ru
-0.0.0.0 1688360.cc
 0.0.0.0 16883719-16-20211227182314.webstarterz.com
 0.0.0.0 1688548462.corolain.ru
 0.0.0.0 168874628660-168874628660168874628660168874628660168874628660.optomaindustries.com
@@ -12285,6 +12284,7 @@
 0.0.0.0 1partyline.com
 0.0.0.0 1passvvord.org
 0.0.0.0 1password-login.com
+0.0.0.0 1pcsa.nu
 0.0.0.0 1pdf-sc4n-6a5b.yu7uijh560.workers.dev
 0.0.0.0 1pdtfaa59y5mthf0qesg.53244ds.xyz
 0.0.0.0 1percent.fr
@@ -68726,6 +68726,7 @@
 0.0.0.0 alas.bortogat.ru
 0.0.0.0 alas.edu.ar
 0.0.0.0 alasakaaa.duckdns.org
+0.0.0.0 alaseeldates.com
 0.0.0.0 alashmtalwork.github.io
 0.0.0.0 alashramaudit.com
 0.0.0.0 alasiafranco.com
@@ -118373,7 +118374,6 @@
 0.0.0.0 authg.rustrelay.net
 0.0.0.0 authgame.shop
 0.0.0.0 authgripass.t.justns.ru
-0.0.0.0 authguild.net
 0.0.0.0 authh---coinbasepro---cdn-s-sso.webflow.io
 0.0.0.0 authh--crypto-cdn--sso.webflow.io
 0.0.0.0 authh--io-start--trezoor.webflow.io
@@ -137653,6 +137653,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beakoncapitholm.com
@@ -142766,7 +142767,6 @@
 0.0.0.0 bhel.sortapwadi.com
 0.0.0.0 bhello-portail-041o.yolasite.com
 0.0.0.0 bhemial.com
-0.0.0.0 bhenchod.rabinda-sarobar.online
 0.0.0.0 bhendrick.atozgroup.ir
 0.0.0.0 bheolugar.com.br
 0.0.0.0 bheragreens.com
@@ -143910,6 +143910,9 @@
 0.0.0.0 bikiniquote.com
 0.0.0.0 bikipo6608.wixsite.com
 0.0.0.0 biklosvfzd.duckdns.org
+0.0.0.0 bikm1.hypstock.info
+0.0.0.0 bikm2.hypstock.info
+0.0.0.0 bikm3.hypstock.info
 0.0.0.0 bikol.bortogat.ru
 0.0.0.0 bikoladarina.pages.dev
 0.0.0.0 bikomebb.blogspot.ba
@@ -148133,6 +148136,7 @@
 0.0.0.0 bloombergbank.blogspot.com
 0.0.0.0 bloombergdfpcw4670778881.s.moatpixel.com
 0.0.0.0 bloombergprebidheader853620778109.s.moatpixel.com
+0.0.0.0 bloombertrading.com
 0.0.0.0 bloombless.com
 0.0.0.0 bloombreedschools.org
 0.0.0.0 bloomcornerhaven.xyz
@@ -149078,6 +149082,8 @@
 0.0.0.0 bmpssjajjtjxiguc-dot-millinium.ey.r.appspot.com
 0.0.0.0 bmpuft.byethost18.com
 0.0.0.0 bmpzsxdlrupwpdyr-dot-millinium.ey.r.appspot.com
+0.0.0.0 bmq1c.hypstock.info
+0.0.0.0 bmq2c.hypstock.info
 0.0.0.0 bmr.ulitron.ru
 0.0.0.0 bmrkznsehmup.liusanjie.cc
 0.0.0.0 bmrnyehuivryuaq.pages.dev
@@ -165131,6 +165137,7 @@
 0.0.0.0 carbs.dedspac.ru
 0.0.0.0 carbs.virosat.ru
 0.0.0.0 carbunculus.ru
+0.0.0.0 carcaran.com
 0.0.0.0 carcaves.com.au
 0.0.0.0 carcorrespond.shop
 0.0.0.0 card-au.info
@@ -168517,7 +168524,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -168552,7 +168558,6 @@
 0.0.0.0 cdn.heapanalytics.com
 0.0.0.0 cdn.hostingdomenii.com
 0.0.0.0 cdn.hot-mob.com
-0.0.0.0 cdn.hypstock.info
 0.0.0.0 cdn.iads.unity3d.com
 0.0.0.0 cdn.iasrv.com
 0.0.0.0 cdn.id5-sync.com
@@ -168798,7 +168803,6 @@
 0.0.0.0 cdn1.clkoffers.com
 0.0.0.0 cdn1.clkrev.com
 0.0.0.0 cdn1.extremereach.io
-0.0.0.0 cdn1.hyperfxs.icu
 0.0.0.0 cdn1.opstag.com
 0.0.0.0 cdn1.rmgserving.com
 0.0.0.0 cdn1.skinected.com
@@ -193436,7 +193440,6 @@
 0.0.0.0 cuy3a-4qaaa-aaaag-abdyq-cai.raw.ic0.app
 0.0.0.0 cuya.vadilops.ru
 0.0.0.0 cuyagz87.duckdns.org
-0.0.0.0 cuyarts.com.pe
 0.0.0.0 cuycabdbvq.duckdns.org
 0.0.0.0 cuycoinloginn.webflow.io
 0.0.0.0 cuymghrzqukdzrxm-dot-millinium.ey.r.appspot.com
@@ -215306,11 +215309,14 @@
 0.0.0.0 dxvrh.blogspot.li
 0.0.0.0 dxvrh.blogspot.sn
 0.0.0.0 dxw3.xyz
+0.0.0.0 dxx11o.fixlow.shop
+0.0.0.0 dxx11xa.fixlow.shop
+0.0.0.0 dxx22xa.fixlow.shop
+0.0.0.0 dxx33xa.fixlow.shop
 0.0.0.0 dxx5.fixlow.shop
 0.0.0.0 dxx5g.fixlow.shop
 0.0.0.0 dxx5o.fixlow.shop
 0.0.0.0 dxx5q.fixlow.shop
-0.0.0.0 dxxs.fixlow.shop
 0.0.0.0 dxxysvbm.wcnv20.cn
 0.0.0.0 dxz-52p.pages.dev
 0.0.0.0 dxzcbnjhgsa.co.vu
@@ -219893,6 +219899,7 @@
 0.0.0.0 efmgecbsotlljvgq-dot-millinium.ey.r.appspot.com
 0.0.0.0 efminsaat.com.tr
 0.0.0.0 efmnwyfqq7e6tfgyf9eaii4iiwfs5ippqapmnfqxs1ou.pages.dev
+0.0.0.0 efn.lol
 0.0.0.0 efnbg.blogspot.com
 0.0.0.0 efnbg.blogspot.fi
 0.0.0.0 efngc.blogspot.com
@@ -243620,7 +243627,6 @@
 0.0.0.0 file.autoads.asia
 0.0.0.0 file.blackint3.com
 0.0.0.0 file.bortogat.ru
-0.0.0.0 file.celciuscreditor.com
 0.0.0.0 file.december-q3.workers.dev
 0.0.0.0 file.dontjudge.workers.dev
 0.0.0.0 file.gamefeat.net
@@ -243631,6 +243637,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -243737,7 +243744,6 @@
 0.0.0.0 files.stample.com
 0.0.0.0 files.tailsweep.com
 0.0.0.0 files.topcashng.com
-0.0.0.0 files.trade4rex.com
 0.0.0.0 files.tsetsenbileg.com
 0.0.0.0 files.ukr.net.ssl2.in
 0.0.0.0 files.ulitron.ru
@@ -258581,7 +258587,6 @@
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
 0.0.0.0 gestrauss.shop
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -273756,6 +273761,7 @@
 0.0.0.0 hackmannseguros.com.br
 0.0.0.0 hacknetfl1x.net
 0.0.0.0 hackneysurvival.com
+0.0.0.0 hacks.librehub.click
 0.0.0.0 hacks.ulitron.ru
 0.0.0.0 hacksrevolution.com
 0.0.0.0 hackucdt.com
@@ -291295,7 +291301,6 @@
 0.0.0.0 identitysupdatessecurtyis.co.vu
 0.0.0.0 identivacy.co.vu
 0.0.0.0 identofo.hubside.fr
-0.0.0.0 identyclick.com
 0.0.0.0 identyrecoferysupportcomunity.co.vu
 0.0.0.0 ideo-environnement.fr
 0.0.0.0 ideo-marketing.fr
@@ -292953,7 +292958,6 @@
 0.0.0.0 im-hk.fotitu.com
 0.0.0.0 im-imtoken.org
 0.0.0.0 im-ken.top
-0.0.0.0 im-quirky.com
 0.0.0.0 im-riteshrajput.github.io
 0.0.0.0 im-t0keni.info
 0.0.0.0 im-t0keny.info
@@ -299780,7 +299784,6 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
-0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -302535,6 +302538,7 @@
 0.0.0.0 irlfyhgxruwolhcy-dot-millinium.ey.r.appspot.com
 0.0.0.0 irlivesupport.vercel.app
 0.0.0.0 irm-facebook-2221117818.maak.org.mk
+0.0.0.0 irm.st
 0.0.0.0 irma.amaniwa.ru
 0.0.0.0 irma.boletuso.ru
 0.0.0.0 irmaclothing.com
@@ -317629,6 +317633,7 @@
 0.0.0.0 keisu02.eproof.com
 0.0.0.0 keit1on.net
 0.0.0.0 keitaro1.cityads.com
+0.0.0.0 keitarosofts.com
 0.0.0.0 keitcrm.pl
 0.0.0.0 keith.temple.keith.temple.theperfectpocketbook.com
 0.0.0.0 keith.ulitron.ru
@@ -318001,7 +318006,6 @@
 0.0.0.0 kerne.ulitron.ru
 0.0.0.0 kernelbrightstudio.bond
 0.0.0.0 kernelnodepark.top
-0.0.0.0 kernelscv.cfd
 0.0.0.0 kerneur-huissiers.fr
 0.0.0.0 kernh41.com
 0.0.0.0 kernos.ch
@@ -321797,7 +321801,6 @@
 0.0.0.0 kpbrzziku.my.id
 0.0.0.0 kpbs8ygz.bhz.my.id
 0.0.0.0 kpc.ninjaweb.us
-0.0.0.0 kpcdn.hyperfx.info
 0.0.0.0 kpcpxhkcssvyqrar-dot-millinium.ey.r.appspot.com
 0.0.0.0 kpdnkk.consumerconference.org
 0.0.0.0 kpdnsb.cn
@@ -325990,6 +325993,7 @@
 0.0.0.0 lahoyws2.com
 0.0.0.0 lahstudios.com
 0.0.0.0 lahwhniajwfvlhsr-dot-millinium.ey.r.appspot.com
+0.0.0.0 lai.windows22.help
 0.0.0.0 laibaparvaiz.github.io
 0.0.0.0 laiberation.fr
 0.0.0.0 laically.ruhodo.ru
@@ -331274,6 +331278,7 @@
 0.0.0.0 libredatavre.org
 0.0.0.0 libredestinoexpress.shop
 0.0.0.0 libredrives.myftp.org
+0.0.0.0 librehub.click
 0.0.0.0 libreint.hopto.org
 0.0.0.0 libreinver.preaprobadosper.repl.co
 0.0.0.0 libreinversioncartera2025.vercel.app
@@ -367770,6 +367775,7 @@
 0.0.0.0 mioveni.pl
 0.0.0.0 miozpro.com
 0.0.0.0 mipack369.org
+0.0.0.0 mipagina.cl
 0.0.0.0 mipallab.github.io
 0.0.0.0 mipay.fr
 0.0.0.0 mipc9cdn.top
@@ -389899,7 +389905,6 @@
 0.0.0.0 noblekapithold.com
 0.0.0.0 noblelao.xyz
 0.0.0.0 nobleledgivo.com
-0.0.0.0 nobleprotect.net
 0.0.0.0 noblerendwick.com
 0.0.0.0 noblestree.com
 0.0.0.0 noblevermostead.net
@@ -411664,6 +411669,7 @@
 0.0.0.0 pcryrkayhn.duckdns.org
 0.0.0.0 pcs-behavior-mathematical-wx.trycloudflare.com
 0.0.0.0 pcs.nhancv.com
+0.0.0.0 pcsa.nu
 0.0.0.0 pcsbeiton.com
 0.0.0.0 pcscollabland.org
 0.0.0.0 pcsecurityshield.com
@@ -414086,7 +414092,6 @@
 0.0.0.0 pets.finaltips.com
 0.0.0.0 petsgift.com
 0.0.0.0 petshopperzippl.com
-0.0.0.0 petshoweraclimacao.com.br
 0.0.0.0 petshub.uk
 0.0.0.0 petsittingexcellence.com
 0.0.0.0 petsmovies.com
@@ -414482,6 +414487,7 @@
 0.0.0.0 phantom--walleth-join.webflow.io
 0.0.0.0 phantom-apps.at
 0.0.0.0 phantom-backup.com
+0.0.0.0 phantom-cheats.pro
 0.0.0.0 phantom-detector.app
 0.0.0.0 phantom-enshrined-curiosity.glitch.me
 0.0.0.0 phantom-guide-96m0qrndaf.glitch.me
@@ -418653,7 +418659,6 @@
 0.0.0.0 pngajuanmdanapayllaters.thebestns.biz.id
 0.0.0.0 pngfreebie.com
 0.0.0.0 pngtnashkfcmuisr-dot-millinium.ey.r.appspot.com
-0.0.0.0 pngup.com
 0.0.0.0 pnhatom-wallet.weebly.com
 0.0.0.0 pnikansa.com
 0.0.0.0 pningkatan-limiit-danaa4-cicil.mvy.my.id
@@ -426692,6 +426697,7 @@
 0.0.0.0 project2c-f307c.firebaseapp.com
 0.0.0.0 project2e-64ba9.firebaseapp.com
 0.0.0.0 project2portable12.pages.dev
+0.0.0.0 project360.hr
 0.0.0.0 project3781608.tilda.ws
 0.0.0.0 project3b-1920f.web.app
 0.0.0.0 project3e-a21a9.firebaseapp.com
@@ -448061,7 +448067,6 @@
 0.0.0.0 res.ulitron.ru
 0.0.0.0 res1.applovin.com
 0.0.0.0 res1wwwd-o-tamazond-o-tit.vcatalyst.xyz
-0.0.0.0 res2.topkitss.icu
 0.0.0.0 res470.pages.dev
 0.0.0.0 res53rd.firebaseapp.com
 0.0.0.0 resadkhibktm.activehosted.com
@@ -452738,7 +452743,6 @@
 0.0.0.0 robloxi.com.es
 0.0.0.0 robloxii.com
 0.0.0.0 robloxs.com.es
-0.0.0.0 robloxscript.top
 0.0.0.0 robloxtrenches.com
 0.0.0.0 robloxtutorial.com
 0.0.0.0 robloxw.com.es
@@ -459191,7 +459195,6 @@
 0.0.0.0 sales.expofranchise.com.br
 0.0.0.0 sales.healthrxbd.com
 0.0.0.0 sales.idio.co
-0.0.0.0 sales.ifree.page
 0.0.0.0 sales.pilonce.co.uk
 0.0.0.0 sales.sales.theperfectpocketbook.com
 0.0.0.0 sales.sales.utdllc.com
@@ -468576,7 +468579,6 @@
 0.0.0.0 soft-heart-2ed8.ma878696d.workers.dev
 0.0.0.0 soft-jauk.shop
 0.0.0.0 soft-pine-b955.nelly-33d.workers.dev
-0.0.0.0 soft-place.top
 0.0.0.0 soft-sawine-4598cd.netlify.app
 0.0.0.0 soft-side-946015.framer.app
 0.0.0.0 soft-storage.com
@@ -472896,12 +472898,8 @@
 0.0.0.0 stiyyngingstowage.info
 0.0.0.0 stj7uppm.metanat.ru
 0.0.0.0 stjc2zjjnff46qng.cddental.com.au
-0.0.0.0 stkc4.hyperfxs.icu
 0.0.0.0 stkk.pl
-0.0.0.0 stkk3.hyperfxs.icu
 0.0.0.0 stkkrangulated.info
-0.0.0.0 stkl6f.hyperfxs.icu
-0.0.0.0 stkp2.hyperfxs.icu
 0.0.0.0 stl-investment.ltd
 0.0.0.0 stl.p.a1.traceworks.com
 0.0.0.0 stl1lb.moargaems.com
@@ -473457,6 +473455,7 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamridgeclover.online
 0.0.0.0 streamseek.net
@@ -475008,7 +475007,6 @@
 0.0.0.0 swiftdecentralizedapp.com
 0.0.0.0 swiftdryblowdryers.org
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftonyx16.com
@@ -477255,6 +477253,7 @@
 0.0.0.0 tecnoyciencia.com
 0.0.0.0 teco.dedspac.ru
 0.0.0.0 tecorportas.com
+0.0.0.0 tecpasco.com
 0.0.0.0 tectaconstrata.online
 0.0.0.0 tectaconstrata.ru
 0.0.0.0 tectonic.net.in
@@ -483541,7 +483540,6 @@
 0.0.0.0 tweets.timanar.ru
 0.0.0.0 tweetsoup.us.intellitxt.com
 0.0.0.0 twelvedawn.com
-0.0.0.0 twentytwen.fixlow.shop
 0.0.0.0 twerp.dedspac.ru
 0.0.0.0 twglobeshopping3.top
 0.0.0.0 twich-faceit.com
@@ -483674,7 +483672,6 @@
 0.0.0.0 txn.ingest.crittercism.com
 0.0.0.0 txn.shidesto.solutions
 0.0.0.0 txotsv.cn
-0.0.0.0 txp.fixlow.shop
 0.0.0.0 txpo.fxjkd.es
 0.0.0.0 txqyvtlih9vx2mz9wz.metanat.ru
 0.0.0.0 txsyg.com
@@ -483684,7 +483681,6 @@
 0.0.0.0 txvdjnu.cn
 0.0.0.0 txwtpmifee.duckdns.org
 0.0.0.0 txx.tjme.io
-0.0.0.0 txxt.fixlow.shop
 0.0.0.0 txzjq.com
 0.0.0.0 ty-wtb.xyz
 0.0.0.0 ty65xcc-smart-manatee.mybluemix.net
@@ -484921,7 +484917,6 @@
 0.0.0.0 unode.dedspac.ru
 0.0.0.0 unodieuxconnard.fr
 0.0.0.0 unogasolineras.com
-0.0.0.0 unojoin.com
 0.0.0.0 unona.dedspac.ru
 0.0.0.0 unonoticias.net
 0.0.0.0 unorn.dedspac.ru
@@ -485142,7 +485137,6 @@
 0.0.0.0 update.kmpmedia.net
 0.0.0.0 update.microsoftonlines.net
 0.0.0.0 update.morgdog.springserve.com
-0.0.0.0 update.neewsoo.com
 0.0.0.0 update.openx.com
 0.0.0.0 update.postimp-ofw.fyber.com
 0.0.0.0 update.privdog.com
@@ -505737,6 +505731,7 @@
 0.0.0.0 www.kreofixvoltruniangrid.com
 0.0.0.0 www.kreofixvoltruniansector.com
 0.0.0.0 www.kreofixvoltrunianwave.com
+0.0.0.0 www.kreuz-halbmeil.de
 0.0.0.0 www.krevuni.shop
 0.0.0.0 www.krevunio.shop
 0.0.0.0 www.kridlodochodek.com
@@ -511054,7 +511049,6 @@
 0.0.0.0 www.puna.pl
 0.0.0.0 www.puncakhartajaya.com
 0.0.0.0 www.punishtube.com
-0.0.0.0 www.puntacanacatamaransparty.com
 0.0.0.0 www.pupazridis.store
 0.0.0.0 www.pupilungel.store
 0.0.0.0 www.pupogabejez.store
