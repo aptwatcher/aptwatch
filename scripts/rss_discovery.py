@@ -169,6 +169,13 @@ IN_SCOPE_ACTORS = [
     "ice relic",                                                          # GTIG's new name for APT29 (backfill 2026-08-21)
     "unc6293", "unc7005", "unc5976",                                      # GTIG suspected-Russian auth-flow clusters (2026-08-21)
     "engineligh", "cherrypie", "headrush",                                # UNC7005/UNC5976 malware (ENGINELIGHT truncated to catch inflections)
+    # --- 2026-11-21: partner-state actor (KP) brought into scope by curator decision —
+    #     Kimsuky targeting Ukrainian experts (Genians "Operation GitPower", 2026-10-12;
+    #     campaign created by curator-2026-11-21-kimsuky-genians-gitpower-ukraine.yaml).
+    #     Expect noise from Korea-only Kimsuky coverage: confirm the Ukraine/Europe
+    #     target-set tie on the full article before ingesting.
+    "kimsuky", "apt43", "emerald sleet", "velvet chollima", "thallium", "ta427",
+    "black banshee", "gitpower",
     # --- Ransomware / crime ops adjacent (in-scope list + aliases) ---
     "blacksanta", "black santa",
     "alphv", "blackcat", "noberus",                                  # ALPHV
