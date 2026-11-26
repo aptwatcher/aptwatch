@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-26 00:33:34
-# Entries: 527080
+# Generated: 2026-11-26 06:06:21
+# Entries: 527088
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -157110,7 +157110,6 @@
 0.0.0.0 bselomyxzc.duckdns.org
 0.0.0.0 bsemep.com
 0.0.0.0 bsentrep.qsu.edu.ph
-0.0.0.0 bserail.com
 0.0.0.0 bservd.hondalapuente.com
 0.0.0.0 bsesol.com
 0.0.0.0 bseuxpyfgbxygclw-dot-millinium.ey.r.appspot.com
@@ -230905,6 +230904,7 @@
 0.0.0.0 explorepro.org
 0.0.0.0 explorer.btgofficial.org
 0.0.0.0 explorer.production.qldvvmc.com.au
+0.0.0.0 explorer.vg
 0.0.0.0 explorersholidays.com
 0.0.0.0 explorertechnembe.cu.ma
 0.0.0.0 explorethenationnowbb.pages.dev
@@ -231355,6 +231355,7 @@
 0.0.0.0 eyot.ulitron.ru
 0.0.0.0 eyoutpgmra.ddns.net
 0.0.0.0 eyovip.shop
+0.0.0.0 eyp.hyperseqk.icu
 0.0.0.0 eypcazxgnhtybeqf-dot-millinium.ey.r.appspot.com
 0.0.0.0 eypdnizsfgzkjhmhkytpltrvvz-dot-gle39404049.rj.r.appspot.com
 0.0.0.0 eypdrvkssjujgbug-dot-millinium.ey.r.appspot.com
@@ -244638,6 +244639,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -287494,7 +287496,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -336856,6 +336857,7 @@
 0.0.0.0 loave.ulitron.ru
 0.0.0.0 loawnd3-8437-buertyd.pages.dev
 0.0.0.0 loawthangkham.nongkhai.police.go.th
+0.0.0.0 loayardes.cc
 0.0.0.0 lob.boletuso.ru
 0.0.0.0 lob.ulitron.ru
 0.0.0.0 loba-cambodia.org
@@ -342322,6 +342324,7 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
+0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -454535,6 +454538,7 @@
 0.0.0.0 roblotx.com
 0.0.0.0 roblox-3e6.pages.dev
 0.0.0.0 roblox-app.com
+0.0.0.0 roblox-executr.com
 0.0.0.0 roblox-gift.xyz
 0.0.0.0 roblox-help.com
 0.0.0.0 roblox-verification.com
@@ -461062,6 +461066,7 @@
 0.0.0.0 sales.expofranchise.com.br
 0.0.0.0 sales.healthrxbd.com
 0.0.0.0 sales.idio.co
+0.0.0.0 sales.ifree.page
 0.0.0.0 sales.pilonce.co.uk
 0.0.0.0 sales.sales.theperfectpocketbook.com
 0.0.0.0 sales.sales.utdllc.com
@@ -466168,6 +466173,7 @@
 0.0.0.0 septicidally.timanar.ru
 0.0.0.0 sepulincaz.store
 0.0.0.0 sepume-xokaxu.com
+0.0.0.0 seputartuban.com
 0.0.0.0 seq.ulitron.ru
 0.0.0.0 ser-tribune-require-bodies.trycloudflare.com
 0.0.0.0 ser.adledge.com
@@ -475456,6 +475462,7 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
+0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamridgeclover.online
 0.0.0.0 streamseek.net
@@ -477067,7 +477074,6 @@
 0.0.0.0 swiftdryblowdryers.org
 0.0.0.0 swiftedgefinvexor-system.com
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftonyx16.com
@@ -484484,6 +484490,7 @@
 0.0.0.0 tribez.game-insight.com
 0.0.0.0 tribikauction.co
 0.0.0.0 triboo01.webtrekk.net
+0.0.0.0 tribot.co.uk
 0.0.0.0 tribuneinteractive.122.2o7.net
 0.0.0.0 trica.dedspac.ru
 0.0.0.0 tricazo.com
@@ -500366,6 +500373,7 @@
 0.0.0.0 www.apulsridda.store
 0.0.0.0 www.apumac.com
 0.0.0.0 www.aqhifj.nttwwatches.com
+0.0.0.0 www.aqianniao.com
 0.0.0.0 www.aqlorvexian.shop
 0.0.0.0 www.aqmira.shop
 0.0.0.0 www.aqqntonomasiasmercilessly.info

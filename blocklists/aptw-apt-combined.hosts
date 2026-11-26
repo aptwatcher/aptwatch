@@ -1,7 +1,7 @@
 # Title: APT Watch — APT Combined Blocklist
 # Description: All validated APT IPs + malicious domains
-# Last modified: 2026-11-26 00:33:33
-# Entries: 13602
+# Last modified: 2026-11-26 06:06:19
+# Entries: 13607
 # Homepage: https://aptwatch.org
 # License: TLP:AMBER — do not share publicly
 #
@@ -13525,6 +13525,7 @@
 0.0.0.0 api-ext.bixbitemarketing.com
 0.0.0.0 api.ioteromixes.com
 0.0.0.0 api.loretesimorix.com
+0.0.0.0 api.oobaehugruro.com
 0.0.0.0 api.operilezabre.com
 0.0.0.0 api.pimparolix.com
 0.0.0.0 api.portimaloter.com
@@ -13576,6 +13577,7 @@
 0.0.0.0 parish.menberetsebaotholytrinityeotc.org
 0.0.0.0 php-panel.letsgoautomotive.com
 0.0.0.0 pic-st.championboerboel.com
+0.0.0.0 pics.huidetrading.com
 0.0.0.0 platform.isystemservices.com
 0.0.0.0 player-js.joelbauer.com
 0.0.0.0 prod-static.nascarnash.com
@@ -13600,12 +13602,15 @@
 0.0.0.0 st-attr.robstuder.org
 0.0.0.0 stake.libertariancounterpoint.com
 0.0.0.0 stcdn.yuriykraynov.com
+0.0.0.0 stella.grihemiaziarirubiav.com
+0.0.0.0 stexa.kerotilex.com
 0.0.0.0 storehouse.beautysupplysalonllc.com
 0.0.0.0 support.grovecityelectrician.com
 0.0.0.0 temp.hex
 0.0.0.0 thresumebuilder.com
 0.0.0.0 tools.studerandson.com
 0.0.0.0 universal-api.algarveexportltd.com
+0.0.0.0 us-beacon.globaltrading-fr.com
 0.0.0.0 us-west.israel-finance.com
 0.0.0.0 us-west.oceandentalcare.com
 0.0.0.0 virtualtelemetryassistant.com
