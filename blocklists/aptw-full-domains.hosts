@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-25 23:02:23
-# Entries: 527104
+# Generated: 2026-11-26 00:33:34
+# Entries: 527080
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -52470,7 +52470,6 @@
 0.0.0.0 actechshare.com
 0.0.0.0 actedo.org
 0.0.0.0 acten.co.uk
-0.0.0.0 acten.topickks.icu
 0.0.0.0 acter.org.co
 0.0.0.0 acter0987678-864456780987654.pages.dev
 0.0.0.0 acteran.ru
@@ -68531,6 +68530,7 @@
 0.0.0.0 akxshixucha.dynssl.com
 0.0.0.0 akya.com.tr
 0.0.0.0 akyachts.com
+0.0.0.0 akyaisounds.com
 0.0.0.0 akyardimiletisim.com
 0.0.0.0 akyat1r1m.online
 0.0.0.0 akyatirim2sendekatil.cloud
@@ -88902,6 +88902,7 @@
 0.0.0.0 api.ivymobile.com
 0.0.0.0 api.jackpotsure.win
 0.0.0.0 api.jeeng.com
+0.0.0.0 api.jsonstorage.net
 0.0.0.0 api.kaffnet.com
 0.0.0.0 api.kameleoon.com
 0.0.0.0 api.keen.io
@@ -97706,6 +97707,7 @@
 0.0.0.0 arakconsultancy.com
 0.0.0.0 arake.ulitron.ru
 0.0.0.0 arake.virosat.ru
+0.0.0.0 arakelian-corner.com
 0.0.0.0 aralandona.b-cdn.net
 0.0.0.0 aralawbali.com
 0.0.0.0 aralbaby.com
@@ -121852,7 +121854,6 @@
 0.0.0.0 aws-amz1c.duckdns.org
 0.0.0.0 aws-api.sail-personalize.com
 0.0.0.0 aws-cloud.moonflowsad.shop
-0.0.0.0 aws-edge-10273753.io
 0.0.0.0 aws-eueast.web.app
 0.0.0.0 aws-oreg-cali-virg.ag.innovid.com.akadns.net
 0.0.0.0 aws-oregon-california-virginia.dts.innovid.com.akadns.net
@@ -140284,7 +140285,6 @@
 0.0.0.0 bendy.dedspac.ru
 0.0.0.0 bendy.virosat.ru
 0.0.0.0 bene.boletuso.ru
-0.0.0.0 bene.hypstok.info
 0.0.0.0 bene.matsuro.ru
 0.0.0.0 beneapalin.store
 0.0.0.0 benedettimusic.com
@@ -140352,12 +140352,6 @@
 0.0.0.0 beneluxtourcs2.com
 0.0.0.0 benemmons.atozgroup.ir
 0.0.0.0 benenergie-dz.com
-0.0.0.0 beneon.hypstok.info
-0.0.0.0 beneon1.hypstok.info
-0.0.0.0 beneon2.hypstok.info
-0.0.0.0 beneon3.hypstok.info
-0.0.0.0 beneon4.hypstok.info
-0.0.0.0 beneon5.hypstok.info
 0.0.0.0 beneport.vercel.app
 0.0.0.0 benes.bortogat.ru
 0.0.0.0 benesserefemminile.it
@@ -146873,7 +146867,6 @@
 0.0.0.0 bkkcojiyocr.tauzetaomega.org
 0.0.0.0 bkkgks.com
 0.0.0.0 bkknr8rb.qwo231sdx.club
-0.0.0.0 bkktech-thai.com
 0.0.0.0 bkkuajndcuolzctd-dot-millinium.ey.r.appspot.com
 0.0.0.0 bkkumar.cu.ma
 0.0.0.0 bkkumhzklyogbkit-dot-millinium.ey.r.appspot.com
@@ -176022,10 +176015,6 @@
 0.0.0.0 ckcujslpsjfjpgmz-dot-millinium.ey.r.appspot.com
 0.0.0.0 ckcw4x.twojsukcespro.pl
 0.0.0.0 ckd-beta.net
-0.0.0.0 ckde.hypstok.info
-0.0.0.0 ckdf.hypstok.info
-0.0.0.0 ckdg.hypstok.info
-0.0.0.0 ckdh.hypstok.info
 0.0.0.0 ckdhxxvvrw.duckdns.org
 0.0.0.0 ckeckfacebook.byethost6.com
 0.0.0.0 ckejqqgssqtpzenh-dot-millinium.ey.r.appspot.com
@@ -192530,7 +192519,6 @@
 0.0.0.0 csiki.ru
 0.0.0.0 csimmigrations.com
 0.0.0.0 csivuoguoew634giu.pages.dev
-0.0.0.0 csjdasioeqwgpt.com
 0.0.0.0 csjomhznzwhqxrnc-dot-millinium.ey.r.appspot.com
 0.0.0.0 csjusmtjuafcwatnbybfzdspvs-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 csk.ru
@@ -211447,7 +211435,6 @@
 0.0.0.0 documentation.finchglowgroup.com
 0.0.0.0 documentation.gq
 0.0.0.0 documentativemanent.site44.com
-0.0.0.0 documentazione.siap.cloud
 0.0.0.0 documentdirectllc.com
 0.0.0.0 documentdirectto.com
 0.0.0.0 documented-exodus-cdn.teachable.com
@@ -216250,6 +216237,8 @@
 0.0.0.0 dxvrh.blogspot.li
 0.0.0.0 dxvrh.blogspot.sn
 0.0.0.0 dxw3.xyz
+0.0.0.0 dxx.fixlow.shop
+0.0.0.0 dxxpc.lowbrg.help
 0.0.0.0 dxxysvbm.wcnv20.cn
 0.0.0.0 dxz-52p.pages.dev
 0.0.0.0 dxzcbnjhgsa.co.vu
@@ -223893,6 +223882,7 @@
 0.0.0.0 en.service-paypal.net
 0.0.0.0 en.smartappweb.org
 0.0.0.0 en.super-cleaning.be
+0.0.0.0 en.taichuan.com
 0.0.0.0 en.timerto.ru
 0.0.0.0 en.timoutupdate.in
 0.0.0.0 en.ucbi-groups.com
@@ -230941,6 +230931,7 @@
 0.0.0.0 exportdialog.com
 0.0.0.0 exporteas.cl
 0.0.0.0 exportni-cena-zpravodaj.cz
+0.0.0.0 exportrelay.net
 0.0.0.0 exportsunshine.com
 0.0.0.0 expos.virosat.ru
 0.0.0.0 expose-ledger.teachable.com
@@ -236482,6 +236473,7 @@
 0.0.0.0 faceit.log-legendscup.com
 0.0.0.0 faceit.oauth23.com
 0.0.0.0 faceit.org-vertexclubgg.com
+0.0.0.0 faceit.pairacc.pro
 0.0.0.0 faceit.party-invite.pro
 0.0.0.0 faceit.stm-auth.com
 0.0.0.0 faceit.teams-gglegendscup.com
@@ -237864,7 +237856,6 @@
 0.0.0.0 farmrenters.xyz
 0.0.0.0 farms.virosat.ru
 0.0.0.0 farmtablecreations.com
-0.0.0.0 farmutils.com
 0.0.0.0 farnboroughair2014.com
 0.0.0.0 farneantie.store
 0.0.0.0 farneli.shop
@@ -241454,7 +241445,6 @@
 0.0.0.0 fd1c90.lovessparkle.com
 0.0.0.0 fd1de304.adorn-insight.co.uk
 0.0.0.0 fd1fdd8c.sieujnx.cloud
-0.0.0.0 fd2.eu
 0.0.0.0 fd2.eye.to
 0.0.0.0 fd2222pi.beget.tech
 0.0.0.0 fd23a-n34cb-21.com
@@ -255329,6 +255319,7 @@
 0.0.0.0 gaemiinilogiz.godaddysites.com
 0.0.0.0 gaeminillogini.webflow.io
 0.0.0.0 gaeminlogii.godaddysites.com
+0.0.0.0 gaenterprises.in
 0.0.0.0 gaer.pages.dev
 0.0.0.0 gaf-company.clean.to
 0.0.0.0 gafaaola.duckdns.org
@@ -257716,6 +257707,7 @@
 0.0.0.0 geeggewwwggf.co.vu
 0.0.0.0 geeguerra.github.io
 0.0.0.0 geeiieeminillrroune.godaddysites.com
+0.0.0.0 geek-yellow.cc
 0.0.0.0 geek.amaniwa.ru
 0.0.0.0 geek.bortogat.ru
 0.0.0.0 geek.dedspac.ru
@@ -259355,6 +259347,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -259713,6 +259706,7 @@
 0.0.0.0 getfree-bluebadge.vercel.app
 0.0.0.0 getfree-bluetick.vercel.app
 0.0.0.0 getfree69.ga
+0.0.0.0 getfreecash.xyz
 0.0.0.0 getfreediamondjune2022ml.duckdns.org
 0.0.0.0 getfreediamondmlbb66.duckdns.org
 0.0.0.0 getfreegroup.000webhostapp.com
@@ -286613,7 +286607,6 @@
 0.0.0.0 hp.grouponesir.com.letianji.com
 0.0.0.0 hp.hubs.vn
 0.0.0.0 hp.hustorla.ru
-0.0.0.0 hp.hyperseqk.icu
 0.0.0.0 hp.locatiarchitects.com.letianji.com
 0.0.0.0 hp.mechanicalresource.com.letianji.com
 0.0.0.0 hp.myway.com
@@ -286863,6 +286856,7 @@
 0.0.0.0 hrg.179ml.cn
 0.0.0.0 hrg.zw0.transagua.cl
 0.0.0.0 hrgesfwwadf.firebaseapp.com
+0.0.0.0 hrgewrws.cc
 0.0.0.0 hrgfmpuphmttdeui-dot-millinium.ey.r.appspot.com
 0.0.0.0 hrgnnhtubtkvomnr-dot-millinium.ey.r.appspot.com
 0.0.0.0 hrgoeogfccwmtcag-dot-millinium.ey.r.appspot.com
@@ -316820,6 +316814,7 @@
 0.0.0.0 kafa.amaniwa.ru
 0.0.0.0 kafelah.com
 0.0.0.0 kafen33591.wixsite.com
+0.0.0.0 kafeprog7.com
 0.0.0.0 kaffnet.com
 0.0.0.0 kafhksahk.ga
 0.0.0.0 kafichanta.doublepaws.org
@@ -322846,8 +322841,6 @@
 0.0.0.0 kpkysnlfod.duckdns.org
 0.0.0.0 kplhsapp.com
 0.0.0.0 kpli.likesyou.org
-0.0.0.0 kplks.hypstok.info
-0.0.0.0 kplkss.hypstok.info
 0.0.0.0 kploapakangpowchwy219382.my.id
 0.0.0.0 kplusd.far.ru
 0.0.0.0 kplykqruur.5q5e5o.cn
@@ -342518,6 +342511,7 @@
 0.0.0.0 lunks.ulitron.ru
 0.0.0.0 lunloqaws.azurewebsites.net
 0.0.0.0 lunn.boletuso.ru
+0.0.0.0 lunnar.icu
 0.0.0.0 lunnioyrtpzzwycb-dot-millinium.ey.r.appspot.com
 0.0.0.0 lunolo-loginn.azurewebsites.net
 0.0.0.0 lunorvial.com
@@ -351789,6 +351783,7 @@
 0.0.0.0 makemathfun.us
 0.0.0.0 makemeheal.us.intellitxt.com
 0.0.0.0 makemelogs.ga
+0.0.0.0 makemewin.club
 0.0.0.0 makemeyourradio.com
 0.0.0.0 makemillion.website.ytwwrntym.com
 0.0.0.0 makemillions.pw.ytwwrntym.com
@@ -365346,7 +365341,6 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
-0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -369131,7 +369125,6 @@
 0.0.0.0 misaki4552.github.io
 0.0.0.0 misaky.ae
 0.0.0.0 misally.bortogat.ru
-0.0.0.0 misamasupply.com
 0.0.0.0 misanoassicurazioni.it
 0.0.0.0 misanthology.com
 0.0.0.0 misanthropically.bortogat.ru
@@ -369319,6 +369312,7 @@
 0.0.0.0 misterjanuary.com
 0.0.0.0 misterlogistik.com
 0.0.0.0 mistermarketpro.com
+0.0.0.0 mistermastermasta.online
 0.0.0.0 mistermetlockdontforget.com
 0.0.0.0 misterpearl.com
 0.0.0.0 misters.ml
@@ -372275,6 +372269,7 @@
 0.0.0.0 moha.dedspac.ru
 0.0.0.0 mohaemd-eid-masoud.github.io
 0.0.0.0 mohaimenul123478.github.io
+0.0.0.0 mohajeri.com
 0.0.0.0 mohalicluster.com
 0.0.0.0 mohamadrajabi.toondarr6.workers.dev
 0.0.0.0 mohamed-aitabdelmalik.github.io
@@ -373994,7 +373989,6 @@
 0.0.0.0 moved.sytes.net
 0.0.0.0 moved.virosat.ru
 0.0.0.0 movedbykevin.com
-0.0.0.0 moveeros.com
 0.0.0.0 movefreeleg.com
 0.0.0.0 movehandcrm.com
 0.0.0.0 moveitmove.com
@@ -383277,7 +383271,6 @@
 0.0.0.0 nbcworkshop.com
 0.0.0.0 nbdbangla.com
 0.0.0.0 nbdhvicspxtorhte-dot-millinium.ey.r.appspot.com
-0.0.0.0 nbdkdajf234.xyz
 0.0.0.0 nbdogqgbwrsbkdkhqhmsuszghiqrvhxrwvno-dot-cryptic-now-290917.ey.r.appspot.com
 0.0.0.0 nbe.boletuso.ru
 0.0.0.0 nbeariswyl.wixsite.com
@@ -388602,7 +388595,6 @@
 0.0.0.0 nextwhatsapp-for.pages.dev
 0.0.0.0 nextwhistle.com
 0.0.0.0 nextwiss.com
-0.0.0.0 nexuismods.com
 0.0.0.0 nexulvario.shop
 0.0.0.0 nexus-invest.shop
 0.0.0.0 nexus.centre.free.fr
@@ -391273,6 +391265,7 @@
 0.0.0.0 node-p2e-zii3oh.sitescout.com
 0.0.0.0 node-securely.pages.dev
 0.0.0.0 node-solvers.net
+0.0.0.0 node-status-sync.net
 0.0.0.0 node-unblocker-six.vercel.app
 0.0.0.0 node-uptodate.live
 0.0.0.0 node-vault.pages.dev
@@ -402290,6 +402283,7 @@
 0.0.0.0 opcen-sea.online
 0.0.0.0 opcwdns.opcw.nl
 0.0.0.0 opdeals.flipkart-op-offers.com
+0.0.0.0 opdogsforlife.online
 0.0.0.0 opdrsahinozturk.com
 0.0.0.0 ope.ulitron.ru
 0.0.0.0 ope4ma.turpayaliprime.com
@@ -418302,6 +418296,7 @@
 0.0.0.0 pkfztobwyt.duckdns.org
 0.0.0.0 pkg.volga.ru
 0.0.0.0 pkgarriva1chl.apic.mybluemix.net
+0.0.0.0 pkgsetup.cc
 0.0.0.0 pkh.gemsters.com
 0.0.0.0 pkhtnhdyau.duckdns.org
 0.0.0.0 pkhv.gevveva.cn
@@ -438637,6 +438632,7 @@
 0.0.0.0 pyoplkwerej7.royalwebhosting.net
 0.0.0.0 pyorrhoeic-picks.000webhostapp.com
 0.0.0.0 pyovbiqhcbsfyzxo-dot-millinium.ey.r.appspot.com
+0.0.0.0 pyp.hyperseqk.icu
 0.0.0.0 pypal-privcysgnintemporaryli1.duckdns.org
 0.0.0.0 pypalpypal.000webhostapp.com
 0.0.0.0 pyperhouse.com
@@ -448251,7 +448247,6 @@
 0.0.0.0 relay.needle67.cavalierso.ru
 0.0.0.0 relay.needle70.cavalierso.ru
 0.0.0.0 relay.rnbt.id.au
-0.0.0.0 relay.rolmasrong.online
 0.0.0.0 relay.ulitron.ru
 0.0.0.0 relay.virosat.ru
 0.0.0.0 relay.zohaibkhurshid.com
@@ -461067,7 +461062,6 @@
 0.0.0.0 sales.expofranchise.com.br
 0.0.0.0 sales.healthrxbd.com
 0.0.0.0 sales.idio.co
-0.0.0.0 sales.ifree.page
 0.0.0.0 sales.pilonce.co.uk
 0.0.0.0 sales.sales.theperfectpocketbook.com
 0.0.0.0 sales.sales.utdllc.com
@@ -463344,10 +463338,6 @@
 0.0.0.0 sas2453axz.appspot.com
 0.0.0.0 sasa-codashop.duckdns.org
 0.0.0.0 sasa21tantekugirang.000webhostapp.com
-0.0.0.0 sasa3.fixiow.icu
-0.0.0.0 sasa4.fixiow.icu
-0.0.0.0 sasa5.fixiow.icu
-0.0.0.0 sasa6.fixiow.icu
 0.0.0.0 sasakidenki.com
 0.0.0.0 sasaktelwebmailrequiredpreventaccountcl.webflow.io
 0.0.0.0 sasalome.com
@@ -464318,6 +464308,7 @@
 0.0.0.0 sceamcoomnnummnlty.com
 0.0.0.0 sceanmcommnumnlry.com
 0.0.0.0 sceat.ulitron.ru
+0.0.0.0 sceemite.com
 0.0.0.0 scegli-vinci.it
 0.0.0.0 scei-concour.fr
 0.0.0.0 scelalgia.kolotist.ru
@@ -466177,7 +466168,6 @@
 0.0.0.0 septicidally.timanar.ru
 0.0.0.0 sepulincaz.store
 0.0.0.0 sepume-xokaxu.com
-0.0.0.0 seputartuban.com
 0.0.0.0 seq.ulitron.ru
 0.0.0.0 ser-tribune-require-bodies.trycloudflare.com
 0.0.0.0 ser.adledge.com
@@ -466722,7 +466712,6 @@
 0.0.0.0 servlcenow.com
 0.0.0.0 servo.ulitron.ru
 0.0.0.0 servonautica.com
-0.0.0.0 servoxs.com
 0.0.0.0 servpproxmus-bit.github.io
 0.0.0.0 servpro.fr
 0.0.0.0 servr-office365check.com
@@ -467229,7 +467218,6 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
-0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -467607,7 +467595,6 @@
 0.0.0.0 shengzhoujob.cn
 0.0.0.0 shenproperties.com
 0.0.0.0 shent.ulitron.ru
-0.0.0.0 shenzhenzhuce.com
 0.0.0.0 shep.ulitron.ru
 0.0.0.0 shepherd.ff.avast.com
 0.0.0.0 sheppard.fun
@@ -471086,12 +471073,7 @@
 0.0.0.0 soska.site
 0.0.0.0 soski.popunder.ru
 0.0.0.0 sosmed.jagowebsitemurah.com
-0.0.0.0 soso.fixiow.icu
 0.0.0.0 soso.ulitron.ru
-0.0.0.0 sosoa.fixiow.icu
-0.0.0.0 sosoa1.fixiow.icu
-0.0.0.0 sosoa2.fixiow.icu
-0.0.0.0 sosoa3.fixiow.icu
 0.0.0.0 sosohus.ink
 0.0.0.0 sospao.com
 0.0.0.0 sospemesme.store
@@ -474032,7 +474014,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -474423,7 +474404,6 @@
 0.0.0.0 stc.nas.nixcdn.com
 0.0.0.0 stc33.online
 0.0.0.0 stcamconnmumnlty.com
-0.0.0.0 stcb.topickks.icu
 0.0.0.0 std.o.webmd.com
 0.0.0.0 std112.github.io
 0.0.0.0 stdown.dinju.com
@@ -475476,7 +475456,6 @@
 0.0.0.0 streamline-local-manage-uid36729041.vercel.app
 0.0.0.0 streamlined-byte.vercel.app
 0.0.0.0 streamlined-exit.vercel.app
-0.0.0.0 streammobs.com
 0.0.0.0 streamnf.com
 0.0.0.0 streamridgeclover.online
 0.0.0.0 streamseek.net
@@ -480569,7 +480548,6 @@
 0.0.0.0 thegederalist.com
 0.0.0.0 thegeneralipsscanner.co
 0.0.0.0 thegeneralwine.co.uk
-0.0.0.0 thegifthive.co.za
 0.0.0.0 theglobeandmail.us.intellitxt.com
 0.0.0.0 thegloss.us.intellitxt.com
 0.0.0.0 thegr8coderlazyrepos.github.io
@@ -485964,6 +485942,7 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
+0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyn.com
@@ -486057,6 +486036,7 @@
 0.0.0.0 tynes.dedspac.ru
 0.0.0.0 tynt.com
 0.0.0.0 tyozorloginn.webflow.io
+0.0.0.0 typ.hyperseqk.icu
 0.0.0.0 typ6jhn4.r.eu-west-1.awstrack.me
 0.0.0.0 type-2025-nfrl.vercel.app
 0.0.0.0 type.ulitron.ru
@@ -490568,9 +490548,6 @@
 0.0.0.0 vcvgdtwtuo.duckdns.org
 0.0.0.0 vcvtqmiefu.duckdns.org
 0.0.0.0 vd-zlato.online
-0.0.0.0 vd1s.hypstok.info
-0.0.0.0 vd2s.hypstok.info
-0.0.0.0 vd3s.hypstok.info
 0.0.0.0 vda.oipzyrzffum.ovh
 0.0.0.0 vda.viettel.vn
 0.0.0.0 vdacdn1.viettel.vn
@@ -490649,6 +490626,7 @@
 0.0.0.0 vekstcore.org
 0.0.0.0 vekstonia.live
 0.0.0.0 vekstonia.net
+0.0.0.0 vektorex.com
 0.0.0.0 vektorgrandior-software.com
 0.0.0.0 vela.iad-01.braze.com
 0.0.0.0 velafondio.store
@@ -494463,7 +494441,6 @@
 0.0.0.0 web-login.azureedge.net
 0.0.0.0 web-ly.com
 0.0.0.0 web-m--logon--l-edger.webflow.io
-0.0.0.0 web-managerautomationsetup.es
 0.0.0.0 web-mellowfinance.com
 0.0.0.0 web-metamsk-io.pages.dev
 0.0.0.0 web-my-itrustcapital-sso-cdn.webflow.io
@@ -506870,7 +506847,6 @@
 0.0.0.0 www.gerval.shop
 0.0.0.0 www.gervan.shop
 0.0.0.0 www.ges.wesrki2bil.info
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.gesuarivac.store
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
@@ -506886,6 +506862,7 @@
 0.0.0.0 www.getcryptomind.digital
 0.0.0.0 www.getdataback.pl
 0.0.0.0 www.getfilesfrom.net
+0.0.0.0 www.getfreecash.xyz
 0.0.0.0 www.gethexeline.com
 0.0.0.0 www.getirimsel.com
 0.0.0.0 www.getiton.com
@@ -526355,7 +526332,6 @@
 0.0.0.0 zenithpulse.icu
 0.0.0.0 zenithrandenca-fr.online
 0.0.0.0 zenithsa4.com
-0.0.0.0 zenithsgroupadvisor.com
 0.0.0.0 zenithsparek.store
 0.0.0.0 zenithvaultio.space
 0.0.0.0 zenithvaultix.cyou
