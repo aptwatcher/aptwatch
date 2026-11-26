@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-26 06:06:21
-# Entries: 527088
+# Generated: 2026-11-26 06:32:49
+# Entries: 527089
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -149520,7 +149520,6 @@
 0.0.0.0 bmcxsellodemeleriniz.com
 0.0.0.0 bmd3508.wixsite.com
 0.0.0.0 bmdacservices.com
-0.0.0.0 bmdcompany.com
 0.0.0.0 bmdeiagrfuymwwtx-dot-millinium.ey.r.appspot.com
 0.0.0.0 bmdkilgjvpdovyjt-dot-millinium.ey.r.appspot.com
 0.0.0.0 bmdtwetyhxclghjjnpruagasaq-dot-gleowayel400503.uc.r.appspot.com
@@ -287496,6 +287495,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -352163,7 +352163,6 @@
 0.0.0.0 maluenda.org
 0.0.0.0 malunkii.peyzazh-zmahannya.mom
 0.0.0.0 maluonlinedig.com
-0.0.0.0 malupieng.com.br
 0.0.0.0 malva.virosat.ru
 0.0.0.0 malvealbor.store
 0.0.0.0 malvim.net
@@ -365344,6 +365343,7 @@
 0.0.0.0 metrics.getrockerbox.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.gnc.com
+0.0.0.0 metrics.gocloudmaps.com
 0.0.0.0 metrics.govexec.com
 0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.harley-davidson.com
@@ -398437,6 +398437,7 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
+0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -444633,7 +444634,6 @@
 0.0.0.0 rbxfree.com
 0.0.0.0 rbxfun.netlify.app
 0.0.0.0 rbxgft1m.pages.dev
-0.0.0.0 rbxhub.pro
 0.0.0.0 rbxmd1.netlify.app
 0.0.0.0 rbxmodapk.com
 0.0.0.0 rbxmultiple.to
@@ -467353,7 +467353,6 @@
 0.0.0.0 shammuu.shop
 0.0.0.0 shamsalhuda.ae
 0.0.0.0 shandammus.store
-0.0.0.0 shandysip.com
 0.0.0.0 shangai-art.github.io
 0.0.0.0 shanghai.caq.com.au
 0.0.0.0 shanglaw.com
@@ -474020,6 +474019,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -477074,6 +477074,7 @@
 0.0.0.0 swiftdryblowdryers.org
 0.0.0.0 swiftedgefinvexor-system.com
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftonyx16.com
@@ -485949,7 +485950,6 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
-0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyn.com
@@ -506855,6 +506855,7 @@
 0.0.0.0 www.gerval.shop
 0.0.0.0 www.gervan.shop
 0.0.0.0 www.ges.wesrki2bil.info
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.gesuarivac.store
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
