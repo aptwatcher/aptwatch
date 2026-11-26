@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-26 12:33:30
+# Generated: 2026-11-26 18:33:25
 # Entries: 527089
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -24704,7 +24704,6 @@
 0.0.0.0 4ebd0208-8328-5d69-8c44-ec50939c0967.slaxy.net
 0.0.0.0 4eblzrt1rhql0bsprc.53244ds.xyz
 0.0.0.0 4ecd2.z6.web.core.windows.net
-0.0.0.0 4eclient.com
 0.0.0.0 4ed0c23b.huaxinsbm.com
 0.0.0.0 4ed51712.cnhls.com.cn
 0.0.0.0 4ed760a1.adorn-insight.co.uk
@@ -138189,6 +138188,7 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
+0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -169189,6 +169189,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -205723,6 +205724,7 @@
 0.0.0.0 deyug.tsffe.xyz
 0.0.0.0 deyyu.ru
 0.0.0.0 dez-ustanovki.ru
+0.0.0.0 dezcom.com
 0.0.0.0 dezconnectpost.com
 0.0.0.0 dezembro-magazineluiza.com
 0.0.0.0 dezembrobarato.com
@@ -210233,7 +210235,6 @@
 0.0.0.0 dmobrirwflwkhzdy-dot-millinium.ey.r.appspot.com
 0.0.0.0 dmocoz.com
 0.0.0.0 dmokvcilmnxhkokrspctmmzbfp-dot-gle39404049.rj.r.appspot.com
-0.0.0.0 dmoneii.com
 0.0.0.0 dmotewlccpss.tk
 0.0.0.0 dmow.advslisboa.com.br
 0.0.0.0 dmp-log.yomedia.vn
@@ -212895,6 +212896,7 @@
 0.0.0.0 download.kaobeitu.com
 0.0.0.0 download.logins.online
 0.0.0.0 download.mclick.mobi
+0.0.0.0 download.pdf00.cn
 0.0.0.0 download.pdf00.com
 0.0.0.0 download.realtimegaming.com
 0.0.0.0 download.sada-group.com
@@ -213779,7 +213781,6 @@
 0.0.0.0 dreamtooz.ru
 0.0.0.0 dreamvalli.com
 0.0.0.0 dreamvention.myshopunity.com
-0.0.0.0 dreamwatchevent.com
 0.0.0.0 dreamweavesolutions.com
 0.0.0.0 dreamx.duckdns.org
 0.0.0.0 dreamxmaterials.com
@@ -230520,6 +230521,7 @@
 0.0.0.0 exmgcyyjos.duckdns.org
 0.0.0.0 exmykjb.tk
 0.0.0.0 exnessbroker.review
+0.0.0.0 exo-api.tf
 0.0.0.0 exo-confirm.com
 0.0.0.0 exo-fwb-at.40net.org
 0.0.0.0 exo-red.com
@@ -255316,7 +255318,6 @@
 0.0.0.0 gaemiinilogiz.godaddysites.com
 0.0.0.0 gaeminillogini.webflow.io
 0.0.0.0 gaeminlogii.godaddysites.com
-0.0.0.0 gaenterprises.in
 0.0.0.0 gaer.pages.dev
 0.0.0.0 gaf-company.clean.to
 0.0.0.0 gafaaola.duckdns.org
@@ -307545,6 +307546,7 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
+0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -329366,7 +329368,6 @@
 0.0.0.0 leandrohenriq.github.io
 0.0.0.0 leandroserain.com.br
 0.0.0.0 leanldedyjerlogh-dot-millinium.ey.r.appspot.com
-0.0.0.0 leanmaestro.com
 0.0.0.0 leanmanagement.ro
 0.0.0.0 leanmobi.fusetracking.com
 0.0.0.0 leannethdam.buzz
@@ -336856,7 +336857,6 @@
 0.0.0.0 loave.ulitron.ru
 0.0.0.0 loawnd3-8437-buertyd.pages.dev
 0.0.0.0 loawthangkham.nongkhai.police.go.th
-0.0.0.0 loayardes.cc
 0.0.0.0 lob.boletuso.ru
 0.0.0.0 lob.ulitron.ru
 0.0.0.0 loba-cambodia.org
@@ -356156,7 +356156,6 @@
 0.0.0.0 mc-mc.hansjonassencopywriting.com
 0.0.0.0 mc.4fleux.blog
 0.0.0.0 mc.emtaservices.com
-0.0.0.0 mc.heyiwei.net
 0.0.0.0 mc.knowledgeart.org
 0.0.0.0 mc.speakol.com
 0.0.0.0 mc.webvisor.org
@@ -404033,6 +404032,7 @@
 0.0.0.0 orbitnotemodern.bond
 0.0.0.0 orbitron.finance
 0.0.0.0 orbittourism.in
+0.0.0.0 orbitvps.shop
 0.0.0.0 orbitwaliv.pages.dev
 0.0.0.0 orbixa.icu
 0.0.0.0 orbiyz.com
@@ -421617,6 +421617,7 @@
 0.0.0.0 ponyatov20.temp.swtest.ru
 0.0.0.0 ponycoin.pro
 0.0.0.0 ponys.online
+0.0.0.0 ponyvps.online
 0.0.0.0 poo.bortogat.ru
 0.0.0.0 poo.ulitron.ru
 0.0.0.0 pooa.amaniwa.ru
@@ -450081,6 +450082,7 @@
 0.0.0.0 reshma-17.github.io
 0.0.0.0 reshmi557.github.io
 0.0.0.0 reshotelinaprovies-visitorconferma.com
+0.0.0.0 reshow35.com
 0.0.0.0 reshu22.github.io
 0.0.0.0 reside-etudes1.pilote-message.com
 0.0.0.0 residence-la-medina.com
@@ -471339,6 +471341,7 @@
 0.0.0.0 spaces.ero-advertising.com
 0.0.0.0 spaces.slimspots.com
 0.0.0.0 spacesolved.aayom.com
+0.0.0.0 spaceware.to
 0.0.0.0 spacexai-ai.com
 0.0.0.0 spacexlaunch.pages.dev
 0.0.0.0 spacmn0.weebly.com
@@ -476639,7 +476642,6 @@
 0.0.0.0 support.agpeypedia3.my.id
 0.0.0.0 support.autopay-update.telstra.sellergyllc.com
 0.0.0.0 support.business.privacy-center.help
-0.0.0.0 support.clz.kr
 0.0.0.0 support.decursio.online
 0.0.0.0 support.flodman.ru
 0.0.0.0 support.gta-link.com
@@ -485676,6 +485678,7 @@
 0.0.0.0 tuportalpromocional.com
 0.0.0.0 tups.dedspac.ru
 0.0.0.0 tups.ulitron.ru
+0.0.0.0 tupsvps.site
 0.0.0.0 tupuwee.lovable.app
 0.0.0.0 tuqig.world
 0.0.0.0 turamas.ru
@@ -487569,6 +487572,7 @@
 0.0.0.0 updatttemail0com1.framer.website
 0.0.0.0 updmanager.com
 0.0.0.0 updo.nl
+0.0.0.0 updpkg.net
 0.0.0.0 updpune.shop
 0.0.0.0 updry.virosat.ru
 0.0.0.0 updt-post-akhnouch.codeanyapp.com
@@ -490632,7 +490636,6 @@
 0.0.0.0 vekstcore.org
 0.0.0.0 vekstonia.live
 0.0.0.0 vekstonia.net
-0.0.0.0 vektorex.com
 0.0.0.0 vektorgrandior-software.com
 0.0.0.0 vela.iad-01.braze.com
 0.0.0.0 velafondio.store
@@ -506854,7 +506857,6 @@
 0.0.0.0 www.gerval.shop
 0.0.0.0 www.gervan.shop
 0.0.0.0 www.ges.wesrki2bil.info
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.gesuarivac.store
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
@@ -522197,7 +522199,6 @@
 0.0.0.0 www.webrobi.pl
 0.0.0.0 www.webservis.gen.tr
 0.0.0.0 www.website-hit-counters.com
-0.0.0.0 www.website.mypetapp.co.za
 0.0.0.0 www.websitealive3.com
 0.0.0.0 www.websitecompany.org
 0.0.0.0 www.websitehome.co.uk
@@ -524103,7 +524104,6 @@
 0.0.0.0 xenodochial-liskov.34-125-197-109.plesk.page
 0.0.0.0 xenoforge.digital
 0.0.0.0 xenon.studio
-0.0.0.0 xenonclient.com
 0.0.0.0 xenono.ru
 0.0.0.0 xenophobically.kotorapsa.ru
 0.0.0.0 xenophorm.ru
