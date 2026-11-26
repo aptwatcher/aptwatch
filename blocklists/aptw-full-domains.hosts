@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-26 06:32:49
+# Generated: 2026-11-26 12:33:30
 # Entries: 527089
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -138189,7 +138189,6 @@
 0.0.0.0 beak.amaniwa.ru
 0.0.0.0 beak.bortogat.ru
 0.0.0.0 beak.dedspac.ru
-0.0.0.0 beak.in
 0.0.0.0 beaker.virosat.ru
 0.0.0.0 beakerman.matsuro.ru
 0.0.0.0 beaks.ulitron.ru
@@ -149520,6 +149519,7 @@
 0.0.0.0 bmcxsellodemeleriniz.com
 0.0.0.0 bmd3508.wixsite.com
 0.0.0.0 bmdacservices.com
+0.0.0.0 bmdcompany.com
 0.0.0.0 bmdeiagrfuymwwtx-dot-millinium.ey.r.appspot.com
 0.0.0.0 bmdkilgjvpdovyjt-dot-millinium.ey.r.appspot.com
 0.0.0.0 bmdtwetyhxclghjjnpruagasaq-dot-gleowayel400503.uc.r.appspot.com
@@ -157109,6 +157109,7 @@
 0.0.0.0 bselomyxzc.duckdns.org
 0.0.0.0 bsemep.com
 0.0.0.0 bsentrep.qsu.edu.ph
+0.0.0.0 bserail.com
 0.0.0.0 bservd.hondalapuente.com
 0.0.0.0 bsesol.com
 0.0.0.0 bseuxpyfgbxygclw-dot-millinium.ey.r.appspot.com
@@ -169188,7 +169189,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -205723,7 +205723,6 @@
 0.0.0.0 deyug.tsffe.xyz
 0.0.0.0 deyyu.ru
 0.0.0.0 dez-ustanovki.ru
-0.0.0.0 dezcom.com
 0.0.0.0 dezconnectpost.com
 0.0.0.0 dezembro-magazineluiza.com
 0.0.0.0 dezembrobarato.com
@@ -212896,7 +212895,6 @@
 0.0.0.0 download.kaobeitu.com
 0.0.0.0 download.logins.online
 0.0.0.0 download.mclick.mobi
-0.0.0.0 download.pdf00.cn
 0.0.0.0 download.pdf00.com
 0.0.0.0 download.realtimegaming.com
 0.0.0.0 download.sada-group.com
@@ -230522,7 +230520,6 @@
 0.0.0.0 exmgcyyjos.duckdns.org
 0.0.0.0 exmykjb.tk
 0.0.0.0 exnessbroker.review
-0.0.0.0 exo-api.tf
 0.0.0.0 exo-confirm.com
 0.0.0.0 exo-fwb-at.40net.org
 0.0.0.0 exo-red.com
@@ -230903,7 +230900,6 @@
 0.0.0.0 explorepro.org
 0.0.0.0 explorer.btgofficial.org
 0.0.0.0 explorer.production.qldvvmc.com.au
-0.0.0.0 explorer.vg
 0.0.0.0 explorersholidays.com
 0.0.0.0 explorertechnembe.cu.ma
 0.0.0.0 explorethenationnowbb.pages.dev
@@ -286604,6 +286600,7 @@
 0.0.0.0 hp-postoffice.com
 0.0.0.0 hp.danvilleva.gov.letianji.com
 0.0.0.0 hp.do5.net
+0.0.0.0 hp.duxlip.icu
 0.0.0.0 hp.gcafe.vn
 0.0.0.0 hp.grouponesir.com.letianji.com
 0.0.0.0 hp.hubs.vn
@@ -300695,6 +300692,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -307547,7 +307545,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -322576,6 +322573,7 @@
 0.0.0.0 koreanavertttsetttttttttttttt088648.netlify.app
 0.0.0.0 koreanclub.com
 0.0.0.0 koreandrama.com
+0.0.0.0 koreanuniversal.com
 0.0.0.0 koreashoptiktok.icu
 0.0.0.0 koreasoulcek.vercel.app
 0.0.0.0 korec.ulitron.ru
@@ -329368,6 +329366,7 @@
 0.0.0.0 leandrohenriq.github.io
 0.0.0.0 leandroserain.com.br
 0.0.0.0 leanldedyjerlogh-dot-millinium.ey.r.appspot.com
+0.0.0.0 leanmaestro.com
 0.0.0.0 leanmanagement.ro
 0.0.0.0 leanmobi.fusetracking.com
 0.0.0.0 leannethdam.buzz
@@ -342324,7 +342323,6 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
-0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -352163,6 +352161,7 @@
 0.0.0.0 maluenda.org
 0.0.0.0 malunkii.peyzazh-zmahannya.mom
 0.0.0.0 maluonlinedig.com
+0.0.0.0 malupieng.com.br
 0.0.0.0 malva.virosat.ru
 0.0.0.0 malvealbor.store
 0.0.0.0 malvim.net
@@ -398437,7 +398436,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -398514,6 +398512,7 @@
 0.0.0.0 ojahdur-wellsfarg0verifi.vercel.app
 0.0.0.0 ojandcigs.com
 0.0.0.0 ojandmarc.com
+0.0.0.0 ojang.pe.kr
 0.0.0.0 ojasm777.github.io
 0.0.0.0 ojassinh.github.io
 0.0.0.0 ojavnlipnzxwzaix-dot-millinium.ey.r.appspot.com
@@ -450082,7 +450081,6 @@
 0.0.0.0 reshma-17.github.io
 0.0.0.0 reshmi557.github.io
 0.0.0.0 reshotelinaprovies-visitorconferma.com
-0.0.0.0 reshow35.com
 0.0.0.0 reshu22.github.io
 0.0.0.0 reside-etudes1.pilote-message.com
 0.0.0.0 residence-la-medina.com
@@ -458026,7 +458024,6 @@
 0.0.0.0 runelie.net
 0.0.0.0 runelight.net
 0.0.0.0 runelite.cc
-0.0.0.0 runelite.ch
 0.0.0.0 runelitepluginhub.net
 0.0.0.0 runescape-doublexps.com
 0.0.0.0 runescape-game.me
@@ -467224,6 +467221,7 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
+0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -485950,6 +485948,7 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
+0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyn.com
@@ -507853,7 +507852,6 @@
 0.0.0.0 www.hospitals.egyptyo.com
 0.0.0.0 www.host-it.co.uk
 0.0.0.0 www.hostedfiles.net
-0.0.0.0 www.hostingcloud.science
 0.0.0.0 www.hostingfreelife.com
 0.0.0.0 www.hostujmy.pl
 0.0.0.0 www.hot-bot.com
@@ -512474,6 +512472,7 @@
 0.0.0.0 www.oiudsfjutr.eu.cc
 0.0.0.0 www.oix.com
 0.0.0.0 www.oj32950pjx27e.music2024.shop
+0.0.0.0 www.ojang.pe.kr
 0.0.0.0 www.ojolink.fr
 0.0.0.0 www.ojrq.net
 0.0.0.0 www.oju90d.filmmatchmakers.com
@@ -516499,6 +516498,7 @@
 0.0.0.0 www.rtvmax.pl
 0.0.0.0 www.rtyshop.top
 0.0.0.0 www.ru0mh0.turpayaliprime.com
+0.0.0.0 www.ru4w1dq.com
 0.0.0.0 www.rubiks.ca
 0.0.0.0 www.rubris.org
 0.0.0.0 www.ruby-puffer.shop
