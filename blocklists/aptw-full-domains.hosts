@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-26 18:33:25
-# Entries: 527089
+# Generated: 2026-11-27 00:32:59
+# Entries: 527093
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -5438,6 +5438,7 @@
 0.0.0.0 1237893.xyz
 0.0.0.0 1238447950.retarus.ru
 0.0.0.0 123868628.corolain.ru
+0.0.0.0 123872.xyz
 0.0.0.0 1239638821.corolain.ru
 0.0.0.0 123abc456cde.blogspot.com
 0.0.0.0 123any.com
@@ -8516,7 +8517,6 @@
 0.0.0.0 162756725.corolain.ru
 0.0.0.0 162783-dot-n-e-w-me-ss-age-po-rt-al.wl.r.appspot.com
 0.0.0.0 1627fb9a-e55d-4c05-8f0b-46437dfa29ca-00-38bqtu28axwnm.picard.replit.dev
-0.0.0.0 1628394.xyz
 0.0.0.0 162840-dot-n-e-w-me-ss-age-po-rt-al.wl.r.appspot.com
 0.0.0.0 1628768943.corolain.ru
 0.0.0.0 1629729471.corolain.ru
@@ -52902,7 +52902,6 @@
 0.0.0.0 activatiosupportonline-b667a8.ingress-bonde.ewp.live
 0.0.0.0 activatirornvernernertuertyhuiee-bc807a.ingress-baronn.ewp.live
 0.0.0.0 activatkund-amazcenter.homeip.net
-0.0.0.0 activator-tunnel.cc
 0.0.0.0 activatuclavedinamica.verificarbanca.repl.co
 0.0.0.0 activatuionseurpasserneheiutndkc-bb09ca.ingress-bonde.ewp.live
 0.0.0.0 activatupindeseguridadmsn.ezzeblog.com
@@ -66209,7 +66208,6 @@
 0.0.0.0 airbeam.gforceengcom.cloud
 0.0.0.0 airbenders.nl
 0.0.0.0 airbit.icu
-0.0.0.0 airbit.online
 0.0.0.0 airbitns-droping.top
 0.0.0.0 airbn-b0762.com
 0.0.0.0 airbn38920.temp.swtest.ru
@@ -79572,6 +79570,7 @@
 0.0.0.0 amcalterraglobalprod.112.2o7.net
 0.0.0.0 amcanindia.in
 0.0.0.0 amcba7.github.io
+0.0.0.0 amcchina.com
 0.0.0.0 amcdigitalpro.com
 0.0.0.0 amcdn.vn
 0.0.0.0 amcea.org
@@ -98096,6 +98095,7 @@
 0.0.0.0 arcipaccat.store
 0.0.0.0 arcite.dedspac.ru
 0.0.0.0 arcked.matsuro.ru
+0.0.0.0 arclabio.com
 0.0.0.0 arclightmetals.org.au
 0.0.0.0 arclowcty.org
 0.0.0.0 arcmanagement.org
@@ -136620,6 +136620,7 @@
 0.0.0.0 bbb-4oj.pages.dev
 0.0.0.0 bbb.b4a.app
 0.0.0.0 bbb.gomailgo123.workers.dev
+0.0.0.0 bbb.gooddowning.com
 0.0.0.0 bbb.xse3frtgz.cloudns.biz
 0.0.0.0 bbb.yqg4poul.dns-dynamic.net
 0.0.0.0 bbb.ytrgfd7.cloudns.biz
@@ -173464,6 +173465,7 @@
 0.0.0.0 checkings-achwc.run-us-west2.goorm.io
 0.0.0.0 checkingus.duckdns.org
 0.0.0.0 checkingyandex.ddns.net
+0.0.0.0 checkinidadd.com
 0.0.0.0 checkinrooms41.world
 0.0.0.0 checkintests.azurewebsites.net
 0.0.0.0 checkit.com.au
@@ -184788,6 +184790,7 @@
 0.0.0.0 communication-act.ddns.net
 0.0.0.0 communication-diary-thwart.vercel.app
 0.0.0.0 communication-ergo-additional-their.vercel.app
+0.0.0.0 communication-hub.vg
 0.0.0.0 communication-journal-stop.vercel.app
 0.0.0.0 communication-register-check.vercel.app
 0.0.0.0 communicationcenrale-ba5b01.ingress-daribow.ewp.live
@@ -209173,6 +209176,7 @@
 0.0.0.0 dissosopra.store
 0.0.0.0 dissushawn.store
 0.0.0.0 dist-78958.web.app
+0.0.0.0 dist-cdn.net
 0.0.0.0 dist-ebbbd.web.app
 0.0.0.0 dist.belnk.com
 0.0.0.0 dist.bpc.ad-stir.com
@@ -219726,6 +219730,7 @@
 0.0.0.0 edge.simplereach.com
 0.0.0.0 edge.uniconsent.com
 0.0.0.0 edge.yieldify.com
+0.0.0.0 edge2.speedstest.org
 0.0.0.0 edgecart.in
 0.0.0.0 edgecast-vod.yimg.com
 0.0.0.0 edged.dedspac.ru
@@ -244636,7 +244641,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -247935,7 +247939,6 @@
 0.0.0.0 floridavacationrentalsbyowners.com
 0.0.0.0 florin.nicusor.ivan.cardiopedbrasil.com.br
 0.0.0.0 florincombe-uk.com
-0.0.0.0 florinn.dev
 0.0.0.0 floripatun.tuneis.com.br
 0.0.0.0 florismatra.shop
 0.0.0.0 florist-sakura.com
@@ -252217,7 +252220,6 @@
 0.0.0.0 friendsoflifechoices.org
 0.0.0.0 friendsofmelvinchigh.com
 0.0.0.0 friendsofryetownhall.org
-0.0.0.0 friendsoftorreabbey.com
 0.0.0.0 friendssteakhouse.com
 0.0.0.0 friendtest.us.intellitxt.com
 0.0.0.0 friendvote.xyz
@@ -259345,7 +259347,6 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -264557,6 +264558,7 @@
 0.0.0.0 gooddecisionauto.co.za
 0.0.0.0 gooddeeddesigns.com
 0.0.0.0 gooddoctor.me
+0.0.0.0 gooddowning.com
 0.0.0.0 goode.dedspac.ru
 0.0.0.0 goode.ulitron.ru
 0.0.0.0 goode.virosat.ru
@@ -273958,7 +273960,6 @@
 0.0.0.0 gyozz4nfwtbt.desarrollotuidea.cl
 0.0.0.0 gyp.boletuso.ru
 0.0.0.0 gyp.bortogat.ru
-0.0.0.0 gyp.hyperseqk.icu
 0.0.0.0 gyp.ulitron.ru
 0.0.0.0 gypaetus.ru
 0.0.0.0 gypbfjowkt.duckdns.org
@@ -280108,6 +280109,7 @@
 0.0.0.0 help.verifygreentick.com
 0.0.0.0 help.wenlortemon.gq
 0.0.0.0 help.whkaidg.xyz
+0.0.0.0 help.windows64.men
 0.0.0.0 help.workerhomecompanys08pageme.dev
 0.0.0.0 help0ppl-nfbosdl9rr.live-website.com
 0.0.0.0 help1pagesserviceac.co.vu
@@ -286679,6 +286681,7 @@
 0.0.0.0 hpoint-info.borrello.ch
 0.0.0.0 hposjgpwociuozbo-dot-millinium.ey.r.appspot.com
 0.0.0.0 hpouroseb876p.freewb.hu
+0.0.0.0 hpp.duxlip.icu
 0.0.0.0 hppajapn.link
 0.0.0.0 hppdsskspt.weebly.com
 0.0.0.0 hpphhpph.com
@@ -289469,7 +289472,6 @@
 0.0.0.0 hyorn-hiiff-cyclantz.yolasite.com
 0.0.0.0 hyoscyamus.ru
 0.0.0.0 hyp.dedspac.ru
-0.0.0.0 hyp.hyperseqk.icu
 0.0.0.0 hypapa.com
 0.0.0.0 hypatia.sa.com
 0.0.0.0 hype-academy-apply.ml
@@ -290041,6 +290043,7 @@
 0.0.0.0 i3lsefxny0-463720951.lucidasearch.com
 0.0.0.0 i3zi02596k.1052.gencmert.com
 0.0.0.0 i3zncomwhb.6321.kasgizlivadi.com
+0.0.0.0 i4-mi.cn
 0.0.0.0 i4.ictorganisers.com
 0.0.0.0 i4.vaishnaviinterior.com
 0.0.0.0 i40srz.egirisimuniversitesi.com
@@ -293125,7 +293128,6 @@
 0.0.0.0 ihzklhc.cn
 0.0.0.0 ihzwkzqnddkedijr-dot-millinium.ey.r.appspot.com
 0.0.0.0 ihzwufaqxylgreqe-dot-millinium.ey.r.appspot.com
-0.0.0.0 ii-sen.ir
 0.0.0.0 ii.bhe4e.ourgreatcalling.com
 0.0.0.0 ii.ulitron.ru
 0.0.0.0 ii1c70.webwave.dev
@@ -313422,7 +313424,6 @@
 0.0.0.0 jonathan.hoffman.expofranchise.com.br
 0.0.0.0 jonathan.rosen.expofranchise.com.br
 0.0.0.0 jonathanelp1.github.io
-0.0.0.0 jonathanelsteinlaw.com
 0.0.0.0 jonathanrobson.me
 0.0.0.0 jonathans999.wixsite.com
 0.0.0.0 jonathansibley.net
@@ -319345,7 +319346,6 @@
 0.0.0.0 kg-news.org
 0.0.0.0 kg0t98.socialbooster.pl
 0.0.0.0 kg2zlw8zr5g4qpap.workflow.jimpike.com.au
-0.0.0.0 kg8wvmar.stevenheyman.com
 0.0.0.0 kga9szxosa.appspot.com
 0.0.0.0 kgakizxozcx.us-south.cf.appdomain.cloud
 0.0.0.0 kgame.anyuzhe.com
@@ -320753,7 +320753,6 @@
 0.0.0.0 kk8899.csb.app
 0.0.0.0 kkachi.co.kr
 0.0.0.0 kkakrkwkeen.azurewebsites.net
-0.0.0.0 kkam.download
 0.0.0.0 kkaofemi.com
 0.0.0.0 kkarskeanlog.azurewebsites.net
 0.0.0.0 kkbdsvhc69orni5.e8273.pro
@@ -336857,6 +336856,7 @@
 0.0.0.0 loave.ulitron.ru
 0.0.0.0 loawnd3-8437-buertyd.pages.dev
 0.0.0.0 loawthangkham.nongkhai.police.go.th
+0.0.0.0 loayardes.cc
 0.0.0.0 lob.boletuso.ru
 0.0.0.0 lob.ulitron.ru
 0.0.0.0 loba-cambodia.org
@@ -342323,6 +342323,7 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
+0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -352144,6 +352145,7 @@
 0.0.0.0 malt.ulitron.ru
 0.0.0.0 malta.news-pravda.com
 0.0.0.0 maltamask-wallata.gitbook.io
+0.0.0.0 maltavps.online
 0.0.0.0 malteklein.de
 0.0.0.0 maltese-breeder.com
 0.0.0.0 malthy.tk
@@ -409427,6 +409429,7 @@
 0.0.0.0 panelastramontinashow.com
 0.0.0.0 panelbit.ru.com
 0.0.0.0 panelbox.xyz
+0.0.0.0 panelc.iwillberich.cfd
 0.0.0.0 panelcgs.my.id
 0.0.0.0 panelchidet.com
 0.0.0.0 panelcov.com
@@ -440258,6 +440261,7 @@
 0.0.0.0 qqowceuamazon.xyz
 0.0.0.0 qqpsp.codesandbox.io
 0.0.0.0 qqq.ehvtevrf45.dns-dynamic.net
+0.0.0.0 qqq.gooddowning.com
 0.0.0.0 qqq.hotelhohe.top
 0.0.0.0 qqqbtsecure.bizconnect.live
 0.0.0.0 qqqbvvvisys.bond
@@ -458026,7 +458030,9 @@
 0.0.0.0 runelie.net
 0.0.0.0 runelight.net
 0.0.0.0 runelite.cc
+0.0.0.0 runelite.ch
 0.0.0.0 runelitepluginhub.net
+0.0.0.0 runeliteplus.net
 0.0.0.0 runescape-doublexps.com
 0.0.0.0 runescape-game.me
 0.0.0.0 runescape-members.com
@@ -467223,7 +467229,6 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
-0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -474020,7 +474025,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -477074,7 +477078,6 @@
 0.0.0.0 swiftdryblowdryers.org
 0.0.0.0 swiftedgefinvexor-system.com
 0.0.0.0 swiftfieldxc.vercel.app
-0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftonyx16.com
@@ -489726,6 +489729,7 @@
 0.0.0.0 utu.bortogat.ru
 0.0.0.0 utug.dedspac.ru
 0.0.0.0 utug.ulitron.ru
+0.0.0.0 uu.bais66993.com
 0.0.0.0 uu.domainforlite.com
 0.0.0.0 uu.edu.et
 0.0.0.0 uu1615.com
@@ -494949,7 +494953,6 @@
 0.0.0.0 website-web.github.io
 0.0.0.0 website.alacritas.ru
 0.0.0.0 website.goloser.ru
-0.0.0.0 website.mypetapp.co.za
 0.0.0.0 websitecompany.org
 0.0.0.0 websiteconnecting.com
 0.0.0.0 websitedanaid.website-bantuan.top
@@ -500869,7 +500872,6 @@
 0.0.0.0 www.bagnols.com.ar
 0.0.0.0 www.bagslap.com
 0.0.0.0 www.bagsonsale.online
-0.0.0.0 www.bagsrad.com
 0.0.0.0 www.bahartonu.com
 0.0.0.0 www.baiakstyle.com
 0.0.0.0 www.bailletance-ai.com
@@ -506857,6 +506859,7 @@
 0.0.0.0 www.gerval.shop
 0.0.0.0 www.gervan.shop
 0.0.0.0 www.ges.wesrki2bil.info
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.gesuarivac.store
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
@@ -520578,6 +520581,7 @@
 0.0.0.0 www.utbaau.fijorestaurante.com
 0.0.0.0 www.utgzlogin.com
 0.0.0.0 www.utopia-privacy.com
+0.0.0.0 www.utparral.edu.mx
 0.0.0.0 www.uuil3o.yl029.com
 0.0.0.0 www.uutlcl.studiomanuli.com
 0.0.0.0 www.uv7zri.yl029.com
