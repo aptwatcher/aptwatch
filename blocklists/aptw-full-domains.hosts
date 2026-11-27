@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-27 00:32:59
-# Entries: 527093
+# Generated: 2026-11-27 06:06:11
+# Entries: 527090
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -24554,7 +24554,6 @@
 0.0.0.0 4bf7ac307062.godaddysites.com
 0.0.0.0 4bf87f40.kjd4-li3yd.cn
 0.0.0.0 4bfc920a.huaxinsbm.com
-0.0.0.0 4bind3.cfd
 0.0.0.0 4biogas.de
 0.0.0.0 4bk0b52t.square.site
 0.0.0.0 4bkqtj.shop
@@ -86139,6 +86138,7 @@
 0.0.0.0 anubhavbhardwaj2004-sketch.github.io
 0.0.0.0 anubhutitewari.github.io
 0.0.0.0 anubis.matsuro.ru
+0.0.0.0 anubisclient.net
 0.0.0.0 anuevadelpa.com
 0.0.0.0 anugerahbestari.com
 0.0.0.0 anugerahmakmur.com
@@ -169190,7 +169190,6 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
-0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -184790,7 +184789,6 @@
 0.0.0.0 communication-act.ddns.net
 0.0.0.0 communication-diary-thwart.vercel.app
 0.0.0.0 communication-ergo-additional-their.vercel.app
-0.0.0.0 communication-hub.vg
 0.0.0.0 communication-journal-stop.vercel.app
 0.0.0.0 communication-register-check.vercel.app
 0.0.0.0 communicationcenrale-ba5b01.ingress-daribow.ewp.live
@@ -241385,7 +241383,6 @@
 0.0.0.0 fcicomposites.com
 0.0.0.0 fcihuisemxxdugfidndejdfetj-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 fcimqqz.cn
-0.0.0.0 fcitantibot.pro
 0.0.0.0 fcjqibpynahbocek-dot-millinium.ey.r.appspot.com
 0.0.0.0 fcjurado.com
 0.0.0.0 fcjyhr.bar
@@ -255320,6 +255317,7 @@
 0.0.0.0 gaemiinilogiz.godaddysites.com
 0.0.0.0 gaeminillogini.webflow.io
 0.0.0.0 gaeminlogii.godaddysites.com
+0.0.0.0 gaenterprises.in
 0.0.0.0 gaer.pages.dev
 0.0.0.0 gaf-company.clean.to
 0.0.0.0 gafaaola.duckdns.org
@@ -287496,7 +287494,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
