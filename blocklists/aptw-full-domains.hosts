@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-27 06:06:11
-# Entries: 527090
+# Generated: 2026-11-27 06:34:09
+# Entries: 527099
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -169190,6 +169190,7 @@
 0.0.0.0 cdn.exelator.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.file6.goodid.com
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstlook.com
 0.0.0.0 cdn.fivecdm.com
@@ -241383,6 +241384,7 @@
 0.0.0.0 fcicomposites.com
 0.0.0.0 fcihuisemxxdugfidndejdfetj-dot-gleowayel400503.uc.r.appspot.com
 0.0.0.0 fcimqqz.cn
+0.0.0.0 fcitantibot.pro
 0.0.0.0 fcjqibpynahbocek-dot-millinium.ey.r.appspot.com
 0.0.0.0 fcjurado.com
 0.0.0.0 fcjyhr.bar
@@ -256536,6 +256538,7 @@
 0.0.0.0 garnolabar.tk
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
+0.0.0.0 garogradba.mk
 0.0.0.0 garoo.ulitron.ru
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garpydook.ru
@@ -259345,6 +259348,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -287494,6 +287498,7 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
+0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -320750,6 +320755,7 @@
 0.0.0.0 kk8899.csb.app
 0.0.0.0 kkachi.co.kr
 0.0.0.0 kkakrkwkeen.azurewebsites.net
+0.0.0.0 kkam.download
 0.0.0.0 kkaofemi.com
 0.0.0.0 kkarskeanlog.azurewebsites.net
 0.0.0.0 kkbdsvhc69orni5.e8273.pro
@@ -467226,6 +467232,7 @@
 0.0.0.0 sghiatopic.store
 0.0.0.0 sgin12-dhl.mdbgo.io
 0.0.0.0 sgin9-alibaba.mdbgo.io
+0.0.0.0 sgivertise.xyz
 0.0.0.0 sgjzvxxu5g5kd3p.moolin.ru
 0.0.0.0 sgkb-service.secppmerchge.my
 0.0.0.0 sgluco.shop
@@ -474022,6 +474029,7 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
+0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -485951,7 +485959,6 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
-0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyn.com
@@ -494950,6 +494957,7 @@
 0.0.0.0 website-web.github.io
 0.0.0.0 website.alacritas.ru
 0.0.0.0 website.goloser.ru
+0.0.0.0 website.mypetapp.co.za
 0.0.0.0 websitecompany.org
 0.0.0.0 websiteconnecting.com
 0.0.0.0 websitedanaid.website-bantuan.top
@@ -506856,7 +506864,6 @@
 0.0.0.0 www.gerval.shop
 0.0.0.0 www.gervan.shop
 0.0.0.0 www.ges.wesrki2bil.info
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.gesuarivac.store
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
@@ -519806,6 +519813,7 @@
 0.0.0.0 www.trh8wgzbrq.casa
 0.0.0.0 www.triakincag.store
 0.0.0.0 www.tribalfusion.com
+0.0.0.0 www.tribot.co.uk
 0.0.0.0 www.tridentfortis.shop
 0.0.0.0 www.triduhyalo.store
 0.0.0.0 www.triendespe.store
@@ -522200,6 +522208,7 @@
 0.0.0.0 www.webrobi.pl
 0.0.0.0 www.webservis.gen.tr
 0.0.0.0 www.website-hit-counters.com
+0.0.0.0 www.website.mypetapp.co.za
 0.0.0.0 www.websitealive3.com
 0.0.0.0 www.websitecompany.org
 0.0.0.0 www.websitehome.co.uk
