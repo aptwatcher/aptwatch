@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-27 06:34:09
-# Entries: 527099
+# Generated: 2026-11-27 12:34:30
+# Entries: 527104
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -209001,7 +209001,6 @@
 0.0.0.0 disjungere.ru
 0.0.0.0 disk-4fb5.pre-ooauth.workers.dev
 0.0.0.0 disk-previewer.com
-0.0.0.0 disk.accord1key.cn
 0.0.0.0 disk.dedspac.ru
 0.0.0.0 disk.vwwv.workers.dev
 0.0.0.0 diskbae.com
@@ -223883,7 +223882,6 @@
 0.0.0.0 en.service-paypal.net
 0.0.0.0 en.smartappweb.org
 0.0.0.0 en.super-cleaning.be
-0.0.0.0 en.taichuan.com
 0.0.0.0 en.timerto.ru
 0.0.0.0 en.timoutupdate.in
 0.0.0.0 en.ucbi-groups.com
@@ -244640,6 +244638,7 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
+0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -248023,6 +248022,7 @@
 0.0.0.0 flowing-moments-440374.framer.app
 0.0.0.0 flowing-tour-751040.framer.app
 0.0.0.0 flowingya.digital
+0.0.0.0 flowlokset.com
 0.0.0.0 flowmotionze.vercel.app
 0.0.0.0 flown-visitor.000webhostapp.com
 0.0.0.0 flown.ulitron.ru
@@ -256538,7 +256538,6 @@
 0.0.0.0 garnolabar.tk
 0.0.0.0 garntinyanind.vercel.app
 0.0.0.0 garnttttt.com.tr
-0.0.0.0 garogradba.mk
 0.0.0.0 garoo.ulitron.ru
 0.0.0.0 gaross333.wixsite.com
 0.0.0.0 garpydook.ru
@@ -259348,7 +259347,6 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -285584,6 +285582,7 @@
 0.0.0.0 horritiesuses.ga
 0.0.0.0 horrorinternational.com
 0.0.0.0 horrormania.co.kr
+0.0.0.0 horrornightsmp.com
 0.0.0.0 hors.ulitron.ru
 0.0.0.0 horse-bevel-asiago.glitch.me
 0.0.0.0 horse-fun.com
@@ -287498,7 +287497,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -290045,7 +290043,6 @@
 0.0.0.0 i3lsefxny0-463720951.lucidasearch.com
 0.0.0.0 i3zi02596k.1052.gencmert.com
 0.0.0.0 i3zncomwhb.6321.kasgizlivadi.com
-0.0.0.0 i4-mi.cn
 0.0.0.0 i4.ictorganisers.com
 0.0.0.0 i4.vaishnaviinterior.com
 0.0.0.0 i40srz.egirisimuniversitesi.com
@@ -300697,7 +300694,6 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
-0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -307550,7 +307546,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -316473,6 +316468,7 @@
 0.0.0.0 k.tcp.push.mob.com
 0.0.0.0 k.technicalinstitute.tech
 0.0.0.0 k.vechemical.com
+0.0.0.0 k.vietnam852.com
 0.0.0.0 k.vizitori.com
 0.0.0.0 k.zucks.net
 0.0.0.0 k01.fun
@@ -340072,6 +340068,7 @@
 0.0.0.0 londamiachels.tk
 0.0.0.0 london-delight.ga
 0.0.0.0 london-healthcare.com
+0.0.0.0 londonairportstransfer.co.uk
 0.0.0.0 londoncamerahireservices.co.uk
 0.0.0.0 londondanceschool.com
 0.0.0.0 londonfreweb.website.cv
@@ -356161,6 +356158,7 @@
 0.0.0.0 mc-mc.hansjonassencopywriting.com
 0.0.0.0 mc.4fleux.blog
 0.0.0.0 mc.emtaservices.com
+0.0.0.0 mc.heyiwei.net
 0.0.0.0 mc.knowledgeart.org
 0.0.0.0 mc.speakol.com
 0.0.0.0 mc.webvisor.org
@@ -357392,6 +357390,7 @@
 0.0.0.0 meeeberita.blogspot.com
 0.0.0.0 meeeberita.blogspot.mx
 0.0.0.0 meeeghanteelo.diskstation.eu
+0.0.0.0 meeeinvite.info
 0.0.0.0 meeem.pagedemo.co
 0.0.0.0 meeethaamskeslug.godaddysites.com
 0.0.0.0 meeethamskessluginncess.godaddysites.com
@@ -450089,7 +450088,6 @@
 0.0.0.0 reshma-17.github.io
 0.0.0.0 reshmi557.github.io
 0.0.0.0 reshotelinaprovies-visitorconferma.com
-0.0.0.0 reshow35.com
 0.0.0.0 reshu22.github.io
 0.0.0.0 reside-etudes1.pilote-message.com
 0.0.0.0 residence-la-medina.com
@@ -458054,6 +458052,7 @@
 0.0.0.0 runescapekings.com
 0.0.0.0 runescapeliljesuss.20m.com
 0.0.0.0 runescapexp.com
+0.0.0.0 runewild.org
 0.0.0.0 runfly.flywheelsites.com
 0.0.0.0 rung.dedspac.ru
 0.0.0.0 runge.ulitron.ru
@@ -467707,6 +467706,7 @@
 0.0.0.0 shipgratis.eu
 0.0.0.0 shipment234.vercel.app
 0.0.0.0 shipment324.vercel.app
+0.0.0.0 shipminttracking.net
 0.0.0.0 shiporama.com
 0.0.0.0 shipping-arch-support-sura.vercel.app
 0.0.0.0 shipping-local-ads-manage-idd153248.vercel.app
@@ -474029,7 +474029,6 @@
 0.0.0.0 static.ifa.empflixlive.com
 0.0.0.0 static.ifa.slutloadlive.com
 0.0.0.0 static.ifa.yobtcams.com
-0.0.0.0 static.ilclock.com
 0.0.0.0 static.innovid.com
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.inviziads.com
@@ -477083,6 +477082,7 @@
 0.0.0.0 swiftdryblowdryers.org
 0.0.0.0 swiftedgefinvexor-system.com
 0.0.0.0 swiftfieldxc.vercel.app
+0.0.0.0 swiftfusion.tech
 0.0.0.0 swiftnodeaccessrefix.pages.dev
 0.0.0.0 swiftnoderessolves.pages.dev
 0.0.0.0 swiftonyx16.com
@@ -480893,6 +480893,7 @@
 0.0.0.0 threatdetect.org
 0.0.0.0 three-yummy-voyage.glitch.me
 0.0.0.0 three.dedspac.ru
+0.0.0.0 threedrows.net
 0.0.0.0 threerivers-ai.com
 0.0.0.0 threestarcrm.com
 0.0.0.0 thresungua.store
@@ -482171,6 +482172,7 @@
 0.0.0.0 tools.dedspac.ru
 0.0.0.0 tools.gikotena.net
 0.0.0.0 tools.hitbox.com
+0.0.0.0 tools.lumma.cy
 0.0.0.0 tools.naughtyamerica.com
 0.0.0.0 tools.pacinocash.com
 0.0.0.0 tools.ranker.com
@@ -485669,6 +485671,7 @@
 0.0.0.0 tuniaf.com
 0.0.0.0 tunic.virosat.ru
 0.0.0.0 tunk.ulitron.ru
+0.0.0.0 tunnel-release.cc
 0.0.0.0 tunnel.heato.ru
 0.0.0.0 tunny-violet-4mnz.squarespace.com
 0.0.0.0 tunny.dedspac.ru
@@ -506864,6 +506867,7 @@
 0.0.0.0 www.gerval.shop
 0.0.0.0 www.gervan.shop
 0.0.0.0 www.ges.wesrki2bil.info
+0.0.0.0 www.gestroom.it
 0.0.0.0 www.gesuarivac.store
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
@@ -525119,6 +525123,7 @@
 0.0.0.0 yeiclp.nativebreastfeedingwi.com
 0.0.0.0 yeicotjj.github.io
 0.0.0.0 yekhazdcxk.duckdns.org
+0.0.0.0 yekyahora.com
 0.0.0.0 yeld.ulitron.ru
 0.0.0.0 yell.ulitron.ru
 0.0.0.0 yellcom.122.2o7.net
