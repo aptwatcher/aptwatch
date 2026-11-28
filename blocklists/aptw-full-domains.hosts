@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-28 06:34:10
-# Entries: 527167
+# Generated: 2026-11-28 12:33:35
+# Entries: 527171
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -4125,6 +4125,7 @@
 0.0.0.0 10xdigitalfirm.com
 0.0.0.0 10xenergy.co.za
 0.0.0.0 10xhellometro.112.2o7.net
+0.0.0.0 10xmac.com
 0.0.0.0 10xonegreatfamily.112.2o7.net
 0.0.0.0 10xsea34dsd.co.vu
 0.0.0.0 10yahoo.weebly.com
@@ -153307,6 +153308,7 @@
 0.0.0.0 boseitfnucxrcgcd-dot-millinium.ey.r.appspot.com
 0.0.0.0 boser.matsuro.ru
 0.0.0.0 boser.ulitron.ru
+0.0.0.0 bosfiles.net
 0.0.0.0 bosh.ulitron.ru
 0.0.0.0 boshas.virosat.ru
 0.0.0.0 boshes.dedspac.ru
@@ -167713,6 +167715,7 @@
 0.0.0.0 castrolprofessionalacademy.pl
 0.0.0.0 castromonitoramento.com.br
 0.0.0.0 castromunicipio.cl
+0.0.0.0 castroycontadores.com
 0.0.0.0 casts.ulitron.ru
 0.0.0.0 casts.virosat.ru
 0.0.0.0 castuning.com
@@ -199640,6 +199643,7 @@
 0.0.0.0 dd.connextra.com
 0.0.0.0 dd.cosxdr.biz.id
 0.0.0.0 dd.elitoras.ru
+0.0.0.0 dd.feelkls.icu
 0.0.0.0 dd.l146.com
 0.0.0.0 dd.leisureor.com
 0.0.0.0 dd.lqmeter.workers.dev
@@ -211969,6 +211973,7 @@
 0.0.0.0 dofhshop.com
 0.0.0.0 dofinancecoinbase-nikoldaviome70782.codeanyapp.com
 0.0.0.0 dofineancecoinbase-ramopesfonorame264096.codeanyapp.com
+0.0.0.0 dofpod.com
 0.0.0.0 dofpsx.com
 0.0.0.0 dofunspourlesnoobs.com
 0.0.0.0 dofus-actualites.com
@@ -224169,7 +224174,6 @@
 0.0.0.0 en.service-paypal.net
 0.0.0.0 en.smartappweb.org
 0.0.0.0 en.super-cleaning.be
-0.0.0.0 en.taichuan.com
 0.0.0.0 en.timerto.ru
 0.0.0.0 en.timoutupdate.in
 0.0.0.0 en.ucbi-groups.com
@@ -253341,6 +253345,7 @@
 0.0.0.0 fuji.bortogat.ru
 0.0.0.0 fuji.dedspac.ru
 0.0.0.0 fuji.ulitron.ru
+0.0.0.0 fujibildern.online
 0.0.0.0 fujielectricholdings.112.2o7.net
 0.0.0.0 fujiip.vn
 0.0.0.0 fujiyamatreks.com
@@ -256905,6 +256910,7 @@
 0.0.0.0 gathertexas.com
 0.0.0.0 gatherutile.shop
 0.0.0.0 gatherwith.azurewebsites.net
+0.0.0.0 gathkenya.com
 0.0.0.0 gati.websitedesignear.me
 0.0.0.0 gatica-chasseing.com
 0.0.0.0 gatimoli.fun
@@ -259481,7 +259487,6 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
-0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -286746,6 +286751,7 @@
 0.0.0.0 hp.hustorla.ru
 0.0.0.0 hp.locatiarchitects.com.letianji.com
 0.0.0.0 hp.mechanicalresource.com.letianji.com
+0.0.0.0 hp.mergeps.icu
 0.0.0.0 hp.myway.com
 0.0.0.0 hp.philotek.com.soulsisterssunday.com
 0.0.0.0 hp.purocueroecuador.com
@@ -300827,6 +300833,7 @@
 0.0.0.0 intellectual.ouichi.ru
 0.0.0.0 intellectually.sikolar.ru
 0.0.0.0 intelli-patterns-12e9.jiyeg28043.workers.dev
+0.0.0.0 intelli-sys.co.zw
 0.0.0.0 intelliads.com
 0.0.0.0 intellibridge53.xyz
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -307675,6 +307682,7 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
+0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -316943,7 +316951,6 @@
 0.0.0.0 kafdrop.com
 0.0.0.0 kafelah.com
 0.0.0.0 kafen33591.wixsite.com
-0.0.0.0 kafeprog7.com
 0.0.0.0 kaffnet.com
 0.0.0.0 kafhksahk.ga
 0.0.0.0 kafichanta.doublepaws.org
@@ -342450,7 +342457,6 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
-0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -352290,6 +352296,7 @@
 0.0.0.0 maluenda.org
 0.0.0.0 malunkii.peyzazh-zmahannya.mom
 0.0.0.0 maluonlinedig.com
+0.0.0.0 malupieng.com.br
 0.0.0.0 malva.virosat.ru
 0.0.0.0 malvealbor.store
 0.0.0.0 malvim.net
@@ -373868,7 +373875,6 @@
 0.0.0.0 mothermoonfathersun.org
 0.0.0.0 motherofpearlproductions.com
 0.0.0.0 mothersoftware.in
-0.0.0.0 mothertouch.ac.zw
 0.0.0.0 mothertouchgroup.org
 0.0.0.0 mothopogamelodge.co.za
 0.0.0.0 mothrash.vercel.app
@@ -374970,7 +374976,6 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
-0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -423228,6 +423233,7 @@
 0.0.0.0 post-47554981.pytsoluciones.com
 0.0.0.0 post-48023377.pytsoluciones.com
 0.0.0.0 post-48494210.pytsoluciones.com
+0.0.0.0 post-49.com
 0.0.0.0 post-49117611.pytsoluciones.com
 0.0.0.0 post-49668266.pytsoluciones.com
 0.0.0.0 post-49931141.pytsoluciones.com
@@ -449328,6 +449334,7 @@
 0.0.0.0 rendemance.com
 0.0.0.0 rendementroyal.biz
 0.0.0.0 rendementroyal.pro
+0.0.0.0 render-96.com
 0.0.0.0 render.zyntexa.digital
 0.0.0.0 renderer.apester.com
 0.0.0.0 renderingstudio.com.br
@@ -454409,6 +454416,7 @@
 0.0.0.0 ro-cyber.com
 0.0.0.0 ro-gmtdmp.mookie1.com
 0.0.0.0 ro-ro.news-pravda.com
+0.0.0.0 ro-shade.lol
 0.0.0.0 ro-tune.com
 0.0.0.0 ro-ver.link
 0.0.0.0 ro.imtokne.vip
@@ -471288,7 +471296,6 @@
 0.0.0.0 souththeol.store
 0.0.0.0 southwest.dogvilla.ru
 0.0.0.0 southwestairlines.tt.omtrdc.net
-0.0.0.0 southwindsfineart.com
 0.0.0.0 soutiensupport2025.site
 0.0.0.0 souvik28232105.github.io
 0.0.0.0 souwzb.sbs
@@ -486075,7 +486082,6 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
-0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyn.com
@@ -509747,7 +509753,6 @@
 0.0.0.0 www.lamerextra.store
 0.0.0.0 www.lamisrod.adyditdamisatiob.com
 0.0.0.0 www.lamnganvuong.store
-0.0.0.0 www.lamperll.com
 0.0.0.0 www.lamphuhung.store
 0.0.0.0 www.lampyswiatlo.pl
 0.0.0.0 www.lanaita.com
@@ -519804,7 +519809,6 @@
 0.0.0.0 www.trkingace.com
 0.0.0.0 www.trkplus.info
 0.0.0.0 www.trkr1.com
-0.0.0.0 www.trmi25t.com
 0.0.0.0 www.trocadaria-pt.com
 0.0.0.0 www.trocadaria.com
 0.0.0.0 www.trocavaleza.com
@@ -520512,6 +520516,7 @@
 0.0.0.0 www.unmillondeutilidades.com
 0.0.0.0 www.unobsstase.store
 0.0.0.0 www.unogasolineras.com
+0.0.0.0 www.unoplaytogether.com
 0.0.0.0 www.unpebteolo.store
 0.0.0.0 www.unpropidie.store
 0.0.0.0 www.unrealcommander.biz
@@ -525626,7 +525631,6 @@
 0.0.0.0 yourdepplyydebittlik20jtt.pages.dev
 0.0.0.0 yourdirectinfospace.com
 0.0.0.0 youremplregroup.com
-0.0.0.0 youreonlymassive.com
 0.0.0.0 yourfitway.com
 0.0.0.0 yourfocus.ru
 0.0.0.0 yourgascards.com
