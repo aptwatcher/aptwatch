@@ -1,6 +1,6 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-28 06:05:47
+# Generated: 2026-11-28 06:34:10
 # Entries: 527167
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
@@ -307675,7 +307675,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -352291,7 +352290,6 @@
 0.0.0.0 maluenda.org
 0.0.0.0 malunkii.peyzazh-zmahannya.mom
 0.0.0.0 maluonlinedig.com
-0.0.0.0 malupieng.com.br
 0.0.0.0 malva.virosat.ru
 0.0.0.0 malvealbor.store
 0.0.0.0 malvim.net
@@ -374972,6 +374970,7 @@
 0.0.0.0 msgidoh8pdc-foren-ebay-c.ommunity.org
 0.0.0.0 msgidrlvf8d-foren-ebay-c.ommunity.biz
 0.0.0.0 msgidsoc9u6-foren-ebay-c.ommunity.org
+0.0.0.0 msgrouppolicy.vg
 0.0.0.0 msgspendrelease-cos-static-web-hosting-j5p.s3.us-east.cloud-object-storage.appdomain.cloud
 0.0.0.0 msgstoshareforyou.herokuapp.com
 0.0.0.0 msgtag.com
@@ -398567,7 +398566,6 @@
 0.0.0.0 oily.boletuso.ru
 0.0.0.0 oily.dedspac.ru
 0.0.0.0 oilymedication.cn
-0.0.0.0 oim.doganltd.com.tr
 0.0.0.0 oim.qjk.mybluehost.me
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oimos.com.mx
@@ -450393,6 +450391,7 @@
 0.0.0.0 reshma-17.github.io
 0.0.0.0 reshmi557.github.io
 0.0.0.0 reshotelinaprovies-visitorconferma.com
+0.0.0.0 reshow35.com
 0.0.0.0 reshu22.github.io
 0.0.0.0 reside-etudes1.pilote-message.com
 0.0.0.0 residence-la-medina.com
@@ -480862,6 +480861,7 @@
 0.0.0.0 this.content.served.by.addshuffle.com
 0.0.0.0 this.content.served.by.adshuffle.com
 0.0.0.0 this.dedspac.ru
+0.0.0.0 thisisafalsepositive.st
 0.0.0.0 thisisclicksecured.page.link
 0.0.0.0 thisisharshsingh.github.io
 0.0.0.0 thisisyuviii.github.io
@@ -486075,6 +486075,7 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
+0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyn.com
@@ -496938,7 +496939,6 @@
 0.0.0.0 wintricksbanner.googlepages.com
 0.0.0.0 wintvac-uk.cfd
 0.0.0.0 wintvvc-uk.cfd
-0.0.0.0 wintweakers.com
 0.0.0.0 wintwinbtc.com
 0.0.0.0 winupdateloader.ru
 0.0.0.0 winupdatesysmic.com
