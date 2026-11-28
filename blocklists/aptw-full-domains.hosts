@@ -1,7 +1,7 @@
 # Title: APT Watch — Full Domain Blocklist
 # Description: All threat domains — merged internal + external feeds
-# Generated: 2026-11-28 12:33:35
-# Entries: 527171
+# Generated: 2026-11-28 18:34:23
+# Entries: 527166
 # Homepage: https://aptwatch.org
 # Sources: APT Watch + StevenBlack (base) + URLhaus + Phishing.Database + CoinBlockerLists
 #
@@ -211973,7 +211973,6 @@
 0.0.0.0 dofhshop.com
 0.0.0.0 dofinancecoinbase-nikoldaviome70782.codeanyapp.com
 0.0.0.0 dofineancecoinbase-ramopesfonorame264096.codeanyapp.com
-0.0.0.0 dofpod.com
 0.0.0.0 dofpsx.com
 0.0.0.0 dofunspourlesnoobs.com
 0.0.0.0 dofus-actualites.com
@@ -212300,7 +212299,6 @@
 0.0.0.0 domainkey.lectec.com.au
 0.0.0.0 domainkey.mdcomp.com.au
 0.0.0.0 domainloading.net
-0.0.0.0 domainmob.com
 0.0.0.0 domainnames.guru
 0.0.0.0 domainon.factsconsulting.com
 0.0.0.0 domainpark.sitelutions.com
@@ -213146,6 +213144,7 @@
 0.0.0.0 download-bridge-info-trzr-use.pages.dev
 0.0.0.0 download-crop.vercel.app
 0.0.0.0 download-down.000.pe
+0.0.0.0 download-featherwallet.org
 0.0.0.0 download-file-speed-badboys-2024-usa.clashbadboyss.workers.dev
 0.0.0.0 download-files-wetransfer-7uyhj3we8u887278429uhjew889.pages.dev
 0.0.0.0 download-host.vercel.app
@@ -214277,6 +214276,7 @@
 0.0.0.0 driftpost.sbs
 0.0.0.0 driftspiregoodsllc.com
 0.0.0.0 driftsunplain.life
+0.0.0.0 driftvps.site
 0.0.0.0 driive.icu
 0.0.0.0 drill-ai.com
 0.0.0.0 drill.dedspac.ru
@@ -244933,7 +244933,6 @@
 0.0.0.0 file.sharedd-project-document.workers.dev
 0.0.0.0 file.srfreightbd.com
 0.0.0.0 file.timanar.ru
-0.0.0.0 file.uhsea.com
 0.0.0.0 file.ulitron.ru
 0.0.0.0 file.zeahezea.sa.com
 0.0.0.0 file.ziyu.net
@@ -247661,7 +247660,6 @@
 0.0.0.0 flexorio.top
 0.0.0.0 flexport.keslae.com
 0.0.0.0 flexprox.cc
-0.0.0.0 flexsportpools.com
 0.0.0.0 flexstoneontario.com
 0.0.0.0 flexstormora.com
 0.0.0.0 flexsubscibe.com
@@ -256910,7 +256908,6 @@
 0.0.0.0 gathertexas.com
 0.0.0.0 gatherutile.shop
 0.0.0.0 gatherwith.azurewebsites.net
-0.0.0.0 gathkenya.com
 0.0.0.0 gati.websitedesignear.me
 0.0.0.0 gatica-chasseing.com
 0.0.0.0 gatimoli.fun
@@ -259487,6 +259484,7 @@
 0.0.0.0 gestordepartes.com
 0.0.0.0 gestoriacampalans.com
 0.0.0.0 gestoriaenparaguay.com.py
+0.0.0.0 gestroom.it
 0.0.0.0 gests.virosat.ru
 0.0.0.0 gesuarivac.store
 0.0.0.0 gesundheit-zu-hause.com
@@ -287637,7 +287635,6 @@
 0.0.0.0 htcsupport.webhop.me
 0.0.0.0 htd.com.np
 0.0.0.0 htd5.vip
-0.0.0.0 htdentshop.com
 0.0.0.0 htdf-id.xyz
 0.0.0.0 htdjhdetjethbsdhrhgaehrehsge-h288.vercel.app
 0.0.0.0 htdocs-bn2.pages.dev
@@ -307682,7 +307679,6 @@
 0.0.0.0 jawaharchannel.in
 0.0.0.0 jawan.dedspac.ru
 0.0.0.0 jawan.ulitron.ru
-0.0.0.0 jawaratekno.com
 0.0.0.0 jawasunda.my.id
 0.0.0.0 jawatan-kosong-perkhidmatan.com
 0.0.0.0 jawatan-kosong-siti-nor-musthapa.cs-service.biz.id
@@ -331175,7 +331171,6 @@
 0.0.0.0 leirhhhropnetfilldm.mygamesonline.org
 0.0.0.0 leis.boletuso.ru
 0.0.0.0 leishan.pilot45.com
-0.0.0.0 leisureconnecting.com
 0.0.0.0 leisurelandtourism.com
 0.0.0.0 leisurepr.co.uk
 0.0.0.0 leitersadvogados.com.br
@@ -342457,6 +342452,7 @@
 0.0.0.0 lum4.com
 0.0.0.0 luma.dedspac.ru
 0.0.0.0 lumacpredi.store
+0.0.0.0 lumacrea.com
 0.0.0.0 lumakkitchenware.com
 0.0.0.0 lumanfountiose.com
 0.0.0.0 lumaqest.vercel.app
@@ -454844,7 +454840,6 @@
 0.0.0.0 roblotx.com
 0.0.0.0 roblox-3e6.pages.dev
 0.0.0.0 roblox-app.com
-0.0.0.0 roblox-executr.com
 0.0.0.0 roblox-gift.xyz
 0.0.0.0 roblox-help.com
 0.0.0.0 roblox-verification.com
@@ -470608,7 +470603,6 @@
 0.0.0.0 soft-side-946015.framer.app
 0.0.0.0 soft-storage.com
 0.0.0.0 soft-toddler.shop
-0.0.0.0 soft.110route.com
 0.0.0.0 soft.dedspac.ru
 0.0.0.0 soft.softchecker.org
 0.0.0.0 soft.timanar.ru
@@ -471296,6 +471290,7 @@
 0.0.0.0 souththeol.store
 0.0.0.0 southwest.dogvilla.ru
 0.0.0.0 southwestairlines.tt.omtrdc.net
+0.0.0.0 southwindsfineart.com
 0.0.0.0 soutiensupport2025.site
 0.0.0.0 souvik28232105.github.io
 0.0.0.0 souwzb.sbs
@@ -474187,7 +474182,6 @@
 0.0.0.0 static.yieldmo.com
 0.0.0.0 static.yomedia.vn
 0.0.0.0 static.youappi.com
-0.0.0.0 static.youdm.cn
 0.0.0.0 static.youmi.net
 0.0.0.0 static.younetmedia.com
 0.0.0.0 static.zanox.com
@@ -478153,6 +478147,7 @@
 0.0.0.0 taiwan.news-pravda.com
 0.0.0.0 taiyangchengwangshangkaihuqunaliya.verifytoken.com
 0.0.0.0 taizfbuhgowpawhafyuq23nb2v9kq0rmg.oast.fun
+0.0.0.0 taizi.fdstat.vip
 0.0.0.0 taj.dedspac.ru
 0.0.0.0 tajikistan.noyaidetipio.qpon
 0.0.0.0 tajnder.pl
@@ -486082,6 +486077,7 @@
 0.0.0.0 twrbx.xyz
 0.0.0.0 twskype.com
 0.0.0.0 twttr.com
+0.0.0.0 twu-hwt.org
 0.0.0.0 twx.ulitron.ru
 0.0.0.0 twxhwpuzyc.myfunnelish.com
 0.0.0.0 twyn.com
@@ -507054,7 +507050,6 @@
 0.0.0.0 www.gervan.shop
 0.0.0.0 www.ges.wesrki2bil.info
 0.0.0.0 www.gesedol.top
-0.0.0.0 www.gestroom.it
 0.0.0.0 www.gesuarivac.store
 0.0.0.0 www.get-avast.com
 0.0.0.0 www.get-derila.com
